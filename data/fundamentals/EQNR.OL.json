@@ -1,6 +1,6 @@
 {
  "ticker": "EQNR.OL",
- "fetched_at": "2026-10-10T11:56:21+00:00",
+ "fetched_at": "2026-10-10T14:24:49+00:00",
  "region": "Europa",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "OSL",
   "fullTimeEmployees": 23545,
   "website": "https://www.equinor.com",
-  "longBusinessSummary": "Equinor ASA operates as an energy company in Norway and internationally. It operates through Exploration & Production Norway; Exploration & Production International; Exploration & Production USA; Marketing, Midstream & Processing; and Renewables segments. The company engages in the discovery and appraisal of new resources, as well as commercial development and operation of the oil and gas portfolios; oil and gas field development, well deliveries, and sourcing; research, technology development, specialist advisory services, digitalization, IT, improvement, innovation, and ventures and future business; and developing, exploring, investing in, and operating areas within renewable energy, such as offshore wind, green hydrogen, storage solutions, and solar power. It is also involved in the marketing, trading, processing, and transportation of crude oil and condensate, natural gas, NGL and refined products, including refineries, terminals, and processing plant operation; power and emissions trading; development of transportation solutions for natural gas, liquids, and crude oil, including pipelines, shipping, trucking, and rail; and provision of low carbon solutions. The company was formerly known as Statoil ASA and changed its name to Equinor ASA in May 2018. Equinor ASA was incorporated in 1972 and is headquartered in Stavanger, Norway."
+  "longBusinessSummary": "Equinor ASA operates as an energy company in Norway and internationally. It operates through Exploration & Production Norway; Exploration & Production International; Exploration & Production USA; Marketing, Midstream & Processing; and Renewables segments. The company engages in the discovery and appraisal of new resources, as well as commercial development and operation of the oil and gas portfolios; oil and gas field development, well deliveries, and sourcing; research, technology development, specialist advisory services, digitalization, IT, improvement, innovation, and ventures and future business; and developing, exploring, investing in, and operating areas within renewable energy, such as offshore wind, green hydrogen, storage solutions, and solar power. It is also involved in the marketing, trading, processing, and transportation of crude oil and condensate, natural gas, NGL and refined products, including refineries, terminals, and processing plant operation; power and emissions trading; development of transportation solutions for natural gas, liquids, and crude oil, including pipelines, shipping, trucking, and rail; and provision of low carbon solutions. The company was formerly known as Statoil ASA and changed its name to Equinor ASA in May 2018. Equinor ASA was incorporated in 1972 and is headquartered in Stavanger, Norway.",
+  "targetMeanPrice": 382.91296,
+  "targetLowPrice": 259.37448,
+  "targetHighPrice": 478.83566,
+  "numberOfAnalystOpinions": 25,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.24,
+  "forwardPE": 9.759562,
+  "forwardEps": 42.819542,
+  "trailingEps": 36.04,
+  "earningsGrowth": 2.98,
+  "revenueGrowth": 0.374
  },
  "governance": {
   "ceo": {
@@ -81,8 +92,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF NO",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 131141000000.0,
+    "official": 131141000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 42342000000.0,
+    "official": 42342000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 8806000000.0,
+    "official": 8806000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 102502000000.0,
+    "official": 103774000000.0,
+    "diff": 0.012257
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T14:24:49+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -117,7 +160,10 @@
    "goodwill_and_intangibles": 3559000000.0,
    "retained_earnings": 58236000000.0,
    "total_debt": 32167000000.0,
-   "shares_out": 3121942270.0
+   "shares_out": 3121942270.0,
+   "unusual_items": 42000000.0,
+   "normalized_ebitda": 86224000000.0,
+   "normalized_income": 28713240000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -152,7 +198,10 @@
    "goodwill_and_intangibles": 4539000000.0,
    "retained_earnings": 56521000000.0,
    "total_debt": 31795000000.0,
-   "shares_out": 2944733144.0
+   "shares_out": 2944733144.0,
+   "unusual_items": 1544000000.0,
+   "normalized_ebitda": 48043000000.0,
+   "normalized_income": 10680680000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -187,7 +236,10 @@
    "goodwill_and_intangibles": 4507000000.0,
    "retained_earnings": 52407000000.0,
    "total_debt": 30095000000.0,
-   "shares_out": 2727526828.0
+   "shares_out": 2727526828.0,
+   "unusual_items": -161000000.0,
+   "normalized_ebitda": 42110000000.0,
+   "normalized_income": 8931580000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -222,7 +274,10 @@
    "goodwill_and_intangibles": 4444000000.0,
    "retained_earnings": 48028000000.0,
    "total_debt": 31220000000.0,
-   "shares_out": 2500271030.0
+   "shares_out": 2500271030.0,
+   "unusual_items": 137000000.0,
+   "normalized_ebitda": 38256000000.0,
+   "normalized_income": 4936140000.0
   }
  ]
 }

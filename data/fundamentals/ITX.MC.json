@@ -1,6 +1,6 @@
 {
  "ticker": "ITX.MC",
- "fetched_at": "2026-10-10T12:04:18+00:00",
+ "fetched_at": "2026-10-10T14:24:59+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "MCE",
   "fullTimeEmployees": 156836,
   "website": "https://www.inditex.com",
-  "longBusinessSummary": "Industria de Diseño Textil, S.A., together with its subsidiaries, engages in the retail and online distribution of clothing, footwear, accessories, and household products in Spain, rest of Europe, the Americas, Asia, and internationally. The company sells its products under the Zara, Pull&Bear, Massimo Dutti, Bershka, Stradivarius, Oysho, Lefties, and Zara Home. It is also involved in the textile manufacturing, logistics, design, insurance, construction, buyer activities, and real estate businesses, as well as provides financial services. Industria de Diseño Textil, S.A. was founded in 1963 and is headquartered in Corunna, Spain."
+  "longBusinessSummary": "Industria de Diseño Textil, S.A., together with its subsidiaries, engages in the retail and online distribution of clothing, footwear, accessories, and household products in Spain, rest of Europe, the Americas, Asia, and internationally. The company sells its products under the Zara, Pull&Bear, Massimo Dutti, Bershka, Stradivarius, Oysho, Lefties, and Zara Home. It is also involved in the textile manufacturing, logistics, design, insurance, construction, buyer activities, and real estate businesses, as well as provides financial services. Industria de Diseño Textil, S.A. was founded in 1963 and is headquartered in Corunna, Spain.",
+  "targetMeanPrice": 60.38958,
+  "targetLowPrice": 41.5,
+  "targetHighPrice": 67.0,
+  "numberOfAnalystOpinions": 24,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.70833,
+  "forwardPE": 22.77263,
+  "forwardEps": 2.36512,
+  "trailingEps": 2.06,
+  "earningsGrowth": 0.08,
+  "revenueGrowth": 0.091
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF ES",
+  "fy_end": "2025-01-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 34714000000.0,
+    "official": 34714000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 19676000000.0,
+    "official": 19676000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 5866000000.0,
+    "official": 5866000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 38632000000.0,
+    "official": 38632000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-01-31"
+ },
+ "info_at": "2026-10-10T14:25:00+00:00",
  "years": [
   {
    "fy_end": "2023-01-31",
@@ -121,7 +164,10 @@
    "goodwill_and_intangibles": 1003000000.0,
    "retained_earnings": 16460000000.0,
    "total_debt": 5596000000.0,
-   "shares_out": 3111719486.0
+   "shares_out": 3111719486.0,
+   "unusual_items": -376000000.0,
+   "normalized_ebitda": 8654000000.0,
+   "normalized_income": 4421017543.859649
   },
   {
    "fy_end": "2024-01-31",
@@ -156,7 +202,10 @@
    "goodwill_and_intangibles": 1420000000.0,
    "retained_earnings": 17991000000.0,
    "total_debt": 5739000000.0,
-   "shares_out": 3113069581.0
+   "shares_out": 3113069581.0,
+   "unusual_items": -105000000.0,
+   "normalized_ebitda": 10143000000.0,
+   "normalized_income": 5463456331.877729
   },
   {
    "fy_end": "2025-01-31",
@@ -191,7 +240,10 @@
    "goodwill_and_intangibles": 1607000000.0,
    "retained_earnings": 18994000000.0,
    "total_debt": 5909000000.0,
-   "shares_out": 3114746154.0
+   "shares_out": 3114746154.0,
+   "unusual_items": -119000000.0,
+   "normalized_ebitda": 11065000000.0,
+   "normalized_income": 5958300778.672298
   },
   {
    "fy_end": "2026-01-31",
@@ -226,7 +278,10 @@
    "goodwill_and_intangibles": 1840000000.0,
    "retained_earnings": 19825000000.0,
    "total_debt": 6095000000.0,
-   "shares_out": 3116366768.0
+   "shares_out": 3116366768.0,
+   "unusual_items": -67000000.0,
+   "normalized_ebitda": 11612000000.0,
+   "normalized_income": 6271962593.516209
   }
  ]
 }
