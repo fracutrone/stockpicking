@@ -11,6 +11,15 @@ Ogni giorno lavorativo scarica dati gratuiti, calcola un punteggio su 100 e pubb
 4. **Red flag**: un titolo con anche una sola red flag esce dalla classifica (resta visibile tra gli esclusi).
 5. **Punteggio** (100 punti): Nucleo 30 · Valutazione 20 · Moat 20 · Macro/TAM 15 · Protezione 10 · Tecnica 5. Ogni indicatore è il percentile del titolo rispetto ai comparabili (industria se ha almeno 8 titoli, altrimenti settore). Moat e Macro sono solo statistici (5 anni, mediane dell'universo).
 
+6. **Utili rettificati**: P/E, margini, ROE ed EV/EBITDA usano utile ed EBITDA al netto delle voci straordinarie (svalutazioni, plusvalenze una tantum).
+7. **Controprova dei dati**: i bilanci di Yahoo sono confrontati con la fonte ufficiale (SEC per gli USA; bilanci digitali ESEF da filings.xbrl.org, con codice LEI da GLEIF, per l'Europa). Se attivo, patrimonio o utile divergono oltre la tolleranza il titolo esce dalla classifica come "dati da verificare"; se i ricavi coincidono e il resto no, è segnalato come "principi contabili diversi".
+8. **Value trap**: avviso per i titoli economici con ricavi o utili in calo in un settore che il mercato sta penalizzando (rendimento 12 mesi del settore sotto la mediana). Esclusi dal portafoglio modello.
+9. **Segnali di uscita**: red flag, uscita dalle prime 100, calo del punteggio di 15 punti, sconto sui multipli esaurito.
+10. **Portafoglio modello**: 20 titoli dalla classifica divisi in Conviction (50%), Protective (30%), Cyclical (20%), massimo 3 per settore e 40% per paese. `my_portfolio` in `config.yaml` monitora i tuoi titoli con gli stessi segnali.
+11. **Storico del modello**: ogni mese salva la classifica e misura il rendimento di top 30 e portafoglio modello contro l'universo e l'MSCI World.
+
+Le stime degli analisti (prezzo obiettivo, giudizio, P/E atteso) sono mostrate nella scheda solo come informazione e non entrano nel punteggio.
+
 Pesi, soglie e parametri sono tutti in **`config.yaml`**.
 
 ## Esecuzione
