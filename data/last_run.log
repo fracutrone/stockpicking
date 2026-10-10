@@ -1,128 +1,176 @@
-2026-10-10 11:11:47,519 INFO stockpicking: Indice S&P 500    -> 503 titoli
-2026-10-10 11:11:47,753 INFO stockpicking: Indice S&P 400    -> 400 titoli
-2026-10-10 11:11:47,934 INFO stockpicking: Indice FTSE MIB   -> 40 titoli
-2026-10-10 11:11:48,068 INFO stockpicking: Indice DAX        -> 40 titoli
-2026-10-10 11:11:48,176 INFO stockpicking: Indice MDAX       -> 50 titoli
-2026-10-10 11:11:48,532 INFO stockpicking: Indice CAC 40     -> 40 titoli
-2026-10-10 11:11:48,634 WARNING stockpicking: Pagina SBF_120: nessuna tabella con ticker (12 tabelle, colonne: [['0', '1'], ['vteMajor France stock market indices', 'vteMajor France stock market indices.1'], ['vteStock market indices', 'vteStock market indices.1'], ['0', '1']])
-2026-10-10 11:11:48,635 INFO stockpicking: Indice SBF 120    -> 0 titoli
-2026-10-10 11:11:48,752 INFO stockpicking: Indice AEX        -> 25 titoli
-2026-10-10 11:11:48,869 INFO stockpicking: Indice IBEX 35    -> 35 titoli
-2026-10-10 11:11:48,990 INFO stockpicking: Indice SMI        -> 20 titoli
-2026-10-10 11:11:49,153 INFO stockpicking: Indice FTSE 100   -> 100 titoli
-2026-10-10 11:11:49,277 INFO stockpicking: Indice FTSE 250   -> 250 titoli
-2026-10-10 11:11:49,388 INFO stockpicking: Indice OMXS30     -> 30 titoli
-2026-10-10 11:11:49,712 INFO stockpicking: Indice OMXC25     -> 25 titoli
-2026-10-10 11:11:49,823 INFO stockpicking: Indice OMXH25     -> 25 titoli
-2026-10-10 11:11:49,934 INFO stockpicking: Indice OBX        -> 25 titoli
-2026-10-10 11:11:50,304 INFO stockpicking: Indice BEL 20     -> 20 titoli
-2026-10-10 11:11:50,557 INFO stockpicking: Indice PSI        -> 18 titoli
-2026-10-10 11:11:50,834 WARNING stockpicking: Pagina Austrian_Traded_Index: nessuna tabella con ticker (15 tabelle, colonne: [['Year', 'Closing level', 'Change in index in points', 'Change in index in\xa0%'], ['Company', 'Industry', 'Sector'], ['vte ATX companies of Austria', 'vte ATX companies of Austria.1'], ['vteMajor European stock market indices', 'vteMajor European stock market indices.1']])
-2026-10-10 11:11:50,835 INFO stockpicking: Indice ATX        -> 0 titoli
-2026-10-10 11:11:51,023 INFO stockpicking: Indice ISEQ 20    -> 20 titoli
-2026-10-10 11:11:51,030 INFO stockpicking: Universo: 1663 titoli ({'USA': 903, 'Europa': 760})
-2026-10-10 11:11:51,032 INFO stockpicking: Fatto: universe
-2026-10-10 11:11:52,091 INFO stockpicking: Bilanci da aggiornare: 40 (limite 40)
-2026-10-10 11:11:55,964 WARNING stockpicking: Elenco CIK SEC non disponibile: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json
-2026-10-10 11:11:59,948 WARNING stockpicking: Elenco CIK SEC non disponibile: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json
-2026-10-10 11:12:02,805 WARNING stockpicking: Elenco CIK SEC non disponibile: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json
-2026-10-10 11:12:05,559 WARNING stockpicking: Elenco CIK SEC non disponibile: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json
-2026-10-10 11:12:07,011 WARNING stockpicking: Elenco CIK SEC non disponibile: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json
-2026-10-10 11:12:12,802 WARNING stockpicking: Elenco CIK SEC non disponibile: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json
-2026-10-10 11:12:19,674 WARNING stockpicking: Elenco CIK SEC non disponibile: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json
-2026-10-10 11:12:21,062 WARNING stockpicking: Elenco CIK SEC non disponibile: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json
-2026-10-10 11:12:25,290 WARNING stockpicking: Elenco CIK SEC non disponibile: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json
-2026-10-10 11:12:26,857 WARNING stockpicking: Elenco CIK SEC non disponibile: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json
-2026-10-10 11:12:26,936 INFO stockpicking: Bilanci: 25/40
-2026-10-10 11:12:29,951 WARNING stockpicking: Elenco CIK SEC non disponibile: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json
-2026-10-10 11:12:31,220 WARNING stockpicking: Elenco CIK SEC non disponibile: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json
-2026-10-10 11:12:36,904 WARNING stockpicking: Elenco CIK SEC non disponibile: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json
-2026-10-10 11:12:38,488 WARNING stockpicking: Elenco CIK SEC non disponibile: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json
-2026-10-10 11:12:41,430 WARNING stockpicking: Elenco CIK SEC non disponibile: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json
-2026-10-10 11:12:42,771 WARNING stockpicking: Elenco CIK SEC non disponibile: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json
-2026-10-10 11:12:45,663 WARNING stockpicking: Elenco CIK SEC non disponibile: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json
-2026-10-10 11:12:48,701 WARNING stockpicking: Elenco CIK SEC non disponibile: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json
-2026-10-10 11:12:49,364 INFO stockpicking: Bilanci aggiornati: 40
-2026-10-10 11:12:49,364 INFO stockpicking: Fatto: fundamentals
-2026-10-10 11:12:56,475 INFO stockpicking: Prezzi 1d: 100/1663
-2026-10-10 11:13:06,147 INFO stockpicking: Prezzi 1d: 200/1663
-2026-10-10 11:13:16,384 INFO stockpicking: Prezzi 1d: 300/1663
-2026-10-10 11:13:27,664 INFO stockpicking: Prezzi 1d: 400/1663
-2026-10-10 11:13:36,975 INFO stockpicking: Prezzi 1d: 500/1663
-2026-10-10 11:13:46,182 INFO stockpicking: Prezzi 1d: 600/1663
-2026-10-10 11:13:55,488 INFO stockpicking: Prezzi 1d: 700/1663
-2026-10-10 11:14:04,688 INFO stockpicking: Prezzi 1d: 800/1663
-2026-10-10 11:14:13,820 INFO stockpicking: Prezzi 1d: 900/1663
-2026-10-10 11:14:16,375 ERROR yfinance: HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: AIR-PA.DE"}}}
-2026-10-10 11:14:16,772 ERROR yfinance: $AIR-PA.DE: No data found, symbol may be delisted
-2026-10-10 11:14:20,988 ERROR yfinance: $ECV.DE: No data found, symbol may be delisted
-2026-10-10 11:14:24,657 ERROR yfinance: 
+2026-10-10 11:43:47,847 INFO stockpicking: Indice S&P 500    -> 503 titoli
+2026-10-10 11:43:48,018 INFO stockpicking: Indice S&P 400    -> 400 titoli
+2026-10-10 11:43:48,070 INFO stockpicking: Indice FTSE MIB   -> 40 titoli
+2026-10-10 11:43:48,140 INFO stockpicking: Indice DAX        -> 40 titoli
+2026-10-10 11:43:48,344 INFO stockpicking: Indice MDAX       -> 50 titoli
+2026-10-10 11:43:48,407 INFO stockpicking: Indice CAC 40     -> 40 titoli
+2026-10-10 11:43:48,471 INFO stockpicking: Indice AEX        -> 25 titoli
+2026-10-10 11:43:48,532 INFO stockpicking: Indice IBEX 35    -> 35 titoli
+2026-10-10 11:43:48,597 INFO stockpicking: Indice SMI        -> 20 titoli
+2026-10-10 11:43:48,690 INFO stockpicking: Indice FTSE 100   -> 100 titoli
+2026-10-10 11:43:48,759 INFO stockpicking: Indice FTSE 250   -> 250 titoli
+2026-10-10 11:43:48,818 INFO stockpicking: Indice OMXS30     -> 30 titoli
+2026-10-10 11:43:48,878 INFO stockpicking: Indice OMXC25     -> 25 titoli
+2026-10-10 11:43:48,936 INFO stockpicking: Indice OMXH25     -> 25 titoli
+2026-10-10 11:43:48,990 INFO stockpicking: Indice OBX        -> 25 titoli
+2026-10-10 11:43:49,053 INFO stockpicking: Indice BEL 20     -> 20 titoli
+2026-10-10 11:43:49,109 INFO stockpicking: Indice PSI        -> 18 titoli
+2026-10-10 11:43:49,311 INFO stockpicking: Indice ISEQ 20    -> 20 titoli
+2026-10-10 11:43:49,322 INFO stockpicking: Universo: 1663 titoli ({'USA': 903, 'Europa': 760})
+2026-10-10 11:43:49,324 INFO stockpicking: Fatto: universe
+2026-10-10 11:43:50,751 INFO stockpicking: Bilanci da aggiornare: 1663 (limite 2000)
+2026-10-10 11:44:20,034 ERROR yfinance: HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: AIR-PA.DE"}}}
+2026-10-10 11:44:26,138 INFO stockpicking: Bilanci: 25/1663
+2026-10-10 11:45:04,135 INFO stockpicking: Bilanci: 50/1663
+2026-10-10 11:45:40,773 INFO stockpicking: Bilanci: 75/1663
+2026-10-10 11:46:19,213 INFO stockpicking: Bilanci: 100/1663
+2026-10-10 11:46:57,500 INFO stockpicking: Bilanci: 125/1663
+2026-10-10 11:47:33,743 INFO stockpicking: Bilanci: 150/1663
+2026-10-10 11:48:12,604 INFO stockpicking: Bilanci: 175/1663
+2026-10-10 11:48:48,184 INFO stockpicking: Bilanci: 200/1663
+2026-10-10 11:49:23,384 INFO stockpicking: Bilanci: 225/1663
+2026-10-10 11:50:00,515 INFO stockpicking: Bilanci: 250/1663
+2026-10-10 11:51:15,783 INFO stockpicking: Bilanci: 275/1663
+2026-10-10 11:51:56,433 INFO stockpicking: Bilanci: 300/1663
+2026-10-10 11:52:34,684 INFO stockpicking: Bilanci: 325/1663
+2026-10-10 11:53:16,086 INFO stockpicking: Bilanci: 350/1663
+2026-10-10 11:53:56,840 INFO stockpicking: Bilanci: 375/1663
+2026-10-10 11:54:34,360 INFO stockpicking: Bilanci: 400/1663
+2026-10-10 11:55:14,003 INFO stockpicking: Bilanci: 425/1663
+2026-10-10 11:55:50,187 INFO stockpicking: Bilanci: 450/1663
+2026-10-10 11:56:26,119 INFO stockpicking: Bilanci: 475/1663
+2026-10-10 11:57:05,920 INFO stockpicking: Bilanci: 500/1663
+2026-10-10 11:57:46,769 INFO stockpicking: Bilanci: 525/1663
+2026-10-10 11:58:29,785 INFO stockpicking: Bilanci: 550/1663
+2026-10-10 11:59:09,625 INFO stockpicking: Bilanci: 575/1663
+2026-10-10 11:59:48,764 INFO stockpicking: Bilanci: 600/1663
+2026-10-10 12:00:27,903 ERROR yfinance: HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: GOGL.OL"}}}
+2026-10-10 12:00:31,148 INFO stockpicking: Bilanci: 625/1663
+2026-10-10 12:01:09,344 INFO stockpicking: Bilanci: 650/1663
+2026-10-10 12:01:44,511 INFO stockpicking: Bilanci: 675/1663
+2026-10-10 12:02:22,717 INFO stockpicking: Bilanci: 700/1663
+2026-10-10 12:02:58,830 INFO stockpicking: Bilanci: 725/1663
+2026-10-10 12:03:33,815 INFO stockpicking: Bilanci: 750/1663
+2026-10-10 12:04:10,533 INFO stockpicking: Bilanci: 775/1663
+2026-10-10 12:04:48,864 INFO stockpicking: Bilanci: 800/1663
+2026-10-10 12:05:27,490 INFO stockpicking: Bilanci: 825/1663
+2026-10-10 12:05:56,066 ERROR yfinance: HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: KOJAMO.HE"}}}
+2026-10-10 12:06:08,465 INFO stockpicking: Bilanci: 850/1663
+2026-10-10 12:06:52,704 INFO stockpicking: Bilanci: 875/1663
+2026-10-10 12:07:33,643 INFO stockpicking: Bilanci: 900/1663
+2026-10-10 12:08:21,909 INFO stockpicking: Bilanci: 925/1663
+2026-10-10 12:09:05,271 INFO stockpicking: Bilanci: 950/1663
+2026-10-10 12:09:44,945 INFO stockpicking: Bilanci: 975/1663
+2026-10-10 12:09:47,395 ERROR yfinance: HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: MT-AS.PA"}}}
+2026-10-10 12:10:24,860 INFO stockpicking: Bilanci: 1000/1663
+2026-10-10 12:10:37,490 ERROR yfinance: HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: NDA.CO"}}}
+2026-10-10 12:11:03,195 INFO stockpicking: Bilanci: 1025/1663
+2026-10-10 12:11:49,761 INFO stockpicking: Bilanci: 1050/1663
+2026-10-10 12:12:31,784 INFO stockpicking: Bilanci: 1075/1663
+2026-10-10 12:13:11,799 INFO stockpicking: Bilanci: 1100/1663
+2026-10-10 12:14:01,333 INFO stockpicking: Bilanci: 1125/1663
+2026-10-10 12:14:39,608 INFO stockpicking: Bilanci: 1150/1663
+2026-10-10 12:15:17,025 INFO stockpicking: Bilanci: 1175/1663
+2026-10-10 12:15:53,424 INFO stockpicking: Bilanci: 1200/1663
+2026-10-10 12:16:32,534 INFO stockpicking: Bilanci: 1225/1663
+2026-10-10 12:17:36,371 INFO stockpicking: Bilanci: 1250/1663
+2026-10-10 12:18:13,517 INFO stockpicking: Bilanci: 1275/1663
+2026-10-10 12:18:50,518 INFO stockpicking: Bilanci: 1300/1663
+2026-10-10 12:19:27,682 INFO stockpicking: Bilanci: 1325/1663
+2026-10-10 12:20:06,225 INFO stockpicking: Bilanci: 1350/1663
+2026-10-10 12:20:43,607 INFO stockpicking: Bilanci: 1375/1663
+2026-10-10 12:21:22,632 INFO stockpicking: Bilanci: 1400/1663
+2026-10-10 12:22:04,989 INFO stockpicking: Bilanci: 1425/1663
+2026-10-10 12:22:45,103 INFO stockpicking: Bilanci: 1450/1663
+2026-10-10 12:23:23,828 INFO stockpicking: Bilanci: 1475/1663
+2026-10-10 12:24:06,749 INFO stockpicking: Bilanci: 1500/1663
+2026-10-10 12:24:48,516 INFO stockpicking: Bilanci: 1525/1663
+2026-10-10 12:25:33,610 INFO stockpicking: Bilanci: 1550/1663
+2026-10-10 12:26:15,835 INFO stockpicking: Bilanci: 1575/1663
+2026-10-10 12:27:01,119 INFO stockpicking: Bilanci: 1600/1663
+2026-10-10 12:27:39,805 INFO stockpicking: Bilanci: 1625/1663
+2026-10-10 12:28:20,048 INFO stockpicking: Bilanci: 1650/1663
+2026-10-10 12:28:46,568 INFO stockpicking: Bilanci aggiornati: 1663
+2026-10-10 12:28:46,569 INFO stockpicking: Fatto: fundamentals
+2026-10-10 12:28:52,464 INFO stockpicking: Prezzi 1d: 100/1663
+2026-10-10 12:28:59,911 INFO stockpicking: Prezzi 1d: 200/1663
+2026-10-10 12:29:07,039 INFO stockpicking: Prezzi 1d: 300/1663
+2026-10-10 12:29:14,315 INFO stockpicking: Prezzi 1d: 400/1663
+2026-10-10 12:29:21,773 INFO stockpicking: Prezzi 1d: 500/1663
+2026-10-10 12:29:28,521 INFO stockpicking: Prezzi 1d: 600/1663
+2026-10-10 12:29:35,758 INFO stockpicking: Prezzi 1d: 700/1663
+2026-10-10 12:29:42,682 INFO stockpicking: Prezzi 1d: 800/1663
+2026-10-10 12:29:50,230 INFO stockpicking: Prezzi 1d: 900/1663
+2026-10-10 12:29:56,869 ERROR yfinance: HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: AIR-PA.DE"}}}
+2026-10-10 12:29:57,138 ERROR yfinance: $AIR-PA.DE: No data found, symbol may be delisted
+2026-10-10 12:29:59,617 ERROR yfinance: $ECV.DE: No data found, symbol may be delisted
+2026-10-10 12:29:59,622 ERROR yfinance: 
 2 Failed downloads:
-2026-10-10 11:14:24,657 ERROR yfinance: ['AIR-PA.DE', 'ECV.DE']: No data found, symbol may be delisted
-2026-10-10 11:14:24,713 INFO stockpicking: Prezzi 1d: 1000/1663
-2026-10-10 11:14:29,707 ERROR yfinance: $MT-AS.PA: No data found, symbol may be delisted
-2026-10-10 11:14:35,136 ERROR yfinance: 
+2026-10-10 12:29:59,623 ERROR yfinance: ['AIR-PA.DE', 'ECV.DE']: No data found, symbol may be delisted
+2026-10-10 12:29:59,714 INFO stockpicking: Prezzi 1d: 1000/1663
+2026-10-10 12:30:05,743 ERROR yfinance: $MT-AS.PA: No data found, symbol may be delisted
+2026-10-10 12:30:07,097 ERROR yfinance: 
 1 Failed download:
-2026-10-10 11:14:35,136 ERROR yfinance: ['MT-AS.PA']: No data found, symbol may be delisted
-2026-10-10 11:14:35,186 INFO stockpicking: Prezzi 1d: 1100/1663
-2026-10-10 11:14:45,585 INFO stockpicking: Prezzi 1d: 1200/1663
-2026-10-10 11:14:55,374 INFO stockpicking: Prezzi 1d: 1300/1663
-2026-10-10 11:15:06,118 INFO stockpicking: Prezzi 1d: 1400/1663
-2026-10-10 11:15:15,964 INFO stockpicking: Prezzi 1d: 1500/1663
-2026-10-10 11:15:20,018 ERROR yfinance: $NDA.CO: No data found, symbol may be delisted
-2026-10-10 11:15:20,522 ERROR yfinance: $KOJAMO.HE: No data found, symbol may be delisted
-2026-10-10 11:15:26,755 ERROR yfinance: $GOGL.OL: No data found, symbol may be delisted
-2026-10-10 11:15:27,112 ERROR yfinance: 
+2026-10-10 12:30:07,097 ERROR yfinance: ['MT-AS.PA']: No data found, symbol may be delisted
+2026-10-10 12:30:07,170 INFO stockpicking: Prezzi 1d: 1100/1663
+2026-10-10 12:30:14,723 INFO stockpicking: Prezzi 1d: 1200/1663
+2026-10-10 12:30:21,945 INFO stockpicking: Prezzi 1d: 1300/1663
+2026-10-10 12:30:29,638 INFO stockpicking: Prezzi 1d: 1400/1663
+2026-10-10 12:30:36,935 INFO stockpicking: Prezzi 1d: 1500/1663
+2026-10-10 12:30:39,225 ERROR yfinance: $KOJAMO.HE: No data found, symbol may be delisted
+2026-10-10 12:30:42,444 ERROR yfinance: $NDA.CO: No data found, symbol may be delisted
+2026-10-10 12:30:43,266 ERROR yfinance: $GOGL.OL: No data found, symbol may be delisted
+2026-10-10 12:30:44,372 ERROR yfinance: 
 3 Failed downloads:
-2026-10-10 11:15:27,112 ERROR yfinance: ['NDA.CO', 'KOJAMO.HE', 'GOGL.OL']: No data found, symbol may be delisted
-2026-10-10 11:15:27,170 INFO stockpicking: Prezzi 1d: 1600/1663
-2026-10-10 11:15:29,684 ERROR yfinance: $RY4C.IR: No data found, symbol may be delisted
-2026-10-10 11:15:32,197 ERROR yfinance: $SONC.LS: No data found, symbol may be delisted
-2026-10-10 11:15:33,183 ERROR yfinance: $APAM.BR: No data found, symbol may be delisted
-2026-10-10 11:15:34,423 ERROR yfinance: 
+2026-10-10 12:30:44,372 ERROR yfinance: ['KOJAMO.HE', 'NDA.CO', 'GOGL.OL']: No data found, symbol may be delisted
+2026-10-10 12:30:44,461 INFO stockpicking: Prezzi 1d: 1600/1663
+2026-10-10 12:30:49,196 ERROR yfinance: $RY4C.IR: No data found, symbol may be delisted
+2026-10-10 12:30:50,104 ERROR yfinance: $APAM.BR: No data found, symbol may be delisted
+2026-10-10 12:30:50,173 ERROR yfinance: $SONC.LS: No data found, symbol may be delisted
+2026-10-10 12:30:50,177 ERROR yfinance: 
 3 Failed downloads:
-2026-10-10 11:15:34,423 ERROR yfinance: ['RY4C.IR', 'SONC.LS', 'APAM.BR']: No data found, symbol may be delisted
-2026-10-10 11:15:34,454 INFO stockpicking: Prezzi 1d: 1663/1663
-2026-10-10 11:15:42,172 INFO stockpicking: Prezzi 1wk: 100/1663
-2026-10-10 11:15:50,049 INFO stockpicking: Prezzi 1wk: 200/1663
-2026-10-10 11:15:57,474 INFO stockpicking: Prezzi 1wk: 300/1663
-2026-10-10 11:16:04,632 INFO stockpicking: Prezzi 1wk: 400/1663
-2026-10-10 11:16:11,921 INFO stockpicking: Prezzi 1wk: 500/1663
-2026-10-10 11:16:19,869 INFO stockpicking: Prezzi 1wk: 600/1663
-2026-10-10 11:16:27,218 INFO stockpicking: Prezzi 1wk: 700/1663
-2026-10-10 11:16:34,624 INFO stockpicking: Prezzi 1wk: 800/1663
-2026-10-10 11:16:42,763 INFO stockpicking: Prezzi 1wk: 900/1663
-2026-10-10 11:16:45,281 ERROR yfinance: $AIR-PA.DE: No data found, symbol may be delisted
-2026-10-10 11:16:48,455 ERROR yfinance: $ECV.DE: No data found, symbol may be delisted
-2026-10-10 11:16:50,464 ERROR yfinance: 
+2026-10-10 12:30:50,177 ERROR yfinance: ['RY4C.IR', 'APAM.BR', 'SONC.LS']: No data found, symbol may be delisted
+2026-10-10 12:30:50,226 INFO stockpicking: Prezzi 1d: 1663/1663
+2026-10-10 12:30:56,279 INFO stockpicking: Prezzi 1wk: 100/1663
+2026-10-10 12:31:02,429 INFO stockpicking: Prezzi 1wk: 200/1663
+2026-10-10 12:31:09,323 INFO stockpicking: Prezzi 1wk: 300/1663
+2026-10-10 12:31:14,955 INFO stockpicking: Prezzi 1wk: 400/1663
+2026-10-10 12:31:21,175 INFO stockpicking: Prezzi 1wk: 500/1663
+2026-10-10 12:31:26,829 INFO stockpicking: Prezzi 1wk: 600/1663
+2026-10-10 12:31:32,916 INFO stockpicking: Prezzi 1wk: 700/1663
+2026-10-10 12:31:38,750 INFO stockpicking: Prezzi 1wk: 800/1663
+2026-10-10 12:31:44,797 INFO stockpicking: Prezzi 1wk: 900/1663
+2026-10-10 12:31:50,010 ERROR yfinance: $AIR-PA.DE: No data found, symbol may be delisted
+2026-10-10 12:31:51,156 ERROR yfinance: $ECV.DE: No data found, symbol may be delisted
+2026-10-10 12:31:53,288 ERROR yfinance: 
 2 Failed downloads:
-2026-10-10 11:16:50,465 ERROR yfinance: ['AIR-PA.DE', 'ECV.DE']: No data found, symbol may be delisted
-2026-10-10 11:16:50,505 INFO stockpicking: Prezzi 1wk: 1000/1663
-2026-10-10 11:16:54,591 ERROR yfinance: $MT-AS.PA: No data found, symbol may be delisted
-2026-10-10 11:16:58,265 ERROR yfinance: 
+2026-10-10 12:31:53,288 ERROR yfinance: ['AIR-PA.DE', 'ECV.DE']: No data found, symbol may be delisted
+2026-10-10 12:31:53,348 INFO stockpicking: Prezzi 1wk: 1000/1663
+2026-10-10 12:31:58,174 ERROR yfinance: $MT-AS.PA: No data found, symbol may be delisted
+2026-10-10 12:31:59,100 ERROR yfinance: 
 1 Failed download:
-2026-10-10 11:16:58,266 ERROR yfinance: ['MT-AS.PA']: No data found, symbol may be delisted
-2026-10-10 11:16:58,307 INFO stockpicking: Prezzi 1wk: 1100/1663
-2026-10-10 11:17:05,928 INFO stockpicking: Prezzi 1wk: 1200/1663
-2026-10-10 11:17:13,189 INFO stockpicking: Prezzi 1wk: 1300/1663
-2026-10-10 11:17:20,612 INFO stockpicking: Prezzi 1wk: 1400/1663
-2026-10-10 11:17:28,037 INFO stockpicking: Prezzi 1wk: 1500/1663
-2026-10-10 11:17:31,636 ERROR yfinance: $NDA.CO: No data found, symbol may be delisted
-2026-10-10 11:17:31,874 ERROR yfinance: $KOJAMO.HE: No data found, symbol may be delisted
-2026-10-10 11:17:35,436 ERROR yfinance: $GOGL.OL: No data found, symbol may be delisted
-2026-10-10 11:17:35,444 ERROR yfinance: 
+2026-10-10 12:31:59,101 ERROR yfinance: ['MT-AS.PA']: No data found, symbol may be delisted
+2026-10-10 12:31:59,160 INFO stockpicking: Prezzi 1wk: 1100/1663
+2026-10-10 12:32:05,064 INFO stockpicking: Prezzi 1wk: 1200/1663
+2026-10-10 12:32:10,680 INFO stockpicking: Prezzi 1wk: 1300/1663
+2026-10-10 12:32:17,042 INFO stockpicking: Prezzi 1wk: 1400/1663
+2026-10-10 12:32:23,056 INFO stockpicking: Prezzi 1wk: 1500/1663
+2026-10-10 12:32:25,541 ERROR yfinance: $KOJAMO.HE: No data found, symbol may be delisted
+2026-10-10 12:32:27,953 ERROR yfinance: $NDA.CO: No data found, symbol may be delisted
+2026-10-10 12:32:28,469 ERROR yfinance: $GOGL.OL: No data found, symbol may be delisted
+2026-10-10 12:32:29,278 ERROR yfinance: 
 3 Failed downloads:
-2026-10-10 11:17:35,445 ERROR yfinance: ['NDA.CO', 'KOJAMO.HE', 'GOGL.OL']: No data found, symbol may be delisted
-2026-10-10 11:17:35,488 INFO stockpicking: Prezzi 1wk: 1600/1663
-2026-10-10 11:17:38,075 ERROR yfinance: $RY4C.IR: No data found, symbol may be delisted
-2026-10-10 11:17:39,447 ERROR yfinance: $SONC.LS: No data found, symbol may be delisted
-2026-10-10 11:17:40,271 ERROR yfinance: $APAM.BR: No data found, symbol may be delisted
-2026-10-10 11:17:41,385 ERROR yfinance: 
+2026-10-10 12:32:29,278 ERROR yfinance: ['KOJAMO.HE', 'NDA.CO', 'GOGL.OL']: No data found, symbol may be delisted
+2026-10-10 12:32:29,340 INFO stockpicking: Prezzi 1wk: 1600/1663
+2026-10-10 12:32:33,547 ERROR yfinance: $RY4C.IR: No data found, symbol may be delisted
+2026-10-10 12:32:34,206 ERROR yfinance: $SONC.LS: No data found, symbol may be delisted
+2026-10-10 12:32:34,445 ERROR yfinance: $APAM.BR: No data found, symbol may be delisted
+2026-10-10 12:32:34,445 ERROR yfinance: 
 3 Failed downloads:
-2026-10-10 11:17:41,386 ERROR yfinance: ['RY4C.IR', 'SONC.LS', 'APAM.BR']: No data found, symbol may be delisted
-2026-10-10 11:17:41,414 INFO stockpicking: Prezzi 1wk: 1663/1663
-2026-10-10 11:17:45,276 INFO stockpicking: Prezzi 1wk: 22/22
-2026-10-10 11:17:47,289 INFO stockpicking: Prezzi aggiornati: 1654 titoli con dati giornalieri
-2026-10-10 11:17:47,290 INFO stockpicking: Fatto: prices
-2026-10-10 11:17:49,205 INFO stockpicking: Classifica esportata: {'classificato': 22, 'escluso': 18}
-2026-10-10 11:17:49,215 INFO stockpicking: Fatto: score
+2026-10-10 12:32:34,446 ERROR yfinance: ['RY4C.IR', 'SONC.LS', 'APAM.BR']: No data found, symbol may be delisted
+2026-10-10 12:32:34,536 INFO stockpicking: Prezzi 1wk: 1663/1663
+2026-10-10 12:32:37,625 INFO stockpicking: Prezzi 1wk: 22/22
+2026-10-10 12:32:39,642 INFO stockpicking: Prezzi aggiornati: 1654 titoli con dati giornalieri
+2026-10-10 12:32:39,644 INFO stockpicking: Fatto: prices
+2026-10-10 12:32:52,449 INFO stockpicking: Classifica esportata: {'classificato': 853, 'escluso': 724, 'fuori modello': 74, 'storico insufficiente': 2, 'dati mancanti': 1}
+2026-10-10 12:32:52,502 INFO stockpicking: Fatto: score
