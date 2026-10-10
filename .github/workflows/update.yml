@@ -62,7 +62,7 @@ jobs:
         run: |
           git config user.name "stockpicking-bot"
           git config user.email "actions@users.noreply.github.com"
-          for p in data/universe.csv data/fundamentals data/last_run.log; do [ -e "$p" ] && git add "$p"; done
+          for p in data/universe.csv data/fundamentals data/last_run.log data/classifica_top100.csv; do [ -e "$p" ] && git add "$p"; done
           if git diff --cached --quiet; then
             echo "Nessuna modifica ai dati"
           else

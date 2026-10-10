@@ -330,6 +330,10 @@ def _export(df: pd.DataFrame, results: list, details: dict, medians: dict, cfg: 
         }
         write_json(stocks_dir / f"{safe_name(r.ticker)}.json", detail, compact=True)
 
+    # riepilogo leggibile salvato nel repository (prime 100 posizioni)
+    top = df[df.status == "classificato"].sort_values("rank")[["rank", "ticker", "name", "region", "track",
+                                                               "industry", "score"]].head(100)
+    top.to_csv(DATA / "classifica_top100.csv", index=False)
     counts = df["status"].value_counts().to_dict()
     meta = {"generated_at": datetime.now(timezone.utc).isoformat(timespec="minutes"),
             "weights": cfg["area_weights"], "labels": lab, "counts": counts, "universe": len(df)}
