@@ -178,3 +178,28 @@ def fetch_sec_financials(ticker: str) -> dict | None:
     for k in ["debt_lt_total", "debt_lt_noncurrent", "debt_lt_current", "debt_st"]:
         out.pop(k)
     return out
+
+
+def latest_annual_filing(ticker: str):
+    """Data dell'ultimo bilancio annuale (10-K/20-F) depositato alla SEC, o None."""
+    try:
+        cik = _cik_map().get(ticker.upper())
+    except Exception:
+        return None
+    if not cik:
+        return None
+    wait = 0.15 - (time.time() - _LAST_CALL[0])
+    if wait > 0:
+        time.sleep(wait)
+    _LAST_CALL[0] = time.time()
+    try:
+        r = requests.get(f"https://data.sec.gov/submissions/CIK{cik:010d}.json", headers=HEAD, timeout=30)
+        if r.status_code != 200:
+            return None
+        rec = r.json().get("filings", {}).get("recent", {})
+        dates = [d for f, d in zip(rec.get("form", []), rec.get("filingDate", []))
+                 if f in ANNUAL_FORMS or f in ("20-F", "40-F")]
+        return date.fromisoformat(max(dates)) if dates else None
+    except Exception as e:
+        log.debug("SEC submissions %s: %s", ticker, e)
+        return None

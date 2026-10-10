@@ -12,8 +12,9 @@ general:
   min_years_scored: 3         # sotto questa soglia: "storico insufficiente", fuori classifica
   min_peers: 8                # titoli minimi per confrontarsi con l'industria (altrimenti settore)
   cost_of_equity: 0.10        # costo del capitale per il P/TBV teorico di banche/assicurazioni
-  fundamentals_max_age_days: 7     # ogni quanti giorni riscaricare i bilanci di un titolo
-  fundamentals_batch_per_run: 300  # titoli aggiornati per esecuzione (evita blocchi di Yahoo)
+  fundamentals_min_days_between_checks: 25  # i bilanci si controllano al massimo una volta al mese
+  annual_report_lag_days: 60       # dopo quanti giorni dalla chiusura dell'esercizio ci si aspetta il nuovo bilancio (Europa)
+  fundamentals_batch_per_run: 2000 # titoli massimi riscaricati per esecuzione
 
 # Titoli aggiuntivi da analizzare oltre agli indici (formato Yahoo, es. "BLX", "FUTU", "XYZ.MI")
 extra_tickers: []

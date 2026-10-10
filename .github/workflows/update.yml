@@ -2,7 +2,8 @@ name: Aggiornamento dati e dashboard
 
 on:
   schedule:
-    - cron: "40 22 * * 1-5"   # dal lunedì al venerdì, dopo la chiusura USA (00:40 ora italiana)
+    - cron: "40 22 * * 1-5"   # ogni giorno lavorativo: prezzi e punteggio (00:40 ora italiana)
+    - cron: "10 3 2 * *"      # il 2 di ogni mese: controllo bilanci nuovi, universo, prezzi e punteggio
   workflow_dispatch:
     inputs:
       steps:
@@ -44,8 +45,8 @@ jobs:
       - name: Esegui il modello
         env:
           SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
-          STEPS: ${{ github.event.inputs.steps || 'universe,prices,fundamentals,score' }}
-          LIMIT: ${{ github.event.inputs.limit || '300' }}
+          STEPS: ${{ github.event.inputs.steps || (github.event.schedule == '10 3 2 * *' && 'universe,fundamentals,prices,score') || 'prices,score' }}
+          LIMIT: ${{ github.event.inputs.limit || '2000' }}
         run: |
           rm -f data/last_run.log
           FORCE=""

@@ -13,7 +13,7 @@ import pandas as pd
 import yfinance as yf
 
 from .common import FUND_DIR, load_config, log, read_json, safe_name, write_json
-from .sec import fetch_sec_financials
+from .sec import fetch_sec_financials, latest_annual_filing
 
 # voce -> (prospetto yahoo, etichette in ordine di preferenza)
 YAHOO_MAP = {
@@ -196,20 +196,46 @@ def fetch_one(ticker: str, region: str) -> dict | None:
     }
 
 
+def _needs_refresh(old: dict | None, region: str, now: datetime, cfg: dict) -> tuple[bool, str]:
+    """Riscarica solo se c'è un bilancio annuale nuovo (o probabile), al massimo una volta al mese."""
+    if not old:
+        return True, "mai scaricato"
+    fetched = datetime.fromisoformat(old["fetched_at"])
+    if now - fetched < timedelta(days=cfg["fundamentals_min_days_between_checks"]):
+        return False, "controllato di recente"
+    if old.get("skip"):
+        return True, "nuovo tentativo"
+    years = old.get("years") or []
+    if not years:
+        return True, "nessun esercizio"
+    fy_last = datetime.fromisoformat(years[-1]["fy_end"]).replace(tzinfo=timezone.utc)
+    if region == "USA":
+        filed = latest_annual_filing(old["ticker"])
+        if filed is not None:
+            return (filed > fetched.date()), ("nuovo 10-K depositato" if filed > fetched.date() else "nessun nuovo 10-K")
+    # Europa (o SEC non disponibile): il nuovo bilancio esce di norma entro pochi mesi dalla chiusura
+    due = fy_last + timedelta(days=365 + cfg["annual_report_lag_days"])
+    if now >= due:
+        return True, "nuovo bilancio annuale atteso"
+    return False, "nessun bilancio nuovo atteso"
+
+
 def update_fundamentals(universe: pd.DataFrame, limit: int | None = None, force: bool = False) -> int:
     cfg = load_config()["general"]
-    max_age = timedelta(days=cfg["fundamentals_max_age_days"])
     limit = limit or cfg["fundamentals_batch_per_run"]
     now = datetime.now(timezone.utc)
 
-    queue = []
+    queue, reasons = [], {}
     for _, r in universe.iterrows():
         old = read_json(FUND_DIR / f"{safe_name(r.ticker)}.json")
-        ts = datetime.fromisoformat(old["fetched_at"]) if old else datetime(2000, 1, 1, tzinfo=timezone.utc)
-        if force or now - ts > max_age:
+        need, why = (True, "forzato") if force else _needs_refresh(old, r.region, now, cfg)
+        reasons[why] = reasons.get(why, 0) + 1
+        if need:
+            ts = datetime.fromisoformat(old["fetched_at"]) if old else datetime(2000, 1, 1, tzinfo=timezone.utc)
             queue.append((ts, r.ticker, r.region))
     queue.sort()
     queue = queue[:limit]
+    log.info("Controllo bilanci: %s", reasons)
     log.info("Bilanci da aggiornare: %d (limite %d)", len(queue), limit)
 
     done, consecutive_err = 0, 0
