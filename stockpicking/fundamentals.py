@@ -78,11 +78,17 @@ def _match_end(end: str, ends: list[str], tol: int = 25) -> str | None:
     return None
 
 
-def _call(fn, default=None, tries: int = 3):
+class FetchError(Exception):
+    pass
+
+
+def _call(fn, default=None, tries: int = 3, required: bool = False):
+    last = None
     for attempt in range(tries):
         try:
             return fn()
         except Exception as e:
+            last = e
             msg = str(e)
             if "Rate" in msg or "Too Many" in msg or "429" in msg:
                 wait = 30 * (attempt + 1)
@@ -91,6 +97,8 @@ def _call(fn, default=None, tries: int = 3):
             else:
                 log.debug("chiamata fallita: %s", e)
                 time.sleep(1)
+    if required:
+        raise FetchError(f"{type(last).__name__}: {last}")
     return default
 
 
@@ -128,7 +136,7 @@ def _governance(t: yf.Ticker, info: dict) -> dict:
 
 def fetch_one(ticker: str, region: str) -> dict | None:
     t = yf.Ticker(ticker)
-    info = _call(lambda: t.info, {}) or {}
+    info = _call(lambda: t.info, required=True) or {}
     stamp = datetime.now(timezone.utc).isoformat(timespec="seconds")
     if not info or not (info.get("longName") or info.get("shortName")):
         return {"ticker": ticker, "fetched_at": stamp, "skip": "nessun dato su Yahoo"}
@@ -199,13 +207,18 @@ def update_fundamentals(universe: pd.DataFrame, limit: int | None = None, force:
     queue = queue[:limit]
     log.info("Bilanci da aggiornare: %d (limite %d)", len(queue), limit)
 
-    done = 0
+    done, consecutive_err = 0, 0
     for i, (_, ticker, region) in enumerate(queue, 1):
         try:
             data = fetch_one(ticker, region)
+            consecutive_err = 0
         except Exception as e:
             log.warning("%s: errore %s", ticker, e)
             data = None
+            consecutive_err += 1
+            if consecutive_err >= 15:
+                log.error("Troppi errori consecutivi da Yahoo: interrompo i bilanci (ultimo: %s)", e)
+                break
         if data:
             write_json(FUND_DIR / f"{safe_name(ticker)}.json", data)
             done += 1

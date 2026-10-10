@@ -50,10 +50,11 @@ jobs:
             --limit "${{ github.event.inputs.limit || '300' }}" $FORCE
 
       - name: Salva bilanci e universo nel repository
+        if: always()
         run: |
           git config user.name "stockpicking-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/universe.csv data/fundamentals || true
+          git add data/universe.csv data/fundamentals data/last_run.log || true
           if git diff --cached --quiet; then
             echo "Nessuna modifica ai dati"
           else

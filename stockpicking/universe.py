@@ -70,7 +70,8 @@ def _fetch_index(page: str, suffix: str) -> list[str]:
     r = requests.get(WIKI + page, headers=UA, timeout=30)
     r.raise_for_status()
     tables = pd.read_html(StringIO(r.text))
-    best: list[str] = []
+    # la prima tabella con almeno 15 ticker validi è la composizione attuale
+    # (le tabelle successive sono spesso lo storico delle modifiche)
     for tb in tables:
         cols = [c if isinstance(c, str) else " ".join(map(str, c)) for c in tb.columns]
         tb.columns = cols
@@ -81,9 +82,11 @@ def _fetch_index(page: str, suffix: str) -> list[str]:
         tcols.sort(key=lambda c: 1 if re.search(r"code", c, re.I) else 0)
         tickers = [_clean_ticker(v, suffix) for v in tb[tcols[0]].tolist()]
         tickers = [t for t in tickers if t]
-        if len(tickers) > len(best):
-            best = tickers
-    return best
+        if len(tickers) >= 15:
+            return list(dict.fromkeys(tickers))
+    log.warning("Pagina %s: nessuna tabella con ticker (%d tabelle, colonne: %s)", page, len(tables),
+                [list(map(str, t.columns))[:6] for t in tables[:4]])
+    return []
 
 
 def build_universe() -> pd.DataFrame:

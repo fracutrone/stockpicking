@@ -12,7 +12,7 @@ import argparse
 
 import pandas as pd
 
-from .common import DATA, log
+from .common import DATA, log, log_to_file
 
 
 def main() -> None:
@@ -23,6 +23,7 @@ def main() -> None:
     ap.add_argument("--tickers", default=None, help="solo questi titoli (separati da virgola), per test")
     a = ap.parse_args()
     steps = [s.strip() for s in a.steps.split(",")]
+    log_to_file(DATA / "last_run.log")
 
     if "universe" in steps:
         from .universe import build_universe
