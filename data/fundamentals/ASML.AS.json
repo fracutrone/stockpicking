@@ -1,6 +1,6 @@
 {
  "ticker": "ASML.AS",
- "fetched_at": "2026-10-10T11:46:14+00:00",
+ "fetched_at": "2026-10-10T14:22:56+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -15,14 +15,25 @@
   "sharesOutstanding": 384100000,
   "floatShares": 383977088,
   "heldPercentInsiders": 0.0001,
-  "heldPercentInstitutions": 0.48035,
+  "heldPercentInstitutions": 0.47888,
   "shortPercentOfFloat": null,
   "averageVolume": 599464,
   "quoteType": "EQUITY",
   "exchange": "AMS",
   "fullTimeEmployees": 43938,
   "website": "https://www.asml.com",
-  "longBusinessSummary": "ASML Holding N.V. provides lithography solutions for the development, production, marketing, sales, upgrading, and servicing of advanced semiconductor equipment systems. The company offers lithography, metrology, and inspection systems. It also provides extreme ultraviolet lithography systems; and deep ultraviolet lithography systems comprising immersion and dry lithography systems solutions to manufacture various range of semiconductor nodes and technologies. In addition, the company offers metrology and inspection systems, including YieldStar optical metrology systems, a diffraction-based wafer metrology platform to assess the quality of patterns on the wafers; and HMI electron beam solutions to locate and analyze individual chip defects. Further, it provides computational lithography solutions, and lithography systems and control software solutions; and refurbishes and upgrades lithography systems, as well as offers customer support and related services. Additionally, the company offers hardware, software, and services to chipmakers to produce the patterns of integrated circuits. It operates in Japan, South Korea, Singapore, Taiwan, China, rest of Asia, the Netherlands, rest of Europe, the Middle East, Africa, and the United States. The company was formerly known as ASM Lithography Holding N.V. and changed its name to ASML Holding N.V. in 2001. ASML Holding N.V. was founded in 1984 and is headquartered in Veldhoven, the Netherlands."
+  "longBusinessSummary": "ASML Holding N.V. provides lithography solutions for the development, production, marketing, sales, upgrading, and servicing of advanced semiconductor equipment systems. The company offers lithography, metrology, and inspection systems. It also provides extreme ultraviolet lithography systems; and deep ultraviolet lithography systems comprising immersion and dry lithography systems solutions to manufacture various range of semiconductor nodes and technologies. In addition, the company offers metrology and inspection systems, including YieldStar optical metrology systems, a diffraction-based wafer metrology platform to assess the quality of patterns on the wafers; and HMI electron beam solutions to locate and analyze individual chip defects. Further, it provides computational lithography solutions, and lithography systems and control software solutions; and refurbishes and upgrades lithography systems, as well as offers customer support and related services. Additionally, the company offers hardware, software, and services to chipmakers to produce the patterns of integrated circuits. It operates in Japan, South Korea, Singapore, Taiwan, China, rest of Asia, the Netherlands, rest of Europe, the Middle East, Africa, and the United States. The company was formerly known as ASM Lithography Holding N.V. and changed its name to ASML Holding N.V. in 2001. ASML Holding N.V. was founded in 1984 and is headquartered in Veldhoven, the Netherlands.",
+  "targetMeanPrice": 2051.0938,
+  "targetLowPrice": 1291.0,
+  "targetHighPrice": 2557.0,
+  "numberOfAnalystOpinions": 32,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.40476,
+  "forwardPE": 30.845337,
+  "forwardEps": 51.92357,
+  "trailingEps": 26.41,
+  "earningsGrowth": 0.285,
+  "revenueGrowth": 0.213
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF NL",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 50566600000.0,
+    "official": 55576800000.0,
+    "diff": 0.090149
+   },
+   "equity": {
+    "yahoo": 19612200000.0,
+    "official": 24185000000.0,
+    "diff": 0.189076
+   },
+   "net_income": {
+    "yahoo": 9609400000.0,
+    "official": 10213000000.0,
+    "diff": 0.059101
+   },
+   "revenue": {
+    "yahoo": 32667300000.0,
+    "official": 32667300000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:22:56+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -121,7 +164,9 @@
    "goodwill_and_intangibles": 5398000000.0,
    "retained_earnings": 9046700000.0,
    "total_debt": 4260400000.0,
-   "shares_out": 394589411.0
+   "shares_out": 394589411.0,
+   "normalized_ebitda": 7100500000.0,
+   "normalized_income": 5624200000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -156,7 +201,9 @@
    "goodwill_and_intangibles": 5330300000.0,
    "retained_earnings": 12379500000.0,
    "total_debt": 4631600000.0,
-   "shares_out": 393421721.0
+   "shares_out": 393421721.0,
+   "normalized_ebitda": 9976000000.0,
+   "normalized_income": 7839000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -191,7 +238,9 @@
    "goodwill_and_intangibles": 5209900000.0,
    "retained_earnings": 14414300000.0,
    "total_debt": 4687600000.0,
-   "shares_out": 393283720.0
+   "shares_out": 393283720.0,
+   "normalized_ebitda": 10123600000.0,
+   "normalized_income": 7571600000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -226,7 +275,9 @@
    "goodwill_and_intangibles": 5128700000.0,
    "retained_earnings": 17587300000.0,
    "total_debt": 4390900000.0,
-   "shares_out": 385417665.0
+   "shares_out": 385417665.0,
+   "normalized_ebitda": 12550300000.0,
+   "normalized_income": 9609400000.0
   }
  ]
 }

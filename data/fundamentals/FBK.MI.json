@@ -1,6 +1,6 @@
 {
  "ticker": "FBK.MI",
- "fetched_at": "2026-10-10T11:57:30+00:00",
+ "fetched_at": "2026-10-10T14:23:11+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -15,14 +15,25 @@
   "sharesOutstanding": 611819221,
   "floatShares": 611819221,
   "heldPercentInsiders": 0.0,
-  "heldPercentInstitutions": 0.75432,
+  "heldPercentInstitutions": 0.75298,
   "shortPercentOfFloat": null,
   "averageVolume": 1598455,
   "quoteType": "EQUITY",
   "exchange": "MIL",
   "fullTimeEmployees": 1340,
   "website": "https://it.finecobank.com",
-  "longBusinessSummary": "FinecoBank Banca Fineco S.p.A. provides banking, credit, trading and investment services in Italy. It offers banking services, including current account services, payment services, mortgages, overdrafts, and personal loans, as well as debit, credit, and prepaid cards; and brokerage services comprising order execution services on behalf of customers with direct access to global equity markets, as well as trading of CFDs, futures, options, bonds, ETFs, and certificates. The company also provides asset management services, such as placement and distribution services of various products, including UCITS and SICAV units, and insurance and pension products, as well as investment advisory services. In addition, it operates financial shops. The company serves through a network of personal financial advisors, and online and mobile channels. FinecoBank Banca Fineco S.p.A. was founded in 1999 and is headquartered in Reggio Emilia, Italy."
+  "longBusinessSummary": "FinecoBank Banca Fineco S.p.A. provides banking, credit, trading and investment services in Italy. It offers banking services, including current account services, payment services, mortgages, overdrafts, and personal loans, as well as debit, credit, and prepaid cards; and brokerage services comprising order execution services on behalf of customers with direct access to global equity markets, as well as trading of CFDs, futures, options, bonds, ETFs, and certificates. The company also provides asset management services, such as placement and distribution services of various products, including UCITS and SICAV units, and insurance and pension products, as well as investment advisory services. In addition, it operates financial shops. The company serves through a network of personal financial advisors, and online and mobile channels. FinecoBank Banca Fineco S.p.A. was founded in 1999 and is headquartered in Reggio Emilia, Italy.",
+  "targetMeanPrice": 27.36875,
+  "targetLowPrice": 24.0,
+  "targetHighPrice": 29.0,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.5,
+  "forwardPE": 16.552666,
+  "forwardEps": 1.28801,
+  "trailingEps": 1.1,
+  "earningsGrowth": 0.159,
+  "revenueGrowth": 0.18
  },
  "governance": {
   "ceo": {
@@ -69,8 +80,29 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF IT",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 37295901000.0,
+    "official": 37295901000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 647041000.0,
+    "official": 647041000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:23:11+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -97,7 +129,9 @@
    "goodwill_and_intangibles": 126389000.0,
    "retained_earnings": 428505000.0,
    "total_debt": 561277000.0,
-   "shares_out": 609983381.0
+   "shares_out": 609983381.0,
+   "unusual_items": -1803000.0,
+   "normalized_income": 429783363.820028
   },
   {
    "fy_end": "2023-12-31",
@@ -124,7 +158,9 @@
    "goodwill_and_intangibles": 124067000.0,
    "retained_earnings": 609101000.0,
    "total_debt": 870646000.0,
-   "shares_out": 610540176.0
+   "shares_out": 610540176.0,
+   "unusual_items": -3065000.0,
+   "normalized_income": 611241349.95609
   },
   {
    "fy_end": "2024-12-31",
@@ -151,7 +187,9 @@
    "goodwill_and_intangibles": 124843000.0,
    "retained_earnings": 652285000.0,
    "total_debt": 868400000.0,
-   "shares_out": 610918227.0
+   "shares_out": 610918227.0,
+   "unusual_items": -293000.0,
+   "normalized_income": 652488473.608621
   },
   {
    "fy_end": "2025-12-31",
@@ -178,7 +216,9 @@
    "goodwill_and_intangibles": 123616000.0,
    "retained_earnings": 647041000.0,
    "total_debt": 872852000.0,
-   "shares_out": 611493639.0
+   "shares_out": 611493639.0,
+   "unusual_items": -4482000.0,
+   "normalized_income": 650140986.918226
   }
  ]
 }

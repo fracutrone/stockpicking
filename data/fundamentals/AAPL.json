@@ -1,6 +1,6 @@
 {
  "ticker": "AAPL",
- "fetched_at": "2026-10-10T12:36:06+00:00",
+ "fetched_at": "2026-10-10T14:23:20+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -14,15 +14,26 @@
   "marketCap": 4912984883200,
   "sharesOutstanding": 14594180000,
   "floatShares": 14568786127,
-  "heldPercentInsiders": 0.01648,
-  "heldPercentInstitutions": 0.66325,
-  "shortPercentOfFloat": 0.0083,
+  "heldPercentInsiders": 0.01649,
+  "heldPercentInstitutions": 0.66321,
+  "shortPercentOfFloat": 0.0088,
   "averageVolume": 45268204,
   "quoteType": "EQUITY",
   "exchange": "NMS",
   "fullTimeEmployees": 150000,
   "website": "https://www.apple.com",
-  "longBusinessSummary": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising AirPods, Apple Vision Pro, Apple TV, Apple Watch, Beats products, and HomePod, as well as Apple branded and third-party accessories. It also provides AppleCare support and cloud services; and operates various platforms, including the App Store that allows customers to discover and download applications and digital content, such as books, music, video, games, and podcasts, as well as advertising services include third-party licensing arrangements and its own advertising platforms. In addition, the company offers various subscription-based services, such as Apple Arcade, a game subscription service; Apple Fitness+, a personalized fitness service; Apple Music, which offers users a curated listening experience with on-demand radio stations; Apple News+, a subscription news and magazine service; Apple TV, which offers original content and live sports; Apple Card, a co-branded credit card; and Apple Pay, a cashless payment service, as well as licenses its intellectual property. The company serves consumers, and small and mid-sized businesses; and the education, enterprise, and government markets. It distributes third-party applications for its products through the App Store. The company also sells its products through its retail and online stores, and direct sales force; and third-party cellular network carriers and resellers. The company was formerly known as Apple Computer, Inc. and changed its name to Apple Inc. in January 2007. Apple Inc. was founded in 1976 and is headquartered in Cupertino, California."
+  "longBusinessSummary": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising AirPods, Apple Vision Pro, Apple TV, Apple Watch, Beats products, and HomePod, as well as Apple branded and third-party accessories. It also provides AppleCare support and cloud services; and operates various platforms, including the App Store that allows customers to discover and download applications and digital content, such as books, music, video, games, and podcasts, as well as advertising services include third-party licensing arrangements and its own advertising platforms. In addition, the company offers various subscription-based services, such as Apple Arcade, a game subscription service; Apple Fitness+, a personalized fitness service; Apple Music, which offers users a curated listening experience with on-demand radio stations; Apple News+, a subscription news and magazine service; Apple TV, which offers original content and live sports; Apple Card, a co-branded credit card; and Apple Pay, a cashless payment service, as well as licenses its intellectual property. The company serves consumers, and small and mid-sized businesses; and the education, enterprise, and government markets. It distributes third-party applications for its products through the App Store. The company also sells its products through its retail and online stores, and direct sales force; and third-party cellular network carriers and resellers. The company was formerly known as Apple Computer, Inc. and changed its name to Apple Inc. in January 2007. Apple Inc. was founded in 1976 and is headquartered in Cupertino, California.",
+  "targetMeanPrice": 328.09384,
+  "targetLowPrice": 215.0,
+  "targetHighPrice": 405.0,
+  "numberOfAnalystOpinions": 39,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.20455,
+  "forwardPE": 35.11173,
+  "forwardEps": 9.58768,
+  "trailingEps": 8.72,
+  "earningsGrowth": 0.287,
+  "revenueGrowth": 0.164
  },
  "governance": {
   "ceo": {
@@ -48,8 +59,8 @@
   ],
   "insider_6m": {
    "purchases": 843593.0,
-   "sales": 582307.0,
-   "net_shares": 261286.0,
+   "sales": 579908.0,
+   "net_shares": 263685.0,
    "net_pct": 0.001
   }
  },
@@ -83,9 +94,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "goodwill": "sec",
   "intangibles": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-09-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 359241000000.0,
+    "official": 359241000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 73733000000.0,
+    "official": 73733000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 112010000000.0,
+    "official": 112010000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 416161000000.0,
+    "official": 416161000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T14:23:20+00:00",
  "years": [
   {
    "fy_end": "2019-09-28",
@@ -201,7 +242,9 @@
    "ppe_net": 42117000000.0,
    "retained_earnings": -3068000000.0,
    "total_debt": 120069000000.0,
-   "shares_out": 15943425000.0
+   "shares_out": 15943425000.0,
+   "normalized_ebitda": 130541000000.0,
+   "normalized_income": 99803000000.0
   },
   {
    "fy_end": "2023-09-30",
@@ -233,7 +276,9 @@
    "ppe_net": 43715000000.0,
    "retained_earnings": -214000000.0,
    "total_debt": 111088000000.0,
-   "shares_out": 15550061000.0
+   "shares_out": 15550061000.0,
+   "normalized_ebitda": 125820000000.0,
+   "normalized_income": 96995000000.0
   },
   {
    "fy_end": "2024-09-28",
@@ -263,7 +308,9 @@
    "ppe_net": 45680000000.0,
    "retained_earnings": -19154000000.0,
    "total_debt": 106629000000.0,
-   "shares_out": 15116786000.0
+   "shares_out": 15116786000.0,
+   "normalized_ebitda": 134661000000.0,
+   "normalized_income": 93736000000.0
   },
   {
    "fy_end": "2025-09-27",
@@ -293,7 +340,9 @@
    "ppe_net": 49834000000.0,
    "retained_earnings": -14264000000.0,
    "total_debt": 98657000000.0,
-   "shares_out": 14773260000.0
+   "shares_out": 14773260000.0,
+   "normalized_ebitda": 144748000000.0,
+   "normalized_income": 112010000000.0
   }
  ]
 }
