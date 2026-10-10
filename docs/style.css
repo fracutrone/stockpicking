@@ -144,3 +144,10 @@ table.rank { width: 100%; border-collapse: separate; border-spacing: 0; backgrou
   .mrow { grid-template-columns: 1.4fr .9fr .9fr 46px; }
   .drawer-inner { padding: 16px; }
 }
+
+/* storico del modello */
+.track { max-width: 1400px; margin: 0 auto; padding: 0 24px 12px; }
+.track details { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 10px 14px; }
+.track summary { cursor: pointer; font-weight: 600; font-size: 13px; }
+.track-body { overflow-x: auto; }
+@media (max-width: 640px) { .track { padding: 0 16px 12px; } }

@@ -50,14 +50,19 @@ def _download(tickers: list[str], period: str, interval: str, chunk: int = 100) 
     return out
 
 
+BENCHMARKS = ["URTH"]   # iShares MSCI World (USD), riferimento per lo storico del modello
+
+
 def update_prices(tickers: list[str]) -> None:
     DATA.mkdir(parents=True, exist_ok=True)
+    tickers = list(dict.fromkeys(list(tickers) + BENCHMARKS))
     daily = _download(tickers, "14mo", "1d")
     if len(daily):
         daily.to_parquet(DATA / "prices_daily.parquet", index=False)
     weekly = _download(tickers, "7y", "1wk")
     if len(weekly):
-        weekly[["date", "ticker", "Close"]].to_parquet(DATA / "prices_weekly.parquet", index=False)
+        cols = [c for c in ["date", "ticker", "Close", "Adj Close"] if c in weekly.columns]
+        weekly[cols].to_parquet(DATA / "prices_weekly.parquet", index=False)
 
     fx = _download([f"{c}USD=X" for c in FX_CCY], "7y", "1wk", chunk=50)
     if len(fx):

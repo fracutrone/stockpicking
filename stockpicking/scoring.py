@@ -275,6 +275,13 @@ def score_all() -> None:
 
     _export(df, results, details, medians, cfg)
 
+    from .tracking import save_snapshot, update_performance
+    try:
+        save_snapshot(df)
+        update_performance()
+    except Exception as e:  # lo storico non deve mai bloccare la classifica
+        log.warning("Storico del modello non aggiornato: %s", e)
+
 
 # ------------------------------------------------------------------ esportazione
 

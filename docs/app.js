@@ -98,6 +98,20 @@ async function init() {
   window.addEventListener("hashchange", fromHash);
   render();
   fromHash();
+  loadTrack();
+}
+
+async function loadTrack() {
+  try {
+    const t = await (await fetch("data/track.json", { cache: "no-store" })).json();
+    if (!t.rows || !t.rows.length) return;
+    const pc = (v) => ok(v) ? `<span class="${v >= 0 ? "good" : "bad"}-t">${(v >= 0 ? "+" : "") + (v * 100).toFixed(1)}%</span>` : "–";
+    $("#track-tbl").innerHTML = `<tr><th>Classifica del</th><th>Giorni</th><th>Top ${t.top_n}</th><th>Universo</th><th>MSCI World</th><th>Top vs universo</th><th>Top vs MSCI</th></tr>` +
+      t.rows.slice().reverse().map((r) => `<tr title="${esc(r.top30_tickers)}"><td>${esc(r.start)}</td><td>${r.days}</td><td>${pc(r.top30)}</td><td>${pc(r.universo)}</td><td>${pc(r.msci_world)}</td><td>${pc(r.extra_vs_universo)}</td><td>${pc(r.extra_vs_msci)}</td></tr>`).join("");
+    const first = t.rows[0];
+    $("#track-sum").textContent = ` · ${t.rows.length} fotografie mensili dal ${first.start}`;
+    $("#history").hidden = false;
+  } catch (e) { /* nessuno storico ancora */ }
 }
 
 function sortVal(r, k) {
