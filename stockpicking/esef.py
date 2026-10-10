@@ -69,6 +69,15 @@ def find_lei(ticker: str, name: str, country: str) -> str | None:
     lei = None
     target = _norm(name)
     searches = [{"filter[entity.legalName]": name}, {"filter[fulltext]": name}]
+    # terza via: ricerca approssimata di GLEIF sul nome
+    r = _get("https://api.gleif.org/api/v1/fuzzycompletions", params={"field": "entity.legalName", "q": name})
+    fuzzy = []
+    if r is not None and r.ok:
+        for x in r.json().get("data", [])[:8]:
+            rel = x.get("relationships", {}).get("lei-records", {}).get("data", {})
+            if rel.get("id"):
+                fuzzy.append(rel["id"])
+    tried = []
     for q in searches:
         params = {**q, "page[size]": 10}
         if country:
@@ -81,11 +90,20 @@ def find_lei(ticker: str, name: str, country: str) -> str | None:
         cands.sort(key=lambda x: (_norm(x["attributes"]["entity"]["legalName"]["name"]) != target,
                                   len(x["attributes"]["entity"]["legalName"]["name"])))
         for c in cands[:5]:
+            tried.append(c["attributes"]["entity"]["legalName"]["name"])
             if _filings(c["id"]):
                 lei = c["id"]
                 break
         if lei:
             break
+    if not lei:
+        for cid in fuzzy:
+            if _filings(cid):
+                lei = cid
+                break
+    if not lei:
+        log.info("ESEF: LEI non trovato per %s (%s, %s); candidati GLEIF provati: %s",
+                 ticker, name, country, tried[:6])
     cache[ticker] = {"lei": lei or "", "date": date.today().isoformat()}
     write_json(LEI_MAP, cache)
     return lei

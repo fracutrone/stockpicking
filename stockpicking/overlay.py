@@ -52,13 +52,14 @@ def data_quality(rec: dict, cfg: dict) -> dict:
     if discord and same_revenue:
         # ricavi identici ma patrimonio/utile diversi: tipico di principi contabili diversi
         # (es. US GAAP su Yahoo e IFRS nel bilancio europeo), non di un errore nei dati
-        status = "principi diversi"
         notes.append("Ricavi identici alla fonte ufficiale; le differenze su "
                      + ", ".join(d.split(":")[0] for d in discord)
                      + " indicano principi contabili diversi (es. US GAAP vs IFRS)")
         discord = []
     if discord:
         status = "discordante"
+    elif same_revenue and any(n.startswith("Ricavi identici") for n in notes):
+        status = "principi diversi"
     elif compared >= 2:
         status = "verificato"
     else:
