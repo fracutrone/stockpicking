@@ -25,6 +25,10 @@ def main() -> None:
     steps = [s.strip() for s in a.steps.split(",")]
     log_to_file(DATA / "last_run.log")
 
+    if "diag" in steps:
+        from .diag import run as diag
+        diag()
+        return
     if "universe" in steps:
         from .universe import build_universe
         build_universe()

@@ -73,7 +73,7 @@ def _fetch_index(page: str, suffix: str) -> list[str]:
     # la prima tabella con almeno 15 ticker validi è la composizione attuale
     # (le tabelle successive sono spesso lo storico delle modifiche)
     for tb in tables:
-        cols = [c if isinstance(c, str) else " ".join(map(str, c)) for c in tb.columns]
+        cols = [" ".join(map(str, c)) if isinstance(c, tuple) else str(c) for c in tb.columns]
         tb.columns = cols
         tcols = [c for c in cols if TICKER_COL.search(c) and "isin" not in c.lower()]
         if not tcols:
