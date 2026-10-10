@@ -1,0 +1,90 @@
+2026-10-10 11:05:51,433 INFO stockpicking: Indice S&P 500    -> 503 titoli
+2026-10-10 11:05:51,615 INFO stockpicking: Indice S&P 400    -> 400 titoli
+2026-10-10 11:05:51,671 INFO stockpicking: Indice FTSE MIB   -> 40 titoli
+2026-10-10 11:05:51,743 WARNING stockpicking: Indice DAX non letto: 'int' object is not iterable
+2026-10-10 11:05:51,791 WARNING stockpicking: Indice MDAX non letto: 'int' object is not iterable
+2026-10-10 11:05:51,856 WARNING stockpicking: Indice CAC 40 non letto: 'int' object is not iterable
+2026-10-10 11:05:51,996 WARNING stockpicking: Indice SBF 120 non letto: 'int' object is not iterable
+2026-10-10 11:05:52,064 WARNING stockpicking: Indice AEX non letto: 'int' object is not iterable
+2026-10-10 11:05:52,125 WARNING stockpicking: Indice IBEX 35 non letto: 'int' object is not iterable
+2026-10-10 11:05:52,191 WARNING stockpicking: Indice SMI non letto: 'int' object is not iterable
+2026-10-10 11:05:52,289 WARNING stockpicking: Indice FTSE 100 non letto: 'int' object is not iterable
+2026-10-10 11:05:52,361 WARNING stockpicking: Indice FTSE 250 non letto: 'int' object is not iterable
+2026-10-10 11:05:52,423 WARNING stockpicking: Indice OMXS30 non letto: 'int' object is not iterable
+2026-10-10 11:05:52,488 INFO stockpicking: Indice OMXC25     -> 25 titoli
+2026-10-10 11:05:52,548 WARNING stockpicking: Indice OMXH25 non letto: 'int' object is not iterable
+2026-10-10 11:05:52,617 INFO stockpicking: Indice OBX        -> 25 titoli
+2026-10-10 11:05:52,679 WARNING stockpicking: Indice BEL 20 non letto: 'int' object is not iterable
+2026-10-10 11:05:52,831 WARNING stockpicking: Indice PSI non letto: 'int' object is not iterable
+2026-10-10 11:05:52,968 WARNING stockpicking: Indice ATX non letto: 'int' object is not iterable
+2026-10-10 11:05:53,108 INFO stockpicking: Indice ISEQ 20    -> 20 titoli
+2026-10-10 11:05:53,113 INFO stockpicking: Universo: 1013 titoli ({'USA': 903, 'Europa': 110})
+2026-10-10 11:05:53,488 INFO yfinance: Failed to create TzCache, reason: Error creating TzCache folder: '/home/runner/.cache/py-yfinance' reason: [Errno 17] File exists: '/home/runner/.cache/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2026-10-10 11:05:58,246 INFO stockpicking: Prezzi 1d: 100/1013
+2026-10-10 11:06:05,340 INFO stockpicking: Prezzi 1d: 200/1013
+2026-10-10 11:06:13,044 INFO stockpicking: Prezzi 1d: 300/1013
+2026-10-10 11:06:20,585 INFO stockpicking: Prezzi 1d: 400/1013
+2026-10-10 11:06:28,323 INFO stockpicking: Prezzi 1d: 500/1013
+2026-10-10 11:06:36,722 INFO stockpicking: Prezzi 1d: 600/1013
+2026-10-10 11:06:44,387 INFO stockpicking: Prezzi 1d: 700/1013
+2026-10-10 11:06:51,517 INFO stockpicking: Prezzi 1d: 800/1013
+2026-10-10 11:06:59,782 INFO stockpicking: Prezzi 1d: 900/1013
+2026-10-10 11:07:03,974 ERROR yfinance: HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: NDA.CO"}}}
+2026-10-10 11:07:04,217 ERROR yfinance: $NDA.CO: No data found, symbol may be delisted
+2026-10-10 11:07:05,286 ERROR yfinance: HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: GOGL.OL"}}}
+2026-10-10 11:07:05,511 ERROR yfinance: $GOGL.OL: No data found, symbol may be delisted
+2026-10-10 11:07:06,677 ERROR yfinance: 
+2 Failed downloads:
+2026-10-10 11:07:06,677 ERROR yfinance: ['NDA.CO', 'GOGL.OL']: No data found, symbol may be delisted
+2026-10-10 11:07:06,766 INFO stockpicking: Prezzi 1d: 1000/1013
+2026-10-10 11:07:10,053 ERROR yfinance: $RY4C.IR: No data found, symbol may be delisted
+2026-10-10 11:07:10,056 ERROR yfinance: 
+1 Failed download:
+2026-10-10 11:07:10,057 ERROR yfinance: ['RY4C.IR']: No data found, symbol may be delisted
+2026-10-10 11:07:10,072 INFO stockpicking: Prezzi 1d: 1013/1013
+2026-10-10 11:07:18,006 INFO stockpicking: Prezzi 1wk: 100/1013
+2026-10-10 11:07:25,651 INFO stockpicking: Prezzi 1wk: 200/1013
+2026-10-10 11:07:33,458 INFO stockpicking: Prezzi 1wk: 300/1013
+2026-10-10 11:07:41,650 INFO stockpicking: Prezzi 1wk: 400/1013
+2026-10-10 11:07:49,136 INFO stockpicking: Prezzi 1wk: 500/1013
+2026-10-10 11:07:56,559 INFO stockpicking: Prezzi 1wk: 600/1013
+2026-10-10 11:08:03,992 INFO stockpicking: Prezzi 1wk: 700/1013
+2026-10-10 11:08:12,358 INFO stockpicking: Prezzi 1wk: 800/1013
+2026-10-10 11:08:19,821 INFO stockpicking: Prezzi 1wk: 900/1013
+2026-10-10 11:08:24,111 ERROR yfinance: $NDA.CO: No data found, symbol may be delisted
+2026-10-10 11:08:25,875 ERROR yfinance: $GOGL.OL: No data found, symbol may be delisted
+2026-10-10 11:08:27,462 ERROR yfinance: 
+2 Failed downloads:
+2026-10-10 11:08:27,463 ERROR yfinance: ['NDA.CO', 'GOGL.OL']: No data found, symbol may be delisted
+2026-10-10 11:08:27,522 INFO stockpicking: Prezzi 1wk: 1000/1013
+2026-10-10 11:08:30,407 ERROR yfinance: $RY4C.IR: No data found, symbol may be delisted
+2026-10-10 11:08:30,413 ERROR yfinance: 
+1 Failed download:
+2026-10-10 11:08:30,413 ERROR yfinance: ['RY4C.IR']: No data found, symbol may be delisted
+2026-10-10 11:08:30,429 INFO stockpicking: Prezzi 1wk: 1013/1013
+2026-10-10 11:08:34,295 INFO stockpicking: Prezzi 1wk: 22/22
+2026-10-10 11:08:36,310 INFO stockpicking: Prezzi aggiornati: 1010 titoli con dati giornalieri
+2026-10-10 11:08:36,507 INFO stockpicking: Bilanci da aggiornare: 10 (limite 10)
+2026-10-10 11:08:36,728 ERROR yfinance: HTTP Error 401: {"finance":{"result":null,"error":{"code":"Unauthorized","description":"Invalid Crumb"}}}
+2026-10-10 11:08:36,887 ERROR yfinance: HTTP Error 401: {"finance":{"result":null,"error":{"code":"Unauthorized","description":"User is unable to access this feature - https://bit.ly/yahoo-finance-api-feedback"}}}
+2026-10-10 11:08:37,633 ERROR yfinance: HTTP Error 401: {"finance":{"result":null,"error":{"code":"Unauthorized","description":"Invalid Crumb"}}}
+2026-10-10 11:08:37,805 ERROR yfinance: HTTP Error 401: {"finance":{"result":null,"error":{"code":"Unauthorized","description":"User is unable to access this feature - https://bit.ly/yahoo-finance-api-feedback"}}}
+2026-10-10 11:08:38,489 ERROR yfinance: HTTP Error 401: {"finance":{"result":null,"error":{"code":"Unauthorized","description":"Invalid Crumb"}}}
+2026-10-10 11:08:38,620 ERROR yfinance: HTTP Error 401: {"finance":{"result":null,"error":{"code":"Unauthorized","description":"User is unable to access this feature - https://bit.ly/yahoo-finance-api-feedback"}}}
+2026-10-10 11:08:39,304 ERROR yfinance: HTTP Error 401: {"finance":{"result":null,"error":{"code":"Unauthorized","description":"Invalid Crumb"}}}
+2026-10-10 11:08:39,427 ERROR yfinance: HTTP Error 401: {"finance":{"result":null,"error":{"code":"Unauthorized","description":"User is unable to access this feature - https://bit.ly/yahoo-finance-api-feedback"}}}
+2026-10-10 11:08:40,108 ERROR yfinance: HTTP Error 401: {"finance":{"result":null,"error":{"code":"Unauthorized","description":"Invalid Crumb"}}}
+2026-10-10 11:08:40,232 ERROR yfinance: HTTP Error 401: {"finance":{"result":null,"error":{"code":"Unauthorized","description":"User is unable to access this feature - https://bit.ly/yahoo-finance-api-feedback"}}}
+2026-10-10 11:08:40,916 ERROR yfinance: HTTP Error 401: {"finance":{"result":null,"error":{"code":"Unauthorized","description":"Invalid Crumb"}}}
+2026-10-10 11:08:41,043 ERROR yfinance: HTTP Error 401: {"finance":{"result":null,"error":{"code":"Unauthorized","description":"User is unable to access this feature - https://bit.ly/yahoo-finance-api-feedback"}}}
+2026-10-10 11:08:41,799 ERROR yfinance: HTTP Error 401: {"finance":{"result":null,"error":{"code":"Unauthorized","description":"Invalid Crumb"}}}
+2026-10-10 11:08:41,958 ERROR yfinance: HTTP Error 401: {"finance":{"result":null,"error":{"code":"Unauthorized","description":"User is unable to access this feature - https://bit.ly/yahoo-finance-api-feedback"}}}
+2026-10-10 11:08:42,705 ERROR yfinance: HTTP Error 401: {"finance":{"result":null,"error":{"code":"Unauthorized","description":"Invalid Crumb"}}}
+2026-10-10 11:08:42,867 ERROR yfinance: HTTP Error 401: {"finance":{"result":null,"error":{"code":"Unauthorized","description":"User is unable to access this feature - https://bit.ly/yahoo-finance-api-feedback"}}}
+2026-10-10 11:08:43,670 ERROR yfinance: HTTP Error 401: {"finance":{"result":null,"error":{"code":"Unauthorized","description":"Invalid Crumb"}}}
+2026-10-10 11:08:43,798 ERROR yfinance: HTTP Error 401: {"finance":{"result":null,"error":{"code":"Unauthorized","description":"User is unable to access this feature - https://bit.ly/yahoo-finance-api-feedback"}}}
+2026-10-10 11:08:44,517 ERROR yfinance: HTTP Error 401: {"finance":{"result":null,"error":{"code":"Unauthorized","description":"Invalid Crumb"}}}
+2026-10-10 11:08:44,627 ERROR yfinance: HTTP Error 401: {"finance":{"result":null,"error":{"code":"Unauthorized","description":"User is unable to access this feature - https://bit.ly/yahoo-finance-api-feedback"}}}
+2026-10-10 11:08:45,178 INFO stockpicking: Bilanci aggiornati: 10
+2026-10-10 11:08:46,459 ERROR stockpicking: Nessun titolo con dati: niente da classificare
+2026-10-10 11:08:46,466 INFO stockpicking: Fatto: universe, prices, fundamentals, score
