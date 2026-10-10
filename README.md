@@ -15,7 +15,7 @@ Pesi, soglie e parametri sono tutti in **`config.yaml`**.
 
 ## Esecuzione
 
-Automatica con GitHub Actions (`.github/workflows/update.yml`), dal lunedì al venerdì. I bilanci si aggiornano a lotti (300 titoli per esecuzione, ogni titolo ogni 7 giorni). Avvio manuale: tab *Actions* → *Aggiornamento dati e dashboard* → *Run workflow*.
+Automatica con GitHub Actions (`.github/workflows/update.yml`): prezzi e punteggio ogni giorno lavorativo; il 2 di ogni mese controllo dei bilanci, riscaricati solo per le società che hanno pubblicato un nuovo bilancio annuale (USA: nuovo 10-K alla SEC; Europa: esercizio chiuso da più di 14 mesi). Avvio manuale: tab *Actions* → *Aggiornamento dati e dashboard* → *Run workflow*.
 
 In locale:
 
