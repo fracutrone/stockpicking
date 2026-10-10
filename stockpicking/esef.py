@@ -68,7 +68,10 @@ def find_lei(ticker: str, name: str, country: str) -> str | None:
             return None
     lei = None
     target = _norm(name)
+    base = re.sub(r"\s+", " ", _SUFFIX.sub(" ", name or "")).strip(" ,.")
     searches = [{"filter[entity.legalName]": name}, {"filter[fulltext]": name}]
+    if base and base.lower() != (name or "").lower():
+        searches.append({"filter[fulltext]": base})
     # terza via: ricerca approssimata di GLEIF sul nome
     r = _get("https://api.gleif.org/api/v1/fuzzycompletions", params={"field": "entity.legalName", "q": name})
     fuzzy = []
@@ -79,7 +82,7 @@ def find_lei(ticker: str, name: str, country: str) -> str | None:
                 fuzzy.append(rel["id"])
     tried = []
     for q in searches:
-        params = {**q, "page[size]": 10}
+        params = {**q, "page[size]": 50}
         if country:
             params["filter[entity.legalAddress.country]"] = country
         r = _get("https://api.gleif.org/api/v1/lei-records", **{"params": params})
@@ -89,7 +92,7 @@ def find_lei(ticker: str, name: str, country: str) -> str | None:
         # prima i nomi uguali a quello di Yahoo (senza forma societaria), poi i più corti
         cands.sort(key=lambda x: (_norm(x["attributes"]["entity"]["legalName"]["name"]) != target,
                                   len(x["attributes"]["entity"]["legalName"]["name"])))
-        for c in cands[:5]:
+        for c in cands[:6]:
             tried.append(c["attributes"]["entity"]["legalName"]["name"])
             if _filings(c["id"]):
                 lei = c["id"]
