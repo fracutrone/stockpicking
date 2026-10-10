@@ -92,6 +92,9 @@ def _get_facts(cik: int) -> dict | None:
             r = requests.get(url, headers=HEAD, timeout=60)
             if r.status_code == 404:
                 return None
+            if r.status_code == 403:
+                log.warning("SEC rifiuta la richiesta (403): imposta il secret SEC_USER_AGENT con nome ed email")
+                return None
             r.raise_for_status()
             return r.json()
         except Exception as e:

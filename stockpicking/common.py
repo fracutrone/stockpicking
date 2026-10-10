@@ -24,7 +24,7 @@ log = logging.getLogger("stockpicking")
 def log_to_file(path: Path) -> None:
     """Copia il log in un file (salvato nel repository: i log di GitHub non sono sempre leggibili)."""
     path.parent.mkdir(parents=True, exist_ok=True)
-    h = logging.FileHandler(path, mode="w", encoding="utf-8")
+    h = logging.FileHandler(path, mode="a", encoding="utf-8")
     h.setLevel(logging.INFO)
     h.setFormatter(logging.Formatter("%(asctime)s %(levelname)s %(name)s: %(message)s"))
     logging.getLogger().addHandler(h)

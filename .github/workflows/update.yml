@@ -44,12 +44,18 @@ jobs:
       - name: Esegui il modello
         env:
           SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+          STEPS: ${{ github.event.inputs.steps || 'universe,prices,fundamentals,score' }}
+          LIMIT: ${{ github.event.inputs.limit || '300' }}
         run: |
+          rm -f data/last_run.log
           FORCE=""
           if [ "${{ github.event.inputs.force }}" = "true" ]; then FORCE="--force"; fi
-          python -m stockpicking.run \
-            --steps "${{ github.event.inputs.steps || 'universe,prices,fundamentals,score' }}" \
-            --limit "${{ github.event.inputs.limit || '300' }}" $FORCE
+          # processi separati: Yahoo invalida la sessione dopo i download massivi di prezzi
+          for s in diag universe fundamentals prices score; do
+            case ",$STEPS," in *",$s,"*)
+              python -m stockpicking.run --steps "$s" --limit "$LIMIT" $FORCE ;;
+            esac
+          done
 
       - name: Salva bilanci e universo nel repository
         if: always()
