@@ -47,6 +47,16 @@ def data_quality(rec: dict, cfg: dict) -> dict:
         if g > 2 or g < -0.7:
             notes.append(f"Variazione ricavi anomala nell'ultimo anno ({g:+.0%}): verificare operazioni straordinarie")
 
+    rev_it = items.get("revenue")
+    same_revenue = rev_it is not None and rev_it.get("diff") is not None and rev_it["diff"] <= 0.02
+    if discord and same_revenue:
+        # ricavi identici ma patrimonio/utile diversi: tipico di principi contabili diversi
+        # (es. US GAAP su Yahoo e IFRS nel bilancio europeo), non di un errore nei dati
+        status = "principi diversi"
+        notes.append("Ricavi identici alla fonte ufficiale; le differenze su "
+                     + ", ".join(d.split(":")[0] for d in discord)
+                     + " indicano principi contabili diversi (es. US GAAP vs IFRS)")
+        discord = []
     if discord:
         status = "discordante"
     elif compared >= 2:

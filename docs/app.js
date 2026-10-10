@@ -343,7 +343,7 @@ function card(s) {
   // ---- segnali, controprova, settore, analisti
   const ex = s.exit || [];
   const dq = s.data_quality || {};
-  const dqLab = { verificato: `<span class="good-t">✓ Verificato</span>`, discordante: `<span class="bad-t">✗ Discordante</span>`, "non verificato": `<span class="mid-t">Non verificato</span>` }[dq.status] || "n.d.";
+  const dqLab = { verificato: `<span class="good-t">✓ Verificato</span>`, discordante: `<span class="bad-t">✗ Discordante</span>`, "non verificato": `<span class="mid-t">Non verificato</span>`, "principi diversi": `<span class="mid-t">≈ Principi contabili diversi</span>` }[dq.status] || "n.d.";
   const dqItems = Object.entries(dq.items || {}).map(([k, it]) => {
     const lab = { total_assets: "Attivo", equity: "Patrimonio netto", net_income: "Utile netto", revenue: "Ricavi" }[k] || k;
     return `<div class="mrow"><span>${lab}</span><span class="r">${money(it.yahoo)}</span><span class="r">${money(it.official)}</span><span class="r ${it.diff > 0.1 ? "bad-t" : "good-t"}">${ok(it.diff) ? (it.diff * 100).toFixed(1) + "%" : "–"}</span></div>`;

@@ -213,7 +213,8 @@ def fetch_one(ticker: str, region: str, country: str = "") -> dict | None:
     elif region == "Europa":
         from .esef import official_figures
         try:
-            off = official_figures(ticker, info.get("longName") or info.get("shortName") or "", country)
+            ye = sorted(set().union(*[set((yahoo.get(k) or {}).keys()) for k in CHECK_KEYS]))
+            off = official_figures(ticker, info.get("longName") or info.get("shortName") or "", country, ye)
         except Exception as e:
             log.debug("%s ESEF: %s", ticker, e)
             off = None

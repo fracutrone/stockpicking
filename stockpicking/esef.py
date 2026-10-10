@@ -57,25 +57,36 @@ def _filings(lei: str) -> list[dict]:
 
 
 def find_lei(ticker: str, name: str, country: str) -> str | None:
+    from datetime import date, timedelta
     cache = read_json(LEI_MAP, {}) or {}
-    if ticker in cache:
-        return cache[ticker] or None
+    hit = cache.get(ticker)
+    if isinstance(hit, dict):
+        if hit.get("lei"):
+            return hit["lei"]
+        # ricerca fallita: si riprova dopo 90 giorni
+        if date.fromisoformat(hit.get("date", "2000-01-01")) > date.today() - timedelta(days=90):
+            return None
     lei = None
-    params = {"filter[fulltext]": name, "page[size]": 8}
-    if country:
-        params["filter[entity.legalAddress.country]"] = country
-    r = _get("https://api.gleif.org/api/v1/lei-records", **{"params": params})
-    if r is not None and r.ok:
-        target = _norm(name)
+    target = _norm(name)
+    searches = [{"filter[entity.legalName]": name}, {"filter[fulltext]": name}]
+    for q in searches:
+        params = {**q, "page[size]": 10}
+        if country:
+            params["filter[entity.legalAddress.country]"] = country
+        r = _get("https://api.gleif.org/api/v1/lei-records", **{"params": params})
+        if r is None or not r.ok:
+            continue
         cands = r.json().get("data", [])
-        # prima i nomi più simili a quello di Yahoo
+        # prima i nomi uguali a quello di Yahoo (senza forma societaria), poi i più corti
         cands.sort(key=lambda x: (_norm(x["attributes"]["entity"]["legalName"]["name"]) != target,
                                   len(x["attributes"]["entity"]["legalName"]["name"])))
-        for c in cands[:4]:
+        for c in cands[:5]:
             if _filings(c["id"]):
                 lei = c["id"]
                 break
-    cache[ticker] = lei or ""
+        if lei:
+            break
+    cache[ticker] = {"lei": lei or "", "date": date.today().isoformat()}
     write_json(LEI_MAP, cache)
     return lei
 
@@ -113,12 +124,16 @@ def _next_day(d: str) -> str:
         return d
 
 
-def official_figures(ticker: str, name: str, country: str) -> dict | None:
-    """Voci chiave dell'ultimo bilancio ufficiale depositato, o None se non trovato."""
+def official_figures(ticker: str, name: str, country: str, year_ends: list[str] | None = None) -> dict | None:
+    """Voci chiave dell'ultimo bilancio ANNUALE ufficiale depositato, o None se non trovato.
+    year_ends: date di chiusura degli esercizi note (da Yahoo) per scartare le semestrali."""
     lei = find_lei(ticker, name, country)
     if not lei:
         return None
     fil = [f for f in _filings(lei) if f.get("json_url") and f.get("period_end")]
+    if year_ends:
+        mmdd = {e[5:10] for e in year_ends}
+        fil = [f for f in fil if f["period_end"][5:10] in mmdd]
     if not fil:
         return None
     last = max(fil, key=lambda f: (f["period_end"], f.get("date_added") or ""))
