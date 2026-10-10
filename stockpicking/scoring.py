@@ -37,6 +37,8 @@ def _load_prices():
 def _track(info: dict, cfg: dict, revenue_usd) -> tuple[str, bool]:
     tr = cfg["tracks"]
     ind = info.get("industry") or ""
+    if not ind and not info.get("sector"):
+        return "escluso_nosettore", False
     if any(ind.startswith(p) for p in tr["banca_industry_prefix"]):
         return "banca", False
     if any(ind.startswith(p) for p in tr["assicurazione_industry_prefix"]):
@@ -222,7 +224,9 @@ def score_all() -> None:
         res = {"areas": {}, "components": {}, "flags": [], "status": "classificato", "coverage": None}
         if track not in scorable_tracks:
             res["status"] = "fuori modello"
-            res["flags"] = ["Biotech senza ricavi significativi: valore legato ai trial clinici"]
+            res["flags"] = (["Biotech senza ricavi significativi: valore legato ai trial clinici"]
+                            if track == "escluso_biotech" else
+                            ["Nessuna classificazione settoriale (fondo chiuso o veicolo d'investimento)"])
         elif (0 if pd.isna(r.n_years) else r.n_years) < gen["min_years_scored"]:
             ny = 0 if pd.isna(r.n_years) else int(r.n_years)
             res["status"] = "storico insufficiente"

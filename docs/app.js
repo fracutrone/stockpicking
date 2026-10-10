@@ -4,7 +4,7 @@ const AREAS = [
   ["nucleo", "Nucleo", "var(--a1)"], ["valutazione", "Valutazione", "var(--a2)"], ["moat", "Moat", "var(--a3)"],
   ["macro", "Macro/TAM", "var(--a4)"], ["protezione", "Protezione", "var(--a5)"], ["tecnica", "Tecnica", "var(--a6)"],
 ];
-const TRACKS = { usuale: "Settore usuale", banca: "Banca", assicurazione: "Assicurazione", reit: "REIT", escluso_biotech: "Biotech (fuori modello)" };
+const TRACKS = { usuale: "Settore usuale", banca: "Banca", assicurazione: "Assicurazione", reit: "REIT", escluso_biotech: "Biotech (fuori modello)", escluso_nosettore: "Senza settore (fuori modello)" };
 
 // etichetta, formato
 const L = {

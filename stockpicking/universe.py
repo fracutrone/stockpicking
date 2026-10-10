@@ -24,7 +24,6 @@ INDICES = [
     ("DAX", ".DE", "Europa", "DE", "DAX"),
     ("MDAX", ".DE", "Europa", "DE", "MDAX"),
     ("CAC_40", ".PA", "Europa", "FR", "CAC 40"),
-    ("SBF_120", ".PA", "Europa", "FR", "SBF 120"),
     ("AEX_index", ".AS", "Europa", "NL", "AEX"),
     ("IBEX_35", ".MC", "Europa", "ES", "IBEX 35"),
     ("Swiss_Market_Index", ".SW", "Europa", "CH", "SMI"),
@@ -36,7 +35,6 @@ INDICES = [
     ("OBX_Index", ".OL", "Europa", "NO", "OBX"),
     ("BEL_20", ".BR", "Europa", "BE", "BEL 20"),
     ("PSI-20", ".LS", "Europa", "PT", "PSI"),
-    ("Austrian_Traded_Index", ".VI", "Europa", "AT", "ATX"),
     ("ISEQ_20", ".IR", "Europa", "IE", "ISEQ 20"),
 ]
 

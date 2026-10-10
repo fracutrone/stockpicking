@@ -66,12 +66,22 @@ INSTANT_TAGS = {
 ANNUAL_FORMS = {"10-K", "10-K/A", "10-KT", "10-KT/A"}
 
 
+_CIK_FAILED = [False]
+
+
 def _cik_map() -> dict[str, int]:
+    if _CIK_FAILED[0]:
+        return {}
     path = DATA / "sec_tickers.json"
     cached = read_json(path)
     if cached and cached.get("_date") == date.today().isoformat():
         return cached["map"]
     r = requests.get("https://www.sec.gov/files/company_tickers.json", headers=HEAD, timeout=30)
+    if r.status_code == 403:
+        _CIK_FAILED[0] = True
+        log.warning("SEC rifiuta la richiesta (403): imposta il secret SEC_USER_AGENT con nome ed email. "
+                    "Per ora i bilanci USA vengono solo da Yahoo.")
+        return {}
     r.raise_for_status()
     m = {v["ticker"].upper().replace(".", "-"): int(v["cik_str"]) for v in r.json().values()}
     write_json(path, {"_date": date.today().isoformat(), "map": m}, compact=True)
