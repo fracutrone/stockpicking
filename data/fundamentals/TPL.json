@@ -1,6 +1,6 @@
 {
  "ticker": "TPL",
- "fetched_at": "2026-10-10T12:59:57+00:00",
+ "fetched_at": "2026-10-10T15:57:37+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 114,
   "website": "https://www.texaspacific.com",
-  "longBusinessSummary": "Texas Pacific Land Corporation engages in the land and resource management, and water services and operations businesses. The Land and Resource Management segment manages surface acres of land, and oil and gas royalty interest in Permian Basin. This segment also engages in easements, such as transporting oil, gas and related hydrocarbons, power line and utility, and subsurface wellbore easements. In addition, this segment leases its land for processing, storage, and compression facilities and roads; and is involved in sale of materials, such as caliche, sand, and other material, as well as sells land. The Water Services and Operations segment provides full-service water offerings, including water sourcing, produced-water treatment, infrastructure development, and disposal solutions to operators in the Permian Basin. This segment also holds produced water royalties. The company owns a 1/128th nonparticipating perpetual oil and gas royalty interest (NPRI) under approximately 85,000 acres of land; a 1/16th NPRI under approximately 371,000 acres of land; and approximately 33,000 additional net royalty acres, total of approximately 224,000 NRA located in the Permian Basin. The company was founded in 1888 and is headquartered in Dallas, Texas."
+  "longBusinessSummary": "Texas Pacific Land Corporation engages in the land and resource management, and water services and operations businesses. The Land and Resource Management segment manages surface acres of land, and oil and gas royalty interest in Permian Basin. This segment also engages in easements, such as transporting oil, gas and related hydrocarbons, power line and utility, and subsurface wellbore easements. In addition, this segment leases its land for processing, storage, and compression facilities and roads; and is involved in sale of materials, such as caliche, sand, and other material, as well as sells land. The Water Services and Operations segment provides full-service water offerings, including water sourcing, produced-water treatment, infrastructure development, and disposal solutions to operators in the Permian Basin. This segment also holds produced water royalties. The company owns a 1/128th nonparticipating perpetual oil and gas royalty interest (NPRI) under approximately 85,000 acres of land; a 1/16th NPRI under approximately 371,000 acres of land; and approximately 33,000 additional net royalty acres, total of approximately 224,000 NRA located in the Permian Basin. The company was founded in 1888 and is headquartered in Dallas, Texas.",
+  "targetMeanPrice": 443.0,
+  "targetLowPrice": 247.0,
+  "targetHighPrice": 639.0,
+  "numberOfAnalystOpinions": 2,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 4.936816,
+  "forwardEps": 73.12,
+  "trailingEps": 7.91,
+  "earningsGrowth": 0.327,
+  "revenueGrowth": 0.312
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,38 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 1623278000.0,
+    "official": 1623278000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1458907000.0,
+    "official": 1458907000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 481376000.0,
+    "official": 481376000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 798190000.0,
+    "official": 798190000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:57:37+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -171,7 +212,9 @@
    "goodwill_and_intangibles": 0.0,
    "retained_earnings": 866139000.0,
    "total_debt": 1955000.0,
-   "shares_out": 69261111.0
+   "shares_out": 69261111.0,
+   "normalized_ebitda": 577683000.0,
+   "normalized_income": 446362000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -203,7 +246,9 @@
    "goodwill_and_intangibles": 21025000.0,
    "retained_earnings": 1171672000.0,
    "total_debt": 1170000.0,
-   "shares_out": 69023043.0
+   "shares_out": 69023043.0,
+   "normalized_ebitda": 500810000.0,
+   "normalized_income": 405645000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -235,7 +280,9 @@
    "goodwill_and_intangibles": 35188000.0,
    "retained_earnings": 1277594000.0,
    "total_debt": 453000.0,
-   "shares_out": 68915409.0
+   "shares_out": 68915409.0,
+   "normalized_ebitda": 564300000.0,
+   "normalized_income": 453960000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -267,7 +314,9 @@
    "goodwill_and_intangibles": 32846000.0,
    "retained_earnings": 1595402000.0,
    "total_debt": 16175000.0,
-   "shares_out": 68938230.0
+   "shares_out": 68938230.0,
+   "normalized_ebitda": 673552000.0,
+   "normalized_income": 481376000.0
   }
  ]
 }

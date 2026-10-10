@@ -1,6 +1,6 @@
 {
  "ticker": "AGNC",
- "fetched_at": "2026-10-10T12:36:45+00:00",
+ "fetched_at": "2026-10-10T15:33:49+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 54,
   "website": "https://agnc.com",
-  "longBusinessSummary": "AGNC Investment Corp. provides private capital to housing market in the United States. It invests in residential mortgage pass-through securities and collateralized mortgage obligations for which the principal and interest payments are guaranteed by the United States government-sponsored enterprise or by the United States government agency. The company qualifies as a real estate investment trust for federal income tax purposes. It generally would not be subject to federal or state corporate income taxes if it distributes at least 90% of its taxable income to its stockholders. The company was formerly known as American Capital Agency Corp. and changed its name to AGNC Investment Corp. in September 2016. AGNC Investment Corp. was incorporated in 2008 and is headquartered in Bethesda, Maryland."
+  "longBusinessSummary": "AGNC Investment Corp. provides private capital to housing market in the United States. It invests in residential mortgage pass-through securities and collateralized mortgage obligations for which the principal and interest payments are guaranteed by the United States government-sponsored enterprise or by the United States government agency. The company qualifies as a real estate investment trust for federal income tax purposes. It generally would not be subject to federal or state corporate income taxes if it distributes at least 90% of its taxable income to its stockholders. The company was formerly known as American Capital Agency Corp. and changed its name to AGNC Investment Corp. in September 2016. AGNC Investment Corp. was incorporated in 2008 and is headquartered in Bethesda, Maryland.",
+  "targetMeanPrice": 10.61111,
+  "targetLowPrice": 9.0,
+  "targetHighPrice": 12.0,
+  "numberOfAnalystOpinions": 9,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.71429,
+  "forwardPE": 5.817386,
+  "forwardEps": 1.49036,
+  "trailingEps": 1.96,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "ceo": {
@@ -72,9 +83,33 @@
   "retained_earnings": "sec",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "normalized_income": "yahoo",
   "tax": "sec",
   "intangibles": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 115077000000.0,
+    "official": 115077000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 12393000000.0,
+    "official": 12393000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1670000000.0,
+    "official": 1670000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:33:49+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -95,7 +130,8 @@
    "goodwill_and_intangibles": 526000000.0,
    "retained_earnings": -7284000000.0,
    "total_debt": 95000000.0,
-   "shares_out": 574600000.0
+   "shares_out": 574600000.0,
+   "normalized_income": -1190000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -116,7 +152,8 @@
    "goodwill_and_intangibles": 526000000.0,
    "retained_earnings": -8148000000.0,
    "total_debt": 80000000.0,
-   "shares_out": 694300000.0
+   "shares_out": 694300000.0,
+   "normalized_income": 155000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -137,7 +174,8 @@
    "goodwill_and_intangibles": 526000000.0,
    "retained_earnings": -8554000000.0,
    "total_debt": 64000000.0,
-   "shares_out": 897400000.0
+   "shares_out": 897400000.0,
+   "normalized_income": 863000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -158,7 +196,8 @@
    "goodwill_and_intangibles": 526000000.0,
    "retained_earnings": -8524000000.0,
    "total_debt": 56000000.0,
-   "shares_out": 1107600000.0
+   "shares_out": 1107600000.0,
+   "normalized_income": 1670000000.0
   }
  ]
 }

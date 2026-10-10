@@ -1,6 +1,6 @@
 {
  "ticker": "BEN",
- "fetched_at": "2026-10-10T12:38:51+00:00",
+ "fetched_at": "2026-10-10T15:37:33+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 10100,
   "website": "https://www.franklintempleton.com/corporate",
-  "longBusinessSummary": "Franklin Templeton Inc. is a publicly owned asset investment manager. Through its subsidiaries, the firm provides its services to individuals, institutions, pension plans, trusts, and partnerships. It launches equity, fixed income, balanced, and multi-asset mutual funds through its subsidiaries. The firm invests in the public equity, fixed income, and alternative markets. Franklin Resources, Inc. was founded in 1947 and is based in San Mateo, California with an additional office in Calgary, Alberta; Dubai, United Arab Emirates; Edinburgh, Midlothian; Fort Lauderdale, Florida; Hyderabad, India; London, Greater London; Rancho Cordova, California; Shanghai, Shanghai Province; Singapore; Stamford, Connecticut; and Vienna."
+  "longBusinessSummary": "Franklin Templeton Inc. is a publicly owned asset investment manager. Through its subsidiaries, the firm provides its services to individuals, institutions, pension plans, trusts, and partnerships. It launches equity, fixed income, balanced, and multi-asset mutual funds through its subsidiaries. The firm invests in the public equity, fixed income, and alternative markets. Franklin Resources, Inc. was founded in 1947 and is based in San Mateo, California with an additional office in Calgary, Alberta; Dubai, United Arab Emirates; Edinburgh, Midlothian; Fort Lauderdale, Florida; Hyderabad, India; London, Greater London; Rancho Cordova, California; Shanghai, Shanghai Province; Singapore; Stamford, Connecticut; and Vienna.",
+  "targetMeanPrice": 35.76923,
+  "targetLowPrice": 26.0,
+  "targetHighPrice": 41.0,
+  "numberOfAnalystOpinions": 13,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.61538,
+  "forwardPE": 10.106146,
+  "forwardEps": 3.16639,
+  "trailingEps": 1.47,
+  "earningsGrowth": 1.067,
+  "revenueGrowth": 0.143
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-09-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 32368300000.0,
+    "official": 32368300000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 12077800000.0,
+    "official": 12077800000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 524900000.0,
+    "official": 524900000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 8770700000.0,
+    "official": 8770700000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:37:33+00:00",
  "years": [
   {
    "fy_end": "2019-09-30",
@@ -183,7 +225,10 @@
    "goodwill_and_intangibles": 10860700000.0,
    "retained_earnings": 12045600000.0,
    "total_debt": 3376400000.0,
-   "shares_out": 499575175.0
+   "shares_out": 499575175.0,
+   "unusual_items": -184800000.0,
+   "normalized_ebitda": 2390200000.0,
+   "normalized_income": 1434380800.0
   },
   {
    "fy_end": "2023-09-30",
@@ -216,7 +261,10 @@
    "goodwill_and_intangibles": 10906000000.0,
    "retained_earnings": 12376600000.0,
    "total_debt": 3052800000.0,
-   "shares_out": 495937891.0
+   "shares_out": 495937891.0,
+   "unusual_items": -79900000.0,
+   "normalized_ebitda": 1987000000.0,
+   "normalized_income": 944083300.0
   },
   {
    "fy_end": "2024-09-30",
@@ -249,7 +297,10 @@
    "goodwill_and_intangibles": 11013500000.0,
    "retained_earnings": 11927600000.0,
    "total_debt": 2780300000.0,
-   "shares_out": 523596548.0
+   "shares_out": 523596548.0,
+   "unusual_items": -434600000.0,
+   "normalized_ebitda": 1809700000.0,
+   "normalized_income": 785534800.0
   },
   {
    "fy_end": "2025-09-30",
@@ -282,7 +333,10 @@
    "goodwill_and_intangibles": 10372000000.0,
    "retained_earnings": 11516000000.0,
    "total_debt": 2362000000.0,
-   "shares_out": 520951796.0
+   "shares_out": 520951796.0,
+   "unusual_items": -346500000.0,
+   "normalized_ebitda": 1760000000.0,
+   "normalized_income": 766757000.0
   }
  ]
 }

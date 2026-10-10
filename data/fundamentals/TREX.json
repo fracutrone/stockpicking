@@ -1,6 +1,6 @@
 {
  "ticker": "TREX",
- "fetched_at": "2026-10-10T13:00:01+00:00",
+ "fetched_at": "2026-10-10T15:57:39+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 1839,
   "website": "https://www.trex.com",
-  "longBusinessSummary": "Trex Company, Inc. manufactures and sells composite decking and railing products in the United States. It offers decking products and accessories that can be used for protection against fading, staining, mold, and scratching, including Trex Transcend, which are decking products that can also be used as cladding; Trex Signature; Trex Transcend Lineage; Trex Select; Trex Enhance; Trex Hideaway fastener collection; and Trex DeckLighting, an outdoor lighting system that includes a post cap, deck rail, riser, a soffit, and a recessed deck lights. The company also offers railing products, such as Trex Signature X-Series Railing, Trex Signature aluminum railing, Trex Transcend Railing, Trex Select Railing, Trex Select T-Rail, Trex Enhance Railing; and fencing products, which includes Trex Seclusions that consists of structural posts, bottom rails, pickets, top rails, and decorative post caps. In addition, it acts as a licensor in various licensing agreements with third parties to manufacture and sell products under the Trex name, including Trex Outdoor Furniture; Trex RainEscape, an above joist deck drainage system; Trex Protect joist, beam and rim tape, a self-adhesive butyl tape that protects wooden deck framing/substructure elements; Trex RainEscape Soffit Light, a plug-and-play LED Soffit light that is installed in the under-deck ceiling of a two-story deck; Trex Seal Ledger Flashing Tape, butyl flashing tape with an aluminum liner; Trex Pergola, Pergolas made from low maintenance aluminum  reinforced cellular PVC; Trex Lattice outdoor boards; Trex Cornhole boards; Trex Blade, a specialty saw blade for wood-alternative composite decking; Trex SpiralStairs; and Trex Outdoor Kitchen cabinetry. The company sells its products through wholesale distributors, retail lumber dealers, and Home Depot and Lowe's stores. Trex Company, Inc. was founded in 1996 and is headquartered in Winchester, Virginia."
+  "longBusinessSummary": "Trex Company, Inc. manufactures and sells composite decking and railing products in the United States. It offers decking products and accessories that can be used for protection against fading, staining, mold, and scratching, including Trex Transcend, which are decking products that can also be used as cladding; Trex Signature; Trex Transcend Lineage; Trex Select; Trex Enhance; Trex Hideaway fastener collection; and Trex DeckLighting, an outdoor lighting system that includes a post cap, deck rail, riser, a soffit, and a recessed deck lights. The company also offers railing products, such as Trex Signature X-Series Railing, Trex Signature aluminum railing, Trex Transcend Railing, Trex Select Railing, Trex Select T-Rail, Trex Enhance Railing; and fencing products, which includes Trex Seclusions that consists of structural posts, bottom rails, pickets, top rails, and decorative post caps. In addition, it acts as a licensor in various licensing agreements with third parties to manufacture and sell products under the Trex name, including Trex Outdoor Furniture; Trex RainEscape, an above joist deck drainage system; Trex Protect joist, beam and rim tape, a self-adhesive butyl tape that protects wooden deck framing/substructure elements; Trex RainEscape Soffit Light, a plug-and-play LED Soffit light that is installed in the under-deck ceiling of a two-story deck; Trex Seal Ledger Flashing Tape, butyl flashing tape with an aluminum liner; Trex Pergola, Pergolas made from low maintenance aluminum  reinforced cellular PVC; Trex Lattice outdoor boards; Trex Cornhole boards; Trex Blade, a specialty saw blade for wood-alternative composite decking; Trex SpiralStairs; and Trex Outdoor Kitchen cabinetry. The company sells its products through wholesale distributors, retail lumber dealers, and Home Depot and Lowe's stores. Trex Company, Inc. was founded in 1996 and is headquartered in Winchester, Virginia.",
+  "targetMeanPrice": 55.26316,
+  "targetLowPrice": 42.0,
+  "targetHighPrice": 62.0,
+  "numberOfAnalystOpinions": 19,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.94737,
+  "forwardPE": 22.158993,
+  "forwardEps": 2.02085,
+  "trailingEps": 1.7,
+  "earningsGrowth": -0.152,
+  "revenueGrowth": 0.078
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "retained_earnings": "sec",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "interest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 1453441000.0,
+    "official": 1453441000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1034264000.0,
+    "official": 1034264000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 190415000.0,
+    "official": 190415000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1174267000.0,
+    "official": 1174267000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:57:40+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -166,7 +208,8 @@
    "inventory": 83753000.0,
    "ppe_net": 460365000.0,
    "goodwill": 14216000.0,
-   "retained_earnings": 946048000.0
+   "retained_earnings": 946048000.0,
+   "unusual_items": -45504000.0
   },
   {
    "fy_end": "2022-12-31",
@@ -197,7 +240,10 @@
    "goodwill_and_intangibles": 18582000.0,
    "retained_earnings": 1130674000.0,
    "total_debt": 253462000.0,
-   "shares_out": 108743423.0
+   "shares_out": 108743423.0,
+   "unusual_items": -15423000.0,
+   "normalized_ebitda": 321879000.0,
+   "normalized_income": 196161852.656398
   },
   {
    "fy_end": "2023-12-31",
@@ -228,7 +274,10 @@
    "goodwill_and_intangibles": 18163000.0,
    "retained_earnings": 1336058000.0,
    "total_debt": 32003000.0,
-   "shares_out": 108611537.0
+   "shares_out": 108611537.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 324781000.0,
+   "normalized_income": 204119000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -261,7 +310,10 @@
    "goodwill_and_intangibles": 22048000.0,
    "retained_earnings": 1599432000.0,
    "total_debt": 255379000.0,
-   "shares_out": 107154305.0
+   "shares_out": 107154305.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 376573000.0,
+   "normalized_income": 238446000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -294,7 +346,9 @@
    "goodwill_and_intangibles": 31529000.0,
    "retained_earnings": 1789847000.0,
    "total_debt": 187334000.0,
-   "shares_out": 105737266.0
+   "shares_out": 105737266.0,
+   "normalized_ebitda": 320918000.0,
+   "normalized_income": 190415000.0
   }
  ]
 }

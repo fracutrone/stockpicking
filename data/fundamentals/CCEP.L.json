@@ -1,6 +1,6 @@
 {
  "ticker": "CCEP.L",
- "fetched_at": "2026-10-10T11:49:58+00:00",
+ "fetched_at": "2026-10-10T14:39:14+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 37003,
   "website": "https://www.cocacolaep.com",
-  "longBusinessSummary": "Coca-Cola Europacific Partners PLC, together with its subsidiaries, produces, distributes, and sells a range of non-alcoholic ready-to-drink beverages. It offers flavours, mixers, energy drinks, soft drinks, water, enhanced water, isotonic drinks, tea and coffee, juices, and other drinks. The company provides its products under the Coca-Cola Original Taste, Coca-Cola Zero Sugar, Diet Coke, Sprite, Sprite Zero Sugar, Fanta, Fanta Zero Sugar, Monster Energy, A&W, Absolut Vodka & SPRITE, Ades, Appletiser, aquaBona, Aquarius, BACARDÍ Mixed with Coca Cola RTD, Barista Bros, Bonaqua, BURN, Deep Spring, Dr Pepper, Dr Pepper Zero Sugar, Feral Brewing Co, Fuze Tea, Giancarlo Coffee, GLACEAU smartwater, Grinders, HALO, Jack Daniel's & Coca-Cola ready-to-drink, Kristal, L&P, MER, Minute Maid, Mother, Mount Franklin, Nordic Mist, Nutriboost, Oasis, Pulpy, pump, pumped, Reign, Rekorderlig Cider, Relentless, Royal, Royal Bliss, Schweppes, Schweppes Mix, SOCO, URGE, Vilas del Turbón, Voyage, Wilkins Pure, and Zephyr Coffee Co brands. It is also involved in the bottling and other operations. The company was formerly known as Coca-Cola European Partners plc and changed its name to Coca-Cola Europacific Partners PLC in May 2021. The company was founded in 1904 and is based in Uxbridge, United Kingdom."
+  "longBusinessSummary": "Coca-Cola Europacific Partners PLC, together with its subsidiaries, produces, distributes, and sells a range of non-alcoholic ready-to-drink beverages. It offers flavours, mixers, energy drinks, soft drinks, water, enhanced water, isotonic drinks, tea and coffee, juices, and other drinks. The company provides its products under the Coca-Cola Original Taste, Coca-Cola Zero Sugar, Diet Coke, Sprite, Sprite Zero Sugar, Fanta, Fanta Zero Sugar, Monster Energy, A&W, Absolut Vodka & SPRITE, Ades, Appletiser, aquaBona, Aquarius, BACARDÍ Mixed with Coca Cola RTD, Barista Bros, Bonaqua, BURN, Deep Spring, Dr Pepper, Dr Pepper Zero Sugar, Feral Brewing Co, Fuze Tea, Giancarlo Coffee, GLACEAU smartwater, Grinders, HALO, Jack Daniel's & Coca-Cola ready-to-drink, Kristal, L&P, MER, Minute Maid, Mother, Mount Franklin, Nordic Mist, Nutriboost, Oasis, Pulpy, pump, pumped, Reign, Rekorderlig Cider, Relentless, Royal, Royal Bliss, Schweppes, Schweppes Mix, SOCO, URGE, Vilas del Turbón, Voyage, Wilkins Pure, and Zephyr Coffee Co brands. It is also involved in the bottling and other operations. The company was formerly known as Coca-Cola European Partners plc and changed its name to Coca-Cola Europacific Partners PLC in May 2021. The company was founded in 1904 and is based in Uxbridge, United Kingdom.",
+  "targetMeanPrice": 7859.2275,
+  "targetLowPrice": 6831.4336,
+  "targetHighPrice": 8662.696,
+  "numberOfAnalystOpinions": 5,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.0,
+  "forwardPE": 18.643042,
+  "forwardEps": 4.224096,
+  "trailingEps": 3.86,
+  "earningsGrowth": 0.09,
+  "revenueGrowth": 0.044
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF NL",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 29872000000.0,
+    "official": 29872000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 7835000000.0,
+    "official": 7835000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1942000000.0,
+    "official": 1942000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 20901000000.0,
+    "official": 20901000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:39:14+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -121,7 +164,10 @@
    "goodwill_and_intangibles": 17105000000.0,
    "retained_earnings": 7428000000.0,
    "total_debt": 11907000000.0,
-   "shares_out": 457106453.0
+   "shares_out": 457106453.0,
+   "unusual_items": -147000000.0,
+   "normalized_ebitda": 3082000000.0,
+   "normalized_income": 1622219000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -156,7 +202,10 @@
    "goodwill_and_intangibles": 16909000000.0,
    "retained_earnings": 8231000000.0,
    "total_debt": 11396000000.0,
-   "shares_out": 459200818.0
+   "shares_out": 459200818.0,
+   "unusual_items": 10000000.0,
+   "normalized_ebitda": 3147000000.0,
+   "normalized_income": 1661420000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -191,7 +240,10 @@
    "goodwill_and_intangibles": 17436000000.0,
    "retained_earnings": 8802000000.0,
    "total_debt": 11331000000.0,
-   "shares_out": 460854493.0
+   "shares_out": 460854493.0,
+   "unusual_items": -403000000.0,
+   "normalized_ebitda": 3514000000.0,
+   "normalized_income": 1718584710.743802
   },
   {
    "fy_end": "2025-12-31",
@@ -226,7 +278,10 @@
    "goodwill_and_intangibles": 17026000000.0,
    "retained_earnings": 8820000000.0,
    "total_debt": 10694000000.0,
-   "shares_out": 448645963.0
+   "shares_out": 448645963.0,
+   "unusual_items": 1000000.0,
+   "normalized_ebitda": 3765000000.0,
+   "normalized_income": 1941229661.346828
   }
  ]
 }

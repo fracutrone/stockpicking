@@ -1,6 +1,6 @@
 {
  "ticker": "ARWR",
- "fetched_at": "2026-10-10T12:38:03+00:00",
+ "fetched_at": "2026-10-10T15:35:01+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 711,
   "website": "https://arrowheadpharma.com",
-  "longBusinessSummary": "Arrowhead Pharmaceuticals, Inc. develops medicines for the treatment of intractable diseases in the United States. Its pipeline includes Plozasiran to reduce production of apolipoprotein C-III in Phase 3 studies; Zodasiran to reduce production of angiopoietin-like protein 3 in Phase 3 clinical trials; ARO-DIMER-PA, a dual functional RNAi molecule in a Phase 1/2a clinical trials; and ARO-PNPLA3, an investigational RNAi therapeutic in Phase 1 clinical trials. The company also develops ARO-INHBE, to reduce the hepatic expression of the INHBE gene and its secreted gene product, Activin E in Phase 1/2a clinical trials; ARO-ALK7 to silence adipocyte expression of the ACVR1C gene in Phase 1/2a clinical trials; ARO-RAGE to reduce production of the receptor for advanced glycation end products in Phase 1/2a clinical trials; and ARO-MAPT, an investigational RNAi-based therapy. In addition, it is developing ARO-C3 to reduce production of C3 in Phase 1/2a clinical trials; and ARO-CFB to reduce hepatic expression of CFB in a Phase 1/2a clinical trials. The company has collaboration and license Agreements with Glaxosmithkline Intellectual Property (No. 3) Limited; Takeda Pharmaceutical Company Limited; Amgen Inc.; and Sarepta Therapeutics, Inc. Arrowhead Pharmaceuticals, Inc. was founded in 2003 and is headquartered in Pasadena, California."
+  "longBusinessSummary": "Arrowhead Pharmaceuticals, Inc. develops medicines for the treatment of intractable diseases in the United States. Its pipeline includes Plozasiran to reduce production of apolipoprotein C-III in Phase 3 studies; Zodasiran to reduce production of angiopoietin-like protein 3 in Phase 3 clinical trials; ARO-DIMER-PA, a dual functional RNAi molecule in a Phase 1/2a clinical trials; and ARO-PNPLA3, an investigational RNAi therapeutic in Phase 1 clinical trials. The company also develops ARO-INHBE, to reduce the hepatic expression of the INHBE gene and its secreted gene product, Activin E in Phase 1/2a clinical trials; ARO-ALK7 to silence adipocyte expression of the ACVR1C gene in Phase 1/2a clinical trials; ARO-RAGE to reduce production of the receptor for advanced glycation end products in Phase 1/2a clinical trials; and ARO-MAPT, an investigational RNAi-based therapy. In addition, it is developing ARO-C3 to reduce production of C3 in Phase 1/2a clinical trials; and ARO-CFB to reduce hepatic expression of CFB in a Phase 1/2a clinical trials. The company has collaboration and license Agreements with Glaxosmithkline Intellectual Property (No. 3) Limited; Takeda Pharmaceutical Company Limited; Amgen Inc.; and Sarepta Therapeutics, Inc. Arrowhead Pharmaceuticals, Inc. was founded in 2003 and is headquartered in Pasadena, California.",
+  "targetMeanPrice": 107.23077,
+  "targetLowPrice": 74.0,
+  "targetHighPrice": 126.0,
+  "numberOfAnalystOpinions": 13,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.42857,
+  "forwardPE": -12.725588,
+  "forwardEps": -4.93101,
+  "trailingEps": -2.28,
+  "earningsGrowth": null,
+  "revenueGrowth": 1.71
  },
  "governance": {
   "ceo": {
@@ -81,8 +92,38 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-09-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 1385295000.0,
+    "official": 1385295000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 466052000.0,
+    "official": 466052000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -1631000.0,
+    "official": -1631000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 829448000.0,
+    "official": 829448000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:35:02+00:00",
  "years": [
   {
    "fy_end": "2019-09-30",
@@ -177,7 +218,9 @@
    "goodwill_and_intangibles": 11962000.0,
    "retained_earnings": -820755000.0,
    "total_debt": 81576000.0,
-   "shares_out": 105960000.0
+   "shares_out": 105960000.0,
+   "normalized_ebitda": -162288000.0,
+   "normalized_income": -176063000.0
   },
   {
    "fy_end": "2023-09-30",
@@ -208,7 +251,9 @@
    "goodwill_and_intangibles": 10262000.0,
    "retained_earnings": -1026030000.0,
    "total_debt": 115171000.0,
-   "shares_out": 107312000.0
+   "shares_out": 107312000.0,
+   "normalized_ebitda": -175672000.0,
+   "normalized_income": -205275000.0
   },
   {
    "fy_end": "2024-09-30",
@@ -239,7 +284,9 @@
    "goodwill_and_intangibles": 8562000.0,
    "retained_earnings": -1625523000.0,
    "total_debt": 510552000.0,
-   "shares_out": 124376000.0
+   "shares_out": 124376000.0,
+   "normalized_ebitda": -561513000.0,
+   "normalized_income": -599493000.0
   },
   {
    "fy_end": "2025-09-30",
@@ -270,7 +317,9 @@
    "goodwill_and_intangibles": 6861000.0,
    "retained_earnings": -1627154000.0,
    "total_debt": 366284000.0,
-   "shares_out": 135701794.0
+   "shares_out": 135701794.0,
+   "normalized_ebitda": 164822000.0,
+   "normalized_income": -1631000.0
   }
  ]
 }

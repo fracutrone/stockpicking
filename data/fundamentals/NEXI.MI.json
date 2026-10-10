@@ -1,6 +1,6 @@
 {
  "ticker": "NEXI.MI",
- "fetched_at": "2026-10-10T12:10:55+00:00",
+ "fetched_at": "2026-10-10T15:08:13+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "MIL",
   "fullTimeEmployees": 9595,
   "website": "https://www.nexigroup.com",
-  "longBusinessSummary": "Nexi S.p.A. provides electronic money and payment services to banks, small and medium-sized enterprises, large international corporations, institutions, and public administrations in Italy, Nordics and Baltics, Germany, Austria, Switzerland, Poland, Southeast Europe, and internationally. The company offers payment processing and acceptance services; configuration, activation, and maintenance of Point of Sales terminals; fraud prevention services; and dispute management services, as well as customer support and value-added services. It also provides various issuing services, such as issue, supply, and management of private and corporate payment cards; payment tracking and the production of monthly statements, data analysis and price-setting support services, customer service, and dispute management, as well as communication and customer development services; installation and management of Automated Teller Machines; clearing services; and digital banking services for the management of current accounts and payments. In addition, the company offers applications for invoice management and storage, prepaid card reloading, bill payments, and postal payments. The company was founded in 1939 and is based in Milan, Italy."
+  "longBusinessSummary": "Nexi S.p.A. provides electronic money and payment services to banks, small and medium-sized enterprises, large international corporations, institutions, and public administrations in Italy, Nordics and Baltics, Germany, Austria, Switzerland, Poland, Southeast Europe, and internationally. The company offers payment processing and acceptance services; configuration, activation, and maintenance of Point of Sales terminals; fraud prevention services; and dispute management services, as well as customer support and value-added services. It also provides various issuing services, such as issue, supply, and management of private and corporate payment cards; payment tracking and the production of monthly statements, data analysis and price-setting support services, customer service, and dispute management, as well as communication and customer development services; installation and management of Automated Teller Machines; clearing services; and digital banking services for the management of current accounts and payments. In addition, the company offers applications for invoice management and storage, prepaid card reloading, bill payments, and postal payments. The company was founded in 1939 and is based in Milan, Italy.",
+  "targetMeanPrice": 4.08812,
+  "targetLowPrice": 2.6,
+  "targetHighPrice": 6.0,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.875,
+  "forwardPE": 6.337147,
+  "forwardEps": 0.66339,
+  "trailingEps": -2.8,
+  "earningsGrowth": 0.303,
+  "revenueGrowth": 0.016
  },
  "governance": {
   "ceo": {
@@ -77,8 +88,35 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF IT",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 24496000000.0,
+    "official": 24495318000.0,
+    "diff": 2.8e-05
+   },
+   "equity": {
+    "yahoo": 10934000000.0,
+    "official": 10956948000.0,
+    "diff": 0.002094
+   },
+   "net_income": {
+    "yahoo": 167000000.0,
+    "official": 167361000.0,
+    "diff": 0.002157
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T15:08:13+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -111,7 +149,10 @@
    "goodwill_and_intangibles": 18052180000.0,
    "retained_earnings": 138995000.0,
    "total_debt": 9650822000.0,
-   "shares_out": 1311359791.0
+   "shares_out": 1311359791.0,
+   "unusual_items": -7127000.0,
+   "normalized_ebitda": 1370758000.0,
+   "normalized_income": 96705520.0
   },
   {
    "fy_end": "2023-12-31",
@@ -144,7 +185,10 @@
    "goodwill_and_intangibles": 16584054000.0,
    "retained_earnings": -1005989000.0,
    "total_debt": 11095636000.0,
-   "shares_out": 1311606357.0
+   "shares_out": 1311606357.0,
+   "unusual_items": -97548000.0,
+   "normalized_ebitda": 1713384000.0,
+   "normalized_income": -953008520.0
   },
   {
    "fy_end": "2024-12-31",
@@ -179,7 +223,10 @@
    "goodwill_and_intangibles": 16167000000.0,
    "retained_earnings": 167000000.0,
    "total_debt": 2796000000.0,
-   "shares_out": 1229359217.0
+   "shares_out": 1229359217.0,
+   "unusual_items": 14000000.0,
+   "normalized_ebitda": 1570000000.0,
+   "normalized_income": 175360000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -213,7 +260,10 @@
    "goodwill_and_intangibles": 12228000000.0,
    "retained_earnings": -3377000000.0,
    "total_debt": 6722000000.0,
-   "shares_out": 1172053696.0
+   "shares_out": 1172053696.0,
+   "unusual_items": -72000000.0,
+   "normalized_ebitda": -1917000000.0,
+   "normalized_income": 3115800000.0
   }
  ]
 }

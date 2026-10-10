@@ -1,6 +1,6 @@
 {
  "ticker": "ITH.L",
- "fetched_at": "2026-10-10T12:04:10+00:00",
+ "fetched_at": "2026-10-10T14:58:49+00:00",
  "region": "Europa",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 658,
   "website": "https://www.ithacaenergy.com",
-  "longBusinessSummary": "Ithaca Energy plc, together with its subsidiaries, engages in the development and production of oil and gas in the North Sea. It owns a portfolio of assets located in the Northern, Central, and Southern North Sea, as well as West of Shetland and the Moray Firth areas of the UK Continental Shelf. The company was formerly known as Delek North Sea Limited and changed its name to Ithaca Energy plc in October 2022. The company was incorporated in 2004 and is based in London, the United Kingdom. Ithaca Energy plc operates as a subsidiary of DKL Energy Limited."
+  "longBusinessSummary": "Ithaca Energy plc, together with its subsidiaries, engages in the development and production of oil and gas in the North Sea. It owns a portfolio of assets located in the Northern, Central, and Southern North Sea, as well as West of Shetland and the Moray Firth areas of the UK Continental Shelf. The company was formerly known as Delek North Sea Limited and changed its name to Ithaca Energy plc in October 2022. The company was incorporated in 2004 and is based in London, the United Kingdom. Ithaca Energy plc operates as a subsidiary of DKL Energy Limited.",
+  "targetMeanPrice": 308.95325,
+  "targetLowPrice": 249.73901,
+  "targetHighPrice": 349.90286,
+  "numberOfAnalystOpinions": 9,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.77778,
+  "forwardPE": 13.449162,
+  "forwardEps": 0.212207,
+  "trailingEps": 0.12,
+  "earningsGrowth": 0.444,
+  "revenueGrowth": 0.087
  },
  "governance": {
   "ceo": {
@@ -70,8 +81,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 8447000000.0,
+    "official": 8447000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2571800000.0,
+    "official": 2571800000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -84100000.0,
+    "official": -84100000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2946500000.0,
+    "official": 2900200000.0,
+    "diff": 0.015964
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:58:49+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -105,7 +148,10 @@
    "goodwill_and_intangibles": 783848000.0,
    "retained_earnings": 1945465000.0,
    "total_debt": 1272589000.0,
-   "shares_out": 1006564976.0
+   "shares_out": 1006564976.0,
+   "unusual_items": -81278000.0,
+   "normalized_ebitda": 3126384000.0,
+   "normalized_income": -1319292330.0
   },
   {
    "fy_end": "2023-12-31",
@@ -139,7 +185,10 @@
    "goodwill_and_intangibles": 783848000.0,
    "retained_earnings": 1972047000.0,
    "total_debt": 768709000.0,
-   "shares_out": 1006186251.0
+   "shares_out": 1006186251.0,
+   "unusual_items": -472817000.0,
+   "normalized_ebitda": 1624198000.0,
+   "normalized_income": 750541215.109907
   },
   {
    "fy_end": "2024-12-31",
@@ -173,7 +222,10 @@
    "goodwill_and_intangibles": 1129500000.0,
    "retained_earnings": 1692500000.0,
    "total_debt": 1065000000.0,
-   "shares_out": 1647406537.0
+   "shares_out": 1647406537.0,
+   "unusual_items": -246800000.0,
+   "normalized_ebitda": 1285800000.0,
+   "normalized_income": 338200000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -207,7 +259,10 @@
    "goodwill_and_intangibles": 1338800000.0,
    "retained_earnings": 1110700000.0,
    "total_debt": 1534000000.0,
-   "shares_out": 1650599943.0
+   "shares_out": 1650599943.0,
+   "unusual_items": -86100000.0,
+   "normalized_ebitda": 1895000000.0,
+   "normalized_income": -19525000.0
   }
  ]
 }

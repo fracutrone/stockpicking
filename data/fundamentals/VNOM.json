@@ -1,6 +1,6 @@
 {
  "ticker": "VNOM",
- "fetched_at": "2026-10-10T13:01:35+00:00",
+ "fetched_at": "2026-10-10T15:59:04+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": null,
   "website": "https://www.viperenergy.com",
-  "longBusinessSummary": "Viper Energy, Inc. owns, acquires, and exploits oil and natural gas properties in North America. It focuses on owning and acquiring mineral and royalty interests in the Permian Basin. Viper Energy, Inc. was formerly known as Viper Energy Partners LP and changed its name to Viper Energy, Inc. in November 2023. Viper Energy, Inc. was founded in 2013 and is based in Midland, Texas. Viper Energy, Inc. operates as a subsidiary of Diamondback Energy, Inc."
+  "longBusinessSummary": "Viper Energy, Inc. owns, acquires, and exploits oil and natural gas properties in North America. It focuses on owning and acquiring mineral and royalty interests in the Permian Basin. Viper Energy, Inc. was formerly known as Viper Energy Partners LP and changed its name to Viper Energy, Inc. in November 2023. Viper Energy, Inc. was founded in 2013 and is based in Midland, Texas. Viper Energy, Inc. operates as a subsidiary of Diamondback Energy, Inc.",
+  "targetMeanPrice": 54.8,
+  "targetLowPrice": 45.0,
+  "targetHighPrice": 65.0,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.25,
+  "forwardPE": 17.046604,
+  "forwardEps": 2.52191,
+  "trailingEps": 0.02,
+  "earningsGrowth": 1.607,
+  "revenueGrowth": 1.152
  },
  "governance": {
   "ceo": {
@@ -80,8 +91,39 @@
   "ppe_net": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 12671000000.0,
+    "official": 12671000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4448000000.0,
+    "official": 4448000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -68000000.0,
+    "official": -68000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1394000000.0,
+    "official": 1395000000.0,
+    "diff": 0.000717
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:59:04+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -111,7 +153,10 @@
    "ppe_net": 2750273000.0,
    "retained_earnings": 0.0,
    "total_debt": 576895000.0,
-   "shares_out": 73229645.0
+   "shares_out": 73229645.0,
+   "unusual_items": -18138000.0,
+   "normalized_ebitda": 801554000.0,
+   "normalized_income": 166002020.0
   },
   {
    "fy_end": "2023-12-31",
@@ -141,7 +186,10 @@
    "ppe_net": 3768319000.0,
    "retained_earnings": -16786000.0,
    "total_debt": 1083082000.0,
-   "shares_out": 86144273.0
+   "shares_out": 86144273.0,
+   "unusual_items": -26000000.0,
+   "normalized_ebitda": 767000000.0,
+   "normalized_income": 223920000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -171,7 +219,10 @@
    "ppe_net": 4638000000.0,
    "retained_earnings": 118000000.0,
    "total_debt": 1083000000.0,
-   "shares_out": 102977142.0
+   "shares_out": 102977142.0,
+   "unusual_items": 11000000.0,
+   "normalized_ebitda": 781000000.0,
+   "normalized_income": 350310000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -201,7 +252,10 @@
    "ppe_net": 12209000000.0,
    "retained_earnings": -278000000.0,
    "total_debt": 2186000000.0,
-   "shares_out": 170942687.0
+   "shares_out": 170942687.0,
+   "unusual_items": -756000000.0,
+   "normalized_ebitda": 1241000000.0,
+   "normalized_income": 627520000.0
   }
  ]
 }

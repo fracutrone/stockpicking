@@ -1,6 +1,6 @@
 {
  "ticker": "CASY",
- "fetched_at": "2026-10-10T12:39:54+00:00",
+ "fetched_at": "2026-10-10T15:38:46+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 23490,
   "website": "https://www.caseys.com",
-  "longBusinessSummary": "Casey's General Stores, Inc., together with its subsidiaries, operates convenience stores under the Casey's and Casey's General Store names in the United States. Its stores offer pizza, donuts, hot breakfast items, and sandwiches; and beverages, tobacco and nicotine products. The company's stores also provide soft drinks, energy, water, sports drinks, juices, coffee, and tea and dairy products; beer, wine, and spirits; snacks, candy, packaged bakery, and other food items; ice, ice cream, meals, and appetizers; health and beauty aids, automotive products, electronic accessories, and housewares. In addition, its stores offer motor fuel for sale on a self-service basis; gasoline and diesel fuel; and ATM, lotto/lottery, and prepaid cards, as well as car wash services. The company also operates distribution centers. Casey's General Stores, Inc. was founded in 1959 and is headquartered in Ankeny, Iowa."
+  "longBusinessSummary": "Casey's General Stores, Inc., together with its subsidiaries, operates convenience stores under the Casey's and Casey's General Store names in the United States. Its stores offer pizza, donuts, hot breakfast items, and sandwiches; and beverages, tobacco and nicotine products. The company's stores also provide soft drinks, energy, water, sports drinks, juices, coffee, and tea and dairy products; beer, wine, and spirits; snacks, candy, packaged bakery, and other food items; ice, ice cream, meals, and appetizers; health and beauty aids, automotive products, electronic accessories, and housewares. In addition, its stores offer motor fuel for sale on a self-service basis; gasoline and diesel fuel; and ATM, lotto/lottery, and prepaid cards, as well as car wash services. The company also operates distribution centers. Casey's General Stores, Inc. was founded in 1959 and is headquartered in Ankeny, Iowa.",
+  "targetMeanPrice": 790.5263,
+  "targetLowPrice": 687.0,
+  "targetHighPrice": 933.0,
+  "numberOfAnalystOpinions": 19,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.6,
+  "forwardPE": 27.556011,
+  "forwardEps": 23.45296,
+  "trailingEps": 20.76,
+  "earningsGrowth": 0.277,
+  "revenueGrowth": 0.243
  },
  "governance": {
   "ceo": {
@@ -82,8 +93,38 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "interest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-04-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 8936055000.0,
+    "official": 8936055000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3951719000.0,
+    "official": 3951719000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 714448000.0,
+    "official": 714448000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 17561101000.0,
+    "official": 17561101000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:38:46+00:00",
  "years": [
   {
    "fy_end": "2020-04-30",
@@ -181,7 +222,9 @@
    "goodwill_and_intangibles": 615342000.0,
    "retained_earnings": 2550629000.0,
    "total_debt": 1580000000.0,
-   "shares_out": 37263248.0
+   "shares_out": 37263248.0,
+   "normalized_ebitda": 952464000.0,
+   "normalized_income": 446691000.0
   },
   {
    "fy_end": "2024-04-30",
@@ -213,7 +256,9 @@
    "goodwill_and_intangibles": 652663000.0,
    "retained_earnings": 2987928000.0,
    "total_debt": 1535500000.0,
-   "shares_out": 37008488.0
+   "shares_out": 37008488.0,
+   "normalized_ebitda": 1059398000.0,
+   "normalized_income": 501972000.0
   },
   {
    "fy_end": "2025-04-30",
@@ -245,7 +290,9 @@
    "goodwill_and_intangibles": 1244893000.0,
    "retained_earnings": 3459065000.0,
    "total_debt": 2405375000.0,
-   "shares_out": 37119083.0
+   "shares_out": 37119083.0,
+   "normalized_ebitda": 1200047000.0,
+   "normalized_income": 546520000.0
   },
   {
    "fy_end": "2026-04-30",
@@ -277,7 +324,9 @@
    "goodwill_and_intangibles": 1268686000.0,
    "retained_earnings": 3951719000.0,
    "total_debt": 2320875000.0,
-   "shares_out": 36904285.0
+   "shares_out": 36904285.0,
+   "normalized_ebitda": 1483615000.0,
+   "normalized_income": 714448000.0
   }
  ]
 }

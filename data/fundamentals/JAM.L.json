@@ -1,6 +1,6 @@
 {
  "ticker": "JAM.L",
- "fetched_at": "2026-10-10T12:04:26+00:00",
+ "fetched_at": "2026-10-10T14:59:11+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -49,8 +60,15 @@
   "equity": "yahoo",
   "receivables": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T14:59:11+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -70,7 +88,8 @@
    "equity": 1304083000.0,
    "receivables": 938000.0,
    "total_debt": 111861000.0,
-   "shares_out": 188917810.0
+   "shares_out": 188917810.0,
+   "normalized_income": -143587000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -90,7 +109,8 @@
    "equity": 1563999000.0,
    "receivables": 768000.0,
    "total_debt": 78139000.0,
-   "shares_out": 182603216.0
+   "shares_out": 182603216.0,
+   "normalized_income": 318316000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -110,7 +130,8 @@
    "equity": 1987845000.0,
    "receivables": 600000.0,
    "total_debt": 79577000.0,
-   "shares_out": 179095954.0
+   "shares_out": 179095954.0,
+   "normalized_income": 471817000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -130,7 +151,8 @@
    "equity": 1949863000.0,
    "receivables": 3177000.0,
    "total_debt": 103870000.0,
-   "shares_out": 169585853.0
+   "shares_out": 169585853.0,
+   "normalized_income": 81499000.0
   }
  ]
 }

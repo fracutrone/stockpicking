@@ -1,6 +1,6 @@
 {
  "ticker": "AR",
- "fetched_at": "2026-10-10T12:37:55+00:00",
+ "fetched_at": "2026-10-10T15:34:53+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 632,
   "website": "https://www.anteroresources.com",
-  "longBusinessSummary": "Antero Resources Corporation, an independent oil and natural gas company, engages in the development, production, exploration, and acquisition of natural gas, natural gas liquids (NGLs), and oil properties in the United States. It operates in three segments: Exploration and Production; Marketing; and Equity Method Investment in Antero Midstream. As of December 31, 2025, the company had approximately 537,000 net acres in the Appalachian Basin; and approximately 168,000 net acres in the Upper Devonian Shale. Its gathering and compression systems also comprise 731 miles of gas gathering pipelines in the Appalachian Basin. The company was formerly known as Antero Resources Appalachian Corporation and changed its name to Antero Resources Corporation in June 2013. Antero Resources Corporation was incorporated in 2002 and is headquartered in Denver, Colorado."
+  "longBusinessSummary": "Antero Resources Corporation, an independent oil and natural gas company, engages in the development, production, exploration, and acquisition of natural gas, natural gas liquids (NGLs), and oil properties in the United States. It operates in three segments: Exploration and Production; Marketing; and Equity Method Investment in Antero Midstream. As of December 31, 2025, the company had approximately 537,000 net acres in the Appalachian Basin; and approximately 168,000 net acres in the Upper Devonian Shale. Its gathering and compression systems also comprise 731 miles of gas gathering pipelines in the Appalachian Basin. The company was formerly known as Antero Resources Appalachian Corporation and changed its name to Antero Resources Corporation in June 2013. Antero Resources Corporation was incorporated in 2002 and is headquartered in Denver, Colorado.",
+  "targetMeanPrice": 49.14286,
+  "targetLowPrice": 37.0,
+  "targetHighPrice": 57.0,
+  "numberOfAnalystOpinions": 21,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.7619,
+  "forwardPE": 8.182038,
+  "forwardEps": 4.38766,
+  "trailingEps": 3.48,
+  "earningsGrowth": 0.799,
+  "revenueGrowth": 0.126
  },
  "governance": {
   "ceo": {
@@ -80,8 +91,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "cash": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 13245407000.0,
+    "official": 13245407000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 7550827000.0,
+    "official": 7550827000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 634418000.0,
+    "official": 674567000.0,
+    "diff": 0.059518
+   },
+   "revenue": {
+    "yahoo": 5013610000.0,
+    "official": 5275823000.0,
+    "diff": 0.049701
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:34:53+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -171,7 +213,10 @@
    "ppe_net": 13083135000.0,
    "retained_earnings": 913896000.0,
    "total_debt": 1183476000.0,
-   "shares_out": 297359000.0
+   "shares_out": 297359000.0,
+   "unusual_items": -1837164000.0,
+   "normalized_ebitda": 5122427000.0,
+   "normalized_income": 3376273316.0
   },
   {
    "fy_end": "2023-12-31",
@@ -201,7 +246,10 @@
    "ppe_net": 12788347000.0,
    "retained_earnings": 1051940000.0,
    "total_debt": 1537596000.0,
-   "shares_out": 303544000.0
+   "shares_out": 303544000.0,
+   "unusual_items": 62863000.0,
+   "normalized_ebitda": 1166055000.0,
+   "normalized_income": 146542025.0
   },
   {
    "fy_end": "2024-12-31",
@@ -231,7 +279,10 @@
    "ppe_net": 12236948000.0,
    "retained_earnings": 1109166000.0,
    "total_debt": 1489230000.0,
-   "shares_out": 311165000.0
+   "shares_out": 311165000.0,
+   "unusual_items": -52560000.0,
+   "normalized_ebitda": 912106000.0,
+   "normalized_income": 98748400.0
   },
   {
    "fy_end": "2025-12-31",
@@ -261,7 +312,10 @@
    "ppe_net": 11337821000.0,
    "retained_earnings": 1682295000.0,
    "total_debt": 1397976000.0,
-   "shares_out": 308510105.0
+   "shares_out": 308510105.0,
+   "unusual_items": 45931000.0,
+   "normalized_ebitda": 1681752000.0,
+   "normalized_income": 599602302.0
   }
  ]
 }

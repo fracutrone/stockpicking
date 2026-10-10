@@ -1,6 +1,6 @@
 {
  "ticker": "HRB",
- "fetched_at": "2026-10-10T12:48:05+00:00",
+ "fetched_at": "2026-10-10T15:46:29+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 4600,
   "website": "https://www.hrblock.com",
-  "longBusinessSummary": "H&R Block, Inc., through its subsidiaries, provides assisted and do-it-yourself (DIY) tax preparation solutions in the United States, Canada, and Australia. The company offers tax preparation services, such as assisted income tax return preparation and related services through a system of retail offices operated directly or through its franchisees in person or virtually; refund transfers for clients to receive tax refunds; Peace of Mind, an extended service plan; and H&R Block Emerald Prepaid Mastercard and Spruce debit cards. It also provides H&R Block Emerald Advance, a term loan; Tax Identity Shield, a program for protection of tax identity and access to services to help restore tax identity; refund advance loans; H&R Block's Instant Refund, an advance refund; and small business financial solutions, such as payment processing, payroll and bookkeeping services. H&R Block, Inc. was incorporated in 1955 and is headquartered in Kansas City, Missouri."
+  "longBusinessSummary": "H&R Block, Inc., through its subsidiaries, provides assisted and do-it-yourself (DIY) tax preparation solutions in the United States, Canada, and Australia. The company offers tax preparation services, such as assisted income tax return preparation and related services through a system of retail offices operated directly or through its franchisees in person or virtually; refund transfers for clients to receive tax refunds; Peace of Mind, an extended service plan; and H&R Block Emerald Prepaid Mastercard and Spruce debit cards. It also provides H&R Block Emerald Advance, a term loan; Tax Identity Shield, a program for protection of tax identity and access to services to help restore tax identity; refund advance loans; H&R Block's Instant Refund, an advance refund; and small business financial solutions, such as payment processing, payroll and bookkeeping services. H&R Block, Inc. was incorporated in 1955 and is headquartered in Kansas City, Missouri.",
+  "targetMeanPrice": 51.66667,
+  "targetLowPrice": 36.0,
+  "targetHighPrice": 60.0,
+  "numberOfAnalystOpinions": 3,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.2,
+  "forwardPE": 6.365607,
+  "forwardEps": 6.92,
+  "trailingEps": 5.69,
+  "earningsGrowth": 0.045,
+  "revenueGrowth": 0.03
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-06-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 3256351000.0,
+    "official": 3256351000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 117488000.0,
+    "official": 117488000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 733596000.0,
+    "official": 733596000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3945392000.0,
+    "official": 3945392000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:46:29+00:00",
  "years": [
   {
    "fy_end": "2020-04-30",
@@ -162,7 +204,8 @@
    "goodwill": 760401000.0,
    "intangibles": 309644000.0,
    "retained_earnings": 120405000.0,
-   "total_debt": 1486876000.0
+   "total_debt": 1486876000.0,
+   "unusual_items": 0.0
   },
   {
    "fy_end": "2023-06-30",
@@ -195,7 +238,9 @@
    "goodwill_and_intangibles": 1052496000.0,
    "retained_earnings": -48677000.0,
    "total_debt": 1488975000.0,
-   "shares_out": 146149920.0
+   "shares_out": 146149920.0,
+   "normalized_ebitda": 914691000.0,
+   "normalized_income": 561800000.0
   },
   {
    "fy_end": "2024-06-30",
@@ -228,7 +273,9 @@
    "goodwill_and_intangibles": 1049328000.0,
    "retained_earnings": 12654000.0,
    "total_debt": 1491095000.0,
-   "shares_out": 139591162.0
+   "shares_out": 139591162.0,
+   "normalized_ebitda": 963186000.0,
+   "normalized_income": 597963000.0
   },
   {
    "fy_end": "2025-06-30",
@@ -261,7 +308,9 @@
    "goodwill_and_intangibles": 1061465000.0,
    "retained_earnings": 12061000.0,
    "total_debt": 1493198000.0,
-   "shares_out": 133947401.0
+   "shares_out": 133947401.0,
+   "normalized_ebitda": 976343000.0,
+   "normalized_income": 609450000.0
   },
   {
    "fy_end": "2026-06-30",
@@ -294,7 +343,9 @@
    "goodwill_and_intangibles": 1079529000.0,
    "retained_earnings": 30782000.0,
    "total_debt": 1491493000.0,
-   "shares_out": 124174585.0
+   "shares_out": 124174585.0,
+   "normalized_ebitda": 1056939000.0,
+   "normalized_income": 736318000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "OMC",
- "fetched_at": "2026-10-10T12:54:08+00:00",
+ "fetched_at": "2026-10-10T15:52:10+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 120000,
   "website": "https://www.omc.com",
-  "longBusinessSummary": "Omnicom Group Inc., together with its subsidiaries, offers advertising, marketing, and corporate communications services. It provides a range of services in the areas of media and advertising, precision marketing, public relations, healthcare, branding and retail commerce, experiential, execution, and support. The company's services include advertising, branding, content marketing, crisis communications, customer data analytics and data-driven decision making, customer relationship management, decision sciences, digital experience design, digital transformation, e-commerce optimization, entertainment marketing, experiential marketing, field marketing, healthcare marketing and communications, in-store design, investor relations, and marketing research.Its services also comprise media planning and buying, merchandising and point of sale, mobile marketing, multi-cultural marketing, organizational communications, package design, performance marketing, product placement, promotional marketing, public affairs, public relations, retail media and e-commerce, shopper marketing, structured innovation, studio production, social media and influencer marketing, and sports and event marketing. It operates in the North and Latin America, Europe, the Middle East and Africa (EMEA), and the Asia Pacific. The company was incorporated in 1944 and is based in New York, New York."
+  "longBusinessSummary": "Omnicom Group Inc., together with its subsidiaries, offers advertising, marketing, and corporate communications services. It provides a range of services in the areas of media and advertising, precision marketing, public relations, healthcare, branding and retail commerce, experiential, execution, and support. The company's services include advertising, branding, content marketing, crisis communications, customer data analytics and data-driven decision making, customer relationship management, decision sciences, digital experience design, digital transformation, e-commerce optimization, entertainment marketing, experiential marketing, field marketing, healthcare marketing and communications, in-store design, investor relations, and marketing research.Its services also comprise media planning and buying, merchandising and point of sale, mobile marketing, multi-cultural marketing, organizational communications, package design, performance marketing, product placement, promotional marketing, public affairs, public relations, retail media and e-commerce, shopper marketing, structured innovation, studio production, social media and influencer marketing, and sports and event marketing. It operates in the North and Latin America, Europe, the Middle East and Africa (EMEA), and the Asia Pacific. The company was incorporated in 1944 and is based in New York, New York.",
+  "targetMeanPrice": 102.0,
+  "targetLowPrice": 77.0,
+  "targetHighPrice": 141.0,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.07692,
+  "forwardPE": 6.560972,
+  "forwardEps": 11.65681,
+  "trailingEps": 0.38,
+  "earningsGrowth": 0.588,
+  "revenueGrowth": 0.634
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 54415300000.0,
+    "official": 54415300000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 12045800000.0,
+    "official": 12045800000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -54500000.0,
+    "official": -54500000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 17271900000.0,
+    "official": 17271900000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:52:10+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -199,7 +241,10 @@
    "goodwill_and_intangibles": 10047700000.0,
    "retained_earnings": 9739300000.0,
    "total_debt": 5628700000.0,
-   "shares_out": 202700000.0
+   "shares_out": 202700000.0,
+   "unusual_items": -3500000.0,
+   "normalized_ebitda": 2368800000.0,
+   "normalized_income": 1319016500.0
   },
   {
    "fy_end": "2023-12-31",
@@ -234,7 +279,10 @@
    "goodwill_and_intangibles": 10449200000.0,
    "retained_earnings": 10571500000.0,
    "total_debt": 5680800000.0,
-   "shares_out": 198000000.0
+   "shares_out": 198000000.0,
+   "unusual_items": 1900000.0,
+   "normalized_ebitda": 2417700000.0,
+   "normalized_income": 1389999700.0
   },
   {
    "fy_end": "2024-12-31",
@@ -268,7 +316,10 @@
    "goodwill_and_intangibles": 11199400000.0,
    "retained_earnings": 11500500000.0,
    "total_debt": 6094300000.0,
-   "shares_out": 196411095.0
+   "shares_out": 196411095.0,
+   "unusual_items": 1700000.0,
+   "normalized_ebitda": 2612800000.0,
+   "normalized_income": 1479347852.039857
   },
   {
    "fy_end": "2025-12-31",
@@ -302,7 +353,10 @@
    "goodwill_and_intangibles": 23742400000.0,
    "retained_earnings": 10782400000.0,
    "total_debt": 9334900000.0,
-   "shares_out": 313100000.0
+   "shares_out": 313100000.0,
+   "unusual_items": 4200000.0,
+   "normalized_ebitda": 814000000.0,
+   "normalized_income": -57818000.0
   }
  ]
 }

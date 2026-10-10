@@ -1,6 +1,6 @@
 {
  "ticker": "URW.PA",
- "fetched_at": "2026-10-10T12:24:19+00:00",
+ "fetched_at": "2026-10-10T15:27:36+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "PAR",
   "fullTimeEmployees": 1933,
   "website": "https://www.urw.com",
-  "longBusinessSummary": "Unibail-Rodamco-Westfield SE (URW) operates vibrant retail-anchored destinations in many of the world's best cities and urban areas. This powerful network attracts over 900 million customer visits annually, supports the growth of major retailers, and makes a significant social and economic contribution to local communities. This network includes 65 owned shopping centres in the US and Europe that represent around 88% of the Group's 49.5 Bn euros asset portfolio  with 41 centres operating under the iconic Westfield brand. URW also has partners who operate Westfield-branded destinations in fast-growing new markets. Through its (A Platform for Growth) business plan, URW is generating organic growth, leveraging the power of the Westfield brand, and unlocking capital light growth opportunities to generate compelling shareholder returns. This is supported by the Group's Better Places' sustainability roadmap, which has established URW as a leader in the real estate industry and one of the 100 most sustainable companies in the world. Unibail-Rodamco-Westfield SE was incorporated in July 23rd, 1968 in France."
+  "longBusinessSummary": "Unibail-Rodamco-Westfield SE (URW) operates vibrant retail-anchored destinations in many of the world's best cities and urban areas. This powerful network attracts over 900 million customer visits annually, supports the growth of major retailers, and makes a significant social and economic contribution to local communities. This network includes 65 owned shopping centres in the US and Europe that represent around 88% of the Group's 49.5 Bn euros asset portfolio  with 41 centres operating under the iconic Westfield brand. URW also has partners who operate Westfield-branded destinations in fast-growing new markets. Through its (A Platform for Growth) business plan, URW is generating organic growth, leveraging the power of the Westfield brand, and unlocking capital light growth opportunities to generate compelling shareholder returns. This is supported by the Group's Better Places' sustainability roadmap, which has established URW as a leader in the real estate industry and one of the 100 most sustainable companies in the world. Unibail-Rodamco-Westfield SE was incorporated in July 23rd, 1968 in France.",
+  "targetMeanPrice": 114.76875,
+  "targetLowPrice": 100.0,
+  "targetHighPrice": 135.0,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.6875,
+  "forwardPE": 9.275144,
+  "forwardEps": 9.41441,
+  "trailingEps": 10.8,
+  "earningsGrowth": 0.432,
+  "revenueGrowth": -0.004
  },
  "governance": {
   "ceo": {
@@ -76,8 +87,35 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF FR",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 49684000000.0,
+    "official": 49684000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 17702300000.0,
+    "official": 15897100000.0,
+    "diff": 0.113555
+   },
+   "net_income": {
+    "yahoo": 1268200000.0,
+    "official": 1268200000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:27:36+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -111,7 +149,10 @@
    "goodwill_and_intangibles": 1899700000.0,
    "retained_earnings": 178200000.0,
    "total_debt": 26402800000.0,
-   "shares_out": 138767088.0
+   "shares_out": 138767088.0,
+   "unusual_items": 263000000.0,
+   "normalized_ebitda": 840000000.0,
+   "normalized_income": -37846412.300683
   },
   {
    "fy_end": "2023-12-31",
@@ -145,7 +186,10 @@
    "goodwill_and_intangibles": 1674900000.0,
    "retained_earnings": -1629100000.0,
    "total_debt": 27895100000.0,
-   "shares_out": 139041391.0
+   "shares_out": 139041391.0,
+   "unusual_items": -438900000.0,
+   "normalized_ebitda": -288400000.0,
+   "normalized_income": -890425000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -179,7 +223,10 @@
    "goodwill_and_intangibles": 1646200000.0,
    "retained_earnings": 146200000.0,
    "total_debt": 27559900000.0,
-   "shares_out": 142629547.0
+   "shares_out": 142629547.0,
+   "unusual_items": 4300000.0,
+   "normalized_ebitda": 1622500000.0,
+   "normalized_income": 210231662.404092
   },
   {
    "fy_end": "2025-12-31",
@@ -213,7 +260,10 @@
    "goodwill_and_intangibles": 1386500000.0,
    "retained_earnings": 1268200000.0,
    "total_debt": 22688400000.0,
-   "shares_out": 143358222.0
+   "shares_out": 143358222.0,
+   "unusual_items": -185800000.0,
+   "normalized_ebitda": 2910000000.0,
+   "normalized_income": 1706201717.771713
   }
  ]
 }

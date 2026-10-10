@@ -1,6 +1,6 @@
 {
  "ticker": "CI",
- "fetched_at": "2026-10-10T12:40:52+00:00",
+ "fetched_at": "2026-10-10T15:39:37+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 65669,
   "website": "https://www.thecignagroup.com",
-  "longBusinessSummary": "The Cigna Group, together with its subsidiaries, provides insurance and related products and services in the United States. It operates through two segments: Evernorth Health Services and Cigna Healthcare. The Evernorth Health Services segment includes Pharmacy Benefit Services and Specialty and Care Services, offering pharmacy benefit management, drug claim adjudication, retail pharmacy network administration, benefit design consultation, drug utilization review, drug formulary management, pharmacy benefits, home delivery pharmacy, specialty pharmacy, specialty pharmaceutical distribution, and clinical programs for whole-person health outcomes. The Cigna Healthcare segment comprises U.S. Healthcare and International Health, delivering comprehensive medical and coordinated solutions such as employer medical plans, individual and family plans, behavioral health, consumer health engagement, dental, pharmacy management, stop-loss insurance, global health care, and local health care solutions, as well as health care benefits for mobile individuals and employees of multinational organizations. The company offers other operations, including corporate-owned life insurance, reinsurance, and certain run-off and non-strategic businesses. The company distributes its products and services through brokers and consultants; directly to employers, unions and other groups, or individuals; and private and public exchanges. The company was formerly known as Cigna Corporation and changed its name to The Cigna Group in February 2023. The company was founded in 1792 and is headquartered in Bloomfield, Connecticut."
+  "longBusinessSummary": "The Cigna Group, together with its subsidiaries, provides insurance and related products and services in the United States. It operates through two segments: Evernorth Health Services and Cigna Healthcare. The Evernorth Health Services segment includes Pharmacy Benefit Services and Specialty and Care Services, offering pharmacy benefit management, drug claim adjudication, retail pharmacy network administration, benefit design consultation, drug utilization review, drug formulary management, pharmacy benefits, home delivery pharmacy, specialty pharmacy, specialty pharmaceutical distribution, and clinical programs for whole-person health outcomes. The Cigna Healthcare segment comprises U.S. Healthcare and International Health, delivering comprehensive medical and coordinated solutions such as employer medical plans, individual and family plans, behavioral health, consumer health engagement, dental, pharmacy management, stop-loss insurance, global health care, and local health care solutions, as well as health care benefits for mobile individuals and employees of multinational organizations. The company offers other operations, including corporate-owned life insurance, reinsurance, and certain run-off and non-strategic businesses. The company distributes its products and services through brokers and consultants; directly to employers, unions and other groups, or individuals; and private and public exchanges. The company was formerly known as Cigna Corporation and changed its name to The Cigna Group in February 2023. The company was founded in 1792 and is headquartered in Bloomfield, Connecticut.",
+  "targetMeanPrice": 342.29166,
+  "targetLowPrice": 288.0,
+  "targetHighPrice": 400.0,
+  "numberOfAnalystOpinions": 24,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.75,
+  "forwardPE": 8.434619,
+  "forwardEps": 33.48462,
+  "trailingEps": 24.19,
+  "earningsGrowth": 0.102,
+  "revenueGrowth": 0.067
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 157919000000.0,
+    "official": 157919000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 41713000000.0,
+    "official": 41713000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 5957000000.0,
+    "official": 5957000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 273854000000.0,
+    "official": 274900000000.0,
+    "diff": 0.003805
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:39:37+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -205,7 +247,10 @@
    "goodwill_and_intangibles": 78303000000.0,
    "retained_earnings": 37940000000.0,
    "total_debt": 28100000000.0,
-   "shares_out": 298676000.0
+   "shares_out": 298676000.0,
+   "unusual_items": 2330000000.0,
+   "normalized_ebitda": 10232000000.0,
+   "normalized_income": 4821360000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -239,7 +284,10 @@
    "goodwill_and_intangibles": 75122000000.0,
    "retained_earnings": 41652000000.0,
    "total_debt": 29392000000.0,
-   "shares_out": 292504000.0
+   "shares_out": 292504000.0,
+   "unusual_items": -411000000.0,
+   "normalized_ebitda": 10405000000.0,
+   "normalized_income": 5564314000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -273,7 +321,10 @@
    "goodwill_and_intangibles": 73787000000.0,
    "retained_earnings": 43519000000.0,
    "total_debt": 29817000000.0,
-   "shares_out": 273789000.0
+   "shares_out": 273789000.0,
+   "unusual_items": -1740000000.0,
+   "normalized_ebitda": 11219000000.0,
+   "normalized_income": 4681580000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -308,7 +359,10 @@
    "goodwill_and_intangibles": 73484000000.0,
    "retained_earnings": 47865000000.0,
    "total_debt": 30871000000.0,
-   "shares_out": 263464000.0
+   "shares_out": 263464000.0,
+   "unusual_items": 1035000000.0,
+   "normalized_ebitda": 10929000000.0,
+   "normalized_income": 5120720000.0
   }
  ]
 }

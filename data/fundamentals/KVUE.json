@@ -1,6 +1,6 @@
 {
  "ticker": "KVUE",
- "fetched_at": "2026-10-10T12:50:09+00:00",
+ "fetched_at": "2026-10-10T15:48:27+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 21780,
   "website": "https://www.kenvue.com",
-  "longBusinessSummary": "Kenvue Inc. operates as a consumer health company in the United States, rest of North America, Europe, the Middle East, Africa, the Asia-Pacific, and Latin America. It operates in three segments: Self Care, Skin Health and Beauty, and Essential Health. The company offers over-the-counter medicine for cough, cold and allergy, pain care, digestive health, smoking cessation, and eye care, as well as other naturally inspired and self-care products, digital diagnostics, and telemedicine; face and body care, hair, sun, and other care products; oral and baby care, women's health, wound care, and other essential health products; tampons; cosmetics; and vitamins and supplements. It sells its products under the Benadryl, Calpol, Motrin, Nicorette, Rhinocort, Tylenol, Zarbee's Naturals, and Zyrtec; Aveeno, Dr.Ci:Labo, Le Petit Marseillais, Lubriderm, Neutrogena, OGX, and Rogaine; BAND-AID, Carefree, Desitin, Johnson's, Listerine, o.b., and Stayfree; and ORSL, Clean & Clear, Versalie, Benylin, Daktarin, Imodium, Johnson's Baby, Johnson's Adult, Maui Moisture, Microlax, Motilium, Neosporin, Neostrata, Pepcid, Pulmicort, Regaine, Sudafed, and Visine/Vispring/Visclear brands. Kenvue Inc. was incorporated in 2022 and is headquartered in Summit, New Jersey."
+  "longBusinessSummary": "Kenvue Inc. operates as a consumer health company in the United States, rest of North America, Europe, the Middle East, Africa, the Asia-Pacific, and Latin America. It operates in three segments: Self Care, Skin Health and Beauty, and Essential Health. The company offers over-the-counter medicine for cough, cold and allergy, pain care, digestive health, smoking cessation, and eye care, as well as other naturally inspired and self-care products, digital diagnostics, and telemedicine; face and body care, hair, sun, and other care products; oral and baby care, women's health, wound care, and other essential health products; tampons; cosmetics; and vitamins and supplements. It sells its products under the Benadryl, Calpol, Motrin, Nicorette, Rhinocort, Tylenol, Zarbee's Naturals, and Zyrtec; Aveeno, Dr.Ci:Labo, Le Petit Marseillais, Lubriderm, Neutrogena, OGX, and Rogaine; BAND-AID, Carefree, Desitin, Johnson's, Listerine, o.b., and Stayfree; and ORSL, Clean & Clear, Versalie, Benylin, Daktarin, Imodium, Johnson's Baby, Johnson's Adult, Maui Moisture, Microlax, Motilium, Neosporin, Neostrata, Pepcid, Pulmicort, Regaine, Sudafed, and Visine/Vispring/Visclear brands. Kenvue Inc. was incorporated in 2022 and is headquartered in Summit, New Jersey.",
+  "targetMeanPrice": 19.5,
+  "targetLowPrice": 18.0,
+  "targetHighPrice": 23.0,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 14.276381,
+  "forwardEps": 1.23981,
+  "trailingEps": 0.86,
+  "earningsGrowth": 0.085,
+  "revenueGrowth": 0.03
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 27076000000.0,
+    "official": 27076000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 10765000000.0,
+    "official": 10765000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1470000000.0,
+    "official": 1470000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 15124000000.0,
+    "official": 15124000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:48:27+00:00",
  "years": [
   {
    "fy_end": "2022-01-02",
@@ -138,7 +180,10 @@
    "goodwill_and_intangibles": 19038000000.0,
    "retained_earnings": 0.0,
    "total_debt": 0,
-   "shares_out": 1888972560.0
+   "shares_out": 1888972560.0,
+   "unusual_items": -54000000.0,
+   "normalized_ebitda": 3335000000.0,
+   "normalized_income": 2106282000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -172,7 +217,10 @@
    "goodwill_and_intangibles": 18890000000.0,
    "retained_earnings": 429000000.0,
    "total_debt": 8287000000.0,
-   "shares_out": 1915057047.0
+   "shares_out": 1915057047.0,
+   "unusual_items": -46000000.0,
+   "normalized_ebitda": 3221000000.0,
+   "normalized_income": 1698960000.0
   },
   {
    "fy_end": "2024-12-29",
@@ -206,7 +254,10 @@
    "goodwill_and_intangibles": 17317000000.0,
    "retained_earnings": -93000000.0,
    "total_debt": 1550000000.0,
-   "shares_out": 1913768088.0
+   "shares_out": 1913768088.0,
+   "unusual_items": -840000000.0,
+   "normalized_ebitda": 3308000000.0,
+   "normalized_income": 1641448763.250883
   },
   {
    "fy_end": "2025-12-28",
@@ -240,7 +291,10 @@
    "goodwill_and_intangibles": 18203000000.0,
    "retained_earnings": -204000000.0,
    "total_debt": 1450000000.0,
-   "shares_out": 1916115445.0
+   "shares_out": 1916115445.0,
+   "unusual_items": -347000000.0,
+   "normalized_ebitda": 3333000000.0,
+   "normalized_income": 1725172586.293147
   }
  ]
 }

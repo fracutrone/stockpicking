@@ -1,6 +1,6 @@
 {
  "ticker": "SEIT.L",
- "fetched_at": "2026-10-10T12:18:44+00:00",
+ "fetched_at": "2026-10-10T15:19:04+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": 40.0,
+  "targetLowPrice": 40.0,
+  "targetHighPrice": 40.0,
+  "numberOfAnalystOpinions": 1,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 0.043199,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -48,8 +59,15 @@
   "equity": "yahoo",
   "receivables": "yahoo",
   "retained_earnings": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T15:19:04+00:00",
  "years": [
   {
    "fy_end": "2023-03-31",
@@ -68,7 +86,8 @@
    "equity": 1125400000.0,
    "receivables": 600000.0,
    "retained_earnings": 18200000.0,
-   "shares_out": 1108709053.0
+   "shares_out": 1108709053.0,
+   "normalized_income": -18600000.0
   },
   {
    "fy_end": "2024-03-31",
@@ -87,7 +106,8 @@
    "equity": 981900000.0,
    "receivables": 200000.0,
    "retained_earnings": -125300000.0,
-   "shares_out": 1085419558.0
+   "shares_out": 1085419558.0,
+   "normalized_income": -56300000.0
   },
   {
    "fy_end": "2025-03-31",
@@ -106,7 +126,8 @@
    "equity": 983600000.0,
    "receivables": 300000.0,
    "retained_earnings": -55200000.0,
-   "shares_out": 1085419558.0
+   "shares_out": 1085419558.0,
+   "normalized_income": 70100000.0
   },
   {
    "fy_end": "2026-03-31",
@@ -125,7 +146,8 @@
    "equity": 844500000.0,
    "receivables": 200000.0,
    "retained_earnings": -142600000.0,
-   "shares_out": 1085419558.0
+   "shares_out": 1085419558.0,
+   "normalized_income": -87400000.0
   }
  ]
 }

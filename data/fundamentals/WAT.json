@@ -1,6 +1,6 @@
 {
  "ticker": "WAT",
- "fetched_at": "2026-10-10T13:02:01+00:00",
+ "fetched_at": "2026-10-10T15:59:29+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 16000,
   "website": "https://www.waters.com",
-  "longBusinessSummary": "Waters Corporation provides analytical workflow solutions in Asia, the Americas, and Europe. The company operates through two segments, Waters and TA. The company designs, manufactures, sells, and services liquid chromatography, as well as mass spectrometry (MS) technology systems and supports products, including chromatography columns, and other consumable products. It also designs, manufactures, sells, and services thermal analysis, rheometry, and calorimetry instruments for use in predicting the suitability and stability of fine chemicals, pharmaceuticals, water, polymers, metals, and viscous liquids for various industrial, consumer goods, and healthcare products, as well as for life science research; and develops and supplies software-based products that interface with its instruments, as well as other manufacturers' instruments. In addition, the company offers MS technology, which is used in drug discovery and development comprising clinical trial testing, the analysis of proteins in disease processes, nutritional safety analysis, and environmental testing. Its products are used by clinical, pharmaceutical, biochemical, industrial, nutritional safety, environmental, academic, and governmental customers working in research and development, quality assurance, and other laboratory applications. The company was founded in 1958 and is headquartered in Milford, Massachusetts."
+  "longBusinessSummary": "Waters Corporation provides analytical workflow solutions in Asia, the Americas, and Europe. The company operates through two segments, Waters and TA. The company designs, manufactures, sells, and services liquid chromatography, as well as mass spectrometry (MS) technology systems and supports products, including chromatography columns, and other consumable products. It also designs, manufactures, sells, and services thermal analysis, rheometry, and calorimetry instruments for use in predicting the suitability and stability of fine chemicals, pharmaceuticals, water, polymers, metals, and viscous liquids for various industrial, consumer goods, and healthcare products, as well as for life science research; and develops and supplies software-based products that interface with its instruments, as well as other manufacturers' instruments. In addition, the company offers MS technology, which is used in drug discovery and development comprising clinical trial testing, the analysis of proteins in disease processes, nutritional safety analysis, and environmental testing. Its products are used by clinical, pharmaceutical, biochemical, industrial, nutritional safety, environmental, academic, and governmental customers working in research and development, quality assurance, and other laboratory applications. The company was founded in 1958 and is headquartered in Milford, Massachusetts.",
+  "targetMeanPrice": 458.21738,
+  "targetLowPrice": 349.0,
+  "targetHighPrice": 530.0,
+  "numberOfAnalystOpinions": 23,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.625,
+  "forwardPE": 26.226353,
+  "forwardEps": 16.53947,
+  "trailingEps": 3.95,
+  "earningsGrowth": null,
+  "revenueGrowth": 1.134
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 5076550000.0,
+    "official": 5076550000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2561242000.0,
+    "official": 2561242000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 642629000.0,
+    "official": 642629000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3165286000.0,
+    "official": 3165286000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:59:29+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -205,7 +247,10 @@
    "goodwill_and_intangibles": 657727000.0,
    "retained_earnings": 8508587000.0,
    "total_debt": 1580000000.0,
-   "shares_out": 59104000.0
+   "shares_out": 59104000.0,
+   "unusual_items": -9797000.0,
+   "normalized_ebitda": 1026863000.0,
+   "normalized_income": 716033465.0
   },
   {
    "fy_end": "2023-12-31",
@@ -240,7 +285,10 @@
    "goodwill_and_intangibles": 1934633000.0,
    "retained_earnings": 9150821000.0,
    "total_debt": 2360000000.0,
-   "shares_out": 59176000.0
+   "shares_out": 59176000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 1001009000.0,
+   "normalized_income": 642234000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -275,7 +323,10 @@
    "goodwill_and_intangibles": 1863626000.0,
    "retained_earnings": 9788655000.0,
    "total_debt": 1630000000.0,
-   "shares_out": 59388000.0
+   "shares_out": 59388000.0,
+   "unusual_items": -11568000.0,
+   "normalized_ebitda": 1047938000.0,
+   "normalized_income": 647608960.0
   },
   {
    "fy_end": "2025-12-31",
@@ -309,7 +360,10 @@
    "goodwill_and_intangibles": 1898259000.0,
    "retained_earnings": 10431284000.0,
    "total_debt": 1410000000.0,
-   "shares_out": 59549000.0
+   "shares_out": 59549000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 1030663000.0,
+   "normalized_income": 642629000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "BOWL.L",
- "fetched_at": "2026-10-10T11:48:36+00:00",
+ "fetched_at": "2026-10-10T14:36:45+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.04189,
   "heldPercentInstitutions": 0.82946,
   "shortPercentOfFloat": null,
-  "averageVolume": 634615,
+  "averageVolume": 630387,
   "quoteType": "EQUITY",
   "exchange": "LSE",
   "fullTimeEmployees": 2800,
   "website": "https://www.hollywoodbowlgroup.com",
-  "longBusinessSummary": "Hollywood Bowl Group plc operates ten-pin bowling and mini-golf centers in the United Kingdom and Canada. The company also supplies and installs bowling equipment. It operates centers under the Hollywood Bowl and Splitsville brands. The company also operates family entertainment centre. Hollywood Bowl Group plc was incorporated in 2016 and is based in Hemel Hempstead, the United Kingdom."
+  "longBusinessSummary": "Hollywood Bowl Group plc operates ten-pin bowling and mini-golf centers in the United Kingdom and Canada. The company also supplies and installs bowling equipment. It operates centers under the Hollywood Bowl and Splitsville brands. The company also operates family entertainment centre. Hollywood Bowl Group plc was incorporated in 2016 and is based in Hemel Hempstead, the United Kingdom.",
+  "targetMeanPrice": 389.125,
+  "targetLowPrice": 340.0,
+  "targetHighPrice": 450.0,
+  "numberOfAnalystOpinions": 8,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.125,
+  "forwardPE": 10.299779,
+  "forwardEps": 0.24418,
+  "trailingEps": 0.2,
+  "earningsGrowth": -0.024,
+  "revenueGrowth": 0.095
  },
  "governance": {
   "ceo": {
@@ -70,8 +81,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-09-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 439222000.0,
+    "official": 439222000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 151288000.0,
+    "official": 151288000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 34609000.0,
+    "official": 34609000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 250662000.0,
+    "official": 250662000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-09-30"
+ },
+ "info_at": "2026-10-10T14:36:45+00:00",
  "years": [
   {
    "fy_end": "2022-09-30",
@@ -105,7 +148,10 @@
    "goodwill_and_intangibles": 81794000.0,
    "retained_earnings": 146479000.0,
    "total_debt": 188369000.0,
-   "shares_out": 171070790.0
+   "shares_out": 171070790.0,
+   "unusual_items": 39000.0,
+   "normalized_ebitda": 76777000.0,
+   "normalized_income": 37419700.546448
   },
   {
    "fy_end": "2023-09-30",
@@ -139,7 +185,10 @@
    "goodwill_and_intangibles": 89376000.0,
    "retained_earnings": 156537000.0,
    "total_debt": 194205000.0,
-   "shares_out": 171712357.0
+   "shares_out": 171712357.0,
+   "unusual_items": -2456000.0,
+   "normalized_ebitda": 81908000.0,
+   "normalized_income": 36011577.994676
   },
   {
    "fy_end": "2024-09-30",
@@ -173,7 +222,10 @@
    "goodwill_and_intangibles": 100323000.0,
    "retained_earnings": 161854000.0,
    "total_debt": 218242000.0,
-   "shares_out": 172083853.0
+   "shares_out": 172083853.0,
+   "unusual_items": -7139000.0,
+   "normalized_ebitda": 89221000.0,
+   "normalized_income": 34903860.564105
   },
   {
    "fy_end": "2025-09-30",
@@ -207,7 +259,10 @@
    "goodwill_and_intangibles": 99336000.0,
    "retained_earnings": 162193000.0,
    "total_debt": 235793000.0,
-   "shares_out": 166851906.0
+   "shares_out": 166851906.0,
+   "unusual_items": -1128000.0,
+   "normalized_ebitda": 91839000.0,
+   "normalized_income": 35490558.847439
   }
  ]
 }

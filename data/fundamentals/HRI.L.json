@@ -1,6 +1,6 @@
 {
  "ticker": "HRI.L",
- "fetched_at": "2026-10-10T12:02:23+00:00",
+ "fetched_at": "2026-10-10T14:55:45+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -48,8 +59,15 @@
   "cash": "yahoo",
   "equity": "yahoo",
   "receivables": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T14:55:45+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -67,7 +85,8 @@
    "cash": 80442000.0,
    "equity": 1305048000.0,
    "receivables": 1166000.0,
-   "shares_out": 62173223.0
+   "shares_out": 62173223.0,
+   "normalized_income": -405527000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -85,7 +104,8 @@
    "cash": 42285000.0,
    "equity": 1245757000.0,
    "receivables": 1918000.0,
-   "shares_out": 56134670.0
+   "shares_out": 56134670.0,
+   "normalized_income": 48121000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -103,7 +123,8 @@
    "cash": 21890000.0,
    "equity": 1252602000.0,
    "receivables": 0.0,
-   "shares_out": 50340861.0
+   "shares_out": 50340861.0,
+   "normalized_income": 134296000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -121,7 +142,8 @@
    "cash": 124266000.0,
    "equity": 1292413000.0,
    "receivables": 0.0,
-   "shares_out": 47858467.0
+   "shares_out": 47858467.0,
+   "normalized_income": 98470000.0
   }
  ]
 }

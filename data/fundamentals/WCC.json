@@ -1,6 +1,6 @@
 {
  "ticker": "WCC",
- "fetched_at": "2026-10-10T13:02:03+00:00",
+ "fetched_at": "2026-10-10T15:59:30+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 21000,
   "website": "https://www.wesco.com",
-  "longBusinessSummary": "WESCO International, Inc. provides business-to-business distribution, logistics services, and supply chain solutions in the United States, Canada, and internationally. It operates through three segments: Electrical & Electronic Solutions (EES), Communications & Security Solutions (CSS), and Utility & Broadband Solutions (UBS). The EES segment offers electrical equipment and supplies, automation and connected devices, security, lighting, wire and cable, and safety, as well as maintenance, repair, and operating (MRO) products. This segment also offers project execution solutions, direct and indirect manufacturing supply chain optimization programs, lighting and renewables advisory services, and digital and automation solutions. The CSS segment provides data center, network infrastructure, and security solutions. This segment sells products directly to security and network, professional audio/visual, and systems integrators, as well as data communications contractors. It also provides professional A/V, safety, facilities, and energy management solutions. The UBS segment offers products and services to investor-owned utilities, electric power cooperatives and municipalities, service and wireless providers, broadband operators, and contractors. This segment's products include wires and cables, transformers, transmission and distribution hardware, switches, protective devices, connectors, lighting and connectivity products, conduits, fiber and power cables, pole line hardware, racks, cabinets, safety and MRO products, and wireless devices. It also offers fiber project management, high and medium voltage project design and support, pre-wired meters and capacitor banks, meter testing and advanced metering infrastructure installation, personal protective equipment, dielectric testing, and tool repair, as well as emergency response, storage yard, materials, and logistics management solutions. The company was founded in 1922 and is headquartered in Pittsburgh, Pennsylvania."
+  "longBusinessSummary": "WESCO International, Inc. provides business-to-business distribution, logistics services, and supply chain solutions in the United States, Canada, and internationally. It operates through three segments: Electrical & Electronic Solutions (EES), Communications & Security Solutions (CSS), and Utility & Broadband Solutions (UBS). The EES segment offers electrical equipment and supplies, automation and connected devices, security, lighting, wire and cable, and safety, as well as maintenance, repair, and operating (MRO) products. This segment also offers project execution solutions, direct and indirect manufacturing supply chain optimization programs, lighting and renewables advisory services, and digital and automation solutions. The CSS segment provides data center, network infrastructure, and security solutions. This segment sells products directly to security and network, professional audio/visual, and systems integrators, as well as data communications contractors. It also provides professional A/V, safety, facilities, and energy management solutions. The UBS segment offers products and services to investor-owned utilities, electric power cooperatives and municipalities, service and wireless providers, broadband operators, and contractors. This segment's products include wires and cables, transformers, transmission and distribution hardware, switches, protective devices, connectors, lighting and connectivity products, conduits, fiber and power cables, pole line hardware, racks, cabinets, safety and MRO products, and wireless devices. It also offers fiber project management, high and medium voltage project design and support, pre-wired meters and capacitor banks, meter testing and advanced metering infrastructure installation, personal protective equipment, dielectric testing, and tool repair, as well as emergency response, storage yard, materials, and logistics management solutions. The company was founded in 1922 and is headquartered in Pittsburgh, Pennsylvania.",
+  "targetMeanPrice": 399.18182,
+  "targetLowPrice": 275.0,
+  "targetHighPrice": 440.0,
+  "numberOfAnalystOpinions": 11,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.45455,
+  "forwardPE": 18.245773,
+  "forwardEps": 20.04245,
+  "trailingEps": 14.86,
+  "earningsGrowth": 0.104,
+  "revenueGrowth": 0.13
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 16494900000.0,
+    "official": 16494900000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 5031600000.0,
+    "official": 5031600000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 640200000.0,
+    "official": 640200000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 23510900000.0,
+    "official": 23510900000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:59:30+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -200,7 +242,9 @@
    "goodwill_and_intangibles": 5184300000.0,
    "retained_earnings": 3795000000.0,
    "total_debt": 5416500000.0,
-   "shares_out": 50759482.0
+   "shares_out": 50759482.0,
+   "normalized_ebitda": 1610100000.0,
+   "normalized_income": 860500000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -234,7 +278,10 @@
    "goodwill_and_intangibles": 5119900000.0,
    "retained_earnings": 4391700000.0,
    "total_debt": 5321700000.0,
-   "shares_out": 50897122.0
+   "shares_out": 50897122.0,
+   "unusual_items": -22900000.0,
+   "normalized_ebitda": 1562600000.0,
+   "normalized_income": 765500000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -268,7 +315,10 @@
    "goodwill_and_intangibles": 5116000000.0,
    "retained_earnings": 4960700000.0,
    "total_debt": 5065000000.0,
-   "shares_out": 48790595.0
+   "shares_out": 48790595.0,
+   "unusual_items": -25500000.0,
+   "normalized_ebitda": 1538700000.0,
+   "normalized_income": 736878000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -302,7 +352,10 @@
    "goodwill_and_intangibles": 5112600000.0,
    "retained_earnings": 5513400000.0,
    "total_debt": 5781400000.0,
-   "shares_out": 48658333.0
+   "shares_out": 48658333.0,
+   "unusual_items": 4200000.0,
+   "normalized_ebitda": 1466200000.0,
+   "normalized_income": 637045800.0
   }
  ]
 }

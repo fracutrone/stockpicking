@@ -1,6 +1,6 @@
 {
  "ticker": "TOST",
- "fetched_at": "2026-10-10T12:59:55+00:00",
+ "fetched_at": "2026-10-10T15:57:35+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 6500,
   "website": "https://www.pos.toasttab.com",
-  "longBusinessSummary": "Toast, Inc. operates a cloud-based digital technology platform for the restaurant industry in the United States, Ireland, India, and internationally. It offers a platform of software-as-a-service for restaurant operations and point of sale, such as Toast POS; Toast IQ, a conversational artificial intelligence; vendor management; multi-location management; kitchen display system; online ordering and delivery. It offers payroll and team management; inventory and supply chain tools; xtraCHEF by toast, a set of back-office tools for restaurants, including accounts payable automation, inventory management, ingredient price tracking, and recipe costing; financial technology solutions, including integrated payment processing, and restaurant-grade hardware. The company was formerly known as Opti Systems, Inc. and changed its name to Toast, Inc. in May 2012. Toast, Inc. was incorporated in 2011 and is headquartered in Boston, Massachusetts."
+  "longBusinessSummary": "Toast, Inc. operates a cloud-based digital technology platform for the restaurant industry in the United States, Ireland, India, and internationally. It offers a platform of software-as-a-service for restaurant operations and point of sale, such as Toast POS; Toast IQ, a conversational artificial intelligence; vendor management; multi-location management; kitchen display system; online ordering and delivery. It offers payroll and team management; inventory and supply chain tools; xtraCHEF by toast, a set of back-office tools for restaurants, including accounts payable automation, inventory management, ingredient price tracking, and recipe costing; financial technology solutions, including integrated payment processing, and restaurant-grade hardware. The company was formerly known as Opti Systems, Inc. and changed its name to Toast, Inc. in May 2012. Toast, Inc. was incorporated in 2011 and is headquartered in Boston, Massachusetts.",
+  "targetMeanPrice": 38.92308,
+  "targetLowPrice": 25.0,
+  "targetHighPrice": 45.0,
+  "numberOfAnalystOpinions": 26,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.83333,
+  "forwardPE": 18.040806,
+  "forwardEps": 1.73551,
+  "trailingEps": 0.79,
+  "earningsGrowth": 1.0,
+  "revenueGrowth": 0.231
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3145000000.0,
+    "official": 3145000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2124000000.0,
+    "official": 2124000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 342000000.0,
+    "official": 342000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 6153000000.0,
+    "official": 6153000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:57:35+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -194,7 +236,10 @@
    "goodwill_and_intangibles": 136000000.0,
    "retained_earnings": -1377000000.0,
    "total_debt": 94000000.0,
-   "shares_out": 523027298.0
+   "shares_out": 523027298.0,
+   "unusual_items": 95000000.0,
+   "normalized_ebitda": -455000000.0,
+   "normalized_income": -369430000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -228,7 +273,10 @@
    "goodwill_and_intangibles": 139000000.0,
    "retained_earnings": -1623000000.0,
    "total_debt": 33000000.0,
-   "shares_out": 543000000.0
+   "shares_out": 543000000.0,
+   "unusual_items": 3000000.0,
+   "normalized_ebitda": -258000000.0,
+   "normalized_income": -248370000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -262,7 +310,10 @@
    "goodwill_and_intangibles": 133000000.0,
    "retained_earnings": -1604000000.0,
    "total_debt": 24000000.0,
-   "shares_out": 572000000.0
+   "shares_out": 572000000.0,
+   "unusual_items": -95000000.0,
+   "normalized_ebitda": 203000000.0,
+   "normalized_income": 103075000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -296,7 +347,10 @@
    "goodwill_and_intangibles": 127000000.0,
    "retained_earnings": -1262000000.0,
    "total_debt": 20000000.0,
-   "shares_out": 589000000.0
+   "shares_out": 589000000.0,
+   "unusual_items": -9000000.0,
+   "normalized_ebitda": 377000000.0,
+   "normalized_income": 350892000.0
   }
  ]
 }

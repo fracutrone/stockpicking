@@ -1,6 +1,6 @@
 {
  "ticker": "NBPE.L",
- "fetched_at": "2026-10-10T12:10:30+00:00",
+ "fetched_at": "2026-10-10T15:07:25+00:00",
  "region": "Europa",
  "statement_currency": "USD",
  "info": {
@@ -11,8 +11,8 @@
   "country": "United States",
   "currency": "GBp",
   "financialCurrency": "USD",
-  "marketCap": 562814976,
-  "sharesOutstanding": 37411206,
+  "marketCap": 562512000,
+  "sharesOutstanding": 37391064,
   "floatShares": null,
   "heldPercentInsiders": 0.00423,
   "heldPercentInstitutions": 0.54955,
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": "https://www.nbprivateequitypartners.com",
-  "longBusinessSummary": "Neuberger Private Equity Partners Limited specializes in private equity fund of funds and co-investments. In fund of fund investments, it invests in private equity fund managed by other sponsors and funds of funds managed by the investment manager. In co-investments, it makes direct investments alongside other sponsors. Within direct investments the fund specializes in buyout. The fund seeks to invest in industrials, technology, transportation, business services, communications and media, consumer discretionary, energy, financial services and healthcare. It mainly prefers to invest in North America, followed by Europe and Asia. It also prefers to take majority stake in its portfolio companies."
+  "longBusinessSummary": "Neuberger Private Equity Partners Limited specializes in private equity fund of funds and co-investments. In fund of fund investments, it invests in private equity fund managed by other sponsors and funds of funds managed by the investment manager. In co-investments, it makes direct investments alongside other sponsors. Within direct investments the fund specializes in buyout. The fund seeks to invest in industrials, technology, transportation, business services, communications and media, consumer discretionary, energy, financial services and healthcare. It mainly prefers to invest in North America, followed by Europe and Asia. It also prefers to take majority stake in its portfolio companies.",
+  "targetMeanPrice": 1509.9198,
+  "targetLowPrice": 1509.9198,
+  "targetHighPrice": 1509.9198,
+  "numberOfAnalystOpinions": 1,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": 6.408508,
+  "forwardEps": 2.34688,
+  "trailingEps": 0.01,
+  "earningsGrowth": -0.879,
+  "revenueGrowth": -0.826
  },
  "governance": {
   "insider_6m": {
@@ -50,8 +61,15 @@
   "receivables": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T15:07:25+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -71,7 +89,8 @@
    "equity": 1327266223.0,
    "receivables": 199924.0,
    "retained_earnings": 839456403.0,
-   "shares_out": 46771030.0
+   "shares_out": 46771030.0,
+   "normalized_income": -108947791.0
   },
   {
    "fy_end": "2023-12-31",
@@ -92,7 +111,8 @@
    "receivables": 333138.0,
    "retained_earnings": 822682245.0,
    "total_debt": 90000000.0,
-   "shares_out": 46512606.0
+   "shares_out": 46512606.0,
+   "normalized_income": 27069151.0
   },
   {
    "fy_end": "2024-12-31",
@@ -113,7 +133,8 @@
    "receivables": 19171.0,
    "retained_earnings": 795912722.0,
    "total_debt": 90000000.0,
-   "shares_out": 46247719.0
+   "shares_out": 46247719.0,
+   "normalized_income": 16827830.0
   },
   {
    "fy_end": "2025-12-31",
@@ -134,7 +155,8 @@
    "receivables": 2939142.0,
    "retained_earnings": 791683552.0,
    "total_debt": 90000000.0,
-   "shares_out": 43290496.0
+   "shares_out": 43290496.0,
+   "normalized_income": 38882562.0
   }
  ]
 }

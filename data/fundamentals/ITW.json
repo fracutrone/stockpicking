@@ -1,6 +1,6 @@
 {
  "ticker": "ITW",
- "fetched_at": "2026-10-10T12:49:12+00:00",
+ "fetched_at": "2026-10-10T15:47:31+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 43000,
   "website": "https://www.itw.com",
-  "longBusinessSummary": "Illinois Tool Works Inc. provides industrial products and equipment in North America, Europe, the Middle East, Africa, the Asia Pacific, and South America. It operates through seven segments: Automotive OEM; Food Equipment; Test & Measurement and Electronics; Welding; Polymers & Fluids; Construction Products; and Specialty Products. The Automotive OEM segment offers plastic and metal components, fasteners, and assemblies for automobiles, light trucks, and other industrial uses. The Food Equipment segment provides warewashing, cooking, refrigeration, and food processing equipment; kitchen exhaust, ventilation, and pollution control systems; and food equipment maintenance and repair services. The Test & Measurement and Electronics segment produce and sells test and measurement; and electronic manufacturing and maintenance, repair, and operations solutions. The Welding segment produces arc welding equipment, and metal arc welding consumables and related accessories. The Polymers & Fluids segment produces adhesives, sealants, lubrication and cutting fluids, and fluids and polymers for auto aftermarket maintenance and appearance. The Construction Products segment offers engineered fastening systems and solutions for the residential construction, renovation/remodel, and commercial construction markets. The Specialty Products segment provides beverage packaging equipment and consumables, product coding and marking equipment and consumables, and appliance components and fasteners. The company serves automotive OEM and aftermarket, commercial food equipment, construction, general industrial, industrial capital goods, consumer durables, and other markets, as well as MRO markets. It distributes its products directly to industrial manufacturers, as well as through independent distributors. Illinois Tool Works Inc. was founded in 1912 and is based in Glenview, Illinois."
+  "longBusinessSummary": "Illinois Tool Works Inc. provides industrial products and equipment in North America, Europe, the Middle East, Africa, the Asia Pacific, and South America. It operates through seven segments: Automotive OEM; Food Equipment; Test & Measurement and Electronics; Welding; Polymers & Fluids; Construction Products; and Specialty Products. The Automotive OEM segment offers plastic and metal components, fasteners, and assemblies for automobiles, light trucks, and other industrial uses. The Food Equipment segment provides warewashing, cooking, refrigeration, and food processing equipment; kitchen exhaust, ventilation, and pollution control systems; and food equipment maintenance and repair services. The Test & Measurement and Electronics segment produce and sells test and measurement; and electronic manufacturing and maintenance, repair, and operations solutions. The Welding segment produces arc welding equipment, and metal arc welding consumables and related accessories. The Polymers & Fluids segment produces adhesives, sealants, lubrication and cutting fluids, and fluids and polymers for auto aftermarket maintenance and appearance. The Construction Products segment offers engineered fastening systems and solutions for the residential construction, renovation/remodel, and commercial construction markets. The Specialty Products segment provides beverage packaging equipment and consumables, product coding and marking equipment and consumables, and appliance components and fasteners. The company serves automotive OEM and aftermarket, commercial food equipment, construction, general industrial, industrial capital goods, consumer durables, and other markets, as well as MRO markets. It distributes its products directly to industrial manufacturers, as well as through independent distributors. Illinois Tool Works Inc. was founded in 1912 and is based in Glenview, Illinois.",
+  "targetMeanPrice": 294.57144,
+  "targetLowPrice": 249.0,
+  "targetHighPrice": 326.0,
+  "numberOfAnalystOpinions": 14,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.25,
+  "forwardPE": 21.409842,
+  "forwardEps": 12.33685,
+  "trailingEps": 11.03,
+  "earningsGrowth": 0.101,
+  "revenueGrowth": 0.061
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 16148000000.0,
+    "official": 16148000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3225000000.0,
+    "official": 3226000000.0,
+    "diff": 0.00031
+   },
+   "net_income": {
+    "yahoo": 3066000000.0,
+    "official": 3066000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 16044000000.0,
+    "official": 16044000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:47:31+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -194,7 +236,10 @@
    "goodwill_and_intangibles": 5632000000.0,
    "retained_earnings": 25799000000.0,
    "total_debt": 8298000000.0,
-   "shares_out": 305000000.0
+   "shares_out": 305000000.0,
+   "unusual_items": 193000000.0,
+   "normalized_ebitda": 4262000000.0,
+   "normalized_income": 2881530000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -228,7 +273,10 @@
    "goodwill_and_intangibles": 5566000000.0,
    "retained_earnings": 27122000000.0,
    "total_debt": 9525000000.0,
-   "shares_out": 299338816.0
+   "shares_out": 299338816.0,
+   "unusual_items": -36000000.0,
+   "normalized_ebitda": 4520000000.0,
+   "normalized_income": 2984864000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -262,7 +310,10 @@
    "goodwill_and_intangibles": 5431000000.0,
    "retained_earnings": 28893000000.0,
    "total_debt": 7863000000.0,
-   "shares_out": 294000000.0
+   "shares_out": 294000000.0,
+   "unusual_items": 370000000.0,
+   "normalized_ebitda": 4737000000.0,
+   "normalized_income": 3196150158.299412
   },
   {
    "fy_end": "2025-12-31",
@@ -296,7 +347,10 @@
    "goodwill_and_intangibles": 5689000000.0,
    "retained_earnings": 30150000000.0,
    "total_debt": 8969000000.0,
-   "shares_out": 288600000.0
+   "shares_out": 288600000.0,
+   "unusual_items": -35000000.0,
+   "normalized_ebitda": 4690000000.0,
+   "normalized_income": 3093057488.653555
   }
  ]
 }

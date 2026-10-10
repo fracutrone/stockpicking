@@ -1,6 +1,6 @@
 {
  "ticker": "TGS.OL",
- "fetched_at": "2026-10-10T12:22:01+00:00",
+ "fetched_at": "2026-10-10T15:24:44+00:00",
  "region": "Europa",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "OSL",
   "fullTimeEmployees": 1640,
   "website": "https://www.tgs.com",
-  "longBusinessSummary": "TGS ASA provides geoscience data services to the oil and gas industry in Norway and internationally. It operates through Multi client, Marine Data Acquisition (MDA), Imaging, New Energy Solutions (NES), and Shared Services segments. The company offers seismic data using robust technology and imaging solutions; well data recorded expertly matched and validated, from permit to abandonment; carbon storage and monitoring solutions; wind energy data partner throughout the wind development lifecycle; solar operations; and asset management services. It also offers applications for oil and gas, new energies, data platforms, and ai/machine learning. TGS ASA has a agreement with Ministry of Hydrocarbon and Mining Development of the Republic of Equatorial Guinea to create an offshore MegaSurvey. The company was formerly known as TGS-NOPEC Geophysical Company ASA and changed its name to TGS ASA in June 2021. TGS ASA was founded in 1981 and is headquartered in Oslo, Norway."
+  "longBusinessSummary": "TGS ASA provides geoscience data services to the oil and gas industry in Norway and internationally. It operates through Multi client, Marine Data Acquisition (MDA), Imaging, New Energy Solutions (NES), and Shared Services segments. The company offers seismic data using robust technology and imaging solutions; well data recorded expertly matched and validated, from permit to abandonment; carbon storage and monitoring solutions; wind energy data partner throughout the wind development lifecycle; solar operations; and asset management services. It also offers applications for oil and gas, new energies, data platforms, and ai/machine learning. TGS ASA has a agreement with Ministry of Hydrocarbon and Mining Development of the Republic of Equatorial Guinea to create an offshore MegaSurvey. The company was formerly known as TGS-NOPEC Geophysical Company ASA and changed its name to TGS ASA in June 2021. TGS ASA was founded in 1981 and is headquartered in Oslo, Norway.",
+  "targetMeanPrice": 141.79951,
+  "targetLowPrice": 69.487595,
+  "targetHighPrice": 199.55707,
+  "numberOfAnalystOpinions": 7,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.14286,
+  "forwardPE": 11.966885,
+  "forwardEps": 11.281132,
+  "trailingEps": 4.73,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.116
  },
  "governance": {
   "ceo": {
@@ -75,8 +86,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF NO",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 4037800000.0,
+    "official": 4037784000.0,
+    "diff": 4e-06
+   },
+   "equity": {
+    "yahoo": 2075200000.0,
+    "official": 2075164000.0,
+    "diff": 1.7e-05
+   },
+   "net_income": {
+    "yahoo": 94200000.0,
+    "official": 94215000.0,
+    "diff": 0.000159
+   },
+   "revenue": {
+    "yahoo": 1318200000.0,
+    "official": 1318174000.0,
+    "diff": 2e-05
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T15:24:44+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -108,7 +151,10 @@
    "goodwill_and_intangibles": 1025791000.0,
    "retained_earnings": 671373000.0,
    "total_debt": 149238000.0,
-   "shares_out": 124468924.0
+   "shares_out": 124468924.0,
+   "unusual_items": -19314000.0,
+   "normalized_ebitda": 560284000.0,
+   "normalized_income": 100929520.0
   },
   {
    "fy_end": "2023-12-31",
@@ -140,7 +186,10 @@
    "goodwill_and_intangibles": 1210753000.0,
    "retained_earnings": 624590000.0,
    "total_debt": 132868000.0,
-   "shares_out": 130861828.0
+   "shares_out": 130861828.0,
+   "unusual_items": -7622000.0,
+   "normalized_ebitda": 400694000.0,
+   "normalized_income": 27591160.0
   },
   {
    "fy_end": "2024-12-31",
@@ -173,7 +222,10 @@
    "goodwill_and_intangibles": 1918000000.0,
    "retained_earnings": 630400000.0,
    "total_debt": 898700000.0,
-   "shares_out": 196213046.0
+   "shares_out": 196213046.0,
+   "unusual_items": -4600000.0,
+   "normalized_ebitda": 686300000.0,
+   "normalized_income": 97137762.711864
   },
   {
    "fy_end": "2025-12-31",
@@ -205,7 +257,10 @@
    "goodwill_and_intangibles": 1866900000.0,
    "retained_earnings": 534200000.0,
    "total_debt": 917900000.0,
-   "shares_out": 196458629.0
+   "shares_out": 196458629.0,
+   "unusual_items": -4600000.0,
+   "normalized_ebitda": 894000000.0,
+   "normalized_income": 21888000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "CBRE",
- "fetched_at": "2026-10-10T12:40:03+00:00",
+ "fetched_at": "2026-10-10T15:38:55+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 155000,
   "website": "https://www.cbre.com",
-  "longBusinessSummary": "CBRE Group, Inc. operates as a commercial real estate services and investment company in the United States, the United Kingdom, and internationally. The company operates through Advisory Services, Building Operations and Experience, Project Management, and Real Estate Investments segments. The Advisory Services segment offers strategic advice and execution to owners, investors, and occupiers of real estate in connection with leasing of offices, and industrial and retail space; clients fully integrated property sales services under the CBRE Capital Markets brand; clients commercial mortgage and structured financing services; originates and sells commercial mortgage loans; property management services, such as marketing, building engineering, lease administration, accounting, investment reporting services, financial services on a contractual basis for owners of and investors in office, industrial, and retail properties; and valuation services that include market value appraisals, litigation support, discounted cash flow analyses, and feasibility studies, as well as consulting services, such as property condition reports, hotel advisory, and environmental consulting. The Global Workplace Solutions segment provides facilities management, and project management services comprising building consulting, program, and project and cost management services under the Turner & Townsend brand name. The Real Estate Investments segment offers investment management services under the CBRE Investment Management brand to pension funds, insurance companies, sovereign wealth funds, foundations, endowments, and other institutional investors and development services, such as real estate development and investment activities under the Trammell Crow Company brand to users and investors in commercial real estate, and for their own account. CBRE Group, Inc. was founded in 1906 and is headquartered in Dallas, Texas."
+  "longBusinessSummary": "CBRE Group, Inc. operates as a commercial real estate services and investment company in the United States, the United Kingdom, and internationally. The company operates through Advisory Services, Building Operations and Experience, Project Management, and Real Estate Investments segments. The Advisory Services segment offers strategic advice and execution to owners, investors, and occupiers of real estate in connection with leasing of offices, and industrial and retail space; clients fully integrated property sales services under the CBRE Capital Markets brand; clients commercial mortgage and structured financing services; originates and sells commercial mortgage loans; property management services, such as marketing, building engineering, lease administration, accounting, investment reporting services, financial services on a contractual basis for owners of and investors in office, industrial, and retail properties; and valuation services that include market value appraisals, litigation support, discounted cash flow analyses, and feasibility studies, as well as consulting services, such as property condition reports, hotel advisory, and environmental consulting. The Global Workplace Solutions segment provides facilities management, and project management services comprising building consulting, program, and project and cost management services under the Turner & Townsend brand name. The Real Estate Investments segment offers investment management services under the CBRE Investment Management brand to pension funds, insurance companies, sovereign wealth funds, foundations, endowments, and other institutional investors and development services, such as real estate development and investment activities under the Trammell Crow Company brand to users and investors in commercial real estate, and for their own account. CBRE Group, Inc. was founded in 1906 and is headquartered in Dallas, Texas.",
+  "targetMeanPrice": 181.33333,
+  "targetLowPrice": 144.0,
+  "targetHighPrice": 200.0,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.53846,
+  "forwardPE": 14.431209,
+  "forwardEps": 9.06369,
+  "trailingEps": 4.37,
+  "earningsGrowth": -0.042,
+  "revenueGrowth": 0.155
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 30877000000.0,
+    "official": 30877000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 8878000000.0,
+    "official": 8878000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1157000000.0,
+    "official": 1157000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 40550000000.0,
+    "official": 40550000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:38:55+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -161,7 +203,8 @@
    "goodwill": 4995000000.0,
    "intangibles": 2409427000.0,
    "retained_earnings": 8366631000.0,
-   "total_debt": 2848242000.0
+   "total_debt": 2848242000.0,
+   "normalized_income": 1783040000.0
   },
   {
    "fy_end": "2022-12-31",
@@ -193,7 +236,10 @@
    "goodwill_and_intangibles": 7061000000.0,
    "retained_earnings": 8833000000.0,
    "total_debt": 2182800000.0,
-   "shares_out": 311014160.0
+   "shares_out": 311014160.0,
+   "unusual_items": 183000000.0,
+   "normalized_ebitda": 1757000000.0,
+   "normalized_income": 1249827503.015682
   },
   {
    "fy_end": "2023-12-31",
@@ -224,7 +270,9 @@
    "goodwill_and_intangibles": 7210000000.0,
    "retained_earnings": 9188000000.0,
    "total_debt": 3495000000.0,
-   "shares_out": 304889140.0
+   "shares_out": 304889140.0,
+   "unusual_items": 27000000.0,
+   "normalized_ebitda": 1685000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -255,7 +303,9 @@
    "goodwill_and_intangibles": 7919000000.0,
    "retained_earnings": 9567000000.0,
    "total_debt": 4187000000.0,
-   "shares_out": 302052229.0
+   "shares_out": 302052229.0,
+   "unusual_items": 142000000.0,
+   "normalized_ebitda": 1803000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -286,7 +336,9 @@
    "goodwill_and_intangibles": 10023000000.0,
    "retained_earnings": 9916000000.0,
    "total_debt": 7586000000.0,
-   "shares_out": 295731478.0
+   "shares_out": 295731478.0,
+   "unusual_items": 457000000.0,
+   "normalized_ebitda": 1566000000.0
   }
  ]
 }

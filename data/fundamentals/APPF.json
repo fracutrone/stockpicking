@@ -1,6 +1,6 @@
 {
  "ticker": "APPF",
- "fetched_at": "2026-10-10T12:37:51+00:00",
+ "fetched_at": "2026-10-10T15:34:50+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NGM",
   "fullTimeEmployees": 1702,
   "website": "https://www.appfolio.com",
-  "longBusinessSummary": "AppFolio, Inc., together with its subsidiaries, provides cloud-based platform for the real estate industry in the United States. The company provides a cloud-based platform that assist with accounting, reporting, marketing, leasing, maintenance, workflow automation, and communication services. It offers AppFolio Property Manager Core, a platform that provides the accounting functionalities for small property management companies, as well as serves as a system of record; AppFolio Property Manager Plus, which offers affordable housing and student housing, advanced accounting, advanced data analysis, and read-only API access services; and AppFolio Property Manager Max that provides customer relationship management tools and full database access through a read and write application programming interface services. The company also provides value-added services, such as electronic payment, tenant screening, maintenance, business optimization, resident, and risk mitigation services. It serves property managers, property investors, potential residents, residents, and vendors. AppFolio, Inc. was incorporated in 2006 and is headquartered in Santa Barbara, California."
+  "longBusinessSummary": "AppFolio, Inc., together with its subsidiaries, provides cloud-based platform for the real estate industry in the United States. The company provides a cloud-based platform that assist with accounting, reporting, marketing, leasing, maintenance, workflow automation, and communication services. It offers AppFolio Property Manager Core, a platform that provides the accounting functionalities for small property management companies, as well as serves as a system of record; AppFolio Property Manager Plus, which offers affordable housing and student housing, advanced accounting, advanced data analysis, and read-only API access services; and AppFolio Property Manager Max that provides customer relationship management tools and full database access through a read and write application programming interface services. The company also provides value-added services, such as electronic payment, tenant screening, maintenance, business optimization, resident, and risk mitigation services. It serves property managers, property investors, potential residents, residents, and vendors. AppFolio, Inc. was incorporated in 2006 and is headquartered in Santa Barbara, California.",
+  "targetMeanPrice": 238.53625,
+  "targetLowPrice": 217.29,
+  "targetHighPrice": 280.0,
+  "numberOfAnalystOpinions": 8,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.66667,
+  "forwardPE": 24.007837,
+  "forwardEps": 8.42225,
+  "trailingEps": 4.5,
+  "earningsGrowth": 0.182,
+  "revenueGrowth": 0.193
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,38 @@
   "retained_earnings": "sec",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "interest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 688967000.0,
+    "official": 688967000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 542579000.0,
+    "official": 542579000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 140923000.0,
+    "official": 140923000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 950822000.0,
+    "official": 950822000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:34:50+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -187,7 +228,9 @@
    "goodwill_and_intangibles": 96208000.0,
    "retained_earnings": 83278000.0,
    "total_debt": 53594000.0,
-   "shares_out": 35315000.0
+   "shares_out": 35315000.0,
+   "normalized_ebitda": -38363000.0,
+   "normalized_income": -68119000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -220,7 +263,9 @@
    "goodwill_and_intangibles": 79979000.0,
    "retained_earnings": 85980000.0,
    "total_debt": 44740000.0,
-   "shares_out": 35865418.0
+   "shares_out": 35865418.0,
+   "normalized_ebitda": 32084000.0,
+   "normalized_income": 2702000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -253,7 +298,9 @@
    "goodwill_and_intangibles": 160896000.0,
    "retained_earnings": 290048000.0,
    "total_debt": 41749000.0,
-   "shares_out": 36404000.0
+   "shares_out": 36404000.0,
+   "normalized_ebitda": 157217000.0,
+   "normalized_income": 204068000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -286,7 +333,9 @@
    "goodwill_and_intangibles": 146560000.0,
    "retained_earnings": 430971000.0,
    "total_debt": 38160000.0,
-   "shares_out": 35990000.0
+   "shares_out": 35990000.0,
+   "normalized_ebitda": 177789000.0,
+   "normalized_income": 140923000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "ICGT.L",
- "fetched_at": "2026-10-10T12:03:06+00:00",
+ "fetched_at": "2026-10-10T14:57:01+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": 1790.0,
+  "targetLowPrice": 1790.0,
+  "targetHighPrice": 1790.0,
+  "numberOfAnalystOpinions": 1,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": 6.60019,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -47,8 +58,15 @@
   "cash": "yahoo",
   "equity": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T14:57:01+00:00",
  "years": [
   {
    "fy_end": "2023-01-31",
@@ -66,7 +84,8 @@
    "cash": 20694000.0,
    "equity": 1300619000.0,
    "total_debt": 65293000.0,
-   "shares_out": 68335575.0
+   "shares_out": 68335575.0,
+   "normalized_income": 164525000.0
   },
   {
    "fy_end": "2024-01-31",
@@ -84,7 +103,8 @@
    "cash": 9722000.0,
    "equity": 1283223000.0,
    "total_debt": 20000000.0,
-   "shares_out": 67184867.0
+   "shares_out": 67184867.0,
+   "normalized_income": 17366000.0
   },
   {
    "fy_end": "2025-01-31",
@@ -102,7 +122,8 @@
    "cash": 3927000.0,
    "equity": 1332392000.0,
    "total_debt": 131931000.0,
-   "shares_out": 64272192.0
+   "shares_out": 64272192.0,
+   "normalized_income": 107510000.0
   },
   {
    "fy_end": "2026-01-31",
@@ -120,7 +141,8 @@
    "cash": 33837000.0,
    "equity": 1272572000.0,
    "total_debt": 66570000.0,
-   "shares_out": 62219470.0
+   "shares_out": 62219470.0,
+   "normalized_income": -8429000.0
   }
  ]
 }

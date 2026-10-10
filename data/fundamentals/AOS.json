@@ -1,6 +1,6 @@
 {
  "ticker": "AOS",
- "fetched_at": "2026-10-10T12:37:39+00:00",
+ "fetched_at": "2026-10-10T15:34:39+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 11500,
   "website": "https://www.aosmith.com",
-  "longBusinessSummary": "A. O. Smith Corporation manufactures and markets residential and commercial gas and electric water heaters, boilers, heat pumps, tanks, and water treatment products in North America, China, Europe, and India. The company offers water heaters for residences, restaurants, hotels, office buildings, laundries, car washes, and small businesses; boilers for hospitals, schools, hotels, homes, apartments, and condominiums, and other large commercial buildings; and water treatment products comprising point-of-entry water softeners, well water solutions, and whole-home water filtration products, and point-of-use carbon and reverse osmosis products for residences, restaurants, hotels, and offices. It also provides commercial water treatment and filtration products; expansion tanks, commercial solar water heating systems, swimming pool and spa heaters, and related products and parts; and electric wall-hung, gas tankless, combi-boiler, and heat pump and solar water heaters. The company offers its products under the A. O. Smith, State, Lochinvar, Hague, Water-Right, Master Water, Atlantic Filter, Impact, and Water Tec brands. It distributes its products through independent wholesale plumbing distributors, as well as to retail channels consisting of hardware and home center chains, and manufacturer representative firms, as well as offers Aquasana branded products directly to consumers through e-commerce channels; and A. O. Smith branded water treatment products through dealer network and Amazon. A. O. Smith Corporation was founded in 1874 and is headquartered in Milwaukee, Wisconsin."
+  "longBusinessSummary": "A. O. Smith Corporation manufactures and markets residential and commercial gas and electric water heaters, boilers, heat pumps, tanks, and water treatment products in North America, China, Europe, and India. The company offers water heaters for residences, restaurants, hotels, office buildings, laundries, car washes, and small businesses; boilers for hospitals, schools, hotels, homes, apartments, and condominiums, and other large commercial buildings; and water treatment products comprising point-of-entry water softeners, well water solutions, and whole-home water filtration products, and point-of-use carbon and reverse osmosis products for residences, restaurants, hotels, and offices. It also provides commercial water treatment and filtration products; expansion tanks, commercial solar water heating systems, swimming pool and spa heaters, and related products and parts; and electric wall-hung, gas tankless, combi-boiler, and heat pump and solar water heaters. The company offers its products under the A. O. Smith, State, Lochinvar, Hague, Water-Right, Master Water, Atlantic Filter, Impact, and Water Tec brands. It distributes its products through independent wholesale plumbing distributors, as well as to retail channels consisting of hardware and home center chains, and manufacturer representative firms, as well as offers Aquasana branded products directly to consumers through e-commerce channels; and A. O. Smith branded water treatment products through dealer network and Amazon. A. O. Smith Corporation was founded in 1874 and is headquartered in Milwaukee, Wisconsin.",
+  "targetMeanPrice": 69.90909,
+  "targetLowPrice": 59.0,
+  "targetHighPrice": 84.0,
+  "numberOfAnalystOpinions": 11,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.53846,
+  "forwardPE": 13.79729,
+  "forwardEps": 4.08631,
+  "trailingEps": 3.59,
+  "earningsGrowth": -0.15,
+  "revenueGrowth": -0.007
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3142800000.0,
+    "official": 3142800000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1858000000.0,
+    "official": 1858000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 546200000.0,
+    "official": 546200000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3830200000.0,
+    "official": 3830200000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:34:39+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -211,7 +253,10 @@
    "goodwill_and_intangibles": 967600000.0,
    "retained_earnings": 2885000000.0,
    "total_debt": 344500000.0,
-   "shares_out": 151179079.0
+   "shares_out": 151179079.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 310000000.0,
+   "normalized_income": 235700000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -246,7 +291,10 @@
    "goodwill_and_intangibles": 970100000.0,
    "retained_earnings": 3258100000.0,
    "total_debt": 127300000.0,
-   "shares_out": 147527327.0
+   "shares_out": 147527327.0,
+   "unusual_items": -18800000.0,
+   "normalized_ebitda": 842600000.0,
+   "normalized_income": 570869200.0
   },
   {
    "fy_end": "2024-12-31",
@@ -281,7 +329,10 @@
    "goodwill_and_intangibles": 1082800000.0,
    "retained_earnings": 3601300000.0,
    "total_debt": 193200000.0,
-   "shares_out": 144319615.0
+   "shares_out": 144319615.0,
+   "unusual_items": -17600000.0,
+   "normalized_ebitda": 804100000.0,
+   "normalized_income": 546993600.0
   },
   {
    "fy_end": "2025-12-31",
@@ -316,7 +367,10 @@
    "goodwill_and_intangibles": 1072900000.0,
    "retained_earnings": 3951800000.0,
    "total_debt": 155000000.0,
-   "shares_out": 138542508.0
+   "shares_out": 138542508.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 813700000.0,
+   "normalized_income": 546200000.0
   }
  ]
 }

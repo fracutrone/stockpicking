@@ -1,6 +1,6 @@
 {
  "ticker": "SMT.L",
- "fetched_at": "2026-10-10T12:19:36+00:00",
+ "fetched_at": "2026-10-10T15:20:41+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -49,8 +60,15 @@
   "equity": "yahoo",
   "receivables": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T15:20:41+00:00",
  "years": [
   {
    "fy_end": "2023-03-31",
@@ -70,7 +88,8 @@
    "equity": 11498000000.0,
    "receivables": 12037000.0,
    "total_debt": 1823294000.0,
-   "shares_out": 1407618528.0
+   "shares_out": 1407618528.0,
+   "normalized_income": -2922138000.0
   },
   {
    "fy_end": "2024-03-31",
@@ -90,7 +109,8 @@
    "equity": 12629814000.0,
    "receivables": 266379000.0,
    "total_debt": 1644456000.0,
-   "shares_out": 1385868493.0
+   "shares_out": 1385868493.0,
+   "normalized_income": 1365963000.0
   },
   {
    "fy_end": "2025-03-31",
@@ -110,7 +130,8 @@
    "equity": 12082465000.0,
    "receivables": 69511000.0,
    "total_debt": 1623867000.0,
-   "shares_out": 1201051727.0
+   "shares_out": 1201051727.0,
+   "normalized_income": 1217759000.0
   },
   {
    "fy_end": "2026-03-31",
@@ -130,7 +151,8 @@
    "equity": 13822175000.0,
    "receivables": 43979000.0,
    "total_debt": 1606198000.0,
-   "shares_out": 1078166806.0
+   "shares_out": 1078166806.0,
+   "normalized_income": 3101619000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "SBUX",
- "fetched_at": "2026-10-10T12:57:40+00:00",
+ "fetched_at": "2026-10-10T15:55:18+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 381000,
   "website": "https://www.starbucks.com",
-  "longBusinessSummary": "Starbucks Corporation, together with its subsidiaries, operates as a roaster, marketer, and retailer of coffee internationally. The company operates through three segments: North America, International, and Channel Development. Its stores offer coffee, tea, and other beverages, roasted whole beans and ground coffees, complementary food, packaged coffees, single-serve products, and ready-to-drink beverages; and various food products, such as pastries, breakfast sandwiches, and lunch items. The company also licenses its trademarks through licensed stores, and grocery and foodservice accounts. The company offers its products under the Starbucks Coffee, Teavana, Seattle's Best Coffee, Ethos, and Starbucks Reserve brands. Starbucks Corporation was founded in 1971 and is based in Seattle, Washington."
+  "longBusinessSummary": "Starbucks Corporation, together with its subsidiaries, operates as a roaster, marketer, and retailer of coffee internationally. The company operates through three segments: North America, International, and Channel Development. Its stores offer coffee, tea, and other beverages, roasted whole beans and ground coffees, complementary food, packaged coffees, single-serve products, and ready-to-drink beverages; and various food products, such as pastries, breakfast sandwiches, and lunch items. The company also licenses its trademarks through licensed stores, and grocery and foodservice accounts. The company offers its products under the Starbucks Coffee, Teavana, Seattle's Best Coffee, Ethos, and Starbucks Reserve brands. Starbucks Corporation was founded in 1971 and is based in Seattle, Washington.",
+  "targetMeanPrice": 111.33333,
+  "targetLowPrice": 82.0,
+  "targetHighPrice": 143.0,
+  "numberOfAnalystOpinions": 30,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.33333,
+  "forwardPE": 29.038235,
+  "forwardEps": 3.12519,
+  "trailingEps": 1.73,
+  "earningsGrowth": 0.857,
+  "revenueGrowth": -0.014
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-09-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 32019700000.0,
+    "official": 32019700000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": -8096600000.0,
+    "official": -8096600000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1856400000.0,
+    "official": 1856400000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 37184400000.0,
+    "official": 37184400000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:55:18+00:00",
  "years": [
   {
    "fy_end": "2019-09-29",
@@ -202,7 +244,10 @@
    "goodwill_and_intangibles": 3439400000.0,
    "retained_earnings": -8449800000.0,
    "total_debt": 15043900000.0,
-   "shares_out": 1147900000.0
+   "shares_out": 1147900000.0,
+   "unusual_items": -46000000.0,
+   "normalized_ebitda": 6290200000.0,
+   "normalized_income": 3317296000.0
   },
   {
    "fy_end": "2023-10-01",
@@ -237,7 +282,10 @@
    "goodwill_and_intangibles": 3338800000.0,
    "retained_earnings": -7255800000.0,
    "total_debt": 15399700000.0,
-   "shares_out": 1142600000.0
+   "shares_out": 1142600000.0,
+   "unusual_items": 69500000.0,
+   "normalized_ebitda": 7332800000.0,
+   "normalized_income": 4071402000.0
   },
   {
    "fy_end": "2024-09-29",
@@ -272,7 +320,10 @@
    "goodwill_and_intangibles": 3416600000.0,
    "retained_earnings": -7343800000.0,
    "total_debt": 15568400000.0,
-   "shares_out": 1133500000.0
+   "shares_out": 1133500000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 7124000000.0,
+   "normalized_income": 3760900000.0
   },
   {
    "fy_end": "2025-09-28",
@@ -307,7 +358,10 @@
    "goodwill_and_intangibles": 3535700000.0,
    "retained_earnings": -8272500000.0,
    "total_debt": 16074800000.0,
-   "shares_out": 1136900000.0
+   "shares_out": 1136900000.0,
+   "unusual_items": -892000000.0,
+   "normalized_ebitda": 5713400000.0,
+   "normalized_income": 2517372000.0
   }
  ]
 }

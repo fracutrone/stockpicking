@@ -1,6 +1,6 @@
 {
  "ticker": "NVR",
- "fetched_at": "2026-10-10T12:53:23+00:00",
+ "fetched_at": "2026-10-10T15:51:27+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 6300,
   "website": "https://www.nvrinc.com",
-  "longBusinessSummary": "NVR, Inc. operates as a homebuilder in the United States. The company operates through Homebuilding and Mortgage Banking segments. It engages in the construction and sale of single-family detached homes, townhomes, and condominium buildings under the Ryan Homes, NVHomes, and Heartland Homes names. The company markets its Ryan Homes products to first-time and first-time move-up buyers; and NVHomes and Heartland Homes products to move-up and luxury buyers. It also provides various mortgage related services to its homebuilding customers, as well as brokers title insurance; performs title searches; and sells mortgage loans to investors in the secondary markets on a servicing released basis. The company primarily serves Maryland, Virginia, West Virginia, Delaware, Washington, D.C., New Jersey, Eastern Pennsylvania, New York, Ohio, Western Pennsylvania, Indiana, Illinois, North Carolina, South Carolina, Tennessee, Florida, Georgia, and Kentucky. NVR, Inc. was founded in 1948 and is headquartered in Reston, Virginia."
+  "longBusinessSummary": "NVR, Inc. operates as a homebuilder in the United States. The company operates through Homebuilding and Mortgage Banking segments. It engages in the construction and sale of single-family detached homes, townhomes, and condominium buildings under the Ryan Homes, NVHomes, and Heartland Homes names. The company markets its Ryan Homes products to first-time and first-time move-up buyers; and NVHomes and Heartland Homes products to move-up and luxury buyers. It also provides various mortgage related services to its homebuilding customers, as well as brokers title insurance; performs title searches; and sells mortgage loans to investors in the secondary markets on a servicing released basis. The company primarily serves Maryland, Virginia, West Virginia, Delaware, Washington, D.C., New Jersey, Eastern Pennsylvania, New York, Ohio, Western Pennsylvania, Indiana, Illinois, North Carolina, South Carolina, Tennessee, Florida, Georgia, and Kentucky. NVR, Inc. was founded in 1948 and is headquartered in Reston, Virginia.",
+  "targetMeanPrice": 6395.3335,
+  "targetLowPrice": 5058.0,
+  "targetHighPrice": 7400.0,
+  "numberOfAnalystOpinions": 6,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.0,
+  "forwardPE": 15.049245,
+  "forwardEps": 391.99045,
+  "trailingEps": 384.93,
+  "earningsGrowth": -0.226,
+  "revenueGrowth": -0.109
  },
  "governance": {
   "ceo": {
@@ -82,9 +93,38 @@
   "retained_earnings": "sec",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
   "goodwill": "sec",
   "intangibles": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 5856930000.0,
+    "official": 5856930000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3864869000.0,
+    "official": 3864869000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1339816000.0,
+    "official": 1339816000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 10341845000.0,
+    "official": 10323959000.0,
+    "diff": 0.001732
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:51:27+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -160,7 +200,8 @@
    "ppe_net": 90651000.0,
    "retained_earnings": 11773414000.0,
    "total_debt": 1007674000.0,
-   "shares_out": 3218933.0
+   "shares_out": 3218933.0,
+   "normalized_ebitda": 2310114000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -191,7 +232,8 @@
    "ppe_net": 100273000.0,
    "retained_earnings": 13365025000.0,
    "total_debt": 1014299000.0,
-   "shares_out": 3088179.0
+   "shares_out": 3088179.0,
+   "normalized_ebitda": 1973029000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -222,7 +264,8 @@
    "ppe_net": 109195000.0,
    "retained_earnings": 15046953000.0,
    "total_debt": 1020485000.0,
-   "shares_out": 3011644.0
+   "shares_out": 3011644.0,
+   "normalized_ebitda": 2161664000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -253,7 +296,8 @@
    "ppe_net": 142215000.0,
    "retained_earnings": 16386769000.0,
    "total_debt": 1052893000.0,
-   "shares_out": 2799387.0
+   "shares_out": 2799387.0,
+   "normalized_ebitda": 1815277000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "LECO",
- "fetched_at": "2026-10-10T12:50:20+00:00",
+ "fetched_at": "2026-10-10T15:48:36+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 12000,
   "website": "https://www.lincolnelectric.com",
-  "longBusinessSummary": "Lincoln Electric Holdings, Inc., through its subsidiaries, designs, develops, manufactures, and sells welding, cutting, and brazing products in the United States and internationally. It operates in three segments: Americas Welding, International Welding, and The Harris Products Group. The company offers brazing and soldering filler metals, arc welding equipment, plasma and oxyfuel cutting systems, wire feeding systems, fume control equipment, welding accessories, specialty gas regulators, and education solutions; and a portfolio of automated solutions and system integration services for joining, cutting, material handling, module assembly, and end of line testing, as well as involved in brazing and soldering alloys, and in the retail business. It also provides mobile power solutions, including vehicle-mounted compressors, generators, welders, hydraulics, charger/boosters, and electrified power equipment; automated welding system and solutions; and specialty welding consumables, wear plates, and maintenance and repair services for alloy and wear-resistant products, as well as develops and integrates autonomous guided vehicles and mobile robots, custom assembly and test systems, and proprietary manufacturing execution system software. The company serves general fabrication, oil and gas, power generation, process, automotive and transportation, and construction and infrastructure industries, as well as heavy fabrication, ship building, and maintenance and repair markets. It sells its products directly to users of welding products, including OEMs, manufacturers, and integrators, as well as through industrial distributors, retailers, and agents. Lincoln Electric Holdings, Inc. was founded in 1895 and is headquartered in Cleveland, Ohio."
+  "longBusinessSummary": "Lincoln Electric Holdings, Inc., through its subsidiaries, designs, develops, manufactures, and sells welding, cutting, and brazing products in the United States and internationally. It operates in three segments: Americas Welding, International Welding, and The Harris Products Group. The company offers brazing and soldering filler metals, arc welding equipment, plasma and oxyfuel cutting systems, wire feeding systems, fume control equipment, welding accessories, specialty gas regulators, and education solutions; and a portfolio of automated solutions and system integration services for joining, cutting, material handling, module assembly, and end of line testing, as well as involved in brazing and soldering alloys, and in the retail business. It also provides mobile power solutions, including vehicle-mounted compressors, generators, welders, hydraulics, charger/boosters, and electrified power equipment; automated welding system and solutions; and specialty welding consumables, wear plates, and maintenance and repair services for alloy and wear-resistant products, as well as develops and integrates autonomous guided vehicles and mobile robots, custom assembly and test systems, and proprietary manufacturing execution system software. The company serves general fabrication, oil and gas, power generation, process, automotive and transportation, and construction and infrastructure industries, as well as heavy fabrication, ship building, and maintenance and repair markets. It sells its products directly to users of welding products, including OEMs, manufacturers, and integrators, as well as through industrial distributors, retailers, and agents. Lincoln Electric Holdings, Inc. was founded in 1895 and is headquartered in Cleveland, Ohio.",
+  "targetMeanPrice": 304.9091,
+  "targetLowPrice": 238.0,
+  "targetHighPrice": 340.0,
+  "numberOfAnalystOpinions": 11,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": 20.847704,
+  "forwardEps": 12.5256,
+  "trailingEps": 10.01,
+  "earningsGrowth": 0.125,
+  "revenueGrowth": 0.12
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3777577000.0,
+    "official": 3777577000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1469794000.0,
+    "official": 1469794000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 520533000.0,
+    "official": 520533000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 4233003000.0,
+    "official": 4233003000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:48:36+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -206,7 +248,10 @@
    "goodwill_and_intangibles": 867963000.0,
    "retained_earnings": 3306500000.0,
    "total_debt": 1121435000.0,
-   "shares_out": 57623539.0
+   "shares_out": 57623539.0,
+   "unusual_items": -11788000.0,
+   "normalized_ebitda": 712174000.0,
+   "normalized_income": 481619036.0
   },
   {
    "fy_end": "2023-12-31",
@@ -240,7 +285,10 @@
    "goodwill_and_intangibles": 881119000.0,
    "retained_earnings": 3688038000.0,
    "total_debt": 1102775000.0,
-   "shares_out": 56975815.0
+   "shares_out": 56975815.0,
+   "unusual_items": 11314000.0,
+   "normalized_ebitda": 806593000.0,
+   "normalized_income": 536264684.0
   },
   {
    "fy_end": "2024-12-31",
@@ -274,7 +322,10 @@
    "goodwill_and_intangibles": 1025932000.0,
    "retained_earnings": 3993016000.0,
    "total_debt": 1250555000.0,
-   "shares_out": 56211219.0
+   "shares_out": 56211219.0,
+   "unusual_items": -55860000.0,
+   "normalized_ebitda": 781033000.0,
+   "normalized_income": 509929992.2612
   },
   {
    "fy_end": "2025-12-31",
@@ -308,7 +359,10 @@
    "goodwill_and_intangibles": 1137110000.0,
    "retained_earnings": 4342080000.0,
    "total_debt": 1150228000.0,
-   "shares_out": 54845950.0
+   "shares_out": 54845950.0,
+   "unusual_items": -18199000.0,
+   "normalized_ebitda": 843756000.0,
+   "normalized_income": 534557990.846103
   }
  ]
 }

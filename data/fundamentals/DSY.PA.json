@@ -1,6 +1,6 @@
 {
  "ticker": "DSY.PA",
- "fetched_at": "2026-10-10T11:54:50+00:00",
+ "fetched_at": "2026-10-10T14:43:49+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.49051,
   "heldPercentInstitutions": 0.2997,
   "shortPercentOfFloat": null,
-  "averageVolume": 1887449,
+  "averageVolume": 1894804,
   "quoteType": "EQUITY",
   "exchange": "PAR",
   "fullTimeEmployees": 25000,
   "website": "https://www.3ds.com",
-  "longBusinessSummary": "Dassault Systèmes SE provides software solutions and services worldwide. The company offers 3D modeling applications, such as SOLIDWORKS, CATIA, GEOVIA, and BIOVIA; social and collaborative applications, including 3DEXCITE, CENTRIC PLM, and ENOVIA; and simulation applications comprising SIMULIA, DELMIA, 3DVIA. It also provides information intelligence applications consisting of NETVIBES and MEDIDATA; and OUTSCALE, an infrastructure for business experiences, as well as 3DEXPERIENCE platform, a business and innovation platform that provides organizations with a holistic and real-time vision of their business activity and ecosystem. The company distributes its products through direct and indirect sales channels, as well as commercial partners. It primarily serves companies in the aerospace and defense; architecture, engineering and construction; business services; cities and public services; consumer packaged goods  retail; high-tech; home and lifestyle; industrial equipment; infrastructure, energy, and materials; life sciences and healthcare; marine and offshore; and transportation & mobility industries. The company was incorporated in 1981 and is headquartered in Vélizy-Villacoublay, France."
+  "longBusinessSummary": "Dassault Systèmes SE provides software solutions and services worldwide. The company offers 3D modeling applications, such as SOLIDWORKS, CATIA, GEOVIA, and BIOVIA; social and collaborative applications, including 3DEXCITE, CENTRIC PLM, and ENOVIA; and simulation applications comprising SIMULIA, DELMIA, 3DVIA. It also provides information intelligence applications consisting of NETVIBES and MEDIDATA; and OUTSCALE, an infrastructure for business experiences, as well as 3DEXPERIENCE platform, a business and innovation platform that provides organizations with a holistic and real-time vision of their business activity and ecosystem. The company distributes its products through direct and indirect sales channels, as well as commercial partners. It primarily serves companies in the aerospace and defense; architecture, engineering and construction; business services; cities and public services; consumer packaged goods  retail; high-tech; home and lifestyle; industrial equipment; infrastructure, energy, and materials; life sciences and healthcare; marine and offshore; and transportation & mobility industries. The company was incorporated in 1981 and is headquartered in Vélizy-Villacoublay, France.",
+  "targetMeanPrice": 23.325,
+  "targetLowPrice": 16.0,
+  "targetHighPrice": 33.35,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.61905,
+  "forwardPE": 15.450516,
+  "forwardEps": 1.40772,
+  "trailingEps": 0.97,
+  "earningsGrowth": 0.318,
+  "revenueGrowth": 0.022
  },
  "governance": {
   "ceo": {
@@ -74,8 +85,40 @@
   "intangibles": "yahoo",
   "goodwill_and_intangibles": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF FR",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 15059400000.0,
+    "official": 15059400000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 8792600000.0,
+    "official": 8792500000.0,
+    "diff": 1.1e-05
+   },
+   "net_income": {
+    "yahoo": 1196000000.0,
+    "official": 1196000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 6235700000.0,
+    "official": 6235800000.0,
+    "diff": 1.6e-05
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:43:49+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -107,7 +150,10 @@
    "intangibles": 3302400000.0,
    "goodwill_and_intangibles": 8273500000.0,
    "total_debt": 3576800000.0,
-   "shares_out": 1313923483.0
+   "shares_out": 1313923483.0,
+   "unusual_items": -11400000.0,
+   "normalized_ebitda": 1953800000.0,
+   "normalized_income": 939616800.0
   },
   {
    "fy_end": "2023-12-31",
@@ -139,7 +185,10 @@
    "intangibles": 2842100000.0,
    "goodwill_and_intangibles": 7647100000.0,
    "total_debt": 3600900000.0,
-   "shares_out": 1314780479.0
+   "shares_out": 1314780479.0,
+   "unusual_items": -15300000.0,
+   "normalized_ebitda": 1931300000.0,
+   "normalized_income": 1122878100.0
   },
   {
    "fy_end": "2024-12-31",
@@ -171,7 +220,10 @@
    "intangibles": 2641000000.0,
    "goodwill_and_intangibles": 7687100000.0,
    "total_debt": 3062200000.0,
-   "shares_out": 1312809178.0
+   "shares_out": 1312809178.0,
+   "unusual_items": -16300000.0,
+   "normalized_ebitda": 2118400000.0,
+   "normalized_income": 1213413146.143437
   },
   {
    "fy_end": "2025-12-31",
@@ -203,7 +255,10 @@
    "intangibles": 2154900000.0,
    "goodwill_and_intangibles": 6868800000.0,
    "total_debt": 3169200000.0,
-   "shares_out": 1320685096.0
+   "shares_out": 1320685096.0,
+   "unusual_items": -40300000.0,
+   "normalized_ebitda": 2093500000.0,
+   "normalized_income": 1228804200.0
   }
  ]
 }

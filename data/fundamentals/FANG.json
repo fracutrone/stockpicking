@@ -1,6 +1,6 @@
 {
  "ticker": "FANG",
- "fetched_at": "2026-10-10T12:45:12+00:00",
+ "fetched_at": "2026-10-10T15:43:32+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 1762,
   "website": "https://www.diamondbackenergy.com",
-  "longBusinessSummary": "Diamondback Energy, Inc., an independent oil and natural gas company, acquires, develops, explores, and exploits unconventional, onshore oil and natural gas reserves in the Permian Basin in West Texas, the United States. The company primarily focuses on the development of the Spraberry and Wolfcamp formations of the Midland Basin; and the Wolfcamp and Bone Spring formations of the Delaware Basin, both of which are part of the Permian Basin in West Texas and New Mexico. Diamondback Energy, Inc. was founded in 2007 and is headquartered in Midland, Texas."
+  "longBusinessSummary": "Diamondback Energy, Inc., an independent oil and natural gas company, acquires, develops, explores, and exploits unconventional, onshore oil and natural gas reserves in the Permian Basin in West Texas, the United States. The company primarily focuses on the development of the Spraberry and Wolfcamp formations of the Midland Basin; and the Wolfcamp and Bone Spring formations of the Delaware Basin, both of which are part of the Permian Basin in West Texas and New Mexico. Diamondback Energy, Inc. was founded in 2007 and is headquartered in Midland, Texas.",
+  "targetMeanPrice": 234.7931,
+  "targetLowPrice": 205.0,
+  "targetHighPrice": 287.0,
+  "numberOfAnalystOpinions": 29,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.48387,
+  "forwardPE": 10.250826,
+  "forwardEps": 18.74288,
+  "trailingEps": 5.25,
+  "earningsGrowth": 1.795,
+  "revenueGrowth": 0.525
  },
  "governance": {
   "ceo": {
@@ -82,8 +93,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "intangibles": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 71059000000.0,
+    "official": 71059000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 36972000000.0,
+    "official": 36972000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1664000000.0,
+    "official": 1664000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 14929000000.0,
+    "official": 15026000000.0,
+    "diff": 0.006455
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:43:32+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -187,7 +229,10 @@
    "ppe_net": 23759000000.0,
    "retained_earnings": 801000000.0,
    "total_debt": 6238000000.0,
-   "shares_out": 179840797.0
+   "shares_out": 179840797.0,
+   "unusual_items": -622000000.0,
+   "normalized_ebitda": 7850000000.0,
+   "normalized_income": 4880490000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -218,7 +263,10 @@
    "ppe_net": 26674000000.0,
    "retained_earnings": 2489000000.0,
    "total_debt": 6641000000.0,
-   "shares_out": 178723871.0
+   "shares_out": 178723871.0,
+   "unusual_items": -263000000.0,
+   "normalized_ebitda": 6432000000.0,
+   "normalized_income": 3349455000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -249,7 +297,10 @@
    "ppe_net": 64472000000.0,
    "retained_earnings": 4238000000.0,
    "total_debt": 12075000000.0,
-   "shares_out": 290984373.0
+   "shares_out": 290984373.0,
+   "unusual_items": 139000000.0,
+   "normalized_ebitda": 7500000000.0,
+   "normalized_income": 3223742000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -280,7 +331,10 @@
    "ppe_net": 68621000000.0,
    "retained_earnings": 4740000000.0,
    "total_debt": 13726000000.0,
-   "shares_out": 284594908.0
+   "shares_out": 284594908.0,
+   "unusual_items": -3255000000.0,
+   "normalized_ebitda": 10432000000.0,
+   "normalized_income": 4352630000.0
   }
  ]
 }

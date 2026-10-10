@@ -1,6 +1,6 @@
 {
  "ticker": "VWS.CO",
- "fetched_at": "2026-10-10T12:25:41+00:00",
+ "fetched_at": "2026-10-10T15:29:06+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "CPH",
   "fullTimeEmployees": 39520,
   "website": "https://www.vestas.com",
-  "longBusinessSummary": "Vestas Wind Systems A/S engages in the design, manufacture, installation, and services of wind turbines the United States, Denmark, and internationally. It operates through two segments, Power Solutions and Service. The Power Solutions segment offers onshore and offshore wind power plants, wind turbines, development sites, etc. The Service segment engages in the sale of service contracts, spare parts, and related activities. Vestas Wind Systems A/S was founded in 1898 and is headquartered in Aarhus, Denmark."
+  "longBusinessSummary": "Vestas Wind Systems A/S engages in the design, manufacture, installation, and services of wind turbines the United States, Denmark, and internationally. It operates through two segments, Power Solutions and Service. The Power Solutions segment offers onshore and offshore wind power plants, wind turbines, development sites, etc. The Service segment engages in the sale of service contracts, spare parts, and related activities. Vestas Wind Systems A/S was founded in 1898 and is headquartered in Aarhus, Denmark.",
+  "targetMeanPrice": 216.96298,
+  "targetLowPrice": 89.985756,
+  "targetHighPrice": 294.79303,
+  "numberOfAnalystOpinions": 24,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.16,
+  "forwardPE": 15.371121,
+  "forwardEps": 12.341325,
+  "trailingEps": 8.22,
+  "earningsGrowth": 8.333,
+  "revenueGrowth": 0.261
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF DK",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 25732000000.0,
+    "official": 25732000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3867000000.0,
+    "official": 3867000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 778000000.0,
+    "official": 778000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 18822000000.0,
+    "official": 18822000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:29:06+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -120,7 +163,10 @@
    "goodwill_and_intangibles": 3065000000.0,
    "retained_earnings": 3002000000.0,
    "total_debt": 2427000000.0,
-   "shares_out": 1006177558.0
+   "shares_out": 1006177558.0,
+   "unusual_items": -442000000.0,
+   "normalized_ebitda": -103000000.0,
+   "normalized_income": -1162266000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -155,7 +201,10 @@
    "goodwill_and_intangibles": 3203000000.0,
    "retained_earnings": 3102000000.0,
    "total_debt": 3387000000.0,
-   "shares_out": 1006473655.0
+   "shares_out": 1006473655.0,
+   "unusual_items": 209000000.0,
+   "normalized_ebitda": 917000000.0,
+   "normalized_income": -82258000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -190,7 +239,10 @@
    "goodwill_and_intangibles": 3385000000.0,
    "retained_earnings": 3580000000.0,
    "total_debt": 3271000000.0,
-   "shares_out": 1005762617.0
+   "shares_out": 1005762617.0,
+   "unusual_items": 57000000.0,
+   "normalized_ebitda": 1704000000.0,
+   "normalized_income": 459100000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -225,7 +277,10 @@
    "goodwill_and_intangibles": 3436000000.0,
    "retained_earnings": 4055000000.0,
    "total_debt": 3374000000.0,
-   "shares_out": 990417317.0
+   "shares_out": 990417317.0,
+   "unusual_items": -67000000.0,
+   "normalized_ebitda": 2310000000.0,
+   "normalized_income": 828250000.0
   }
  ]
 }

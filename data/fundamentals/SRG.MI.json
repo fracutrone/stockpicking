@@ -1,6 +1,6 @@
 {
  "ticker": "SRG.MI",
- "fetched_at": "2026-10-10T12:20:19+00:00",
+ "fetched_at": "2026-10-10T15:21:50+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "MIL",
   "fullTimeEmployees": 4044,
   "website": "https://www.snam.it",
-  "longBusinessSummary": "Snam S.p.A., together with its subsidiaries, engages in the operation of natural gas transport and storage infrastructure. It operates through Natural gas transportation; Natural gas storage; LNG regasification; and Market solutions segments. The company offers natural gas transportation and dispatching services; and owns and manages liquified natural gas (LNG) regasification plants. It also provides natural gas storage services through an integrated group of infrastructure comprising deposits, wells, gas treatment and compression plants, and the operational dispatching systems; and operates storage concessions located in Lombardy, Emilia-Romagna, and Abruzzo. In addition, the company offers energy efficiency solutions for companies, condominiums, tertiary, and public administration sectors; and invests, constructs, develops, and operates biogas and biomethane plants. Further, the company provides technical consulting services; and sells automotive compressed natural gas (CNG) compressors. It operates a natural gas transportation network of approximately 38,000 kilometers in Italy, Austria, the United Arab Emirates, France, Greece, and the United Kingdom. The company was formerly known as Snam Rete Gas S.p.A. and changed its name to Snam S.p.A. in January 2012. Snam S.p.A. was founded in 1941 and is headquartered in Milan, Italy."
+  "longBusinessSummary": "Snam S.p.A., together with its subsidiaries, engages in the operation of natural gas transport and storage infrastructure. It operates through Natural gas transportation; Natural gas storage; LNG regasification; and Market solutions segments. The company offers natural gas transportation and dispatching services; and owns and manages liquified natural gas (LNG) regasification plants. It also provides natural gas storage services through an integrated group of infrastructure comprising deposits, wells, gas treatment and compression plants, and the operational dispatching systems; and operates storage concessions located in Lombardy, Emilia-Romagna, and Abruzzo. In addition, the company offers energy efficiency solutions for companies, condominiums, tertiary, and public administration sectors; and invests, constructs, develops, and operates biogas and biomethane plants. Further, the company provides technical consulting services; and sells automotive compressed natural gas (CNG) compressors. It operates a natural gas transportation network of approximately 38,000 kilometers in Italy, Austria, the United Arab Emirates, France, Greece, and the United Kingdom. The company was formerly known as Snam Rete Gas S.p.A. and changed its name to Snam S.p.A. in January 2012. Snam S.p.A. was founded in 1941 and is headquartered in Milan, Italy.",
+  "targetMeanPrice": 6.466,
+  "targetLowPrice": 5.4,
+  "targetHighPrice": 7.3,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.7,
+  "forwardPE": 12.839585,
+  "forwardEps": 0.43693,
+  "trailingEps": 0.33,
+  "earningsGrowth": 0.267,
+  "revenueGrowth": 0.097
  },
  "governance": {
   "ceo": {
@@ -81,8 +92,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF IT",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 35789000000.0,
+    "official": 35789000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 8929000000.0,
+    "official": 8929000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1259000000.0,
+    "official": 1259000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3548000000.0,
+    "official": 3548000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T15:21:50+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -116,7 +159,10 @@
    "goodwill_and_intangibles": 1321000000.0,
    "retained_earnings": 4124000000.0,
    "total_debt": 13680000000.0,
-   "shares_out": 3352756372.0
+   "shares_out": 3352756372.0,
+   "unusual_items": -51000000.0,
+   "normalized_ebitda": 2120000000.0,
+   "normalized_income": 704762000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -150,7 +196,10 @@
    "goodwill_and_intangibles": 1449000000.0,
    "retained_earnings": 4328000000.0,
    "total_debt": 16652000000.0,
-   "shares_out": 3353613230.0
+   "shares_out": 3353613230.0,
+   "unusual_items": -212000000.0,
+   "normalized_ebitda": 2941000000.0,
+   "normalized_income": 1291880000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -184,7 +233,10 @@
    "goodwill_and_intangibles": 1560000000.0,
    "retained_earnings": 4656000000.0,
    "total_debt": 18361000000.0,
-   "shares_out": 3354396370.0
+   "shares_out": 3354396370.0,
+   "unusual_items": -94000000.0,
+   "normalized_ebitda": 3194000000.0,
+   "normalized_income": 1329406000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -219,7 +271,10 @@
    "goodwill_and_intangibles": 1970000000.0,
    "retained_earnings": 4952000000.0,
    "total_debt": 19535000000.0,
-   "shares_out": 3355791415.0
+   "shares_out": 3355791415.0,
+   "unusual_items": -111000000.0,
+   "normalized_ebitda": 3342000000.0,
+   "normalized_income": 1352584000.0
   }
  ]
 }

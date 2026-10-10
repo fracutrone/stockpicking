@@ -1,6 +1,6 @@
 {
  "ticker": "ARW",
- "fetched_at": "2026-10-10T12:38:02+00:00",
+ "fetched_at": "2026-10-10T15:35:00+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 22230,
   "website": "https://www.arrow.com",
-  "longBusinessSummary": "Arrow Electronics, Inc. sources and engineers technology for manufacturers, service providers, and users of enterprise computing solutions in the Americas, Europe, the Middle East, Africa, and the Asia Pacific. It operates in two segments, Global Components and Global Enterprise Computing Solutions. The Global Components segment markets and distributes electronic components, including semiconductor products and related services; interconnect, passive, and electromechanical products comprising capacitors, resistors, potentiometers, power supplies, relays, switches, and connectors; and computing and memory products, as well as other products and services. Its Global Enterprise Computing Solutions segment offers computing solutions, such as datacenter, cloud, security, and analytics solutions, as well as engineering and integration support, warehousing and logistics, marketing resources, and authorized hardware and software training services. The company serves original equipment manufacturers, value-added resellers, managed service providers, contract manufacturers, and other commercial customers. Arrow Electronics, Inc. was founded in 1935 and is based in Centennial, Colorado."
+  "longBusinessSummary": "Arrow Electronics, Inc. sources and engineers technology for manufacturers, service providers, and users of enterprise computing solutions in the Americas, Europe, the Middle East, Africa, and the Asia Pacific. It operates in two segments, Global Components and Global Enterprise Computing Solutions. The Global Components segment markets and distributes electronic components, including semiconductor products and related services; interconnect, passive, and electromechanical products comprising capacitors, resistors, potentiometers, power supplies, relays, switches, and connectors; and computing and memory products, as well as other products and services. Its Global Enterprise Computing Solutions segment offers computing solutions, such as datacenter, cloud, security, and analytics solutions, as well as engineering and integration support, warehousing and logistics, marketing resources, and authorized hardware and software training services. The company serves original equipment manufacturers, value-added resellers, managed service providers, contract manufacturers, and other commercial customers. Arrow Electronics, Inc. was founded in 1935 and is based in Centennial, Colorado.",
+  "targetMeanPrice": 235.0,
+  "targetLowPrice": 200.0,
+  "targetHighPrice": 250.0,
+  "numberOfAnalystOpinions": 4,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 9.5256,
+  "forwardEps": 23.925,
+  "trailingEps": 15.64,
+  "earningsGrowth": 0.465,
+  "revenueGrowth": 0.318
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 29078138000.0,
+    "official": 29078138000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 6584712000.0,
+    "official": 6584712000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 571266000.0,
+    "official": 571266000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 30852935000.0,
+    "official": 30852935000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:35:00+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -201,7 +243,10 @@
    "goodwill_and_intangibles": 2186763000.0,
    "retained_earnings": 9214832000.0,
    "total_debt": 3182964000.0,
-   "shares_out": 59249000.0
+   "shares_out": 59249000.0,
+   "unusual_items": -16598000.0,
+   "normalized_ebitda": 2273778000.0,
+   "normalized_income": 1439531676.0
   },
   {
    "fy_end": "2023-12-31",
@@ -235,7 +280,10 @@
    "goodwill_and_intangibles": 2177866000.0,
    "retained_earnings": 5790217000.0,
    "total_debt": 2153553000.0,
-   "shares_out": 53811000.0
+   "shares_out": 53811000.0,
+   "unusual_items": -64632000.0,
+   "normalized_ebitda": 1738826000.0,
+   "normalized_income": 953982592.0
   },
   {
    "fy_end": "2024-12-31",
@@ -269,7 +317,10 @@
    "goodwill_and_intangibles": 2152001000.0,
    "retained_earnings": 5980826000.0,
    "total_debt": 2773783000.0,
-   "shares_out": 52172000.0
+   "shares_out": 52172000.0,
+   "unusual_items": -149404000.0,
+   "normalized_ebitda": 1071551000.0,
+   "normalized_income": 512223677.057298
   },
   {
    "fy_end": "2025-12-31",
@@ -303,7 +354,10 @@
    "goodwill_and_intangibles": 2197093000.0,
    "retained_earnings": 6552092000.0,
    "total_debt": 3084715000.0,
-   "shares_out": 51070000.0
+   "shares_out": 51070000.0,
+   "unusual_items": -6231000.0,
+   "normalized_ebitda": 1077013000.0,
+   "normalized_income": 576210455.870227
   }
  ]
 }

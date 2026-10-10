@@ -1,6 +1,6 @@
 {
  "ticker": "MONC.MI",
- "fetched_at": "2026-10-10T12:09:06+00:00",
+ "fetched_at": "2026-10-10T15:05:34+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "MIL",
   "fullTimeEmployees": 8032,
   "website": "https://www.monclergroup.com",
-  "longBusinessSummary": "Moncler S.p.A., together with its subsidiaries, engages in the production and distribution of garments, children's clothing, footwear, eyewear and other related accessories under the Moncler and Stone Island brands. It also provides leather goods; bags, backpacks, and accessories; and glasses. The company operates through directly operated stores, e-concessions, multi-brand sales outlets, shop-in-shops in luxury department stores, airport locations, and online luxury multi-brand retailers. It also sells its products through moncler.com, an online store. It operates in Italy, rest of Europe, Asia, the Middle East, Africa, and the United States. Moncler S.p.A. was founded in 1952 and is headquartered in Milan, Italy."
+  "longBusinessSummary": "Moncler S.p.A., together with its subsidiaries, engages in the production and distribution of garments, children's clothing, footwear, eyewear and other related accessories under the Moncler and Stone Island brands. It also provides leather goods; bags, backpacks, and accessories; and glasses. The company operates through directly operated stores, e-concessions, multi-brand sales outlets, shop-in-shops in luxury department stores, airport locations, and online luxury multi-brand retailers. It also sells its products through moncler.com, an online store. It operates in Italy, rest of Europe, Asia, the Middle East, Africa, and the United States. Moncler S.p.A. was founded in 1952 and is headquartered in Milan, Italy.",
+  "targetMeanPrice": 59.22,
+  "targetLowPrice": 46.6,
+  "targetHighPrice": 70.0,
+  "numberOfAnalystOpinions": 25,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.92,
+  "forwardPE": 17.079325,
+  "forwardEps": 2.54811,
+  "trailingEps": 2.35,
+  "earningsGrowth": 0.071,
+  "revenueGrowth": 0.052
  },
  "governance": {
   "ceo": {
@@ -81,8 +92,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF IT",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 5959504000.0,
+    "official": 5959504000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3849694000.0,
+    "official": 3849694000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 626670000.0,
+    "official": 626670000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3132128000.0,
+    "official": 3132128000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:05:34+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -116,7 +159,9 @@
    "goodwill_and_intangibles": 1690123000.0,
    "retained_earnings": 606697000.0,
    "total_debt": 912779000.0,
-   "shares_out": 268824374.0
+   "shares_out": 268824374.0,
+   "normalized_ebitda": 1038521000.0,
+   "normalized_income": 606697000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -151,7 +196,9 @@
    "goodwill_and_intangibles": 1699890000.0,
    "retained_earnings": 611931000.0,
    "total_debt": 848591000.0,
-   "shares_out": 270136798.0
+   "shares_out": 270136798.0,
+   "normalized_ebitda": 1194670000.0,
+   "normalized_income": 611931000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -186,7 +233,10 @@
    "goodwill_and_intangibles": 1710201000.0,
    "retained_earnings": 639596000.0,
    "total_debt": 957308000.0,
-   "shares_out": 270606444.0
+   "shares_out": 270606444.0,
+   "unusual_items": -7500000.0,
+   "normalized_ebitda": 1242930000.0,
+   "normalized_income": 634323497.749528
   },
   {
    "fy_end": "2025-12-31",
@@ -221,7 +271,9 @@
    "goodwill_and_intangibles": 1712062000.0,
    "retained_earnings": 626670000.0,
    "total_debt": 1128458000.0,
-   "shares_out": 271598300.0
+   "shares_out": 271598300.0,
+   "normalized_ebitda": 1266661000.0,
+   "normalized_income": 626670000.0
   }
  ]
 }

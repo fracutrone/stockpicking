@@ -1,6 +1,6 @@
 {
  "ticker": "SEM.LS",
- "fetched_at": "2026-10-10T12:18:45+00:00",
+ "fetched_at": "2026-10-10T15:19:09+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LIS",
   "fullTimeEmployees": 8271,
   "website": "https://www.semapa.pt",
-  "longBusinessSummary": "Semapa - Sociedade de Investimento e Gestão, SGPS, S.A., through its subsidiaries, engages in the production and sale of pulp, printing and writing papers, and tissues in Portugal, the rest of Europe, the United States, Africa, Asia, and Oceania. It operates through Pulp and Paper, Cement, and Other Businesses segments. The company produces and sells writing and printing thin paper, tissue paper, and moulded fibre packaging; researches, develops, produces, and sells forestry and agricultural products; and produces and sells bleached eucalyptus kraft pulp (BEKP), cork, and pine wood products, as well as electric and thermal energy. It is also involved in the production and sale of cement, ready-mixed concrete, aggregates, mortars, precast concrete, and hydraulic lime. In addition, the company engages in the production of aluminium e-bike frames; and the provision of services related to the recovery of animal by-products and food products containing animal-origin substances to produce fertilizers, animal feed, and biodiesel. The company was incorporated in 1991 and is based in Lisbon, Portugal."
+  "longBusinessSummary": "Semapa - Sociedade de Investimento e Gestão, SGPS, S.A., through its subsidiaries, engages in the production and sale of pulp, printing and writing papers, and tissues in Portugal, the rest of Europe, the United States, Africa, Asia, and Oceania. It operates through Pulp and Paper, Cement, and Other Businesses segments. The company produces and sells writing and printing thin paper, tissue paper, and moulded fibre packaging; researches, develops, produces, and sells forestry and agricultural products; and produces and sells bleached eucalyptus kraft pulp (BEKP), cork, and pine wood products, as well as electric and thermal energy. It is also involved in the production and sale of cement, ready-mixed concrete, aggregates, mortars, precast concrete, and hydraulic lime. In addition, the company engages in the production of aluminium e-bike frames; and the provision of services related to the recovery of animal by-products and food products containing animal-origin substances to produce fertilizers, animal feed, and biodiesel. The company was incorporated in 1991 and is based in Lisbon, Portugal.",
+  "targetMeanPrice": 28.43333,
+  "targetLowPrice": 23.4,
+  "targetHighPrice": 31.1,
+  "numberOfAnalystOpinions": 3,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.66667,
+  "forwardPE": 9.999791,
+  "forwardEps": 1.91404,
+  "trailingEps": 0.13,
+  "earningsGrowth": 0.139,
+  "revenueGrowth": -0.297
  },
  "governance": {
   "ceo": {
@@ -68,8 +79,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF PT",
+  "fy_end": "2022-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 4558407842.0,
+    "official": 4558407842.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1323380145.0,
+    "official": 1323380145.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 307089834.0,
+    "official": 307089834.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3122019519.0,
+    "official": 3122019519.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2022-12-31"
+ },
+ "info_at": "2026-10-10T15:19:09+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -101,7 +144,10 @@
    "goodwill_and_intangibles": 793870508.0,
    "retained_earnings": 308080655.0,
    "total_debt": 1488790209.0,
-   "shares_out": 79869373.0
+   "shares_out": 79869373.0,
+   "unusual_items": -49443566.0,
+   "normalized_ebitda": 883906493.0,
+   "normalized_income": 344513669.1054
   },
   {
    "fy_end": "2023-12-31",
@@ -133,7 +179,10 @@
    "goodwill_and_intangibles": 1048889538.0,
    "retained_earnings": 244043976.0,
    "total_debt": 1397129134.0,
-   "shares_out": 79869373.0
+   "shares_out": 79869373.0,
+   "unusual_items": -10629954.0,
+   "normalized_ebitda": 699135571.0,
+   "normalized_income": 253362918.792896
   },
   {
    "fy_end": "2024-12-31",
@@ -165,7 +214,10 @@
    "goodwill_and_intangibles": 1126648943.0,
    "retained_earnings": 230423777.0,
    "total_debt": 1744562375.0,
-   "shares_out": 79869373.0
+   "shares_out": 79869373.0,
+   "unusual_items": 4011327.0,
+   "normalized_ebitda": 544298332.0,
+   "normalized_income": 179729525.5382
   },
   {
    "fy_end": "2025-12-31",
@@ -197,7 +249,10 @@
    "goodwill_and_intangibles": 750478288.0,
    "retained_earnings": 158788664.0,
    "total_debt": 1299811500.0,
-   "shares_out": 79869373.0
+   "shares_out": 79869373.0,
+   "unusual_items": 4774086.0,
+   "normalized_ebitda": 378806820.0,
+   "normalized_income": 154343032.8958
   }
  ]
 }

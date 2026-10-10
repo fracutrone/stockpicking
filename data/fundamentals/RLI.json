@@ -1,6 +1,6 @@
 {
  "ticker": "RLI",
- "fetched_at": "2026-10-10T12:56:51+00:00",
+ "fetched_at": "2026-10-10T15:54:32+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 1193,
   "website": "https://www.rlicorp.com",
-  "longBusinessSummary": "RLI Corp., an insurance holding company, provides property, casualty, and surety insurance products. Its Casualty segment provides commercial excess, personal umbrella, general liability, transportation, and management liability coverages; professional liability and workers' compensation for office-based professional coverages; commercial automobile liability and physical damage insurance to local, intermediate and long haul truckers, public transportation entities, and other specialty commercial automobile risks; incidental related insurance coverages; inland marine coverages; directors and officers liability insurance, fiduciary liability and coverages, employment practice liability, public and private businesses risk, and home business insurance products. This segment also offers coverages for security guards and environmental liability for underground storage tanks, contractors and asbestos, and environmental remediation specialists; and professional liability coverages for errors and omission coverage for small to medium-sized design, technical, computer, and miscellaneous professionals. The company's Property segment offers commercial property insurance, such as fire, wind, difference in conditions, earthquake, flood, and collapse coverages; insurance for office buildings, apartments, condominiums, and industrial and mercantile structures; and cargo, hull, protection and indemnity, marine liability, inland marine, homeowners' and dwelling fire, and other property insurance products. Its Surety segment provides commercial surety bonds for medium and large-sized businesses; small bonds for businesses and individuals; and bonds for small to medium-sized contractors. The company offers reinsurance coverages. It markets its products through branch offices, wholesale and retail brokers, carrier partners, and underwriting and independent agents. RLI Corp. was incorporated in 1965 and is headquartered in Peoria, Illinois."
+  "longBusinessSummary": "RLI Corp., an insurance holding company, provides property, casualty, and surety insurance products. Its Casualty segment provides commercial excess, personal umbrella, general liability, transportation, and management liability coverages; professional liability and workers' compensation for office-based professional coverages; commercial automobile liability and physical damage insurance to local, intermediate and long haul truckers, public transportation entities, and other specialty commercial automobile risks; incidental related insurance coverages; inland marine coverages; directors and officers liability insurance, fiduciary liability and coverages, employment practice liability, public and private businesses risk, and home business insurance products. This segment also offers coverages for security guards and environmental liability for underground storage tanks, contractors and asbestos, and environmental remediation specialists; and professional liability coverages for errors and omission coverage for small to medium-sized design, technical, computer, and miscellaneous professionals. The company's Property segment offers commercial property insurance, such as fire, wind, difference in conditions, earthquake, flood, and collapse coverages; insurance for office buildings, apartments, condominiums, and industrial and mercantile structures; and cargo, hull, protection and indemnity, marine liability, inland marine, homeowners' and dwelling fire, and other property insurance products. Its Surety segment provides commercial surety bonds for medium and large-sized businesses; small bonds for businesses and individuals; and bonds for small to medium-sized contractors. The company offers reinsurance coverages. It markets its products through branch offices, wholesale and retail brokers, carrier partners, and underwriting and independent agents. RLI Corp. was incorporated in 1965 and is headquartered in Peoria, Illinois.",
+  "targetMeanPrice": 59.0,
+  "targetLowPrice": 47.0,
+  "targetHighPrice": 74.0,
+  "numberOfAnalystOpinions": 4,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.375,
+  "forwardPE": 20.66617,
+  "forwardEps": 2.69571,
+  "trailingEps": 4.76,
+  "earningsGrowth": 0.358,
+  "revenueGrowth": 0.152
  },
  "governance": {
   "ceo": {
@@ -77,8 +88,37 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 6161486000.0,
+    "official": 6161486000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1778196000.0,
+    "official": 1778196000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 403337000.0,
+    "official": 403337000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1882448000.0,
+    "official": 1882448000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:54:32+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -164,7 +204,8 @@
    "goodwill_and_intangibles": 53562000.0,
    "retained_earnings": 1446341000.0,
    "total_debt": 199863000.0,
-   "shares_out": 90939504.0
+   "shares_out": 90939504.0,
+   "normalized_income": 583411000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -191,7 +232,8 @@
    "goodwill_and_intangibles": 53562000.0,
    "retained_earnings": 1609785000.0,
    "total_debt": 200000000.0,
-   "shares_out": 91280094.0
+   "shares_out": 91280094.0,
+   "normalized_income": 304611000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -218,7 +260,8 @@
    "goodwill_and_intangibles": 53562000.0,
    "retained_earnings": 1719668000.0,
    "total_debt": 100000000.0,
-   "shares_out": 91738132.0
+   "shares_out": 91738132.0,
+   "normalized_income": 345779000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -245,7 +288,8 @@
    "goodwill_and_intangibles": 53562000.0,
    "retained_earnings": 1881213000.0,
    "total_debt": 100000000.0,
-   "shares_out": 91878651.0
+   "shares_out": 91878651.0,
+   "normalized_income": 403337000.0
   }
  ]
 }

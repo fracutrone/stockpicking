@@ -1,6 +1,6 @@
 {
  "ticker": "ASHM.L",
- "fetched_at": "2026-10-10T11:46:10+00:00",
+ "fetched_at": "2026-10-10T14:31:34+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.38393,
   "heldPercentInstitutions": 0.48494,
   "shortPercentOfFloat": null,
-  "averageVolume": 983986,
+  "averageVolume": 977428,
   "quoteType": "EQUITY",
   "exchange": "LSE",
   "fullTimeEmployees": 282,
   "website": "https://www.ashmoregroup.com",
-  "longBusinessSummary": "Ashmore Group plc is a publicly owned investment manager. The firm primarily provides its services to retail and institutional clients. It manages separate client-focused equity and fixed income portfolios. The firm also launches and manages equity and fixed income mutual funds for its clients. It invests in the public equity and fixed income markets in emerging markets across the globe. The firm focuses on a number of investment themes including external debt, local currency, corporate debt, blended debt, alternatives (which include special situations, real estate and infrastructure) equities Overlay/Liquidity and Multi-Asset. The firm employs combination of fundamental analysis to make its investments. Ashmore Group Plc was founded in 1992 and is based in London, United Kingdom."
+  "longBusinessSummary": "Ashmore Group plc is a publicly owned investment manager. The firm primarily provides its services to retail and institutional clients. It manages separate client-focused equity and fixed income portfolios. The firm also launches and manages equity and fixed income mutual funds for its clients. It invests in the public equity and fixed income markets in emerging markets across the globe. The firm focuses on a number of investment themes including external debt, local currency, corporate debt, blended debt, alternatives (which include special situations, real estate and infrastructure) equities Overlay/Liquidity and Multi-Asset. The firm employs combination of fundamental analysis to make its investments. Ashmore Group Plc was founded in 1992 and is based in London, United Kingdom.",
+  "targetMeanPrice": 208.0,
+  "targetLowPrice": 123.0,
+  "targetHighPrice": 350.0,
+  "numberOfAnalystOpinions": 10,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.2,
+  "forwardPE": 26.850384,
+  "forwardEps": 0.08201,
+  "trailingEps": 0.15,
+  "earningsGrowth": -0.231,
+  "revenueGrowth": 0.106
  },
  "governance": {
   "ceo": {
@@ -70,8 +81,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2026-06-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 1070900000.0,
+    "official": 1070900000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 794300000.0,
+    "official": 794300000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 103300000.0,
+    "official": 103300000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 144300000.0,
+    "official": 144300000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2026-06-30"
+ },
+ "info_at": "2026-10-10T14:31:34+00:00",
  "years": [
   {
    "fy_end": "2023-06-30",
@@ -105,7 +148,10 @@
    "goodwill_and_intangibles": 86900000.0,
    "retained_earnings": 875400000.0,
    "total_debt": 5800000.0,
-   "shares_out": 661906121.0
+   "shares_out": 661906121.0,
+   "unusual_items": -13600000.0,
+   "normalized_ebitda": 128900000.0,
+   "normalized_income": 93826400.0
   },
   {
    "fy_end": "2024-06-30",
@@ -138,7 +184,10 @@
    "goodwill_and_intangibles": 87000000.0,
    "retained_earnings": 863300000.0,
    "total_debt": 6400000.0,
-   "shares_out": 663259394.0
+   "shares_out": 663259394.0,
+   "unusual_items": 2100000.0,
+   "normalized_ebitda": 129400000.0,
+   "normalized_income": 92089300.0
   },
   {
    "fy_end": "2025-06-30",
@@ -171,7 +220,10 @@
    "goodwill_and_intangibles": 80500000.0,
    "retained_earnings": 809500000.0,
    "total_debt": 4600000.0,
-   "shares_out": 651923463.0
+   "shares_out": 651923463.0,
+   "unusual_items": 26400000.0,
+   "normalized_ebitda": 85600000.0,
+   "normalized_income": 60512707.18232
   },
   {
    "fy_end": "2026-06-30",
@@ -204,7 +256,10 @@
    "goodwill_and_intangibles": 83000000.0,
    "retained_earnings": 802200000.0,
    "total_debt": 16800000.0,
-   "shares_out": 650807265.0
+   "shares_out": 650807265.0,
+   "unusual_items": 66600000.0,
+   "normalized_ebitda": 65600000.0,
+   "normalized_income": 46956400.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "BE",
- "fetched_at": "2026-10-10T12:38:49+00:00",
+ "fetched_at": "2026-10-10T15:37:31+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 2214,
   "website": "https://www.bloomenergy.com",
-  "longBusinessSummary": "Bloom Energy Corporation designs, manufactures, sells, and installs solid oxide fuel cell systems for on-site power generation in the United States and internationally. It offers Bloom Energy Server, an energy server platform to convert fuel, such as natural gas, biogas, hydrogen, or a blend of these fuels, into electricity through a non-combustion electrochemical process. The company also provides Bloom Electrolyzer for producing hydrogen. It sells its products through direct and indirect sales channels to utilities, data centers, retail, healthcare, education, telecom, manufacturing, and other industries. The company was formerly known as Ion America Corp. and changed its name to Bloom Energy Corporation in 2006. Bloom Energy Corporation was incorporated in 2001 and is headquartered in San Jose, California."
+  "longBusinessSummary": "Bloom Energy Corporation designs, manufactures, sells, and installs solid oxide fuel cell systems for on-site power generation in the United States and internationally. It offers Bloom Energy Server, an energy server platform to convert fuel, such as natural gas, biogas, hydrogen, or a blend of these fuels, into electricity through a non-combustion electrochemical process. The company also provides Bloom Electrolyzer for producing hydrogen. It sells its products through direct and indirect sales channels to utilities, data centers, retail, healthcare, education, telecom, manufacturing, and other industries. The company was formerly known as Ion America Corp. and changed its name to Bloom Energy Corporation in 2006. Bloom Energy Corporation was incorporated in 2001 and is headquartered in San Jose, California.",
+  "targetMeanPrice": 284.73846,
+  "targetLowPrice": 97.0,
+  "targetHighPrice": 390.0,
+  "numberOfAnalystOpinions": 26,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.24138,
+  "forwardPE": 56.942406,
+  "forwardEps": 4.92603,
+  "trailingEps": 0.78,
+  "earningsGrowth": null,
+  "revenueGrowth": 1.655
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 4396711000.0,
+    "official": 4396711000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 768641000.0,
+    "official": 768641000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -88434000.0,
+    "official": -87140000.0,
+    "diff": 0.01485
+   },
+   "revenue": {
+    "yahoo": 2023994000.0,
+    "official": 2023994000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:37:31+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -195,7 +237,10 @@
    "ppe_net": 727369000.0,
    "retained_earnings": -3564483000.0,
    "total_debt": 411579000.0,
-   "shares_out": 205664690.0
+   "shares_out": 205664690.0,
+   "unusual_items": -8389000.0,
+   "normalized_ebitda": -190499000.0,
+   "normalized_income": -294780690.0
   },
   {
    "fy_end": "2023-12-31",
@@ -226,7 +271,10 @@
    "ppe_net": 633084000.0,
    "retained_earnings": -3866599000.0,
    "total_debt": 846633000.0,
-   "shares_out": 224717533.0
+   "shares_out": 224717533.0,
+   "unusual_items": -5929000.0,
+   "normalized_ebitda": -129206000.0,
+   "normalized_income": -297432090.0
   },
   {
    "fy_end": "2024-12-31",
@@ -257,7 +305,10 @@
    "ppe_net": 525964000.0,
    "retained_earnings": -3897618000.0,
    "total_debt": 1243192000.0,
-   "shares_out": 229142474.0
+   "shares_out": 229142474.0,
+   "unusual_items": -27876000.0,
+   "normalized_ebitda": 117203000.0,
+   "normalized_income": -7204960.0
   },
   {
    "fy_end": "2025-12-31",
@@ -288,7 +339,10 @@
    "ppe_net": 507048000.0,
    "retained_earnings": -3986983000.0,
    "total_debt": 2622079000.0,
-   "shares_out": 280045459.0
+   "shares_out": 280045459.0,
+   "unusual_items": -99118000.0,
+   "normalized_ebitda": 119168000.0,
+   "normalized_income": -10130780.0
   }
  ]
 }

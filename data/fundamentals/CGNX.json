@@ -1,6 +1,6 @@
 {
  "ticker": "CGNX",
- "fetched_at": "2026-10-10T12:40:33+00:00",
+ "fetched_at": "2026-10-10T15:39:22+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 2745,
   "website": "https://www.cognex.com",
-  "longBusinessSummary": "Cognex Corporation provides machine vision products that capture and analyze visual information to automate manufacturing and distribution tasks in the United States, Europe, Greater China, and internationally. Its machine vision products are used to automate the manufacture and distribution of discrete items, such as mobile phones, automotive components, and e-commerce packages, by locating, identifying, inspecting, and measuring them. The company offers VisionPro software, a suite of patented vision tools for traditional rule-based tools and deep learning-enabled tools for advanced programming; vision systems that combine smart cameras and software to perform a wide range of tasks, including part location, identification, measurement, assembly verification, and robotic guidance; OneVision, a cloud-based platform designed to transform how manufacturers build, train, and scale AI-powered vision applications; In-Sight product line of vision systems and sensors; QuickBuild, which allows customers to build vision applications with a graphical and flowchart-based programming interface; DataMan, an image-based barcode reader for fixed-mount and handheld models, as well as barcode verifiers; and vision accessories, such as industrial cameras, lenses, lighting, vision controllers, frame grabbers, and I/O cards. It sells its products to the automotive, logistics, packaging, consumer electronics, medical-related, semiconductor, and consumer products industries. The company was incorporated in 1981 and is headquartered in Natick, Massachusetts."
+  "longBusinessSummary": "Cognex Corporation provides machine vision products that capture and analyze visual information to automate manufacturing and distribution tasks in the United States, Europe, Greater China, and internationally. Its machine vision products are used to automate the manufacture and distribution of discrete items, such as mobile phones, automotive components, and e-commerce packages, by locating, identifying, inspecting, and measuring them. The company offers VisionPro software, a suite of patented vision tools for traditional rule-based tools and deep learning-enabled tools for advanced programming; vision systems that combine smart cameras and software to perform a wide range of tasks, including part location, identification, measurement, assembly verification, and robotic guidance; OneVision, a cloud-based platform designed to transform how manufacturers build, train, and scale AI-powered vision applications; In-Sight product line of vision systems and sensors; QuickBuild, which allows customers to build vision applications with a graphical and flowchart-based programming interface; DataMan, an image-based barcode reader for fixed-mount and handheld models, as well as barcode verifiers; and vision accessories, such as industrial cameras, lenses, lighting, vision controllers, frame grabbers, and I/O cards. It sells its products to the automotive, logistics, packaging, consumer electronics, medical-related, semiconductor, and consumer products industries. The company was incorporated in 1981 and is headquartered in Natick, Massachusetts.",
+  "targetMeanPrice": 79.10526,
+  "targetLowPrice": 60.0,
+  "targetHighPrice": 92.0,
+  "numberOfAnalystOpinions": 19,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.85,
+  "forwardPE": 31.035128,
+  "forwardEps": 2.02738,
+  "trailingEps": 1.04,
+  "earningsGrowth": 0.792,
+  "revenueGrowth": 0.169
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 2016555000.0,
+    "official": 2016555000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1491901000.0,
+    "official": 1491901000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 114442000.0,
+    "official": 114442000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 994359000.0,
+    "official": 994359000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:39:23+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -198,7 +240,10 @@
    "goodwill_and_intangibles": 255044000.0,
    "retained_earnings": 528179000.0,
    "total_debt": 39752000.0,
-   "shares_out": 172631000.0
+   "shares_out": 172631000.0,
+   "unusual_items": -17558000.0,
+   "normalized_ebitda": 305844000.0,
+   "normalized_income": 230619788.288558
   },
   {
    "fy_end": "2023-12-31",
@@ -231,7 +276,10 @@
    "goodwill_and_intangibles": 506133000.0,
    "retained_earnings": 512543000.0,
    "total_debt": 78601000.0,
-   "shares_out": 171599000.0
+   "shares_out": 171599000.0,
+   "unusual_items": 12054000.0,
+   "normalized_ebitda": 132528000.0,
+   "normalized_income": 103108640.0
   },
   {
    "fy_end": "2024-12-31",
@@ -264,7 +312,10 @@
    "goodwill_and_intangibles": 475621000.0,
    "retained_earnings": 499303000.0,
    "total_debt": 70217000.0,
-   "shares_out": 170434000.0
+   "shares_out": 170434000.0,
+   "unusual_items": 15502000.0,
+   "normalized_ebitda": 132252000.0,
+   "normalized_income": 93653885.701466
   },
   {
    "fy_end": "2025-12-31",
@@ -297,7 +348,10 @@
    "goodwill_and_intangibles": 467379000.0,
    "retained_earnings": 406355000.0,
    "total_debt": 76586000.0,
-   "shares_out": 166997000.0
+   "shares_out": 166997000.0,
+   "unusual_items": 12868000.0,
+   "normalized_ebitda": 180491000.0,
+   "normalized_income": 106386072.515618
   }
  ]
 }

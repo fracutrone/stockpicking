@@ -1,6 +1,6 @@
 {
  "ticker": "TUI1.DE",
- "fetched_at": "2026-10-10T12:23:18+00:00",
+ "fetched_at": "2026-10-10T15:26:24+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "GER",
   "fullTimeEmployees": 65322,
   "website": "https://www.tuigroup.com/",
-  "longBusinessSummary": "TUI AG, together with its subsidiaries, provides tourism services internationally. The company operates hotels and resorts under the Mora, Royalton, Riu, Robinson, TUI Blue, TUI Magic Life, Atlantica, Grupotel, Iberotel, Akra, TUI Suneo, and AQI brands; and cruises under the TUI Cruises, Hapag-Lloyd Cruises, and Marella brands. It also provides an online market for tours and activities, including experiences and tours; and operates aircraft. It distributes its services through markets and airlines, direct to customers, and via third parties, such as online travel agents and tour operators. The company was formerly known as Preussag AG and changed its name to TUI AG in June 2002. TUI AG was founded in 1968 and is headquartered in Hanover, Germany."
+  "longBusinessSummary": "TUI AG, together with its subsidiaries, provides tourism services internationally. The company operates hotels and resorts under the Mora, Royalton, Riu, Robinson, TUI Blue, TUI Magic Life, Atlantica, Grupotel, Iberotel, Akra, TUI Suneo, and AQI brands; and cruises under the TUI Cruises, Hapag-Lloyd Cruises, and Marella brands. It also provides an online market for tours and activities, including experiences and tours; and operates aircraft. It distributes its services through markets and airlines, direct to customers, and via third parties, such as online travel agents and tour operators. The company was formerly known as Preussag AG and changed its name to TUI AG in June 2002. TUI AG was founded in 1968 and is headquartered in Hanover, Germany.",
+  "targetMeanPrice": 9.85,
+  "targetLowPrice": 7.0,
+  "targetHighPrice": 13.5,
+  "numberOfAnalystOpinions": 13,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.92308,
+  "forwardPE": 5.036166,
+  "forwardEps": 1.32998,
+  "trailingEps": 1.08,
+  "earningsGrowth": -0.556,
+  "revenueGrowth": -0.061
  },
  "governance": {
   "ceo": {
@@ -70,8 +81,40 @@
   "intangibles": "yahoo",
   "goodwill_and_intangibles": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2023-09-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 16152400000.0,
+    "official": 16152400000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1122900000.0,
+    "official": 1122900000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 305800000.0,
+    "official": 305800000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 20665900000.0,
+    "official": 20665900000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2023-09-30"
+ },
+ "info_at": "2026-10-10T15:26:24+00:00",
  "years": [
   {
    "fy_end": "2022-09-30",
@@ -105,7 +148,10 @@
    "intangibles": 507600000.0,
    "goodwill_and_intangibles": 3478200000.0,
    "total_debt": 5258800000.0,
-   "shares_out": 337153556.0
+   "shares_out": 337153556.0,
+   "unusual_items": -17100000.0,
+   "normalized_ebitda": 1239000000.0,
+   "normalized_income": -262765000.0
   },
   {
    "fy_end": "2023-09-30",
@@ -139,7 +185,10 @@
    "intangibles": 538000000.0,
    "goodwill_and_intangibles": 3487200000.0,
    "total_debt": 4215100000.0,
-   "shares_out": 507431033.0
+   "shares_out": 507431033.0,
+   "unusual_items": -40000000.0,
+   "normalized_ebitda": 1959300000.0,
+   "normalized_income": 338869666.182874
   },
   {
    "fy_end": "2024-09-30",
@@ -173,7 +222,10 @@
    "intangibles": 589600000.0,
    "goodwill_and_intangibles": 3588300000.0,
    "total_debt": 4542200000.0,
-   "shares_out": 507431033.0
+   "shares_out": 507431033.0,
+   "unusual_items": -1700000.0,
+   "normalized_ebitda": 2219600000.0,
+   "normalized_income": 508496076.155096
   },
   {
    "fy_end": "2025-09-30",
@@ -207,7 +259,10 @@
    "intangibles": 596800000.0,
    "goodwill_and_intangibles": 3530400000.0,
    "total_debt": 4437300000.0,
-   "shares_out": 507431033.0
+   "shares_out": 507431033.0,
+   "unusual_items": 13100000.0,
+   "normalized_ebitda": 2320500000.0,
+   "normalized_income": 625237091.471669
   }
  ]
 }

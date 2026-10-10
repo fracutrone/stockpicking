@@ -1,6 +1,6 @@
 {
  "ticker": "BNY",
- "fetched_at": "2026-10-10T12:39:18+00:00",
+ "fetched_at": "2026-10-10T15:38:07+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 46500,
   "website": "https://www.bny.com",
-  "longBusinessSummary": "The Bank of New York Mellon Corporation provides a range of financial products and services in the United States and internationally. It operates through Securities Services, Market and Wealth Services, Investment and Wealth Management, and Other segments. The Securities Services segment offers custody, trust and depositary, accounting, exchange-traded funds, middle-office solutions, transfer agency, services for private equity and real estate funds, foreign exchange, securities lending, liquidity/lending services, and data analytics. This segment also provides trustee, paying agency, fiduciary, escrow and other financial, issuer, and support services for brokers and investors. The Market and Wealth Services segment offers clearing and custody, investment, wealth and retirement solutions, technology and enterprise data management, trading, and prime brokerage services. This segment also provides integrated cash management solutions, including payments, foreign exchange, liquidity management, receivables processing, payables management, and trade finance, as well as U.S. government and global clearing, and tri-party services. The Investment and Wealth Management segment offers investment management strategies, investment products distribution, investment management, custody, wealth and estate planning, private banking, investment, and information management services. The Other segment provides corporate treasury, derivative and other trading, corporate and bank-owned life insurance, tax credit investment, other corporate investment, and business exit services. The company serves central banks and sovereigns, financial institutions, asset managers, insurance companies, corporations, local authorities and high net-worth individuals, and family offices. The Bank of New York Mellon Corporation was founded in 1784 and is headquartered in New York, New York."
+  "longBusinessSummary": "The Bank of New York Mellon Corporation provides a range of financial products and services in the United States and internationally. It operates through Securities Services, Market and Wealth Services, Investment and Wealth Management, and Other segments. The Securities Services segment offers custody, trust and depositary, accounting, exchange-traded funds, middle-office solutions, transfer agency, services for private equity and real estate funds, foreign exchange, securities lending, liquidity/lending services, and data analytics. This segment also provides trustee, paying agency, fiduciary, escrow and other financial, issuer, and support services for brokers and investors. The Market and Wealth Services segment offers clearing and custody, investment, wealth and retirement solutions, technology and enterprise data management, trading, and prime brokerage services. This segment also provides integrated cash management solutions, including payments, foreign exchange, liquidity management, receivables processing, payables management, and trade finance, as well as U.S. government and global clearing, and tri-party services. The Investment and Wealth Management segment offers investment management strategies, investment products distribution, investment management, custody, wealth and estate planning, private banking, investment, and information management services. The Other segment provides corporate treasury, derivative and other trading, corporate and bank-owned life insurance, tax credit investment, other corporate investment, and business exit services. The company serves central banks and sovereigns, financial institutions, asset managers, insurance companies, corporations, local authorities and high net-worth individuals, and family offices. The Bank of New York Mellon Corporation was founded in 1784 and is headquartered in New York, New York.",
+  "targetMeanPrice": 163.46667,
+  "targetLowPrice": 135.0,
+  "targetHighPrice": 182.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.11765,
+  "forwardPE": 13.895462,
+  "forwardEps": 10.27026,
+  "trailingEps": 8.57,
+  "earningsGrowth": 0.269,
+  "revenueGrowth": 0.131
  },
  "governance": {
   "ceo": {
@@ -78,8 +89,38 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "noninterest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 472300000000.0,
+    "official": 472300000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 44313000000.0,
+    "official": 44313000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 5549000000.0,
+    "official": 5549000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 19759000000.0,
+    "official": 20080000000.0,
+    "diff": 0.015986
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:38:07+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -169,7 +210,9 @@
    "goodwill_and_intangibles": 21311000000.0,
    "retained_earnings": 37864000000.0,
    "total_debt": 30458000000.0,
-   "shares_out": 808444600.0
+   "shares_out": 808444600.0,
+   "unusual_items": -680000000.0,
+   "normalized_income": 3053080000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -197,7 +240,9 @@
    "goodwill_and_intangibles": 21545000000.0,
    "retained_earnings": 39549000000.0,
    "total_debt": 31257000000.0,
-   "shares_out": 759344092.0
+   "shares_out": 759344092.0,
+   "unusual_items": -1137000000.0,
+   "normalized_income": 3302000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -225,7 +270,9 @@
    "goodwill_and_intangibles": 22125000000.0,
    "retained_earnings": 42537000000.0,
    "total_debt": 31155000000.0,
-   "shares_out": 717680268.0
+   "shares_out": 717680268.0,
+   "unusual_items": -221000000.0,
+   "normalized_income": 4701683139.534884
   },
   {
    "fy_end": "2025-12-31",
@@ -253,7 +300,9 @@
    "goodwill_and_intangibles": 22296000000.0,
    "retained_earnings": 46396000000.0,
    "total_debt": 33876000000.0,
-   "shares_out": 688236337.0
+   "shares_out": 688236337.0,
+   "unusual_items": -90000000.0,
+   "normalized_income": 5620191555.681496
   }
  ]
 }

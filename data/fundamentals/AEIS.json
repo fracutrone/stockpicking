@@ -1,6 +1,6 @@
 {
  "ticker": "AEIS",
- "fetched_at": "2026-10-10T12:36:33+00:00",
+ "fetched_at": "2026-10-10T15:33:39+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 13000,
   "website": "https://www.advancedenergy.com",
-  "longBusinessSummary": "Advanced Energy Industries, Inc. provides precision power conversion, measurement, and control solutions in the United States, Asia, Europe, and internationally. The company's plasma power products offer solutions to enable innovation for semiconductor and thin film plasma processes, such as dry etch and deposition. It also provides high and low voltage power products used in a range of applications, such as semiconductor equipment, industrial production, medical and life science equipment, data centers computing, networking, and telecommunications. In addition, the company supplies sensing, controls, and instrumentation products for advanced measurement and calibration of power and temperature. Further, it provides calibration, conversions, upgrades, and refurbishments and used equipment to companies, as well as repair and maintenance services. The company offers its products through direct sales force, direct and indirect sales channels, and distributors, as well as provides warranty and non-warranty repair services. Advanced Energy Industries, Inc. was incorporated in 1981 and is headquartered in Denver, Colorado."
+  "longBusinessSummary": "Advanced Energy Industries, Inc. provides precision power conversion, measurement, and control solutions in the United States, Asia, Europe, and internationally. The company's plasma power products offer solutions to enable innovation for semiconductor and thin film plasma processes, such as dry etch and deposition. It also provides high and low voltage power products used in a range of applications, such as semiconductor equipment, industrial production, medical and life science equipment, data centers computing, networking, and telecommunications. In addition, the company supplies sensing, controls, and instrumentation products for advanced measurement and calibration of power and temperature. Further, it provides calibration, conversions, upgrades, and refurbishments and used equipment to companies, as well as repair and maintenance services. The company offers its products through direct sales force, direct and indirect sales channels, and distributors, as well as provides warranty and non-warranty repair services. Advanced Energy Industries, Inc. was incorporated in 1981 and is headquartered in Denver, Colorado.",
+  "targetMeanPrice": 429.08334,
+  "targetLowPrice": 370.0,
+  "targetHighPrice": 535.0,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.33333,
+  "forwardPE": 18.817802,
+  "forwardEps": 15.33973,
+  "trailingEps": 5.4,
+  "earningsGrowth": 0.934,
+  "revenueGrowth": 0.3
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 2545800000.0,
+    "official": 2545800000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1362800000.0,
+    "official": 1362800000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 148400000.0,
+    "official": 148400000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1798800000.0,
+    "official": 1798800000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:33:39+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -207,7 +249,10 @@
    "goodwill_and_intangibles": 470959000.0,
    "retained_earnings": 915270000.0,
    "total_debt": 373262000.0,
-   "shares_out": 37429000.0
+   "shares_out": 37429000.0,
+   "unusual_items": -6814000.0,
+   "normalized_ebitda": 316176000.0,
+   "normalized_income": 207564690.0
   },
   {
    "fy_end": "2023-12-31",
@@ -241,7 +286,10 @@
    "goodwill_and_intangibles": 445318000.0,
    "retained_earnings": 989731000.0,
    "total_debt": 915679000.0,
-   "shares_out": 37318000.0
+   "shares_out": 37318000.0,
+   "unusual_items": -27000000.0,
+   "normalized_ebitda": 231200000.0,
+   "normalized_income": 152130000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -275,7 +323,10 @@
    "goodwill_and_intangibles": 435400000.0,
    "retained_earnings": 1026700000.0,
    "total_debt": 564700000.0,
-   "shares_out": 37711000.0
+   "shares_out": 37711000.0,
+   "unusual_items": -30300000.0,
+   "normalized_ebitda": 173200000.0,
+   "normalized_income": 80237000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -309,7 +360,10 @@
    "goodwill_and_intangibles": 418500000.0,
    "retained_earnings": 1128600000.0,
    "total_debt": 567500000.0,
-   "shares_out": 37745489.0
+   "shares_out": 37745489.0,
+   "unusual_items": -12500000.0,
+   "normalized_ebitda": 256800000.0,
+   "normalized_income": 160362537.048014
   }
  ]
 }

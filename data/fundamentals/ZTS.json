@@ -1,6 +1,6 @@
 {
  "ticker": "ZTS",
- "fetched_at": "2026-10-10T13:03:22+00:00",
+ "fetched_at": "2026-10-10T16:00:39+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 14500,
   "website": "https://www.zoetis.com",
-  "longBusinessSummary": "Zoetis Inc. engages in the discovery, development, manufacture, and commercialization of medicines, vaccines, diagnostic products and services, biodevices, genetic tests, and precision animal health solutions for the animal health industry in the United States and internationally. The company commercializes products primarily across companion animals comprising dogs, cats, and horses; and species, including livestock, such as cattle, swine, poultry, fish, and sheep. It also offers parasiticides, vaccines, dermatology, anti-infectives, pain and sedation, other pharmaceutical, and animal health diagnostics. In addition, the company provides animal health diagnostics, including point-of-care diagnostic products, instruments and reagents, rapid immunoassay tests, reference laboratory kits and services, and blood glucose monitors; and other non-pharmaceutical products, which include nutritionals, as well as products and services in biodevices, genetic tests, and precision animal health. It markets its products to veterinarians, livestock producers, and pet owners. The company has collaborated with Blacksmith Medicines, Inc. to discover and develop novel antibiotics for animal health. Zoetis Inc. was incorporated in 2012 and is headquartered in Parsippany, New Jersey."
+  "longBusinessSummary": "Zoetis Inc. engages in the discovery, development, manufacture, and commercialization of medicines, vaccines, diagnostic products and services, biodevices, genetic tests, and precision animal health solutions for the animal health industry in the United States and internationally. The company commercializes products primarily across companion animals comprising dogs, cats, and horses; and species, including livestock, such as cattle, swine, poultry, fish, and sheep. It also offers parasiticides, vaccines, dermatology, anti-infectives, pain and sedation, other pharmaceutical, and animal health diagnostics. In addition, the company provides animal health diagnostics, including point-of-care diagnostic products, instruments and reagents, rapid immunoassay tests, reference laboratory kits and services, and blood glucose monitors; and other non-pharmaceutical products, which include nutritionals, as well as products and services in biodevices, genetic tests, and precision animal health. It markets its products to veterinarians, livestock producers, and pet owners. The company has collaborated with Blacksmith Medicines, Inc. to discover and develop novel antibiotics for animal health. Zoetis Inc. was incorporated in 2012 and is headquartered in Parsippany, New Jersey.",
+  "targetMeanPrice": 96.0,
+  "targetLowPrice": 80.0,
+  "targetHighPrice": 155.0,
+  "numberOfAnalystOpinions": 14,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.29412,
+  "forwardPE": 11.430833,
+  "forwardEps": 6.54458,
+  "trailingEps": 6.22,
+  "earningsGrowth": 0.012,
+  "revenueGrowth": -0.002
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 15467000000.0,
+    "official": 15467000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3331000000.0,
+    "official": 3331000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2673000000.0,
+    "official": 2673000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 9467000000.0,
+    "official": 9467000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T16:00:39+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -202,7 +244,10 @@
    "goodwill_and_intangibles": 4126000000.0,
    "retained_earnings": 8668000000.0,
    "total_debt": 7904000000.0,
-   "shares_out": 463808059.0
+   "shares_out": 463808059.0,
+   "unusual_items": -119000000.0,
+   "normalized_ebitda": 3461000000.0,
+   "normalized_income": 2208581701.807229
   },
   {
    "fy_end": "2023-12-31",
@@ -236,7 +281,10 @@
    "goodwill_and_intangibles": 4097000000.0,
    "retained_earnings": 10295000000.0,
    "total_debt": 6567000000.0,
-   "shares_out": 458367358.0
+   "shares_out": 458367358.0,
+   "unusual_items": -34000000.0,
+   "normalized_ebitda": 3700000000.0,
+   "normalized_income": 2371098000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -270,7 +318,10 @@
    "goodwill_and_intangibles": 3851000000.0,
    "retained_earnings": 11968000000.0,
    "total_debt": 6570000000.0,
-   "shares_out": 448473073.0
+   "shares_out": 448473073.0,
+   "unusual_items": -141000000.0,
+   "normalized_ebitda": 3996000000.0,
+   "normalized_income": 2598377000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -304,7 +355,10 @@
    "goodwill_and_intangibles": 3765000000.0,
    "retained_earnings": 13744000000.0,
    "total_debt": 9042000000.0,
-   "shares_out": 424927535.0
+   "shares_out": 424927535.0,
+   "unusual_items": -104000000.0,
+   "normalized_ebitda": 4173000000.0,
+   "normalized_income": 2755784000.0
   }
  ]
 }

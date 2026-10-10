@@ -1,6 +1,6 @@
 {
  "ticker": "MAS",
- "fetched_at": "2026-10-10T12:51:09+00:00",
+ "fetched_at": "2026-10-10T15:49:23+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 18000,
   "website": "https://masco.com",
-  "longBusinessSummary": "Masco Corporation provides home improvement and building products in North America, Europe, and internationally. The company's Plumbing Products segment offers faucets, showerheads, handheld showers, valves, bath hardware and accessories, bathing units, shower bases and enclosures, shower drains, steam shower systems, water filtration systems, and sinks and kitchen accessories; acrylic tubs, bath and shower enclosures, and shower bases and trays; spas, exercise pools, and aquatic fitness systems and saunas; brass, copper, and composite plumbing system component and other non-decorative plumbing products; water products; and thermoplastic products, extruded plastic profiles, and specialized fabrication products, as well as PEX tubing products. This segment provides its products under the DELTA, BRIZO, PEERLESS, HANSGROHE, AXOR, KRAUS, NEWPORT BRASS, GINGER, WALTEC, BRISTAN, HERITAGE, MIROLIN, HOT SPRING, CALDERA, FREEFLOW SPAS, FANTASY SPAS, AQUATERRA, LIFESMART, ENDLESS POOLS, TYLO, FINNLEO, HELO, BRASSCRAFT, PLUMBSHOP, and MASTER PLUMBER brands, as well as under private label to home center and online retailers, mass merchandisers, wholesalers and distributors, plumbers, building contractors, remodelers, smaller retailers, and consumers and homebuilders. Its Decorative Architectural Products segment offers paints, primers, specialty coatings, stains, and waterproofing products, as well as paint applicators and accessories; cabinet and door hardware, functional hardware, hook and hook rail products, and outdoor living hardware; and decorative bath hardware, shower accessories, and shower doors. This segment provides its products under the BEHR, KILZ, WHIZZ, LIBERTY, and FRANKLIN BRASS brands to home center and other retailers, mass and online retailers, other specialty retailers, and original equipment manufacturers and wholesalers. The company was incorporated in 1929 and is headquartered in Livonia, Michigan."
+  "longBusinessSummary": "Masco Corporation provides home improvement and building products in North America, Europe, and internationally. The company's Plumbing Products segment offers faucets, showerheads, handheld showers, valves, bath hardware and accessories, bathing units, shower bases and enclosures, shower drains, steam shower systems, water filtration systems, and sinks and kitchen accessories; acrylic tubs, bath and shower enclosures, and shower bases and trays; spas, exercise pools, and aquatic fitness systems and saunas; brass, copper, and composite plumbing system component and other non-decorative plumbing products; water products; and thermoplastic products, extruded plastic profiles, and specialized fabrication products, as well as PEX tubing products. This segment provides its products under the DELTA, BRIZO, PEERLESS, HANSGROHE, AXOR, KRAUS, NEWPORT BRASS, GINGER, WALTEC, BRISTAN, HERITAGE, MIROLIN, HOT SPRING, CALDERA, FREEFLOW SPAS, FANTASY SPAS, AQUATERRA, LIFESMART, ENDLESS POOLS, TYLO, FINNLEO, HELO, BRASSCRAFT, PLUMBSHOP, and MASTER PLUMBER brands, as well as under private label to home center and online retailers, mass merchandisers, wholesalers and distributors, plumbers, building contractors, remodelers, smaller retailers, and consumers and homebuilders. Its Decorative Architectural Products segment offers paints, primers, specialty coatings, stains, and waterproofing products, as well as paint applicators and accessories; cabinet and door hardware, functional hardware, hook and hook rail products, and outdoor living hardware; and decorative bath hardware, shower accessories, and shower doors. This segment provides its products under the BEHR, KILZ, WHIZZ, LIBERTY, and FRANKLIN BRASS brands to home center and other retailers, mass and online retailers, other specialty retailers, and original equipment manufacturers and wholesalers. The company was incorporated in 1929 and is headquartered in Livonia, Michigan.",
+  "targetMeanPrice": 79.89474,
+  "targetLowPrice": 68.0,
+  "targetHighPrice": 96.0,
+  "numberOfAnalystOpinions": 19,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.45455,
+  "forwardPE": 14.833114,
+  "forwardEps": 4.6349,
+  "trailingEps": 4.34,
+  "earningsGrowth": 0.245,
+  "revenueGrowth": -0.029
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 5201000000.0,
+    "official": 5201000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": -186000000.0,
+    "official": -185000000.0,
+    "diff": 0.005405
+   },
+   "net_income": {
+    "yahoo": 810000000.0,
+    "official": 810000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 7562000000.0,
+    "official": 7562000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:49:23+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -204,7 +246,10 @@
    "goodwill_and_intangibles": 887000000.0,
    "retained_earnings": -947000000.0,
    "total_debt": 3151000000.0,
-   "shares_out": 225300000.0
+   "shares_out": 225300000.0,
+   "unusual_items": -26000000.0,
+   "normalized_ebitda": 1472000000.0,
+   "normalized_income": 865760000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -238,7 +283,10 @@
    "goodwill_and_intangibles": 980000000.0,
    "retained_earnings": -596000000.0,
    "total_debt": 2948000000.0,
-   "shares_out": 220600000.0
+   "shares_out": 220600000.0,
+   "unusual_items": -15000000.0,
+   "normalized_ebitda": 1508000000.0,
+   "normalized_income": 919631663.974152
   },
   {
    "fy_end": "2024-12-31",
@@ -272,7 +320,10 @@
    "goodwill_and_intangibles": 816000000.0,
    "retained_earnings": -693000000.0,
    "total_debt": 2948000000.0,
-   "shares_out": 212500000.0
+   "shares_out": 212500000.0,
+   "unusual_items": -88000000.0,
+   "normalized_ebitda": 1498000000.0,
+   "normalized_income": 888264000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -306,7 +357,10 @@
    "goodwill_and_intangibles": 828000000.0,
    "retained_earnings": -688000000.0,
    "total_debt": 2947000000.0,
-   "shares_out": 204300000.0
+   "shares_out": 204300000.0,
+   "unusual_items": -5000000.0,
+   "normalized_ebitda": 1389000000.0,
+   "normalized_income": 813780000.0
   }
  ]
 }

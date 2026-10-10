@@ -1,6 +1,6 @@
 {
  "ticker": "BTSG",
- "fetched_at": "2026-10-10T12:39:32+00:00",
+ "fetched_at": "2026-10-10T15:38:23+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 23500,
   "website": "https://www.brightspringhealth.com",
-  "longBusinessSummary": "BrightSpring Health Services, Inc. operates as a home and community-based healthcare services platform in the United States. The company operates through two segments, Pharmacy Solutions and Provider Services. Its platform focuses on delivering pharmacy and provider services, including clinical and supportive care in home and community settings to Medicare, Medicaid, and insured populations. It also offers infused, injectable, and oral medication services; and patient-centric, highly skilled, and compassionate clinical home health care, as well as rehabilitation services, including physical, speech and occupational therapy and applied behavioral analysis. The company was formerly known as Phoenix Parent Holdings Inc. and changed its name to BrightSpring Health Services, Inc. in May 2021. BrightSpring Health Services, Inc. was founded in 1974 and is headquartered in Louisville, Kentucky."
+  "longBusinessSummary": "BrightSpring Health Services, Inc. operates as a home and community-based healthcare services platform in the United States. The company operates through two segments, Pharmacy Solutions and Provider Services. Its platform focuses on delivering pharmacy and provider services, including clinical and supportive care in home and community settings to Medicare, Medicaid, and insured populations. It also offers infused, injectable, and oral medication services; and patient-centric, highly skilled, and compassionate clinical home health care, as well as rehabilitation services, including physical, speech and occupational therapy and applied behavioral analysis. The company was formerly known as Phoenix Parent Holdings Inc. and changed its name to BrightSpring Health Services, Inc. in May 2021. BrightSpring Health Services, Inc. was founded in 1974 and is headquartered in Louisville, Kentucky.",
+  "targetMeanPrice": 78.94118,
+  "targetLowPrice": 70.0,
+  "targetHighPrice": 90.0,
+  "numberOfAnalystOpinions": 17,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.16667,
+  "forwardPE": 27.977861,
+  "forwardEps": 2.27823,
+  "trailingEps": 1.13,
+  "earningsGrowth": 1.966,
+  "revenueGrowth": 0.23
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 6413311000.0,
+    "official": 6413311000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1875065000.0,
+    "official": 1875065000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 190666000.0,
+    "official": 190666000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 12910564000.0,
+    "official": 12910564000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:38:23+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -119,7 +161,10 @@
    "goodwill_and_intangibles": 3551943000.0,
    "retained_earnings": -45716000.0,
    "total_debt": 3677069000.0,
-   "shares_out": 171190389.0
+   "shares_out": 171190389.0,
+   "unusual_items": -40856000.0,
+   "normalized_ebitda": 432656000.0,
+   "normalized_income": -21630760.0
   },
   {
    "fy_end": "2023-12-31",
@@ -153,7 +198,10 @@
    "goodwill_and_intangibles": 3489888000.0,
    "retained_earnings": -200319000.0,
    "total_debt": 3670591000.0,
-   "shares_out": 171190389.0
+   "shares_out": 171190389.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 260461000.0,
+   "normalized_income": -180034000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -187,7 +235,10 @@
    "goodwill_and_intangibles": 2959108000.0,
    "retained_earnings": -222155000.0,
    "total_debt": 2788953000.0,
-   "shares_out": 174245990.0
+   "shares_out": 174245990.0,
+   "unusual_items": -12726000.0,
+   "normalized_ebitda": 312436000.0,
+   "normalized_income": -57271102.0
   },
   {
    "fy_end": "2025-12-31",
@@ -221,7 +272,10 @@
    "goodwill_and_intangibles": 3103228000.0,
    "retained_earnings": -74647000.0,
    "total_debt": 2707238000.0,
-   "shares_out": 192124125.0
+   "shares_out": 192124125.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 459529000.0,
+   "normalized_income": 106349000.0
   }
  ]
 }

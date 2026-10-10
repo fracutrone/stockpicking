@@ -1,6 +1,6 @@
 {
  "ticker": "GPE.L",
- "fetched_at": "2026-10-10T12:00:34+00:00",
+ "fetched_at": "2026-10-10T14:52:12+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 164,
   "website": "https://www.gpe.co.uk",
-  "longBusinessSummary": "Great Portland Estates Plc is a FTSE 250 property investment and development company, owning a 2.4 billion pounds portfolio of London real estate. They aim to deliver value by unlocking the often hidden potential in central London commercial real estate, a market we know inside out. They reposition properties, let off low rents and rich with opportunities for improvement, into more valuable spaces that are attractive to a diverse range of occupiers. The firm operate in highly cyclical markets. The firm's strategy is to capture the opportunities that this cyclicality creates through our active business model, flexing our activities in tune with changing market conditions, increasing and reducing operational risk as appropriate, whilst always maintaining low financial leverage. Their culture lies at the heart of our ability to achieve our strategic goals. It is entrepreneurial and pragmatic with an emphasis on cross-disciplinary teamwork. They also believe that building strong and enduring relationships with our occupiers, service partners, joint venture partners and other stakeholders is critical to our success. Great Portland Estates Plc was incorporated in 1959 in United Kingdom."
+  "longBusinessSummary": "Great Portland Estates Plc is a FTSE 250 property investment and development company, owning a 2.4 billion pounds portfolio of London real estate. They aim to deliver value by unlocking the often hidden potential in central London commercial real estate, a market we know inside out. They reposition properties, let off low rents and rich with opportunities for improvement, into more valuable spaces that are attractive to a diverse range of occupiers. The firm operate in highly cyclical markets. The firm's strategy is to capture the opportunities that this cyclicality creates through our active business model, flexing our activities in tune with changing market conditions, increasing and reducing operational risk as appropriate, whilst always maintaining low financial leverage. Their culture lies at the heart of our ability to achieve our strategic goals. It is entrepreneurial and pragmatic with an emphasis on cross-disciplinary teamwork. They also believe that building strong and enduring relationships with our occupiers, service partners, joint venture partners and other stakeholders is critical to our success. Great Portland Estates Plc was incorporated in 1959 in United Kingdom.",
+  "targetMeanPrice": 385.643,
+  "targetLowPrice": 300.0,
+  "targetHighPrice": 525.0,
+  "numberOfAnalystOpinions": 14,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.35714,
+  "forwardPE": 25.923393,
+  "forwardEps": 0.11696,
+  "trailingEps": 0.38,
+  "earningsGrowth": 0.106,
+  "revenueGrowth": 0.283
  },
  "governance": {
   "ceo": {
@@ -66,8 +77,40 @@
   "ppe_net": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2026-03-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3117300000.0,
+    "official": 3117300000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2126700000.0,
+    "official": 2126700000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 154500000.0,
+    "official": 154500000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 117900000.0,
+    "official": 117900000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2026-03-31"
+ },
+ "info_at": "2026-10-10T14:52:12+00:00",
  "years": [
   {
    "fy_end": "2023-03-31",
@@ -97,7 +140,10 @@
    "ppe_net": 3500000.0,
    "retained_earnings": 1504400000.0,
    "total_debt": 527200000.0,
-   "shares_out": 305733398.0
+   "shares_out": 305733398.0,
+   "unusual_items": 100000.0,
+   "normalized_ebitda": -150900000.0,
+   "normalized_income": -164000000.0
   },
   {
    "fy_end": "2024-03-31",
@@ -127,7 +173,10 @@
    "ppe_net": 2000000.0,
    "retained_earnings": 1166000000.0,
    "total_debt": 815500000.0,
-   "shares_out": 304664991.0
+   "shares_out": 304664991.0,
+   "unusual_items": -1900000.0,
+   "normalized_ebitda": -286700000.0,
+   "normalized_income": -305900000.0
   },
   {
    "fy_end": "2025-03-31",
@@ -157,7 +206,10 @@
    "ppe_net": 900000.0,
    "retained_earnings": 1251900000.0,
    "total_debt": 935000000.0,
-   "shares_out": 403295116.0
+   "shares_out": 403295116.0,
+   "unusual_items": -800000.0,
+   "normalized_ebitda": 133000000.0,
+   "normalized_income": 116787775.891341
   },
   {
    "fy_end": "2026-03-31",
@@ -187,7 +239,10 @@
    "ppe_net": 300000.0,
    "retained_earnings": 1380000000.0,
    "total_debt": 878000000.0,
-   "shares_out": 403409734.0
+   "shares_out": 403409734.0,
+   "unusual_items": 400000.0,
+   "normalized_ebitda": 163800000.0,
+   "normalized_income": 154260000.0
   }
  ]
 }

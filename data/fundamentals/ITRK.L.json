@@ -1,6 +1,6 @@
 {
  "ticker": "ITRK.L",
- "fetched_at": "2026-10-10T12:04:11+00:00",
+ "fetched_at": "2026-10-10T14:58:54+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 45425,
   "website": "https://www.intertek.com",
-  "longBusinessSummary": "Intertek Group plc provides quality assurance solutions to various industries in the United Kingdom, the United States, China, Australia, and internationally. It operates through five segments: Consumer Products, Corporate Assurance, Health and Safety, Industry and Infrastructure, and World of Energy. The company offers quality assurance, testing, inspection, and certification services, including laboratory safety, quality and performance testing, accredited third-party management systems auditing and certification, technical inspection, second-party supplier auditing and supply chain solutions, sustainability data verification, process performance analysis and training, food safety testing, hygiene and safety audits, advisory and consulting, and validation services, as well as hardware, software, and cyber security solutions. It also provides asset performance management, analytical testing, non-destructive and materials testing, engineering, cargo and inventory inspection, analytical assessment, calibration, supply-chain traceability, and related research and technical services, as well as support services in product development, regulatory authorization, chemical testing, and production. The company serves a range of industries, including textiles, footwear, toys, hardlines, home appliances, consumer electronics, information and communication technology, automotive, aerospace, lighting, building products, industrial and renewable energy products, oil and gas, petrochemical, minerals, exploration, ore and mining, building and construction, solar energy, energy storage, green hydrogen, petroleum and biofuels, agricultural supply chain, food, transportation, chemicals and pharma, and healthcare, as well as governments, regulatory bodies, and exporters and importers to support trade compliance. The company was founded in 1885 and is based in London, the United Kingdom."
+  "longBusinessSummary": "Intertek Group plc provides quality assurance solutions to various industries in the United Kingdom, the United States, China, Australia, and internationally. It operates through five segments: Consumer Products, Corporate Assurance, Health and Safety, Industry and Infrastructure, and World of Energy. The company offers quality assurance, testing, inspection, and certification services, including laboratory safety, quality and performance testing, accredited third-party management systems auditing and certification, technical inspection, second-party supplier auditing and supply chain solutions, sustainability data verification, process performance analysis and training, food safety testing, hygiene and safety audits, advisory and consulting, and validation services, as well as hardware, software, and cyber security solutions. It also provides asset performance management, analytical testing, non-destructive and materials testing, engineering, cargo and inventory inspection, analytical assessment, calibration, supply-chain traceability, and related research and technical services, as well as support services in product development, regulatory authorization, chemical testing, and production. The company serves a range of industries, including textiles, footwear, toys, hardlines, home appliances, consumer electronics, information and communication technology, automotive, aerospace, lighting, building products, industrial and renewable energy products, oil and gas, petrochemical, minerals, exploration, ore and mining, building and construction, solar energy, energy storage, green hydrogen, petroleum and biofuels, agricultural supply chain, food, transportation, chemicals and pharma, and healthcare, as well as governments, regulatory bodies, and exporters and importers to support trade compliance. The company was founded in 1885 and is based in London, the United Kingdom.",
+  "targetMeanPrice": 5897.25,
+  "targetLowPrice": 5450.0,
+  "targetHighPrice": 6000.0,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.45455,
+  "forwardPE": 20.353016,
+  "forwardEps": 2.89392,
+  "trailingEps": 2.05,
+  "earningsGrowth": -0.111,
+  "revenueGrowth": 0.059
  },
  "governance": {
   "ceo": {
@@ -67,8 +78,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3761500000.0,
+    "official": 3761500000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1082900000.0,
+    "official": 1082900000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 343500000.0,
+    "official": 343500000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3431600000.0,
+    "official": 3431600000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:58:54+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -99,7 +142,10 @@
    "goodwill_and_intangibles": 1781300000.0,
    "retained_earnings": 1065900000.0,
    "total_debt": 1380800000.0,
-   "shares_out": 161260720.0
+   "shares_out": 161260720.0,
+   "unusual_items": -67700000.0,
+   "normalized_ebitda": 674900000.0,
+   "normalized_income": 288800000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -130,7 +176,9 @@
    "goodwill_and_intangibles": 1716700000.0,
    "retained_earnings": 1191500000.0,
    "total_debt": 1217700000.0,
-   "shares_out": 161114627.0
+   "shares_out": 161114627.0,
+   "normalized_ebitda": 676200000.0,
+   "normalized_income": 297400000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -161,7 +209,10 @@
    "goodwill_and_intangibles": 1670100000.0,
    "retained_earnings": 1333700000.0,
    "total_debt": 1142400000.0,
-   "shares_out": 157016505.0
+   "shares_out": 157016505.0,
+   "unusual_items": -22100000.0,
+   "normalized_ebitda": 725300000.0,
+   "normalized_income": 345400000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -192,7 +243,10 @@
    "goodwill_and_intangibles": 1751700000.0,
    "retained_earnings": 1077800000.0,
    "total_debt": 1648200000.0,
-   "shares_out": 153496203.0
+   "shares_out": 153496203.0,
+   "unusual_items": -41400000.0,
+   "normalized_ebitda": 745100000.0,
+   "normalized_income": 343500000.0
   }
  ]
 }

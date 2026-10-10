@@ -1,6 +1,6 @@
 {
  "ticker": "COLM",
- "fetched_at": "2026-10-10T12:41:43+00:00",
+ "fetched_at": "2026-10-10T15:40:16+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 9620,
   "website": "https://www.columbia.com",
-  "longBusinessSummary": "Columbia Sportswear Company, together with its subsidiaries, engages in the design, development, marketing, and distribution of outdoor, active, and lifestyle products in the United States, Latin America, the Asia Pacific, Europe, the Middle East, Africa, and Canada. It provides apparel, accessories, and equipment for hiking, trail running, snow, fishing, hunting, and outdoor activities. The company also offers footwear products that include hiking boots; trail running shoes; rugged cold weather boots; sandals and shoes for use in water activities; and footwear for lifestyle wear. It serves its products through wholesale distribution channel comprising small independently operated specialty outdoor and sporting goods stores, sporting goods chains, department store chains, internet retailers, and international distributors, as well as through direct-to-consumer distribution channel, including a network of branded, outlet, temporary clearance and employee retail stores, brand-specific e-commerce sites, and shop-in-shop retail locations. It sells its products under the Columbia, Mountain Hardwear, PRANA, and SOREL brands. Columbia Sportswear Company was founded in 1938 and is headquartered in Portland, Oregon."
+  "longBusinessSummary": "Columbia Sportswear Company, together with its subsidiaries, engages in the design, development, marketing, and distribution of outdoor, active, and lifestyle products in the United States, Latin America, the Asia Pacific, Europe, the Middle East, Africa, and Canada. It provides apparel, accessories, and equipment for hiking, trail running, snow, fishing, hunting, and outdoor activities. The company also offers footwear products that include hiking boots; trail running shoes; rugged cold weather boots; sandals and shoes for use in water activities; and footwear for lifestyle wear. It serves its products through wholesale distribution channel comprising small independently operated specialty outdoor and sporting goods stores, sporting goods chains, department store chains, internet retailers, and international distributors, as well as through direct-to-consumer distribution channel, including a network of branded, outlet, temporary clearance and employee retail stores, brand-specific e-commerce sites, and shop-in-shop retail locations. It sells its products under the Columbia, Mountain Hardwear, PRANA, and SOREL brands. Columbia Sportswear Company was founded in 1938 and is headquartered in Portland, Oregon.",
+  "targetMeanPrice": 69.83333,
+  "targetLowPrice": 47.0,
+  "targetHighPrice": 92.0,
+  "numberOfAnalystOpinions": 6,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.625,
+  "forwardPE": 13.625625,
+  "forwardEps": 4.18623,
+  "trailingEps": 3.83,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.015
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 2928493000.0,
+    "official": 2928493000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1710143000.0,
+    "official": 1710143000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 177224000.0,
+    "official": 177224000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3397351000.0,
+    "official": 3397351000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:40:16+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -203,7 +245,10 @@
    "goodwill_and_intangibles": 133252000.0,
    "retained_earnings": 1953734000.0,
    "total_debt": 379310000.0,
-   "shares_out": 62139000.0
+   "shares_out": 62139000.0,
+   "unusual_items": -35600000.0,
+   "normalized_ebitda": 519056000.0,
+   "normalized_income": 339350400.0
   },
   {
    "fy_end": "2023-12-31",
@@ -237,7 +282,10 @@
    "goodwill_and_intangibles": 106602000.0,
    "retained_earnings": 1984446000.0,
    "total_debt": 407858000.0,
-   "shares_out": 59996000.0
+   "shares_out": 59996000.0,
+   "unusual_items": -25000000.0,
+   "normalized_ebitda": 418347000.0,
+   "normalized_income": 270675000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -271,7 +319,10 @@
    "goodwill_and_intangibles": 105915000.0,
    "retained_earnings": 1843261000.0,
    "total_debt": 449185000.0,
-   "shares_out": 56245000.0
+   "shares_out": 56245000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 326685000.0,
+   "normalized_income": 223273000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -305,7 +356,10 @@
    "goodwill_and_intangibles": 76915000.0,
    "retained_earnings": 1775796000.0,
    "total_debt": 477689000.0,
-   "shares_out": 53495000.0
+   "shares_out": 53495000.0,
+   "unusual_items": -29000000.0,
+   "normalized_ebitda": 321874000.0,
+   "normalized_income": 199606224.854545
   }
  ]
 }

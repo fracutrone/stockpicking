@@ -1,6 +1,6 @@
 {
  "ticker": "ANF",
- "fetched_at": "2026-10-10T12:37:36+00:00",
+ "fetched_at": "2026-10-10T15:34:36+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 6600,
   "website": "https://corporate.abercrombie.com",
-  "longBusinessSummary": "Abercrombie & Fitch Co., through its subsidiaries, operates as an omnichannel retailer in the Americas, Europe, the Middle East, Africa, and the Asia-Pacific. It offers an assortment of apparel, personal care products, and accessories for men, women, and kids under the Abercrombie & Fitch, abercrombie kids, Your Personal Best, Hollister, and Gilly Hicks brands. The company sells products through its stores, various wholesale, franchise, and licensing arrangements, as well as e-commerce platforms. Abercrombie & Fitch Co. was founded in 1892 and is headquartered in New Albany, Ohio."
+  "longBusinessSummary": "Abercrombie & Fitch Co., through its subsidiaries, operates as an omnichannel retailer in the Americas, Europe, the Middle East, Africa, and the Asia-Pacific. It offers an assortment of apparel, personal care products, and accessories for men, women, and kids under the Abercrombie & Fitch, abercrombie kids, Your Personal Best, Hollister, and Gilly Hicks brands. The company sells products through its stores, various wholesale, franchise, and licensing arrangements, as well as e-commerce platforms. Abercrombie & Fitch Co. was founded in 1892 and is headquartered in New Albany, Ohio.",
+  "targetMeanPrice": 163.54546,
+  "targetLowPrice": 134.0,
+  "targetHighPrice": 185.0,
+  "numberOfAnalystOpinions": 11,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": 11.013296,
+  "forwardEps": 12.94617,
+  "trailingEps": 11.58,
+  "earningsGrowth": 0.433,
+  "revenueGrowth": 0.048
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "retained_earnings": "sec",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "intangibles": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-01-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3541874000.0,
+    "official": 3541874000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1403895000.0,
+    "official": 1403895000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 506921000.0,
+    "official": 506921000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 5266292000.0,
+    "official": 5266292000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:34:36+00:00",
  "years": [
   {
    "fy_end": "2020-02-01",
@@ -150,7 +192,8 @@
    "receivables": 69102000.0,
    "inventory": 525864000.0,
    "ppe_net": 508336000.0,
-   "retained_earnings": 2386156000.0
+   "retained_earnings": 2386156000.0,
+   "unusual_items": -12100000.0
   },
   {
    "fy_end": "2023-01-28",
@@ -181,7 +224,10 @@
    "ppe_net": 551585000.0,
    "retained_earnings": 2368815000.0,
    "total_debt": 1224192000.0,
-   "shares_out": 49002000.0
+   "shares_out": 49002000.0,
+   "unusual_items": -14031000.0,
+   "normalized_ebitda": 229495000.0,
+   "normalized_income": 2816000.0
   },
   {
    "fy_end": "2024-02-03",
@@ -213,7 +259,9 @@
    "ppe_net": 538033000.0,
    "retained_earnings": 2643629000.0,
    "total_debt": 1048368000.0,
-   "shares_out": 50500000.0
+   "shares_out": 50500000.0,
+   "normalized_ebitda": 655755000.0,
+   "normalized_income": 328123000.0
   },
   {
    "fy_end": "2025-02-01",
@@ -245,7 +293,9 @@
    "ppe_net": 575773000.0,
    "retained_earnings": 3196724000.0,
    "total_debt": 951613000.0,
-   "shares_out": 49735000.0
+   "shares_out": 49735000.0,
+   "normalized_ebitda": 934527000.0,
+   "normalized_income": 566223000.0
   },
   {
    "fy_end": "2026-01-31",
@@ -277,7 +327,9 @@
    "ppe_net": 674079000.0,
    "retained_earnings": 3697814000.0,
    "total_debt": 1168095000.0,
-   "shares_out": 44431000.0
+   "shares_out": 44431000.0,
+   "normalized_ebitda": 878168000.0,
+   "normalized_income": 506921000.0
   }
  ]
 }

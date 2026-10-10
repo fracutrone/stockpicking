@@ -1,6 +1,6 @@
 {
  "ticker": "VIAV",
- "fetched_at": "2026-10-10T13:01:18+00:00",
+ "fetched_at": "2026-10-10T15:58:49+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 4100,
   "website": "https://www.viavisolutions.com",
-  "longBusinessSummary": "Viavi Solutions Inc. engages in the provision of test and measurement and optical technologies for military, aerospace, railway and first responder communications in the Americas, the Asia-Pacific, Europe, the Middle East, and Africa. The company operates in two segments, Network and Service Enablement (NSE) and Optical Security and Performance Products (OSP). The NSE segment provides integrated portfolio of test, monitoring, assurance, and resilient PNT solutions that enable and secure critical infrastructure. This segment also offers instruments, microprobes, and perpetual software licenses that support the development, production, maintenance, and optimization of network systems, as well as repair, calibration, extended warranty, software support, technical assistance, training, and consulting services. The OSP segment leverages its core optical coating technologies and volume manufacturing capability to design, manufacture, and sell technologies for the anti-counterfeiting, 3D sensing, government and aerospace, automotive, and industrial markets. The company was formerly known as JDS Uniphase Corporation. Viavi Solutions Inc. was founded in 1923 and is headquartered in Chandler, Arizona."
+  "longBusinessSummary": "Viavi Solutions Inc. engages in the provision of test and measurement and optical technologies for military, aerospace, railway and first responder communications in the Americas, the Asia-Pacific, Europe, the Middle East, and Africa. The company operates in two segments, Network and Service Enablement (NSE) and Optical Security and Performance Products (OSP). The NSE segment provides integrated portfolio of test, monitoring, assurance, and resilient PNT solutions that enable and secure critical infrastructure. This segment also offers instruments, microprobes, and perpetual software licenses that support the development, production, maintenance, and optimization of network systems, as well as repair, calibration, extended warranty, software support, technical assistance, training, and consulting services. The OSP segment leverages its core optical coating technologies and volume manufacturing capability to design, manufacture, and sell technologies for the anti-counterfeiting, 3D sensing, government and aerospace, automotive, and industrial markets. The company was formerly known as JDS Uniphase Corporation. Viavi Solutions Inc. was founded in 1923 and is headquartered in Chandler, Arizona.",
+  "targetMeanPrice": 61.42857,
+  "targetLowPrice": 44.0,
+  "targetHighPrice": 70.0,
+  "numberOfAnalystOpinions": 7,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.375,
+  "forwardPE": 23.304335,
+  "forwardEps": 1.95071,
+  "trailingEps": -0.13,
+  "earningsGrowth": 3.265,
+  "revenueGrowth": 0.525
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-06-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 2705600000.0,
+    "official": 2705600000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1448500000.0,
+    "official": 1448500000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -30400000.0,
+    "official": -30400000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1518300000.0,
+    "official": 1518300000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:58:49+00:00",
  "years": [
   {
    "fy_end": "2020-06-27",
@@ -208,7 +250,10 @@
    "goodwill_and_intangibles": 513800000.0,
    "retained_earnings": -69600700000.0,
    "total_debt": 96200000.0,
-   "shares_out": 222000000.0
+   "shares_out": 222000000.0,
+   "unusual_items": -16500000.0,
+   "normalized_ebitda": 171300000.0,
+   "normalized_income": 37747950.0
   },
   {
    "fy_end": "2024-06-29",
@@ -243,7 +288,10 @@
    "goodwill_and_intangibles": 491500000.0,
    "retained_earnings": -69646500000.0,
    "total_debt": 0,
-   "shares_out": 222000000.0
+   "shares_out": 222000000.0,
+   "unusual_items": -9400000.0,
+   "normalized_ebitda": 108000000.0,
+   "normalized_income": -18809220.0
   },
   {
    "fy_end": "2025-06-28",
@@ -278,7 +326,10 @@
    "goodwill_and_intangibles": 727300000.0,
    "retained_earnings": -69628100000.0,
    "total_debt": 246200000.0,
-   "shares_out": 223236654.0
+   "shares_out": 223236654.0,
+   "unusual_items": -2400000.0,
+   "normalized_ebitda": 131300000.0,
+   "normalized_income": 36926424.870466
   },
   {
    "fy_end": "2026-06-27",
@@ -313,7 +364,10 @@
    "goodwill_and_intangibles": 1078300000.0,
    "retained_earnings": -69688500000.0,
    "total_debt": 244800000.0,
-   "shares_out": 246685647.0
+   "shares_out": 246685647.0,
+   "unusual_items": -75000000.0,
+   "normalized_ebitda": 243100000.0,
+   "normalized_income": 14600000.0
   }
  ]
 }

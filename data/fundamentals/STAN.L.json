@@ -1,6 +1,6 @@
 {
  "ticker": "STAN.L",
- "fetched_at": "2026-10-10T12:20:33+00:00",
+ "fetched_at": "2026-10-10T15:22:11+00:00",
  "region": "Europa",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 81673,
   "website": "https://www.sc.com",
-  "longBusinessSummary": "Standard Chartered PLC, together with its subsidiaries, provides various banking products and services in Asia, Africa, the Middle East, Europe, and the Americas. The company operates in three segments: Corporate & Investment Banking, Wealth & Retail Banking, and Ventures. It offers retail products, such as deposits, mortgages, credit cards, and personal loans; wealth management products and services that include investments, portfolio management, bancassurance, and wealth advice; and transaction banking services, such as cash management, working capital, trade financing, securities and prime services, and payments and liquidity products. The company also provides mergers and acquisitions, leveraged and acquisition finance, infrastructure and development finance, fund finance, and transportation and sustainable finance solutions. In addition, it offers international banking, private banking, priority banking, wealth solutions, financing for SMEs, and Islamic banking products. Further, the company provides financial markets products and services that comprise financing and investment ideas; risk management and investment solutions; foreign exchange, rates, credit, and structured products; capital raising solutions; and sales and structuring, as well as digital banking solutions. It serves financial institutions, governments, banks, investors, corporations, small to medium-sized businesses, and individuals. Standard Chartered PLC was founded in 1853 and is headquartered in London, the United Kingdom."
+  "longBusinessSummary": "Standard Chartered PLC, together with its subsidiaries, provides various banking products and services in Asia, Africa, the Middle East, Europe, and the Americas. The company operates in three segments: Corporate & Investment Banking, Wealth & Retail Banking, and Ventures. It offers retail products, such as deposits, mortgages, credit cards, and personal loans; wealth management products and services that include investments, portfolio management, bancassurance, and wealth advice; and transaction banking services, such as cash management, working capital, trade financing, securities and prime services, and payments and liquidity products. The company also provides mergers and acquisitions, leveraged and acquisition finance, infrastructure and development finance, fund finance, and transportation and sustainable finance solutions. In addition, it offers international banking, private banking, priority banking, wealth solutions, financing for SMEs, and Islamic banking products. Further, the company provides financial markets products and services that comprise financing and investment ideas; risk management and investment solutions; foreign exchange, rates, credit, and structured products; capital raising solutions; and sales and structuring, as well as digital banking solutions. It serves financial institutions, governments, banks, investors, corporations, small to medium-sized businesses, and individuals. Standard Chartered PLC was founded in 1853 and is headquartered in London, the United Kingdom.",
+  "targetMeanPrice": 2422.5222,
+  "targetLowPrice": 1783.3851,
+  "targetHighPrice": 2845.1804,
+  "numberOfAnalystOpinions": 14,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.28571,
+  "forwardPE": 10.005266,
+  "forwardEps": 2.117885,
+  "trailingEps": 1.58,
+  "earningsGrowth": 0.068,
+  "revenueGrowth": 0.027
  },
  "governance": {
   "ceo": {
@@ -76,8 +87,34 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 849688000000.0,
+    "official": 849688000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 50890000000.0,
+    "official": 44388000000.0,
+    "diff": 0.146481
+   },
+   "net_income": {
+    "yahoo": 4050000000.0,
+    "official": 4050000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T15:22:11+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -103,7 +140,9 @@
    "goodwill_and_intangibles": 5869000000.0,
    "retained_earnings": 28067000000.0,
    "total_debt": 91672000000.0,
-   "shares_out": 2867224231.0
+   "shares_out": 2867224231.0,
+   "unusual_items": -577000000.0,
+   "normalized_income": 3352629000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -129,7 +168,9 @@
    "goodwill_and_intangibles": 6214000000.0,
    "retained_earnings": 28459000000.0,
    "total_debt": 93025000000.0,
-   "shares_out": 2636961019.0
+   "shares_out": 2636961019.0,
+   "unusual_items": -515000000.0,
+   "normalized_income": 4669200000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -155,7 +196,9 @@
    "goodwill_and_intangibles": 5791000000.0,
    "retained_earnings": 28969000000.0,
    "total_debt": 96247000000.0,
-   "shares_out": 2407937644.0
+   "shares_out": 2407937644.0,
+   "unusual_items": -1757000000.0,
+   "normalized_income": 5230704000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -181,7 +224,9 @@
    "goodwill_and_intangibles": 6231000000.0,
    "retained_earnings": 29573000000.0,
    "total_debt": 105367000000.0,
-   "shares_out": 2246528475.0
+   "shares_out": 2246528475.0,
+   "unusual_items": -922000000.0,
+   "normalized_income": 5759904000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "SN",
- "fetched_at": "2026-10-10T12:58:19+00:00",
+ "fetched_at": "2026-10-10T15:55:53+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 4143,
   "website": "https://www.sharkninja.com",
-  "longBusinessSummary": "SharkNinja, Inc., a product design and technology company, engages in the provision of various solutions for consumers in the United States, China, and internationally. It offers cleaning appliances, including corded and cordless vacuums, such as handheld and robotic vacuums, as well as other floorcare products comprising steam mops, wet/dry cleaning floor products, and carpet extraction; fans, coolers, frozen drink appliances, propane grills, and fire pits; and cooking and beverage appliances, such as air fryers, multi-cookers, outdoor and countertop grills and ovens, coffee systems, carbonation, cookware, cutlery, kettles, and toasters and bakeware products. The company also provides food preparation appliances, which include blenders, food processors, ice cream makers, juicers, and frozen drink appliances and coolers; haircare and skincare beauty appliances, as well as home environment products comprising air purifiers and fans. It sells its products through traditional brick-and-mortar retail channels and e-commerce channels, distributors, and direct-to-consumer channels under Shark and Ninja brands. SharkNinja, Inc. was incorporated in 2017 and is headquartered in Needham, Massachusetts."
+  "longBusinessSummary": "SharkNinja, Inc., a product design and technology company, engages in the provision of various solutions for consumers in the United States, China, and internationally. It offers cleaning appliances, including corded and cordless vacuums, such as handheld and robotic vacuums, as well as other floorcare products comprising steam mops, wet/dry cleaning floor products, and carpet extraction; fans, coolers, frozen drink appliances, propane grills, and fire pits; and cooking and beverage appliances, such as air fryers, multi-cookers, outdoor and countertop grills and ovens, coffee systems, carbonation, cookware, cutlery, kettles, and toasters and bakeware products. The company also provides food preparation appliances, which include blenders, food processors, ice cream makers, juicers, and frozen drink appliances and coolers; haircare and skincare beauty appliances, as well as home environment products comprising air purifiers and fans. It sells its products through traditional brick-and-mortar retail channels and e-commerce channels, distributors, and direct-to-consumer channels under Shark and Ninja brands. SharkNinja, Inc. was incorporated in 2017 and is headquartered in Needham, Massachusetts.",
+  "targetMeanPrice": 209.56416,
+  "targetLowPrice": 195.67,
+  "targetHighPrice": 240.0,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.15385,
+  "forwardPE": 24.144852,
+  "forwardEps": 7.66126,
+  "trailingEps": 4.9,
+  "earningsGrowth": -0.063,
+  "revenueGrowth": 0.222
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,38 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 5349434000.0,
+    "official": 5349434000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2676211000.0,
+    "official": 2676211000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 701374000.0,
+    "official": 701374000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 6399188000.0,
+    "official": 6399188000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:55:53+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -119,7 +160,9 @@
    "goodwill_and_intangibles": 1332857000.0,
    "retained_earnings": 896738000.0,
    "total_debt": 510958000.0,
-   "shares_out": 138982872.0
+   "shares_out": 138982872.0,
+   "normalized_ebitda": 415713000.0,
+   "normalized_income": 232354000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -153,7 +196,9 @@
    "goodwill_and_intangibles": 1312019000.0,
    "retained_earnings": 470319000.0,
    "total_debt": 871073000.0,
-   "shares_out": 139083369.0
+   "shares_out": 139083369.0,
+   "normalized_ebitda": 441958000.0,
+   "normalized_income": 167078000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -187,7 +232,9 @@
    "goodwill_and_intangibles": 1297459000.0,
    "retained_earnings": 909024000.0,
    "total_debt": 938993000.0,
-   "shares_out": 140347436.0
+   "shares_out": 140347436.0,
+   "normalized_ebitda": 759291000.0,
+   "normalized_income": 438705000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -221,7 +268,9 @@
    "goodwill_and_intangibles": 1285918000.0,
    "retained_earnings": 1610398000.0,
    "total_debt": 901523000.0,
-   "shares_out": 141158026.0
+   "shares_out": 141158026.0,
+   "normalized_ebitda": 1088509000.0,
+   "normalized_income": 701374000.0
   }
  ]
 }

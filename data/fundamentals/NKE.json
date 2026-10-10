@@ -1,6 +1,6 @@
 {
  "ticker": "NKE",
- "fetched_at": "2026-10-10T12:52:58+00:00",
+ "fetched_at": "2026-10-10T15:50:58+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 73000,
   "website": "https://www.nike.com",
-  "longBusinessSummary": "NIKE, Inc., together with its subsidiaries, designs, develops, markets, and sells athletic footwear, apparel, equipment, accessories, and services for men, women, and kids in North America, Europe, the Middle East, Africa, Greater China, the Asia Pacific, and Latin America. The company offers its products under the NIKE, Jordan, Converse, Jumpman, Chuck Taylor, All Star, One Star, Star Chevron, and Jack Purcell trademarks. It also provides a line of performance equipment and accessories, including bags, socks, sport balls, eyewear, timepieces, digital devices, bats, gloves, protective equipment, and other equipment for sports activities; and sports apparel, as well as sells products to wholesale customers and directly to consumers through NIKE Direct operations; distributes and licenses casual sneakers, apparel, and accessories; and markets apparel with licensed college and professional team and league logos. In addition, the company offers consumer services and experiences, including sport focused events and activations; fitness and activity apps; sport, fitness, and wellness content; and digital services and features in retail stores. It sells its products to footwear stores; sporting goods stores; athletic specialty stores; department stores; skate, tennis, and golf shops; and other wholesale accounts through NIKE-owned retail stores, independent distributors, licensees, sales representatives, and digital platforms. The company was formerly known as Blue Ribbon Sports, Inc. and changed its name to NIKE, Inc. in May 1971. NIKE, Inc. was founded in 1964 and is headquartered in Beaverton, Oregon."
+  "longBusinessSummary": "NIKE, Inc., together with its subsidiaries, designs, develops, markets, and sells athletic footwear, apparel, equipment, accessories, and services for men, women, and kids in North America, Europe, the Middle East, Africa, Greater China, the Asia Pacific, and Latin America. The company offers its products under the NIKE, Jordan, Converse, Jumpman, Chuck Taylor, All Star, One Star, Star Chevron, and Jack Purcell trademarks. It also provides a line of performance equipment and accessories, including bags, socks, sport balls, eyewear, timepieces, digital devices, bats, gloves, protective equipment, and other equipment for sports activities; and sports apparel, as well as sells products to wholesale customers and directly to consumers through NIKE Direct operations; distributes and licenses casual sneakers, apparel, and accessories; and markets apparel with licensed college and professional team and league logos. In addition, the company offers consumer services and experiences, including sport focused events and activations; fitness and activity apps; sport, fitness, and wellness content; and digital services and features in retail stores. It sells its products to footwear stores; sporting goods stores; athletic specialty stores; department stores; skate, tennis, and golf shops; and other wholesale accounts through NIKE-owned retail stores, independent distributors, licensees, sales representatives, and digital platforms. The company was formerly known as Blue Ribbon Sports, Inc. and changed its name to NIKE, Inc. in May 1971. NIKE, Inc. was founded in 1964 and is headquartered in Beaverton, Oregon.",
+  "targetMeanPrice": 38.04167,
+  "targetLowPrice": 19.0,
+  "targetHighPrice": 94.0,
+  "numberOfAnalystOpinions": 36,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.80952,
+  "forwardPE": 20.527773,
+  "forwardEps": 1.69088,
+  "trailingEps": 2.08,
+  "earningsGrowth": -0.021,
+  "revenueGrowth": -0.043
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,38 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-05-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 38410000000.0,
+    "official": 38410000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 14865000000.0,
+    "official": 14865000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 3108000000.0,
+    "official": 3108000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 46398000000.0,
+    "official": 46398000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:50:58+00:00",
  "years": [
   {
    "fy_end": "2020-05-31",
@@ -194,7 +235,9 @@
    "goodwill_and_intangibles": 555000000.0,
    "retained_earnings": 1358000000.0,
    "total_debt": 8933000000.0,
-   "shares_out": 1532000000.0
+   "shares_out": 1532000000.0,
+   "normalized_ebitda": 6774000000.0,
+   "normalized_income": 5070000000.0
   },
   {
    "fy_end": "2024-05-31",
@@ -228,7 +271,9 @@
    "goodwill_and_intangibles": 499000000.0,
    "retained_earnings": 965000000.0,
    "total_debt": 8909000000.0,
-   "shares_out": 1503000000.0
+   "shares_out": 1503000000.0,
+   "normalized_ebitda": 7155000000.0,
+   "normalized_income": 5700000000.0
   },
   {
    "fy_end": "2025-05-31",
@@ -262,7 +307,9 @@
    "goodwill_and_intangibles": 499000000.0,
    "retained_earnings": -727000000.0,
    "total_debt": 7966000000.0,
-   "shares_out": 1476000000.0
+   "shares_out": 1476000000.0,
+   "normalized_ebitda": 4510000000.0,
+   "normalized_income": 3219000000.0
   },
   {
    "fy_end": "2026-05-31",
@@ -296,7 +343,9 @@
    "goodwill_and_intangibles": 499000000.0,
    "retained_earnings": -155000000.0,
    "total_debt": 7942000000.0,
-   "shares_out": 1483498703.0
+   "shares_out": 1483498703.0,
+   "normalized_ebitda": 4594000000.0,
+   "normalized_income": 3108000000.0
   }
  ]
 }

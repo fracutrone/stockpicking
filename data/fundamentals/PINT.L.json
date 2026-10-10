@@ -1,6 +1,6 @@
 {
  "ticker": "PINT.L",
- "fetched_at": "2026-10-10T12:14:22+00:00",
+ "fetched_at": "2026-10-10T15:11:48+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": 129.5,
+  "targetLowPrice": 127.0,
+  "targetHighPrice": 132.0,
+  "numberOfAnalystOpinions": 2,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.2,
+  "forwardPE": 6.982731,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -48,8 +59,15 @@
   "cash": "yahoo",
   "equity": "yahoo",
   "receivables": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T15:11:49+00:00",
  "years": [
   {
    "fy_end": "2023-12-31",
@@ -68,7 +86,8 @@
    "cash": 29361000.0,
    "equity": 504033000.0,
    "receivables": 1307000.0,
-   "shares_out": 472615000.0
+   "shares_out": 472615000.0,
+   "normalized_income": 49586000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -87,7 +106,8 @@
    "cash": 23778000.0,
    "equity": 553493000.0,
    "receivables": 1167000.0,
-   "shares_out": 468625000.0
+   "shares_out": 468625000.0,
+   "normalized_income": 72126000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -105,7 +125,8 @@
    "cash": 4996000.0,
    "equity": 611285000.0,
    "receivables": 280000.0,
-   "shares_out": 468625000.0
+   "shares_out": 468625000.0,
+   "normalized_income": 77816000.0
   }
  ]
 }

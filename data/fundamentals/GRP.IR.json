@@ -1,6 +1,6 @@
 {
  "ticker": "GRP.IR",
- "fetched_at": "2026-10-10T12:00:46+00:00",
+ "fetched_at": "2026-10-10T14:52:36+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "ISE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": 0.9525,
+  "targetLowPrice": 0.85,
+  "targetHighPrice": 1.1,
+  "numberOfAnalystOpinions": 4,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.14286,
+  "forwardPE": 9.341574,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -50,8 +61,15 @@
   "receivables": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T14:52:36+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -72,7 +90,8 @@
    "receivables": 192000.0,
    "retained_earnings": 279872000.0,
    "total_debt": 846080000.0,
-   "shares_out": 1141238938.0
+   "shares_out": 1141238938.0,
+   "normalized_income": 136572000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -93,7 +112,8 @@
    "receivables": 897000.0,
    "retained_earnings": 349359000.0,
    "total_debt": 1249624000.0,
-   "shares_out": 1141238938.0
+   "shares_out": 1141238938.0,
+   "normalized_income": 69487000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -114,7 +134,8 @@
    "receivables": 105000.0,
    "retained_earnings": 375253000.0,
    "total_debt": 1177534000.0,
-   "shares_out": 1113535009.0
+   "shares_out": 1113535009.0,
+   "normalized_income": 50972000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -135,7 +156,8 @@
    "receivables": 16721000.0,
    "retained_earnings": 322836000.0,
    "total_debt": 1130444000.0,
-   "shares_out": 1113335009.0
+   "shares_out": 1113335009.0,
+   "normalized_income": -52417000.0
   }
  ]
 }

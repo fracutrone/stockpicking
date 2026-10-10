@@ -1,6 +1,6 @@
 {
  "ticker": "MTLN.L",
- "fetched_at": "2026-10-10T12:09:57+00:00",
+ "fetched_at": "2026-10-10T15:06:29+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 6617,
   "website": "https://www.metlen.com",
-  "longBusinessSummary": "Metlen Energy & Metals PLC operates as an industrial and energy company focusing on the metals and energy sectors worldwide. The company engages in the development, construction, and operation of thermal power plants; and design and construction of electricity infrastructure projects. It also develops RES and energy storage projects; manages power generation and energy plants; and retails electricity and natural gas supply. In addition, the company engages in the procurement and management of natural gas and other energy products for large B2B corporate clients; and develops large-scale energy projects for electricity production and energy transition. Further, it extracts, processes, and refines alumina, aluminium, bauxite, and various metals and minerals. Additionally, the company undertakes various infrastructure construction projects, such as roadworks, buildings, and railway and port projects, as well as solid and liquid waste management projects; and designs, constructs, operates, finances, and maintains infrastructure, building, environmental, hydraulic, and technology and energy projects. Metlen Energy & Metals PLC was founded in 1908 and is headquartered in Athens, Greece."
+  "longBusinessSummary": "Metlen Energy & Metals PLC operates as an industrial and energy company focusing on the metals and energy sectors worldwide. The company engages in the development, construction, and operation of thermal power plants; and design and construction of electricity infrastructure projects. It also develops RES and energy storage projects; manages power generation and energy plants; and retails electricity and natural gas supply. In addition, the company engages in the procurement and management of natural gas and other energy products for large B2B corporate clients; and develops large-scale energy projects for electricity production and energy transition. Further, it extracts, processes, and refines alumina, aluminium, bauxite, and various metals and minerals. Additionally, the company undertakes various infrastructure construction projects, such as roadworks, buildings, and railway and port projects, as well as solid and liquid waste management projects; and designs, constructs, operates, finances, and maintains infrastructure, building, environmental, hydraulic, and technology and energy projects. Metlen Energy & Metals PLC was founded in 1908 and is headquartered in Athens, Greece.",
+  "targetMeanPrice": 57.0,
+  "targetLowPrice": 52.0,
+  "targetHighPrice": 64.0,
+  "numberOfAnalystOpinions": 5,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.4,
+  "forwardPE": 9.430367,
+  "forwardEps": 5.17053,
+  "trailingEps": 2.57,
+  "earningsGrowth": 0.221,
+  "revenueGrowth": 0.105
  },
  "governance": {
   "ceo": {
@@ -77,8 +88,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 11431597000.0,
+    "official": 11431597000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3012424000.0,
+    "official": 3012424000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 314468000.0,
+    "official": 314468000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 7106996000.0,
+    "official": 7106996000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:06:29+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -113,7 +156,10 @@
    "goodwill_and_intangibles": 597660000.0,
    "retained_earnings": 1697356000.0,
    "total_debt": 1956360000.0,
-   "shares_out": 129024224.0
+   "shares_out": 129024224.0,
+   "unusual_items": -35362000.0,
+   "normalized_ebitda": 816558000.0,
+   "normalized_income": 493845109.434272
   },
   {
    "fy_end": "2023-12-31",
@@ -148,7 +194,10 @@
    "goodwill_and_intangibles": 740976000.0,
    "retained_earnings": 2176952000.0,
    "total_debt": 3111996000.0,
-   "shares_out": 129024224.0
+   "shares_out": 129024224.0,
+   "unusual_items": -8055000.0,
+   "normalized_ebitda": 997657000.0,
+   "normalized_income": 629521249.599267
   },
   {
    "fy_end": "2024-12-31",
@@ -183,7 +232,10 @@
    "goodwill_and_intangibles": 755492000.0,
    "retained_earnings": 2578418000.0,
    "total_debt": 4261676000.0,
-   "shares_out": 129024224.0
+   "shares_out": 129024224.0,
+   "unusual_items": 20061000.0,
+   "normalized_ebitda": 1031602000.0,
+   "normalized_income": 597677637.534524
   },
   {
    "fy_end": "2025-12-31",
@@ -217,7 +269,10 @@
    "goodwill_and_intangibles": 601568000.0,
    "retained_earnings": 2267960000.0,
    "total_debt": 5092244000.0,
-   "shares_out": 143022980.0
+   "shares_out": 143022980.0,
+   "unusual_items": 163370000.0,
+   "normalized_ebitda": 575425000.0,
+   "normalized_income": 175603649.57844
   }
  ]
 }

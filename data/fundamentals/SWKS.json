@@ -1,6 +1,6 @@
 {
  "ticker": "SWKS",
- "fetched_at": "2026-10-10T12:59:08+00:00",
+ "fetched_at": "2026-10-10T15:56:53+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 10000,
   "website": "https://www.skyworksinc.com",
-  "longBusinessSummary": "Skyworks Solutions, Inc., together with its subsidiaries, develops, manufactures, and markets analog and mixed-signal semiconductor products and solutions in the United States, Taiwan, China, South Korea, Europe, the Middle East, Africa, and the Asia Pacific. The company offers amplifiers, antenna tuners, attenuators, automotive tuners and digital radios, wireless ASoC, DC/DC converters, demodulators, detectors, digital power isolators, diodes, directional couplers, diversity receive modules, filters, front-end modules, hybrids, light emitting diode drivers, low noise amplifiers, mixers, modulators, and optocouplers/optoisolators. It also provides phase locked loops, phase shifters, power dividers/combiners, power over ethernet, power isolators, ProSLIC family of subscriber line interface circuits, receivers, system in package, switches, synthesizers, timing devices, voltage-controlled oscillators/synthesizers, and voltage regulators. The company sells its products through direct sales force, electronic component distributors, and independent sales representatives. Its products are used in aerospace, automotive, broadband, cellular infrastructure, connected home, defense, entertainment and gaming, industrial, medical, smartphone, tablet, and wearables applications. The company was founded in 1962 and is headquartered in Irvine, California."
+  "longBusinessSummary": "Skyworks Solutions, Inc., together with its subsidiaries, develops, manufactures, and markets analog and mixed-signal semiconductor products and solutions in the United States, Taiwan, China, South Korea, Europe, the Middle East, Africa, and the Asia Pacific. The company offers amplifiers, antenna tuners, attenuators, automotive tuners and digital radios, wireless ASoC, DC/DC converters, demodulators, detectors, digital power isolators, diodes, directional couplers, diversity receive modules, filters, front-end modules, hybrids, light emitting diode drivers, low noise amplifiers, mixers, modulators, and optocouplers/optoisolators. It also provides phase locked loops, phase shifters, power dividers/combiners, power over ethernet, power isolators, ProSLIC family of subscriber line interface circuits, receivers, system in package, switches, synthesizers, timing devices, voltage-controlled oscillators/synthesizers, and voltage regulators. The company sells its products through direct sales force, electronic component distributors, and independent sales representatives. Its products are used in aerospace, automotive, broadband, cellular infrastructure, connected home, defense, entertainment and gaming, industrial, medical, smartphone, tablet, and wearables applications. The company was founded in 1962 and is headquartered in Irvine, California.",
+  "targetMeanPrice": 75.64706,
+  "targetLowPrice": 61.0,
+  "targetHighPrice": 107.0,
+  "numberOfAnalystOpinions": 17,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.91667,
+  "forwardPE": 13.404142,
+  "forwardEps": 5.696,
+  "trailingEps": 1.82,
+  "earningsGrowth": -0.686,
+  "revenueGrowth": -0.031
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-09-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 7917000000.0,
+    "official": 7917000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 5757100000.0,
+    "official": 5757100000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 477100000.0,
+    "official": 477100000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 4086900000.0,
+    "official": 4086900000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:56:53+00:00",
  "years": [
   {
    "fy_end": "2019-09-27",
@@ -210,7 +252,10 @@
    "goodwill_and_intangibles": 3621400000.0,
    "retained_earnings": 5421900000.0,
    "total_debt": 1689900000.0,
-   "shares_out": 160200000.0
+   "shares_out": 160200000.0,
+   "unusual_items": -30700000.0,
+   "normalized_ebitda": 2245300000.0,
+   "normalized_income": 1301712691.317892
   },
   {
    "fy_end": "2023-09-29",
@@ -245,7 +290,10 @@
    "goodwill_and_intangibles": 3398800000.0,
    "retained_earnings": 5876000000.0,
    "total_debt": 992900000.0,
-   "shares_out": 159500000.0
+   "shares_out": 159500000.0,
+   "unusual_items": -28300000.0,
+   "normalized_ebitda": 1785200000.0,
+   "normalized_income": 1008581646.273637
   },
   {
    "fy_end": "2024-09-27",
@@ -280,7 +328,10 @@
    "goodwill_and_intangibles": 3077200000.0,
    "retained_earnings": 6032900000.0,
    "total_debt": 994300000.0,
-   "shares_out": 159900000.0
+   "shares_out": 159900000.0,
+   "unusual_items": -150000000.0,
+   "normalized_ebitda": 1268400000.0,
+   "normalized_income": 736477686.989315
   },
   {
    "fy_end": "2025-10-03",
@@ -315,7 +366,10 @@
    "goodwill_and_intangibles": 2985700000.0,
    "retained_earnings": 5656900000.0,
    "total_debt": 496400000.0,
-   "shares_out": 148700000.0
+   "shares_out": 148700000.0,
+   "unusual_items": -24200000.0,
+   "normalized_ebitda": 1041000000.0,
+   "normalized_income": 499021055.629391
   }
  ]
 }

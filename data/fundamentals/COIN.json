@@ -1,6 +1,6 @@
 {
  "ticker": "COIN",
- "fetched_at": "2026-10-10T12:41:36+00:00",
+ "fetched_at": "2026-10-10T15:40:11+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 4951,
   "website": "https://www.coinbase.com",
-  "longBusinessSummary": "Coinbase Global, Inc. operates platform for crypto assets in the United States and internationally. It provides the primary financial account in the crypto economy for consumers; a brokerage platform with a pool of liquidity across the crypto marketplace for institutions; and a suite of products granting access to build onchain for developers. The company was founded in 2012 and is based in New York, New York."
+  "longBusinessSummary": "Coinbase Global, Inc. operates platform for crypto assets in the United States and internationally. It provides the primary financial account in the crypto economy for consumers; a brokerage platform with a pool of liquidity across the crypto marketplace for institutions; and a suite of products granting access to build onchain for developers. The company was founded in 2012 and is based in New York, New York.",
+  "targetMeanPrice": 211.30606,
+  "targetLowPrice": 110.0,
+  "targetHighPrice": 330.0,
+  "numberOfAnalystOpinions": 33,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.97368,
+  "forwardPE": 57.17245,
+  "forwardEps": 3.1377,
+  "trailingEps": -3.84,
+  "earningsGrowth": null,
+  "revenueGrowth": -0.173
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 29671832000.0,
+    "official": 29671832000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 14793058000.0,
+    "official": 14793058000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1260327000.0,
+    "official": 1260327000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 7181325000.0,
+    "official": 7181325000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:40:11+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -180,7 +222,10 @@
    "goodwill_and_intangibles": 1209335000.0,
    "retained_earnings": 1725475000.0,
    "total_debt": 3413967000.0,
-   "shares_out": 230866000.0
+   "shares_out": 230866000.0,
+   "unusual_items": -1025882000.0,
+   "normalized_ebitda": -1795730000.0,
+   "normalized_income": -1746281067.0
   },
   {
    "fy_end": "2023-12-31",
@@ -214,7 +259,10 @@
    "goodwill_and_intangibles": 1226092000.0,
    "retained_earnings": 1820346000.0,
    "total_debt": 2979957000.0,
-   "shares_out": 242048000.0
+   "shares_out": 242048000.0,
+   "unusual_items": -83551000.0,
+   "normalized_ebitda": 229114000.0,
+   "normalized_income": 160876290.0
   },
   {
    "fy_end": "2024-12-31",
@@ -247,7 +295,10 @@
    "goodwill_and_intangibles": 1186474000.0,
    "retained_earnings": 4960901000.0,
    "total_debt": 4608349000.0,
-   "shares_out": 253640000.0
+   "shares_out": 253640000.0,
+   "unusual_items": 747227000.0,
+   "normalized_ebitda": 2403580000.0,
+   "normalized_income": 1924196257.2
   },
   {
    "fy_end": "2025-12-31",
@@ -280,7 +331,10 @@
    "goodwill_and_intangibles": 5566761000.0,
    "retained_earnings": 6221228000.0,
    "total_debt": 7658724000.0,
-   "shares_out": 267836000.0
+   "shares_out": 267836000.0,
+   "unusual_items": 130959000.0,
+   "normalized_ebitda": 1664947000.0,
+   "normalized_income": 1151892948.0
   }
  ]
 }

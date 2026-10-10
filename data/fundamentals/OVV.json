@@ -1,6 +1,6 @@
 {
  "ticker": "OVV",
- "fetched_at": "2026-10-10T12:54:41+00:00",
+ "fetched_at": "2026-10-10T15:52:30+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 1465,
   "website": "https://www.ovintiv.com",
-  "longBusinessSummary": "Ovintiv Inc., together with its subsidiaries, operates as an oil and natural gas exploration and production company in North America. The company operates through USA Operations and Canadian Operations segments. It is involved in the exploration, development, production, and marketing of oil, NGLs, natural gas and other related activities in the Permian in West Texas and Anadarko in West-central Oklahoma in the United States, as well as in the Montney in northwest Alberta and northeast British Columbia. The company was formerly known as Encana Corporation and changed its name to Ovintiv Inc. in January 2020. Ovintiv Inc. was incorporated in 2020 and is based in Denver, Colorado."
+  "longBusinessSummary": "Ovintiv Inc., together with its subsidiaries, operates as an oil and natural gas exploration and production company in North America. The company operates through USA Operations and Canadian Operations segments. It is involved in the exploration, development, production, and marketing of oil, NGLs, natural gas and other related activities in the Permian in West Texas and Anadarko in West-central Oklahoma in the United States, as well as in the Montney in northwest Alberta and northeast British Columbia. The company was formerly known as Encana Corporation and changed its name to Ovintiv Inc. in January 2020. Ovintiv Inc. was incorporated in 2020 and is based in Denver, Colorado.",
+  "targetMeanPrice": 77.5,
+  "targetLowPrice": 55.0,
+  "targetHighPrice": 92.0,
+  "numberOfAnalystOpinions": 24,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.59259,
+  "forwardPE": 8.591207,
+  "forwardEps": 7.43551,
+  "trailingEps": 3.59,
+  "earningsGrowth": 0.373,
+  "revenueGrowth": 0.297
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 20390000000.0,
+    "official": 20390000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 11195000000.0,
+    "official": 11195000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1242000000.0,
+    "official": 1242000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 8908000000.0,
+    "official": 8908000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:52:30+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -185,7 +227,10 @@
    "goodwill_and_intangibles": 2584000000.0,
    "retained_earnings": -1081000000.0,
    "total_debt": 3570000000.0,
-   "shares_out": 245700000.0
+   "shares_out": 245700000.0,
+   "unusual_items": -15000000.0,
+   "normalized_ebitda": 4999000000.0,
+   "normalized_income": 3648850000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -217,7 +262,10 @@
    "goodwill_and_intangibles": 2599000000.0,
    "retained_earnings": 697000000.0,
    "total_debt": 5737000000.0,
-   "shares_out": 271697868.0
+   "shares_out": 271697868.0,
+   "unusual_items": -19000000.0,
+   "normalized_ebitda": 4709000000.0,
+   "normalized_income": 2100789000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -250,7 +298,10 @@
    "goodwill_and_intangibles": 2546000000.0,
    "retained_earnings": 1506000000.0,
    "total_debt": 5453000000.0,
-   "shares_out": 260400000.0
+   "shares_out": 260400000.0,
+   "unusual_items": -473000000.0,
+   "normalized_ebitda": 4526000000.0,
+   "normalized_income": 1519009000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -283,7 +334,10 @@
    "goodwill_and_intangibles": 2576000000.0,
    "retained_earnings": 2440000000.0,
    "total_debt": 5202000000.0,
-   "shares_out": 253258560.0
+   "shares_out": 253258560.0,
+   "unusual_items": -964000000.0,
+   "normalized_ebitda": 4289000000.0,
+   "normalized_income": 2003560000.0
   }
  ]
 }

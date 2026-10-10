@@ -1,6 +1,6 @@
 {
  "ticker": "MPC",
- "fetched_at": "2026-10-10T12:51:56+00:00",
+ "fetched_at": "2026-10-10T15:50:04+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 18500,
   "website": "https://www.marathonpetroleum.com",
-  "longBusinessSummary": "Marathon Petroleum Corporation, together with its subsidiaries, operates as an integrated downstream energy company in the United States. The company operates through three segments: Refining & Marketing; Midstream; and Renewable Diesel. The Refining & Marketing segment refines crude oil and other feedstocks at its refineries in the Gulf Coast, Mid-Continent, and West Coast regions of the United States; and purchases refined products and ethanol for resale and distributes refined products through transportation, storage, distribution, and marketing services. Its refined products include transportation fuels, such as reformulated gasolines and blend-grade gasolines; heavy fuel oil; and asphalt. This segment also manufactures propane and petrochemicals. The company sells refined products to wholesale marketing customers in the United States and internationally, buyers on the spot market, and independent entrepreneurs who operate primarily Marathon branded outlets, as well as through long-term fuel supply contracts to direct dealer locations primarily under the ARCO brand. The Midstream segment gathers, transports, stores, distributes, and markets crude oil and refined products, including renewable diesel and other hydrocarbon-based products through refining logistics assets, pipelines, terminals, towboats, and barges; gathers, processes, and transports natural gas; and transports, fractionates, stores, and markets natural gas liquids. The Renewable Diesel segment processes renewable feedstocks into renewable diesel, markets, and distributes renewable diesel through its Midstream segment and third parties. It sells renewable diesel to wholesale marketing customers, buyers on the spot market, and through long-term supply contracts to direct dealers under the ARCO brand. Marathon Petroleum Corporation was founded in 1887 and is headquartered in Findlay, Ohio."
+  "longBusinessSummary": "Marathon Petroleum Corporation, together with its subsidiaries, operates as an integrated downstream energy company in the United States. The company operates through three segments: Refining & Marketing; Midstream; and Renewable Diesel. The Refining & Marketing segment refines crude oil and other feedstocks at its refineries in the Gulf Coast, Mid-Continent, and West Coast regions of the United States; and purchases refined products and ethanol for resale and distributes refined products through transportation, storage, distribution, and marketing services. Its refined products include transportation fuels, such as reformulated gasolines and blend-grade gasolines; heavy fuel oil; and asphalt. This segment also manufactures propane and petrochemicals. The company sells refined products to wholesale marketing customers in the United States and internationally, buyers on the spot market, and independent entrepreneurs who operate primarily Marathon branded outlets, as well as through long-term fuel supply contracts to direct dealer locations primarily under the ARCO brand. The Midstream segment gathers, transports, stores, distributes, and markets crude oil and refined products, including renewable diesel and other hydrocarbon-based products through refining logistics assets, pipelines, terminals, towboats, and barges; gathers, processes, and transports natural gas; and transports, fractionates, stores, and markets natural gas liquids. The Renewable Diesel segment processes renewable feedstocks into renewable diesel, markets, and distributes renewable diesel through its Midstream segment and third parties. It sells renewable diesel to wholesale marketing customers, buyers on the spot market, and through long-term supply contracts to direct dealers under the ARCO brand. Marathon Petroleum Corporation was founded in 1887 and is headquartered in Findlay, Ohio.",
+  "targetMeanPrice": 400.0,
+  "targetLowPrice": 236.0,
+  "targetHighPrice": 519.0,
+  "numberOfAnalystOpinions": 18,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.36842,
+  "forwardPE": 8.703178,
+  "forwardEps": 52.2832,
+  "trailingEps": 28.88,
+  "earningsGrowth": 3.48,
+  "revenueGrowth": 0.537
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 83955000000.0,
+    "official": 83955000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 17314000000.0,
+    "official": 17314000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 4047000000.0,
+    "official": 4047000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 132699000000.0,
+    "official": 132699000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:50:04+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -203,7 +245,10 @@
    "goodwill_and_intangibles": 8244000000.0,
    "retained_earnings": 26142000000.0,
    "total_debt": 25634000000.0,
-   "shares_out": 454000000.0
+   "shares_out": 454000000.0,
+   "unusual_items": 1059000000.0,
+   "normalized_ebitda": 23823000000.0,
+   "normalized_income": 13617980000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -238,7 +283,10 @@
    "goodwill_and_intangibles": 8244000000.0,
    "retained_earnings": 34562000000.0,
    "total_debt": 25329000000.0,
-   "shares_out": 368000000.0
+   "shares_out": 368000000.0,
+   "unusual_items": 217000000.0,
+   "normalized_ebitda": 18344000000.0,
+   "normalized_income": 9507617000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -273,7 +321,10 @@
    "goodwill_and_intangibles": 10018000000.0,
    "retained_earnings": 36848000000.0,
    "total_debt": 24432000000.0,
-   "shares_out": 316000000.0
+   "shares_out": 316000000.0,
+   "unusual_items": 28000000.0,
+   "normalized_ebitda": 10574000000.0,
+   "normalized_income": 3421172000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -307,7 +358,10 @@
    "goodwill_and_intangibles": 12068000000.0,
    "retained_earnings": 39751000000.0,
    "total_debt": 30505000000.0,
-   "shares_out": 294602479.0
+   "shares_out": 294602479.0,
+   "unusual_items": 173000000.0,
+   "normalized_ebitda": 11505000000.0,
+   "normalized_income": 3902026000.0
   }
  ]
 }

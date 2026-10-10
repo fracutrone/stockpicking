@@ -1,6 +1,6 @@
 {
  "ticker": "SNX",
- "fetched_at": "2026-10-10T12:58:26+00:00",
+ "fetched_at": "2026-10-10T15:56:00+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 24000,
   "website": "https://www.tdsynnex.com",
-  "longBusinessSummary": "TD SYNNEX Corporation operates as a distributor and solutions aggregator for the information technology (IT) ecosystem in the United States, Europe, and internationally. It offers endpoint solutions, including personal computing devices and peripherals, mobile phones and accessories, printers, and supplies; and advanced solutions comprising data center technologies, such as hybrid cloud, security, storage, networking, servers, software, converged and hyper-converged infrastructure, and hyperscale infrastructure. The company also provides design, integration, test and other production value-added solutions, such as thermal testing, power-draw efficiency testing, burn-in, quality, and logistics support; logistics and field services; depot repair and customer management services; and cloud services, including public cloud solutions in productivity and collaboration, infrastructure as a service, platform as a service, software as a service, security, mobility, AI, and other hybrid solutions. In addition, it offers online services; financing options, including net terms, third party leasing, floor plan financing and letters-of-credit backed financing and arrangements, as well lease products to reseller customers and their end-users and provides device-as-a-service to end-users; and marketing services comprising direct mail, external media advertising, reseller product training, targeted telemarketing campaigns, national and regional trade shows, trade groups, database analysis, print on demand services, and web-based marketing. It serves value-added resellers, corporate resellers, government resellers, system integrators, direct marketers, retailers, and managed service providers. The company has strategic alliance with EigenQ, Inc. to help public-sector, defense, critical infrastructure and enterprise customers assess and prepare AMD EPYC processor-based server environments for the post-quantum security transition. The company was formerly known as SYNNEX Corporation and changed its name to TD SYNNEX Corporation in September 2021. TD SYNNEX Corporation was founded in 1980 and is headquartered in Fremont, California."
+  "longBusinessSummary": "TD SYNNEX Corporation operates as a distributor and solutions aggregator for the information technology (IT) ecosystem in the United States, Europe, and internationally. It offers endpoint solutions, including personal computing devices and peripherals, mobile phones and accessories, printers, and supplies; and advanced solutions comprising data center technologies, such as hybrid cloud, security, storage, networking, servers, software, converged and hyper-converged infrastructure, and hyperscale infrastructure. The company also provides design, integration, test and other production value-added solutions, such as thermal testing, power-draw efficiency testing, burn-in, quality, and logistics support; logistics and field services; depot repair and customer management services; and cloud services, including public cloud solutions in productivity and collaboration, infrastructure as a service, platform as a service, software as a service, security, mobility, AI, and other hybrid solutions. In addition, it offers online services; financing options, including net terms, third party leasing, floor plan financing and letters-of-credit backed financing and arrangements, as well lease products to reseller customers and their end-users and provides device-as-a-service to end-users; and marketing services comprising direct mail, external media advertising, reseller product training, targeted telemarketing campaigns, national and regional trade shows, trade groups, database analysis, print on demand services, and web-based marketing. It serves value-added resellers, corporate resellers, government resellers, system integrators, direct marketers, retailers, and managed service providers. The company has strategic alliance with EigenQ, Inc. to help public-sector, defense, critical infrastructure and enterprise customers assess and prepare AMD EPYC processor-based server environments for the post-quantum security transition. The company was formerly known as SYNNEX Corporation and changed its name to TD SYNNEX Corporation in September 2021. TD SYNNEX Corporation was founded in 1980 and is headquartered in Fremont, California.",
+  "targetMeanPrice": 339.63635,
+  "targetLowPrice": 287.0,
+  "targetHighPrice": 379.0,
+  "numberOfAnalystOpinions": 11,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.54545,
+  "forwardPE": 11.152242,
+  "forwardEps": 24.51256,
+  "trailingEps": 16.4,
+  "earningsGrowth": 0.889,
+  "revenueGrowth": 0.377
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-11-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 34250898000.0,
+    "official": 34250898000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 8450429000.0,
+    "official": 8450429000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 827660000.0,
+    "official": 827660000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 62508086000.0,
+    "official": 62508086000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:56:00+00:00",
  "years": [
   {
    "fy_end": "2019-11-30",
@@ -205,7 +247,10 @@
    "goodwill_and_intangibles": 8226727000.0,
    "retained_earnings": 1708234000.0,
    "total_debt": 4103793000.0,
-   "shares_out": 94647000.0
+   "shares_out": 94647000.0,
+   "unusual_items": -222319000.0,
+   "normalized_ebitda": 1735392000.0,
+   "normalized_income": 826367656.647685
   },
   {
    "fy_end": "2023-11-30",
@@ -239,7 +284,10 @@
    "goodwill_and_intangibles": 8148484000.0,
    "retained_earnings": 2204771000.0,
    "total_debt": 4082887000.0,
-   "shares_out": 88669000.0
+   "shares_out": 88669000.0,
+   "unusual_items": -206235000.0,
+   "normalized_ebitda": 1702376000.0,
+   "normalized_income": 790661590.0
   },
   {
    "fy_end": "2024-11-30",
@@ -273,7 +321,10 @@
    "goodwill_and_intangibles": 7807344000.0,
    "retained_earnings": 2755781000.0,
    "total_debt": 3907491000.0,
-   "shares_out": 83723000.0
+   "shares_out": 83723000.0,
+   "unusual_items": -71314000.0,
+   "normalized_ebitda": 1664339000.0,
+   "normalized_income": 745856944.0
   },
   {
    "fy_end": "2025-11-30",
@@ -307,7 +358,10 @@
    "goodwill_and_intangibles": 7874249000.0,
    "retained_earnings": 3437060000.0,
    "total_debt": 4611390000.0,
-   "shares_out": 80100000.0
+   "shares_out": 80100000.0,
+   "unusual_items": -7180000.0,
+   "normalized_ebitda": 1835261000.0,
+   "normalized_income": 833281940.0
   }
  ]
 }

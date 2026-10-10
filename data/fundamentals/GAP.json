@@ -1,6 +1,6 @@
 {
  "ticker": "GAP",
- "fetched_at": "2026-10-10T12:46:19+00:00",
+ "fetched_at": "2026-10-10T15:44:39+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 79000,
   "website": "https://www.gapinc.com",
-  "longBusinessSummary": "The Gap, Inc. operates as an apparel retail company in the United States, Canada, Japan, Taiwan, and internationally. The company offers apparel, accessories, and personal care products for men, women, and children under the Old Navy, Gap, Banana Republic, and Athleta brands. The company offers its products through company-operated stores, franchise stores, websites, and third-party arrangements, as well as licensing partnerships. It has franchise agreements to operate Old Navy, Gap, Banana Republic, and Athleta in Asia, Europe, Latin America, the Middle East, and Africa. The Gap, Inc. was incorporated in 1969 and is headquartered in San Francisco, California."
+  "longBusinessSummary": "The Gap, Inc. operates as an apparel retail company in the United States, Canada, Japan, Taiwan, and internationally. The company offers apparel, accessories, and personal care products for men, women, and children under the Old Navy, Gap, Banana Republic, and Athleta brands. The company offers its products through company-operated stores, franchise stores, websites, and third-party arrangements, as well as licensing partnerships. It has franchise agreements to operate Old Navy, Gap, Banana Republic, and Athleta in Asia, Europe, Latin America, the Middle East, and Africa. The Gap, Inc. was incorporated in 1969 and is headquartered in San Francisco, California.",
+  "targetMeanPrice": 26.51053,
+  "targetLowPrice": 21.0,
+  "targetHighPrice": 42.0,
+  "numberOfAnalystOpinions": 19,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 8.814568,
+  "forwardEps": 2.63541,
+  "trailingEps": 3.32,
+  "earningsGrowth": 1.421,
+  "revenueGrowth": -0.02
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-01-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 12632000000.0,
+    "official": 12632000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3801000000.0,
+    "official": 3801000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 816000000.0,
+    "official": 816000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 15366000000.0,
+    "official": 15366000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:44:39+00:00",
  "years": [
   {
    "fy_end": "2020-02-01",
@@ -165,7 +207,8 @@
    "goodwill": 207000000.0,
    "intangibles": 36000000.0,
    "retained_earnings": 2622000000.0,
-   "total_debt": 1484000000.0
+   "total_debt": 1484000000.0,
+   "unusual_items": -325000000.0
   },
   {
    "fy_end": "2023-01-28",
@@ -198,7 +241,10 @@
    "goodwill_and_intangibles": 288000000.0,
    "retained_earnings": 2140000000.0,
    "total_debt": 1486000000.0,
-   "shares_out": 366000000.0
+   "shares_out": 366000000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 489000000.0,
+   "normalized_income": -202000000.0
   },
   {
    "fy_end": "2024-02-03",
@@ -232,7 +278,10 @@
    "goodwill_and_intangibles": 261000000.0,
    "retained_earnings": 2420000000.0,
    "total_debt": 1488000000.0,
-   "shares_out": 372000000.0
+   "shares_out": 372000000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 1168000000.0,
+   "normalized_income": 502000000.0
   },
   {
    "fy_end": "2025-02-01",
@@ -266,7 +315,9 @@
    "goodwill_and_intangibles": 266000000.0,
    "retained_earnings": 3039000000.0,
    "total_debt": 1490000000.0,
-   "shares_out": 374000000.0
+   "shares_out": 374000000.0,
+   "normalized_ebitda": 1724000000.0,
+   "normalized_income": 844000000.0
   },
   {
    "fy_end": "2026-01-31",
@@ -300,7 +351,9 @@
    "goodwill_and_intangibles": 266000000.0,
    "retained_earnings": 3608000000.0,
    "total_debt": 1492000000.0,
-   "shares_out": 371921740.0
+   "shares_out": 371921740.0,
+   "normalized_ebitda": 1721000000.0,
+   "normalized_income": 816000000.0
   }
  ]
 }

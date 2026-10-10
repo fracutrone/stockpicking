@@ -1,6 +1,6 @@
 {
  "ticker": "KLAC",
- "fetched_at": "2026-10-10T12:49:49+00:00",
+ "fetched_at": "2026-10-10T15:48:07+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 17000,
   "website": "https://www.kla.com",
-  "longBusinessSummary": "KLA Corporation, together with its subsidiaries, provides process control and process-enabling solutions for manufacturing wafers, reticles/masks, chemicals/materials, integrated circuits (ICs), packaged ICs, and printed circuit boards. It operates through three segments: Semiconductor Process Control; Specialty Semiconductor Process; and PCB and Component Inspection. The company offers inspection and review tools to identify, locate, characterize, review, and analyze defects on various surfaces of patterned and unpatterned wafers; chemical process control equipment; wired and wireless sensor wafers and reticles; wafer defect inspection, review, and metrology systems; reticle inspection and metrology systems; wafer inspection and metrology systems; semiconductor software solutions; KLA Pro systems; and specialty semiconductor manufacturing, benchtop metrology, surface characterization, material strength characterization, and electrical property measurement products. It also provides etch, plasma dicing, deposition and other wafer processing technologies and solutions; direct imaging, inspection, optical shaping, inkjet, and additive printing, as well as computer-aided manufacturing and engineering solutions; and components. In addition, the company offers service programs. It serves semiconductor, and semiconductor-related and electronic device manufacturers. The company operates in China, Taiwan, Korea, North America, Japan, Europe, Israel, and rest of Asia. The company was formerly known as KLA-Tencor Corporation and changed its name to KLA Corporation in July 2019. KLA Corporation was incorporated in 1975 and is headquartered in Milpitas, California."
+  "longBusinessSummary": "KLA Corporation, together with its subsidiaries, provides process control and process-enabling solutions for manufacturing wafers, reticles/masks, chemicals/materials, integrated circuits (ICs), packaged ICs, and printed circuit boards. It operates through three segments: Semiconductor Process Control; Specialty Semiconductor Process; and PCB and Component Inspection. The company offers inspection and review tools to identify, locate, characterize, review, and analyze defects on various surfaces of patterned and unpatterned wafers; chemical process control equipment; wired and wireless sensor wafers and reticles; wafer defect inspection, review, and metrology systems; reticle inspection and metrology systems; wafer inspection and metrology systems; semiconductor software solutions; KLA Pro systems; and specialty semiconductor manufacturing, benchtop metrology, surface characterization, material strength characterization, and electrical property measurement products. It also provides etch, plasma dicing, deposition and other wafer processing technologies and solutions; direct imaging, inspection, optical shaping, inkjet, and additive printing, as well as computer-aided manufacturing and engineering solutions; and components. In addition, the company offers service programs. It serves semiconductor, and semiconductor-related and electronic device manufacturers. The company operates in China, Taiwan, Korea, North America, Japan, Europe, Israel, and rest of Asia. The company was formerly known as KLA-Tencor Corporation and changed its name to KLA Corporation in July 2019. KLA Corporation was incorporated in 1975 and is headquartered in Milpitas, California.",
+  "targetMeanPrice": 232.76923,
+  "targetLowPrice": 175.0,
+  "targetHighPrice": 325.0,
+  "numberOfAnalystOpinions": 26,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.86667,
+  "forwardPE": 29.16609,
+  "forwardEps": 6.70539,
+  "trailingEps": 3.66,
+  "earningsGrowth": 0.138,
+  "revenueGrowth": 0.152
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-06-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 17951535000.0,
+    "official": 17951535000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 6349820000.0,
+    "official": 6349820000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 4830771000.0,
+    "official": 4830771000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 13579476000.0,
+    "official": 13579476000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:48:07+00:00",
  "years": [
   {
    "fy_end": "2020-06-30",
@@ -202,7 +244,10 @@
    "goodwill_and_intangibles": 3214123000.0,
    "retained_earnings": 848431000.0,
    "total_debt": 5890736000.0,
-   "shares_out": 1367500000.0
+   "shares_out": 1367500000.0,
+   "unusual_items": -14505000.0,
+   "normalized_ebitda": 4515748000.0,
+   "normalized_income": 3400243762.356863
   },
   {
    "fy_end": "2024-06-30",
@@ -237,7 +282,10 @@
    "goodwill_and_intangibles": 2684490000.0,
    "retained_earnings": 1137270000.0,
    "total_debt": 5880199000.0,
-   "shares_out": 1344250000.0
+   "shares_out": 1344250000.0,
+   "unusual_items": -282309000.0,
+   "normalized_ebitda": 4185324000.0,
+   "normalized_income": 3006375594.0
   },
   {
    "fy_end": "2025-06-30",
@@ -272,7 +320,10 @@
    "goodwill_and_intangibles": 2236978000.0,
    "retained_earnings": 2179330000.0,
    "total_debt": 5884257000.0,
-   "shares_out": 1320230000.0
+   "shares_out": 1320230000.0,
+   "unusual_items": -242005000.0,
+   "normalized_ebitda": 5582707000.0,
+   "normalized_income": 4273397375.0
   },
   {
    "fy_end": "2026-06-30",
@@ -307,7 +358,10 @@
    "goodwill_and_intangibles": 2044593000.0,
    "retained_earnings": 3683864000.0,
    "total_debt": 5887415000.0,
-   "shares_out": 1306983000.0
+   "shares_out": 1306983000.0,
+   "unusual_items": 16835000.0,
+   "normalized_ebitda": 6267508000.0,
+   "normalized_income": 4816259230.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "PNR",
- "fetched_at": "2026-10-10T12:55:43+00:00",
+ "fetched_at": "2026-10-10T15:53:25+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 9000,
   "website": "https://www.pentair.com",
-  "longBusinessSummary": "Pentair plc provides various water solutions in the United States, Western Europe, China, Latin America, the Middle East, Southeast Asia, Australia, and Canada. It operates through three segments: Flow, Water Solutions, and Pool. The Flow segment designs, manufactures, and sells fluid treatment and pump products and systems, including pressure vessels, gas recovery solutions, membrane bioreactors, wastewater reuse systems and advanced membrane filtration, separation systems, specialty insertion valves, water disposal pumps, water supply pumps, fluid transfer pumps, turbine pumps, solid handling pumps, and agricultural spray nozzles. This segment provides products under Pentair Flow, Aurora, Berkeley, Codeline, Fairbanks-Nijhuis, Haffmans, Hydromatic, Hypro, Jung Pumpen, Myers, Sta-Rite, Shurflo, Südmo, and X-Flow brand names. The Water Solutions segment offers commercial and residential water treatment products and systems, such as pressure tanks, control valves, activated carbon products, commercial ice machines, conventional filtration products, and point-of-entry and point-of-use water treatment systems for use in water filtration and water softening solutions, as well as commercial water management and filtration solutions in foodservice operations; and installation and preventative services for water management solutions for commercial operators under the Pentair Water Solutions, Everpure, Fleck, Manitowoc Ice, Pentek, and RainSoft brands. The Pool segment provides residential and commercial pool equipment and accessories, including pumps, filters, heaters, lights, automatic controls and cleaners, chlorinators, maintenance equipment, and pool accessories for residential and commercial pool maintenance, pool repair, renovation, service, construction, and aquaculture solutions. This segment offers products under the Pentair Pool, Kreepy Krauly, Pleatco, and Sta-Rite brands. Pentair plc was founded in 1966 and is headquartered in London, the United Kingdom."
+  "longBusinessSummary": "Pentair plc provides various water solutions in the United States, Western Europe, China, Latin America, the Middle East, Southeast Asia, Australia, and Canada. It operates through three segments: Flow, Water Solutions, and Pool. The Flow segment designs, manufactures, and sells fluid treatment and pump products and systems, including pressure vessels, gas recovery solutions, membrane bioreactors, wastewater reuse systems and advanced membrane filtration, separation systems, specialty insertion valves, water disposal pumps, water supply pumps, fluid transfer pumps, turbine pumps, solid handling pumps, and agricultural spray nozzles. This segment provides products under Pentair Flow, Aurora, Berkeley, Codeline, Fairbanks-Nijhuis, Haffmans, Hydromatic, Hypro, Jung Pumpen, Myers, Sta-Rite, Shurflo, Südmo, and X-Flow brand names. The Water Solutions segment offers commercial and residential water treatment products and systems, such as pressure tanks, control valves, activated carbon products, commercial ice machines, conventional filtration products, and point-of-entry and point-of-use water treatment systems for use in water filtration and water softening solutions, as well as commercial water management and filtration solutions in foodservice operations; and installation and preventative services for water management solutions for commercial operators under the Pentair Water Solutions, Everpure, Fleck, Manitowoc Ice, Pentek, and RainSoft brands. The Pool segment provides residential and commercial pool equipment and accessories, including pumps, filters, heaters, lights, automatic controls and cleaners, chlorinators, maintenance equipment, and pool accessories for residential and commercial pool maintenance, pool repair, renovation, service, construction, and aquaculture solutions. This segment offers products under the Pentair Pool, Kreepy Krauly, Pleatco, and Sta-Rite brands. Pentair plc was founded in 1966 and is headquartered in London, the United Kingdom.",
+  "targetMeanPrice": 75.33333,
+  "targetLowPrice": 50.0,
+  "targetHighPrice": 94.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.17647,
+  "forwardPE": 10.051724,
+  "forwardEps": 5.22,
+  "trailingEps": 3.88,
+  "earningsGrowth": -0.111,
+  "revenueGrowth": -0.17
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 6868800000.0,
+    "official": 6868800000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3869200000.0,
+    "official": 3869200000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 653800000.0,
+    "official": 653800000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 4176000000.0,
+    "official": 4176000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:53:25+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -203,7 +245,10 @@
    "goodwill_and_intangibles": 4347200000.0,
    "retained_earnings": 1390500000.0,
    "total_debt": 2317300000.0,
-   "shares_out": 164542943.0
+   "shares_out": 164542943.0,
+   "unusual_items": 200000.0,
+   "normalized_ebitda": 719000000.0,
+   "normalized_income": 483200000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -237,7 +282,10 @@
    "goodwill_and_intangibles": 4317000000.0,
    "retained_earnings": 1866200000.0,
    "total_debt": 1988300000.0,
-   "shares_out": 165334513.0
+   "shares_out": 165334513.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 852000000.0,
+   "normalized_income": 622900000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -271,7 +319,10 @@
    "goodwill_and_intangibles": 4320400000.0,
    "retained_earnings": 2336100000.0,
    "total_debt": 1638700000.0,
-   "shares_out": 164817183.0
+   "shares_out": 164817183.0,
+   "unusual_items": -92700000.0,
+   "normalized_ebitda": 1014800000.0,
+   "normalized_income": 706269244.679371
   },
   {
    "fy_end": "2025-12-31",
@@ -305,7 +356,10 @@
    "goodwill_and_intangibles": 4611400000.0,
    "retained_earnings": 2822600000.0,
    "total_debt": 1638600000.0,
-   "shares_out": 163235706.0
+   "shares_out": 163235706.0,
+   "unusual_items": -99700000.0,
+   "normalized_ebitda": 1043300000.0,
+   "normalized_income": 735098347.653668
   }
  ]
 }

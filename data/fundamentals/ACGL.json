@@ -1,6 +1,6 @@
 {
  "ticker": "ACGL",
- "fetched_at": "2026-10-10T12:36:13+00:00",
+ "fetched_at": "2026-10-10T15:33:21+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 8000,
   "website": "https://www.archgroup.com",
-  "longBusinessSummary": "Arch Capital Group Ltd., together with its subsidiaries, provides insurance, reinsurance, and mortgage insurance products in the United States, Canada, Bermuda, the United Kingdom, Europe, and Australia. The company operates through three segments: Insurance, Reinsurance, and Mortgage. The Insurance segment offers commercial automobile; commercial multiperil; financial and professional line liability; admitted, excess, and surplus casualty lines; property and short-tail specialty; workers compensation; and casualty insurance. Its Reinsurance segment provides reinsurance products for casualty; marine and aviation; property catastrophe; property excluding property catastrophe; and other specialty products. The Mortgage segment offers U.S. primary mortgage insurance business written predominantly on loans sold to the Federal National Mortgage Association and Federal Home Loan Mortgage Corporation; reinsurance and underwriting services related to the U.S. credit-risk transfer business and other U.S. mortgage reinsurance transactions; and international mortgage insurance and reinsurance business covering loans. It markets its products through a group of licensed independent retail and wholesale brokers. The company was formerly known as Risk Capital Holdings, Inc. Arch Capital Group Ltd. was founded in 1995 and is headquartered in Pembroke, Bermuda."
+  "longBusinessSummary": "Arch Capital Group Ltd., together with its subsidiaries, provides insurance, reinsurance, and mortgage insurance products in the United States, Canada, Bermuda, the United Kingdom, Europe, and Australia. The company operates through three segments: Insurance, Reinsurance, and Mortgage. The Insurance segment offers commercial automobile; commercial multiperil; financial and professional line liability; admitted, excess, and surplus casualty lines; property and short-tail specialty; workers compensation; and casualty insurance. Its Reinsurance segment provides reinsurance products for casualty; marine and aviation; property catastrophe; property excluding property catastrophe; and other specialty products. The Mortgage segment offers U.S. primary mortgage insurance business written predominantly on loans sold to the Federal National Mortgage Association and Federal Home Loan Mortgage Corporation; reinsurance and underwriting services related to the U.S. credit-risk transfer business and other U.S. mortgage reinsurance transactions; and international mortgage insurance and reinsurance business covering loans. It markets its products through a group of licensed independent retail and wholesale brokers. The company was formerly known as Risk Capital Holdings, Inc. Arch Capital Group Ltd. was founded in 1995 and is headquartered in Pembroke, Bermuda.",
+  "targetMeanPrice": 111.07895,
+  "targetLowPrice": 95.0,
+  "targetHighPrice": 129.0,
+  "numberOfAnalystOpinions": 19,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.25,
+  "forwardPE": 9.765523,
+  "forwardEps": 9.78647,
+  "trailingEps": 12.78,
+  "earningsGrowth": -0.071,
+  "revenueGrowth": -0.105
  },
  "governance": {
   "ceo": {
@@ -76,8 +87,37 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 79241000000.0,
+    "official": 79241000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 24206000000.0,
+    "official": 24206000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 4399000000.0,
+    "official": 4399000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 19300000000.0,
+    "official": 19929000000.0,
+    "diff": 0.031562
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:33:21+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -158,7 +198,8 @@
    "goodwill_and_intangibles": 804000000.0,
    "retained_earnings": 15892000000.0,
    "total_debt": 2725000000.0,
-   "shares_out": 370345997.0
+   "shares_out": 370345997.0,
+   "normalized_income": 1476000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -184,7 +225,8 @@
    "goodwill_and_intangibles": 731000000.0,
    "retained_earnings": 20295000000.0,
    "total_debt": 2726000000.0,
-   "shares_out": 373400000.0
+   "shares_out": 373400000.0,
+   "normalized_income": 4443000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -209,7 +251,8 @@
    "goodwill_and_intangibles": 1351000000.0,
    "retained_earnings": 22686000000.0,
    "total_debt": 2728000000.0,
-   "shares_out": 376400000.0
+   "shares_out": 376400000.0,
+   "normalized_income": 4312000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -234,7 +277,8 @@
    "goodwill_and_intangibles": 1222000000.0,
    "retained_earnings": 27045000000.0,
    "total_debt": 2729000000.0,
-   "shares_out": 359000000.0
+   "shares_out": 359000000.0,
+   "normalized_income": 4399000000.0
   }
  ]
 }

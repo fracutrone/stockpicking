@@ -1,6 +1,6 @@
 {
  "ticker": "VAL",
- "fetched_at": "2026-10-10T13:01:10+00:00",
+ "fetched_at": "2026-10-10T15:58:42+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 3800,
   "website": "https://www.valaris.com",
-  "longBusinessSummary": "Valaris Limited, together with its subsidiaries, provides offshore contract drilling services in Brazil, the United Kingdom, Gulf of America, Australia, Angola, and internationally. It operates through four segments: Floaters, Jackups, ARO, and Other. The company owns an offshore drilling rig fleet, which includes drillships, dynamically positioned semisubmersible rigs, a moored semisubmersible rig, and jackup rigs. It also offers management services on rigs owned by third parties. The company serves international, government-owned, and independent oil and gas companies. Valaris Limited was founded in 1975 and is headquartered in Houston, Texas."
+  "longBusinessSummary": "Valaris Limited, together with its subsidiaries, provides offshore contract drilling services in Brazil, the United Kingdom, Gulf of America, Australia, Angola, and internationally. It operates through four segments: Floaters, Jackups, ARO, and Other. The company owns an offshore drilling rig fleet, which includes drillships, dynamically positioned semisubmersible rigs, a moored semisubmersible rig, and jackup rigs. It also offers management services on rigs owned by third parties. The company serves international, government-owned, and independent oil and gas companies. Valaris Limited was founded in 1975 and is headquartered in Houston, Texas.",
+  "targetMeanPrice": 68.28571,
+  "targetLowPrice": 45.0,
+  "targetHighPrice": 99.0,
+  "numberOfAnalystOpinions": 7,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.11111,
+  "forwardPE": 11.845254,
+  "forwardEps": 7.0619,
+  "trailingEps": 13.21,
+  "earningsGrowth": -0.553,
+  "revenueGrowth": -0.124
  },
  "governance": {
   "ceo": {
@@ -82,10 +93,41 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec",
   "goodwill": "sec",
   "intangibles": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 5304800000.0,
+    "official": 5304800000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3169600000.0,
+    "official": 3169600000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 982800000.0,
+    "official": 982800000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2369000000.0,
+    "official": 2369000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:58:42+00:00",
  "years": [
   {
    "fy_end": "2018-12-31",
@@ -186,7 +228,10 @@
    "ppe_net": 977200000.0,
    "retained_earnings": 160100000.0,
    "total_debt": 542400000.0,
-   "shares_out": 75200000.0
+   "shares_out": 75200000.0,
+   "unusual_items": 118900000.0,
+   "normalized_ebitda": 242500000.0,
+   "normalized_income": 80428800.0
   },
   {
    "fy_end": "2023-12-31",
@@ -216,7 +261,10 @@
    "ppe_net": 1633800000.0,
    "retained_earnings": 1025500000.0,
    "total_debt": 1079300000.0,
-   "shares_out": 72400000.0
+   "shares_out": 72400000.0,
+   "unusual_items": -4100000.0,
+   "normalized_ebitda": 258300000.0,
+   "normalized_income": 868106000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -246,7 +294,10 @@
    "ppe_net": 1932900000.0,
    "retained_earnings": 1398900000.0,
    "total_debt": 1082700000.0,
-   "shares_out": 71000000.0
+   "shares_out": 71000000.0,
+   "unusual_items": 13600000.0,
+   "normalized_ebitda": 563500000.0,
+   "normalized_income": 359813600.0
   },
   {
    "fy_end": "2025-12-31",
@@ -276,7 +327,10 @@
    "ppe_net": 2088800000.0,
    "retained_earnings": 2381700000.0,
    "total_debt": 1086000000.0,
-   "shares_out": 69200000.0
+   "shares_out": 69200000.0,
+   "unusual_items": 77000000.0,
+   "normalized_ebitda": 720400000.0,
+   "normalized_income": 931980000.0
   }
  ]
 }

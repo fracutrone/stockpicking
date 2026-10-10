@@ -1,6 +1,6 @@
 {
  "ticker": "SPXC",
- "fetched_at": "2026-10-10T12:58:38+00:00",
+ "fetched_at": "2026-10-10T15:56:18+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 4700,
   "website": "https://www.spx.com",
-  "longBusinessSummary": "SPX Technologies, Inc. engages in the supply of engineered solutions serving the heating, ventilation, and cooling (HVAC); and detection and measurement markets in the United States, Canada, China, the United Kingdom, and internationally. The company operates in two segments, HVAC and Detection and Measurement. The HVAC segment engineers, designs, manufactures, installs, and services package and process cooling products and engineered air movement and handling solutions for the industrial, institutional, and commercial HVAC markets, as well as hydronic and electrical heating and ventilation products for the residential, industrial, institutional, and commercial markets. It offers cooling products and engineered air movement and handling solutions under the Marley, Recold, SGS, Cincinnati Fan, TAMCO, Ingénia, Air Enterprises, and Rahn Industries brand names; hydronics and electrical heating and ventilation products under the under the Berko, Qmark, Fahrenheat, Leading Edge, Patterson-Kelley, Weil-McLain, Sigma, Omega, Skypeak, Thermolec, Williamson-Thermoflo, INDEECO, Heatrex, AccuTherm, Brasch, Spectrum, BannerDay PipeHeating, and Solar Products brands. The Detection and Measurement segment offers underground pipe and cable locators, inspection and rehabilitation equipment, robotic systems under the Radiodetection, Pearpoint, Schonstedt, Dielectric, Cues, ULC Robotics, and Sensors & Software brands; transportation systems under the Genfare brand; communication technologies under the TCI, ECS, and KTS brands; and aids to navigation products under the Flash Technology, ITL, Sabik Marine, Sealite, and Avlite brands. The company markets its products through consumers, independent manufacturing representatives, third-party distributors, and retailers. The company was formerly known as SPX Corporation and changed its name to SPX Technologies, Inc. in August 2022. SPX Technologies, Inc. is headquartered in Charlotte, North Carolina."
+  "longBusinessSummary": "SPX Technologies, Inc. engages in the supply of engineered solutions serving the heating, ventilation, and cooling (HVAC); and detection and measurement markets in the United States, Canada, China, the United Kingdom, and internationally. The company operates in two segments, HVAC and Detection and Measurement. The HVAC segment engineers, designs, manufactures, installs, and services package and process cooling products and engineered air movement and handling solutions for the industrial, institutional, and commercial HVAC markets, as well as hydronic and electrical heating and ventilation products for the residential, industrial, institutional, and commercial markets. It offers cooling products and engineered air movement and handling solutions under the Marley, Recold, SGS, Cincinnati Fan, TAMCO, Ingénia, Air Enterprises, and Rahn Industries brand names; hydronics and electrical heating and ventilation products under the under the Berko, Qmark, Fahrenheat, Leading Edge, Patterson-Kelley, Weil-McLain, Sigma, Omega, Skypeak, Thermolec, Williamson-Thermoflo, INDEECO, Heatrex, AccuTherm, Brasch, Spectrum, BannerDay PipeHeating, and Solar Products brands. The Detection and Measurement segment offers underground pipe and cable locators, inspection and rehabilitation equipment, robotic systems under the Radiodetection, Pearpoint, Schonstedt, Dielectric, Cues, ULC Robotics, and Sensors & Software brands; transportation systems under the Genfare brand; communication technologies under the TCI, ECS, and KTS brands; and aids to navigation products under the Flash Technology, ITL, Sabik Marine, Sealite, and Avlite brands. The company markets its products through consumers, independent manufacturing representatives, third-party distributors, and retailers. The company was formerly known as SPX Corporation and changed its name to SPX Technologies, Inc. in August 2022. SPX Technologies, Inc. is headquartered in Charlotte, North Carolina.",
+  "targetMeanPrice": 253.2857,
+  "targetLowPrice": 215.0,
+  "targetHighPrice": 310.0,
+  "numberOfAnalystOpinions": 14,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.21429,
+  "forwardPE": 17.359308,
+  "forwardEps": 9.76191,
+  "trailingEps": 5.67,
+  "earningsGrowth": 0.41,
+  "revenueGrowth": 0.229
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3604600000.0,
+    "official": 3604600000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2237500000.0,
+    "official": 2237500000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 244000000.0,
+    "official": 244000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2265100000.0,
+    "official": 2265100000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:56:18+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -197,7 +239,10 @@
    "goodwill_and_intangibles": 856900000.0,
    "retained_earnings": -51600000.0,
    "total_debt": 244800000.0,
-   "shares_out": 45291989.0
+   "shares_out": 45291989.0,
+   "unusual_items": -14900000.0,
+   "normalized_ebitda": 97700000.0,
+   "normalized_income": 30691900.0
   },
   {
    "fy_end": "2023-12-31",
@@ -231,7 +276,10 @@
    "goodwill_and_intangibles": 1385600000.0,
    "retained_earnings": 38300000.0,
    "total_debt": 541000000.0,
-   "shares_out": 45674572.0
+   "shares_out": 45674572.0,
+   "unusual_items": -800000.0,
+   "normalized_ebitda": 277500000.0,
+   "normalized_income": 145321600.0
   },
   {
    "fy_end": "2024-12-31",
@@ -265,7 +313,10 @@
    "goodwill_and_intangibles": 1537500000.0,
    "retained_earnings": 238800000.0,
    "total_debt": 587100000.0,
-   "shares_out": 46368240.0
+   "shares_out": 46368240.0,
+   "unusual_items": -3600000.0,
+   "normalized_ebitda": 396300000.0,
+   "normalized_income": 204644000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -299,7 +350,10 @@
    "goodwill_and_intangibles": 1911600000.0,
    "retained_earnings": 482800000.0,
    "total_debt": 498100000.0,
-   "shares_out": 49866896.0
+   "shares_out": 49866896.0,
+   "unusual_items": -3300000.0,
+   "normalized_ebitda": 488100000.0,
+   "normalized_income": 248080600.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "MTDR",
- "fetched_at": "2026-10-10T12:52:21+00:00",
+ "fetched_at": "2026-10-10T15:50:26+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 483,
   "website": "https://www.matadorresources.com",
-  "longBusinessSummary": "Matador Resources Company, an independent energy company, engages in the acquisition, exploration, development, and production of oil and natural gas resources in the United States. It operates through two segments, Exploration and Production; and Midstream. The company primarily holds interests in the Wolfcamp and Bone Spring plays in the Delaware Basin in Southeast New Mexico and West Texas. It also operates the Haynesville shale and Cotton Valley plays in Northwest Louisiana. In addition, the company conducts midstream operations in support of its exploration, development, and production operations. Further, it provides natural gas processing and oil transportation services; and oil, natural gas, and produced water gathering services, as well as produced water disposal services to third parties, as well as sells natural gas to unaffiliated independent marketing companies and unaffiliated midstream companies. The company was formerly known as Matador Holdco, Inc. and changed its name to Matador Resources Company in August 2011. Matador Resources Company was incorporated in 2003 and is headquartered in Dallas, Texas."
+  "longBusinessSummary": "Matador Resources Company, an independent energy company, engages in the acquisition, exploration, development, and production of oil and natural gas resources in the United States. It operates through two segments, Exploration and Production; and Midstream. The company primarily holds interests in the Wolfcamp and Bone Spring plays in the Delaware Basin in Southeast New Mexico and West Texas. It also operates the Haynesville shale and Cotton Valley plays in Northwest Louisiana. In addition, the company conducts midstream operations in support of its exploration, development, and production operations. Further, it provides natural gas processing and oil transportation services; and oil, natural gas, and produced water gathering services, as well as produced water disposal services to third parties, as well as sells natural gas to unaffiliated independent marketing companies and unaffiliated midstream companies. The company was formerly known as Matador Holdco, Inc. and changed its name to Matador Resources Company in August 2011. Matador Resources Company was incorporated in 2003 and is headquartered in Dallas, Texas.",
+  "targetMeanPrice": 69.9,
+  "targetLowPrice": 59.0,
+  "targetHighPrice": 101.0,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.42857,
+  "forwardPE": 5.927744,
+  "forwardEps": 9.15694,
+  "trailingEps": 5.81,
+  "earningsGrowth": 1.606,
+  "revenueGrowth": 0.268
  },
  "governance": {
   "ceo": {
@@ -81,8 +92,39 @@
   "ppe_net": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 11710569000.0,
+    "official": 11710569000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 5658141000.0,
+    "official": 5658141000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 759221000.0,
+    "official": 759221000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3656514000.0,
+    "official": 3696277000.0,
+    "diff": 0.010758
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:50:26+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -175,7 +217,10 @@
    "ppe_net": 4418197000.0,
    "retained_earnings": 1007642000.0,
    "total_debt": 1160245000.0,
-   "shares_out": 118948624.0
+   "shares_out": 118948624.0,
+   "unusual_items": -139985000.0,
+   "normalized_ebitda": 2359171000.0,
+   "normalized_income": 1321026823.744686
   },
   {
    "fy_end": "2023-12-31",
@@ -206,7 +251,10 @@
    "ppe_net": 6956441000.0,
    "retained_earnings": 1776541000.0,
    "total_debt": 2206627000.0,
-   "shares_out": 119458674.0
+   "shares_out": 119458674.0,
+   "unusual_items": -11038000.0,
+   "normalized_ebitda": 1945631000.0,
+   "normalized_income": 855239158.81009
   },
   {
    "fy_end": "2024-12-31",
@@ -237,7 +285,10 @@
    "ppe_net": 9764096000.0,
    "retained_earnings": 2556987000.0,
    "total_debt": 3325408000.0,
-   "shares_out": 125048396.0
+   "shares_out": 125048396.0,
+   "unusual_items": 26023000.0,
+   "normalized_ebitda": 2383671000.0,
+   "normalized_income": 865319531.952423
   },
   {
    "fy_end": "2025-12-31",
@@ -268,7 +319,10 @@
    "ppe_net": 10731298000.0,
    "retained_earnings": 3153112000.0,
    "total_debt": 3402102000.0,
-   "shares_out": 124262322.0
+   "shares_out": 124262322.0,
+   "unusual_items": 39174000.0,
+   "normalized_ebitda": 2398148000.0,
+   "normalized_income": 726577305.8
   }
  ]
 }

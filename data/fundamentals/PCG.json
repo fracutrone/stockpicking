@@ -1,6 +1,6 @@
 {
  "ticker": "PCG",
- "fetched_at": "2026-10-10T12:55:03+00:00",
+ "fetched_at": "2026-10-10T15:52:48+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 29010,
   "website": "https://www.pgecorp.com",
-  "longBusinessSummary": "PG&E Corporation, through its subsidiary, Pacific Gas and Electric Company, engages in the sale and delivery of electricity and natural gas to customers in northern and central California, the United States. It generates electricity using nuclear, hydroelectric, fossil fuel-fired, fuel cells, and photovoltaic sources. The company owns and operates interconnected transmission lines; electric transmission substations, distribution lines, switching and distribution substations; and natural gas transmission, storage, and distribution systems consisting of distribution pipelines, backbone and local transmission pipelines, and various storage facilities. It serves residential, commercial, industrial, and agricultural customers, as well as natural gas-fired electric generation facilities. The company was incorporated in 1995 and is based in Oakland, California."
+  "longBusinessSummary": "PG&E Corporation, through its subsidiary, Pacific Gas and Electric Company, engages in the sale and delivery of electricity and natural gas to customers in northern and central California, the United States. It generates electricity using nuclear, hydroelectric, fossil fuel-fired, fuel cells, and photovoltaic sources. The company owns and operates interconnected transmission lines; electric transmission substations, distribution lines, switching and distribution substations; and natural gas transmission, storage, and distribution systems consisting of distribution pipelines, backbone and local transmission pipelines, and various storage facilities. It serves residential, commercial, industrial, and agricultural customers, as well as natural gas-fired electric generation facilities. The company was incorporated in 1995 and is based in Oakland, California.",
+  "targetMeanPrice": 18.8125,
+  "targetLowPrice": 14.0,
+  "targetHighPrice": 24.0,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.17647,
+  "forwardPE": 7.287885,
+  "forwardEps": 1.80162,
+  "trailingEps": 1.38,
+  "earningsGrowth": 0.398,
+  "revenueGrowth": 0.001
  },
  "governance": {
   "ceo": {
@@ -81,8 +92,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "intangibles": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 141611000000.0,
+    "official": 141611000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 32540000000.0,
+    "official": 32540000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2703000000.0,
+    "official": 2703000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 24935000000.0,
+    "official": 24935000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:52:48+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -175,7 +217,10 @@
    "ppe_net": 77519000000.0,
    "retained_earnings": -7542000000.0,
    "total_debt": 49797000000.0,
-   "shares_out": 1987784948.0
+   "shares_out": 1987784948.0,
+   "unusual_items": -237000000.0,
+   "normalized_ebitda": 6486000000.0,
+   "normalized_income": 1989830300.0
   },
   {
    "fy_end": "2023-12-31",
@@ -205,7 +250,10 @@
    "ppe_net": 82919000000.0,
    "retained_earnings": -5321000000.0,
    "total_debt": 54946000000.0,
-   "shares_out": 2133597758.0
+   "shares_out": 2133597758.0,
+   "unusual_items": -64000000.0,
+   "normalized_ebitda": 7351000000.0,
+   "normalized_income": 2303507200.0
   },
   {
    "fy_end": "2024-12-31",
@@ -235,7 +283,10 @@
    "ppe_net": 88753000000.0,
    "retained_earnings": -2966000000.0,
    "total_debt": 55092000000.0,
-   "shares_out": 2193573536.0
+   "shares_out": 2193573536.0,
+   "unusual_items": -94000000.0,
+   "normalized_ebitda": 9646000000.0,
+   "normalized_income": 2581907800.0
   },
   {
    "fy_end": "2025-12-31",
@@ -265,7 +316,10 @@
    "ppe_net": 96798000000.0,
    "retained_earnings": -650000000.0,
    "total_debt": 60062000000.0,
-   "shares_out": 2197942874.0
+   "shares_out": 2197942874.0,
+   "unusual_items": -100000000.0,
+   "normalized_ebitda": 10185000000.0,
+   "normalized_income": 2777430000.0
   }
  ]
 }

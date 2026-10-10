@@ -1,6 +1,6 @@
 {
  "ticker": "JUP.L",
- "fetched_at": "2026-10-10T12:05:02+00:00",
+ "fetched_at": "2026-10-10T15:00:11+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 442,
   "website": "https://www.jupiteram.com/en/Jupiter-Fund-Management-plc",
-  "longBusinessSummary": "Jupiter Fund Management Plc is a publicly owned investment manager. The firm manages mutual funds, hedge funds, client focused portfolios, and multi-manager products for its clients. It invests in the public equity markets across U.K., Europe and global emerging markets. The firm also invests in fixed income markets, fund of funds products, hedge funds, and absolute return funds. Jupiter Fund Management Plc was founded in 1985 and is based in London, United Kingdom."
+  "longBusinessSummary": "Jupiter Fund Management Plc is a publicly owned investment manager. The firm manages mutual funds, hedge funds, client focused portfolios, and multi-manager products for its clients. It invests in the public equity markets across U.K., Europe and global emerging markets. The firm also invests in fixed income markets, fund of funds products, hedge funds, and absolute return funds. Jupiter Fund Management Plc was founded in 1985 and is based in London, United Kingdom.",
+  "targetMeanPrice": 181.2,
+  "targetLowPrice": 120.00001,
+  "targetHighPrice": 209.99998,
+  "numberOfAnalystOpinions": 10,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.5,
+  "forwardPE": 10.837131,
+  "forwardEps": 0.16019,
+  "trailingEps": 0.19,
+  "earningsGrowth": 0.154,
+  "revenueGrowth": 0.386
  },
  "governance": {
   "ceo": {
@@ -70,8 +81,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 1242600000.0,
+    "official": 1242600000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 906100000.0,
+    "official": 906100000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 100400000.0,
+    "official": 100400000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 465700000.0,
+    "official": 465700000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:00:11+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -105,7 +148,10 @@
    "goodwill_and_intangibles": 605800000.0,
    "retained_earnings": 578900000.0,
    "total_debt": 95800000.0,
-   "shares_out": 546400000.0
+   "shares_out": 546400000.0,
+   "unusual_items": -69200000.0,
+   "normalized_ebitda": 160600000.0,
+   "normalized_income": 105059200.0
   },
   {
    "fy_end": "2023-12-31",
@@ -139,7 +185,10 @@
    "goodwill_and_intangibles": 511900000.0,
    "retained_earnings": 527000000.0,
    "total_debt": 93800000.0,
-   "shares_out": 511079510.0
+   "shares_out": 511079510.0,
+   "unusual_items": 1900000.0,
+   "normalized_ebitda": 39500000.0,
+   "normalized_income": 123483000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -173,7 +222,10 @@
    "goodwill_and_intangibles": 506700000.0,
    "retained_earnings": 578300000.0,
    "total_debt": 90800000.0,
-   "shares_out": 522579510.0
+   "shares_out": 522579510.0,
+   "unusual_items": 4700000.0,
+   "normalized_ebitda": 106100000.0,
+   "normalized_income": 61729558.323896
   },
   {
    "fy_end": "2025-12-31",
@@ -207,7 +259,10 @@
    "goodwill_and_intangibles": 506100000.0,
    "retained_earnings": 656400000.0,
    "total_debt": 38700000.0,
-   "shares_out": 501930125.0
+   "shares_out": 501930125.0,
+   "unusual_items": 8300000.0,
+   "normalized_ebitda": 136100000.0,
+   "normalized_income": 94082183.472328
   }
  ]
 }

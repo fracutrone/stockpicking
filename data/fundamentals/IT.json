@@ -1,6 +1,6 @@
 {
  "ticker": "IT",
- "fetched_at": "2026-10-10T12:49:07+00:00",
+ "fetched_at": "2026-10-10T15:47:28+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 19285,
   "website": "https://www.gartner.com",
-  "longBusinessSummary": "Gartner, Inc. provides business and technology insights to support decision-making and performance on an organization's mission-critical priorities in the United States, Canada, Europe, the Middle East, Africa, and internationally. It operates through three segments: Insights, Conferences, and Consulting. The Insights segment delivers insights through subscription services, such as access to published content, data and benchmarks, and direct access to a network of business and technology experts. The Conferences segment enables executives and teams to learn, share, and network through its Symposium/Xpo series and peer-driven sessions, as well as through its conferences focused on specific business roles and topics. The Consulting segment provides technology-driven strategic initiatives, including custom analysis and on-the-ground support to senior executives. This segment also offers actionable solutions for IT-related priorities, including IT cost optimization, digital transformation, and IT sourcing optimization. The company was formerly known as Gartner Group, Inc. and changed its name to Gartner, Inc. in November 2001. Gartner, Inc. was founded in 1979 and is headquartered in Stamford, Connecticut."
+  "longBusinessSummary": "Gartner, Inc. provides business and technology insights to support decision-making and performance on an organization's mission-critical priorities in the United States, Canada, Europe, the Middle East, Africa, and internationally. It operates through three segments: Insights, Conferences, and Consulting. The Insights segment delivers insights through subscription services, such as access to published content, data and benchmarks, and direct access to a network of business and technology experts. The Conferences segment enables executives and teams to learn, share, and network through its Symposium/Xpo series and peer-driven sessions, as well as through its conferences focused on specific business roles and topics. The Consulting segment provides technology-driven strategic initiatives, including custom analysis and on-the-ground support to senior executives. This segment also offers actionable solutions for IT-related priorities, including IT cost optimization, digital transformation, and IT sourcing optimization. The company was formerly known as Gartner Group, Inc. and changed its name to Gartner, Inc. in November 2001. Gartner, Inc. was founded in 1979 and is headquartered in Stamford, Connecticut.",
+  "targetMeanPrice": 189.07692,
+  "targetLowPrice": 150.0,
+  "targetHighPrice": 229.0,
+  "numberOfAnalystOpinions": 13,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.8,
+  "forwardPE": 11.666158,
+  "forwardEps": 16.385,
+  "trailingEps": 11.06,
+  "earningsGrowth": 0.331,
+  "revenueGrowth": -0.006
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 8085400000.0,
+    "official": 8085400000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 319908000.0,
+    "official": 319908000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 729231000.0,
+    "official": 729231000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 6497226000.0,
+    "official": 6497226000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:47:28+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -195,7 +237,10 @@
    "goodwill_and_intangibles": 3514925000.0,
    "retained_earnings": 3856826000.0,
    "total_debt": 2461407000.0,
-   "shares_out": 79173554.0
+   "shares_out": 79173554.0,
+   "unusual_items": -9079000.0,
+   "normalized_ebitda": 1354423000.0,
+   "normalized_income": 814935094.0
   },
   {
    "fy_end": "2023-12-31",
@@ -228,7 +273,10 @@
    "goodwill_and_intangibles": 3439218000.0,
    "retained_earnings": 4739292000.0,
    "total_debt": 2458296000.0,
-   "shares_out": 78337541.0
+   "shares_out": 78337541.0,
+   "unusual_items": 128900000.0,
+   "normalized_ebitda": 1342104000.0,
+   "normalized_income": 783305515.520922
   },
   {
    "fy_end": "2024-12-31",
@@ -261,7 +309,10 @@
    "goodwill_and_intangibles": 3339894000.0,
    "retained_earnings": 5993007000.0,
    "total_debt": 2459915000.0,
-   "shares_out": 77379853.0
+   "shares_out": 77379853.0,
+   "unusual_items": 299027000.0,
+   "normalized_ebitda": 1421708000.0,
+   "normalized_income": 983394592.0
   },
   {
    "fy_end": "2025-12-31",
@@ -294,7 +345,10 @@
    "goodwill_and_intangibles": 3077105000.0,
    "retained_earnings": 6722238000.0,
    "total_debt": 2981674000.0,
-   "shares_out": 70849298.0
+   "shares_out": 70849298.0,
+   "unusual_items": -150000000.0,
+   "normalized_ebitda": 1443704000.0,
+   "normalized_income": 842181000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "KALMAR.HE",
- "fetched_at": "2026-10-10T12:05:04+00:00",
+ "fetched_at": "2026-10-10T15:00:20+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "HEL",
   "fullTimeEmployees": 5405,
   "website": "https://www.kalmarglobal.com",
-  "longBusinessSummary": "Kalmar Oyj provides heavy material handling equipment and services for ports, terminals, distribution centres, manufacturing, and heavy logistics industries in the Americas, Europe, Asia, the Middle East, and Africa. It operates in two segments, Equipment and Services. The company offers reach stackers, forklift trucks, empty container handlers, terminal tractors, straddle carriers, and spreaders. It also provides spare parts; on-call and contract maintenance services; and data, analytics, and AI services. In addition, the company offers lifecycle services, including refurbishments, and fleet management and upgrades; equipment that can use hydrotreated vegetable oil (HVO); and robotics equipment. The company was incorporated in 2024 and is headquartered in Helsinki, Finland."
+  "longBusinessSummary": "Kalmar Oyj provides heavy material handling equipment and services for ports, terminals, distribution centres, manufacturing, and heavy logistics industries in the Americas, Europe, Asia, the Middle East, and Africa. It operates in two segments, Equipment and Services. The company offers reach stackers, forklift trucks, empty container handlers, terminal tractors, straddle carriers, and spreaders. It also provides spare parts; on-call and contract maintenance services; and data, analytics, and AI services. In addition, the company offers lifecycle services, including refurbishments, and fleet management and upgrades; equipment that can use hydrotreated vegetable oil (HVO); and robotics equipment. The company was incorporated in 2024 and is headquartered in Helsinki, Finland.",
+  "targetMeanPrice": 43.0,
+  "targetLowPrice": 37.0,
+  "targetHighPrice": 48.0,
+  "numberOfAnalystOpinions": 5,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.8,
+  "forwardPE": 12.134465,
+  "forwardEps": 3.064,
+  "trailingEps": 2.69,
+  "earningsGrowth": 0.131,
+  "revenueGrowth": 0.141
  },
  "governance": {
   "ceo": {
@@ -76,8 +87,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF FI",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 1748500000.0,
+    "official": 1748500000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 717800000.0,
+    "official": 717800000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 163300000.0,
+    "official": 163300000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1741400000.0,
+    "official": 1741400000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:00:20+00:00",
  "years": [
   {
    "fy_end": "2023-12-31",
@@ -111,7 +154,10 @@
    "goodwill_and_intangibles": 277600000.0,
    "retained_earnings": 922900000.0,
    "total_debt": 191900000.0,
-   "shares_out": 64324118.0
+   "shares_out": 64324118.0,
+   "unusual_items": -14600000.0,
+   "normalized_ebitda": 324600000.0,
+   "normalized_income": 205509200.0
   },
   {
    "fy_end": "2024-12-31",
@@ -145,7 +191,10 @@
    "goodwill_and_intangibles": 268600000.0,
    "retained_earnings": 561500000.0,
    "total_debt": 340800000.0,
-   "shares_out": 64074118.0
+   "shares_out": 64074118.0,
+   "unusual_items": -28600000.0,
+   "normalized_ebitda": 279200000.0,
+   "normalized_income": 149121200.0
   },
   {
    "fy_end": "2025-12-31",
@@ -179,7 +228,10 @@
    "goodwill_and_intangibles": 262100000.0,
    "retained_earnings": 664900000.0,
    "total_debt": 286500000.0,
-   "shares_out": 64142729.0
+   "shares_out": 64142729.0,
+   "unusual_items": 2400000.0,
+   "normalized_ebitda": 279900000.0,
+   "normalized_income": 161444800.0
   }
  ]
 }

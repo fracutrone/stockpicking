@@ -1,6 +1,6 @@
 {
  "ticker": "NKT.CO",
- "fetched_at": "2026-10-10T12:11:09+00:00",
+ "fetched_at": "2026-10-10T15:08:30+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "CPH",
   "fullTimeEmployees": 6652,
   "website": "https://www.nkt.com",
-  "longBusinessSummary": "NKT A/S designs, manufactures, and installs low, medium, and high voltage power cable solutions in Denmark. It operates through Solutions, Applications and Service & Accessories segments. The company offers high voltage cable solutions, including high voltage onshore and offshore cables; medium voltage, dynamic, and universal cables; and low voltage building wires, flexible cables and conduits, control cables, 1 kV cables, and telecom energy and fire performance cables. The company also provides medium voltage cable accessories, such as joints, terminations, separable connector, paper-insulated lead sheath and pre-assembled connection cables, cable branch cabinets, and pre-assembled connection cables; and high voltage cable accessories comprising GIS/transformer terminations, low pressure oil-filled cable systems, outdoor terminations, wind power applications, and transition joints. In addition, it offers lifecycle cable services; and installation, operation and maintenance, repair, decommissioning, and cable monitoring solutions. Further, the company provides oil and gas cable competence center services, and technology consulting services; and offshore and onshore wind, and solar solutions. It operates in Germany, Sweden, the United Kingdom, Poland, the United States, Norway, the Czech Republic, France, the Netherlands, Portugal, and internationally. The company was formerly known as NKT Holding A/S and changed its name to NKT A/S in May 2017. NKT A/S was founded in 1891 and is based in Copenhagen, Denmark."
+  "longBusinessSummary": "NKT A/S designs, manufactures, and installs low, medium, and high voltage power cable solutions in Denmark. It operates through Solutions, Applications and Service & Accessories segments. The company offers high voltage cable solutions, including high voltage onshore and offshore cables; medium voltage, dynamic, and universal cables; and low voltage building wires, flexible cables and conduits, control cables, 1 kV cables, and telecom energy and fire performance cables. The company also provides medium voltage cable accessories, such as joints, terminations, separable connector, paper-insulated lead sheath and pre-assembled connection cables, cable branch cabinets, and pre-assembled connection cables; and high voltage cable accessories comprising GIS/transformer terminations, low pressure oil-filled cable systems, outdoor terminations, wind power applications, and transition joints. In addition, it offers lifecycle cable services; and installation, operation and maintenance, repair, decommissioning, and cable monitoring solutions. Further, the company provides oil and gas cable competence center services, and technology consulting services; and offshore and onshore wind, and solar solutions. It operates in Germany, Sweden, the United Kingdom, Poland, the United States, Norway, the Czech Republic, France, the Netherlands, Portugal, and internationally. The company was formerly known as NKT Holding A/S and changed its name to NKT A/S in May 2017. NKT A/S was founded in 1891 and is based in Copenhagen, Denmark.",
+  "targetMeanPrice": 962.7168,
+  "targetLowPrice": 495.14587,
+  "targetHighPrice": 1291.7365,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.5,
+  "forwardPE": 20.798443,
+  "forwardEps": 41.30117,
+  "trailingEps": 36.76,
+  "earningsGrowth": -0.02,
+  "revenueGrowth": 0.002
  },
  "governance": {
   "ceo": {
@@ -68,8 +79,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF DK",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 5595000000.0,
+    "official": 5595000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2193000000.0,
+    "official": 2038000000.0,
+    "diff": 0.076055
+   },
+   "net_income": {
+    "yahoo": 275000000.0,
+    "official": 264000000.0,
+    "diff": 0.041667
+   },
+   "revenue": {
+    "yahoo": 3565000000.0,
+    "official": 3565000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:08:30+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -100,7 +143,10 @@
    "goodwill_and_intangibles": 528400000.0,
    "retained_earnings": 805900000.0,
    "total_debt": 195800000.0,
-   "shares_out": 46788961.0
+   "shares_out": 46788961.0,
+   "unusual_items": 17800000.0,
+   "normalized_ebitda": 154100000.0,
+   "normalized_income": 42568800.0
   },
   {
    "fy_end": "2023-12-31",
@@ -132,7 +178,10 @@
    "goodwill_and_intangibles": 544000000.0,
    "retained_earnings": 1248000000.0,
    "total_debt": 207000000.0,
-   "shares_out": 53632932.0
+   "shares_out": 53632932.0,
+   "unusual_items": -15000000.0,
+   "normalized_ebitda": 264000000.0,
+   "normalized_income": 131000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -164,7 +213,10 @@
    "goodwill_and_intangibles": 646000000.0,
    "retained_earnings": 1571000000.0,
    "total_debt": 238000000.0,
-   "shares_out": 53669396.0
+   "shares_out": 53669396.0,
+   "unusual_items": -7000000.0,
+   "normalized_ebitda": 392000000.0,
+   "normalized_income": 242020000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -195,7 +247,10 @@
    "goodwill_and_intangibles": 698000000.0,
    "retained_earnings": 1838000000.0,
    "total_debt": 251000000.0,
-   "shares_out": 53450451.0
+   "shares_out": 53450451.0,
+   "unusual_items": 47000000.0,
+   "normalized_ebitda": 394000000.0,
+   "normalized_income": 230820000.0
   }
  ]
 }

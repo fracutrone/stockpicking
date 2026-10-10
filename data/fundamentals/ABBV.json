@@ -1,6 +1,6 @@
 {
  "ticker": "ABBV",
- "fetched_at": "2026-10-10T12:36:07+00:00",
+ "fetched_at": "2026-10-10T15:33:17+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 57000,
   "website": "https://www.abbvie.com",
-  "longBusinessSummary": "AbbVie Inc., a research-based biopharmaceutical company, engages in the research and development, manufacturing, commercializing, and sale of medicines and therapies worldwide. The company offers Skyrizi to treat autoimmune diseases; Rinvoq to treat inflammatory diseases; Imbruvica for the treatment of adult patients with blood cancers; Venclexta to treat blood cancers; Elahere to treat various cancer; and Epkinly to treat lymphoma; and Emrelis for the treatment of lung cancer. It also provides facial injectables, plastics and regenerative medicine, body contouring, and skincare products; botox Cosmetic for the treatment of glabellar lines, crow's feet, forehead lines, and platysma bands; Juvederm Collection to treat volume loss in the temples, undereye, cheeks, chin, lips and lower face; Vraylar to treat schizophrenia, bipolar disorder, and depressive disorder; Duodopa to treat Parkinson's disease; Ubrelvy to treat migraine; Qulipta for episodic and chronic migraine; and Vyalev for the treatment of motor fluctuations, as well as Botox Therapeutic to treat chronic migraine, overactive bladder, spasticity, cervical dystonia, and other conditions. In addition, the company offers Ozurdex for visual impairment; Lumigan/Ganfort and Alphagan/Combigan for the reduction of elevated intraocular pressure in patients with open angle glaucoma or ocular hypertension; and other eye care products, including Refresh/Optive, Xen, Durysta, and Restasis. Further, it provides Mavyret to treat chronic hepatitis C virus genotype 1-6 infection; Creon, a pancreatic enzyme therapy; and Linzess/Constella to treat irritable bowel syndrome with constipation and chronic idiopathic constipation. The company was incorporated in 2012 and is headquartered in North Chicago, Illinois."
+  "longBusinessSummary": "AbbVie Inc., a research-based biopharmaceutical company, engages in the research and development, manufacturing, commercializing, and sale of medicines and therapies worldwide. The company offers Skyrizi to treat autoimmune diseases; Rinvoq to treat inflammatory diseases; Imbruvica for the treatment of adult patients with blood cancers; Venclexta to treat blood cancers; Elahere to treat various cancer; and Epkinly to treat lymphoma; and Emrelis for the treatment of lung cancer. It also provides facial injectables, plastics and regenerative medicine, body contouring, and skincare products; botox Cosmetic for the treatment of glabellar lines, crow's feet, forehead lines, and platysma bands; Juvederm Collection to treat volume loss in the temples, undereye, cheeks, chin, lips and lower face; Vraylar to treat schizophrenia, bipolar disorder, and depressive disorder; Duodopa to treat Parkinson's disease; Ubrelvy to treat migraine; Qulipta for episodic and chronic migraine; and Vyalev for the treatment of motor fluctuations, as well as Botox Therapeutic to treat chronic migraine, overactive bladder, spasticity, cervical dystonia, and other conditions. In addition, the company offers Ozurdex for visual impairment; Lumigan/Ganfort and Alphagan/Combigan for the reduction of elevated intraocular pressure in patients with open angle glaucoma or ocular hypertension; and other eye care products, including Refresh/Optive, Xen, Durysta, and Restasis. Further, it provides Mavyret to treat chronic hepatitis C virus genotype 1-6 infection; Creon, a pancreatic enzyme therapy; and Linzess/Constella to treat irritable bowel syndrome with constipation and chronic idiopathic constipation. The company was incorporated in 2012 and is headquartered in North Chicago, Illinois.",
+  "targetMeanPrice": 282.60715,
+  "targetLowPrice": 200.0,
+  "targetHighPrice": 328.0,
+  "numberOfAnalystOpinions": 28,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.7,
+  "forwardPE": 17.012493,
+  "forwardEps": 16.251,
+  "trailingEps": 3.54,
+  "earningsGrowth": 2.904,
+  "revenueGrowth": 0.102
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 133960000000.0,
+    "official": 133960000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": -3270000000.0,
+    "official": -3270000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 4226000000.0,
+    "official": 4226000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 61160000000.0,
+    "official": 61160000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:33:17+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -205,7 +247,10 @@
    "goodwill_and_intangibles": 99595000000.0,
    "retained_earnings": 4784000000.0,
    "total_debt": 63129000000.0,
-   "shares_out": 1769181294.0
+   "shares_out": 1769181294.0,
+   "unusual_items": -845000000.0,
+   "normalized_ebitda": 25019000000.0,
+   "normalized_income": 12578755000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -240,7 +285,10 @@
    "goodwill_and_intangibles": 87903000000.0,
    "retained_earnings": -1000000000.0,
    "total_debt": 59245000000.0,
-   "shares_out": 1765940733.0
+   "shares_out": 1765940733.0,
+   "unusual_items": -924000000.0,
+   "normalized_ebitda": 18096000000.0,
+   "normalized_income": 5583720000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -275,7 +323,10 @@
    "goodwill_and_intangibles": 95024000000.0,
    "retained_earnings": -7900000000.0,
    "total_debt": 66841000000.0,
-   "shares_out": 1765256986.0
+   "shares_out": 1765256986.0,
+   "unusual_items": -2778000000.0,
+   "normalized_ebitda": 17688000000.0,
+   "normalized_income": 6343998600.0
   },
   {
    "fy_end": "2025-12-31",
@@ -310,7 +361,10 @@
    "goodwill_and_intangibles": 88281000000.0,
    "retained_earnings": -15493000000.0,
    "total_debt": 67002000000.0,
-   "shares_out": 1767876035.0
+   "shares_out": 1767876035.0,
+   "unusual_items": -5074000000.0,
+   "normalized_ebitda": 22703000000.0,
+   "normalized_income": 7481758981.355161
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "ACN",
- "fetched_at": "2026-10-10T12:36:18+00:00",
+ "fetched_at": "2026-10-10T15:33:26+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 814000,
   "website": "https://www.accenture.com",
-  "longBusinessSummary": "Accenture plc provides strategy and consulting, industry X, song, and technology and operation services in the Americas, Europe, the Middle East, Africa, and the Asia Pacific. It offers systems integration and application management; security; intelligent platform; infrastructure; software engineering; data, AI, cloud; and automation and global delivery services. The company also operates business processes for specific enterprise functions, including finance and accounting, sourcing and procurement, supply chain, marketing and sales, and human resources, as well as industry-specific services, such as platform trust and safety, banking, insurance, network and health services; and designs, manufactures, and assembles automation equipment, robotics, and other commercial hardware products. It serves communications, media, and technology; financial services; banking and capital markets, and insurance; health and public service; consumer goods, retail, travel services; industrial; life science; and chemicals, natural resources, energy, and utilities sectors. Accenture plc has collaboration with Amazon Web Services (AWS) to deliver transformative digital services to public sector, defense, and national security organizations. It has a collaboration with OpenAI to help enterprise clients unlock new levels of innovation and growth by bringing agentic AI systems; has a strategic collaboration with Microsoft and Avanade for the development of an agentic factory intelligence system; and INFRONEER Holdings Inc. and SAP Japan Co., Ltd. to develop a new financial data and insights platform. It also has strategic partnership with Netomi, Inc. to help enterprises reinvent customer experience using agentic AI systems. The company has a strategic alliance with ServiceNow for integrated risk management and third-party risk management solutions. Accenture plc was founded in 1951 and is based in Dublin, Ireland."
+  "longBusinessSummary": "Accenture plc provides strategy and consulting, industry X, song, and technology and operation services in the Americas, Europe, the Middle East, Africa, and the Asia Pacific. It offers systems integration and application management; security; intelligent platform; infrastructure; software engineering; data, AI, cloud; and automation and global delivery services. The company also operates business processes for specific enterprise functions, including finance and accounting, sourcing and procurement, supply chain, marketing and sales, and human resources, as well as industry-specific services, such as platform trust and safety, banking, insurance, network and health services; and designs, manufactures, and assembles automation equipment, robotics, and other commercial hardware products. It serves communications, media, and technology; financial services; banking and capital markets, and insurance; health and public service; consumer goods, retail, travel services; industrial; life science; and chemicals, natural resources, energy, and utilities sectors. Accenture plc has collaboration with Amazon Web Services (AWS) to deliver transformative digital services to public sector, defense, and national security organizations. It has a collaboration with OpenAI to help enterprise clients unlock new levels of innovation and growth by bringing agentic AI systems; has a strategic collaboration with Microsoft and Avanade for the development of an agentic factory intelligence system; and INFRONEER Holdings Inc. and SAP Japan Co., Ltd. to develop a new financial data and insights platform. It also has strategic partnership with Netomi, Inc. to help enterprises reinvent customer experience using agentic AI systems. The company has a strategic alliance with ServiceNow for integrated risk management and third-party risk management solutions. Accenture plc was founded in 1951 and is based in Dublin, Ireland.",
+  "targetMeanPrice": 223.65459,
+  "targetLowPrice": 163.0,
+  "targetHighPrice": 275.0,
+  "numberOfAnalystOpinions": 24,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.25926,
+  "forwardPE": 13.145071,
+  "forwardEps": 15.90406,
+  "trailingEps": 13.56,
+  "earningsGrowth": 0.464,
+  "revenueGrowth": 0.062
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-08-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 65394897000.0,
+    "official": 65394897000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 31195446000.0,
+    "official": 31195446000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 7678433000.0,
+    "official": 7678433000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 69672977000.0,
+    "official": 69672977000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:33:26+00:00",
  "years": [
   {
    "fy_end": "2019-08-31",
@@ -197,7 +239,10 @@
    "goodwill_and_intangibles": 15064101000.0,
    "retained_earnings": 18203842000.0,
    "total_debt": 45893000.0,
-   "shares_out": 631167579.0
+   "shares_out": 631167579.0,
+   "unusual_items": -96294000.0,
+   "normalized_ebitda": 10370426000.0,
+   "normalized_income": 6950352440.0
   },
   {
    "fy_end": "2023-08-31",
@@ -231,7 +276,10 @@
    "goodwill_and_intangibles": 17645960000.0,
    "retained_earnings": 19316224000.0,
    "total_debt": 43093000.0,
-   "shares_out": 628265148.0
+   "shares_out": 628265148.0,
+   "unusual_items": -1063146000.0,
+   "normalized_ebitda": 11311619000.0,
+   "normalized_income": 7685926836.0
   },
   {
    "fy_end": "2024-08-31",
@@ -265,7 +313,10 @@
    "goodwill_and_intangibles": 24024210000.0,
    "retained_earnings": 23082423000.0,
    "total_debt": 1010135000.0,
-   "shares_out": 625280287.0
+   "shares_out": 625280287.0,
+   "unusual_items": -438440000.0,
+   "normalized_ebitda": 11274729000.0,
+   "normalized_income": 7600158111.229103
   },
   {
    "fy_end": "2025-08-31",
@@ -299,7 +350,10 @@
    "goodwill_and_intangibles": 24947171000.0,
    "retained_earnings": 21018731000.0,
    "total_debt": 5134132000.0,
-   "shares_out": 621855922.0
+   "shares_out": 621855922.0,
+   "unusual_items": -615324000.0,
+   "normalized_ebitda": 12482657000.0,
+   "normalized_income": 8147690962.923133
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "BPCR.L",
- "fetched_at": "2026-10-10T11:48:40+00:00",
+ "fetched_at": "2026-10-10T14:36:57+00:00",
  "region": "Europa",
  "statement_currency": "USD",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": null,
   "heldPercentInstitutions": null,
   "shortPercentOfFloat": null,
-  "averageVolume": 1219531,
+  "averageVolume": 1210712,
   "quoteType": "EQUITY",
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "top_institutions": [
@@ -53,8 +64,15 @@
   "cash": "yahoo",
   "equity": "yahoo",
   "receivables": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T14:36:57+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -72,7 +90,8 @@
    "cash": 120527000.0,
    "equity": 1337453000.0,
    "receivables": 19838000.0,
-   "shares_out": 1319178669.0
+   "shares_out": 1319178669.0,
+   "normalized_income": 182311000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -90,7 +109,8 @@
    "cash": 86202000.0,
    "equity": 1340861000.0,
    "receivables": 20317000.0,
-   "shares_out": 1302679192.0
+   "shares_out": 1302679192.0,
+   "normalized_income": 108450000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -108,7 +128,8 @@
    "cash": 5620000.0,
    "equity": 1181678000.0,
    "receivables": 31797000.0,
-   "shares_out": 1186056657.0
+   "shares_out": 1186056657.0,
+   "normalized_income": 122178000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -125,7 +146,8 @@
    "cash": 12587000.0,
    "equity": 1150862000.0,
    "receivables": 53600000.0,
-   "shares_out": 1129227778.0
+   "shares_out": 1129227778.0,
+   "normalized_income": 129887000.0
   }
  ]
 }

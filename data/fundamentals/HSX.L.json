@@ -1,6 +1,6 @@
 {
  "ticker": "HSX.L",
- "fetched_at": "2026-10-10T12:02:32+00:00",
+ "fetched_at": "2026-10-10T14:56:02+00:00",
  "region": "Europa",
  "statement_currency": "USD",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.00183,
   "heldPercentInstitutions": 0.7439,
   "shortPercentOfFloat": null,
-  "averageVolume": 1532515,
+  "averageVolume": 1533327,
   "quoteType": "EQUITY",
   "exchange": "LSE",
   "fullTimeEmployees": 3000,
   "website": "https://www.hiscoxgroup.com",
-  "longBusinessSummary": "Hiscox Ltd, through its subsidiaries, provides insurance and reinsurance services in the United Kingdom, Europe, the United States, and internationally. It operates through Hiscox Retail, Hiscox London Market, and Hiscox Re segments. The company offers commercial insurance, such as emerging professions, media and tech, and small business insurance; and personal lines, including high-value homes and fine art, as well as artwork, antiques, classic cars, jewelry, collectables, and other assets through brokers, partners, and direct-to-consumers. It also provides property insurance; marine, specialty, cyber, and energy insurance; casualty insurance; terrorism, kidnap, and ransom insurance; and other specialty insurance products. In addition, the company offers property and casualty reinsurance services, as well as investment services. Hiscox Ltd was founded in 1901 and is headquartered in Pembroke, Bermuda."
+  "longBusinessSummary": "Hiscox Ltd, through its subsidiaries, provides insurance and reinsurance services in the United Kingdom, Europe, the United States, and internationally. It operates through Hiscox Retail, Hiscox London Market, and Hiscox Re segments. The company offers commercial insurance, such as emerging professions, media and tech, and small business insurance; and personal lines, including high-value homes and fine art, as well as artwork, antiques, classic cars, jewelry, collectables, and other assets through brokers, partners, and direct-to-consumers. It also provides property insurance; marine, specialty, cyber, and energy insurance; casualty insurance; terrorism, kidnap, and ransom insurance; and other specialty insurance products. In addition, the company offers property and casualty reinsurance services, as well as investment services. Hiscox Ltd was founded in 1901 and is headquartered in Pembroke, Bermuda.",
+  "targetMeanPrice": 1979.7109,
+  "targetLowPrice": 1166.3998,
+  "targetHighPrice": 2197.7864,
+  "numberOfAnalystOpinions": 14,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": 11.941119,
+  "forwardEps": 1.546756,
+  "trailingEps": 1.41,
+  "earningsGrowth": 0.22,
+  "revenueGrowth": 0.05
  },
  "governance": {
   "ceo": {
@@ -73,8 +84,33 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 12189200000.0,
+    "official": 12189200000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3946800000.0,
+    "official": 3946800000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 604100000.0,
+    "official": 604100000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:56:02+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -101,7 +137,8 @@
    "goodwill_and_intangibles": 320400000.0,
    "retained_earnings": 2297800000.0,
    "total_debt": 715800000.0,
-   "shares_out": 354067000.0
+   "shares_out": 354067000.0,
+   "normalized_income": 253900000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -127,7 +164,8 @@
    "goodwill_and_intangibles": 323900000.0,
    "retained_earnings": 2923200000.0,
    "total_debt": 754200000.0,
-   "shares_out": 346612554.0
+   "shares_out": 346612554.0,
+   "normalized_income": 712000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -152,7 +190,8 @@
    "goodwill_and_intangibles": 308800000.0,
    "retained_earnings": 3452200000.0,
    "total_debt": 743000000.0,
-   "shares_out": 339636268.0
+   "shares_out": 339636268.0,
+   "normalized_income": 627200000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -177,7 +216,8 @@
    "goodwill_and_intangibles": 381000000.0,
    "retained_earnings": 3922000000.0,
    "total_debt": 902000000.0,
-   "shares_out": 323603134.0
+   "shares_out": 323603134.0,
+   "normalized_income": 604100000.0
   }
  ]
 }

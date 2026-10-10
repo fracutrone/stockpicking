@@ -1,6 +1,6 @@
 {
  "ticker": "ORI",
- "fetched_at": "2026-10-10T12:54:33+00:00",
+ "fetched_at": "2026-10-10T15:52:23+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 9500,
   "website": "https://www.oldrepublic.com",
-  "longBusinessSummary": "Old Republic International Corporation, through its subsidiaries, provides insurance underwriting and related services in the United States and Canada. It operates in two segments, Specialty Insurance and Title Insurance. The Specialty Insurance segment provides lines of coverages, such as accident and health, aviation, commercial auto, commercial multi-peril, commercial property, cyber, environmental, excess and surplus, home and auto warranty, automobile extended warranty, general liability, inland marine, travel accident, and workers' compensation, as well as financial indemnity, including directors and officers, errors and omissions, fidelity, and surety coverages. This segment offers its products to transportation, commercial construction, healthcare, education, retail and wholesale trade, forest products, energy, general manufacturing, and financial services industries. The Title Insurance segment insures against losses arising out of defects, liens and encumbrances affecting the insured title to real estate purchasers and investors. This segment also provides escrow closing and construction disbursement services; and real estate information products; national default management services; and various other services pertaining to real estate transfers and loan transactions. The company was founded in 1923 and is based in Chicago, Illinois."
+  "longBusinessSummary": "Old Republic International Corporation, through its subsidiaries, provides insurance underwriting and related services in the United States and Canada. It operates in two segments, Specialty Insurance and Title Insurance. The Specialty Insurance segment provides lines of coverages, such as accident and health, aviation, commercial auto, commercial multi-peril, commercial property, cyber, environmental, excess and surplus, home and auto warranty, automobile extended warranty, general liability, inland marine, travel accident, and workers' compensation, as well as financial indemnity, including directors and officers, errors and omissions, fidelity, and surety coverages. This segment offers its products to transportation, commercial construction, healthcare, education, retail and wholesale trade, forest products, energy, general manufacturing, and financial services industries. The Title Insurance segment insures against losses arising out of defects, liens and encumbrances affecting the insured title to real estate purchasers and investors. This segment also provides escrow closing and construction disbursement services; and real estate information products; national default management services; and various other services pertaining to real estate transfers and loan transactions. The company was founded in 1923 and is based in Chicago, Illinois.",
+  "targetMeanPrice": 43.5,
+  "targetLowPrice": 39.0,
+  "targetHighPrice": 48.0,
+  "numberOfAnalystOpinions": 2,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 11.566667,
+  "forwardEps": 3.3,
+  "trailingEps": 4.51,
+  "earningsGrowth": 0.617,
+  "revenueGrowth": 0.134
  },
  "governance": {
   "ceo": {
@@ -71,9 +82,38 @@
   "retained_earnings": "sec",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "normalized_income": "yahoo",
   "da": "sec",
   "goodwill": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 29862700000.0,
+    "official": 29862700000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 5913800000.0,
+    "official": 5914000000.0,
+    "diff": 3.4e-05
+   },
+   "net_income": {
+    "yahoo": 935400000.0,
+    "official": 935400000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 9136000000.0,
+    "official": 9136300000.0,
+    "diff": 3.3e-05
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:52:23+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -146,7 +186,8 @@
    "goodwill": 178100000.0,
    "retained_earnings": 5321800000.0,
    "total_debt": 1596900000.0,
-   "shares_out": 296932316.0
+   "shares_out": 296932316.0,
+   "normalized_income": 686400000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -168,7 +209,8 @@
    "goodwill": 178300000.0,
    "retained_earnings": 5644300000.0,
    "total_debt": 1591100000.0,
-   "shares_out": 278392263.0
+   "shares_out": 278392263.0,
+   "normalized_income": 598600000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -190,7 +232,8 @@
    "goodwill": 179600000.0,
    "retained_earnings": 5519700000.0,
    "total_debt": 1588600000.0,
-   "shares_out": 248817316.0
+   "shares_out": 248817316.0,
+   "normalized_income": 852700000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -212,7 +255,8 @@
    "goodwill": 173200000.0,
    "retained_earnings": 5515200000.0,
    "total_debt": 1589800000.0,
-   "shares_out": 246355085.0
+   "shares_out": 246355085.0,
+   "normalized_income": 935400000.0
   }
  ]
 }

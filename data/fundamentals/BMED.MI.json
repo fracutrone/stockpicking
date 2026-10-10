@@ -1,6 +1,6 @@
 {
  "ticker": "BMED.MI",
- "fetched_at": "2026-10-10T11:48:16+00:00",
+ "fetched_at": "2026-10-10T14:35:51+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.70231,
   "heldPercentInstitutions": 0.13152,
   "shortPercentOfFloat": null,
-  "averageVolume": 751617,
+  "averageVolume": 754282,
   "quoteType": "EQUITY",
   "exchange": "MIL",
   "fullTimeEmployees": 4166,
   "website": "https://www.bancamediolanum.it",
-  "longBusinessSummary": "Banca Mediolanum S.p.A. engages in the provision of various banking products and services in Italy. It offers current accounts; deposits products; and mortgage and personal loans. The company also provides credit cards, debit cards, and prepaid cards; investment products, such as mutual funds, unit linked policies, investment strategies, trading services, asset management services, social security, and bond issues and certificates; and insurance policies, including health and personal, life, serious illness, and autonomy protection, as well as protection assistance, and home and family protection. In addition, it offers SelfyCare Pet for reimbursement of veterinary expenses; SelfyCare Travel for assistance and coverage for risks arising during trips; and SelfyCare LifeProject for a specific life project. Banca Mediolanum S.p.A. founded in 1982 and is headquartered in Basiglio, Italy."
+  "longBusinessSummary": "Banca Mediolanum S.p.A. engages in the provision of various banking products and services in Italy. It offers current accounts; deposits products; and mortgage and personal loans. The company also provides credit cards, debit cards, and prepaid cards; investment products, such as mutual funds, unit linked policies, investment strategies, trading services, asset management services, social security, and bond issues and certificates; and insurance policies, including health and personal, life, serious illness, and autonomy protection, as well as protection assistance, and home and family protection. In addition, it offers SelfyCare Pet for reimbursement of veterinary expenses; SelfyCare Travel for assistance and coverage for risks arising during trips; and SelfyCare LifeProject for a specific life project. Banca Mediolanum S.p.A. founded in 1982 and is headquartered in Basiglio, Italy.",
+  "targetMeanPrice": 25.43333,
+  "targetLowPrice": 23.4,
+  "targetHighPrice": 28.0,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.91667,
+  "forwardPE": 14.534238,
+  "forwardEps": 1.57559,
+  "trailingEps": 1.77,
+  "earningsGrowth": 0.197,
+  "revenueGrowth": 0.29
  },
  "governance": {
   "ceo": {
@@ -68,8 +79,29 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF IT",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 89938260000.0,
+    "official": 89938260000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1237908000.0,
+    "official": 1237908000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:35:51+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -95,7 +127,9 @@
    "goodwill_and_intangibles": 207782000.0,
    "retained_earnings": 506829000.0,
    "total_debt": 372293000.0,
-   "shares_out": 738062701.0
+   "shares_out": 738062701.0,
+   "unusual_items": -74505000.0,
+   "normalized_income": 572779336.0
   },
   {
    "fy_end": "2023-12-31",
@@ -121,7 +155,9 @@
    "goodwill_and_intangibles": 206869000.0,
    "retained_earnings": 821870000.0,
    "total_debt": 385998000.0,
-   "shares_out": 741140846.0
+   "shares_out": 741140846.0,
+   "unusual_items": -66660000.0,
+   "normalized_income": 873186866.0
   },
   {
    "fy_end": "2024-12-31",
@@ -147,7 +183,9 @@
    "goodwill_and_intangibles": 212914000.0,
    "retained_earnings": 1119629000.0,
    "total_debt": 396877000.0,
-   "shares_out": 737385088.0
+   "shares_out": 737385088.0,
+   "unusual_items": -59248000.0,
+   "normalized_income": 1165356606.4
   },
   {
    "fy_end": "2025-12-31",
@@ -173,7 +211,9 @@
    "goodwill_and_intangibles": 220878000.0,
    "retained_earnings": 1237908000.0,
    "total_debt": 388779000.0,
-   "shares_out": 739224387.0
+   "shares_out": 739224387.0,
+   "unusual_items": -52301000.0,
+   "normalized_income": 1283195435.9
   }
  ]
 }

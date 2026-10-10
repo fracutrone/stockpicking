@@ -1,6 +1,6 @@
 {
  "ticker": "ALSN",
- "fetched_at": "2026-10-10T12:37:09+00:00",
+ "fetched_at": "2026-10-10T15:34:11+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 4000,
   "website": "https://www.allisontransmission.com",
-  "longBusinessSummary": "Allison Transmission Holdings, Inc., together with its subsidiaries, designs, manufactures, and sells fully automatic transmissions for medium- and heavy-duty commercial vehicles and medium- and heavy-tactical U.S. defense vehicles, and electrified propulsion systems worldwide. It offers transmissions for various applications, including distribution, refuse, construction, fire, and emergency on-highway trucks; school and transit buses; motor homes; energy, mining, and construction of off-highway vehicles and equipment; and wheeled and tracked defense vehicles. The company also provides its transmissions and electric propulsion solutions under the Allison Transmission brand name; and remanufactured transmissions under the ReTran brand name. In addition, it sells branded replacement parts, support equipment, aluminum die cast components, and other products necessary to service the installed base of vehicles utilizing its solutions, as well as defense kits, engineering services, and extended transmission coverage services to various original equipment manufacturers, distributors, and the U.S. government. The company was formerly known as Clutch Holdings, Inc. Allison Transmission Holdings, Inc. was founded in 1915 and is headquartered in Indianapolis, Indiana."
+  "longBusinessSummary": "Allison Transmission Holdings, Inc., together with its subsidiaries, designs, manufactures, and sells fully automatic transmissions for medium- and heavy-duty commercial vehicles and medium- and heavy-tactical U.S. defense vehicles, and electrified propulsion systems worldwide. It offers transmissions for various applications, including distribution, refuse, construction, fire, and emergency on-highway trucks; school and transit buses; motor homes; energy, mining, and construction of off-highway vehicles and equipment; and wheeled and tracked defense vehicles. The company also provides its transmissions and electric propulsion solutions under the Allison Transmission brand name; and remanufactured transmissions under the ReTran brand name. In addition, it sells branded replacement parts, support equipment, aluminum die cast components, and other products necessary to service the installed base of vehicles utilizing its solutions, as well as defense kits, engineering services, and extended transmission coverage services to various original equipment manufacturers, distributors, and the U.S. government. The company was formerly known as Clutch Holdings, Inc. Allison Transmission Holdings, Inc. was founded in 1915 and is headquartered in Indianapolis, Indiana.",
+  "targetMeanPrice": 140.45454,
+  "targetLowPrice": 115.0,
+  "targetHighPrice": 185.0,
+  "numberOfAnalystOpinions": 11,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.27273,
+  "forwardPE": 9.759972,
+  "forwardEps": 11.25618,
+  "trailingEps": 6.33,
+  "earningsGrowth": -0.061,
+  "revenueGrowth": 0.924
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 6082000000.0,
+    "official": 6082000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1867000000.0,
+    "official": 1867000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 623000000.0,
+    "official": 623000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3010000000.0,
+    "official": 3010000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:34:11+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -206,7 +248,10 @@
    "goodwill_and_intangibles": 3139000000.0,
    "retained_earnings": -953000000.0,
    "total_debt": 2525000000.0,
-   "shares_out": 91788885.0
+   "shares_out": 91788885.0,
+   "unusual_items": -32000000.0,
+   "normalized_ebitda": 950000000.0,
+   "normalized_income": 557344186.046512
   },
   {
    "fy_end": "2023-12-31",
@@ -240,7 +285,10 @@
    "goodwill_and_intangibles": 2909000000.0,
    "retained_earnings": -628000000.0,
    "total_debt": 2518000000.0,
-   "shares_out": 87648046.0
+   "shares_out": 87648046.0,
+   "unusual_items": 3000000.0,
+   "normalized_ebitda": 1085000000.0,
+   "normalized_income": 670570000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -274,7 +322,10 @@
    "goodwill_and_intangibles": 3097000000.0,
    "retained_earnings": -239000000.0,
    "total_debt": 2414000000.0,
-   "shares_out": 85776801.0
+   "shares_out": 85776801.0,
+   "unusual_items": -15000000.0,
+   "normalized_ebitda": 1122000000.0,
+   "normalized_income": 743150000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -308,7 +359,10 @@
    "goodwill_and_intangibles": 3074000000.0,
    "retained_earnings": -38000000.0,
    "total_debt": 2909000000.0,
-   "shares_out": 82828704.0
+   "shares_out": 82828704.0,
+   "unusual_items": -17000000.0,
+   "normalized_ebitda": 1037000000.0,
+   "normalized_income": 636090000.0
   }
  ]
 }

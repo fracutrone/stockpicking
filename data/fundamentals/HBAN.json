@@ -1,6 +1,6 @@
 {
  "ticker": "HBAN",
- "fetched_at": "2026-10-10T12:47:32+00:00",
+ "fetched_at": "2026-10-10T15:45:54+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 25527,
   "website": "https://www.huntington.com",
-  "longBusinessSummary": "Huntington Bancshares Incorporated operates as the bank holding company for The Huntington National Bank that provides commercial, consumer, and mortgage banking services. It offers financial products and services to consumer and business customers, including deposits, lending, payments, mortgage banking, dealer financing, investment management, trust, brokerage, insurance, and other financial products and services. The company also provides 24-Hour Grace, Asterisk-Free Checking, Money Scout, $50 Safety Zone, Standby Cash, Early Pay, Instant Access, Savings Goal Getter, And Huntington Heads Up; digitally powered consumer and business financial solutions to consumer finance, regional banking, branch banking, and wealth management customers; direct and indirect consumer loans; dealer finance loans and deposits; and private banking, wealth management and legacy planning through investment and portfolio management, fiduciary administration and trust, institutional custody, and full-service retail brokerage investment services. In addition, it offers equipment financing, asset-based lending, distribution finance, structured lending, municipal financing solutions, and Huntington ChoicePay. Additionally, the company provides lending, liquidity, treasury management and other payment services, and capital markets; government and non-profits, healthcare, technology and telecommunications, franchises, financial sponsors, fund finance, Native American financial, and global services; and corporate risk management, institutional sales and trading, debt and equity issuance, and additional advisory services. The company offers its products through a network of channels, including branches and ATMs, online and mobile banking, and through customer call centers to customers in middle market banking, corporate, specialty, and government banking, asset finance, commercial real estate banking, and capital markets. The company was founded in 1866 and is headquartered in Columbus, Ohio."
+  "longBusinessSummary": "Huntington Bancshares Incorporated operates as the bank holding company for The Huntington National Bank that provides commercial, consumer, and mortgage banking services. It offers financial products and services to consumer and business customers, including deposits, lending, payments, mortgage banking, dealer financing, investment management, trust, brokerage, insurance, and other financial products and services. The company also provides 24-Hour Grace, Asterisk-Free Checking, Money Scout, $50 Safety Zone, Standby Cash, Early Pay, Instant Access, Savings Goal Getter, And Huntington Heads Up; digitally powered consumer and business financial solutions to consumer finance, regional banking, branch banking, and wealth management customers; direct and indirect consumer loans; dealer finance loans and deposits; and private banking, wealth management and legacy planning through investment and portfolio management, fiduciary administration and trust, institutional custody, and full-service retail brokerage investment services. In addition, it offers equipment financing, asset-based lending, distribution finance, structured lending, municipal financing solutions, and Huntington ChoicePay. Additionally, the company provides lending, liquidity, treasury management and other payment services, and capital markets; government and non-profits, healthcare, technology and telecommunications, franchises, financial sponsors, fund finance, Native American financial, and global services; and corporate risk management, institutional sales and trading, debt and equity issuance, and additional advisory services. The company offers its products through a network of channels, including branches and ATMs, online and mobile banking, and through customer call centers to customers in middle market banking, corporate, specialty, and government banking, asset finance, commercial real estate banking, and capital markets. The company was founded in 1866 and is headquartered in Columbus, Ohio.",
+  "targetMeanPrice": 19.165,
+  "targetLowPrice": 17.0,
+  "targetHighPrice": 22.5,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.71429,
+  "forwardPE": 8.687368,
+  "forwardEps": 1.76348,
+  "trailingEps": 1.3,
+  "earningsGrowth": -0.029,
+  "revenueGrowth": 0.476
  },
  "governance": {
   "ceo": {
@@ -78,8 +89,38 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "noninterest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 225106000000.0,
+    "official": 225106000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 24342000000.0,
+    "official": 24342000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2211000000.0,
+    "official": 2211000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 8131000000.0,
+    "official": 1562000000.0,
+    "diff": 4.205506
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:45:54+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -173,7 +214,9 @@
    "goodwill_and_intangibles": 6283000000.0,
    "retained_earnings": 3419000000.0,
    "total_debt": 11713000000.0,
-   "shares_out": 1443068036.0
+   "shares_out": 1443068036.0,
+   "unusual_items": -95000000.0,
+   "normalized_income": 2238000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -200,7 +243,9 @@
    "goodwill_and_intangibles": 6233000000.0,
    "retained_earnings": 4322000000.0,
    "total_debt": 13014000000.0,
-   "shares_out": 1448319953.0
+   "shares_out": 1448319953.0,
+   "unusual_items": 0.0,
+   "normalized_income": 1951000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -227,7 +272,9 @@
    "goodwill_and_intangibles": 6238000000.0,
    "retained_earnings": 5204000000.0,
    "total_debt": 16573000000.0,
-   "shares_out": 1453635809.0
+   "shares_out": 1453635809.0,
+   "unusual_items": 8000000.0,
+   "normalized_income": 1933472000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -254,7 +301,9 @@
    "goodwill_and_intangibles": 6749000000.0,
    "retained_earnings": 6351000000.0,
    "total_debt": 18482000000.0,
-   "shares_out": 1567732506.0
+   "shares_out": 1567732506.0,
+   "unusual_items": -133000000.0,
+   "normalized_income": 2321257000.0
   }
  ]
 }

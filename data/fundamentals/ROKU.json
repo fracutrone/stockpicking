@@ -1,6 +1,6 @@
 {
  "ticker": "ROKU",
- "fetched_at": "2026-10-10T12:57:02+00:00",
+ "fetched_at": "2026-10-10T15:54:44+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 3600,
   "website": "https://www.roku.com",
-  "longBusinessSummary": "Roku, Inc., together with its subsidiaries, operates a TV streaming platform in the United States and internationally. The company operates in two segments, Platform and Devices. Its streaming platform allows users to find and access TV shows, movies, news, sports, and others, as well as offers digital advertising services. The company also sells streaming players, Roku-branded TVs, smart home products and services, audio products, and related accessories. Roku, Inc. was incorporated in 2002 and is headquartered in San Jose, California."
+  "longBusinessSummary": "Roku, Inc., together with its subsidiaries, operates a TV streaming platform in the United States and internationally. The company operates in two segments, Platform and Devices. Its streaming platform allows users to find and access TV shows, movies, news, sports, and others, as well as offers digital advertising services. The company also sells streaming players, Roku-branded TVs, smart home products and services, audio products, and related accessories. Roku, Inc. was incorporated in 2002 and is headquartered in San Jose, California.",
+  "targetMeanPrice": 162.3265,
+  "targetLowPrice": 150.0,
+  "targetHighPrice": 205.0,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.51852,
+  "forwardPE": 38.677696,
+  "forwardEps": 3.95189,
+  "trailingEps": 2.35,
+  "earningsGrowth": 14.429,
+  "revenueGrowth": 0.219
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,38 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 4433483000.0,
+    "official": 4433483000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2657945000.0,
+    "official": 2657945000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 88361000.0,
+    "official": 88361000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 4737251000.0,
+    "official": 4737251000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:54:44+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -200,7 +241,9 @@
    "goodwill_and_intangibles": 513166000.0,
    "retained_earnings": -588026000.0,
    "total_debt": 719325000.0,
-   "shares_out": 140027000.0
+   "shares_out": 140027000.0,
+   "normalized_ebitda": -148609000.0,
+   "normalized_income": -498005000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -234,7 +277,9 @@
    "goodwill_and_intangibles": 460667000.0,
    "retained_earnings": -1297587000.0,
    "total_debt": 654273000.0,
-   "shares_out": 143502000.0
+   "shares_out": 143502000.0,
+   "normalized_ebitda": -362822000.0,
+   "normalized_income": -709561000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -269,7 +314,9 @@
    "goodwill_and_intangibles": 426341000.0,
    "retained_earnings": -1426973000.0,
    "total_debt": 591927000.0,
-   "shares_out": 145910000.0
+   "shares_out": 145910000.0,
+   "normalized_ebitda": 219878000.0,
+   "normalized_income": -129386000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -304,7 +351,9 @@
    "goodwill_and_intangibles": 527521000.0,
    "retained_earnings": -1488594000.0,
    "total_debt": 523324000.0,
-   "shares_out": 147850000.0
+   "shares_out": 147850000.0,
+   "normalized_ebitda": 436403000.0,
+   "normalized_income": 88361000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "BUT.L",
- "fetched_at": "2026-10-10T11:49:09+00:00",
+ "fetched_at": "2026-10-10T14:37:35+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -49,8 +60,15 @@
   "equity": "yahoo",
   "receivables": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T14:37:35+00:00",
  "years": [
   {
    "fy_end": "2022-11-30",
@@ -70,7 +88,8 @@
    "equity": 497096963.0,
    "receivables": 2705832.0,
    "total_debt": 34756341.0,
-   "shares_out": 42692727.0
+   "shares_out": 42692727.0,
+   "normalized_income": 3622528.0
   },
   {
    "fy_end": "2023-11-30",
@@ -90,7 +109,8 @@
    "equity": 528209759.0,
    "receivables": 1612128.0,
    "total_debt": 34910129.0,
-   "shares_out": 42692727.0
+   "shares_out": 42692727.0,
+   "normalized_income": 40630830.0
   },
   {
    "fy_end": "2024-11-30",
@@ -110,7 +130,8 @@
    "equity": 618182000.0,
    "receivables": 5419000.0,
    "total_debt": 34927000.0,
-   "shares_out": 42963736.0
+   "shares_out": 42963736.0,
+   "normalized_income": 96051000.0
   },
   {
    "fy_end": "2025-11-30",
@@ -130,7 +151,8 @@
    "equity": 667223000.0,
    "receivables": 1857000.0,
    "total_debt": 24671000.0,
-   "shares_out": 43237231.0
+   "shares_out": 43237231.0,
+   "normalized_income": 55552000.0
   }
  ]
 }

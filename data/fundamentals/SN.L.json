@@ -1,6 +1,6 @@
 {
  "ticker": "SN.L",
- "fetched_at": "2026-10-10T12:19:42+00:00",
+ "fetched_at": "2026-10-10T15:20:50+00:00",
  "region": "Europa",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 17000,
   "website": "https://www.smith-nephew.com",
-  "longBusinessSummary": "Smith & Nephew plc, together with its subsidiaries, develops, manufactures, markets, and sells medical devices and services in the United Kingdom, the United States, and internationally. The company operates in three segments: Orthopaedics, Sports Medicine & ENT, and Advanced Wound Management. It offers knee implant products for knee replacement procedures; hip implants for revision procedures; trauma and extremities products that include internal and external devices used in the stabilization of severe fractures and deformity correction procedures; and other reconstruction products. The company also provides sports medicine joint repair products comprise instruments, technologies, and implants to perform minimally invasive surgery, as well as treating soft tissue injuries and degenerative conditions of the shoulder, knee, hip, and small joints. In addition, it provides arthroscopic enabling technologies comprising fluid management equipment for surgical access, cameras, digital image capture, scopes, light sources, and monitors to assist with visualization inside the joints, radio frequency, electromechanical and mechanical tissue resection devices, and hand instruments for removing damaged tissue; and ear, nose, and throat solutions. Further, the company offers advanced wound care products for the treatment and prevention of acute and chronic wounds, leg, diabetic and pressure ulcers, burns, and post-operative wounds; advanced wound bioactives, such as biologics and other bioactive technologies for debridement and dermal repair/regeneration, and regenerative medicine products, including skin, bone graft, and articular cartilage substitutes; and advanced wound devices, such as traditional and single-use negative pressure wound therapy, and hydrosurgery systems. It serves the healthcare providers. Smith & Nephew plc was founded in 1856 and is headquartered in Watford, the United Kingdom."
+  "longBusinessSummary": "Smith & Nephew plc, together with its subsidiaries, develops, manufactures, markets, and sells medical devices and services in the United Kingdom, the United States, and internationally. The company operates in three segments: Orthopaedics, Sports Medicine & ENT, and Advanced Wound Management. It offers knee implant products for knee replacement procedures; hip implants for revision procedures; trauma and extremities products that include internal and external devices used in the stabilization of severe fractures and deformity correction procedures; and other reconstruction products. The company also provides sports medicine joint repair products comprise instruments, technologies, and implants to perform minimally invasive surgery, as well as treating soft tissue injuries and degenerative conditions of the shoulder, knee, hip, and small joints. In addition, it provides arthroscopic enabling technologies comprising fluid management equipment for surgical access, cameras, digital image capture, scopes, light sources, and monitors to assist with visualization inside the joints, radio frequency, electromechanical and mechanical tissue resection devices, and hand instruments for removing damaged tissue; and ear, nose, and throat solutions. Further, the company offers advanced wound care products for the treatment and prevention of acute and chronic wounds, leg, diabetic and pressure ulcers, burns, and post-operative wounds; advanced wound bioactives, such as biologics and other bioactive technologies for debridement and dermal repair/regeneration, and regenerative medicine products, including skin, bone graft, and articular cartilage substitutes; and advanced wound devices, such as traditional and single-use negative pressure wound therapy, and hydrosurgery systems. It serves the healthcare providers. Smith & Nephew plc was founded in 1856 and is headquartered in Watford, the United Kingdom.",
+  "targetMeanPrice": 1266.8931,
+  "targetLowPrice": 1068.475,
+  "targetHighPrice": 1569.162,
+  "numberOfAnalystOpinions": 17,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.66667,
+  "forwardPE": 11.268357,
+  "forwardEps": 0.905633,
+  "trailingEps": 0.55,
+  "earningsGrowth": 0.057,
+  "revenueGrowth": 0.046
  },
  "governance": {
   "ceo": {
@@ -80,8 +91,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 10457000000.0,
+    "official": 10457000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 5289000000.0,
+    "official": 5289000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 625000000.0,
+    "official": 625000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 6164000000.0,
+    "official": 6164000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:20:50+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -115,7 +158,10 @@
    "goodwill_and_intangibles": 4267000000.0,
    "retained_earnings": 5026000000.0,
    "total_debt": 2872000000.0,
-   "shares_out": 870143133.0
+   "shares_out": 870143133.0,
+   "unusual_items": -184000000.0,
+   "normalized_ebitda": 1058000000.0,
+   "normalized_income": 397604255.319149
   },
   {
    "fy_end": "2023-12-31",
@@ -149,7 +195,10 @@
    "goodwill_and_intangibles": 4102000000.0,
    "retained_earnings": 4906000000.0,
    "total_debt": 3084000000.0,
-   "shares_out": 871831675.0
+   "shares_out": 871831675.0,
+   "unusual_items": -195000000.0,
+   "normalized_ebitda": 1151000000.0,
+   "normalized_income": 439844827.586207
   },
   {
    "fy_end": "2024-12-31",
@@ -183,7 +232,10 @@
    "goodwill_and_intangibles": 4058000000.0,
    "retained_earnings": 5018000000.0,
    "total_debt": 3321000000.0,
-   "shares_out": 873487717.0
+   "shares_out": 873487717.0,
+   "unusual_items": -203000000.0,
+   "normalized_ebitda": 1424000000.0,
+   "normalized_income": 579943775.100402
   },
   {
    "fy_end": "2025-12-31",
@@ -217,7 +269,10 @@
    "goodwill_and_intangibles": 3990000000.0,
    "retained_earnings": 5323000000.0,
    "total_debt": 3327000000.0,
-   "shares_out": 849361705.0
+   "shares_out": 849361705.0,
+   "unusual_items": -63000000.0,
+   "normalized_ebitda": 1595000000.0,
+   "normalized_income": 675545571.245186
   }
  ]
 }

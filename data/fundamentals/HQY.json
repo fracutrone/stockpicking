@@ -1,6 +1,6 @@
 {
  "ticker": "HQY",
- "fetched_at": "2026-10-10T12:48:01+00:00",
+ "fetched_at": "2026-10-10T15:46:26+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 2814,
   "website": "https://www.healthequity.com",
-  "longBusinessSummary": "HealthEquity, Inc. provides technology-enabled services platforms to consumers and employers in the United States. It offers health savings accounts (HAS); investment platform; online-only automated investment advisory services through Advisor, a Web-based tool. The company also provides flexible spending accounts (FSA) for health and dependent care; health reimbursement arrangements; and Consolidated Omnibus Budget Reconciliation Act continuation services, as well as administers pre-tax commuter benefit programs. In addition, the company offers HSA and FSA members with access to certain healthcare products, programs, and services through its marketplace. It serves clients through a direct sales force; and brokers and advisors, a network of health plans, benefits administrators, benefits brokers and consultants, and retirement plan record-keepers. HealthEquity, Inc. was incorporated in 2002 and is based in Draper, Utah."
+  "longBusinessSummary": "HealthEquity, Inc. provides technology-enabled services platforms to consumers and employers in the United States. It offers health savings accounts (HAS); investment platform; online-only automated investment advisory services through Advisor, a Web-based tool. The company also provides flexible spending accounts (FSA) for health and dependent care; health reimbursement arrangements; and Consolidated Omnibus Budget Reconciliation Act continuation services, as well as administers pre-tax commuter benefit programs. In addition, the company offers HSA and FSA members with access to certain healthcare products, programs, and services through its marketplace. It serves clients through a direct sales force; and brokers and advisors, a network of health plans, benefits administrators, benefits brokers and consultants, and retirement plan record-keepers. HealthEquity, Inc. was incorporated in 2002 and is based in Draper, Utah.",
+  "targetMeanPrice": 119.33333,
+  "targetLowPrice": 105.0,
+  "targetHighPrice": 142.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.33333,
+  "forwardPE": 16.837845,
+  "forwardEps": 5.50011,
+  "trailingEps": 2.77,
+  "earningsGrowth": 0.147,
+  "revenueGrowth": 0.076
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "inventory": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-01-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3380332000.0,
+    "official": 3380332000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2107196000.0,
+    "official": 2107196000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 215201000.0,
+    "official": 215201000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1313429000.0,
+    "official": 1313429000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:46:26+00:00",
  "years": [
   {
    "fy_end": "2020-01-31",
@@ -199,7 +241,10 @@
    "goodwill_and_intangibles": 2584504000.0,
    "retained_earnings": 149916000.0,
    "total_debt": 925338000.0,
-   "shares_out": 84758000.0
+   "shares_out": 84758000.0,
+   "unusual_items": -28649000.0,
+   "normalized_ebitda": 200178000.0,
+   "normalized_income": -6489786.0
   },
   {
    "fy_end": "2024-01-31",
@@ -232,7 +277,10 @@
    "goodwill_and_intangibles": 2484093000.0,
    "retained_earnings": 205628000.0,
    "total_debt": 874972000.0,
-   "shares_out": 86127000.0
+   "shares_out": 86127000.0,
+   "unusual_items": -10435000.0,
+   "normalized_ebitda": 294008000.0,
+   "normalized_income": 63459264.392324
   },
   {
    "fy_end": "2025-01-31",
@@ -265,7 +313,10 @@
    "goodwill_and_intangibles": 2852803000.0,
    "retained_earnings": 209274000.0,
    "total_debt": 1056301000.0,
-   "shares_out": 86536000.0
+   "shares_out": 86536000.0,
+   "unusual_items": -40535000.0,
+   "normalized_ebitda": 379654000.0,
+   "normalized_income": 130484961.364772
   },
   {
    "fy_end": "2026-01-31",
@@ -298,7 +349,10 @@
    "goodwill_and_intangibles": 2745317000.0,
    "retained_earnings": 195906000.0,
    "total_debt": 957379000.0,
-   "shares_out": 85007000.0
+   "shares_out": 85007000.0,
+   "unusual_items": -5024000.0,
+   "normalized_ebitda": 494244000.0,
+   "normalized_income": 219099624.0
   }
  ]
 }

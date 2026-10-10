@@ -1,6 +1,6 @@
 {
  "ticker": "ENTG",
- "fetched_at": "2026-10-10T12:44:25+00:00",
+ "fetched_at": "2026-10-10T15:42:48+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 7700,
   "website": "https://www.entegris.com",
-  "longBusinessSummary": "Entegris, Inc. provides advanced materials and process solutions for the semiconductor and other high-technology industries in North America, Taiwan, South Korea, Japan, China, Europe, and Southeast Asia. It operates in two segments, Materials Solutions (MS) and Advanced Purity Solutions (APS). The MS segment provides materials-based solutions, such as chemical vapor and atomic layer deposition materials, chemical mechanical planarization slurries and pads, ion implantation specialty gases, formulated etch and clean materials, and other specialty materials. The APS segment offers filtration, purification, and contamination-control solutions for the semiconductor manufacturing processes, semiconductor ecosystem, and other high-technology industries. The company's customers include logic and memory semiconductor device manufacturers, semiconductor equipment makers, gas and chemical manufacturing companies, and wafer grower companies; and outsourced semiconductor assembly and test facilities, flat panel display equipment makers, and manufacturers of hard disk drive components and devices. It serves manufacturers and suppliers in the solar and life science industries, electrical discharge machining customers, glass manufacturers, aerospace manufacturers, and manufacturers of biomedical implantation devices. Entegris, Inc. was founded in 1966 and is headquartered in Billerica, Massachusetts."
+  "longBusinessSummary": "Entegris, Inc. provides advanced materials and process solutions for the semiconductor and other high-technology industries in North America, Taiwan, South Korea, Japan, China, Europe, and Southeast Asia. It operates in two segments, Materials Solutions (MS) and Advanced Purity Solutions (APS). The MS segment provides materials-based solutions, such as chemical vapor and atomic layer deposition materials, chemical mechanical planarization slurries and pads, ion implantation specialty gases, formulated etch and clean materials, and other specialty materials. The APS segment offers filtration, purification, and contamination-control solutions for the semiconductor manufacturing processes, semiconductor ecosystem, and other high-technology industries. The company's customers include logic and memory semiconductor device manufacturers, semiconductor equipment makers, gas and chemical manufacturing companies, and wafer grower companies; and outsourced semiconductor assembly and test facilities, flat panel display equipment makers, and manufacturers of hard disk drive components and devices. It serves manufacturers and suppliers in the solar and life science industries, electrical discharge machining customers, glass manufacturers, aerospace manufacturers, and manufacturers of biomedical implantation devices. Entegris, Inc. was founded in 1966 and is headquartered in Billerica, Massachusetts.",
+  "targetMeanPrice": 175.58333,
+  "targetLowPrice": 120.0,
+  "targetHighPrice": 215.0,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.69231,
+  "forwardPE": 32.961285,
+  "forwardEps": 5.02984,
+  "trailingEps": 2.0,
+  "earningsGrowth": 0.751,
+  "revenueGrowth": 0.115
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 8350500000.0,
+    "official": 8350500000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3953400000.0,
+    "official": 3953400000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 235600000.0,
+    "official": 235600000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3196600000.0,
+    "official": 3196600000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:42:48+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -200,7 +242,10 @@
    "intangibles": 1841955000.0,
    "retained_earnings": 1031391000.0,
    "total_debt": 5784893000.0,
-   "shares_out": 149137086.0
+   "shares_out": 149137086.0,
+   "unusual_items": -26321000.0,
+   "normalized_ebitda": 765394000.0,
+   "normalized_income": 231175881.981544
   },
   {
    "fy_end": "2023-12-31",
@@ -233,7 +278,10 @@
    "intangibles": 1281969000.0,
    "retained_earnings": 1151765000.0,
    "total_debt": 4577141000.0,
-   "shares_out": 150363607.0
+   "shares_out": 150363607.0,
+   "unusual_items": 44900000.0,
+   "normalized_ebitda": 827400000.0,
+   "normalized_income": 145229000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -267,7 +315,10 @@
    "goodwill_and_intangibles": 5035300000.0,
    "retained_earnings": 1383900000.0,
    "total_debt": 3981100000.0,
-   "shares_out": 151122000.0
+   "shares_out": 151122000.0,
+   "unusual_items": -2000000.0,
+   "normalized_ebitda": 917400000.0,
+   "normalized_income": 294624223.602484
   },
   {
    "fy_end": "2025-12-31",
@@ -300,7 +351,10 @@
    "intangibles": 906900000.0,
    "retained_earnings": 1558400000.0,
    "total_debt": 3697600000.0,
-   "shares_out": 151900000.0
+   "shares_out": 151900000.0,
+   "unusual_items": -477900000.0,
+   "normalized_ebitda": 1322000000.0,
+   "normalized_income": 679569100.0
   }
  ]
 }

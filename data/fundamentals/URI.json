@@ -1,6 +1,6 @@
 {
  "ticker": "URI",
- "fetched_at": "2026-10-10T13:01:01+00:00",
+ "fetched_at": "2026-10-10T15:58:34+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 28500,
   "website": "https://www.unitedrentals.com",
-  "longBusinessSummary": "United Rentals, Inc., through its subsidiaries, operates as an equipment rental company in the United States, Canada, Europe, Australia, and New Zealand. It operates through two segments, General Rentals and Specialty. The General Rentals segment rents general construction and industrial equipment, such as backhoes, skid-steer loaders, forklifts, earthmoving equipment, and material handling equipment; aerial work platforms, including boom and scissor lifts; and general tools and light equipment comprising pressure washers, water pumps, and power tools for construction and industrial companies, manufacturers, utilities, municipalities, homeowners, and government entities. The specialty segment rents trench safety equipment consists of trench shields, aluminum hydraulic shoring systems, slide rails, crossing plates, construction lasers, and line testing equipment for underground work; power and heating, ventilating, and air conditioning equipment, such as portable diesel generators, electrical distribution equipment, and temperature control equipment; fluid solutions equipment for fluid containment, transfer, and treatment; surface protection mats; and mobile storage equipment and modular office space. This segment serves construction companies involved in infrastructure projects, and municipalities and industrial companies. The company also sells aerial lifts, reach forklifts, telehandlers, compressors, and generators; construction consumables, tools, small equipment, and safety supplies; and parts for equipment that is owned by its customers, as well as provides repair and maintenance services. It sells used equipment through its sales force, brokers, website, at auctions, and directly to manufacturers. United Rentals, Inc. was incorporated in 1997 and is headquartered in Stamford, Connecticut."
+  "longBusinessSummary": "United Rentals, Inc., through its subsidiaries, operates as an equipment rental company in the United States, Canada, Europe, Australia, and New Zealand. It operates through two segments, General Rentals and Specialty. The General Rentals segment rents general construction and industrial equipment, such as backhoes, skid-steer loaders, forklifts, earthmoving equipment, and material handling equipment; aerial work platforms, including boom and scissor lifts; and general tools and light equipment comprising pressure washers, water pumps, and power tools for construction and industrial companies, manufacturers, utilities, municipalities, homeowners, and government entities. The specialty segment rents trench safety equipment consists of trench shields, aluminum hydraulic shoring systems, slide rails, crossing plates, construction lasers, and line testing equipment for underground work; power and heating, ventilating, and air conditioning equipment, such as portable diesel generators, electrical distribution equipment, and temperature control equipment; fluid solutions equipment for fluid containment, transfer, and treatment; surface protection mats; and mobile storage equipment and modular office space. This segment serves construction companies involved in infrastructure projects, and municipalities and industrial companies. The company also sells aerial lifts, reach forklifts, telehandlers, compressors, and generators; construction consumables, tools, small equipment, and safety supplies; and parts for equipment that is owned by its customers, as well as provides repair and maintenance services. It sells used equipment through its sales force, brokers, website, at auctions, and directly to manufacturers. United Rentals, Inc. was incorporated in 1997 and is headquartered in Stamford, Connecticut.",
+  "targetMeanPrice": 1265.9524,
+  "targetLowPrice": 950.0,
+  "targetHighPrice": 1610.0,
+  "numberOfAnalystOpinions": 21,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.77273,
+  "forwardPE": 18.404642,
+  "forwardEps": 57.39693,
+  "trailingEps": 41.59,
+  "earningsGrowth": 0.255,
+  "revenueGrowth": 0.118
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 29866000000.0,
+    "official": 29866000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 8968000000.0,
+    "official": 8968000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2494000000.0,
+    "official": 2494000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 16099000000.0,
+    "official": 16099000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:58:34+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -197,7 +239,10 @@
    "goodwill_and_intangibles": 6478000000.0,
    "retained_earnings": 9656000000.0,
    "total_debt": 11447000000.0,
-   "shares_out": 69356981.0
+   "shares_out": 69356981.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 5464000000.0,
+   "normalized_income": 2105000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -231,7 +276,10 @@
    "goodwill_and_intangibles": 6610000000.0,
    "retained_earnings": 11672000000.0,
    "total_debt": 11582000000.0,
-   "shares_out": 67269577.0
+   "shares_out": 67269577.0,
+   "unusual_items": -28000000.0,
+   "normalized_ebitda": 6655000000.0,
+   "normalized_income": 2445140000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -265,7 +313,10 @@
    "goodwill_and_intangibles": 7563000000.0,
    "retained_earnings": 13813000000.0,
    "total_debt": 13472000000.0,
-   "shares_out": 65305731.0
+   "shares_out": 65305731.0,
+   "unusual_items": -3000000.0,
+   "normalized_ebitda": 6985000000.0,
+   "normalized_income": 2577280000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -299,7 +350,10 @@
    "goodwill_and_intangibles": 7596000000.0,
    "retained_earnings": 15843000000.0,
    "total_debt": 14302000000.0,
-   "shares_out": 63095970.0
+   "shares_out": 63095970.0,
+   "unusual_items": -1000000.0,
+   "normalized_ebitda": 7163000000.0,
+   "normalized_income": 2494747000.0
   }
  ]
 }

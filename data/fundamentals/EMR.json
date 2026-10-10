@@ -1,6 +1,6 @@
 {
  "ticker": "EMR",
- "fetched_at": "2026-10-10T12:44:21+00:00",
+ "fetched_at": "2026-10-10T15:42:43+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 71000,
   "website": "https://www.emerson.com",
-  "longBusinessSummary": "Emerson Electric Co., a technology and software company, provides various solutions in the Americas, Asia, the Middle East, Africa, and Europe. It operates through Final Control, Measurement & Analytical, Discrete Automation, Safety & Productivity, Control Systems & Software, and Test & Measurement segments. The Final Control segment provides control valves, isolation valves, shutoff valves, pressure relief valves, pressure safety valves, actuators, and regulators for process and hybrid industries under Anderson Greenwood, Bettis, Crosby, Fisher, Keystone, KTM, and Vanessa brands. The Measurement & Analytical segment supplies intelligent instrumentation measuring the physical properties of liquids or gases, such as pressure, temperature, level, flow, acoustics, corrosion, pH, conductivity, water quality, toxic gases, and flame under the Flexim, Micro Motion, and Rosemount brands. The Discrete Automation segment includes solenoid valves, pneumatic valves, valve position indicators, pneumatic cylinders and actuators, air preparation equipment, pressure and temperature switches, electric linear motion solutions, programmable automation control systems and software, electrical distribution equipment, and materials joining solutions used primarily in discrete industries under the Afag, Appleton, ASCO, Aventics, Branson, Movicon, PACSystems, SolaHD, TESCOM, and TopWorx brands. The Safety & Productivity segment delivers tools for professionals and homeowners that support infrastructure, promote safety, and enhance productivity under the Greenlee, Klauke, ProTeam, and RIDGID brands. The Control Systems & Software segment provides control systems and software that control plant processes by collecting and analyzing information from measurement devices in the plant under the DeltaV and Ovation brands. The Test & Measurement offers software-connected automated test and measurement systems. The company was incorporated in 1890 and is headquartered in Saint Louis, Missouri."
+  "longBusinessSummary": "Emerson Electric Co., a technology and software company, provides various solutions in the Americas, Asia, the Middle East, Africa, and Europe. It operates through Final Control, Measurement & Analytical, Discrete Automation, Safety & Productivity, Control Systems & Software, and Test & Measurement segments. The Final Control segment provides control valves, isolation valves, shutoff valves, pressure relief valves, pressure safety valves, actuators, and regulators for process and hybrid industries under Anderson Greenwood, Bettis, Crosby, Fisher, Keystone, KTM, and Vanessa brands. The Measurement & Analytical segment supplies intelligent instrumentation measuring the physical properties of liquids or gases, such as pressure, temperature, level, flow, acoustics, corrosion, pH, conductivity, water quality, toxic gases, and flame under the Flexim, Micro Motion, and Rosemount brands. The Discrete Automation segment includes solenoid valves, pneumatic valves, valve position indicators, pneumatic cylinders and actuators, air preparation equipment, pressure and temperature switches, electric linear motion solutions, programmable automation control systems and software, electrical distribution equipment, and materials joining solutions used primarily in discrete industries under the Afag, Appleton, ASCO, Aventics, Branson, Movicon, PACSystems, SolaHD, TESCOM, and TopWorx brands. The Safety & Productivity segment delivers tools for professionals and homeowners that support infrastructure, promote safety, and enhance productivity under the Greenlee, Klauke, ProTeam, and RIDGID brands. The Control Systems & Software segment provides control systems and software that control plant processes by collecting and analyzing information from measurement devices in the plant under the DeltaV and Ovation brands. The Test & Measurement offers software-connected automated test and measurement systems. The company was incorporated in 1890 and is headquartered in Saint Louis, Missouri.",
+  "targetMeanPrice": 174.21393,
+  "targetLowPrice": 104.0,
+  "targetHighPrice": 205.0,
+  "numberOfAnalystOpinions": 28,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.9,
+  "forwardPE": 22.263893,
+  "forwardEps": 7.26872,
+  "trailingEps": 4.65,
+  "earningsGrowth": 0.23,
+  "revenueGrowth": 0.07
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-09-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 41964000000.0,
+    "official": 41964000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 20282000000.0,
+    "official": 20282000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2293000000.0,
+    "official": 2293000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 18016000000.0,
+    "official": 18016000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:42:43+00:00",
  "years": [
   {
    "fy_end": "2019-09-30",
@@ -198,7 +240,10 @@
    "goodwill_and_intangibles": 20518000000.0,
    "retained_earnings": 28053000000.0,
    "total_debt": 10374000000.0,
-   "shares_out": 591400000.0
+   "shares_out": 591400000.0,
+   "unusual_items": -283000000.0,
+   "normalized_ebitda": 3785000000.0,
+   "normalized_income": 2103042000.0
   },
   {
    "fy_end": "2023-09-30",
@@ -232,7 +277,10 @@
    "goodwill_and_intangibles": 20743000000.0,
    "retained_earnings": 40070000000.0,
    "total_debt": 8157000000.0,
-   "shares_out": 572000000.0
+   "shares_out": 572000000.0,
+   "unusual_items": -169000000.0,
+   "normalized_ebitda": 4384000000.0,
+   "normalized_income": 2411651000.0
   },
   {
    "fy_end": "2024-09-30",
@@ -266,7 +314,10 @@
    "goodwill_and_intangibles": 28503000000.0,
    "retained_earnings": 40830000000.0,
    "total_debt": 7687000000.0,
-   "shares_out": 570200000.0
+   "shares_out": 570200000.0,
+   "unusual_items": -429000000.0,
+   "normalized_ebitda": 4461000000.0,
+   "normalized_income": 1958626000.0
   },
   {
    "fy_end": "2025-09-30",
@@ -300,7 +351,10 @@
    "goodwill_and_intangibles": 27651000000.0,
    "retained_earnings": 40603000000.0,
    "total_debt": 13116000000.0,
-   "shares_out": 562800000.0
+   "shares_out": 562800000.0,
+   "unusual_items": -442000000.0,
+   "normalized_ebitda": 5281000000.0,
+   "normalized_income": 2622246000.0
   }
  ]
 }

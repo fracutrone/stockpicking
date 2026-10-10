@@ -1,6 +1,6 @@
 {
  "ticker": "FSLR",
- "fetched_at": "2026-10-10T12:46:10+00:00",
+ "fetched_at": "2026-10-10T15:44:28+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 7900,
   "website": "https://www.firstsolar.com",
-  "longBusinessSummary": "First Solar, Inc., a solar technology company, provides photovoltaic (PV) solar energy solutions in the United States, France, India, Chile, and internationally. The company manufactures and sells PV solar modules with thin film semiconductor technology that provides conventional crystalline silicon PV solar modules. It also designs, manufactures, and sells cadmium telluride solar modules that convert sunlight into electricity. The company serves system developers, independent power producers, utilities, commercial and industrial companies, large corporate energy buyers, and other system owners and operators. The company was formerly known as First Solar Holdings, Inc. and changed its name to First Solar, Inc. in 2006. First Solar, Inc. was founded in 1999 and is headquartered in Phoenix, Arizona."
+  "longBusinessSummary": "First Solar, Inc., a solar technology company, provides photovoltaic (PV) solar energy solutions in the United States, France, India, Chile, and internationally. The company manufactures and sells PV solar modules with thin film semiconductor technology that provides conventional crystalline silicon PV solar modules. It also designs, manufactures, and sells cadmium telluride solar modules that convert sunlight into electricity. The company serves system developers, independent power producers, utilities, commercial and industrial companies, large corporate energy buyers, and other system owners and operators. The company was formerly known as First Solar Holdings, Inc. and changed its name to First Solar, Inc. in 2006. First Solar, Inc. was founded in 1999 and is headquartered in Phoenix, Arizona.",
+  "targetMeanPrice": 274.47134,
+  "targetLowPrice": 197.0,
+  "targetHighPrice": 402.0,
+  "numberOfAnalystOpinions": 30,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.86111,
+  "forwardPE": 7.670213,
+  "forwardEps": 23.18319,
+  "trailingEps": 16.22,
+  "earningsGrowth": 0.233,
+  "revenueGrowth": -0.037
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 13321310000.0,
+    "official": 13321310000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 9537993000.0,
+    "official": 9537993000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1528229000.0,
+    "official": 1528229000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 5219376000.0,
+    "official": 5219376000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:44:28+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -208,7 +250,9 @@
    "goodwill_and_intangibles": 45568000.0,
    "retained_earnings": 3140289000.0,
    "total_debt": 185000000.0,
-   "shares_out": 106609094.0
+   "shares_out": 106609094.0,
+   "unusual_items": 237097000.0,
+   "normalized_ebitda": 53450000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -243,7 +287,10 @@
    "goodwill_and_intangibles": 94198000.0,
    "retained_earnings": 3971066000.0,
    "total_debt": 464068000.0,
-   "shares_out": 106847475.0
+   "shares_out": 106847475.0,
+   "unusual_items": -50240000.0,
+   "normalized_ebitda": 1262489000.0,
+   "normalized_income": 877606019.152016
   },
   {
    "fy_end": "2024-12-31",
@@ -278,7 +325,9 @@
    "goodwill_and_intangibles": 82989000.0,
    "retained_earnings": 5263110000.0,
    "total_debt": 373354000.0,
-   "shares_out": 107060281.0
+   "shares_out": 107060281.0,
+   "unusual_items": -24291000.0,
+   "normalized_ebitda": 1892997000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -313,7 +362,9 @@
    "goodwill_and_intangibles": 82102000.0,
    "retained_earnings": 6791339000.0,
    "total_debt": 282593000.0,
-   "shares_out": 107309794.0
+   "shares_out": 107309794.0,
+   "unusual_items": -38569000.0,
+   "normalized_ebitda": 2192829000.0
   }
  ]
 }

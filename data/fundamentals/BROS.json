@@ -1,6 +1,6 @@
 {
  "ticker": "BROS",
- "fetched_at": "2026-10-10T12:39:26+00:00",
+ "fetched_at": "2026-10-10T15:38:16+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 27000,
   "website": "https://www.dutchbros.com",
-  "longBusinessSummary": "Dutch Bros Inc., together with its subsidiaries, operates and franchises drive-thru shops in the United States. The company sells and distributes coffee, coffee-related products, and accessories. It operates through Company-Operated Shops and Franchising and Other segments. The company sells its products under various brands such as Dutch Bros, Dutch Bros Coffee, Dutch Bros Rebel, Dutch Bros, and Blue Rebel. Dutch Bros Inc. was founded in 1992 and is based in Tempe, Arizona."
+  "longBusinessSummary": "Dutch Bros Inc., together with its subsidiaries, operates and franchises drive-thru shops in the United States. The company sells and distributes coffee, coffee-related products, and accessories. It operates through Company-Operated Shops and Franchising and Other segments. The company sells its products under various brands such as Dutch Bros, Dutch Bros Coffee, Dutch Bros Rebel, Dutch Bros, and Blue Rebel. Dutch Bros Inc. was founded in 1992 and is based in Tempe, Arizona.",
+  "targetMeanPrice": 72.36,
+  "targetLowPrice": 29.0,
+  "targetHighPrice": 95.0,
+  "numberOfAnalystOpinions": 25,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.26923,
+  "forwardPE": 28.508278,
+  "forwardEps": 1.3347,
+  "trailingEps": 0.72,
+  "earningsGrowth": 0.373,
+  "revenueGrowth": 0.325
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,38 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3009314000.0,
+    "official": 3009314000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 680818000.0,
+    "official": 680818000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 79842000.0,
+    "official": 79842000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1638159000.0,
+    "official": 1638159000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:38:16+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -184,7 +225,9 @@
    "goodwill_and_intangibles": 30433000.0,
    "retained_earnings": -17310000.0,
    "total_debt": 100028000.0,
-   "shares_out": 57955000.0
+   "shares_out": 57955000.0,
+   "normalized_ebitda": 46092000.0,
+   "normalized_income": -4753000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -218,7 +261,9 @@
    "goodwill_and_intangibles": 27044000.0,
    "retained_earnings": -15592000.0,
    "total_debt": 99062000.0,
-   "shares_out": 80627000.0
+   "shares_out": 80627000.0,
+   "normalized_ebitda": 118375000.0,
+   "normalized_income": 1718000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -252,7 +297,9 @@
    "goodwill_and_intangibles": 2947000.0,
    "retained_earnings": 19666000.0,
    "total_debt": 238009000.0,
-   "shares_out": 115432000.0
+   "shares_out": 115432000.0,
+   "normalized_ebitda": 204910000.0,
+   "normalized_income": 35258000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -286,7 +333,9 @@
    "goodwill_and_intangibles": 1510000.0,
    "retained_earnings": 99508000.0,
    "total_debt": 202463000.0,
-   "shares_out": 127054000.0
+   "shares_out": 127054000.0,
+   "normalized_ebitda": 279061000.0,
+   "normalized_income": 79842000.0
   }
  ]
 }

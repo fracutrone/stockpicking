@@ -1,6 +1,6 @@
 {
  "ticker": "TIT.MI",
- "fetched_at": "2026-10-10T12:22:14+00:00",
+ "fetched_at": "2026-10-10T15:25:00+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "MIL",
   "fullTimeEmployees": 25622,
   "website": "https://www.gruppotim.it/en.html",
-  "longBusinessSummary": "Telecom Italia S.p.A., together with its subsidiaries, engages in the fixed and mobile telecommunications services and products for individuals, households, and supports small and medium-sized enterprises in Italy and internationally. It operates through Domestic, Brazil, and Other Operations segments. The company offers telephone and internet services, as well as products managed and developed in landline and mobile for individuals and families; voice, data, and internet services and products; and information and communications technology solutions for top, public sector and large account customers. It also provides connectivity services; mobile phone services and fiber optic data transmission using IP technology and residential broadband services; and internet of things services. Telecom Italia S.p.A. was incorporated in 1908 and is headquartered in Rome, Italy."
+  "longBusinessSummary": "Telecom Italia S.p.A., together with its subsidiaries, engages in the fixed and mobile telecommunications services and products for individuals, households, and supports small and medium-sized enterprises in Italy and internationally. It operates through Domestic, Brazil, and Other Operations segments. The company offers telephone and internet services, as well as products managed and developed in landline and mobile for individuals and families; voice, data, and internet services and products; and information and communications technology solutions for top, public sector and large account customers. It also provides connectivity services; mobile phone services and fiber optic data transmission using IP technology and residential broadband services; and internet of things services. Telecom Italia S.p.A. was incorporated in 1908 and is headquartered in Rome, Italy.",
+  "targetMeanPrice": 6.557,
+  "targetLowPrice": 2.8,
+  "targetHighPrice": 8.0,
+  "numberOfAnalystOpinions": 10,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.55556,
+  "forwardPE": 19.540434,
+  "forwardEps": 0.28418,
+  "trailingEps": 0.21,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.064
  },
  "governance": {
   "ceo": {
@@ -75,8 +86,40 @@
   "intangibles": "yahoo",
   "goodwill_and_intangibles": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF IT",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 36734000000.0,
+    "official": 36734000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 12219000000.0,
+    "official": 12219000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 297000000.0,
+    "official": 297000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 13734000000.0,
+    "official": 13734000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:25:00+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -109,7 +152,10 @@
    "intangibles": 7670000000.0,
    "goodwill_and_intangibles": 26781000000.0,
    "total_debt": 31189000000.0,
-   "shares_out": 7549144129.0
+   "shares_out": 7549144129.0,
+   "unusual_items": -353000000.0,
+   "normalized_ebitda": 5863000000.0,
+   "normalized_income": -2656720000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -142,7 +188,10 @@
    "intangibles": 7152000000.0,
    "goodwill_and_intangibles": 26322000000.0,
    "total_debt": 31551000000.0,
-   "shares_out": 7550232106.0
+   "shares_out": 7550232106.0,
+   "unusual_items": -599000000.0,
+   "normalized_ebitda": 5411000000.0,
+   "normalized_income": 27240000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -175,7 +224,10 @@
    "intangibles": 6052000000.0,
    "goodwill_and_intangibles": 17082000000.0,
    "total_debt": 14717000000.0,
-   "shares_out": 7551094068.0
+   "shares_out": 7551094068.0,
+   "unusual_items": -186000000.0,
+   "normalized_ebitda": 5011000000.0,
+   "normalized_income": 129360000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -208,7 +260,10 @@
    "intangibles": 5451000000.0,
    "goodwill_and_intangibles": 16476000000.0,
    "total_debt": 13224000000.0,
-   "shares_out": 7551834307.0
+   "shares_out": 7551834307.0,
+   "unusual_items": 641000000.0,
+   "normalized_ebitda": 3961000000.0,
+   "normalized_income": -166455445.544554
   }
  ]
 }

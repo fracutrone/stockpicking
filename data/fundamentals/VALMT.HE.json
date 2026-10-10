@@ -1,6 +1,6 @@
 {
  "ticker": "VALMT.HE",
- "fetched_at": "2026-10-10T12:24:36+00:00",
+ "fetched_at": "2026-10-10T15:27:58+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "HEL",
   "fullTimeEmployees": 18673,
   "website": "https://www.valmet.com",
-  "longBusinessSummary": "Valmet Oyj develops and supplies process technologies, automation, and services for the pulp, paper, and energy industries in North America, Latin America, EMEA, China, and Asia-Pacific. It operates through two segments: Process Performance Solutions and Biomaterial Solutions and Services. The Process Performance Solutions segment delivers flow control technologies and automation systems, ranging from individual measurements to full plant-wide solutions. The Biomaterial Solutions and Services segment serves global producers in the pulp, paper, packaging, tissue, and bioenergy industries, providing complete production lines, key process islands; and a full range of lifecycle services, enabling improvements in fiber yield, energy and water efficiency, emissions, and operational uptime. It offers automation systems, distributed control systems, industrial applications, analyzers and measurements, industrial internet solutions, automation services, valves, pumps, and valve automation soultions. The company also provides technologies for pulp, energy, circularity, packaging, paper, and tissue, including rebuilds, upgrades, conversions, and maintenance services. In addition, the company develops digital solutions for remote or on-site monitoring and predictive maintenance. It serves pulp, board and paper, energy and industrial gas, biomaterials and fuel, chemical, and mineral industries. Valmet Oyj was founded in 1750 and is headquartered in Espoo, Finland."
+  "longBusinessSummary": "Valmet Oyj develops and supplies process technologies, automation, and services for the pulp, paper, and energy industries in North America, Latin America, EMEA, China, and Asia-Pacific. It operates through two segments: Process Performance Solutions and Biomaterial Solutions and Services. The Process Performance Solutions segment delivers flow control technologies and automation systems, ranging from individual measurements to full plant-wide solutions. The Biomaterial Solutions and Services segment serves global producers in the pulp, paper, packaging, tissue, and bioenergy industries, providing complete production lines, key process islands; and a full range of lifecycle services, enabling improvements in fiber yield, energy and water efficiency, emissions, and operational uptime. It offers automation systems, distributed control systems, industrial applications, analyzers and measurements, industrial internet solutions, automation services, valves, pumps, and valve automation soultions. The company also provides technologies for pulp, energy, circularity, packaging, paper, and tissue, including rebuilds, upgrades, conversions, and maintenance services. In addition, the company develops digital solutions for remote or on-site monitoring and predictive maintenance. It serves pulp, board and paper, energy and industrial gas, biomaterials and fuel, chemical, and mineral industries. Valmet Oyj was founded in 1750 and is headquartered in Espoo, Finland.",
+  "targetMeanPrice": 31.46667,
+  "targetLowPrice": 27.0,
+  "targetHighPrice": 37.8,
+  "numberOfAnalystOpinions": 6,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": 11.318893,
+  "forwardEps": 2.35182,
+  "trailingEps": 1.6,
+  "earningsGrowth": 1.667,
+  "revenueGrowth": 0.06
  },
  "governance": {
   "ceo": {
@@ -77,8 +88,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF FI",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 6634000000.0,
+    "official": 6634000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2584000000.0,
+    "official": 2584000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 280000000.0,
+    "official": 280000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 5197000000.0,
+    "official": 5197000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:27:58+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -113,7 +156,10 @@
    "goodwill_and_intangibles": 2641000000.0,
    "retained_earnings": 997000000.0,
    "total_debt": 808000000.0,
-   "shares_out": 184184830.0
+   "shares_out": 184184830.0,
+   "unusual_items": 22000000.0,
+   "normalized_ebitda": 629000000.0,
+   "normalized_income": 319774000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -148,7 +194,10 @@
    "goodwill_and_intangibles": 2877000000.0,
    "retained_earnings": 1096000000.0,
    "total_debt": 1484000000.0,
-   "shares_out": 184161105.0
+   "shares_out": 184161105.0,
+   "unusual_items": 30000000.0,
+   "normalized_ebitda": 686000000.0,
+   "normalized_income": 334260000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -183,7 +232,10 @@
    "goodwill_and_intangibles": 2934000000.0,
    "retained_earnings": 1137000000.0,
    "total_debt": 1544000000.0,
-   "shares_out": 184165347.0
+   "shares_out": 184165347.0,
+   "unusual_items": -6000000.0,
+   "normalized_ebitda": 701000000.0,
+   "normalized_income": 284392000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -218,7 +270,10 @@
    "goodwill_and_intangibles": 2840000000.0,
    "retained_earnings": 1168000000.0,
    "total_debt": 1462000000.0,
-   "shares_out": 184232430.0
+   "shares_out": 184232430.0,
+   "unusual_items": -5000000.0,
+   "normalized_ebitda": 668000000.0,
+   "normalized_income": 283715000.0
   }
  ]
 }

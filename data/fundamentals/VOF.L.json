@@ -1,6 +1,6 @@
 {
  "ticker": "VOF.L",
- "fetched_at": "2026-10-10T12:25:17+00:00",
+ "fetched_at": "2026-10-10T15:28:37+00:00",
  "region": "Europa",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": "https://vof.vinacapital.com/fund-information/",
-  "longBusinessSummary": "VinaCapital Vietnam Opportunity Fund Limited specializes in growth equity investments. The fund seeks to invest 80 percent of its portfolio in private equity and 20 percent in equitization projects will be re-allocated to listed shares. The fund also makes private investments. It invests in stocks of companies operating across diversified sectors including consumer and healthcare to construction materials, real estate, financials, and supply chain. The fund invests in value stocks of companies having any market capitalization. It seeks to take minority stakes in the transaction. It prefers to invest in Vietnam."
+  "longBusinessSummary": "VinaCapital Vietnam Opportunity Fund Limited specializes in growth equity investments. The fund seeks to invest 80 percent of its portfolio in private equity and 20 percent in equitization projects will be re-allocated to listed shares. The fund also makes private investments. It invests in stocks of companies operating across diversified sectors including consumer and healthcare to construction materials, real estate, financials, and supply chain. The fund invests in value stocks of companies having any market capitalization. It seeks to take minority stakes in the transaction. It prefers to invest in Vietnam.",
+  "targetMeanPrice": 550.0,
+  "targetLowPrice": 550.0,
+  "targetHighPrice": 550.0,
+  "numberOfAnalystOpinions": 1,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": -0.37,
+  "earningsGrowth": 3.897,
+  "revenueGrowth": 2.271
  },
  "governance": {
   "insider_6m": {
@@ -50,8 +61,15 @@
   "receivables": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T15:28:37+00:00",
  "years": [
   {
    "fy_end": "2022-06-30",
@@ -72,7 +90,8 @@
    "receivables": 0.0,
    "retained_earnings": 894786000.0,
    "total_debt": 25000.0,
-   "shares_out": 163479988.0
+   "shares_out": 163479988.0,
+   "normalized_income": -121443000.0
   },
   {
    "fy_end": "2023-06-30",
@@ -93,7 +112,8 @@
    "receivables": 0.0,
    "retained_earnings": 856780000.0,
    "total_debt": 10091000.0,
-   "shares_out": 160047846.0
+   "shares_out": 160047846.0,
+   "normalized_income": -15019000.0
   },
   {
    "fy_end": "2024-06-30",
@@ -114,7 +134,8 @@
    "receivables": 71000.0,
    "retained_earnings": 907954000.0,
    "total_debt": 112000.0,
-   "shares_out": 152030600.0
+   "shares_out": 152030600.0,
+   "normalized_income": 72906000.0
   }
  ]
 }

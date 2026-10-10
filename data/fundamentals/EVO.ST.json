@@ -1,6 +1,6 @@
 {
  "ticker": "EVO.ST",
- "fetched_at": "2026-10-10T11:56:46+00:00",
+ "fetched_at": "2026-10-10T14:46:58+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "STO",
   "fullTimeEmployees": 16298,
   "website": "https://www.evolution.com",
-  "longBusinessSummary": "Evolution AB (publ) develops, produces, markets, and licenses live casino and slots solutions to gaming operators in Europe, Asia, North America, Latin America, and internationally. It offers casino and live games shows under the Evolution and Ezugi brands; online casino under the NetEnt brand name; and casino games and software comprising jackpot system, a smart spins bonus management application, and tournaments gamification under the Red Tiger brand. It also provides slots titles and game mechanics under the Big Time Gaming brand; online casino platform and games under the Nolimit City brand name; HD spinning gaming wheels under the DigiWheel brand; and B2B social streaming games under the Livespins brand name. The company was formerly known as Evolution Gaming Group AB (publ). Evolution AB (publ) was founded in 2006 and is headquartered in Stockholm, Sweden."
+  "longBusinessSummary": "Evolution AB (publ) develops, produces, markets, and licenses live casino and slots solutions to gaming operators in Europe, Asia, North America, Latin America, and internationally. It offers casino and live games shows under the Evolution and Ezugi brands; online casino under the NetEnt brand name; and casino games and software comprising jackpot system, a smart spins bonus management application, and tournaments gamification under the Red Tiger brand. It also provides slots titles and game mechanics under the Big Time Gaming brand; online casino platform and games under the Nolimit City brand name; HD spinning gaming wheels under the DigiWheel brand; and B2B social streaming games under the Livespins brand name. The company was formerly known as Evolution Gaming Group AB (publ). Evolution AB (publ) was founded in 2006 and is headquartered in Stockholm, Sweden.",
+  "targetMeanPrice": 758.56354,
+  "targetLowPrice": 548.0346,
+  "targetHighPrice": 1116.3175,
+  "numberOfAnalystOpinions": 17,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.0625,
+  "forwardPE": 11.31223,
+  "forwardEps": 71.71,
+  "trailingEps": 58.22,
+  "earningsGrowth": 0.043,
+  "revenueGrowth": -0.012
  },
  "governance": {
   "ceo": {
@@ -75,8 +86,35 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF SE",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 5346772000.0,
+    "official": 5346772000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3971835000.0,
+    "official": 3971835000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1244015000.0,
+    "official": 1244015000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T14:46:58+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -107,7 +145,9 @@
    "goodwill_and_intangibles": 3058260000.0,
    "retained_earnings": 1270949000.0,
    "total_debt": 79553000.0,
-   "shares_out": 213205250.0
+   "shares_out": 213205250.0,
+   "normalized_ebitda": 1011581000.0,
+   "normalized_income": 843361000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -140,7 +180,10 @@
    "goodwill_and_intangibles": 3038514000.0,
    "retained_earnings": 1800912000.0,
    "total_debt": 79457000.0,
-   "shares_out": 213565076.0
+   "shares_out": 213565076.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 1278301000.0,
+   "normalized_income": 1070858000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -173,7 +216,10 @@
    "goodwill_and_intangibles": 2968923000.0,
    "retained_earnings": 1809433000.0,
    "total_debt": 93662000.0,
-   "shares_out": 206562243.0
+   "shares_out": 206562243.0,
+   "unusual_items": 151058000.0,
+   "normalized_ebitda": 1436458000.0,
+   "normalized_income": 1113349830.0
   },
   {
    "fy_end": "2025-12-31",
@@ -206,7 +252,10 @@
    "goodwill_and_intangibles": 3052423000.0,
    "retained_earnings": 1800667000.0,
    "total_debt": 91068000.0,
-   "shares_out": 199226613.0
+   "shares_out": 199226613.0,
+   "unusual_items": 51667000.0,
+   "normalized_ebitda": 1360334000.0,
+   "normalized_income": 1018075716.0
   }
  ]
 }

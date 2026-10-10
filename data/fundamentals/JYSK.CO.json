@@ -1,6 +1,6 @@
 {
  "ticker": "JYSK.CO",
- "fetched_at": "2026-10-10T12:05:03+00:00",
+ "fetched_at": "2026-10-10T15:00:16+00:00",
  "region": "Europa",
  "statement_currency": "DKK",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "CPH",
   "fullTimeEmployees": 3819,
   "website": "https://www.jyskebank.dk",
-  "longBusinessSummary": "Jyske Bank A/S provides financial solutions in Denmark and Germany. The company operates through Banking Activities, Mortgage Activities, and Leasing Activities segments. The Banking Activities segment provides advisory services relating to traditional financial solutions for personal, private banking, and corporate customers; and trading and investment services, including trading in interest rate products, currencies, equities, commodities, and derivatives for corporate and institutional customers. The Mortgage Activities segment offers financial solutions for the financing of real property to Danish personal customers, corporate customers, and subsidized rental housing. The Leasing Activities segment provides financial solutions in the form of leasing and financing within car financing, as well as leasing and financing of equipment for the corporate sector. The company also offers pension and insurance products; investment and asset-management products; and payment and advisory services, as well as online and mobile banking services. Jyske Bank A/S was incorporated in 1917 and is based in Silkeborg, Denmark."
+  "longBusinessSummary": "Jyske Bank A/S provides financial solutions in Denmark and Germany. The company operates through Banking Activities, Mortgage Activities, and Leasing Activities segments. The Banking Activities segment provides advisory services relating to traditional financial solutions for personal, private banking, and corporate customers; and trading and investment services, including trading in interest rate products, currencies, equities, commodities, and derivatives for corporate and institutional customers. The Mortgage Activities segment offers financial solutions for the financing of real property to Danish personal customers, corporate customers, and subsidized rental housing. The Leasing Activities segment provides financial solutions in the form of leasing and financing within car financing, as well as leasing and financing of equipment for the corporate sector. The company also offers pension and insurance products; investment and asset-management products; and payment and advisory services, as well as online and mobile banking services. Jyske Bank A/S was incorporated in 1917 and is based in Silkeborg, Denmark.",
+  "targetMeanPrice": 1171.6,
+  "targetLowPrice": 1060.0,
+  "targetHighPrice": 1340.0,
+  "numberOfAnalystOpinions": 5,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.5,
+  "forwardPE": 11.001063,
+  "forwardEps": 97.89963,
+  "trailingEps": 85.52,
+  "earningsGrowth": 0.123,
+  "revenueGrowth": 0.013
  },
  "governance": {
   "ceo": {
@@ -69,8 +80,34 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF DK",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 750200000000.0,
+    "official": 750200000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 50588000000.0,
+    "official": 45664000000.0,
+    "diff": 0.107831
+   },
+   "net_income": {
+    "yahoo": 5312000000.0,
+    "official": 5050000000.0,
+    "diff": 0.051881
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T15:00:16+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -97,7 +134,9 @@
    "goodwill_and_intangibles": 3328000000.0,
    "retained_earnings": 36512000000.0,
    "total_debt": 426350000000.0,
-   "shares_out": 64255000.0
+   "shares_out": 64255000.0,
+   "unusual_items": -180000000.0,
+   "normalized_income": 3900140000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -124,7 +163,9 @@
    "goodwill_and_intangibles": 3395000000.0,
    "retained_earnings": 41266000000.0,
    "total_debt": 445881000000.0,
-   "shares_out": 64254000.0
+   "shares_out": 64254000.0,
+   "unusual_items": -261000000.0,
+   "normalized_income": 6099228000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -151,7 +192,9 @@
    "goodwill_and_intangibles": 3328000000.0,
    "retained_earnings": 43295000000.0,
    "total_debt": 436593000000.0,
-   "shares_out": 61500000.0
+   "shares_out": 61500000.0,
+   "unusual_items": -145000000.0,
+   "normalized_income": 5419445000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -178,7 +221,9 @@
    "goodwill_and_intangibles": 3261000000.0,
    "retained_earnings": 45029000000.0,
    "total_debt": 452368000000.0,
-   "shares_out": 58489977.0
+   "shares_out": 58489977.0,
+   "unusual_items": -51000000.0,
+   "normalized_income": 5452046000.0
   }
  ]
 }

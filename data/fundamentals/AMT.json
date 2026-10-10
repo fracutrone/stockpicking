@@ -1,6 +1,6 @@
 {
  "ticker": "AMT",
- "fetched_at": "2026-10-10T12:37:28+00:00",
+ "fetched_at": "2026-10-10T15:34:30+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 4866,
   "website": "https://www.americantower.com",
-  "longBusinessSummary": "American Tower Corporation one of the largest global REITs, is a leading independent owner, operator and developer of multitenant communications real estate with a portfolio of over 148,000 communications sites and a highly interconnected footprint of U.S. data center facilities. American Tower Corporation was incorporated in 1995 in Delaware and is based in Massachusetts, Boston."
+  "longBusinessSummary": "American Tower Corporation one of the largest global REITs, is a leading independent owner, operator and developer of multitenant communications real estate with a portfolio of over 148,000 communications sites and a highly interconnected footprint of U.S. data center facilities. American Tower Corporation was incorporated in 1995 in Delaware and is based in Massachusetts, Boston.",
+  "targetMeanPrice": 215.73914,
+  "targetLowPrice": 188.0,
+  "targetHighPrice": 260.0,
+  "numberOfAnalystOpinions": 23,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.52,
+  "forwardPE": 25.997,
+  "forwardEps": 7.01004,
+  "trailingEps": 7.27,
+  "earningsGrowth": 1.385,
+  "revenueGrowth": 0.047
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 63190400000.0,
+    "official": 63190400000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3652500000.0,
+    "official": 3652500000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2529500000.0,
+    "official": 2628500000.0,
+    "diff": 0.037664
+   },
+   "revenue": {
+    "yahoo": 10644600000.0,
+    "official": 10644600000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:34:30+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -193,7 +235,10 @@
    "goodwill_and_intangibles": 30940000000.0,
    "retained_earnings": -2101900000.0,
    "total_debt": 38901800000.0,
-   "shares_out": 465618791.0
+   "shares_out": 465618791.0,
+   "unusual_items": 266900000.0,
+   "normalized_ebitda": 6310200000.0,
+   "normalized_income": 1788745000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -226,7 +271,10 @@
    "goodwill_and_intangibles": 28015800000.0,
    "retained_earnings": -3638800000.0,
    "total_debt": 35734000000.0,
-   "shares_out": 466295971.0
+   "shares_out": 466295971.0,
+   "unusual_items": -742200000.0,
+   "normalized_ebitda": 6746200000.0,
+   "normalized_income": 2252368000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -259,7 +307,10 @@
    "goodwill_and_intangibles": 26242400000.0,
    "retained_earnings": -4424100000.0,
    "total_debt": 32808800000.0,
-   "shares_out": 467384103.0
+   "shares_out": 467384103.0,
+   "unusual_items": 221800000.0,
+   "normalized_ebitda": 6932300000.0,
+   "normalized_income": 3033901800.0
   },
   {
    "fy_end": "2025-12-31",
@@ -292,7 +343,10 @@
    "goodwill_and_intangibles": 26786200000.0,
    "retained_earnings": -5086000000.0,
    "total_debt": 33832500000.0,
-   "shares_out": 466318000.0
+   "shares_out": 466318000.0,
+   "unusual_items": -892800000.0,
+   "normalized_ebitda": 7338000000.0,
+   "normalized_income": 3299986400.0
   }
  ]
 }

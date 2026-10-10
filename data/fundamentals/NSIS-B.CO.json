@@ -1,6 +1,6 @@
 {
  "ticker": "NSIS-B.CO",
- "fetched_at": "2026-10-10T12:11:35+00:00",
+ "fetched_at": "2026-10-10T15:09:12+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "CPH",
   "fullTimeEmployees": 10933,
   "website": "https://www.novonesis.com",
-  "longBusinessSummary": "Novozymes A/S produces and sells industrial enzymes, functional proteins, and microorganisms in Denmark, rest of Europe, North America, the Asia Pacific, the Middle East, Africa, and Latin America. It provides biosolutions for the food and beverage industry, such as dairy, baking, beverage, meat, plant-based, functional, and other foods, as well as precision protein and early lie nutrition. The company also offers bioenergy solutions including biodiesel; biogas from agricultural and industrial residues and food waste; biomass; carbon capture; ethanol for liquefaction, saccharification, fermentation, and fiber conversion; and renewable diesel. In addition, it provides dishwashing, home cleaning, laundry, medical, and industrial and institutional cleaning services; gastrointestinal, immune, mental, women's, children's cardiometabolic, and oral human health solutions. Further, the company offers corn and wheat separation, liquefaction, saccharification, filtration, isomerization, maltose, and specialties solutions; corn, cotton, forages, peanuts, pulses, soybeans, wheat, small grains, bioyield, and biocontrol solutions; silage, diary and beef cattle, poultry, swine, aquaculture solutions; pet care solutions; leather and textiles solutions; fiber modification, bleach boosting, deposit control, and starch modification solutions; and distilling, oils and fats, sustainable plastic solutions. Additionally, it provides lipases, proteases, oxidoreductases, and carbohydrases. Novozymes A/S is headquartered in Lyngby, Denmark."
+  "longBusinessSummary": "Novozymes A/S produces and sells industrial enzymes, functional proteins, and microorganisms in Denmark, rest of Europe, North America, the Asia Pacific, the Middle East, Africa, and Latin America. It provides biosolutions for the food and beverage industry, such as dairy, baking, beverage, meat, plant-based, functional, and other foods, as well as precision protein and early lie nutrition. The company also offers bioenergy solutions including biodiesel; biogas from agricultural and industrial residues and food waste; biomass; carbon capture; ethanol for liquefaction, saccharification, fermentation, and fiber conversion; and renewable diesel. In addition, it provides dishwashing, home cleaning, laundry, medical, and industrial and institutional cleaning services; gastrointestinal, immune, mental, women's, children's cardiometabolic, and oral human health solutions. Further, the company offers corn and wheat separation, liquefaction, saccharification, filtration, isomerization, maltose, and specialties solutions; corn, cotton, forages, peanuts, pulses, soybeans, wheat, small grains, bioyield, and biocontrol solutions; silage, diary and beef cattle, poultry, swine, aquaculture solutions; pet care solutions; leather and textiles solutions; fiber modification, bleach boosting, deposit control, and starch modification solutions; and distilling, oils and fats, sustainable plastic solutions. Additionally, it provides lipases, proteases, oxidoreductases, and carbohydrases. Novozymes A/S is headquartered in Lyngby, Denmark.",
+  "targetMeanPrice": 499.33334,
+  "targetLowPrice": 420.0,
+  "targetHighPrice": 540.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.6,
+  "forwardPE": 24.229996,
+  "forwardEps": 17.95708,
+  "trailingEps": 10.16,
+  "earningsGrowth": 0.267,
+  "revenueGrowth": 0.096
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF DK",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 16349100000.0,
+    "official": 16349100000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 10855200000.0,
+    "official": 10855200000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 583600000.0,
+    "official": 583600000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 4157600000.0,
+    "official": 4157600000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:09:12+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -121,7 +164,10 @@
    "goodwill_and_intangibles": 630526924.682278,
    "retained_earnings": 1753074220.987637,
    "total_debt": 919082243.555607,
-   "shares_out": 276598989.0
+   "shares_out": 276598989.0,
+   "unusual_items": 44692521.481311,
+   "normalized_ebitda": 776012490.104924,
+   "normalized_income": 449815636.078098
   },
   {
    "fy_end": "2023-12-31",
@@ -156,7 +202,10 @@
    "goodwill_and_intangibles": 608000000.0,
    "retained_earnings": 1845600000.0,
    "total_debt": 1038658890.202041,
-   "shares_out": 277317446.0
+   "shares_out": 277317446.0,
+   "unusual_items": -59700000.0,
+   "normalized_ebitda": 793900000.0,
+   "normalized_income": 452310577.472842
   },
   {
    "fy_end": "2024-12-31",
@@ -191,7 +240,10 @@
    "goodwill_and_intangibles": 10024200000.0,
    "retained_earnings": 11032400000.0,
    "total_debt": 1796800000.0,
-   "shares_out": 466135789.0
+   "shares_out": 466135789.0,
+   "unusual_items": -166100000.0,
+   "normalized_ebitda": 1203700000.0,
+   "normalized_income": 427577463.438024
   },
   {
    "fy_end": "2025-12-31",
@@ -225,7 +277,10 @@
    "intangibles": 4895500000.0,
    "goodwill_and_intangibles": 11088400000.0,
    "retained_earnings": 11158500000.0,
-   "shares_out": 465914014.0
+   "shares_out": 465914014.0,
+   "unusual_items": -53800000.0,
+   "normalized_ebitda": 1440300000.0,
+   "normalized_income": 625833000.0
   }
  ]
 }

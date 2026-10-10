@@ -1,6 +1,6 @@
 {
  "ticker": "JCH.L",
- "fetched_at": "2026-10-10T12:04:33+00:00",
+ "fetched_at": "2026-10-10T14:59:14+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -49,8 +60,15 @@
   "equity": "yahoo",
   "receivables": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T14:59:14+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -70,7 +88,8 @@
    "equity": 415800000.0,
    "receivables": 1052000.0,
    "total_debt": 40000000.0,
-   "shares_out": 60145653.0
+   "shares_out": 60145653.0,
+   "normalized_income": -35248000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -90,7 +109,8 @@
    "equity": 407797000.0,
    "receivables": 1076000.0,
    "total_debt": 40000000.0,
-   "shares_out": 57785140.0
+   "shares_out": 57785140.0,
+   "normalized_income": 28216000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -110,7 +130,8 @@
    "equity": 409695000.0,
    "receivables": 940000.0,
    "total_debt": 40000000.0,
-   "shares_out": 56136366.0
+   "shares_out": 56136366.0,
+   "normalized_income": 33393000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -130,7 +151,8 @@
    "equity": 488431000.0,
    "receivables": 1068000.0,
    "total_debt": 30000000.0,
-   "shares_out": 54570718.0
+   "shares_out": 54570718.0,
+   "normalized_income": 110682000.0
   }
  ]
 }

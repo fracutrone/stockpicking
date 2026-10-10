@@ -1,6 +1,6 @@
 {
  "ticker": "RNR",
- "fetched_at": "2026-10-10T12:56:57+00:00",
+ "fetched_at": "2026-10-10T15:54:39+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 1040,
   "website": "https://www.renre.com",
-  "longBusinessSummary": "RenaissanceRe Holdings Ltd., together with its subsidiaries, provides reinsurance and insurance products in the United States and internationally. The company operates through Property, and Casualty and Specialty segments. The Property segment writes property catastrophe excess of loss reinsurance contracts to insure insurance and reinsurance companies against natural and man-made catastrophes, including hurricanes, earthquakes, typhoons, and tsunamis, as well as winter storms, freezes, floods, fires, windstorms, tornadoes, explosions, and acts of terrorism; and other property class of products, such as proportional reinsurance, property per risk, property reinsurance, binding facilities, and regional U.S. multi-line reinsurance. The Casualty and Specialty segment writes various classes of products, such as directors and officers, medical malpractice, transactional liability, and professional indemnity; automobile and employer's liability, casualty clash, umbrella or excess casualty, workers' compensation, and general liability; financial and mortgage guaranty, political risk, surety, and trade credit; and accident and health, agriculture, aviation, construction, cyber, energy, marine, satellite, and terrorism. The company distributes products and services primarily through intermediaries. It invests in and manages funds. RenaissanceRe Holdings Ltd. was incorporated in 1993 and is headquartered in Pembroke, Bermuda."
+  "longBusinessSummary": "RenaissanceRe Holdings Ltd., together with its subsidiaries, provides reinsurance and insurance products in the United States and internationally. The company operates through Property, and Casualty and Specialty segments. The Property segment writes property catastrophe excess of loss reinsurance contracts to insure insurance and reinsurance companies against natural and man-made catastrophes, including hurricanes, earthquakes, typhoons, and tsunamis, as well as winter storms, freezes, floods, fires, windstorms, tornadoes, explosions, and acts of terrorism; and other property class of products, such as proportional reinsurance, property per risk, property reinsurance, binding facilities, and regional U.S. multi-line reinsurance. The Casualty and Specialty segment writes various classes of products, such as directors and officers, medical malpractice, transactional liability, and professional indemnity; automobile and employer's liability, casualty clash, umbrella or excess casualty, workers' compensation, and general liability; financial and mortgage guaranty, political risk, surety, and trade credit; and accident and health, agriculture, aviation, construction, cyber, energy, marine, satellite, and terrorism. The company distributes products and services primarily through intermediaries. It invests in and manages funds. RenaissanceRe Holdings Ltd. was incorporated in 1993 and is headquartered in Pembroke, Bermuda.",
+  "targetMeanPrice": 347.375,
+  "targetLowPrice": 312.0,
+  "targetHighPrice": 422.0,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.66667,
+  "forwardPE": 7.990099,
+  "forwardEps": 41.47383,
+  "trailingEps": 57.91,
+  "earningsGrowth": -0.1,
+  "revenueGrowth": -0.132
  },
  "governance": {
   "ceo": {
@@ -75,8 +86,37 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "normalized_income": "yahoo",
   "pretax_income": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 53800390000.0,
+    "official": 53800390000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 11608657000.0,
+    "official": 11608657000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2682334000.0,
+    "official": 2682334000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 12776742000.0,
+    "official": 12848074000.0,
+    "diff": 0.005552
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:54:39+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -156,7 +196,8 @@
    "goodwill_and_intangibles": 237828000.0,
    "retained_earnings": 4071371000.0,
    "total_debt": 1170442000.0,
-   "shares_out": 43717836.0
+   "shares_out": 43717836.0,
+   "normalized_income": -1061203000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -180,7 +221,8 @@
    "goodwill_and_intangibles": 775352000.0,
    "retained_earnings": 6522016000.0,
    "total_debt": 1958655000.0,
-   "shares_out": 52693887.0
+   "shares_out": 52693887.0,
+   "normalized_income": 2561132000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -204,7 +246,8 @@
    "goodwill_and_intangibles": 704132000.0,
    "retained_earnings": 8276152000.0,
    "total_debt": 1886689000.0,
-   "shares_out": 50180987.0
+   "shares_out": 50180987.0,
+   "normalized_income": 1870360000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -228,7 +271,8 @@
    "goodwill_and_intangibles": 633087000.0,
    "retained_earnings": 10827321000.0,
    "total_debt": 2329201000.0,
-   "shares_out": 43961539.0
+   "shares_out": 43961539.0,
+   "normalized_income": 2682334000.0
   }
  ]
 }

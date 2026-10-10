@@ -1,6 +1,6 @@
 {
  "ticker": "AKRBP.OL",
- "fetched_at": "2026-10-10T11:44:32+00:00",
+ "fetched_at": "2026-10-10T14:29:18+00:00",
  "region": "Europa",
  "statement_currency": "USD",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.50522,
   "heldPercentInstitutions": 0.41021,
   "shortPercentOfFloat": null,
-  "averageVolume": 925173,
+  "averageVolume": 925840,
   "quoteType": "EQUITY",
   "exchange": "OSL",
   "fullTimeEmployees": 3013,
   "website": "https://akerbp.com",
-  "longBusinessSummary": "Aker BP ASA engages in the exploration, field development, and production of oil and gas on the Norwegian Continental Shelf. It operates field centers, including Valhall, Ula, Edvard Grieg/Ivar Aasen, Alvheim, and Skarv. The company was formerly known as Det norske oljeselskap ASA and changed its name to Aker BP ASA in October 2016. Aker BP ASA was founded in 2001 and is headquartered in Lysaker, Norway."
+  "longBusinessSummary": "Aker BP ASA engages in the exploration, field development, and production of oil and gas on the Norwegian Continental Shelf. It operates field centers, including Valhall, Ula, Edvard Grieg/Ivar Aasen, Alvheim, and Skarv. The company was formerly known as Det norske oljeselskap ASA and changed its name to Aker BP ASA in October 2016. Aker BP ASA was founded in 2001 and is headquartered in Lysaker, Norway.",
+  "targetMeanPrice": 332.4562,
+  "targetLowPrice": 219.50894,
+  "targetHighPrice": 385.34464,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.05882,
+  "forwardPE": 12.420131,
+  "forwardEps": 28.477962,
+  "trailingEps": 22.06,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.42
  },
  "governance": {
   "ceo": {
@@ -70,8 +81,35 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF NO",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 42192900000.0,
+    "official": 42192900000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 12691100000.0,
+    "official": 12691100000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1827700000.0,
+    "official": 1827700000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T14:29:18+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -103,7 +141,10 @@
    "intangibles": 2344400000.0,
    "goodwill_and_intangibles": 16279400000.0,
    "total_debt": 5413600000.0,
-   "shares_out": 631793145.0
+   "shares_out": 631793145.0,
+   "unusual_items": -732500000.0,
+   "normalized_ebitda": 11370900000.0,
+   "normalized_income": 2846022000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -135,7 +176,10 @@
    "intangibles": 2123400000.0,
    "goodwill_and_intangibles": 15266100000.0,
    "total_debt": 6502400000.0,
-   "shares_out": 631293754.0
+   "shares_out": 631293754.0,
+   "unusual_items": -310300000.0,
+   "normalized_ebitda": 11593600000.0,
+   "normalized_income": 2987850000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -168,7 +212,10 @@
    "goodwill_and_intangibles": 14694200000.0,
    "retained_earnings": -1092700000.0,
    "total_debt": 8173300000.0,
-   "shares_out": 631965201.0
+   "shares_out": 631965201.0,
+   "unusual_items": -450500000.0,
+   "normalized_ebitda": 10949600000.0,
+   "normalized_income": 2866526000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -202,7 +249,10 @@
    "goodwill_and_intangibles": 12525800000.0,
    "retained_earnings": -2557600000.0,
    "total_debt": 9737900000.0,
-   "shares_out": 631738272.0
+   "shares_out": 631738272.0,
+   "unusual_items": -137300000.0,
+   "normalized_ebitda": 7348700000.0,
+   "normalized_income": 2889814000.0
   }
  ]
 }

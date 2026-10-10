@@ -1,6 +1,6 @@
 {
  "ticker": "HUBS",
- "fetched_at": "2026-10-10T12:48:15+00:00",
+ "fetched_at": "2026-10-10T15:46:39+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 9016,
   "website": "https://www.hubspot.com",
-  "longBusinessSummary": "HubSpot, Inc., together with its subsidiaries, provides a cloud-based customer relationship management (CRM) platform for businesses in the Americas, Europe, and the Asia Pacific. The company's CRM platform includes Marketing Hub, a toolset for marketing automation and email, social media, SEO, AEO, and reporting and analytics; Sales Hub offers email templates and tracking, conversations and live chat, meeting and call scheduling, lead and website visit alerts, lead scoring, sales automation, pipeline management, quoting, forecasting, and reporting; Service Hub, a service software designed to help businesses manage, respond, and connect with customers; and Content Hub that helps business with website pages, business blogging, video and podcast hosting, smart content, landing pages and forms, SEO recommendations, forms and lead flow, web analytics reporting, calls-to-action, and file manager. It offers Operations Hub, which provides programmable automation, data sync, data curation, and data quality tools; and Commerce Hub, a B2B commerce suite that provides payment links, invoices, quotes, subscription management, and automation and revenue reporting; and breeze, an AI that powers the customer platform that provides AI-powered insights, automation, content generation, and data enrichment, as well as Breeze Assistant, a go-to-market assistant to boost productivity and make work easier; and Breeze Agents, which helps teams automate work end-to-end from strategy to execution. In addition, the company provides professional services to educate and train customers on how to utilize its CRM platform; and customer success; phone and/or email and chat-based support services; and helps customers by providing Customer Success Manager and Partner Development Manager digital channels through educational content academey. It serves mid-market business-to-business companies. The company was incorporated in 2005 and is headquartered in Cambridge, Massachusetts."
+  "longBusinessSummary": "HubSpot, Inc., together with its subsidiaries, provides a cloud-based customer relationship management (CRM) platform for businesses in the Americas, Europe, and the Asia Pacific. The company's CRM platform includes Marketing Hub, a toolset for marketing automation and email, social media, SEO, AEO, and reporting and analytics; Sales Hub offers email templates and tracking, conversations and live chat, meeting and call scheduling, lead and website visit alerts, lead scoring, sales automation, pipeline management, quoting, forecasting, and reporting; Service Hub, a service software designed to help businesses manage, respond, and connect with customers; and Content Hub that helps business with website pages, business blogging, video and podcast hosting, smart content, landing pages and forms, SEO recommendations, forms and lead flow, web analytics reporting, calls-to-action, and file manager. It offers Operations Hub, which provides programmable automation, data sync, data curation, and data quality tools; and Commerce Hub, a B2B commerce suite that provides payment links, invoices, quotes, subscription management, and automation and revenue reporting; and breeze, an AI that powers the customer platform that provides AI-powered insights, automation, content generation, and data enrichment, as well as Breeze Assistant, a go-to-market assistant to boost productivity and make work easier; and Breeze Agents, which helps teams automate work end-to-end from strategy to execution. In addition, the company provides professional services to educate and train customers on how to utilize its CRM platform; and customer success; phone and/or email and chat-based support services; and helps customers by providing Customer Success Manager and Partner Development Manager digital channels through educational content academey. It serves mid-market business-to-business companies. The company was incorporated in 2005 and is headquartered in Cambridge, Massachusetts.",
+  "targetMeanPrice": 248.774,
+  "targetLowPrice": 190.0,
+  "targetHighPrice": 320.0,
+  "numberOfAnalystOpinions": 30,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.4,
+  "forwardPE": 13.556227,
+  "forwardEps": 16.84097,
+  "trailingEps": 2.8,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.198
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3854151000.0,
+    "official": 3854151000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2066244000.0,
+    "official": 2066244000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 45911000.0,
+    "official": 45911000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3131266000.0,
+    "official": 3131266000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:46:40+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -197,7 +239,10 @@
    "goodwill_and_intangibles": 127463000.0,
    "retained_earnings": -639927000.0,
    "total_debt": 806339000.0,
-   "shares_out": 49217000.0
+   "shares_out": 49217000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": -36541000.0,
+   "normalized_income": -107347000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -231,7 +276,10 @@
    "goodwill_and_intangibles": 322306000.0,
    "retained_earnings": -804437000.0,
    "total_debt": 787814000.0,
-   "shares_out": 50448000.0
+   "shares_out": 50448000.0,
+   "unusual_items": -96843000.0,
+   "normalized_ebitda": 22742000.0,
+   "normalized_income": -88004030.0
   },
   {
    "fy_end": "2024-12-31",
@@ -265,7 +313,10 @@
    "goodwill_and_intangibles": 401555000.0,
    "retained_earnings": -799809000.0,
    "total_debt": 745416000.0,
-   "shares_out": 51767000.0
+   "shares_out": 51767000.0,
+   "unusual_items": -3990000.0,
+   "normalized_ebitda": 133216000.0,
+   "normalized_income": 7780100.0
   },
   {
    "fy_end": "2025-12-31",
@@ -299,7 +350,10 @@
    "goodwill_and_intangibles": 540471000.0,
    "retained_earnings": -753898000.0,
    "total_debt": 262305000.0,
-   "shares_out": 52555000.0
+   "shares_out": 52555000.0,
+   "unusual_items": -4036000.0,
+   "normalized_ebitda": 210670000.0,
+   "normalized_income": 48574760.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "TECH",
- "fetched_at": "2026-10-10T12:59:26+00:00",
+ "fetched_at": "2026-10-10T15:57:08+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 3000,
   "website": "https://www.bio-techne.com",
-  "longBusinessSummary": "Bio-Techne Corporation, together with its subsidiaries, develops, manufactures, and sells life science reagents, instruments, and services for the research, diagnostics, and bioprocessing markets worldwide. It operates through two segments, Protein Sciences, and Diagnostics and Spatial Biology. The Protein Sciences segment develops and manufactures biological reagents used in various aspects of life science research, diagnostics, and cell and gene therapy, such as cytokines and growth factors, antibodies, small molecules, tissue culture sera, and cell selection technologies. This segment also offers proteomic analytical tools for automated western blot and multiplexed ELISA workflow consists of manual and automated protein analysis instruments and immunoassays for use in quantifying proteins in various biological fluids. Its Diagnostics and Genomics segment develops and manufactures diagnostic products, including controls, calibrators, and diagnostic assays for regulated diagnostics market, advanced tissue-based in-situ hybridization assays for spatial genomic and tissue biopsy analysis, and genetic and oncology kits for research and clinical applications; and sells products for genetic carrier screening, oncology diagnostics, molecular controls, and research, as well as instruments and process control products for hematology, blood chemistry and gases, and coagulation controls and reagents used in various diagnostic applications. The company was formerly known as Techne Corporation and changed its name to Bio-Techne Corporation in November 2014. Bio-Techne Corporation was incorporated in 1976 and is headquartered in Minneapolis, Minnesota."
+  "longBusinessSummary": "Bio-Techne Corporation, together with its subsidiaries, develops, manufactures, and sells life science reagents, instruments, and services for the research, diagnostics, and bioprocessing markets worldwide. It operates through two segments, Protein Sciences, and Diagnostics and Spatial Biology. The Protein Sciences segment develops and manufactures biological reagents used in various aspects of life science research, diagnostics, and cell and gene therapy, such as cytokines and growth factors, antibodies, small molecules, tissue culture sera, and cell selection technologies. This segment also offers proteomic analytical tools for automated western blot and multiplexed ELISA workflow consists of manual and automated protein analysis instruments and immunoassays for use in quantifying proteins in various biological fluids. Its Diagnostics and Genomics segment develops and manufactures diagnostic products, including controls, calibrators, and diagnostic assays for regulated diagnostics market, advanced tissue-based in-situ hybridization assays for spatial genomic and tissue biopsy analysis, and genetic and oncology kits for research and clinical applications; and sells products for genetic carrier screening, oncology diagnostics, molecular controls, and research, as well as instruments and process control products for hematology, blood chemistry and gases, and coagulation controls and reagents used in various diagnostic applications. The company was formerly known as Techne Corporation and changed its name to Bio-Techne Corporation in November 2014. Bio-Techne Corporation was incorporated in 1976 and is headquartered in Minneapolis, Minnesota.",
+  "targetMeanPrice": 70.5,
+  "targetLowPrice": 50.0,
+  "targetHighPrice": 73.0,
+  "numberOfAnalystOpinions": 10,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.84615,
+  "forwardPE": 31.332968,
+  "forwardEps": 2.31258,
+  "trailingEps": 1.16,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.013
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-06-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 2586726000.0,
+    "official": 2586726000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2108221000.0,
+    "official": 2108221000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 181862000.0,
+    "official": 181862000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1215039000.0,
+    "official": 1215039000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:57:08+00:00",
  "years": [
   {
    "fy_end": "2020-06-30",
@@ -206,7 +248,10 @@
    "goodwill_and_intangibles": 1407382000.0,
    "retained_earnings": 1309461000.0,
    "total_debt": 350000000.0,
-   "shares_out": 157641914.0
+   "shares_out": 157641914.0,
+   "unusual_items": 56140000.0,
+   "normalized_ebitda": 400972000.0,
+   "normalized_income": 237936980.0
   },
   {
    "fy_end": "2024-06-30",
@@ -241,7 +286,10 @@
    "goodwill_and_intangibles": 1479744000.0,
    "retained_earnings": 1325247000.0,
    "total_debt": 319000000.0,
-   "shares_out": 158216258.0
+   "shares_out": 158216258.0,
+   "unusual_items": -41788000.0,
+   "normalized_ebitda": 354924000.0,
+   "normalized_income": 205923140.0
   },
   {
    "fy_end": "2025-06-30",
@@ -276,7 +324,10 @@
    "goodwill_and_intangibles": 1346534000.0,
    "retained_earnings": 1066049000.0,
    "total_debt": 346000000.0,
-   "shares_out": 154972196.0
+   "shares_out": 154972196.0,
+   "unusual_items": -140692000.0,
+   "normalized_ebitda": 357567000.0,
+   "normalized_income": 178215540.0
   },
   {
    "fy_end": "2026-06-30",
@@ -310,7 +361,10 @@
    "goodwill_and_intangibles": 1278820000.0,
    "retained_earnings": 1144188000.0,
    "total_debt": 200000000.0,
-   "shares_out": 156095113.0
+   "shares_out": 156095113.0,
+   "unusual_items": -28324000.0,
+   "normalized_ebitda": 375993000.0,
+   "normalized_income": 203274944.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "REXR",
- "fetched_at": "2026-10-10T12:56:36+00:00",
+ "fetched_at": "2026-10-10T15:54:18+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 256,
   "website": "https://www.rexfordindustrial.com",
-  "longBusinessSummary": "Rexford Industrial Realty, Inc. creates value by investing in, operating and repositioning industrial properties throughout infill Southern California, the world's fourth largest industrial market and consistently the highest-demand with lowest-supply major market in the nation over the long term. The Company's highly differentiated strategy enables internal and external growth opportunities through its proprietary value creation and asset management capabilities. As of June 30, 2026, Rexford Industrial's high-quality, irreplaceable portfolio comprised 409 properties with approximately 49.9 million rentable square feet occupied by a stable and diverse tenant base. Rexford Industrial Realty, Inc. was incorporated on January 18th, 2013, and is based in Los Angeles, United States."
+  "longBusinessSummary": "Rexford Industrial Realty, Inc. creates value by investing in, operating and repositioning industrial properties throughout infill Southern California, the world's fourth largest industrial market and consistently the highest-demand with lowest-supply major market in the nation over the long term. The Company's highly differentiated strategy enables internal and external growth opportunities through its proprietary value creation and asset management capabilities. As of June 30, 2026, Rexford Industrial's high-quality, irreplaceable portfolio comprised 409 properties with approximately 49.9 million rentable square feet occupied by a stable and diverse tenant base. Rexford Industrial Realty, Inc. was incorporated on January 18th, 2013, and is based in Los Angeles, United States.",
+  "targetMeanPrice": 40.375,
+  "targetLowPrice": 36.0,
+  "targetHighPrice": 45.0,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.55556,
+  "forwardPE": 37.20431,
+  "forwardEps": 0.98752,
+  "trailingEps": -1.79,
+  "earningsGrowth": null,
+  "revenueGrowth": -0.016
  },
  "governance": {
   "ceo": {
@@ -81,8 +92,39 @@
   "retained_earnings": "yahoo",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "tax": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 12612713000.0,
+    "official": 12612713000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 8460563000.0,
+    "official": 8460563000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 212029000.0,
+    "official": 212029000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1003133000.0,
+    "official": 1003133000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:54:18+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -157,7 +199,10 @@
    "goodwill_and_intangibles": 175142000.0,
    "retained_earnings": -255743000.0,
    "total_debt": 1936381000.0,
-   "shares_out": 189114129.0
+   "shares_out": 189114129.0,
+   "unusual_items": 7571000.0,
+   "normalized_ebitda": 414876000.0,
+   "normalized_income": 161602910.0
   },
   {
    "fy_end": "2023-12-31",
@@ -187,7 +232,10 @@
    "goodwill_and_intangibles": 158826000.0,
    "retained_earnings": -338835000.0,
    "total_debt": 2225914000.0,
-   "shares_out": 212346450.0
+   "shares_out": 212346450.0,
+   "unusual_items": 19001000.0,
+   "normalized_ebitda": 536500000.0,
+   "normalized_income": 223005210.0
   },
   {
    "fy_end": "2024-12-31",
@@ -217,7 +265,10 @@
    "goodwill_and_intangibles": 206623000.0,
    "retained_earnings": -441881000.0,
    "total_debt": 3345962000.0,
-   "shares_out": 225285011.0
+   "shares_out": 225285011.0,
+   "unusual_items": 18013000.0,
+   "normalized_ebitda": 641756000.0,
+   "normalized_income": 259571730.0
   },
   {
    "fy_end": "2025-12-31",
@@ -247,7 +298,10 @@
    "goodwill_and_intangibles": 145783000.0,
    "retained_earnings": -642130000.0,
    "total_debt": 3251909000.0,
-   "shares_out": 231580135.0
+   "shares_out": 231580135.0,
+   "unusual_items": 16644000.0,
+   "normalized_ebitda": 623941000.0,
+   "normalized_income": 198880240.0
   }
  ]
 }

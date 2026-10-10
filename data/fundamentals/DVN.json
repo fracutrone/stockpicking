@@ -1,6 +1,6 @@
 {
  "ticker": "DVN",
- "fetched_at": "2026-10-10T12:43:44+00:00",
+ "fetched_at": "2026-10-10T15:42:09+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 2200,
   "website": "https://www.devonenergy.com",
-  "longBusinessSummary": "Devon Energy Corporation, an independent energy company, engages in the exploration, development, and production of oil, natural gas, and natural gas liquids in the United States. The company operates in Delaware Basin located in southeast New Mexico and west Texas, Eagle Ford located in North America, Anadarko Basin located in western Oklahoma, Williston Basin located in North Dakota, and Powder River Basin located in Wyoming. Devon Energy Corporation was founded in 1971 and is headquartered in Houston, Texas."
+  "longBusinessSummary": "Devon Energy Corporation, an independent energy company, engages in the exploration, development, and production of oil, natural gas, and natural gas liquids in the United States. The company operates in Delaware Basin located in southeast New Mexico and west Texas, Eagle Ford located in North America, Anadarko Basin located in western Oklahoma, Williston Basin located in North Dakota, and Powder River Basin located in Wyoming. Devon Energy Corporation was founded in 1971 and is headquartered in Houston, Texas.",
+  "targetMeanPrice": 60.96296,
+  "targetLowPrice": 44.0,
+  "targetHighPrice": 68.0,
+  "numberOfAnalystOpinions": 27,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.28571,
+  "forwardPE": 8.953368,
+  "forwardEps": 5.39015,
+  "trailingEps": 4.59,
+  "earningsGrowth": 0.44,
+  "revenueGrowth": 0.642
  },
  "governance": {
   "ceo": {
@@ -84,9 +95,40 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec",
   "intangibles": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 31599000000.0,
+    "official": 31599000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 15528000000.0,
+    "official": 15528000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2642000000.0,
+    "official": 2642000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 17188000000.0,
+    "official": 17188000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:42:09+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -186,7 +228,10 @@
    "goodwill_and_intangibles": 753000000.0,
    "retained_earnings": 4297000000.0,
    "total_debt": 6691000000.0,
-   "shares_out": 653000000.0
+   "shares_out": 653000000.0,
+   "unusual_items": 44000000.0,
+   "normalized_ebitda": 10324000000.0,
+   "normalized_income": 5980680000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -219,7 +264,10 @@
    "goodwill_and_intangibles": 753000000.0,
    "retained_earnings": 6195000000.0,
    "total_debt": 6638000000.0,
-   "shares_out": 635700000.0
+   "shares_out": 635700000.0,
+   "unusual_items": 30000000.0,
+   "normalized_ebitda": 7516000000.0,
+   "normalized_income": 3722400000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -252,7 +300,10 @@
    "goodwill_and_intangibles": 753000000.0,
    "retained_earnings": 8166000000.0,
    "total_debt": 9368000000.0,
-   "shares_out": 651000000.0
+   "shares_out": 651000000.0,
+   "unusual_items": -11000000.0,
+   "normalized_ebitda": 7379000000.0,
+   "normalized_income": 2899690000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -285,7 +336,10 @@
    "goodwill_and_intangibles": 753000000.0,
    "retained_earnings": 10200000000.0,
    "total_debt": 9387000000.0,
-   "shares_out": 622000000.0
+   "shares_out": 622000000.0,
+   "unusual_items": 89000000.0,
+   "normalized_ebitda": 7469000000.0,
+   "normalized_income": 2573470000.0
   }
  ]
 }

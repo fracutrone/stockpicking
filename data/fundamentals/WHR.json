@@ -1,6 +1,6 @@
 {
  "ticker": "WHR",
- "fetched_at": "2026-10-10T13:02:20+00:00",
+ "fetched_at": "2026-10-10T15:59:46+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 41000,
   "website": "https://www.whirlpoolcorp.com",
-  "longBusinessSummary": "Whirlpool Corporation manufactures and markets home appliances and related products and services in the North America, Latin America, and internationally. The company's principal products include refrigerators, freezers, ice makers, and refrigerator water filters; laundry appliances, and commercial laundry products and related laundry accessories; cooking and other small domestic appliances; and dishwasher appliances and related accessories, as well as mixers. It markets and distributes its products primarily under the Whirlpool, Maytag, KitchenAid, JennAir, Consul, Brastemp, Amana, InSinkErator, affresh, Gladiator, Swash, everydrop, Eslabon de Lujo, and Acros brands. The company sells its products to retailers, distributors, builders, and other manufacturers, as well as directly to consumers. Whirlpool Corporation was founded in 1911 and is headquartered in Benton Harbor, Michigan."
+  "longBusinessSummary": "Whirlpool Corporation manufactures and markets home appliances and related products and services in the North America, Latin America, and internationally. The company's principal products include refrigerators, freezers, ice makers, and refrigerator water filters; laundry appliances, and commercial laundry products and related laundry accessories; cooking and other small domestic appliances; and dishwasher appliances and related accessories, as well as mixers. It markets and distributes its products primarily under the Whirlpool, Maytag, KitchenAid, JennAir, Consul, Brastemp, Amana, InSinkErator, affresh, Gladiator, Swash, everydrop, Eslabon de Lujo, and Acros brands. The company sells its products to retailers, distributors, builders, and other manufacturers, as well as directly to consumers. Whirlpool Corporation was founded in 1911 and is headquartered in Benton Harbor, Michigan.",
+  "targetMeanPrice": 49.83333,
+  "targetLowPrice": 22.0,
+  "targetHighPrice": 137.0,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.15385,
+  "forwardPE": 8.006554,
+  "forwardEps": 3.6008,
+  "trailingEps": 3.04,
+  "earningsGrowth": -0.011,
+  "revenueGrowth": -0.068
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 15999000000.0,
+    "official": 16001000000.0,
+    "diff": 0.000125
+   },
+   "equity": {
+    "yahoo": 2726000000.0,
+    "official": 2726000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 318000000.0,
+    "official": 318000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 15524000000.0,
+    "official": 15524000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:59:46+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -203,7 +245,10 @@
    "goodwill_and_intangibles": 6478000000.0,
    "retained_earnings": 8261000000.0,
    "total_debt": 7615000000.0,
-   "shares_out": 54000000.0
+   "shares_out": 54000000.0,
+   "unusual_items": -2274000000.0,
+   "normalized_ebitda": 1712000000.0,
+   "normalized_income": 277460000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -237,7 +282,10 @@
    "goodwill_and_intangibles": 6454000000.0,
    "retained_earnings": 8358000000.0,
    "total_debt": 7231000000.0,
-   "shares_out": 54853011.0
+   "shares_out": 54853011.0,
+   "unusual_items": -122000000.0,
+   "normalized_ebitda": 1498000000.0,
+   "normalized_income": 587158516.020236
   },
   {
    "fy_end": "2024-12-31",
@@ -271,7 +319,10 @@
    "goodwill_and_intangibles": 6040000000.0,
    "retained_earnings": 1311000000.0,
    "total_debt": 6626000000.0,
-   "shares_out": 55139707.0
+   "shares_out": 55139707.0,
+   "unusual_items": -724000000.0,
+   "normalized_ebitda": 1227000000.0,
+   "normalized_income": 248960000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -305,7 +356,10 @@
    "goodwill_and_intangibles": 5665000000.0,
    "retained_earnings": 1330000000.0,
    "total_debt": 6520000000.0,
-   "shares_out": 56148646.0
+   "shares_out": 56148646.0,
+   "unusual_items": 111000000.0,
+   "normalized_ebitda": 1084000000.0,
+   "normalized_income": 237547200.0
   }
  ]
 }

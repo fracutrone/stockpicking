@@ -1,6 +1,6 @@
 {
  "ticker": "WAL",
- "fetched_at": "2026-10-10T13:01:59+00:00",
+ "fetched_at": "2026-10-10T15:59:27+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 3769,
   "website": "https://www.westernalliancebancorporation.com",
-  "longBusinessSummary": "Western Alliance Bancorporation operates as the bank holding company for Western Alliance Bank that provides various banking products and related services primarily in Arizona, California, and Nevada. It operates through Commercial and Consumer Related segments. The company offers deposit products, including demand deposit, checking, savings, and money market accounts, as well as fixed-rate and fixed maturity certificates of deposit accounts; treasury management products and services to small and middle-market businesses, specialized banking services to sophisticated commercial institutions and investors; and residential mortgage products and services. It also provides commercial and industrial loan products, such as working capital lines of credit, loans to technology companies, inventory and accounts receivable lines, mortgage warehouse lines, equipment loans and leases, and other commercial loans; commercial real estate loans, which are secured by multifamily residential properties, professional offices, industrial facilities, retail centers, hotels, and other commercial properties; construction and land development loans for single family and multifamily residential projects, industrial/warehouse properties, office buildings, retail centers, medical office facilities, and residential lot developments; and consumer loans. In addition, the company offers other financial services, such as internet banking, wire transfers, electronic bill payment and presentment, funds transfer and other digital payment offerings, lock box services, courier, and cash management services. Further, the company holds certain investment securities, municipal and non-profit loans, and leases; invests primarily in low-income housing tax credits and small business investment corporations; and certain real estate loans and related securities. Western Alliance Bancorporation was founded in 1994 and is headquartered in Phoenix, Arizona."
+  "longBusinessSummary": "Western Alliance Bancorporation operates as the bank holding company for Western Alliance Bank that provides various banking products and related services primarily in Arizona, California, and Nevada. It operates through Commercial and Consumer Related segments. The company offers deposit products, including demand deposit, checking, savings, and money market accounts, as well as fixed-rate and fixed maturity certificates of deposit accounts; treasury management products and services to small and middle-market businesses, specialized banking services to sophisticated commercial institutions and investors; and residential mortgage products and services. It also provides commercial and industrial loan products, such as working capital lines of credit, loans to technology companies, inventory and accounts receivable lines, mortgage warehouse lines, equipment loans and leases, and other commercial loans; commercial real estate loans, which are secured by multifamily residential properties, professional offices, industrial facilities, retail centers, hotels, and other commercial properties; construction and land development loans for single family and multifamily residential projects, industrial/warehouse properties, office buildings, retail centers, medical office facilities, and residential lot developments; and consumer loans. In addition, the company offers other financial services, such as internet banking, wire transfers, electronic bill payment and presentment, funds transfer and other digital payment offerings, lock box services, courier, and cash management services. Further, the company holds certain investment securities, municipal and non-profit loans, and leases; invests primarily in low-income housing tax credits and small business investment corporations; and certain real estate loans and related securities. Western Alliance Bancorporation was founded in 1994 and is headquartered in Phoenix, Arizona.",
+  "targetMeanPrice": 90.8125,
+  "targetLowPrice": 84.0,
+  "targetHighPrice": 97.0,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.8125,
+  "forwardPE": 6.661416,
+  "forwardEps": 11.14928,
+  "trailingEps": 8.86,
+  "earningsGrowth": 0.14,
+  "revenueGrowth": 0.136
  },
  "governance": {
   "ceo": {
@@ -77,8 +88,38 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "noninterest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 92774000000.0,
+    "official": 92774000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 7653000000.0,
+    "official": 7653000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 969000000.0,
+    "official": 969000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3473800000.0,
+    "official": 135800000.0,
+    "diff": 24.580265
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:59:27+00:00",
  "years": [
   {
    "fy_end": "2021-12-31",
@@ -126,7 +167,9 @@
    "goodwill_and_intangibles": 1828000000.0,
    "retained_earnings": 3664000000.0,
    "total_debt": 6299000000.0,
-   "shares_out": 108914526.0
+   "shares_out": 108914526.0,
+   "unusual_items": 0.0,
+   "normalized_income": 1057300000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -153,7 +196,9 @@
    "goodwill_and_intangibles": 1793000000.0,
    "retained_earnings": 4215000000.0,
    "total_debt": 7230000000.0,
-   "shares_out": 109466305.0
+   "shares_out": 109466305.0,
+   "unusual_items": 52700000.0,
+   "normalized_income": 681610200.0
   },
   {
    "fy_end": "2024-12-31",
@@ -180,7 +225,9 @@
    "goodwill_and_intangibles": 1786000000.0,
    "retained_earnings": 4826000000.0,
    "total_debt": 5573000000.0,
-   "shares_out": 110052606.0
+   "shares_out": 110052606.0,
+   "unusual_items": 0.0,
+   "normalized_income": 787700000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -207,7 +254,9 @@
    "goodwill_and_intangibles": 2143000000.0,
    "retained_earnings": 5607000000.0,
    "total_debt": 5240000000.0,
-   "shares_out": 109509381.0
+   "shares_out": 109509381.0,
+   "unusual_items": 0.0,
+   "normalized_income": 969000000.0
   }
  ]
 }

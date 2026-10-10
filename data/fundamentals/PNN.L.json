@@ -1,6 +1,6 @@
 {
  "ticker": "PNN.L",
- "fetched_at": "2026-10-10T12:14:40+00:00",
+ "fetched_at": "2026-10-10T15:12:07+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 3809,
   "website": "https://www.pennon-group.co.uk",
-  "longBusinessSummary": "Pennon Group Plc provides water and wastewater services in the United Kingdom. The company operates through two segments, Water and Non-Household Retail. It is also involved in renewable energy generation activities, as well as provides water retail services. Pennon Group Plc was incorporated in 1989 and is based in Exeter, the United Kingdom."
+  "longBusinessSummary": "Pennon Group Plc provides water and wastewater services in the United Kingdom. The company operates through two segments, Water and Non-Household Retail. It is also involved in renewable energy generation activities, as well as provides water retail services. Pennon Group Plc was incorporated in 1989 and is based in Exeter, the United Kingdom.",
+  "targetMeanPrice": 531.833,
+  "targetLowPrice": 380.0,
+  "targetHighPrice": 670.0,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.5,
+  "forwardPE": 11.399196,
+  "forwardEps": 0.31318,
+  "trailingEps": 0.19,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.217
  },
  "governance": {
   "ceo": {
@@ -70,8 +81,35 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2026-03-31",
+  "items": {
+   "equity": {
+    "yahoo": 1408000000.0,
+    "official": 1408000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 91500000.0,
+    "official": 91500000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1291400000.0,
+    "official": 1291400000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2026-03-31"
+ },
+ "info_at": "2026-10-10T15:12:07+00:00",
  "years": [
   {
    "fy_end": "2023-03-31",
@@ -104,7 +142,10 @@
    "goodwill_and_intangibles": 178800000.0,
    "retained_earnings": 535200000.0,
    "total_debt": 3118300000.0,
-   "shares_out": 332458930.0
+   "shares_out": 332458930.0,
+   "unusual_items": -21400000.0,
+   "normalized_ebitda": 309700000.0,
+   "normalized_income": 17434000.0
   },
   {
    "fy_end": "2024-03-31",
@@ -137,7 +178,10 @@
    "goodwill_and_intangibles": 240200000.0,
    "retained_earnings": 407400000.0,
    "total_debt": 4003700000.0,
-   "shares_out": 363716028.0
+   "shares_out": 363716028.0,
+   "unusual_items": -28500000.0,
+   "normalized_ebitda": 348400000.0,
+   "normalized_income": 17120879.120879
   },
   {
    "fy_end": "2025-03-31",
@@ -170,7 +214,10 @@
    "goodwill_and_intangibles": 242100000.0,
    "retained_earnings": 224000000.0,
    "total_debt": 4541800000.0,
-   "shares_out": 471843282.0
+   "shares_out": 471843282.0,
+   "unusual_items": -33100000.0,
+   "normalized_ebitda": 335900000.0,
+   "normalized_income": -32039202.200825
   },
   {
    "fy_end": "2026-03-31",
@@ -204,7 +251,10 @@
    "goodwill_and_intangibles": 247400000.0,
    "retained_earnings": 184200000.0,
    "total_debt": 4884700000.0,
-   "shares_out": 471730860.0
+   "shares_out": 471730860.0,
+   "unusual_items": -37900000.0,
+   "normalized_ebitda": 550800000.0,
+   "normalized_income": 122177797.202797
   }
  ]
 }

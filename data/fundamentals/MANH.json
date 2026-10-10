@@ -1,6 +1,6 @@
 {
  "ticker": "MANH",
- "fetched_at": "2026-10-10T12:51:05+00:00",
+ "fetched_at": "2026-10-10T15:49:20+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 4100,
   "website": "https://www.manh.com",
-  "longBusinessSummary": "Manhattan Associates, Inc. develops, sells, deploys, services, and maintains software solutions to manage supply chains, inventory, and omni-channel operations. It offers warehouse management solution for managing goods and information across the distribution centers; Manhattan Active Warehouse Management, a cloud native and version less application for the associate; and transportation management solution for helping shippers navigate their way through the demands and meet customer service expectations at the lowest possible freight costs; Manhattan SCALE, a portfolio of logistics execution solution; and Manhattan Active Omni, which offers order management, store inventory and fulfillment, call center, POS, and customer engagement tools for enterprises and stores. The company also provides demand forecasting and replenishment, allocation, and unified business planning; technology platform including Manhattan Active Platform solutions, a cloud-native product designed to provide version-less product access; maintenance services, which offers on-premises software licensees with software upgrades for additional or improved functionality and technological advances; and professional services, such as solutions planning and implementation, and related consulting services. In addition, it provides training and change management services; and resells computer hardware, radio frequency terminal networks, radio frequency identification chip readers, bar code printers and scanners, and other peripherals. The company offers products through direct sales personnel and partnership agreements with various organizations. It serves retail, consumer goods, food and grocery, logistics service providers, industrial and wholesale, high technology and electronics, life sciences, and government industries. The company operates in the Americas, Europe, the Middle East, Africa, and the Asia Pacific. Manhattan Associates, Inc. was founded in 1990 and is headquartered in Atlanta, Georgia."
+  "longBusinessSummary": "Manhattan Associates, Inc. develops, sells, deploys, services, and maintains software solutions to manage supply chains, inventory, and omni-channel operations. It offers warehouse management solution for managing goods and information across the distribution centers; Manhattan Active Warehouse Management, a cloud native and version less application for the associate; and transportation management solution for helping shippers navigate their way through the demands and meet customer service expectations at the lowest possible freight costs; Manhattan SCALE, a portfolio of logistics execution solution; and Manhattan Active Omni, which offers order management, store inventory and fulfillment, call center, POS, and customer engagement tools for enterprises and stores. The company also provides demand forecasting and replenishment, allocation, and unified business planning; technology platform including Manhattan Active Platform solutions, a cloud-native product designed to provide version-less product access; maintenance services, which offers on-premises software licensees with software upgrades for additional or improved functionality and technological advances; and professional services, such as solutions planning and implementation, and related consulting services. In addition, it provides training and change management services; and resells computer hardware, radio frequency terminal networks, radio frequency identification chip readers, bar code printers and scanners, and other peripherals. The company offers products through direct sales personnel and partnership agreements with various organizations. It serves retail, consumer goods, food and grocery, logistics service providers, industrial and wholesale, high technology and electronics, life sciences, and government industries. The company operates in the Americas, Europe, the Middle East, Africa, and the Asia Pacific. Manhattan Associates, Inc. was founded in 1990 and is headquartered in Atlanta, Georgia.",
+  "targetMeanPrice": 220.7,
+  "targetLowPrice": 180.0,
+  "targetHighPrice": 260.0,
+  "numberOfAnalystOpinions": 10,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.72727,
+  "forwardPE": 33.352325,
+  "forwardEps": 6.1432,
+  "trailingEps": 3.45,
+  "earningsGrowth": -0.086,
+  "revenueGrowth": 0.093
  },
  "governance": {
   "ceo": {
@@ -82,9 +93,40 @@
   "retained_earnings": "sec",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec",
   "intangibles": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 839388000.0,
+    "official": 839388000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 314765000.0,
+    "official": 314765000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 219948000.0,
+    "official": 219948000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1081392000.0,
+    "official": 1081392000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:49:20+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -184,7 +226,9 @@
    "goodwill_and_intangibles": 62230000.0,
    "retained_earnings": 253711000.0,
    "total_debt": 14065000.0,
-   "shares_out": 62191570.0
+   "shares_out": 62191570.0,
+   "normalized_ebitda": 159363000.0,
+   "normalized_income": 128959000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -215,7 +259,10 @@
    "goodwill_and_intangibles": 62235000.0,
    "retained_earnings": 304701000.0,
    "total_debt": 17694000.0,
-   "shares_out": 61566037.0
+   "shares_out": 61566037.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 215633000.0,
+   "normalized_income": 176568000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -246,7 +293,10 @@
    "goodwill_and_intangibles": 62226000.0,
    "retained_earnings": 329439000.0,
    "total_debt": 47794000.0,
-   "shares_out": 60921191.0
+   "shares_out": 60921191.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 267897000.0,
+   "normalized_income": 218364000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -277,7 +327,10 @@
    "goodwill_and_intangibles": 62244000.0,
    "retained_earnings": 345097000.0,
    "total_debt": 56180000.0,
-   "shares_out": 59845291.0
+   "shares_out": 59845291.0,
+   "unusual_items": -2937000.0,
+   "normalized_ebitda": 291991000.0,
+   "normalized_income": 222206553.0
   }
  ]
 }

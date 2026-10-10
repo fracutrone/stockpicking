@@ -1,6 +1,6 @@
 {
  "ticker": "LWDB.L",
- "fetched_at": "2026-10-10T12:07:28+00:00",
+ "fetched_at": "2026-10-10T15:03:46+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -55,8 +66,15 @@
   "intangibles": "yahoo",
   "goodwill_and_intangibles": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T15:03:46+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -82,7 +100,8 @@
    "intangibles": 3417000.0,
    "goodwill_and_intangibles": 22453000.0,
    "total_debt": 170559000.0,
-   "shares_out": 128172019.0
+   "shares_out": 128172019.0,
+   "normalized_income": -86347000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -108,7 +127,8 @@
    "intangibles": 3034000.0,
    "goodwill_and_intangibles": 22040000.0,
    "total_debt": 169630000.0,
-   "shares_out": 130608364.0
+   "shares_out": 130608364.0,
+   "normalized_income": 75153000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -134,7 +154,8 @@
    "intangibles": 2631000.0,
    "goodwill_and_intangibles": 4607000.0,
    "total_debt": 169076000.0,
-   "shares_out": 131888540.0
+   "shares_out": 131888540.0,
+   "normalized_income": 96951000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -159,7 +180,8 @@
    "intangibles": 1831000.0,
    "goodwill_and_intangibles": 3768000.0,
    "total_debt": 218156000.0,
-   "shares_out": 133182166.0
+   "shares_out": 133182166.0,
+   "normalized_income": 304670000.0
   }
  ]
 }

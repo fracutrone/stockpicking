@@ -1,6 +1,6 @@
 {
  "ticker": "ELAN",
- "fetched_at": "2026-10-10T12:44:12+00:00",
+ "fetched_at": "2026-10-10T15:42:35+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 9400,
   "website": "https://www.elanco.com",
-  "longBusinessSummary": "Elanco Animal Health Incorporated, an animal health company, innovates, develops, manufactures, and markets products for pets and farm animals worldwide. The company offers pet health products, such as parasiticides, vaccines, and therapeutics that protect pets from fleas, ticks, and internal parasites under the Seresto, K-9 Advantage, Advantix, and Advocate trademarks; prescription parasiticide products, an over-the-counter treatments for the prevention and elimination of fleas and ticks under the Credelio Family, Interceptor Plus, Drontal family, and Drontal Plus; vaccines portfolio that provides differentiated prevention coverage for a number of important pet health risks; and therapeutics portfolio for the treatment of pain, otitis, cardiovascular, and dermatology indications, as well as osteoarthritis for dogs and cats under the Galliprant trademark. It also provides farm animal products that help farmers improve animal health and wellbeing, and raise livestock, such as cattle, swine, and poultry. In addition, the company offers medicated feed additives, injectable antibiotics, vaccines, insecticides and enzymes, and others under the Rumensin, Baytril, and Experior trademarks for cattle; and under the Maxiban and Monteban trademarks for the control and prevention of intestinal disease in poultry. Further, it offers other pet health products for cats and dogs under the Atopica, Milbemax, Onsior, and Tru Family trademarks; and other farm animal products for poultry, cattle, and swine under the AviPro, Catosal, Denagard, Hemicell, Pulmotil, and Surmax tradmarks. The company sells its products to third-party distributors and independent retailers; and directly to farm animal producers and veterinarians. Elanco Animal Health Incorporated was founded in 1954 and is headquartered in Indianapolis, Indiana."
+  "longBusinessSummary": "Elanco Animal Health Incorporated, an animal health company, innovates, develops, manufactures, and markets products for pets and farm animals worldwide. The company offers pet health products, such as parasiticides, vaccines, and therapeutics that protect pets from fleas, ticks, and internal parasites under the Seresto, K-9 Advantage, Advantix, and Advocate trademarks; prescription parasiticide products, an over-the-counter treatments for the prevention and elimination of fleas and ticks under the Credelio Family, Interceptor Plus, Drontal family, and Drontal Plus; vaccines portfolio that provides differentiated prevention coverage for a number of important pet health risks; and therapeutics portfolio for the treatment of pain, otitis, cardiovascular, and dermatology indications, as well as osteoarthritis for dogs and cats under the Galliprant trademark. It also provides farm animal products that help farmers improve animal health and wellbeing, and raise livestock, such as cattle, swine, and poultry. In addition, the company offers medicated feed additives, injectable antibiotics, vaccines, insecticides and enzymes, and others under the Rumensin, Baytril, and Experior trademarks for cattle; and under the Maxiban and Monteban trademarks for the control and prevention of intestinal disease in poultry. Further, it offers other pet health products for cats and dogs under the Atopica, Milbemax, Onsior, and Tru Family trademarks; and other farm animal products for poultry, cattle, and swine under the AviPro, Catosal, Denagard, Hemicell, Pulmotil, and Surmax tradmarks. The company sells its products to third-party distributors and independent retailers; and directly to farm animal producers and veterinarians. Elanco Animal Health Incorporated was founded in 1954 and is headquartered in Indianapolis, Indiana.",
+  "targetMeanPrice": 31.0,
+  "targetLowPrice": 26.0,
+  "targetHighPrice": 34.0,
+  "numberOfAnalystOpinions": 13,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.5,
+  "forwardPE": 17.83949,
+  "forwardEps": 1.28479,
+  "trailingEps": -0.41,
+  "earningsGrowth": 4.405,
+  "revenueGrowth": 0.102
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 13358000000.0,
+    "official": 13358000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 6547000000.0,
+    "official": 6547000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -232000000.0,
+    "official": -232000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 4715000000.0,
+    "official": 4715000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:42:35+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -194,7 +236,10 @@
    "goodwill_and_intangibles": 10835000000.0,
    "retained_earnings": -1057000000.0,
    "total_debt": 5836000000.0,
-   "shares_out": 474237738.0
+   "shares_out": 474237738.0,
+   "unusual_items": -183000000.0,
+   "normalized_ebitda": 1034000000.0,
+   "normalized_income": 66570000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -228,7 +273,10 @@
    "goodwill_and_intangibles": 9588000000.0,
    "retained_earnings": -2288000000.0,
    "total_debt": 5774000000.0,
-   "shares_out": 492845216.0
+   "shares_out": 492845216.0,
+   "unusual_items": -1169000000.0,
+   "normalized_ebitda": 945000000.0,
+   "normalized_income": -307490000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -262,7 +310,10 @@
    "goodwill_and_intangibles": 8095000000.0,
    "retained_earnings": -1950000000.0,
    "total_debt": 4321000000.0,
-   "shares_out": 494445839.0
+   "shares_out": 494445839.0,
+   "unusual_items": 490000000.0,
+   "normalized_ebitda": 895000000.0,
+   "normalized_income": -1570000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -296,7 +347,10 @@
    "goodwill_and_intangibles": 8187000000.0,
    "retained_earnings": -2182000000.0,
    "total_debt": 3762000000.0,
-   "shares_out": 496975154.0
+   "shares_out": 496975154.0,
+   "unusual_items": -237000000.0,
+   "normalized_ebitda": 913000000.0,
+   "normalized_income": -44770000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "FTV",
- "fetched_at": "2026-10-10T12:46:16+00:00",
+ "fetched_at": "2026-10-10T15:44:34+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 10000,
   "website": "https://www.fortive.com",
-  "longBusinessSummary": "Fortive Corporation designs, develops, manufactures, and markets products, software, and services in the United States, China, and internationally. It operates through Intelligent Operating Solutions and Advanced Healthcare Solutions segments. The Intelligent Operating Solutions segment provides advanced instrumentation, software, and services, including maintenance, repair, measurement and condition monitoring, facility and asset lifecycle software applications, and connected worker safety and compliance solutions for manufacturing, process industries, healthcare, utilities and power, communications and electronics, and other industries. This segment markets its products and services under the ACCRUENT, FLUKE, GORDIAN, INDUSTRIAL SCIENTIFIC, INTELEX, and SERVICECHANNEL brand names. The Advanced Healthcare Solutions segment provides critical workflow solutions comprising instrument sterilization, instrument tracking, biomedical test tools, radiation detection and safety monitoring, and end-to-end clinical productivity software and solutions under the ASP, CENSIS, FLUKE BIOMEDICAL, LANDAUER, and PROVATION brand names. Fortive Corporation was incorporated in 2015 and is headquartered in Everett, Washington."
+  "longBusinessSummary": "Fortive Corporation designs, develops, manufactures, and markets products, software, and services in the United States, China, and internationally. It operates through Intelligent Operating Solutions and Advanced Healthcare Solutions segments. The Intelligent Operating Solutions segment provides advanced instrumentation, software, and services, including maintenance, repair, measurement and condition monitoring, facility and asset lifecycle software applications, and connected worker safety and compliance solutions for manufacturing, process industries, healthcare, utilities and power, communications and electronics, and other industries. This segment markets its products and services under the ACCRUENT, FLUKE, GORDIAN, INDUSTRIAL SCIENTIFIC, INTELEX, and SERVICECHANNEL brand names. The Advanced Healthcare Solutions segment provides critical workflow solutions comprising instrument sterilization, instrument tracking, biomedical test tools, radiation detection and safety monitoring, and end-to-end clinical productivity software and solutions under the ASP, CENSIS, FLUKE BIOMEDICAL, LANDAUER, and PROVATION brand names. Fortive Corporation was incorporated in 2015 and is headquartered in Everett, Washington.",
+  "targetMeanPrice": 63.07143,
+  "targetLowPrice": 51.0,
+  "targetHighPrice": 72.0,
+  "numberOfAnalystOpinions": 14,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.75,
+  "forwardPE": 17.60573,
+  "forwardEps": 3.25235,
+  "trailingEps": 1.9,
+  "earningsGrowth": 0.04,
+  "revenueGrowth": 0.079
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 11737700000.0,
+    "official": 11737700000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 6453400000.0,
+    "official": 6453400000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 579200000.0,
+    "official": 579200000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 4159100000.0,
+    "official": 4159100000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:44:34+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -171,7 +213,8 @@
    "goodwill": 9152000000.0,
    "intangibles": 3890200000.0,
    "retained_earnings": 6023600000.0,
-   "total_debt": 3959000000.0
+   "total_debt": 3959000000.0,
+   "unusual_items": -18000000.0
   },
   {
    "fy_end": "2022-12-31",
@@ -205,7 +248,10 @@
    "goodwill_and_intangibles": 12535900000.0,
    "retained_earnings": 6742100000.0,
    "total_debt": 3251300000.0,
-   "shares_out": 352900000.0
+   "shares_out": 352900000.0,
+   "unusual_items": -17900000.0,
+   "normalized_ebitda": 1455300000.0,
+   "normalized_income": 770683500.0
   },
   {
    "fy_end": "2023-12-31",
@@ -239,7 +285,10 @@
    "goodwill_and_intangibles": 12281500000.0,
    "retained_earnings": 7505900000.0,
    "total_debt": 3646200000.0,
-   "shares_out": 350700000.0
+   "shares_out": 350700000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 982800000.0,
+   "normalized_income": 408400000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -273,7 +322,10 @@
    "goodwill_and_intangibles": 9746500000.0,
    "retained_earnings": 8227600000.0,
    "total_debt": 3707300000.0,
-   "shares_out": 341200000.0
+   "shares_out": 341200000.0,
+   "unusual_items": 37500000.0,
+   "normalized_ebitda": 1090000000.0,
+   "normalized_income": 482500000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -307,7 +359,9 @@
    "goodwill_and_intangibles": 9486700000.0,
    "retained_earnings": 5428500000.0,
    "total_debt": 3206000000.0,
-   "shares_out": 313400000.0
+   "shares_out": 313400000.0,
+   "normalized_ebitda": 1160300000.0,
+   "normalized_income": 532700000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "MLM",
- "fetched_at": "2026-10-10T12:51:38+00:00",
+ "fetched_at": "2026-10-10T15:49:49+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 9600,
   "website": "https://www.martinmarietta.com",
-  "longBusinessSummary": "Martin Marietta Materials, Inc., a natural resource-based building materials company, supplies aggregates and heavy-side building materials to the construction industry in the United States and internationally. It operates through East Group and West Group segments. The company offers crushed stone, sand, and gravel products; ready mixed concrete and asphalt; and paving products and services for use in the infrastructure projects, and nonresidential and residential construction projects, as well as in the railroad, agricultural, utility, and environmental industries. It also produces magnesia-based chemicals products, and dolomitic lime primarily to customers for steel production and soil stabilization. Its chemical products are used in flame retardants, wastewater treatment, pulp and paper production, and other applications. The company was founded in 1939 and is based in Raleigh, North Carolina."
+  "longBusinessSummary": "Martin Marietta Materials, Inc., a natural resource-based building materials company, supplies aggregates and heavy-side building materials to the construction industry in the United States and internationally. It operates through East Group and West Group segments. The company offers crushed stone, sand, and gravel products; ready mixed concrete and asphalt; and paving products and services for use in the infrastructure projects, and nonresidential and residential construction projects, as well as in the railroad, agricultural, utility, and environmental industries. It also produces magnesia-based chemicals products, and dolomitic lime primarily to customers for steel production and soil stabilization. Its chemical products are used in flame retardants, wastewater treatment, pulp and paper production, and other applications. The company was founded in 1939 and is based in Raleigh, North Carolina.",
+  "targetMeanPrice": 635.1667,
+  "targetLowPrice": 496.0,
+  "targetHighPrice": 800.0,
+  "numberOfAnalystOpinions": 24,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.83333,
+  "forwardPE": 21.846697,
+  "forwardEps": 21.89576,
+  "trailingEps": 15.28,
+  "earningsGrowth": -0.232,
+  "revenueGrowth": 0.21
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 18711000000.0,
+    "official": 18711000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 10032000000.0,
+    "official": 10032000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1137000000.0,
+    "official": 1137000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 6150000000.0,
+    "official": 6150000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:49:49+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -206,7 +248,10 @@
    "goodwill_and_intangibles": 4497300000.0,
    "retained_earnings": 3719400000.0,
    "total_debt": 5040000000.0,
-   "shares_out": 62100000.0
+   "shares_out": 62100000.0,
+   "unusual_items": -9000000.0,
+   "normalized_ebitda": 1775000000.0,
+   "normalized_income": 863061411.549038
   },
   {
    "fy_end": "2023-12-31",
@@ -240,7 +285,10 @@
    "goodwill_and_intangibles": 4087000000.0,
    "retained_earnings": 4563000000.0,
    "total_debt": 4346000000.0,
-   "shares_out": 61821421.0
+   "shares_out": 61821421.0,
+   "unusual_items": 8000000.0,
+   "normalized_ebitda": 1896000000.0,
+   "normalized_income": 984528000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -274,7 +322,10 @@
    "goodwill_and_intangibles": 3870000000.0,
    "retained_earnings": 5915000000.0,
    "total_debt": 5413000000.0,
-   "shares_out": 61126646.0
+   "shares_out": 61126646.0,
+   "unusual_items": 1228000000.0,
+   "normalized_ebitda": 1880000000.0,
+   "normalized_income": 871896000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -308,7 +359,10 @@
    "goodwill_and_intangibles": 4073000000.0,
    "retained_earnings": 6402000000.0,
    "total_debt": 5323000000.0,
-   "shares_out": 60309739.0
+   "shares_out": 60309739.0,
+   "unusual_items": -18000000.0,
+   "normalized_ebitda": 2111000000.0,
+   "normalized_income": 1004544000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "SNDK",
- "fetched_at": "2026-10-10T12:58:22+00:00",
+ "fetched_at": "2026-10-10T15:55:56+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 11100,
   "website": "https://www.sandisk.com",
-  "longBusinessSummary": "Sandisk Corporation develops, manufactures, and sells data storage devices and solutions using NAND flash technology in the Americas, Europe, the Middle East, Africa, Asia, and internationally. The company provides solid state drives for desktop and notebook PCs, gaming consoles, and set top boxes; and flash-based embedded storage products for mobile phones, tablets, notebook PCs and other portable and wearable devices, automotive applications, Internet of Things, industrial, and connected home applications, as well as removable cards, universal serial bus drives, and wafers and components. It sells its products to computer manufacturers and original equipment manufacturers, datacenters, private cloud customers, cloud service providers, resellers, distributors, and retailers through its sales personnel, dealers, distributors, retailers, and subsidiaries. Sandisk Corporation was incorporated in 2024 and is based in Milpitas, California."
+  "longBusinessSummary": "Sandisk Corporation develops, manufactures, and sells data storage devices and solutions using NAND flash technology in the Americas, Europe, the Middle East, Africa, Asia, and internationally. The company provides solid state drives for desktop and notebook PCs, gaming consoles, and set top boxes; and flash-based embedded storage products for mobile phones, tablets, notebook PCs and other portable and wearable devices, automotive applications, Internet of Things, industrial, and connected home applications, as well as removable cards, universal serial bus drives, and wafers and components. It sells its products to computer manufacturers and original equipment manufacturers, datacenters, private cloud customers, cloud service providers, resellers, distributors, and retailers through its sales personnel, dealers, distributors, retailers, and subsidiaries. Sandisk Corporation was incorporated in 2024 and is based in Milpitas, California.",
+  "targetMeanPrice": 2173.0,
+  "targetLowPrice": 1000.0,
+  "targetHighPrice": 3600.0,
+  "numberOfAnalystOpinions": 24,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.52,
+  "forwardPE": 5.940057,
+  "forwardEps": 266.2971,
+  "trailingEps": 73.76,
+  "earningsGrowth": null,
+  "revenueGrowth": 3.716
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-06-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 22507000000.0,
+    "official": 22507000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 15736000000.0,
+    "official": 15736000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 11433000000.0,
+    "official": 11433000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 20248000000.0,
+    "official": 20248000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:55:57+00:00",
  "years": [
   {
    "fy_end": "2023-06-30",
@@ -105,7 +147,10 @@
    "cfo": -713000000.0,
    "capex": 219000000.0,
    "cash": 292000000.0,
-   "equity": 11439000000.0
+   "equity": 11439000000.0,
+   "unusual_items": -740000000.0,
+   "normalized_ebitda": -783000000.0,
+   "normalized_income": -1593698000.0
   },
   {
    "fy_end": "2024-06-28",
@@ -137,7 +182,10 @@
    "goodwill": 7207000000.0,
    "goodwill_and_intangibles": 7207000000.0,
    "retained_earnings": 0.0,
-   "total_debt": 0
+   "total_debt": 0,
+   "unusual_items": -23000000.0,
+   "normalized_ebitda": -216000000.0,
+   "normalized_income": -654894900.0
   },
   {
    "fy_end": "2025-06-27",
@@ -170,7 +218,10 @@
    "goodwill_and_intangibles": 4999000000.0,
    "retained_earnings": -1784000000.0,
    "total_debt": 1849000000.0,
-   "shares_out": 146000000.0
+   "shares_out": 146000000.0,
+   "unusual_items": -1886000000.0,
+   "normalized_ebitda": 633000000.0,
+   "normalized_income": -237250200.0
   },
   {
    "fy_end": "2026-07-03",
@@ -203,7 +254,10 @@
    "goodwill_and_intangibles": 4994000000.0,
    "retained_earnings": 9649000000.0,
    "total_debt": 0,
-   "shares_out": 146000000.0
+   "shares_out": 146000000.0,
+   "unusual_items": 729000000.0,
+   "normalized_ebitda": 12510000000.0,
+   "normalized_income": 10791480000.0
   }
  ]
 }

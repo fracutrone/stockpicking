@@ -1,6 +1,6 @@
 {
  "ticker": "JBL",
- "fetched_at": "2026-10-10T12:49:21+00:00",
+ "fetched_at": "2026-10-10T15:47:40+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": null,
   "website": "https://www.jabil.com",
-  "longBusinessSummary": "Jabil Inc. provides engineering, manufacturing, and supply chain solutions worldwide. It operates in three segments: Regulated Industries, Intelligent Infrastructure, and Connected Living and Digital Commerce. The company offers electronic hardware, and embedded software design services for analog, digital, radio frequency, power, sensor, and optical component applications; creates, develops, and connects concepts and specifications that optimize the function, value, and appearance of products for both consumers and manufacturing partners; design of plastic and metal components, enclosures, sub-assemblies, and systems, with advanced modeling and analysis of electronic, electro-mechanical, and optical assemblies; detail design, environmental applications, thermal and tooling management; develop solutions for virtual and/or augmented reality, light detection and ranging, 3D sensing, projection, and imaging; delivering PCBA design with CAD tools; and electrical and mechanical assemblies. The company also offers cloud data center server platforms; medical and consumer health devices; automotive assemblies; a digital commerce ecosystem; and smart controls and security for digital building and utilities. In addition, the company offers systems assembly, test, direct-order fulfillment, and configure-to-order services. It serves 5G, wireless and cloud, digital print and retail, industrial and semi-cap, networking and storage, automotive and transportation, connected devices, healthcare and packaging, and mobility industries. Jabil Inc. was formerly known as Jabil Circuit, Inc. and changed its name to Jabil Inc. in June 2017. The company was founded in 1966 and is based in Saint Petersburg, Florida."
+  "longBusinessSummary": "Jabil Inc. provides engineering, manufacturing, and supply chain solutions worldwide. It operates in three segments: Regulated Industries, Intelligent Infrastructure, and Connected Living and Digital Commerce. The company offers electronic hardware, and embedded software design services for analog, digital, radio frequency, power, sensor, and optical component applications; creates, develops, and connects concepts and specifications that optimize the function, value, and appearance of products for both consumers and manufacturing partners; design of plastic and metal components, enclosures, sub-assemblies, and systems, with advanced modeling and analysis of electronic, electro-mechanical, and optical assemblies; detail design, environmental applications, thermal and tooling management; develop solutions for virtual and/or augmented reality, light detection and ranging, 3D sensing, projection, and imaging; delivering PCBA design with CAD tools; and electrical and mechanical assemblies. The company also offers cloud data center server platforms; medical and consumer health devices; automotive assemblies; a digital commerce ecosystem; and smart controls and security for digital building and utilities. In addition, the company offers systems assembly, test, direct-order fulfillment, and configure-to-order services. It serves 5G, wireless and cloud, digital print and retail, industrial and semi-cap, networking and storage, automotive and transportation, connected devices, healthcare and packaging, and mobility industries. Jabil Inc. was formerly known as Jabil Circuit, Inc. and changed its name to Jabil Inc. in June 2017. The company was founded in 1966 and is based in Saint Petersburg, Florida.",
+  "targetMeanPrice": 425.0,
+  "targetLowPrice": 365.0,
+  "targetHighPrice": 475.0,
+  "numberOfAnalystOpinions": 9,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.4,
+  "forwardPE": 13.816256,
+  "forwardEps": 22.16809,
+  "trailingEps": 9.75,
+  "earningsGrowth": 0.89,
+  "revenueGrowth": 0.286
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-08-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 18543000000.0,
+    "official": 18543000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1513000000.0,
+    "official": 1513000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 657000000.0,
+    "official": 657000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 29802000000.0,
+    "official": 29802000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:47:40+00:00",
  "years": [
   {
    "fy_end": "2019-08-31",
@@ -197,7 +239,10 @@
    "goodwill_and_intangibles": 862000000.0,
    "retained_earnings": 3638000000.0,
    "total_debt": 2875000000.0,
-   "shares_out": 135493980.0
+   "shares_out": 135493980.0,
+   "unusual_items": -22000000.0,
+   "normalized_ebitda": 2324000000.0,
+   "normalized_income": 1013798000.0
   },
   {
    "fy_end": "2023-08-31",
@@ -231,7 +276,10 @@
    "goodwill_and_intangibles": 763000000.0,
    "retained_earnings": 4412000000.0,
    "total_debt": 2875000000.0,
-   "shares_out": 131294422.0
+   "shares_out": 131294422.0,
+   "unusual_items": -57000000.0,
+   "normalized_ebitda": 2449000000.0,
+   "normalized_income": 854936000.0
   },
   {
    "fy_end": "2024-08-31",
@@ -265,7 +313,10 @@
    "goodwill_and_intangibles": 804000000.0,
    "retained_earnings": 5760000000.0,
    "total_debt": 2880000000.0,
-   "shares_out": 113744167.0
+   "shares_out": 113744167.0,
+   "unusual_items": 576000000.0,
+   "normalized_ebitda": 2044000000.0,
+   "normalized_income": 931232000.0
   },
   {
    "fy_end": "2025-08-31",
@@ -299,7 +350,10 @@
    "goodwill_and_intangibles": 1114000000.0,
    "retained_earnings": 6382000000.0,
    "total_debt": 2885000000.0,
-   "shares_out": 107480895.0
+   "shares_out": 107480895.0,
+   "unusual_items": -300000000.0,
+   "normalized_ebitda": 2013000000.0,
+   "normalized_income": 877800000.0
   }
  ]
 }

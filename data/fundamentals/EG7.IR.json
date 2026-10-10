@@ -1,6 +1,6 @@
 {
  "ticker": "EG7.IR",
- "fetched_at": "2026-10-10T11:55:29+00:00",
+ "fetched_at": "2026-10-10T14:44:34+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "ISE",
   "fullTimeEmployees": 1045,
   "website": "https://www.fbdgroup.com",
-  "longBusinessSummary": "FBD Holdings plc, through its subsidiaries, engages in the underwriting of general insurance to farmers, private individuals, and business owners in Ireland. It operates through two segments, General Insurance and Other Services. The company is involved in underwriting operations for motor and non-motor insurance portfolios. It also provides car, home, travel, life and pensions, farm, and business insurance products; and investments and pension products. FBD Holdings plc was founded in 1969 and is headquartered in Dublin, Ireland."
+  "longBusinessSummary": "FBD Holdings plc, through its subsidiaries, engages in the underwriting of general insurance to farmers, private individuals, and business owners in Ireland. It operates through two segments, General Insurance and Other Services. The company is involved in underwriting operations for motor and non-motor insurance portfolios. It also provides car, home, travel, life and pensions, farm, and business insurance products; and investments and pension products. FBD Holdings plc was founded in 1969 and is headquartered in Dublin, Ireland.",
+  "targetMeanPrice": 21.555,
+  "targetLowPrice": 19.81,
+  "targetHighPrice": 23.3,
+  "numberOfAnalystOpinions": 2,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 12.062956,
+  "forwardEps": 1.57507,
+  "trailingEps": 1.9,
+  "earningsGrowth": 1.575,
+  "revenueGrowth": 0.088
  },
  "governance": {
   "ceo": {
@@ -61,8 +72,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2023-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 1367074000.0,
+    "official": 1367074000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 479959000.0,
+    "official": 479959000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 69541000.0,
+    "official": 69541000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 364090000.0,
+    "official": 2468000.0,
+    "diff": 146.524311
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2023-12-31"
+ },
+ "info_at": "2026-10-10T14:44:34+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -87,7 +129,9 @@
    "goodwill_and_intangibles": 14082000.0,
    "retained_earnings": 450318000.0,
    "total_debt": 54262000.0,
-   "shares_out": 35587279.0
+   "shares_out": 35587279.0,
+   "unusual_items": -287000.0,
+   "normalized_income": 57806838.0
   },
   {
    "fy_end": "2023-12-31",
@@ -111,7 +155,9 @@
    "goodwill_and_intangibles": 45661000.0,
    "retained_earnings": 444617000.0,
    "total_debt": 53549000.0,
-   "shares_out": 35856967.0
+   "shares_out": 35856967.0,
+   "unusual_items": -1708000.0,
+   "normalized_income": 70999632.0
   },
   {
    "fy_end": "2024-12-31",
@@ -135,7 +181,9 @@
    "goodwill_and_intangibles": 47539000.0,
    "retained_earnings": 445263000.0,
    "total_debt": 52836000.0,
-   "shares_out": 35897184.0
+   "shares_out": 35897184.0,
+   "unusual_items": 100000.0,
+   "normalized_income": 67117800.0
   },
   {
    "fy_end": "2025-12-31",
@@ -158,7 +206,9 @@
    "goodwill_and_intangibles": 46348000.0,
    "retained_earnings": 446101000.0,
    "total_debt": 53286000.0,
-   "shares_out": 35943862.0
+   "shares_out": 35943862.0,
+   "unusual_items": -3000.0,
+   "normalized_income": 47165613.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "ATYM.L",
- "fetched_at": "2026-10-10T11:46:29+00:00",
+ "fetched_at": "2026-10-10T14:32:20+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.11475,
   "heldPercentInstitutions": 0.52538,
   "shortPercentOfFloat": null,
-  "averageVolume": 679718,
+  "averageVolume": 678184,
   "quoteType": "EQUITY",
   "exchange": "LSE",
   "fullTimeEmployees": 482,
   "website": "https://atalayamining.com",
-  "longBusinessSummary": "Atalaya Mining Copper, S.A., together with its subsidiaries, engages in the mineral exploration and development in Spain. The company's flagship property is the Proyecto Riotinto, an open-pit copper mine located in the Andalusia region of Spain. It explores for copper concentrates, silver by-products, and gold. The company was formerly known as Atalaya Mining Plc and changed its name to Atalaya Mining Copper, S.A. in January 2025. Atalaya Mining Copper, S.A. was incorporated in 2004 and is based in Seville, Spain."
+  "longBusinessSummary": "Atalaya Mining Copper, S.A., together with its subsidiaries, engages in the mineral exploration and development in Spain. The company's flagship property is the Proyecto Riotinto, an open-pit copper mine located in the Andalusia region of Spain. It explores for copper concentrates, silver by-products, and gold. The company was formerly known as Atalaya Mining Plc and changed its name to Atalaya Mining Copper, S.A. in January 2025. Atalaya Mining Copper, S.A. was incorporated in 2004 and is based in Seville, Spain.",
+  "targetMeanPrice": 1280.714,
+  "targetLowPrice": 1170.0,
+  "targetHighPrice": 1450.0,
+  "numberOfAnalystOpinions": 7,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.25,
+  "forwardPE": 8.143174,
+  "forwardEps": 1.31644,
+  "trailingEps": 0.61,
+  "earningsGrowth": 0.709,
+  "revenueGrowth": 0.188
  },
  "governance": {
   "ceo": {
@@ -70,8 +81,17 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T14:32:20+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -105,7 +125,9 @@
    "goodwill_and_intangibles": 53830000.0,
    "retained_earnings": 70483000.0,
    "total_debt": 78277000.0,
-   "shares_out": 139879209.0
+   "shares_out": 139879209.0,
+   "normalized_ebitda": 67484000.0,
+   "normalized_income": 33155000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -139,7 +161,10 @@
    "goodwill_and_intangibles": 49397000.0,
    "retained_earnings": 98026000.0,
    "total_debt": 71065000.0,
-   "shares_out": 139879209.0
+   "shares_out": 139879209.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 77215000.0,
+   "normalized_income": 38769000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -173,7 +198,10 @@
    "goodwill_and_intangibles": 70209000.0,
    "retained_earnings": 93085000.0,
    "total_debt": 21588000.0,
-   "shares_out": 140759043.0
+   "shares_out": 140759043.0,
+   "unusual_items": -1204000.0,
+   "normalized_ebitda": 78281000.0,
+   "normalized_income": 32641000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -207,7 +235,10 @@
    "goodwill_and_intangibles": 74919000.0,
    "retained_earnings": 166091000.0,
    "total_debt": 48819000.0,
-   "shares_out": 140759043.0
+   "shares_out": 140759043.0,
+   "unusual_items": -24144000.0,
+   "normalized_ebitda": 175327000.0,
+   "normalized_income": 105730958.636066
   }
  ]
 }

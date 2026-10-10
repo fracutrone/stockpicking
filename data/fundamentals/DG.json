@@ -1,6 +1,6 @@
 {
  "ticker": "DG",
- "fetched_at": "2026-10-10T12:43:03+00:00",
+ "fetched_at": "2026-10-10T15:41:31+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 194000,
   "website": "https://www.dollargeneral.com",
-  "longBusinessSummary": "Dollar General Corporation, a discount retailer, provides various merchandise products in the southern, southwestern, midwestern, and eastern United States. It offers consumable products, including paper towels, bath tissues, paper dinnerware, trash and storage bags, disinfectants, and laundry products; packaged food, such as cereals, pasta, canned soups, canned meats, fruits and vegetables, condiments, spices, sugar, and flour; and perishables, including milk, eggs, bread, refrigerated and frozen food, beer, wine, and produce; candy, cookies, crackers, salty snacks, and carbonated beverages; over-the-counter medicines and personal care products including soap, body wash, shampoo, cosmetics, dental hygiene and foot care products; pet supplies and pet food; and tobacco products. The company also provides seasonal products comprising holiday items, toys, batteries, small electronics, greeting cards, stationery, prepaid phones and accessories, gardening supplies, hardware, automotive, and home office supplies; home products include kitchen supplies, cookware, small appliances, light bulbs, storage containers, frames, candles, craft supplies and kitchen, and bed and bath soft goods; and apparel products for infants, toddlers, girls, boys, women and men, as well as socks, underwear, disposable diapers, shoes and accessories. The company was formerly known as J.L. Turner & Son, Inc. and changed its name to Dollar General Corporation in 1968. Dollar General Corporation was founded in 1939 and is based in Goodlettsville, Tennessee."
+  "longBusinessSummary": "Dollar General Corporation, a discount retailer, provides various merchandise products in the southern, southwestern, midwestern, and eastern United States. It offers consumable products, including paper towels, bath tissues, paper dinnerware, trash and storage bags, disinfectants, and laundry products; packaged food, such as cereals, pasta, canned soups, canned meats, fruits and vegetables, condiments, spices, sugar, and flour; and perishables, including milk, eggs, bread, refrigerated and frozen food, beer, wine, and produce; candy, cookies, crackers, salty snacks, and carbonated beverages; over-the-counter medicines and personal care products including soap, body wash, shampoo, cosmetics, dental hygiene and foot care products; pet supplies and pet food; and tobacco products. The company also provides seasonal products comprising holiday items, toys, batteries, small electronics, greeting cards, stationery, prepaid phones and accessories, gardening supplies, hardware, automotive, and home office supplies; home products include kitchen supplies, cookware, small appliances, light bulbs, storage containers, frames, candles, craft supplies and kitchen, and bed and bath soft goods; and apparel products for infants, toddlers, girls, boys, women and men, as well as socks, underwear, disposable diapers, shoes and accessories. The company was formerly known as J.L. Turner & Son, Inc. and changed its name to Dollar General Corporation in 1968. Dollar General Corporation was founded in 1939 and is based in Goodlettsville, Tennessee.",
+  "targetMeanPrice": 141.44827,
+  "targetLowPrice": 90.0,
+  "targetHighPrice": 176.0,
+  "numberOfAnalystOpinions": 29,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.32258,
+  "forwardPE": 15.308904,
+  "forwardEps": 8.31085,
+  "trailingEps": 7.7,
+  "earningsGrowth": 0.333,
+  "revenueGrowth": 0.052
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,38 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-01-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 30963730000.0,
+    "official": 30963730000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 8511962000.0,
+    "official": 8511962000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1512311000.0,
+    "official": 1512311000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 42724369000.0,
+    "official": 42724369000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:41:31+00:00",
  "years": [
   {
    "fy_end": "2020-01-31",
@@ -194,7 +235,9 @@
    "goodwill_and_intangibles": 5538289000.0,
    "retained_earnings": 1656140000.0,
    "total_debt": 7009399000.0,
-   "shares_out": 219105000.0
+   "shares_out": 219105000.0,
+   "normalized_ebitda": 4052764000.0,
+   "normalized_income": 2415989000.0
   },
   {
    "fy_end": "2024-02-02",
@@ -228,7 +271,9 @@
    "goodwill_and_intangibles": 5538289000.0,
    "retained_earnings": 2799415000.0,
    "total_debt": 6231539000.0,
-   "shares_out": 219663000.0
+   "shares_out": 219663000.0,
+   "normalized_ebitda": 3295093000.0,
+   "normalized_income": 1661274000.0
   },
   {
    "fy_end": "2025-01-31",
@@ -262,7 +307,9 @@
    "goodwill_and_intangibles": 5538289000.0,
    "retained_earnings": 3405683000.0,
    "total_debt": 5719025000.0,
-   "shares_out": 219939000.0
+   "shares_out": 219939000.0,
+   "normalized_ebitda": 2685777000.0,
+   "normalized_income": 1125253000.0
   },
   {
    "fy_end": "2026-01-30",
@@ -296,7 +343,9 @@
    "goodwill_and_intangibles": 5538639000.0,
    "retained_earnings": 4398466000.0,
    "total_debt": 4565881000.0,
-   "shares_out": 220222000.0
+   "shares_out": 220222000.0,
+   "normalized_ebitda": 3241477000.0,
+   "normalized_income": 1512311000.0
   }
  ]
 }

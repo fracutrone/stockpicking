@@ -1,6 +1,6 @@
 {
  "ticker": "SSIT.L",
- "fetched_at": "2026-10-10T12:20:26+00:00",
+ "fetched_at": "2026-10-10T15:22:01+00:00",
  "region": "Europa",
  "statement_currency": "GBp",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -48,8 +59,15 @@
   "equity": "yahoo",
   "receivables": "yahoo",
   "retained_earnings": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T15:22:01+00:00",
  "years": [
   {
    "fy_end": "2022-06-30",
@@ -68,7 +86,8 @@
    "equity": 239316000.0,
    "receivables": 0.0,
    "retained_earnings": 3369000.0,
-   "shares_out": 239384928.0
+   "shares_out": 239384928.0,
+   "normalized_income": 3369000.0
   },
   {
    "fy_end": "2023-06-30",
@@ -87,7 +106,8 @@
    "equity": 222397000.0,
    "receivables": 0.0,
    "retained_earnings": -13550000.0,
-   "shares_out": 239384928.0
+   "shares_out": 239384928.0,
+   "normalized_income": -16919000.0
   },
   {
    "fy_end": "2024-06-30",
@@ -106,7 +126,8 @@
    "equity": 228138000.0,
    "receivables": 0.0,
    "retained_earnings": -6822000.0,
-   "shares_out": 237198584.0
+   "shares_out": 237198584.0,
+   "normalized_income": 6728000.0
   }
  ]
 }

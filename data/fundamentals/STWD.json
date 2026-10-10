@@ -1,6 +1,6 @@
 {
  "ticker": "STWD",
- "fetched_at": "2026-10-10T12:58:58+00:00",
+ "fetched_at": "2026-10-10T15:56:41+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 324,
   "website": "https://www.starwoodpropertytrust.com",
-  "longBusinessSummary": "Starwood Property Trust, Inc. operates as a real estate investment trust (REIT) in the United States and internationally. It operates through four segments: Commercial and Residential Lending; Infrastructure Lending; Property; and Investing and Servicing. The Commercial and Residential Lending segment originates, acquires, finances, and manages commercial first mortgages, non-agency residential mortgages, subordinated mortgages, mezzanine loans, preferred equity, commercial mortgage-backed securities (CMBS), and residential mortgage-backed securities, as well as other real estate and real estate-related debt investments, including distressed or non-performing loans. Its Infrastructure Lending segment originates, acquires, finances, and manages infrastructure debt investments. The Property segment engages primarily in acquiring and managing equity interests in stabilized and to be stabilized commercial real estate properties, including multifamily properties, multi-tenant medical office net lease properties and diversified single-tenant triple net lease properties that are held for investment. Its Investing and Servicing segment manages and works out problem assets; acquires and manages unrated, investment grade, and non-investment grade rated CMBS comprising subordinated interests of securitization and re-securitization transactions; originates conduit loans for the primary purpose of selling these loans into securitization transactions; and acquires commercial real estate assets that include properties acquired from CMBS trusts. The company qualifies as a REIT for federal income tax purposes and would not be subject to federal corporate income taxes if it distributes at least 90% of its taxable income to its stockholders. Starwood Property Trust, Inc. was incorporated in 2009 and is headquartered in Miami Beach, Florida."
+  "longBusinessSummary": "Starwood Property Trust, Inc. operates as a real estate investment trust (REIT) in the United States and internationally. It operates through four segments: Commercial and Residential Lending; Infrastructure Lending; Property; and Investing and Servicing. The Commercial and Residential Lending segment originates, acquires, finances, and manages commercial first mortgages, non-agency residential mortgages, subordinated mortgages, mezzanine loans, preferred equity, commercial mortgage-backed securities (CMBS), and residential mortgage-backed securities, as well as other real estate and real estate-related debt investments, including distressed or non-performing loans. Its Infrastructure Lending segment originates, acquires, finances, and manages infrastructure debt investments. The Property segment engages primarily in acquiring and managing equity interests in stabilized and to be stabilized commercial real estate properties, including multifamily properties, multi-tenant medical office net lease properties and diversified single-tenant triple net lease properties that are held for investment. Its Investing and Servicing segment manages and works out problem assets; acquires and manages unrated, investment grade, and non-investment grade rated CMBS comprising subordinated interests of securitization and re-securitization transactions; originates conduit loans for the primary purpose of selling these loans into securitization transactions; and acquires commercial real estate assets that include properties acquired from CMBS trusts. The company qualifies as a REIT for federal income tax purposes and would not be subject to federal corporate income taxes if it distributes at least 90% of its taxable income to its stockholders. Starwood Property Trust, Inc. was incorporated in 2009 and is headquartered in Miami Beach, Florida.",
+  "targetMeanPrice": 19.5625,
+  "targetLowPrice": 16.0,
+  "targetHighPrice": 24.0,
+  "numberOfAnalystOpinions": 8,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.88889,
+  "forwardPE": 6.766109,
+  "forwardEps": 1.87848,
+  "trailingEps": 0.6,
+  "earningsGrowth": -0.974,
+  "revenueGrowth": 0.134
  },
  "governance": {
   "ceo": {
@@ -77,8 +88,38 @@
   "retained_earnings": "sec",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "operating_income": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 63183357000.0,
+    "official": 63183357000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 6795516000.0,
+    "official": 6795516000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 411544000.0,
+    "official": 411544000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 829471000.0,
+    "official": 1844289000.0,
+    "diff": 0.550249
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:56:41+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -155,7 +196,9 @@
    "goodwill_and_intangibles": 328619000.0,
    "retained_earnings": 769237000.0,
    "total_debt": 9707847000.0,
-   "shares_out": 310675170.0
+   "shares_out": 310675170.0,
+   "unusual_items": -1185000.0,
+   "normalized_income": 872411150.0
   },
   {
    "fy_end": "2023-12-31",
@@ -181,7 +224,9 @@
    "goodwill_and_intangibles": 324813000.0,
    "retained_earnings": 505881000.0,
    "total_debt": 8865817000.0,
-   "shares_out": 313366074.0
+   "shares_out": 313366074.0,
+   "unusual_items": -1238000.0,
+   "normalized_income": 340191020.0
   },
   {
    "fy_end": "2024-12-31",
@@ -207,7 +252,9 @@
    "goodwill_and_intangibles": 320550000.0,
    "retained_earnings": 235323000.0,
    "total_debt": 9006280000.0,
-   "shares_out": 337409688.0
+   "shares_out": 337409688.0,
+   "unusual_items": -3940000.0,
+   "normalized_income": 363628720.0
   },
   {
    "fy_end": "2025-12-31",
@@ -233,7 +280,9 @@
    "goodwill_and_intangibles": 695905000.0,
    "retained_earnings": -39018000.0,
    "total_debt": 13204145000.0,
-   "shares_out": 370562879.0
+   "shares_out": 370562879.0,
+   "unusual_items": 17681000.0,
+   "normalized_income": 395224437.0
   }
  ]
 }

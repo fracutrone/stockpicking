@@ -1,6 +1,6 @@
 {
  "ticker": "PRY.MI",
- "fetched_at": "2026-10-10T12:15:08+00:00",
+ "fetched_at": "2026-10-10T15:12:41+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "MIL",
   "fullTimeEmployees": 34591,
   "website": "https://www.prysmian.com",
-  "longBusinessSummary": "Prysmian S.p.A., together with its subsidiaries, produces, distributes, and sells power and telecom cables and systems, and related accessories under the Prysmian, Draka, and General Cable brands worldwide. It operates through four segments: Transmission, Power Grid, Electrification, and Digital Solutions. The company offers high voltage direct current (HVDC), network component high voltage, submarine power, submarine telecom, offshore specialties, and EOSS high voltage units. It also provides power distribution, overhead lines, high voltage alternate current (HVAC), network component medium voltage/low voltage, EOSS medium voltage/low voltage units. In addition, it offers electrification products; and fiber optics, optical cables, connectivity components and accessories, optical ground wire cables, and copper cables. Further, it manufactures and sells thermoplastic and metal enclosures. Prysmian S.p.A. was founded in 1879 and is headquartered in Milan, Italy."
+  "longBusinessSummary": "Prysmian S.p.A., together with its subsidiaries, produces, distributes, and sells power and telecom cables and systems, and related accessories under the Prysmian, Draka, and General Cable brands worldwide. It operates through four segments: Transmission, Power Grid, Electrification, and Digital Solutions. The company offers high voltage direct current (HVDC), network component high voltage, submarine power, submarine telecom, offshore specialties, and EOSS high voltage units. It also provides power distribution, overhead lines, high voltage alternate current (HVAC), network component medium voltage/low voltage, EOSS medium voltage/low voltage units. In addition, it offers electrification products; and fiber optics, optical cables, connectivity components and accessories, optical ground wire cables, and copper cables. Further, it manufactures and sells thermoplastic and metal enclosures. Prysmian S.p.A. was founded in 1879 and is headquartered in Milan, Italy.",
+  "targetMeanPrice": 157.41176,
+  "targetLowPrice": 90.0,
+  "targetHighPrice": 181.0,
+  "numberOfAnalystOpinions": 17,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.70588,
+  "forwardPE": 20.060343,
+  "forwardEps": 6.14147,
+  "trailingEps": 4.7,
+  "earningsGrowth": 0.129,
+  "revenueGrowth": 0.226
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF IT",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 18157000000.0,
+    "official": 18202000000.0,
+    "diff": 0.002472
+   },
+   "equity": {
+    "yahoo": 5087000000.0,
+    "official": 5087000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 729000000.0,
+    "official": 729000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 17026000000.0,
+    "official": 17165000000.0,
+    "diff": 0.008098
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T15:12:41+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -121,7 +164,10 @@
    "goodwill_and_intangibles": 2164000000.0,
    "retained_earnings": 504000000.0,
    "total_debt": 3067000000.0,
-   "shares_out": 263532215.0
+   "shares_out": 263532215.0,
+   "unusual_items": -61000000.0,
+   "normalized_ebitda": 1249000000.0,
+   "normalized_income": 546029000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -156,7 +202,10 @@
    "goodwill_and_intangibles": 2071000000.0,
    "retained_earnings": 529000000.0,
    "total_debt": 3046000000.0,
-   "shares_out": 272805374.0
+   "shares_out": 272805374.0,
+   "unusual_items": -202000000.0,
+   "normalized_ebitda": 1664000000.0,
+   "normalized_income": 673632000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -191,7 +240,10 @@
    "goodwill_and_intangibles": 4916000000.0,
    "retained_earnings": 729000000.0,
    "total_debt": 5415000000.0,
-   "shares_out": 286914423.0
+   "shares_out": 286914423.0,
+   "unusual_items": -40000000.0,
+   "normalized_ebitda": 1700000000.0,
+   "normalized_income": 759499490.316004
   },
   {
    "fy_end": "2025-12-31",
@@ -226,7 +278,10 @@
    "goodwill_and_intangibles": 5257000000.0,
    "retained_earnings": 1270000000.0,
    "total_debt": 5208000000.0,
-   "shares_out": 286811649.0
+   "shares_out": 286811649.0,
+   "unusual_items": -51000000.0,
+   "normalized_ebitda": 2563000000.0,
+   "normalized_income": 1311984000.0
   }
  ]
 }

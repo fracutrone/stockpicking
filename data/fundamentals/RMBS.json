@@ -1,6 +1,6 @@
 {
  "ticker": "RMBS",
- "fetched_at": "2026-10-10T12:56:53+00:00",
+ "fetched_at": "2026-10-10T15:54:34+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 791,
   "website": "https://www.rambus.com",
-  "longBusinessSummary": "Rambus Inc. manufactures and sells semiconductor products in the United States, South Korea, Singapore, and internationally. It offers memory interface chips comprising DDR5 memory interface chips which include registering clock driver, multiplexed registering clock driver, multiplexed data buffer, power management integrated circuits, serial presence detect hubs, temperature sensors, and client clock driver products; and DDR4 memory interface chips. The company also provides silicon IP, such as interface and security IP solutions that move and protect data in advanced artificial intelligence, data center, government, and automotive applications; interface IP solutions for high-speed memory and chip-to-chip digital controller IP; security IP solutions, including crypto cores, hardware roots of trust, high-speed protocol engines, and chip provisioning technologies. In addition, it offers portfolio of patents that covers memory architecture, high-speed serial links, and security products. The company sells its products to memory module manufacturers, OEMs and hyperscalers, as well as to chip makers. It markets its products and services through its direct sales force and distributors. Rambus Inc. was incorporated in 1990 and is headquartered in San Jose, California."
+  "longBusinessSummary": "Rambus Inc. manufactures and sells semiconductor products in the United States, South Korea, Singapore, and internationally. It offers memory interface chips comprising DDR5 memory interface chips which include registering clock driver, multiplexed registering clock driver, multiplexed data buffer, power management integrated circuits, serial presence detect hubs, temperature sensors, and client clock driver products; and DDR4 memory interface chips. The company also provides silicon IP, such as interface and security IP solutions that move and protect data in advanced artificial intelligence, data center, government, and automotive applications; interface IP solutions for high-speed memory and chip-to-chip digital controller IP; security IP solutions, including crypto cores, hardware roots of trust, high-speed protocol engines, and chip provisioning technologies. In addition, it offers portfolio of patents that covers memory architecture, high-speed serial links, and security products. The company sells its products to memory module manufacturers, OEMs and hyperscalers, as well as to chip makers. It markets its products and services through its direct sales force and distributors. Rambus Inc. was incorporated in 1990 and is headquartered in San Jose, California.",
+  "targetMeanPrice": 141.57143,
+  "targetLowPrice": 100.0,
+  "targetHighPrice": 165.0,
+  "numberOfAnalystOpinions": 7,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.5,
+  "forwardPE": 28.48774,
+  "forwardEps": 3.7725,
+  "trailingEps": 2.18,
+  "earningsGrowth": 0.151,
+  "revenueGrowth": 0.204
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 1529545000.0,
+    "official": 1529545000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1364425000.0,
+    "official": 1364425000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 230455000.0,
+    "official": 230455000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 707630000.0,
+    "official": 707630000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:54:34+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -205,7 +247,10 @@
    "goodwill_and_intangibles": 342920000.0,
    "retained_earnings": -513256000.0,
    "total_debt": 44481000.0,
-   "shares_out": 107610356.0
+   "shares_out": 107610356.0,
+   "unusual_items": -93775000.0,
+   "normalized_ebitda": 134951000.0,
+   "normalized_income": 59772250.0
   },
   {
    "fy_end": "2023-12-31",
@@ -240,7 +285,10 @@
    "goodwill_and_intangibles": 315581000.0,
    "retained_earnings": -285534000.0,
    "total_debt": 30708000.0,
-   "shares_out": 107853778.0
+   "shares_out": 107853778.0,
+   "unusual_items": 85821000.0,
+   "normalized_ebitda": 151257000.0,
+   "normalized_income": 266105410.0
   },
   {
    "fy_end": "2024-12-31",
@@ -275,7 +323,10 @@
    "goodwill_and_intangibles": 303871000.0,
    "retained_earnings": -153660000.0,
    "total_debt": 30151000.0,
-   "shares_out": 106843112.0
+   "shares_out": 106843112.0,
+   "unusual_items": 3973000.0,
+   "normalized_ebitda": 240176000.0,
+   "normalized_income": 176249273.0
   },
   {
    "fy_end": "2025-12-31",
@@ -310,7 +361,10 @@
    "goodwill_and_intangibles": 296983000.0,
    "retained_earnings": 76795000.0,
    "total_debt": 24981000.0,
-   "shares_out": 107781863.0
+   "shares_out": 107781863.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 325318000.0,
+   "normalized_income": 230455000.0
   }
  ]
 }

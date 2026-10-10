@@ -1,6 +1,6 @@
 {
  "ticker": "CSN.L",
- "fetched_at": "2026-10-10T11:52:53+00:00",
+ "fetched_at": "2026-10-10T14:41:11+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.00966,
   "heldPercentInstitutions": 0.64354,
   "shortPercentOfFloat": null,
-  "averageVolume": 590229,
+  "averageVolume": 587593,
   "quoteType": "EQUITY",
   "exchange": "LSE",
   "fullTimeEmployees": 377,
   "website": "https://www.chesnara.co.uk",
-  "longBusinessSummary": "Chesnara plc, together with its subsidiaries, operates in life assurance and pension businesses primarily in the United Kingdom, Sweden, and the Netherlands. It underwrites life, health, accident, and disability cover by providing savings and pensions products to meet future financial needs; and provides a portfolio of investment contracts. The company also provides term life, unit-linked, index-linked, and non-linked business products. It distributes its products principally through independent financial advisers. Chesnara plc was incorporated in 2003 and is headquartered in Preston, the United Kingdom."
+  "longBusinessSummary": "Chesnara plc, together with its subsidiaries, operates in life assurance and pension businesses primarily in the United Kingdom, Sweden, and the Netherlands. It underwrites life, health, accident, and disability cover by providing savings and pensions products to meet future financial needs; and provides a portfolio of investment contracts. The company also provides term life, unit-linked, index-linked, and non-linked business products. It distributes its products principally through independent financial advisers. Chesnara plc was incorporated in 2003 and is headquartered in Preston, the United Kingdom.",
+  "targetMeanPrice": 377.80002,
+  "targetLowPrice": 322.0,
+  "targetHighPrice": 437.0,
+  "numberOfAnalystOpinions": 5,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 12.268069,
+  "forwardEps": 0.26247,
+  "trailingEps": 0.01,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.709
  },
  "governance": {
   "ceo": {
@@ -61,8 +72,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 14576000000.0,
+    "official": 14576000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 563300000.0,
+    "official": 563300000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -10400000.0,
+    "official": -10400000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 897100000.0,
+    "official": 186300000.0,
+    "diff": 3.815352
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:41:11+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -87,7 +129,9 @@
    "goodwill_and_intangibles": 126100000.0,
    "retained_earnings": 183100000.0,
    "total_debt": 213200000.0,
-   "shares_out": 173138568.0
+   "shares_out": 173138568.0,
+   "unusual_items": 15400000.0,
+   "normalized_income": -46174000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -112,7 +156,9 @@
    "goodwill_and_intangibles": 96400000.0,
    "retained_earnings": 167000000.0,
    "total_debt": 209300000.0,
-   "shares_out": 173691231.0
+   "shares_out": 173691231.0,
+   "unusual_items": 6700000.0,
+   "normalized_income": 13173000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -137,7 +183,9 @@
    "goodwill_and_intangibles": 87200000.0,
    "retained_earnings": 136500000.0,
    "total_debt": 206200000.0,
-   "shares_out": 173854078.0
+   "shares_out": 173854078.0,
+   "unusual_items": 0.0,
+   "normalized_income": 3900000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -162,7 +210,9 @@
    "goodwill_and_intangibles": 89400000.0,
    "retained_earnings": 83600000.0,
    "total_debt": 205300000.0,
-   "shares_out": 230533743.0
+   "shares_out": 230533743.0,
+   "unusual_items": -400000.0,
+   "normalized_income": -10100000.0
   }
  ]
 }

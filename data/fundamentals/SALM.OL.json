@@ -1,6 +1,6 @@
 {
  "ticker": "SALM.OL",
- "fetched_at": "2026-10-10T12:18:09+00:00",
+ "fetched_at": "2026-10-10T15:17:50+00:00",
  "region": "Europa",
  "statement_currency": "NOK",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "OSL",
   "fullTimeEmployees": 3066,
   "website": "https://www.salmar.no",
-  "longBusinessSummary": "SalMar ASA, an aquaculture company, produces and sells farmed salmon in Norway, Asia, Europe, North America, and internationally. The company operates through Fish Farming Central Norway, Fish Farming Northern Norway, Icelandic Salmon, Sales & Industry, and SalMar Aker Ocean segments. It also engages in the broodstock, marine-phase farming, harvesting, processing, and smolt production activities. In addition, the company offers fish fillets and related products. SalMar ASA was incorporated in 1991 and is headquartered in Kverva, Norway."
+  "longBusinessSummary": "SalMar ASA, an aquaculture company, produces and sells farmed salmon in Norway, Asia, Europe, North America, and internationally. The company operates through Fish Farming Central Norway, Fish Farming Northern Norway, Icelandic Salmon, Sales & Industry, and SalMar Aker Ocean segments. It also engages in the broodstock, marine-phase farming, harvesting, processing, and smolt production activities. In addition, the company offers fish fillets and related products. SalMar ASA was incorporated in 1991 and is headquartered in Kverva, Norway.",
+  "targetMeanPrice": 615.4545,
+  "targetLowPrice": 535.0,
+  "targetHighPrice": 700.0,
+  "numberOfAnalystOpinions": 11,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.16667,
+  "forwardPE": 15.230465,
+  "forwardEps": 36.17749,
+  "trailingEps": 16.29,
+  "earningsGrowth": 0.8,
+  "revenueGrowth": 0.233
  },
  "governance": {
   "ceo": {
@@ -76,8 +87,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF NO",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 54433000000.0,
+    "official": 54433000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 17926000000.0,
+    "official": 17927000000.0,
+    "diff": 5.6e-05
+   },
+   "net_income": {
+    "yahoo": 2969000000.0,
+    "official": 2969000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 26318000000.0,
+    "official": 26426000000.0,
+    "diff": 0.004087
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T15:17:50+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -111,7 +154,10 @@
    "goodwill_and_intangibles": 18291053000.0,
    "retained_earnings": 6796778000.0,
    "total_debt": 23217390000.0,
-   "shares_out": 145124634.0
+   "shares_out": 145124634.0,
+   "unusual_items": 199125000.0,
+   "normalized_ebitda": 5728207000.0,
+   "normalized_income": 3047075125.0
   },
   {
    "fy_end": "2023-12-31",
@@ -145,7 +191,10 @@
    "goodwill_and_intangibles": 18685000000.0,
    "retained_earnings": 9851000000.0,
    "total_debt": 15738000000.0,
-   "shares_out": 131760066.0
+   "shares_out": 131760066.0,
+   "unusual_items": -296000000.0,
+   "normalized_ebitda": 10250000000.0,
+   "normalized_income": 2776880000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -179,7 +228,10 @@
    "goodwill_and_intangibles": 19492000000.0,
    "retained_earnings": 8110000000.0,
    "total_debt": 19012000000.0,
-   "shares_out": 131924366.0
+   "shares_out": 131924366.0,
+   "unusual_items": 28000000.0,
+   "normalized_ebitda": 7190000000.0,
+   "normalized_income": 2948304927.398239
   },
   {
    "fy_end": "2025-12-31",
@@ -213,7 +265,10 @@
    "goodwill_and_intangibles": 22491000000.0,
    "retained_earnings": 6005000000.0,
    "total_debt": 23309000000.0,
-   "shares_out": 135328760.0
+   "shares_out": 135328760.0,
+   "unusual_items": -138000000.0,
+   "normalized_ebitda": 5241000000.0,
+   "normalized_income": 1196494000.0
   }
  ]
 }

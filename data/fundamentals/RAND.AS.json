@@ -1,6 +1,6 @@
 {
  "ticker": "RAND.AS",
- "fetched_at": "2026-10-10T12:15:47+00:00",
+ "fetched_at": "2026-10-10T15:14:18+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "AMS",
   "fullTimeEmployees": 38000,
   "website": "https://www.randstad.com",
-  "longBusinessSummary": "Randstad N.V. provides solutions in the field of work and human resources services primarily in North America, Northern Europe, Southern Europe, the United Kingdom, Latin America, and the Asia Pacific. The company offers temporary staffing and permanent placement, job posting, and résumé services on digital platforms. It also provides recruitment process outsourcing, payroll, and outplacement services, as well as managed services programs. In addition, the company offers inhouse, enterprise and digital, and tech suite services, as well as career development and online talent acquisition services. The company was formerly known as Randstad Holding NV and changed its name to Randstad N.V. in April 2018. Randstad N.V. was founded in 1960 and is headquartered in Diemen, the Netherlands."
+  "longBusinessSummary": "Randstad N.V. provides solutions in the field of work and human resources services primarily in North America, Northern Europe, Southern Europe, the United Kingdom, Latin America, and the Asia Pacific. The company offers temporary staffing and permanent placement, job posting, and résumé services on digital platforms. It also provides recruitment process outsourcing, payroll, and outplacement services, as well as managed services programs. In addition, the company offers inhouse, enterprise and digital, and tech suite services, as well as career development and online talent acquisition services. The company was formerly known as Randstad Holding NV and changed its name to Randstad N.V. in April 2018. Randstad N.V. was founded in 1960 and is headquartered in Diemen, the Netherlands.",
+  "targetMeanPrice": 36.82778,
+  "targetLowPrice": 24.0,
+  "targetHighPrice": 60.0,
+  "numberOfAnalystOpinions": 18,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.94444,
+  "forwardPE": 12.214761,
+  "forwardEps": 2.89977,
+  "trailingEps": 1.78,
+  "earningsGrowth": 0.819,
+  "revenueGrowth": 0.018
  },
  "governance": {
   "ceo": {
@@ -75,8 +86,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF NL",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 10686000000.0,
+    "official": 10686000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4001000000.0,
+    "official": 4001000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 299000000.0,
+    "official": 299000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 23077000000.0,
+    "official": 23077000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:14:18+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -109,7 +152,10 @@
    "goodwill_and_intangibles": 3397000000.0,
    "retained_earnings": 2511000000.0,
    "total_debt": 1144000000.0,
-   "shares_out": 182664808.0
+   "shares_out": 182664808.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 1473000000.0,
+   "normalized_income": 929000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -142,7 +188,10 @@
    "goodwill_and_intangibles": 3342000000.0,
    "retained_earnings": 2428000000.0,
    "total_debt": 1184000000.0,
-   "shares_out": 178018920.0
+   "shares_out": 178018920.0,
+   "unusual_items": -9000000.0,
+   "normalized_ebitda": 1178000000.0,
+   "normalized_income": 713226000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -175,7 +224,10 @@
    "goodwill_and_intangibles": 3572000000.0,
    "retained_earnings": 1905000000.0,
    "total_debt": 2218000000.0,
-   "shares_out": 175143347.0
+   "shares_out": 175143347.0,
+   "unusual_items": -97000000.0,
+   "normalized_ebitda": 703000000.0,
+   "normalized_income": 385264000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -208,7 +260,10 @@
    "goodwill_and_intangibles": 3379000000.0,
    "retained_earnings": 1682000000.0,
    "total_debt": 1910000000.0,
-   "shares_out": 175232895.0
+   "shares_out": 175232895.0,
+   "unusual_items": -42000000.0,
+   "normalized_ebitda": 887000000.0,
+   "normalized_income": 343241000.0
   }
  ]
 }

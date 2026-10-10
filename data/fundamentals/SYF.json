@@ -1,6 +1,6 @@
 {
  "ticker": "SYF",
- "fetched_at": "2026-10-10T12:59:12+00:00",
+ "fetched_at": "2026-10-10T15:56:56+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 20000,
   "website": "https://www.synchrony.com",
-  "longBusinessSummary": "Synchrony Financial, together with its subsidiaries, operates as a consumer financial services company in the United States. The company provides credit products, such as credit cards, commercial credit products, and consumer installment loans. It also offers private label credit cards, dual and general purpose co-branded cards, short- and long-term installment loans, and consumer banking products; and deposit products, including certificates of deposit, individual retirement accounts, money market accounts, savings accounts, and sweep and affinity deposits, as well as accepts deposits through third-party firms. In addition, the company provides debt cancellation products to its credit card customers through online and mobile channels; and healthcare payments and financing solutions under the CareCredit and Walgreens brands; payments and financing solutions in the apparel, specialty retail, outdoor, music, and luxury industries, such as American Eagle, Dick's Sporting Goods, Guitar Center, Pandora, Polaris, Suzuki, and Sweetwater. It offers its credit products through programs established with a group of national and regional retailers, local merchants, manufacturers, buying groups, industry associations, and healthcare service providers; and deposit products through various channels, such as digital and print. It serves digital, health and wellness, retail, home, auto, telecommunications, pet, outdoor, and other industries. The company was founded in 1932 and is headquartered in Stamford, Connecticut."
+  "longBusinessSummary": "Synchrony Financial, together with its subsidiaries, operates as a consumer financial services company in the United States. The company provides credit products, such as credit cards, commercial credit products, and consumer installment loans. It also offers private label credit cards, dual and general purpose co-branded cards, short- and long-term installment loans, and consumer banking products; and deposit products, including certificates of deposit, individual retirement accounts, money market accounts, savings accounts, and sweep and affinity deposits, as well as accepts deposits through third-party firms. In addition, the company provides debt cancellation products to its credit card customers through online and mobile channels; and healthcare payments and financing solutions under the CareCredit and Walgreens brands; payments and financing solutions in the apparel, specialty retail, outdoor, music, and luxury industries, such as American Eagle, Dick's Sporting Goods, Guitar Center, Pandora, Polaris, Suzuki, and Sweetwater. It offers its credit products through programs established with a group of national and regional retailers, local merchants, manufacturers, buying groups, industry associations, and healthcare service providers; and deposit products through various channels, such as digital and print. It serves digital, health and wellness, retail, home, auto, telecommunications, pet, outdoor, and other industries. The company was founded in 1932 and is headquartered in Stamford, Connecticut.",
+  "targetMeanPrice": 88.16667,
+  "targetLowPrice": 78.0,
+  "targetHighPrice": 104.0,
+  "numberOfAnalystOpinions": 24,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.83333,
+  "forwardPE": 6.957706,
+  "forwardEps": 10.46322,
+  "trailingEps": 9.77,
+  "earningsGrowth": 0.036,
+  "revenueGrowth": 0.006
  },
  "governance": {
   "ceo": {
@@ -75,8 +86,33 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "noninterest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 119095000000.0,
+    "official": 119095000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 16766000000.0,
+    "official": 16766000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 3552000000.0,
+    "official": 3552000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:56:56+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -101,7 +137,9 @@
    "goodwill_and_intangibles": 1847000000.0,
    "retained_earnings": 16716000000.0,
    "total_debt": 14191000000.0,
-   "shares_out": 438216755.0
+   "shares_out": 438216755.0,
+   "unusual_items": 0.0,
+   "normalized_income": 3016000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -126,7 +164,9 @@
    "goodwill_and_intangibles": 1833000000.0,
    "retained_earnings": 18662000000.0,
    "total_debt": 15982000000.0,
-   "shares_out": 406875775.0
+   "shares_out": 406875775.0,
+   "unusual_items": 0.0,
+   "normalized_income": 2238000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -151,7 +191,9 @@
    "goodwill_and_intangibles": 2128000000.0,
    "retained_earnings": 21635000000.0,
    "total_debt": 15462000000.0,
-   "shares_out": 388261077.0
+   "shares_out": 388261077.0,
+   "unusual_items": 1069000000.0,
+   "normalized_income": 2677468921.59016
   },
   {
    "fy_end": "2025-12-31",
@@ -176,7 +218,9 @@
    "goodwill_and_intangibles": 2618000000.0,
    "retained_earnings": 24598000000.0,
    "total_debt": 15182000000.0,
-   "shares_out": 347400000.0
+   "shares_out": 347400000.0,
+   "unusual_items": 0.0,
+   "normalized_income": 3552000000.0
   }
  ]
 }

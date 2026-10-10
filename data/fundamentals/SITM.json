@@ -1,6 +1,6 @@
 {
  "ticker": "SITM",
- "fetched_at": "2026-10-10T12:58:01+00:00",
+ "fetched_at": "2026-10-10T15:55:37+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NGM",
   "fullTimeEmployees": 441,
   "website": "https://www.sitime.com",
-  "longBusinessSummary": "SiTime Corporation engages in the design, development, and sale of silicon timing systems solutions in Hong Kong, Taiwan, the United States, Singapore, and internationally. It offers various types of oscillators, as well as clock integrated circuits, resonators, and synchronization software for use in artificial intelligence systems, data center, communications, enterprise, automotive, industrial, aerospace, defense, mobile, Internet of Things, and consumer markets. The company was incorporated in 2003 and is based in Santa Clara, California."
+  "longBusinessSummary": "SiTime Corporation engages in the design, development, and sale of silicon timing systems solutions in Hong Kong, Taiwan, the United States, Singapore, and internationally. It offers various types of oscillators, as well as clock integrated circuits, resonators, and synchronization software for use in artificial intelligence systems, data center, communications, enterprise, automotive, industrial, aerospace, defense, mobile, Internet of Things, and consumer markets. The company was incorporated in 2003 and is based in Santa Clara, California.",
+  "targetMeanPrice": 849.5,
+  "targetLowPrice": 730.0,
+  "targetHighPrice": 900.0,
+  "numberOfAnalystOpinions": 10,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 41.040432,
+  "forwardEps": 14.92114,
+  "trailingEps": 0.56,
+  "earningsGrowth": null,
+  "revenueGrowth": 1.265
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 1294699000.0,
+    "official": 1294699000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1156182000.0,
+    "official": 1156182000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -42903000.0,
+    "official": -42903000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 326660000.0,
+    "official": 326660000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:55:37+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -198,7 +240,10 @@
    "goodwill_and_intangibles": 5205000.0,
    "retained_earnings": -7865000.0,
    "total_debt": 10634000.0,
-   "shares_out": 21702000.0
+   "shares_out": 21702000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 27985000.0,
+   "normalized_income": 23254000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -232,7 +277,10 @@
    "goodwill_and_intangibles": 264177000.0,
    "retained_earnings": -88400000.0,
    "total_debt": 8024000.0,
-   "shares_out": 22692165.0
+   "shares_out": 22692165.0,
+   "unusual_items": -7728000.0,
+   "normalized_ebitda": -75616000.0,
+   "normalized_income": -74429880.0
   },
   {
    "fy_end": "2024-12-31",
@@ -266,7 +314,10 @@
    "goodwill_and_intangibles": 250656000.0,
    "retained_earnings": -182001000.0,
    "total_debt": 6232000.0,
-   "shares_out": 23598000.0
+   "shares_out": 23598000.0,
+   "unusual_items": -10722000.0,
+   "normalized_ebitda": -63724000.0,
+   "normalized_income": -85130620.0
   },
   {
    "fy_end": "2025-12-31",
@@ -300,7 +351,10 @@
    "goodwill_and_intangibles": 234464000.0,
    "retained_earnings": -224904000.0,
    "total_debt": 3610000.0,
-   "shares_out": 26299000.0
+   "shares_out": 26299000.0,
+   "unusual_items": -6567000.0,
+   "normalized_ebitda": -13655000.0,
+   "normalized_income": -37715070.0
   }
  ]
 }

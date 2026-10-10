@@ -1,6 +1,6 @@
 {
  "ticker": "JGGI.L",
- "fetched_at": "2026-10-10T12:04:47+00:00",
+ "fetched_at": "2026-10-10T14:59:44+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -49,8 +60,15 @@
   "equity": "yahoo",
   "receivables": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T14:59:44+00:00",
  "years": [
   {
    "fy_end": "2022-06-30",
@@ -70,7 +88,8 @@
    "equity": 669413000.0,
    "receivables": 3270000.0,
    "total_debt": 49746000.0,
-   "shares_out": 166086285.0
+   "shares_out": 166086285.0,
+   "normalized_income": -25563000.0
   },
   {
    "fy_end": "2023-06-30",
@@ -90,7 +109,8 @@
    "equity": 1812908000.0,
    "receivables": 2815000.0,
    "total_debt": 139493000.0,
-   "shares_out": 395043169.0
+   "shares_out": 395043169.0,
+   "normalized_income": 161867000.0
   },
   {
    "fy_end": "2024-06-30",
@@ -110,7 +130,8 @@
    "equity": 2735942000.0,
    "receivables": 9584000.0,
    "total_debt": 138455000.0,
-   "shares_out": 480337308.0
+   "shares_out": 480337308.0,
+   "normalized_income": 552219000.0
   }
  ]
 }

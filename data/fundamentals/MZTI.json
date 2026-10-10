@@ -1,6 +1,6 @@
 {
  "ticker": "MZTI",
- "fetched_at": "2026-10-10T12:52:35+00:00",
+ "fetched_at": "2026-10-10T15:50:38+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 3500,
   "website": "https://www.marzetticompany.com",
-  "longBusinessSummary": "The Marzetti Company engages in manufacturing and marketing of specialty food products for the retail and foodservice channels in the United States. It operates in two segments, Retail and Foodservice. The Retail segment offers frozen garlic bread under the New York Bakery brand; frozen Parkerhouse style yeast and dinner rolls under the Sister Schubert's brand; salad dressings under the Marzetti, Cardini's, Marzetti Simply, and Girard's brands; vegetable and fruit dips under the Marzetti brand; Japanese barbecue sauces and dips under the Bachan's brand; and croutons and toppings under the New York Bakery, Chatham Village, and Marzetti brands. Its Foodservice segment sells custom-formulated sauces, salad dressings, frozen breads, yeast rolls, and frozen pasta under the Marzetti, Sister Schubert's, and Marzetti Frozen Pasta brands, as well as private labels for chain restaurants. The company sells its products through sales personnel, food brokers, and distributors to retailers and restaurants. The company was formerly known as Lancaster Colony Corporation and changed its name to The Marzetti Company in June 2025. The Marzetti Company was founded in 1896 and is based in Westerville, Ohio."
+  "longBusinessSummary": "The Marzetti Company engages in manufacturing and marketing of specialty food products for the retail and foodservice channels in the United States. It operates in two segments, Retail and Foodservice. The Retail segment offers frozen garlic bread under the New York Bakery brand; frozen Parkerhouse style yeast and dinner rolls under the Sister Schubert's brand; salad dressings under the Marzetti, Cardini's, Marzetti Simply, and Girard's brands; vegetable and fruit dips under the Marzetti brand; Japanese barbecue sauces and dips under the Bachan's brand; and croutons and toppings under the New York Bakery, Chatham Village, and Marzetti brands. Its Foodservice segment sells custom-formulated sauces, salad dressings, frozen breads, yeast rolls, and frozen pasta under the Marzetti, Sister Schubert's, and Marzetti Frozen Pasta brands, as well as private labels for chain restaurants. The company sells its products through sales personnel, food brokers, and distributors to retailers and restaurants. The company was formerly known as Lancaster Colony Corporation and changed its name to The Marzetti Company in June 2025. The Marzetti Company was founded in 1896 and is based in Westerville, Ohio.",
+  "targetMeanPrice": 146.6,
+  "targetLowPrice": 118.0,
+  "targetHighPrice": 185.0,
+  "numberOfAnalystOpinions": 5,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.2,
+  "forwardPE": 13.685226,
+  "forwardEps": 7.256,
+  "trailingEps": 6.98,
+  "earningsGrowth": 0.495,
+  "revenueGrowth": -0.022
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-06-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 1605020000.0,
+    "official": 1605020000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1053150000.0,
+    "official": 1053150000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 191606000.0,
+    "official": 191606000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1929823000.0,
+    "official": 1929823000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:50:38+00:00",
  "years": [
   {
    "fy_end": "2020-06-30",
@@ -195,7 +237,10 @@
    "goodwill_and_intangibles": 213211000.0,
    "retained_earnings": 1503963000.0,
    "total_debt": 29987000.0,
-   "shares_out": 27527550.0
+   "shares_out": 27527550.0,
+   "unusual_items": -24969000.0,
+   "normalized_ebitda": 242656000.0,
+   "normalized_income": 130686913.0
   },
   {
    "fy_end": "2024-06-30",
@@ -229,7 +274,10 @@
    "goodwill_and_intangibles": 208371000.0,
    "retained_earnings": 1564642000.0,
    "total_debt": 57667000.0,
-   "shares_out": 27527090.0
+   "shares_out": 27527090.0,
+   "unusual_items": -14874000.0,
+   "normalized_ebitda": 276285000.0,
+   "normalized_income": 170092501.554631
   },
   {
    "fy_end": "2025-06-30",
@@ -263,7 +311,10 @@
    "goodwill_and_intangibles": 222772000.0,
    "retained_earnings": 1628487000.0,
    "total_debt": 55553000.0,
-   "shares_out": 27533599.0
+   "shares_out": 27533599.0,
+   "unusual_items": -5102000.0,
+   "normalized_ebitda": 280733000.0,
+   "normalized_income": 171346776.982428
   },
   {
    "fy_end": "2026-06-30",
@@ -297,7 +348,10 @@
    "goodwill_and_intangibles": 625866000.0,
    "retained_earnings": 1711330000.0,
    "total_debt": 253781000.0,
-   "shares_out": 27291221.0
+   "shares_out": 27291221.0,
+   "unusual_items": 16024000.0,
+   "normalized_ebitda": 299155000.0,
+   "normalized_income": 178914992.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "BBOX.L",
- "fetched_at": "2026-10-10T11:47:20+00:00",
+ "fetched_at": "2026-10-10T14:33:55+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": null,
   "heldPercentInstitutions": null,
   "shortPercentOfFloat": null,
-  "averageVolume": 8874377,
+  "averageVolume": 8891995,
   "quoteType": "EQUITY",
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": 194.61499,
+  "targetLowPrice": 175.0,
+  "targetHighPrice": 259.0,
+  "numberOfAnalystOpinions": 13,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.46154,
+  "forwardPE": 15.050634,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "top_institutions": [
@@ -58,8 +69,16 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T14:33:55+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -82,7 +101,9 @@
    "goodwill_and_intangibles": 1400000.0,
    "retained_earnings": 1731900000.0,
    "total_debt": 1613900000.0,
-   "shares_out": 1868826992.0
+   "shares_out": 1868826992.0,
+   "unusual_items": -759500000.0,
+   "normalized_income": 158078036.605657
   },
   {
    "fy_end": "2023-12-31",
@@ -105,7 +126,9 @@
    "goodwill_and_intangibles": 1100000.0,
    "retained_earnings": 1801900000.0,
    "total_debt": 1615200000.0,
-   "shares_out": 1903738325.0
+   "shares_out": 1903738325.0,
+   "unusual_items": -39700000.0,
+   "normalized_income": 109362606.232295
   },
   {
    "fy_end": "2024-12-31",
@@ -128,7 +151,9 @@
    "goodwill_and_intangibles": 700000.0,
    "retained_earnings": 2247400000.0,
    "total_debt": 1953500000.0,
-   "shares_out": 2480677459.0
+   "shares_out": 2480677459.0,
+   "unusual_items": 252100000.0,
+   "normalized_income": 193569650.067295
   },
   {
    "fy_end": "2025-12-31",
@@ -151,7 +176,9 @@
    "goodwill_and_intangibles": 400000.0,
    "retained_earnings": 2610700000.0,
    "total_debt": 2733900000.0,
-   "shares_out": 2702122165.0
+   "shares_out": 2702122165.0,
+   "unusual_items": 187100000.0,
+   "normalized_income": 176200000.0
   }
  ]
 }

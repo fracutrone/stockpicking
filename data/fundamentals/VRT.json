@@ -1,6 +1,6 @@
 {
  "ticker": "VRT",
- "fetched_at": "2026-10-10T13:01:45+00:00",
+ "fetched_at": "2026-10-10T15:59:12+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 34000,
   "website": "https://www.vertiv.com",
-  "longBusinessSummary": "Vertiv Holdings Co designs, manufactures, and services critical digital infrastructure technologies and life cycle services for data centers, communication networks, and commercial and industrial environments in the Americas, the Asia Pacific, Europe, the Middle East, and Africa. The company offers AC and DC power management products, low/medium voltage switchgear, busbar, thermal management products, air cooled and liquid cooled thermal management products, integrated modular solutions, racks, single phase UPS, rack power distribution, rack thermal systems, configurable integrated solutions, energy storage solutions, hardware, and software infrastructure that are integral to the technologies used for various services, including artificial intelligence, e-commerce, online banking, file sharing, video on-demand, energy storage, wireless communications, Internet of Things, and online gaming. It also provides lifecycle management services, predictive analytics, and professional services for deploying, maintaining, and optimizing its products and their related systems; and preventative maintenance, acceptance testing, engineering and consulting, fluid management, performance assessments, remote monitoring, training, spare parts, and critical digital infrastructure software services. The company offers its products primarily under the Vertiv, Liebert, NetSure, Geist, Energy Labs, ERS, Albér, and Avocent brands. It serves through a network of direct sales professionals, independent sales representatives, channel partners, and original equipment manufacturers. The company is headquartered in Westerville, Ohio."
+  "longBusinessSummary": "Vertiv Holdings Co designs, manufactures, and services critical digital infrastructure technologies and life cycle services for data centers, communication networks, and commercial and industrial environments in the Americas, the Asia Pacific, Europe, the Middle East, and Africa. The company offers AC and DC power management products, low/medium voltage switchgear, busbar, thermal management products, air cooled and liquid cooled thermal management products, integrated modular solutions, racks, single phase UPS, rack power distribution, rack thermal systems, configurable integrated solutions, energy storage solutions, hardware, and software infrastructure that are integral to the technologies used for various services, including artificial intelligence, e-commerce, online banking, file sharing, video on-demand, energy storage, wireless communications, Internet of Things, and online gaming. It also provides lifecycle management services, predictive analytics, and professional services for deploying, maintaining, and optimizing its products and their related systems; and preventative maintenance, acceptance testing, engineering and consulting, fluid management, performance assessments, remote monitoring, training, spare parts, and critical digital infrastructure software services. The company offers its products primarily under the Vertiv, Liebert, NetSure, Geist, Energy Labs, ERS, Albér, and Avocent brands. It serves through a network of direct sales professionals, independent sales representatives, channel partners, and original equipment manufacturers. The company is headquartered in Westerville, Ohio.",
+  "targetMeanPrice": 337.42856,
+  "targetLowPrice": 236.0,
+  "targetHighPrice": 427.0,
+  "numberOfAnalystOpinions": 28,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.36667,
+  "forwardPE": 26.450916,
+  "forwardEps": 9.17851,
+  "trailingEps": 4.42,
+  "earningsGrowth": 0.53,
+  "revenueGrowth": 0.241
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 12212400000.0,
+    "official": 12212400000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3941300000.0,
+    "official": 3941300000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1332800000.0,
+    "official": 1332800000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 10229900000.0,
+    "official": 10229900000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:59:12+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -204,7 +246,10 @@
    "goodwill_and_intangibles": 3100800000.0,
    "retained_earnings": -1142600000.0,
    "total_debt": 3190900000.0,
-   "shares_out": 377368837.0
+   "shares_out": 377368837.0,
+   "unusual_items": 86500000.0,
+   "normalized_ebitda": 530200000.0,
+   "normalized_income": 8265000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -238,7 +283,10 @@
    "goodwill_and_intangibles": 3003200000.0,
    "retained_earnings": -691900000.0,
    "total_debt": 2940900000.0,
-   "shares_out": 381788876.0
+   "shares_out": 381788876.0,
+   "unusual_items": -203000000.0,
+   "normalized_ebitda": 1187800000.0,
+   "normalized_income": 635186000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -273,7 +321,10 @@
    "goodwill_and_intangibles": 2808200000.0,
    "retained_earnings": -238300000.0,
    "total_debt": 2928200000.0,
-   "shares_out": 380703974.0
+   "shares_out": 380703974.0,
+   "unusual_items": -466200000.0,
+   "normalized_ebitda": 1659000000.0,
+   "normalized_income": 797897600.0
   },
   {
    "fy_end": "2025-12-31",
@@ -308,7 +359,10 @@
    "goodwill_and_intangibles": 3928500000.0,
    "retained_earnings": 1027900000.0,
    "total_debt": 2913000000.0,
-   "shares_out": 382553680.0
+   "shares_out": 382553680.0,
+   "unusual_items": -68200000.0,
+   "normalized_ebitda": 2204800000.0,
+   "normalized_income": 1384973000.0
   }
  ]
 }

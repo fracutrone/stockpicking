@@ -1,6 +1,6 @@
 {
  "ticker": "FICO",
- "fetched_at": "2026-10-10T12:45:37+00:00",
+ "fetched_at": "2026-10-10T15:43:56+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 3876,
   "website": "https://www.fico.com",
-  "longBusinessSummary": "Fair Isaac Corporation provides analytics software in the Americas, Europe, the Middle East, Africa, and the Asia Pacific. It operates through two segments, Scores and Software. The Scores segment offers business-to-business scoring solutions and services that give clients access to predictive credit and other scores that can be integrated into their transaction streams and decision-making processes, as well as business-to-consumer scoring solutions comprising myFICO.com subscription offerings. Its Software segment provides pre-configured analytic and decision management solution designed for various business needs or processes, such as account origination, customer management, customer engagement, fraud detection, and marketing, as well as associated professional services. This segment also offers FICO Platform, a modular software offering designed to support advanced analytic and decision use cases, as well as stand-alone analytic and decisioning software that can be configured by customers to address a wide range of business use cases. In addition, the company offers analytic and decisioning software comprising FICO Decision Modeler, FICO Blaze Advisor, FICO Xpress Optimization, FICO Analytics Workbench, FICO Data Orchestrator, FICO DMP Streaming, FICO Business Outcome Simulator, and FICO Decision Optimizer; pre-configured solutions consisting of FICO Fraud Solutions, FICO Originations, FICO Customer Communication Service, FICO Strategy Director, and FICO TRIAD Customer Manager; and professional services software, including FICO Implementation Services and FICO Analytic Services. It markets its products and services primarily through its direct sales organization and indirect channels, as well as online. The company was formerly known as Fair Isaac & Company, Inc. and changed its name to Fair Isaac Corporation in July 1992. Fair Isaac Corporation was founded in 1956 and is headquartered in Bozeman, Montana."
+  "longBusinessSummary": "Fair Isaac Corporation provides analytics software in the Americas, Europe, the Middle East, Africa, and the Asia Pacific. It operates through two segments, Scores and Software. The Scores segment offers business-to-business scoring solutions and services that give clients access to predictive credit and other scores that can be integrated into their transaction streams and decision-making processes, as well as business-to-consumer scoring solutions comprising myFICO.com subscription offerings. Its Software segment provides pre-configured analytic and decision management solution designed for various business needs or processes, such as account origination, customer management, customer engagement, fraud detection, and marketing, as well as associated professional services. This segment also offers FICO Platform, a modular software offering designed to support advanced analytic and decision use cases, as well as stand-alone analytic and decisioning software that can be configured by customers to address a wide range of business use cases. In addition, the company offers analytic and decisioning software comprising FICO Decision Modeler, FICO Blaze Advisor, FICO Xpress Optimization, FICO Analytics Workbench, FICO Data Orchestrator, FICO DMP Streaming, FICO Business Outcome Simulator, and FICO Decision Optimizer; pre-configured solutions consisting of FICO Fraud Solutions, FICO Originations, FICO Customer Communication Service, FICO Strategy Director, and FICO TRIAD Customer Manager; and professional services software, including FICO Implementation Services and FICO Analytic Services. It markets its products and services primarily through its direct sales organization and indirect channels, as well as online. The company was formerly known as Fair Isaac & Company, Inc. and changed its name to Fair Isaac Corporation in July 1992. Fair Isaac Corporation was founded in 1956 and is headquartered in Bozeman, Montana.",
+  "targetMeanPrice": 1113.4722,
+  "targetLowPrice": 490.0,
+  "targetHighPrice": 1750.0,
+  "numberOfAnalystOpinions": 19,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.28571,
+  "forwardPE": 13.298719,
+  "forwardEps": 50.19882,
+  "trailingEps": 34.54,
+  "earningsGrowth": 0.412,
+  "revenueGrowth": 0.257
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-09-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 1868133000.0,
+    "official": 1868133000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": -1745784000.0,
+    "official": -1745784000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 651946000.0,
+    "official": 651946000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1990869000.0,
+    "official": 1990869000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:43:56+00:00",
  "years": [
   {
    "fy_end": "2019-09-30",
@@ -198,7 +240,10 @@
    "goodwill_and_intangibles": 763084000.0,
    "retained_earnings": 2958684000.0,
    "total_debt": 1823669000.0,
-   "shares_out": 25154000.0
+   "shares_out": 25154000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 560741000.0,
+   "normalized_income": 373541000.0
   },
   {
    "fy_end": "2023-09-30",
@@ -231,7 +276,10 @@
    "goodwill_and_intangibles": 774244000.0,
    "retained_earnings": 3388059000.0,
    "total_debt": 1811658000.0,
-   "shares_out": 24770000.0
+   "shares_out": 24770000.0,
+   "unusual_items": 1941000.0,
+   "normalized_ebitda": 661867000.0,
+   "normalized_income": 427868784.0
   },
   {
    "fy_end": "2024-09-30",
@@ -264,7 +312,10 @@
    "goodwill_and_intangibles": 782752000.0,
    "retained_earnings": 3900870000.0,
    "total_debt": 2209021000.0,
-   "shares_out": 24392000.0
+   "shares_out": 24392000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 761490000.0,
+   "normalized_income": 512811000.0
   },
   {
    "fy_end": "2025-09-30",
@@ -296,7 +347,10 @@
    "goodwill_and_intangibles": 783340000.0,
    "retained_earnings": 4552816000.0,
    "total_debt": 3055691000.0,
-   "shares_out": 23763783.0
+   "shares_out": 23763783.0,
+   "unusual_items": -10922000.0,
+   "normalized_ebitda": 962116000.0,
+   "normalized_income": 660814664.0
   }
  ]
 }

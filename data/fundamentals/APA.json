@@ -1,6 +1,6 @@
 {
  "ticker": "APA",
- "fetched_at": "2026-10-10T12:37:41+00:00",
+ "fetched_at": "2026-10-10T15:34:40+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 1791,
   "website": "https://www.apacorp.com",
-  "longBusinessSummary": "APA Corporation, an independent energy company, explores for, develops, and produces natural gas, crude oil, and natural gas liquids. The company has oil and gas operations in the United States, Egypt, and North Sea. It also has exploration and appraisal activities in Suriname, as well as holds interests in projects located in Uruguay and internationally. APA Corporation was incorporated in 1954 and is headquartered in Houston, Texas."
+  "longBusinessSummary": "APA Corporation, an independent energy company, explores for, develops, and produces natural gas, crude oil, and natural gas liquids. The company has oil and gas operations in the United States, Egypt, and North Sea. It also has exploration and appraisal activities in Suriname, as well as holds interests in projects located in Uruguay and internationally. APA Corporation was incorporated in 1954 and is headquartered in Houston, Texas.",
+  "targetMeanPrice": 46.4,
+  "targetLowPrice": 36.0,
+  "targetHighPrice": 62.0,
+  "numberOfAnalystOpinions": 25,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.55556,
+  "forwardPE": 9.87223,
+  "forwardEps": 4.64738,
+  "trailingEps": 4.73,
+  "earningsGrowth": 0.263,
+  "revenueGrowth": 0.092
  },
  "governance": {
   "ceo": {
@@ -82,8 +93,34 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "goodwill": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 17761000000.0,
+    "official": 17761000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 6093000000.0,
+    "official": 6093000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1434000000.0,
+    "official": 1434000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:34:40+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -115,7 +152,10 @@
    "goodwill": 0.0,
    "retained_earnings": -5814000000.0,
    "total_debt": 5451000000.0,
-   "shares_out": 311559149.0
+   "shares_out": 311559149.0,
+   "unusual_items": 816000000.0,
+   "normalized_ebitda": 6465000000.0,
+   "normalized_income": 3023094523.892571
   },
   {
    "fy_end": "2023-12-31",
@@ -146,7 +186,10 @@
    "ppe_net": 10038000000.0,
    "retained_earnings": -2959000000.0,
    "total_debt": 5186000000.0,
-   "shares_out": 303575901.0
+   "shares_out": 303575901.0,
+   "unusual_items": -172000000.0,
+   "normalized_ebitda": 4922000000.0,
+   "normalized_income": 2982675600.0
   },
   {
    "fy_end": "2024-12-31",
@@ -177,7 +220,10 @@
    "ppe_net": 12646000000.0,
    "retained_earnings": -2155000000.0,
    "total_debt": 5991000000.0,
-   "shares_out": 365397149.0
+   "shares_out": 365397149.0,
+   "unusual_items": -1291000000.0,
+   "normalized_ebitda": 5465000000.0,
+   "normalized_income": 1743848000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -208,7 +254,10 @@
    "ppe_net": 12748000000.0,
    "retained_earnings": -721000000.0,
    "total_debt": 4280000000.0,
-   "shares_out": 352964646.0
+   "shares_out": 352964646.0,
+   "unusual_items": 309000000.0,
+   "normalized_ebitda": 5064000000.0,
+   "normalized_income": 1246746000.0
   }
  ]
 }

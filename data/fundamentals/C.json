@@ -1,6 +1,6 @@
 {
  "ticker": "C",
- "fetched_at": "2026-10-10T12:39:44+00:00",
+ "fetched_at": "2026-10-10T15:38:35+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 219000,
   "website": "https://www.citigroup.com",
-  "longBusinessSummary": "Citigroup Inc., a diversified financial service holding company, provides various financial products and services to consumers, corporations, governments, and institutions. It operates through five segments: Services, Markets, Banking, U.S. Personal Banking, and Wealth. The Services segment includes treasury and trade solutions, which provides cash management, trade, and working capital solutions to multinational corporations, financial institutions, and public sector organizations; and securities services, such as cross-border support for clients, local market expertise, post-trade technologies, data solutions, and various securities services solutions. The Markets segment offers sales and trading services for equities, foreign exchange, rates, spread products, and commodities to corporate, institutional, and public sector clients; and market-making services, including asset classes, risk management solutions, financing, and prime brokerage. The Banking segment includes investment banking services comprising equity and debt capital markets-related strategic financing solutions; advisory services related to mergers and acquisitions, divestitures, restructurings, and corporate defense activities; and corporate lending consists of corporate and commercial banking. The U.S. Personal Banking segment provides proprietary and co-branded card portfolios; and traditional banking services to retail and small business customers. The Wealth segment offers financial services to high-net-worth clients through banking, lending, mortgages, investment, custody, and trust product offerings; professional industries, including law firms, consulting groups, accounting, and asset management; and affluent and high net worth clients. The company operates in North America, the United Kingdom, Japan, North and South Asia, Australia, Europe, the Middle East, and Africa. Citigroup Inc. was founded in 1812 and is headquartered in New York, New York."
+  "longBusinessSummary": "Citigroup Inc., a diversified financial service holding company, provides various financial products and services to consumers, corporations, governments, and institutions. It operates through five segments: Services, Markets, Banking, U.S. Personal Banking, and Wealth. The Services segment includes treasury and trade solutions, which provides cash management, trade, and working capital solutions to multinational corporations, financial institutions, and public sector organizations; and securities services, such as cross-border support for clients, local market expertise, post-trade technologies, data solutions, and various securities services solutions. The Markets segment offers sales and trading services for equities, foreign exchange, rates, spread products, and commodities to corporate, institutional, and public sector clients; and market-making services, including asset classes, risk management solutions, financing, and prime brokerage. The Banking segment includes investment banking services comprising equity and debt capital markets-related strategic financing solutions; advisory services related to mergers and acquisitions, divestitures, restructurings, and corporate defense activities; and corporate lending consists of corporate and commercial banking. The U.S. Personal Banking segment provides proprietary and co-branded card portfolios; and traditional banking services to retail and small business customers. The Wealth segment offers financial services to high-net-worth clients through banking, lending, mortgages, investment, custody, and trust product offerings; professional industries, including law firms, consulting groups, accounting, and asset management; and affluent and high net worth clients. The company operates in North America, the United Kingdom, Japan, North and South Asia, Australia, Europe, the Middle East, and Africa. Citigroup Inc. was founded in 1812 and is headquartered in New York, New York.",
+  "targetMeanPrice": 152.19048,
+  "targetLowPrice": 130.0,
+  "targetHighPrice": 170.0,
+  "numberOfAnalystOpinions": 21,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.65217,
+  "forwardPE": 10.010756,
+  "forwardEps": 12.95007,
+  "trailingEps": 9.26,
+  "earningsGrowth": 0.61,
+  "revenueGrowth": 0.155
  },
  "governance": {
   "ceo": {
@@ -78,9 +89,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "cogs": "sec",
   "noninterest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 2657202000000.0,
+    "official": 2657202000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 212291000000.0,
+    "official": 212291000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 14306000000.0,
+    "official": 14306000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 85213000000.0,
+    "official": 85225000000.0,
+    "diff": 0.000141
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:38:35+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -173,7 +214,9 @@
    "goodwill_and_intangibles": 24119000000.0,
    "retained_earnings": 194734000000.0,
    "total_debt": 318702000000.0,
-   "shares_out": 1936986425.0
+   "shares_out": 1936986425.0,
+   "unusual_items": 129000000.0,
+   "normalized_income": 14971981017.706173
   },
   {
    "fy_end": "2023-12-31",
@@ -201,7 +244,9 @@
    "goodwill_and_intangibles": 24519000000.0,
    "retained_earnings": 198905000000.0,
    "total_debt": 324076000000.0,
-   "shares_out": 1903113839.0
+   "shares_out": 1903113839.0,
+   "unusual_items": -2859000000.0,
+   "normalized_income": 11307493000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -229,7 +274,9 @@
    "goodwill_and_intangibles": 23794000000.0,
    "retained_earnings": 206294000000.0,
    "total_debt": 335805000000.0,
-   "shares_out": 1877071466.0
+   "shares_out": 1877071466.0,
+   "unusual_items": -780000000.0,
+   "normalized_income": 13271340000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -257,7 +304,9 @@
    "goodwill_and_intangibles": 23382000000.0,
    "retained_earnings": 215128000000.0,
    "total_debt": 367705000000.0,
-   "shares_out": 1747547001.0
+   "shares_out": 1747547001.0,
+   "unusual_items": -1101000000.0,
+   "normalized_income": 15111629000.0
   }
  ]
 }

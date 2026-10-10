@@ -1,6 +1,6 @@
 {
  "ticker": "ROR.L",
- "fetched_at": "2026-10-10T12:17:15+00:00",
+ "fetched_at": "2026-10-10T15:16:26+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 3585,
   "website": "https://www.rotork.com",
-  "longBusinessSummary": "Rotork plc manufactures industrial flow control and instrumentation solutions for the oil and gas, water and wastewater, power, chemical process, and industrial markets. It operates through three segments: Oils & Gas; Water & Power; and Chemical, Process & Industrial segments. The company provides electric industrial, electric intelligent, electro-hydraulic, heavy and light duty fluid, and precision modulating actuators; and flow pressure control and filtration, gearbox accessories, master station, networks and protocols, multi-turn gearboxes, valve positioners and controllers, part-turn gearboxes, HVAC actuators and sensors, instrumentation valves, electrical instrumentation, and limit switches and position transmitters. It also provides integrated ethernet, packaged solutions, carbon capture and storage, hydrogen industrial gases, desalination, and methane emissions reduction solutions. The company offers its products under the Bifold, Centork, Fairchild, Hanbay, Mastergear, Midland, M&M International, Remote Control, RotoHammer, Schischek, Soldo Controls, and YTC brand names. It operates in the United Kingdom, the Asia Pacific, the United States, Europe, the Middle East, Africa, and internationally. Rotork plc was founded in 1956 and is headquartered in Bath, the United Kingdom."
+  "longBusinessSummary": "Rotork plc manufactures industrial flow control and instrumentation solutions for the oil and gas, water and wastewater, power, chemical process, and industrial markets. It operates through three segments: Oils & Gas; Water & Power; and Chemical, Process & Industrial segments. The company provides electric industrial, electric intelligent, electro-hydraulic, heavy and light duty fluid, and precision modulating actuators; and flow pressure control and filtration, gearbox accessories, master station, networks and protocols, multi-turn gearboxes, valve positioners and controllers, part-turn gearboxes, HVAC actuators and sensors, instrumentation valves, electrical instrumentation, and limit switches and position transmitters. It also provides integrated ethernet, packaged solutions, carbon capture and storage, hydrogen industrial gases, desalination, and methane emissions reduction solutions. The company offers its products under the Bifold, Centork, Fairchild, Hanbay, Mastergear, Midland, M&M International, Remote Control, RotoHammer, Schischek, Soldo Controls, and YTC brand names. It operates in the United Kingdom, the Asia Pacific, the United States, Europe, the Middle East, Africa, and internationally. Rotork plc was founded in 1956 and is headquartered in Bath, the United Kingdom.",
+  "targetMeanPrice": 482.66702,
+  "targetLowPrice": 320.0,
+  "targetHighPrice": 503.00003,
+  "numberOfAnalystOpinions": 9,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.83333,
+  "forwardPE": 26.093433,
+  "forwardEps": 0.18794,
+  "trailingEps": 0.15,
+  "earningsGrowth": 0.195,
+  "revenueGrowth": -0.0
  },
  "governance": {
   "top_institutions": [
@@ -69,8 +80,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 813800000.0,
+    "official": 813800000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 581600000.0,
+    "official": 581600000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 115400000.0,
+    "official": 115400000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 777300000.0,
+    "official": 777300000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:16:26+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -104,7 +147,10 @@
    "goodwill_and_intangibles": 248584000.0,
    "retained_earnings": 531951000.0,
    "total_debt": 8836000.0,
-   "shares_out": 858940353.0
+   "shares_out": 858940353.0,
+   "unusual_items": 159000.0,
+   "normalized_ebitda": 148623000.0,
+   "normalized_income": 93123591.0
   },
   {
    "fy_end": "2023-12-31",
@@ -138,7 +184,10 @@
    "goodwill_and_intangibles": 262829000.0,
    "retained_earnings": 581813000.0,
    "total_debt": 11957000.0,
-   "shares_out": 859635299.0
+   "shares_out": 859635299.0,
+   "unusual_items": 342000.0,
+   "normalized_ebitda": 169593000.0,
+   "normalized_income": 112877474.0
   },
   {
    "fy_end": "2024-12-31",
@@ -172,7 +221,10 @@
    "goodwill_and_intangibles": 256200000.0,
    "retained_earnings": 569200000.0,
    "total_debt": 24700000.0,
-   "shares_out": 842659265.0
+   "shares_out": 842659265.0,
+   "unusual_items": 100000.0,
+   "normalized_ebitda": 163100000.0,
+   "normalized_income": 103525409.252669
   },
   {
    "fy_end": "2025-12-31",
@@ -206,7 +258,10 @@
    "goodwill_and_intangibles": 273700000.0,
    "retained_earnings": 563900000.0,
    "total_debt": 44700000.0,
-   "shares_out": 825159806.0
+   "shares_out": 825159806.0,
+   "unusual_items": -100000.0,
+   "normalized_ebitda": 181700000.0,
+   "normalized_income": 115474034.19886
   }
  ]
 }

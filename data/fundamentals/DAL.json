@@ -1,6 +1,6 @@
 {
  "ticker": "DAL",
- "fetched_at": "2026-10-10T12:42:47+00:00",
+ "fetched_at": "2026-10-10T15:41:15+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 100000,
   "website": "https://www.delta.com",
-  "longBusinessSummary": "Delta Air Lines, Inc. provides scheduled air transportation for passengers and cargo in the United States and internationally. The company operates through two segments, Airline and Refinery. Its domestic network centered on core hubs in Atlanta, Detroit, Minneapolis-St. Paul, and Salt Lake City, as well as coastal hub positions in Boston, Los Angeles, New York-LaGuardia, New York-JFK, and Seattle; and international network centered on hubs and market presence in Amsterdam, Bogota, Lima, Mexico City, London-Heathrow, Paris-Charles de Gaulle, Santiago (Chile), Sao Paulo, Seoul-Incheon, and Tokyo. It also provides aircraft maintenance and engineering support, repair, and overhaul services; and vacation packages. The company operates through a fleet of approximately 1,314 aircraft. Delta Air Lines, Inc. was founded in 1924 and is headquartered in Atlanta, Georgia."
+  "longBusinessSummary": "Delta Air Lines, Inc. provides scheduled air transportation for passengers and cargo in the United States and internationally. The company operates through two segments, Airline and Refinery. Its domestic network centered on core hubs in Atlanta, Detroit, Minneapolis-St. Paul, and Salt Lake City, as well as coastal hub positions in Boston, Los Angeles, New York-LaGuardia, New York-JFK, and Seattle; and international network centered on hubs and market presence in Amsterdam, Bogota, Lima, Mexico City, London-Heathrow, Paris-Charles de Gaulle, Santiago (Chile), Sao Paulo, Seoul-Incheon, and Tokyo. It also provides aircraft maintenance and engineering support, repair, and overhaul services; and vacation packages. The company operates through a fleet of approximately 1,314 aircraft. Delta Air Lines, Inc. was founded in 1924 and is headquartered in Atlanta, Georgia.",
+  "targetMeanPrice": 101.6875,
+  "targetLowPrice": 50.0,
+  "targetHighPrice": 125.0,
+  "numberOfAnalystOpinions": 24,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.32,
+  "forwardPE": 10.416112,
+  "forwardEps": 7.88874,
+  "trailingEps": 5.01,
+  "earningsGrowth": -0.47,
+  "revenueGrowth": 0.211
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 81317000000.0,
+    "official": 81317000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 20853000000.0,
+    "official": 20853000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 5005000000.0,
+    "official": 5005000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 63364000000.0,
+    "official": 63364000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:41:15+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -190,7 +232,10 @@
    "goodwill_and_intangibles": 15745000000.0,
    "retained_earnings": 1170000000.0,
    "total_debt": 21381000000.0,
-   "shares_out": 641265753.0
+   "shares_out": 641265753.0,
+   "unusual_items": -883000000.0,
+   "normalized_ebitda": 5933000000.0,
+   "normalized_income": 1925504000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -225,7 +270,10 @@
    "goodwill_and_intangibles": 15736000000.0,
    "retained_earnings": 5650000000.0,
    "total_debt": 18610000000.0,
-   "shares_out": 643446948.0
+   "shares_out": 643446948.0,
+   "unusual_items": 1200000000.0,
+   "normalized_ebitda": 7583000000.0,
+   "normalized_income": 3622600000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -260,7 +308,10 @@
    "goodwill_and_intangibles": 15728000000.0,
    "retained_earnings": 8783000000.0,
    "total_debt": 15347000000.0,
-   "shares_out": 646472635.0
+   "shares_out": 646472635.0,
+   "unusual_items": -358000000.0,
+   "normalized_ebitda": 8276000000.0,
+   "normalized_income": 3722636000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -294,7 +345,10 @@
    "goodwill_and_intangibles": 15719000000.0,
    "retained_earnings": 13343000000.0,
    "total_debt": 13308000000.0,
-   "shares_out": 653171237.0
+   "shares_out": 653171237.0,
+   "unusual_items": 1186000000.0,
+   "normalized_ebitda": 8121000000.0,
+   "normalized_income": 4045526000.0
   }
  ]
 }

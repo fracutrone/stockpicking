@@ -1,6 +1,6 @@
 {
  "ticker": "HLI",
- "fetched_at": "2026-10-10T12:47:45+00:00",
+ "fetched_at": "2026-10-10T15:46:09+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 2800,
   "website": "https://hl.com",
-  "longBusinessSummary": "Houlihan Lokey, Inc., an investment banking company, provides merger and acquisition (M&A), capital market, financial restructurings and liability management, and financial and valuation advisory services worldwide. The company operates in three segments: Corporate Finance (CF), Financial Restructuring (FR), and Financial and Valuation Advisory (FVA). The CF segment offers general financial advisory services; and advises public and private institutions, including financial sponsors on buy-side and sell-side M&A transactions, debt and equity financings in both the private and public markets, and other corporate finance transactions. The FR segment advises debtors, creditors, and other parties-in-interest related to recapitalization/deleveraging transactions. This segment also provides a range of advisory services, such as structuring, negotiation, and confirmation of plans of reorganization; structuring and analysis of exchange offers; liability management transactions; corporate viability assessment; dispute resolution and expert testimony; and procuring debtor-in-possession financing. The FVA segment provides valuation services to companies; debt and equity interests comprising illiquid investments; and other assets and liabilities. This segment also offers fairness opinions in connection with mergers and acquisitions and other transactions; solvency opinions in connection with corporate spin-offs and dividend recapitalizations; other types of financial opinions; and diligence, tax, transaction accounting, and other financial advisory services, as well as dispute resolution services. It serves corporations, financial sponsors, and government agencies. Houlihan Lokey, Inc. was incorporated in 1972 and is headquartered in Los Angeles, California."
+  "longBusinessSummary": "Houlihan Lokey, Inc., an investment banking company, provides merger and acquisition (M&A), capital market, financial restructurings and liability management, and financial and valuation advisory services worldwide. The company operates in three segments: Corporate Finance (CF), Financial Restructuring (FR), and Financial and Valuation Advisory (FVA). The CF segment offers general financial advisory services; and advises public and private institutions, including financial sponsors on buy-side and sell-side M&A transactions, debt and equity financings in both the private and public markets, and other corporate finance transactions. The FR segment advises debtors, creditors, and other parties-in-interest related to recapitalization/deleveraging transactions. This segment also provides a range of advisory services, such as structuring, negotiation, and confirmation of plans of reorganization; structuring and analysis of exchange offers; liability management transactions; corporate viability assessment; dispute resolution and expert testimony; and procuring debtor-in-possession financing. The FVA segment provides valuation services to companies; debt and equity interests comprising illiquid investments; and other assets and liabilities. This segment also offers fairness opinions in connection with mergers and acquisitions and other transactions; solvency opinions in connection with corporate spin-offs and dividend recapitalizations; other types of financial opinions; and diligence, tax, transaction accounting, and other financial advisory services, as well as dispute resolution services. It serves corporations, financial sponsors, and government agencies. Houlihan Lokey, Inc. was incorporated in 1972 and is headquartered in Los Angeles, California.",
+  "targetMeanPrice": 155.11111,
+  "targetLowPrice": 147.0,
+  "targetHighPrice": 175.0,
+  "numberOfAnalystOpinions": 9,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.18182,
+  "forwardPE": 15.07476,
+  "forwardEps": 8.6343,
+  "trailingEps": 6.18,
+  "earningsGrowth": -0.19,
+  "revenueGrowth": -0.155
  },
  "governance": {
   "ceo": {
@@ -82,8 +93,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-03-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 4308955000.0,
+    "official": 4308955000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2342377000.0,
+    "official": 2342377000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 425697000.0,
+    "official": 425697000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2617516000.0,
+    "official": 2617516000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:46:09+00:00",
  "years": [
   {
    "fy_end": "2020-03-31",
@@ -172,7 +214,10 @@
    "goodwill_and_intangibles": 1291154000.0,
    "retained_earnings": 1033072000.0,
    "total_debt": 374869000.0,
-   "shares_out": 68687269.0
+   "shares_out": 68687269.0,
+   "unusual_items": -35070000.0,
+   "normalized_ebitda": 470099000.0,
+   "normalized_income": 281752950.0
   },
   {
    "fy_end": "2024-03-31",
@@ -204,7 +249,10 @@
    "goodwill_and_intangibles": 1324936000.0,
    "retained_earnings": 1163419000.0,
    "total_debt": 415412000.0,
-   "shares_out": 69095187.0
+   "shares_out": 69095187.0,
+   "unusual_items": -25861000.0,
+   "normalized_ebitda": 453492000.0,
+   "normalized_income": 298869198.0
   },
   {
    "fy_end": "2025-03-31",
@@ -236,7 +284,10 @@
    "goodwill_and_intangibles": 1497259000.0,
    "retained_earnings": 1394738000.0,
    "total_debt": 438185000.0,
-   "shares_out": 69843295.0
+   "shares_out": 69843295.0,
+   "unusual_items": -53754000.0,
+   "normalized_ebitda": 651345000.0,
+   "normalized_income": 440148887.761958
   },
   {
    "fy_end": "2026-03-31",
@@ -268,7 +319,10 @@
    "goodwill_and_intangibles": 1600059000.0,
    "retained_earnings": 1645100000.0,
    "total_debt": 492108000.0,
-   "shares_out": 69486608.0
+   "shares_out": 69486608.0,
+   "unusual_items": -91516000.0,
+   "normalized_ebitda": 752685000.0,
+   "normalized_income": 494736879.387833
   }
  ]
 }

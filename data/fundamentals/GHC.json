@@ -1,6 +1,6 @@
 {
  "ticker": "GHC",
- "fetched_at": "2026-10-10T12:46:37+00:00",
+ "fetched_at": "2026-10-10T15:45:07+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 12747,
   "website": "https://www.ghco.com",
-  "longBusinessSummary": "Graham Holdings Company, through its subsidiaries, operates as a diversified holding company in the United States and internationally. The company provides academic preparation programs for international students; professional training and postsecondary education services, as well as English-language programs; operations support services for pre-college, certificate, undergraduate and graduate programs; exam preparation services; career and academic advisement services; and operates a sixth-form college that prepares students for A-level examinations. It also owns and operates television broadcast stations, restaurants, and entertainment venues; and offers social media management tools to connect newsrooms with their users. In addition, the company offers in-home specialty pharmacy infusion therapies; home health, hospice and palliative services; applied behavior analysis therapy; physician services for allergy, asthma and immunology patients; in-home aesthetics; and healthcare software-as-a-service technology. Further, it operates as a multi-product supplier to the commercial building industry; manufactures electrical and lifting solutions; and supplies parts used in electric utilities and industrial systems. Additionally, the company operates dealerships and valet repair services; provides custom framing services; marketing solutions; customer data and analytics software; Slate and Foreign Policy magazines; daily local news podcast and newsletter; a software-as-a-service platform that monetize audio content through paid subscriptions, memberships, and audiobooks; operates an online art gallery and in-person art fair business; and an online commerce platform that features original art and designs on an array of consumer products. The company was formerly known as The Washington Post Company and changed its name to Graham Holdings Company in November 2013. Graham Holdings Company was founded in 1877 and is based in Arlington, Virginia."
+  "longBusinessSummary": "Graham Holdings Company, through its subsidiaries, operates as a diversified holding company in the United States and internationally. The company provides academic preparation programs for international students; professional training and postsecondary education services, as well as English-language programs; operations support services for pre-college, certificate, undergraduate and graduate programs; exam preparation services; career and academic advisement services; and operates a sixth-form college that prepares students for A-level examinations. It also owns and operates television broadcast stations, restaurants, and entertainment venues; and offers social media management tools to connect newsrooms with their users. In addition, the company offers in-home specialty pharmacy infusion therapies; home health, hospice and palliative services; applied behavior analysis therapy; physician services for allergy, asthma and immunology patients; in-home aesthetics; and healthcare software-as-a-service technology. Further, it operates as a multi-product supplier to the commercial building industry; manufactures electrical and lifting solutions; and supplies parts used in electric utilities and industrial systems. Additionally, the company operates dealerships and valet repair services; provides custom framing services; marketing solutions; customer data and analytics software; Slate and Foreign Policy magazines; daily local news podcast and newsletter; a software-as-a-service platform that monetize audio content through paid subscriptions, memberships, and audiobooks; operates an online art gallery and in-person art fair business; and an online commerce platform that features original art and designs on an array of consumer products. The company was formerly known as The Washington Post Company and changed its name to Graham Holdings Company in November 2013. Graham Holdings Company was founded in 1877 and is based in Arlington, Virginia.",
+  "targetMeanPrice": 990.0,
+  "targetLowPrice": 990.0,
+  "targetHighPrice": 990.0,
+  "numberOfAnalystOpinions": 1,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 17.509851,
+  "forwardEps": 67.0,
+  "trailingEps": 123.67,
+  "earningsGrowth": 6.765,
+  "revenueGrowth": 0.071
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 8395713000.0,
+    "official": 8395713000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4794025000.0,
+    "official": 4794025000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 292291000.0,
+    "official": 292291000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 4911563000.0,
+    "official": 4911563000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:45:07+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -196,7 +238,10 @@
    "goodwill_and_intangibles": 1901309000.0,
    "retained_earnings": 7163128000.0,
    "total_debt": 726360000.0,
-   "shares_out": 4786602.0
+   "shares_out": 4786602.0,
+   "unusual_items": -238447000.0,
+   "normalized_ebitda": 743290000.0,
+   "normalized_income": 255452130.0
   },
   {
    "fy_end": "2023-12-31",
@@ -231,7 +276,10 @@
    "goodwill_and_intangibles": 1825250000.0,
    "retained_earnings": 7337463000.0,
    "total_debt": 811833000.0,
-   "shares_out": 4478810.0
+   "shares_out": 4478810.0,
+   "unusual_items": 57055000.0,
+   "normalized_ebitda": 509087000.0,
+   "normalized_income": 164893060.0
   },
   {
    "fy_end": "2024-12-31",
@@ -266,7 +314,10 @@
    "goodwill_and_intangibles": 1721055000.0,
    "retained_earnings": 8031750000.0,
    "total_debt": 748192000.0,
-   "shares_out": 4332307.0
+   "shares_out": 4332307.0,
+   "unusual_items": 142761000.0,
+   "normalized_ebitda": 1255516000.0,
+   "normalized_income": 622574161.1
   },
   {
    "fy_end": "2025-12-31",
@@ -301,7 +352,10 @@
    "goodwill_and_intangibles": 1818102000.0,
    "retained_earnings": 8292681000.0,
    "total_debt": 880756000.0,
-   "shares_out": 4360943.0
+   "shares_out": 4360943.0,
+   "unusual_items": 168465000.0,
+   "normalized_ebitda": 572144000.0,
+   "normalized_income": 178678204.0
   }
  ]
 }

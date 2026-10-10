@@ -1,6 +1,6 @@
 {
  "ticker": "TEL",
- "fetched_at": "2026-10-10T12:59:28+00:00",
+ "fetched_at": "2026-10-10T15:57:09+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 90000,
   "website": "https://www.te.com",
-  "longBusinessSummary": "TE Connectivity plc, together with its subsidiaries, manufactures and sells connectivity and sensor solutions in Europe, the Middle East, Africa, the AsiaPacific, and the Americas. The company operates through two reportable segments, Transportation Solutions and Industrial Solutions. It provides antennas, application tooling, cable assemblies, connectors, electromagnetic compatibility/electromagnetic interference solutions, energy and power, fiber optics, heat shrink tubing, identification and labeling, medical components, passive components, relays and contactors, sensors, switches, terminals and splices, wires and cables, and wire protection and management solutions. The company also offers training and other services, including 3D printing for production, back shells prototyping, electrical installation training, HarnWare software, machine tooling service and repair, medical device design services, microfluidic devices, and sensor manufacturing services as well as conducts automotive webinars. It serves 5G and wireless equipment, aerospace, appliances, automation and control, automotive, autosport, commercial and industrial vehicles, connected home, data centers and artificial intelligence, defense and military, energy solutions, e-mobility, industrial machinery, intelligent buildings, IoT connectivity, medical technologies, oil and gas/marine, personal electronics and wearable technology, rail, sensor applications, space, and other industries. The company was formerly known as Tyco Electronics Ltd. and changed its name to TE Connectivity plc in March 2011. TE Connectivity plc was founded in 1941 and is based in Ballybrit, Ireland."
+  "longBusinessSummary": "TE Connectivity plc, together with its subsidiaries, manufactures and sells connectivity and sensor solutions in Europe, the Middle East, Africa, the AsiaPacific, and the Americas. The company operates through two reportable segments, Transportation Solutions and Industrial Solutions. It provides antennas, application tooling, cable assemblies, connectors, electromagnetic compatibility/electromagnetic interference solutions, energy and power, fiber optics, heat shrink tubing, identification and labeling, medical components, passive components, relays and contactors, sensors, switches, terminals and splices, wires and cables, and wire protection and management solutions. The company also offers training and other services, including 3D printing for production, back shells prototyping, electrical installation training, HarnWare software, machine tooling service and repair, medical device design services, microfluidic devices, and sensor manufacturing services as well as conducts automotive webinars. It serves 5G and wireless equipment, aerospace, appliances, automation and control, automotive, autosport, commercial and industrial vehicles, connected home, data centers and artificial intelligence, defense and military, energy solutions, e-mobility, industrial machinery, intelligent buildings, IoT connectivity, medical technologies, oil and gas/marine, personal electronics and wearable technology, rail, sensor applications, space, and other industries. The company was formerly known as Tyco Electronics Ltd. and changed its name to TE Connectivity plc in March 2011. TE Connectivity plc was founded in 1941 and is based in Ballybrit, Ireland.",
+  "targetMeanPrice": 250.73685,
+  "targetLowPrice": 215.0,
+  "targetHighPrice": 306.0,
+  "numberOfAnalystOpinions": 19,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.68421,
+  "forwardPE": 16.89967,
+  "forwardEps": 12.91682,
+  "trailingEps": 10.21,
+  "earningsGrowth": 0.192,
+  "revenueGrowth": 0.138
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-09-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 25081000000.0,
+    "official": 25081000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 12585000000.0,
+    "official": 12585000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1842000000.0,
+    "official": 1842000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 17262000000.0,
+    "official": 17262000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:57:10+00:00",
  "years": [
   {
    "fy_end": "2019-09-27",
@@ -206,7 +248,10 @@
    "goodwill_and_intangibles": 6546000000.0,
    "retained_earnings": 12832000000.0,
    "total_debt": 3292000000.0,
-   "shares_out": 318081241.0
+   "shares_out": 318081241.0,
+   "unusual_items": -186000000.0,
+   "normalized_ebitda": 3770000000.0,
+   "normalized_income": 2592168000.0
   },
   {
    "fy_end": "2023-09-29",
@@ -240,7 +285,10 @@
    "goodwill_and_intangibles": 6638000000.0,
    "retained_earnings": 12947000000.0,
    "total_debt": 3529000000.0,
-   "shares_out": 311982539.0
+   "shares_out": 311982539.0,
+   "unusual_items": -370000000.0,
+   "normalized_ebitda": 3512000000.0,
+   "normalized_income": 2214800000.0
   },
   {
    "fy_end": "2024-09-27",
@@ -274,7 +322,10 @@
    "goodwill_and_intangibles": 6975000000.0,
    "retained_earnings": 14533000000.0,
    "total_debt": 3332000000.0,
-   "shares_out": 299918100.0
+   "shares_out": 299918100.0,
+   "unusual_items": -175000000.0,
+   "normalized_ebitda": 3868000000.0,
+   "normalized_income": 3325250000.0
   },
   {
    "fy_end": "2025-09-26",
@@ -308,7 +359,10 @@
    "goodwill_and_intangibles": 9353000000.0,
    "retained_earnings": 13932000000.0,
    "total_debt": 4842000000.0,
-   "shares_out": 294558144.0
+   "shares_out": 294558144.0,
+   "unusual_items": -170000000.0,
+   "normalized_ebitda": 4289000000.0,
+   "normalized_income": 1970500000.0
   }
  ]
 }

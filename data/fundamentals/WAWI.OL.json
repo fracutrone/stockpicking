@@ -1,6 +1,6 @@
 {
  "ticker": "WAWI.OL",
- "fetched_at": "2026-10-10T12:25:52+00:00",
+ "fetched_at": "2026-10-10T15:29:16+00:00",
  "region": "Europa",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "OSL",
   "fullTimeEmployees": 12000,
   "website": "https://www.walleniuswilhelmsen.com",
-  "longBusinessSummary": "Wallenius Wilhelmsen ASA, together with its subsidiaries, engages in the logistics and transportation business worldwide. It operates in three segments: Shipping Services, Logistics Services, and Government Services. The company provides ship management services, including crewing, technical, and management; insurance brokerage services; agency services; freight and liner services; and marine products to vessels. It also offers ocean transport of RoRo cargo, breakbulk and vehicles, as well as manufacturers, construction, and other high and heavy equipment. In addition, the company provides vehicle processing center, equipment processing center, and inland distribution network and terminal services. The company serves agriculture, automotive, aviation, boats and yachts, breakbulk, commercial vehicles, construction, machinery and machine tools, mining, oil and gas, power and energy, and rail industries. It operates through a fleet of 127 vessels sailing on 15 trade routes. The company was founded in 1861 and is based in Lysaker, Norway."
+  "longBusinessSummary": "Wallenius Wilhelmsen ASA, together with its subsidiaries, engages in the logistics and transportation business worldwide. It operates in three segments: Shipping Services, Logistics Services, and Government Services. The company provides ship management services, including crewing, technical, and management; insurance brokerage services; agency services; freight and liner services; and marine products to vessels. It also offers ocean transport of RoRo cargo, breakbulk and vehicles, as well as manufacturers, construction, and other high and heavy equipment. In addition, the company provides vehicle processing center, equipment processing center, and inland distribution network and terminal services. The company serves agriculture, automotive, aviation, boats and yachts, breakbulk, commercial vehicles, construction, machinery and machine tools, mining, oil and gas, power and energy, and rail industries. It operates through a fleet of 127 vessels sailing on 15 trade routes. The company was founded in 1861 and is based in Lysaker, Norway.",
+  "targetMeanPrice": 161.28345,
+  "targetLowPrice": 119.80686,
+  "targetHighPrice": 209.90565,
+  "numberOfAnalystOpinions": 5,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 10.931825,
+  "forwardEps": 15.825355,
+  "trailingEps": 16.15,
+  "earningsGrowth": -0.674,
+  "revenueGrowth": -0.033
  },
  "governance": {
   "ceo": {
@@ -70,8 +81,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF NO",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 8400000000.0,
+    "official": 8400000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3313000000.0,
+    "official": 3313000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 973000000.0,
+    "official": 973000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 5308000000.0,
+    "official": 5308000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T15:29:16+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -105,7 +148,10 @@
    "goodwill_and_intangibles": 395000000.0,
    "retained_earnings": 2798000000.0,
    "total_debt": 4087000000.0,
-   "shares_out": 422518819.0
+   "shares_out": 422518819.0,
+   "unusual_items": -56000000.0,
+   "normalized_ebitda": 1605000000.0,
+   "normalized_income": 732760000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -139,7 +185,10 @@
    "goodwill_and_intangibles": 361000000.0,
    "retained_earnings": 3023000000.0,
    "total_debt": 3713000000.0,
-   "shares_out": 422536600.0
+   "shares_out": 422536600.0,
+   "unusual_items": -26000000.0,
+   "normalized_ebitda": 1889000000.0,
+   "normalized_income": 877960000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -173,7 +222,10 @@
    "goodwill_and_intangibles": 318000000.0,
    "retained_earnings": 3285000000.0,
    "total_debt": 3151000000.0,
-   "shares_out": 422700598.0
+   "shares_out": 422700598.0,
+   "unusual_items": -34000000.0,
+   "normalized_ebitda": 2000000000.0,
+   "normalized_income": 1004818980.667838
   },
   {
    "fy_end": "2025-12-31",
@@ -207,7 +259,10 @@
    "goodwill_and_intangibles": 241000000.0,
    "retained_earnings": 3265000000.0,
    "total_debt": 2801000000.0,
-   "shares_out": 422794566.0
+   "shares_out": 422794566.0,
+   "unusual_items": 170000000.0,
+   "normalized_ebitda": 1808000000.0,
+   "normalized_income": 853800000.0
   }
  ]
 }

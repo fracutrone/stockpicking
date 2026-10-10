@@ -1,6 +1,6 @@
 {
  "ticker": "OLED",
- "fetched_at": "2026-10-10T12:53:59+00:00",
+ "fetched_at": "2026-10-10T15:52:07+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 469,
   "website": "https://oled.com",
-  "longBusinessSummary": "Universal Display Corporation engages in the research, development, and commercialization of organic light emitting diode (OLED) technologies and materials for use in display and solid-state lighting applications. It offers phosphorescent organic light-emitting diode (PHOLED) technologies and materials for displays and lighting products under the UniversalPHOLED brand. The company also offers FOLED that are flexible OLEDs for the fabrication of OLEDs on flexible substrates; and OVJP, an organic vapor jet printing technology. In addition, it provides technology development and support services, including third-party collaboration and support to third parties for the commercialization of their OLED products; and contract research services in the areas of chemical synthesis research, development, and commercialization for non-OLED applications, as well as engages in the intellectual property and technology licensing activities. The company has operations in South Korea, China, Japan, the United States, and internationally. Universal Display Corporation was incorporated in 1985 and is headquartered in Ewing, New Jersey."
+  "longBusinessSummary": "Universal Display Corporation engages in the research, development, and commercialization of organic light emitting diode (OLED) technologies and materials for use in display and solid-state lighting applications. It offers phosphorescent organic light-emitting diode (PHOLED) technologies and materials for displays and lighting products under the UniversalPHOLED brand. The company also offers FOLED that are flexible OLEDs for the fabrication of OLEDs on flexible substrates; and OVJP, an organic vapor jet printing technology. In addition, it provides technology development and support services, including third-party collaboration and support to third parties for the commercialization of their OLED products; and contract research services in the areas of chemical synthesis research, development, and commercialization for non-OLED applications, as well as engages in the intellectual property and technology licensing activities. The company has operations in South Korea, China, Japan, the United States, and internationally. Universal Display Corporation was incorporated in 1985 and is headquartered in Ewing, New Jersey.",
+  "targetMeanPrice": 113.81778,
+  "targetLowPrice": 71.0,
+  "targetHighPrice": 158.0,
+  "numberOfAnalystOpinions": 9,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": 15.864416,
+  "forwardEps": 4.72504,
+  "trailingEps": 4.14,
+  "earningsGrowth": -0.249,
+  "revenueGrowth": -0.114
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,38 @@
   "retained_earnings": "sec",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "interest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 1963762000.0,
+    "official": 1963762000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1761019000.0,
+    "official": 1761019000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 242075000.0,
+    "official": 242075000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 650611000.0,
+    "official": 650611000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:52:07+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -204,7 +245,9 @@
    "goodwill_and_intangibles": 62164000.0,
    "retained_earnings": 653277000.0,
    "total_debt": 29039000.0,
-   "shares_out": 47770382.0
+   "shares_out": 47770382.0,
+   "normalized_ebitda": 309384000.0,
+   "normalized_income": 210061000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -238,7 +281,9 @@
    "goodwill_and_intangibles": 112734000.0,
    "retained_earnings": 789553000.0,
    "total_debt": 22855000.0,
-   "shares_out": 47365378.0
+   "shares_out": 47365378.0,
+   "normalized_ebitda": 260591000.0,
+   "normalized_income": 203011000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -272,7 +317,9 @@
    "goodwill_and_intangibles": 94535000.0,
    "retained_earnings": 934655000.0,
    "total_debt": 19135000.0,
-   "shares_out": 47468893.0
+   "shares_out": 47468893.0,
+   "normalized_ebitda": 282943000.0,
+   "normalized_income": 222079000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -306,7 +353,9 @@
    "goodwill_and_intangibles": 76337000.0,
    "retained_earnings": 1090479000.0,
    "total_debt": 19217000.0,
-   "shares_out": 47259748.0
+   "shares_out": 47259748.0,
+   "normalized_ebitda": 295165000.0,
+   "normalized_income": 242075000.0
   }
  ]
 }

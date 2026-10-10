@@ -1,6 +1,6 @@
 {
  "ticker": "NTRS",
- "fetched_at": "2026-10-10T12:53:18+00:00",
+ "fetched_at": "2026-10-10T15:51:22+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 23600,
   "website": "https://www.northerntrust.com",
-  "longBusinessSummary": "Northern Trust Corporation, a financial holding company, provides wealth management, asset servicing, asset management, and banking solutions for corporations, institutions, families, and individuals. It operates in two segments, Asset Servicing and Wealth Management. The Asset Servicing segment offers asset servicing and related services, including custody, fund administration, investment operations outsourcing, investment management, investment risk and analytics services, employee benefit services, securities lending, foreign exchange, treasury management, brokerage, transition management, banking, and cash management services. It serves corporate and public retirement funds, foundations, endowments, fund managers, insurance companies, sovereign wealth funds, and other institutional investors. The Wealth Management segment offers trust, investment management, custody, and philanthropic services; financial consulting; guardianship and estate administration; family business consulting; family financial education; brokerage; and private and business banking services. This segment also provides global custody, fiduciary services, family office consulting, and technology solutions to high-net-worth individuals and families, business owners, executives, professionals, retirees, and established privately held businesses. In addition, it offers asset management and related services comprising active and passive equity; active and passive fixed income; cash management; multi-asset and alternative asset classes that include private equity and hedge funds of funds; and multi-manager advisory services and products through separately managed accounts, bank common and collective funds, registered investment companies, exchange-traded funds, non-U.S. collective investment funds, and unregistered private investment funds. Further, the company provides overlay and other risk management services. The company was founded in 1889 and is headquartered in Chicago, Illinois."
+  "longBusinessSummary": "Northern Trust Corporation, a financial holding company, provides wealth management, asset servicing, asset management, and banking solutions for corporations, institutions, families, and individuals. It operates in two segments, Asset Servicing and Wealth Management. The Asset Servicing segment offers asset servicing and related services, including custody, fund administration, investment operations outsourcing, investment management, investment risk and analytics services, employee benefit services, securities lending, foreign exchange, treasury management, brokerage, transition management, banking, and cash management services. It serves corporate and public retirement funds, foundations, endowments, fund managers, insurance companies, sovereign wealth funds, and other institutional investors. The Wealth Management segment offers trust, investment management, custody, and philanthropic services; financial consulting; guardianship and estate administration; family business consulting; family financial education; brokerage; and private and business banking services. This segment also provides global custody, fiduciary services, family office consulting, and technology solutions to high-net-worth individuals and families, business owners, executives, professionals, retirees, and established privately held businesses. In addition, it offers asset management and related services comprising active and passive equity; active and passive fixed income; cash management; multi-asset and alternative asset classes that include private equity and hedge funds of funds; and multi-manager advisory services and products through separately managed accounts, bank common and collective funds, registered investment companies, exchange-traded funds, non-U.S. collective investment funds, and unregistered private investment funds. Further, the company provides overlay and other risk management services. The company was founded in 1889 and is headquartered in Chicago, Illinois.",
+  "targetMeanPrice": 181.7143,
+  "targetLowPrice": 158.0,
+  "targetHighPrice": 194.0,
+  "numberOfAnalystOpinions": 14,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.9375,
+  "forwardPE": 13.090375,
+  "forwardEps": 12.8499,
+  "trailingEps": 11.64,
+  "earningsGrowth": 0.986,
+  "revenueGrowth": 0.364
  },
  "governance": {
   "ceo": {
@@ -78,8 +89,38 @@
   "retained_earnings": "sec",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "noninterest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 177132700000.0,
+    "official": 177132700000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 12957900000.0,
+    "official": 12957900000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1736900000.0,
+    "official": 1736900000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 8086400000.0,
+    "official": 8086400000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:51:23+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -168,7 +209,9 @@
    "goodwill_and_intangibles": 691300000.0,
    "retained_earnings": 13798500000.0,
    "total_debt": 12382700000.0,
-   "shares_out": 208428309.0
+   "shares_out": 208428309.0,
+   "unusual_items": -30400000.0,
+   "normalized_income": 1336000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -195,7 +238,9 @@
    "goodwill_and_intangibles": 702300000.0,
    "retained_earnings": 14233800000.0,
    "total_debt": 13406000000.0,
-   "shares_out": 205126224.0
+   "shares_out": 205126224.0,
+   "unusual_items": -36700000.0,
+   "normalized_income": 1135045200.0
   },
   {
    "fy_end": "2024-12-31",
@@ -222,7 +267,9 @@
    "goodwill_and_intangibles": 694900000.0,
    "retained_earnings": 15614700000.0,
    "total_debt": 13372000000.0,
-   "shares_out": 195969746.0
+   "shares_out": 195969746.0,
+   "unusual_items": -81800000.0,
+   "normalized_income": 2093595200.0
   },
   {
    "fy_end": "2025-12-31",
@@ -248,7 +295,9 @@
    "goodwill_and_intangibles": 712900000.0,
    "retained_earnings": 16709300000.0,
    "total_debt": 13994200000.0,
-   "shares_out": 186337588.0
+   "shares_out": 186337588.0,
+   "unusual_items": -58800000.0,
+   "normalized_income": 1780529600.0
   }
  ]
 }

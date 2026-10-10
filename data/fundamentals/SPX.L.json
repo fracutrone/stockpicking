@@ -1,6 +1,6 @@
 {
  "ticker": "SPX.L",
- "fetched_at": "2026-10-10T12:20:10+00:00",
+ "fetched_at": "2026-10-10T15:21:27+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 10000,
   "website": "https://www.spiraxgroup.com",
-  "longBusinessSummary": "Spirax Group plc provides thermal energy and fluid technology solutions in Europe, the Middle East, Africa, the Asia Pacific, and the Americas. It operates through three segments: Steam Thermal Solutions, Electric Thermal Solutions, and Watson-Marlow Fluid Technology Solutions. The company offers industrial and commercial steam systems, including condensate management, controls, and thermal energy management products and solutions for heating, curing, cooking, drying, cleaning, sterilizing, space heating, humidifying, vacuum packing, and producing hot water; electrical process heating and temperature management solutions, such as industrial heaters and systems, heat tracing, and various component technologies; and designs and manufactures peristaltic and niche pumps and associated fluid path technologies, including tubing, specialised filling systems and products for single use applications. The company serves food and beverage, pharmaceutical and biotechnology, oil and gas, chemical, power generation, healthcare, buildings, water and wastewater, semiconductor, transport, original equipment manufacturers machinery, and mining and precious metal processing industries. The company was formerly known as Spirax-Sarco Engineering plc and changed its name to Spirax Group PLC in June 2024. Spirax Group PLC was founded in 1888 and is headquartered in Cheltenham, the United Kingdom."
+  "longBusinessSummary": "Spirax Group plc provides thermal energy and fluid technology solutions in Europe, the Middle East, Africa, the Asia Pacific, and the Americas. It operates through three segments: Steam Thermal Solutions, Electric Thermal Solutions, and Watson-Marlow Fluid Technology Solutions. The company offers industrial and commercial steam systems, including condensate management, controls, and thermal energy management products and solutions for heating, curing, cooking, drying, cleaning, sterilizing, space heating, humidifying, vacuum packing, and producing hot water; electrical process heating and temperature management solutions, such as industrial heaters and systems, heat tracing, and various component technologies; and designs and manufactures peristaltic and niche pumps and associated fluid path technologies, including tubing, specialised filling systems and products for single use applications. The company serves food and beverage, pharmaceutical and biotechnology, oil and gas, chemical, power generation, healthcare, buildings, water and wastewater, semiconductor, transport, original equipment manufacturers machinery, and mining and precious metal processing industries. The company was formerly known as Spirax-Sarco Engineering plc and changed its name to Spirax Group PLC in June 2024. Spirax Group PLC was founded in 1888 and is headquartered in Cheltenham, the United Kingdom.",
+  "targetMeanPrice": 8100.278,
+  "targetLowPrice": 6700.0,
+  "targetHighPrice": 9100.0,
+  "numberOfAnalystOpinions": 18,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.22222,
+  "forwardPE": 20.214546,
+  "forwardEps": 3.59642,
+  "trailingEps": 2.68,
+  "earningsGrowth": 0.557,
+  "revenueGrowth": 0.051
  },
  "governance": {
   "ceo": {
@@ -75,8 +86,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 2661100000.0,
+    "official": 2661100000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1222100000.0,
+    "official": 1222100000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 163400000.0,
+    "official": 163400000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1702900000.0,
+    "official": 1702900000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:21:27+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -109,7 +152,10 @@
    "goodwill_and_intangibles": 1203600000.0,
    "retained_earnings": 1067000000.0,
    "total_debt": 1084500000.0,
-   "shares_out": 73766048.0
+   "shares_out": 73766048.0,
+   "unusual_items": -34500000.0,
+   "normalized_ebitda": 405400000.0,
+   "normalized_income": 224700000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -142,7 +188,9 @@
    "goodwill_and_intangibles": 1129300000.0,
    "retained_earnings": 1120300000.0,
    "total_debt": 1123100000.0,
-   "shares_out": 73636141.0
+   "shares_out": 73636141.0,
+   "normalized_ebitda": 408400000.0,
+   "normalized_income": 183600000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -175,7 +223,9 @@
    "goodwill_and_intangibles": 1090100000.0,
    "retained_earnings": 1190600000.0,
    "total_debt": 1025500000.0,
-   "shares_out": 73703798.0
+   "shares_out": 73703798.0,
+   "normalized_ebitda": 419300000.0,
+   "normalized_income": 191200000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -208,7 +258,9 @@
    "goodwill_and_intangibles": 1059400000.0,
    "retained_earnings": 1236800000.0,
    "total_debt": 1023900000.0,
-   "shares_out": 73745881.0
+   "shares_out": 73745881.0,
+   "normalized_ebitda": 375700000.0,
+   "normalized_income": 163400000.0
   }
  ]
 }

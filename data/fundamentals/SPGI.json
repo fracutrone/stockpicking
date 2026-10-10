@@ -1,6 +1,6 @@
 {
  "ticker": "SPGI",
- "fetched_at": "2026-10-10T12:58:36+00:00",
+ "fetched_at": "2026-10-10T15:56:15+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 44500,
   "website": "https://www.spglobal.com",
-  "longBusinessSummary": "S&P Global Inc., together with its subsidiaries, provides benchmarks, data, analytics, and workflow solutions in the global capital, energy and commodity, and automotive markets. It operates through four segments: S&P Global Market Intelligence, S&P Global Ratings, S&P Global Energy, and S&P Dow Jones Indices. The S&P Global Market Intelligence segment provides multi-asset-class data and analytics integrated with purpose-built workflow solutions. This segment offers Data, Analytics & Insights, a desktop product suite that provides data, analytics, and third-party research for global finance and corporate professionals; research, reference data, market data, derived analytics, and valuation services; enterprise solutions, such as software and workflow solutions; and credit and risk solutions for selling Ratings' credit ratings and related data and research, analytics, and financial risk solutions. The S&P Global Ratings segment operates as an independent provider of credit ratings, research, and analytics offering investors information and independent benchmarks for their investment and financial decisions as well as access to the capital markets. The S&P Global Energy segment provides information and benchmark prices for the energy and commodity markets. The S&P Dow Jones Indices segment operates as an index provider that maintains various valuation and index benchmarks for investment advisors, wealth managers, and institutional investors. It has operations in the United States, European region, Asia, and internationally. S&P Global Inc. was founded in 1860 and is headquartered in New York, New York."
+  "longBusinessSummary": "S&P Global Inc., together with its subsidiaries, provides benchmarks, data, analytics, and workflow solutions in the global capital, energy and commodity, and automotive markets. It operates through four segments: S&P Global Market Intelligence, S&P Global Ratings, S&P Global Energy, and S&P Dow Jones Indices. The S&P Global Market Intelligence segment provides multi-asset-class data and analytics integrated with purpose-built workflow solutions. This segment offers Data, Analytics & Insights, a desktop product suite that provides data, analytics, and third-party research for global finance and corporate professionals; research, reference data, market data, derived analytics, and valuation services; enterprise solutions, such as software and workflow solutions; and credit and risk solutions for selling Ratings' credit ratings and related data and research, analytics, and financial risk solutions. The S&P Global Ratings segment operates as an independent provider of credit ratings, research, and analytics offering investors information and independent benchmarks for their investment and financial decisions as well as access to the capital markets. The S&P Global Energy segment provides information and benchmark prices for the energy and commodity markets. The S&P Dow Jones Indices segment operates as an index provider that maintains various valuation and index benchmarks for investment advisors, wealth managers, and institutional investors. It has operations in the United States, European region, Asia, and internationally. S&P Global Inc. was founded in 1860 and is headquartered in New York, New York.",
+  "targetMeanPrice": 516.8571,
+  "targetLowPrice": 477.0,
+  "targetHighPrice": 553.0,
+  "numberOfAnalystOpinions": 21,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.33333,
+  "forwardPE": 20.20093,
+  "forwardEps": 20.18818,
+  "trailingEps": 16.64,
+  "earningsGrowth": 0.177,
+  "revenueGrowth": 0.104
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "inventory": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 61200000000.0,
+    "official": 61200000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 31127000000.0,
+    "official": 31127000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 4471000000.0,
+    "official": 4471000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 15336000000.0,
+    "official": 15336000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:56:15+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -204,7 +246,10 @@
    "goodwill_and_intangibles": 52851000000.0,
    "retained_earnings": 17784000000.0,
    "total_debt": 10956000000.0,
-   "shares_out": 329000000.0
+   "shares_out": 329000000.0,
+   "unusual_items": 1949000000.0,
+   "normalized_ebitda": 4070000000.0,
+   "normalized_income": 1788199000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -238,7 +283,10 @@
    "goodwill_and_intangibles": 52248000000.0,
    "retained_earnings": 18728000000.0,
    "total_debt": 11459000000.0,
-   "shares_out": 314800000.0
+   "shares_out": 314800000.0,
+   "unusual_items": -85000000.0,
+   "normalized_ebitda": 5233000000.0,
+   "normalized_income": 2692980000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -272,7 +320,10 @@
    "goodwill_and_intangibles": 51473000000.0,
    "retained_earnings": 20977000000.0,
    "total_debt": 11398000000.0,
-   "shares_out": 307800000.0
+   "shares_out": 307800000.0,
+   "unusual_items": 60000000.0,
+   "normalized_ebitda": 6718000000.0,
+   "normalized_income": 3804897513.187641
   },
   {
    "fy_end": "2025-12-31",
@@ -306,7 +357,10 @@
    "goodwill_and_intangibles": 52746000000.0,
    "retained_earnings": 23666000000.0,
    "total_debt": 13088000000.0,
-   "shares_out": 298800000.0
+   "shares_out": 298800000.0,
+   "unusual_items": 287000000.0,
+   "normalized_ebitda": 7406000000.0,
+   "normalized_income": 4248848080.937851
   }
  ]
 }

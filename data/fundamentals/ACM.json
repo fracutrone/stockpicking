@@ -1,6 +1,6 @@
 {
  "ticker": "ACM",
- "fetched_at": "2026-10-10T12:36:16+00:00",
+ "fetched_at": "2026-10-10T15:33:24+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 51000,
   "website": "https://www.aecom.com",
-  "longBusinessSummary": "AECOM, together with its subsidiaries, provides professional infrastructure consulting services for governments, businesses, and organizations internationally. The company operates in three segments: Americas, International, and AECOM Capital. The company offers advisory, planning, consulting, architectural and engineering design, construction and program management services, and investment and development services to public and private clients in major end markets such as transportation, facilities, water, environmental, and energy. It is also involved in the investment and development of real estate projects. The company was formerly known as AECOM Technology Corporation and changed its name to AECOM in January 2015. AECOM was incorporated in 1980 and is headquartered in Dallas, Texas."
+  "longBusinessSummary": "AECOM, together with its subsidiaries, provides professional infrastructure consulting services for governments, businesses, and organizations internationally. The company operates in three segments: Americas, International, and AECOM Capital. The company offers advisory, planning, consulting, architectural and engineering design, construction and program management services, and investment and development services to public and private clients in major end markets such as transportation, facilities, water, environmental, and energy. It is also involved in the investment and development of real estate projects. The company was formerly known as AECOM Technology Corporation and changed its name to AECOM in January 2015. AECOM was incorporated in 1980 and is headquartered in Dallas, Texas.",
+  "targetMeanPrice": 85.83333,
+  "targetLowPrice": 65.0,
+  "targetHighPrice": 104.0,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.46154,
+  "forwardPE": 9.303552,
+  "forwardEps": 6.37176,
+  "trailingEps": 2.84,
+  "earningsGrowth": null,
+  "revenueGrowth": -0.142
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-09-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 12200249000.0,
+    "official": 12200249000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2492584000.0,
+    "official": 2492584000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 561774000.0,
+    "official": 561774000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 16139622000.0,
+    "official": 16139622000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:33:24+00:00",
  "years": [
   {
    "fy_end": "2019-09-30",
@@ -195,7 +237,10 @@
    "goodwill_and_intangibles": 3416361000.0,
    "retained_earnings": -701654000.0,
    "total_debt": 2161718000.0,
-   "shares_out": 138933907.0
+   "shares_out": 138933907.0,
+   "unusual_items": -107501000.0,
+   "normalized_ebitda": 939343000.0,
+   "normalized_income": 471488253.0
   },
   {
    "fy_end": "2023-09-30",
@@ -228,7 +273,10 @@
    "goodwill_and_intangibles": 3436730000.0,
    "retained_earnings": -1103976000.0,
    "total_debt": 2116454000.0,
-   "shares_out": 136210883.0
+   "shares_out": 136210883.0,
+   "unusual_items": -188404000.0,
+   "normalized_ebitda": 736871000.0,
+   "normalized_income": 251392748.0
   },
   {
    "fy_end": "2024-09-30",
@@ -261,7 +309,10 @@
    "goodwill_and_intangibles": 3487055000.0,
    "retained_earnings": -1281647000.0,
    "total_debt": 2453410000.0,
-   "shares_out": 132552407.0
+   "shares_out": 132552407.0,
+   "unusual_items": -98918000.0,
+   "normalized_ebitda": 1181302000.0,
+   "normalized_income": 585111466.0
   },
   {
    "fy_end": "2025-09-30",
@@ -294,7 +345,10 @@
    "goodwill_and_intangibles": 3883919000.0,
    "retained_earnings": -1224833000.0,
    "total_debt": 2651289000.0,
-   "shares_out": 131782371.0
+   "shares_out": 131782371.0,
+   "unusual_items": -59355000.0,
+   "normalized_ebitda": 1335145000.0,
+   "normalized_income": 683256835.0
   }
  ]
 }

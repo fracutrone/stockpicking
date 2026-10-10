@@ -1,6 +1,6 @@
 {
  "ticker": "NDA-SE.ST",
- "fetched_at": "2026-10-10T12:10:36+00:00",
+ "fetched_at": "2026-10-10T15:07:39+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "STO",
   "fullTimeEmployees": 28412,
   "website": "https://www.nordea.com",
-  "longBusinessSummary": "Nordea Bank Abp offers banking products and services for individuals, families, and businesses in Sweden, Finland, Norway, Denmark, and internationally. It operates through Personal Banking, Business Banking, Large Corporates & Institutions, and Asset & Wealth Management segments. The company provides various financial services to customers through mobile banking, over the phone, online meetings, and branch offices. It also offers payments, cash management, cards, working capital management, and cards and finance solutions. In addition, the company provides financing, payment, investment banking, capital market products, and securities services; and investment, savings, and risk management solutions. Further, it offers savings products and asset management, including investment funds, discretionary management, portfolio advice, and equity trading and pension accounts; and asset-based financing through leasing, hire purchase, factoring, and sales to finance partners, such as dealers, vendors and retailers, as well as life insurance and pension products and services. The company was founded in 1820 and is headquartered in Helsinki, Finland."
+  "longBusinessSummary": "Nordea Bank Abp offers banking products and services for individuals, families, and businesses in Sweden, Finland, Norway, Denmark, and internationally. It operates through Personal Banking, Business Banking, Large Corporates & Institutions, and Asset & Wealth Management segments. The company provides various financial services to customers through mobile banking, over the phone, online meetings, and branch offices. It also offers payments, cash management, cards, working capital management, and cards and finance solutions. In addition, the company provides financing, payment, investment banking, capital market products, and securities services; and investment, savings, and risk management solutions. Further, it offers savings products and asset management, including investment funds, discretionary management, portfolio advice, and equity trading and pension accounts; and asset-based financing through leasing, hire purchase, factoring, and sales to finance partners, such as dealers, vendors and retailers, as well as life insurance and pension products and services. The company was founded in 1820 and is headquartered in Helsinki, Finland.",
+  "targetMeanPrice": 208.7293,
+  "targetLowPrice": 158.94145,
+  "targetHighPrice": 258.01123,
+  "numberOfAnalystOpinions": 10,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.1,
+  "forwardPE": 136.71533,
+  "forwardEps": 1.37,
+  "trailingEps": 15.07,
+  "earningsGrowth": 0.029,
+  "revenueGrowth": 0.015
  },
  "governance": {
   "ceo": {
@@ -73,8 +84,34 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF FI",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 654350000000.0,
+    "official": 654350000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 32419000000.0,
+    "official": 32419000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 4840000000.0,
+    "official": 4814000000.0,
+    "diff": 0.005401
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:07:39+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -100,7 +137,9 @@
    "goodwill_and_intangibles": 4005000000.0,
    "retained_earnings": 26927000000.0,
    "total_debt": 190282000000.0,
-   "shares_out": 3640871455.0
+   "shares_out": 3640871455.0,
+   "unusual_items": 14000000.0,
+   "normalized_income": 3578458000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -126,7 +165,9 @@
    "goodwill_and_intangibles": 3826000000.0,
    "retained_earnings": 27707000000.0,
    "total_debt": 191051000000.0,
-   "shares_out": 3519189319.0
+   "shares_out": 3519189319.0,
+   "unusual_items": -170000000.0,
+   "normalized_income": 5066260000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -152,7 +193,9 @@
    "goodwill_and_intangibles": 3882000000.0,
    "retained_earnings": 29174000000.0,
    "total_debt": 197311000000.0,
-   "shares_out": 3487931963.0
+   "shares_out": 3487931963.0,
+   "unusual_items": 12000000.0,
+   "normalized_income": 5049724000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -178,7 +221,9 @@
    "goodwill_and_intangibles": 4088000000.0,
    "retained_earnings": 29842000000.0,
    "total_debt": 206581000000.0,
-   "shares_out": 3419853669.0
+   "shares_out": 3419853669.0,
+   "unusual_items": 21000000.0,
+   "normalized_income": 4823914000.0
   }
  ]
 }

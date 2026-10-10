@@ -1,6 +1,6 @@
 {
  "ticker": "OPCH",
- "fetched_at": "2026-10-10T12:54:18+00:00",
+ "fetched_at": "2026-10-10T15:52:18+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 8000,
   "website": "https://optioncarehealth.com",
-  "longBusinessSummary": "Option Care Health, Inc. offers home and alternate site infusion services in the United States. The company provides anti-infective therapy and services; home infusion services to treat heart failure; home parenteral nutrition and enteral nutrition support services for numerous acute and chronic conditions, such as stroke, cancer, and gastrointestinal diseases; immunoglobulin infusion therapies for the treatment of immune deficiencies; and treatments for chronic inflammatory disorders, including crohn's disease, plaque psoriasis, psoriatic arthritis, rheumatoid arthritis, ulcerative colitis, and other chronic inflammatory disorders. It also offers treatments to manage the progression of neurological disorders, such as Duchenne muscular dystrophy, multiple sclerosis, Alzheimer's disease, and other neurological disorder; infusion therapies for bleeding disorders, such as hemophilia and von Willebrand diseases; therapies for women with high-risk pregnancies; and other infusion therapies to treat various conditions, including pain management, chemotherapy, and respiratory medications, as well as nursing services. The company markets its services through patient referrals, including physicians, hospital discharge planners, hospital personnel, health maintenance organizations, and preferred provider organizations. The company is headquartered in Bannockburn, Illinois."
+  "longBusinessSummary": "Option Care Health, Inc. offers home and alternate site infusion services in the United States. The company provides anti-infective therapy and services; home infusion services to treat heart failure; home parenteral nutrition and enteral nutrition support services for numerous acute and chronic conditions, such as stroke, cancer, and gastrointestinal diseases; immunoglobulin infusion therapies for the treatment of immune deficiencies; and treatments for chronic inflammatory disorders, including crohn's disease, plaque psoriasis, psoriatic arthritis, rheumatoid arthritis, ulcerative colitis, and other chronic inflammatory disorders. It also offers treatments to manage the progression of neurological disorders, such as Duchenne muscular dystrophy, multiple sclerosis, Alzheimer's disease, and other neurological disorder; infusion therapies for bleeding disorders, such as hemophilia and von Willebrand diseases; therapies for women with high-risk pregnancies; and other infusion therapies to treat various conditions, including pain management, chemotherapy, and respiratory medications, as well as nursing services. The company markets its services through patient referrals, including physicians, hospital discharge planners, hospital personnel, health maintenance organizations, and preferred provider organizations. The company is headquartered in Bannockburn, Illinois.",
+  "targetMeanPrice": 29.525,
+  "targetLowPrice": 23.0,
+  "targetHighPrice": 33.0,
+  "numberOfAnalystOpinions": 8,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.90909,
+  "forwardPE": 14.916989,
+  "forwardEps": 2.08286,
+  "trailingEps": 1.32,
+  "earningsGrowth": 0.129,
+  "revenueGrowth": 0.019
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,38 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3455769000.0,
+    "official": 3455769000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1326393000.0,
+    "official": 1326393000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 207585000.0,
+    "official": 207585000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 5649519000.0,
+    "official": 5649519000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:52:18+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -206,7 +247,9 @@
    "goodwill_and_intangibles": 1897539000.0,
    "retained_earnings": 190423000.0,
    "total_debt": 1064204000.0,
-   "shares_out": 181957698.0
+   "shares_out": 181957698.0,
+   "normalized_ebitda": 325008000.0,
+   "normalized_income": 150556000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -240,7 +283,9 @@
    "goodwill_and_intangibles": 1875642000.0,
    "retained_earnings": 457513000.0,
    "total_debt": 1062650000.0,
-   "shares_out": 174575537.0
+   "shares_out": 174575537.0,
+   "normalized_ebitda": 472190000.0,
+   "normalized_income": 267090000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -274,7 +319,9 @@
    "goodwill_and_intangibles": 1841256000.0,
    "retained_earnings": 669336000.0,
    "total_debt": 1111153000.0,
-   "shares_out": 166261112.0
+   "shares_out": 166261112.0,
+   "normalized_ebitda": 396126000.0,
+   "normalized_income": 211823000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -308,7 +355,9 @@
    "goodwill_and_intangibles": 1915921000.0,
    "retained_earnings": 876921000.0,
    "total_debt": 1160832000.0,
-   "shares_out": 156857801.0
+   "shares_out": 156857801.0,
+   "normalized_ebitda": 408148000.0,
+   "normalized_income": 207585000.0
   }
  ]
 }

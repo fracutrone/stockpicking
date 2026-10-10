@@ -1,6 +1,6 @@
 {
  "ticker": "NVST",
- "fetched_at": "2026-10-10T12:53:25+00:00",
+ "fetched_at": "2026-10-10T15:51:29+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 12000,
   "website": "https://envistaco.com",
-  "longBusinessSummary": "Envista Holdings Corporation, together with its subsidiaries, develops, manufactures, markets, and sells dental products in the United States, China, and internationally. The company operates in two segments, Specialty Products & Technologies, and Equipment & Consumables. The Specialty Products & Technologies segment offers dental implant systems, guided surgery systems, biomaterials, and prefabricated and custom-built prosthetics to oral surgeons, prosthodontists and periodontists, and general dentist; and brackets and wires, tubes and bands, archwires, clear aligners, digital orthodontic treatments, retainers, and other orthodontic laboratory products, as well as provides DTX Studio Clinic, a software package offered with its imaging products. This segment offers its products under the Nobel Biocare, Alpha-Bio Tec, Implant Direct, Nobel Procera, Ormco, Spark, Orascoptic, Damon, Insignia, AOA brands. The Equipment & Consumables segment provides dental equipment and supplies, including digital imaging systems, software, and other visualization/magnification systems; endodontic systems and related products; restorative materials, rotary burs, impression materials, bonding agents, and cements; and infection prevention products. This segment offers its products under the Dexis, DTX Studio, Kerr, Metrex, Total Care, Pentron, Optibond, Harmonize, Sonicfill, Sybron Endo, and CaviWipes to dental offices, clinics, and hospitals. Envista Holdings Corporation was incorporated in 2018 and is headquartered in Brea, California."
+  "longBusinessSummary": "Envista Holdings Corporation, together with its subsidiaries, develops, manufactures, markets, and sells dental products in the United States, China, and internationally. The company operates in two segments, Specialty Products & Technologies, and Equipment & Consumables. The Specialty Products & Technologies segment offers dental implant systems, guided surgery systems, biomaterials, and prefabricated and custom-built prosthetics to oral surgeons, prosthodontists and periodontists, and general dentist; and brackets and wires, tubes and bands, archwires, clear aligners, digital orthodontic treatments, retainers, and other orthodontic laboratory products, as well as provides DTX Studio Clinic, a software package offered with its imaging products. This segment offers its products under the Nobel Biocare, Alpha-Bio Tec, Implant Direct, Nobel Procera, Ormco, Spark, Orascoptic, Damon, Insignia, AOA brands. The Equipment & Consumables segment provides dental equipment and supplies, including digital imaging systems, software, and other visualization/magnification systems; endodontic systems and related products; restorative materials, rotary burs, impression materials, bonding agents, and cements; and infection prevention products. This segment offers its products under the Dexis, DTX Studio, Kerr, Metrex, Total Care, Pentron, Optibond, Harmonize, Sonicfill, Sybron Endo, and CaviWipes to dental offices, clinics, and hospitals. Envista Holdings Corporation was incorporated in 2018 and is headquartered in Brea, California.",
+  "targetMeanPrice": 29.53846,
+  "targetLowPrice": 23.0,
+  "targetHighPrice": 35.0,
+  "numberOfAnalystOpinions": 13,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.06667,
+  "forwardPE": 13.832506,
+  "forwardEps": 1.66275,
+  "trailingEps": 0.59,
+  "earningsGrowth": 1.113,
+  "revenueGrowth": 0.071
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 5679000000.0,
+    "official": 5679000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3106300000.0,
+    "official": 3106300000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 47000000.0,
+    "official": 47000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2719500000.0,
+    "official": 2719500000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:51:29+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -200,7 +242,10 @@
    "goodwill_and_intangibles": 4583300000.0,
    "retained_earnings": 731400000.0,
    "total_debt": 1890700000.0,
-   "shares_out": 163200000.0
+   "shares_out": 163200000.0,
+   "unusual_items": -24000000.0,
+   "normalized_ebitda": 508400000.0,
+   "normalized_income": 258112000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -234,7 +279,10 @@
    "goodwill_and_intangibles": 4246200000.0,
    "retained_earnings": 631200000.0,
    "total_debt": 1628700000.0,
-   "shares_out": 171500000.0
+   "shares_out": 171500000.0,
+   "unusual_items": -283400000.0,
+   "normalized_ebitda": 454500000.0,
+   "normalized_income": 110167820.0
   },
   {
    "fy_end": "2024-12-31",
@@ -268,7 +316,10 @@
    "goodwill_and_intangibles": 2911800000.0,
    "retained_earnings": -487400000.0,
    "total_debt": 1510300000.0,
-   "shares_out": 172200000.0
+   "shares_out": 172200000.0,
+   "unusual_items": -1175400000.0,
+   "normalized_ebitda": 291600000.0,
+   "normalized_income": -244455020.0
   },
   {
    "fy_end": "2025-12-31",
@@ -302,7 +353,10 @@
    "goodwill_and_intangibles": 2985400000.0,
    "retained_earnings": -440400000.0,
    "total_debt": 1448300000.0,
-   "shares_out": 163800000.0
+   "shares_out": 163800000.0,
+   "unusual_items": -19700000.0,
+   "normalized_ebitda": 384200000.0,
+   "normalized_income": 61662710.0
   }
  ]
 }

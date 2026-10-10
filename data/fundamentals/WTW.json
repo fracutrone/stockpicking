@@ -1,6 +1,6 @@
 {
  "ticker": "WTW",
- "fetched_at": "2026-10-10T13:02:53+00:00",
+ "fetched_at": "2026-10-10T16:00:13+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 48100,
   "website": "https://www.wtwco.com",
-  "longBusinessSummary": "Willis Towers Watson Public Limited Company operates as an advisory, broking, and solutions company worldwide. The company operates through two segments: Health, Wealth & Career and Risk & Broking. It offers strategy and design consulting, plan management service and support, broking and administration services for health, wellbeing, and other group benefit programs, including medical, dental, disability, life, voluntary benefits, and other coverages; actuarial support, plan design, and administrative services for pension and retirement savings plans; retirement consulting services and solutions; and integrated solutions that consists of investment discretionary management, pension administration, core actuarial, and communication and change management assistance services. The company also provides advice, data, software, and products to address clients' total rewards and talent issues; and risk advice, insurance brokerage, and consulting services in the areas of property and casualty, affinity, risk and analytics, aerospace, construction, global markets direct and facultative, financial, executive and professional risks, credit risk solutions, crisis management, surety, marine, and natural resources. In addition, it offers software and technology, risk and capital management, products and product pricing, financial and regulatory reporting, financial and capital modeling, M&A, outsourcing, and business management services. The company was formerly known as Willis Group Holdings Public Limited Company and changed its name to Willis Towers Watson Public Limited Company in January 2016. Willis Towers Watson Public Limited Company was founded in 1828 and is based in London, the United Kingdom."
+  "longBusinessSummary": "Willis Towers Watson Public Limited Company operates as an advisory, broking, and solutions company worldwide. The company operates through two segments: Health, Wealth & Career and Risk & Broking. It offers strategy and design consulting, plan management service and support, broking and administration services for health, wellbeing, and other group benefit programs, including medical, dental, disability, life, voluntary benefits, and other coverages; actuarial support, plan design, and administrative services for pension and retirement savings plans; retirement consulting services and solutions; and integrated solutions that consists of investment discretionary management, pension administration, core actuarial, and communication and change management assistance services. The company also provides advice, data, software, and products to address clients' total rewards and talent issues; and risk advice, insurance brokerage, and consulting services in the areas of property and casualty, affinity, risk and analytics, aerospace, construction, global markets direct and facultative, financial, executive and professional risks, credit risk solutions, crisis management, surety, marine, and natural resources. In addition, it offers software and technology, risk and capital management, products and product pricing, financial and regulatory reporting, financial and capital modeling, M&A, outsourcing, and business management services. The company was formerly known as Willis Group Holdings Public Limited Company and changed its name to Willis Towers Watson Public Limited Company in January 2016. Willis Towers Watson Public Limited Company was founded in 1828 and is based in London, the United Kingdom.",
+  "targetMeanPrice": 374.0,
+  "targetLowPrice": 310.0,
+  "targetHighPrice": 455.0,
+  "numberOfAnalystOpinions": 19,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.7619,
+  "forwardPE": 12.963357,
+  "forwardEps": 22.85365,
+  "trailingEps": 16.16,
+  "earningsGrowth": -0.268,
+  "revenueGrowth": 0.091
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 29530000000.0,
+    "official": 29530000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 7976000000.0,
+    "official": 7976000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1605000000.0,
+    "official": 1605000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 9708000000.0,
+    "official": 9708000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T16:00:13+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -189,7 +231,10 @@
    "goodwill_and_intangibles": 12446000000.0,
    "retained_earnings": 1764000000.0,
    "total_debt": 6756000000.0,
-   "shares_out": 106756364.0
+   "shares_out": 106756364.0,
+   "unusual_items": -354000000.0,
+   "normalized_ebitda": 2387000000.0,
+   "normalized_income": 1348408585.055644
   },
   {
    "fy_end": "2023-12-31",
@@ -221,7 +266,10 @@
    "goodwill_and_intangibles": 12211000000.0,
    "retained_earnings": 1466000000.0,
    "total_debt": 7435000000.0,
-   "shares_out": 102538072.0
+   "shares_out": 102538072.0,
+   "unusual_items": -422000000.0,
+   "normalized_ebitda": 2438000000.0,
+   "normalized_income": 1406104000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -254,7 +302,10 @@
    "goodwill_and_intangibles": 10094000000.0,
    "retained_earnings": 109000000.0,
    "total_debt": 8611000000.0,
-   "shares_out": 99805780.0
+   "shares_out": 99805780.0,
+   "unusual_items": -1840000000.0,
+   "normalized_ebitda": 2661000000.0,
+   "normalized_income": 1355600000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -287,7 +338,10 @@
    "goodwill_and_intangibles": 10079000000.0,
    "retained_earnings": -296000000.0,
    "total_debt": 9685000000.0,
-   "shares_out": 95079835.0
+   "shares_out": 95079835.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 2631000000.0,
+   "normalized_income": 1605000000.0
   }
  ]
 }

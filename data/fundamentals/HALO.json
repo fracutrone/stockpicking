@@ -1,6 +1,6 @@
 {
  "ticker": "HALO",
- "fetched_at": "2026-10-10T12:47:27+00:00",
+ "fetched_at": "2026-10-10T15:45:50+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 423,
   "website": "https://halozyme.com",
-  "longBusinessSummary": "Halozyme Therapeutics, Inc., a biopharmaceutical company, researches, develops, and commercializes of proprietary enzymes and devices in the United States, Switzerland, Belgium, Japan, and internationally. The company's products are based on the patented recombinant human hyaluronidase enzyme (rHuPH20) that enables delivery of injectable biologics, such as monoclonal antibodies and other therapeutic molecules, as well as small molecules and fluids. It offers Hylenex recombinant, a formulation of rHuPH20 that facilitates subcutaneous (SC) administration to enhance the dispersion and absorption of other injected drugs in SC urography and to enhance resorption of radiopaque agents; and XYOSTED, an injection for SC administration of testosterone replacement therapy. The company also provides Herceptin (trastuzumab) under the brand name Herceptin Hylecta; and Phesgo to treat breast cancer; Mabthera SC for chronic lymphocytic leukemia treatment; Tecentriq SC for IV infusion; Ocrevus SC for multiple sclerosis; HYQVIA to treat primary immunodeficiency disorders; DARZALEX to treat amyloidosis, and smoldering and multiple myeloma; epinephrine Injection to treat allergic reactions; nivolumab and relatlimab to treat metastatic or unresectable melanoma; teriparatide injections; ARGX-113; and ARGX-117 to treat severe autoimmune diseases in multifocal motor neuropathy. It has collaborations and licensing agreements with F. Hoffmann-La Roche, Ltd. and Hoffmann-La Roche, Inc.; Takeda Pharmaceuticals International AG and Baxalta US Inc.; Pfizer Inc.; Janssen Biotech, Inc.; AbbVie, Inc.; Eli Lilly and Company; Bristol Myers Squibb Company; argenx BVBA; ViiV Healthcare; Chugai Pharmaceutical Co., Ltd.; Acumen Pharmaceuticals, Inc.; Merus N.V.; and Skye Bioscience, Inc. The company was founded in 1998 and is headquartered in San Diego, California."
+  "longBusinessSummary": "Halozyme Therapeutics, Inc., a biopharmaceutical company, researches, develops, and commercializes of proprietary enzymes and devices in the United States, Switzerland, Belgium, Japan, and internationally. The company's products are based on the patented recombinant human hyaluronidase enzyme (rHuPH20) that enables delivery of injectable biologics, such as monoclonal antibodies and other therapeutic molecules, as well as small molecules and fluids. It offers Hylenex recombinant, a formulation of rHuPH20 that facilitates subcutaneous (SC) administration to enhance the dispersion and absorption of other injected drugs in SC urography and to enhance resorption of radiopaque agents; and XYOSTED, an injection for SC administration of testosterone replacement therapy. The company also provides Herceptin (trastuzumab) under the brand name Herceptin Hylecta; and Phesgo to treat breast cancer; Mabthera SC for chronic lymphocytic leukemia treatment; Tecentriq SC for IV infusion; Ocrevus SC for multiple sclerosis; HYQVIA to treat primary immunodeficiency disorders; DARZALEX to treat amyloidosis, and smoldering and multiple myeloma; epinephrine Injection to treat allergic reactions; nivolumab and relatlimab to treat metastatic or unresectable melanoma; teriparatide injections; ARGX-113; and ARGX-117 to treat severe autoimmune diseases in multifocal motor neuropathy. It has collaborations and licensing agreements with F. Hoffmann-La Roche, Ltd. and Hoffmann-La Roche, Inc.; Takeda Pharmaceuticals International AG and Baxalta US Inc.; Pfizer Inc.; Janssen Biotech, Inc.; AbbVie, Inc.; Eli Lilly and Company; Bristol Myers Squibb Company; argenx BVBA; ViiV Healthcare; Chugai Pharmaceutical Co., Ltd.; Acumen Pharmaceuticals, Inc.; Merus N.V.; and Skye Bioscience, Inc. The company was founded in 1998 and is headquartered in San Diego, California.",
+  "targetMeanPrice": 101.75,
+  "targetLowPrice": 78.0,
+  "targetHighPrice": 130.0,
+  "numberOfAnalystOpinions": 8,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.66667,
+  "forwardPE": 10.385042,
+  "forwardEps": 10.6326,
+  "trailingEps": 3.42,
+  "earningsGrowth": 0.429,
+  "revenueGrowth": 0.477
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 2525323000.0,
+    "official": 2525323000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 48814000.0,
+    "official": 48814000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 316889000.0,
+    "official": 316889000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1396611000.0,
+    "official": 1396611000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:45:50+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -198,7 +240,10 @@
    "goodwill_and_intangibles": 955701000.0,
    "retained_earnings": 143217000.0,
    "total_debt": 1506100000.0,
-   "shares_out": 135154000.0
+   "shares_out": 135154000.0,
+   "unusual_items": -1666000.0,
+   "normalized_ebitda": 317172000.0,
+   "normalized_income": 203481792.0
   },
   {
    "fy_end": "2023-12-31",
@@ -233,7 +278,10 @@
    "goodwill_and_intangibles": 889700000.0,
    "retained_earnings": 90550000.0,
    "total_debt": 1499248000.0,
-   "shares_out": 126770000.0
+   "shares_out": 126770000.0,
+   "unusual_items": 29517000.0,
+   "normalized_ebitda": 422430000.0,
+   "normalized_income": 257723602.1
   },
   {
    "fy_end": "2024-12-31",
@@ -268,7 +316,10 @@
    "goodwill_and_intangibles": 818651000.0,
    "retained_earnings": 359869000.0,
    "total_debt": 1505798000.0,
-   "shares_out": 123138000.0
+   "shares_out": 123138000.0,
+   "unusual_items": 23752000.0,
+   "normalized_ebitda": 632787000.0,
+   "normalized_income": 425158280.8
   },
   {
    "fy_end": "2025-12-31",
@@ -303,7 +354,10 @@
    "goodwill_and_intangibles": 1561827000.0,
    "retained_earnings": 54786000.0,
    "total_debt": 2142630000.0,
-   "shares_out": 117782000.0
+   "shares_out": 117782000.0,
+   "unusual_items": -317592000.0,
+   "normalized_ebitda": 890644000.0,
+   "normalized_income": 532438690.4
   }
  ]
 }

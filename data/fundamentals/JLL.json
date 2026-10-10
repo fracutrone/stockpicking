@@ -1,6 +1,6 @@
 {
  "ticker": "JLL",
- "fetched_at": "2026-10-10T12:49:27+00:00",
+ "fetched_at": "2026-10-10T15:47:47+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 112000,
   "website": "https://www.jll.com",
-  "longBusinessSummary": "Jones Lang LaSalle Incorporated operates as a commercial real estate and investment management company. It engages in buying, building, occupying, managing, and investing in office, industrial, hotel, multi-family, retail and data center properties in the Americas, Europe, the Middle East, Africa, and the Asia Pacific. The company also offers agency leasing, tenant representation, property management, advisory, and consulting services; and debt advisory, loan sales and servicing, value and risk advisory, equity and funds placement, merger and acquisition, corporate advisory, and investment sales and advisory services. In addition, it provides on-site real estate management services for office, industrial, retail, multifamily residential, and other properties; cloud-based software solutions; integrated facilities management, space planning, office design, and workplace strategy consulting services; program and project management, implementation and support, managed services, and advisory/consulting services; and investment management services to institutional investors and high-net-worth individuals, as well as designing, building, management, and consulting services to tenants of leased space, owners in self-occupied buildings, and owners of real estate investments. It provides its services to real estate owners, occupiers, investors, and developers for various property types, including critical environments and data centers, offices, industrial and warehouses, residential properties, infrastructure projects, retail and shopping malls, logistics, and military housing and transportation centers; and hotels and hospitality, cultural, educational, government, healthcare and laboratory, and sports facilities. The company was formerly known as LaSalle Partners Incorporated and changed its name to Jones Lang LaSalle Incorporated in March 1999. Jones Lang LaSalle Incorporated was incorporated in 1997 and is headquartered in Chicago, Illinois."
+  "longBusinessSummary": "Jones Lang LaSalle Incorporated operates as a commercial real estate and investment management company. It engages in buying, building, occupying, managing, and investing in office, industrial, hotel, multi-family, retail and data center properties in the Americas, Europe, the Middle East, Africa, and the Asia Pacific. The company also offers agency leasing, tenant representation, property management, advisory, and consulting services; and debt advisory, loan sales and servicing, value and risk advisory, equity and funds placement, merger and acquisition, corporate advisory, and investment sales and advisory services. In addition, it provides on-site real estate management services for office, industrial, retail, multifamily residential, and other properties; cloud-based software solutions; integrated facilities management, space planning, office design, and workplace strategy consulting services; program and project management, implementation and support, managed services, and advisory/consulting services; and investment management services to institutional investors and high-net-worth individuals, as well as designing, building, management, and consulting services to tenants of leased space, owners in self-occupied buildings, and owners of real estate investments. It provides its services to real estate owners, occupiers, investors, and developers for various property types, including critical environments and data centers, offices, industrial and warehouses, residential properties, infrastructure projects, retail and shopping malls, logistics, and military housing and transportation centers; and hotels and hospitality, cultural, educational, government, healthcare and laboratory, and sports facilities. The company was formerly known as LaSalle Partners Incorporated and changed its name to Jones Lang LaSalle Incorporated in March 1999. Jones Lang LaSalle Incorporated was incorporated in 1997 and is headquartered in Chicago, Illinois.",
+  "targetMeanPrice": 424.0,
+  "targetLowPrice": 332.0,
+  "targetHighPrice": 500.0,
+  "numberOfAnalystOpinions": 10,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.83333,
+  "forwardPE": 10.558579,
+  "forwardEps": 28.4006,
+  "trailingEps": 20.85,
+  "earningsGrowth": 0.978,
+  "revenueGrowth": 0.108
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "interest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 17801100000.0,
+    "official": 17801100000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 7502800000.0,
+    "official": 7502800000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 792100000.0,
+    "official": 792100000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 26115600000.0,
+    "official": 26115600000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:47:47+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -186,7 +228,10 @@
    "intangibles": 858500000.0,
    "goodwill_and_intangibles": 5386500000.0,
    "retained_earnings": 5590400000.0,
-   "shares_out": 47507758.0
+   "shares_out": 47507758.0,
+   "unusual_items": -104800000.0,
+   "normalized_ebitda": 1305800000.0,
+   "normalized_income": 738133393.683364
   },
   {
    "fy_end": "2023-12-31",
@@ -216,7 +261,10 @@
    "goodwill_and_intangibles": 5372400000.0,
    "retained_earnings": 5795600000.0,
    "total_debt": 0,
-   "shares_out": 47509750.0
+   "shares_out": 47509750.0,
+   "unusual_items": -100700000.0,
+   "normalized_ebitda": 1016300000.0,
+   "normalized_income": 315828600.0
   },
   {
    "fy_end": "2024-12-31",
@@ -246,7 +294,10 @@
    "goodwill_and_intangibles": 5335400000.0,
    "retained_earnings": 6334900000.0,
    "total_debt": 199300000.0,
-   "shares_out": 47415584.0
+   "shares_out": 47415584.0,
+   "unusual_items": -23100000.0,
+   "normalized_ebitda": 1170100000.0,
+   "normalized_income": 565394258.795819
   },
   {
    "fy_end": "2025-12-31",
@@ -276,7 +327,10 @@
    "goodwill_and_intangibles": 5374000000.0,
    "retained_earnings": 7114000000.0,
    "total_debt": -200000.0,
-   "shares_out": 46945754.0
+   "shares_out": 46945754.0,
+   "unusual_items": -75300000.0,
+   "normalized_ebitda": 1501400000.0,
+   "normalized_income": 852864653.152694
   }
  ]
 }

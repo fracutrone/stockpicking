@@ -1,6 +1,6 @@
 {
  "ticker": "STLAP.PA",
- "fetched_at": "2026-10-10T12:20:41+00:00",
+ "fetched_at": "2026-10-10T15:22:39+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "PAR",
   "fullTimeEmployees": 258668,
   "website": "https://www.stellantis.com",
-  "longBusinessSummary": "Stellantis N.V. engages in the designing, engineering, manufacturing, distribution, and sale of automobiles and light commercial vehicles, engines, transmission systems, and mobility services worldwide. It provides luxury and premium vehicles; sport utility vehicles; and parts and accessories. The company also provides contract services; retail and dealer financing services; and vehicle leasing and rental services, as well as engages in after-market parts and service businesses and data businesses. It offers its products under the Abarth, Alfa Romeo, Chrysler, Citroën, DS Automobiles, Dodge, Fiat, Jeep, Maserati, Ram Trucks, Opel, Lancia, Vauxhall, Peugeot, Free2move, Share Now, Leasys, and Comau brand names through distributors and dealers. The company has a strategic collaboration with Microsoft Corporation for the development of AI initiatives across sales, customer care, and operations. The company operates in North America, France, Brazil, Italy, Germany, the United Kingdom, Turkiye, Spain, Argentina, Belgium, Austria, the Netherlands, Portugal, Poland, Algeria, Morocco, Japan, China, and internationally. Stellantis N.V. was founded in 1899 and is based in Hoofddorp, the Netherlands."
+  "longBusinessSummary": "Stellantis N.V. engages in the designing, engineering, manufacturing, distribution, and sale of automobiles and light commercial vehicles, engines, transmission systems, and mobility services worldwide. It provides luxury and premium vehicles; sport utility vehicles; and parts and accessories. The company also provides contract services; retail and dealer financing services; and vehicle leasing and rental services, as well as engages in after-market parts and service businesses and data businesses. It offers its products under the Abarth, Alfa Romeo, Chrysler, Citroën, DS Automobiles, Dodge, Fiat, Jeep, Maserati, Ram Trucks, Opel, Lancia, Vauxhall, Peugeot, Free2move, Share Now, Leasys, and Comau brand names through distributors and dealers. The company has a strategic collaboration with Microsoft Corporation for the development of AI initiatives across sales, customer care, and operations. The company operates in North America, France, Brazil, Italy, Germany, the United Kingdom, Turkiye, Spain, Argentina, Belgium, Austria, the Netherlands, Portugal, Poland, Algeria, Morocco, Japan, China, and internationally. Stellantis N.V. was founded in 1899 and is based in Hoofddorp, the Netherlands.",
+  "targetMeanPrice": 9.5,
+  "targetLowPrice": 9.5,
+  "targetHighPrice": 9.5,
+  "numberOfAnalystOpinions": 1,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.0,
+  "forwardPE": 3.850481,
+  "forwardEps": 1.04,
+  "trailingEps": -7.49,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.131
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF NL",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 195153000000.0,
+    "official": 195153000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 53551000000.0,
+    "official": 53551000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -22368000000.0,
+    "official": -22368000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 153508000000.0,
+    "official": 153508000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:22:39+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -121,7 +164,10 @@
    "goodwill_and_intangibles": 50744000000.0,
    "retained_earnings": 66783000000.0,
    "total_debt": 27153000000.0,
-   "shares_out": 3132618655.0
+   "shares_out": 3132618655.0,
+   "unusual_items": -1721000000.0,
+   "normalized_ebitda": 29211000000.0,
+   "normalized_income": 18279060000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -156,7 +202,10 @@
    "goodwill_and_intangibles": 51619000000.0,
    "retained_earnings": 80926000000.0,
    "total_debt": 29463000000.0,
-   "shares_out": 3023099039.0
+   "shares_out": 3023099039.0,
+   "unusual_items": -2405000000.0,
+   "normalized_ebitda": 33702000000.0,
+   "normalized_income": 20594555000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -191,7 +240,10 @@
    "goodwill_and_intangibles": 54365000000.0,
    "retained_earnings": 77316000000.0,
    "total_debt": 37227000000.0,
-   "shares_out": 2880492279.0
+   "shares_out": 2880492279.0,
+   "unusual_items": -1842000000.0,
+   "normalized_ebitda": 14623000000.0,
+   "normalized_income": 6839764000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -226,7 +278,10 @@
    "goodwill_and_intangibles": 44885000000.0,
    "retained_earnings": 53267000000.0,
    "total_debt": 45947000000.0,
-   "shares_out": 2897483196.0
+   "shares_out": 2897483196.0,
+   "unusual_items": -2845000000.0,
+   "normalized_ebitda": -15303000000.0,
+   "normalized_income": -19981045000.0
   }
  ]
 }

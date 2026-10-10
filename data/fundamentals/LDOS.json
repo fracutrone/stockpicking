@@ -1,6 +1,6 @@
 {
  "ticker": "LDOS",
- "fetched_at": "2026-10-10T12:50:16+00:00",
+ "fetched_at": "2026-10-10T15:48:33+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 50000,
   "website": "https://www.leidos.com",
-  "longBusinessSummary": "Leidos Holdings, Inc., together with its subsidiaries, provides services and solutions for government and commercial customers in the United States and internationally. The National Security & Digital segment provides national security software; services by using artificial intelligence and machine learning to coordinate sea, ground, air, and space to help warfighters; offensive, defensive, and physical cyber operation solutions; intelligence analysis, operational support, logistics operations, security, linguistics, force production, biometrics, chemical, biological, radiological, nuclear, and explosives, energetics, training, and other services; and Digital Modernization and transformation services. The Health & Civil segment offers air traffic control systems; health mission software; managed health services; infrastructure management and operation; logistical operations and information technology support; and life science research and development support services. The Commercial & International segment provides power grid engineering and design, grid modernization, utility planning and consulting, energy management and efficiency, technology-driven innovation, and software and application development; people scanners, computed tomography carry-on baggage scanners, checked baggage scanners, and explosive trace detectors; mobile, non-intrusive ports and borders inspection systems; and open-architecture platform that transforms airport security by integrating disparate devices and technologies into a unified management system. The Defense Systems segment offers air and missile defense, maritime, aerospace, and cyber and threat systems; offers airborne training, intelligence, surveillance, and reconnaissance missions; and provides space-based electro-optic infrared systems, multi/hyperspectral, electronic warfare and signals intelligence, and communications payloads. Leidos Holdings, Inc. was founded in 1969 and is headquartered in Reston, Virginia."
+  "longBusinessSummary": "Leidos Holdings, Inc., together with its subsidiaries, provides services and solutions for government and commercial customers in the United States and internationally. The National Security & Digital segment provides national security software; services by using artificial intelligence and machine learning to coordinate sea, ground, air, and space to help warfighters; offensive, defensive, and physical cyber operation solutions; intelligence analysis, operational support, logistics operations, security, linguistics, force production, biometrics, chemical, biological, radiological, nuclear, and explosives, energetics, training, and other services; and Digital Modernization and transformation services. The Health & Civil segment offers air traffic control systems; health mission software; managed health services; infrastructure management and operation; logistical operations and information technology support; and life science research and development support services. The Commercial & International segment provides power grid engineering and design, grid modernization, utility planning and consulting, energy management and efficiency, technology-driven innovation, and software and application development; people scanners, computed tomography carry-on baggage scanners, checked baggage scanners, and explosive trace detectors; mobile, non-intrusive ports and borders inspection systems; and open-architecture platform that transforms airport security by integrating disparate devices and technologies into a unified management system. The Defense Systems segment offers air and missile defense, maritime, aerospace, and cyber and threat systems; offers airborne training, intelligence, surveillance, and reconnaissance missions; and provides space-based electro-optic infrared systems, multi/hyperspectral, electronic warfare and signals intelligence, and communications payloads. Leidos Holdings, Inc. was founded in 1969 and is headquartered in Reston, Virginia.",
+  "targetMeanPrice": 152.06667,
+  "targetLowPrice": 130.0,
+  "targetHighPrice": 225.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.41176,
+  "forwardPE": 9.543304,
+  "forwardEps": 12.7503,
+  "trailingEps": 10.71,
+  "earningsGrowth": -0.067,
+  "revenueGrowth": 0.072
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 13493000000.0,
+    "official": 13493000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4916000000.0,
+    "official": 4916000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1448000000.0,
+    "official": 1448000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 17174000000.0,
+    "official": 17174000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:48:33+00:00",
  "years": [
   {
    "fy_end": "2020-01-03",
@@ -199,7 +241,10 @@
    "goodwill_and_intangibles": 7648000000.0,
    "retained_earnings": 2367000000.0,
    "total_debt": 4920000000.0,
-   "shares_out": 137000000.0
+   "shares_out": 137000000.0,
+   "unusual_items": -57000000.0,
+   "normalized_ebitda": 1475000000.0,
+   "normalized_income": 729574000.0
   },
   {
    "fy_end": "2023-12-29",
@@ -233,7 +278,10 @@
    "goodwill_and_intangibles": 6779000000.0,
    "retained_earnings": 2364000000.0,
    "total_debt": 4682000000.0,
-   "shares_out": 135766419.0
+   "shares_out": 135766419.0,
+   "unusual_items": -711000000.0,
+   "normalized_ebitda": 1657000000.0,
+   "normalized_income": 760690000.0
   },
   {
    "fy_end": "2025-01-03",
@@ -267,7 +315,10 @@
    "goodwill_and_intangibles": 6601000000.0,
    "retained_earnings": 3410000000.0,
    "total_debt": 4052000000.0,
-   "shares_out": 131163899.0
+   "shares_out": 131163899.0,
+   "unusual_items": -27000000.0,
+   "normalized_ebitda": 2149000000.0,
+   "normalized_income": 1274601000.0
   },
   {
    "fy_end": "2026-01-02",
@@ -301,7 +352,10 @@
    "goodwill_and_intangibles": 6800000000.0,
    "retained_earnings": 4647000000.0,
    "total_debt": 4628000000.0,
-   "shares_out": 126380657.0
+   "shares_out": 126380657.0,
+   "unusual_items": -23000000.0,
+   "normalized_ebitda": 2425000000.0,
+   "normalized_income": 1465618000.0
   }
  ]
 }

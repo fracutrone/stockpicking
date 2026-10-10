@@ -1,6 +1,6 @@
 {
  "ticker": "ISRG",
- "fetched_at": "2026-10-10T12:49:05+00:00",
+ "fetched_at": "2026-10-10T15:47:27+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 17021,
   "website": "https://www.intuitive.com",
-  "longBusinessSummary": "Intuitive Surgical, Inc. develops, manufactures, and markets products that enable physicians and healthcare providers to enhance the quality of and access to minimally invasive care in the United States and internationally. It offers the da Vinci Surgical System that enables surgical procedures using a minimally invasive approach; and Ion endoluminal system, which extends its commercial offerings beyond surgery into diagnostic endoluminal procedures enabling minimally invasive biopsies in the lung. The company also provides a suite of stapling, energy, and core instrumentation for its multi-port da Vinci surgical systems; progressive learning pathways to support the use of its technology; infrastructure of customer service and support specialists, a complement of services to its customers, including installation, repair, maintenance, 24/7 technical support, and proactive system health monitoring; and integrated digital capabilities providing connected offerings, streamlining performance for hospitals with program-enhancing insights. It sells its products through direct sales organizations, such as capital and clinical sales teams. Intuitive Surgical, Inc. was incorporated in 1995 and is headquartered in Sunnyvale, California."
+  "longBusinessSummary": "Intuitive Surgical, Inc. develops, manufactures, and markets products that enable physicians and healthcare providers to enhance the quality of and access to minimally invasive care in the United States and internationally. It offers the da Vinci Surgical System that enables surgical procedures using a minimally invasive approach; and Ion endoluminal system, which extends its commercial offerings beyond surgery into diagnostic endoluminal procedures enabling minimally invasive biopsies in the lung. The company also provides a suite of stapling, energy, and core instrumentation for its multi-port da Vinci surgical systems; progressive learning pathways to support the use of its technology; infrastructure of customer service and support specialists, a complement of services to its customers, including installation, repair, maintenance, 24/7 technical support, and proactive system health monitoring; and integrated digital capabilities providing connected offerings, streamlining performance for hospitals with program-enhancing insights. It sells its products through direct sales organizations, such as capital and clinical sales teams. Intuitive Surgical, Inc. was incorporated in 1995 and is headquartered in Sunnyvale, California.",
+  "targetMeanPrice": 478.1,
+  "targetLowPrice": 324.0,
+  "targetHighPrice": 685.0,
+  "numberOfAnalystOpinions": 30,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.78788,
+  "forwardPE": 35.00391,
+  "forwardEps": 12.11179,
+  "trailingEps": 8.9,
+  "earningsGrowth": 0.265,
+  "revenueGrowth": 0.185
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,38 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 20458700000.0,
+    "official": 20458700000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 17824000000.0,
+    "official": 17824000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2856000000.0,
+    "official": 2856000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 10064700000.0,
+    "official": 10064700000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:47:27+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -203,7 +244,9 @@
    "intangibles": 49800000.0,
    "goodwill_and_intangibles": 398300000.0,
    "retained_earnings": 3500100000.0,
-   "shares_out": 350000000.0
+   "shares_out": 350000000.0,
+   "normalized_ebitda": 1942900000.0,
+   "normalized_income": 1322300000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -236,7 +279,9 @@
    "intangibles": 39100000.0,
    "goodwill_and_intangibles": 387800000.0,
    "retained_earnings": 4743000000.0,
-   "shares_out": 352299592.0
+   "shares_out": 352299592.0,
+   "normalized_ebitda": 2221600000.0,
+   "normalized_income": 1798000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -269,7 +314,9 @@
    "intangibles": 23000000.0,
    "goodwill_and_intangibles": 370500000.0,
    "retained_earnings": 6803300000.0,
-   "shares_out": 356600000.0
+   "shares_out": 356600000.0,
+   "normalized_ebitda": 2848600000.0,
+   "normalized_income": 2322600000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -302,7 +349,9 @@
    "intangibles": 17100000.0,
    "goodwill_and_intangibles": 381400000.0,
    "retained_earnings": 7011800000.0,
-   "shares_out": 355100000.0
+   "shares_out": 355100000.0,
+   "normalized_ebitda": 3622600000.0,
+   "normalized_income": 2856000000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "NDAQ",
- "fetched_at": "2026-10-10T12:52:41+00:00",
+ "fetched_at": "2026-10-10T15:50:43+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 9630,
   "website": "https://www.nasdaq.com",
-  "longBusinessSummary": "Nasdaq, Inc. operates as a technology company that serves capital markets and other industries in the United States and internationally. It operates through three segments: Capital Access Platforms, Financial Technology, and Market Services. The company distributes historical and real-time market data; develops and licenses Nasdaq-branded indices and financial products; provides investor relations intelligence, governance solutions, and sustainability solution products for public and private companies, and organizations, as well as insights and workflow solutions; and operates listing platforms. It also offers Verafin, a cloud-based platform to detect, investigate, and report money laundering and financial frauds; AxiomSL, a risk data management and regulatory reporting solution; cloud-enabled and on-premises surveillance solutions to assist in complying with market rules, regulations, and internal market surveillance policies; Calypso, a platform providing cross-asset, front-to-back trading, treasury, risk, and collateral management solutions; and trade management and colocation services, as well as handles assets comprising cash equities, equity derivatives, currencies, various interest-bearing securities, commodities, energy products, and digital currencies. In addition, the company provides equity derivative trading and clearing, cash equity trading and fixed income, currency and commodities trading, and fixed income trading and clearing services, as well as tape plan data services; operates various exchanges, including derivatives, commodities, cash equity, debt, structured products, and exchange traded products; and offers clearing, settlement, and central depository services. The company was formerly known as The NASDAQ OMX Group, Inc. and changed its name to Nasdaq, Inc. in September 2015. Nasdaq, Inc. was founded in 1971 and is headquartered in New York, New York."
+  "longBusinessSummary": "Nasdaq, Inc. operates as a technology company that serves capital markets and other industries in the United States and internationally. It operates through three segments: Capital Access Platforms, Financial Technology, and Market Services. The company distributes historical and real-time market data; develops and licenses Nasdaq-branded indices and financial products; provides investor relations intelligence, governance solutions, and sustainability solution products for public and private companies, and organizations, as well as insights and workflow solutions; and operates listing platforms. It also offers Verafin, a cloud-based platform to detect, investigate, and report money laundering and financial frauds; AxiomSL, a risk data management and regulatory reporting solution; cloud-enabled and on-premises surveillance solutions to assist in complying with market rules, regulations, and internal market surveillance policies; Calypso, a platform providing cross-asset, front-to-back trading, treasury, risk, and collateral management solutions; and trade management and colocation services, as well as handles assets comprising cash equities, equity derivatives, currencies, various interest-bearing securities, commodities, energy products, and digital currencies. In addition, the company provides equity derivative trading and clearing, cash equity trading and fixed income, currency and commodities trading, and fixed income trading and clearing services, as well as tape plan data services; operates various exchanges, including derivatives, commodities, cash equity, debt, structured products, and exchange traded products; and offers clearing, settlement, and central depository services. The company was formerly known as The NASDAQ OMX Group, Inc. and changed its name to Nasdaq, Inc. in September 2015. Nasdaq, Inc. was founded in 1971 and is headquartered in New York, New York.",
+  "targetMeanPrice": 108.6875,
+  "targetLowPrice": 84.0,
+  "targetHighPrice": 132.0,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.83333,
+  "forwardPE": 20.041775,
+  "forwardEps": 4.67274,
+  "trailingEps": 3.43,
+  "earningsGrowth": 0.141,
+  "revenueGrowth": 0.149
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 31053000000.0,
+    "official": 31053000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 12227000000.0,
+    "official": 12227000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1788000000.0,
+    "official": 1788000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 8262000000.0,
+    "official": 8262000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:50:43+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -200,7 +242,10 @@
    "goodwill_and_intangibles": 10680000000.0,
    "retained_earnings": 7207000000.0,
    "total_debt": 5399000000.0,
-   "shares_out": 491592491.0
+   "shares_out": 491592491.0,
+   "unusual_items": -97000000.0,
+   "normalized_ebitda": 1950000000.0,
+   "normalized_income": 1198817000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -234,7 +279,10 @@
    "goodwill_and_intangibles": 21555000000.0,
    "retained_earnings": 7825000000.0,
    "total_debt": 10454000000.0,
-   "shares_out": 575159336.0
+   "shares_out": 575159336.0,
+   "unusual_items": -228000000.0,
+   "normalized_ebitda": 2224000000.0,
+   "normalized_income": 1230912000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -268,7 +316,10 @@
    "goodwill_and_intangibles": 20862000000.0,
    "retained_earnings": 8401000000.0,
    "total_debt": 9480000000.0,
-   "shares_out": 575062217.0
+   "shares_out": 575062217.0,
+   "unusual_items": -151000000.0,
+   "normalized_ebitda": 2611000000.0,
+   "normalized_income": 1233119000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -302,7 +353,10 @@
    "goodwill_and_intangibles": 20882000000.0,
    "retained_earnings": 9588000000.0,
    "total_debt": 9004000000.0,
-   "shares_out": 569894024.0
+   "shares_out": 569894024.0,
+   "unusual_items": -16000000.0,
+   "normalized_ebitda": 3147000000.0,
+   "normalized_income": 1801328000.0
   }
  ]
 }

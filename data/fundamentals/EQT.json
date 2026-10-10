@@ -1,6 +1,6 @@
 {
  "ticker": "EQT",
- "fetched_at": "2026-10-10T12:44:34+00:00",
+ "fetched_at": "2026-10-10T15:42:57+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 1523,
   "website": "https://www.eqt.com",
-  "longBusinessSummary": "EQT Corporation engages in the exploration, production, gathering, and transmission of hydrocarbons and natural gas. The company sells natural gas, natural gas liquids, and oil to marketers, utilities, and industrial customers located in the Appalachian Basin. It also provides marketing services and contractual pipeline capacity management services, as well as engages in risk management and hedging activities. In addition, it owns and operates propane storage and distribution terminals. The company was formerly known as Equitable Resources Inc. and changed its name to EQT Corporation in February 2009. EQT Corporation was founded in 1888 and is headquartered in Canonsburg, Pennsylvania."
+  "longBusinessSummary": "EQT Corporation engages in the exploration, production, gathering, and transmission of hydrocarbons and natural gas. The company sells natural gas, natural gas liquids, and oil to marketers, utilities, and industrial customers located in the Appalachian Basin. It also provides marketing services and contractual pipeline capacity management services, as well as engages in risk management and hedging activities. In addition, it owns and operates propane storage and distribution terminals. The company was formerly known as Equitable Resources Inc. and changed its name to EQT Corporation in February 2009. EQT Corporation was founded in 1888 and is headquartered in Canonsburg, Pennsylvania.",
+  "targetMeanPrice": 67.19231,
+  "targetLowPrice": 52.0,
+  "targetHighPrice": 81.0,
+  "numberOfAnalystOpinions": 26,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.46154,
+  "forwardPE": 14.009398,
+  "forwardEps": 3.77104,
+  "trailingEps": 4.31,
+  "earningsGrowth": -0.74,
+  "revenueGrowth": -0.039
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 41792874000.0,
+    "official": 41792874000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 23752677000.0,
+    "official": 23752677000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2039247000.0,
+    "official": 2039247000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 8353217000.0,
+    "official": 8644211000.0,
+    "diff": 0.033663
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:42:57+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -191,7 +233,10 @@
    "ppe_net": 18167333000.0,
    "retained_earnings": 1283578000.0,
    "total_debt": 5678965000.0,
-   "shares_out": 365363000.0
+   "shares_out": 365363000.0,
+   "unusual_items": -5184432000.0,
+   "normalized_ebitda": 9434711000.0,
+   "normalized_income": 5726686616.0
   },
   {
    "fy_end": "2023-12-31",
@@ -224,7 +269,10 @@
    "goodwill_and_intangibles": 22595000.0,
    "retained_earnings": 2681898000.0,
    "total_debt": 5795113000.0,
-   "shares_out": 419896000.0
+   "shares_out": 419896000.0,
+   "unusual_items": 1663328000.0,
+   "normalized_ebitda": 2391972000.0,
+   "normalized_income": 362986400.0
   },
   {
    "fy_end": "2024-12-31",
@@ -257,7 +305,10 @@
    "goodwill_and_intangibles": 2294738000.0,
    "retained_earnings": 2585238000.0,
    "total_debt": 9324177000.0,
-   "shares_out": 596870000.0
+   "shares_out": 596870000.0,
+   "unusual_items": 416114000.0,
+   "normalized_ebitda": 2465255000.0,
+   "normalized_income": -150583424.0
   },
   {
    "fy_end": "2025-12-31",
@@ -290,7 +341,10 @@
    "goodwill_and_intangibles": 2262948000.0,
    "retained_earnings": 4237089000.0,
    "total_debt": 7800328000.0,
-   "shares_out": 624076000.0
+   "shares_out": 624076000.0,
+   "unusual_items": 397005000.0,
+   "normalized_ebitda": 5619622000.0,
+   "normalized_income": 1729186095.0
   }
  ]
 }

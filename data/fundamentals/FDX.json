@@ -1,6 +1,6 @@
 {
  "ticker": "FDX",
- "fetched_at": "2026-10-10T12:45:24+00:00",
+ "fetched_at": "2026-10-10T15:43:43+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 300000,
   "website": "https://www.fedex.com",
-  "longBusinessSummary": "FedEx Corporation, together with its subsidiaries, provides transportation, e-commerce, and business services in the United States and internationally. The company operates through two segments, Express U.S. Domestic and Express International. It provides e-commerce and digital solutions; dataworks; printing and shipping management, including digital printing, professional finishing, document creation, design solutions, direct mail, signs and graphics, custom-branded boxes, copying, computer rental, Wi-Fi, corporate print solutions, shredding, U.S. passport processing and renewal, and digital notarization; packing services, as well as packing supplies and boxes; document and business services; and retail access for package transportation. In addition, the company offers logistics services, air and ocean cargo transportation, specialty transportation, customs brokerage, trade management tools and data, and door-to-door solutions; and third party logistics and supply chain management solutions, such as inbound logistics, warehousing and distribution, fulfillment, contract packaging and product configuration, systems integration, returns process and disposition, test, repair, refurbishment, and product liquidation. Further, it provides sales, marketing, administrative, information technology, and back-office support services. FedEx Corporation was founded in 1971 and is headquartered in Memphis, Tennessee."
+  "longBusinessSummary": "FedEx Corporation, together with its subsidiaries, provides transportation, e-commerce, and business services in the United States and internationally. The company operates through two segments, Express U.S. Domestic and Express International. It provides e-commerce and digital solutions; dataworks; printing and shipping management, including digital printing, professional finishing, document creation, design solutions, direct mail, signs and graphics, custom-branded boxes, copying, computer rental, Wi-Fi, corporate print solutions, shredding, U.S. passport processing and renewal, and digital notarization; packing services, as well as packing supplies and boxes; document and business services; and retail access for package transportation. In addition, the company offers logistics services, air and ocean cargo transportation, specialty transportation, customs brokerage, trade management tools and data, and door-to-door solutions; and third party logistics and supply chain management solutions, such as inbound logistics, warehousing and distribution, fulfillment, contract packaging and product configuration, systems integration, returns process and disposition, test, repair, refurbishment, and product liquidation. Further, it provides sales, marketing, administrative, information technology, and back-office support services. FedEx Corporation was founded in 1971 and is headquartered in Memphis, Tennessee.",
+  "targetMeanPrice": 355.49588,
+  "targetLowPrice": 160.0,
+  "targetHighPrice": 479.0,
+  "numberOfAnalystOpinions": 26,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.78571,
+  "forwardPE": 14.088418,
+  "forwardEps": 20.70566,
+  "trailingEps": 18.55,
+  "earningsGrowth": -0.043,
+  "revenueGrowth": 0.125
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-05-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 98937000000.0,
+    "official": 98937000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 31647000000.0,
+    "official": 31647000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 4433000000.0,
+    "official": 4433000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 94720000000.0,
+    "official": 94720000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:43:43+00:00",
  "years": [
   {
    "fy_end": "2020-05-31",
@@ -189,7 +231,10 @@
    "goodwill_and_intangibles": 6435000000.0,
    "retained_earnings": 35259000000.0,
    "total_debt": 19779000000.0,
-   "shares_out": 251187242.0
+   "shares_out": 251187242.0,
+   "unusual_items": -426000000.0,
+   "normalized_ebitda": 10659000000.0,
+   "normalized_income": 4287666000.0
   },
   {
    "fy_end": "2024-05-31",
@@ -223,7 +268,10 @@
    "goodwill_and_intangibles": 6423000000.0,
    "retained_earnings": 38649000000.0,
    "total_debt": 19772000000.0,
-   "shares_out": 244302246.0
+   "shares_out": 244302246.0,
+   "unusual_items": -739000000.0,
+   "normalized_ebitda": 11607000000.0,
+   "normalized_income": 4879425119.945168
   },
   {
    "fy_end": "2025-05-31",
@@ -256,7 +304,10 @@
    "goodwill_and_intangibles": 6603000000.0,
    "retained_earnings": 41402000000.0,
    "total_debt": 19899000000.0,
-   "shares_out": 238000000.0
+   "shares_out": 238000000.0,
+   "unusual_items": -815000000.0,
+   "normalized_ebitda": 11309000000.0,
+   "normalized_income": 4704935122.22018
   },
   {
    "fy_end": "2026-05-31",
@@ -289,7 +340,10 @@
    "goodwill_and_intangibles": 6733000000.0,
    "retained_earnings": 44461000000.0,
    "total_debt": 24200000000.0,
-   "shares_out": 240000000.0
+   "shares_out": 240000000.0,
+   "unusual_items": -1160000000.0,
+   "normalized_ebitda": 12292000000.0,
+   "normalized_income": 5320400000.0
   }
  ]
 }

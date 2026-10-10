@@ -1,6 +1,6 @@
 {
  "ticker": "ARE",
- "fetched_at": "2026-10-10T12:37:57+00:00",
+ "fetched_at": "2026-10-10T15:34:55+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 514,
   "website": "https://www.are.com",
-  "longBusinessSummary": "Alexandria Real Estate Equities, Inc., an S&P 500 company, is a best-in-class, mission-driven life science REIT making a positive and lasting impact on the world. With our founding in 1994, Alexandria pioneered the life science real estate niche. Alexandria is the preeminent and longest-tenured owner, operator, and developer of collaborative Megacampus ecosystems in AAA life science and advanced technology innovation cluster locations, including Greater Boston, San Diego, the San Francisco Bay Area, Seattle, Maryland, Research Triangle, and New York City. Alexandria Real Estate Equities, Inc. was established in 1994 and was incorporated in Maryland."
+  "longBusinessSummary": "Alexandria Real Estate Equities, Inc., an S&P 500 company, is a best-in-class, mission-driven life science REIT making a positive and lasting impact on the world. With our founding in 1994, Alexandria pioneered the life science real estate niche. Alexandria is the preeminent and longest-tenured owner, operator, and developer of collaborative Megacampus ecosystems in AAA life science and advanced technology innovation cluster locations, including Greater Boston, San Diego, the San Francisco Bay Area, Seattle, Maryland, Research Triangle, and New York City. Alexandria Real Estate Equities, Inc. was established in 1994 and was incorporated in Maryland.",
+  "targetMeanPrice": 52.57143,
+  "targetLowPrice": 40.0,
+  "targetHighPrice": 60.0,
+  "numberOfAnalystOpinions": 14,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.0,
+  "forwardPE": -56.185184,
+  "forwardEps": -0.81,
+  "trailingEps": -6.05,
+  "earningsGrowth": null,
+  "revenueGrowth": -0.119
  },
  "governance": {
   "ceo": {
@@ -78,9 +89,40 @@
   "ppe_net": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "intangibles": "sec",
   "retained_earnings": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 34081835000.0,
+    "official": 34081835000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 15470070000.0,
+    "official": 15470070000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -1429570000.0,
+    "official": -1429570000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2945175000.0,
+    "official": 3026556000.0,
+    "diff": 0.026889
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:34:55+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -152,7 +194,10 @@
    "receivables": 7614000.0,
    "ppe_net": 23186000.0,
    "total_debt": 10159762000.0,
-   "shares_out": 170748395.0
+   "shares_out": 170748395.0,
+   "unusual_items": 137874000.0,
+   "normalized_ebitda": 1629176000.0,
+   "normalized_income": 412739540.0
   },
   {
    "fy_end": "2023-12-31",
@@ -179,7 +224,10 @@
    "receivables": 8211000.0,
    "ppe_net": 26560000.0,
    "total_debt": 11315642000.0,
-   "shares_out": 171910599.0
+   "shares_out": 171910599.0,
+   "unusual_items": -379474000.0,
+   "normalized_ebitda": 1828145000.0,
+   "normalized_income": 403423460.0
   },
   {
    "fy_end": "2024-12-31",
@@ -206,7 +254,10 @@
    "receivables": 6409000.0,
    "ppe_net": 39558000.0,
    "total_debt": 12244374000.0,
-   "shares_out": 172203443.0
+   "shares_out": 172203443.0,
+   "unusual_items": -146878000.0,
+   "normalized_ebitda": 2045829000.0,
+   "normalized_income": 438982620.0
   },
   {
    "fy_end": "2025-12-31",
@@ -233,7 +284,10 @@
    "receivables": 6672000.0,
    "ppe_net": 70311000.0,
    "total_debt": 12400555000.0,
-   "shares_out": 170537867.0
+   "shares_out": 170537867.0,
+   "unusual_items": -1616823000.0,
+   "normalized_ebitda": 1977273000.0,
+   "normalized_income": 187253000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "BNZL.L",
- "fetched_at": "2026-10-10T11:48:33+00:00",
+ "fetched_at": "2026-10-10T14:36:32+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.01299,
   "heldPercentInstitutions": 0.75365,
   "shortPercentOfFloat": null,
-  "averageVolume": 1136378,
+  "averageVolume": 1138985,
   "quoteType": "EQUITY",
   "exchange": "LSE",
   "fullTimeEmployees": 26777,
   "website": "https://www.bunzl.com",
-  "longBusinessSummary": "Bunzl plc operates as a distribution and services company in the North America, Continental Europe, the United Kingdom, Ireland, and internationally. It provides personal protection and safety equipment, including gloves, boots, hard hats, ear and eye protection, other workwear, as well as cleaning and hygiene supplies and asset protection products; and healthcare consumables, such as gloves, masks, swabs, gowns, bandages, healthcare devices, and other healthcare related equipment. The company also offers cleaning and hygiene materials comprising chemicals and hygiene paper; goods-not-for-resale, including food packaging, films, labels, and other store supplies; non-food consumables, such as food packaging, disposable tableware, guest amenities, catering equipment, and agricultural supplies; and other products. It serves its products to industrial, construction, e-commerce, hospitals, care homes and other facilities serving the healthcare, public sector customers, grocery stores, supermarkets, convenience stores, hotels, restaurants, contract caterers, food processors, commercial growers, leisure, retail customers, and office supply companies. Bunzl plc was founded in 1854 and is based in London, the United Kingdom."
+  "longBusinessSummary": "Bunzl plc operates as a distribution and services company in the North America, Continental Europe, the United Kingdom, Ireland, and internationally. It provides personal protection and safety equipment, including gloves, boots, hard hats, ear and eye protection, other workwear, as well as cleaning and hygiene supplies and asset protection products; and healthcare consumables, such as gloves, masks, swabs, gowns, bandages, healthcare devices, and other healthcare related equipment. The company also offers cleaning and hygiene materials comprising chemicals and hygiene paper; goods-not-for-resale, including food packaging, films, labels, and other store supplies; non-food consumables, such as food packaging, disposable tableware, guest amenities, catering equipment, and agricultural supplies; and other products. It serves its products to industrial, construction, e-commerce, hospitals, care homes and other facilities serving the healthcare, public sector customers, grocery stores, supermarkets, convenience stores, hotels, restaurants, contract caterers, food processors, commercial growers, leisure, retail customers, and office supply companies. Bunzl plc was founded in 1854 and is based in London, the United Kingdom.",
+  "targetMeanPrice": 2779.1108,
+  "targetLowPrice": 2050.0,
+  "targetHighPrice": 3600.0,
+  "numberOfAnalystOpinions": 18,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.94444,
+  "forwardPE": 13.996882,
+  "forwardEps": 1.95615,
+  "trailingEps": 1.51,
+  "earningsGrowth": 0.182,
+  "revenueGrowth": 0.03
  },
  "governance": {
   "ceo": {
@@ -75,8 +86,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 8572200000.0,
+    "official": 8572200000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2789000000.0,
+    "official": 2789000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 459200000.0,
+    "official": 459200000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 11845400000.0,
+    "official": 11845400000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:36:32+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -109,7 +152,10 @@
    "goodwill_and_intangibles": 3093900000.0,
    "retained_earnings": 2469500000.0,
    "total_debt": 3130800000.0,
-   "shares_out": 337667846.0
+   "shares_out": 337667846.0,
+   "unusual_items": -65000000.0,
+   "normalized_ebitda": 1101000000.0,
+   "normalized_income": 523410000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -142,7 +188,10 @@
    "goodwill_and_intangibles": 3242100000.0,
    "retained_earnings": 2876900000.0,
    "total_debt": 3085800000.0,
-   "shares_out": 335797089.0
+   "shares_out": 335797089.0,
+   "unusual_items": -31700000.0,
+   "normalized_ebitda": 1213600000.0,
+   "normalized_income": 550070100.0
   },
   {
    "fy_end": "2024-12-31",
@@ -175,7 +224,10 @@
    "goodwill_and_intangibles": 3683800000.0,
    "retained_earnings": 2832500000.0,
    "total_debt": 3722900000.0,
-   "shares_out": 329254814.0
+   "shares_out": 329254814.0,
+   "unusual_items": -50400000.0,
+   "normalized_ebitda": 1279400000.0,
+   "normalized_income": 537885748.218527
   },
   {
    "fy_end": "2025-12-31",
@@ -208,7 +260,10 @@
    "goodwill_and_intangibles": 3618100000.0,
    "retained_earnings": 2870200000.0,
    "total_debt": 2895400000.0,
-   "shares_out": 321015405.0
+   "shares_out": 321015405.0,
+   "unusual_items": -18000000.0,
+   "normalized_ebitda": 1220300000.0,
+   "normalized_income": 472538275.584206
   }
  ]
 }

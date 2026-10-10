@@ -1,6 +1,6 @@
 {
  "ticker": "CHE",
- "fetched_at": "2026-10-10T12:40:39+00:00",
+ "fetched_at": "2026-10-10T15:39:27+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 15811,
   "website": "https://www.chemed.com",
-  "longBusinessSummary": "Chemed Corporation provides hospice and palliative care services to patients through a network of physicians, doctors, registered nurses, home health aides, social workers, clergy, and volunteers primarily in the United States. The company operates through two segments: VITAS and Roto-Rooter segments. The company offers plumbing, drain cleaning, excavation, water restoration, and other related services to residential and commercial customers through company-owned branches, independent contractors, and franchisees. The company also provides direct medical services to patients, as well as spiritual and emotional counseling to both patients and their families. Chemed Corporation was incorporated in 1970 and is headquartered in Cincinnati, Ohio."
+  "longBusinessSummary": "Chemed Corporation provides hospice and palliative care services to patients through a network of physicians, doctors, registered nurses, home health aides, social workers, clergy, and volunteers primarily in the United States. The company operates through two segments: VITAS and Roto-Rooter segments. The company offers plumbing, drain cleaning, excavation, water restoration, and other related services to residential and commercial customers through company-owned branches, independent contractors, and franchisees. The company also provides direct medical services to patients, as well as spiritual and emotional counseling to both patients and their families. Chemed Corporation was incorporated in 1970 and is headquartered in Cincinnati, Ohio.",
+  "targetMeanPrice": 571.6,
+  "targetLowPrice": 520.0,
+  "targetHighPrice": 650.0,
+  "numberOfAnalystOpinions": 5,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 18.163477,
+  "forwardEps": 27.51786,
+  "trailingEps": 19.88,
+  "earningsGrowth": 0.437,
+  "revenueGrowth": 0.088
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 1538189000.0,
+    "official": 1538189000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 979405000.0,
+    "official": 979405000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 265238000.0,
+    "official": 265238000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2529978000.0,
+    "official": 2529978000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:39:27+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -200,7 +242,10 @@
    "goodwill_and_intangibles": 681021000.0,
    "retained_earnings": 2197918000.0,
    "total_debt": 247009000.0,
-   "shares_out": 14874799.0
+   "shares_out": 14874799.0,
+   "unusual_items": -3691000.0,
+   "normalized_ebitda": 397126000.0,
+   "normalized_income": 252418087.0
   },
   {
    "fy_end": "2023-12-31",
@@ -234,7 +279,10 @@
    "goodwill_and_intangibles": 675281000.0,
    "retained_earnings": 2446925000.0,
    "total_debt": 139411000.0,
-   "shares_out": 15034754.0
+   "shares_out": 15034754.0,
+   "unusual_items": -2261000.0,
+   "normalized_ebitda": 416601000.0,
+   "normalized_income": 274267564.159867
   },
   {
    "fy_end": "2024-12-31",
@@ -268,7 +316,10 @@
    "goodwill_and_intangibles": 758950000.0,
    "retained_earnings": 2721832000.0,
    "total_debt": 140844000.0,
-   "shares_out": 14556506.0
+   "shares_out": 14556506.0,
+   "unusual_items": -446000.0,
+   "normalized_ebitda": 464740000.0,
+   "normalized_income": 302336179.863067
   },
   {
    "fy_end": "2025-12-31",
@@ -302,7 +353,10 @@
    "goodwill_and_intangibles": 749763000.0,
    "retained_earnings": 2955375000.0,
    "total_debt": 143759000.0,
-   "shares_out": 13710489.0
+   "shares_out": 13710489.0,
+   "unusual_items": -2909000.0,
+   "normalized_ebitda": 425278000.0,
+   "normalized_income": 267408114.0
   }
  ]
 }

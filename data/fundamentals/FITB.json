@@ -1,6 +1,6 @@
 {
  "ticker": "FITB",
- "fetched_at": "2026-10-10T12:45:42+00:00",
+ "fetched_at": "2026-10-10T15:44:01+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 25197,
   "website": "https://www.53.com",
-  "longBusinessSummary": "Fifth Third Bancorp operates as the bank holding company for Fifth Third Bank, National Association that provides a range of financial products and services in the United States. It operates through three segments: Commercial Banking, Consumer and Small Business Banking, and Wealth and Asset Management. The Commercial Banking segment offers credit intermediation, cash management, and financial services; lending and depository products; and cash management, foreign exchange and international trade finance, derivatives and capital markets services, asset-based lending, real estate finance, public finance, commercial leasing, and syndicated finance for business, government, and professional customers. Its Consumer and Small Banking segment engages in the provision of a range of deposit and loan products to individuals and small businesses; residential mortgage activities, including the origination, retention and servicing of residential mortgage loans, sales and securitizations of loans, and associated hedging activities; home equity loans and lines of credit, credit cards, automobile and other indirect lending, and other consumer lending services; and home improvement and solar energy installation loans through contractors and installers. The Wealth and Asset Management segment provides various wealth management services, such as wealth planning, investment management, banking, insurance, trust, and estate services for for individuals, companies, and not-for-profit organizations; retail brokerage services for individual clients; and advisory services for institutional clients. Fifth Third Bancorp was founded in 1858 and is headquartered in Cincinnati, Ohio."
+  "longBusinessSummary": "Fifth Third Bancorp operates as the bank holding company for Fifth Third Bank, National Association that provides a range of financial products and services in the United States. It operates through three segments: Commercial Banking, Consumer and Small Business Banking, and Wealth and Asset Management. The Commercial Banking segment offers credit intermediation, cash management, and financial services; lending and depository products; and cash management, foreign exchange and international trade finance, derivatives and capital markets services, asset-based lending, real estate finance, public finance, commercial leasing, and syndicated finance for business, government, and professional customers. Its Consumer and Small Banking segment engages in the provision of a range of deposit and loan products to individuals and small businesses; residential mortgage activities, including the origination, retention and servicing of residential mortgage loans, sales and securitizations of loans, and associated hedging activities; home equity loans and lines of credit, credit cards, automobile and other indirect lending, and other consumer lending services; and home improvement and solar energy installation loans through contractors and installers. The Wealth and Asset Management segment provides various wealth management services, such as wealth planning, investment management, banking, insurance, trust, and estate services for for individuals, companies, and not-for-profit organizations; retail brokerage services for individual clients; and advisory services for institutional clients. Fifth Third Bancorp was founded in 1858 and is headquartered in Cincinnati, Ohio.",
+  "targetMeanPrice": 61.71429,
+  "targetLowPrice": 55.0,
+  "targetHighPrice": 67.0,
+  "numberOfAnalystOpinions": 21,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.63636,
+  "forwardPE": 10.233859,
+  "forwardEps": 4.94828,
+  "trailingEps": 2.97,
+  "earningsGrowth": -0.057,
+  "revenueGrowth": 0.518
  },
  "governance": {
   "ceo": {
@@ -78,8 +89,33 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "noninterest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 214376000000.0,
+    "official": 214376000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 21724000000.0,
+    "official": 21724000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2522000000.0,
+    "official": 2522000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:44:01+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -107,7 +143,9 @@
    "goodwill_and_intangibles": 6830000000.0,
    "retained_earnings": 21689000000.0,
    "total_debt": 13714000000.0,
-   "shares_out": 683385880.0
+   "shares_out": 683385880.0,
+   "unusual_items": -6000000.0,
+   "normalized_income": 2450744907.85645
   },
   {
    "fy_end": "2023-12-31",
@@ -135,7 +173,9 @@
    "goodwill_and_intangibles": 6781000000.0,
    "retained_earnings": 22997000000.0,
    "total_debt": 16380000000.0,
-   "shares_out": 681124810.0
+   "shares_out": 681124810.0,
+   "unusual_items": -217000000.0,
+   "normalized_income": 2349000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -163,7 +203,9 @@
    "goodwill_and_intangibles": 6712000000.0,
    "retained_earnings": 24150000000.0,
    "total_debt": 18991000000.0,
-   "shares_out": 669853830.0
+   "shares_out": 669853830.0,
+   "unusual_items": -7000000.0,
+   "normalized_income": 2314000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -191,7 +233,8 @@
    "goodwill_and_intangibles": 6614000000.0,
    "retained_earnings": 25488000000.0,
    "total_debt": 14515000000.0,
-   "shares_out": 661197787.0
+   "shares_out": 661197787.0,
+   "normalized_income": 2522000000.0
   }
  ]
 }

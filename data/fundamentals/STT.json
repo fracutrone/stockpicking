@@ -1,6 +1,6 @@
 {
  "ticker": "STT",
- "fetched_at": "2026-10-10T12:58:56+00:00",
+ "fetched_at": "2026-10-10T15:56:39+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 50596,
   "website": "https://www.statestreet.com",
-  "longBusinessSummary": "State Street Corporation provides various financial products and services to institutional investors. It offers custody, accounting, and fund administration services for traditional and alternative assets, as well as multi-asset class investments; recordkeeping, client reporting, and investment book of record, transaction management, loans, cash, derivatives, and collateral services; investor services operations outsourcing; performance, risk, and compliance analytics; financial data management to support institutional investors; foreign exchange, brokerage, and other trading services; securities finance, such as prime services products; and deposit and short-term investment facilities. The company also provides the State Street Alpha platform that combines portfolio management, trading and execution, analytics and compliance tools, and advanced data aggregation and integration with other industry platforms and providers; front-office technology that automates and simplifies the institutional investment process comprising portfolio management and risk analytics, trading, and post-trade settlement with integrated compliance and managed data; investment management solutions; and portfolio management, trading compliance, and manager/sponsor communication. In addition, it offers investment management solutions, such as strategies across equity, fixed income, cash, multi-asset, and alternatives; and ETFs, custom indexed, managed funds, and mandates. The company provides its products and services to mutual funds, collective investment funds and other investment pools, corporate and public retirement plans, insurance companies, wealth managers, investment managers, foundations, and endowments. The company was founded in 1792 and is headquartered in Boston, Massachusetts."
+  "longBusinessSummary": "State Street Corporation provides various financial products and services to institutional investors. It offers custody, accounting, and fund administration services for traditional and alternative assets, as well as multi-asset class investments; recordkeeping, client reporting, and investment book of record, transaction management, loans, cash, derivatives, and collateral services; investor services operations outsourcing; performance, risk, and compliance analytics; financial data management to support institutional investors; foreign exchange, brokerage, and other trading services; securities finance, such as prime services products; and deposit and short-term investment facilities. The company also provides the State Street Alpha platform that combines portfolio management, trading and execution, analytics and compliance tools, and advanced data aggregation and integration with other industry platforms and providers; front-office technology that automates and simplifies the institutional investment process comprising portfolio management and risk analytics, trading, and post-trade settlement with integrated compliance and managed data; investment management solutions; and portfolio management, trading compliance, and manager/sponsor communication. In addition, it offers investment management solutions, such as strategies across equity, fixed income, cash, multi-asset, and alternatives; and ETFs, custom indexed, managed funds, and mandates. The company provides its products and services to mutual funds, collective investment funds and other investment pools, corporate and public retirement plans, insurance companies, wealth managers, investment managers, foundations, and endowments. The company was founded in 1792 and is headquartered in Boston, Massachusetts.",
+  "targetMeanPrice": 199.03333,
+  "targetLowPrice": 150.0,
+  "targetHighPrice": 220.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": 11.298779,
+  "forwardEps": 15.48486,
+  "trailingEps": 11.34,
+  "earningsGrowth": 0.682,
+  "revenueGrowth": 0.184
  },
  "governance": {
   "ceo": {
@@ -78,8 +89,38 @@
   "retained_earnings": "sec",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "noninterest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 366047000000.0,
+    "official": 366047000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 27841000000.0,
+    "official": 27841000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2945000000.0,
+    "official": 2945000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 13965000000.0,
+    "official": 13944000000.0,
+    "diff": 0.001506
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:56:39+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -164,7 +205,9 @@
    "goodwill_and_intangibles": 9039000000.0,
    "retained_earnings": 27028000000.0,
    "total_debt": 17093000000.0,
-   "shares_out": 349024167.0
+   "shares_out": 349024167.0,
+   "unusual_items": -112000000.0,
+   "normalized_income": 2867408000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -192,7 +235,9 @@
    "goodwill_and_intangibles": 8931000000.0,
    "retained_earnings": 27957000000.0,
    "total_debt": 22499000000.0,
-   "shares_out": 301944043.0
+   "shares_out": 301944043.0,
+   "unusual_items": -635000000.0,
+   "normalized_income": 2476765000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -220,7 +265,9 @@
    "goodwill_and_intangibles": 8780000000.0,
    "retained_earnings": 29582000000.0,
    "total_debt": 33112000000.0,
-   "shares_out": 288766452.0
+   "shares_out": 288766452.0,
+   "unusual_items": -28000000.0,
+   "normalized_income": 2709160824.742268
   },
   {
    "fy_end": "2025-12-31",
@@ -248,7 +295,9 @@
    "goodwill_and_intangibles": 9094000000.0,
    "retained_earnings": 31392000000.0,
    "total_debt": 28964000000.0,
-   "shares_out": 279077907.0
+   "shares_out": 279077907.0,
+   "unusual_items": -346000000.0,
+   "normalized_income": 3218109086.035915
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "PATH",
- "fetched_at": "2026-10-10T12:54:53+00:00",
+ "fetched_at": "2026-10-10T15:52:40+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 3981,
   "website": "https://www.uipath.com",
-  "longBusinessSummary": "UiPath, Inc. provides an automation platform that offers a range of robotic process automation (RPA) solutions primarily in the United States, Romania, the United Kingdom, the Netherlands, and internationally. It offers the UiPath platform, an integrated enterprise software platform that enables AI agents, robots, people, and models to work together in coordinated workflows. The company's UiPath platform includes the UiPath Maestro process orchestration and process intelligence; UiPath agent builder; RPA and API automation; UiPath intelligent xtraction and processing; UiPath test cloud for testing and quality assurance; UiPath packaged and prebuilt agentic solutions; and centralized governance capabilities that apply across automations, AI agents, and manual tasks. It serves the financial services, healthcare, manufacturing, retail, and public sectors. The company was founded in 2005 and is headquartered in New York, New York."
+  "longBusinessSummary": "UiPath, Inc. provides an automation platform that offers a range of robotic process automation (RPA) solutions primarily in the United States, Romania, the United Kingdom, the Netherlands, and internationally. It offers the UiPath platform, an integrated enterprise software platform that enables AI agents, robots, people, and models to work together in coordinated workflows. The company's UiPath platform includes the UiPath Maestro process orchestration and process intelligence; UiPath agent builder; RPA and API automation; UiPath intelligent xtraction and processing; UiPath test cloud for testing and quality assurance; UiPath packaged and prebuilt agentic solutions; and centralized governance capabilities that apply across automations, AI agents, and manual tasks. It serves the financial services, healthcare, manufacturing, retail, and public sectors. The company was founded in 2005 and is headquartered in New York, New York.",
+  "targetMeanPrice": 15.49882,
+  "targetLowPrice": 10.0,
+  "targetHighPrice": 23.0,
+  "numberOfAnalystOpinions": 17,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.85714,
+  "forwardPE": 14.637218,
+  "forwardEps": 0.92094,
+  "trailingEps": 0.67,
+  "earningsGrowth": 22.808,
+  "revenueGrowth": 0.134
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,38 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-01-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3179200000.0,
+    "official": 3179200000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2082587000.0,
+    "official": 2082587000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 282330000.0,
+    "official": 282330000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1610572000.0,
+    "official": 1610572000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:52:40+00:00",
  "years": [
   {
    "fy_end": "2020-01-31",
@@ -186,7 +227,9 @@
    "goodwill_and_intangibles": 111020000.0,
    "retained_earnings": -1824298000.0,
    "total_debt": 63439000.0,
-   "shares_out": 556613000.0
+   "shares_out": 556613000.0,
+   "normalized_ebitda": -329560000.0,
+   "normalized_income": -328352000.0
   },
   {
    "fy_end": "2024-01-31",
@@ -219,7 +262,9 @@
    "goodwill_and_intangibles": 103730000.0,
    "retained_earnings": -1914181000.0,
    "total_debt": 67070000.0,
-   "shares_out": 569272748.0
+   "shares_out": 569272748.0,
+   "normalized_ebitda": -142123000.0,
+   "normalized_income": -89883000.0
   },
   {
    "fy_end": "2025-01-31",
@@ -252,7 +297,9 @@
    "goodwill_and_intangibles": 95209000.0,
    "retained_earnings": -1987875000.0,
    "total_debt": 77817000.0,
-   "shares_out": 553511748.0
+   "shares_out": 553511748.0,
+   "normalized_ebitda": -145337000.0,
+   "normalized_income": -73694000.0
   },
   {
    "fy_end": "2026-01-31",
@@ -285,7 +332,9 @@
    "goodwill_and_intangibles": 145299000.0,
    "retained_earnings": -1705545000.0,
    "total_debt": 81246000.0,
-   "shares_out": 537037000.0
+   "shares_out": 537037000.0,
+   "normalized_ebitda": 73729000.0,
+   "normalized_income": 282330000.0
   }
  ]
 }

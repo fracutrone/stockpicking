@@ -1,6 +1,6 @@
 {
  "ticker": "THG",
- "fetched_at": "2026-10-10T12:59:39+00:00",
+ "fetched_at": "2026-10-10T15:57:19+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 4900,
   "website": "https://www.hanover.com",
-  "longBusinessSummary": "The Hanover Insurance Group, Inc., through its subsidiaries, provides various property and casualty insurance products and services for individuals and businesses in the United States. It operates in four segments: Core Commercial, Specialty, Personal Lines, and Other. The company offers commercial multiple peril, commercial automobile, workers' compensation, and other core commercial coverage; and professional and executive lines, marine, and surety and other, as well as specialty property and casualty products comprising Hanover program business, excess and surplus business, Hanover specialty industrial, and specialty general liability business coverage. It also provides personal automobile; and homeowners and other personal lines, including residences and personal property, liability claims, personal umbrella, inland marine, fire, personal watercraft, personal cyber, and other miscellaneous coverages. In addition, the company offers insurance products for collector cars, motorcycles, off-road vehicles, condominiums, valuable items, business owners, international, and management and professional liability; and for the construction, cultural and educational institutions, financial intuitions, healthcare, human services, life sciences, manufacturing, professional services, real estate, retail, technology, and wholesale and distribution industries. It markets its products and services through independent agents and brokers. The company was formerly known as Allmerica Financial Corp. and changed its name to The Hanover Insurance Group, Inc. in December 2005. The Hanover Insurance Group, Inc. was founded in 1852 and is headquartered in Worcester, Massachusetts."
+  "longBusinessSummary": "The Hanover Insurance Group, Inc., through its subsidiaries, provides various property and casualty insurance products and services for individuals and businesses in the United States. It operates in four segments: Core Commercial, Specialty, Personal Lines, and Other. The company offers commercial multiple peril, commercial automobile, workers' compensation, and other core commercial coverage; and professional and executive lines, marine, and surety and other, as well as specialty property and casualty products comprising Hanover program business, excess and surplus business, Hanover specialty industrial, and specialty general liability business coverage. It also provides personal automobile; and homeowners and other personal lines, including residences and personal property, liability claims, personal umbrella, inland marine, fire, personal watercraft, personal cyber, and other miscellaneous coverages. In addition, the company offers insurance products for collector cars, motorcycles, off-road vehicles, condominiums, valuable items, business owners, international, and management and professional liability; and for the construction, cultural and educational institutions, financial intuitions, healthcare, human services, life sciences, manufacturing, professional services, real estate, retail, technology, and wholesale and distribution industries. It markets its products and services through independent agents and brokers. The company was formerly known as Allmerica Financial Corp. and changed its name to The Hanover Insurance Group, Inc. in December 2005. The Hanover Insurance Group, Inc. was founded in 1852 and is headquartered in Worcester, Massachusetts.",
+  "targetMeanPrice": 237.0,
+  "targetLowPrice": 229.0,
+  "targetHighPrice": 260.0,
+  "numberOfAnalystOpinions": 8,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.625,
+  "forwardPE": 11.1846,
+  "forwardEps": 19.61,
+  "trailingEps": 20.89,
+  "earningsGrowth": 0.249,
+  "revenueGrowth": 0.043
  },
  "governance": {
   "ceo": {
@@ -75,9 +86,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "operating_income": "sec",
   "intangibles": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 16945900000.0,
+    "official": 16945900000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3571500000.0,
+    "official": 3571500000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 662500000.0,
+    "official": 662500000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 6567300000.0,
+    "official": 6594400000.0,
+    "diff": 0.00411
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:57:19+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -136,7 +177,8 @@
    "equity": 3136000000.0,
    "goodwill": 178800000.0,
    "intangibles": 16000000.0,
-   "retained_earnings": 2983200000.0
+   "retained_earnings": 2983200000.0,
+   "unusual_items": 0.0
   },
   {
    "fy_end": "2022-12-31",
@@ -161,7 +203,9 @@
    "intangibles": 15500000.0,
    "goodwill_and_intangibles": 178800000.0,
    "retained_earnings": 2992900000.0,
-   "shares_out": 35600000.0
+   "shares_out": 35600000.0,
+   "unusual_items": 0.0,
+   "normalized_income": 116800000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -187,7 +231,8 @@
    "goodwill_and_intangibles": 178800000.0,
    "retained_earnings": 2909400000.0,
    "total_debt": 783200000.0,
-   "shares_out": 35800000.0
+   "shares_out": 35800000.0,
+   "normalized_income": 33500000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -213,7 +258,8 @@
    "goodwill_and_intangibles": 178800000.0,
    "retained_earnings": 3209600000.0,
    "total_debt": 784100000.0,
-   "shares_out": 35900000.0
+   "shares_out": 35900000.0,
+   "normalized_income": 425300000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -239,7 +285,8 @@
    "goodwill_and_intangibles": 178800000.0,
    "retained_earnings": 3741600000.0,
    "total_debt": 1218300000.0,
-   "shares_out": 35393964.0
+   "shares_out": 35393964.0,
+   "normalized_income": 660700000.0
   }
  ]
 }

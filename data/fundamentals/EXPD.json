@@ -1,6 +1,6 @@
 {
  "ticker": "EXPD",
- "fetched_at": "2026-10-10T12:45:03+00:00",
+ "fetched_at": "2026-10-10T15:43:23+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 20389,
   "website": "https://www.expeditors.com",
-  "longBusinessSummary": "Expeditors International of Washington, Inc., together with its subsidiaries, provides logistics services in the Americas, North Asia, South Asia, Europe, and Middle East, Africa, and India. The company offers airfreight services, such as air freight consolidation and forwarding; ocean freight and ocean services, including ocean freight consolidation, direct ocean forwarding, and order management; customs brokerage and other services, import, intra-continental ground transportation and delivery, and warehousing and distribution services; and customs clearance, purchase order management, vendor consolidation, time-definite transportation services, temperature-controlled transit, cargo insurance, specialized cargo monitoring and tracking, and other logistics solutions. It also provides optimization, trade compliance consulting, cargo insurance, cargo security, and solutions. In addition, it acts as a freight consolidator or as an agent for the airline that carries the shipment. Further, the company provides ancillary services that include preparation of shipping and customs documentation, packing, crating, insurance services, and the preparation of documentation to comply with local export and import laws. The company was incorporated in 1979 and is headquartered in Bellevue, Washington."
+  "longBusinessSummary": "Expeditors International of Washington, Inc., together with its subsidiaries, provides logistics services in the Americas, North Asia, South Asia, Europe, and Middle East, Africa, and India. The company offers airfreight services, such as air freight consolidation and forwarding; ocean freight and ocean services, including ocean freight consolidation, direct ocean forwarding, and order management; customs brokerage and other services, import, intra-continental ground transportation and delivery, and warehousing and distribution services; and customs clearance, purchase order management, vendor consolidation, time-definite transportation services, temperature-controlled transit, cargo insurance, specialized cargo monitoring and tracking, and other logistics solutions. It also provides optimization, trade compliance consulting, cargo insurance, cargo security, and solutions. In addition, it acts as a freight consolidator or as an agent for the airline that carries the shipment. Further, the company provides ancillary services that include preparation of shipping and customs documentation, packing, crating, insurance services, and the preparation of documentation to comply with local export and import laws. The company was incorporated in 1979 and is headquartered in Bellevue, Washington.",
+  "targetMeanPrice": 180.86667,
+  "targetLowPrice": 100.0,
+  "targetHighPrice": 220.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.16667,
+  "forwardPE": 23.918121,
+  "forwardEps": 8.07923,
+  "trailingEps": 6.87,
+  "earningsGrowth": 0.515,
+  "revenueGrowth": 0.321
  },
  "governance": {
   "ceo": {
@@ -83,9 +94,39 @@
   "retained_earnings": "sec",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec",
   "intangibles": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 4893638000.0,
+    "official": 4893638000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2355633000.0,
+    "official": 2355633000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 810332000.0,
+    "official": 810332000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 11069009000.0,
+    "official": 11069009000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:43:23+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -182,7 +223,9 @@
    "goodwill_and_intangibles": 7927000.0,
    "retained_earnings": 3310892000.0,
    "total_debt": 518465000.0,
-   "shares_out": 154313000.0
+   "shares_out": 154313000.0,
+   "normalized_ebitda": 1881709000.0,
+   "normalized_income": 1357399000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -214,7 +257,9 @@
    "goodwill_and_intangibles": 7927000.0,
    "retained_earnings": 2580968000.0,
    "total_debt": 527733000.0,
-   "shares_out": 143866000.0
+   "shares_out": 143866000.0,
+   "normalized_ebitda": 1007693000.0,
+   "normalized_income": 752883000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -245,7 +290,9 @@
    "goodwill_and_intangibles": 7927000.0,
    "retained_earnings": 2455132000.0,
    "total_debt": 568937000.0,
-   "shares_out": 138003000.0
+   "shares_out": 138003000.0,
+   "normalized_ebitda": 1102413000.0,
+   "normalized_income": 810073000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -276,7 +323,9 @@
    "goodwill_and_intangibles": 7927000.0,
    "retained_earnings": 2538455000.0,
    "total_debt": 570589000.0,
-   "shares_out": 133884000.0
+   "shares_out": 133884000.0,
+   "normalized_ebitda": 1109315000.0,
+   "normalized_income": 810332000.0
   }
  ]
 }

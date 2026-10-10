@@ -1,6 +1,6 @@
 {
  "ticker": "RACE.MI",
- "fetched_at": "2026-10-10T12:15:45+00:00",
+ "fetched_at": "2026-10-10T15:14:14+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "MIL",
   "fullTimeEmployees": 5743,
   "website": "https://www.ferrari.com",
-  "longBusinessSummary": "Ferrari N.V., through its subsidiaries, engages in design, engineering, production, and sale of luxury performance sports cars worldwide. It offers sports, track, one-off, and road cars, as well as supercars. The company also provides spare parts and engines, as well as after sales, repair, maintenance, and restoration services for cars; and licenses its Ferrari brand to various producers and retailers of luxury and lifestyle goods. In addition, it operates Ferrari museums in Modena and Maranello; Il Cavallino restaurant in Maranello; and theme parks in Abu Dhabi and Spain. Further, the company provides direct or indirect finance and leasing services; range of financial and ancillary services; special financing arrangements; and operates franchised and owned Ferrari stores. The company was founded in 1947 and is headquartered in Maranello, Italy."
+  "longBusinessSummary": "Ferrari N.V., through its subsidiaries, engages in design, engineering, production, and sale of luxury performance sports cars worldwide. It offers sports, track, one-off, and road cars, as well as supercars. The company also provides spare parts and engines, as well as after sales, repair, maintenance, and restoration services for cars; and licenses its Ferrari brand to various producers and retailers of luxury and lifestyle goods. In addition, it operates Ferrari museums in Modena and Maranello; Il Cavallino restaurant in Maranello; and theme parks in Abu Dhabi and Spain. Further, the company provides direct or indirect finance and leasing services; range of financial and ancillary services; special financing arrangements; and operates franchised and owned Ferrari stores. The company was founded in 1947 and is headquartered in Maranello, Italy.",
+  "targetMeanPrice": 387.85556,
+  "targetLowPrice": 330.0,
+  "targetHighPrice": 430.4,
+  "numberOfAnalystOpinions": 18,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.83333,
+  "forwardPE": 31.565224,
+  "forwardEps": 11.02004,
+  "trailingEps": 9.23,
+  "earningsGrowth": 0.101,
+  "revenueGrowth": 0.084
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF NL",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 9628352000.0,
+    "official": 9628352000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3906893000.0,
+    "official": 3906893000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1596919000.0,
+    "official": 1596919000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 7145768000.0,
+    "official": 7145768000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:14:14+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -121,7 +164,10 @@
    "goodwill_and_intangibles": 2092570000.0,
    "retained_earnings": 2499771000.0,
    "total_debt": 2811779000.0,
-   "shares_out": 181953498.0
+   "shares_out": 181953498.0,
+   "unusual_items": -25923000.0,
+   "normalized_ebitda": 1775403000.0,
+   "normalized_income": 953300554.0
   },
   {
    "fy_end": "2023-12-31",
@@ -156,7 +202,10 @@
    "goodwill_and_intangibles": 2204881000.0,
    "retained_earnings": 2993422000.0,
    "total_debt": 2477186000.0,
-   "shares_out": 180418090.0
+   "shares_out": 180418090.0,
+   "unusual_items": -20197000.0,
+   "normalized_ebitda": 2314114000.0,
+   "normalized_income": 1267902645.0
   },
   {
    "fy_end": "2024-12-31",
@@ -191,7 +240,10 @@
    "goodwill_and_intangibles": 2330846000.0,
    "retained_earnings": 3518258000.0,
    "total_debt": 3351888000.0,
-   "shares_out": 179044331.0
+   "shares_out": 179044331.0,
+   "unusual_items": -7036000.0,
+   "normalized_ebitda": 2602823000.0,
+   "normalized_income": 1527560734.225678
   },
   {
    "fy_end": "2025-12-31",
@@ -226,7 +278,10 @@
    "goodwill_and_intangibles": 2423639000.0,
    "retained_earnings": 3824443000.0,
    "total_debt": 2884220000.0,
-   "shares_out": 177278893.0
+   "shares_out": 177278893.0,
+   "unusual_items": -38160000.0,
+   "normalized_ebitda": 2804900000.0,
+   "normalized_income": 1626496677.525338
   }
  ]
 }

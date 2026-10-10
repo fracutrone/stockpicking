@@ -1,6 +1,6 @@
 {
  "ticker": "KRX.IR",
- "fetched_at": "2026-10-10T12:06:07+00:00",
+ "fetched_at": "2026-10-10T15:01:50+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "ISE",
   "fullTimeEmployees": 27450,
   "website": "https://www.kingspan.com",
-  "longBusinessSummary": "Kingspan Group plc, together with its subsidiaries, provides insulation and building envelope solutions in Western and Southern Europe, Central and Northern Europe, the Americas, and internationally. It operates through two segments: Insulated Building Envelopes, and Advnsys. The Insulated Building Envelopes segment provides advanced energy-saving solutions for roofs, walls, and floors, delivering building solutions for energy efficiency in both new build and renovation applications across all building types. The Advnsys segment designs and manufactures bespoke critical infrastructure solutions, primarily focused on data centres, ventilation, and daylighting, offering high-performance systems that deliver energy efficient lighting, airflow, cooling, and ventilation for both new build and renovation projects in data centres and commercial buildings. The company offers a comprehensive suite of products, including insulated panels, insulation boards, roofing and waterproofing solutions, structural steel products and system, facades, ceiling systems, raised access floors, daylighting solutions, and water management technologies. It also provides solutions such as PowerPanel integrated solar roofing, QuadCore LEC insulated panels, Kooltherm insulation boards, and a range of lower embodied carbon and bio-based materials. Additionally, the company is involved in developing circular economy solutions, including product takeback and recycling schemes, and offers digital infrastructure, smoke management, and ventilation systems. Kingspan Group plc was founded in 1965 and is based in Kingscourt, Ireland."
+  "longBusinessSummary": "Kingspan Group plc, together with its subsidiaries, provides insulation and building envelope solutions in Western and Southern Europe, Central and Northern Europe, the Americas, and internationally. It operates through two segments: Insulated Building Envelopes, and Advnsys. The Insulated Building Envelopes segment provides advanced energy-saving solutions for roofs, walls, and floors, delivering building solutions for energy efficiency in both new build and renovation applications across all building types. The Advnsys segment designs and manufactures bespoke critical infrastructure solutions, primarily focused on data centres, ventilation, and daylighting, offering high-performance systems that deliver energy efficient lighting, airflow, cooling, and ventilation for both new build and renovation projects in data centres and commercial buildings. The company offers a comprehensive suite of products, including insulated panels, insulation boards, roofing and waterproofing solutions, structural steel products and system, facades, ceiling systems, raised access floors, daylighting solutions, and water management technologies. It also provides solutions such as PowerPanel integrated solar roofing, QuadCore LEC insulated panels, Kooltherm insulation boards, and a range of lower embodied carbon and bio-based materials. Additionally, the company is involved in developing circular economy solutions, including product takeback and recycling schemes, and offers digital infrastructure, smoke management, and ventilation systems. Kingspan Group plc was founded in 1965 and is based in Kingscourt, Ireland.",
+  "targetMeanPrice": 124.03125,
+  "targetLowPrice": 96.0,
+  "targetHighPrice": 150.0,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.625,
+  "forwardPE": 18.01387,
+  "forwardEps": 5.51797,
+  "trailingEps": 3.76,
+  "earningsGrowth": 0.049,
+  "revenueGrowth": 0.076
  },
  "governance": {
   "ceo": {
@@ -79,8 +90,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2022-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 7681400000.0,
+    "official": 7681400000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3319700000.0,
+    "official": 3319700000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 598000000.0,
+    "official": 598000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 8340900000.0,
+    "official": 8340900000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2022-12-31"
+ },
+ "info_at": "2026-10-10T15:01:50+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -113,7 +156,10 @@
    "goodwill_and_intangibles": 2687300000.0,
    "retained_earnings": 3527600000.0,
    "total_debt": 2385700000.0,
-   "shares_out": 181609209.0
+   "shares_out": 181609209.0,
+   "unusual_items": -16500000.0,
+   "normalized_ebitda": 1000000000.0,
+   "normalized_income": 611612500.0
   },
   {
    "fy_end": "2023-12-31",
@@ -146,7 +192,10 @@
    "goodwill_and_intangibles": 2849000000.0,
    "retained_earnings": 4086600000.0,
    "total_debt": 2138000000.0,
-   "shares_out": 181923534.0
+   "shares_out": 181923534.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 1090500000.0,
+   "normalized_income": 640300000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -179,7 +228,10 @@
    "goodwill_and_intangibles": 3604900000.0,
    "retained_earnings": 4639800000.0,
    "total_debt": 2821600000.0,
-   "shares_out": 181799483.0
+   "shares_out": 181799483.0,
+   "unusual_items": 16100000.0,
+   "normalized_ebitda": 1159600000.0,
+   "normalized_income": 652137000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -212,7 +264,10 @@
    "goodwill_and_intangibles": 3774600000.0,
    "retained_earnings": 5029900000.0,
    "total_debt": 2689600000.0,
-   "shares_out": 179935454.0
+   "shares_out": 179935454.0,
+   "unusual_items": 15400000.0,
+   "normalized_ebitda": 1228400000.0,
+   "normalized_income": 658264000.0
   }
  ]
 }

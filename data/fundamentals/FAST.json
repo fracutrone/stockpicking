@@ -1,6 +1,6 @@
 {
  "ticker": "FAST",
- "fetched_at": "2026-10-10T12:45:14+00:00",
+ "fetched_at": "2026-10-10T15:43:33+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 22230,
   "website": "https://www.fastenal.com",
-  "longBusinessSummary": "Fastenal Company, together with its subsidiaries, engages in the wholesale distribution of industrial and construction supplies in the United States, Canada, Mexico, and internationally. It offers fasteners, and related industrial and construction supplies under the Fastenal name. The company's fastener products include threaded fasteners, bolts, nuts, screws, studs, and related washers that are used in manufactured products and construction projects, as well as in the maintenance and repair of machines. It offers miscellaneous supplies and hardware, including pins, machinery keys, concrete anchors, metal framing systems, wire ropes, strut products, rivets, and related accessories. The company serves the manufacturing market comprising original equipment manufacturers; maintenance, repair, and operations customers; non-residential construction market; farmers, truckers, railroads, mining companies, schools, and retail trades; and oil exploration, production, and refinement companies, as well as federal, state, and local governmental entities. Fastenal Company was founded in 1967 and is headquartered in Winona, Minnesota."
+  "longBusinessSummary": "Fastenal Company, together with its subsidiaries, engages in the wholesale distribution of industrial and construction supplies in the United States, Canada, Mexico, and internationally. It offers fasteners, and related industrial and construction supplies under the Fastenal name. The company's fastener products include threaded fasteners, bolts, nuts, screws, studs, and related washers that are used in manufactured products and construction projects, as well as in the maintenance and repair of machines. It offers miscellaneous supplies and hardware, including pins, machinery keys, concrete anchors, metal framing systems, wire ropes, strut products, rivets, and related accessories. The company serves the manufacturing market comprising original equipment manufacturers; maintenance, repair, and operations customers; non-residential construction market; farmers, truckers, railroads, mining companies, schools, and retail trades; and oil exploration, production, and refinement companies, as well as federal, state, and local governmental entities. Fastenal Company was founded in 1967 and is headquartered in Winona, Minnesota.",
+  "targetMeanPrice": 48.83846,
+  "targetLowPrice": 39.9,
+  "targetHighPrice": 59.0,
+  "numberOfAnalystOpinions": 13,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.72222,
+  "forwardPE": 36.24974,
+  "forwardEps": 1.40001,
+  "trailingEps": 1.17,
+  "earningsGrowth": 0.146,
+  "revenueGrowth": 0.147
  },
  "governance": {
   "ceo": {
@@ -82,8 +93,38 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 5052900000.0,
+    "official": 5052900000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3943600000.0,
+    "official": 3943600000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1258400000.0,
+    "official": 1258400000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 8200500000.0,
+    "official": 8200500000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:43:34+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -192,7 +233,9 @@
    "ppe_net": 1010000000.0,
    "retained_earnings": 3218700000.0,
    "total_debt": 555000000.0,
-   "shares_out": 1141623348.0
+   "shares_out": 1141623348.0,
+   "normalized_ebitda": 1630900000.0,
+   "normalized_income": 1086900000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -223,7 +266,9 @@
    "ppe_net": 1011100000.0,
    "retained_earnings": 3356900000.0,
    "total_debt": 260000000.0,
-   "shares_out": 1143964734.0
+   "shares_out": 1143964734.0,
+   "normalized_ebitda": 1710100000.0,
+   "normalized_income": 1155000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -254,7 +299,9 @@
    "ppe_net": 1056600000.0,
    "retained_earnings": 3613500000.0,
    "total_debt": 200000000.0,
-   "shares_out": 1146640904.0
+   "shares_out": 1146640904.0,
+   "normalized_ebitda": 1690800000.0,
+   "normalized_income": 1150600000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -285,7 +332,9 @@
    "ppe_net": 1131600000.0,
    "retained_earnings": 3867700000.0,
    "total_debt": 125000000.0,
-   "shares_out": 1148057473.0
+   "shares_out": 1148057473.0,
+   "normalized_ebitda": 1840400000.0,
+   "normalized_income": 1258400000.0
   }
  ]
 }

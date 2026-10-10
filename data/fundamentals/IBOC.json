@@ -1,6 +1,6 @@
 {
  "ticker": "IBOC",
- "fetched_at": "2026-10-10T12:48:28+00:00",
+ "fetched_at": "2026-10-10T15:46:51+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 2126,
   "website": "https://www.ibc.com",
-  "longBusinessSummary": "International Bancshares Corporation, a multibank financial holding company, engages in the provision of commercial and retail banking services in Texas and the State of Oklahoma. The company accepts checking and saving deposits; and offers commercial, real estate, personal, home improvement, automobile, and other installment and term loans. It also provides international banking services, including letters of credit, commercial and industrial loans, and foreign exchange services. In addition, it offers other banking related services, such as credit cards, safety deposit boxes, collections, escrow, drive up and walk up facilities, and other customary banking services; and internet and mobile banking services, as well as securities products through third party providers. The company offers its banking services through ATM network and retail locations in shopping malls and other places. International Bancshares Corporation was founded in 1966 and is headquartered in Laredo, Texas."
+  "longBusinessSummary": "International Bancshares Corporation, a multibank financial holding company, engages in the provision of commercial and retail banking services in Texas and the State of Oklahoma. The company accepts checking and saving deposits; and offers commercial, real estate, personal, home improvement, automobile, and other installment and term loans. It also provides international banking services, including letters of credit, commercial and industrial loans, and foreign exchange services. In addition, it offers other banking related services, such as credit cards, safety deposit boxes, collections, escrow, drive up and walk up facilities, and other customary banking services; and internet and mobile banking services, as well as securities products through third party providers. The company offers its banking services through ATM network and retail locations in shopping malls and other places. International Bancshares Corporation was founded in 1966 and is headquartered in Laredo, Texas.",
+  "targetMeanPrice": 87.0,
+  "targetLowPrice": 87.0,
+  "targetHighPrice": 87.0,
+  "numberOfAnalystOpinions": 1,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": 6.58,
+  "earningsGrowth": -0.043,
+  "revenueGrowth": -0.0
  },
  "governance": {
   "ceo": {
@@ -77,9 +88,33 @@
   "retained_earnings": "sec",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "normalized_income": "yahoo",
   "noninterest_expense": "sec",
   "intangibles": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 16576335000.0,
+    "official": 16576335000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3251638000.0,
+    "official": 3251638000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 412293000.0,
+    "official": 412293000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:46:52+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -106,7 +141,8 @@
    "goodwill_and_intangibles": 282532000.0,
    "retained_earnings": 2695567000.0,
    "total_debt": 145586000.0,
-   "shares_out": 62141839.0
+   "shares_out": 62141839.0,
+   "normalized_income": 300232000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -133,7 +169,8 @@
    "goodwill_and_intangibles": 282532000.0,
    "retained_earnings": 3029088000.0,
    "total_debt": 119613000.0,
-   "shares_out": 62075716.0
+   "shares_out": 62075716.0,
+   "normalized_income": 411768000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -160,7 +197,8 @@
    "goodwill_and_intangibles": 282532000.0,
    "retained_earnings": 3356177000.0,
    "total_debt": 119409000.0,
-   "shares_out": 62208999.0
+   "shares_out": 62208999.0,
+   "normalized_income": 409167000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -187,7 +225,8 @@
    "goodwill_and_intangibles": 282532000.0,
    "retained_earnings": 3681408000.0,
    "total_debt": 119200000.0,
-   "shares_out": 62168746.0
+   "shares_out": 62168746.0,
+   "normalized_income": 412293000.0
   }
  ]
 }

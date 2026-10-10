@@ -1,6 +1,6 @@
 {
  "ticker": "GNS.L",
- "fetched_at": "2026-10-10T12:00:25+00:00",
+ "fetched_at": "2026-10-10T14:52:04+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": "https://www.genusplc.com",
-  "longBusinessSummary": "Genus plc produces and sells animal genetics to farmers in North America, Latin America, the United Kingdom, the rest of Europe, the Middle East, Russia, Africa, and Asia. The company operates through three segments: Genus PIC, Genus ABS, and Genus Research and Development. It offers dairy and beef bull semen and embryos under the Genus and Bovec brands; breeding pork and semen, as well as technical services and advice under the PIC brand. The company was incorporated in 1994 and is based in Basingstoke, the United Kingdom."
+  "longBusinessSummary": "Genus plc produces and sells animal genetics to farmers in North America, Latin America, the United Kingdom, the rest of Europe, the Middle East, Russia, Africa, and Asia. The company operates through three segments: Genus PIC, Genus ABS, and Genus Research and Development. It offers dairy and beef bull semen and embryos under the Genus and Bovec brands; breeding pork and semen, as well as technical services and advice under the PIC brand. The company was incorporated in 1994 and is based in Basingstoke, the United Kingdom.",
+  "targetMeanPrice": 3039.846,
+  "targetLowPrice": 2350.0,
+  "targetHighPrice": 3700.0,
+  "numberOfAnalystOpinions": 13,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.38462,
+  "forwardPE": 19.534931,
+  "forwardEps": 1.16714,
+  "trailingEps": 4.25,
+  "earningsGrowth": 13.417,
+  "revenueGrowth": -0.041
  },
  "governance": {
   "ceo": {
@@ -70,8 +81,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-06-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 899000000.0,
+    "official": 899000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 475600000.0,
+    "official": 476100000.0,
+    "diff": 0.00105
+   },
+   "net_income": {
+    "yahoo": 19300000.0,
+    "official": 19300000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 672800000.0,
+    "official": 672800000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-06-30"
+ },
+ "info_at": "2026-10-10T14:52:04+00:00",
  "years": [
   {
    "fy_end": "2022-06-30",
@@ -104,7 +147,10 @@
    "goodwill_and_intangibles": 183000000.0,
    "retained_earnings": 340600000.0,
    "total_debt": 223800000.0,
-   "shares_out": 65400483.0
+   "shares_out": 65400483.0,
+   "unusual_items": -2000000.0,
+   "normalized_ebitda": 95100000.0,
+   "normalized_income": 42414000.0
   },
   {
    "fy_end": "2023-06-30",
@@ -138,7 +184,10 @@
    "goodwill_and_intangibles": 174000000.0,
    "retained_earnings": 330200000.0,
    "total_debt": 232100000.0,
-   "shares_out": 65558878.0
+   "shares_out": 65558878.0,
+   "unusual_items": -3500000.0,
+   "normalized_ebitda": 100800000.0,
+   "normalized_income": 35869000.0
   },
   {
    "fy_end": "2024-06-30",
@@ -172,7 +221,10 @@
    "goodwill_and_intangibles": 175700000.0,
    "retained_earnings": 320800000.0,
    "total_debt": 291200000.0,
-   "shares_out": 65688064.0
+   "shares_out": 65688064.0,
+   "unusual_items": -2100000.0,
+   "normalized_ebitda": 75800000.0,
+   "normalized_income": 9475000.0
   },
   {
    "fy_end": "2025-06-30",
@@ -200,7 +252,10 @@
    "goodwill_and_intangibles": 158100000.0,
    "retained_earnings": 321600000.0,
    "total_debt": 265900000.0,
-   "shares_out": 65688064.0
+   "shares_out": 65688064.0,
+   "unusual_items": 600000.0,
+   "normalized_ebitda": 93100000.0,
+   "normalized_income": 21475000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "DINO",
- "fetched_at": "2026-10-10T12:43:11+00:00",
+ "fetched_at": "2026-10-10T15:41:37+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 5165,
   "website": "https://www.hfsinclair.com",
-  "longBusinessSummary": "HF Sinclair Corporation operates as an independent energy company in the United States. It operates through five segments: Refining, Renewables, Marketing, Lubricants & Specialties, and Midstream. The company produces and markets gasoline, diesel fuel, jet fuel, renewable diesel, specialty lubricant products, specialty chemicals, commodity and modified asphalt products, and others. It also owns and operates refineries located in Kansas, Oklahoma, New Mexico, Wyoming, Washington, and Utah, as well as markets its refined products principally in the Southwest United States and Rocky Mountains, Pacific Northwest, and in other neighboring Plains states. In addition, the company supplies fuels to 1,700 branded stations and licenses the use of the Sinclair brand at approximately 350 additional locations, as well as provision of other marketing activities. Further, the company produces base oils and other specialized lubricants; and provides petroleum product and crude oil transportation, terminalling, storage, and throughput services to the petroleum sector. Additionally, it offers hydrocarbon chemicals, including white oils, petrolatums, and waxes. The company also exports its products. HF Sinclair Corporation was incorporated in 1947 and is headquartered in Dallas, Texas."
+  "longBusinessSummary": "HF Sinclair Corporation operates as an independent energy company in the United States. It operates through five segments: Refining, Renewables, Marketing, Lubricants & Specialties, and Midstream. The company produces and markets gasoline, diesel fuel, jet fuel, renewable diesel, specialty lubricant products, specialty chemicals, commodity and modified asphalt products, and others. It also owns and operates refineries located in Kansas, Oklahoma, New Mexico, Wyoming, Washington, and Utah, as well as markets its refined products principally in the Southwest United States and Rocky Mountains, Pacific Northwest, and in other neighboring Plains states. In addition, the company supplies fuels to 1,700 branded stations and licenses the use of the Sinclair brand at approximately 350 additional locations, as well as provision of other marketing activities. Further, the company produces base oils and other specialized lubricants; and provides petroleum product and crude oil transportation, terminalling, storage, and throughput services to the petroleum sector. Additionally, it offers hydrocarbon chemicals, including white oils, petrolatums, and waxes. The company also exports its products. HF Sinclair Corporation was incorporated in 1947 and is headquartered in Dallas, Texas.",
+  "targetMeanPrice": 110.6,
+  "targetLowPrice": 73.0,
+  "targetHighPrice": 145.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.5625,
+  "forwardPE": 8.670399,
+  "forwardEps": 13.99013,
+  "trailingEps": 10.5,
+  "earningsGrowth": 3.502,
+  "revenueGrowth": 0.532
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 16510000000.0,
+    "official": 16510000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 9184000000.0,
+    "official": 9184000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 579000000.0,
+    "official": 579000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 26869000000.0,
+    "official": 26869000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:41:37+00:00",
  "years": [
   {
    "fy_end": "2020-12-31",
@@ -160,7 +202,10 @@
    "goodwill_and_intangibles": 3442041000.0,
    "retained_earnings": 4130252000.0,
    "total_debt": 3275827000.0,
-   "shares_out": 197079202.0
+   "shares_out": 197079202.0,
+   "unusual_items": 28000000.0,
+   "normalized_ebitda": 4741000000.0,
+   "normalized_income": 2901356000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -194,7 +239,10 @@
    "goodwill_and_intangibles": 3389000000.0,
    "retained_earnings": 5379000000.0,
    "total_debt": 2755500000.0,
-   "shares_out": 199995947.0
+   "shares_out": 199995947.0,
+   "unusual_items": 30000000.0,
+   "normalized_ebitda": 3085000000.0,
+   "normalized_income": 1566150000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -228,7 +276,10 @@
    "goodwill_and_intangibles": 3328000000.0,
    "retained_earnings": 5170000000.0,
    "total_debt": 2638000000.0,
-   "shares_out": 188405537.0
+   "shares_out": 188405537.0,
+   "unusual_items": 15000000.0,
+   "normalized_ebitda": 1200000000.0,
+   "normalized_income": 164339449.541284
   },
   {
    "fy_end": "2025-12-31",
@@ -262,7 +313,10 @@
    "goodwill_and_intangibles": 3279000000.0,
    "retained_earnings": 5373000000.0,
    "total_debt": 2769000000.0,
-   "shares_out": 181787904.0
+   "shares_out": 181787904.0,
+   "unusual_items": -6000000.0,
+   "normalized_ebitda": 1864000000.0,
+   "normalized_income": 583803278.688525
   }
  ]
 }

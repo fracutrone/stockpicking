@@ -1,6 +1,6 @@
 {
  "ticker": "BKH",
- "fetched_at": "2026-10-10T12:39:04+00:00",
+ "fetched_at": "2026-10-10T15:37:49+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 2795,
   "website": "https://ir.blackhillscorp.com",
-  "longBusinessSummary": "Black Hills Corporation, through its subsidiaries, operates as an electric and natural gas utility company in the United States. The company operates through the Electric Utilities and Gas Utilities segments. The Electric Utilities segment engages in the generation, transmission, and distribution of electricity to electric utility customers in Colorado, Montana, South Dakota, and Wyoming; ownership and operation of 1,386 megawatts of generation capacity, and 9,478 miles of electric transmission and distribution lines; sale of excess power to other utilities and marketing companies; and ownership and operation of non-regulated power generation and mining assets. Its Gas Utilities segment is involved in the distribution of natural gas to approximately 1,138,000 natural gas utility customers in Arkansas, Colorado, Iowa, Kansas, Nebraska, and Wyoming; ownership and operation of 4,581 miles of intrastate gas transmission pipelines; 44,840 miles of gas distribution mains and service lines; seven natural gas storage sites; and approximately 50,000 horsepower of compression and 494 miles of gathering lines. The company also provides non-regulated services to its retail customers, including Service Guard Comfort Plan, which provides home appliance repair services through on-going monthly service agreements to residential utility customers; Tech Services, which include construction and maintenance of customer-owned gas infrastructure facilities, as well as electrical system construction services; and HomeServe, which are additional home repair service plans for natural gas residential customers. In addition, the company produces electric power through wind, natural gas, and coal-fired generating plants, as well as coal at its coal mine located near Gillette, Wyoming. Black Hills Corporation was incorporated in 1941 and is headquartered in Rapid City, South Dakota."
+  "longBusinessSummary": "Black Hills Corporation, through its subsidiaries, operates as an electric and natural gas utility company in the United States. The company operates through the Electric Utilities and Gas Utilities segments. The Electric Utilities segment engages in the generation, transmission, and distribution of electricity to electric utility customers in Colorado, Montana, South Dakota, and Wyoming; ownership and operation of 1,386 megawatts of generation capacity, and 9,478 miles of electric transmission and distribution lines; sale of excess power to other utilities and marketing companies; and ownership and operation of non-regulated power generation and mining assets. Its Gas Utilities segment is involved in the distribution of natural gas to approximately 1,138,000 natural gas utility customers in Arkansas, Colorado, Iowa, Kansas, Nebraska, and Wyoming; ownership and operation of 4,581 miles of intrastate gas transmission pipelines; 44,840 miles of gas distribution mains and service lines; seven natural gas storage sites; and approximately 50,000 horsepower of compression and 494 miles of gathering lines. The company also provides non-regulated services to its retail customers, including Service Guard Comfort Plan, which provides home appliance repair services through on-going monthly service agreements to residential utility customers; Tech Services, which include construction and maintenance of customer-owned gas infrastructure facilities, as well as electrical system construction services; and HomeServe, which are additional home repair service plans for natural gas residential customers. In addition, the company produces electric power through wind, natural gas, and coal-fired generating plants, as well as coal at its coal mine located near Gillette, Wyoming. Black Hills Corporation was incorporated in 1941 and is headquartered in Rapid City, South Dakota.",
+  "targetMeanPrice": 84.5,
+  "targetLowPrice": 78.0,
+  "targetHighPrice": 91.0,
+  "numberOfAnalystOpinions": 6,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.16667,
+  "forwardPE": 16.446175,
+  "forwardEps": 4.626,
+  "trailingEps": 3.97,
+  "earningsGrowth": 0.316,
+  "revenueGrowth": 0.031
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 10869800000.0,
+    "official": 10869800000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3823600000.0,
+    "official": 3823600000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 291600000.0,
+    "official": 291600000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2310000000.0,
+    "official": 2310000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:37:49+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -159,7 +201,8 @@
    "goodwill": 1299454000.0,
    "intangibles": 10800000.0,
    "retained_earnings": 962458000.0,
-   "total_debt": 4547103000.0
+   "total_debt": 4547103000.0,
+   "unusual_items": 0.0
   },
   {
    "fy_end": "2022-12-31",
@@ -192,7 +235,10 @@
    "goodwill_and_intangibles": 1309100000.0,
    "retained_earnings": 1064100000.0,
    "total_debt": 4667900000.0,
-   "shares_out": 66103670.0
+   "shares_out": 66103670.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 709500000.0,
+   "normalized_income": 258400000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -225,7 +271,9 @@
    "goodwill_and_intangibles": 1307900000.0,
    "retained_earnings": 1158200000.0,
    "total_debt": 4401200000.0,
-   "shares_out": 68196969.0
+   "shares_out": 68196969.0,
+   "normalized_ebitda": 738400000.0,
+   "normalized_income": 262200000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -258,7 +306,9 @@
    "goodwill_and_intangibles": 1307100000.0,
    "retained_earnings": 1249100000.0,
    "total_debt": 4384000000.0,
-   "shares_out": 71620148.0
+   "shares_out": 71620148.0,
+   "normalized_ebitda": 785300000.0,
+   "normalized_income": 273100000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -291,7 +341,9 @@
    "goodwill_and_intangibles": 1305900000.0,
    "retained_earnings": 1342900000.0,
    "total_debt": 4701100000.0,
-   "shares_out": 75477067.0
+   "shares_out": 75477067.0,
+   "normalized_ebitda": 834200000.0,
+   "normalized_income": 291600000.0
   }
  ]
 }

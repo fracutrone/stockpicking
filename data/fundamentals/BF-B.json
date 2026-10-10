@@ -1,6 +1,6 @@
 {
  "ticker": "BF-B",
- "fetched_at": "2026-10-10T12:38:53+00:00",
+ "fetched_at": "2026-10-10T15:37:37+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 4900,
   "website": "https://www.brown-forman.com",
-  "longBusinessSummary": "Brown-Forman Corporation, together with its subsidiaries, manufactures, distills, bottles, imports, exports, markets, and sells a variety of alcohol beverages. The company provides spirits, wines, whiskey spirits, whiskey-based flavored liqueurs, ready-to-drink cocktails, ready-to-pour products, vodkas, tequilas, gin, brandy, rum, bourbons, and liqueurs. The company offers its products primarily under the Jack Daniel's, Woodford Reserve, Old Forester, Gentleman Jack, Herradura, el Jimador, Fords Gin, The Glendronach, Chambord, Coopers' Craft, Diplomático, Benriach, Glenglassaugh, and Slane brands. It is also involved in the sale of used barrels, and bulk whiskey and wine; and provision of contract bottling services. The company serves retail customers and consumers through distributors and state governments; and retailers, wholesalers, and provincial governments directly. It operates in the United States, Germany, Australia, the United Kingdom, Canada, Spain, France, Mexico, Poland, Brazil, Türkiye, and internationally. Brown-Forman Corporation was founded in 1870 and is headquartered in Louisville, Kentucky."
+  "longBusinessSummary": "Brown-Forman Corporation, together with its subsidiaries, manufactures, distills, bottles, imports, exports, markets, and sells a variety of alcohol beverages. The company provides spirits, wines, whiskey spirits, whiskey-based flavored liqueurs, ready-to-drink cocktails, ready-to-pour products, vodkas, tequilas, gin, brandy, rum, bourbons, and liqueurs. The company offers its products primarily under the Jack Daniel's, Woodford Reserve, Old Forester, Gentleman Jack, Herradura, el Jimador, Fords Gin, The Glendronach, Chambord, Coopers' Craft, Diplomático, Benriach, Glenglassaugh, and Slane brands. It is also involved in the sale of used barrels, and bulk whiskey and wine; and provision of contract bottling services. The company serves retail customers and consumers through distributors and state governments; and retailers, wholesalers, and provincial governments directly. It operates in the United States, Germany, Australia, the United Kingdom, Canada, Spain, France, Mexico, Poland, Brazil, Türkiye, and internationally. Brown-Forman Corporation was founded in 1870 and is headquartered in Louisville, Kentucky.",
+  "targetMeanPrice": 28.25882,
+  "targetLowPrice": 20.0,
+  "targetHighPrice": 35.0,
+  "numberOfAnalystOpinions": 17,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.16667,
+  "forwardPE": 15.39808,
+  "forwardEps": 1.71385,
+  "trailingEps": 1.55,
+  "earningsGrowth": 0.057,
+  "revenueGrowth": -0.014
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-04-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 7894000000.0,
+    "official": 7894000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4020000000.0,
+    "official": 4020000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 715000000.0,
+    "official": 715000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3928000000.0,
+    "official": 3928000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:37:37+00:00",
  "years": [
   {
    "fy_end": "2020-04-30",
@@ -206,7 +248,10 @@
    "goodwill_and_intangibles": 2621000000.0,
    "retained_earnings": 3643000000.0,
    "total_debt": 2913000000.0,
-   "shares_out": 479316000.0
+   "shares_out": 479316000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 1187000000.0,
+   "normalized_income": 783000000.0
   },
   {
    "fy_end": "2024-04-30",
@@ -240,7 +285,10 @@
    "goodwill_and_intangibles": 2445000000.0,
    "retained_earnings": 4261000000.0,
    "total_debt": 3100000000.0,
-   "shares_out": 472600000.0
+   "shares_out": 472600000.0,
+   "unusual_items": 260000000.0,
+   "normalized_ebitda": 1252000000.0,
+   "normalized_income": 819120000.0
   },
   {
    "fy_end": "2025-04-30",
@@ -274,7 +322,10 @@
    "goodwill_and_intangibles": 2486000000.0,
    "retained_earnings": 4710000000.0,
    "total_debt": 2733000000.0,
-   "shares_out": 471777000.0
+   "shares_out": 471777000.0,
+   "unusual_items": -107000000.0,
+   "normalized_ebitda": 1397000000.0,
+   "normalized_income": 955015726.179463
   },
   {
    "fy_end": "2026-04-30",
@@ -308,7 +359,10 @@
    "goodwill_and_intangibles": 2465000000.0,
    "retained_earnings": 4998000000.0,
    "total_debt": 2502000000.0,
-   "shares_out": 458703000.0
+   "shares_out": 458703000.0,
+   "unusual_items": -151000000.0,
+   "normalized_ebitda": 1231000000.0,
+   "normalized_income": 836994350.282486
   }
  ]
 }

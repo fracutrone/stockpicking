@@ -1,6 +1,6 @@
 {
  "ticker": "ESNT",
- "fetched_at": "2026-10-10T12:44:41+00:00",
+ "fetched_at": "2026-10-10T15:43:02+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 518,
   "website": "https://ir.essentgroup.com",
-  "longBusinessSummary": "Essent Group Ltd., through its subsidiaries, provides private mortgage insurance and reinsurance, and title insurance and settlement services to mortgage lenders, borrowers, and investors in the United States. It operates through two segments, Mortgage Insurance and Reinsurance. The company's mortgage insurance products include primary, pool, and master policy. It also provides information technology maintenance and development services; customer support-related services; underwriting consulting services to third-party reinsurers; and contract underwriting services, as well as credit risk management products. In addition, the company offers title insurance and settlement services; and title insurance underwriting services. It serves the originators of residential mortgage loans, such as regulated depository institutions, mortgage banks, credit unions, and other lenders. Essent Group Ltd. was founded in 2008 and is headquartered in Hamilton, Bermuda."
+  "longBusinessSummary": "Essent Group Ltd., through its subsidiaries, provides private mortgage insurance and reinsurance, and title insurance and settlement services to mortgage lenders, borrowers, and investors in the United States. It operates through two segments, Mortgage Insurance and Reinsurance. The company's mortgage insurance products include primary, pool, and master policy. It also provides information technology maintenance and development services; customer support-related services; underwriting consulting services to third-party reinsurers; and contract underwriting services, as well as credit risk management products. In addition, the company offers title insurance and settlement services; and title insurance underwriting services. It serves the originators of residential mortgage loans, such as regulated depository institutions, mortgage banks, credit unions, and other lenders. Essent Group Ltd. was founded in 2008 and is headquartered in Hamilton, Bermuda.",
+  "targetMeanPrice": 74.85714,
+  "targetLowPrice": 66.0,
+  "targetHighPrice": 80.0,
+  "numberOfAnalystOpinions": 7,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.375,
+  "forwardPE": 7.851824,
+  "forwardEps": 7.95866,
+  "trailingEps": 7.05,
+  "earningsGrowth": 0.078,
+  "revenueGrowth": 0.136
  },
  "governance": {
   "ceo": {
@@ -76,8 +87,37 @@
   "retained_earnings": "sec",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "normalized_income": "yahoo",
   "goodwill": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 7441003000.0,
+    "official": 7441003000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 5756727000.0,
+    "official": 5756727000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 689969000.0,
+    "official": 689969000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1288194000.0,
+    "official": 1260935000.0,
+    "diff": 0.021618
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:43:03+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -154,7 +194,8 @@
    "goodwill_and_intangibles": 0.0,
    "retained_earnings": 3493107000.0,
    "total_debt": 420864000.0,
-   "shares_out": 107683000.0
+   "shares_out": 107683000.0,
+   "normalized_income": 831353000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -180,7 +221,8 @@
    "goodwill_and_intangibles": 72826000.0,
    "retained_earnings": 4081578000.0,
    "total_debt": 421920000.0,
-   "shares_out": 106597000.0
+   "shares_out": 106597000.0,
+   "normalized_income": 696386000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -206,7 +248,8 @@
    "goodwill_and_intangibles": 79556000.0,
    "retained_earnings": 4691111000.0,
    "total_debt": 493959000.0,
-   "shares_out": 105015000.0
+   "shares_out": 105015000.0,
+   "normalized_income": 729403000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -232,7 +275,8 @@
    "goodwill_and_intangibles": 78153000.0,
    "retained_earnings": 5257385000.0,
    "total_debt": 495301000.0,
-   "shares_out": 95456000.0
+   "shares_out": 95456000.0,
+   "normalized_income": 689969000.0
   }
  ]
 }

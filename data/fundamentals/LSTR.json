@@ -1,6 +1,6 @@
 {
  "ticker": "LSTR",
- "fetched_at": "2026-10-10T12:50:50+00:00",
+ "fetched_at": "2026-10-10T15:49:05+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 1300,
   "website": "https://www.landstar.com",
-  "longBusinessSummary": "Landstar System, Inc. provides transportation management solutions in the United States, Canada, Mexico, and internationally. It operates in two segments, Transportation Logistics and Insurance. The Transportation Logistics segment offers a range of transportation services, including truckload, less-than-truckload and other truck transportation, rail intermodal, air cargo, ocean cargo, expedited ground and air delivery of time-critical freight, heavy-haul/specialized, hazardous materials, cold chain/temperature-controlled, U.S.-Canada and U.S.-Mexico cross-border, intra-Mexico, intra-Canada, project cargo, and customs brokerage services, as well as transportation services to other transportation companies, such as third party logistics and less-than-truckload service providers. This segment serves the automotive parts and assemblies, consumer durables, building products, metals, chemicals, foodstuffs, heavy machinery, retail, electronics, military equipment and general commodities industries. The Insurance segment provides risk and claims management services; and reinsures risks of its independent contractors. The company markets its services through a network of agents, third party capacity providers, and employees. Landstar System, Inc. was founded in 1988 and is headquartered in Jacksonville, Florida."
+  "longBusinessSummary": "Landstar System, Inc. provides transportation management solutions in the United States, Canada, Mexico, and internationally. It operates in two segments, Transportation Logistics and Insurance. The Transportation Logistics segment offers a range of transportation services, including truckload, less-than-truckload and other truck transportation, rail intermodal, air cargo, ocean cargo, expedited ground and air delivery of time-critical freight, heavy-haul/specialized, hazardous materials, cold chain/temperature-controlled, U.S.-Canada and U.S.-Mexico cross-border, intra-Mexico, intra-Canada, project cargo, and customs brokerage services, as well as transportation services to other transportation companies, such as third party logistics and less-than-truckload service providers. This segment serves the automotive parts and assemblies, consumer durables, building products, metals, chemicals, foodstuffs, heavy machinery, retail, electronics, military equipment and general commodities industries. The Insurance segment provides risk and claims management services; and reinsures risks of its independent contractors. The company markets its services through a network of agents, third party capacity providers, and employees. Landstar System, Inc. was founded in 1988 and is headquartered in Jacksonville, Florida.",
+  "targetMeanPrice": 188.1875,
+  "targetLowPrice": 145.0,
+  "targetHighPrice": 225.0,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.77778,
+  "forwardPE": 22.054049,
+  "forwardEps": 7.66798,
+  "trailingEps": 3.85,
+  "earningsGrowth": 0.201,
+  "revenueGrowth": 0.181
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 1635935000.0,
+    "official": 1635935000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 795665000.0,
+    "official": 795665000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 115007000.0,
+    "official": 115007000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 4743760000.0,
+    "official": 4743760000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:49:05+00:00",
  "years": [
   {
    "fy_end": "2019-12-28",
@@ -192,7 +234,10 @@
    "goodwill_and_intangibles": 41220000.0,
    "retained_earnings": 2635960000.0,
    "total_debt": 0,
-   "shares_out": 35927010.0
+   "shares_out": 35927010.0,
+   "unusual_items": 3162000.0,
+   "normalized_ebitda": 625374000.0,
+   "normalized_income": 428514042.0
   },
   {
    "fy_end": "2023-12-30",
@@ -225,7 +270,10 @@
    "goodwill_and_intangibles": 42275000.0,
    "retained_earnings": 2783645000.0,
    "total_debt": 0,
-   "shares_out": 35716673.0
+   "shares_out": 35716673.0,
+   "unusual_items": 10141000.0,
+   "normalized_ebitda": 382020000.0,
+   "normalized_income": 256691448.817133
   },
   {
    "fy_end": "2024-12-28",
@@ -258,7 +306,10 @@
    "goodwill_and_intangibles": 40933000.0,
    "retained_earnings": 2859916000.0,
    "total_debt": 0,
-   "shares_out": 35316073.0
+   "shares_out": 35316073.0,
+   "unusual_items": 14810000.0,
+   "normalized_ebitda": 276025000.0,
+   "normalized_income": 184535604.444689
   },
   {
    "fy_end": "2025-12-27",
@@ -291,7 +342,10 @@
    "goodwill_and_intangibles": 34005000.0,
    "retained_earnings": 2852680000.0,
    "total_debt": 0,
-   "shares_out": 34058726.0
+   "shares_out": 34058726.0,
+   "unusual_items": -18485000.0,
+   "normalized_ebitda": 234935000.0,
+   "normalized_income": 129129540.0
   }
  ]
 }

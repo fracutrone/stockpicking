@@ -1,6 +1,6 @@
 {
  "ticker": "UKW.L",
- "fetched_at": "2026-10-10T12:23:53+00:00",
+ "fetched_at": "2026-10-10T15:26:52+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": 126.333,
+  "targetLowPrice": 116.99999,
+  "targetHighPrice": 137.0,
+  "numberOfAnalystOpinions": 3,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 9.722701,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -50,8 +61,28 @@
   "receivables": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "equity": {
+    "yahoo": 2882356000.0,
+    "official": 2882356000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -192617000.0,
+    "official": -192617000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:26:52+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -72,7 +103,8 @@
    "receivables": 1838000.0,
    "retained_earnings": 1379651000.0,
    "total_debt": 1100000000.0,
-   "shares_out": 2318089989.0
+   "shares_out": 2318089989.0,
+   "normalized_income": 953863000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -93,7 +125,8 @@
    "receivables": 183000.0,
    "retained_earnings": 1299295000.0,
    "total_debt": 1790000000.0,
-   "shares_out": 2312131799.0
+   "shares_out": 2312131799.0,
+   "normalized_income": 126188000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -114,7 +147,8 @@
    "receivables": 3826000.0,
    "retained_earnings": 987268000.0,
    "total_debt": 1760000000.0,
-   "shares_out": 2254109306.0
+   "shares_out": 2254109306.0,
+   "normalized_income": -55415000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -135,7 +169,8 @@
    "receivables": 229000.0,
    "retained_earnings": 567604000.0,
    "total_debt": 1720000000.0,
-   "shares_out": 2159802091.0
+   "shares_out": 2159802091.0,
+   "normalized_income": -192617000.0
   }
  ]
 }

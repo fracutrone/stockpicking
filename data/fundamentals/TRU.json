@@ -1,6 +1,6 @@
 {
  "ticker": "TRU",
- "fetched_at": "2026-10-10T13:00:09+00:00",
+ "fetched_at": "2026-10-10T15:57:46+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 13000,
   "website": "https://www.transunion.com",
-  "longBusinessSummary": "TransUnion operates as a global consumer credit reporting agency that provides risk and information solutions. The company operates in two segments, U.S. Markets and International. The U.S. Markets segment provides credit reporting, credit marketing, analytics and consulting, identity verification, and authentication and debt recovery solutions for financial services industry; and onboarding and transaction processing products, scoring and analytic products, marketing solutions, fraud and identity management solutions, and customer retention solutions, as well select market-specific solutions for insurance, technology, retail and e-commerce, telecommunications, media, tenant and employment screening, collections, and public sectors. It also offers credit reports, scores, and freezes credit monitoring, identity protection and resolution, and financial management for consumers, as well as helps businesses respond to data breach events through its own websites, as well as channels. The International segment offers credit reports, analytics, technology solutions, and other value-added risk management services; consumer services, which helps consumers to manage their personal finances; credit bureaus; and consumer and business credit reporting, insurance and auto information solutions, and commercial credit information services. This segment serves customers in financial services, retail credit, insurance, automotive, collections, public sector, and communications industries through direct and indirect channels. The company was formerly known as TransUnion Holding Company, Inc. and changed its name to TransUnion in March 2015. TransUnion was founded in 1968 and is headquartered in Chicago, Illinois."
+  "longBusinessSummary": "TransUnion operates as a global consumer credit reporting agency that provides risk and information solutions. The company operates in two segments, U.S. Markets and International. The U.S. Markets segment provides credit reporting, credit marketing, analytics and consulting, identity verification, and authentication and debt recovery solutions for financial services industry; and onboarding and transaction processing products, scoring and analytic products, marketing solutions, fraud and identity management solutions, and customer retention solutions, as well select market-specific solutions for insurance, technology, retail and e-commerce, telecommunications, media, tenant and employment screening, collections, and public sectors. It also offers credit reports, scores, and freezes credit monitoring, identity protection and resolution, and financial management for consumers, as well as helps businesses respond to data breach events through its own websites, as well as channels. The International segment offers credit reports, analytics, technology solutions, and other value-added risk management services; consumer services, which helps consumers to manage their personal finances; credit bureaus; and consumer and business credit reporting, insurance and auto information solutions, and commercial credit information services. This segment serves customers in financial services, retail credit, insurance, automotive, collections, public sector, and communications industries through direct and indirect channels. The company was formerly known as TransUnion Holding Company, Inc. and changed its name to TransUnion in March 2015. TransUnion was founded in 1968 and is headquartered in Chicago, Illinois.",
+  "targetMeanPrice": 92.2381,
+  "targetLowPrice": 68.0,
+  "targetHighPrice": 106.0,
+  "numberOfAnalystOpinions": 21,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.72727,
+  "forwardPE": 11.817874,
+  "forwardEps": 5.54076,
+  "trailingEps": 3.79,
+  "earningsGrowth": 0.321,
+  "revenueGrowth": 0.149
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 11112900000.0,
+    "official": 11112900000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4439200000.0,
+    "official": 4439200000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 455400000.0,
+    "official": 455400000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 4576300000.0,
+    "official": 4576300000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:57:46+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -200,7 +242,10 @@
    "goodwill_and_intangibles": 9226900000.0,
    "retained_earnings": 2446600000.0,
    "total_debt": 5670100000.0,
-   "shares_out": 192700000.0
+   "shares_out": 192700000.0,
+   "unusual_items": -23700000.0,
+   "normalized_ebitda": 1156600000.0,
+   "normalized_income": 265253000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -234,7 +279,10 @@
    "goodwill_and_intangibles": 8691300000.0,
    "retained_earnings": 2157100000.0,
    "total_debt": 5340400000.0,
-   "shares_out": 193800000.0
+   "shares_out": 193800000.0,
+   "unusual_items": -508200000.0,
+   "normalized_ebitda": 1175500000.0,
+   "normalized_income": 195978000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -268,7 +316,10 @@
    "goodwill_and_intangibles": 8401700000.0,
    "retained_earnings": 2357900000.0,
    "total_debt": 5147200000.0,
-   "shares_out": 194900000.0
+   "shares_out": 194900000.0,
+   "unusual_items": -95700000.0,
+   "normalized_ebitda": 1299800000.0,
+   "normalized_income": 356526925.953628
   },
   {
    "fy_end": "2025-12-31",
@@ -302,7 +353,10 @@
    "goodwill_and_intangibles": 8358000000.0,
    "retained_earnings": 2723700000.0,
    "total_debt": 5103800000.0,
-   "shares_out": 192400000.0
+   "shares_out": 192400000.0,
+   "unusual_items": -37900000.0,
+   "normalized_ebitda": 1491500000.0,
+   "normalized_income": 483097060.653188
   }
  ]
 }

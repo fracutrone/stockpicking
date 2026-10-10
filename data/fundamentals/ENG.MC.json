@@ -1,6 +1,6 @@
 {
  "ticker": "ENG.MC",
- "fetched_at": "2026-10-10T11:55:57+00:00",
+ "fetched_at": "2026-10-10T14:45:26+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "MCE",
   "fullTimeEmployees": 1408,
   "website": "https://www.enagas.es/es/",
-  "longBusinessSummary": "Enagás, S.A. engages in the transmission, storage, and regasification of natural gas. It operates through Regulated Gas Activities, Regulated Activities  Hydrogen Infrastructure, New Businesses, and International segments. The company provides gas transmission services through primary and secondary transmission pipelines; and natural gas regasification services, as well as operates underground storage facilities. It is also involved hydrogen infrastructure activities; and non-regulated activities related to new energies, such as biomethane, ammonia, and CO2. In addition, the company engages in the technical management of the gas system; financial management; gas transmission; development of industrial projects and activities relating to LNG terminals; development and implementation of facilities for the supply of natural gas; provision of commercial services; designing, constructing, operating, and maintaining hydrogen and other gas production facilities; and maritime transport activities by managing merchant ships. The company was incorporated in 1972 and is headquartered in Madrid, Spain."
+  "longBusinessSummary": "Enagás, S.A. engages in the transmission, storage, and regasification of natural gas. It operates through Regulated Gas Activities, Regulated Activities  Hydrogen Infrastructure, New Businesses, and International segments. The company provides gas transmission services through primary and secondary transmission pipelines; and natural gas regasification services, as well as operates underground storage facilities. It is also involved hydrogen infrastructure activities; and non-regulated activities related to new energies, such as biomethane, ammonia, and CO2. In addition, the company engages in the technical management of the gas system; financial management; gas transmission; development of industrial projects and activities relating to LNG terminals; development and implementation of facilities for the supply of natural gas; provision of commercial services; designing, constructing, operating, and maintaining hydrogen and other gas production facilities; and maritime transport activities by managing merchant ships. The company was incorporated in 1972 and is headquartered in Madrid, Spain.",
+  "targetMeanPrice": 17.022,
+  "targetLowPrice": 13.0,
+  "targetHighPrice": 19.8,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.6,
+  "forwardPE": 14.790085,
+  "forwardEps": 1.11426,
+  "trailingEps": 1.22,
+  "earningsGrowth": -0.369,
+  "revenueGrowth": -0.093
  },
  "governance": {
   "ceo": {
@@ -71,8 +82,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF ES",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 7495935000.0,
+    "official": 7495935000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2375762000.0,
+    "official": 2375762000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -299309000.0,
+    "official": -299309000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 905546000.0,
+    "official": 905546000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T14:45:26+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -107,7 +150,10 @@
    "goodwill_and_intangibles": 83169000.0,
    "retained_earnings": 375774000.0,
    "total_debt": 4427174000.0,
-   "shares_out": 261168699.0
+   "shares_out": 261168699.0,
+   "unusual_items": 110304000.0,
+   "normalized_ebitda": 775328000.0,
+   "normalized_income": 296898377.645812
   },
   {
    "fy_end": "2023-12-31",
@@ -142,7 +188,10 @@
    "goodwill_and_intangibles": 83866000.0,
    "retained_earnings": 342528000.0,
    "total_debt": 3806161000.0,
-   "shares_out": 261266495.0
+   "shares_out": 261266495.0,
+   "unusual_items": 47781000.0,
+   "normalized_ebitda": 763058000.0,
+   "normalized_income": 303607318.992909
   },
   {
    "fy_end": "2024-12-31",
@@ -177,7 +226,10 @@
    "goodwill_and_intangibles": 80480000.0,
    "retained_earnings": -299309000.0,
    "total_debt": 3313728000.0,
-   "shares_out": 261123803.0
+   "shares_out": 261123803.0,
+   "unusual_items": -688411000.0,
+   "normalized_ebitda": 769065000.0,
+   "normalized_income": 358406538.641866
   },
   {
    "fy_end": "2025-12-31",
@@ -212,7 +264,10 @@
    "goodwill_and_intangibles": 120469000.0,
    "retained_earnings": 339112000.0,
    "total_debt": 2822888000.0,
-   "shares_out": 260009776.0
+   "shares_out": 260009776.0,
+   "unusual_items": 85303000.0,
+   "normalized_ebitda": 677449000.0,
+   "normalized_income": 268157639.822738
   }
  ]
 }

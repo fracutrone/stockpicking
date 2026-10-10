@@ -1,6 +1,6 @@
 {
  "ticker": "CBT",
- "fetched_at": "2026-10-10T12:40:06+00:00",
+ "fetched_at": "2026-10-10T15:38:58+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 4064,
   "website": "https://www.cabotcorp.com",
-  "longBusinessSummary": "Cabot Corporation operates as a specialty chemicals and performance materials company. It operates through two segments, Reinforcement Materials and Performance Chemicals. The company offers reinforcing carbons that are used in tires as a rubber reinforcing agent and performance additive, as well as in industrial products, such as hoses, belts, extruded profiles, and molded goods; and engineered elastomer composites solutions. It also provides specialty carbons for use in inks, coatings, plastics, adhesives, toners, batteries, and displays; conductive additives and fumed alumina used in lead acid and lithium-ion batteries for electric vehicles; fumed silica used in adhesives, sealants, cosmetics, batteries, inks, toners, silicone elastomers, coatings, polishing slurries, and pharmaceuticals; and fumed alumina for use in various products, including inkjet media, lighting, coatings, cosmetics, and polishing slurries. In addition, it offers aerogel, a hydrophobic, silica-based particle to use in various thermal insulation and specialty chemical applications; masterbatch and conductive compound products that are used in automotive, industrial, packaging, infrastructure, agriculture, consumer products, and electronics industries; and inkjet colorants for inkjet printing applications, as well as carbon nanotubes and fumed metal oxides. The company sells its products through distributors and sales representatives in the Americas, Europe, the Middle East, Africa, and the Asia Pacific. Cabot Corporation was founded in 1882 and is headquartered in Boston, Massachusetts."
+  "longBusinessSummary": "Cabot Corporation operates as a specialty chemicals and performance materials company. It operates through two segments, Reinforcement Materials and Performance Chemicals. The company offers reinforcing carbons that are used in tires as a rubber reinforcing agent and performance additive, as well as in industrial products, such as hoses, belts, extruded profiles, and molded goods; and engineered elastomer composites solutions. It also provides specialty carbons for use in inks, coatings, plastics, adhesives, toners, batteries, and displays; conductive additives and fumed alumina used in lead acid and lithium-ion batteries for electric vehicles; fumed silica used in adhesives, sealants, cosmetics, batteries, inks, toners, silicone elastomers, coatings, polishing slurries, and pharmaceuticals; and fumed alumina for use in various products, including inkjet media, lighting, coatings, cosmetics, and polishing slurries. In addition, it offers aerogel, a hydrophobic, silica-based particle to use in various thermal insulation and specialty chemical applications; masterbatch and conductive compound products that are used in automotive, industrial, packaging, infrastructure, agriculture, consumer products, and electronics industries; and inkjet colorants for inkjet printing applications, as well as carbon nanotubes and fumed metal oxides. The company sells its products through distributors and sales representatives in the Americas, Europe, the Middle East, Africa, and the Asia Pacific. Cabot Corporation was founded in 1882 and is headquartered in Boston, Massachusetts.",
+  "targetMeanPrice": 90.33333,
+  "targetLowPrice": 78.0,
+  "targetHighPrice": 100.0,
+  "numberOfAnalystOpinions": 6,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.5,
+  "forwardPE": 10.72134,
+  "forwardEps": 6.987,
+  "trailingEps": 3.57,
+  "earningsGrowth": -0.937,
+  "revenueGrowth": 0.064
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-09-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 3815000000.0,
+    "official": 3815000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1550000000.0,
+    "official": 1550000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 331000000.0,
+    "official": 331000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3713000000.0,
+    "official": 3713000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:38:58+00:00",
  "years": [
   {
    "fy_end": "2019-09-30",
@@ -200,7 +242,10 @@
    "goodwill_and_intangibles": 192000000.0,
    "retained_earnings": 1284000000.0,
    "total_debt": 1423000000.0,
-   "shares_out": 56248559.0
+   "shares_out": 56248559.0,
+   "unusual_items": -183000000.0,
+   "normalized_ebitda": 720000000.0,
+   "normalized_income": 336280597.014925
   },
   {
    "fy_end": "2023-09-30",
@@ -234,7 +279,10 @@
    "goodwill_and_intangibles": 194000000.0,
    "retained_earnings": 1574000000.0,
    "total_debt": 1256000000.0,
-   "shares_out": 55243804.0
+   "shares_out": 55243804.0,
+   "unusual_items": -3000000.0,
+   "normalized_ebitda": 688000000.0,
+   "normalized_income": 447226900.0
   },
   {
    "fy_end": "2024-09-30",
@@ -268,7 +316,10 @@
    "goodwill_and_intangibles": 186000000.0,
    "retained_earnings": 1734000000.0,
    "total_debt": 1120000000.0,
-   "shares_out": 54297251.0
+   "shares_out": 54297251.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 761000000.0,
+   "normalized_income": 380000000.0
   },
   {
    "fy_end": "2025-09-30",
@@ -302,7 +353,10 @@
    "goodwill_and_intangibles": 189000000.0,
    "retained_earnings": 1835000000.0,
    "total_debt": 1106000000.0,
-   "shares_out": 52842481.0
+   "shares_out": 52842481.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 795000000.0,
+   "normalized_income": 331000000.0
   }
  ]
 }

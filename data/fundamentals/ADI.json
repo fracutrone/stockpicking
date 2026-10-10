@@ -1,6 +1,6 @@
 {
  "ticker": "ADI",
- "fetched_at": "2026-10-10T12:36:25+00:00",
+ "fetched_at": "2026-10-10T15:33:31+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 24500,
   "website": "https://www.analog.com",
-  "longBusinessSummary": "Analog Devices, Inc. engages in the design, manufacture, testing, and marketing of integrated circuits (ICs), software, and subsystems products in the United States, rest of North and South America, Europe, Japan, China, and rest of Asia. It provides data converter products, which translate real-world analog signals into digital data, as well as translates digital data into analog signals; power management and reference products for power conversion, driver monitoring, sequencing, and energy management applications in the automotive, communications, industrial, and consumer markets; and power ICs that include performance, integration, and software design simulation tools for accurate power supply designs. The company also offers amplifiers to condition analog signals; and radio frequency and microwave ICs to support cellular infrastructure; and micro-electro-mechanical systems technology solutions, including accelerometers used to sense acceleration, gyroscopes for sense rotation, inertial measurement units to sense multiple degrees of freedom, and broadband switches for radio and instrument systems, as well as isolators. In addition, it provides digital signal processing and system products for numeric calculations. The company serves clients in the industrial, automotive, consumer, instrumentation, aerospace, defense and healthcare, and communications markets through a direct sales force, third-party distributors, and independent sales representatives, as well as online. The company was incorporated in 1965 and is headquartered in Wilmington, Massachusetts."
+  "longBusinessSummary": "Analog Devices, Inc. engages in the design, manufacture, testing, and marketing of integrated circuits (ICs), software, and subsystems products in the United States, rest of North and South America, Europe, Japan, China, and rest of Asia. It provides data converter products, which translate real-world analog signals into digital data, as well as translates digital data into analog signals; power management and reference products for power conversion, driver monitoring, sequencing, and energy management applications in the automotive, communications, industrial, and consumer markets; and power ICs that include performance, integration, and software design simulation tools for accurate power supply designs. The company also offers amplifiers to condition analog signals; and radio frequency and microwave ICs to support cellular infrastructure; and micro-electro-mechanical systems technology solutions, including accelerometers used to sense acceleration, gyroscopes for sense rotation, inertial measurement units to sense multiple degrees of freedom, and broadband switches for radio and instrument systems, as well as isolators. In addition, it provides digital signal processing and system products for numeric calculations. The company serves clients in the industrial, automotive, consumer, instrumentation, aerospace, defense and healthcare, and communications markets through a direct sales force, third-party distributors, and independent sales representatives, as well as online. The company was incorporated in 1965 and is headquartered in Wilmington, Massachusetts.",
+  "targetMeanPrice": 470.71875,
+  "targetLowPrice": 365.0,
+  "targetHighPrice": 675.0,
+  "numberOfAnalystOpinions": 32,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.41176,
+  "forwardPE": 24.846283,
+  "forwardEps": 16.34812,
+  "trailingEps": 8.42,
+  "earningsGrowth": 1.635,
+  "revenueGrowth": 0.396
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-10-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 47992712000.0,
+    "official": 47992712000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 33815755000.0,
+    "official": 33815755000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2267342000.0,
+    "official": 2267342000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 11019707000.0,
+    "official": 11019707000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:33:32+00:00",
  "years": [
   {
    "fy_end": "2019-11-02",
@@ -201,7 +243,10 @@
    "goodwill_and_intangibles": 40178540000.0,
    "retained_earnings": 8721325000.0,
    "total_debt": 6548625000.0,
-   "shares_out": 509295941.0
+   "shares_out": 509295941.0,
+   "unusual_items": -274509000.0,
+   "normalized_ebitda": 5871165000.0,
+   "normalized_income": 2992047881.81876
   },
   {
    "fy_end": "2023-10-28",
@@ -236,7 +281,10 @@
    "goodwill_and_intangibles": 38225091000.0,
    "retained_earnings": 10356798000.0,
    "total_debt": 6948733000.0,
-   "shares_out": 496261678.0
+   "shares_out": 496261678.0,
+   "unusual_items": -160710000.0,
+   "normalized_ebitda": 6326457000.0,
+   "normalized_income": 3462271490.0
   },
   {
    "fy_end": "2024-11-02",
@@ -271,7 +319,10 @@
    "goodwill_and_intangibles": 36495239000.0,
    "retained_earnings": 10196612000.0,
    "total_debt": 7981687000.0,
-   "shares_out": 496296854.0
+   "shares_out": 496296854.0,
+   "unusual_items": -37258000.0,
+   "normalized_ebitda": 4241141000.0,
+   "normalized_income": 1669552879.727008
   },
   {
    "fy_end": "2025-11-01",
@@ -306,7 +357,10 @@
    "goodwill_and_intangibles": 34958995000.0,
    "retained_earnings": 10539541000.0,
    "total_debt": 8591705000.0,
-   "shares_out": 489654097.0
+   "shares_out": 489654097.0,
+   "unusual_items": -69980000.0,
+   "normalized_ebitda": 5098653000.0,
+   "normalized_income": 2325845702.339726
   }
  ]
 }

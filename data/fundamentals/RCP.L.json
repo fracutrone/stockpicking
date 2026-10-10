@@ -1,6 +1,6 @@
 {
  "ticker": "RCP.L",
- "fetched_at": "2026-10-10T12:15:58+00:00",
+ "fetched_at": "2026-10-10T15:14:29+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": 2660.0,
+  "targetLowPrice": 2660.0,
+  "targetHighPrice": 2660.0,
+  "numberOfAnalystOpinions": 1,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -51,8 +62,16 @@
   "receivables": "yahoo",
   "ppe_net": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T15:14:29+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -74,7 +93,9 @@
    "receivables": 157400000.0,
    "ppe_net": 20700000.0,
    "total_debt": 373800000.0,
-   "shares_out": 154169622.0
+   "shares_out": 154169622.0,
+   "unusual_items": 2100000.0,
+   "normalized_income": -579300000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -96,7 +117,9 @@
    "receivables": 29300000.0,
    "ppe_net": 21600000.0,
    "total_debt": 283700000.0,
-   "shares_out": 145928909.0
+   "shares_out": 145928909.0,
+   "unusual_items": 1800000.0,
+   "normalized_income": 64300000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -118,7 +141,9 @@
    "receivables": 4600000.0,
    "ppe_net": 21700000.0,
    "total_debt": 336000000.0,
-   "shares_out": 142051072.0
+   "shares_out": 142051072.0,
+   "unusual_items": 1500000.0,
+   "normalized_income": 303500000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -140,7 +165,9 @@
    "receivables": 8900000.0,
    "ppe_net": 22300000.0,
    "total_debt": 304400000.0,
-   "shares_out": 137773545.0
+   "shares_out": 137773545.0,
+   "unusual_items": 1400000.0,
+   "normalized_income": 457900000.0
   }
  ]
 }

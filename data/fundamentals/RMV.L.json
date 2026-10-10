@@ -1,6 +1,6 @@
 {
  "ticker": "RMV.L",
- "fetched_at": "2026-10-10T12:16:43+00:00",
+ "fetched_at": "2026-10-10T15:15:55+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 935,
   "website": "https://plc.rightmove.co.uk",
-  "longBusinessSummary": "Rightmove plc, together with its subsidiaries, operates property portal in the United Kingdom and internationally. The company operates through Agency, New Homes, and Other segments. The Agency segment provides resale and lettings property advertising services, and rental operators advertising and rental services on its platforms. This segment also offers tenant referencing and rent guarantee insurance services to lettings agents and landlords. The New Homes segment provides property advertising services to new home developers and housing associations on its platforms. The Other segment offers commercial and overseas property advertising services; non-property advertising services that include third party advertising and data services; and mortgage services. The company serves property professionals, such as residential and commercial estate/letting agents, residential developers and operators, surveyors, lenders, mortgage lenders/brokers, home services providers, and other professionals. Rightmove plc was founded in 2000 and is based in Milton Keynes, the United Kingdom."
+  "longBusinessSummary": "Rightmove plc, together with its subsidiaries, operates property portal in the United Kingdom and internationally. The company operates through Agency, New Homes, and Other segments. The Agency segment provides resale and lettings property advertising services, and rental operators advertising and rental services on its platforms. This segment also offers tenant referencing and rent guarantee insurance services to lettings agents and landlords. The New Homes segment provides property advertising services to new home developers and housing associations on its platforms. The Other segment offers commercial and overseas property advertising services; non-property advertising services that include third party advertising and data services; and mortgage services. The company serves property professionals, such as residential and commercial estate/letting agents, residential developers and operators, surveyors, lenders, mortgage lenders/brokers, home services providers, and other professionals. Rightmove plc was founded in 2000 and is based in Milton Keynes, the United Kingdom.",
+  "targetMeanPrice": 535.95,
+  "targetLowPrice": 356.0,
+  "targetHighPrice": 745.0,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.65,
+  "forwardPE": 14.311976,
+  "forwardEps": 0.34272,
+  "trailingEps": 0.29,
+  "earningsGrowth": 0.043,
+  "revenueGrowth": 0.067
  },
  "governance": {
   "ceo": {
@@ -74,8 +85,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 128181000.0,
+    "official": 128181000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 82298000.0,
+    "official": 82298000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 217067000.0,
+    "official": 217067000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 425129000.0,
+    "official": 425129000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:15:55+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -107,7 +149,9 @@
    "goodwill_and_intangibles": 22074000.0,
    "retained_earnings": 80629000.0,
    "total_debt": 9569000.0,
-   "shares_out": 825215863.0
+   "shares_out": 825215863.0,
+   "normalized_ebitda": 246091000.0,
+   "normalized_income": 195681000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -139,7 +183,9 @@
    "goodwill_and_intangibles": 21842000.0,
    "retained_earnings": 81664000.0,
    "total_debt": 7403000.0,
-   "shares_out": 799543276.0
+   "shares_out": 799543276.0,
+   "normalized_ebitda": 264957000.0,
+   "normalized_income": 199151000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -171,7 +217,9 @@
    "goodwill_and_intangibles": 36245000.0,
    "retained_earnings": 99392000.0,
    "total_debt": 6162000.0,
-   "shares_out": 780354792.0
+   "shares_out": 780354792.0,
+   "normalized_ebitda": 264549000.0,
+   "normalized_income": 192713000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -203,7 +251,9 @@
    "goodwill_and_intangibles": 41130000.0,
    "retained_earnings": 101670000.0,
    "total_debt": 7184000.0,
-   "shares_out": 759351653.0
+   "shares_out": 759351653.0,
+   "normalized_ebitda": 298381000.0,
+   "normalized_income": 217067000.0
   }
  ]
 }

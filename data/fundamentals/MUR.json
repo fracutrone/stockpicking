@@ -1,6 +1,6 @@
 {
  "ticker": "MUR",
- "fetched_at": "2026-10-10T12:52:32+00:00",
+ "fetched_at": "2026-10-10T15:50:35+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 813,
   "website": "https://www.murphyoilcorp.com",
-  "longBusinessSummary": "Murphy Oil Corporation, together with its subsidiaries, operates as an oil and gas exploration and production company in the United States, Canada, and internationally. It explores for and produces crude oil, natural gas, and natural gas liquids. Murphy Oil Corporation was formerly known as Murphy Corporation and changed its name to Murphy Oil Corporation in 1964. The company was incorporated in 1950 and is headquartered in Houston, Texas."
+  "longBusinessSummary": "Murphy Oil Corporation, together with its subsidiaries, operates as an oil and gas exploration and production company in the United States, Canada, and internationally. It explores for and produces crude oil, natural gas, and natural gas liquids. Murphy Oil Corporation was formerly known as Murphy Corporation and changed its name to Murphy Oil Corporation in 1964. The company was incorporated in 1950 and is headquartered in Houston, Texas.",
+  "targetMeanPrice": 40.21429,
+  "targetLowPrice": 32.0,
+  "targetHighPrice": 52.0,
+  "numberOfAnalystOpinions": 14,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.875,
+  "forwardPE": 12.155725,
+  "forwardEps": 3.18204,
+  "trailingEps": 2.02,
+  "earningsGrowth": 9.166,
+  "revenueGrowth": 0.356
  },
  "governance": {
   "ceo": {
@@ -82,8 +93,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "goodwill": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 9832626000.0,
+    "official": 9832626000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 5118380000.0,
+    "official": 5118380000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 104234000.0,
+    "official": 104234000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2689845000.0,
+    "official": 2718823000.0,
+    "diff": 0.010658
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:50:35+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -187,7 +229,10 @@
    "ppe_net": 8228016000.0,
    "retained_earnings": 6055498000.0,
    "total_debt": 1818295000.0,
-   "shares_out": 155455283.0
+   "shares_out": 155455283.0,
+   "unusual_items": -344490000.0,
+   "normalized_ebitda": 2722327000.0,
+   "normalized_income": 1238105987.925622
   },
   {
    "fy_end": "2023-12-31",
@@ -218,7 +263,10 @@
    "ppe_net": 8225197000.0,
    "retained_earnings": 6546079000.0,
    "total_debt": 1324837000.0,
-   "shares_out": 152748642.0
+   "shares_out": 152748642.0,
+   "unusual_items": -31494000.0,
+   "normalized_ebitda": 1926538000.0,
+   "normalized_income": 687820897.137999
   },
   {
    "fy_end": "2024-12-31",
@@ -249,7 +297,10 @@
    "ppe_net": 8054653000.0,
    "retained_earnings": 6773289000.0,
    "total_debt": 1270496000.0,
-   "shares_out": 145845124.0
+   "shares_out": 145845124.0,
+   "unusual_items": -92195000.0,
+   "normalized_ebitda": 1631443000.0,
+   "normalized_income": 489455090.0
   },
   {
    "fy_end": "2025-12-31",
@@ -280,7 +331,10 @@
    "ppe_net": 8136346000.0,
    "retained_earnings": 6691318000.0,
    "total_debt": 1272426000.0,
-   "shares_out": 142785152.0
+   "shares_out": 142785152.0,
+   "unusual_items": -125262000.0,
+   "normalized_ebitda": 1381953000.0,
+   "normalized_income": 198447072.0
   }
  ]
 }

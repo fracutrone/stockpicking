@@ -1,6 +1,6 @@
 {
  "ticker": "ELV",
- "fetched_at": "2026-10-10T12:44:17+00:00",
+ "fetched_at": "2026-10-10T15:42:40+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 96129,
   "website": "https://www.elevancehealth.com",
-  "longBusinessSummary": "Elevance Health, Inc., together with its subsidiaries, operates as a health benefits company in the United States. The company operates in four segments: Health Benefits, CarelonRx, Carelon Services, and Corporate & Other. It offers a variety of health plans and services to individual, employer group risk-based and fee-based, BlueCard, Medicare, Medicaid, and FEP members; health products; a broad array of fee-based administrative managed care services; and specialty and other insurance products and services, such as stop loss, dental, vision, and supplemental health insurance benefits. The company also operates in the pharmacy services business; and markets and offers pharmacy services, including home delivery and specialty pharmacies, claims adjudication, formulary management, pharmacy networks, rebate administration, a prescription drug database, and member services, as well as infusion services and injectable therapies through ambulatory infusion centers. In addition, it provides healthcare related services and capabilities, including specialty care enablement and utilization management support for specialized clinical domains; behavioral health and comprehensive care management services; palliative care services and management; virtual care; and payment integrity, subrogation, clinical data exchange through its HealthOS platform, research and data, reporting and clinical analytics, information technology, and business process support services, as well as manages home health, post-acute institutional management, and durable medical equipment costs; and supports plans in managing home and community-based services. The company provides its services under the Anthem Blue Cross and Blue Shield, Wellpoint, and Carelon brands. The company was formerly known as Anthem, Inc. and changed its name to Elevance Health, Inc. in June 2022. Elevance Health, Inc. was incorporated in 2001 and is based in Indianapolis, Indiana."
+  "longBusinessSummary": "Elevance Health, Inc., together with its subsidiaries, operates as a health benefits company in the United States. The company operates in four segments: Health Benefits, CarelonRx, Carelon Services, and Corporate & Other. It offers a variety of health plans and services to individual, employer group risk-based and fee-based, BlueCard, Medicare, Medicaid, and FEP members; health products; a broad array of fee-based administrative managed care services; and specialty and other insurance products and services, such as stop loss, dental, vision, and supplemental health insurance benefits. The company also operates in the pharmacy services business; and markets and offers pharmacy services, including home delivery and specialty pharmacies, claims adjudication, formulary management, pharmacy networks, rebate administration, a prescription drug database, and member services, as well as infusion services and injectable therapies through ambulatory infusion centers. In addition, it provides healthcare related services and capabilities, including specialty care enablement and utilization management support for specialized clinical domains; behavioral health and comprehensive care management services; palliative care services and management; virtual care; and payment integrity, subrogation, clinical data exchange through its HealthOS platform, research and data, reporting and clinical analytics, information technology, and business process support services, as well as manages home health, post-acute institutional management, and durable medical equipment costs; and supports plans in managing home and community-based services. The company provides its services under the Anthem Blue Cross and Blue Shield, Wellpoint, and Carelon brands. The company was formerly known as Anthem, Inc. and changed its name to Elevance Health, Inc. in June 2022. Elevance Health, Inc. was incorporated in 2001 and is based in Indianapolis, Indiana.",
+  "targetMeanPrice": 451.4762,
+  "targetLowPrice": 393.0,
+  "targetHighPrice": 492.0,
+  "numberOfAnalystOpinions": 21,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.77273,
+  "forwardPE": 13.947898,
+  "forwardEps": 29.58869,
+  "trailingEps": 22.59,
+  "earningsGrowth": -0.131,
+  "revenueGrowth": 0.014
  },
  "governance": {
   "ceo": {
@@ -78,11 +89,41 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "cogs": "sec",
   "operating_income": "sec",
   "current_assets": "sec",
   "current_liabilities": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 121494000000.0,
+    "official": 121494000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 43882000000.0,
+    "official": 43882000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 5662000000.0,
+    "official": 5662000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 199125000000.0,
+    "official": 199125000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:42:40+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -191,7 +232,9 @@
    "goodwill_and_intangibles": 34698000000.0,
    "retained_earnings": 29647000000.0,
    "total_debt": 24114000000.0,
-   "shares_out": 237958067.0
+   "shares_out": 237958067.0,
+   "unusual_items": 0.0,
+   "normalized_income": 5894000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -222,7 +265,9 @@
    "goodwill_and_intangibles": 35590000000.0,
    "retained_earnings": 31749000000.0,
    "total_debt": 25120000000.0,
-   "shares_out": 233071088.0
+   "shares_out": 233071088.0,
+   "unusual_items": 0.0,
+   "normalized_income": 5987000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -253,7 +298,9 @@
    "goodwill_and_intangibles": 40371000000.0,
    "retained_earnings": 33549000000.0,
    "total_debt": 31232000000.0,
-   "shares_out": 227479695.0
+   "shares_out": 227479695.0,
+   "unusual_items": 201000000.0,
+   "normalized_income": 5828245000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -284,7 +331,9 @@
    "goodwill_and_intangibles": 39544000000.0,
    "retained_earnings": 35393000000.0,
    "total_debt": 32046000000.0,
-   "shares_out": 220723898.0
+   "shares_out": 220723898.0,
+   "unusual_items": 0.0,
+   "normalized_income": 5662000000.0
   }
  ]
 }

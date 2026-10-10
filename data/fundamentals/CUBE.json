@@ -1,6 +1,6 @@
 {
  "ticker": "CUBE",
- "fetched_at": "2026-10-10T12:42:29+00:00",
+ "fetched_at": "2026-10-10T15:40:58+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 3121,
   "website": "https://www.cubesmart.com",
-  "longBusinessSummary": "CubeSmart is a self-administered and self-managed real estate investment trust. The Company's self-storage properties are designed to offer affordable, easily accessible and, in most locations, climate-controlled storage space for residential and commercial customers. According to the 2026 Self-Storage Almanac, CubeSmart is one of the top three owners and operators of self-storage properties in the United States. CubeSmart was incorporated in 2004 in Maryland and is based in Malvern, Pennsylvania."
+  "longBusinessSummary": "CubeSmart is a self-administered and self-managed real estate investment trust. The Company's self-storage properties are designed to offer affordable, easily accessible and, in most locations, climate-controlled storage space for residential and commercial customers. According to the 2026 Self-Storage Almanac, CubeSmart is one of the top three owners and operators of self-storage properties in the United States. CubeSmart was incorporated in 2004 in Maryland and is based in Malvern, Pennsylvania.",
+  "targetMeanPrice": 43.625,
+  "targetLowPrice": 40.0,
+  "targetHighPrice": 48.0,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.33333,
+  "forwardPE": 23.701328,
+  "forwardEps": 1.60202,
+  "trailingEps": 1.46,
+  "earningsGrowth": 0.083,
+  "revenueGrowth": 0.015
  },
  "governance": {
   "ceo": {
@@ -80,9 +91,40 @@
   "retained_earnings": "sec",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "capex": "sec",
   "intangibles": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 6643193000.0,
+    "official": 6643193000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2719443000.0,
+    "official": 2719443000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 333782000.0,
+    "official": 331317000.0,
+    "diff": 0.00744
+   },
+   "revenue": {
+    "yahoo": 1123110000.0,
+    "official": 1123110000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:40:58+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -158,7 +200,10 @@
    "goodwill_and_intangibles": 1181000.0,
    "retained_earnings": -1301030000.0,
    "total_debt": 3061926000.0,
-   "shares_out": 224603462.0
+   "shares_out": 224603462.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 700263000.0,
+   "normalized_income": 291263000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -188,7 +233,10 @@
    "goodwill_and_intangibles": 1806000.0,
    "retained_earnings": -1345239000.0,
    "total_debt": 2988490000.0,
-   "shares_out": 224921053.0
+   "shares_out": 224921053.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 710879000.0,
+   "normalized_income": 410757000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -218,7 +266,10 @@
    "goodwill_and_intangibles": 10332000.0,
    "retained_earnings": -1415662000.0,
    "total_debt": 3052214000.0,
-   "shares_out": 227764975.0
+   "shares_out": 227764975.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 692475000.0,
+   "normalized_income": 391180000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -248,7 +299,10 @@
    "goodwill_and_intangibles": 7792000.0,
    "retained_earnings": -1585135000.0,
    "total_debt": 3468341000.0,
-   "shares_out": 227269217.0
+   "shares_out": 227269217.0,
+   "unusual_items": -3692000.0,
+   "normalized_ebitda": 712231000.0,
+   "normalized_income": 336698680.0
   }
  ]
 }

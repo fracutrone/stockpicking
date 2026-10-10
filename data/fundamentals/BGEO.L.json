@@ -1,6 +1,6 @@
 {
  "ticker": "BGEO.L",
- "fetched_at": "2026-10-10T11:47:50+00:00",
+ "fetched_at": "2026-10-10T14:35:05+00:00",
  "region": "Europa",
  "statement_currency": "GEL",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.18118,
   "heldPercentInstitutions": 0.54266,
   "shortPercentOfFloat": null,
-  "averageVolume": 72046,
+  "averageVolume": 72579,
   "quoteType": "EQUITY",
   "exchange": "LSE",
   "fullTimeEmployees": 13343,
   "website": "https://lionfinancegroup.uk",
-  "longBusinessSummary": "Lion Finance Group PLC, through its subsidiaries, provides banking and financial services with focus on the Georgian and Armenian markets. The company operates through Georgian Financial Services, Armenian Financial Services, and Other Businesses segments. The Georgian Financial Services segment provides retail banking, SME, and corporate and investment banking, and corporate center services; and brokerage and asset management services. The Armenian Financial Services offers retail banking, and investment banking services. The Other Businesses segment provides retail and corporate banking services for retail and SME clients in Belarus; and e-commerce, ticketing, and inventory management SaaS services. It also offers information sharing and market research services, charitable activities, leasing, digital, transportation, trade, registrar, card processing, electronic payment services, communication services, business servicing, and consulting services. The company was formerly known as Bank of Georgia Group PLC and changed its name to Lion Finance Group PLC in February 2024. Lion Finance Group PLC was incorporated in 2017 and is headquartered in London, the United Kingdom."
+  "longBusinessSummary": "Lion Finance Group PLC, through its subsidiaries, provides banking and financial services with focus on the Georgian and Armenian markets. The company operates through Georgian Financial Services, Armenian Financial Services, and Other Businesses segments. The Georgian Financial Services segment provides retail banking, SME, and corporate and investment banking, and corporate center services; and brokerage and asset management services. The Armenian Financial Services offers retail banking, and investment banking services. The Other Businesses segment provides retail and corporate banking services for retail and SME clients in Belarus; and e-commerce, ticketing, and inventory management SaaS services. It also offers information sharing and market research services, charitable activities, leasing, digital, transportation, trade, registrar, card processing, electronic payment services, communication services, business servicing, and consulting services. The company was formerly known as Bank of Georgia Group PLC and changed its name to Lion Finance Group PLC in February 2024. Lion Finance Group PLC was incorporated in 2017 and is headquartered in London, the United Kingdom.",
+  "targetMeanPrice": 14780.0,
+  "targetLowPrice": 13800.0,
+  "targetHighPrice": 16700.0,
+  "numberOfAnalystOpinions": 5,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 6.726312,
+  "forwardEps": 18.40533,
+  "trailingEps": 14.78,
+  "earningsGrowth": 0.222,
+  "revenueGrowth": 0.19
  },
  "governance": {
   "ceo": {
@@ -62,8 +73,34 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 60869856000.0,
+    "official": 60869856000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 8420184000.0,
+    "official": 8420184000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2161329000.0,
+    "official": 2161329000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:35:05+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -89,7 +126,9 @@
    "goodwill_and_intangibles": 182792000.0,
    "retained_earnings": 3709170000.0,
    "total_debt": 2873429000.0,
-   "shares_out": 47498982.0
+   "shares_out": 47498982.0,
+   "unusual_items": 396239000.0,
+   "normalized_income": 1089481783.739027
   },
   {
    "fy_end": "2023-12-31",
@@ -115,7 +154,9 @@
    "goodwill_and_intangibles": 209115000.0,
    "retained_earnings": 4510780000.0,
    "total_debt": 3056035000.0,
-   "shares_out": 43610758.0
+   "shares_out": 43610758.0,
+   "unusual_items": 95464000.0,
+   "normalized_income": 1310739304.049151
   },
   {
    "fy_end": "2024-12-31",
@@ -141,7 +182,9 @@
    "goodwill_and_intangibles": 363503000.0,
    "retained_earnings": 6422320000.0,
    "total_debt": 6853950000.0,
-   "shares_out": 42935561.0
+   "shares_out": 42935561.0,
+   "unusual_items": 680015000.0,
+   "normalized_income": 1197664824.987158
   },
   {
    "fy_end": "2025-12-31",
@@ -167,7 +210,9 @@
    "goodwill_and_intangibles": 417655000.0,
    "retained_earnings": 7776662000.0,
    "total_debt": 8609208000.0,
-   "shares_out": 43456333.0
+   "shares_out": 43456333.0,
+   "unusual_items": 30849000.0,
+   "normalized_income": 2133980068.482327
   }
  ]
 }

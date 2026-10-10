@@ -1,6 +1,6 @@
 {
  "ticker": "MCD",
- "fetched_at": "2026-10-10T12:51:12+00:00",
+ "fetched_at": "2026-10-10T15:49:26+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 150000,
   "website": "https://www.mcdonalds.com",
-  "longBusinessSummary": "McDonald's Corporation owns, operates, and franchises restaurants under the McDonald's brand in the United States and internationally. It offers food and beverages, including hamburgers and cheeseburgers, various chicken sandwiches, fries, shakes, frozen desserts, sundaes, soft serve cones, cookies, pies, soft drinks, coffee, and other beverages; and full or limited breakfast, as well as sells various other products during limited-time promotions. The company owns and operates franchised restaurants under various structures, including conventional franchise, developmental license, or affiliate. McDonald's Corporation was founded in 1940 and is based in Chicago, Illinois."
+  "longBusinessSummary": "McDonald's Corporation owns, operates, and franchises restaurants under the McDonald's brand in the United States and internationally. It offers food and beverages, including hamburgers and cheeseburgers, various chicken sandwiches, fries, shakes, frozen desserts, sundaes, soft serve cones, cookies, pies, soft drinks, coffee, and other beverages; and full or limited breakfast, as well as sells various other products during limited-time promotions. The company owns and operates franchised restaurants under various structures, including conventional franchise, developmental license, or affiliate. McDonald's Corporation was founded in 1940 and is based in Chicago, Illinois.",
+  "targetMeanPrice": 292.2069,
+  "targetLowPrice": 230.0,
+  "targetHighPrice": 390.0,
+  "numberOfAnalystOpinions": 29,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.05882,
+  "forwardPE": 17.087927,
+  "forwardEps": 13.76586,
+  "trailingEps": 12.31,
+  "earningsGrowth": 0.057,
+  "revenueGrowth": 0.037
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 59515000000.0,
+    "official": 59515000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": -1790000000.0,
+    "official": -1791000000.0,
+    "diff": 0.000558
+   },
+   "net_income": {
+    "yahoo": 8563000000.0,
+    "official": 8563000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 26885000000.0,
+    "official": 26885000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:49:26+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -184,7 +226,10 @@
    "goodwill_and_intangibles": 2900400000.0,
    "retained_earnings": 59543900000.0,
    "total_debt": 35903500000.0,
-   "shares_out": 731300000.0
+   "shares_out": 731300000.0,
+   "unusual_items": -953000000.0,
+   "normalized_ebitda": 11856000000.0,
+   "normalized_income": 6928917000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -217,7 +262,10 @@
    "goodwill_and_intangibles": 3040000000.0,
    "retained_earnings": 63480000000.0,
    "total_debt": 39693000000.0,
-   "shares_out": 722700000.0
+   "shares_out": 722700000.0,
+   "unusual_items": -233000000.0,
+   "normalized_ebitda": 14094000000.0,
+   "normalized_income": 8656565000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -250,7 +298,10 @@
    "goodwill_and_intangibles": 3145000000.0,
    "retained_earnings": 66834000000.0,
    "total_debt": 39214000000.0,
-   "shares_out": 715200000.0
+   "shares_out": 715200000.0,
+   "unusual_items": -303000000.0,
+   "normalized_ebitda": 14251000000.0,
+   "normalized_income": 8463876945.384244
   },
   {
    "fy_end": "2025-12-31",
@@ -283,7 +334,10 @@
    "goodwill_and_intangibles": 3354000000.0,
    "retained_earnings": 70282000000.0,
    "total_debt": 40771000000.0,
-   "shares_out": 710600000.0
+   "shares_out": 710600000.0,
+   "unusual_items": -233000000.0,
+   "normalized_ebitda": 14911000000.0,
+   "normalized_income": 8746094337.891163
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "EL",
- "fetched_at": "2026-10-10T12:44:09+00:00",
+ "fetched_at": "2026-10-10T15:42:34+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 37950,
   "website": "https://www.elcompanies.com",
-  "longBusinessSummary": "The Estée Lauder Companies Inc. manufactures, markets, and sells skin care, makeup, fragrance, and hair care products worldwide. The company provides skin care products, including moisturizers, serums, cleansers, toners, eye care, body care, exfoliators, acne care and oil correctors, facial masks, and sun care products; and makeup products, such as foundations, powders, concealers and setting sprays, lipsticks, lip liners and lip glosses, mascaras, and eyeshadows and eyeliners, as well as compacts, brushes, and other makeup tools. It also offers fragrance products in various forms comprising parfum, eau de parfum, eau de toilette, eau de cologne, and body spray, as well as lotions, creams, powders, candles and soaps; and hair care products, including shampoos, conditioners, styling products, treatment, finishing sprays, and hair color products, as well as sells ancillary products and services. The company provides its products under the La Mer, Jo Malone London, TOM FORD, AERIN Beauty, Le Labo, Editions de Parfums Frédéric Malle, KILIAN PARIS, BALMAIN Beauty, Estée Lauder, Clinique, M·A·C, The Ordinary, Aveda, Bobbi Brown Cosmetics, Too Faced, Dr.Jart+, Bumble and bumble, Smashbox, Darphin Paris, Lab Series, Avestan, Loopha, Origins, NIOD, Aramis, and GLAMGLOW brands. It sells its products through department stores, duty-free retailers, specialty multi retailers, online pure players, upscale perfumeries and pharmacies, and top-tier salons and spas, as well as direct-to-consumer businesses across freestanding stores, and brand websites and third-party online platforms. The Estée Lauder Companies Inc. was founded in 1946 and is based in New York, New York."
+  "longBusinessSummary": "The Estée Lauder Companies Inc. manufactures, markets, and sells skin care, makeup, fragrance, and hair care products worldwide. The company provides skin care products, including moisturizers, serums, cleansers, toners, eye care, body care, exfoliators, acne care and oil correctors, facial masks, and sun care products; and makeup products, such as foundations, powders, concealers and setting sprays, lipsticks, lip liners and lip glosses, mascaras, and eyeshadows and eyeliners, as well as compacts, brushes, and other makeup tools. It also offers fragrance products in various forms comprising parfum, eau de parfum, eau de toilette, eau de cologne, and body spray, as well as lotions, creams, powders, candles and soaps; and hair care products, including shampoos, conditioners, styling products, treatment, finishing sprays, and hair color products, as well as sells ancillary products and services. The company provides its products under the La Mer, Jo Malone London, TOM FORD, AERIN Beauty, Le Labo, Editions de Parfums Frédéric Malle, KILIAN PARIS, BALMAIN Beauty, Estée Lauder, Clinique, M·A·C, The Ordinary, Aveda, Bobbi Brown Cosmetics, Too Faced, Dr.Jart+, Bumble and bumble, Smashbox, Darphin Paris, Lab Series, Avestan, Loopha, Origins, NIOD, Aramis, and GLAMGLOW brands. It sells its products through department stores, duty-free retailers, specialty multi retailers, online pure players, upscale perfumeries and pharmacies, and top-tier salons and spas, as well as direct-to-consumer businesses across freestanding stores, and brand websites and third-party online platforms. The Estée Lauder Companies Inc. was founded in 1946 and is based in New York, New York.",
+  "targetMeanPrice": 107.34,
+  "targetLowPrice": 70.0,
+  "targetHighPrice": 127.0,
+  "numberOfAnalystOpinions": 28,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.26667,
+  "forwardPE": 24.965816,
+  "forwardEps": 3.92737,
+  "trailingEps": 0.5,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.063
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-06-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 19762000000.0,
+    "official": 19762000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3806000000.0,
+    "official": 3806000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 182000000.0,
+    "official": 182000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 15049000000.0,
+    "official": 15049000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:42:34+00:00",
  "years": [
   {
    "fy_end": "2020-06-30",
@@ -204,7 +246,10 @@
    "goodwill_and_intangibles": 8088000000.0,
    "retained_earnings": 13991000000.0,
    "total_debt": 8117000000.0,
-   "shares_out": 357619915.0
+   "shares_out": 357619915.0,
+   "unusual_items": -262000000.0,
+   "normalized_ebitda": 2658000000.0,
+   "normalized_income": 1195426000.0
   },
   {
    "fy_end": "2024-06-30",
@@ -238,7 +283,10 @@
    "goodwill_and_intangibles": 7326000000.0,
    "retained_earnings": 13427000000.0,
    "total_debt": 7267000000.0,
-   "shares_out": 358688603.0
+   "shares_out": 358688603.0,
+   "unusual_items": -593000000.0,
+   "normalized_ebitda": 2568000000.0,
+   "normalized_income": 831014100.0
   },
   {
    "fy_end": "2025-06-30",
@@ -272,7 +320,10 @@
    "goodwill_and_intangibles": 5894000000.0,
    "retained_earnings": 11672000000.0,
    "total_debt": 7314000000.0,
-   "shares_out": 359766854.0
+   "shares_out": 359766854.0,
+   "unusual_items": -1926000000.0,
+   "normalized_ebitda": 2072000000.0,
+   "normalized_income": 300521800.0
   },
   {
    "fy_end": "2026-06-30",
@@ -306,7 +357,10 @@
    "goodwill_and_intangibles": 5686000000.0,
    "retained_earnings": 11341000000.0,
    "total_debt": 6803000000.0,
-   "shares_out": 361798567.0
+   "shares_out": 361798567.0,
+   "unusual_items": -897000000.0,
+   "normalized_ebitda": 2544000000.0,
+   "normalized_income": 720200000.0
   }
  ]
 }

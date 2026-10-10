@@ -1,6 +1,6 @@
 {
  "ticker": "VMI",
- "fetched_at": "2026-10-10T13:01:30+00:00",
+ "fetched_at": "2026-10-10T15:59:00+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 10791,
   "website": "https://www.valmont.com",
-  "longBusinessSummary": "Valmont Industries, Inc. operates as a manufacturer of products and services for infrastructure and agriculture markets in the United States, Australia, Brazil, and internationally. The company operates in two segments, Infrastructure and Agriculture. It manufactures and distributes steel, pre-stressed concrete, composite structures for electrical transmission, substation, and distribution applications; and designs, engineers, and manufactures metal, steel, wood, aluminum, and composite poles and structures for lighting and transportation applications. The company also offers galvanizing and painting, and powder coating services for paint products; towers, small cell structures, camouflage concealment solutions, passive intermodulation mitigation equipment, and components for wireless communication markets; and solar single-axis tracker product, an integrated system of steel structures, electric motors, and electronic controllers, as well as provides coatings services to protect metal products. In addition, it manufactures center pivot components and linear irrigation equipment for the agricultural markets, such as parts and tubular products for industrial customers; advanced technology solutions for agricultural sector; mechanical irrigation equipment and service parts under the Valley brand name. Valmont Industries, Inc. was founded in 1946 and is headquartered in Omaha, Nebraska."
+  "longBusinessSummary": "Valmont Industries, Inc. operates as a manufacturer of products and services for infrastructure and agriculture markets in the United States, Australia, Brazil, and internationally. The company operates in two segments, Infrastructure and Agriculture. It manufactures and distributes steel, pre-stressed concrete, composite structures for electrical transmission, substation, and distribution applications; and designs, engineers, and manufactures metal, steel, wood, aluminum, and composite poles and structures for lighting and transportation applications. The company also offers galvanizing and painting, and powder coating services for paint products; towers, small cell structures, camouflage concealment solutions, passive intermodulation mitigation equipment, and components for wireless communication markets; and solar single-axis tracker product, an integrated system of steel structures, electric motors, and electronic controllers, as well as provides coatings services to protect metal products. In addition, it manufactures center pivot components and linear irrigation equipment for the agricultural markets, such as parts and tubular products for industrial customers; advanced technology solutions for agricultural sector; mechanical irrigation equipment and service parts under the Valley brand name. Valmont Industries, Inc. was founded in 1946 and is headquartered in Omaha, Nebraska.",
+  "targetMeanPrice": 624.5,
+  "targetLowPrice": 600.0,
+  "targetHighPrice": 678.0,
+  "numberOfAnalystOpinions": 4,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 18.007168,
+  "forwardEps": 25.9791,
+  "trailingEps": 25.62,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.065
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3369329000.0,
+    "official": 3369329000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1632787000.0,
+    "official": 1632787000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 334784000.0,
+    "official": 350273000.0,
+    "diff": 0.04422
+   },
+   "revenue": {
+    "yahoo": 4104102000.0,
+    "official": 4104102000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:59:00+00:00",
  "years": [
   {
    "fy_end": "2020-12-26",
@@ -175,7 +217,10 @@
    "goodwill_and_intangibles": 916476000.0,
    "retained_earnings": 2593039000.0,
    "total_debt": 872129000.0,
-   "shares_out": 21350167.0
+   "shares_out": 21350167.0,
+   "unusual_items": -36647000.0,
+   "normalized_ebitda": 545236000.0,
+   "normalized_income": 276552547.0
   },
   {
    "fy_end": "2022-12-31",
@@ -209,7 +254,10 @@
    "goodwill_and_intangibles": 916476000.0,
    "retained_earnings": 2593039000.0,
    "total_debt": 872129000.0,
-   "shares_out": 21350167.0
+   "shares_out": 21350167.0,
+   "unusual_items": -36647000.0,
+   "normalized_ebitda": 545236000.0,
+   "normalized_income": 276552547.0
   },
   {
    "fy_end": "2023-12-30",
@@ -243,7 +291,10 @@
    "goodwill_and_intangibles": 783651000.0,
    "retained_earnings": 2643606000.0,
    "total_debt": 1108604000.0,
-   "shares_out": 20208808.0
+   "shares_out": 20208808.0,
+   "unusual_items": -169496000.0,
+   "normalized_ebitda": 561464000.0,
+   "normalized_income": 248393024.0
   },
   {
    "fy_end": "2024-12-28",
@@ -277,7 +328,10 @@
    "goodwill_and_intangibles": 757929000.0,
    "retained_earnings": 2940838000.0,
    "total_debt": 730633000.0,
-   "shares_out": 20031618.0
+   "shares_out": 20031618.0,
+   "unusual_items": -840000.0,
+   "normalized_ebitda": 623638000.0,
+   "normalized_income": 348887552.298898
   },
   {
    "fy_end": "2025-12-27",
@@ -311,7 +365,10 @@
    "goodwill_and_intangibles": 692295000.0,
    "retained_earnings": 3156235000.0,
    "total_debt": 795663000.0,
-   "shares_out": 19056720.0
+   "shares_out": 19056720.0,
+   "unusual_items": -103140000.0,
+   "normalized_ebitda": 609833000.0,
+   "normalized_income": 431406364.35566
   }
  ]
 }

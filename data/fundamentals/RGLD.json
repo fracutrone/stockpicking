@@ -1,6 +1,6 @@
 {
  "ticker": "RGLD",
- "fetched_at": "2026-10-10T12:56:44+00:00",
+ "fetched_at": "2026-10-10T15:54:25+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 39,
   "website": "https://www.royalgold.com",
-  "longBusinessSummary": "Royal Gold, Inc., together with its subsidiaries, acquires and manages precious metal streams, royalties, and related interests in North America, South and Central America, Europe, the Middle East, Africa, and the Australia Pacific. It operates through Acquisition and Management of Stream Interests and Acquisition and Management of Royalty Interests segments. The company engages in the acquisition of existing stream and royalty interests; and the financing of projects that are in production, development, or in the exploration stage in exchange for stream or royalty interests, which consists of gold, silver, copper, nickel, zinc, lead, molybdenum, diamonds, uranium, iron, platinum, palladium, rhodium, lithium, titanium, cobalt, barite, tungsten, and coal. Its properties are located in Canada, Chile, the Dominican Republic, the United States, Zambia, Australia, Ghana, Brazil, Mexico, Bolivia, Argentina, Nicaragua, Macedonia, Botswana, Spain, and internationally. Royal Gold, Inc. was incorporated in 1981 and is based in Denver, Colorado."
+  "longBusinessSummary": "Royal Gold, Inc., together with its subsidiaries, acquires and manages precious metal streams, royalties, and related interests in North America, South and Central America, Europe, the Middle East, Africa, and the Australia Pacific. It operates through Acquisition and Management of Stream Interests and Acquisition and Management of Royalty Interests segments. The company engages in the acquisition of existing stream and royalty interests; and the financing of projects that are in production, development, or in the exploration stage in exchange for stream or royalty interests, which consists of gold, silver, copper, nickel, zinc, lead, molybdenum, diamonds, uranium, iron, platinum, palladium, rhodium, lithium, titanium, cobalt, barite, tungsten, and coal. Its properties are located in Canada, Chile, the Dominican Republic, the United States, Zambia, Australia, Ghana, Brazil, Mexico, Bolivia, Argentina, Nicaragua, Macedonia, Botswana, Spain, and internationally. Royal Gold, Inc. was incorporated in 1981 and is based in Denver, Colorado.",
+  "targetMeanPrice": 310.5,
+  "targetLowPrice": 218.0,
+  "targetHighPrice": 380.0,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.83333,
+  "forwardPE": 18.369362,
+  "forwardEps": 12.86,
+  "trailingEps": 9.03,
+  "earningsGrowth": 0.383,
+  "revenueGrowth": 1.155
  },
  "governance": {
   "ceo": {
@@ -81,8 +92,39 @@
   "ppe_net": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 9537524000.0,
+    "official": 9537524000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 7157130000.0,
+    "official": 7157130000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 466281000.0,
+    "official": 466281000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1030471000.0,
+    "official": 1030471000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:54:26+00:00",
  "years": [
   {
    "fy_end": "2020-06-30",
@@ -170,7 +212,10 @@
    "ppe_net": 3237402000.0,
    "retained_earnings": 527314000.0,
    "total_debt": 571572000.0,
-   "shares_out": 65592597.0
+   "shares_out": 65592597.0,
+   "unusual_items": -5790000.0,
+   "normalized_ebitda": 474763000.0,
+   "normalized_income": 244071410.0
   },
   {
    "fy_end": "2023-12-31",
@@ -201,7 +246,10 @@
    "ppe_net": 3075574000.0,
    "retained_earnings": 666522000.0,
    "total_debt": 245967000.0,
-   "shares_out": 65631760.0
+   "shares_out": 65631760.0,
+   "unusual_items": -147000.0,
+   "normalized_ebitda": 478091000.0,
+   "normalized_income": 239565097.0
   },
   {
    "fy_end": "2024-12-31",
@@ -232,7 +280,10 @@
    "ppe_net": 3042804000.0,
    "retained_earnings": 889989000.0,
    "total_debt": 0,
-   "shares_out": 65691151.0
+   "shares_out": 65691151.0,
+   "unusual_items": -66000.0,
+   "normalized_ebitda": 580333000.0,
+   "normalized_income": 332074499.708983
   },
   {
    "fy_end": "2025-12-31",
@@ -263,7 +314,10 @@
    "ppe_net": 8583875000.0,
    "retained_earnings": 1227169000.0,
    "total_debt": 895436000.0,
-   "shares_out": 84499692.0
+   "shares_out": 84499692.0,
+   "unusual_items": -76198000.0,
+   "normalized_ebitda": 856168000.0,
+   "normalized_income": 528896920.873514
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "BESI.AS",
- "fetched_at": "2026-10-10T11:47:44+00:00",
+ "fetched_at": "2026-10-10T14:34:53+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -11,18 +11,29 @@
   "country": "Netherlands",
   "currency": "EUR",
   "financialCurrency": "EUR",
-  "marketCap": 14198307840,
-  "sharesOutstanding": 79121248,
+  "marketCap": 14196950016,
+  "sharesOutstanding": 79113680,
   "floatShares": 71984291,
   "heldPercentInsiders": 0.10891,
   "heldPercentInstitutions": 0.6259,
   "shortPercentOfFloat": null,
-  "averageVolume": 483608,
+  "averageVolume": 482583,
   "quoteType": "EQUITY",
   "exchange": "AMS",
   "fullTimeEmployees": 1952,
   "website": "https://www.besi.com",
-  "longBusinessSummary": "BE Semiconductor Industries N.V. develops, manufactures, markets, sells, and services semiconductor assembly equipment for the semiconductor and electronics industries in the Netherlands, Switzerland, Austria, Singapore, Malaysia, and internationally. It operates through three segments: Die Attach, Packaging, and Plating. The company offers single chip, multi chip, multi module, flip chip, epoxy and soft solder die bonding systems, hybrid, TCB and embedded bridge die bonding, die lid attach, and fan out wafer level packaging systems; and conventional, ultra-thin and wafer level molding, trim and form, and singulation systems. It also provides tin, copper, precious metal and solar plating systems, and related process chemicals; and tooling, conversion kits, spare parts, and other services. The company sells its products under the Fico, Meco, Datacon, and Esec brands. It serves multinational chip manufacturers, foundries, assembly subcontractors and electronics, and industrial companies. BE Semiconductor Industries N.V. was incorporated in 1995 and is headquartered in Duiven, the Netherlands."
+  "longBusinessSummary": "BE Semiconductor Industries N.V. develops, manufactures, markets, sells, and services semiconductor assembly equipment for the semiconductor and electronics industries in the Netherlands, Switzerland, Austria, Singapore, Malaysia, and internationally. It operates through three segments: Die Attach, Packaging, and Plating. The company offers single chip, multi chip, multi module, flip chip, epoxy and soft solder die bonding systems, hybrid, TCB and embedded bridge die bonding, die lid attach, and fan out wafer level packaging systems; and conventional, ultra-thin and wafer level molding, trim and form, and singulation systems. It also provides tin, copper, precious metal and solar plating systems, and related process chemicals; and tooling, conversion kits, spare parts, and other services. The company sells its products under the Fico, Meco, Datacon, and Esec brands. It serves multinational chip manufacturers, foundries, assembly subcontractors and electronics, and industrial companies. BE Semiconductor Industries N.V. was incorporated in 1995 and is headquartered in Duiven, the Netherlands.",
+  "targetMeanPrice": 270.56522,
+  "targetLowPrice": 159.0,
+  "targetHighPrice": 400.0,
+  "numberOfAnalystOpinions": 23,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.04348,
+  "forwardPE": 27.354599,
+  "forwardEps": 6.56014,
+  "trailingEps": 2.62,
+  "earningsGrowth": 1.78,
+  "revenueGrowth": 0.687
  },
  "governance": {
   "ceo": {
@@ -80,8 +91,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF NL",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 1113747000.0,
+    "official": 1113747000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 416397000.0,
+    "official": 416397000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 131641000.0,
+    "official": 131641000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 591331000.0,
+    "official": 591331000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:34:54+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -115,7 +158,10 @@
    "goodwill_and_intangibles": 126964000.0,
    "retained_earnings": 219389000.0,
    "total_debt": 342885000.0,
-   "shares_out": 78487926.0
+   "shares_out": 78487926.0,
+   "unusual_items": -7559000.0,
+   "normalized_ebitda": 318244000.0,
+   "normalized_income": 247253566.0
   },
   {
    "fy_end": "2023-12-31",
@@ -149,7 +195,10 @@
    "goodwill_and_intangibles": 139070000.0,
    "retained_earnings": 162779000.0,
    "total_debt": 319160000.0,
-   "shares_out": 77015794.0
+   "shares_out": 77015794.0,
+   "unusual_items": -7073000.0,
+   "normalized_ebitda": 252158000.0,
+   "normalized_income": 183117269.0
   },
   {
    "fy_end": "2024-12-31",
@@ -183,7 +232,10 @@
    "goodwill_and_intangibles": 142687000.0,
    "retained_earnings": 169998000.0,
    "total_debt": 544709000.0,
-   "shares_out": 79312140.0
+   "shares_out": 79312140.0,
+   "unusual_items": -6858000.0,
+   "normalized_ebitda": 240646000.0,
+   "normalized_income": 188609970.0
   },
   {
    "fy_end": "2025-12-31",
@@ -217,7 +269,10 @@
    "goodwill_and_intangibles": 149372000.0,
    "retained_earnings": 118800000.0,
    "total_debt": 521238000.0,
-   "shares_out": 79281785.0
+   "shares_out": 79281785.0,
+   "unusual_items": -8551000.0,
+   "normalized_ebitda": 221292000.0,
+   "normalized_income": 138952105.0
   }
  ]
 }

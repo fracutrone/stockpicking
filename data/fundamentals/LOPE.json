@@ -1,6 +1,6 @@
 {
  "ticker": "LOPE",
- "fetched_at": "2026-10-10T12:50:43+00:00",
+ "fetched_at": "2026-10-10T15:48:57+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": null,
   "website": "https://www.gce.com",
-  "longBusinessSummary": "Grand Canyon Education, Inc. operates as an education services company in the United States. The company provides technology services, including learning management system, internal administration, infrastructure, and support services; and academic services, such as program and curriculum, faculty and related training and development, class scheduling, and skills and simulation lab sites. It also offers counseling services and support, which includes admission services, financial aid, counseling services, and field experience counseling; marketing and communication services, including lead acquisition, digital communications strategy, brand identity, media planning and strategy, video, business intelligence, analytics, and data science, and market research and insights; and back-office services, such as finance and accounting, human resources, audit, and procurement services. In addition, it provides education services to 20 university partners. Grand Canyon Education, Inc. was formerly known as Significant Education, Inc. and changed its name to Grand Canyon Education, Inc. in August 2005. The company was founded in 1949 and is headquartered in Phoenix, Arizona."
+  "longBusinessSummary": "Grand Canyon Education, Inc. operates as an education services company in the United States. The company provides technology services, including learning management system, internal administration, infrastructure, and support services; and academic services, such as program and curriculum, faculty and related training and development, class scheduling, and skills and simulation lab sites. It also offers counseling services and support, which includes admission services, financial aid, counseling services, and field experience counseling; marketing and communication services, including lead acquisition, digital communications strategy, brand identity, media planning and strategy, video, business intelligence, analytics, and data science, and market research and insights; and back-office services, such as finance and accounting, human resources, audit, and procurement services. In addition, it provides education services to 20 university partners. Grand Canyon Education, Inc. was formerly known as Significant Education, Inc. and changed its name to Grand Canyon Education, Inc. in August 2005. The company was founded in 1949 and is headquartered in Phoenix, Arizona.",
+  "targetMeanPrice": 194.0,
+  "targetLowPrice": 182.0,
+  "targetHighPrice": 200.0,
+  "numberOfAnalystOpinions": 3,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.33333,
+  "forwardPE": 14.129089,
+  "forwardEps": 11.31,
+  "trailingEps": 8.23,
+  "earningsGrowth": 0.182,
+  "revenueGrowth": 0.067
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 992305000.0,
+    "official": 992305000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 746933000.0,
+    "official": 746933000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 216170000.0,
+    "official": 216170000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1106070000.0,
+    "official": 1106070000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:48:57+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -191,7 +233,10 @@
    "goodwill_and_intangibles": 337566000.0,
    "retained_earnings": 2039727000.0,
    "total_debt": 77441000.0,
-   "shares_out": 31058000.0
+   "shares_out": 31058000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 271298000.0,
+   "normalized_income": 184675000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -225,7 +270,10 @@
    "goodwill_and_intangibles": 329147000.0,
    "retained_earnings": 2244712000.0,
    "total_debt": 99281000.0,
-   "shares_out": 29953000.0
+   "shares_out": 29953000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 281229000.0,
+   "normalized_income": 204985000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -259,7 +307,10 @@
    "goodwill_and_intangibles": 320728000.0,
    "retained_earnings": 2470946000.0,
    "total_debt": 108518000.0,
-   "shares_out": 28858000.0
+   "shares_out": 28858000.0,
+   "unusual_items": -1897000.0,
+   "normalized_ebitda": 315747000.0,
+   "normalized_income": 227707202.196935
   },
   {
    "fy_end": "2025-12-31",
@@ -292,7 +343,10 @@
    "goodwill_and_intangibles": 312309000.0,
    "retained_earnings": 2687116000.0,
    "total_debt": 107323000.0,
-   "shares_out": 27393000.0
+   "shares_out": 27393000.0,
+   "unusual_items": -37411000.0,
+   "normalized_ebitda": 380634000.0,
+   "normalized_income": 245068005.974608
   }
  ]
 }

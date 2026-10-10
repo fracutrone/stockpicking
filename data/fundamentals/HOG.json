@@ -1,6 +1,6 @@
 {
  "ticker": "HOG",
- "fetched_at": "2026-10-10T12:47:50+00:00",
+ "fetched_at": "2026-10-10T15:46:14+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 5500,
   "website": "https://www.harley-davidson.com",
-  "longBusinessSummary": "Harley-Davidson, Inc. manufactures and sells motorcycles in the United States and internationally. The company operates in three segments: Harley-Davidson Motor Company, LiveWire, and Harley-Davidson Financial Services. The Harley-Davidson Motor Company segment designs, manufactures, and sells motorcycles, including cruiser, trike, Grand American touring, standard, sportbike, adventure touring, and dual sport, as well as motorcycle parts, accessories, and apparel, as well as licenses its trademarks and related services. This segment sells its products to retail customers through a network of independent dealers, as well as e-commerce channels. The LiveWire segment sells electric motorcycles, balance bikes for kids, electric bikes, parts and accessories, apparel, and related parts and services. The Harley-Davidson Financial Services segment provides wholesale financing services, such as floorplan and open-account financing of motorcycles, and parts and accessories; and retail financing services, such as installment lending for the purchase of new and used Harley-Davidson motorcycles, as well as point-of-sale insurance and voluntary protection products. This segment also licenses third-party financial institutions that issue credit cards bearing the Harley-Davidson brand. Harley-Davidson, Inc. was founded in 1903 and is based in Milwaukee, Wisconsin."
+  "longBusinessSummary": "Harley-Davidson, Inc. manufactures and sells motorcycles in the United States and internationally. The company operates in three segments: Harley-Davidson Motor Company, LiveWire, and Harley-Davidson Financial Services. The Harley-Davidson Motor Company segment designs, manufactures, and sells motorcycles, including cruiser, trike, Grand American touring, standard, sportbike, adventure touring, and dual sport, as well as motorcycle parts, accessories, and apparel, as well as licenses its trademarks and related services. This segment sells its products to retail customers through a network of independent dealers, as well as e-commerce channels. The LiveWire segment sells electric motorcycles, balance bikes for kids, electric bikes, parts and accessories, apparel, and related parts and services. The Harley-Davidson Financial Services segment provides wholesale financing services, such as floorplan and open-account financing of motorcycles, and parts and accessories; and retail financing services, such as installment lending for the purchase of new and used Harley-Davidson motorcycles, as well as point-of-sale insurance and voluntary protection products. This segment also licenses third-party financial institutions that issue credit cards bearing the Harley-Davidson brand. Harley-Davidson, Inc. was founded in 1903 and is based in Milwaukee, Wisconsin.",
+  "targetMeanPrice": 27.9,
+  "targetLowPrice": 17.0,
+  "targetHighPrice": 33.0,
+  "numberOfAnalystOpinions": 10,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.46667,
+  "forwardPE": 13.436697,
+  "forwardEps": 2.00198,
+  "trailingEps": 1.82,
+  "earningsGrowth": -0.15,
+  "revenueGrowth": -0.059
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 8044815000.0,
+    "official": 8044815000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3140668000.0,
+    "official": 3140668000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 338738000.0,
+    "official": 338738000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 4473175000.0,
+    "official": 4473175000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:46:14+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -199,7 +241,10 @@
    "goodwill_and_intangibles": 68482000.0,
    "retained_earnings": 2490649000.0,
    "total_debt": 6912302000.0,
-   "shares_out": 145862632.0
+   "shares_out": 145862632.0,
+   "unusual_items": 4538000.0,
+   "normalized_ebitda": 1109872000.0,
+   "normalized_income": 737804828.0
   },
   {
    "fy_end": "2023-12-31",
@@ -233,7 +278,10 @@
    "goodwill_and_intangibles": 69724000.0,
    "retained_earnings": 3100925000.0,
    "total_debt": 7125520000.0,
-   "shares_out": 136312009.0
+   "shares_out": 136312009.0,
+   "unusual_items": 46771000.0,
+   "normalized_ebitda": 1009004000.0,
+   "normalized_income": 669075658.0
   },
   {
    "fy_end": "2024-12-31",
@@ -267,7 +315,10 @@
    "goodwill_and_intangibles": 61655000.0,
    "retained_earnings": 3465058000.0,
    "total_debt": 6960382000.0,
-   "shares_out": 124278925.0
+   "shares_out": 124278925.0,
+   "unusual_items": 58964000.0,
+   "normalized_ebitda": 649595000.0,
+   "normalized_income": 404598210.856677
   },
   {
    "fy_end": "2025-12-31",
@@ -300,7 +351,10 @@
    "goodwill_and_intangibles": 63913000.0,
    "retained_earnings": 3717408000.0,
    "total_debt": 2967017000.0,
-   "shares_out": 111659337.0
+   "shares_out": 111659337.0,
+   "unusual_items": 44270000.0,
+   "normalized_ebitda": 620276000.0,
+   "normalized_income": 306972874.948499
   }
  ]
 }

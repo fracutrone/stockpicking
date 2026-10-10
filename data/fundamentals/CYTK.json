@@ -1,6 +1,6 @@
 {
  "ticker": "CYTK",
- "fetched_at": "2026-10-10T12:42:44+00:00",
+ "fetched_at": "2026-10-10T15:41:11+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 673,
   "website": "https://www.cytokinetics.com",
-  "longBusinessSummary": "Cytokinetics, Incorporated, a biopharmaceutical company, focuses on discovering, developing, and commercializing novel muscle activators and muscle inhibitors as potential treatments for debilitating diseases in the United States. The company markets MYQORZO, a novel, oral, and small molecule cardiac myosin inhibitor for the treatment of symptomatic oHCM. It also develops Aficamten, a novel, oral, and small molecule cardiac myosin inhibitor for the treatment of HCM; and omecamtiv mecarbil, a potential treatment across the continuum of care in heart failure with severely reduced ejection fraction. In addition, the company is involved in developing and Ulacamten, a novel, selective, oral, and small molecule cardiac myosin inhibitor designed to reduce the hypercontractility associated with heart failure with preserved ejection fraction in Phase 1 clinical trials; and CK-089, a fast skeletal muscle troponin activator in Phase 1 clinical trials. Cytokinetics, Incorporated was incorporated in 1997 and is headquartered in South San Francisco, California."
+  "longBusinessSummary": "Cytokinetics, Incorporated, a biopharmaceutical company, focuses on discovering, developing, and commercializing novel muscle activators and muscle inhibitors as potential treatments for debilitating diseases in the United States. The company markets MYQORZO, a novel, oral, and small molecule cardiac myosin inhibitor for the treatment of symptomatic oHCM. It also develops Aficamten, a novel, oral, and small molecule cardiac myosin inhibitor for the treatment of HCM; and omecamtiv mecarbil, a potential treatment across the continuum of care in heart failure with severely reduced ejection fraction. In addition, the company is involved in developing and Ulacamten, a novel, selective, oral, and small molecule cardiac myosin inhibitor designed to reduce the hypercontractility associated with heart failure with preserved ejection fraction in Phase 1 clinical trials; and CK-089, a fast skeletal muscle troponin activator in Phase 1 clinical trials. Cytokinetics, Incorporated was incorporated in 1997 and is headquartered in South San Francisco, California.",
+  "targetMeanPrice": 109.95,
+  "targetLowPrice": 85.0,
+  "targetHighPrice": 146.0,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.5,
+  "forwardPE": -14.154956,
+  "forwardEps": -4.44438,
+  "trailingEps": -7.22,
+  "earningsGrowth": null,
+  "revenueGrowth": -0.571
  },
  "governance": {
   "ceo": {
@@ -81,8 +92,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "tax": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 1424537000.0,
+    "official": 1424537000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": -659625000.0,
+    "official": -659625000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -784955000.0,
+    "official": -784955000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 88039000.0,
+    "official": 88039000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:41:11+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -178,7 +220,10 @@
    "ppe_net": 80453000.0,
    "retained_earnings": -1585994000.0,
    "total_debt": 649563000.0,
-   "shares_out": 94833975.0
+   "shares_out": 94833975.0,
+   "unusual_items": -24939000.0,
+   "normalized_ebitda": -307046000.0,
+   "normalized_income": -364016000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -209,7 +254,10 @@
    "ppe_net": 68748000.0,
    "retained_earnings": -2112238000.0,
    "total_debt": 639268000.0,
-   "shares_out": 101637922.0
+   "shares_out": 101637922.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": -456684000.0,
+   "normalized_income": -526244000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -240,7 +288,10 @@
    "ppe_net": 65815000.0,
    "retained_earnings": -2701764000.0,
    "total_debt": 619521000.0,
-   "shares_out": 118209139.0
+   "shares_out": 118209139.0,
+   "unusual_items": 1300000.0,
+   "normalized_ebitda": -494783000.0,
+   "normalized_income": -590826000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -271,7 +322,10 @@
    "ppe_net": 79194000.0,
    "retained_earnings": -3486719000.0,
    "total_debt": 287565000.0,
-   "shares_out": 122943172.0
+   "shares_out": 122943172.0,
+   "unusual_items": -117049000.0,
+   "normalized_ebitda": -553913000.0,
+   "normalized_income": -667906000.0
   }
  ]
 }

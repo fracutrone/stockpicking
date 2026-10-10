@@ -1,6 +1,6 @@
 {
  "ticker": "BCG.L",
- "fetched_at": "2026-10-10T11:47:31+00:00",
+ "fetched_at": "2026-10-10T14:34:36+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.07869,
   "heldPercentInstitutions": 0.78033,
   "shortPercentOfFloat": null,
-  "averageVolume": 1473051,
+  "averageVolume": 1480089,
   "quoteType": "EQUITY",
   "exchange": "LSE",
   "fullTimeEmployees": 174,
   "website": "https://www.balticclassifieds.com",
-  "longBusinessSummary": "Baltic Classifieds Group PLC operates online classifieds portals for automotive, real estate, jobs and services, and general merchandise in Estonia, Latvia, and Lithuania. It operates online classifieds portals for automotive, such as Autoplius.lt and Auto24.ee; and real estate portals, including aruodas.lt, KV.ee, City24.ee, and City24.lv; job. The company also offers service portals comprising Paslaugos.lt, CVbankas.lt, GetaPro.lv, GetaPro.ee; and generalist online classifieds portals, such as skelbiu.lt, Kainos.lt, Osta.ee, and Kuldnebörs.ee. Baltic Classifieds Group PLC was founded in 1999 and is headquartered in Vilnius, Lithuania."
+  "longBusinessSummary": "Baltic Classifieds Group PLC operates online classifieds portals for automotive, real estate, jobs and services, and general merchandise in Estonia, Latvia, and Lithuania. It operates online classifieds portals for automotive, such as Autoplius.lt and Auto24.ee; and real estate portals, including aruodas.lt, KV.ee, City24.ee, and City24.lv; job. The company also offers service portals comprising Paslaugos.lt, CVbankas.lt, GetaPro.lv, GetaPro.ee; and generalist online classifieds portals, such as skelbiu.lt, Kainos.lt, Osta.ee, and Kuldnebörs.ee. Baltic Classifieds Group PLC was founded in 1999 and is headquartered in Vilnius, Lithuania.",
+  "targetMeanPrice": 2.73342,
+  "targetLowPrice": 1.85,
+  "targetHighPrice": 3.33,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.83333,
+  "forwardPE": 15.075956,
+  "forwardEps": 0.15601,
+  "trailingEps": 0.11,
+  "earningsGrowth": 0.084,
+  "revenueGrowth": 0.066
  },
  "governance": {
   "ceo": {
@@ -67,8 +78,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2026-04-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 390872000.0,
+    "official": 390872000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 295515000.0,
+    "official": 295515000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 50943000.0,
+    "official": 50943000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 88485000.0,
+    "official": 88485000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2026-04-30"
+ },
+ "info_at": "2026-10-10T14:34:36+00:00",
  "years": [
   {
    "fy_end": "2023-04-30",
@@ -99,7 +142,10 @@
    "goodwill_and_intangibles": 385633000.0,
    "retained_earnings": 619986000.0,
    "total_debt": 69693000.0,
-   "shares_out": 493363165.0
+   "shares_out": 493363165.0,
+   "unusual_items": -79000.0,
+   "normalized_ebitda": 46050000.0,
+   "normalized_income": 23284520.0
   },
   {
    "fy_end": "2024-04-30",
@@ -130,7 +176,10 @@
    "goodwill_and_intangibles": 369299000.0,
    "retained_earnings": 621090000.0,
    "total_debt": 50297000.0,
-   "shares_out": 485588745.0
+   "shares_out": 485588745.0,
+   "unusual_items": -50000.0,
+   "normalized_ebitda": 55448000.0,
+   "normalized_income": 32094000.0
   },
   {
    "fy_end": "2025-04-30",
@@ -161,7 +210,10 @@
    "goodwill_and_intangibles": 360049000.0,
    "retained_earnings": 636645000.0,
    "total_debt": 25360000.0,
-   "shares_out": 481215298.0
+   "shares_out": 481215298.0,
+   "unusual_items": -43000.0,
+   "normalized_ebitda": 64603000.0,
+   "normalized_income": 44793661.604697
   },
   {
    "fy_end": "2026-04-30",
@@ -192,7 +244,10 @@
    "goodwill_and_intangibles": 352484000.0,
    "retained_earnings": 584236000.0,
    "total_debt": 73194000.0,
-   "shares_out": 444697871.0
+   "shares_out": 444697871.0,
+   "unusual_items": -50000.0,
+   "normalized_ebitda": 68571000.0,
+   "normalized_income": 50986500.0
   }
  ]
 }

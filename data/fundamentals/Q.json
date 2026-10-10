@@ -1,6 +1,6 @@
 {
  "ticker": "Q",
- "fetched_at": "2026-10-10T12:56:16+00:00",
+ "fetched_at": "2026-10-10T15:53:58+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 10000,
   "website": "https://www.qnityelectronics.com",
-  "longBusinessSummary": "Qnity Electronics, Inc. provides materials and solutions to the semiconductor and electronics industries in the United States, rest of Americas, Europe, the Middle East, Africa, Asia Pacific, China, South Korea, Taiwan, and internationally. The company operates in two segments, Semiconductor Technologies and Interconnect Solutions. Its Semiconductor Technologies segment offers chemical mechanical planarization (CMP) pads and slurries, photoresists, functional sub-layers, advanced overcoats, post-CMP cleaners, post-etch residue removers, and emerging cleans. The Interconnect Solutions segment provides copper pillar plating, copper redistribution layer, solder bump plating, under bump metallization, photoresists, packaging dielectrics, gap fillers, phase change, specialty thermal interface materials, thermally conductive insulators, copper plating solutions, dry film photoresists, and laminates and polyimide films. The company was formerly known as Novus SpinCo 1, Inc. and changed its name to Qnity Electronics, Inc. in April 2025. The company was incorporated in 2024 and is headquartered in Wilmington, Delaware."
+  "longBusinessSummary": "Qnity Electronics, Inc. provides materials and solutions to the semiconductor and electronics industries in the United States, rest of Americas, Europe, the Middle East, Africa, Asia Pacific, China, South Korea, Taiwan, and internationally. The company operates in two segments, Semiconductor Technologies and Interconnect Solutions. Its Semiconductor Technologies segment offers chemical mechanical planarization (CMP) pads and slurries, photoresists, functional sub-layers, advanced overcoats, post-CMP cleaners, post-etch residue removers, and emerging cleans. The Interconnect Solutions segment provides copper pillar plating, copper redistribution layer, solder bump plating, under bump metallization, photoresists, packaging dielectrics, gap fillers, phase change, specialty thermal interface materials, thermally conductive insulators, copper plating solutions, dry film photoresists, and laminates and polyimide films. The company was formerly known as Novus SpinCo 1, Inc. and changed its name to Qnity Electronics, Inc. in April 2025. The company was incorporated in 2024 and is headquartered in Wilmington, Delaware.",
+  "targetMeanPrice": 174.25,
+  "targetLowPrice": 150.0,
+  "targetHighPrice": 189.0,
+  "numberOfAnalystOpinions": 8,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.375,
+  "forwardPE": 23.539736,
+  "forwardEps": 5.37814,
+  "trailingEps": 2.8,
+  "earningsGrowth": -0.343,
+  "revenueGrowth": 0.221
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 14070000000.0,
+    "official": 14070000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 7095000000.0,
+    "official": 7095000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 692000000.0,
+    "official": 729000000.0,
+    "diff": 0.050754
+   },
+   "revenue": {
+    "yahoo": 4754000000.0,
+    "official": 4754000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:53:58+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -102,7 +144,10 @@
    "noninterest_expense": 1123000000.0,
    "cfo": 1153000000.0,
    "capex": 202000000.0,
-   "equity": 11306000000.0
+   "equity": 11306000000.0,
+   "unusual_items": -130000000.0,
+   "normalized_ebitda": 1578000000.0,
+   "normalized_income": 883380252.10084
   },
   {
    "fy_end": "2023-12-31",
@@ -133,7 +178,10 @@
    "ppe_net": 1540000000.0,
    "goodwill": 7456000000.0,
    "intangibles": 1536000000.0,
-   "goodwill_and_intangibles": 8992000000.0
+   "goodwill_and_intangibles": 8992000000.0,
+   "unusual_items": -52000000.0,
+   "normalized_ebitda": 1087000000.0,
+   "normalized_income": 550836000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -166,7 +214,10 @@
    "intangibles": 1286000000.0,
    "goodwill_and_intangibles": 8665000000.0,
    "retained_earnings": 0.0,
-   "total_debt": 0
+   "total_debt": 0,
+   "unusual_items": -8000000.0,
+   "normalized_ebitda": 1303000000.0,
+   "normalized_income": 699432000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -200,7 +251,10 @@
    "goodwill_and_intangibles": 8633000000.0,
    "retained_earnings": 18000000.0,
    "total_debt": 4100000000.0,
-   "shares_out": 209479173.0
+   "shares_out": 209479173.0,
+   "unusual_items": -45000000.0,
+   "normalized_ebitda": 1448000000.0,
+   "normalized_income": 726110000.0
   }
  ]
 }

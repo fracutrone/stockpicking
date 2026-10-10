@@ -1,6 +1,6 @@
 {
  "ticker": "JFJ.L",
- "fetched_at": "2026-10-10T12:04:45+00:00",
+ "fetched_at": "2026-10-10T14:59:41+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -11,8 +11,8 @@
   "country": "United Kingdom",
   "currency": "GBp",
   "financialCurrency": "GBP",
-  "marketCap": 1234266112,
-  "sharesOutstanding": 148171203,
+  "marketCap": 1233224960,
+  "sharesOutstanding": 148046203,
   "floatShares": null,
   "heldPercentInsiders": 0.00074,
   "heldPercentInstitutions": 0.62548,
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": "https://am.jpmorgan.com/gb/en/asset-management/per/products/jpmorgan-japanese-investment-trust-plc-gb0001740025",
-  "longBusinessSummary": "JPMorgan Japanese Investment Trust plc is a closed-ended equity mutual fund launched and managed by JPMorgan Funds Limited. The fund is co-managed by JPMorgan Asset Management (UK) Limited and JPMorgan Asset Management (Japan) Limited. It invests in the public equity markets of Japan. The fund seeks to invests in stocks of companies operating across diversified sectors. It benchmarks the performance of its portfolio against the Tokyo Stock Price Index (Total Return Net). The fund was formerly known as The Fleming Japanese Investment Trust plc. JPMorgan Japanese Investment Trust plc was formed on January 1, 1927 and is domiciled in the United Kingdom."
+  "longBusinessSummary": "JPMorgan Japanese Investment Trust plc is a closed-ended equity mutual fund launched and managed by JPMorgan Funds Limited. The fund is co-managed by JPMorgan Asset Management (UK) Limited and JPMorgan Asset Management (Japan) Limited. It invests in the public equity markets of Japan. The fund seeks to invests in stocks of companies operating across diversified sectors. It benchmarks the performance of its portfolio against the Tokyo Stock Price Index (Total Return Net). The fund was formerly known as The Fleming Japanese Investment Trust plc. JPMorgan Japanese Investment Trust plc was formed on January 1, 1927 and is domiciled in the United Kingdom.",
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": 1.49,
+  "earningsGrowth": 0.013,
+  "revenueGrowth": 0.168
  },
  "governance": {
   "insider_6m": {
@@ -49,8 +60,15 @@
   "equity": "yahoo",
   "receivables": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T14:59:41+00:00",
  "years": [
   {
    "fy_end": "2022-09-30",
@@ -70,7 +88,8 @@
    "equity": 730374000.0,
    "receivables": 7161000.0,
    "total_debt": 120214000.0,
-   "shares_out": 154702089.0
+   "shares_out": 154702089.0,
+   "normalized_income": -404073000.0
   },
   {
    "fy_end": "2023-09-30",
@@ -90,7 +109,8 @@
    "equity": 755471000.0,
    "receivables": 12967000.0,
    "total_debt": 109492000.0,
-   "shares_out": 150832089.0
+   "shares_out": 150832089.0,
+   "normalized_income": 52823000.0
   },
   {
    "fy_end": "2024-09-30",
@@ -110,7 +130,8 @@
    "equity": 878603000.0,
    "receivables": 5422000.0,
    "total_debt": 119594000.0,
-   "shares_out": 143152089.0
+   "shares_out": 143152089.0,
+   "normalized_income": 171738000.0
   },
   {
    "fy_end": "2025-09-30",
@@ -130,7 +151,8 @@
    "equity": 1220124000.0,
    "receivables": 7071000.0,
    "total_debt": 65133000.0,
-   "shares_out": 160978203.0
+   "shares_out": 160978203.0,
+   "normalized_income": 241399000.0
   }
  ]
 }

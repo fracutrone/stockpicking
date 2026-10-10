@@ -1,6 +1,6 @@
 {
  "ticker": "SHC.L",
- "fetched_at": "2026-10-10T12:19:01+00:00",
+ "fetched_at": "2026-10-10T15:19:40+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 104,
   "website": "https://www.shaftesburycapital.com",
-  "longBusinessSummary": "Shaftesbury Capital PLC (Shaftesbury Capital) is the leading central London mixed-use REIT and is a constituent of the FTSE-250 Index. Our property portfolio under management, valued at 5.6 billion pounds, extends to 2.8 million square feet of lettable space across the most vibrant areas of London's West End. With a diverse mix of shops, restaurants, cafes, bars, residential apartments and offices, our destinations include the high footfall, thriving neighborhoods of Covent Garden, Carnaby, Soho and Chinatown. Our properties are close to the main West End Underground stations and transport hubs for the Elizabeth Line. Shaftesbury Capital shares are listed on the London Stock Exchange (LSE) (primary) and the Johannesburg Stock Exchange (JSE) (secondary) and the A2X (secondary). Shaftesbury Capital PLC was incorporated on February 3rd, 2010 in United Kingdom."
+  "longBusinessSummary": "Shaftesbury Capital PLC (Shaftesbury Capital) is the leading central London mixed-use REIT and is a constituent of the FTSE-250 Index. Our property portfolio under management, valued at 5.6 billion pounds, extends to 2.8 million square feet of lettable space across the most vibrant areas of London's West End. With a diverse mix of shops, restaurants, cafes, bars, residential apartments and offices, our destinations include the high footfall, thriving neighborhoods of Covent Garden, Carnaby, Soho and Chinatown. Our properties are close to the main West End Underground stations and transport hubs for the Elizabeth Line. Shaftesbury Capital shares are listed on the London Stock Exchange (LSE) (primary) and the Johannesburg Stock Exchange (JSE) (secondary) and the A2X (secondary). Shaftesbury Capital PLC was incorporated on February 3rd, 2010 in United Kingdom.",
+  "targetMeanPrice": 172.27301,
+  "targetLowPrice": 140.0,
+  "targetHighPrice": 200.0,
+  "numberOfAnalystOpinions": 11,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.72727,
+  "forwardPE": 25.261389,
+  "forwardEps": 0.05356,
+  "trailingEps": 0.21,
+  "earningsGrowth": 0.277,
+  "revenueGrowth": 0.043
  },
  "governance": {
   "ceo": {
@@ -66,8 +77,40 @@
   "ppe_net": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 5880900000.0,
+    "official": 5880900000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3954200000.0,
+    "official": 3954200000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 340200000.0,
+    "official": 340200000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 238900000.0,
+    "official": 238900000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:19:40+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -96,7 +139,10 @@
    "ppe_net": 600000.0,
    "retained_earnings": 811700000.0,
    "total_debt": 744400000.0,
-   "shares_out": 851450638.0
+   "shares_out": 851450638.0,
+   "unusual_items": -222200000.0,
+   "normalized_ebitda": 43800000.0,
+   "normalized_income": -31818000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -126,7 +172,10 @@
    "ppe_net": 24000000.0,
    "retained_earnings": 1533900000.0,
    "total_debt": 1632700000.0,
-   "shares_out": 1821672816.0
+   "shares_out": 1821672816.0,
+   "unusual_items": 789200000.0,
+   "normalized_ebitda": 29400000.0,
+   "normalized_income": -38589714.894751
   },
   {
    "fy_end": "2024-12-31",
@@ -156,7 +205,10 @@
    "ppe_net": 25500000.0,
    "retained_earnings": 1724800000.0,
    "total_debt": 1470800000.0,
-   "shares_out": 1821680459.0
+   "shares_out": 1821680459.0,
+   "unusual_items": -11200000.0,
+   "normalized_ebitda": 335900000.0,
+   "normalized_income": 263286687.797147
   },
   {
    "fy_end": "2025-12-31",
@@ -185,7 +237,10 @@
    "ppe_net": 25200000.0,
    "retained_earnings": 1998100000.0,
    "total_debt": 1213400000.0,
-   "shares_out": 1823022466.0
+   "shares_out": 1823022466.0,
+   "unusual_items": -22100000.0,
+   "normalized_ebitda": 474400000.0,
+   "normalized_income": 356775000.0
   }
  ]
 }

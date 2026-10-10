@@ -1,6 +1,6 @@
 {
  "ticker": "HXL",
- "fetched_at": "2026-10-10T12:48:21+00:00",
+ "fetched_at": "2026-10-10T15:46:46+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 5563,
   "website": "https://www.hexcel.com",
-  "longBusinessSummary": "Hexcel Corporation develops, manufactures, and markets advanced lightweight composites technology. It operates through two segments, Composite Materials and Engineered Products. The company offers carbon fiber, reinforcements, prepregs and other fiber-reinforced matrix materials, honeycomb, resins, engineered core and composite structures for use in commercial aerospace, defense and space, and industrial applications. The Composite Materials segment manufactures and markets carbon fibers, fabrics, multi-axials, specialty reinforcements, prepregs and other fiber-reinforced matrix materials, structural adhesives, honeycomb, molding compounds, tooling materials, polyurethane systems, and laminates that are used in military aircraft, transportation, recreational products, and other industrial applications. The Engineered Products segment manufactures and markets aircraft structures and finished aircraft components, including wing to body fairings, wing panels, flight deck panels, door liners, rotorcraft blades, spars, and tip caps; and aircraft structural sub-components and semi-finished components used in rotorcraft blades, engine nacelles, and aircraft surfaces, such as flaps, wings, elevators, and fairings; and RF interference control products for military and aerospace applications. This segment also provides interference control materials, structural composites, and services; dielectric absorber foams; magnetic absorbers; and thermoplastics for commercial and defense applications. The company sells its products directly through its marketing managers, product managers, and sales personnel, as well as through independent distributors in the Americas, Europe, the Asia Pacific, India, and Africa. Hexcel Corporation was founded in 1946 and is headquartered in Stamford, Connecticut."
+  "longBusinessSummary": "Hexcel Corporation develops, manufactures, and markets advanced lightweight composites technology. It operates through two segments, Composite Materials and Engineered Products. The company offers carbon fiber, reinforcements, prepregs and other fiber-reinforced matrix materials, honeycomb, resins, engineered core and composite structures for use in commercial aerospace, defense and space, and industrial applications. The Composite Materials segment manufactures and markets carbon fibers, fabrics, multi-axials, specialty reinforcements, prepregs and other fiber-reinforced matrix materials, structural adhesives, honeycomb, molding compounds, tooling materials, polyurethane systems, and laminates that are used in military aircraft, transportation, recreational products, and other industrial applications. The Engineered Products segment manufactures and markets aircraft structures and finished aircraft components, including wing to body fairings, wing panels, flight deck panels, door liners, rotorcraft blades, spars, and tip caps; and aircraft structural sub-components and semi-finished components used in rotorcraft blades, engine nacelles, and aircraft surfaces, such as flaps, wings, elevators, and fairings; and RF interference control products for military and aerospace applications. This segment also provides interference control materials, structural composites, and services; dielectric absorber foams; magnetic absorbers; and thermoplastics for commercial and defense applications. The company sells its products directly through its marketing managers, product managers, and sales personnel, as well as through independent distributors in the Americas, Europe, the Asia Pacific, India, and Africa. Hexcel Corporation was founded in 1946 and is headquartered in Stamford, Connecticut.",
+  "targetMeanPrice": 106.71429,
+  "targetLowPrice": 90.0,
+  "targetHighPrice": 123.0,
+  "numberOfAnalystOpinions": 14,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.47059,
+  "forwardPE": 26.97691,
+  "forwardEps": 3.14936,
+  "trailingEps": 1.98,
+  "earningsGrowth": 2.802,
+  "revenueGrowth": 0.08
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,38 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 2704000000.0,
+    "official": 2704000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1250700000.0,
+    "official": 1250700000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 109400000.0,
+    "official": 109400000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1893900000.0,
+    "official": 1893900000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:46:47+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -206,7 +247,9 @@
    "goodwill_and_intangibles": 256000000.0,
    "retained_earnings": 2104900000.0,
    "total_debt": 723500000.0,
-   "shares_out": 84200000.0
+   "shares_out": 84200000.0,
+   "normalized_ebitda": 312200000.0,
+   "normalized_income": 126300000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -240,7 +283,9 @@
    "goodwill_and_intangibles": 251300000.0,
    "retained_earnings": 2168700000.0,
    "total_debt": 699500000.0,
-   "shares_out": 84100000.0
+   "shares_out": 84100000.0,
+   "normalized_ebitda": 268500000.0,
+   "normalized_income": 105700000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -274,7 +319,9 @@
    "goodwill_and_intangibles": 237000000.0,
    "retained_earnings": 2251500000.0,
    "total_debt": 700700000.0,
-   "shares_out": 81000000.0
+   "shares_out": 81000000.0,
+   "normalized_ebitda": 310100000.0,
+   "normalized_income": 132100000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -308,7 +355,9 @@
    "goodwill_and_intangibles": 239800000.0,
    "retained_earnings": 2307000000.0,
    "total_debt": 993000000.0,
-   "shares_out": 75700000.0
+   "shares_out": 75700000.0,
+   "normalized_ebitda": 295000000.0,
+   "normalized_income": 109400000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "EXR",
- "fetched_at": "2026-10-10T12:45:07+00:00",
+ "fetched_at": "2026-10-10T15:43:27+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 8393,
   "website": "https://www.extraspace.com",
-  "longBusinessSummary": "Extra Space Storage Inc., headquartered in Salt Lake City, Utah, is a self-administered and self-managed REIT and a member of the S&P 500. As of June 30, 2026, the Company owned and/or operated 4,410 self-storage stores in 42 states and Washington, D.C. The Company's stores comprise approximately 3.0 million units and approximately 341.0 million square feet of rentable space operating under the Extra Space brand. The Company offers customers a wide selection of conveniently located and secure storage units across the country, including boat storage, RV storage, and business storage. It is the largest operator of self-storage properties in the United States. Extra Space Storage Inc. was incorporated in 1977 in Maryland, USA."
+  "longBusinessSummary": "Extra Space Storage Inc., headquartered in Salt Lake City, Utah, is a self-administered and self-managed REIT and a member of the S&P 500. As of June 30, 2026, the Company owned and/or operated 4,410 self-storage stores in 42 states and Washington, D.C. The Company's stores comprise approximately 3.0 million units and approximately 341.0 million square feet of rentable space operating under the Extra Space brand. The Company offers customers a wide selection of conveniently located and secure storage units across the country, including boat storage, RV storage, and business storage. It is the largest operator of self-storage properties in the United States. Extra Space Storage Inc. was incorporated in 1977 in Maryland, USA.",
+  "targetMeanPrice": 158.25,
+  "targetLowPrice": 140.0,
+  "targetHighPrice": 178.0,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.14286,
+  "forwardPE": 27.752127,
+  "forwardEps": 4.85188,
+  "trailingEps": 4.53,
+  "earningsGrowth": 0.06,
+  "revenueGrowth": 0.038
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 29264046000.0,
+    "official": 29264046000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 13433166000.0,
+    "official": 13433166000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 973999000.0,
+    "official": 973999000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3377542000.0,
+    "official": 3377542000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:43:27+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -169,7 +211,10 @@
    "goodwill_and_intangibles": 192385000.0,
    "retained_earnings": -135872000.0,
    "total_debt": 7560497000.0,
-   "shares_out": 133921020.0
+   "shares_out": 133921020.0,
+   "unusual_items": 12701000.0,
+   "normalized_ebitda": 1436867000.0,
+   "normalized_income": 848266422.0
   },
   {
    "fy_end": "2023-12-31",
@@ -202,7 +247,10 @@
    "goodwill_and_intangibles": 318394000.0,
    "retained_earnings": -379015000.0,
    "total_debt": 11253263000.0,
-   "shares_out": 211278803.0
+   "shares_out": 211278803.0,
+   "unusual_items": -66732000.0,
+   "normalized_ebitda": 1882618000.0,
+   "normalized_income": 868261700.0
   },
   {
    "fy_end": "2024-12-31",
@@ -235,7 +283,10 @@
    "goodwill_and_intangibles": 193284000.0,
    "retained_earnings": -899337000.0,
    "total_debt": 13027861000.0,
-   "shares_out": 211995510.0
+   "shares_out": 211995510.0,
+   "unusual_items": -63939000.0,
+   "normalized_ebitda": 2375746000.0,
+   "normalized_income": 916318196.0
   },
   {
    "fy_end": "2025-12-31",
@@ -268,7 +319,10 @@
    "goodwill_and_intangibles": 150135000.0,
    "retained_earnings": -1449172000.0,
    "total_debt": 13991757000.0,
-   "shares_out": 211155322.0
+   "shares_out": 211155322.0,
+   "unusual_items": -21789000.0,
+   "normalized_ebitda": 2436195000.0,
+   "normalized_income": 994938229.0
   }
  ]
 }

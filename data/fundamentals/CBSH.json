@@ -1,6 +1,6 @@
 {
  "ticker": "CBSH",
- "fetched_at": "2026-10-10T12:40:04+00:00",
+ "fetched_at": "2026-10-10T15:38:57+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 4976,
   "website": "https://www.commercebank.com",
-  "longBusinessSummary": "Commerce Bancshares, Inc. operates as the bank holding company for Commerce Bank that provides retail, mortgage banking, corporate, investment, trust, and asset management products and services to individuals and businesses in the United States. It operates through three segments: Retail Banking, Commercial, and Wealth. The Retail Banking segment offers various banking products and services, including consumer deposits; consumer loans, such as automobile, motorcycle, marine, tractor/trailer, recreational vehicle, fixed rate and revolving home equity, and other consumer loans; patient health care financing; real estate loans; indirect and other consumer financing; retail branch network; personal mortgage banking; consumer installment lending; and consumer debit and credit bank cards. The Commercial segment provides corporate lending, leasing, international, merchant and commercial bank card, and securities safekeeping and bond accounting services; and business products, government deposits, and related commercial cash management services, as well as sells fixed income securities to correspondent banks, corporations, public institutions, municipalities, and individuals. The Wealth segment provides traditional trust and estate planning, advisory and discretionary investment portfolio management, and brokerage services, as well as private banking accounts. The company offers private equity investment, securities brokerage, insurance agency, specialty lending, and leasing services, as well as online and mobile banking services. Commerce Bancshares, Inc. was founded in 1865 and is headquartered in Kansas City, Missouri."
+  "longBusinessSummary": "Commerce Bancshares, Inc. operates as the bank holding company for Commerce Bank that provides retail, mortgage banking, corporate, investment, trust, and asset management products and services to individuals and businesses in the United States. It operates through three segments: Retail Banking, Commercial, and Wealth. The Retail Banking segment offers various banking products and services, including consumer deposits; consumer loans, such as automobile, motorcycle, marine, tractor/trailer, recreational vehicle, fixed rate and revolving home equity, and other consumer loans; patient health care financing; real estate loans; indirect and other consumer financing; retail branch network; personal mortgage banking; consumer installment lending; and consumer debit and credit bank cards. The Commercial segment provides corporate lending, leasing, international, merchant and commercial bank card, and securities safekeeping and bond accounting services; and business products, government deposits, and related commercial cash management services, as well as sells fixed income securities to correspondent banks, corporations, public institutions, municipalities, and individuals. The Wealth segment provides traditional trust and estate planning, advisory and discretionary investment portfolio management, and brokerage services, as well as private banking accounts. The company offers private equity investment, securities brokerage, insurance agency, specialty lending, and leasing services, as well as online and mobile banking services. Commerce Bancshares, Inc. was founded in 1865 and is headquartered in Kansas City, Missouri.",
+  "targetMeanPrice": 65.55556,
+  "targetLowPrice": 60.0,
+  "targetHighPrice": 77.0,
+  "numberOfAnalystOpinions": 9,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.7,
+  "forwardPE": 11.835337,
+  "forwardEps": 4.59556,
+  "trailingEps": 4.08,
+  "earningsGrowth": 0.012,
+  "revenueGrowth": 0.142
  },
  "governance": {
   "ceo": {
@@ -77,8 +88,32 @@
   "retained_earnings": "sec",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "normalized_income": "yahoo",
   "noninterest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 32915089000.0,
+    "official": 32915089000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3791371000.0,
+    "official": 3791371000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 566251000.0,
+    "official": 566251000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:38:57+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -105,7 +140,8 @@
    "goodwill_and_intangibles": 154155000.0,
    "retained_earnings": 31620000.0,
    "total_debt": 9672000.0,
-   "shares_out": 145002645.0
+   "shares_out": 145002645.0,
+   "normalized_income": 488399000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -132,7 +168,8 @@
    "goodwill_and_intangibles": 160718000.0,
    "retained_earnings": 53183000.0,
    "total_debt": 1404000.0,
-   "shares_out": 143824291.0
+   "shares_out": 143824291.0,
+   "normalized_income": 477060000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -159,7 +196,8 @@
    "goodwill_and_intangibles": 160171000.0,
    "retained_earnings": 45494000.0,
    "total_debt": 56000.0,
-   "shares_out": 141147939.0
+   "shares_out": 141147939.0,
+   "normalized_income": 526331000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -186,7 +224,8 @@
    "goodwill_and_intangibles": 159850000.0,
    "retained_earnings": 131826000.0,
    "total_debt": 12798000.0,
-   "shares_out": 137712180.0
+   "shares_out": 137712180.0,
+   "normalized_income": 566251000.0
   }
  ]
 }

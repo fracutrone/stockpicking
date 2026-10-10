@@ -1,6 +1,6 @@
 {
  "ticker": "MSCI",
- "fetched_at": "2026-10-10T12:52:10+00:00",
+ "fetched_at": "2026-10-10T15:50:17+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 6327,
   "website": "https://www.msci.com",
-  "longBusinessSummary": "MSCI Inc., together with its subsidiaries, provides research-based data, analytics, and indexes, supported by advanced technology worldwide. The Index segment provides indexes for use in various areas of the investment process, including indexed financial products, such as ETFs, mutual funds, annuities, futures, options, structured products, and over-the-counter derivatives; performance benchmarking; portfolio construction and rebalancing; and asset allocation, as well as licenses GICS and GICS Direct. The Analytics segment offers risk management, performance attribution and portfolio management content, application, an integrated view of risk and return service, and an analysis of market, credit, liquidity, counterparty, and climate risk across asset classes; managed services, including consolidation of client portfolio data, review and reconciliation of input data and results, and customized reporting; and HedgePlatform to measure, evaluate, and monitor the risk of hedge fund investments. The Sustainability and Climate segment provides products and services that help institutional investors understand how ESG impacts the long-term risk and return of their portfolio and individual security-level investments; and data, ratings, research, and tools to assist investors navigate increasing regulation. The All Other  Private Assets segment comprises private credit, real estate and infrastructure data, benchmarks, return-analytics, climate assessments and market insights; business intelligence to real estate owners, managers, developers, and brokers; and offers investment decision support tools for private capital. The Private Capital Solutions segment offers tools to help private asset investors across mission-critical workflows, such as sourcing terms and conditions, evaluating operating performance, managing risk and other activities supporting private capital investment. MSCI Inc. was incorporated in 1998 and is based in New York, New York."
+  "longBusinessSummary": "MSCI Inc., together with its subsidiaries, provides research-based data, analytics, and indexes, supported by advanced technology worldwide. The Index segment provides indexes for use in various areas of the investment process, including indexed financial products, such as ETFs, mutual funds, annuities, futures, options, structured products, and over-the-counter derivatives; performance benchmarking; portfolio construction and rebalancing; and asset allocation, as well as licenses GICS and GICS Direct. The Analytics segment offers risk management, performance attribution and portfolio management content, application, an integrated view of risk and return service, and an analysis of market, credit, liquidity, counterparty, and climate risk across asset classes; managed services, including consolidation of client portfolio data, review and reconciliation of input data and results, and customized reporting; and HedgePlatform to measure, evaluate, and monitor the risk of hedge fund investments. The Sustainability and Climate segment provides products and services that help institutional investors understand how ESG impacts the long-term risk and return of their portfolio and individual security-level investments; and data, ratings, research, and tools to assist investors navigate increasing regulation. The All Other  Private Assets segment comprises private credit, real estate and infrastructure data, benchmarks, return-analytics, climate assessments and market insights; business intelligence to real estate owners, managers, developers, and brokers; and offers investment decision support tools for private capital. The Private Capital Solutions segment offers tools to help private asset investors across mission-critical workflows, such as sourcing terms and conditions, evaluating operating performance, managing risk and other activities supporting private capital investment. MSCI Inc. was incorporated in 1998 and is based in New York, New York.",
+  "targetMeanPrice": 680.7647,
+  "targetLowPrice": 570.0,
+  "targetHighPrice": 755.0,
+  "numberOfAnalystOpinions": 17,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.5,
+  "forwardPE": 25.15122,
+  "forwardEps": 22.46889,
+  "trailingEps": 18.3,
+  "earningsGrowth": 0.196,
+  "revenueGrowth": 0.122
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 5702459000.0,
+    "official": 5702459000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": -2654540000.0,
+    "official": -2654540000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1202305000.0,
+    "official": 1202305000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3134459000.0,
+    "official": 3134459000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:50:17+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -157,7 +199,8 @@
    "goodwill": 2236386000.0,
    "intangibles": 593341000.0,
    "retained_earnings": 2976517000.0,
-   "total_debt": 4161422000.0
+   "total_debt": 4161422000.0,
+   "unusual_items": -16013000.0
   },
   {
    "fy_end": "2022-12-31",
@@ -190,7 +233,10 @@
    "goodwill_and_intangibles": 2788187000.0,
    "retained_earnings": 3473192000.0,
    "total_debt": 4511947000.0,
-   "shares_out": 79959989.0
+   "shares_out": 79959989.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 1357908000.0,
+   "normalized_income": 870573000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -223,7 +269,10 @@
    "goodwill_and_intangibles": 3843926000.0,
    "retained_earnings": 4179681000.0,
    "total_debt": 4507728000.0,
-   "shares_out": 79091212.0
+   "shares_out": 79091212.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 1714959000.0,
+   "normalized_income": 1148592000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -256,7 +305,9 @@
    "goodwill_and_intangibles": 3822780000.0,
    "retained_earnings": 4780300000.0,
    "total_debt": 4510816000.0,
-   "shares_out": 77744588.0
+   "shares_out": 77744588.0,
+   "normalized_ebitda": 1747943000.0,
+   "normalized_income": 1109128000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -289,7 +340,9 @@
    "goodwill_and_intangibles": 3755875000.0,
    "retained_earnings": 5427600000.0,
    "total_debt": 6202119000.0,
-   "shares_out": 73563183.0
+   "shares_out": 73563183.0,
+   "normalized_ebitda": 1922715000.0,
+   "normalized_income": 1202305000.0
   }
  ]
 }

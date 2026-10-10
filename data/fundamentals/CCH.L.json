@@ -1,6 +1,6 @@
 {
  "ticker": "CCH.L",
- "fetched_at": "2026-10-10T11:50:00+00:00",
+ "fetched_at": "2026-10-10T14:39:24+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 33500,
   "website": "https://www.coca-colahellenic.com",
-  "longBusinessSummary": "Coca-Cola HBC AG engages in the production, sale, and distribution of non-alcoholic ready-to-drink beverages under franchise in Switzerland, West Coast of Ireland, Central and Eastern Europe, Nigeria, and internationally. It offers sparkling soft drinks, adult sparkling, hydration drinks, juices, ready-to-drink tea and coffee, sports and energy drinks, plant-based drinks, hard seltzers, premium spirit, dairy, and snacks; and distributes third-party products. The company markets and sells its products under several brands, including Coca-Cola, Fanta, Sprite, Adez, Averna, Amita, Aquarius, Aperol, Avra, Deep RiverRock, Fruice, Kinley, Schweppes, and various other brands. It serves various consumer channels, such as supermarkets, convenience stores, vending machines, hotels, cafés, and restaurants, as well as e-commerce channels. Coca-Cola HBC AG was incorporated in 1969 and is headquartered in Steinhausen, Switzerland."
+  "longBusinessSummary": "Coca-Cola HBC AG engages in the production, sale, and distribution of non-alcoholic ready-to-drink beverages under franchise in Switzerland, West Coast of Ireland, Central and Eastern Europe, Nigeria, and internationally. It offers sparkling soft drinks, adult sparkling, hydration drinks, juices, ready-to-drink tea and coffee, sports and energy drinks, plant-based drinks, hard seltzers, premium spirit, dairy, and snacks; and distributes third-party products. The company markets and sells its products under several brands, including Coca-Cola, Fanta, Sprite, Adez, Averna, Amita, Aquarius, Aperol, Avra, Deep RiverRock, Fruice, Kinley, Schweppes, and various other brands. It serves various consumer channels, such as supermarkets, convenience stores, vending machines, hotels, cafés, and restaurants, as well as e-commerce channels. Coca-Cola HBC AG was incorporated in 1969 and is headquartered in Steinhausen, Switzerland.",
+  "targetMeanPrice": 5116.6904,
+  "targetLowPrice": 3840.4478,
+  "targetHighPrice": 5663.0884,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.2,
+  "forwardPE": 15.630233,
+  "forwardEps": 2.739562,
+  "trailingEps": 2.37,
+  "earningsGrowth": 0.111,
+  "revenueGrowth": 0.108
  },
  "governance": {
   "top_institutions": [
@@ -74,8 +85,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 11599300000.0,
+    "official": 11599300000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3844600000.0,
+    "official": 3844600000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 940400000.0,
+    "official": 940400000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 11604500000.0,
+    "official": 11604500000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:39:24+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -110,7 +153,10 @@
    "goodwill_and_intangibles": 2542500000.0,
    "retained_earnings": 5949600000.0,
    "total_debt": 3419900000.0,
-   "shares_out": 366699378.0
+   "shares_out": 366699378.0,
+   "unusual_items": -205300000.0,
+   "normalized_ebitda": 1311500000.0,
+   "normalized_income": 574954000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -145,7 +191,10 @@
    "goodwill_and_intangibles": 2569800000.0,
    "retained_earnings": 6559800000.0,
    "total_debt": 3424500000.0,
-   "shares_out": 366908685.0
+   "shares_out": 366908685.0,
+   "unusual_items": -15300000.0,
+   "normalized_ebitda": 1398400000.0,
+   "normalized_income": 647179400.0
   },
   {
    "fy_end": "2024-12-31",
@@ -180,7 +229,10 @@
    "goodwill_and_intangibles": 2506700000.0,
    "retained_earnings": 7536400000.0,
    "total_debt": 3980600000.0,
-   "shares_out": 362161765.0
+   "shares_out": 362161765.0,
+   "unusual_items": -5200000.0,
+   "normalized_ebitda": 1629500000.0,
+   "normalized_income": 824378758.865248
   },
   {
    "fy_end": "2025-12-31",
@@ -215,7 +267,10 @@
    "goodwill_and_intangibles": 2523700000.0,
    "retained_earnings": 8476500000.0,
    "total_debt": 3913000000.0,
-   "shares_out": 363507894.0
+   "shares_out": 363507894.0,
+   "unusual_items": -52300000.0,
+   "normalized_ebitda": 1911200000.0,
+   "normalized_income": 978072506.511414
   }
  ]
 }

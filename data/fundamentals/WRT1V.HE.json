@@ -1,6 +1,6 @@
 {
  "ticker": "WRT1V.HE",
- "fetched_at": "2026-10-10T12:26:41+00:00",
+ "fetched_at": "2026-10-10T15:30:06+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "HEL",
   "fullTimeEmployees": 17313,
   "website": "https://www.wartsila.com",
-  "longBusinessSummary": "Wärtsilä Oyj Abp offers technologies and lifecycle solutions for the marine and energy markets worldwide. It offers energy storage; engine and hybrid power plants; and data centre power solutions, as well as lifecycle solutions, lifecycle upgrades, spare parts and field services, and decarbonisation solutions. It also provides engine power plant products, such as gas, multi-fuel, and diesel engines; Quantum BESS portfolio, a battery energy storage system (BESS) solutions; GEMS Digital Energy Platform, a software platform that monitors, controls, and optimizes energy assets on site and portfolio levels. In addition, the company offers power and propulsion products, such as electric shipping and hybrid ships, engine and generating sets, propulsors and gears, and shaft line solutions; liquid and gas handling products, including ballast water management, freshwater generation, waste and wastewater treatment, gas solutions, and exhaust treatment equipment; port and fleet optimization; simulation and training solutions; and marine navigation solutions. The company collaborate with RCT Solutions to launch Valo which is a global battery energy storage system integrator. Further, it provides spare parts, technical support, maintenance and repair, lifecycle upgrades, lifecycle agreements, training, and cyber services; and decarbonization solutions for existing fleets and newbuild vessels. The company was founded in 1834 and is headquartered in Helsinki, Finland."
+  "longBusinessSummary": "Wärtsilä Oyj Abp offers technologies and lifecycle solutions for the marine and energy markets worldwide. It offers energy storage; engine and hybrid power plants; and data centre power solutions, as well as lifecycle solutions, lifecycle upgrades, spare parts and field services, and decarbonisation solutions. It also provides engine power plant products, such as gas, multi-fuel, and diesel engines; Quantum BESS portfolio, a battery energy storage system (BESS) solutions; GEMS Digital Energy Platform, a software platform that monitors, controls, and optimizes energy assets on site and portfolio levels. In addition, the company offers power and propulsion products, such as electric shipping and hybrid ships, engine and generating sets, propulsors and gears, and shaft line solutions; liquid and gas handling products, including ballast water management, freshwater generation, waste and wastewater treatment, gas solutions, and exhaust treatment equipment; port and fleet optimization; simulation and training solutions; and marine navigation solutions. The company collaborate with RCT Solutions to launch Valo which is a global battery energy storage system integrator. Further, it provides spare parts, technical support, maintenance and repair, lifecycle upgrades, lifecycle agreements, training, and cyber services; and decarbonization solutions for existing fleets and newbuild vessels. The company was founded in 1834 and is headquartered in Helsinki, Finland.",
+  "targetMeanPrice": 33.03529,
+  "targetLowPrice": 19.5,
+  "targetHighPrice": 43.0,
+  "numberOfAnalystOpinions": 17,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.64706,
+  "forwardPE": 22.530195,
+  "forwardEps": 1.30314,
+  "trailingEps": 1.13,
+  "earningsGrowth": 0.078,
+  "revenueGrowth": -0.022
  },
  "governance": {
   "ceo": {
@@ -76,8 +87,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF FI",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 7694000000.0,
+    "official": 7694000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2525000000.0,
+    "official": 2525000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 503000000.0,
+    "official": 503000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 6449000000.0,
+    "official": 6449000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T15:30:06+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -111,7 +154,10 @@
    "goodwill_and_intangibles": 1680000000.0,
    "retained_earnings": 1891000000.0,
    "total_debt": 949000000.0,
-   "shares_out": 590023390.0
+   "shares_out": 590023390.0,
+   "unusual_items": -152000000.0,
+   "normalized_ebitda": 295000000.0,
+   "normalized_income": 57600000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -145,7 +191,10 @@
    "goodwill_and_intangibles": 1675000000.0,
    "retained_earnings": 1989000000.0,
    "total_debt": 859000000.0,
-   "shares_out": 589023390.0
+   "shares_out": 589023390.0,
+   "unusual_items": -62000000.0,
+   "normalized_ebitda": 625000000.0,
+   "normalized_income": 303818000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -179,7 +228,10 @@
    "goodwill_and_intangibles": 1744000000.0,
    "retained_earnings": 2337000000.0,
    "total_debt": 766000000.0,
-   "shares_out": 589080815.0
+   "shares_out": 589080815.0,
+   "unusual_items": 18000000.0,
+   "normalized_ebitda": 883000000.0,
+   "normalized_income": 489716000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -213,7 +265,10 @@
    "goodwill_and_intangibles": 1627000000.0,
    "retained_earnings": 2695000000.0,
    "total_debt": 582000000.0,
-   "shares_out": 588436960.0
+   "shares_out": 588436960.0,
+   "unusual_items": -5000000.0,
+   "normalized_ebitda": 1061000000.0,
+   "normalized_income": 629805000.0
   }
  ]
 }

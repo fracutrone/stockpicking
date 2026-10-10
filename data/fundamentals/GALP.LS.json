@@ -1,6 +1,6 @@
 {
  "ticker": "GALP.LS",
- "fetched_at": "2026-10-10T11:59:18+00:00",
+ "fetched_at": "2026-10-10T14:50:12+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LIS",
   "fullTimeEmployees": 6886,
   "website": "https://www.galp.com",
-  "longBusinessSummary": "Galp Energia, SGPS, S.A. operates as an integrated energy operator in Portugal and internationally. The company operates through four segments: Upstream, Industrial & Midstream, Commercial, and Renewables. The Upstream segment engages in the exploration, development, and production of hydrocarbons primarily in Brazil, Mozambique, and Namibia. The Industrial & Midstream segment involved in refining and logistics business in Portugal, as well as is involved in activities related to oil products, carbon dioxide, gas, and power supply and trading activities. This segment also includes co-generation. The Commercial segment is involved in the areas of retail to final business-to-business and business to oil, gas, electric mobility, power and non-fuel products. The Renewables segment is involved in the renewables power generation and new businesses. In addition, the company engages in the reinsurance business. The company was formerly known as Galp  Petróleos e Gás de Portugal, SGPS, S.A. and changed its name to Galp Energia, SGPS, S.A. in September 2000. Galp Energia, SGPS, S.A. was incorporated in 1999 and is headquartered in Lisbon, Portugal."
+  "longBusinessSummary": "Galp Energia, SGPS, S.A. operates as an integrated energy operator in Portugal and internationally. The company operates through four segments: Upstream, Industrial & Midstream, Commercial, and Renewables. The Upstream segment engages in the exploration, development, and production of hydrocarbons primarily in Brazil, Mozambique, and Namibia. The Industrial & Midstream segment involved in refining and logistics business in Portugal, as well as is involved in activities related to oil products, carbon dioxide, gas, and power supply and trading activities. This segment also includes co-generation. The Commercial segment is involved in the areas of retail to final business-to-business and business to oil, gas, electric mobility, power and non-fuel products. The Renewables segment is involved in the renewables power generation and new businesses. In addition, the company engages in the reinsurance business. The company was formerly known as Galp  Petróleos e Gás de Portugal, SGPS, S.A. and changed its name to Galp Energia, SGPS, S.A. in September 2000. Galp Energia, SGPS, S.A. was incorporated in 1999 and is headquartered in Lisbon, Portugal.",
+  "targetMeanPrice": 23.51111,
+  "targetLowPrice": 18.4,
+  "targetHighPrice": 28.0,
+  "numberOfAnalystOpinions": 18,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.22222,
+  "forwardPE": 10.987187,
+  "forwardEps": 2.04875,
+  "trailingEps": 1.47,
+  "earningsGrowth": 1.346,
+  "revenueGrowth": 0.352
  },
  "governance": {
   "ceo": {
@@ -76,8 +87,35 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF PT",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 16817000000.0,
+    "official": 16817000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4689000000.0,
+    "official": 4689000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1040000000.0,
+    "official": 1040000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T14:50:12+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -111,7 +149,10 @@
    "goodwill_and_intangibles": 743000000.0,
    "retained_earnings": 1701000000.0,
    "total_debt": 5264000000.0,
-   "shares_out": 794000158.0
+   "shares_out": 794000158.0,
+   "unusual_items": 806000000.0,
+   "normalized_ebitda": 3940000000.0,
+   "normalized_income": 925260000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -145,7 +186,10 @@
    "goodwill_and_intangibles": 703000000.0,
    "retained_earnings": 2187000000.0,
    "total_debt": 5410000000.0,
-   "shares_out": 753059882.0
+   "shares_out": 753059882.0,
+   "unusual_items": -22000000.0,
+   "normalized_ebitda": 3775000000.0,
+   "normalized_income": 1394530000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -179,7 +223,10 @@
    "goodwill_and_intangibles": 739000000.0,
    "retained_earnings": 2418000000.0,
    "total_debt": 4908000000.0,
-   "shares_out": 750267303.0
+   "shares_out": 750267303.0,
+   "unusual_items": -15000000.0,
+   "normalized_ebitda": 3513000000.0,
+   "normalized_income": 1116850000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -213,7 +260,10 @@
    "goodwill_and_intangibles": 615000000.0,
    "retained_earnings": 3016000000.0,
    "total_debt": 4900000000.0,
-   "shares_out": 733855705.0
+   "shares_out": 733855705.0,
+   "unusual_items": -21000000.0,
+   "normalized_ebitda": 2920000000.0,
+   "normalized_income": 1202902000.0
   }
  ]
 }

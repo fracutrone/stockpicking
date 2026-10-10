@@ -1,6 +1,6 @@
 {
  "ticker": "ORCL",
- "fetched_at": "2026-10-10T12:54:30+00:00",
+ "fetched_at": "2026-10-10T15:52:21+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 141000,
   "website": "https://www.oracle.com",
-  "longBusinessSummary": "Oracle Corporation offers products and services that build, run and support enterprise information technology frameworks worldwide. Its Oracle cloud software as a service offering includes various cloud software applications, including Oracle Fusion cloud enterprise resource planning ERP, Oracle Fusion cloud enterprise performance management EPM, Oracle Fusion cloud supply chain and manufacturing management SCM, Oracle Fusion cloud human capital management HCM, and NetSuite applications suite, Oracle Health applications, as well as Oracle Fusion Sales, Service, and Marketing. The company also offers cloud-based industry solutions for various industries; Oracle cloud license and on-premise license; and Oracle license support services. In addition, it provides cloud and license business' infrastructure technologies, such as the Oracle Database and MySQL Database; Java, a software development language; and middleware, including development tools and others. The company's cloud and license business' infrastructure technologies also comprise cloud-based compute, storage, and networking capabilities; and Oracle autonomous database, as well as AI, Internet-of-Things, machine learning, digital assistant, and blockchain. Further, it provides hardware products and other hardware-related software offerings, including Oracle engineered systems, enterprise servers, storage solutions, industry-specific hardware, virtualization software, operating systems, management software, and related hardware support services, and consulting and advanced customer services. It markets and sells its cloud, license, hardware, support, and services offerings directly to businesses in various industries, government agencies, and educational institutions, as well as through indirect channels. Oracle Corporation has a strategic alliance with Metron, Inc. The company was founded in 1977 and is headquartered in Austin, Texas."
+  "longBusinessSummary": "Oracle Corporation offers products and services that build, run and support enterprise information technology frameworks worldwide. Its Oracle cloud software as a service offering includes various cloud software applications, including Oracle Fusion cloud enterprise resource planning ERP, Oracle Fusion cloud enterprise performance management EPM, Oracle Fusion cloud supply chain and manufacturing management SCM, Oracle Fusion cloud human capital management HCM, and NetSuite applications suite, Oracle Health applications, as well as Oracle Fusion Sales, Service, and Marketing. The company also offers cloud-based industry solutions for various industries; Oracle cloud license and on-premise license; and Oracle license support services. In addition, it provides cloud and license business' infrastructure technologies, such as the Oracle Database and MySQL Database; Java, a software development language; and middleware, including development tools and others. The company's cloud and license business' infrastructure technologies also comprise cloud-based compute, storage, and networking capabilities; and Oracle autonomous database, as well as AI, Internet-of-Things, machine learning, digital assistant, and blockchain. Further, it provides hardware products and other hardware-related software offerings, including Oracle engineered systems, enterprise servers, storage solutions, industry-specific hardware, virtualization software, operating systems, management software, and related hardware support services, and consulting and advanced customer services. It markets and sells its cloud, license, hardware, support, and services offerings directly to businesses in various industries, government agencies, and educational institutions, as well as through indirect channels. Oracle Corporation has a strategic alliance with Metron, Inc. The company was founded in 1977 and is headquartered in Austin, Texas.",
+  "targetMeanPrice": 237.97415,
+  "targetLowPrice": 110.0,
+  "targetHighPrice": 400.0,
+  "numberOfAnalystOpinions": 41,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.5814,
+  "forwardPE": 12.855725,
+  "forwardEps": 10.99899,
+  "trailingEps": 6.38,
+  "earningsGrowth": 0.545,
+  "revenueGrowth": 0.296
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "retained_earnings": "sec",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "inventory": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-05-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 261759000000.0,
+    "official": 261759000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 42508000000.0,
+    "official": 42508000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 17087000000.0,
+    "official": 17087000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 67357000000.0,
+    "official": 67357000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:52:21+00:00",
  "years": [
   {
    "fy_end": "2020-05-31",
@@ -190,7 +232,10 @@
    "goodwill_and_intangibles": 72098000000.0,
    "retained_earnings": -27620000000.0,
    "total_debt": 90481000000.0,
-   "shares_out": 2713000000.0
+   "shares_out": 2713000000.0,
+   "unusual_items": -1256000000.0,
+   "normalized_ebitda": 19995000000.0,
+   "normalized_income": 9673592000.0
   },
   {
    "fy_end": "2024-05-31",
@@ -225,7 +270,10 @@
    "goodwill_and_intangibles": 69120000000.0,
    "retained_earnings": -22628000000.0,
    "total_debt": 93124000000.0,
-   "shares_out": 2755000000.0
+   "shares_out": 2755000000.0,
+   "unusual_items": -1249000000.0,
+   "normalized_ebitda": 22643000000.0,
+   "normalized_income": 11579859000.0
   },
   {
    "fy_end": "2025-05-31",
@@ -260,7 +308,10 @@
    "goodwill_and_intangibles": 62207000000.0,
    "retained_earnings": -15481000000.0,
    "total_debt": 104104000000.0,
-   "shares_out": 2807000000.0
+   "shares_out": 2807000000.0,
+   "unusual_items": -799000000.0,
+   "normalized_ebitda": 24711000000.0,
+   "normalized_income": 13145115607.344633
   },
   {
    "fy_end": "2026-05-31",
@@ -294,7 +345,10 @@
    "goodwill_and_intangibles": 62261000000.0,
    "retained_earnings": -4309000000.0,
    "total_debt": 156189000000.0,
-   "shares_out": 2880000000.0
+   "shares_out": 2880000000.0,
+   "unusual_items": 842000000.0,
+   "normalized_ebitda": 32605000000.0,
+   "normalized_income": 16351229620.537996
   }
  ]
 }

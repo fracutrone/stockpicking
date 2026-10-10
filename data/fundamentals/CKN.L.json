@@ -1,6 +1,6 @@
 {
  "ticker": "CKN.L",
- "fetched_at": "2026-10-10T11:51:22+00:00",
+ "fetched_at": "2026-10-10T14:39:41+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 2250,
   "website": "https://www.clarksons.com",
-  "longBusinessSummary": "Clarkson PLC provides shipping services in Europe, the Middle East, Africa, the Americas, and the Asia-Pacific. It operates through Broking, Financial, Support, and Research segments. The company's Broking segment offers services to shipowners and charterers in the transportation of various cargoes by sea; and to buyers and sellers/yards related to sale and purchase services, as well as futures broking operation. Its Financial segment provides investment banking services for maritime, oil services, and natural resources sectors; structured asset finance services and projects in the shipping, offshore, and real estate sectors; and project finance and bespoke asset finance solutions. The company's Support segment offers port and agency, project logistics, freight forwarding, warehousing, crew travel, vessel agency, customs clearance, stevedoring, shortsea broking, and industrial supplies for the marine and offshore industries. Its Research segment provides shipping-related information and publications. This segment also offers digital products, including Shipping Intelligence Network, World Fleet Register, Offshore Intelligence Network, Renewables Intelligence Network and API portal; and data and intelligence to shipyards, equipment suppliers, class societies, regulators, and ship financiers. It is involved in property management services; real estate project management, shipping and offshore project syndication, and property-related services; investment banking, and trading in instruments and financial services; and advisory services related to finance structuring for shipping-related projects. The company also provides brokerage of shipping-related derivative financial instruments; supply of MRO, PPE, and safety equipment; and accounting and financial advisory services. The company was formerly known as Horace Clarkson PLC and changed its name to Clarkson PLC in May 2001. The company was founded in 1852 and is based in London, the United Kingdom."
+  "longBusinessSummary": "Clarkson PLC provides shipping services in Europe, the Middle East, Africa, the Americas, and the Asia-Pacific. It operates through Broking, Financial, Support, and Research segments. The company's Broking segment offers services to shipowners and charterers in the transportation of various cargoes by sea; and to buyers and sellers/yards related to sale and purchase services, as well as futures broking operation. Its Financial segment provides investment banking services for maritime, oil services, and natural resources sectors; structured asset finance services and projects in the shipping, offshore, and real estate sectors; and project finance and bespoke asset finance solutions. The company's Support segment offers port and agency, project logistics, freight forwarding, warehousing, crew travel, vessel agency, customs clearance, stevedoring, shortsea broking, and industrial supplies for the marine and offshore industries. Its Research segment provides shipping-related information and publications. This segment also offers digital products, including Shipping Intelligence Network, World Fleet Register, Offshore Intelligence Network, Renewables Intelligence Network and API portal; and data and intelligence to shipyards, equipment suppliers, class societies, regulators, and ship financiers. It is involved in property management services; real estate project management, shipping and offshore project syndication, and property-related services; investment banking, and trading in instruments and financial services; and advisory services related to finance structuring for shipping-related projects. The company also provides brokerage of shipping-related derivative financial instruments; supply of MRO, PPE, and safety equipment; and accounting and financial advisory services. The company was formerly known as Horace Clarkson PLC and changed its name to Clarkson PLC in May 2001. The company was founded in 1852 and is based in London, the United Kingdom.",
+  "targetMeanPrice": 5764.333,
+  "targetLowPrice": 5550.0,
+  "targetHighPrice": 6025.0,
+  "numberOfAnalystOpinions": 6,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.33333,
+  "forwardPE": 17.955738,
+  "forwardEps": 3.01018,
+  "trailingEps": 2.5,
+  "earningsGrowth": 0.405,
+  "revenueGrowth": 0.389
  },
  "governance": {
   "ceo": {
@@ -77,8 +88,35 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "equity": {
+    "yahoo": 525100000.0,
+    "official": 525100000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 65700000.0,
+    "official": 65700000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 631400000.0,
+    "official": 631400000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:39:41+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -113,7 +151,10 @@
    "goodwill_and_intangibles": 188900000.0,
    "retained_earnings": 287200000.0,
    "total_debt": 47600000.0,
-   "shares_out": 30600000.0
+   "shares_out": 30600000.0,
+   "unusual_items": -600000.0,
+   "normalized_ebitda": 120400000.0,
+   "normalized_income": 76077000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -148,7 +189,10 @@
    "goodwill_and_intangibles": 182900000.0,
    "retained_earnings": 340000000.0,
    "total_debt": 43200000.0,
-   "shares_out": 30628843.0
+   "shares_out": 30628843.0,
+   "unusual_items": 100000.0,
+   "normalized_ebitda": 129900000.0,
+   "normalized_income": 83721100.0
   },
   {
    "fy_end": "2024-12-31",
@@ -183,7 +227,10 @@
    "goodwill_and_intangibles": 172600000.0,
    "retained_earnings": 395300000.0,
    "total_debt": 38100000.0,
-   "shares_out": 30709254.0
+   "shares_out": 30709254.0,
+   "unusual_items": -2400000.0,
+   "normalized_ebitda": 136200000.0,
+   "normalized_income": 86747636.039251
   },
   {
    "fy_end": "2025-12-31",
@@ -217,7 +264,10 @@
    "goodwill_and_intangibles": 177400000.0,
    "retained_earnings": 425600000.0,
    "total_debt": 56000000.0,
-   "shares_out": 30679409.0
+   "shares_out": 30679409.0,
+   "unusual_items": -2700000.0,
+   "normalized_ebitda": 113200000.0,
+   "normalized_income": 67774048.442907
   }
  ]
 }

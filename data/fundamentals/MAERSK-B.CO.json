@@ -1,6 +1,6 @@
 {
  "ticker": "MAERSK-B.CO",
- "fetched_at": "2026-10-10T12:07:43+00:00",
+ "fetched_at": "2026-10-10T15:04:06+00:00",
  "region": "Europa",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "CPH",
   "fullTimeEmployees": 100000,
   "website": "https://www.maersk.com",
-  "longBusinessSummary": "A.P. Møller - Mærsk A/S, together with its subsidiaries, operates as an integrated logistics company in Denmark and internationally. The company operates through Ocean, Logistics & Services, and Terminals segments. The company offers ocean, inland, less-than-container load, and air and ground freight solutions; warehousing, distribution, and depot services; cold chain solutions, cold chain management, pharmaceutical cold chain management, and cold storage solutions; and customs clearance, e-commerce logistics, and lead logistics services. It also provides ocean transport, specialized airlift, and vessel chartering services; project planning, orchestration, and site support; specialized cargo handling, cargo storage, and survey services. In addition, the company offers value-added services, such as labelling, relabeling, tagging or retagging, kitting and product customization, garments on hangers, re-packing, quality controls, reporting, shaving/topping off pallets, reverse logistics, and goods disposal services. It serves FMCG, fashion and lifestyle, retail, chemicals, automotive, technology, pharma and healthcare, and perishables industries. The company was founded in 1904 and is based in Copenhagen, Denmark."
+  "longBusinessSummary": "A.P. Møller - Mærsk A/S, together with its subsidiaries, operates as an integrated logistics company in Denmark and internationally. The company operates through Ocean, Logistics & Services, and Terminals segments. The company offers ocean, inland, less-than-container load, and air and ground freight solutions; warehousing, distribution, and depot services; cold chain solutions, cold chain management, pharmaceutical cold chain management, and cold storage solutions; and customs clearance, e-commerce logistics, and lead logistics services. It also provides ocean transport, specialized airlift, and vessel chartering services; project planning, orchestration, and site support; specialized cargo handling, cargo storage, and survey services. In addition, the company offers value-added services, such as labelling, relabeling, tagging or retagging, kitting and product customization, garments on hangers, re-packing, quality controls, reporting, shaving/topping off pallets, reverse logistics, and goods disposal services. It serves FMCG, fashion and lifestyle, retail, chemicals, automotive, technology, pharma and healthcare, and perishables industries. The company was founded in 1904 and is based in Copenhagen, Denmark.",
+  "targetMeanPrice": 19980.621,
+  "targetLowPrice": 10235.448,
+  "targetHighPrice": 27307.967,
+  "numberOfAnalystOpinions": 18,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.31579,
+  "forwardPE": 22.293446,
+  "forwardEps": 1116.4717,
+  "trailingEps": 999.08,
+  "earningsGrowth": 1.289,
+  "revenueGrowth": 0.2
  },
  "governance": {
   "ceo": {
@@ -76,8 +87,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF DK",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 88352000000.0,
+    "official": 88352000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 55581000000.0,
+    "official": 55581000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2725000000.0,
+    "official": 2725000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 53988000000.0,
+    "official": 53988000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:04:06+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -110,7 +153,10 @@
    "intangibles": 7991000000.0,
    "goodwill_and_intangibles": 13196000000.0,
    "total_debt": 15643000000.0,
-   "shares_out": 17617887.0
+   "shares_out": 17617887.0,
+   "unusual_items": -262000000.0,
+   "normalized_ebitda": 37219000000.0,
+   "normalized_income": 29452140000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -143,7 +189,10 @@
    "goodwill_and_intangibles": 12441000000.0,
    "retained_earnings": 51822000000.0,
    "total_debt": 14814000000.0,
-   "shares_out": 15983959.0
+   "shares_out": 15983959.0,
+   "unusual_items": 648000000.0,
+   "normalized_ebitda": 10723000000.0,
+   "normalized_income": 3241392000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -177,7 +226,10 @@
    "goodwill_and_intangibles": 12367000000.0,
    "retained_earnings": 55290000000.0,
    "total_debt": 16477000000.0,
-   "shares_out": 15708635.0
+   "shares_out": 15708635.0,
+   "unusual_items": 17000000.0,
+   "normalized_ebitda": 13874000000.0,
+   "normalized_income": 6093462000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -210,7 +262,10 @@
    "intangibles": 8604000000.0,
    "goodwill_and_intangibles": 13932000000.0,
    "total_debt": 18920000000.0,
-   "shares_out": 14667528.0
+   "shares_out": 14667528.0,
+   "unusual_items": 576000000.0,
+   "normalized_ebitda": 10604000000.0,
+   "normalized_income": 2241160000.0
   }
  ]
 }

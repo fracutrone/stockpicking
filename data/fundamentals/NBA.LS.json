@@ -1,6 +1,6 @@
 {
  "ticker": "NBA.LS",
- "fetched_at": "2026-10-10T12:10:27+00:00",
+ "fetched_at": "2026-10-10T15:07:21+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LIS",
   "fullTimeEmployees": 1270,
   "website": "https://www.novabase.com",
-  "longBusinessSummary": "Novabase S.G.P.S., S.A., through its subsidiaries, provides IT consulting and services in Portugal, Europe, Africa, the Middle East, and internationally. It operates through two segments, Next-Gen and Value Portfolio. The Next-Gen segment develops IT consulting and services to banks, insurance, capital markets, and telecommunication industries under the Celfocus brand names. The Value Portfolio segment is involved in venture capital activities. Novabase S.G.P.S., S.A. was incorporated in 1989 and is headquartered in Lisbon, Portugal"
+  "longBusinessSummary": "Novabase S.G.P.S., S.A., through its subsidiaries, provides IT consulting and services in Portugal, Europe, Africa, the Middle East, and internationally. It operates through two segments, Next-Gen and Value Portfolio. The Next-Gen segment develops IT consulting and services to banks, insurance, capital markets, and telecommunication industries under the Celfocus brand names. The Value Portfolio segment is involved in venture capital activities. Novabase S.G.P.S., S.A. was incorporated in 1989 and is headquartered in Lisbon, Portugal",
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 88.5,
+  "forwardEps": 0.08,
+  "trailingEps": 0.2,
+  "earningsGrowth": -0.505,
+  "revenueGrowth": -0.005
  },
  "governance": {
   "ceo": {
@@ -68,8 +79,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF PT",
+  "fy_end": "2022-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 149641000.0,
+    "official": 900970000.0,
+    "diff": 0.833911
+   },
+   "equity": {
+    "yahoo": 56400000.0,
+    "official": 186649000.0,
+    "diff": 0.697829
+   },
+   "net_income": {
+    "yahoo": 8917000.0,
+    "official": 34528000.0,
+    "diff": 0.741746
+   },
+   "revenue": {
+    "yahoo": 120399000.0,
+    "official": 630046000.0,
+    "diff": 0.808904
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2022-12-31"
+ },
+ "info_at": "2026-10-10T15:07:21+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -101,7 +144,10 @@
    "goodwill_and_intangibles": 11935000.0,
    "retained_earnings": 8917000.0,
    "total_debt": 13251000.0,
-   "shares_out": 27967392.0
+   "shares_out": 27967392.0,
+   "unusual_items": 487000.0,
+   "normalized_ebitda": 8650000.0,
+   "normalized_income": 2974892.0
   },
   {
    "fy_end": "2023-12-31",
@@ -133,7 +179,10 @@
    "goodwill_and_intangibles": 9264000.0,
    "retained_earnings": 47058000.0,
    "total_debt": 27819000.0,
-   "shares_out": 25869176.0
+   "shares_out": 25869176.0,
+   "unusual_items": -402000.0,
+   "normalized_ebitda": 11271000.0,
+   "normalized_income": 3344580.0
   },
   {
    "fy_end": "2024-12-31",
@@ -164,7 +213,10 @@
    "goodwill_and_intangibles": 10602000.0,
    "retained_earnings": 6420000.0,
    "total_debt": 20271000.0,
-   "shares_out": 35103281.0
+   "shares_out": 35103281.0,
+   "unusual_items": 2052000.0,
+   "normalized_ebitda": 11855000.0,
+   "normalized_income": 3820948.0
   },
   {
    "fy_end": "2025-12-31",
@@ -195,7 +247,10 @@
    "goodwill_and_intangibles": 11758000.0,
    "retained_earnings": 5485000.0,
    "total_debt": 15484000.0,
-   "shares_out": 37708337.0
+   "shares_out": 37708337.0,
+   "unusual_items": 3505000.0,
+   "normalized_ebitda": 16133000.0,
+   "normalized_income": 6793830.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "SYY",
- "fetched_at": "2026-10-10T12:59:17+00:00",
+ "fetched_at": "2026-10-10T15:57:00+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 75000,
   "website": "https://www.sysco.com",
-  "longBusinessSummary": "Sysco Corporation, through its subsidiaries, engages in the sale, marketing, and distribution of food and related products to restaurants, healthcare and educational facilities, lodging establishments, and other foodservice customers. It operates through U.S. Foodservice Operations, International Foodservice Operations, SYGMA, and Other segments. The company distributes frozen food, such as meats, seafood, fully prepared entrées, fruits, vegetables, and desserts; canned and dry food; fresh meats and seafood; dairy and beverage products; imported specialties; and fresh produce. It also supplies paper products, including disposable napkins, plates, and cups; tableware comprising glassware and silverware; cookware consisting of pots, pans, and utensils; restaurant and kitchen equipment and supplies; and cleaning supplies. The company operates in the United States, Canada, the United Kingdom, France, Sweden, and internationally. Sysco Corporation was incorporated in 1969 and is headquartered in Houston, Texas."
+  "longBusinessSummary": "Sysco Corporation, through its subsidiaries, engages in the sale, marketing, and distribution of food and related products to restaurants, healthcare and educational facilities, lodging establishments, and other foodservice customers. It operates through U.S. Foodservice Operations, International Foodservice Operations, SYGMA, and Other segments. The company distributes frozen food, such as meats, seafood, fully prepared entrées, fruits, vegetables, and desserts; canned and dry food; fresh meats and seafood; dairy and beverage products; imported specialties; and fresh produce. It also supplies paper products, including disposable napkins, plates, and cups; tableware comprising glassware and silverware; cookware consisting of pots, pans, and utensils; restaurant and kitchen equipment and supplies; and cleaning supplies. The company operates in the United States, Canada, the United Kingdom, France, Sweden, and internationally. Sysco Corporation was incorporated in 1969 and is headquartered in Houston, Texas.",
+  "targetMeanPrice": 90.83333,
+  "targetLowPrice": 78.0,
+  "targetHighPrice": 100.0,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.28571,
+  "forwardPE": 14.564119,
+  "forwardEps": 5.36524,
+  "trailingEps": 3.66,
+  "earningsGrowth": 0.053,
+  "revenueGrowth": 0.047
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,38 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-06-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 28397000000.0,
+    "official": 28397000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2666000000.0,
+    "official": 2666000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1757000000.0,
+    "official": 1757000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 84553000000.0,
+    "official": 84553000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:57:00+00:00",
  "years": [
   {
    "fy_end": "2020-06-27",
@@ -186,7 +227,9 @@
    "goodwill_and_intangibles": 5505000000.0,
    "retained_earnings": 11311000000.0,
    "total_debt": 10348000000.0,
-   "shares_out": 505112066.0
+   "shares_out": 505112066.0,
+   "normalized_ebitda": 3701000000.0,
+   "normalized_income": 1770000000.0
   },
   {
    "fy_end": "2024-06-29",
@@ -219,7 +262,9 @@
    "goodwill_and_intangibles": 6341000000.0,
    "retained_earnings": 12260000000.0,
    "total_debt": 11513000000.0,
-   "shares_out": 491758215.0
+   "shares_out": 491758215.0,
+   "normalized_ebitda": 4169000000.0,
+   "normalized_income": 1955000000.0
   },
   {
    "fy_end": "2025-06-28",
@@ -252,7 +297,9 @@
    "goodwill_and_intangibles": 6311000000.0,
    "retained_earnings": 13061000000.0,
    "total_debt": 12360000000.0,
-   "shares_out": 477496242.0
+   "shares_out": 477496242.0,
+   "normalized_ebitda": 4136000000.0,
+   "normalized_income": 1828000000.0
   },
   {
    "fy_end": "2026-06-27",
@@ -285,7 +332,9 @@
    "goodwill_and_intangibles": 6176000000.0,
    "retained_earnings": 13748000000.0,
    "total_debt": 12315000000.0,
-   "shares_out": 478543630.0
+   "shares_out": 478543630.0,
+   "normalized_ebitda": 4122000000.0,
+   "normalized_income": 1757000000.0
   }
  ]
 }

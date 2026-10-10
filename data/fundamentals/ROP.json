@@ -1,6 +1,6 @@
 {
  "ticker": "ROP",
- "fetched_at": "2026-10-10T12:57:06+00:00",
+ "fetched_at": "2026-10-10T15:54:47+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 19400,
   "website": "https://www.ropertech.com",
-  "longBusinessSummary": "Roper Technologies, Inc. designs and develops vertical software and technology enabled products in the United States, Canada, Europe, Asia, and internationally. Its Application Software segment offers comprehensive management, diagnostic and laboratory information management, enterprise software and information solutions, K-12 school administration, transportation management, financial and compliance management, cloud-based and integrated payment processing, campus technology and payment, and cloud-based financial analytics, performance management software, and data solutions; cloud-based software for the property and casualty insurance industry; and foodservice technologies. The Network Software segment provides cloud-based data, collaboration, and estimating automation software; electronic marketplace; visual effects and 3D content software; cloud-based software and AI-enabled analytics solutions for the life insurance and financial services industries; supply chain software; health care services and software; data analytics and information; pharmacy software solutions;  and AI-enabled SaaS providing digital engagement, as well as church management and integrated giving solutions for faith-based organizations. The Technology Enabled Products segment offers ultrasound procedures accessories; dispensers and metering pumps; wireless sensor network and solutions; automated surgical scrub and linen dispensing equipment; water meters; optical and electromagnetic precision measurement systems; RFID card and credential readers; and medical devices. It distributes and sells its products through direct sales offices, manufacturers' representatives, resellers, and distributors. The company was formerly known as Roper Industries, Inc. and changed its name to Roper Technologies, Inc. in April 2015. Roper Technologies, Inc. was incorporated in 1981 and is based in Sarasota, Florida."
+  "longBusinessSummary": "Roper Technologies, Inc. designs and develops vertical software and technology enabled products in the United States, Canada, Europe, Asia, and internationally. Its Application Software segment offers comprehensive management, diagnostic and laboratory information management, enterprise software and information solutions, K-12 school administration, transportation management, financial and compliance management, cloud-based and integrated payment processing, campus technology and payment, and cloud-based financial analytics, performance management software, and data solutions; cloud-based software for the property and casualty insurance industry; and foodservice technologies. The Network Software segment provides cloud-based data, collaboration, and estimating automation software; electronic marketplace; visual effects and 3D content software; cloud-based software and AI-enabled analytics solutions for the life insurance and financial services industries; supply chain software; health care services and software; data analytics and information; pharmacy software solutions;  and AI-enabled SaaS providing digital engagement, as well as church management and integrated giving solutions for faith-based organizations. The Technology Enabled Products segment offers ultrasound procedures accessories; dispensers and metering pumps; wireless sensor network and solutions; automated surgical scrub and linen dispensing equipment; water meters; optical and electromagnetic precision measurement systems; RFID card and credential readers; and medical devices. It distributes and sells its products through direct sales offices, manufacturers' representatives, resellers, and distributors. The company was formerly known as Roper Industries, Inc. and changed its name to Roper Technologies, Inc. in April 2015. Roper Technologies, Inc. was incorporated in 1981 and is based in Sarasota, Florida.",
+  "targetMeanPrice": 439.42856,
+  "targetLowPrice": 335.0,
+  "targetHighPrice": 550.0,
+  "numberOfAnalystOpinions": 14,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.42105,
+  "forwardPE": 14.934562,
+  "forwardEps": 24.37902,
+  "trailingEps": 24.0,
+  "earningsGrowth": 2.33,
+  "revenueGrowth": 0.085
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 34577000000.0,
+    "official": 34577000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 19881500000.0,
+    "official": 19881500000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1536300000.0,
+    "official": 1536300000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 7902500000.0,
+    "official": 7902500000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:54:48+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -169,7 +211,8 @@
    "goodwill": 13476300000.0,
    "intangibles": 6509100000.0,
    "retained_earnings": 9455600000.0,
-   "total_debt": 7921800000.0
+   "total_debt": 7921800000.0,
+   "unusual_items": -94400000.0
   },
   {
    "fy_end": "2022-12-31",
@@ -203,7 +246,10 @@
    "goodwill_and_intangibles": 23976800000.0,
    "retained_earnings": 13730700000.0,
    "total_debt": 6661700000.0,
-   "shares_out": 106100000.0
+   "shares_out": 106100000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 2124500000.0,
+   "normalized_income": 985600000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -237,7 +283,10 @@
    "goodwill_and_intangibles": 25330900000.0,
    "retained_earnings": 14816300000.0,
    "total_debt": 6330100000.0,
-   "shares_out": 106900000.0
+   "shares_out": 106900000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 2663000000.0,
+   "normalized_income": 1368400000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -271,7 +320,9 @@
    "goodwill_and_intangibles": 28372500000.0,
    "retained_earnings": 16034900000.0,
    "total_debt": 7623000000.0,
-   "shares_out": 107300000.0
+   "shares_out": 107300000.0,
+   "normalized_ebitda": 3039200000.0,
+   "normalized_income": 1549300000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -305,7 +356,9 @@
    "goodwill_and_intangibles": 31105400000.0,
    "retained_earnings": 17205700000.0,
    "total_debt": 9301000000.0,
-   "shares_out": 106600000.0
+   "shares_out": 106600000.0,
+   "normalized_ebitda": 3159300000.0,
+   "normalized_income": 1536300000.0
   }
  ]
 }

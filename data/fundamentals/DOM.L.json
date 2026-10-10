@@ -1,6 +1,6 @@
 {
  "ticker": "DOM.L",
- "fetched_at": "2026-10-10T11:54:34+00:00",
+ "fetched_at": "2026-10-10T14:43:14+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 2592,
   "website": "https://investors.dominos.co.uk",
-  "longBusinessSummary": "Domino's Pizza Group plc owns, operates, and franchises Domino's Pizza stores in the United Kingdom and Ireland. It is also involved in rental activities. The company also supplies ingredients, dough, and equipment to franchisees through its automated supply chain centres. It serves individual consumers through franchisees and corporate stores, and supports franchise partners with operational, marketing, and technology solutions. The company was formerly known as Domino's Pizza UK & IRL plc and changed its name to Domino's Pizza Group plc in May 2012. Domino's Pizza Group plc was founded in 1960 and is based in Milton Keynes, the United Kingdom."
+  "longBusinessSummary": "Domino's Pizza Group plc owns, operates, and franchises Domino's Pizza stores in the United Kingdom and Ireland. It is also involved in rental activities. The company also supplies ingredients, dough, and equipment to franchisees through its automated supply chain centres. It serves individual consumers through franchisees and corporate stores, and supports franchise partners with operational, marketing, and technology solutions. The company was formerly known as Domino's Pizza UK & IRL plc and changed its name to Domino's Pizza Group plc in May 2012. Domino's Pizza Group plc was founded in 1960 and is based in Milton Keynes, the United Kingdom.",
+  "targetMeanPrice": 224.0,
+  "targetLowPrice": 161.0,
+  "targetHighPrice": 300.0,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.75,
+  "forwardPE": 12.207385,
+  "forwardEps": 0.18497,
+  "trailingEps": 0.15,
+  "earningsGrowth": 0.053,
+  "revenueGrowth": 0.067
  },
  "governance": {
   "ceo": {
@@ -71,8 +82,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2023-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 512500000.0,
+    "official": 512500000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": -134000000.0,
+    "official": -134000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 115000000.0,
+    "official": 115000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 679800000.0,
+    "official": 679800000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2023-12-31"
+ },
+ "info_at": "2026-10-10T14:43:14+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -106,7 +149,10 @@
    "goodwill_and_intangibles": 30000000.0,
    "retained_earnings": -156600000.0,
    "total_debt": 507100000.0,
-   "shares_out": 422619455.0
+   "shares_out": 422619455.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 141600000.0,
+   "normalized_income": 81600000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -140,7 +186,10 @@
    "goodwill_and_intangibles": 28800000.0,
    "retained_earnings": -171100000.0,
    "total_debt": 515200000.0,
-   "shares_out": 392466625.0
+   "shares_out": 392466625.0,
+   "unusual_items": 40600000.0,
+   "normalized_ebitda": 151800000.0,
+   "normalized_income": 82195200.0
   },
   {
    "fy_end": "2024-12-31",
@@ -174,7 +223,10 @@
    "goodwill_and_intangibles": 98100000.0,
    "retained_earnings": -140800000.0,
    "total_debt": 547400000.0,
-   "shares_out": 391451774.0
+   "shares_out": 391451774.0,
+   "unusual_items": 20900000.0,
+   "normalized_ebitda": 157200000.0,
+   "normalized_income": 75106485.188151
   },
   {
    "fy_end": "2025-12-31",
@@ -208,7 +260,10 @@
    "goodwill_and_intangibles": 126300000.0,
    "retained_earnings": -146200000.0,
    "total_debt": 549300000.0,
-   "shares_out": 381607649.0
+   "shares_out": 381607649.0,
+   "unusual_items": -3600000.0,
+   "normalized_ebitda": 146900000.0,
+   "normalized_income": 61218988.902589
   }
  ]
 }

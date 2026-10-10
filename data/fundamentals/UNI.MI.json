@@ -1,6 +1,6 @@
 {
  "ticker": "UNI.MI",
- "fetched_at": "2026-10-10T12:24:08+00:00",
+ "fetched_at": "2026-10-10T15:27:21+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "MIL",
   "fullTimeEmployees": 12334,
   "website": "https://www.unipol.it",
-  "longBusinessSummary": "Unipol Assicurazioni S.p.A., together with its subsidiaries, provides insurance products and services primarily in Italy. The company operates through Non-Life Insurance Business, Life Insurance Business, Banking Associates Business, and Other Business segments. It offers risk cover solutions for vehicles, sports craft, and travel; home and condominiums; work related to businesses, traders, professionals, and legal protection; accident and health protection; and investments and welfare. The company also provides life insurance products; bancassurance; and reinsurance services. In addition, it is involved in the operation and management of real estate properties; operation of hotels, residences, and resorts through leases, franchises, and management; agricultural, wine, healthcare facilities, and port facilities; and supplies of anti-theft systems, as well as provision of vehicle and glass repair services; mobile payments, telematics, and response services to assistance request; and telemedicine, home care and prevention, physiotherapy, and social care services. Further, the company offers digital health platform; property services to homes and condominiums, and administrators and owners; and electronic payment and e-money services. It distributes its products through direct sales; broker; agency, banking, and craftsmen network; and franchise administrators. The company was formerly known as Unipol Gruppo S.p.A. and changed its name to Unipol Assicurazioni S.p.A. in January 2025. Unipol Assicurazioni S.p.A. was founded in 1961 and is based in Bologna, Italy."
+  "longBusinessSummary": "Unipol Assicurazioni S.p.A., together with its subsidiaries, provides insurance products and services primarily in Italy. The company operates through Non-Life Insurance Business, Life Insurance Business, Banking Associates Business, and Other Business segments. It offers risk cover solutions for vehicles, sports craft, and travel; home and condominiums; work related to businesses, traders, professionals, and legal protection; accident and health protection; and investments and welfare. The company also provides life insurance products; bancassurance; and reinsurance services. In addition, it is involved in the operation and management of real estate properties; operation of hotels, residences, and resorts through leases, franchises, and management; agricultural, wine, healthcare facilities, and port facilities; and supplies of anti-theft systems, as well as provision of vehicle and glass repair services; mobile payments, telematics, and response services to assistance request; and telemedicine, home care and prevention, physiotherapy, and social care services. Further, the company offers digital health platform; property services to homes and condominiums, and administrators and owners; and electronic payment and e-money services. It distributes its products through direct sales; broker; agency, banking, and craftsmen network; and franchise administrators. The company was formerly known as Unipol Gruppo S.p.A. and changed its name to Unipol Assicurazioni S.p.A. in January 2025. Unipol Assicurazioni S.p.A. was founded in 1961 and is based in Bologna, Italy.",
+  "targetMeanPrice": 31.5,
+  "targetLowPrice": 29.0,
+  "targetHighPrice": 33.5,
+  "numberOfAnalystOpinions": 5,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.4,
+  "forwardPE": 11.206409,
+  "forwardEps": 2.26656,
+  "trailingEps": 2.39,
+  "earningsGrowth": 0.772,
+  "revenueGrowth": 0.232
  },
  "governance": {
   "ceo": {
@@ -62,8 +73,34 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF IT",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 90416000000.0,
+    "official": 90416000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 10391000000.0,
+    "official": 10715000000.0,
+    "diff": 0.030238
+   },
+   "net_income": {
+    "yahoo": 1482000000.0,
+    "official": 1482000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:27:21+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -87,7 +124,9 @@
    "goodwill_and_intangibles": 2236000000.0,
    "retained_earnings": 525000000.0,
    "total_debt": 4616000000.0,
-   "shares_out": 716344076.0
+   "shares_out": 716344076.0,
+   "unusual_items": -388000000.0,
+   "normalized_income": 824148000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -111,7 +150,9 @@
    "goodwill_and_intangibles": 2485000000.0,
    "retained_earnings": 1101000000.0,
    "total_debt": 5016000000.0,
-   "shares_out": 716544830.0
+   "shares_out": 716544830.0,
+   "unusual_items": -505000000.0,
+   "normalized_income": 1530755000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -135,7 +176,9 @@
    "goodwill_and_intangibles": 2558000000.0,
    "retained_earnings": 1074000000.0,
    "total_debt": 5549000000.0,
-   "shares_out": 716171308.0
+   "shares_out": 716171308.0,
+   "unusual_items": -778000000.0,
+   "normalized_income": 1736078000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -159,7 +202,9 @@
    "goodwill_and_intangibles": 2642000000.0,
    "retained_earnings": 1482000000.0,
    "total_debt": 5008000000.0,
-   "shares_out": 715164078.0
+   "shares_out": 715164078.0,
+   "unusual_items": -740000000.0,
+   "normalized_income": 2031820000.0
   }
  ]
 }

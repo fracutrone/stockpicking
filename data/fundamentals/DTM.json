@@ -1,6 +1,6 @@
 {
  "ticker": "DTM",
- "fetched_at": "2026-10-10T12:43:36+00:00",
+ "fetched_at": "2026-10-10T15:42:03+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 588,
   "website": "https://www.dtmidstream.com",
-  "longBusinessSummary": "DT Midstream, Inc., together with its subsidiaries, provides integrated natural gas services in the United States. The company operates in two segments, Pipeline and Gathering. The Pipeline segment owns and operates interstate and intrastate natural gas pipelines, storage systems, and natural gas gathering lateral pipelines. This segment also engages in the transportation and storage of natural gas for intermediate and end-user customers. The Gathering segment owns and operates gas gathering systems. This segment is involved in the collection of natural gas for delivery to plants for treating, to gathering pipelines for further gathering, or to pipelines for transportation; and associated ancillary services, including compression, dehydration, gas treatment, water impoundment, water transportation, water disposal, and sand mining. It serves natural gas producers, local distribution companies, electric power generators, industrials, and national marketers. The company was incorporated in 2021 and is headquartered in Detroit, Michigan."
+  "longBusinessSummary": "DT Midstream, Inc., together with its subsidiaries, provides integrated natural gas services in the United States. The company operates in two segments, Pipeline and Gathering. The Pipeline segment owns and operates interstate and intrastate natural gas pipelines, storage systems, and natural gas gathering lateral pipelines. This segment also engages in the transportation and storage of natural gas for intermediate and end-user customers. The Gathering segment owns and operates gas gathering systems. This segment is involved in the collection of natural gas for delivery to plants for treating, to gathering pipelines for further gathering, or to pipelines for transportation; and associated ancillary services, including compression, dehydration, gas treatment, water impoundment, water transportation, water disposal, and sand mining. It serves natural gas producers, local distribution companies, electric power generators, industrials, and national marketers. The company was incorporated in 2021 and is headquartered in Detroit, Michigan.",
+  "targetMeanPrice": 151.93333,
+  "targetLowPrice": 130.0,
+  "targetHighPrice": 170.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.13333,
+  "forwardPE": 25.565542,
+  "forwardEps": 4.85067,
+  "trailingEps": 4.57,
+  "earningsGrowth": 0.048,
+  "revenueGrowth": 0.11
  },
  "governance": {
   "ceo": {
@@ -82,8 +93,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 10080000000.0,
+    "official": 10080000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4736000000.0,
+    "official": 4736000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 441000000.0,
+    "official": 441000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1243000000.0,
+    "official": 1243000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:42:03+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -182,7 +224,10 @@
    "goodwill_and_intangibles": 2498000000.0,
    "retained_earnings": 547000000.0,
    "total_debt": 3389000000.0,
-   "shares_out": 96754549.0
+   "shares_out": 96754549.0,
+   "unusual_items": 23000000.0,
+   "normalized_ebitda": 785000000.0,
+   "normalized_income": 351761000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -214,7 +259,10 @@
    "goodwill_and_intangibles": 2441000000.0,
    "retained_earnings": 661000000.0,
    "total_debt": 3230000000.0,
-   "shares_out": 96971021.0
+   "shares_out": 96971021.0,
+   "unusual_items": 4000000.0,
+   "normalized_ebitda": 846000000.0,
+   "normalized_income": 380836000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -246,7 +294,10 @@
    "goodwill_and_intangibles": 2697000000.0,
    "retained_earnings": 723000000.0,
    "total_debt": 3500000000.0,
-   "shares_out": 101324894.0
+   "shares_out": 101324894.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 884000000.0,
+   "normalized_income": 354000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -278,7 +329,10 @@
    "goodwill_and_intangibles": 2643000000.0,
    "retained_earnings": 827000000.0,
    "total_debt": 3324000000.0,
-   "shares_out": 101673925.0
+   "shares_out": 101673925.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 1034000000.0,
+   "normalized_income": 441000000.0
   }
  ]
 }

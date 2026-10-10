@@ -1,6 +1,6 @@
 {
  "ticker": "BKG.L",
- "fetched_at": "2026-10-10T11:48:04+00:00",
+ "fetched_at": "2026-10-10T14:35:22+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.06579,
   "heldPercentInstitutions": 0.68826,
   "shortPercentOfFloat": null,
-  "averageVolume": 292112,
+  "averageVolume": 290332,
   "quoteType": "EQUITY",
   "exchange": "LSE",
   "fullTimeEmployees": 2438,
   "website": "https://www.berkeleygroup.co.uk",
-  "longBusinessSummary": "The Berkeley Group Holdings plc, together with its subsidiaries, builds homes and neighbourhoods in the United Kingdom. The company engages in the residential-led mixed-use development and ancillary activities; commercial and land selling activities. In addition, it also provides affordable housing in partnership with the public sector. It operates under the Berkeley, St Edward, St George, St James, St Joseph, and St William brands. The Berkeley Group Holdings plc was founded in 1976 and is headquartered in Cobham, the United Kingdom."
+  "longBusinessSummary": "The Berkeley Group Holdings plc, together with its subsidiaries, builds homes and neighbourhoods in the United Kingdom. The company engages in the residential-led mixed-use development and ancillary activities; commercial and land selling activities. In addition, it also provides affordable housing in partnership with the public sector. It operates under the Berkeley, St Edward, St George, St James, St Joseph, and St William brands. The Berkeley Group Holdings plc was founded in 1976 and is headquartered in Cobham, the United Kingdom.",
+  "targetMeanPrice": 3689.7998,
+  "targetLowPrice": 2800.0,
+  "targetHighPrice": 4800.0,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.85,
+  "forwardPE": 11.407925,
+  "forwardEps": 2.77877,
+  "trailingEps": 3.31,
+  "earningsGrowth": -0.2,
+  "revenueGrowth": -0.003
  },
  "governance": {
   "ceo": {
@@ -74,8 +85,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2026-04-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 6482900000.0,
+    "official": 6482900000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3640200000.0,
+    "official": 3640200000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 318300000.0,
+    "official": 318300000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2383300000.0,
+    "official": 2383300000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2026-04-30"
+ },
+ "info_at": "2026-10-10T14:35:22+00:00",
  "years": [
   {
    "fy_end": "2023-04-30",
@@ -107,7 +149,9 @@
    "goodwill_and_intangibles": 17200000.0,
    "retained_earnings": 4212300000.0,
    "total_debt": 665100000.0,
-   "shares_out": 103702229.0
+   "shares_out": 103702229.0,
+   "normalized_ebitda": 631000000.0,
+   "normalized_income": 465700000.0
   },
   {
    "fy_end": "2024-04-30",
@@ -139,7 +183,9 @@
    "goodwill_and_intangibles": 17200000.0,
    "retained_earnings": 4440500000.0,
    "total_debt": 664400000.0,
-   "shares_out": 102155538.0
+   "shares_out": 102155538.0,
+   "normalized_ebitda": 591300000.0,
+   "normalized_income": 397600000.0
   },
   {
    "fy_end": "2025-04-30",
@@ -171,7 +217,9 @@
    "goodwill_and_intangibles": 17200000.0,
    "retained_earnings": 4439800000.0,
    "total_debt": 682200000.0,
-   "shares_out": 99075394.0
+   "shares_out": 99075394.0,
+   "normalized_ebitda": 561700000.0,
+   "normalized_income": 382000000.0
   },
   {
    "fy_end": "2026-04-30",
@@ -202,7 +250,9 @@
    "goodwill_and_intangibles": 17200000.0,
    "retained_earnings": 4520200000.0,
    "total_debt": 664000000.0,
-   "shares_out": 92940730.0
+   "shares_out": 92940730.0,
+   "normalized_ebitda": 481800000.0,
+   "normalized_income": 318300000.0
   }
  ]
 }

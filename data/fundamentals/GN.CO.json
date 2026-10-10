@@ -1,6 +1,6 @@
 {
  "ticker": "GN.CO",
- "fetched_at": "2026-10-10T12:00:20+00:00",
+ "fetched_at": "2026-10-10T14:51:51+00:00",
  "region": "Europa",
  "statement_currency": "DKK",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "CPH",
   "fullTimeEmployees": 7744,
   "website": "https://www.gn.com",
-  "longBusinessSummary": "GN Store Nord A/S provides hearing, audio, video, and gaming solutions in Denmark, Europe, North America, and internationally. The company operates through Hearing, Enterprise, and Gaming segments. The Hearing segment produces and sells hearing instruments and products. The Enterprise segment supplies audio and video devices for professional use. The Gaming segment produces gaming devices and peripherals. It offers its products under the ReSound, Beltone, Interton, Danavox, Jabra Enhance, Jabra, BlueParrott, FalCom, SteelSeries, and KontrolFreek brands. GN Store Nord A/S was founded in 1869 and is based in Ballerup, Denmark."
+  "longBusinessSummary": "GN Store Nord A/S provides hearing, audio, video, and gaming solutions in Denmark, Europe, North America, and internationally. The company operates through Hearing, Enterprise, and Gaming segments. The Hearing segment produces and sells hearing instruments and products. The Enterprise segment supplies audio and video devices for professional use. The Gaming segment produces gaming devices and peripherals. It offers its products under the ReSound, Beltone, Interton, Danavox, Jabra Enhance, Jabra, BlueParrott, FalCom, SteelSeries, and KontrolFreek brands. GN Store Nord A/S was founded in 1869 and is based in Ballerup, Denmark.",
+  "targetMeanPrice": 113.995,
+  "targetLowPrice": 79.15,
+  "targetHighPrice": 131.8,
+  "numberOfAnalystOpinions": 10,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": 22.304024,
+  "forwardEps": 4.83545,
+  "trailingEps": -1.64,
+  "earningsGrowth": null,
+  "revenueGrowth": -0.057
  },
  "governance": {
   "ceo": {
@@ -70,8 +81,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF DK",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 29226000000.0,
+    "official": 29226000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 10898000000.0,
+    "official": 10898000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 653000000.0,
+    "official": 653000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 16782000000.0,
+    "official": 16782000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:51:51+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -105,7 +148,10 @@
    "goodwill_and_intangibles": 17546000000.0,
    "retained_earnings": 10514000000.0,
    "total_debt": 16253000000.0,
-   "shares_out": 127973117.0
+   "shares_out": 127973117.0,
+   "unusual_items": -365000000.0,
+   "normalized_ebitda": 2810000000.0,
+   "normalized_income": 797890000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -139,7 +185,10 @@
    "goodwill_and_intangibles": 16925000000.0,
    "retained_earnings": 12781000000.0,
    "total_debt": 13499000000.0,
-   "shares_out": 145612715.0
+   "shares_out": 145612715.0,
+   "unusual_items": 22000000.0,
+   "normalized_ebitda": 2376000000.0,
+   "normalized_income": 210928000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -173,7 +222,10 @@
    "goodwill_and_intangibles": 17318000000.0,
    "retained_earnings": 13660000000.0,
    "total_debt": 11487000000.0,
-   "shares_out": 145613000.0
+   "shares_out": 145613000.0,
+   "unusual_items": -34000000.0,
+   "normalized_ebitda": 3153000000.0,
+   "normalized_income": 1014452000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -207,7 +259,10 @@
    "goodwill_and_intangibles": 17035000000.0,
    "retained_earnings": 14273000000.0,
    "total_debt": 10815000000.0,
-   "shares_out": 145612536.0
+   "shares_out": 145612536.0,
+   "unusual_items": 268000000.0,
+   "normalized_ebitda": 2378000000.0,
+   "normalized_income": 444764000.0
   }
  ]
 }

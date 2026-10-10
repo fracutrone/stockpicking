@@ -1,6 +1,6 @@
 {
  "ticker": "WTS",
- "fetched_at": "2026-10-10T13:02:51+00:00",
+ "fetched_at": "2026-10-10T16:00:11+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 5700,
   "website": "https://www.watts.com",
-  "longBusinessSummary": "Watts Water Technologies, Inc., together with its subsidiaries, supplies products and solutions that manage and conserve the flow of fluids and energy into, through, and out of buildings in the commercial, industrial, and residential markets. The company offers residential and commercial flow control and protection products, including backflow preventers, water pressure regulators, temperature and pressure relief valves, thermostatic mixing valves, leak detection and protection products, commercial washroom solutions, hydration solutions, and emergency safety products and equipment for plumbing and hot water applications. It also provides heating, ventilation, and air conditioning and gas products comprising commercial, institutional, and industrial boilers; water heaters and heating solutions; hydronic and electric heating systems for under-floor radiant applications; custom heat and hot water solutions; hydronic pump groups for boiler manufacturers and alternative energy control packages; and flexible stainless-steel connectors for natural and liquid propane gas in commercial food service and residential applications. In addition, the company offers drainage and water re-use products, such as drainage products, engineered rainwater harvesting solutions for commercial, industrial, marine, and residential applications; connected roof drain systems; and water quality products, including point-of-use and point-of-entry, closed loop, cooling tower, and other water applications for commercial, marine, and residential applications. It sells its products to plumbing, heating, and mechanical wholesale distributors and dealers; original equipment manufacturers; specialty product distributors; and do-it-yourself and retail chains, as well as wholesalers and private label accounts in the Americas, Europe, Asia-Pacific, Middle East, and Africa. Watts Water Technologies, Inc. was founded in 1874 and is headquartered in North Andover, Massachusetts."
+  "longBusinessSummary": "Watts Water Technologies, Inc., together with its subsidiaries, supplies products and solutions that manage and conserve the flow of fluids and energy into, through, and out of buildings in the commercial, industrial, and residential markets. The company offers residential and commercial flow control and protection products, including backflow preventers, water pressure regulators, temperature and pressure relief valves, thermostatic mixing valves, leak detection and protection products, commercial washroom solutions, hydration solutions, and emergency safety products and equipment for plumbing and hot water applications. It also provides heating, ventilation, and air conditioning and gas products comprising commercial, institutional, and industrial boilers; water heaters and heating solutions; hydronic and electric heating systems for under-floor radiant applications; custom heat and hot water solutions; hydronic pump groups for boiler manufacturers and alternative energy control packages; and flexible stainless-steel connectors for natural and liquid propane gas in commercial food service and residential applications. In addition, the company offers drainage and water re-use products, such as drainage products, engineered rainwater harvesting solutions for commercial, industrial, marine, and residential applications; connected roof drain systems; and water quality products, including point-of-use and point-of-entry, closed loop, cooling tower, and other water applications for commercial, marine, and residential applications. It sells its products to plumbing, heating, and mechanical wholesale distributors and dealers; original equipment manufacturers; specialty product distributors; and do-it-yourself and retail chains, as well as wholesalers and private label accounts in the Americas, Europe, Asia-Pacific, Middle East, and Africa. Watts Water Technologies, Inc. was founded in 1874 and is headquartered in North Andover, Massachusetts.",
+  "targetMeanPrice": 404.0,
+  "targetLowPrice": 360.0,
+  "targetHighPrice": 447.0,
+  "numberOfAnalystOpinions": 7,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.5,
+  "forwardPE": 25.127195,
+  "forwardEps": 14.03738,
+  "trailingEps": 11.63,
+  "earningsGrowth": 0.173,
+  "revenueGrowth": 0.186
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 2881200000.0,
+    "official": 2881200000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2027700000.0,
+    "official": 2027700000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 340800000.0,
+    "official": 340800000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2438500000.0,
+    "official": 2438500000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T16:00:11+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -203,7 +245,10 @@
    "goodwill_and_intangibles": 706100000.0,
    "retained_earnings": 795300000.0,
    "total_debt": 147600000.0,
-   "shares_out": 33272969.0
+   "shares_out": 33272969.0,
+   "unusual_items": -10600000.0,
+   "normalized_ebitda": 364900000.0,
+   "normalized_income": 260166775.03251
   },
   {
    "fy_end": "2023-12-31",
@@ -237,7 +282,10 @@
    "goodwill_and_intangibles": 909100000.0,
    "retained_earnings": 979100000.0,
    "total_debt": 298300000.0,
-   "shares_out": 33310991.0
+   "shares_out": 33310991.0,
+   "unusual_items": -5500000.0,
+   "normalized_ebitda": 406500000.0,
+   "normalized_income": 266224606.58083
   },
   {
    "fy_end": "2024-12-31",
@@ -271,7 +319,10 @@
    "goodwill_and_intangibles": 950000000.0,
    "retained_earnings": 1184800000.0,
    "total_debt": 197000000.0,
-   "shares_out": 33319975.0
+   "shares_out": 33319975.0,
+   "unusual_items": -7200000.0,
+   "normalized_ebitda": 462300000.0,
+   "normalized_income": 296628800.0
   },
   {
    "fy_end": "2025-12-31",
@@ -305,7 +356,10 @@
    "goodwill_and_intangibles": 1153600000.0,
    "retained_earnings": 1431300000.0,
    "total_debt": 197700000.0,
-   "shares_out": 33342823.0
+   "shares_out": 33342823.0,
+   "unusual_items": -23700000.0,
+   "normalized_ebitda": 538700000.0,
+   "normalized_income": 358930500.0
   }
  ]
 }

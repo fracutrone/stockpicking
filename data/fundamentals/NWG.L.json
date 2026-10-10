@@ -1,6 +1,6 @@
 {
  "ticker": "NWG.L",
- "fetched_at": "2026-10-10T12:11:59+00:00",
+ "fetched_at": "2026-10-10T15:09:28+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -11,8 +11,8 @@
   "country": "United Kingdom",
   "currency": "GBp",
   "financialCurrency": "GBP",
-  "marketCap": 50913398784,
-  "sharesOutstanding": 7923031248,
+  "marketCap": 50884141056,
+  "sharesOutstanding": 7918478845,
   "floatShares": 7919284590,
   "heldPercentInsiders": 0.00056,
   "heldPercentInstitutions": 0.62277,
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 59000,
   "website": "https://www.natwestgroup.com",
-  "longBusinessSummary": "NatWest Group plc, together with its subsidiaries, provides banking and financial products and services in the United Kingdom and internationally. It operates through the Retail Banking, Private Banking, and Commercial & Institutional segments. The Retail Banking segment offers a range of banking products and related financial services, such as current accounts, mortgages, personal unsecured lending, and personal deposits, as well as mobile and online banking services. Its Private Banking segment provides banking, lending, and wealth management products for high-net-worth individuals and their business interests. The Commercial & Institutional segment consists of customer businesses under business banking, commercial mid-market, and corporates and institutions; and offers banking operations services in the Channel Islands, Isle of Man, Gibraltar, and Luxembourg, as well as products and solutions for businesses comprising start-ups, corporates, and large institutions. The company was formerly known as The Royal Bank of Scotland Group plc and changed its name to NatWest Group plc in July 2020. NatWest Group plc was founded in 1727 and is headquartered in Edinburgh, the United Kingdom."
+  "longBusinessSummary": "NatWest Group plc, together with its subsidiaries, provides banking and financial products and services in the United Kingdom and internationally. It operates through the Retail Banking, Private Banking, and Commercial & Institutional segments. The Retail Banking segment offers a range of banking products and related financial services, such as current accounts, mortgages, personal unsecured lending, and personal deposits, as well as mobile and online banking services. Its Private Banking segment provides banking, lending, and wealth management products for high-net-worth individuals and their business interests. The Commercial & Institutional segment consists of customer businesses under business banking, commercial mid-market, and corporates and institutions; and offers banking operations services in the Channel Islands, Isle of Man, Gibraltar, and Luxembourg, as well as products and solutions for businesses comprising start-ups, corporates, and large institutions. The company was formerly known as The Royal Bank of Scotland Group plc and changed its name to NatWest Group plc in July 2020. NatWest Group plc was founded in 1727 and is headquartered in Edinburgh, the United Kingdom.",
+  "targetMeanPrice": 798.389,
+  "targetLowPrice": 650.0,
+  "targetHighPrice": 880.0,
+  "numberOfAnalystOpinions": 18,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.77778,
+  "forwardPE": 7.555111,
+  "forwardEps": 0.85055,
+  "trailingEps": 0.74,
+  "earningsGrowth": 0.3,
+  "revenueGrowth": 0.145
  },
  "governance": {
   "ceo": {
@@ -77,8 +88,34 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 707985000000.0,
+    "official": 707985000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 39350000000.0,
+    "official": 39350000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 4802000000.0,
+    "official": 4811000000.0,
+    "diff": 0.001871
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T15:09:28+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -105,7 +142,9 @@
    "goodwill_and_intangibles": 7116000000.0,
    "retained_earnings": 10019000000.0,
    "total_debt": 55316000000.0,
-   "shares_out": 9659012839.0
+   "shares_out": 9659012839.0,
+   "unusual_items": -551000000.0,
+   "normalized_income": 4265108924.395947
   },
   {
    "fy_end": "2023-12-31",
@@ -132,7 +171,9 @@
    "goodwill_and_intangibles": 7614000000.0,
    "retained_earnings": 10645000000.0,
    "total_debt": 60074000000.0,
-   "shares_out": 8792562716.0
+   "shares_out": 8792562716.0,
+   "unusual_items": -375000000.0,
+   "normalized_income": 5035957267.724183
   },
   {
    "fy_end": "2024-12-31",
@@ -158,7 +199,9 @@
    "goodwill_and_intangibles": 7588000000.0,
    "retained_earnings": 11426000000.0,
    "total_debt": 65922000000.0,
-   "shares_out": 8042415284.0
+   "shares_out": 8042415284.0,
+   "unusual_items": -264000000.0,
+   "normalized_income": 4922432000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -184,7 +227,9 @@
    "goodwill_and_intangibles": 7292000000.0,
    "retained_earnings": 14419000000.0,
    "total_debt": 71826000000.0,
-   "shares_out": 7994646202.0
+   "shares_out": 7994646202.0,
+   "unusual_items": -203000000.0,
+   "normalized_income": 5984645822.522055
   }
  ]
 }

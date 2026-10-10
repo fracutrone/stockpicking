@@ -1,6 +1,6 @@
 {
  "ticker": "UNP",
- "fetched_at": "2026-10-10T13:00:57+00:00",
+ "fetched_at": "2026-10-10T15:58:31+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 28716,
   "website": "https://www.up.com",
-  "longBusinessSummary": "Union Pacific Corporation, through its subsidiary, Union Pacific Railroad Company, operates in the railroad business in the United States. It offers transportation services for grain and grain products, fertilizers, food and refrigerated products, and coal and renewables to grain processors, animal feeders, and ethanol and renewable biofuel producers; and construction products, industrial chemicals, plastics, forest products, specialized products, metals and ores, petroleum, liquid petroleum gases, soda ash, and sand, as well as finished automobiles, automotive parts, and merchandise in intermodal containers. The company was founded in 1862 and is headquartered in Omaha, Nebraska."
+  "longBusinessSummary": "Union Pacific Corporation, through its subsidiary, Union Pacific Railroad Company, operates in the railroad business in the United States. It offers transportation services for grain and grain products, fertilizers, food and refrigerated products, and coal and renewables to grain processors, animal feeders, and ethanol and renewable biofuel producers; and construction products, industrial chemicals, plastics, forest products, specialized products, metals and ores, petroleum, liquid petroleum gases, soda ash, and sand, as well as finished automobiles, automotive parts, and merchandise in intermodal containers. The company was founded in 1862 and is headquartered in Omaha, Nebraska.",
+  "targetMeanPrice": 328.16666,
+  "targetLowPrice": 245.0,
+  "targetHighPrice": 375.0,
+  "numberOfAnalystOpinions": 24,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.72,
+  "forwardPE": 19.565199,
+  "forwardEps": 14.22628,
+  "trailingEps": 12.34,
+  "earningsGrowth": 0.066,
+  "revenueGrowth": 0.115
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 69698000000.0,
+    "official": 69698000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 18467000000.0,
+    "official": 18467000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 7138000000.0,
+    "official": 7138000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 24510000000.0,
+    "official": 24510000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:58:31+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -150,7 +192,8 @@
    "equity": 14161000000.0,
    "receivables": 1722000000.0,
    "retained_earnings": 55049000000.0,
-   "total_debt": 30129000000.0
+   "total_debt": 30129000000.0,
+   "unusual_items": 36000000.0
   },
   {
    "fy_end": "2022-12-31",
@@ -183,7 +226,10 @@
    "goodwill_and_intangibles": 729000000.0,
    "retained_earnings": 58887000000.0,
    "total_debt": 33526000000.0,
-   "shares_out": 612393321.0
+   "shares_out": 612393321.0,
+   "unusual_items": 381000000.0,
+   "normalized_ebitda": 12589000000.0,
+   "normalized_income": 6998000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -216,7 +262,10 @@
    "goodwill_and_intangibles": 814000000.0,
    "retained_earnings": 62093000000.0,
    "total_debt": 32579000000.0,
-   "shares_out": 609703814.0
+   "shares_out": 609703814.0,
+   "unusual_items": 414000000.0,
+   "normalized_ebitda": 11891000000.0,
+   "normalized_income": 6379000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -249,7 +298,10 @@
    "goodwill_and_intangibles": 791000000.0,
    "retained_earnings": 65628000000.0,
    "total_debt": 31192000000.0,
-   "shares_out": 604241260.0
+   "shares_out": 604241260.0,
+   "unusual_items": 263000000.0,
+   "normalized_ebitda": 12461000000.0,
+   "normalized_income": 6747000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -282,7 +334,9 @@
    "goodwill_and_intangibles": 745000000.0,
    "retained_earnings": 69529000000.0,
    "total_debt": 31814000000.0,
-   "shares_out": 593245884.0
+   "shares_out": 593245884.0,
+   "normalized_ebitda": 12940000000.0,
+   "normalized_income": 7138000000.0
   }
  ]
 }

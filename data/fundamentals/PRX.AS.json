@@ -1,6 +1,6 @@
 {
  "ticker": "PRX.AS",
- "fetched_at": "2026-10-10T12:15:07+00:00",
+ "fetched_at": "2026-10-10T15:12:36+00:00",
  "region": "Europa",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "AMS",
   "fullTimeEmployees": 41998,
   "website": "https://www.prosus.com",
-  "longBusinessSummary": "Prosus N.V. engages in the e-commerce and internet businesses in Asia, Europe, Latin America, North America, and internationally. It operates internet platforms, such as classifieds, payments and fintech, etail, food delivery, education technology, Etail, ventures, tencent, and other platforms. It also provides online food delivery service. The company was formerly known as Myriad International Holdings N.V. and changed its name to Prosus N.V. Prosus N.V. was incorporated in 1994 and is headquartered in Amsterdam, the Netherlands."
+  "longBusinessSummary": "Prosus N.V. engages in the e-commerce and internet businesses in Asia, Europe, Latin America, North America, and internationally. It operates internet platforms, such as classifieds, payments and fintech, etail, food delivery, education technology, Etail, ventures, tencent, and other platforms. It also provides online food delivery service. The company was formerly known as Myriad International Holdings N.V. and changed its name to Prosus N.V. Prosus N.V. was incorporated in 1994 and is headquartered in Amsterdam, the Netherlands.",
+  "targetMeanPrice": 60.77139,
+  "targetLowPrice": 39.0,
+  "targetHighPrice": 79.995,
+  "numberOfAnalystOpinions": 18,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.61111,
+  "forwardPE": 8.245533,
+  "forwardEps": 4.366,
+  "trailingEps": 4.51,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "ceo": {
@@ -81,8 +92,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF NL",
+  "fy_end": "2024-03-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 61821000000.0,
+    "official": 61821000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 41260000000.0,
+    "official": 41260000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 6606000000.0,
+    "official": 6606000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 5467000000.0,
+    "official": 5467000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-03-31"
+ },
+ "info_at": "2026-10-10T15:12:36+00:00",
  "years": [
   {
    "fy_end": "2023-03-31",
@@ -117,7 +160,10 @@
    "goodwill_and_intangibles": 1779000000.0,
    "retained_earnings": 61206000000.0,
    "total_debt": 16271000000.0,
-   "shares_out": 4042802560.0
+   "shares_out": 4042802560.0,
+   "unusual_items": 5564000000.0,
+   "normalized_ebitda": 4915000000.0,
+   "normalized_income": 6599008000.0
   },
   {
    "fy_end": "2024-03-31",
@@ -152,7 +198,10 @@
    "goodwill_and_intangibles": 1353000000.0,
    "retained_earnings": 66178000000.0,
    "total_debt": 16238000000.0,
-   "shares_out": 2494180996.0
+   "shares_out": 2494180996.0,
+   "unusual_items": 4424000000.0,
+   "normalized_ebitda": 3324000000.0,
+   "normalized_income": 4233312000.0
   },
   {
    "fy_end": "2025-03-31",
@@ -187,7 +236,10 @@
    "goodwill_and_intangibles": 1553000000.0,
    "retained_earnings": 79331000000.0,
    "total_debt": 16450000000.0,
-   "shares_out": 2280205366.0
+   "shares_out": 2280205366.0,
+   "unusual_items": 6370000000.0,
+   "normalized_ebitda": 6998000000.0,
+   "normalized_income": 6214973171.309082
   },
   {
    "fy_end": "2026-03-31",
@@ -221,7 +273,10 @@
    "goodwill_and_intangibles": 10431000000.0,
    "retained_earnings": 91760000000.0,
    "total_debt": 17611000000.0,
-   "shares_out": 2138335355.0
+   "shares_out": 2138335355.0,
+   "unusual_items": 5419000000.0,
+   "normalized_ebitda": 7528000000.0,
+   "normalized_income": 8372416000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "ADP",
- "fetched_at": "2026-10-10T12:36:28+00:00",
+ "fetched_at": "2026-10-10T15:33:35+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 67000,
   "website": "https://www.adp.com",
-  "longBusinessSummary": "Automatic Data Processing, Inc. provides cloud-based human capital management (HCM) solutions worldwide. It operates in two segments, Employer Services and Professional Employer Organization (PEO). The Employer Services segment offers strategic, cloud-based platforms, and human resources (HR) outsourcing solutions. This segment's offerings include RUN Powered by ADP, a software platform for small business payroll, HR, and compliance; ADP Workforce Now, a HCM solution used across mid-sized and large businesses to manage employees; and ADP Lyric HCM, a solution for HR management, payroll, workforce management, talent, and data analytics. Its PEO Services segment provides HR outsourcing solutions under ADP TotalSource name to businesses through a co-employment model. This segment also provides guidance, user-friendly technology, comprehensive employee benefits, and a risk management, safety, and workers' compensation program. The company was founded in 1949 and is headquartered in Roseland, New Jersey."
+  "longBusinessSummary": "Automatic Data Processing, Inc. provides cloud-based human capital management (HCM) solutions worldwide. It operates in two segments, Employer Services and Professional Employer Organization (PEO). The Employer Services segment offers strategic, cloud-based platforms, and human resources (HR) outsourcing solutions. This segment's offerings include RUN Powered by ADP, a software platform for small business payroll, HR, and compliance; ADP Workforce Now, a HCM solution used across mid-sized and large businesses to manage employees; and ADP Lyric HCM, a solution for HR management, payroll, workforce management, talent, and data analytics. Its PEO Services segment provides HR outsourcing solutions under ADP TotalSource name to businesses through a co-employment model. This segment also provides guidance, user-friendly technology, comprehensive employee benefits, and a risk management, safety, and workers' compensation program. The company was founded in 1949 and is headquartered in Roseland, New Jersey.",
+  "targetMeanPrice": 286.4,
+  "targetLowPrice": 225.0,
+  "targetHighPrice": 322.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.72222,
+  "forwardPE": 20.21141,
+  "forwardEps": 13.40233,
+  "trailingEps": 10.94,
+  "earningsGrowth": 0.098,
+  "revenueGrowth": 0.068
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-06-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 63193300000.0,
+    "official": 63193300000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 6031200000.0,
+    "official": 6031200000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 4413500000.0,
+    "official": 4413500000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 21947400000.0,
+    "official": 21947400000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:33:35+00:00",
  "years": [
   {
    "fy_end": "2020-06-30",
@@ -197,7 +239,10 @@
    "goodwill_and_intangibles": 3683000000.0,
    "retained_earnings": 22118000000.0,
    "total_debt": 2989000000.0,
-   "shares_out": 412100000.0
+   "shares_out": 412100000.0,
+   "unusual_items": -16800000.0,
+   "normalized_ebitda": 5257000000.0,
+   "normalized_income": 3424919200.0
   },
   {
    "fy_end": "2024-06-30",
@@ -231,7 +276,10 @@
    "goodwill_and_intangibles": 3689600000.0,
    "retained_earnings": 23622200000.0,
    "total_debt": 2991300000.0,
-   "shares_out": 408100000.0
+   "shares_out": 408100000.0,
+   "unusual_items": 11200000.0,
+   "normalized_ebitda": 5784400000.0,
+   "normalized_income": 3743376000.0
   },
   {
    "fy_end": "2025-06-30",
@@ -265,7 +313,10 @@
    "goodwill_and_intangibles": 4876500000.0,
    "retained_earnings": 25240600000.0,
    "total_debt": 8744200000.0,
-   "shares_out": 405300000.0
+   "shares_out": 405300000.0,
+   "unusual_items": 3300000.0,
+   "normalized_ebitda": 6345100000.0,
+   "normalized_income": 4077164640.967213
   },
   {
    "fy_end": "2026-06-30",
@@ -299,7 +350,10 @@
    "goodwill_and_intangibles": 4937700000.0,
    "retained_earnings": 26967400000.0,
    "total_debt": 4964100000.0,
-   "shares_out": 397800000.0
+   "shares_out": 397800000.0,
+   "unusual_items": 2900000.0,
+   "normalized_ebitda": 6772600000.0,
+   "normalized_income": 4411266408.390486
   }
  ]
 }

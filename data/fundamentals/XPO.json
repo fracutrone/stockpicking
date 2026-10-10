@@ -1,6 +1,6 @@
 {
  "ticker": "XPO",
- "fetched_at": "2026-10-10T13:03:05+00:00",
+ "fetched_at": "2026-10-10T16:00:23+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 38000,
   "website": "https://www.xpo.com",
-  "longBusinessSummary": "XPO, Inc., together with its subsidiaries, provides freight transportation services in the United States, North America, France, the United Kingdom, and rest of Europe. The company operates in two segments, North American Less-Than-Truckload (LTL) and European Transportation. The North American LTL segment provides shippers with geographic density and day-definite domestic and cross-border services to the U.S., Mexico, Canada, and the Caribbean. The European Transportation segment offers dedicated truckload, LTL, truck brokerage, managed transportation, last mile, freight forwarding, and warehousing and multimodal solutions to an extensive base of customers within the consumer, trade, and industrial markets. The company was formerly known as XPO Logistics, Inc. and changed its name to XPO, Inc. in December 2022. The company was founded in 1989 and is based in Greenwich, Connecticut."
+  "longBusinessSummary": "XPO, Inc., together with its subsidiaries, provides freight transportation services in the United States, North America, France, the United Kingdom, and rest of Europe. The company operates in two segments, North American Less-Than-Truckload (LTL) and European Transportation. The North American LTL segment provides shippers with geographic density and day-definite domestic and cross-border services to the U.S., Mexico, Canada, and the Caribbean. The European Transportation segment offers dedicated truckload, LTL, truck brokerage, managed transportation, last mile, freight forwarding, and warehousing and multimodal solutions to an extensive base of customers within the consumer, trade, and industrial markets. The company was formerly known as XPO Logistics, Inc. and changed its name to XPO, Inc. in December 2022. The company was founded in 1989 and is based in Greenwich, Connecticut.",
+  "targetMeanPrice": 225.91304,
+  "targetLowPrice": 115.0,
+  "targetHighPrice": 275.0,
+  "numberOfAnalystOpinions": 23,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.64,
+  "forwardPE": 28.033241,
+  "forwardEps": 6.54473,
+  "trailingEps": 3.4,
+  "earningsGrowth": 0.528,
+  "revenueGrowth": 0.132
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "inventory": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 8194000000.0,
+    "official": 8194000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1861000000.0,
+    "official": 1861000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 316000000.0,
+    "official": 316000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 8157000000.0,
+    "official": 8157000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T16:00:23+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -190,7 +232,10 @@
    "goodwill_and_intangibles": 1879000000.0,
    "retained_earnings": -4000000.0,
    "total_debt": 2473000000.0,
-   "shares_out": 115000000.0
+   "shares_out": 115000000.0,
+   "unusual_items": -151000000.0,
+   "normalized_ebitda": 936000000.0,
+   "normalized_income": 291814000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -222,7 +267,10 @@
    "goodwill_and_intangibles": 1920000000.0,
    "retained_earnings": 185000000.0,
    "total_debt": 3335000000.0,
-   "shares_out": 115973170.0
+   "shares_out": 115973170.0,
+   "unusual_items": -130000000.0,
+   "normalized_ebitda": 990000000.0,
+   "normalized_income": 288200000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -254,7 +302,10 @@
    "goodwill_and_intangibles": 1821000000.0,
    "retained_earnings": 572000000.0,
    "total_debt": 3325000000.0,
-   "shares_out": 117174000.0
+   "shares_out": 117174000.0,
+   "unusual_items": -40000000.0,
+   "normalized_ebitda": 1226000000.0,
+   "normalized_income": 419760000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -286,7 +337,10 @@
    "goodwill_and_intangibles": 1858000000.0,
    "retained_earnings": 888000000.0,
    "total_debt": 3253000000.0,
-   "shares_out": 117384263.0
+   "shares_out": 117384263.0,
+   "unusual_items": -78000000.0,
+   "normalized_ebitda": 1255000000.0,
+   "normalized_income": 372316000.0
   }
  ]
 }

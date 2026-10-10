@@ -1,6 +1,6 @@
 {
  "ticker": "THRL.L",
- "fetched_at": "2026-10-10T12:22:11+00:00",
+ "fetched_at": "2026-10-10T15:24:51+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": 120.33301,
+  "targetLowPrice": 111.0,
+  "targetHighPrice": 125.0,
+  "numberOfAnalystOpinions": 3,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 15.77837,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -49,8 +60,16 @@
   "equity": "yahoo",
   "receivables": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T15:24:51+00:00",
  "years": [
   {
    "fy_end": "2022-06-30",
@@ -70,7 +89,9 @@
    "equity": 698767000.0,
    "receivables": 69200000.0,
    "total_debt": 231383000.0,
-   "shares_out": 620237346.0
+   "shares_out": 620237346.0,
+   "unusual_items": 5546000.0,
+   "normalized_income": 43551677.677535
   },
   {
    "fy_end": "2023-06-30",
@@ -90,7 +111,9 @@
    "equity": 654808000.0,
    "receivables": 85832000.0,
    "total_debt": 227051000.0,
-   "shares_out": 620237346.0
+   "shares_out": 620237346.0,
+   "unusual_items": -53446000.0,
+   "normalized_income": 46874000.0
   },
   {
    "fy_end": "2024-06-30",
@@ -110,7 +133,9 @@
    "equity": 689293000.0,
    "receivables": 94093000.0,
    "total_debt": 240672000.0,
-   "shares_out": 620237346.0
+   "shares_out": 620237346.0,
+   "unusual_items": 26627000.0,
+   "normalized_income": 46397000.0
   }
  ]
 }

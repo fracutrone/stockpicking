@@ -1,6 +1,6 @@
 {
  "ticker": "SLGN",
- "fetched_at": "2026-10-10T12:58:09+00:00",
+ "fetched_at": "2026-10-10T15:55:46+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 17320,
   "website": "https://www.silganholdings.com",
-  "longBusinessSummary": "Silgan Holdings Inc., together with its subsidiaries, manufactures and sells rigid packaging solutions for consumer goods products in the United States and internationally. It operates through three segments: Dispensing and Specialty Closures, Metal Containers, and Custom Containers. The company offers integrated dispensing packaging solutions, proprietary metal and plastic specialty closures, and capping/sealing equipment and detection systems for fragrance and beauty, food, beverage, personal and health care, home care, and lawn and garden markets. It also provides steel and aluminum containers used by processors and packagers for food products, such as pet food, vegetables and fruits, soup, proteins, and other miscellaneous food products, as well as general line metal containers for products, including promotional products. In addition, the company offers custom designed polyethylene, polyethylene terephthalate, containers, thermoformed barrier and non-barrier bowls, trays for shelf-stable food products, and plastic caps, sifters and fitments for food and household products, including salad dressings, condiments, peanut butter, spices, liquid margarine, powdered drink mixes, and arts and crafts supplies. It markets its products primarily through direct sales force, as well as through a network of distributors, and an online shopping catalog. The company was founded in 1987 and is headquartered in Norwalk, Connecticut."
+  "longBusinessSummary": "Silgan Holdings Inc., together with its subsidiaries, manufactures and sells rigid packaging solutions for consumer goods products in the United States and internationally. It operates through three segments: Dispensing and Specialty Closures, Metal Containers, and Custom Containers. The company offers integrated dispensing packaging solutions, proprietary metal and plastic specialty closures, and capping/sealing equipment and detection systems for fragrance and beauty, food, beverage, personal and health care, home care, and lawn and garden markets. It also provides steel and aluminum containers used by processors and packagers for food products, such as pet food, vegetables and fruits, soup, proteins, and other miscellaneous food products, as well as general line metal containers for products, including promotional products. In addition, the company offers custom designed polyethylene, polyethylene terephthalate, containers, thermoformed barrier and non-barrier bowls, trays for shelf-stable food products, and plastic caps, sifters and fitments for food and household products, including salad dressings, condiments, peanut butter, spices, liquid margarine, powdered drink mixes, and arts and crafts supplies. It markets its products primarily through direct sales force, as well as through a network of distributors, and an online shopping catalog. The company was founded in 1987 and is headquartered in Norwalk, Connecticut.",
+  "targetMeanPrice": 53.84615,
+  "targetLowPrice": 38.0,
+  "targetHighPrice": 61.0,
+  "numberOfAnalystOpinions": 13,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.38462,
+  "forwardPE": 8.665439,
+  "forwardEps": 4.08981,
+  "trailingEps": 2.55,
+  "earningsGrowth": -0.137,
+  "revenueGrowth": 0.068
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 9397083000.0,
+    "official": 9397083000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2274301000.0,
+    "official": 2274301000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 288403000.0,
+    "official": 288403000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 6483166000.0,
+    "official": 6483166000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:55:46+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -200,7 +242,10 @@
    "goodwill_and_intangibles": 2748764000.0,
    "retained_earnings": 2961079000.0,
    "total_debt": 3425442000.0,
-   "shares_out": 110079007.0
+   "shares_out": 110079007.0,
+   "unusual_items": -75562000.0,
+   "normalized_ebitda": 938831000.0,
+   "normalized_income": 395167844.130097
   },
   {
    "fy_end": "2023-12-31",
@@ -234,7 +279,10 @@
    "goodwill_and_intangibles": 2739264000.0,
    "retained_earnings": 3208237000.0,
    "total_debt": 3426766000.0,
-   "shares_out": 106499955.0
+   "shares_out": 106499955.0,
+   "unusual_items": -8412000.0,
+   "normalized_ebitda": 867081000.0,
+   "normalized_income": 332460809.448002
   },
   {
    "fy_end": "2024-12-31",
@@ -268,7 +316,10 @@
    "goodwill_and_intangibles": 3185499000.0,
    "retained_earnings": 3402667000.0,
    "total_debt": 4136853000.0,
-   "shares_out": 106794650.0
+   "shares_out": 106794650.0,
+   "unusual_items": -60537000.0,
+   "normalized_ebitda": 850460000.0,
+   "normalized_income": 324382219.924066
   },
   {
    "fy_end": "2025-12-31",
@@ -302,7 +353,10 @@
    "goodwill_and_intangibles": 3386761000.0,
    "retained_earnings": 3605043000.0,
    "total_debt": 4346848000.0,
-   "shares_out": 105441971.0
+   "shares_out": 105441971.0,
+   "unusual_items": -60509000.0,
+   "normalized_ebitda": 977539000.0,
+   "normalized_income": 330638282.0
   }
  ]
 }

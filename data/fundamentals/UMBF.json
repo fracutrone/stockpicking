@@ -1,6 +1,6 @@
 {
  "ticker": "UMBF",
- "fetched_at": "2026-10-10T13:00:52+00:00",
+ "fetched_at": "2026-10-10T15:58:26+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 5222,
   "website": "https://www.umb.com",
-  "longBusinessSummary": "UMB Financial Corporation operates as a bank holding company that provides banking services and asset servicing in the United States and internationally. The company operates through three segments: Commercial Banking, Institutional Banking, and Personal Banking. The Commercial Banking segment provides commercial loans and credit cards; commercial real estate financing; letters of credit; loan syndication, and consultative services; various business solutions including asset-based lending, mezzanine debt, and minority equity investment; and treasury management service, such as depository service, account reconciliation, cash management tool, accounts payable and receivable solution, electronic fund transfer and automated payment, controlled disbursement, lockbox service, and remote deposit capture service. The Institutional Banking segment offers banking, fund, asset management, and healthcare services to institutional clients; fund administration and accounting, investor services and transfer agency, alternative investment services, fixed income sales, trading and underwriting, and corporate trust and escrow services, as well as institutional custody services. This segment also provides healthcare payment solutions, including custodial service for health saving accounts and private label, multipurpose debit cards to insurance carriers, third-party administrators, software companies, employers, and financial institutions. The Personal Banking segment offers deposit account, retail credit card, private banking, installment loan, home equity line of credit, residential mortgage, as well as internet banking, ATM network, private banking, brokerage and insurance service, and investment advisory, trust, and custody services. It operates through a network of branches and offices. The company was founded in 1913 and is headquartered in Kansas City, Missouri."
+  "longBusinessSummary": "UMB Financial Corporation operates as a bank holding company that provides banking services and asset servicing in the United States and internationally. The company operates through three segments: Commercial Banking, Institutional Banking, and Personal Banking. The Commercial Banking segment provides commercial loans and credit cards; commercial real estate financing; letters of credit; loan syndication, and consultative services; various business solutions including asset-based lending, mezzanine debt, and minority equity investment; and treasury management service, such as depository service, account reconciliation, cash management tool, accounts payable and receivable solution, electronic fund transfer and automated payment, controlled disbursement, lockbox service, and remote deposit capture service. The Institutional Banking segment offers banking, fund, asset management, and healthcare services to institutional clients; fund administration and accounting, investor services and transfer agency, alternative investment services, fixed income sales, trading and underwriting, and corporate trust and escrow services, as well as institutional custody services. This segment also provides healthcare payment solutions, including custodial service for health saving accounts and private label, multipurpose debit cards to insurance carriers, third-party administrators, software companies, employers, and financial institutions. The Personal Banking segment offers deposit account, retail credit card, private banking, installment loan, home equity line of credit, residential mortgage, as well as internet banking, ATM network, private banking, brokerage and insurance service, and investment advisory, trust, and custody services. It operates through a network of branches and offices. The company was founded in 1913 and is headquartered in Kansas City, Missouri.",
+  "targetMeanPrice": 164.0,
+  "targetLowPrice": 145.0,
+  "targetHighPrice": 182.0,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.8125,
+  "forwardPE": 9.355108,
+  "forwardEps": 13.92822,
+  "trailingEps": 12.02,
+  "earningsGrowth": 0.262,
+  "revenueGrowth": 0.122
  },
  "governance": {
   "ceo": {
@@ -78,8 +89,32 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "normalized_income": "yahoo",
   "noninterest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 73094090000.0,
+    "official": 73094090000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 7693568000.0,
+    "official": 7693568000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 702398000.0,
+    "official": 702398000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:58:26+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -107,7 +142,8 @@
    "goodwill_and_intangibles": 331794000.0,
    "retained_earnings": 2536086000.0,
    "total_debt": 381311000.0,
-   "shares_out": 48319404.0
+   "shares_out": 48319404.0,
+   "normalized_income": 431682000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -135,7 +171,8 @@
    "goodwill_and_intangibles": 308804000.0,
    "retained_earnings": 2810824000.0,
    "total_debt": 2183247000.0,
-   "shares_out": 48554127.0
+   "shares_out": 48554127.0,
+   "normalized_income": 350024000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -163,7 +200,8 @@
    "goodwill_and_intangibles": 288163000.0,
    "retained_earnings": 3174948000.0,
    "total_debt": 385292000.0,
-   "shares_out": 48814177.0
+   "shares_out": 48814177.0,
+   "normalized_income": 441243000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -191,7 +229,8 @@
    "goodwill_and_intangibles": 2337086000.0,
    "retained_earnings": 3736413000.0,
    "total_debt": 474229000.0,
-   "shares_out": 75960675.0
+   "shares_out": 75960675.0,
+   "normalized_income": 702398000.0
   }
  ]
 }

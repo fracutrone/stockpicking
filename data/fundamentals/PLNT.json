@@ -1,6 +1,6 @@
 {
  "ticker": "PLNT",
- "fetched_at": "2026-10-10T12:55:35+00:00",
+ "fetched_at": "2026-10-10T15:53:17+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 4393,
   "website": "https://www.planetfitness.com",
-  "longBusinessSummary": "Planet Fitness, Inc., together with its subsidiaries, franchises and operates fitness centers under the Planet Fitness brand. The company operates through three segments: Franchise, Corporate-Owned Clubs, and Equipment. The Franchise segment includes operations related to the franchising business in the United States, Puerto Rico, Canada, Panama, Mexico and Australia. The Corporate-owned clubs segment includes operations with corporate-owned clubs in the United States, Canada, and Spain. The Equipment segment includes the sale of equipment to franchisee-owned clubs; and the sale of fitness equipment to franchisee-owned clubs in the United States, Canada, and Mexico. Planet Fitness, Inc. was founded in 1992 and is headquartered in Hampton, New Hampshire."
+  "longBusinessSummary": "Planet Fitness, Inc., together with its subsidiaries, franchises and operates fitness centers under the Planet Fitness brand. The company operates through three segments: Franchise, Corporate-Owned Clubs, and Equipment. The Franchise segment includes operations related to the franchising business in the United States, Puerto Rico, Canada, Panama, Mexico and Australia. The Corporate-owned clubs segment includes operations with corporate-owned clubs in the United States, Canada, and Spain. The Equipment segment includes the sale of equipment to franchisee-owned clubs; and the sale of fitness equipment to franchisee-owned clubs in the United States, Canada, and Mexico. Planet Fitness, Inc. was founded in 1992 and is headquartered in Hampton, New Hampshire.",
+  "targetMeanPrice": 65.30588,
+  "targetLowPrice": 49.2,
+  "targetHighPrice": 106.0,
+  "numberOfAnalystOpinions": 17,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.83333,
+  "forwardPE": 13.099875,
+  "forwardEps": 3.66263,
+  "trailingEps": 2.94,
+  "earningsGrowth": 0.261,
+  "revenueGrowth": 0.045
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,38 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3103395000.0,
+    "official": 3103395000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": -482777000.0,
+    "official": -482777000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 219104000.0,
+    "official": 219104000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1324144000.0,
+    "official": 1324144000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:53:17+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -195,7 +236,9 @@
    "goodwill_and_intangibles": 1119757000.0,
    "retained_earnings": -703717000.0,
    "total_debt": 1998881000.0,
-   "shares_out": 83430000.0
+   "shares_out": 83430000.0,
+   "normalized_ebitda": 374088000.0,
+   "normalized_income": 99402000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -230,7 +273,9 @@
    "goodwill_and_intangibles": 1090009000.0,
    "retained_earnings": -691461000.0,
    "total_debt": 1983624000.0,
-   "shares_out": 86760000.0
+   "shares_out": 86760000.0,
+   "normalized_ebitda": 443530000.0,
+   "normalized_income": 138313000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -265,7 +310,9 @@
    "goodwill_and_intangibles": 1043951000.0,
    "retained_earnings": -822156000.0,
    "total_debt": 2170529000.0,
-   "shares_out": 84323000.0
+   "shares_out": 84323000.0,
+   "normalized_ebitda": 507111000.0,
+   "normalized_income": 172042000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -300,7 +347,9 @@
    "goodwill_and_intangibles": 998859000.0,
    "retained_earnings": -1107429000.0,
    "total_debt": 2482254000.0,
-   "shares_out": 80445965.0
+   "shares_out": 80445965.0,
+   "normalized_ebitda": 573007000.0,
+   "normalized_income": 219104000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "SOLB.BR",
- "fetched_at": "2026-10-10T12:19:55+00:00",
+ "fetched_at": "2026-10-10T15:21:04+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "BRU",
   "fullTimeEmployees": 8400,
   "website": "https://www.solvay.com",
-  "longBusinessSummary": "Solvay SA provides basic and performance chemicals worldwide. The company engages in the production of sodium carbonate or soda ash and its derivatives used by customers in glass for building, solar panels, glass containers, and packaging; in lithium-ion batteries for electric vehicles; and for detergents and chemicals, as well as sodium bicarbonate for food and animal feed, and flue gas treatment or healthcare applications. It also offers hydrogen peroxide for use in bleaching, decontamination, disinfection, and antiseptic applications in the pulp and paper, textile, water, and food industries; and as an intermediate to produce propylene oxide and caprolactam chemicals, as well as used in semiconductors, photovoltaic, urban mining, and battery sectors. In addition, the company provides precipitated silica, a component in applications in the tire, home and personal care, and feed and food industries; highly dispersible silica used in various tire parts; and oxygenated solvents and polyamides for use in paintings, hygiene, and home care applications, as well as for the production of phenol and derivatives used as intermediates to produce synthetic resins in foundries, construction, and abrasives. Further, it produces fluorine and rare-earth formulations for automotive, electronics, and various chemical and industrial applications. The company was founded in 1863 and is headquartered in Brussels, Belgium."
+  "longBusinessSummary": "Solvay SA provides basic and performance chemicals worldwide. The company engages in the production of sodium carbonate or soda ash and its derivatives used by customers in glass for building, solar panels, glass containers, and packaging; in lithium-ion batteries for electric vehicles; and for detergents and chemicals, as well as sodium bicarbonate for food and animal feed, and flue gas treatment or healthcare applications. It also offers hydrogen peroxide for use in bleaching, decontamination, disinfection, and antiseptic applications in the pulp and paper, textile, water, and food industries; and as an intermediate to produce propylene oxide and caprolactam chemicals, as well as used in semiconductors, photovoltaic, urban mining, and battery sectors. In addition, the company provides precipitated silica, a component in applications in the tire, home and personal care, and feed and food industries; highly dispersible silica used in various tire parts; and oxygenated solvents and polyamides for use in paintings, hygiene, and home care applications, as well as for the production of phenol and derivatives used as intermediates to produce synthetic resins in foundries, construction, and abrasives. Further, it produces fluorine and rare-earth formulations for automotive, electronics, and various chemical and industrial applications. The company was founded in 1863 and is headquartered in Brussels, Belgium.",
+  "targetMeanPrice": 24.87333,
+  "targetLowPrice": 20.0,
+  "targetHighPrice": 30.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "underperform",
+  "recommendationMean": 3.53333,
+  "forwardPE": 9.943397,
+  "forwardEps": 2.51222,
+  "trailingEps": 0.03,
+  "earningsGrowth": 3.178,
+  "revenueGrowth": -0.059
  },
  "governance": {
   "ceo": {
@@ -77,8 +88,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF BE",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 6694000000.0,
+    "official": 6694000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1339000000.0,
+    "official": 1404000000.0,
+    "diff": 0.046296
+   },
+   "net_income": {
+    "yahoo": 223000000.0,
+    "official": 233000000.0,
+    "diff": 0.042918
+   },
+   "revenue": {
+    "yahoo": 5130000000.0,
+    "official": 5130000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T15:21:04+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -113,7 +156,10 @@
    "goodwill_and_intangibles": 5520000000.0,
    "retained_earnings": 6854000000.0,
    "total_debt": 2915000000.0,
-   "shares_out": 103768664.0
+   "shares_out": 103768664.0,
+   "unusual_items": 156000000.0,
+   "normalized_ebitda": 1953000000.0,
+   "normalized_income": 750200000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -148,7 +194,10 @@
    "goodwill_and_intangibles": 965000000.0,
    "retained_earnings": 1683000000.0,
    "total_debt": 394000000.0,
-   "shares_out": 105007926.0
+   "shares_out": 105007926.0,
+   "unusual_items": -607000000.0,
+   "normalized_ebitda": 1914000000.0,
+   "normalized_income": 416250000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -183,7 +232,10 @@
    "goodwill_and_intangibles": 1000000000.0,
    "retained_earnings": 1713000000.0,
    "total_debt": 1881000000.0,
-   "shares_out": 104465072.0
+   "shares_out": 104465072.0,
+   "unusual_items": -292000000.0,
+   "normalized_ebitda": 1097000000.0,
+   "normalized_income": 436160000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -218,7 +270,10 @@
    "goodwill_and_intangibles": 955000000.0,
    "retained_earnings": 1494000000.0,
    "total_debt": 2131000000.0,
-   "shares_out": 104477978.0
+   "shares_out": 104477978.0,
+   "unusual_items": -256000000.0,
+   "normalized_ebitda": 942000000.0,
+   "normalized_income": 222000000.0
   }
  ]
 }

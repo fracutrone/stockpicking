@@ -1,6 +1,6 @@
 {
  "ticker": "TTWO",
- "fetched_at": "2026-10-10T13:00:24+00:00",
+ "fetched_at": "2026-10-10T15:58:00+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 12909,
   "website": "https://www.take2games.com",
-  "longBusinessSummary": "Take-Two Interactive Software, Inc. develops, publishes, and markets interactive entertainment solutions for consumers worldwide. The company develops and publishes action/adventure products under the Grand Theft Auto, LA Noire, Max Payne, Midnight Club, and Red Dead Redemption names, as well as other franchises. It also publishes various entertainment properties across various platforms and a range of genres, such as shooter, action, role-playing, strategy, sports, and family/casual entertainment under the BioShock, Mafia, Sid Meier's Civilization, XCOM series, Borderlands, and Tiny Tina's Wonderland names. In addition, the company publishes sports simulation titles comprising NBA 2K series, a basketball video game; the WWE 2K professional wrestling series; mobile titles, including WWE SuperCard; and PGA TOUR 2K. Further, it offers free-to-play mobile games, such as CSR Racing, Dragon City, Empires & Puzzles, FarmVille 3, Game of Thrones: Legends, Golf Rival, Harry Potter: Puzzles & Spells, Hit It Rich!, Match Factory!, Merge Dragons!, Merge Magic!, Monster Legends, NBA 2K, Toon Blast, Top Eleven, Wizard Of Oz Slots Casino, Toy Blast, Words With Friends, and Zynga Poker; and Color Block Jam. The company's products are designed for console gaming systems; and mobiles, such as smartphones, tablets, and personal computers. It provides its products through physical retail, digital download, online platforms, and cloud streaming services. Take-Two Interactive Software, Inc. was incorporated in 1993 and is based in New York, New York."
+  "longBusinessSummary": "Take-Two Interactive Software, Inc. develops, publishes, and markets interactive entertainment solutions for consumers worldwide. The company develops and publishes action/adventure products under the Grand Theft Auto, LA Noire, Max Payne, Midnight Club, and Red Dead Redemption names, as well as other franchises. It also publishes various entertainment properties across various platforms and a range of genres, such as shooter, action, role-playing, strategy, sports, and family/casual entertainment under the BioShock, Mafia, Sid Meier's Civilization, XCOM series, Borderlands, and Tiny Tina's Wonderland names. In addition, the company publishes sports simulation titles comprising NBA 2K series, a basketball video game; the WWE 2K professional wrestling series; mobile titles, including WWE SuperCard; and PGA TOUR 2K. Further, it offers free-to-play mobile games, such as CSR Racing, Dragon City, Empires & Puzzles, FarmVille 3, Game of Thrones: Legends, Golf Rival, Harry Potter: Puzzles & Spells, Hit It Rich!, Match Factory!, Merge Dragons!, Merge Magic!, Monster Legends, NBA 2K, Toon Blast, Top Eleven, Wizard Of Oz Slots Casino, Toy Blast, Words With Friends, and Zynga Poker; and Color Block Jam. The company's products are designed for console gaming systems; and mobiles, such as smartphones, tablets, and personal computers. It provides its products through physical retail, digital download, online platforms, and cloud streaming services. Take-Two Interactive Software, Inc. was incorporated in 1993 and is based in New York, New York.",
+  "targetMeanPrice": 286.4417,
+  "targetLowPrice": 170.0,
+  "targetHighPrice": 368.0,
+  "numberOfAnalystOpinions": 29,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.2069,
+  "forwardPE": 20.738096,
+  "forwardEps": 10.29217,
+  "trailingEps": -1.73,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.02
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-03-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 9383200000.0,
+    "official": 9383200000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3510900000.0,
+    "official": 3510900000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -298200000.0,
+    "official": -298200000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 6656400000.0,
+    "official": 6656400000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:58:00+00:00",
  "years": [
   {
    "fy_end": "2020-03-31",
@@ -199,7 +241,10 @@
    "goodwill_and_intangibles": 12292500000.0,
    "retained_earnings": 1164300000.0,
    "total_debt": 3079800000.0,
-   "shares_out": 168900000.0
+   "shares_out": 168900000.0,
+   "unusual_items": -77400000.0,
+   "normalized_ebitda": 659900000.0,
+   "normalized_income": -1059643741.125476
   },
   {
    "fy_end": "2024-03-31",
@@ -233,7 +278,10 @@
    "goodwill_and_intangibles": 8933500000.0,
    "retained_earnings": -2579900000.0,
    "total_debt": 3082900000.0,
-   "shares_out": 170800000.0
+   "shares_out": 170800000.0,
+   "unusual_items": -2483900000.0,
+   "normalized_ebitda": 683300000.0,
+   "normalized_income": -1781919000.0
   },
   {
    "fy_end": "2025-03-31",
@@ -267,7 +315,10 @@
    "goodwill_and_intangibles": 5249900000.0,
    "retained_earnings": -7058800000.0,
    "total_debt": 3661100000.0,
-   "shares_out": 177144416.0
+   "shares_out": 177144416.0,
+   "unusual_items": -3674300000.0,
+   "normalized_ebitda": 701400000.0,
+   "normalized_income": -815622900.0
   },
   {
    "fy_end": "2026-03-31",
@@ -301,7 +352,10 @@
    "goodwill_and_intangibles": 4970600000.0,
    "retained_earnings": -7357000000.0,
    "total_debt": 2518000000.0,
-   "shares_out": 185400000.0
+   "shares_out": 185400000.0,
+   "unusual_items": -13000000.0,
+   "normalized_ebitda": 1254500000.0,
+   "normalized_income": -290400000.0
   }
  ]
 }

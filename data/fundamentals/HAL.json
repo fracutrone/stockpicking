@@ -1,6 +1,6 @@
 {
  "ticker": "HAL",
- "fetched_at": "2026-10-10T12:47:25+00:00",
+ "fetched_at": "2026-10-10T15:45:48+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 46000,
   "website": "https://www.halliburton.com",
-  "longBusinessSummary": "Halliburton Company provides products and services to the energy industry worldwide. It operates in two segments, Completion and Production, and Drilling and Evaluation. The Completion and Production segment offers production enhancement services that include stimulation and sand control services; cementing services, such as well bonding and casing, and casing equipment; and completion tools that offer downhole solutions and services, including well completion products and services, intelligent well completions, liner hanger systems, sand control systems, multilateral systems, and service tools. This segment also provides electrical submersible pumps, as well as artificial lift services; production solutions comprising coiled tubing, hydraulic workover units, downhole tools, and pumping and nitrogen services; pipeline and process services, such as pre-commissioning, commissioning, maintenance, and decommissioning; and specialty chemicals and services. The Drilling and Evaluation segment offers drilling fluid systems, performance additives, completion fluids, solids control, specialized testing equipment, and waste management services; drilling systems and services; wireline and perforating services consisting of open-hole logging, and cased-hole and slickline; and drill bits and services comprising roller cone bits, fixed cutter bits, hole enlargement, and related downhole tools and services, as well as coring equipment and services. This segment also provides cloud based digital services and artificial intelligence solutions on an open architecture for subsurface insights, integrated well construction, and reservoir and production management; testing and subsea services, such as acquisition and analysis of reservoir information and optimization solutions; and project management and integrated asset management services. Halliburton Company was founded in 1919 and is based in Houston, Texas."
+  "longBusinessSummary": "Halliburton Company provides products and services to the energy industry worldwide. It operates in two segments, Completion and Production, and Drilling and Evaluation. The Completion and Production segment offers production enhancement services that include stimulation and sand control services; cementing services, such as well bonding and casing, and casing equipment; and completion tools that offer downhole solutions and services, including well completion products and services, intelligent well completions, liner hanger systems, sand control systems, multilateral systems, and service tools. This segment also provides electrical submersible pumps, as well as artificial lift services; production solutions comprising coiled tubing, hydraulic workover units, downhole tools, and pumping and nitrogen services; pipeline and process services, such as pre-commissioning, commissioning, maintenance, and decommissioning; and specialty chemicals and services. The Drilling and Evaluation segment offers drilling fluid systems, performance additives, completion fluids, solids control, specialized testing equipment, and waste management services; drilling systems and services; wireline and perforating services consisting of open-hole logging, and cased-hole and slickline; and drill bits and services comprising roller cone bits, fixed cutter bits, hole enlargement, and related downhole tools and services, as well as coring equipment and services. This segment also provides cloud based digital services and artificial intelligence solutions on an open architecture for subsurface insights, integrated well construction, and reservoir and production management; testing and subsea services, such as acquisition and analysis of reservoir information and optimization solutions; and project management and integrated asset management services. Halliburton Company was founded in 1919 and is based in Houston, Texas.",
+  "targetMeanPrice": 43.4,
+  "targetLowPrice": 29.0,
+  "targetHighPrice": 53.0,
+  "numberOfAnalystOpinions": 25,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.75,
+  "forwardPE": 11.223518,
+  "forwardEps": 2.90016,
+  "trailingEps": 1.9,
+  "earningsGrowth": 0.161,
+  "revenueGrowth": 0.037
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 25010000000.0,
+    "official": 25010000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 10461000000.0,
+    "official": 10461000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1283000000.0,
+    "official": 1283000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 22184000000.0,
+    "official": 22184000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:45:48+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -189,7 +231,10 @@
    "goodwill_and_intangibles": 2829000000.0,
    "retained_earnings": 10572000000.0,
    "total_debt": 7928000000.0,
-   "shares_out": 902000000.0
+   "shares_out": 902000000.0,
+   "unusual_items": -438000000.0,
+   "normalized_ebitda": 3980000000.0,
+   "normalized_income": 1903128000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -222,7 +267,10 @@
    "goodwill_and_intangibles": 2850000000.0,
    "retained_earnings": 12536000000.0,
    "total_debt": 7636000000.0,
-   "shares_out": 889051742.0
+   "shares_out": 889051742.0,
+   "unusual_items": -241000000.0,
+   "normalized_ebitda": 4997000000.0,
+   "normalized_income": 2828872000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -255,7 +303,10 @@
    "goodwill_and_intangibles": 2838000000.0,
    "retained_earnings": 14332000000.0,
    "total_debt": 7160000000.0,
-   "shares_out": 868000000.0
+   "shares_out": 868000000.0,
+   "unusual_items": -124000000.0,
+   "normalized_ebitda": 4790000000.0,
+   "normalized_income": 2597472000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -288,7 +339,10 @@
    "goodwill_and_intangibles": 2938000000.0,
    "retained_earnings": 15036000000.0,
    "total_debt": 7158000000.0,
-   "shares_out": 834602102.0
+   "shares_out": 834602102.0,
+   "unusual_items": -840000000.0,
+   "normalized_ebitda": 4099000000.0,
+   "normalized_income": 1896200000.0
   }
  ]
 }

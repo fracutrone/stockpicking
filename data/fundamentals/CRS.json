@@ -1,6 +1,6 @@
 {
  "ticker": "CRS",
- "fetched_at": "2026-10-10T12:42:10+00:00",
+ "fetched_at": "2026-10-10T15:40:39+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 4500,
   "website": "https://www.carpentertechnology.com",
-  "longBusinessSummary": "Carpenter Technology Corporation manufactures, fabricates, and distributes specialty metals in the United States, Europe, the Asia Pacific, Mexico, Canada, and internationally. It operates in two segments, Specialty Alloys Operations and Performance Engineered Products. The company offers specialty alloys, including titanium alloys, powder metals, stainless steels, alloy steels, and tool steels, as well as metal powders and parts. It serves the aerospace, defense, medical, transportation, energy, industrial, and consumer markets. The company was founded in 1889 and is headquartered in Philadelphia, Pennsylvania."
+  "longBusinessSummary": "Carpenter Technology Corporation manufactures, fabricates, and distributes specialty metals in the United States, Europe, the Asia Pacific, Mexico, Canada, and internationally. It operates in two segments, Specialty Alloys Operations and Performance Engineered Products. The company offers specialty alloys, including titanium alloys, powder metals, stainless steels, alloy steels, and tool steels, as well as metal powders and parts. It serves the aerospace, defense, medical, transportation, energy, industrial, and consumer markets. The company was founded in 1889 and is headquartered in Philadelphia, Pennsylvania.",
+  "targetMeanPrice": 575.5,
+  "targetLowPrice": 430.0,
+  "targetHighPrice": 700.0,
+  "numberOfAnalystOpinions": 8,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.375,
+  "forwardPE": 24.29479,
+  "forwardEps": 15.88036,
+  "trailingEps": 10.52,
+  "earningsGrowth": 0.464,
+  "revenueGrowth": 0.126
  },
  "governance": {
   "top_institutions": [
@@ -78,8 +89,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-06-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 3838300000.0,
+    "official": 3838300000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2227600000.0,
+    "official": 2227600000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 529800000.0,
+    "official": 529800000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3124200000.0,
+    "official": 3124200000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:40:39+00:00",
  "years": [
   {
    "fy_end": "2020-06-30",
@@ -197,7 +239,10 @@
    "goodwill_and_intangibles": 270100000.0,
    "retained_earnings": 1228000000.0,
    "total_debt": 693000000.0,
-   "shares_out": 48635740.0
+   "shares_out": 48635740.0,
+   "unusual_items": 2900000.0,
+   "normalized_ebitda": 264700000.0,
+   "normalized_income": 54143800.0
   },
   {
    "fy_end": "2024-06-30",
@@ -231,7 +276,10 @@
    "goodwill_and_intangibles": 242500000.0,
    "retained_earnings": 1374500000.0,
    "total_debt": 694200000.0,
-   "shares_out": 49776955.0
+   "shares_out": 49776955.0,
+   "unusual_items": -78900000.0,
+   "normalized_ebitda": 490500000.0,
+   "normalized_income": 256040879.017013
   },
   {
    "fy_end": "2025-06-30",
@@ -265,7 +313,10 @@
    "goodwill_and_intangibles": 236800000.0,
    "retained_earnings": 1710200000.0,
    "total_debt": 695400000.0,
-   "shares_out": 49707379.0
+   "shares_out": 49707379.0,
+   "unusual_items": -1200000.0,
+   "normalized_ebitda": 671600000.0,
+   "normalized_income": 376965546.757971
   },
   {
    "fy_end": "2026-06-30",
@@ -299,7 +350,10 @@
    "goodwill_and_intangibles": 231200000.0,
    "retained_earnings": 2199700000.0,
    "total_debt": 690700000.0,
-   "shares_out": 49606583.0
+   "shares_out": 49606583.0,
+   "unusual_items": -10800000.0,
+   "normalized_ebitda": 857900000.0,
+   "normalized_income": 538515600.0
   }
  ]
 }

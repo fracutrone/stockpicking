@@ -1,6 +1,6 @@
 {
  "ticker": "FCFS",
- "fetched_at": "2026-10-10T12:45:17+00:00",
+ "fetched_at": "2026-10-10T15:43:37+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": null,
   "website": "https://firstcash.com",
-  "longBusinessSummary": "FirstCash Holdings, Inc., together with its subsidiaries, operates retail pawn stores in the United States, Mexico, rest of Latin America, and the United Kingdom. The company operates through four segments: U.S. Pawn, Latin America Pawn, U.K. Pawn, and Retail POS Payment Solutions segments. Its pawn stores lend money on the collateral of pledged personal property, including jewelry, electronics, tools, appliances, sporting goods, and musical instruments; and retails merchandise acquired through collateral forfeitures and over-the-counter purchases from customers. The company also provides retail POS payment solutions, which focuses on LTO products and facilitating other retail financing payment options across the network of traditional and e-commerce merchant partners. It serves cash and credit-constrained consumers. The company was formerly known as FirstCash, Inc and changed its name to FirstCash Holdings, Inc. in December 2021. FirstCash Holdings, Inc. was incorporated in 1988 and is headquartered in Fort Worth, Texas."
+  "longBusinessSummary": "FirstCash Holdings, Inc., together with its subsidiaries, operates retail pawn stores in the United States, Mexico, rest of Latin America, and the United Kingdom. The company operates through four segments: U.S. Pawn, Latin America Pawn, U.K. Pawn, and Retail POS Payment Solutions segments. Its pawn stores lend money on the collateral of pledged personal property, including jewelry, electronics, tools, appliances, sporting goods, and musical instruments; and retails merchandise acquired through collateral forfeitures and over-the-counter purchases from customers. The company also provides retail POS payment solutions, which focuses on LTO products and facilitating other retail financing payment options across the network of traditional and e-commerce merchant partners. It serves cash and credit-constrained consumers. The company was formerly known as FirstCash, Inc and changed its name to FirstCash Holdings, Inc. in December 2021. FirstCash Holdings, Inc. was incorporated in 1988 and is headquartered in Fort Worth, Texas.",
+  "targetMeanPrice": 249.75,
+  "targetLowPrice": 242.0,
+  "targetHighPrice": 255.0,
+  "numberOfAnalystOpinions": 4,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.0,
+  "forwardPE": 16.46379,
+  "forwardEps": 12.98,
+  "trailingEps": 8.79,
+  "earningsGrowth": 0.582,
+  "revenueGrowth": 0.294
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 5300763000.0,
+    "official": 5300763000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2276762000.0,
+    "official": 2276762000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 330375000.0,
+    "official": 330375000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3661043000.0,
+    "official": 3661043000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:43:37+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -191,7 +233,10 @@
    "goodwill_and_intangibles": 1911719000.0,
    "retained_earnings": 1060603000.0,
    "total_debt": 1389000000.0,
-   "shares_out": 46292000.0
+   "shares_out": 46292000.0,
+   "unusual_items": 106395000.0,
+   "normalized_ebitda": 745273000.0,
+   "normalized_income": 170187715.0
   },
   {
    "fy_end": "2023-12-31",
@@ -225,7 +270,10 @@
    "goodwill_and_intangibles": 2005376000.0,
    "retained_earnings": 1218029000.0,
    "total_debt": 1618000000.0,
-   "shares_out": 45108000.0
+   "shares_out": 45108000.0,
+   "unusual_items": -6393000.0,
+   "normalized_ebitda": 913101000.0,
+   "normalized_income": 224089357.0
   },
   {
    "fy_end": "2024-12-31",
@@ -259,7 +307,10 @@
    "goodwill_and_intangibles": 2016030000.0,
    "retained_earnings": 1411083000.0,
    "total_debt": 1748000000.0,
-   "shares_out": 44752348.0
+   "shares_out": 44752348.0,
+   "unusual_items": -4869000.0,
+   "normalized_ebitda": 991118000.0,
+   "normalized_income": 262491095.0
   },
   {
    "fy_end": "2025-12-31",
@@ -293,7 +344,10 @@
    "goodwill_and_intangibles": 2254566000.0,
    "retained_earnings": 1670583000.0,
    "total_debt": 2224006000.0,
-   "shares_out": 43977150.0
+   "shares_out": 43977150.0,
+   "unusual_items": -12191000.0,
+   "normalized_ebitda": 1011974000.0,
+   "normalized_income": 339371958.0
   }
  ]
 }

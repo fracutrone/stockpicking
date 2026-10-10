@@ -1,6 +1,6 @@
 {
  "ticker": "SEIC",
- "fetched_at": "2026-10-10T12:57:47+00:00",
+ "fetched_at": "2026-10-10T15:55:24+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 4997,
   "website": "https://www.seic.com",
-  "longBusinessSummary": "SEI Investments Company is a publicly owned asset management holding company. Through its subsidiaries, the firm provides wealth management, retirement and investment solutions, asset management, asset administration, investment processing outsourcing solutions, financial services, and investment advisory services to its clients. It provides its services to private banks, independent financial advisers, institutional investors, investment managers, investment advisors, wealth management organizations, corporations, retirement scheme sponsors, not-for-profit organizations, hedge fund managers, registered investment advisers, independent broker-dealers, financial planners, life insurance agents, defined-benefit schemes, defined-contribution schemes, endowments, foundations, and board-designated fund, through its subsidiaries. Through its subsidiaries, the firm manages separate client-focused portfolios. It also launches and manages equity, fixed income, and balanced mutual funds, through its subsidiaries. Through its subsidiaries, the firm invests in public equity and fixed income markets. It employs fundamental and quantitative analysis with a focus on top-down and bottom-up analysis to make its investments, through its subsidiaries. SEI Investments Company was founded in 1968 and is based in Oaks, Pennsylvania with additional offices in North America, Europe, Asia and Africa."
+  "longBusinessSummary": "SEI Investments Company is a publicly owned asset management holding company. Through its subsidiaries, the firm provides wealth management, retirement and investment solutions, asset management, asset administration, investment processing outsourcing solutions, financial services, and investment advisory services to its clients. It provides its services to private banks, independent financial advisers, institutional investors, investment managers, investment advisors, wealth management organizations, corporations, retirement scheme sponsors, not-for-profit organizations, hedge fund managers, registered investment advisers, independent broker-dealers, financial planners, life insurance agents, defined-benefit schemes, defined-contribution schemes, endowments, foundations, and board-designated fund, through its subsidiaries. Through its subsidiaries, the firm manages separate client-focused portfolios. It also launches and manages equity, fixed income, and balanced mutual funds, through its subsidiaries. Through its subsidiaries, the firm invests in public equity and fixed income markets. It employs fundamental and quantitative analysis with a focus on top-down and bottom-up analysis to make its investments, through its subsidiaries. SEI Investments Company was founded in 1968 and is based in Oaks, Pennsylvania with additional offices in North America, Europe, Asia and Africa.",
+  "targetMeanPrice": 117.5,
+  "targetLowPrice": 98.0,
+  "targetHighPrice": 129.0,
+  "numberOfAnalystOpinions": 8,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.66667,
+  "forwardPE": 15.022447,
+  "forwardEps": 6.96957,
+  "trailingEps": 5.67,
+  "earningsGrowth": -0.107,
+  "revenueGrowth": 0.147
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,34 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "equity": {
+    "yahoo": 2447784000.0,
+    "official": 2447784000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 715305000.0,
+    "official": 715305000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2297381000.0,
+    "official": 2297381000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:55:24+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -185,7 +222,10 @@
    "goodwill_and_intangibles": 408433000.0,
    "retained_earnings": 694287000.0,
    "total_debt": 29130000.0,
-   "shares_out": 134162000.0
+   "shares_out": 134162000.0,
+   "unusual_items": -3078000.0,
+   "normalized_ebitda": 701044000.0,
+   "normalized_income": 477867840.0
   },
   {
    "fy_end": "2023-12-31",
@@ -219,7 +259,10 @@
    "goodwill_and_intangibles": 459559000.0,
    "retained_earnings": 762586000.0,
    "total_debt": 25353000.0,
-   "shares_out": 131177513.0
+   "shares_out": 131177513.0,
+   "unusual_items": 2757000.0,
+   "normalized_ebitda": 666450000.0,
+   "normalized_income": 460115811.0
   },
   {
    "fy_end": "2024-12-31",
@@ -253,7 +296,10 @@
    "goodwill_and_intangibles": 483680000.0,
    "retained_earnings": 758003000.0,
    "total_debt": 32135000.0,
-   "shares_out": 126839734.0
+   "shares_out": 126839734.0,
+   "unusual_items": 2790000.0,
+   "normalized_ebitda": 819757000.0,
+   "normalized_income": 579020380.0
   },
   {
    "fy_end": "2025-12-31",
@@ -287,7 +333,10 @@
    "goodwill_and_intangibles": 957533000.0,
    "retained_earnings": 792280000.0,
    "total_debt": 28562000.0,
-   "shares_out": 122232251.0
+   "shares_out": 122232251.0,
+   "unusual_items": 100216000.0,
+   "normalized_ebitda": 893801000.0,
+   "normalized_income": 636835872.0
   }
  ]
 }

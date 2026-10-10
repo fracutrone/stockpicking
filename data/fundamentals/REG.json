@@ -1,6 +1,6 @@
 {
  "ticker": "REG",
- "fetched_at": "2026-10-10T12:56:31+00:00",
+ "fetched_at": "2026-10-10T15:54:14+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 503,
   "website": "https://www.regencycenters.com",
-  "longBusinessSummary": "Regency Centers Corporation is a pre-eminent national owner, operator, and developer of shopping centers located in suburban trade areas with compelling demographics. Our portfolio includes thriving properties merchandised with highly productive grocers, restaurants, service providers, and best-in-class retailers that connect to their neighborhoods, communities, and customers. Operating as a fully integrated real estate company, Regency Centers is a qualified real estate investment trust (REIT) that is self-administered, self-managed, and an S&P 500 Index member. Regency Centers Corporation was incorporated in 1963 and is based in Jacksonville, Florida."
+  "longBusinessSummary": "Regency Centers Corporation is a pre-eminent national owner, operator, and developer of shopping centers located in suburban trade areas with compelling demographics. Our portfolio includes thriving properties merchandised with highly productive grocers, restaurants, service providers, and best-in-class retailers that connect to their neighborhoods, communities, and customers. Operating as a fully integrated real estate company, Regency Centers is a qualified real estate investment trust (REIT) that is self-administered, self-managed, and an S&P 500 Index member. Regency Centers Corporation was incorporated in 1963 and is based in Jacksonville, Florida.",
+  "targetMeanPrice": 85.66667,
+  "targetLowPrice": 76.0,
+  "targetHighPrice": 102.0,
+  "numberOfAnalystOpinions": 18,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.05,
+  "forwardPE": 28.655748,
+  "forwardEps": 2.51433,
+  "trailingEps": 2.97,
+  "earningsGrowth": 0.089,
+  "revenueGrowth": 0.089
  },
  "governance": {
   "ceo": {
@@ -82,8 +93,39 @@
   "retained_earnings": "yahoo",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "tax": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 13001283000.0,
+    "official": 13001283000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 6906890000.0,
+    "official": 6906890000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 527460000.0,
+    "official": 527460000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1553524000.0,
+    "official": 1553524000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:54:15+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -166,7 +208,10 @@
    "goodwill_and_intangibles": 364807000.0,
    "retained_earnings": -1764977000.0,
    "total_debt": 3726754000.0,
-   "shares_out": 170659178.0
+   "shares_out": 170659178.0,
+   "unusual_items": 102084000.0,
+   "normalized_ebitda": 851834000.0,
+   "normalized_income": 402218640.0
   },
   {
    "fy_end": "2023-12-31",
@@ -198,7 +243,10 @@
    "goodwill_and_intangibles": 450437000.0,
    "retained_earnings": -1871603000.0,
    "total_debt": 4153949000.0,
-   "shares_out": 184132930.0
+   "shares_out": 184132930.0,
+   "unusual_items": 6425000.0,
+   "normalized_ebitda": 870973000.0,
+   "normalized_income": 359481250.0
   },
   {
    "fy_end": "2024-12-31",
@@ -230,7 +278,10 @@
    "goodwill_and_intangibles": 396722000.0,
    "retained_earnings": -1980076000.0,
    "total_debt": 4408700000.0,
-   "shares_out": 180882203.0
+   "shares_out": 180882203.0,
+   "unusual_items": 25131000.0,
+   "normalized_ebitda": 968446000.0,
+   "normalized_income": 380534510.0
   },
   {
    "fy_end": "2025-12-31",
@@ -261,7 +312,10 @@
    "goodwill_and_intangibles": 420940000.0,
    "retained_earnings": -1988782000.0,
    "total_debt": 4739301000.0,
-   "shares_out": 182902234.0
+   "shares_out": 182902234.0,
+   "unusual_items": 23151000.0,
+   "normalized_ebitda": 1129300000.0,
+   "normalized_income": 509170710.0
   }
  ]
 }

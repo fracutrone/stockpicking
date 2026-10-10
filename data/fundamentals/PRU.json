@@ -1,6 +1,6 @@
 {
  "ticker": "PRU",
- "fetched_at": "2026-10-10T12:56:02+00:00",
+ "fetched_at": "2026-10-10T15:53:43+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 36607,
   "website": "https://www.prudential.com",
-  "longBusinessSummary": "Prudential Financial, Inc., together with its subsidiaries, provides financial products and services in the United States, Japan and internationally. It operates through PGIM, Retirement Strategies, Group Insurance, Individual Life, and International Businesses segments. The PGIM segment offers investment management services and solutions related to public fixed income, public equity, real estate debt and equity, private credit and other alternatives, and multi-asset class strategies to institutional and retail clients, as well as its insurance and retirement businesses. The Retirement Strategies segment provides a range of retirement investment, and income products and services to retirement plan sponsors in the public, private, and not-for-profit sectors; group annuities and other products; international reinsurance; investment only products; and FlexGuard suite, Fixed annuities, and variable annuities, as well as develops and distributes individual variable and fixed annuity products. The Group Insurance segment offers various group life, and long-term and short-term group disability, as well as group corporate-, bank-, and trust-owned life insurance; and supplemental health solutions including accident, critical illness, and hospital indemnity. The Individual Life segment develops and distributes variable life, universal life, and term life insurance products. The International Businesses segment develops and distributes life insurance, retirement products, investment products, and certain accident and health products. The company provides its products and services to individual and institutional customers through its proprietary and third-party distribution networks, financial professionals, and trusted partnerships. Prudential Financial, Inc. was founded in 1875 and is headquartered in Newark, New Jersey."
+  "longBusinessSummary": "Prudential Financial, Inc., together with its subsidiaries, provides financial products and services in the United States, Japan and internationally. It operates through PGIM, Retirement Strategies, Group Insurance, Individual Life, and International Businesses segments. The PGIM segment offers investment management services and solutions related to public fixed income, public equity, real estate debt and equity, private credit and other alternatives, and multi-asset class strategies to institutional and retail clients, as well as its insurance and retirement businesses. The Retirement Strategies segment provides a range of retirement investment, and income products and services to retirement plan sponsors in the public, private, and not-for-profit sectors; group annuities and other products; international reinsurance; investment only products; and FlexGuard suite, Fixed annuities, and variable annuities, as well as develops and distributes individual variable and fixed annuity products. The Group Insurance segment offers various group life, and long-term and short-term group disability, as well as group corporate-, bank-, and trust-owned life insurance; and supplemental health solutions including accident, critical illness, and hospital indemnity. The Individual Life segment develops and distributes variable life, universal life, and term life insurance products. The International Businesses segment develops and distributes life insurance, retirement products, investment products, and certain accident and health products. The company provides its products and services to individual and institutional customers through its proprietary and third-party distribution networks, financial professionals, and trusted partnerships. Prudential Financial, Inc. was founded in 1875 and is headquartered in Newark, New Jersey.",
+  "targetMeanPrice": 113.0,
+  "targetLowPrice": 92.0,
+  "targetHighPrice": 131.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.38889,
+  "forwardPE": 7.608745,
+  "forwardEps": 14.86316,
+  "trailingEps": 11.04,
+  "earningsGrowth": 0.892,
+  "revenueGrowth": 0.141
  },
  "governance": {
   "ceo": {
@@ -75,8 +86,38 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "interest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 773740000000.0,
+    "official": 773740000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 32438000000.0,
+    "official": 32438000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 3576000000.0,
+    "official": 3576000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 60967000000.0,
+    "official": 60774000000.0,
+    "diff": 0.003176
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:53:43+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -157,7 +198,9 @@
    "goodwill_and_intangibles": 2015000000.0,
    "retained_earnings": 31714000000.0,
    "total_debt": 19908000000.0,
-   "shares_out": 365962731.0
+   "shares_out": 365962731.0,
+   "unusual_items": -903000000.0,
+   "normalized_income": -876741000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -181,7 +224,9 @@
    "goodwill_and_intangibles": 2107000000.0,
    "retained_earnings": 32352000000.0,
    "total_debt": 18882000000.0,
-   "shares_out": 359215973.0
+   "shares_out": 359215973.0,
+   "unusual_items": -177000000.0,
+   "normalized_income": 2629600000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -206,7 +251,9 @@
    "goodwill_and_intangibles": 1894000000.0,
    "retained_earnings": 33187000000.0,
    "total_debt": 19187000000.0,
-   "shares_out": 354567002.0
+   "shares_out": 354567002.0,
+   "unusual_items": 0.0,
+   "normalized_income": 2727000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -230,7 +277,9 @@
    "goodwill_and_intangibles": 1877000000.0,
    "retained_earnings": 34831000000.0,
    "total_debt": 18856000000.0,
-   "shares_out": 347943691.0
+   "shares_out": 347943691.0,
+   "unusual_items": 0.0,
+   "normalized_income": 3576000000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "BHF",
- "fetched_at": "2026-10-10T12:38:56+00:00",
+ "fetched_at": "2026-10-10T15:37:40+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 1400,
   "website": "https://www.brighthousefinancial.com",
-  "longBusinessSummary": "Brighthouse Financial, Inc. provides annuity and life insurance products in the United States. The company operates through Annuities, Life, and Run-off segments. The Annuities segment offers variable, fixed, index-linked, and income annuities for contract holders' needs for protected wealth accumulation on a tax-deferred basis, wealth transfer, and income security. The Life segment provides term, universal, whole, and variable life products for policyholders' needs for financial security and protected wealth transfer. The Run-off segment manages universal life with secondary guarantees, structured settlements, pension risk transfer contracts, various company-owned life insurance policies, and funding agreements. Brighthouse Financial, Inc. was founded in 1863 and is headquartered in Charlotte, North Carolina."
+  "longBusinessSummary": "Brighthouse Financial, Inc. provides annuity and life insurance products in the United States. The company operates through Annuities, Life, and Run-off segments. The Annuities segment offers variable, fixed, index-linked, and income annuities for contract holders' needs for protected wealth accumulation on a tax-deferred basis, wealth transfer, and income security. The Life segment provides term, universal, whole, and variable life products for policyholders' needs for financial security and protected wealth transfer. The Run-off segment manages universal life with secondary guarantees, structured settlements, pension risk transfer contracts, various company-owned life insurance policies, and funding agreements. Brighthouse Financial, Inc. was founded in 1863 and is headquartered in Charlotte, North Carolina.",
+  "targetMeanPrice": 63.33333,
+  "targetLowPrice": 55.0,
+  "targetHighPrice": 70.0,
+  "numberOfAnalystOpinions": 6,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.14286,
+  "forwardPE": 2.41563,
+  "forwardEps": 20.09,
+  "trailingEps": 12.66,
+  "earningsGrowth": 15.206,
+  "revenueGrowth": 0.867
  },
  "governance": {
   "ceo": {
@@ -73,8 +84,37 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 241800000000.0,
+    "official": 241800000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 6768000000.0,
+    "official": 6768000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 433000000.0,
+    "official": 433000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 6391000000.0,
+    "official": 6766000000.0,
+    "diff": 0.055424
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:37:41+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -147,7 +187,8 @@
    "goodwill_and_intangibles": 459000000.0,
    "retained_earnings": -395000000.0,
    "total_debt": 3156000000.0,
-   "shares_out": 68278068.0
+   "shares_out": 68278068.0,
+   "normalized_income": 3879000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -170,7 +211,8 @@
    "goodwill_and_intangibles": 416000000.0,
    "retained_earnings": -1507000000.0,
    "total_debt": 3156000000.0,
-   "shares_out": 63503355.0
+   "shares_out": 63503355.0,
+   "normalized_income": -1112000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -191,7 +233,8 @@
    "receivables": 21126000000.0,
    "retained_earnings": -1119000000.0,
    "total_debt": 3155000000.0,
-   "shares_out": 58629049.0
+   "shares_out": 58629049.0,
+   "normalized_income": 388000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -212,7 +255,8 @@
    "receivables": 21579000000.0,
    "retained_earnings": -686000000.0,
    "total_debt": 3155000000.0,
-   "shares_out": 57171217.0
+   "shares_out": 57171217.0,
+   "normalized_income": 433000000.0
   }
  ]
 }

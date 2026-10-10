@@ -1,6 +1,6 @@
 {
  "ticker": "EXPO",
- "fetched_at": "2026-10-10T12:45:06+00:00",
+ "fetched_at": "2026-10-10T15:43:25+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 1012,
   "website": "https://www.exponent.com",
-  "longBusinessSummary": "Exponent, Inc., together with its subsidiaries, operates as a science and engineering consulting company in the United States and internationally. The company operates in two segments, Engineering and Other Scientific, and Environmental and Health. It provides services in the areas of biomechanics, biomedical engineering and sciences, civil and structural engineering, construction consulting, data sciences, electrical engineering and computer science, human factors, materials and corrosion engineering, mechanical engineering, metallurgical and corrosion engineering polymer and chemistry, thermal sciences, and vehicle engineering. The company also offers services in the areas of chemical regulation and food safety, ecological and biological sciences, environmental and earth sciences, and health sciences. In addition, it provides proactive and reactive product safety, litigation support, and technical, regulatory services. It serves clients in chemical, construction, consumer products, energy, food, beverage and nutrition, government, life sciences, insurance, manufacturing, technology, industrial equipment, transportation, and other sectors. The company was formerly known as The Failure Group, Inc. and changed its name to Exponent, Inc. in 1998. The company was founded in 1967 and is headquartered in Menlo Park, California."
+  "longBusinessSummary": "Exponent, Inc., together with its subsidiaries, operates as a science and engineering consulting company in the United States and internationally. The company operates in two segments, Engineering and Other Scientific, and Environmental and Health. It provides services in the areas of biomechanics, biomedical engineering and sciences, civil and structural engineering, construction consulting, data sciences, electrical engineering and computer science, human factors, materials and corrosion engineering, mechanical engineering, metallurgical and corrosion engineering polymer and chemistry, thermal sciences, and vehicle engineering. The company also offers services in the areas of chemical regulation and food safety, ecological and biological sciences, environmental and earth sciences, and health sciences. In addition, it provides proactive and reactive product safety, litigation support, and technical, regulatory services. It serves clients in chemical, construction, consumer products, energy, food, beverage and nutrition, government, life sciences, insurance, manufacturing, technology, industrial equipment, transportation, and other sectors. The company was formerly known as The Failure Group, Inc. and changed its name to Exponent, Inc. in 1998. The company was founded in 1967 and is headquartered in Menlo Park, California.",
+  "targetMeanPrice": 84.0,
+  "targetLowPrice": 72.0,
+  "targetHighPrice": 90.0,
+  "numberOfAnalystOpinions": 3,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.75,
+  "forwardPE": 25.662043,
+  "forwardEps": 2.72036,
+  "trailingEps": 2.23,
+  "earningsGrowth": 0.157,
+  "revenueGrowth": 0.12
  },
  "governance": {
   "ceo": {
@@ -80,8 +91,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 777519000.0,
+    "official": 777519000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 390341000.0,
+    "official": 390341000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 106009000.0,
+    "official": 106009000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 582014000.0,
+    "official": 582014000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:43:25+00:00",
  "years": [
   {
    "fy_end": "2020-01-03",
@@ -177,7 +219,10 @@
    "goodwill_and_intangibles": 8607000.0,
    "retained_earnings": 528810000.0,
    "total_debt": 18601000.0,
-   "shares_out": 50643000.0
+   "shares_out": 50643000.0,
+   "unusual_items": -13665000.0,
+   "normalized_ebitda": 161586000.0,
+   "normalized_income": 112906710.0
   },
   {
    "fy_end": "2023-12-29",
@@ -206,7 +251,10 @@
    "goodwill_and_intangibles": 8607000.0,
    "retained_earnings": 574082000.0,
    "total_debt": 28261000.0,
-   "shares_out": 50573000.0
+   "shares_out": 50573000.0,
+   "unusual_items": 14056000.0,
+   "normalized_ebitda": 106182000.0,
+   "normalized_income": 89965672.0
   },
   {
    "fy_end": "2025-01-03",
@@ -235,7 +283,10 @@
    "goodwill_and_intangibles": 8607000.0,
    "retained_earnings": 624151000.0,
    "total_debt": 81477000.0,
-   "shares_out": 50814000.0
+   "shares_out": 50814000.0,
+   "unusual_items": 14914000.0,
+   "normalized_ebitda": 114332000.0,
+   "normalized_income": 97970882.214833
   },
   {
    "fy_end": "2026-01-02",
@@ -264,7 +315,10 @@
    "goodwill_and_intangibles": 8607000.0,
    "retained_earnings": 668423000.0,
    "total_debt": 82834000.0,
-   "shares_out": 49620000.0
+   "shares_out": 49620000.0,
+   "unusual_items": 17205000.0,
+   "normalized_ebitda": 112665000.0,
+   "normalized_income": 93626637.528259
   }
  ]
 }

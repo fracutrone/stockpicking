@@ -1,6 +1,6 @@
 {
  "ticker": "GRF.MC",
- "fetched_at": "2026-10-10T12:00:39+00:00",
+ "fetched_at": "2026-10-10T14:52:17+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "MCE",
   "fullTimeEmployees": 25258,
   "website": "https://www.grifols.com",
-  "longBusinessSummary": "Grifols, S.A., together with its subsidiaries, engages in the research, development, production, and marketing of plasma-derived medicines in the United States, Canada, Spain, Europe, and internationally. It operates through four segments: Biopharma, Diagnostic, Bio Supplies, and Others. The company offers various hemoderivatives from human plasma for immunology, infectious diseases, hepatology, intensive care, pulmonology, hematology, and neurology treatment areas; and markets diagnostic testing equipment, reagents, and other equipment, as well as provides transfusion medicine, clinical diagnostics, and testing services. It also offers biological products, including albumin, albumin-derived products, immunoglobulins, thrombin, other proteins, and intermediate plasma products to pharma and biotech companies for biopharma use; and whole blood, blood components, processed plasma, and clinical samples to life-science research and in-vitro diagnostic companies for diagnostic use. In addition, the company provides healthcare solutions for hospitals, such as intravenous solutions to maintain or restore fluids and electrolyte balance in patients; high-tech solutions to automate hospital processes; clinical nutrition to deliver nutrition and medication; and medical devices comprising instrumentation and disposable materials for various hospital services, which include interventional neuroradiology, hemodynamics, urology, anesthesiology and cardiovascular surgery, as well as manufacturing services to third parties and research activities. Further, it is involved in engineering services; packaging, labelling, storage, distribution, manufacturing, and development of pharmaceutical products; import, export, and commercialization activities; travel agency services; reinsurance of insurance policies; support services; law business; and consultation, administration, and financing services. The company was founded in 1909 and is headquartered in Barcelona, Spain."
+  "longBusinessSummary": "Grifols, S.A., together with its subsidiaries, engages in the research, development, production, and marketing of plasma-derived medicines in the United States, Canada, Spain, Europe, and internationally. It operates through four segments: Biopharma, Diagnostic, Bio Supplies, and Others. The company offers various hemoderivatives from human plasma for immunology, infectious diseases, hepatology, intensive care, pulmonology, hematology, and neurology treatment areas; and markets diagnostic testing equipment, reagents, and other equipment, as well as provides transfusion medicine, clinical diagnostics, and testing services. It also offers biological products, including albumin, albumin-derived products, immunoglobulins, thrombin, other proteins, and intermediate plasma products to pharma and biotech companies for biopharma use; and whole blood, blood components, processed plasma, and clinical samples to life-science research and in-vitro diagnostic companies for diagnostic use. In addition, the company provides healthcare solutions for hospitals, such as intravenous solutions to maintain or restore fluids and electrolyte balance in patients; high-tech solutions to automate hospital processes; clinical nutrition to deliver nutrition and medication; and medical devices comprising instrumentation and disposable materials for various hospital services, which include interventional neuroradiology, hemodynamics, urology, anesthesiology and cardiovascular surgery, as well as manufacturing services to third parties and research activities. Further, it is involved in engineering services; packaging, labelling, storage, distribution, manufacturing, and development of pharmaceutical products; import, export, and commercialization activities; travel agency services; reinsurance of insurance policies; support services; law business; and consultation, administration, and financing services. The company was founded in 1909 and is headquartered in Barcelona, Spain.",
+  "targetMeanPrice": 14.75833,
+  "targetLowPrice": 9.0,
+  "targetHighPrice": 23.0,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 8.675114,
+  "forwardEps": 1.13889,
+  "trailingEps": 0.66,
+  "earningsGrowth": 0.329,
+  "revenueGrowth": -0.009
  },
  "governance": {
   "ceo": {
@@ -77,8 +88,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF ES",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 21405000000.0,
+    "official": 21405241000.0,
+    "diff": 1.1e-05
+   },
+   "equity": {
+    "yahoo": 5883000000.0,
+    "official": 5883727000.0,
+    "diff": 0.000124
+   },
+   "net_income": {
+    "yahoo": 157000000.0,
+    "official": 156920000.0,
+    "diff": 0.00051
+   },
+   "revenue": {
+    "yahoo": 7212000000.0,
+    "official": 7212382000.0,
+    "diff": 5.3e-05
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T14:52:17+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -113,7 +156,10 @@
    "goodwill_and_intangibles": 9961056000.0,
    "retained_earnings": 0.0,
    "total_debt": 9750125000.0,
-   "shares_out": 678410694.0
+   "shares_out": 678410694.0,
+   "unusual_items": 19724000.0,
+   "normalized_ebitda": 1173812000.0,
+   "normalized_income": 170569227.831474
   },
   {
    "fy_end": "2023-12-31",
@@ -148,7 +194,10 @@
    "goodwill_and_intangibles": 9634323000.0,
    "retained_earnings": 42318000.0,
    "total_debt": 10972953000.0,
-   "shares_out": 679092279.0
+   "shares_out": 679092279.0,
+   "unusual_items": -15000000.0,
+   "normalized_ebitda": 1183000000.0,
+   "normalized_income": 53868932.038835
   },
   {
    "fy_end": "2024-12-31",
@@ -183,7 +232,10 @@
    "goodwill_and_intangibles": 10329000000.0,
    "retained_earnings": 157000000.0,
    "total_debt": 10113000000.0,
-   "shares_out": 680409104.0
+   "shares_out": 680409104.0,
+   "unusual_items": -47000000.0,
+   "normalized_ebitda": 1531000000.0,
+   "normalized_income": 192250000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -218,7 +270,10 @@
    "goodwill_and_intangibles": 9561000000.0,
    "retained_earnings": 300000000.0,
    "total_debt": 9566000000.0,
-   "shares_out": 680575312.0
+   "shares_out": 680575312.0,
+   "unusual_items": -23000000.0,
+   "normalized_ebitda": 1664000000.0,
+   "normalized_income": 420699000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "GRG.L",
- "fetched_at": "2026-10-10T12:00:40+00:00",
+ "fetched_at": "2026-10-10T14:52:21+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 33000,
   "website": "https://corporate.greggs.co.uk",
-  "longBusinessSummary": "Greggs plc operates as a food-on-the-go retailer in the United Kingdom. It offers a range of fresh bakery products, sandwiches, and drinks. The company is involved in the property holding, non-trading, and trustee businesses. It sells products to franchise and wholesale partners for sale in their own outlets. The company operates through its own shops and delivery channels. Greggs plc was founded in 1939 and is headquartered in Newcastle upon Tyne, the United Kingdom."
+  "longBusinessSummary": "Greggs plc operates as a food-on-the-go retailer in the United Kingdom. It offers a range of fresh bakery products, sandwiches, and drinks. The company is involved in the property holding, non-trading, and trustee businesses. It sells products to franchise and wholesale partners for sale in their own outlets. The company operates through its own shops and delivery channels. Greggs plc was founded in 1939 and is headquartered in Newcastle upon Tyne, the United Kingdom.",
+  "targetMeanPrice": 1889.875,
+  "targetLowPrice": 1420.0,
+  "targetHighPrice": 2440.0,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.75,
+  "forwardPE": 15.983743,
+  "forwardEps": 1.31884,
+  "trailingEps": 1.29,
+  "earningsGrowth": 0.212,
+  "revenueGrowth": 0.072
  },
  "governance": {
   "ceo": {
@@ -75,8 +86,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2023-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 1129700000.0,
+    "official": 1129700000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 530900000.0,
+    "official": 530900000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 142500000.0,
+    "official": 142500000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1809600000.0,
+    "official": 1809600000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2023-12-31"
+ },
+ "info_at": "2026-10-10T14:52:22+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -109,7 +152,9 @@
    "goodwill_and_intangibles": 13500000.0,
    "retained_earnings": 420500000.0,
    "total_debt": 301300000.0,
-   "shares_out": 102112581.0
+   "shares_out": 102112581.0,
+   "normalized_ebitda": 271300000.0,
+   "normalized_income": 120300000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -142,7 +187,10 @@
    "goodwill_and_intangibles": 18300000.0,
    "retained_earnings": 503400000.0,
    "total_debt": 319600000.0,
-   "shares_out": 101480123.0
+   "shares_out": 101480123.0,
+   "unusual_items": 20600000.0,
+   "normalized_ebitda": 303000000.0,
+   "normalized_income": 126905800.0
   },
   {
    "fy_end": "2024-12-31",
@@ -175,7 +223,10 @@
    "goodwill_and_intangibles": 24900000.0,
    "retained_earnings": 543000000.0,
    "total_debt": 415100000.0,
-   "shares_out": 101819127.0
+   "shares_out": 101819127.0,
+   "unusual_items": 14100000.0,
+   "normalized_ebitda": 343700000.0,
+   "normalized_income": 142792153.016184
   },
   {
    "fy_end": "2025-12-31",
@@ -208,7 +259,10 @@
    "goodwill_and_intangibles": 43000000.0,
    "retained_earnings": 597700000.0,
    "total_debt": 474800000.0,
-   "shares_out": 101955014.0
+   "shares_out": 101955014.0,
+   "unusual_items": -4500000.0,
+   "normalized_ebitda": 349800000.0,
+   "normalized_income": 125484946.236559
   }
  ]
 }

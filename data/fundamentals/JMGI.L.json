@@ -1,6 +1,6 @@
 {
  "ticker": "JMGI.L",
- "fetched_at": "2026-10-10T12:04:52+00:00",
+ "fetched_at": "2026-10-10T14:59:53+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -48,8 +59,15 @@
   "cash": "yahoo",
   "equity": "yahoo",
   "receivables": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T14:59:53+00:00",
  "years": [
   {
    "fy_end": "2022-06-30",
@@ -67,7 +85,8 @@
    "cash": 57700000.0,
    "equity": 1369306000.0,
    "receivables": 4203000.0,
-   "shares_out": 1170512230.0
+   "shares_out": 1170512230.0,
+   "normalized_income": -291921000.0
   },
   {
    "fy_end": "2023-06-30",
@@ -86,7 +105,8 @@
    "cash": 24866000.0,
    "equity": 1329822000.0,
    "receivables": 5074000.0,
-   "shares_out": 1150629365.0
+   "shares_out": 1150629365.0,
+   "normalized_income": -1914000.0
   },
   {
    "fy_end": "2024-06-30",
@@ -105,7 +125,8 @@
    "cash": 679000.0,
    "equity": 1354029000.0,
    "receivables": 5337000.0,
-   "shares_out": 1109226510.0
+   "shares_out": 1109226510.0,
+   "normalized_income": 84967000.0
   },
   {
    "fy_end": "2025-06-30",
@@ -124,7 +145,8 @@
    "cash": 4349000.0,
    "equity": 1275423000.0,
    "receivables": 6843000.0,
-   "shares_out": 1011554630.0
+   "shares_out": 1011554630.0,
+   "normalized_income": 49479000.0
   }
  ]
 }

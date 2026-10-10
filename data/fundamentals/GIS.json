@@ -1,6 +1,6 @@
 {
  "ticker": "GIS",
- "fetched_at": "2026-10-10T12:46:40+00:00",
+ "fetched_at": "2026-10-10T15:45:10+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 30000,
   "website": "https://www.generalmills.com",
-  "longBusinessSummary": "General Mills, Inc. manufactures and markets branded consumer food in the United States and internationally. The company operates through four segments: North America Retail; International; North America Pet; and North America Foodservice. It offers snacks, including grain, fruit and savory snacks, nutrition bars, and frozen hot snacks; ready-to-eat cereal; convenient meals comprising meal kits, ethnic meals, pizza, soup, side dish mixes, frozen breakfast, and frozen entrees; wholesome natural pet food; refrigerated and frozen dough; baking mixes and ingredients; and ice cream products. The company also offers dog and cat food, such as dry food, wet food, fresh food, and treats. In addition, it operates 232 and franchises 376 ice cream parlors. The company markets its products under the Annie's, Betty Crocker, Bisquick, Blue Buffalo, Bugles, Cascadian Farm, Cheerios, Chex, Cinnamon Toast Crunch, Cocoa Puffs, Cookie Crisp, Dunkaroos, Edgard & Cooper, Fiber One, Fruit by the Foot, Fruit Gushers, Fruit Roll-Ups, Gardetto's, Gold Medal, Golden Grahams, Häagen-Dazs, Kitano, Kix, Lärabar, Latina, Lucky Charms, Nature Valley, Nudges, Oatmeal Crisp, Old El Paso, Pillsbury, Progresso, Tastefuls, Tiki Pets, Total, Totino's, Trix, True Solutions, Wanchai Ferry, Wheaties, Wilderness, and Yoki brands. It sells its products to grocery stores, mass merchandisers, membership stores, natural food chains, drug, dollar and discount chains, e-commerce retailers, commercial and noncommercial foodservice distributors and operators, restaurants, convenience stores, and pet specialty stores. The company was founded in 1866 and is headquartered in Minneapolis, Minnesota."
+  "longBusinessSummary": "General Mills, Inc. manufactures and markets branded consumer food in the United States and internationally. The company operates through four segments: North America Retail; International; North America Pet; and North America Foodservice. It offers snacks, including grain, fruit and savory snacks, nutrition bars, and frozen hot snacks; ready-to-eat cereal; convenient meals comprising meal kits, ethnic meals, pizza, soup, side dish mixes, frozen breakfast, and frozen entrees; wholesome natural pet food; refrigerated and frozen dough; baking mixes and ingredients; and ice cream products. The company also offers dog and cat food, such as dry food, wet food, fresh food, and treats. In addition, it operates 232 and franchises 376 ice cream parlors. The company markets its products under the Annie's, Betty Crocker, Bisquick, Blue Buffalo, Bugles, Cascadian Farm, Cheerios, Chex, Cinnamon Toast Crunch, Cocoa Puffs, Cookie Crisp, Dunkaroos, Edgard & Cooper, Fiber One, Fruit by the Foot, Fruit Gushers, Fruit Roll-Ups, Gardetto's, Gold Medal, Golden Grahams, Häagen-Dazs, Kitano, Kix, Lärabar, Latina, Lucky Charms, Nature Valley, Nudges, Oatmeal Crisp, Old El Paso, Pillsbury, Progresso, Tastefuls, Tiki Pets, Total, Totino's, Trix, True Solutions, Wanchai Ferry, Wheaties, Wilderness, and Yoki brands. It sells its products to grocery stores, mass merchandisers, membership stores, natural food chains, drug, dollar and discount chains, e-commerce retailers, commercial and noncommercial foodservice distributors and operators, restaurants, convenience stores, and pet specialty stores. The company was founded in 1866 and is headquartered in Minneapolis, Minnesota.",
+  "targetMeanPrice": 37.0,
+  "targetLowPrice": 30.0,
+  "targetHighPrice": 45.0,
+  "numberOfAnalystOpinions": 18,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.05,
+  "forwardPE": 10.240001,
+  "forwardEps": 3.15332,
+  "trailingEps": -1.64,
+  "earningsGrowth": -0.667,
+  "revenueGrowth": -0.028
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-05-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 30016700000.0,
+    "official": 30016700000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 7368400000.0,
+    "official": 7368400000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -87600000.0,
+    "official": -87600000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 18424600000.0,
+    "official": 18424600000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:45:10+00:00",
  "years": [
   {
    "fy_end": "2020-05-31",
@@ -203,7 +245,10 @@
    "goodwill_and_intangibles": 21478800000.0,
    "retained_earnings": 19838600000.0,
    "total_debt": 9996800000.0,
-   "shares_out": 586600000.0
+   "shares_out": 586600000.0,
+   "unusual_items": 388400000.0,
+   "normalized_ebitda": 3694800000.0,
+   "normalized_income": 2281213574.271613
   },
   {
    "fy_end": "2024-05-26",
@@ -238,7 +283,10 @@
    "goodwill_and_intangibles": 21730600000.0,
    "retained_earnings": 20971800000.0,
    "total_debt": 11316000000.0,
-   "shares_out": 559100000.0
+   "shares_out": 559100000.0,
+   "unusual_items": -241400000.0,
+   "normalized_ebitda": 4320400000.0,
+   "normalized_income": 2690685600.0
   },
   {
    "fy_end": "2025-05-25",
@@ -272,7 +320,10 @@
    "goodwill_and_intangibles": 22703800000.0,
    "retained_earnings": 21917800000.0,
    "total_debt": 14878600000.0,
-   "shares_out": 542413328.0
+   "shares_out": 542413328.0,
+   "unusual_items": 17600000.0,
+   "normalized_ebitda": 3905200000.0,
+   "normalized_income": 2281161594.356261
   },
   {
    "fy_end": "2026-05-31",
@@ -306,7 +357,10 @@
    "goodwill_and_intangibles": 20839300000.0,
    "retained_earnings": 20514900000.0,
    "total_debt": 13538000000.0,
-   "shares_out": 533681218.0
+   "shares_out": 533681218.0,
+   "unusual_items": -1921400000.0,
+   "normalized_ebitda": 3451700000.0,
+   "normalized_income": 1065240000.0
   }
  ]
 }

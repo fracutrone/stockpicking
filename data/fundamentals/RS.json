@@ -1,6 +1,6 @@
 {
  "ticker": "RS",
- "fetched_at": "2026-10-10T12:57:16+00:00",
+ "fetched_at": "2026-10-10T15:54:58+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 15700,
   "website": "https://reliance.com",
-  "longBusinessSummary": "Reliance, Inc. operates as a diversified metal solutions provider and metals service center company primarily in the United States and Canada. The company distributes metal products, including alloy, aluminum, brass, copper, carbon steel, stainless steel, titanium, and other specialty steel products; and provides metals processing services to consumer products, general manufacturing, non-residential construction, transportation, aerospace, energy, electronics and semiconductor fabrication, industrial machinery, and heavy industries. It sells its products directly to original equipment manufacturers, which primarily include small machine shops and fabricators. The company was formerly known as Reliance Steel & Aluminum Co. and changed its name to Reliance, Inc. in February 2024. Reliance, Inc. was founded in 1939 and is based in Phoenix, Arizona."
+  "longBusinessSummary": "Reliance, Inc. operates as a diversified metal solutions provider and metals service center company primarily in the United States and Canada. The company distributes metal products, including alloy, aluminum, brass, copper, carbon steel, stainless steel, titanium, and other specialty steel products; and provides metals processing services to consumer products, general manufacturing, non-residential construction, transportation, aerospace, energy, electronics and semiconductor fabrication, industrial machinery, and heavy industries. It sells its products directly to original equipment manufacturers, which primarily include small machine shops and fabricators. The company was formerly known as Reliance Steel & Aluminum Co. and changed its name to Reliance, Inc. in February 2024. Reliance, Inc. was founded in 1939 and is based in Phoenix, Arizona.",
+  "targetMeanPrice": 411.125,
+  "targetLowPrice": 391.0,
+  "targetHighPrice": 425.0,
+  "numberOfAnalystOpinions": 8,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.625,
+  "forwardPE": 17.044878,
+  "forwardEps": 23.6112,
+  "trailingEps": 17.21,
+  "earningsGrowth": 0.423,
+  "revenueGrowth": 0.265
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 10373300000.0,
+    "official": 10373300000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 7170100000.0,
+    "official": 7170100000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 739400000.0,
+    "official": 739400000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 14294300000.0,
+    "official": 14294300000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:54:58+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -197,7 +239,10 @@
    "goodwill_and_intangibles": 3125500000.0,
    "retained_earnings": 7173600000.0,
    "total_debt": 1139400000.0,
-   "shares_out": 58787000.0
+   "shares_out": 58787000.0,
+   "unusual_items": 79000000.0,
+   "normalized_ebitda": 2745500000.0,
+   "normalized_income": 1780139000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -231,7 +276,10 @@
    "goodwill_and_intangibles": 3092200000.0,
    "retained_earnings": 7798900000.0,
    "total_debt": 1142200000.0,
-   "shares_out": 57271000.0
+   "shares_out": 57271000.0,
+   "unusual_items": 96200000.0,
+   "normalized_ebitda": 2028400000.0,
+   "normalized_income": 1261826000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -265,7 +313,10 @@
    "goodwill_and_intangibles": 3169000000.0,
    "retained_earnings": 7334700000.0,
    "total_debt": 1142500000.0,
-   "shares_out": 53715000.0
+   "shares_out": 53715000.0,
+   "unusual_items": 91600000.0,
+   "normalized_ebitda": 1460800000.0,
+   "normalized_income": 804668000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -299,7 +350,10 @@
    "goodwill_and_intangibles": 3130000000.0,
    "retained_earnings": 7257600000.0,
    "total_debt": 1420900000.0,
-   "shares_out": 51735000.0
+   "shares_out": 51735000.0,
+   "unusual_items": 95100000.0,
+   "normalized_ebitda": 1317300000.0,
+   "normalized_income": 666648500.0
   }
  ]
 }

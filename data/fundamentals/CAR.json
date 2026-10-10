@@ -1,6 +1,6 @@
 {
  "ticker": "CAR",
- "fetched_at": "2026-10-10T12:39:49+00:00",
+ "fetched_at": "2026-10-10T15:38:41+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 17000,
   "website": "https://www.avisbudgetgroup.com",
-  "longBusinessSummary": "Avis Budget Group, Inc., together with its subsidiaries, provides car and truck rentals, car sharing, and ancillary products and services to businesses and consumers in the Americas, Europe, the Middle East and Africa, Asia, and Australasia. The company operates the Avis brand, which offers vehicle rental and other mobility solutions to the commercial and leisure segments of the travel industry and the Zipcar brand, a car sharing network that offers vehicle rental and other mobility solutions comprising budget car rental and budget truck. It also operates various other car rental brands, such as Payless, Apex, Maggiore, Morini Rent, FranceCars, AmicoBlu, Turiscar, and ACL Hire and McNicoll vehicle Hire. The company was formerly known as Cendant Corporation and changed its name to Avis Budget Group, Inc. in September 2006. Avis Budget Group, Inc. was founded in 1946 and is based in Parsippany, New Jersey."
+  "longBusinessSummary": "Avis Budget Group, Inc., together with its subsidiaries, provides car and truck rentals, car sharing, and ancillary products and services to businesses and consumers in the Americas, Europe, the Middle East and Africa, Asia, and Australasia. The company operates the Avis brand, which offers vehicle rental and other mobility solutions to the commercial and leisure segments of the travel industry and the Zipcar brand, a car sharing network that offers vehicle rental and other mobility solutions comprising budget car rental and budget truck. It also operates various other car rental brands, such as Payless, Apex, Maggiore, Morini Rent, FranceCars, AmicoBlu, Turiscar, and ACL Hire and McNicoll vehicle Hire. The company was formerly known as Cendant Corporation and changed its name to Avis Budget Group, Inc. in September 2006. Avis Budget Group, Inc. was founded in 1946 and is based in Parsippany, New Jersey.",
+  "targetMeanPrice": 122.85714,
+  "targetLowPrice": 94.0,
+  "targetHighPrice": 160.0,
+  "numberOfAnalystOpinions": 7,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.375,
+  "forwardPE": 19.866756,
+  "forwardEps": 5.33454,
+  "trailingEps": -18.13,
+  "earningsGrowth": 8.8,
+  "revenueGrowth": -0.013
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 31257000000.0,
+    "official": 31257000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": -3129000000.0,
+    "official": -3129000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -889000000.0,
+    "official": -889000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 11414000000.0,
+    "official": 11652000000.0,
+    "diff": 0.020426
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:38:41+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -183,7 +225,10 @@
    "goodwill_and_intangibles": 1736000000.0,
    "retained_earnings": 2579000000.0,
    "total_debt": 4671000000.0,
-   "shares_out": 39000000.0
+   "shares_out": 39000000.0,
+   "unusual_items": -27000000.0,
+   "normalized_ebitda": 6724000000.0,
+   "normalized_income": 2784465346.534653
   },
   {
    "fy_end": "2023-12-31",
@@ -216,7 +261,10 @@
    "goodwill_and_intangibles": 1769000000.0,
    "retained_earnings": 3854000000.0,
    "total_debt": 4791000000.0,
-   "shares_out": 35000000.0
+   "shares_out": 35000000.0,
+   "unusual_items": -21000000.0,
+   "normalized_ebitda": 5681000000.0,
+   "normalized_income": 1649934000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -249,7 +297,10 @@
    "goodwill_and_intangibles": 1672000000.0,
    "retained_earnings": 2029000000.0,
    "total_debt": 5373000000.0,
-   "shares_out": 35000000.0
+   "shares_out": 35000000.0,
+   "unusual_items": -2529000000.0,
+   "normalized_ebitda": 4269000000.0,
+   "normalized_income": -70932000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -282,7 +333,10 @@
    "goodwill_and_intangibles": 1718000000.0,
    "retained_earnings": 1139000000.0,
    "total_debt": 6049000000.0,
-   "shares_out": 35196992.0
+   "shares_out": 35196992.0,
+   "unusual_items": -673000000.0,
+   "normalized_ebitda": 4135000000.0,
+   "normalized_income": -357330000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "EEFT",
- "fetched_at": "2026-10-10T12:43:57+00:00",
+ "fetched_at": "2026-10-10T15:42:23+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 10800,
   "website": "https://www.euronet.com",
-  "longBusinessSummary": "Euronet Worldwide, Inc. provides payment and transaction processing and distribution solutions to financial institutions, retailers, service providers, and individual consumers internationally. The company operates through three segments: Electronic Funds Transfer (EFT), epay, and Money Transfer. The EFT segment provides automated teller machine cash withdrawal and deposit services, ATM network participation, outsourced ATM and point-of-sale (POS) management solutions, credit and debit and prepaid card outsourcing, card issuing, and merchant acquiring services. It also offers ATM and POS dynamic currency conversion, domestic and international surcharge, foreign currency dispensing, advertising, digital content sales at ATMs, customer relationship management, prepaid mobile top-up, bill payment, money transfer, fraud management, foreign remittance payout, cardless payout, banknote recycling solutions, and tax-refund services; and integrated electronic financial transaction software solutions for electronic payment and transaction delivery systems. The epay segment distributes and processes prepaid mobile airtime and other electronic content and payment processing services for various prepaid products, cards, and services. The Money Transfer segment offers consumer-to-consumer money transfer services through a network of locations and its website riamoneytransfer.com; account-to-account money transfer; and money transfer services through its website xe.com, Xe app, and customer service representatives. It also provides foreign currency exchange information on its currency data websites xe.com and x-rates.com; cash management solutions and foreign currency risk management services to small-and-medium-sized businesses; and payment processing services to third-party partners. The company was formerly known as Euronet Services, Inc. and changed its name to Euronet Worldwide, Inc. in August 2001. The company was founded in 1994 and is headquartered in Leawood, Kansas."
+  "longBusinessSummary": "Euronet Worldwide, Inc. provides payment and transaction processing and distribution solutions to financial institutions, retailers, service providers, and individual consumers internationally. The company operates through three segments: Electronic Funds Transfer (EFT), epay, and Money Transfer. The EFT segment provides automated teller machine cash withdrawal and deposit services, ATM network participation, outsourced ATM and point-of-sale (POS) management solutions, credit and debit and prepaid card outsourcing, card issuing, and merchant acquiring services. It also offers ATM and POS dynamic currency conversion, domestic and international surcharge, foreign currency dispensing, advertising, digital content sales at ATMs, customer relationship management, prepaid mobile top-up, bill payment, money transfer, fraud management, foreign remittance payout, cardless payout, banknote recycling solutions, and tax-refund services; and integrated electronic financial transaction software solutions for electronic payment and transaction delivery systems. The epay segment distributes and processes prepaid mobile airtime and other electronic content and payment processing services for various prepaid products, cards, and services. The Money Transfer segment offers consumer-to-consumer money transfer services through a network of locations and its website riamoneytransfer.com; account-to-account money transfer; and money transfer services through its website xe.com, Xe app, and customer service representatives. It also provides foreign currency exchange information on its currency data websites xe.com and x-rates.com; cash management solutions and foreign currency risk management services to small-and-medium-sized businesses; and payment processing services to third-party partners. The company was formerly known as Euronet Services, Inc. and changed its name to Euronet Worldwide, Inc. in August 2001. The company was founded in 1994 and is headquartered in Leawood, Kansas.",
+  "targetMeanPrice": 84.66667,
+  "targetLowPrice": 70.0,
+  "targetHighPrice": 94.0,
+  "numberOfAnalystOpinions": 6,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.125,
+  "forwardPE": 5.423444,
+  "forwardEps": 11.91125,
+  "trailingEps": 6.29,
+  "earningsGrowth": -0.247,
+  "revenueGrowth": 0.032
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "inventory": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 6488700000.0,
+    "official": 6488700000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1307500000.0,
+    "official": 1307500000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 309500000.0,
+    "official": 309500000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 4244200000.0,
+    "official": 4244200000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:42:23+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -196,7 +238,10 @@
    "goodwill_and_intangibles": 1190600000.0,
    "retained_earnings": 1348300000.0,
    "total_debt": 1609247000.0,
-   "shares_out": 49821742.0
+   "shares_out": 49821742.0,
+   "unusual_items": -28200000.0,
+   "normalized_ebitda": 524200000.0,
+   "normalized_income": 251171460.0
   },
   {
    "fy_end": "2023-12-31",
@@ -229,7 +274,10 @@
    "goodwill_and_intangibles": 1197000000.0,
    "retained_earnings": 1627900000.0,
    "total_debt": 1715400000.0,
-   "shares_out": 45777962.0
+   "shares_out": 45777962.0,
+   "unusual_items": 8000000.0,
+   "normalized_ebitda": 580900000.0,
+   "normalized_income": 274115200.0
   },
   {
    "fy_end": "2024-12-31",
@@ -262,7 +310,10 @@
    "goodwill_and_intangibles": 1274800000.0,
    "retained_earnings": 1934000000.0,
    "total_debt": 1134400000.0,
-   "shares_out": 43727615.0
+   "shares_out": 43727615.0,
+   "unusual_items": -19100000.0,
+   "normalized_ebitda": 680300000.0,
+   "normalized_income": 319031930.0
   },
   {
    "fy_end": "2025-12-31",
@@ -295,7 +346,10 @@
    "goodwill_and_intangibles": 1601300000.0,
    "retained_earnings": 2243400000.0,
    "total_debt": 1037600000.0,
-   "shares_out": 39329933.0
+   "shares_out": 39329933.0,
+   "unusual_items": -25400000.0,
+   "normalized_ebitda": 696600000.0,
+   "normalized_income": 327236820.0
   }
  ]
 }

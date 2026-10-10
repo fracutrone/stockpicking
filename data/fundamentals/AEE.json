@@ -1,6 +1,6 @@
 {
  "ticker": "AEE",
- "fetched_at": "2026-10-10T12:36:32+00:00",
+ "fetched_at": "2026-10-10T15:33:38+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 8913,
   "website": "https://www.amereninvestors.com",
-  "longBusinessSummary": "Ameren Corporation, together with its subsidiaries, operates as a public utility holding company in the United States. The company operates through four segments: Ameren Missouri, Ameren Illinois Electric Distribution, Ameren Illinois Natural Gas, and Ameren Transmission. It engages in the rate-regulated electric generation, transmission, and distribution business and natural gas transmission and distribution business. The company also generates electricity through coal, nuclear, and natural gas, as well as renewable energy, including hydroelectric, wind, methane gas, and solar energy centers. It serves residential, commercial, and industrial customers. Ameren Corporation was founded in 1881 and is headquartered in Saint Louis, Missouri."
+  "longBusinessSummary": "Ameren Corporation, together with its subsidiaries, operates as a public utility holding company in the United States. The company operates through four segments: Ameren Missouri, Ameren Illinois Electric Distribution, Ameren Illinois Natural Gas, and Ameren Transmission. It engages in the rate-regulated electric generation, transmission, and distribution business and natural gas transmission and distribution business. The company also generates electricity through coal, nuclear, and natural gas, as well as renewable energy, including hydroelectric, wind, methane gas, and solar energy centers. It serves residential, commercial, and industrial customers. Ameren Corporation was founded in 1881 and is headquartered in Saint Louis, Missouri.",
+  "targetMeanPrice": 117.875,
+  "targetLowPrice": 104.0,
+  "targetHighPrice": 136.0,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.82353,
+  "forwardPE": 17.615108,
+  "forwardEps": 5.80127,
+  "trailingEps": 5.68,
+  "earningsGrowth": 0.119,
+  "revenueGrowth": -0.062
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "intangibles": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 48476000000.0,
+    "official": 48476000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 13401000000.0,
+    "official": 13401000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1456000000.0,
+    "official": 1461000000.0,
+    "diff": 0.003422
+   },
+   "revenue": {
+    "yahoo": 8799000000.0,
+    "official": 8799000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:33:38+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -194,7 +236,10 @@
    "goodwill_and_intangibles": 411000000.0,
    "retained_earnings": 3646000000.0,
    "total_debt": 15217000000.0,
-   "shares_out": 262000000.0
+   "shares_out": 262000000.0,
+   "unusual_items": 43000000.0,
+   "normalized_ebitda": 3136000000.0,
+   "normalized_income": 1037020000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -228,7 +273,10 @@
    "goodwill_and_intangibles": 411000000.0,
    "retained_earnings": 4136000000.0,
    "total_debt": 16643000000.0,
-   "shares_out": 266300000.0
+   "shares_out": 266300000.0,
+   "unusual_items": 54000000.0,
+   "normalized_ebitda": 3352000000.0,
+   "normalized_income": 1105560000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -260,7 +308,10 @@
    "goodwill_and_intangibles": 411000000.0,
    "retained_earnings": 4604000000.0,
    "total_debt": 18942000000.0,
-   "shares_out": 269900000.0
+   "shares_out": 269900000.0,
+   "unusual_items": 92000000.0,
+   "normalized_ebitda": 3446000000.0,
+   "normalized_income": 1096440000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -292,7 +343,10 @@
    "goodwill_and_intangibles": 411000000.0,
    "retained_earnings": 5292000000.0,
    "total_debt": 20074000000.0,
-   "shares_out": 276400000.0
+   "shares_out": 276400000.0,
+   "unusual_items": 96000000.0,
+   "normalized_ebitda": 3945000000.0,
+   "normalized_income": 1368640000.0
   }
  ]
 }

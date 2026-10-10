@@ -1,6 +1,6 @@
 {
  "ticker": "HTWS.L",
- "fetched_at": "2026-10-10T12:02:36+00:00",
+ "fetched_at": "2026-10-10T14:56:10+00:00",
  "region": "Europa",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 735,
   "website": "https://www.heliostowers.com",
-  "longBusinessSummary": "Helios Towers plc, an independent tower company, acquires, builds, and operates telecommunications towers. It offers colocation lease-up, build-to-suit, sale and leaseback, in-building, small cells/outdoor distributed antenna systems, and other managed services. The company also provides passive infrastructure solutions, including site selection and preparation, maintenance, security, and power management; and engages in hosting active equipment, such as antennae. It operates a network of sites and tenancies in Tanzania, Senegal, Malawi, the Democratic Republic of Congo, Congo Brazzaville, South Africa, Ghana, Madagascar, and Oman. Helios Towers plc was founded in 2009 and is based in London, the United Kingdom."
+  "longBusinessSummary": "Helios Towers plc, an independent tower company, acquires, builds, and operates telecommunications towers. It offers colocation lease-up, build-to-suit, sale and leaseback, in-building, small cells/outdoor distributed antenna systems, and other managed services. The company also provides passive infrastructure solutions, including site selection and preparation, maintenance, security, and power management; and engages in hosting active equipment, such as antennae. It operates a network of sites and tenancies in Tanzania, Senegal, Malawi, the Democratic Republic of Congo, Congo Brazzaville, South Africa, Ghana, Madagascar, and Oman. Helios Towers plc was founded in 2009 and is based in London, the United Kingdom.",
+  "targetMeanPrice": 290.24963,
+  "targetLowPrice": 240.41367,
+  "targetHighPrice": 310.19476,
+  "numberOfAnalystOpinions": 7,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.14286,
+  "forwardPE": 18.795586,
+  "forwardEps": 0.114921,
+  "trailingEps": 0.02,
+  "earningsGrowth": -0.346,
+  "revenueGrowth": 0.115
  },
  "governance": {
   "ceo": {
@@ -76,8 +87,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 2525300000.0,
+    "official": 2525300000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 40300000.0,
+    "official": 40300000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 39200000.0,
+    "official": 39200000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 854100000.0,
+    "official": 854100000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:56:11+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -111,7 +154,10 @@
    "goodwill_and_intangibles": 575200000.0,
    "retained_earnings": -5100000.0,
    "total_debt": 1797600000.0,
-   "shares_out": 1050500000.0
+   "shares_out": 1050500000.0,
+   "unusual_items": -75600000.0,
+   "normalized_ebitda": 232500000.0,
+   "normalized_income": -110264000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -145,7 +191,10 @@
    "goodwill_and_intangibles": 546400000.0,
    "retained_earnings": -105200000.0,
    "total_debt": 1889700000.0,
-   "shares_out": 1049439359.0
+   "shares_out": 1049439359.0,
+   "unusual_items": -3000000.0,
+   "normalized_ebitda": 285000000.0,
+   "normalized_income": -97110695.187166
   },
   {
    "fy_end": "2024-12-31",
@@ -179,7 +228,10 @@
    "goodwill_and_intangibles": 531400000.0,
    "retained_earnings": -71700000.0,
    "total_debt": 1945000000.0,
-   "shares_out": 1050694822.0
+   "shares_out": 1050694822.0,
+   "unusual_items": -400000.0,
+   "normalized_ebitda": 402700000.0,
+   "normalized_income": 33744343.891403
   },
   {
    "fy_end": "2025-12-31",
@@ -213,7 +265,10 @@
    "goodwill_and_intangibles": 527800000.0,
    "retained_earnings": -32500000.0,
    "total_debt": 1991100000.0,
-   "shares_out": 1030684213.0
+   "shares_out": 1030684213.0,
+   "unusual_items": 5000000.0,
+   "normalized_ebitda": 485300000.0,
+   "normalized_income": 35450000.0
   }
  ]
 }

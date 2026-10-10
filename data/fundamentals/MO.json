@@ -1,6 +1,6 @@
 {
  "ticker": "MO",
- "fetched_at": "2026-10-10T12:51:45+00:00",
+ "fetched_at": "2026-10-10T15:49:55+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 5900,
   "website": "https://www.altria.com",
-  "longBusinessSummary": "Altria Group, Inc., through its subsidiaries, manufactures and sells smokeable and oral tobacco products in the United States. It offers cigarettes primarily under the Marlboro brand; large cigars and pipe tobacco under the Black & Mild brand; moist smokeless tobacco and oral tobacco products under the Copenhagen, Skoal, Red Seal, and Husky brands; oral nicotine pouches under the on! brand; and e-vapor products under the NJOY ACE brand. The company sells its products to distributors, as well as large retail organizations, such as chain stores. Altria Group, Inc. was founded in 1822 and is headquartered in Richmond, Virginia."
+  "longBusinessSummary": "Altria Group, Inc., through its subsidiaries, manufactures and sells smokeable and oral tobacco products in the United States. It offers cigarettes primarily under the Marlboro brand; large cigars and pipe tobacco under the Black & Mild brand; moist smokeless tobacco and oral tobacco products under the Copenhagen, Skoal, Red Seal, and Husky brands; oral nicotine pouches under the on! brand; and e-vapor products under the NJOY ACE brand. The company sells its products to distributors, as well as large retail organizations, such as chain stores. Altria Group, Inc. was founded in 1822 and is headquartered in Richmond, Virginia.",
+  "targetMeanPrice": 70.0,
+  "targetLowPrice": 58.0,
+  "targetHighPrice": 82.0,
+  "numberOfAnalystOpinions": 11,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.64286,
+  "forwardPE": 12.220695,
+  "forwardEps": 5.86546,
+  "trailingEps": 4.75,
+  "earningsGrowth": -0.027,
+  "revenueGrowth": 0.012
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 35017000000.0,
+    "official": 35017000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": -3502000000.0,
+    "official": -3502000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 6947000000.0,
+    "official": 6947000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 20139000000.0,
+    "official": 23279000000.0,
+    "diff": 0.134886
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:49:55+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -203,7 +245,10 @@
    "goodwill_and_intangibles": 17561000000.0,
    "retained_earnings": 29792000000.0,
    "total_debt": 26680000000.0,
-   "shares_out": 1785534122.0
+   "shares_out": 1785534122.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 8743000000.0,
+   "normalized_income": 5764000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -237,7 +282,10 @@
    "goodwill_and_intangibles": 20477000000.0,
    "retained_earnings": 31094000000.0,
    "total_debt": 26233000000.0,
-   "shares_out": 1763461775.0
+   "shares_out": 1763461775.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 12349000000.0,
+   "normalized_income": 8130000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -271,7 +319,10 @@
    "goodwill_and_intangibles": 19918000000.0,
    "retained_earnings": 35516000000.0,
    "total_debt": 24926000000.0,
-   "shares_out": 1690651867.0
+   "shares_out": 1690651867.0,
+   "unusual_items": 2311000000.0,
+   "normalized_ebitda": 12757000000.0,
+   "normalized_income": 9358076438.717236
   },
   {
    "fy_end": "2025-12-31",
@@ -305,7 +356,10 @@
    "goodwill_and_intangibles": 17663000000.0,
    "retained_earnings": 35452000000.0,
    "total_debt": 25709000000.0,
-   "shares_out": 1674318297.0
+   "shares_out": 1674318297.0,
+   "unusual_items": -2136000000.0,
+   "normalized_ebitda": 12968000000.0,
+   "normalized_income": 8527444349.771009
   }
  ]
 }

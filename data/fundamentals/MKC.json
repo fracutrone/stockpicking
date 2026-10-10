@@ -1,6 +1,6 @@
 {
  "ticker": "MKC",
- "fetched_at": "2026-10-10T12:51:32+00:00",
+ "fetched_at": "2026-10-10T15:49:45+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 14100,
   "website": "https://www.mccormickcorporation.com",
-  "longBusinessSummary": "McCormick & Company, Incorporated manufactures, markets, and distributes herbs, spices, seasoning mixes, condiments, and other flavorful products to the food industry. It operates in two segments, Consumer and Flavor Solutions. The Consumer segment offers spices, herbs, and seasonings, as well as condiments, sauces, and desserts. This segment markets its products under the McCormick, French's, Frank's RedHot, Lawry's, Cholula Hot Sauce, Club House, Gourmet Garden, and OLD BAY brands in the Americas; Ducros, Schwartz, Kamis, LA Drogheria, and Vahiné brands in Europe, the Middle East, and Africa; and McCormick and DaQiao brands in the Asia/Pacific (APAC), as well as desserts under the Aeroplane brand; and packaged chilled herbs under the Gourmet Garden brand. Its authentic regional brands include Zatarain's, Stubb's, Thai Kitchen, and Simply Asia. The company also supplies its products under private labels. This segment serves retailers, including grocery, mass merchandise, warehouse clubs, discount and drug stores, and e-commerce retailers directly and indirectly through distributors and wholesale foodservice suppliers. The Flavor Solutions segment offers seasoning blends, spices, herbs, condiments, coating systems, and compound flavors to multinational food manufacturers and foodservice customers. It serves foodservice customers directly and indirectly through distributors. The company was founded in 1889 and is headquartered in Hunt Valley, Maryland."
+  "longBusinessSummary": "McCormick & Company, Incorporated manufactures, markets, and distributes herbs, spices, seasoning mixes, condiments, and other flavorful products to the food industry. It operates in two segments, Consumer and Flavor Solutions. The Consumer segment offers spices, herbs, and seasonings, as well as condiments, sauces, and desserts. This segment markets its products under the McCormick, French's, Frank's RedHot, Lawry's, Cholula Hot Sauce, Club House, Gourmet Garden, and OLD BAY brands in the Americas; Ducros, Schwartz, Kamis, LA Drogheria, and Vahiné brands in Europe, the Middle East, and Africa; and McCormick and DaQiao brands in the Asia/Pacific (APAC), as well as desserts under the Aeroplane brand; and packaged chilled herbs under the Gourmet Garden brand. Its authentic regional brands include Zatarain's, Stubb's, Thai Kitchen, and Simply Asia. The company also supplies its products under private labels. This segment serves retailers, including grocery, mass merchandise, warehouse clubs, discount and drug stores, and e-commerce retailers directly and indirectly through distributors and wholesale foodservice suppliers. The Flavor Solutions segment offers seasoning blends, spices, herbs, condiments, coating systems, and compound flavors to multinational food manufacturers and foodservice customers. It serves foodservice customers directly and indirectly through distributors. The company was founded in 1889 and is headquartered in Hunt Valley, Maryland.",
+  "targetMeanPrice": 54.84615,
+  "targetLowPrice": 47.0,
+  "targetHighPrice": 65.0,
+  "numberOfAnalystOpinions": 13,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.26667,
+  "forwardPE": 13.910145,
+  "forwardEps": 3.22139,
+  "trailingEps": 5.39,
+  "earningsGrowth": -0.571,
+  "revenueGrowth": 0.174
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-11-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 13200400000.0,
+    "official": 13200400000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 5736500000.0,
+    "official": 5736500000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 789400000.0,
+    "official": 789400000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 6840300000.0,
+    "official": 6840300000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:49:45+00:00",
  "years": [
   {
    "fy_end": "2019-11-30",
@@ -206,7 +248,10 @@
    "goodwill_and_intangibles": 8761400000.0,
    "retained_earnings": 3022500000.0,
    "total_debt": 5149600000.0,
-   "shares_out": 268000000.0
+   "shares_out": 268000000.0,
+   "unusual_items": -4200000.0,
+   "normalized_ebitda": 1166700000.0,
+   "normalized_income": 685330600.0
   },
   {
    "fy_end": "2023-11-30",
@@ -240,7 +285,10 @@
    "goodwill_and_intangibles": 8776700000.0,
    "retained_earnings": 3249700000.0,
    "total_debt": 4411400000.0,
-   "shares_out": 268100000.0
+   "shares_out": 268100000.0,
+   "unusual_items": -61200000.0,
+   "normalized_ebitda": 1267400000.0,
+   "normalized_income": 728429022.161012
   },
   {
    "fy_end": "2024-11-30",
@@ -274,7 +322,10 @@
    "goodwill_and_intangibles": 8725500000.0,
    "retained_earnings": 3545000000.0,
    "total_debt": 4341900000.0,
-   "shares_out": 268000000.0
+   "shares_out": 268000000.0,
+   "unusual_items": -9500000.0,
+   "normalized_ebitda": 1326000000.0,
+   "normalized_income": 796054102.193031
   },
   {
    "fy_end": "2025-11-30",
@@ -308,7 +359,10 @@
    "goodwill_and_intangibles": 8803100000.0,
    "retained_earnings": 3816400000.0,
    "total_debt": 3996300000.0,
-   "shares_out": 268400000.0
+   "shares_out": 268400000.0,
+   "unusual_items": -21100000.0,
+   "normalized_ebitda": 1361600000.0,
+   "normalized_income": 805984600.0
   }
  ]
 }

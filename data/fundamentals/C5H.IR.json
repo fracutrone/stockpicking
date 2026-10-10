@@ -1,6 +1,6 @@
 {
  "ticker": "C5H.IR",
- "fetched_at": "2026-10-10T11:49:27+00:00",
+ "fetched_at": "2026-10-10T14:38:19+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -11,18 +11,29 @@
   "country": "Ireland",
   "currency": "EUR",
   "financialCurrency": "EUR",
-  "marketCap": 1612932864,
-  "sharesOutstanding": 617981936,
+  "marketCap": 1612674944,
+  "sharesOutstanding": 617883165,
   "floatShares": 616566960,
   "heldPercentInsiders": 0.05412,
   "heldPercentInstitutions": 0.75622,
   "shortPercentOfFloat": null,
-  "averageVolume": 731506,
+  "averageVolume": 742134,
   "quoteType": "EQUITY",
   "exchange": "ISE",
   "fullTimeEmployees": 581,
   "website": "https://www.cairnhomes.com",
-  "longBusinessSummary": "Cairn Homes plc, together with its subsidiaries, operates as homebuilder in Ireland. The company builds, develops, and sells residential properties, including houses, duplexes, and apartments, as well as commercial and retail spaces. It also engages in property holding and rental; and financing activities. Cairn Homes plc was incorporated in 2014 and is based in Dublin, Ireland."
+  "longBusinessSummary": "Cairn Homes plc, together with its subsidiaries, operates as homebuilder in Ireland. The company builds, develops, and sells residential properties, including houses, duplexes, and apartments, as well as commercial and retail spaces. It also engages in property holding and rental; and financing activities. Cairn Homes plc was incorporated in 2014 and is based in Dublin, Ireland.",
+  "targetMeanPrice": 3.09333,
+  "targetLowPrice": 2.96,
+  "targetHighPrice": 3.22,
+  "numberOfAnalystOpinions": 3,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.0,
+  "forwardPE": 9.905123,
+  "forwardEps": 0.2635,
+  "trailingEps": 0.26,
+  "earningsGrowth": 0.828,
+  "revenueGrowth": 0.601
  },
  "governance": {
   "ceo": {
@@ -69,8 +80,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 1306184000.0,
+    "official": 1306184000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 836668000.0,
+    "official": 836668000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 132715000.0,
+    "official": 132715000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 944606000.0,
+    "official": 944606000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:38:19+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -103,7 +146,10 @@
    "goodwill_and_intangibles": 3043000.0,
    "retained_earnings": 538720000.0,
    "total_debt": 177788000.0,
-   "shares_out": 685777452.0
+   "shares_out": 685777452.0,
+   "unusual_items": -70000.0,
+   "normalized_ebitda": 104101000.0,
+   "normalized_income": 81090682.343376
   },
   {
    "fy_end": "2023-12-31",
@@ -136,7 +182,10 @@
    "goodwill_and_intangibles": 4211000.0,
    "retained_earnings": 544396000.0,
    "total_debt": 180255000.0,
-   "shares_out": 652478244.0
+   "shares_out": 652478244.0,
+   "unusual_items": 80000.0,
+   "normalized_ebitda": 115049000.0,
+   "normalized_income": 85363257.757259
   },
   {
    "fy_end": "2024-12-31",
@@ -169,7 +218,10 @@
    "goodwill_and_intangibles": 4423000.0,
    "retained_earnings": 548847000.0,
    "total_debt": 188491000.0,
-   "shares_out": 616059762.0
+   "shares_out": 616059762.0,
+   "unusual_items": 455000.0,
+   "normalized_ebitda": 151852000.0,
+   "normalized_income": 114185483.450976
   },
   {
    "fy_end": "2025-12-31",
@@ -202,7 +254,10 @@
    "goodwill_and_intangibles": 4455000.0,
    "retained_earnings": 633352000.0,
    "total_debt": 231955000.0,
-   "shares_out": 617728891.0
+   "shares_out": 617728891.0,
+   "unusual_items": -124000.0,
+   "normalized_ebitda": 170568000.0,
+   "normalized_income": 132822965.622437
   }
  ]
 }

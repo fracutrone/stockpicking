@@ -1,6 +1,6 @@
 {
  "ticker": "CMC",
- "fetched_at": "2026-10-10T12:41:05+00:00",
+ "fetched_at": "2026-10-10T15:39:49+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 12690,
   "website": "https://www.cmc.com",
-  "longBusinessSummary": "Commercial Metals Company manufactures, recycles, and fabricates steel and metal products, and related materials and services in the United States, Poland, China, and internationally. It operates through three segments: North America Steel Group; Europe Steel Group; and Emerging Businesses Group. The company processes and sells ferrous and nonferrous scrap metals to steel mills and foundries, aluminum sheet and ingot manufacturers, brass and bronze ingot makers, copper refineries and mills, secondary lead smelters, specialty steel mills, high temperature alloy manufacturers, and other consumers. It also manufactures and sells finished long steel products, including reinforcing bar, merchant bar, light structural, wire rod, and other special sections, as well as semi-finished billets for rerolling and forging applications. In addition, the company provides fabricated rebar used to reinforce concrete primarily in the construction of commercial and non-commercial buildings, hospitals, convention centers, industrial plants, power plants, highways, bridges, arenas, stadiums, and dams; sells and rents construction-related products and equipment to concrete installers and other businesses; and manufactures and sells strength bars for the truck trailer industry, special bar steels for the energy market, and armor plates for military vehicles. Further, it sells wire meshes, welded steel mesh, wire rod, cold rolled rebar, cold rolled wire rod, assembled rebar cages and other fabricated rebar by-products to fabricators, manufacturers, distributors, and construction companies. The company was founded in 1915 and is headquartered in Irving, Texas."
+  "longBusinessSummary": "Commercial Metals Company manufactures, recycles, and fabricates steel and metal products, and related materials and services in the United States, Poland, China, and internationally. It operates through three segments: North America Steel Group; Europe Steel Group; and Emerging Businesses Group. The company processes and sells ferrous and nonferrous scrap metals to steel mills and foundries, aluminum sheet and ingot manufacturers, brass and bronze ingot makers, copper refineries and mills, secondary lead smelters, specialty steel mills, high temperature alloy manufacturers, and other consumers. It also manufactures and sells finished long steel products, including reinforcing bar, merchant bar, light structural, wire rod, and other special sections, as well as semi-finished billets for rerolling and forging applications. In addition, the company provides fabricated rebar used to reinforce concrete primarily in the construction of commercial and non-commercial buildings, hospitals, convention centers, industrial plants, power plants, highways, bridges, arenas, stadiums, and dams; sells and rents construction-related products and equipment to concrete installers and other businesses; and manufactures and sells strength bars for the truck trailer industry, special bar steels for the energy market, and armor plates for military vehicles. Further, it sells wire meshes, welded steel mesh, wire rod, cold rolled rebar, cold rolled wire rod, assembled rebar cages and other fabricated rebar by-products to fabricators, manufacturers, distributors, and construction companies. The company was founded in 1915 and is headquartered in Irving, Texas.",
+  "targetMeanPrice": 79.09091,
+  "targetLowPrice": 68.0,
+  "targetHighPrice": 88.0,
+  "numberOfAnalystOpinions": 11,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.91667,
+  "forwardPE": 8.787941,
+  "forwardEps": 7.27019,
+  "trailingEps": 5.29,
+  "earningsGrowth": 1.123,
+  "revenueGrowth": 0.229
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-08-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 7171834000.0,
+    "official": 7171834000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4193066000.0,
+    "official": 4193066000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 84662000.0,
+    "official": 84662000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 7798480000.0,
+    "official": 7798480000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:39:49+00:00",
  "years": [
   {
    "fy_end": "2019-08-31",
@@ -197,7 +239,10 @@
    "goodwill_and_intangibles": 507158000.0,
    "retained_earnings": 3312438000.0,
    "total_debt": 1455167000.0,
-   "shares_out": 117496053.0
+   "shares_out": 117496053.0,
+   "unusual_items": 254444000.0,
+   "normalized_ebitda": 1486436000.0,
+   "normalized_income": 1012943468.0
   },
   {
    "fy_end": "2023-08-31",
@@ -231,7 +276,10 @@
    "goodwill_and_intangibles": 644982000.0,
    "retained_earnings": 4097262000.0,
    "total_debt": 1061102000.0,
-   "shares_out": 116515427.0
+   "shares_out": 116515427.0,
+   "unusual_items": -3780000.0,
+   "normalized_ebitda": 1384704000.0,
+   "normalized_income": 862655480.0
   },
   {
    "fy_end": "2024-08-31",
@@ -265,7 +313,10 @@
    "goodwill_and_intangibles": 620499000.0,
    "retained_earnings": 4503885000.0,
    "total_debt": 1056970000.0,
-   "shares_out": 114104057.0
+   "shares_out": 114104057.0,
+   "unusual_items": -6708000.0,
+   "normalized_ebitda": 970639000.0,
+   "normalized_income": 490615912.0
   },
   {
    "fy_end": "2025-08-31",
@@ -299,7 +350,10 @@
    "goodwill_and_intangibles": 597661000.0,
    "retained_earnings": 4507114000.0,
    "total_debt": 1205168000.0,
-   "shares_out": 111189136.0
+   "shares_out": 111189136.0,
+   "unusual_items": -366879000.0,
+   "normalized_ebitda": 805799000.0,
+   "normalized_income": 373395773.0
   }
  ]
 }

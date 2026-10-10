@@ -1,6 +1,6 @@
 {
  "ticker": "RGA",
- "fetched_at": "2026-10-10T12:56:40+00:00",
+ "fetched_at": "2026-10-10T15:54:22+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 4300,
   "website": "https://www.rgare.com",
-  "longBusinessSummary": "Reinsurance Group of America, Incorporated provides life and health, and asset-intensive reinsurance in the United States, Latin America, Canada, Europe, the Middle East, Africa, Asia, and Australia. It offers individual and group life and health, disability, long-term care, and critical illness reinsurance; and financial solutions, such as asset-intensive reinsurance, longevity reinsurance, stable value products, pension risk transfer transactions, and capital solutions. The company also provides reinsurance for mortality, morbidity, lapse, and investment-related risks; coinsurance of payout annuities; underwritten annuities; funding agreement backed note program and other capital motivated solutions; and superannuation. Reinsurance Group of America, Incorporated was founded in 1973 and is headquartered in Chesterfield, Missouri."
+  "longBusinessSummary": "Reinsurance Group of America, Incorporated provides life and health, and asset-intensive reinsurance in the United States, Latin America, Canada, Europe, the Middle East, Africa, Asia, and Australia. It offers individual and group life and health, disability, long-term care, and critical illness reinsurance; and financial solutions, such as asset-intensive reinsurance, longevity reinsurance, stable value products, pension risk transfer transactions, and capital solutions. The company also provides reinsurance for mortality, morbidity, lapse, and investment-related risks; coinsurance of payout annuities; underwritten annuities; funding agreement backed note program and other capital motivated solutions; and superannuation. Reinsurance Group of America, Incorporated was founded in 1973 and is headquartered in Chesterfield, Missouri.",
+  "targetMeanPrice": 277.55557,
+  "targetLowPrice": 235.0,
+  "targetHighPrice": 302.0,
+  "numberOfAnalystOpinions": 9,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.1,
+  "forwardPE": 8.570494,
+  "forwardEps": 29.86759,
+  "trailingEps": 22.71,
+  "earningsGrowth": 1.596,
+  "revenueGrowth": 0.185
  },
  "governance": {
   "ceo": {
@@ -76,8 +87,37 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 156590000000.0,
+    "official": 156590000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 13461000000.0,
+    "official": 13461000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1182000000.0,
+    "official": 1182000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 23683000000.0,
+    "official": 23698000000.0,
+    "diff": 0.000633
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:54:22+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -160,7 +200,8 @@
    "goodwill_and_intangibles": 26000000.0,
    "retained_earnings": 8169000000.0,
    "total_debt": 3961000000.0,
-   "shares_out": 66676208.0
+   "shares_out": 66676208.0,
+   "normalized_income": 517000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -184,7 +225,8 @@
    "goodwill_and_intangibles": 17000000.0,
    "retained_earnings": 8805000000.0,
    "total_debt": 4427000000.0,
-   "shares_out": 65620713.0
+   "shares_out": 65620713.0,
+   "normalized_income": 902000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -208,7 +250,8 @@
    "goodwill_and_intangibles": 8000000.0,
    "retained_earnings": 9255000000.0,
    "total_debt": 5042000000.0,
-   "shares_out": 65872262.0
+   "shares_out": 65872262.0,
+   "normalized_income": 717000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -232,7 +275,8 @@
    "goodwill_and_intangibles": 6000000.0,
    "retained_earnings": 10151000000.0,
    "total_debt": 5710000000.0,
-   "shares_out": 65463664.0
+   "shares_out": 65463664.0,
+   "normalized_income": 1182000000.0
   }
  ]
 }

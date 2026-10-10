@@ -1,6 +1,6 @@
 {
  "ticker": "DOCN",
- "fetched_at": "2026-10-10T12:43:22+00:00",
+ "fetched_at": "2026-10-10T15:41:49+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 1462,
   "website": "https://www.digitalocean.com",
-  "longBusinessSummary": "DigitalOcean Holdings, Inc., through its subsidiaries, operates an agentic inference cloud platform in North America, Europe, Asia, and internationally. The company provides AI and Digital Native Enterprises build, run, and scale intelligent applications for growing technology companies. It also offers infrastructure-as-a-service (IaaS) solutions comprising compute, storage, and networking products, including cloud firewalls, managed load balancers, NAT gateways, and virtual private cloud software, as well as IP address management and domain name system management. In addition, the company provides platform-as-a-service (PaaS) and software-as-a-service (SaaS) solutions, such as managed databases; managed Kubernetes and container registry; application platform to build, deploy, and scale applications; Functions, a serverless compute solution; and Uptime for real-time uptime and latency alerts, as well as managed hosting and DigitalOcean Marketplace, a platform where developers can find pre-configured applications and solutions. Further, it offers artificial intelligence (AI)/machine learning (ML) applications comprising GPU droplets; bare metal GPUS, which provides access to a GPU server without any virtualization layer and gives developers with customizable server for their use case; and Jupyter Notebooks that provides cloud workspace and managed interactive development environment for exploring data and training, and building machine learning models. Its customers use its platform in various industry verticals, such as online gaming, fintech, and cybersecurity, as well as for a range of use cases, including building and hosting websites, web and mobile applications development, AI integration, and building AI products and applications. DigitalOcean Holdings, Inc. was incorporated in 2012 and is headquartered in Broomfield, Colorado."
+  "longBusinessSummary": "DigitalOcean Holdings, Inc., through its subsidiaries, operates an agentic inference cloud platform in North America, Europe, Asia, and internationally. The company provides AI and Digital Native Enterprises build, run, and scale intelligent applications for growing technology companies. It also offers infrastructure-as-a-service (IaaS) solutions comprising compute, storage, and networking products, including cloud firewalls, managed load balancers, NAT gateways, and virtual private cloud software, as well as IP address management and domain name system management. In addition, the company provides platform-as-a-service (PaaS) and software-as-a-service (SaaS) solutions, such as managed databases; managed Kubernetes and container registry; application platform to build, deploy, and scale applications; Functions, a serverless compute solution; and Uptime for real-time uptime and latency alerts, as well as managed hosting and DigitalOcean Marketplace, a platform where developers can find pre-configured applications and solutions. Further, it offers artificial intelligence (AI)/machine learning (ML) applications comprising GPU droplets; bare metal GPUS, which provides access to a GPU server without any virtualization layer and gives developers with customizable server for their use case; and Jupyter Notebooks that provides cloud workspace and managed interactive development environment for exploring data and training, and building machine learning models. Its customers use its platform in various industry verticals, such as online gaming, fintech, and cybersecurity, as well as for a range of use cases, including building and hosting websites, web and mobile applications development, AI integration, and building AI products and applications. DigitalOcean Holdings, Inc. was incorporated in 2012 and is headquartered in Broomfield, Colorado.",
+  "targetMeanPrice": 175.2,
+  "targetLowPrice": 140.0,
+  "targetHighPrice": 200.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 73.206894,
+  "forwardEps": 1.84163,
+  "trailingEps": 2.17,
+  "earningsGrowth": -0.245,
+  "revenueGrowth": 0.286
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 1837705000.0,
+    "official": 1837705000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": -28690000.0,
+    "official": -28690000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 259262000.0,
+    "official": 259262000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 901427000.0,
+    "official": 901427000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:41:49+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -192,7 +234,10 @@
    "goodwill_and_intangibles": 434096000.0,
    "retained_earnings": -214342000.0,
    "total_debt": 1470270000.0,
-   "shares_out": 96732507.0
+   "shares_out": 96732507.0,
+   "unusual_items": -407000.0,
+   "normalized_ebitda": 87150000.0,
+   "normalized_income": -27482470.0
   },
   {
    "fy_end": "2023-12-31",
@@ -226,7 +271,10 @@
    "goodwill_and_intangibles": 488473000.0,
    "retained_earnings": -344237000.0,
    "total_debt": 1477798000.0,
-   "shares_out": 90243442.0
+   "shares_out": 90243442.0,
+   "unusual_items": -20887000.0,
+   "normalized_ebitda": 174474000.0,
+   "normalized_income": 34549266.768748
   },
   {
    "fy_end": "2024-12-31",
@@ -260,7 +308,10 @@
    "goodwill_and_intangibles": 466392000.0,
    "retained_earnings": -258742000.0,
    "total_debt": 1485366000.0,
-   "shares_out": 92234517.0
+   "shares_out": 92234517.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 236864000.0,
+   "normalized_income": 84492000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -293,7 +344,10 @@
    "goodwill_and_intangibles": 448178000.0,
    "retained_earnings": -43737000.0,
    "total_debt": 1295762000.0,
-   "shares_out": 91947614.0
+   "shares_out": 91947614.0,
+   "unusual_items": 48104000.0,
+   "normalized_ebitda": 313947000.0,
+   "normalized_income": 221259840.0
   }
  ]
 }

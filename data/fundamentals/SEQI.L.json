@@ -1,6 +1,6 @@
 {
  "ticker": "SEQI.L",
- "fetched_at": "2026-10-10T12:18:47+00:00",
+ "fetched_at": "2026-10-10T15:19:12+00:00",
  "region": "Europa",
  "statement_currency": "GBp",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": 90.0,
+  "targetLowPrice": 90.0,
+  "targetHighPrice": 90.0,
+  "numberOfAnalystOpinions": 1,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 16.76,
+  "forwardEps": 0.05,
+  "trailingEps": 0.07,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -49,8 +60,15 @@
   "receivables": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T15:19:12+00:00",
  "years": [
   {
    "fy_end": "2023-03-31",
@@ -69,7 +87,8 @@
    "equity": 1617853302.0,
    "retained_earnings": -190769209.0,
    "total_debt": 181788862.0,
-   "shares_out": 1734819553.0
+   "shares_out": 1734819553.0,
+   "normalized_income": -17948654.0
   },
   {
    "fy_end": "2024-03-31",
@@ -87,7 +106,8 @@
    "cash": 7507495.0,
    "equity": 1524282546.0,
    "retained_earnings": -196169547.0,
-   "shares_out": 1625484274.0
+   "shares_out": 1625484274.0,
+   "normalized_income": 110424854.0
   },
   {
    "fy_end": "2025-03-31",
@@ -106,7 +126,8 @@
    "equity": 1439188600.0,
    "retained_earnings": -225404819.0,
    "total_debt": 56853283.0,
-   "shares_out": 1555061936.0
+   "shares_out": 1555061936.0,
+   "normalized_income": 79799880.0
   },
   {
    "fy_end": "2026-03-31",
@@ -124,7 +145,8 @@
    "cash": 2076117.0,
    "equity": 1378639815.0,
    "retained_earnings": -226448799.0,
-   "shares_out": 1479731915.0
+   "shares_out": 1479731915.0,
+   "normalized_income": 104143406.0
   }
  ]
 }

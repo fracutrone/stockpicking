@@ -1,6 +1,6 @@
 {
  "ticker": "SYK",
- "fetched_at": "2026-10-10T12:59:14+00:00",
+ "fetched_at": "2026-10-10T15:56:57+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 56000,
   "website": "https://www.stryker.com",
-  "longBusinessSummary": "Stryker Corporation operates as a medical technology company in the United States and internationally. It operates through two segments, MedSurg and Neurotechnology, and Orthopaedics. The MedSurg and Neurotechnology segment offers surgical equipment, patient and caregiver safety technologies, navigation systems, endoscopic and communications systems, patient handling, emergency medical equipment and intensive care disposable products, clinical communication and artificial intelligence-assisted virtual care platform technology, and minimally invasive products for the treatment of acute ischemic and hemorrhagic stroke and venous thromboembolism; traditional brain and open skull based surgical procedures products; and orthobiologic and biosurgery products, including synthetic bone grafts and vertebral augmentation products. The Orthopaedics segment provides implants for use in total joint replacements, such as hip, knee and shoulder, ankle, and trauma and extremities surgeries; and Mako Shoulder, which expands the smart robotics suite of applications. The company sells its products to doctors, hospitals, and other healthcare facilities through company-owned subsidiaries and branches, as well as third-party dealers and distributors in approximately 61 countries. Stryker Corporation was founded in 1941 and is headquartered in Portage, Michigan."
+  "longBusinessSummary": "Stryker Corporation operates as a medical technology company in the United States and internationally. It operates through two segments, MedSurg and Neurotechnology, and Orthopaedics. The MedSurg and Neurotechnology segment offers surgical equipment, patient and caregiver safety technologies, navigation systems, endoscopic and communications systems, patient handling, emergency medical equipment and intensive care disposable products, clinical communication and artificial intelligence-assisted virtual care platform technology, and minimally invasive products for the treatment of acute ischemic and hemorrhagic stroke and venous thromboembolism; traditional brain and open skull based surgical procedures products; and orthobiologic and biosurgery products, including synthetic bone grafts and vertebral augmentation products. The Orthopaedics segment provides implants for use in total joint replacements, such as hip, knee and shoulder, ankle, and trauma and extremities surgeries; and Mako Shoulder, which expands the smart robotics suite of applications. The company sells its products to doctors, hospitals, and other healthcare facilities through company-owned subsidiaries and branches, as well as third-party dealers and distributors in approximately 61 countries. Stryker Corporation was founded in 1941 and is headquartered in Portage, Michigan.",
+  "targetMeanPrice": 364.23077,
+  "targetLowPrice": 298.0,
+  "targetHighPrice": 465.0,
+  "numberOfAnalystOpinions": 26,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.68966,
+  "forwardPE": 16.607342,
+  "forwardEps": 16.69924,
+  "trailingEps": 9.66,
+  "earningsGrowth": 0.441,
+  "revenueGrowth": 0.094
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 47844000000.0,
+    "official": 47844000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 22420000000.0,
+    "official": 22420000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 3246000000.0,
+    "official": 3246000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 25116000000.0,
+    "official": 25116000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:56:57+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -207,7 +249,10 @@
    "goodwill_and_intangibles": 19765000000.0,
    "retained_earnings": 14765000000.0,
    "total_debt": 11857000000.0,
-   "shares_out": 378700000.0
+   "shares_out": 378700000.0,
+   "unusual_items": -270000000.0,
+   "normalized_ebitda": 4379000000.0,
+   "normalized_income": 2595330000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -242,7 +287,10 @@
    "goodwill_and_intangibles": 19836000000.0,
    "retained_earnings": 16771000000.0,
    "total_debt": 10901000000.0,
-   "shares_out": 380100000.0
+   "shares_out": 380100000.0,
+   "unusual_items": -36000000.0,
+   "normalized_ebitda": 5100000000.0,
+   "normalized_income": 3196032000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -277,7 +325,10 @@
    "goodwill_and_intangibles": 20250000000.0,
    "retained_earnings": 18528000000.0,
    "total_debt": 12188000000.0,
-   "shares_out": 381400000.0
+   "shares_out": 381400000.0,
+   "unusual_items": -977000000.0,
+   "normalized_ebitda": 5928000000.0,
+   "normalized_income": 3830388602.520046
   },
   {
    "fy_end": "2025-12-31",
@@ -312,7 +363,10 @@
    "goodwill_and_intangibles": 24972000000.0,
    "retained_earnings": 20472000000.0,
    "total_debt": 14859000000.0,
-   "shares_out": 382500000.0
+   "shares_out": 382500000.0,
+   "unusual_items": -170000000.0,
+   "normalized_ebitda": 6484000000.0,
+   "normalized_income": 3368246344.705361
   }
  ]
 }

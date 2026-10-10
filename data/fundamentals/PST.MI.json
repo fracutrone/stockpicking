@@ -1,6 +1,6 @@
 {
  "ticker": "PST.MI",
- "fetched_at": "2026-10-10T12:15:16+00:00",
+ "fetched_at": "2026-10-10T15:13:09+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "MIL",
   "fullTimeEmployees": 119200,
   "website": "https://www.posteitaliane.it",
-  "longBusinessSummary": "Poste Italiane S.p.A. provides postal, logistics, and financial and insurance products and services in Italy. The company operates through four segments: Mail, Parcels and Distribution; PostePay Services; Financial Services; and Insurance Services. Its Mail, Parcels and Distribution segment engages in the mail, parcel, and logistics activities, as well as provision of welfare services. The PostePay Services segment provides payment management and e-money services through a network of LIS sales points, as well as mobile and fixed telephone services and electricity and gas sales services. Its Financial Services segment engages in the placement and distribution of financial and insurance products and services, such as current accounts, postal savings products, mutual funds, financing, insurance policies, and activities. The Insurance Services segment is involved in the investment, retirement, and protection businesses through the issuance of life and P&C insurance products. The company was founded in 1862 and is based in Rome, Italy."
+  "longBusinessSummary": "Poste Italiane S.p.A. provides postal, logistics, and financial and insurance products and services in Italy. The company operates through four segments: Mail, Parcels and Distribution; PostePay Services; Financial Services; and Insurance Services. Its Mail, Parcels and Distribution segment engages in the mail, parcel, and logistics activities, as well as provision of welfare services. The PostePay Services segment provides payment management and e-money services through a network of LIS sales points, as well as mobile and fixed telephone services and electricity and gas sales services. Its Financial Services segment engages in the placement and distribution of financial and insurance products and services, such as current accounts, postal savings products, mutual funds, financing, insurance policies, and activities. The Insurance Services segment is involved in the investment, retirement, and protection businesses through the issuance of life and P&C insurance products. The company was founded in 1862 and is based in Rome, Italy.",
+  "targetMeanPrice": 29.49231,
+  "targetLowPrice": 16.5,
+  "targetHighPrice": 35.2,
+  "numberOfAnalystOpinions": 13,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.61538,
+  "forwardPE": 12.14102,
+  "forwardEps": 1.98583,
+  "trailingEps": 1.85,
+  "earningsGrowth": -0.058,
+  "revenueGrowth": 0.034
  },
  "governance": {
   "ceo": {
@@ -77,8 +88,35 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF IT",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 277098000000.0,
+    "official": 277098000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 11583000000.0,
+    "official": 11583000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1994000000.0,
+    "official": 1994000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T15:13:09+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -113,7 +151,10 @@
    "goodwill_and_intangibles": 1817000000.0,
    "retained_earnings": 7100000000.0,
    "total_debt": 13406000000.0,
-   "shares_out": 1298574009.0
+   "shares_out": 1298574009.0,
+   "unusual_items": -166000000.0,
+   "normalized_ebitda": 3462000000.0,
+   "normalized_income": 1685717400.0
   },
   {
    "fy_end": "2023-12-31",
@@ -148,7 +189,10 @@
    "goodwill_and_intangibles": 2062000000.0,
    "retained_earnings": 8027000000.0,
    "total_debt": 11513000000.0,
-   "shares_out": 1295434202.0
+   "shares_out": 1295434202.0,
+   "unusual_items": -85000000.0,
+   "normalized_ebitda": 3728000000.0,
+   "normalized_income": 1982256500.0
   },
   {
    "fy_end": "2024-12-31",
@@ -183,7 +227,10 @@
    "goodwill_and_intangibles": 2139000000.0,
    "retained_earnings": 8855000000.0,
    "total_debt": 9502000000.0,
-   "shares_out": 1294617396.0
+   "shares_out": 1294617396.0,
+   "unusual_items": -460000000.0,
+   "normalized_ebitda": 4107000000.0,
+   "normalized_income": 2340656000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -218,7 +265,10 @@
    "goodwill_and_intangibles": 2198000000.0,
    "retained_earnings": 9338000000.0,
    "total_debt": 10529000000.0,
-   "shares_out": 1294115890.0
+   "shares_out": 1294115890.0,
+   "unusual_items": -104000000.0,
+   "normalized_ebitda": 4393000000.0,
+   "normalized_income": 2285832800.0
   }
  ]
 }

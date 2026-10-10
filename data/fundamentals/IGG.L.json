@@ -1,6 +1,6 @@
 {
  "ticker": "IGG.L",
- "fetched_at": "2026-10-10T12:03:21+00:00",
+ "fetched_at": "2026-10-10T14:57:24+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 2311,
   "website": "https://www.iggroup.com",
-  "longBusinessSummary": "IG Group Holdings plc, a fintech company, engages in the online trading and investments business in the United Kingdom, Ireland, the Asia-Pacific, the Middle East, the United States, Europe, and institutional and emerging markets. The company offers retail over the counter derivatives, including contracts for difference, OTC FX and options; and exchange-traded derivatives options and futures under the tastytrade. It also provides stock trading and investment services, such as smart portfolios and ISA and SIPPs, as well as equities, exchange traded funds, and fixed income products, which include fractional shares, mutual funds, UK treasury bills, UK tax wrappers, securities lending, and proxy voting services; and cash crypto trading. In addition, the company offers content and education solutions, such as daily live programming, news and original content, and webinars and tutorials, as well as content, education, and support tools, including signals, analytics, charting applications, and proprietary insights through the Trade Live with IG and tastylive channels. Further, it engages in foreign exchange, and market risk management; spread betting; data distribution; software development and support services; turbo warrants issuing; financing; market maker; network and content provision; and brokerage activities. The company serves investors, customers, communities, colleagues, regulators, and suppliers. IG Group Holdings plc was founded in 1974 and is headquartered in London, the United Kingdom."
+  "longBusinessSummary": "IG Group Holdings plc, a fintech company, engages in the online trading and investments business in the United Kingdom, Ireland, the Asia-Pacific, the Middle East, the United States, Europe, and institutional and emerging markets. The company offers retail over the counter derivatives, including contracts for difference, OTC FX and options; and exchange-traded derivatives options and futures under the tastytrade. It also provides stock trading and investment services, such as smart portfolios and ISA and SIPPs, as well as equities, exchange traded funds, and fixed income products, which include fractional shares, mutual funds, UK treasury bills, UK tax wrappers, securities lending, and proxy voting services; and cash crypto trading. In addition, the company offers content and education solutions, such as daily live programming, news and original content, and webinars and tutorials, as well as content, education, and support tools, including signals, analytics, charting applications, and proprietary insights through the Trade Live with IG and tastylive channels. Further, it engages in foreign exchange, and market risk management; spread betting; data distribution; software development and support services; turbo warrants issuing; financing; market maker; network and content provision; and brokerage activities. The company serves investors, customers, communities, colleagues, regulators, and suppliers. IG Group Holdings plc was founded in 1974 and is headquartered in London, the United Kingdom.",
+  "targetMeanPrice": 1527.25,
+  "targetLowPrice": 1100.0,
+  "targetHighPrice": 2000.0,
+  "numberOfAnalystOpinions": 8,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.625,
+  "forwardPE": 7.691415,
+  "forwardEps": 1.29365,
+  "trailingEps": 1.05,
+  "earningsGrowth": 0.01,
+  "revenueGrowth": 0.165
  },
  "governance": {
   "ceo": {
@@ -71,8 +82,35 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2024-05-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 2940900000.0,
+    "official": 2940900000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1889500000.0,
+    "official": 1889500000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 307700000.0,
+    "official": 307700000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-05-31"
+ },
+ "info_at": "2026-10-10T14:57:24+00:00",
  "years": [
   {
    "fy_end": "2022-05-31",
@@ -107,7 +145,10 @@
    "goodwill_and_intangibles": 896800000.0,
    "retained_earnings": 1186000000.0,
    "total_debt": 319100000.0,
-   "shares_out": 431574455.0
+   "shares_out": 431574455.0,
+   "unusual_items": 10700000.0,
+   "normalized_ebitda": 541300000.0,
+   "normalized_income": 387219000.0
   },
   {
    "fy_end": "2023-05-31",
@@ -142,7 +183,10 @@
    "goodwill_and_intangibles": 887500000.0,
    "retained_earnings": 1194900000.0,
    "total_debt": 319500000.0,
-   "shares_out": 407421828.0
+   "shares_out": 407421828.0,
+   "unusual_items": -1100000.0,
+   "normalized_ebitda": 529800000.0,
+   "normalized_income": 364588800.0
   },
   {
    "fy_end": "2024-05-31",
@@ -177,7 +221,10 @@
    "goodwill_and_intangibles": 815600000.0,
    "retained_earnings": 1098400000.0,
    "total_debt": 323200000.0,
-   "shares_out": 372398744.0
+   "shares_out": 372398744.0,
+   "unusual_items": -16600000.0,
+   "normalized_ebitda": 521300000.0,
+   "normalized_income": 320444061.876248
   },
   {
    "fy_end": "2025-05-31",
@@ -211,7 +258,10 @@
    "goodwill_and_intangibles": 900800000.0,
    "retained_earnings": 1083900000.0,
    "total_debt": 567700000.0,
-   "shares_out": 348186806.0
+   "shares_out": 348186806.0,
+   "unusual_items": -5700000.0,
+   "normalized_ebitda": 606600000.0,
+   "normalized_income": 387386538.461538
   }
  ]
 }

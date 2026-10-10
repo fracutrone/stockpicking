@@ -1,6 +1,6 @@
 {
  "ticker": "RED.MC",
- "fetched_at": "2026-10-10T12:16:03+00:00",
+ "fetched_at": "2026-10-10T15:14:50+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "MCE",
   "fullTimeEmployees": 2114,
   "website": "https://www.ree.es",
-  "longBusinessSummary": "Redeia Corporación, S.A., through with its subsidiaries, engages in the management of the Spanish electricity transport network in Spain and internationally. The company operates through three segments: Management and Operation of Domestic Electricity Infrastructure; Management and Operation of International Electricity Infrastructure; and Telecommunications. The company is involved in electricity transmission; system operation; and management of Spanish electricity transmission grid. It operates through a transmission network of approximately 46,074 kilometers and has 99,071 MVA of transformation capacity. The company also provides advisory, engineering, and construction services; and telecommunications, financing, reinsurance, line and substation maintenance, radio spectrum, telecommunications networks and satellite communication, technical consultancy, and satellite telecommunications services. In addition, it operates and maintains electricity transmission networks; manages the construction of energy storage facilities and the water cycle; acquires, holds, manages, and administers equity securities; operates satellite communications system and provides space segment services for the geostationary orbital slots; develops and sells safety devices for personal and industrial use; and sells and leases satellites and spatial capacity, as well as sells and markets satellite capacity. The company was formerly known as Red Eléctrica Corporación, S.A. and changed its name to Redeia Corporación, S.A. in June 2023. Redeia Corporación, S.A. was incorporated in 1985 and is based in Alcobendas, Spain."
+  "longBusinessSummary": "Redeia Corporación, S.A., through with its subsidiaries, engages in the management of the Spanish electricity transport network in Spain and internationally. The company operates through three segments: Management and Operation of Domestic Electricity Infrastructure; Management and Operation of International Electricity Infrastructure; and Telecommunications. The company is involved in electricity transmission; system operation; and management of Spanish electricity transmission grid. It operates through a transmission network of approximately 46,074 kilometers and has 99,071 MVA of transformation capacity. The company also provides advisory, engineering, and construction services; and telecommunications, financing, reinsurance, line and substation maintenance, radio spectrum, telecommunications networks and satellite communication, technical consultancy, and satellite telecommunications services. In addition, it operates and maintains electricity transmission networks; manages the construction of energy storage facilities and the water cycle; acquires, holds, manages, and administers equity securities; operates satellite communications system and provides space segment services for the geostationary orbital slots; develops and sells safety devices for personal and industrial use; and sells and leases satellites and spatial capacity, as well as sells and markets satellite capacity. The company was formerly known as Red Eléctrica Corporación, S.A. and changed its name to Redeia Corporación, S.A. in June 2023. Redeia Corporación, S.A. was incorporated in 1985 and is based in Alcobendas, Spain.",
+  "targetMeanPrice": 16.60273,
+  "targetLowPrice": 13.5,
+  "targetHighPrice": 19.4,
+  "numberOfAnalystOpinions": 22,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.5,
+  "forwardPE": 15.272486,
+  "forwardEps": 0.96317,
+  "trailingEps": 0.89,
+  "earningsGrowth": -0.062,
+  "revenueGrowth": 0.079
  },
  "governance": {
   "ceo": {
@@ -80,8 +91,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF ES",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 15090219000.0,
+    "official": 15090219000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 5153957000.0,
+    "official": 5153957000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 368438000.0,
+    "official": 368438000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1594204000.0,
+    "official": 1594204000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T15:14:51+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -115,7 +158,10 @@
    "goodwill_and_intangibles": 855147000.0,
    "retained_earnings": 664731000.0,
    "total_debt": 6238849000.0,
-   "shares_out": 539580100.0
+   "shares_out": 539580100.0,
+   "unusual_items": 708000.0,
+   "normalized_ebitda": 1530269000.0,
+   "normalized_income": 664176352.8
   },
   {
    "fy_end": "2023-12-31",
@@ -149,7 +195,10 @@
    "goodwill_and_intangibles": 826267000.0,
    "retained_earnings": 689640000.0,
    "total_debt": 5795654000.0,
-   "shares_out": 539967983.0
+   "shares_out": 539967983.0,
+   "unusual_items": 4301000.0,
+   "normalized_ebitda": 1438608000.0,
+   "normalized_income": 656748940.4
   },
   {
    "fy_end": "2024-12-31",
@@ -183,7 +232,10 @@
    "goodwill_and_intangibles": 492182000.0,
    "retained_earnings": 368438000.0,
    "total_debt": 6416907000.0,
-   "shares_out": 540408058.0
+   "shares_out": 540408058.0,
+   "unusual_items": -514000.0,
+   "normalized_ebitda": 1281410000.0,
+   "normalized_income": 507083817.2
   },
   {
    "fy_end": "2025-12-31",
@@ -217,7 +269,10 @@
    "goodwill_and_intangibles": 454500000.0,
    "retained_earnings": 505643000.0,
    "total_debt": 6144376000.0,
-   "shares_out": 540926383.0
+   "shares_out": 540926383.0,
+   "unusual_items": -2696000.0,
+   "normalized_ebitda": 1308218000.0,
+   "normalized_income": 507702474.4
   }
  ]
 }

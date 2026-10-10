@@ -1,6 +1,6 @@
 {
  "ticker": "ELI.BR",
- "fetched_at": "2026-10-10T11:55:44+00:00",
+ "fetched_at": "2026-10-10T14:44:52+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "BRU",
   "fullTimeEmployees": 4572,
   "website": "https://www.eliagroup.eu",
-  "longBusinessSummary": "Elia Group SA/NV develops and operates as a transmission system operator in Belgium and Germany. The company provides electricity transmission solutions; generates, imports, and exports electricity; and offers engineering consultancy services. Elia Group SA/NV was founded in 1937 and is headquartered in Brussels, Belgium."
+  "longBusinessSummary": "Elia Group SA/NV develops and operates as a transmission system operator in Belgium and Germany. The company provides electricity transmission solutions; generates, imports, and exports electricity; and offers engineering consultancy services. Elia Group SA/NV was founded in 1937 and is headquartered in Brussels, Belgium.",
+  "targetMeanPrice": 149.16667,
+  "targetLowPrice": 125.0,
+  "targetHighPrice": 170.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.66667,
+  "forwardPE": 16.070372,
+  "forwardEps": 7.30537,
+  "trailingEps": 5.8,
+  "earningsGrowth": 0.1,
+  "revenueGrowth": 0.18
  },
  "governance": {
   "ceo": {
@@ -76,8 +87,17 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T14:44:52+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -110,7 +130,10 @@
    "goodwill_and_intangibles": 2621700000.0,
    "retained_earnings": 1766200000.0,
    "total_debt": 8582700000.0,
-   "shares_out": 77588697.0
+   "shares_out": 77588697.0,
+   "unusual_items": -16800000.0,
+   "normalized_ebitda": 1200200000.0,
+   "normalized_income": 373341280.0
   },
   {
    "fy_end": "2023-12-31",
@@ -144,7 +167,10 @@
    "goodwill_and_intangibles": 2724300000.0,
    "retained_earnings": 1930900000.0,
    "total_debt": 10010100000.0,
-   "shares_out": 77585936.0
+   "shares_out": 77585936.0,
+   "unusual_items": -13900000.0,
+   "normalized_ebitda": 1290100000.0,
+   "normalized_income": 365408000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -177,7 +203,10 @@
    "goodwill_and_intangibles": 2976400000.0,
    "retained_earnings": 2268100000.0,
    "total_debt": 14828500000.0,
-   "shares_out": 77568348.0
+   "shares_out": 77568348.0,
+   "unusual_items": -9400000.0,
+   "normalized_ebitda": 1604100000.0,
+   "normalized_income": 457012320.0
   },
   {
    "fy_end": "2025-12-31",
@@ -210,7 +239,10 @@
    "goodwill_and_intangibles": 3170500000.0,
    "retained_earnings": 2679800000.0,
    "total_debt": 17771400000.0,
-   "shares_out": 109148266.0
+   "shares_out": 109148266.0,
+   "unusual_items": -74900000.0,
+   "normalized_ebitda": 1919900000.0,
+   "normalized_income": 644838810.0
   }
  ]
 }

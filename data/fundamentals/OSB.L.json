@@ -1,6 +1,6 @@
 {
  "ticker": "OSB.L",
- "fetched_at": "2026-10-10T12:12:59+00:00",
+ "fetched_at": "2026-10-10T15:10:25+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 2431,
   "website": "https://www.osb.co.uk",
-  "longBusinessSummary": "OSB Group Plc, through its subsidiaries, operates as a specialist mortgage lending company in the United Kingdom and India. The company operates in two segments, OneSavings Bank (OSB) and Charter Court Financial Services (CCFS). It offers buy-to-let, residential, bridging, and commercial and semi-commercial mortgages; and residential development and asset finance services. The company also provides mortgage servicing, lending, deposit taking, originating, and administration and analytical services; land lease investment; and back-office processing services. It sells its products and services under the Precise, Kent Reliance for Intermediaries, InterBay, InterBay Asset Finance, Heritable Development Finance, Charter Savings Bank, Kent Reliance, and osbIndia brands. The company was founded in 1840 and is headquartered in Chatham, the United Kingdom."
+  "longBusinessSummary": "OSB Group Plc, through its subsidiaries, operates as a specialist mortgage lending company in the United Kingdom and India. The company operates in two segments, OneSavings Bank (OSB) and Charter Court Financial Services (CCFS). It offers buy-to-let, residential, bridging, and commercial and semi-commercial mortgages; and residential development and asset finance services. The company also provides mortgage servicing, lending, deposit taking, originating, and administration and analytical services; land lease investment; and back-office processing services. It sells its products and services under the Precise, Kent Reliance for Intermediaries, InterBay, InterBay Asset Finance, Heritable Development Finance, Charter Savings Bank, Kent Reliance, and osbIndia brands. The company was founded in 1840 and is headquartered in Chatham, the United Kingdom.",
+  "targetMeanPrice": 659.417,
+  "targetLowPrice": 550.0,
+  "targetHighPrice": 750.0,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 5.837472,
+  "forwardEps": 0.83358,
+  "trailingEps": 0.75,
+  "earningsGrowth": 0.027,
+  "revenueGrowth": 0.002
  },
  "governance": {
   "ceo": {
@@ -61,8 +72,34 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 31122700000.0,
+    "official": 31122700000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2296700000.0,
+    "official": 2296700000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 285700000.0,
+    "official": 285700000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:10:25+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -87,7 +124,9 @@
    "goodwill_and_intangibles": 12000000.0,
    "retained_earnings": 3389400000.0,
    "total_debt": 291100000.0,
-   "shares_out": 429426057.0
+   "shares_out": 429426057.0,
+   "unusual_items": 0.0,
+   "normalized_income": 410000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -112,7 +151,8 @@
    "goodwill_and_intangibles": 26100000.0,
    "retained_earnings": 3330200000.0,
    "total_debt": 1411900000.0,
-   "shares_out": 392999575.0
+   "shares_out": 392999575.0,
+   "normalized_income": 282600000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -137,7 +177,8 @@
    "goodwill_and_intangibles": 48800000.0,
    "retained_earnings": 3406400000.0,
    "total_debt": 2009900000.0,
-   "shares_out": 372011443.0
+   "shares_out": 372011443.0,
+   "normalized_income": 308100000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -162,7 +203,8 @@
    "goodwill_and_intangibles": 66900000.0,
    "retained_earnings": 3457000000.0,
    "total_debt": 1999800000.0,
-   "shares_out": 355489761.0
+   "shares_out": 355489761.0,
+   "normalized_income": 285700000.0
   }
  ]
 }

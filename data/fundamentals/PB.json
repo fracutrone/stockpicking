@@ -1,6 +1,6 @@
 {
  "ticker": "PB",
- "fetched_at": "2026-10-10T12:54:58+00:00",
+ "fetched_at": "2026-10-10T15:52:44+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 4324,
   "website": "https://www.prosperitybankusa.com",
-  "longBusinessSummary": "Prosperity Bancshares, Inc. operates as bank holding company for the Prosperity Bank that provides financial products and services to businesses and consumers. It accepts various deposit products, such as demand, savings, money market, and time accounts; and certificates of deposit. The company also offers 1-4 family residential mortgage, commercial real estate and multifamily residential, commercial and industrial, and agricultural and non-real estate agricultural loans; construction, land development, and other land loans; consumer loans, including automobile, recreational vehicle, boat, home improvement, personal, and deposit account collateralized loans; term loans and lines of credit; and consumer durables and home equity loans, as well as loans for working capital, business expansion, and purchase of equipment and machinery. In addition, it provides digital banking, internet banking, mobile banking, trust and wealth management, retail brokerage, mortgage services, and treasury management, and debit and credit cards services. The company was incorporated in 1983 and is headquartered in Houston, Texas."
+  "longBusinessSummary": "Prosperity Bancshares, Inc. operates as bank holding company for the Prosperity Bank that provides financial products and services to businesses and consumers. It accepts various deposit products, such as demand, savings, money market, and time accounts; and certificates of deposit. The company also offers 1-4 family residential mortgage, commercial real estate and multifamily residential, commercial and industrial, and agricultural and non-real estate agricultural loans; construction, land development, and other land loans; consumer loans, including automobile, recreational vehicle, boat, home improvement, personal, and deposit account collateralized loans; term loans and lines of credit; and consumer durables and home equity loans, as well as loans for working capital, business expansion, and purchase of equipment and machinery. In addition, it provides digital banking, internet banking, mobile banking, trust and wealth management, retail brokerage, mortgage services, and treasury management, and debit and credit cards services. The company was incorporated in 1983 and is headquartered in Houston, Texas.",
+  "targetMeanPrice": 80.0,
+  "targetLowPrice": 70.0,
+  "targetHighPrice": 85.0,
+  "numberOfAnalystOpinions": 14,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.53333,
+  "forwardPE": 8.971063,
+  "forwardEps": 7.36925,
+  "trailingEps": 5.78,
+  "earningsGrowth": 0.177,
+  "revenueGrowth": 0.259
  },
  "governance": {
   "ceo": {
@@ -78,8 +89,33 @@
   "retained_earnings": "sec",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "noninterest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 38463425000.0,
+    "official": 38463425000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 7616140000.0,
+    "official": 7616140000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 542843000.0,
+    "official": 542843000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:52:44+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -107,7 +143,9 @@
    "goodwill_and_intangibles": 3282984000.0,
    "retained_earnings": 3069609000.0,
    "total_debt": 1850000000.0,
-   "shares_out": 91313615.0
+   "shares_out": 91313615.0,
+   "unusual_items": 3662000.0,
+   "normalized_income": 521634006.0
   },
   {
    "fy_end": "2023-12-31",
@@ -135,7 +173,9 @@
    "goodwill_and_intangibles": 3460080000.0,
    "retained_earnings": 3283210000.0,
    "total_debt": 3725000000.0,
-   "shares_out": 93722383.0
+   "shares_out": 93722383.0,
+   "unusual_items": -13147000.0,
+   "normalized_income": 429636395.0
   },
   {
    "fy_end": "2024-12-31",
@@ -163,7 +203,9 @@
    "goodwill_and_intangibles": 3569176000.0,
    "retained_earnings": 3548221000.0,
    "total_debt": 3200000000.0,
-   "shares_out": 95275279.0
+   "shares_out": 95275279.0,
+   "unusual_items": -1620000.0,
+   "normalized_income": 480653585.581027
   },
   {
    "fy_end": "2025-12-31",
@@ -191,7 +233,9 @@
    "goodwill_and_intangibles": 3554732000.0,
    "retained_earnings": 3869627000.0,
    "total_debt": 1950000000.0,
-   "shares_out": 93058171.0
+   "shares_out": 93058171.0,
+   "unusual_items": 887000.0,
+   "normalized_income": 542148773.319588
   }
  ]
 }

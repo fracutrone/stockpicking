@@ -1,6 +1,6 @@
 {
  "ticker": "TEL.OL",
- "fetched_at": "2026-10-10T12:21:46+00:00",
+ "fetched_at": "2026-10-10T15:24:16+00:00",
  "region": "Europa",
  "statement_currency": "NOK",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "OSL",
   "fullTimeEmployees": 9819,
   "website": "https://www.telenor.com",
-  "longBusinessSummary": "Telenor ASA, together with its subsidiaries, operates as a telecommunication company worldwide. It operates through four segments: Nordics, Asia, Infrastructure, and Amp. The company offers mobile and broadband telecom products and services, including mobile, broadband and TV services; other services, including solutions for business customers like managed services, virtual private networks, software defined networks, and network as a service; IoT solutions; and mobile maritime communication for cruise and ferry, fisheries, and oil and gas industry. It also provides hardware comprising mobile phones, broadband modems, and TV boxes; wholesale services, such as national and international roaming and interconnect, and solutions for mobile and fixed virtual network operators and service providers, as well as leased lines and colocation at towers and data centres. In addition, the company provides cloud storage service for private use and businesses that allows to back up, store, synchronize, and share files over the Internet. Telenor ASA was founded in 1855 and is headquartered in Fornebu, Norway."
+  "longBusinessSummary": "Telenor ASA, together with its subsidiaries, operates as a telecommunication company worldwide. It operates through four segments: Nordics, Asia, Infrastructure, and Amp. The company offers mobile and broadband telecom products and services, including mobile, broadband and TV services; other services, including solutions for business customers like managed services, virtual private networks, software defined networks, and network as a service; IoT solutions; and mobile maritime communication for cruise and ferry, fisheries, and oil and gas industry. It also provides hardware comprising mobile phones, broadband modems, and TV boxes; wholesale services, such as national and international roaming and interconnect, and solutions for mobile and fixed virtual network operators and service providers, as well as leased lines and colocation at towers and data centres. In addition, the company provides cloud storage service for private use and businesses that allows to back up, store, synchronize, and share files over the Internet. Telenor ASA was founded in 1855 and is headquartered in Fornebu, Norway.",
+  "targetMeanPrice": 154.3,
+  "targetLowPrice": 135.0,
+  "targetHighPrice": 191.0,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.3,
+  "forwardPE": 13.347012,
+  "forwardEps": 9.32793,
+  "trailingEps": 11.83,
+  "earningsGrowth": -0.322,
+  "revenueGrowth": -0.051
  },
  "governance": {
   "ceo": {
@@ -71,8 +82,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF NO",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 228808000000.0,
+    "official": 228808000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 75849000000.0,
+    "official": 75855000000.0,
+    "diff": 7.9e-05
+   },
+   "net_income": {
+    "yahoo": 18336000000.0,
+    "official": 18336000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 75487000000.0,
+    "official": 79928000000.0,
+    "diff": 0.055563
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T15:24:16+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -107,7 +150,10 @@
    "goodwill_and_intangibles": 37024000000.0,
    "retained_earnings": 75837000000.0,
    "total_debt": 118524000000.0,
-   "shares_out": 1399458033.0
+   "shares_out": 1399458033.0,
+   "unusual_items": -1251000000.0,
+   "normalized_ebitda": 40645000000.0,
+   "normalized_income": 10658780000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -142,7 +188,10 @@
    "goodwill_and_intangibles": 34514000000.0,
    "retained_earnings": 84172000000.0,
    "total_debt": 102193000000.0,
-   "shares_out": 1385046273.0
+   "shares_out": 1385046273.0,
+   "unusual_items": -10049000000.0,
+   "normalized_ebitda": 32084000000.0,
+   "normalized_income": 2957220000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -177,7 +226,10 @@
    "goodwill_and_intangibles": 35862000000.0,
    "retained_earnings": 89426000000.0,
    "total_debt": 99889000000.0,
-   "shares_out": 1367763895.0
+   "shares_out": 1367763895.0,
+   "unusual_items": 9742000000.0,
+   "normalized_ebitda": 34531000000.0,
+   "normalized_income": 9800236000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -212,7 +264,10 @@
    "goodwill_and_intangibles": 36200000000.0,
    "retained_earnings": 83325000000.0,
    "total_debt": 100652000000.0,
-   "shares_out": 1368255220.0
+   "shares_out": 1368255220.0,
+   "unusual_items": -446000000.0,
+   "normalized_ebitda": 37739000000.0,
+   "normalized_income": 11290148000.0
   }
  ]
 }

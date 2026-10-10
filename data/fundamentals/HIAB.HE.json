@@ -1,6 +1,6 @@
 {
  "ticker": "HIAB.HE",
- "fetched_at": "2026-10-10T12:01:36+00:00",
+ "fetched_at": "2026-10-10T14:54:23+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "HEL",
   "fullTimeEmployees": 4049,
   "website": "https://www.hiabgroup.com",
-  "longBusinessSummary": "Hiab Oyj provides smart and on road load-handling solutions and services in Finland. The company provides loader cranes under HIAB, EFFER, and ARGOS brands; truck-mounted forklifts under MOFFETT and PRINCETON brands; forestry cranes under LOGLIFT brand; recycling cranes under JONSERED brand; demountable and hooklifts under MULTILIFT brand; roll-off cable hoists under GALFAB brand; tail lifts under ZEPRO, DEL, and WALTCO brands. It also offers maintenance, equipment warranty, and spare parts. The company serves waste and recycling, defense logistics, retail and final mile, and construction industries. The company was formerly known as Cargotec Corporation and changed its name to Hiab Oyj in March 2025. Hiab Oyj was founded in 1944 and is headquartered in Helsinki, Finland."
+  "longBusinessSummary": "Hiab Oyj provides smart and on road load-handling solutions and services in Finland. The company provides loader cranes under HIAB, EFFER, and ARGOS brands; truck-mounted forklifts under MOFFETT and PRINCETON brands; forestry cranes under LOGLIFT brand; recycling cranes under JONSERED brand; demountable and hooklifts under MULTILIFT brand; roll-off cable hoists under GALFAB brand; tail lifts under ZEPRO, DEL, and WALTCO brands. It also offers maintenance, equipment warranty, and spare parts. The company serves waste and recycling, defense logistics, retail and final mile, and construction industries. The company was formerly known as Cargotec Corporation and changed its name to Hiab Oyj in March 2025. Hiab Oyj was founded in 1944 and is headquartered in Helsinki, Finland.",
+  "targetMeanPrice": 68.6,
+  "targetLowPrice": 60.0,
+  "targetHighPrice": 73.0,
+  "numberOfAnalystOpinions": 5,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.2,
+  "forwardPE": 13.598201,
+  "forwardEps": 3.96376,
+  "trailingEps": 1.96,
+  "earningsGrowth": -0.291,
+  "revenueGrowth": 0.003
  },
  "governance": {
   "ceo": {
@@ -76,8 +87,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF FI",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 1628200000.0,
+    "official": 1628200000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1010000000.0,
+    "official": 1010000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 164000000.0,
+    "official": 164000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1556300000.0,
+    "official": 1556300000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:54:23+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -111,7 +154,10 @@
    "goodwill_and_intangibles": 1016800000.0,
    "retained_earnings": 1350000000.0,
    "total_debt": 837500000.0,
-   "shares_out": 64483328.0
+   "shares_out": 64483328.0,
+   "unusual_items": -107800000.0,
+   "normalized_ebitda": 409400000.0,
+   "normalized_income": 108846400.0
   },
   {
    "fy_end": "2023-12-31",
@@ -145,7 +191,10 @@
    "goodwill_and_intangibles": 996500000.0,
    "retained_earnings": 1613600000.0,
    "total_debt": 866600000.0,
-   "shares_out": 64301125.0
+   "shares_out": 64301125.0,
+   "unusual_items": -4000000.0,
+   "normalized_ebitda": 335400000.0,
+   "normalized_income": 154780000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -179,7 +228,10 @@
    "goodwill_and_intangibles": 263300000.0,
    "retained_earnings": 1002500000.0,
    "total_debt": 369400000.0,
-   "shares_out": 63924118.0
+   "shares_out": 63924118.0,
+   "unusual_items": -3700000.0,
+   "normalized_ebitda": 498100000.0,
+   "normalized_income": 156887441.424555
   },
   {
    "fy_end": "2025-12-31",
@@ -213,7 +265,10 @@
    "goodwill_and_intangibles": 251500000.0,
    "retained_earnings": 1000200000.0,
    "total_debt": 250800000.0,
-   "shares_out": 64518653.0
+   "shares_out": 64518653.0,
+   "unusual_items": -1500000.0,
+   "normalized_ebitda": 271700000.0,
+   "normalized_income": 151922000.0
   }
  ]
 }

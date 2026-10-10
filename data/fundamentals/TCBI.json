@@ -1,6 +1,6 @@
 {
  "ticker": "TCBI",
- "fetched_at": "2026-10-10T12:59:21+00:00",
+ "fetched_at": "2026-10-10T15:57:03+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "ASE",
   "fullTimeEmployees": 1785,
   "website": "https://texascapitalbank.com",
-  "longBusinessSummary": "Texas Capital Bancshares, Inc. operates as the bank holding company for Texas Capital Bank, is a full-service financial services firm that delivers customized solutions to businesses, entrepreneurs, and individual customers. The company offers commercial banking; consumer banking; investment banking solutions, including capital markets, mergers and acquisitions, and syndicated finance, as well as financial sponsor coverage, capital solutions, and institutional services; and wealth management services, such as investment management, financial planning, lockbox and insurance, securities-based lending, estate planning, and business succession, as well as philanthropic, trustee and executor, custom credit, and depository services. It also provides deposit accounts, analyzed accounts, commercial card, SBA and business loans, packaged solutions, and merchant services; liquidity and investments, working capital, international trade and payment, and treasury and credit products; and commercial real estate, homebuilder and community, and mortgage finance. In addition, the company offers payables and receivables management; online and mobile banking; term loans and lines of credit, equipment finance and lease, acquisition finance, and asset-based lending; private wealth advisory solutions; and checking and savings accounts, debit and credit cards, and certificates of deposit, as well as ETF and funds management services. Further, it provides financial institution money market accounts and loan syndication products; commercial loans for financing for working capital, organic growth, and acquisitions; real estate term and construction loans; mortgage warehouse lending services; treasury management, trust, and advisory and escrow services; and letters of credit. The company operates in Austin, Dallas, Fort Worth, Houston, and San Antonio metropolitan areas of Texas, as well as in California and New York. The company was incorporated in 1996 and is headquartered in Dallas, Texas."
+  "longBusinessSummary": "Texas Capital Bancshares, Inc. operates as the bank holding company for Texas Capital Bank, is a full-service financial services firm that delivers customized solutions to businesses, entrepreneurs, and individual customers. The company offers commercial banking; consumer banking; investment banking solutions, including capital markets, mergers and acquisitions, and syndicated finance, as well as financial sponsor coverage, capital solutions, and institutional services; and wealth management services, such as investment management, financial planning, lockbox and insurance, securities-based lending, estate planning, and business succession, as well as philanthropic, trustee and executor, custom credit, and depository services. It also provides deposit accounts, analyzed accounts, commercial card, SBA and business loans, packaged solutions, and merchant services; liquidity and investments, working capital, international trade and payment, and treasury and credit products; and commercial real estate, homebuilder and community, and mortgage finance. In addition, the company offers payables and receivables management; online and mobile banking; term loans and lines of credit, equipment finance and lease, acquisition finance, and asset-based lending; private wealth advisory solutions; and checking and savings accounts, debit and credit cards, and certificates of deposit, as well as ETF and funds management services. Further, it provides financial institution money market accounts and loan syndication products; commercial loans for financing for working capital, organic growth, and acquisitions; real estate term and construction loans; mortgage warehouse lending services; treasury management, trust, and advisory and escrow services; and letters of credit. The company operates in Austin, Dallas, Fort Worth, Houston, and San Antonio metropolitan areas of Texas, as well as in California and New York. The company was incorporated in 1996 and is headquartered in Dallas, Texas.",
+  "targetMeanPrice": 105.61538,
+  "targetLowPrice": 100.0,
+  "targetHighPrice": 114.0,
+  "numberOfAnalystOpinions": 13,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.61538,
+  "forwardPE": 11.001344,
+  "forwardEps": 8.23354,
+  "trailingEps": 7.69,
+  "earningsGrowth": 0.158,
+  "revenueGrowth": 0.086
  },
  "governance": {
   "ceo": {
@@ -78,8 +89,33 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "noninterest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 31540274000.0,
+    "official": 31540274000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3631382000.0,
+    "official": 3631382000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 330244000.0,
+    "official": 330244000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:57:03+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -107,7 +143,9 @@
    "goodwill_and_intangibles": 1496000.0,
    "retained_earnings": 2263502000.0,
    "total_debt": 931442000.0,
-   "shares_out": 48783763.0
+   "shares_out": 48783763.0,
+   "unusual_items": 248526000.0,
+   "normalized_income": 141112980.0
   },
   {
    "fy_end": "2023-12-31",
@@ -134,7 +172,9 @@
    "goodwill_and_intangibles": 1496000.0,
    "retained_earnings": 2435393000.0,
    "total_debt": 859147000.0,
-   "shares_out": 47237912.0
+   "shares_out": 47237912.0,
+   "unusual_items": 0.0,
+   "normalized_income": 189141000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -160,7 +200,9 @@
    "goodwill_and_intangibles": 1496000.0,
    "retained_earnings": 2495651000.0,
    "total_debt": 660346000.0,
-   "shares_out": 46233812.0
+   "shares_out": 46233812.0,
+   "unusual_items": 0.0,
+   "normalized_income": 77508000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -186,7 +228,8 @@
    "goodwill_and_intangibles": 1496000.0,
    "retained_earnings": 2808645000.0,
    "total_debt": 620575000.0,
-   "shares_out": 44253688.0
+   "shares_out": 44253688.0,
+   "normalized_income": 330244000.0
   }
  ]
 }

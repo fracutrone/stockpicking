@@ -1,6 +1,6 @@
 {
  "ticker": "HAFNI.OL",
- "fetched_at": "2026-10-10T12:01:03+00:00",
+ "fetched_at": "2026-10-10T14:53:05+00:00",
  "region": "Europa",
  "statement_currency": "USD",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.42732,
   "heldPercentInstitutions": 0.3694,
   "shortPercentOfFloat": null,
-  "averageVolume": 1293656,
+  "averageVolume": 1288415,
   "quoteType": "EQUITY",
   "exchange": "OSL",
   "fullTimeEmployees": 4000,
   "website": "https://hafnia.com",
-  "longBusinessSummary": "Hafnia Limited., an investment holding company, owns and operates oil product tankers in Bermuda. It operates through Long Range II, Long Range I, Medium Range (MR), and Handy Size segments. The company transports clean and dirty, refined oil products, vegetable oil, and easy chemicals to national and international oil companies, and chemical companies, as well as trading and utility companies. It also engages in ship owning, chartering, and provision of maritime services in the product and chemical tankers market. The company was formerly known as BW Tankers Limited and changed its name to Hafnia Limited. In January 2019. Hafnia Limited was founded in 2010 and is based in Singapore."
+  "longBusinessSummary": "Hafnia Limited., an investment holding company, owns and operates oil product tankers in Bermuda. It operates through Long Range II, Long Range I, Medium Range (MR), and Handy Size segments. The company transports clean and dirty, refined oil products, vegetable oil, and easy chemicals to national and international oil companies, and chemical companies, as well as trading and utility companies. It also engages in ship owning, chartering, and provision of maritime services in the product and chemical tankers market. The company was formerly known as BW Tankers Limited and changed its name to Hafnia Limited. In January 2019. Hafnia Limited was founded in 2010 and is based in Singapore.",
+  "targetMeanPrice": 96.4,
+  "targetLowPrice": 83.0,
+  "targetHighPrice": 117.0,
+  "numberOfAnalystOpinions": 5,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": 11.314039,
+  "forwardEps": 9.13025,
+  "trailingEps": 12.7,
+  "earningsGrowth": 2.667,
+  "revenueGrowth": 0.472
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,35 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF NO",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3702290000.0,
+    "official": 3702290000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2262506000.0,
+    "official": 2262506000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 774035000.0,
+    "official": 774035000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T14:53:05+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -117,7 +155,10 @@
    "goodwill_and_intangibles": 2590000.0,
    "retained_earnings": 381886000.0,
    "total_debt": 1775287000.0,
-   "shares_out": 500594796.0
+   "shares_out": 500594796.0,
+   "unusual_items": 23018000.0,
+   "normalized_ebitda": 1035562000.0,
+   "normalized_income": 728773717.781467
   },
   {
    "fy_end": "2023-12-31",
@@ -150,7 +191,10 @@
    "goodwill_and_intangibles": 1290000.0,
    "retained_earnings": 631025000.0,
    "total_debt": 1292351000.0,
-   "shares_out": 504193519.0
+   "shares_out": 504193519.0,
+   "unusual_items": 50193000.0,
+   "normalized_ebitda": 1037745000.0,
+   "normalized_income": 743474428.06738
   },
   {
    "fy_end": "2024-12-31",
@@ -183,7 +227,10 @@
    "goodwill_and_intangibles": 510000.0,
    "retained_earnings": 705177000.0,
    "total_debt": 1122249000.0,
-   "shares_out": 502924476.0
+   "shares_out": 502924476.0,
+   "unusual_items": 26451000.0,
+   "normalized_ebitda": 1019488000.0,
+   "normalized_income": 747734118.912767
   },
   {
    "fy_end": "2025-12-31",
@@ -215,7 +262,10 @@
    "goodwill_and_intangibles": 83000.0,
    "retained_earnings": 846220000.0,
    "total_debt": 1122976000.0,
-   "shares_out": 497989642.0
+   "shares_out": 497989642.0,
+   "unusual_items": 9516000.0,
+   "normalized_ebitda": 584558000.0,
+   "normalized_income": 330235386.370212
   }
  ]
 }

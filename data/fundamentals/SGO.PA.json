@@ -1,6 +1,6 @@
 {
  "ticker": "SGO.PA",
- "fetched_at": "2026-10-10T12:18:54+00:00",
+ "fetched_at": "2026-10-10T15:19:21+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "PAR",
   "fullTimeEmployees": 155544,
   "website": "https://www.saint-gobain.com",
-  "longBusinessSummary": "Compagnie de Saint-Gobain S.A., together with its subsidiaries, designs, manufactures, and distributes materials and solutions for the construction and industrial markets worldwide. It operates in five segments: High Performance Solutions; Northern Europe; Southern Europe  Middle East (ME) Americas; and Asia-Pacific. The company offers plaster-based products and systems for the construction and renovation markets under the Placo, Rigips, and Gyproc brands; insulation solutions for a range of applications, such as heating and air conditioning systems, insulation of pipes in industrial installations, engine and interior compartments of vehicles, household appliances, and photovoltaic panels under the Isover, CertainTeed, and Izocam brands; and mortars and construction chemicals under the Weber, Chryso, and GCP brands. It also provides ceilings under the Ecophon, CertainTeed, Eurocoustic, Gyptone, and Vinh Tuong brands; glazing solutions for buildings and mobility, including flat glass under the Saint-Gobain Glass, GlassSolutions, Vetrotech, and SageGlass brands; ductile cast iron pipe systems, covers, and gratings under the PAM brand; glass fiber materials and technical textiles; and abrasives, adhesives, sealants, adhesive tapes, foams, and films. In addition, the company offers ceramics and polymers; and exterior products comprising asphalt and composite shingles, solar roofing solutions, roll roofing systems, accessories, polymer shakes and shingles, and insulation cladding solutions under the CertainTeed brands. Further, it distributes heavy building materials; plumbing, heating, ventilation, and sanitaryware products; construction products; office partitions; timber and byproducts; home improvement products and services; bathrooms and kitchens; steel; and site equipment, PPEs, and tools. Compagnie de Saint-Gobain S.A. was founded in 1665 and is headquartered in Courbevoie, France."
+  "longBusinessSummary": "Compagnie de Saint-Gobain S.A., together with its subsidiaries, designs, manufactures, and distributes materials and solutions for the construction and industrial markets worldwide. It operates in five segments: High Performance Solutions; Northern Europe; Southern Europe  Middle East (ME) Americas; and Asia-Pacific. The company offers plaster-based products and systems for the construction and renovation markets under the Placo, Rigips, and Gyproc brands; insulation solutions for a range of applications, such as heating and air conditioning systems, insulation of pipes in industrial installations, engine and interior compartments of vehicles, household appliances, and photovoltaic panels under the Isover, CertainTeed, and Izocam brands; and mortars and construction chemicals under the Weber, Chryso, and GCP brands. It also provides ceilings under the Ecophon, CertainTeed, Eurocoustic, Gyptone, and Vinh Tuong brands; glazing solutions for buildings and mobility, including flat glass under the Saint-Gobain Glass, GlassSolutions, Vetrotech, and SageGlass brands; ductile cast iron pipe systems, covers, and gratings under the PAM brand; glass fiber materials and technical textiles; and abrasives, adhesives, sealants, adhesive tapes, foams, and films. In addition, the company offers ceramics and polymers; and exterior products comprising asphalt and composite shingles, solar roofing solutions, roll roofing systems, accessories, polymer shakes and shingles, and insulation cladding solutions under the CertainTeed brands. Further, it distributes heavy building materials; plumbing, heating, ventilation, and sanitaryware products; construction products; office partitions; timber and byproducts; home improvement products and services; bathrooms and kitchens; steel; and site equipment, PPEs, and tools. Compagnie de Saint-Gobain S.A. was founded in 1665 and is headquartered in Courbevoie, France.",
+  "targetMeanPrice": 95.84375,
+  "targetLowPrice": 65.0,
+  "targetHighPrice": 132.6,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.9375,
+  "forwardPE": 9.541259,
+  "forwardEps": 6.80623,
+  "trailingEps": 5.39,
+  "earningsGrowth": -0.12,
+  "revenueGrowth": -0.011
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF FR",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 60836000000.0,
+    "official": 60836000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 24541000000.0,
+    "official": 24541000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2883000000.0,
+    "official": 2883000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 46483000000.0,
+    "official": 46483000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:19:21+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -120,7 +163,10 @@
    "goodwill_and_intangibles": 16924000000.0,
    "retained_earnings": 18457000000.0,
    "total_debt": 14040000000.0,
-   "shares_out": 511362092.0
+   "shares_out": 511362092.0,
+   "unusual_items": -54000000.0,
+   "normalized_ebitda": 7242000000.0,
+   "normalized_income": 3043032034.425054
   },
   {
    "fy_end": "2023-12-31",
@@ -154,7 +200,10 @@
    "goodwill_and_intangibles": 17570000000.0,
    "retained_earnings": 19789000000.0,
    "total_debt": 15554000000.0,
-   "shares_out": 502061537.0
+   "shares_out": 502061537.0,
+   "unusual_items": -170000000.0,
+   "normalized_ebitda": 7224000000.0,
+   "normalized_income": 2791777777.777778
   },
   {
    "fy_end": "2024-12-31",
@@ -188,7 +237,10 @@
    "goodwill_and_intangibles": 19223000000.0,
    "retained_earnings": 21632000000.0,
    "total_debt": 17839000000.0,
-   "shares_out": 496879548.0
+   "shares_out": 496879548.0,
+   "unusual_items": -184000000.0,
+   "normalized_ebitda": 7677000000.0,
+   "normalized_income": 2981437881.873727
   },
   {
    "fy_end": "2025-12-31",
@@ -223,7 +275,10 @@
    "goodwill_and_intangibles": 19789000000.0,
    "retained_earnings": 23647000000.0,
    "total_debt": 17729000000.0,
-   "shares_out": 492707578.0
+   "shares_out": 492707578.0,
+   "unusual_items": -83000000.0,
+   "normalized_ebitda": 7610000000.0,
+   "normalized_income": 2945512658.227848
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "MKSI",
- "fetched_at": "2026-10-10T12:51:35+00:00",
+ "fetched_at": "2026-10-10T15:49:46+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 10200,
   "website": "https://www.mks.com",
-  "longBusinessSummary": "MKS Inc. provides foundational technology solutions to semiconductor manufacturing, electronics and packaging, and specialty industrial applications in the United States, China, South Korea, Japan, Taiwan, Singapore, and internationally. The company operates through Vacuum Solutions Division (VSD), Photonics Solutions Division (PSD), and Material Solutions Division (MSD) segments. Its VSD segment provides foundational technology solutions, including pressure measurement and control, flow measurement and control, gas and vapor delivery, gas composition analysis, electronic control technology, reactive gas generation and delivery, power generation and delivery, and fiber optic temperature and position sensing. The PSD segment offers range of solutions, which include lasers, photonics, optics, precision motion control, and vibration control. Its MSD segment develops, process, and manufactures technologies comprising advanced surface modification, electroless and electrolytic plating, and surface finishing for chemistry, equipment, and services markets, as well as high-technology applications. In addition, the company sells its products and services through direct sales, network of independent distributors, and sales representatives, as well as websites, including product catalogs. MKS Inc. was formerly known as MKS Instruments, Inc. and changed its name to MKS Inc. in May 2025. The company was incorporated in 1961 and is based in Andover, Massachusetts."
+  "longBusinessSummary": "MKS Inc. provides foundational technology solutions to semiconductor manufacturing, electronics and packaging, and specialty industrial applications in the United States, China, South Korea, Japan, Taiwan, Singapore, and internationally. The company operates through Vacuum Solutions Division (VSD), Photonics Solutions Division (PSD), and Material Solutions Division (MSD) segments. Its VSD segment provides foundational technology solutions, including pressure measurement and control, flow measurement and control, gas and vapor delivery, gas composition analysis, electronic control technology, reactive gas generation and delivery, power generation and delivery, and fiber optic temperature and position sensing. The PSD segment offers range of solutions, which include lasers, photonics, optics, precision motion control, and vibration control. Its MSD segment develops, process, and manufactures technologies comprising advanced surface modification, electroless and electrolytic plating, and surface finishing for chemistry, equipment, and services markets, as well as high-technology applications. In addition, the company sells its products and services through direct sales, network of independent distributors, and sales representatives, as well as websites, including product catalogs. MKS Inc. was formerly known as MKS Instruments, Inc. and changed its name to MKS Inc. in May 2025. The company was incorporated in 1961 and is based in Andover, Massachusetts.",
+  "targetMeanPrice": 410.85715,
+  "targetLowPrice": 270.0,
+  "targetHighPrice": 600.0,
+  "numberOfAnalystOpinions": 14,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 15.073424,
+  "forwardEps": 17.54744,
+  "trailingEps": 6.29,
+  "earningsGrowth": 1.62,
+  "revenueGrowth": 0.283
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 8796000000.0,
+    "official": 8796000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2719000000.0,
+    "official": 2719000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 295000000.0,
+    "official": 295000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3931000000.0,
+    "official": 3931000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:49:46+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -208,7 +250,10 @@
    "goodwill_and_intangibles": 7481000000.0,
    "retained_earnings": 2272000000.0,
    "total_debt": 4927000000.0,
-   "shares_out": 66600000.0
+   "shares_out": 66600000.0,
+   "unusual_items": -55000000.0,
+   "normalized_ebitda": 887000000.0,
+   "normalized_income": 375295000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -243,7 +288,10 @@
    "goodwill_and_intangibles": 5173000000.0,
    "retained_earnings": 373000000.0,
    "total_debt": 4789000000.0,
-   "shares_out": 66900000.0
+   "shares_out": 66900000.0,
+   "unusual_items": -1944000000.0,
+   "normalized_ebitda": 835000000.0,
+   "normalized_income": 15520000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -277,7 +325,10 @@
    "goodwill_and_intangibles": 4751000000.0,
    "retained_earnings": 503000000.0,
    "total_debt": 4538000000.0,
-   "shares_out": 67400000.0
+   "shares_out": 67400000.0,
+   "unusual_items": -72000000.0,
+   "normalized_ebitda": 942000000.0,
+   "normalized_income": 246880000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -311,7 +362,10 @@
    "goodwill_and_intangibles": 4714000000.0,
    "retained_earnings": 711000000.0,
    "total_debt": 4201000000.0,
-   "shares_out": 67169474.0
+   "shares_out": 67169474.0,
+   "unusual_items": -47000000.0,
+   "normalized_ebitda": 924000000.0,
+   "normalized_income": 340608552.631579
   }
  ]
 }

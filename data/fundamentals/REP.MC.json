@@ -1,6 +1,6 @@
 {
  "ticker": "REP.MC",
- "fetched_at": "2026-10-10T12:16:12+00:00",
+ "fetched_at": "2026-10-10T15:15:13+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "MCE",
   "fullTimeEmployees": 24881,
   "website": "https://www.repsol.com",
-  "longBusinessSummary": "Repsol, S.A. operates as a multi-energy company in Spain, Peru, the United States, Portugal, and internationally. The Upstream segment engages in the exploration, development, and production of crude oil and natural gas reserves; and development of low-carbon geological solutions. Its Industrial segment is involved in oil refining; trading, transport, and wholesale of crude oil, natural gas, and fuels; and activities related to hydrogen, sustainable biofuels, and synthetic fuels. The Customer segment engages in the mobility/gas station business; and sale of electricity and gas, lubricants, and other products, as well as fuel products, such as gasoline, diesel, aviation kerosene, liquefied petroleum gas, and biofuels. Its Low-Carbon Generation segment is involved in electricity generation from hydroelectric, wind, and photovoltaic sources. The company also engages in financial services; sector studies; human resources and shared services; decarbonization; carbon dioxide capture and pyrolysis HUB pilot plants; development of production processes, storage, transport, use, consumption, and transformation of hydrogen; promotion, design, construction, and operation of molecular recycling facilities; and production of chemical and petrochemical products. In addition, it is involved in waste management; construction and operation of oil refinery; research; electricity distribution; maritime transport and inland waterways; LNG regasification; investment in liquefaction plant; safety; electric vehicle charging points; customer and oil product marketing management; payment management at gas stations; development of greenfield and new energy projects; and insurance and reinsurance activities. Further, the company offers various apps and tools, such as Waylet, Vivit, and WiBLE; and asphalt products. The company was formerly known as Repsol YPF, S.A. and changed its name to Repsol, S.A. in May 2012. Repsol, S.A. was founded in 1927 and is headquartered in Madrid, Spain."
+  "longBusinessSummary": "Repsol, S.A. operates as a multi-energy company in Spain, Peru, the United States, Portugal, and internationally. The Upstream segment engages in the exploration, development, and production of crude oil and natural gas reserves; and development of low-carbon geological solutions. Its Industrial segment is involved in oil refining; trading, transport, and wholesale of crude oil, natural gas, and fuels; and activities related to hydrogen, sustainable biofuels, and synthetic fuels. The Customer segment engages in the mobility/gas station business; and sale of electricity and gas, lubricants, and other products, as well as fuel products, such as gasoline, diesel, aviation kerosene, liquefied petroleum gas, and biofuels. Its Low-Carbon Generation segment is involved in electricity generation from hydroelectric, wind, and photovoltaic sources. The company also engages in financial services; sector studies; human resources and shared services; decarbonization; carbon dioxide capture and pyrolysis HUB pilot plants; development of production processes, storage, transport, use, consumption, and transformation of hydrogen; promotion, design, construction, and operation of molecular recycling facilities; and production of chemical and petrochemical products. In addition, it is involved in waste management; construction and operation of oil refinery; research; electricity distribution; maritime transport and inland waterways; LNG regasification; investment in liquefaction plant; safety; electric vehicle charging points; customer and oil product marketing management; payment management at gas stations; development of greenfield and new energy projects; and insurance and reinsurance activities. Further, the company offers various apps and tools, such as Waylet, Vivit, and WiBLE; and asphalt products. The company was formerly known as Repsol YPF, S.A. and changed its name to Repsol, S.A. in May 2012. Repsol, S.A. was founded in 1927 and is headquartered in Madrid, Spain.",
+  "targetMeanPrice": 29.97273,
+  "targetLowPrice": 22.7,
+  "targetHighPrice": 38.0,
+  "numberOfAnalystOpinions": 22,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.3913,
+  "forwardPE": 6.638004,
+  "forwardEps": 4.44712,
+  "trailingEps": 3.57,
+  "earningsGrowth": 4.904,
+  "revenueGrowth": 0.355
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,35 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF ES",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 63186000000.0,
+    "official": 63186000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 26489000000.0,
+    "official": 29099000000.0,
+    "diff": 0.089694
+   },
+   "net_income": {
+    "yahoo": 1756000000.0,
+    "official": 1756000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T15:15:13+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -121,7 +159,10 @@
    "goodwill_and_intangibles": 1976000000.0,
    "retained_earnings": 16682000000.0,
    "total_debt": 13359000000.0,
-   "shares_out": 1327170488.0
+   "shares_out": 1327170488.0,
+   "unusual_items": -2696000000.0,
+   "normalized_ebitda": 12630000000.0,
+   "normalized_income": 5882493036.211699
   },
   {
    "fy_end": "2023-12-31",
@@ -156,7 +197,10 @@
    "goodwill_and_intangibles": 2477000000.0,
    "retained_earnings": 18331000000.0,
    "total_debt": 10562000000.0,
-   "shares_out": 1216817356.0
+   "shares_out": 1216817356.0,
+   "unusual_items": 15000000.0,
+   "normalized_ebitda": 7236000000.0,
+   "normalized_income": 3805083619.702176
   },
   {
    "fy_end": "2024-12-31",
@@ -191,7 +235,10 @@
    "goodwill_and_intangibles": 3125000000.0,
    "retained_earnings": 18193000000.0,
    "total_debt": 12185000000.0,
-   "shares_out": 1157208033.0
+   "shares_out": 1157208033.0,
+   "unusual_items": -732000000.0,
+   "normalized_ebitda": 6337000000.0,
+   "normalized_income": 2298596685.082873
   },
   {
    "fy_end": "2025-12-31",
@@ -226,7 +273,10 @@
    "goodwill_and_intangibles": 2920000000.0,
    "retained_earnings": 18247000000.0,
    "total_debt": 13238000000.0,
-   "shares_out": 1105099370.0
+   "shares_out": 1105099370.0,
+   "unusual_items": -314000000.0,
+   "normalized_ebitda": 6042000000.0,
+   "normalized_income": 2133078807.241747
   }
  ]
 }

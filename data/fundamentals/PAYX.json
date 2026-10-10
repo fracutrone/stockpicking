@@ -1,6 +1,6 @@
 {
  "ticker": "PAYX",
- "fetched_at": "2026-10-10T12:54:54+00:00",
+ "fetched_at": "2026-10-10T15:52:42+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 17600,
   "website": "https://www.paychex.com",
-  "longBusinessSummary": "Paychex, Inc., together with its subsidiaries, provides human capital management solutions (HCM) for human resources, payroll processing, employee benefits, and insurance services for small to medium-sized businesses in the United States, Europe, Canada, India, and Israel. It offers technology and advisory solutions; and payroll tax administration services. The company also provides retirement solutions, such as plan implementation, ongoing compliance with government regulations, employee and employer reporting, participant and employer online access, electronic funds transfer, and other administrative services; HCM solutions from recruiting and hiring to retirement; and talent management and talent acquisition services. In addition, it offers payroll solutions, including calculation, preparation, and delivery of employee payroll checks; production of internal accounting records and management reports; preparation of federal, state, and local payroll tax returns; and collection and remittance of clients' payroll obligations. Further, the company provides workforce management solutions; benefits administration solutions; digital marketplace for earned wages, financial wellness solutions, and voluntary lifestyle benefits; administrative services organization HR outsourcing solutions; solutions to payroll and non-payroll customers; retirement and funding solutions; and insurance services for property and casualty coverage, such as workers' compensation, business-owner policies, cyber security protection, and commercial auto, as well as health and benefits coverage, including health, dental, vision, and life. Additionally, it offers payroll, HR, employee benefits administration, retirement, insurance, risk management outsourcing, and access to professionally trained HR representatives, virtually and on-site. It markets and sells its solutions primarily through its direct sales force. Paychex, Inc. was founded in 1971 and is headquartered in Rochester, New York."
+  "longBusinessSummary": "Paychex, Inc., together with its subsidiaries, provides human capital management solutions (HCM) for human resources, payroll processing, employee benefits, and insurance services for small to medium-sized businesses in the United States, Europe, Canada, India, and Israel. It offers technology and advisory solutions; and payroll tax administration services. The company also provides retirement solutions, such as plan implementation, ongoing compliance with government regulations, employee and employer reporting, participant and employer online access, electronic funds transfer, and other administrative services; HCM solutions from recruiting and hiring to retirement; and talent management and talent acquisition services. In addition, it offers payroll solutions, including calculation, preparation, and delivery of employee payroll checks; production of internal accounting records and management reports; preparation of federal, state, and local payroll tax returns; and collection and remittance of clients' payroll obligations. Further, the company provides workforce management solutions; benefits administration solutions; digital marketplace for earned wages, financial wellness solutions, and voluntary lifestyle benefits; administrative services organization HR outsourcing solutions; solutions to payroll and non-payroll customers; retirement and funding solutions; and insurance services for property and casualty coverage, such as workers' compensation, business-owner policies, cyber security protection, and commercial auto, as well as health and benefits coverage, including health, dental, vision, and life. Additionally, it offers payroll, HR, employee benefits administration, retirement, insurance, risk management outsourcing, and access to professionally trained HR representatives, virtually and on-site. It markets and sells its solutions primarily through its direct sales force. Paychex, Inc. was founded in 1971 and is headquartered in Rochester, New York.",
+  "targetMeanPrice": 113.92857,
+  "targetLowPrice": 96.0,
+  "targetHighPrice": 150.0,
+  "numberOfAnalystOpinions": 14,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.0,
+  "forwardPE": 16.275969,
+  "forwardEps": 6.38856,
+  "trailingEps": 5.04,
+  "earningsGrowth": 0.139,
+  "revenueGrowth": 0.059
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,38 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-05-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 16174500000.0,
+    "official": 16174500000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3735100000.0,
+    "official": 3735100000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1760100000.0,
+    "official": 1760100000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 6512000000.0,
+    "official": 6512000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:52:42+00:00",
  "years": [
   {
    "fy_end": "2020-05-31",
@@ -198,7 +239,9 @@
    "goodwill_and_intangibles": 2021400000.0,
    "retained_earnings": 2023100000.0,
    "total_debt": 808400000.0,
-   "shares_out": 360500000.0
+   "shares_out": 360500000.0,
+   "normalized_ebitda": 2261500000.0,
+   "normalized_income": 1557300000.0
   },
   {
    "fy_end": "2024-05-31",
@@ -232,7 +275,9 @@
    "goodwill_and_intangibles": 2077200000.0,
    "retained_earnings": 2213000000.0,
    "total_debt": 817300000.0,
-   "shares_out": 360100000.0
+   "shares_out": 360100000.0,
+   "normalized_ebitda": 2431800000.0,
+   "normalized_income": 1690400000.0
   },
   {
    "fy_end": "2025-05-31",
@@ -266,7 +311,9 @@
    "goodwill_and_intangibles": 6461400000.0,
    "retained_earnings": 2277000000.0,
    "total_debt": 4966800000.0,
-   "shares_out": 360500000.0
+   "shares_out": 360500000.0,
+   "normalized_ebitda": 2490800000.0,
+   "normalized_income": 1657300000.0
   },
   {
    "fy_end": "2026-05-31",
@@ -300,7 +347,9 @@
    "goodwill_and_intangibles": 6211400000.0,
    "retained_earnings": 1805800000.0,
    "total_debt": 4556100000.0,
-   "shares_out": 355600000.0
+   "shares_out": 355600000.0,
+   "normalized_ebitda": 3023000000.0,
+   "normalized_income": 1760100000.0
   }
  ]
 }

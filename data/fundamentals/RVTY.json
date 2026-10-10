@@ -1,6 +1,6 @@
 {
  "ticker": "RVTY",
- "fetched_at": "2026-10-10T12:57:21+00:00",
+ "fetched_at": "2026-10-10T15:55:03+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 11000,
   "website": "https://www.revvity.com",
-  "longBusinessSummary": "Revvity, Inc. provides health sciences solutions, technologies, and services. The company offers instruments, reagents, software, subscriptions, detection and imaging technologies, extended warranties, and training and services; and instruments, reagents, and assay platforms and software products for early detection of common and rare conditions, such as pregnancy and early childhood, as well as infectious disease testing in the diagnostics market. Its products are used for testing and screening genetic abnormalities, disorders, and diseases, including down syndrome, hypothyroidism, muscular dystrophy, infertility, and various metabolic conditions. It also develops technologies that enable and support genomic workflows using protein coupled receptors and next-generation DNA sequencing for oncology, immunodiagnostics, and drug discovery. It serves pharmaceutical and biotechnology companies, laboratories, academic and research institutions, public health authorities, private healthcare organizations, doctors, and government agencies under the AutoDELFIA, chemagic, Chitas, CNGnome, DELFIA, DELFIA Xpress, EONIS, EUROArray, EUROIMMUN, EUROLabWorkstation, EUROLINE, EUROPattern, Evolution Evoya, GSP, Haoyuan, IDS Immunodiagnosticsystems, IDS-i10, IDS-i10T, IDS-i20, IDS-iSYS, iLab, iQ, LifeCycle, LimsLink, Migele, NeoBase, NeoLSD, NEXTFLEX, Panthera Puncher, PreNAT II, Prime, RONIA, SimplicityChrom, Specimen Gate, Superflex, Symbio, T-SPOT, Vanadis, ViaCord, VICTOR2, and WholePanel brand names, as well as under the Accell, AlphaLISA, AlphaPlex, AlphaScreen, Alpha SureFire, AssayMate, BIOCHIPs, BioLegend, Bioo Scientific, BioQule, Brilliant Violet, Ce3D, CellCarrier, Cellaca, Celigo, Cellometer, cell::explorer, Cell-Vive, Chalice, ChemDraw, CHOSOURCE, Dharmacon, and DharmaFECT brand names. The company was formerly known as PerkinElmer, Inc. and changed its name to Revvity, Inc. in April 2023. Revvity, Inc. was founded in 1937 and is headquartered in Waltham, Massachusetts."
+  "longBusinessSummary": "Revvity, Inc. provides health sciences solutions, technologies, and services. The company offers instruments, reagents, software, subscriptions, detection and imaging technologies, extended warranties, and training and services; and instruments, reagents, and assay platforms and software products for early detection of common and rare conditions, such as pregnancy and early childhood, as well as infectious disease testing in the diagnostics market. Its products are used for testing and screening genetic abnormalities, disorders, and diseases, including down syndrome, hypothyroidism, muscular dystrophy, infertility, and various metabolic conditions. It also develops technologies that enable and support genomic workflows using protein coupled receptors and next-generation DNA sequencing for oncology, immunodiagnostics, and drug discovery. It serves pharmaceutical and biotechnology companies, laboratories, academic and research institutions, public health authorities, private healthcare organizations, doctors, and government agencies under the AutoDELFIA, chemagic, Chitas, CNGnome, DELFIA, DELFIA Xpress, EONIS, EUROArray, EUROIMMUN, EUROLabWorkstation, EUROLINE, EUROPattern, Evolution Evoya, GSP, Haoyuan, IDS Immunodiagnosticsystems, IDS-i10, IDS-i10T, IDS-i20, IDS-iSYS, iLab, iQ, LifeCycle, LimsLink, Migele, NeoBase, NeoLSD, NEXTFLEX, Panthera Puncher, PreNAT II, Prime, RONIA, SimplicityChrom, Specimen Gate, Superflex, Symbio, T-SPOT, Vanadis, ViaCord, VICTOR2, and WholePanel brand names, as well as under the Accell, AlphaLISA, AlphaPlex, AlphaScreen, Alpha SureFire, AssayMate, BIOCHIPs, BioLegend, Bioo Scientific, BioQule, Brilliant Violet, Ce3D, CellCarrier, Cellaca, Celigo, Cellometer, cell::explorer, Cell-Vive, Chalice, ChemDraw, CHOSOURCE, Dharmacon, and DharmaFECT brand names. The company was formerly known as PerkinElmer, Inc. and changed its name to Revvity, Inc. in April 2023. Revvity, Inc. was founded in 1937 and is headquartered in Waltham, Massachusetts.",
+  "targetMeanPrice": 141.53333,
+  "targetLowPrice": 110.0,
+  "targetHighPrice": 165.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.38889,
+  "forwardPE": 26.183016,
+  "forwardEps": 5.88855,
+  "trailingEps": 2.09,
+  "earningsGrowth": 0.012,
+  "revenueGrowth": 0.013
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 12168411000.0,
+    "official": 12168411000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 7250360000.0,
+    "official": 7250360000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 241201000.0,
+    "official": 241201000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2856051000.0,
+    "official": 2856051000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:55:04+00:00",
  "years": [
   {
    "fy_end": "2019-12-29",
@@ -201,7 +243,10 @@
    "goodwill_and_intangibles": 9858942000.0,
    "retained_earnings": 4951018000.0,
    "total_debt": 4394276000.0,
-   "shares_out": 126300000.0
+   "shares_out": 126300000.0,
+   "unusual_items": -23654000.0,
+   "normalized_ebitda": 1206446000.0,
+   "normalized_income": 531280095.968777
   },
   {
    "fy_end": "2023-12-31",
@@ -236,7 +281,10 @@
    "goodwill_and_intangibles": 9555871000.0,
    "retained_earnings": 5609212000.0,
    "total_debt": 3899642000.0,
-   "shares_out": 123426000.0
+   "shares_out": 123426000.0,
+   "unusual_items": -71898000.0,
+   "normalized_ebitda": 785456000.0,
+   "normalized_income": 250034938.0
   },
   {
    "fy_end": "2024-12-29",
@@ -271,7 +319,10 @@
    "goodwill_and_intangibles": 9104540000.0,
    "retained_earnings": 5845223000.0,
    "total_debt": 3150718000.0,
-   "shares_out": 120646000.0
+   "shares_out": 120646000.0,
+   "unusual_items": 981000.0,
+   "normalized_ebitda": 839272000.0,
+   "normalized_income": 282193005.0
   },
   {
    "fy_end": "2025-12-28",
@@ -305,7 +356,10 @@
    "goodwill_and_intangibles": 8960496000.0,
    "retained_earnings": 6054314000.0,
    "total_debt": 3220064000.0,
-   "shares_out": 112281000.0
+   "shares_out": 112281000.0,
+   "unusual_items": -26405000.0,
+   "normalized_ebitda": 792207000.0,
+   "normalized_income": 263489070.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "WTFC",
- "fetched_at": "2026-10-10T13:02:47+00:00",
+ "fetched_at": "2026-10-10T16:00:08+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 5902,
   "website": "https://www.wintrust.com",
-  "longBusinessSummary": "Wintrust Financial Corporation, a financial holding company, provides community-oriented, personal, and commercial banking services in the United States. It operates through three segments: Community Banking, Specialty Finance, and Wealth Management. The Community Banking segment offers non-interest-bearing deposits, non-brokered interest-bearing transaction accounts, and savings and domestic time deposits; home equity, consumer, and real estate loans; safe deposit facilities; and automatic teller machine, online and mobile banking, and other services. This segment also engages in the retail origination of residential mortgages; provision of lending, deposits, and treasury management services to condominium, homeowner, and community associations; and asset-based lending for middle-market companies. In addition, it provides loan and deposit services to mortgage brokerage companies; lending to restaurant franchisees; direct leasing; small business administration loans; commercial mortgages and construction loans; and financial solutions. The Specialty Finance segment offers commercial and life insurance premiums financing for businesses and individuals; accounts receivable financing, value-added, and out-sourced administrative services, including data processing of payrolls, billing, and cash management services to temporary staffing industry; other specialty finance services; equipment financing through structured loan and lease products; and property and casualty insurance premium financing. The Wealth Management segment provides wealth management services, such as trust and investment, tax-deferred like-kind exchange, asset management, and securities brokerage services. Wintrust Financial Corporation was founded in 1991 and is headquartered in Rosemont, Illinois."
+  "longBusinessSummary": "Wintrust Financial Corporation, a financial holding company, provides community-oriented, personal, and commercial banking services in the United States. It operates through three segments: Community Banking, Specialty Finance, and Wealth Management. The Community Banking segment offers non-interest-bearing deposits, non-brokered interest-bearing transaction accounts, and savings and domestic time deposits; home equity, consumer, and real estate loans; safe deposit facilities; and automatic teller machine, online and mobile banking, and other services. This segment also engages in the retail origination of residential mortgages; provision of lending, deposits, and treasury management services to condominium, homeowner, and community associations; and asset-based lending for middle-market companies. In addition, it provides loan and deposit services to mortgage brokerage companies; lending to restaurant franchisees; direct leasing; small business administration loans; commercial mortgages and construction loans; and financial solutions. The Specialty Finance segment offers commercial and life insurance premiums financing for businesses and individuals; accounts receivable financing, value-added, and out-sourced administrative services, including data processing of payrolls, billing, and cash management services to temporary staffing industry; other specialty finance services; equipment financing through structured loan and lease products; and property and casualty insurance premium financing. The Wealth Management segment provides wealth management services, such as trust and investment, tax-deferred like-kind exchange, asset management, and securities brokerage services. Wintrust Financial Corporation was founded in 1991 and is headquartered in Rosemont, Illinois.",
+  "targetMeanPrice": 176.2,
+  "targetLowPrice": 160.0,
+  "targetHighPrice": 195.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.06667,
+  "forwardPE": 10.299665,
+  "forwardEps": 13.90822,
+  "trailingEps": 12.45,
+  "earningsGrowth": 0.187,
+  "revenueGrowth": 0.102
  },
  "governance": {
   "ceo": {
@@ -78,8 +89,38 @@
   "retained_earnings": "sec",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "noninterest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 71142046000.0,
+    "official": 71142046000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 7258715000.0,
+    "official": 7258715000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 823844000.0,
+    "official": 823844000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2725992000.0,
+    "official": 265635000.0,
+    "diff": 9.262172
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T16:00:08+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -173,7 +214,9 @@
    "goodwill_and_intangibles": 675710000.0,
    "retained_earnings": 2849007000.0,
    "total_debt": 3586031000.0,
-   "shares_out": 60794008.0
+   "shares_out": 60794008.0,
+   "unusual_items": 0.0,
+   "normalized_income": 509682000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -201,7 +244,9 @@
    "goodwill_and_intangibles": 679561000.0,
    "retained_earnings": 3345399000.0,
    "total_debt": 3649886000.0,
-   "shares_out": 61243626.0
+   "shares_out": 61243626.0,
+   "unusual_items": -34374000.0,
+   "normalized_income": 647959638.0
   },
   {
    "fy_end": "2024-12-31",
@@ -229,7 +274,9 @@
    "goodwill_and_intangibles": 918632000.0,
    "retained_earnings": 3897164000.0,
    "total_debt": 4237961000.0,
-   "shares_out": 66495227.0
+   "shares_out": 66495227.0,
+   "unusual_items": -5156000.0,
+   "normalized_income": 698829504.0
   },
   {
    "fy_end": "2025-12-31",
@@ -257,7 +304,9 @@
    "goodwill_and_intangibles": 895959000.0,
    "retained_earnings": 4537539000.0,
    "total_debt": 4481477000.0,
-   "shares_out": 66974913.0
+   "shares_out": 66974913.0,
+   "unusual_items": 499000.0,
+   "normalized_income": 823476237.0
   }
  ]
 }

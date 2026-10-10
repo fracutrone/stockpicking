@@ -1,6 +1,6 @@
 {
  "ticker": "ARMK",
- "fetched_at": "2026-10-10T12:38:00+00:00",
+ "fetched_at": "2026-10-10T15:34:58+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 278390,
   "website": "https://www.aramark.com",
-  "longBusinessSummary": "Aramark provides food and facilities services to education, healthcare, business and industry, sports, leisure, and corrections clients in the United States and internationally. The company operates in two segments, Food and Support Services United States, and Food and Support Services International. It offers food-related managed services, including dining, catering, food service management, and convenience-oriented retail services; non-clinical food and food-related support services, such as patient food and nutrition, retail food, environmental services, and procurement services; and plant operations and maintenance, custodial/housekeeping, energy management, grounds keeping, and capital project management services. The company also provides on-site restaurants, catering, convenience stores, and executive dining services; beverage and vending services; and facility management services comprising landscaping, transportation, capital program management, payment services, and other facility consulting services relating to building operations. In addition, it offers concessions, banquet, and catering services; retail services and merchandise sale, recreational, and lodging services; and facility management services at sports, entertainment, and recreational facilities. Further, the company offers correctional food; and operates commissaries, laundry facilities, and property rooms. The company was formerly known as ARAMARK Holdings Corporation. Aramark was founded in 1959 and is based in Philadelphia, Pennsylvania."
+  "longBusinessSummary": "Aramark provides food and facilities services to education, healthcare, business and industry, sports, leisure, and corrections clients in the United States and internationally. The company operates in two segments, Food and Support Services United States, and Food and Support Services International. It offers food-related managed services, including dining, catering, food service management, and convenience-oriented retail services; non-clinical food and food-related support services, such as patient food and nutrition, retail food, environmental services, and procurement services; and plant operations and maintenance, custodial/housekeeping, energy management, grounds keeping, and capital project management services. The company also provides on-site restaurants, catering, convenience stores, and executive dining services; beverage and vending services; and facility management services comprising landscaping, transportation, capital program management, payment services, and other facility consulting services relating to building operations. In addition, it offers concessions, banquet, and catering services; retail services and merchandise sale, recreational, and lodging services; and facility management services at sports, entertainment, and recreational facilities. Further, the company offers correctional food; and operates commissaries, laundry facilities, and property rooms. The company was formerly known as ARAMARK Holdings Corporation. Aramark was founded in 1959 and is based in Philadelphia, Pennsylvania.",
+  "targetMeanPrice": 68.5,
+  "targetLowPrice": 47.0,
+  "targetHighPrice": 75.0,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.5,
+  "forwardPE": 19.535194,
+  "forwardEps": 2.81236,
+  "trailingEps": 1.43,
+  "earningsGrowth": 0.333,
+  "revenueGrowth": 0.093
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-09-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 13304629000.0,
+    "official": 13304629000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3148059000.0,
+    "official": 3148059000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 326394000.0,
+    "official": 326394000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 18506299000.0,
+    "official": 18506299000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:34:58+00:00",
  "years": [
   {
    "fy_end": "2019-09-27",
@@ -198,7 +240,10 @@
    "goodwill_and_intangibles": 7828371000.0,
    "retained_earnings": 406784000.0,
    "total_debt": 7345860000.0,
-   "shares_out": 258728942.0
+   "shares_out": 258728942.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 830046000.0,
+   "normalized_income": 39088000.0
   },
   {
    "fy_end": "2023-09-29",
@@ -233,7 +278,10 @@
    "goodwill_and_intangibles": 6580191000.0,
    "retained_earnings": 964158000.0,
    "total_debt": 5098662000.0,
-   "shares_out": 261450373.0
+   "shares_out": 261450373.0,
+   "unusual_items": 375972000.0,
+   "normalized_ebitda": 1064695000.0,
+   "normalized_income": 149530204.0
   },
   {
    "fy_end": "2024-09-27",
@@ -268,7 +316,10 @@
    "goodwill_and_intangibles": 6626681000.0,
    "retained_earnings": 239709000.0,
    "total_debt": 4307171000.0,
-   "shares_out": 263939983.0
+   "shares_out": 263939983.0,
+   "unusual_items": 25071000.0,
+   "normalized_ebitda": 1164533000.0,
+   "normalized_income": 244521022.0
   },
   {
    "fy_end": "2025-10-03",
@@ -303,7 +354,10 @@
    "goodwill_and_intangibles": 6898127000.0,
    "retained_earnings": 453283000.0,
    "total_debt": 5374394000.0,
-   "shares_out": 262899495.0
+   "shares_out": 262899495.0,
+   "unusual_items": -19465000.0,
+   "normalized_ebitda": 1290642000.0,
+   "normalized_income": 341167935.0
   }
  ]
 }

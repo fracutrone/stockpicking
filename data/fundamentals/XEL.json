@@ -1,6 +1,6 @@
 {
  "ticker": "XEL",
- "fetched_at": "2026-10-10T13:03:00+00:00",
+ "fetched_at": "2026-10-10T16:00:20+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 11534,
   "website": "https://www.my.xcelenergy.com/s",
-  "longBusinessSummary": "Xcel Energy Inc., through its subsidiaries, operates as an electric and natural gas delivery company in the United States. It operates through Regulated Electric Utility and Regulated Natural Gas Utility segments. The company generates, purchases, transmits, distributes, and sells electricity through its energy portfolio, including wind, nuclear, hydroelectric, biomass, and solar power from both owned generation facilities and PPAs, as well as its fossil fuel energy portfolio, such as coal and natural gas; sale and resale of wholesale transmission service; and engages in wholesale commodity and trading operations. It also purchases, transports, stores, distributes, and sells natural gas; develops and leases natural gas pipelines and storage facilities; operates interstate natural gas pipeline; and invests in rental housing projects, energy technology companies, and community solar garden nonregulated assets. It serves electric and natural gas customers in portions of Colorado, Michigan, Minnesota, New Mexico, North Dakota, South Dakota, Texas, and Wisconsin. The company was formerly known as Northern States Power company. Xcel Energy Inc. was incorporated in 1909 and is headquartered in Minneapolis, Minnesota."
+  "longBusinessSummary": "Xcel Energy Inc., through its subsidiaries, operates as an electric and natural gas delivery company in the United States. It operates through Regulated Electric Utility and Regulated Natural Gas Utility segments. The company generates, purchases, transmits, distributes, and sells electricity through its energy portfolio, including wind, nuclear, hydroelectric, biomass, and solar power from both owned generation facilities and PPAs, as well as its fossil fuel energy portfolio, such as coal and natural gas; sale and resale of wholesale transmission service; and engages in wholesale commodity and trading operations. It also purchases, transports, stores, distributes, and sells natural gas; develops and leases natural gas pipelines and storage facilities; operates interstate natural gas pipeline; and invests in rental housing projects, energy technology companies, and community solar garden nonregulated assets. It serves electric and natural gas customers in portions of Colorado, Michigan, Minnesota, New Mexico, North Dakota, South Dakota, Texas, and Wisconsin. The company was formerly known as Northern States Power company. Xcel Energy Inc. was incorporated in 1909 and is headquartered in Minneapolis, Minnesota.",
+  "targetMeanPrice": 90.61111,
+  "targetLowPrice": 74.0,
+  "targetHighPrice": 101.0,
+  "numberOfAnalystOpinions": 18,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.42105,
+  "forwardPE": 16.260744,
+  "forwardEps": 4.537,
+  "trailingEps": 3.65,
+  "earningsGrowth": 0.24,
+  "revenueGrowth": -0.051
  },
  "governance": {
   "ceo": {
@@ -80,8 +91,34 @@
   "ppe_net": "sec",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 81371000000.0,
+    "official": 81371000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 23609000000.0,
+    "official": 23609000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2018000000.0,
+    "official": 2018000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T16:00:20+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -111,7 +148,10 @@
    "ppe_net": 48253000000.0,
    "retained_earnings": 7239000000.0,
    "total_debt": 23626000000.0,
-   "shares_out": 549578018.0
+   "shares_out": 549578018.0,
+   "unusual_items": 75000000.0,
+   "normalized_ebitda": 5005000000.0,
+   "normalized_income": 1676750000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -141,7 +181,10 @@
    "ppe_net": 51642000000.0,
    "retained_earnings": 7858000000.0,
    "total_debt": 25698000000.0,
-   "shares_out": 554941703.0
+   "shares_out": 554941703.0,
+   "unusual_items": -16000000.0,
+   "normalized_ebitda": 5212000000.0,
+   "normalized_income": 1783640000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -171,7 +214,10 @@
    "ppe_net": 57198000000.0,
    "retained_earnings": 8553000000.0,
    "total_debt": 28011000000.0,
-   "shares_out": 574365598.0
+   "shares_out": 574365598.0,
+   "unusual_items": 168000000.0,
+   "normalized_ebitda": 5423000000.0,
+   "normalized_income": 1803280000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -201,7 +247,10 @@
    "ppe_net": 65639000000.0,
    "retained_earnings": 9207000000.0,
    "total_debt": 33382000000.0,
-   "shares_out": 623600715.0
+   "shares_out": 623600715.0,
+   "unusual_items": -15000000.0,
+   "normalized_ebitda": 6213000000.0,
+   "normalized_income": 2029850000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "GATX",
- "fetched_at": "2026-10-10T12:46:20+00:00",
+ "fetched_at": "2026-10-10T15:44:42+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 2371,
   "website": "https://www.gatx.com",
-  "longBusinessSummary": "GATX Corporation, together its subsidiaries, operates as railcar leasing company in the United States, Canada, Mexico, Europe, and India. It operates through three segments: Rail North America, Rail International, and Engine Leasing. The company leases tank and freight railcars, and locomotives for petroleum, chemical, food/agriculture, and transportation industries. It also offers maintenance services, including the interior cleaning of railcars, routine maintenance and repair of car body and safety appliances, regulatory compliance works, wheelset replacements, interior blast and lining, exterior blast and painting, and car stenciling services. In addition, the company manufactures commercial aircraft jet engines and leases aircraft spare engines; and owns and manages tank containers that are leased to chemical, industrial gas, energy, food, cryogenic and pharmaceutical industries, transport and logistic, and tank container operators, as well as provides tank container leasing, remarketing, and inspection and maintenance services. As of December 31, 2025, it owned and operated a fleet of approximately 156,000 railcars; 567 four-axle and 60 six-axle locomotives; 456 aircraft spare engines; and 25,602 tank containers. GATX Corporation was founded in 1898 and is headquartered in Chicago, Illinois."
+  "longBusinessSummary": "GATX Corporation, together its subsidiaries, operates as railcar leasing company in the United States, Canada, Mexico, Europe, and India. It operates through three segments: Rail North America, Rail International, and Engine Leasing. The company leases tank and freight railcars, and locomotives for petroleum, chemical, food/agriculture, and transportation industries. It also offers maintenance services, including the interior cleaning of railcars, routine maintenance and repair of car body and safety appliances, regulatory compliance works, wheelset replacements, interior blast and lining, exterior blast and painting, and car stenciling services. In addition, the company manufactures commercial aircraft jet engines and leases aircraft spare engines; and owns and manages tank containers that are leased to chemical, industrial gas, energy, food, cryogenic and pharmaceutical industries, transport and logistic, and tank container operators, as well as provides tank container leasing, remarketing, and inspection and maintenance services. As of December 31, 2025, it owned and operated a fleet of approximately 156,000 railcars; 567 four-axle and 60 six-axle locomotives; 456 aircraft spare engines; and 25,602 tank containers. GATX Corporation was founded in 1898 and is headquartered in Chicago, Illinois.",
+  "targetMeanPrice": 219.5,
+  "targetLowPrice": 216.0,
+  "targetHighPrice": 223.0,
+  "numberOfAnalystOpinions": 4,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.0,
+  "forwardPE": 14.636624,
+  "forwardEps": 11.25806,
+  "trailingEps": 10.1,
+  "earningsGrowth": 0.379,
+  "revenueGrowth": 0.348
  },
  "governance": {
   "ceo": {
@@ -31,26 +42,6 @@
    "age": 61,
    "year_born": 1964,
    "total_pay": 2029510
-  },
-  "top_institutions": [
-   {
-    "name": "State Farm Mutual Automobile Insurance Co",
-    "pct": 0.1537
-   },
-   {
-    "name": "Blackrock Inc.",
-    "pct": 0.1316
-   },
-   {
-    "name": "Earnest Partners LLC",
-    "pct": 0.0724
-   }
-  ],
-  "insider_6m": {
-   "purchases": 39446.0,
-   "sales": 25300.0,
-   "net_shares": 14146.0,
-   "net_pct": 0.027
   }
  },
  "sources": {
@@ -84,8 +75,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 17999500000.0,
+    "official": 17999500000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2750500000.0,
+    "official": 2750500000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 333300000.0,
+    "official": 333300000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1740400000.0,
+    "official": 1740400000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:44:42+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -183,7 +205,10 @@
    "goodwill_and_intangibles": 117200000.0,
    "retained_earnings": 2831500000.0,
    "total_debt": 6492200000.0,
-   "shares_out": 35268308.0
+   "shares_out": 35268308.0,
+   "unusual_items": 77900000.0,
+   "normalized_ebitda": 684500000.0,
+   "normalized_income": 102071100.0
   },
   {
    "fy_end": "2023-12-31",
@@ -217,7 +242,10 @@
    "goodwill_and_intangibles": 120000000.0,
    "retained_earnings": 3009500000.0,
    "total_debt": 7450600000.0,
-   "shares_out": 35464841.0
+   "shares_out": 35464841.0,
+   "unusual_items": 130300000.0,
+   "normalized_ebitda": 770700000.0,
+   "normalized_income": 160041700.0
   },
   {
    "fy_end": "2024-12-31",
@@ -249,7 +277,10 @@
    "goodwill_and_intangibles": 114100000.0,
    "retained_earnings": 3208100000.0,
    "total_debt": 8270900000.0,
-   "shares_out": 35575691.0
+   "shares_out": 35575691.0,
+   "unusual_items": 138300000.0,
+   "normalized_ebitda": 885500000.0,
+   "normalized_income": 177709000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -281,7 +312,10 @@
    "goodwill_and_intangibles": 126300000.0,
    "retained_earnings": 3451200000.0,
    "total_debt": 12505600000.0,
-   "shares_out": 35400021.0
+   "shares_out": 35400021.0,
+   "unusual_items": 136900000.0,
+   "normalized_ebitda": 986000000.0,
+   "normalized_income": 227339400.0
   }
  ]
 }

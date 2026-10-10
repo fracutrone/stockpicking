@@ -1,6 +1,6 @@
 {
  "ticker": "TLN",
- "fetched_at": "2026-10-10T12:59:47+00:00",
+ "fetched_at": "2026-10-10T15:57:27+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 1880,
   "website": "https://www.talenenergy.com",
-  "longBusinessSummary": "Talen Energy Corporation, an independent power producer and infrastructure company, produces and sells electricity, capacity, and ancillary services into wholesale power markets in the United States. The company's plants generate power using a variety of fuels, such as nuclear, fossil, oil, natural gas, and coal power plants. It owns and operates approximately 13.1 GW of power infrastructure. Talen Energy Corporation was incorporated in 2014 and is headquartered in Houston, Texas."
+  "longBusinessSummary": "Talen Energy Corporation, an independent power producer and infrastructure company, produces and sells electricity, capacity, and ancillary services into wholesale power markets in the United States. The company's plants generate power using a variety of fuels, such as nuclear, fossil, oil, natural gas, and coal power plants. It owns and operates approximately 13.1 GW of power infrastructure. Talen Energy Corporation was incorporated in 2014 and is headquartered in Houston, Texas.",
+  "targetMeanPrice": 455.64706,
+  "targetLowPrice": 307.0,
+  "targetHighPrice": 560.0,
+  "numberOfAnalystOpinions": 17,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.58824,
+  "forwardPE": 12.30933,
+  "forwardEps": 30.75472,
+  "trailingEps": -4.13,
+  "earningsGrowth": null,
+  "revenueGrowth": 1.112
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "goodwill": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 10905000000.0,
+    "official": 10905000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1093000000.0,
+    "official": 1093000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -219000000.0,
+    "official": -219000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2626000000.0,
+    "official": 2581000000.0,
+    "diff": 0.017435
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:57:27+00:00",
  "years": [
   {
    "fy_end": "2021-12-31",
@@ -98,7 +140,10 @@
    "noninterest_expense": 687000000.0,
    "cash": 743000000.0,
    "intangibles": 80000000.0,
-   "goodwill_and_intangibles": 80000000.0
+   "goodwill_and_intangibles": 80000000.0,
+   "unusual_items": -723000000.0,
+   "normalized_ebitda": 414000000.0,
+   "normalized_income": -433013000.0
   },
   {
    "fy_end": "2022-12-31",
@@ -121,7 +166,10 @@
    "cash": 988000000.0,
    "equity": -482000000.0,
    "intangibles": 73000000.0,
-   "goodwill_and_intangibles": 73000000.0
+   "goodwill_and_intangibles": 73000000.0,
+   "unusual_items": -845000000.0,
+   "normalized_ebitda": 519000000.0,
+   "normalized_income": -465970000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -152,7 +200,10 @@
    "ppe_net": 3154000000.0,
    "retained_earnings": -326000000.0,
    "total_debt": 3004000000.0,
-   "shares_out": 45961910.0
+   "shares_out": 45961910.0,
+   "unusual_items": 945000000.0,
+   "normalized_ebitda": 812000000.0,
+   "normalized_income": 136357335.733573
   },
   {
    "fy_end": "2025-12-31",
@@ -183,7 +234,10 @@
    "ppe_net": 7546000000.0,
    "retained_earnings": -612000000.0,
    "total_debt": 6811000000.0,
-   "shares_out": 45687828.0
+   "shares_out": 45687828.0,
+   "unusual_items": -72000000.0,
+   "normalized_ebitda": 584000000.0,
+   "normalized_income": -162120000.0
   }
  ]
 }

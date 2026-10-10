@@ -1,6 +1,6 @@
 {
  "ticker": "PKG",
- "fetched_at": "2026-10-10T12:55:31+00:00",
+ "fetched_at": "2026-10-10T15:53:14+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 16800,
   "website": "https://www.packagingcorp.com",
-  "longBusinessSummary": "Packaging Corporation of America manufactures and sells containerboard and uncoated freesheet (UFS) paper products in North America. The company operates through Packaging and Paper segments. The Packaging segment offers various linerboard and corrugated packaging products, such as conventional shipping containers used to protect and transport manufactured goods; multi-color boxes and displays that help to merchandise the packaged product in retail locations; and honeycomb protective packaging products, as well as packaging for meat, fresh fruit and vegetables, processed food, beverages, and other industrial and consumer products. This segment sells its corrugated products through a direct sales and marketing organization. The Paper segment manufactures and sells commodity and specialty papers, as well as communication papers, including cut-size office papers, and printing and converting papers; and white papers. This segment sells papers through its sales and marketing organization. Packaging Corporation of America was founded in 1867 and is headquartered in Lake Forest, Illinois."
+  "longBusinessSummary": "Packaging Corporation of America manufactures and sells containerboard and uncoated freesheet (UFS) paper products in North America. The company operates through Packaging and Paper segments. The Packaging segment offers various linerboard and corrugated packaging products, such as conventional shipping containers used to protect and transport manufactured goods; multi-color boxes and displays that help to merchandise the packaged product in retail locations; and honeycomb protective packaging products, as well as packaging for meat, fresh fruit and vegetables, processed food, beverages, and other industrial and consumer products. This segment sells its corrugated products through a direct sales and marketing organization. The Paper segment manufactures and sells commodity and specialty papers, as well as communication papers, including cut-size office papers, and printing and converting papers; and white papers. This segment sells papers through its sales and marketing organization. Packaging Corporation of America was founded in 1867 and is headquartered in Lake Forest, Illinois.",
+  "targetMeanPrice": 258.8,
+  "targetLowPrice": 167.0,
+  "targetHighPrice": 320.0,
+  "numberOfAnalystOpinions": 10,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": 17.393423,
+  "forwardEps": 13.25271,
+  "trailingEps": 7.69,
+  "earningsGrowth": -0.195,
+  "revenueGrowth": 0.147
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 10725500000.0,
+    "official": 10725500000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4598000000.0,
+    "official": 4598000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 774100000.0,
+    "official": 774100000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 8989300000.0,
+    "official": 8989300000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:53:14+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -205,7 +247,10 @@
    "goodwill_and_intangibles": 1190300000.0,
    "retained_earnings": 3186800000.0,
    "total_debt": 2491500000.0,
-   "shares_out": 89700000.0
+   "shares_out": 89700000.0,
+   "unusual_items": -51300000.0,
+   "normalized_ebitda": 1943300000.0,
+   "normalized_income": 1068508045.134818
   },
   {
    "fy_end": "2023-12-31",
@@ -240,7 +285,10 @@
    "goodwill_and_intangibles": 1152000000.0,
    "retained_earnings": 3447200000.0,
    "total_debt": 2891700000.0,
-   "shares_out": 89625000.0
+   "shares_out": 89625000.0,
+   "unusual_items": -41400000.0,
+   "normalized_ebitda": 1626500000.0,
+   "normalized_income": 796457000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -275,7 +323,10 @@
    "goodwill_and_intangibles": 1114300000.0,
    "retained_earnings": 3776700000.0,
    "total_debt": 2492200000.0,
-   "shares_out": 89802000.0
+   "shares_out": 89802000.0,
+   "unusual_items": -48300000.0,
+   "normalized_ebitda": 1679700000.0,
+   "normalized_income": 841614800.0
   },
   {
    "fy_end": "2025-12-31",
@@ -310,7 +361,10 @@
    "goodwill_and_intangibles": 1974600000.0,
    "retained_earnings": 3931000000.0,
    "total_debt": 3992500000.0,
-   "shares_out": 89214000.0
+   "shares_out": 89214000.0,
+   "unusual_items": -121700000.0,
+   "normalized_ebitda": 1881400000.0,
+   "normalized_income": 865740100.0
   }
  ]
 }

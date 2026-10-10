@@ -1,6 +1,6 @@
 {
  "ticker": "STJ.L",
- "fetched_at": "2026-10-10T12:20:38+00:00",
+ "fetched_at": "2026-10-10T15:22:24+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 2859,
   "website": "https://www.sjp.co.uk",
-  "longBusinessSummary": "St. James's Place plc is a publicly owned investment manager. The firm launches and manages equity, fixed income, and balanced mutual funds for its clients. It invests in public equity and fixed income market across the globe. The firm was formerly known as St. James's Place Capital plc. St. James's Place plc was founded in 1991 and is based in Cirencester, United Kingdom."
+  "longBusinessSummary": "St. James's Place plc is a publicly owned investment manager. The firm launches and manages equity, fixed income, and balanced mutual funds for its clients. It invests in public equity and fixed income market across the globe. The firm was formerly known as St. James's Place Capital plc. St. James's Place plc was founded in 1991 and is based in Cirencester, United Kingdom.",
+  "targetMeanPrice": 1634.75,
+  "targetLowPrice": 1260.0,
+  "targetHighPrice": 2000.0,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.75,
+  "forwardPE": 9.71806,
+  "forwardEps": 1.0676,
+  "trailingEps": 1.07,
+  "earningsGrowth": 0.151,
+  "revenueGrowth": 2.13
  },
  "governance": {
   "ceo": {
@@ -61,8 +72,33 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 224877500000.0,
+    "official": 224877500000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1478800000.0,
+    "official": 1478800000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 531100000.0,
+    "official": 531100000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:22:24+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -87,7 +123,8 @@
    "goodwill_and_intangibles": 78100000.0,
    "retained_earnings": 963800000.0,
    "total_debt": 280400000.0,
-   "shares_out": 544235757.0
+   "shares_out": 544235757.0,
+   "normalized_income": 406800000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -112,7 +149,8 @@
    "goodwill_and_intangibles": 69600000.0,
    "retained_earnings": 665400000.0,
    "total_debt": 371900000.0,
-   "shares_out": 545193051.0
+   "shares_out": 545193051.0,
+   "normalized_income": -10100000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -137,7 +175,8 @@
    "goodwill_and_intangibles": 38800000.0,
    "retained_earnings": 965300000.0,
    "total_debt": 624000000.0,
-   "shares_out": 539138347.0
+   "shares_out": 539138347.0,
+   "normalized_income": 398400000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -161,7 +200,8 @@
    "goodwill_and_intangibles": 26600000.0,
    "retained_earnings": 1227100000.0,
    "total_debt": 442300000.0,
-   "shares_out": 518425306.0
+   "shares_out": 518425306.0,
+   "normalized_income": 531100000.0
   }
  ]
 }

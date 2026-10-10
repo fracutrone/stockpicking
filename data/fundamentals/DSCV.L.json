@@ -1,6 +1,6 @@
 {
  "ticker": "DSCV.L",
- "fetched_at": "2026-10-10T11:54:46+00:00",
+ "fetched_at": "2026-10-10T14:43:32+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 4600,
   "website": "https://www.discoverieplc.com",
-  "longBusinessSummary": "discoverIE Group plc designs, manufactures, and supplies specialist electronic components for industrial applications in the United Kingdom, Europe, North America, Asia, and internationally. It operates through Magnetics & Controls; and Sensing & Connectivity segments. The company offers magnetic and power components, embedded computing and interface controls, and sensing and connectivity components for industrial applications. The Magnetics & Controls segment offers Electronics for power conversion and switching, X-ray detection, signal conditioning, monitoring, human-machine interface controls and embedded computing. The Sensing & Connectivity segment offers electronics for wireless transmission, fibre optic and cable connection, electromagnetic shielding, and sensing components for measuring movement, temperature, pressure, position, force, and load. It serves renewable energy, transportation, security, medical, industrial and connectivity, and other markets. The company was formerly known as Acal plc and changed its name to discoverIE Group plc in November 2017. discoverIE Group plc was incorporated in 1986 and is based in Guildford, the United Kingdom."
+  "longBusinessSummary": "discoverIE Group plc designs, manufactures, and supplies specialist electronic components for industrial applications in the United Kingdom, Europe, North America, Asia, and internationally. It operates through Magnetics & Controls; and Sensing & Connectivity segments. The company offers magnetic and power components, embedded computing and interface controls, and sensing and connectivity components for industrial applications. The Magnetics & Controls segment offers Electronics for power conversion and switching, X-ray detection, signal conditioning, monitoring, human-machine interface controls and embedded computing. The Sensing & Connectivity segment offers electronics for wireless transmission, fibre optic and cable connection, electromagnetic shielding, and sensing components for measuring movement, temperature, pressure, position, force, and load. It serves renewable energy, transportation, security, medical, industrial and connectivity, and other markets. The company was formerly known as Acal plc and changed its name to discoverIE Group plc in November 2017. discoverIE Group plc was incorporated in 1986 and is based in Guildford, the United Kingdom.",
+  "targetMeanPrice": 921.0,
+  "targetLowPrice": 685.0,
+  "targetHighPrice": 1110.0,
+  "numberOfAnalystOpinions": 10,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 18.595745,
+  "forwardEps": 0.47,
+  "trailingEps": 0.29,
+  "earningsGrowth": 0.242,
+  "revenueGrowth": 0.071
  },
  "governance": {
   "ceo": {
@@ -70,8 +81,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2026-03-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 694600000.0,
+    "official": 694600000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 328600000.0,
+    "official": 328600000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 29000000.0,
+    "official": 29000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 443300000.0,
+    "official": 443300000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2026-03-31"
+ },
+ "info_at": "2026-10-10T14:43:32+00:00",
  "years": [
   {
    "fy_end": "2023-03-31",
@@ -105,7 +147,9 @@
    "goodwill_and_intangibles": 272000000.0,
    "retained_earnings": 98300000.0,
    "total_debt": 145400000.0,
-   "shares_out": 96356109.0
+   "shares_out": 96356109.0,
+   "normalized_ebitda": 63100000.0,
+   "normalized_income": 21300000.0
   },
   {
    "fy_end": "2024-03-31",
@@ -139,7 +183,9 @@
    "goodwill_and_intangibles": 329500000.0,
    "retained_earnings": 104000000.0,
    "total_debt": 234900000.0,
-   "shares_out": 95941509.0
+   "shares_out": 95941509.0,
+   "normalized_ebitda": 62300000.0,
+   "normalized_income": 15500000.0
   },
   {
    "fy_end": "2025-03-31",
@@ -173,7 +219,9 @@
    "goodwill_and_intangibles": 336400000.0,
    "retained_earnings": 114100000.0,
    "total_debt": 261000000.0,
-   "shares_out": 96056890.0
+   "shares_out": 96056890.0,
+   "normalized_ebitda": 74500000.0,
+   "normalized_income": 24600000.0
   },
   {
    "fy_end": "2026-03-31",
@@ -207,7 +255,9 @@
    "goodwill_and_intangibles": 330500000.0,
    "retained_earnings": 132400000.0,
    "total_debt": 239800000.0,
-   "shares_out": 96126812.0
+   "shares_out": 96126812.0,
+   "normalized_ebitda": 77000000.0,
+   "normalized_income": 29000000.0
   }
  ]
 }

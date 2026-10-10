@@ -1,6 +1,6 @@
 {
  "ticker": "KNOS.L",
- "fetched_at": "2026-10-10T12:05:48+00:00",
+ "fetched_at": "2026-10-10T15:01:30+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 3216,
   "website": "https://www.kainos.com",
-  "longBusinessSummary": "Kainos Group plc engages in the provision of information technology services in the United Kingdom, Ireland, North Americas, Central Europe, and internationally. The company operates through Digital Services, Workday Services, and Workday Products segments. The Digital Services segment develops and supports customized digital service platforms to improve customer service and productivity. The Workday Services segment provides comprehensive range of services to support customers deploying Workday's Finance, HR, and Planning products. The Workday Products segment develops Software as a Service products comprising Smart Test which creates automated and customized tests; Smart Audit that delivers automated, always-on security, and compliance controls and monitoring for workday customers; Smart Shield which provides privacy and control of sensitive data to deliver Workday reports; Employee Document Management which delivers a compliant, automated, digital employee document solution; and Pay Transparency Analyzer that enables customers to comply with the new EU Pay Transparency Directive. The company also engages in the property business; software development activities; and provision of software services. It serves the financial services, insurance, payment, education, life sciences and healthcare industries, as well as government. Kainos Group plc was founded in 1986 and is headquartered in Belfast, the United Kingdom."
+  "longBusinessSummary": "Kainos Group plc engages in the provision of information technology services in the United Kingdom, Ireland, North Americas, Central Europe, and internationally. The company operates through Digital Services, Workday Services, and Workday Products segments. The Digital Services segment develops and supports customized digital service platforms to improve customer service and productivity. The Workday Services segment provides comprehensive range of services to support customers deploying Workday's Finance, HR, and Planning products. The Workday Products segment develops Software as a Service products comprising Smart Test which creates automated and customized tests; Smart Audit that delivers automated, always-on security, and compliance controls and monitoring for workday customers; Smart Shield which provides privacy and control of sensitive data to deliver Workday reports; Employee Document Management which delivers a compliant, automated, digital employee document solution; and Pay Transparency Analyzer that enables customers to comply with the new EU Pay Transparency Directive. The company also engages in the property business; software development activities; and provision of software services. It serves the financial services, insurance, payment, education, life sciences and healthcare industries, as well as government. Kainos Group plc was founded in 1986 and is headquartered in Belfast, the United Kingdom.",
+  "targetMeanPrice": 1293.5,
+  "targetLowPrice": 1110.0,
+  "targetHighPrice": 1500.0,
+  "numberOfAnalystOpinions": 10,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 21.17643,
+  "forwardEps": 0.58414,
+  "trailingEps": 0.35,
+  "earningsGrowth": 1.289,
+  "revenueGrowth": 0.276
  },
  "governance": {
   "ceo": {
@@ -69,8 +80,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2026-03-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 273513000.0,
+    "official": 273513000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 100459000.0,
+    "official": 100459000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 42500000.0,
+    "official": 42500000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 431098000.0,
+    "official": 431098000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2026-03-31"
+ },
+ "info_at": "2026-10-10T15:01:30+00:00",
  "years": [
   {
    "fy_end": "2023-03-31",
@@ -102,7 +145,10 @@
    "goodwill_and_intangibles": 22823000.0,
    "retained_earnings": 94185000.0,
    "total_debt": 1379000.0,
-   "shares_out": 123842176.0
+   "shares_out": 123842176.0,
+   "unusual_items": 388000.0,
+   "normalized_ebitda": 60075000.0,
+   "normalized_income": 41346240.0
   },
   {
    "fy_end": "2024-03-31",
@@ -135,7 +181,10 @@
    "goodwill_and_intangibles": 43411000.0,
    "retained_earnings": 112024000.0,
    "total_debt": 5898000.0,
-   "shares_out": 124997715.0
+   "shares_out": 124997715.0,
+   "unusual_items": 827000.0,
+   "normalized_ebitda": 72507000.0,
+   "normalized_income": 48094750.0
   },
   {
    "fy_end": "2025-03-31",
@@ -168,7 +217,10 @@
    "goodwill_and_intangibles": 41552000.0,
    "retained_earnings": 90478000.0,
    "total_debt": 5558000.0,
-   "shares_out": 122737893.0
+   "shares_out": 122737893.0,
+   "unusual_items": -7733000.0,
+   "normalized_ebitda": 62200000.0,
+   "normalized_income": 41213484.375
   },
   {
    "fy_end": "2026-03-31",
@@ -201,7 +253,10 @@
    "goodwill_and_intangibles": 53124000.0,
    "retained_earnings": 43401000.0,
    "total_debt": 6136000.0,
-   "shares_out": 116610873.0
+   "shares_out": 116610873.0,
+   "unusual_items": 155000.0,
+   "normalized_ebitda": 64206000.0,
+   "normalized_income": 42386639.362599
   }
  ]
 }

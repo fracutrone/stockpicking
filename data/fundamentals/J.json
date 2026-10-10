@@ -1,6 +1,6 @@
 {
  "ticker": "J",
- "fetched_at": "2026-10-10T12:49:15+00:00",
+ "fetched_at": "2026-10-10T15:47:35+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 47000,
   "website": "https://www.jacobs.com",
-  "longBusinessSummary": "Jacobs Solutions Inc. engages in the infrastructure and advanced facilities, and consulting businesses in the United States, Europe, Canada, India, Asia, Australia, New Zealand, the Middle East, and Africa. The company provides consulting, planning, architecture, design, engineering, and infrastructure delivery services including project, program, and construction management and long-term operation of facilities. It also offers consulting services for consumer and manufacturing, defense and security, energy and utilities, financial services, government, health and life sciences, and transport sectors. The company was founded in 1947 and is headquartered in Dallas, Texas."
+  "longBusinessSummary": "Jacobs Solutions Inc. engages in the infrastructure and advanced facilities, and consulting businesses in the United States, Europe, Canada, India, Asia, Australia, New Zealand, the Middle East, and Africa. The company provides consulting, planning, architecture, design, engineering, and infrastructure delivery services including project, program, and construction management and long-term operation of facilities. It also offers consulting services for consumer and manufacturing, defense and security, energy and utilities, financial services, government, health and life sciences, and transport sectors. The company was founded in 1947 and is headquartered in Dallas, Texas.",
+  "targetMeanPrice": 162.46667,
+  "targetLowPrice": 144.0,
+  "targetHighPrice": 181.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.9375,
+  "forwardPE": 16.832022,
+  "forwardEps": 8.26698,
+  "trailingEps": 3.01,
+  "earningsGrowth": -0.254,
+  "revenueGrowth": 0.345
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-09-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 11252535000.0,
+    "official": 11252535000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3640807000.0,
+    "official": 3640807000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 289336000.0,
+    "official": 289336000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 12029783000.0,
+    "official": 12029783000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:47:35+00:00",
  "years": [
   {
    "fy_end": "2019-09-27",
@@ -199,7 +241,9 @@
    "goodwill_and_intangibles": 8578710000.0,
    "retained_earnings": 4225784000.0,
    "total_debt": 3407671000.0,
-   "shares_out": 127393378.0
+   "shares_out": 127393378.0,
+   "normalized_ebitda": 878740000.0,
+   "normalized_income": 354164000.0
   },
   {
    "fy_end": "2023-09-29",
@@ -233,7 +277,10 @@
    "goodwill_and_intangibles": 5594871000.0,
    "retained_earnings": 4542872000.0,
    "total_debt": 2865244000.0,
-   "shares_out": 125976998.0
+   "shares_out": 125976998.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 996312000.0,
+   "normalized_income": 379125000.0
   },
   {
    "fy_end": "2024-09-27",
@@ -267,7 +314,10 @@
    "goodwill_and_intangibles": 5663075000.0,
    "retained_earnings": 2366769000.0,
    "total_debt": 2219009000.0,
-   "shares_out": 124253511.0
+   "shares_out": 124253511.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 1255083000.0,
+   "normalized_income": 612804000.0
   },
   {
    "fy_end": "2025-09-26",
@@ -301,7 +351,10 @@
    "goodwill_and_intangibles": 5498488000.0,
    "retained_earnings": 1525760000.0,
    "total_debt": 2236456000.0,
-   "shares_out": 119081294.0
+   "shares_out": 119081294.0,
+   "unusual_items": -20510000.0,
+   "normalized_ebitda": 947351000.0,
+   "normalized_income": 325677280.31545
   }
  ]
 }

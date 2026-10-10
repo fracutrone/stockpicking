@@ -1,6 +1,6 @@
 {
  "ticker": "AJB.L",
- "fetched_at": "2026-10-10T11:44:27+00:00",
+ "fetched_at": "2026-10-10T14:29:13+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.19036,
   "heldPercentInstitutions": 0.45677,
   "shortPercentOfFloat": null,
-  "averageVolume": 781574,
+  "averageVolume": 776190,
   "quoteType": "EQUITY",
   "exchange": "LSE",
   "fullTimeEmployees": 1550,
   "website": "https://www.ajbell.co.uk",
-  "longBusinessSummary": "AJ Bell plc, through its subsidiaries, operates investment platforms in the United Kingdom. The company offers AJ Bell Investcentre, which offers adviser needs and client service, easy-to-use functionality, and a comprehensive investment range at competitive prices; and AJ Bell, an investment platform. It also provides AJ Bell Touch, a mobile-focused platform service for financial advisers; AJ Bell Dodl, an investment platform that offers commission-free service; AJ Bell Investments, which offers investment management solutions through advisers and direct to customers; AJ Bell Securities for wealth management solutions. In addition, the company operates dealing and custody, media, and educational material. The company was founded in 1995 and is headquartered in Manchester, the United Kingdom."
+  "longBusinessSummary": "AJ Bell plc, through its subsidiaries, operates investment platforms in the United Kingdom. The company offers AJ Bell Investcentre, which offers adviser needs and client service, easy-to-use functionality, and a comprehensive investment range at competitive prices; and AJ Bell, an investment platform. It also provides AJ Bell Touch, a mobile-focused platform service for financial advisers; AJ Bell Dodl, an investment platform that offers commission-free service; AJ Bell Investments, which offers investment management solutions through advisers and direct to customers; AJ Bell Securities for wealth management solutions. In addition, the company operates dealing and custody, media, and educational material. The company was founded in 1995 and is headquartered in Manchester, the United Kingdom.",
+  "targetMeanPrice": 662.571,
+  "targetLowPrice": 520.0,
+  "targetHighPrice": 790.0,
+  "numberOfAnalystOpinions": 14,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.13333,
+  "forwardPE": 17.520256,
+  "forwardEps": 0.33818,
+  "trailingEps": 0.3,
+  "earningsGrowth": 0.386,
+  "revenueGrowth": 0.195
  },
  "governance": {
   "ceo": {
@@ -67,8 +78,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-09-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 303080000.0,
+    "official": 303080000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 217452000.0,
+    "official": 217452000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 105121000.0,
+    "official": 105121000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 317847000.0,
+    "official": 317847000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-09-30"
+ },
+ "info_at": "2026-10-10T14:29:13+00:00",
  "years": [
   {
    "fy_end": "2022-09-30",
@@ -99,7 +142,9 @@
    "goodwill_and_intangibles": 15770000.0,
    "retained_earnings": 124886000.0,
    "total_debt": 13961000.0,
-   "shares_out": 411091634.0
+   "shares_out": 411091634.0,
+   "normalized_ebitda": 62822000.0,
+   "normalized_income": 46739000.0
   },
   {
    "fy_end": "2023-09-30",
@@ -130,7 +175,9 @@
    "goodwill_and_intangibles": 14424000.0,
    "retained_earnings": 159399000.0,
    "total_debt": 12406000.0,
-   "shares_out": 411128963.0
+   "shares_out": 411128963.0,
+   "normalized_ebitda": 93401000.0,
+   "normalized_income": 68219000.0
   },
   {
    "fy_end": "2024-09-30",
@@ -161,7 +208,10 @@
    "goodwill_and_intangibles": 14531000.0,
    "retained_earnings": 197024000.0,
    "total_debt": 13177000.0,
-   "shares_out": 412355098.0
+   "shares_out": 412355098.0,
+   "unusual_items": -6239000.0,
+   "normalized_ebitda": 123858000.0,
+   "normalized_income": 88936816.0
   },
   {
    "fy_end": "2025-09-30",
@@ -192,7 +242,10 @@
    "goodwill_and_intangibles": 14985000.0,
    "retained_earnings": 209190000.0,
    "total_debt": 12058000.0,
-   "shares_out": 403467726.0
+   "shares_out": 403467726.0,
+   "unusual_items": -1141000.0,
+   "normalized_ebitda": 143978000.0,
+   "normalized_income": 105991583.0
   }
  ]
 }

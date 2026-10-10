@@ -1,6 +1,6 @@
 {
  "ticker": "DSV.CO",
- "fetched_at": "2026-10-10T11:54:49+00:00",
+ "fetched_at": "2026-10-10T14:43:44+00:00",
  "region": "Europa",
  "statement_currency": "DKK",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.177,
   "heldPercentInstitutions": 0.48405,
   "shortPercentOfFloat": null,
-  "averageVolume": 551768,
+  "averageVolume": 556446,
   "quoteType": "EQUITY",
   "exchange": "CPH",
   "fullTimeEmployees": 147222,
   "website": "https://www.dsv.com",
-  "longBusinessSummary": "DSV A/S offers freight forwarding and logistics services in Europe, the Middle East, Africa, North America, South America, Asia, Australia, and the Pacific. It operates through three segments: Air & Sea, Road, and Solutions. The company provides air freight, charter, and sea-air freight services, as well as unit load devices; sea freight services, including less-than-container load services, sea freight services, break bulk, sea containers, and DSV LCL sailing schedule services; and warehousing, e-commerce fulfilment, supply chain, contract logistics, and logistics solutions. It also offers road freight services, such as full load, part load, and groupage; conventional freight forwarding services and tailored project cargo solutions; and freight management, customs clearance, decarbonising logistics, order management, insurance, and e-commerce solutions. The company serves the automotive, technology, healthcare, energy, industrial, consumer, defense, aerospace, and chemical industries. The company was formerly known as DSV Panalpina A/S and changed its name to DSV A/S in September 2021. DSV A/S was incorporated in 1976 and is based in Hedehusene, Denmark."
+  "longBusinessSummary": "DSV A/S offers freight forwarding and logistics services in Europe, the Middle East, Africa, North America, South America, Asia, Australia, and the Pacific. It operates through three segments: Air & Sea, Road, and Solutions. The company provides air freight, charter, and sea-air freight services, as well as unit load devices; sea freight services, including less-than-container load services, sea freight services, break bulk, sea containers, and DSV LCL sailing schedule services; and warehousing, e-commerce fulfilment, supply chain, contract logistics, and logistics solutions. It also offers road freight services, such as full load, part load, and groupage; conventional freight forwarding services and tailored project cargo solutions; and freight management, customs clearance, decarbonising logistics, order management, insurance, and e-commerce solutions. The company serves the automotive, technology, healthcare, energy, industrial, consumer, defense, aerospace, and chemical industries. The company was formerly known as DSV Panalpina A/S and changed its name to DSV A/S in September 2021. DSV A/S was incorporated in 1976 and is based in Hedehusene, Denmark.",
+  "targetMeanPrice": 1891.75,
+  "targetLowPrice": 1400.0,
+  "targetHighPrice": 2300.0,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.35,
+  "forwardPE": 14.554324,
+  "forwardEps": 80.148,
+  "trailingEps": 30.13,
+  "earningsGrowth": -0.04,
+  "revenueGrowth": 0.237
  },
  "governance": {
   "ceo": {
@@ -69,8 +80,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF DK",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 290373000000.0,
+    "official": 290373000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 117414000000.0,
+    "official": 117414000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 8095000000.0,
+    "official": 8095000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 247331000000.0,
+    "official": 247331000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:43:44+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -102,7 +145,10 @@
    "goodwill_and_intangibles": 77674000000.0,
    "retained_earnings": 70381000000.0,
    "total_debt": 38979000000.0,
-   "shares_out": 216900000.0
+   "shares_out": 216900000.0,
+   "unusual_items": -1117000000.0,
+   "normalized_ebitda": 30788000000.0,
+   "normalized_income": 18418037000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -134,7 +180,10 @@
    "goodwill_and_intangibles": 77106000000.0,
    "retained_earnings": 69202000000.0,
    "total_debt": 40090000000.0,
-   "shares_out": 209160702.0
+   "shares_out": 209160702.0,
+   "unusual_items": 37000000.0,
+   "normalized_ebitda": 23240000000.0,
+   "normalized_income": 12287176000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -166,7 +215,10 @@
    "goodwill_and_intangibles": 77877000000.0,
    "retained_earnings": 113705000000.0,
    "total_debt": 82817000000.0,
-   "shares_out": 234944523.0
+   "shares_out": 234944523.0,
+   "unusual_items": -819000000.0,
+   "normalized_ebitda": 21983000000.0,
+   "normalized_income": 10729802000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -198,7 +250,10 @@
    "goodwill_and_intangibles": 150954000000.0,
    "retained_earnings": 122567000000.0,
    "total_debt": 97935000000.0,
-   "shares_out": 236744523.0
+   "shares_out": 236744523.0,
+   "unusual_items": -4484000000.0,
+   "normalized_ebitda": 29002000000.0,
+   "normalized_income": 11511348000.0
   }
  ]
 }

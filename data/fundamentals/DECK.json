@@ -1,6 +1,6 @@
 {
  "ticker": "DECK",
- "fetched_at": "2026-10-10T12:43:00+00:00",
+ "fetched_at": "2026-10-10T15:41:27+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 6000,
   "website": "https://www.deckers.com",
-  "longBusinessSummary": "Deckers Outdoor Corporation, together with its subsidiaries, designs, markets, and distributes footwear, apparel, and accessories for casual lifestyle use and high-performance activities in the United States and internationally. The company offers footwear, apparel, and accessories under the UGG brand; footwear, such as running, trail, hiking, fitness, and lifestyle shoes, as well as apparel and accessories under the HOKA brand; and sandals, shoes, and boots under the Teva brand name. It also provides a casual footwear fashion line under the Koolaburra brand name; and footwear products under the AHNU brand name. The company sells its products through domestic and international retailers, international distributors, and directly to its consumers through its direct-to-consumer business, which includes e-commerce websites and retail stores. Deckers Outdoor Corporation was founded in 1973 and is headquartered in Goleta, California."
+  "longBusinessSummary": "Deckers Outdoor Corporation, together with its subsidiaries, designs, markets, and distributes footwear, apparel, and accessories for casual lifestyle use and high-performance activities in the United States and internationally. The company offers footwear, apparel, and accessories under the UGG brand; footwear, such as running, trail, hiking, fitness, and lifestyle shoes, as well as apparel and accessories under the HOKA brand; and sandals, shoes, and boots under the Teva brand name. It also provides a casual footwear fashion line under the Koolaburra brand name; and footwear products under the AHNU brand name. The company sells its products through domestic and international retailers, international distributors, and directly to its consumers through its direct-to-consumer business, which includes e-commerce websites and retail stores. Deckers Outdoor Corporation was founded in 1973 and is headquartered in Goleta, California.",
+  "targetMeanPrice": 120.40909,
+  "targetLowPrice": 70.0,
+  "targetHighPrice": 184.0,
+  "numberOfAnalystOpinions": 22,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.44444,
+  "forwardPE": 9.956016,
+  "forwardEps": 8.32562,
+  "trailingEps": 7.07,
+  "earningsGrowth": 0.011,
+  "revenueGrowth": 0.057
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,38 @@
   "retained_earnings": "sec",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-03-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3687765000.0,
+    "official": 3687765000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2499638000.0,
+    "official": 2499638000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1024071000.0,
+    "official": 1024071000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 5472296000.0,
+    "official": 5472296000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:41:27+00:00",
  "years": [
   {
    "fy_end": "2020-03-31",
@@ -195,7 +236,9 @@
    "goodwill_and_intangibles": 51447000.0,
    "retained_earnings": 1571574000.0,
    "total_debt": 246488000.0,
-   "shares_out": 157056000.0
+   "shares_out": 157056000.0,
+   "normalized_ebitda": 716869000.0,
+   "normalized_income": 516822000.0
   },
   {
    "fy_end": "2024-03-31",
@@ -229,7 +272,9 @@
    "goodwill_and_intangibles": 41073000.0,
    "retained_earnings": 1913615000.0,
    "total_debt": 266879000.0,
-   "shares_out": 153558000.0
+   "shares_out": 153558000.0,
+   "normalized_ebitda": 1039092000.0,
+   "normalized_income": 759563000.0
   },
   {
    "fy_end": "2025-03-31",
@@ -263,7 +308,9 @@
    "goodwill_and_intangibles": 29689000.0,
    "retained_earnings": 2307699000.0,
    "total_debt": 276975000.0,
-   "shares_out": 150201000.0
+   "shares_out": 150201000.0,
+   "normalized_ebitda": 1316169000.0,
+   "normalized_income": 966091000.0
   },
   {
    "fy_end": "2026-03-31",
@@ -297,7 +344,9 @@
    "goodwill_and_intangibles": 29633000.0,
    "retained_earnings": 2246362000.0,
    "total_debt": 375194000.0,
-   "shares_out": 139978000.0
+   "shares_out": 139978000.0,
+   "normalized_ebitda": 1404659000.0,
+   "normalized_income": 1024071000.0
   }
  ]
 }

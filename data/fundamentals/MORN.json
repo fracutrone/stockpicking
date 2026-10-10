@@ -1,6 +1,6 @@
 {
  "ticker": "MORN",
- "fetched_at": "2026-10-10T12:51:51+00:00",
+ "fetched_at": "2026-10-10T15:50:00+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 10973,
   "website": "https://www.morningstar.com",
-  "longBusinessSummary": "Morningstar, Inc. provides independent investment insights for investors in the United States, Asia, Australia, Canada, Continental Europe, the United Kingdom, and internationally. It operates through five segments: Morningstar Direct Platform, PitchBook, Morningstar Credit, Morningstar Wealth, and Morningstar Retirement. The company offers managed investments, including mutual funds, exchanged traded funds, separate accounts, collective investment trusts, model portfolios, equities, and fixed-income securities; Morningstar Direct, an investment analysis and reporting application; and Morningstar Advisor Workstation, a suite of tools to provide advice to clients. It also provides PitchBook that offers data and research covering the private capital markets comprising venture capital, private equity and credit, bank loans, and merger and acquisition activities through the PitchBook platform; Morningstar Model Portfolios, an advisor service with model portfolios for fee-based financial advisors; Morningstar International Wealth Platform, which offers discretionary asset management services; and Morningstar Investor/Morningstar.com, an individual investor platform and media site. In addition, the company offers credit ratings, research, data, and credit analytics solutions through Morningstar DBRS and Morningstar Credit Analytics agencies. Further, it provides managed retirement accounts, fiduciary services, and custom models; Morningstar Sustainalytics that provides environmental, social and governance data, research, and ratings; and Morningstar Indexes that offers market indexes used for performance benchmarks and as the basis for investment products and other portfolio strategies. The company was incorporated in 1984 and is headquartered in Chicago, Illinois."
+  "longBusinessSummary": "Morningstar, Inc. provides independent investment insights for investors in the United States, Asia, Australia, Canada, Continental Europe, the United Kingdom, and internationally. It operates through five segments: Morningstar Direct Platform, PitchBook, Morningstar Credit, Morningstar Wealth, and Morningstar Retirement. The company offers managed investments, including mutual funds, exchanged traded funds, separate accounts, collective investment trusts, model portfolios, equities, and fixed-income securities; Morningstar Direct, an investment analysis and reporting application; and Morningstar Advisor Workstation, a suite of tools to provide advice to clients. It also provides PitchBook that offers data and research covering the private capital markets comprising venture capital, private equity and credit, bank loans, and merger and acquisition activities through the PitchBook platform; Morningstar Model Portfolios, an advisor service with model portfolios for fee-based financial advisors; Morningstar International Wealth Platform, which offers discretionary asset management services; and Morningstar Investor/Morningstar.com, an individual investor platform and media site. In addition, the company offers credit ratings, research, data, and credit analytics solutions through Morningstar DBRS and Morningstar Credit Analytics agencies. Further, it provides managed retirement accounts, fiduciary services, and custom models; Morningstar Sustainalytics that provides environmental, social and governance data, research, and ratings; and Morningstar Indexes that offers market indexes used for performance benchmarks and as the basis for investment products and other portfolio strategies. The company was incorporated in 1984 and is headquartered in Chicago, Illinois.",
+  "targetMeanPrice": 236.66667,
+  "targetLowPrice": 220.0,
+  "targetHighPrice": 260.0,
+  "numberOfAnalystOpinions": 3,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.66667,
+  "forwardPE": 14.602769,
+  "forwardEps": 14.00077,
+  "trailingEps": 10.6,
+  "earningsGrowth": 0.354,
+  "revenueGrowth": 0.096
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3590200000.0,
+    "official": 3590200000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1221900000.0,
+    "official": 1221900000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 374200000.0,
+    "official": 374200000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2445500000.0,
+    "official": 2445500000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:50:00+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -197,7 +239,10 @@
    "goodwill_and_intangibles": 2120300000.0,
    "retained_earnings": 1535000000.0,
    "total_debt": 1109600000.0,
-   "shares_out": 42480051.0
+   "shares_out": 42480051.0,
+   "unusual_items": -2100000.0,
+   "normalized_ebitda": 327700000.0,
+   "normalized_income": 72159000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -231,7 +276,10 @@
    "goodwill_and_intangibles": 2063200000.0,
    "retained_earnings": 1610800000.0,
    "total_debt": 972400000.0,
-   "shares_out": 42728182.0
+   "shares_out": 42728182.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 418100000.0,
+   "normalized_income": 141100000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -265,7 +313,10 @@
    "goodwill_and_intangibles": 1970800000.0,
    "retained_earnings": 1909200000.0,
    "total_debt": 698600000.0,
-   "shares_out": 42869380.0
+   "shares_out": 42869380.0,
+   "unusual_items": 109300000.0,
+   "normalized_ebitda": 622300000.0,
+   "normalized_income": 283736983.513128
   },
   {
    "fy_end": "2025-12-31",
@@ -299,7 +350,10 @@
    "goodwill_and_intangibles": 1990100000.0,
    "retained_earnings": 2206200000.0,
    "total_debt": 1072600000.0,
-   "shares_out": 39740881.0
+   "shares_out": 39740881.0,
+   "unusual_items": 22700000.0,
+   "normalized_ebitda": 706200000.0,
+   "normalized_income": 357027154.308617
   }
  ]
 }

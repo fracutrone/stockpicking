@@ -1,6 +1,6 @@
 {
  "ticker": "DLTR",
- "fetched_at": "2026-10-10T12:43:18+00:00",
+ "fetched_at": "2026-10-10T15:41:45+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 150000,
   "website": "https://www.dollartree.com",
-  "longBusinessSummary": "Dollar Tree, Inc. operates retail discount stores under the Dollar Tree and Dollar Tree Canada brands in the United States and Canada. The company offers consumable merchandise comprising everyday consumables, such as household paper and chemicals, food, candy, health, personal care products, and frozen and refrigerated food; variety merchandise consisting of toys, durable housewares, gifts, stationery, party goods, greeting cards, softlines, arts and crafts supplies, and other items; and seasonal goods, including Christmas, Easter, Halloween, and Valentine's Day merchandise. The company was founded in 1986 and is based in Chesapeake, Virginia."
+  "longBusinessSummary": "Dollar Tree, Inc. operates retail discount stores under the Dollar Tree and Dollar Tree Canada brands in the United States and Canada. The company offers consumable merchandise comprising everyday consumables, such as household paper and chemicals, food, candy, health, personal care products, and frozen and refrigerated food; variety merchandise consisting of toys, durable housewares, gifts, stationery, party goods, greeting cards, softlines, arts and crafts supplies, and other items; and seasonal goods, including Christmas, Easter, Halloween, and Valentine's Day merchandise. The company was founded in 1986 and is based in Chesapeake, Virginia.",
+  "targetMeanPrice": 136.15385,
+  "targetLowPrice": 98.0,
+  "targetHighPrice": 170.0,
+  "numberOfAnalystOpinions": 26,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.48276,
+  "forwardPE": 14.998793,
+  "forwardEps": 7.90997,
+  "trailingEps": 8.21,
+  "earningsGrowth": 1.972,
+  "revenueGrowth": 0.07
  },
  "governance": {
   "ceo": {
@@ -84,9 +95,40 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec",
   "receivables": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-01-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 13466200000.0,
+    "official": 13466200000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3754900000.0,
+    "official": 3754900000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1282500000.0,
+    "official": 1282500000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 19411800000.0,
+    "official": 19411800000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:41:45+00:00",
  "years": [
   {
    "fy_end": "2020-02-01",
@@ -163,7 +205,8 @@
    "goodwill": 1984400000.0,
    "intangibles": 3100000000.0,
    "retained_earnings": 6507600000.0,
-   "total_debt": 3417000000.0
+   "total_debt": 3417000000.0,
+   "unusual_items": 0.0
   },
   {
    "fy_end": "2023-01-28",
@@ -196,7 +239,10 @@
    "goodwill_and_intangibles": 5083100000.0,
    "retained_earnings": 8123000000.0,
    "total_debt": 3421600000.0,
-   "shares_out": 221222984.0
+   "shares_out": 221222984.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 2464200000.0,
+   "normalized_income": 1500100000.0
   },
   {
    "fy_end": "2024-02-03",
@@ -229,7 +275,10 @@
    "goodwill_and_intangibles": 423300000.0,
    "retained_earnings": 7124600000.0,
    "total_debt": 3426300000.0,
-   "shares_out": 217907206.0
+   "shares_out": 217907206.0,
+   "unusual_items": -1069000000.0,
+   "normalized_ebitda": 2174900000.0,
+   "normalized_income": 1265800000.0
   },
   {
    "fy_end": "2025-02-01",
@@ -261,7 +310,9 @@
    "goodwill_and_intangibles": 421200000.0,
    "retained_earnings": 3941500000.0,
    "total_debt": 3431200000.0,
-   "shares_out": 215078018.0
+   "shares_out": 215078018.0,
+   "normalized_ebitda": 2018000000.0,
+   "normalized_income": 1042500000.0
   },
   {
    "fy_end": "2026-01-31",
@@ -293,7 +344,9 @@
    "goodwill_and_intangibles": 423200000.0,
    "retained_earnings": 3803600000.0,
    "total_debt": 2431700000.0,
-   "shares_out": 198505205.0
+   "shares_out": 198505205.0,
+   "normalized_ebitda": 2363100000.0,
+   "normalized_income": 1225300000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "A5G.IR",
- "fetched_at": "2026-10-10T12:27:44+00:00",
+ "fetched_at": "2026-10-10T15:31:22+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "ISE",
   "fullTimeEmployees": 10144,
   "website": "https://aib.ie/group",
-  "longBusinessSummary": "AIB Group plc provides banking and financial products and services to personal, business, and corporate customers in the Republic of Ireland, the United Kingdom, and internationally. It operates through Retail Banking, AIB Capital Markets, Climate & Infrastructure Capital, AIB UK, and Group segments. The company offers current and savings accounts, demand deposits, notice deposits, fixed term deposits, junior/student saver deposits, and currency deposits. It also provides personal, car, home improvement, student, SBCI and government, education, business sustainability, and farm and forestry development loans; merger and acquisition, management buyouts, syndicated debt facilities, infrastructure and project, mezzanine, asset, invoice, trade, revolving credit, corporate credit, prompt pay and insurance premium, structured and specialist, and ibanking financing services; mortgages; business and farmer credit line and overdrafts; and mortgages. In addition, the company offers credit and debit cards; investment funds; life, home, car, travel, and business succession insurance products; and pension products. Further, it provides foreign currency and interest rate risk management, cash management, equity investments, private banking services and advice, lending, treasury, trade facilities, asset finance, and invoice discounting services, as well as wealth management and capital markets services. The company was formerly known as Allied Irish Banks, p.l.c. and changed its name to AIB Group plc in December 2017. AIB Group plc was founded in 1825 and is headquartered in Dublin, Ireland."
+  "longBusinessSummary": "AIB Group plc provides banking and financial products and services to personal, business, and corporate customers in the Republic of Ireland, the United Kingdom, and internationally. It operates through Retail Banking, AIB Capital Markets, Climate & Infrastructure Capital, AIB UK, and Group segments. The company offers current and savings accounts, demand deposits, notice deposits, fixed term deposits, junior/student saver deposits, and currency deposits. It also provides personal, car, home improvement, student, SBCI and government, education, business sustainability, and farm and forestry development loans; merger and acquisition, management buyouts, syndicated debt facilities, infrastructure and project, mezzanine, asset, invoice, trade, revolving credit, corporate credit, prompt pay and insurance premium, structured and specialist, and ibanking financing services; mortgages; business and farmer credit line and overdrafts; and mortgages. In addition, the company offers credit and debit cards; investment funds; life, home, car, travel, and business succession insurance products; and pension products. Further, it provides foreign currency and interest rate risk management, cash management, equity investments, private banking services and advice, lending, treasury, trade facilities, asset finance, and invoice discounting services, as well as wealth management and capital markets services. The company was formerly known as Allied Irish Banks, p.l.c. and changed its name to AIB Group plc in December 2017. AIB Group plc was founded in 1825 and is headquartered in Dublin, Ireland.",
+  "targetMeanPrice": 11.47667,
+  "targetLowPrice": 9.0,
+  "targetHighPrice": 12.9,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.61538,
+  "forwardPE": 10.705277,
+  "forwardEps": 0.99904,
+  "trailingEps": 0.96,
+  "earningsGrowth": 0.082,
+  "revenueGrowth": 0.02
  },
  "governance": {
   "ceo": {
@@ -72,8 +83,39 @@
   "intangibles": "yahoo",
   "goodwill_and_intangibles": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 148151000000.0,
+    "official": 148151000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 14702000000.0,
+    "official": 14691000000.0,
+    "diff": 0.000749
+   },
+   "net_income": {
+    "yahoo": 2141000000.0,
+    "official": 2141000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 4508000000.0,
+    "official": 4511000000.0,
+    "diff": 0.000665
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:31:22+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -99,7 +141,9 @@
    "intangibles": 820000000.0,
    "goodwill_and_intangibles": 940000000.0,
    "total_debt": 9096000000.0,
-   "shares_out": 2673428473.0
+   "shares_out": 2673428473.0,
+   "unusual_items": -317000000.0,
+   "normalized_income": 1042473000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -125,7 +169,9 @@
    "intangibles": 797000000.0,
    "goodwill_and_intangibles": 925000000.0,
    "total_debt": 11218000000.0,
-   "shares_out": 2618753655.0
+   "shares_out": 2618753655.0,
+   "unusual_items": -164000000.0,
+   "normalized_income": 2202040000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -151,7 +197,9 @@
    "intangibles": 806000000.0,
    "goodwill_and_intangibles": 934000000.0,
    "total_debt": 10717000000.0,
-   "shares_out": 2328438575.0
+   "shares_out": 2328438575.0,
+   "unusual_items": -83000000.0,
+   "normalized_income": 2426210000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -177,7 +225,9 @@
    "intangibles": 859000000.0,
    "goodwill_and_intangibles": 987000000.0,
    "total_debt": 11050000000.0,
-   "shares_out": 2136766718.0
+   "shares_out": 2136766718.0,
+   "unusual_items": -15000000.0,
+   "normalized_income": 2154380000.0
   }
  ]
 }

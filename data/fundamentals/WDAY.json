@@ -1,6 +1,6 @@
 {
  "ticker": "WDAY",
- "fetched_at": "2026-10-10T13:02:05+00:00",
+ "fetched_at": "2026-10-10T15:59:32+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 20896,
   "website": "https://www.workday.com",
-  "longBusinessSummary": "Workday, Inc. provides enterprise cloud applications in the United States and internationally. The company offers a suite of financial management applications to maintain accounting information; manage financial processes, such as payables and receivables; identify real-time financial, operational, and management insights; perform financial consolidation; reduce time-to-close; promote internal control and auditability; and achieve consistency across finance operations. It also provides spend management solutions that help organizations to streamline supplier selection and contract management, build and execute sourcing events, such as requests for proposals, and manage indirect spend; expense management solutions to submit and approve expenses; and a suite of human capital management applications that enables HR teams to hire, onboard, pay, develop, reskill, and provide employee experiences. In addition, the company offers planning applications. Further, it provides supply chain and inventory solutions to healthcare organizations; solutions to manage the end-to-end student and faculty lifecycle; Workday Extend for customers and their developers to build custom applications. The company serves the professional and business services, financial services, healthcare, manufacturing, media, education, government, technology, media, retail, and hospitality industries. It sells its solutions through its direct sales organization. The company was formerly known as North Tahoe Power Tools, Inc. and changed its name to Workday, Inc. in July 2005. Workday, Inc. was incorporated in 2005 and is headquartered in Pleasanton, California."
+  "longBusinessSummary": "Workday, Inc. provides enterprise cloud applications in the United States and internationally. The company offers a suite of financial management applications to maintain accounting information; manage financial processes, such as payables and receivables; identify real-time financial, operational, and management insights; perform financial consolidation; reduce time-to-close; promote internal control and auditability; and achieve consistency across finance operations. It also provides spend management solutions that help organizations to streamline supplier selection and contract management, build and execute sourcing events, such as requests for proposals, and manage indirect spend; expense management solutions to submit and approve expenses; and a suite of human capital management applications that enables HR teams to hire, onboard, pay, develop, reskill, and provide employee experiences. In addition, the company offers planning applications. Further, it provides supply chain and inventory solutions to healthcare organizations; solutions to manage the end-to-end student and faculty lifecycle; Workday Extend for customers and their developers to build custom applications. The company serves the professional and business services, financial services, healthcare, manufacturing, media, education, government, technology, media, retail, and hospitality industries. It sells its solutions through its direct sales organization. The company was formerly known as North Tahoe Power Tools, Inc. and changed its name to Workday, Inc. in July 2005. Workday, Inc. was incorporated in 2005 and is headquartered in Pleasanton, California.",
+  "targetMeanPrice": 207.99658,
+  "targetLowPrice": 92.0,
+  "targetHighPrice": 275.0,
+  "numberOfAnalystOpinions": 38,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.2619,
+  "forwardPE": 14.100376,
+  "forwardEps": 13.23298,
+  "trailingEps": 4.91,
+  "earningsGrowth": 2.06,
+  "revenueGrowth": 0.128
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-01-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 18074000000.0,
+    "official": 18074000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 7805000000.0,
+    "official": 7805000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 693000000.0,
+    "official": 693000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 9552000000.0,
+    "official": 9552000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:59:32+00:00",
  "years": [
   {
    "fy_end": "2020-01-31",
@@ -191,7 +233,10 @@
    "goodwill_and_intangibles": 3167000000.0,
    "retained_earnings": -3112000000.0,
    "total_debt": 2976000000.0,
-   "shares_out": 263862000.0
+   "shares_out": 263862000.0,
+   "unusual_items": -40000000.0,
+   "normalized_ebitda": 246000000.0,
+   "normalized_income": -335400000.0
   },
   {
    "fy_end": "2024-01-31",
@@ -225,7 +270,10 @@
    "goodwill_and_intangibles": 3105000000.0,
    "retained_earnings": -1731000000.0,
    "total_debt": 2980000000.0,
-   "shares_out": 263862000.0
+   "shares_out": 263862000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 752000000.0,
+   "normalized_income": 1381000000.0
   },
   {
    "fy_end": "2025-01-31",
@@ -259,7 +307,10 @@
    "goodwill_and_intangibles": 3864000000.0,
    "retained_earnings": -1205000000.0,
    "total_debt": 2984000000.0,
-   "shares_out": 266352000.0
+   "shares_out": 266352000.0,
+   "unusual_items": -84000000.0,
+   "normalized_ebitda": 1162000000.0,
+   "normalized_income": 595253918.495298
   },
   {
    "fy_end": "2026-01-31",
@@ -293,7 +344,10 @@
    "goodwill_and_intangibles": 5931000000.0,
    "retained_earnings": -512000000.0,
    "total_debt": 2987000000.0,
-   "shares_out": 259131000.0
+   "shares_out": 259131000.0,
+   "unusual_items": -303000000.0,
+   "normalized_ebitda": 1773000000.0,
+   "normalized_income": 901161000.0
   }
  ]
 }

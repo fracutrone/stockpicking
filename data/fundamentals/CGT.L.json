@@ -1,6 +1,6 @@
 {
  "ticker": "CGT.L",
- "fetched_at": "2026-10-10T11:51:00+00:00",
+ "fetched_at": "2026-10-10T14:39:32+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -47,8 +58,15 @@
   "cash": "yahoo",
   "equity": "yahoo",
   "receivables": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T14:39:32+00:00",
  "years": [
   {
    "fy_end": "2023-03-31",
@@ -65,7 +83,8 @@
    "total_liabilities": 13740000.0,
    "cash": 13766000.0,
    "equity": 1259719000.0,
-   "shares_out": 26258763.0
+   "shares_out": 26258763.0,
+   "normalized_income": -51390000.0
   },
   {
    "fy_end": "2024-03-31",
@@ -82,7 +101,8 @@
    "total_liabilities": 9762000.0,
    "cash": 11643000.0,
    "equity": 1060173000.0,
-   "shares_out": 22038727.0
+   "shares_out": 22038727.0,
+   "normalized_income": 13735000.0
   },
   {
    "fy_end": "2025-03-31",
@@ -99,7 +119,8 @@
    "total_liabilities": 28144000.0,
    "cash": 42859000.0,
    "equity": 885025000.0,
-   "shares_out": 17970762.0
+   "shares_out": 17970762.0,
+   "normalized_income": 35991000.0
   },
   {
    "fy_end": "2026-03-31",
@@ -115,7 +136,8 @@
    "total_liabilities": 2466000.0,
    "cash": 7376000.0,
    "equity": 801311000.0,
-   "shares_out": 15698233.0
+   "shares_out": 15698233.0,
+   "normalized_income": 45388000.0
   }
  ]
 }

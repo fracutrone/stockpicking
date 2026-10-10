@@ -1,6 +1,6 @@
 {
  "ticker": "BVI.PA",
- "fetched_at": "2026-10-10T11:49:11+00:00",
+ "fetched_at": "2026-10-10T14:37:42+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "PAR",
   "fullTimeEmployees": 78849,
   "website": "https://group.bureauveritas.com",
-  "longBusinessSummary": "Bureau Veritas SA provides laboratory testing, inspection, and certification services. It operates through six segments: Marine & Offshore; Agri-Food & Commodities; Industry; Buildings & Infrastructure; Certification; and Consumer Products services. The company engages in inspecting, analyzing, auditing, and certifying the products, assets, and management systems of its clients in relation to regulatory or self-imposed standards, as well as issues compliance reports. It also provides technical services, including asset integrity management for marine and offshore; post accident expertise, risk assessment for the offshore industry, marine accident investigations, pre- and post salvage advice, and refloating of vessels; inspection, audit, certification, and testing services for oil and petrochemicals, metals and minerals, and agri commodities; technical control, code compliance, independent technical assistance, quality assurance/quality control, construction management, and project management assistance; laboratory and on-site testing services for manufacturing and process industries; inspection services for products, services, assets, and installations, as well as various services designed to control quality, verify quantity, and meet regulatory requirements; and certification services for management systems, products, and people. The company serves construction and civil engineering, real estate, transportation, oil and gas, marine and offshore, nuclear, defense, automotive, aerospace, IT, electronics, power and utilities, consumer products, and retail industries, as well as financial services and public sectors. It operates in approximately 140 countries through a network of offices and laboratories. Bureau Veritas SA was founded in 1828 and is headquartered in Neuilly-sur-Seine, France."
+  "longBusinessSummary": "Bureau Veritas SA provides laboratory testing, inspection, and certification services. It operates through six segments: Marine & Offshore; Agri-Food & Commodities; Industry; Buildings & Infrastructure; Certification; and Consumer Products services. The company engages in inspecting, analyzing, auditing, and certifying the products, assets, and management systems of its clients in relation to regulatory or self-imposed standards, as well as issues compliance reports. It also provides technical services, including asset integrity management for marine and offshore; post accident expertise, risk assessment for the offshore industry, marine accident investigations, pre- and post salvage advice, and refloating of vessels; inspection, audit, certification, and testing services for oil and petrochemicals, metals and minerals, and agri commodities; technical control, code compliance, independent technical assistance, quality assurance/quality control, construction management, and project management assistance; laboratory and on-site testing services for manufacturing and process industries; inspection services for products, services, assets, and installations, as well as various services designed to control quality, verify quantity, and meet regulatory requirements; and certification services for management systems, products, and people. The company serves construction and civil engineering, real estate, transportation, oil and gas, marine and offshore, nuclear, defense, automotive, aerospace, IT, electronics, power and utilities, consumer products, and retail industries, as well as financial services and public sectors. It operates in approximately 140 countries through a network of offices and laboratories. Bureau Veritas SA was founded in 1828 and is headquartered in Neuilly-sur-Seine, France.",
+  "targetMeanPrice": 32.83765,
+  "targetLowPrice": 28.5,
+  "targetHighPrice": 36.5,
+  "numberOfAnalystOpinions": 17,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.64706,
+  "forwardPE": 16.499983,
+  "forwardEps": 1.64182,
+  "trailingEps": 1.13,
+  "earningsGrowth": -0.25,
+  "revenueGrowth": 0.02
  },
  "governance": {
   "ceo": {
@@ -76,8 +87,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF FR",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 7063400000.0,
+    "official": 7063400000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1711000000.0,
+    "official": 1711000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 588000000.0,
+    "official": 588000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 6466400000.0,
+    "official": 6466400000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:37:42+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -111,7 +154,10 @@
    "goodwill_and_intangibles": 2536200000.0,
    "retained_earnings": 1807800000.0,
    "total_debt": 3045200000.0,
-   "shares_out": 452271614.0
+   "shares_out": 452271614.0,
+   "unusual_items": 3600000.0,
+   "normalized_ebitda": 1096400000.0,
+   "normalized_income": 464270000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -145,7 +191,10 @@
    "goodwill_and_intangibles": 2487400000.0,
    "retained_earnings": 1881600000.0,
    "total_debt": 2538100000.0,
-   "shares_out": 453630835.0
+   "shares_out": 453630835.0,
+   "unusual_items": 3700000.0,
+   "normalized_ebitda": 1140500000.0,
+   "normalized_income": 501177094.898229
   },
   {
    "fy_end": "2024-12-31",
@@ -178,7 +227,10 @@
    "goodwill_and_intangibles": 2777400000.0,
    "retained_earnings": 1917200000.0,
    "total_debt": 2873200000.0,
-   "shares_out": 448512647.0
+   "shares_out": 448512647.0,
+   "unusual_items": 21300000.0,
+   "normalized_ebitda": 1226500000.0,
+   "normalized_income": 554852100.0
   },
   {
    "fy_end": "2025-12-31",
@@ -210,7 +262,10 @@
    "goodwill_and_intangibles": 2667100000.0,
    "retained_earnings": 1656500000.0,
    "total_debt": 3085400000.0,
-   "shares_out": 443652690.0
+   "shares_out": 443652690.0,
+   "unusual_items": 53700000.0,
+   "normalized_ebitda": 1216600000.0,
+   "normalized_income": 550624800.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "APP",
- "fetched_at": "2026-10-10T12:37:49+00:00",
+ "fetched_at": "2026-10-10T15:34:48+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 876,
   "website": "https://www.applovin.com",
-  "longBusinessSummary": "AppLovin Corporation provides end-to-end artificial intelligence-powered advertising solutions for businesses in the United States and internationally. It operates through two segments, Advertising and Apps. The company offers Axon Ads Manager, a suite of marketing solutions that enables developers to automate, optimize, and manage marketing efforts; MAX, an in-app bidding technology that optimizes the value of a publisher's advertising inventory by running a real-time competitive auction; Adjust, a measurement and analytics marketing platform; and Wurl, a connected TV platform, which distributes streaming video for content companies, provides advertising and publishing solutions. It serves individuals, small and independent businesses, enterprises, advertisers and advertising networks, mobile app publishers, and indie studio developers. The company was incorporated in 2011 and is headquartered in Palo Alto, California."
+  "longBusinessSummary": "AppLovin Corporation provides end-to-end artificial intelligence-powered advertising solutions for businesses in the United States and internationally. It operates through two segments, Advertising and Apps. The company offers Axon Ads Manager, a suite of marketing solutions that enables developers to automate, optimize, and manage marketing efforts; MAX, an in-app bidding technology that optimizes the value of a publisher's advertising inventory by running a real-time competitive auction; Adjust, a measurement and analytics marketing platform; and Wurl, a connected TV platform, which distributes streaming video for content companies, provides advertising and publishing solutions. It serves individuals, small and independent businesses, enterprises, advertisers and advertising networks, mobile app publishers, and indie studio developers. The company was incorporated in 2011 and is headquartered in Palo Alto, California.",
+  "targetMeanPrice": 487.6584,
+  "targetLowPrice": 325.0,
+  "targetHighPrice": 790.0,
+  "numberOfAnalystOpinions": 31,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.57576,
+  "forwardPE": 13.333763,
+  "forwardEps": 20.77733,
+  "trailingEps": 13.01,
+  "earningsGrowth": 0.57,
+  "revenueGrowth": 0.528
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 7259610000.0,
+    "official": 7259610000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2134671000.0,
+    "official": 2134671000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 3333764000.0,
+    "official": 3333751000.0,
+    "diff": 4e-06
+   },
+   "revenue": {
+    "yahoo": 5480717000.0,
+    "official": 5480717000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:34:48+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -148,7 +190,8 @@
    "goodwill": 966427000.0,
    "intangibles": 1709347000.0,
    "retained_earnings": -976954000.0,
-   "total_debt": 3253454000.0
+   "total_debt": 3253454000.0,
+   "unusual_items": 0.0
   },
   {
    "fy_end": "2022-12-31",
@@ -181,7 +224,10 @@
    "goodwill_and_intangibles": 3501415000.0,
    "retained_earnings": -1169700000.0,
    "total_debt": 3245032000.0,
-   "shares_out": 373873683.0
+   "shares_out": 373873683.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 513770000.0,
+   "normalized_income": -192746000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -214,7 +260,9 @@
    "goodwill_and_intangibles": 3135485000.0,
    "retained_earnings": -812989000.0,
    "total_debt": 3335906000.0,
-   "shares_out": 339886712.0
+   "shares_out": 339886712.0,
+   "normalized_ebitda": 1264118000.0,
+   "normalized_income": 457826000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -247,7 +295,9 @@
    "goodwill_and_intangibles": 1930536000.0,
    "retained_earnings": 599204000.0,
    "total_debt": 3508983000.0,
-   "shares_out": 340041739.0
+   "shares_out": 340041739.0,
+   "normalized_ebitda": 2377832000.0,
+   "normalized_income": 1589524000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -280,7 +330,9 @@
    "goodwill_and_intangibles": 1936700000.0,
    "retained_earnings": 1735097000.0,
    "total_debt": 3512987000.0,
-   "shares_out": 338313000.0
+   "shares_out": 338313000.0,
+   "normalized_ebitda": 4354704000.0,
+   "normalized_income": 3433195000.0
   }
  ]
 }

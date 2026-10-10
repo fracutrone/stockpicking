@@ -1,6 +1,6 @@
 {
  "ticker": "GSCT.L",
- "fetched_at": "2026-10-10T12:00:48+00:00",
+ "fetched_at": "2026-10-10T14:52:40+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -49,8 +60,15 @@
   "equity": "yahoo",
   "receivables": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T14:52:40+00:00",
  "years": [
   {
    "fy_end": "2023-04-30",
@@ -70,7 +88,8 @@
    "equity": 859435000.0,
    "receivables": 7994000.0,
    "total_debt": 52027000.0,
-   "shares_out": 524908148.0
+   "shares_out": 524908148.0,
+   "normalized_income": -39760000.0
   },
   {
    "fy_end": "2024-04-30",
@@ -90,7 +109,8 @@
    "equity": 870062000.0,
    "receivables": 3369000.0,
    "total_debt": 51463000.0,
-   "shares_out": 494697816.0
+   "shares_out": 494697816.0,
+   "normalized_income": 67590000.0
   },
   {
    "fy_end": "2025-04-30",
@@ -110,7 +130,8 @@
    "equity": 736815000.0,
    "receivables": 1016000.0,
    "total_debt": 51050000.0,
-   "shares_out": 447443429.0
+   "shares_out": 447443429.0,
+   "normalized_income": -42579000.0
   },
   {
    "fy_end": "2026-04-30",
@@ -130,7 +151,8 @@
    "equity": 820059000.0,
    "receivables": 11056000.0,
    "total_debt": 50700000.0,
-   "shares_out": 418367357.0
+   "shares_out": 418367357.0,
+   "normalized_income": 146757000.0
   }
  ]
 }

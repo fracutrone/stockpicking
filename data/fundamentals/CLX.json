@@ -1,6 +1,6 @@
 {
  "ticker": "CLX",
- "fetched_at": "2026-10-10T12:41:03+00:00",
+ "fetched_at": "2026-10-10T15:39:47+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 9200,
   "website": "https://www.thecloroxcompany.com",
-  "longBusinessSummary": "The Clorox Company manufactures and markets consumer and professional products worldwide. It operates through four segments: Health and Wellness, Household, Lifestyle, and International. The company home care cleaning and disinfecting products and laundry additives, skin sanitization and cleaning products, professional cleaning and disinfecting products, and professional food service products under the Clorox, Clorox2, Pine-Sol, Scentiva, Tilex, Liquid-Plumr, Formula 409, Purell, GOJO, CloroxPro, Clorox Healthcare, Hidden Valley, Poett, Clorinda, and Chux brands. It also provides bags and wraps, cat litter, and grilling products under the Glad, Fresh Step, Scoop Away, Kingsford, and Ever Clean brands; and dressings, dips, seasonings, sauces, water-filtration products, and natural personal care products under the Brita and Burt's Bees brands. The company sells its products through mass retailers; grocery outlets; warehouse clubs; dollar stores; home hardware centers; drug, pet, and military stores; third-party and owned e-commerce channels; distributors; and other retail outlets through direct sales force. The company was founded in 1913 and is headquartered in Oakland, California."
+  "longBusinessSummary": "The Clorox Company manufactures and markets consumer and professional products worldwide. It operates through four segments: Health and Wellness, Household, Lifestyle, and International. The company home care cleaning and disinfecting products and laundry additives, skin sanitization and cleaning products, professional cleaning and disinfecting products, and professional food service products under the Clorox, Clorox2, Pine-Sol, Scentiva, Tilex, Liquid-Plumr, Formula 409, Purell, GOJO, CloroxPro, Clorox Healthcare, Hidden Valley, Poett, Clorinda, and Chux brands. It also provides bags and wraps, cat litter, and grilling products under the Glad, Fresh Step, Scoop Away, Kingsford, and Ever Clean brands; and dressings, dips, seasonings, sauces, water-filtration products, and natural personal care products under the Brita and Burt's Bees brands. The company sells its products through mass retailers; grocery outlets; warehouse clubs; dollar stores; home hardware centers; drug, pet, and military stores; third-party and owned e-commerce channels; distributors; and other retail outlets through direct sales force. The company was founded in 1913 and is headquartered in Oakland, California.",
+  "targetMeanPrice": 99.58824,
+  "targetLowPrice": 74.0,
+  "targetHighPrice": 154.0,
+  "numberOfAnalystOpinions": 17,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.22222,
+  "forwardPE": 13.495517,
+  "forwardEps": 6.20947,
+  "trailingEps": 4.81,
+  "earningsGrowth": -0.501,
+  "revenueGrowth": -0.02
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-06-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 5561000000.0,
+    "official": 5561000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 321000000.0,
+    "official": 321000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 810000000.0,
+    "official": 810000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 7104000000.0,
+    "official": 7104000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:39:47+00:00",
  "years": [
   {
    "fy_end": "2023-06-30",
@@ -119,7 +161,10 @@
    "goodwill_and_intangibles": 1964000000.0,
    "retained_earnings": 583000000.0,
    "total_debt": 2924000000.0,
-   "shares_out": 123820022.0
+   "shares_out": 123820022.0,
+   "unusual_items": -496000000.0,
+   "normalized_ebitda": 1060000000.0,
+   "normalized_income": 484529411.764706
   },
   {
    "fy_end": "2024-06-30",
@@ -153,7 +198,10 @@
    "goodwill_and_intangibles": 1909000000.0,
    "retained_earnings": 250000000.0,
    "total_debt": 2903000000.0,
-   "shares_out": 124201807.0
+   "shares_out": 124201807.0,
+   "unusual_items": -245000000.0,
+   "normalized_ebitda": 968000000.0,
+   "normalized_income": 460075000.0
   },
   {
    "fy_end": "2025-06-30",
@@ -186,7 +234,10 @@
    "goodwill_and_intangibles": 1795000000.0,
    "retained_earnings": 432000000.0,
    "total_debt": 2880000000.0,
-   "shares_out": 122694263.0
+   "shares_out": 122694263.0,
+   "unusual_items": -37000000.0,
+   "normalized_ebitda": 1422000000.0,
+   "normalized_income": 838268000.0
   },
   {
    "fy_end": "2026-06-30",
@@ -220,7 +271,10 @@
    "goodwill_and_intangibles": 3540000000.0,
    "retained_earnings": 386000000.0,
    "total_debt": 5520000000.0,
-   "shares_out": 120926454.0
+   "shares_out": 120926454.0,
+   "unusual_items": 21000000.0,
+   "normalized_ebitda": 1147000000.0,
+   "normalized_income": 571040000.0
   }
  ]
 }

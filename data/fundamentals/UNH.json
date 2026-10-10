@@ -1,6 +1,6 @@
 {
  "ticker": "UNH",
- "fetched_at": "2026-10-10T13:00:53+00:00",
+ "fetched_at": "2026-10-10T15:58:27+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 390000,
   "website": "https://www.unitedhealthgroup.com",
-  "longBusinessSummary": "UnitedHealth Group Incorporated operates as a health care company in the United States and internationally. It operates through four segments: Optum Health, Optum Insight, Optum Rx; and UnitedHealthcare. The Optum Health segment provides care delivery, care management, wellness and consumer engagement, and health financial services with patients, consumers, care delivery systems, providers, employers, payers, and public-sector entities. The Optum Insight segment offers software and information products, advisory consulting arrangements, and managed services outsourcing contracts to hospital systems, physicians, health plans, public entities, life sciences companies and other organizations. The Optum Rx segment provides pharmacy care services and programs, including retail network contracting, home delivery, specialty and community health pharmacy services, infusion, and purchasing and clinical capabilities, as well as develops programs in the areas of step therapy, formulary management, drug adherence, and disease and drug therapy management. The UnitedHealthcare segment offers consumer-oriented health benefit plans and services for national employers, public sector employers, mid-sized employers, small businesses, and individuals; Medicaid plans, including Temporary Assistance to Needy Families; Children's Health Insurance Programs; Dual SNPs; Long-Term Services and Supports; Aged, Blind and Disabled; and other federal, state, and community health care programs. and health care benefits products and services to state programs caring for the economically disadvantaged, medically underserved, and those without the benefit of employer-funded health care coverage. UnitedHealth Group Incorporated was founded in 1974 and is based in Eden Prairie, Minnesota."
+  "longBusinessSummary": "UnitedHealth Group Incorporated operates as a health care company in the United States and internationally. It operates through four segments: Optum Health, Optum Insight, Optum Rx; and UnitedHealthcare. The Optum Health segment provides care delivery, care management, wellness and consumer engagement, and health financial services with patients, consumers, care delivery systems, providers, employers, payers, and public-sector entities. The Optum Insight segment offers software and information products, advisory consulting arrangements, and managed services outsourcing contracts to hospital systems, physicians, health plans, public entities, life sciences companies and other organizations. The Optum Rx segment provides pharmacy care services and programs, including retail network contracting, home delivery, specialty and community health pharmacy services, infusion, and purchasing and clinical capabilities, as well as develops programs in the areas of step therapy, formulary management, drug adherence, and disease and drug therapy management. The UnitedHealthcare segment offers consumer-oriented health benefit plans and services for national employers, public sector employers, mid-sized employers, small businesses, and individuals; Medicaid plans, including Temporary Assistance to Needy Families; Children's Health Insurance Programs; Dual SNPs; Long-Term Services and Supports; Aged, Blind and Disabled; and other federal, state, and community health care programs. and health care benefits products and services to state programs caring for the economically disadvantaged, medically underserved, and those without the benefit of employer-funded health care coverage. UnitedHealth Group Incorporated was founded in 1974 and is based in Eden Prairie, Minnesota.",
+  "targetMeanPrice": 480.6,
+  "targetLowPrice": 380.0,
+  "targetHighPrice": 529.0,
+  "numberOfAnalystOpinions": 25,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.57692,
+  "forwardPE": 16.775621,
+  "forwardEps": 22.61019,
+  "trailingEps": 15.55,
+  "earningsGrowth": 0.615,
+  "revenueGrowth": 0.004
  },
  "governance": {
   "ceo": {
@@ -84,9 +95,40 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "sga": "sec",
   "inventory": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 309581000000.0,
+    "official": 309581000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 94110000000.0,
+    "official": 100090000000.0,
+    "diff": 0.059746
+   },
+   "net_income": {
+    "yahoo": 12056000000.0,
+    "official": 12056000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 447567000000.0,
+    "official": 447567000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:58:27+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -206,7 +248,10 @@
    "goodwill_and_intangibles": 107753000000.0,
    "retained_earnings": 86156000000.0,
    "total_debt": 54513000000.0,
-   "shares_out": 934000000.0
+   "shares_out": 934000000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 31835000000.0,
+   "normalized_income": 20120000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -241,7 +286,10 @@
    "goodwill_and_intangibles": 118926000000.0,
    "retained_earnings": 95774000000.0,
    "total_debt": 58263000000.0,
-   "shares_out": 924000000.0
+   "shares_out": 924000000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 36330000000.0,
+   "normalized_income": 22381000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -276,7 +324,10 @@
    "goodwill_and_intangibles": 130002000000.0,
    "retained_earnings": 96036000000.0,
    "total_debt": 72359000000.0,
-   "shares_out": 915000000.0
+   "shares_out": 915000000.0,
+   "unusual_items": -8310000000.0,
+   "normalized_ebitda": 36386000000.0,
+   "normalized_income": 20712290000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -311,7 +362,10 @@
    "goodwill_and_intangibles": 130973000000.0,
    "retained_earnings": 95603000000.0,
    "total_debt": 72320000000.0,
-   "shares_out": 905838620.0
+   "shares_out": 905838620.0,
+   "unusual_items": -265000000.0,
+   "normalized_ebitda": 23325000000.0,
+   "normalized_income": 12286815000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "BX",
- "fetched_at": "2026-10-10T12:39:39+00:00",
+ "fetched_at": "2026-10-10T15:38:30+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 5285,
   "website": "https://www.blackstone.com",
-  "longBusinessSummary": "Blackstone Inc. is an alternative asset management firm specializing in private equity, venture capital, real estate, hedge fund solutions, credit, secondary funds of funds, public debt and equity and multi-asset class strategies. The firm typically invests in early-stage, seed, middle market, mature, late venture, growth capital, emerging growth, turnaround, and later stage companies. It also provide capital markets services. The real estate segment specializes in opportunistic, core+ investments as well as debt investment opportunities collateralized by commercial real estate, and stabilized income-oriented commercial real estate across North America, Europe and Asia. Within fund of fund investments, it seeks to invest in private equity funds, venture capital funds, mezzanine funds, distressed debt/turnaround funds, secondary investment funds & real estate funds. The firm's corporate private equity business pursues transactions throughout the world across a variety of transaction types, including large buyouts, recapitalization, special situations, distressed mortgage loans, mid-cap buyouts, buy and build platforms, which involves multiple acquisitions behind a single management team and platform, and growth equity/development projects involving significant majority stakes in portfolio companies and minority investments in operating companies, shipping, real estate, corporate or consumer loans, and alternative energy greenfield development projects in energy and power, property, dislocated markets, shipping opportunities, financial institution breakups, re-insurance, and improving freight mobility, financial services, cargo, data processing, oil & gas production, oil & gas refining, oil & gas storage, building products, home entertainment, B2B, consumer electronics, home supply store, lodging, commercial services & supplies, metal & mineral mining machinery, coal, hazardous waste collection, solid waste collection, waste water treatment, renewable electricity, equity REITs, power generation by nuclear & fossil fuels, personal loan services, chemicals, other specialty retail, biotech, pharmaceuticals, metal, aerospace, healthcare, cable, entertainment services, infrastructure services, transportation infrastructure, exhaust, life sciences, alternative carriers, infrastructure, system software, manufacturing services, enterprise tech and consumer, enterprise software & application, as well as consumer technologies. The firm considers investment in Asia, Latin America, Japan, Australia, South Korea, Singapore, Hong Kong, Africa, Middle East, Beijing, Shanghai, India, Belgium, France, Ireland, Luxembourg, Monaco, Netherlands, United Kingdom, North America and South America. It seeks to invest between $0.25 million and $900 million per transaction. It invests in companies with enterprise value between $500 million and $5000 million. It makes equity investments up to $300 million through fund of fund investments. It has a three year investment period. The firm prefers to take majority and minority stakes. Its hedge fund business manages a broad range of commingled and customized fund solutions and its credit business focuses on loans, and securities of non-investment grade companies spread across the capital structure including senior debt, subordinated debt, preferred stock and common equity. Blackstone Inc. through its subsidiary South City Projects (Kolkata) Limited offers residential and commercial real estate development services that include development of township, residential towers, malls, IT parks, stadiums, resorts, hospitals, and schools. Blackstone Inc. was founded in 1985 and is based in New York, New York with additional offices across Asia, Europe, North America and Central America."
+  "longBusinessSummary": "Blackstone Inc. is an alternative asset management firm specializing in private equity, venture capital, real estate, hedge fund solutions, credit, secondary funds of funds, public debt and equity and multi-asset class strategies. The firm typically invests in early-stage, seed, middle market, mature, late venture, growth capital, emerging growth, turnaround, and later stage companies. It also provide capital markets services. The real estate segment specializes in opportunistic, core+ investments as well as debt investment opportunities collateralized by commercial real estate, and stabilized income-oriented commercial real estate across North America, Europe and Asia. Within fund of fund investments, it seeks to invest in private equity funds, venture capital funds, mezzanine funds, distressed debt/turnaround funds, secondary investment funds & real estate funds. The firm's corporate private equity business pursues transactions throughout the world across a variety of transaction types, including large buyouts, recapitalization, special situations, distressed mortgage loans, mid-cap buyouts, buy and build platforms, which involves multiple acquisitions behind a single management team and platform, and growth equity/development projects involving significant majority stakes in portfolio companies and minority investments in operating companies, shipping, real estate, corporate or consumer loans, and alternative energy greenfield development projects in energy and power, property, dislocated markets, shipping opportunities, financial institution breakups, re-insurance, and improving freight mobility, financial services, cargo, data processing, oil & gas production, oil & gas refining, oil & gas storage, building products, home entertainment, B2B, consumer electronics, home supply store, lodging, commercial services & supplies, metal & mineral mining machinery, coal, hazardous waste collection, solid waste collection, waste water treatment, renewable electricity, equity REITs, power generation by nuclear & fossil fuels, personal loan services, chemicals, other specialty retail, biotech, pharmaceuticals, metal, aerospace, healthcare, cable, entertainment services, infrastructure services, transportation infrastructure, exhaust, life sciences, alternative carriers, infrastructure, system software, manufacturing services, enterprise tech and consumer, enterprise software & application, as well as consumer technologies. The firm considers investment in Asia, Latin America, Japan, Australia, South Korea, Singapore, Hong Kong, Africa, Middle East, Beijing, Shanghai, India, Belgium, France, Ireland, Luxembourg, Monaco, Netherlands, United Kingdom, North America and South America. It seeks to invest between $0.25 million and $900 million per transaction. It invests in companies with enterprise value between $500 million and $5000 million. It makes equity investments up to $300 million through fund of fund investments. It has a three year investment period. The firm prefers to take majority and minority stakes. Its hedge fund business manages a broad range of commingled and customized fund solutions and its credit business focuses on loans, and securities of non-investment grade companies spread across the capital structure including senior debt, subordinated debt, preferred stock and common equity. Blackstone Inc. through its subsidiary South City Projects (Kolkata) Limited offers residential and commercial real estate development services that include development of township, residential towers, malls, IT parks, stadiums, resorts, hospitals, and schools. Blackstone Inc. was founded in 1985 and is based in New York, New York with additional offices across Asia, Europe, North America and Central America.",
+  "targetMeanPrice": 141.63635,
+  "targetLowPrice": 119.0,
+  "targetHighPrice": 184.0,
+  "numberOfAnalystOpinions": 22,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.08333,
+  "forwardPE": 15.402093,
+  "forwardEps": 7.42042,
+  "trailingEps": 4.47,
+  "earningsGrowth": 0.573,
+  "revenueGrowth": 0.286
  },
  "governance": {
   "ceo": {
@@ -77,8 +88,37 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 47708975000.0,
+    "official": 47708975000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 8665526000.0,
+    "official": 8665526000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 3019214000.0,
+    "official": 3019214000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 12410012000.0,
+    "official": 14450265000.0,
+    "diff": 0.141191
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:38:31+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -168,7 +208,8 @@
    "goodwill_and_intangibles": 2107489000.0,
    "retained_earnings": 1748106000.0,
    "total_debt": 12491000000.0,
-   "shares_out": 742653758.0
+   "shares_out": 742653758.0,
+   "normalized_income": 1747631000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -195,7 +236,8 @@
    "goodwill_and_intangibles": 2091410000.0,
    "retained_earnings": 660734000.0,
    "total_debt": 11605882000.0,
-   "shares_out": 758039099.0
+   "shares_out": 758039099.0,
+   "normalized_income": 1390880000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -222,7 +264,8 @@
    "goodwill_and_intangibles": 2055445000.0,
    "retained_earnings": 808079000.0,
    "total_debt": 11460168000.0,
-   "shares_out": 768722241.0
+   "shares_out": 768722241.0,
+   "normalized_income": 2776508000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -249,7 +292,8 @@
    "goodwill_and_intangibles": 2021561000.0,
    "retained_earnings": 191641000.0,
    "total_debt": 12576587000.0,
-   "shares_out": 783183010.0
+   "shares_out": 783183010.0,
+   "normalized_income": 3019214000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "SW",
- "fetched_at": "2026-10-10T12:59:05+00:00",
+ "fetched_at": "2026-10-10T15:56:49+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 96000,
   "website": "https://www.smurfitwestrock.com",
-  "longBusinessSummary": "Smurfit Westrock Plc, together with its subsidiaries, manufactures, distributes, and sells containerboard, corrugated containers, and other paper-based packaging products in North America, South America, Europe, Asia, Africa, Australia, and internationally. The company produces containerboard and paperboard; packaging of corrugated containers; consumer packaging; and offers solid board, kraft paper, and graphic board, as well as other packaging products, such as solidboard packaging, paper sacks and bag-in-box. It produces linerboard and corrugated medium and paperboard; and other paper-based packaging, such as folding cartons, inserts, labels and displays. The company primarily serves food and beverage, healthcare, beauty and personal care, garden, consumer goods, industrial, and foodservice markets. It markets its products through its own sales force, independent sales representatives, and independent distributors. Smurfit Westrock Plc was founded in 1934 and is headquartered in Dublin, Ireland."
+  "longBusinessSummary": "Smurfit Westrock Plc, together with its subsidiaries, manufactures, distributes, and sells containerboard, corrugated containers, and other paper-based packaging products in North America, South America, Europe, Asia, Africa, Australia, and internationally. The company produces containerboard and paperboard; packaging of corrugated containers; consumer packaging; and offers solid board, kraft paper, and graphic board, as well as other packaging products, such as solidboard packaging, paper sacks and bag-in-box. It produces linerboard and corrugated medium and paperboard; and other paper-based packaging, such as folding cartons, inserts, labels and displays. The company primarily serves food and beverage, healthcare, beauty and personal care, garden, consumer goods, industrial, and foodservice markets. It markets its products through its own sales force, independent sales representatives, and independent distributors. Smurfit Westrock Plc was founded in 1934 and is headquartered in Dublin, Ireland.",
+  "targetMeanPrice": 56.71875,
+  "targetLowPrice": 46.0,
+  "targetHighPrice": 69.0,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.29412,
+  "forwardPE": 12.022654,
+  "forwardEps": 3.43435,
+  "trailingEps": 0.95,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.011
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 45157000000.0,
+    "official": 45157000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 18327000000.0,
+    "official": 18327000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 699000000.0,
+    "official": 699000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 31179000000.0,
+    "official": 31179000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:56:49+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -119,7 +161,10 @@
    "goodwill_and_intangibles": 2865446278.244271,
    "retained_earnings": 2298147969.415222,
    "total_debt": 4053662773.863527,
-   "shares_out": 259033759.0
+   "shares_out": 259033759.0,
+   "unusual_items": -171000000.0,
+   "normalized_ebitda": 2309000000.0,
+   "normalized_income": 1158112903.225806
   },
   {
    "fy_end": "2023-12-31",
@@ -153,7 +198,10 @@
    "goodwill_and_intangibles": 3060000000.0,
    "retained_earnings": 3521000000.0,
    "total_debt": 3747000000.0,
-   "shares_out": 260354342.0
+   "shares_out": 260354342.0,
+   "unusual_items": -110000000.0,
+   "normalized_ebitda": 1998000000.0,
+   "normalized_income": 904841827.768014
   },
   {
    "fy_end": "2024-12-31",
@@ -187,7 +235,10 @@
    "goodwill_and_intangibles": 7939000000.0,
    "retained_earnings": 2950000000.0,
    "total_debt": 13595000000.0,
-   "shares_out": 520444261.0
+   "shares_out": 520444261.0,
+   "unusual_items": -451000000.0,
+   "normalized_ebitda": 3000000000.0,
+   "normalized_income": 713625000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -221,7 +272,10 @@
    "goodwill_and_intangibles": 8277000000.0,
    "retained_earnings": 2655000000.0,
    "total_debt": 13773000000.0,
-   "shares_out": 522310486.0
+   "shares_out": 522310486.0,
+   "unusual_items": -505000000.0,
+   "normalized_ebitda": 4854000000.0,
+   "normalized_income": 1067145000.0
   }
  ]
 }

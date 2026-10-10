@@ -1,6 +1,6 @@
 {
  "ticker": "PCTY",
- "fetched_at": "2026-10-10T12:55:04+00:00",
+ "fetched_at": "2026-10-10T15:52:50+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 6900,
   "website": "https://www.paylocity.com",
-  "longBusinessSummary": "Paylocity Holding Corporation provides cloud-based human capital management, finance, and IT software solutions in the United States. The company offers payroll solutions comprising payroll and tax services, global payroll, on-demand payment, garnishments, and elevate payroll; human resources (HR) solutions consisting of human resources, employee self-service, workflows and documents, HR compliance dashboard, and elevate HR and HR edge; time and labor solutions, including time and attendance, scheduling, and time collection; and talent solutions, such as recruiting, onboarding, learning, performance, compensation, and market pay. It also provides benefits solutions comprising benefit enrollment and updates, third-party administrative solutions, and retirement; employee experiences consisting of community, video, employee voice, recognition and rewards, data insights, and reporting; and Paylocity for finance solutions, such as headcount planning, expense management, accounts payable automation, corporate cards, and guided procurement. In addition, the company offers Paylocity for IT which includes access management and identity, and asset management; and implementation and training, client services, and tax and regulatory services. It serves for-profit and non-profit organizations across industries, including business services, financial services, healthcare, manufacturing, restaurants, retail, technology, and others. The company markets and sells its products through sales representatives. Paylocity Holding Corporation was founded in 1997 and is headquartered in Schaumburg, Illinois."
+  "longBusinessSummary": "Paylocity Holding Corporation provides cloud-based human capital management, finance, and IT software solutions in the United States. The company offers payroll solutions comprising payroll and tax services, global payroll, on-demand payment, garnishments, and elevate payroll; human resources (HR) solutions consisting of human resources, employee self-service, workflows and documents, HR compliance dashboard, and elevate HR and HR edge; time and labor solutions, including time and attendance, scheduling, and time collection; and talent solutions, such as recruiting, onboarding, learning, performance, compensation, and market pay. It also provides benefits solutions comprising benefit enrollment and updates, third-party administrative solutions, and retirement; employee experiences consisting of community, video, employee voice, recognition and rewards, data insights, and reporting; and Paylocity for finance solutions, such as headcount planning, expense management, accounts payable automation, corporate cards, and guided procurement. In addition, the company offers Paylocity for IT which includes access management and identity, and asset management; and implementation and training, client services, and tax and regulatory services. It serves for-profit and non-profit organizations across industries, including business services, financial services, healthcare, manufacturing, restaurants, retail, technology, and others. The company markets and sells its products through sales representatives. Paylocity Holding Corporation was founded in 1997 and is headquartered in Schaumburg, Illinois.",
+  "targetMeanPrice": 172.2,
+  "targetLowPrice": 128.0,
+  "targetHighPrice": 250.0,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.42857,
+  "forwardPE": 15.83972,
+  "forwardEps": 9.71987,
+  "trailingEps": 4.92,
+  "earningsGrowth": 0.276,
+  "revenueGrowth": 0.11
  },
  "governance": {
   "ceo": {
@@ -82,8 +93,38 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-06-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 4884358000.0,
+    "official": 4884358000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1221417000.0,
+    "official": 1221417000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 269741000.0,
+    "official": 269741000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1771326000.0,
+    "official": 1771326000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:52:50+00:00",
  "years": [
   {
    "fy_end": "2020-06-30",
@@ -190,7 +231,9 @@
    "intangibles": 34527000.0,
    "goodwill_and_intangibles": 222708000.0,
    "retained_earnings": 466690000.0,
-   "shares_out": 55912000.0
+   "shares_out": 55912000.0,
+   "normalized_ebitda": 215892000.0,
+   "normalized_income": 140822000.0
   },
   {
    "fy_end": "2024-06-30",
@@ -221,7 +264,9 @@
    "goodwill_and_intangibles": 253640000.0,
    "retained_earnings": 673456000.0,
    "total_debt": 0,
-   "shares_out": 55514000.0
+   "shares_out": 55514000.0,
+   "normalized_ebitda": 336519000.0,
+   "normalized_income": 206766000.0
   },
   {
    "fy_end": "2025-06-30",
@@ -252,7 +297,9 @@
    "goodwill_and_intangibles": 568088000.0,
    "retained_earnings": 900583000.0,
    "total_debt": 162500000.0,
-   "shares_out": 55366000.0
+   "shares_out": 55366000.0,
+   "normalized_ebitda": 403660000.0,
+   "normalized_income": 227127000.0
   },
   {
    "fy_end": "2026-06-30",
@@ -283,7 +330,9 @@
    "goodwill_and_intangibles": 608698000.0,
    "retained_earnings": 1170324000.0,
    "total_debt": 81250000.0,
-   "shares_out": 53271000.0
+   "shares_out": 53271000.0,
+   "normalized_ebitda": 497790000.0,
+   "normalized_income": 269741000.0
   }
  ]
 }

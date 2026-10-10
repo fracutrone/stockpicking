@@ -1,6 +1,6 @@
 {
  "ticker": "MTO.L",
- "fetched_at": "2026-10-10T12:10:00+00:00",
+ "fetched_at": "2026-10-10T15:06:33+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -11,8 +11,8 @@
   "country": "United Kingdom",
   "currency": "GBp",
   "financialCurrency": "GBP",
-  "marketCap": 2668427008,
-  "sharesOutstanding": 1268263751,
+  "marketCap": 2668587264,
+  "sharesOutstanding": 1268339916,
   "floatShares": 1194162450,
   "heldPercentInsiders": 0.09713,
   "heldPercentInstitutions": 0.73855,
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 52827,
   "website": "https://www.mitie.com",
-  "longBusinessSummary": "Mitie Group plc, together with its subsidiaries, provides facilities management and professional services in the United Kingdom and internationally. It operates through the Business Services, Technical Services, and Corporate Centre segments. The company offers cleaning and hygiene, decarbonization, engineering maintenance, integrated facilities management, landscapes and grounds maintenance, projects, security and intelligence, waste and environmental management, managed water, guest services, and workplace solutions. It serves the central government, critical environments, data centers, defense, education, financial and professional services, healthcare, immigration and justice, life sciences, manufacturing, local government, retail and shopping centers, transport and aviation, and utilities sectors, as well as the media, telecoms, and tech sector. The company was incorporated in 1936 and is headquartered in London, the United Kingdom."
+  "longBusinessSummary": "Mitie Group plc, together with its subsidiaries, provides facilities management and professional services in the United Kingdom and internationally. It operates through the Business Services, Technical Services, and Corporate Centre segments. The company offers cleaning and hygiene, decarbonization, engineering maintenance, integrated facilities management, landscapes and grounds maintenance, projects, security and intelligence, waste and environmental management, managed water, guest services, and workplace solutions. It serves the central government, critical environments, data centers, defense, education, financial and professional services, healthcare, immigration and justice, life sciences, manufacturing, local government, retail and shopping centers, transport and aviation, and utilities sectors, as well as the media, telecoms, and tech sector. The company was incorporated in 1936 and is headquartered in London, the United Kingdom.",
+  "targetMeanPrice": 209.06201,
+  "targetLowPrice": 180.0,
+  "targetHighPrice": 221.0,
+  "numberOfAnalystOpinions": 8,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 12.650312,
+  "forwardEps": 0.16632,
+  "trailingEps": 0.06,
+  "earningsGrowth": -0.254,
+  "revenueGrowth": 0.107
  },
  "governance": {
   "ceo": {
@@ -70,8 +81,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2026-03-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 2544300000.0,
+    "official": 2544300000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 514300000.0,
+    "official": 514300000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 82600000.0,
+    "official": 82600000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 5618600000.0,
+    "official": 5618600000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2026-03-31"
+ },
+ "info_at": "2026-10-10T15:06:33+00:00",
  "years": [
   {
    "fy_end": "2023-03-31",
@@ -105,7 +148,10 @@
    "goodwill_and_intangibles": 564900000.0,
    "retained_earnings": 123300000.0,
    "total_debt": 286000000.0,
-   "shares_out": 1302089479.0
+   "shares_out": 1302089479.0,
+   "unusual_items": -45100000.0,
+   "normalized_ebitda": 235500000.0,
+   "normalized_income": 130066400.0
   },
   {
    "fy_end": "2024-03-31",
@@ -139,7 +185,10 @@
    "goodwill_and_intangibles": 645100000.0,
    "retained_earnings": 157400000.0,
    "total_debt": 321500000.0,
-   "shares_out": 1270442803.0
+   "shares_out": 1270442803.0,
+   "unusual_items": -44500000.0,
+   "normalized_ebitda": 294200000.0,
+   "normalized_income": 163568394.113884
   },
   {
    "fy_end": "2025-03-31",
@@ -173,7 +222,10 @@
    "goodwill_and_intangibles": 664500000.0,
    "retained_earnings": 112300000.0,
    "total_debt": 375100000.0,
-   "shares_out": 1202320171.0
+   "shares_out": 1202320171.0,
+   "unusual_items": -42900000.0,
+   "normalized_ebitda": 312600000.0,
+   "normalized_income": 133383218.707015
   },
   {
    "fy_end": "2026-03-31",
@@ -207,7 +259,10 @@
    "goodwill_and_intangibles": 1019000000.0,
    "retained_earnings": 87900000.0,
    "total_debt": 553400000.0,
-   "shares_out": 1255244764.0
+   "shares_out": 1255244764.0,
+   "unusual_items": -71200000.0,
+   "normalized_ebitda": 360900000.0,
+   "normalized_income": 134576000.0
   }
  ]
 }

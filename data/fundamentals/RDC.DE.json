@@ -1,6 +1,6 @@
 {
  "ticker": "RDC.DE",
- "fetched_at": "2026-10-10T12:15:59+00:00",
+ "fetched_at": "2026-10-10T15:14:34+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "GER",
   "fullTimeEmployees": 2163,
   "website": "https://www.redcare-pharmacy.com",
-  "longBusinessSummary": "Redcare Pharmacy NV operates the online pharmacy business in the Netherlands, Germany, Italy, Belgium, Switzerland, Austria, and France. It offers prescription and non-prescription over-the-counter pharmaceuticals, beauty and personal care products, and food supplements. The company was formerly known as Shop Apotheke Europe N.V. and changed its name to Redcare Pharmacy NV in June 2023. Redcare Pharmacy NV was founded in 2001 and is based in Sevenum, the Netherlands."
+  "longBusinessSummary": "Redcare Pharmacy NV operates the online pharmacy business in the Netherlands, Germany, Italy, Belgium, Switzerland, Austria, and France. It offers prescription and non-prescription over-the-counter pharmaceuticals, beauty and personal care products, and food supplements. The company was formerly known as Shop Apotheke Europe N.V. and changed its name to Redcare Pharmacy NV in June 2023. Redcare Pharmacy NV was founded in 2001 and is based in Sevenum, the Netherlands.",
+  "targetMeanPrice": 88.8,
+  "targetLowPrice": 55.0,
+  "targetHighPrice": 120.0,
+  "numberOfAnalystOpinions": 10,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.8,
+  "forwardPE": 48.081738,
+  "forwardEps": 1.49745,
+  "trailingEps": -2.0,
+  "earningsGrowth": -0.504,
+  "revenueGrowth": 0.203
  },
  "governance": {
   "ceo": {
@@ -77,8 +88,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF NL",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 1214300000.0,
+    "official": 1214300000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 459200000.0,
+    "official": 459200000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -37700000.0,
+    "official": -37700000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2940900000.0,
+    "official": 2940900000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:14:35+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -113,7 +156,10 @@
    "goodwill_and_intangibles": 289005000.0,
    "retained_earnings": -285428000.0,
    "total_debt": 255154000.0,
-   "shares_out": 18199281.0
+   "shares_out": 18199281.0,
+   "unusual_items": -2870000.0,
+   "normalized_ebitda": -33234000.0,
+   "normalized_income": -74996847.965382
   },
   {
    "fy_end": "2023-12-31",
@@ -148,7 +194,10 @@
    "goodwill_and_intangibles": 428107000.0,
    "retained_earnings": -279258000.0,
    "total_debt": 244838000.0,
-   "shares_out": 19885056.0
+   "shares_out": 19885056.0,
+   "unusual_items": 12854000.0,
+   "normalized_ebitda": 38084000.0,
+   "normalized_income": -22439886.0
   },
   {
    "fy_end": "2024-12-31",
@@ -183,7 +232,10 @@
    "goodwill_and_intangibles": 411300000.0,
    "retained_earnings": -324300000.0,
    "total_debt": 246500000.0,
-   "shares_out": 20105402.0
+   "shares_out": 20105402.0,
+   "unusual_items": -35000.0,
+   "normalized_ebitda": 28100000.0,
+   "normalized_income": -45500000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -218,7 +270,9 @@
    "goodwill_and_intangibles": 393500000.0,
    "retained_earnings": -358200000.0,
    "total_debt": 415600000.0,
-   "shares_out": 20111554.0
+   "shares_out": 20111554.0,
+   "normalized_ebitda": 48100000.0,
+   "normalized_income": -37700000.0
   }
  ]
 }

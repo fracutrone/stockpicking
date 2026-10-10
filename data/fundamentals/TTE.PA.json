@@ -1,6 +1,6 @@
 {
  "ticker": "TTE.PA",
- "fetched_at": "2026-10-10T12:23:10+00:00",
+ "fetched_at": "2026-10-10T15:26:19+00:00",
  "region": "Europa",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "PAR",
   "fullTimeEmployees": 94847,
   "website": "https://totalenergies.com",
-  "longBusinessSummary": "TotalEnergies SE, an integrated energy company, produces and markets oil and biofuels, natural gas, biogas and low-carbon hydrogen, renewables, and electricity in France, the United States, Europe, Africa, and internationally. It operates through Exploration & Production, Integrated LNG, Integrated Power, Refining & Chemicals, and Marketing & Services segments. The Exploration & Production segment engages in the activities of exploration and production of oil and natural gas, as well as carbon storage. The Integrated LNG segment is involved in the upstream and midstream LNG activities, as well as biogas and synthetic methane activities, as well as gas trading. The Integrated Power segment engages in the generation, storage, electricity trading, and B2B-B2C distribution of gas and electricity. The Refining & Chemicals segment is involved in the industrial hub activities comprising the activities of refining, petrochemicals and specialty chemicals. This segment also includes the activities of oil supply, trading and marine shipping, as well as hydrogen activities. The Marketing & Services segment engages in the marketing activities in the field of petroleum products, as well as corresponding supply and logistics activities. The company was formerly known as TOTAL SE and changed its name to TotalEnergies SE in June 2021. TotalEnergies SE was incorporated in 1924 and is headquartered in Courbevoie, France."
+  "longBusinessSummary": "TotalEnergies SE, an integrated energy company, produces and markets oil and biofuels, natural gas, biogas and low-carbon hydrogen, renewables, and electricity in France, the United States, Europe, Africa, and internationally. It operates through Exploration & Production, Integrated LNG, Integrated Power, Refining & Chemicals, and Marketing & Services segments. The Exploration & Production segment engages in the activities of exploration and production of oil and natural gas, as well as carbon storage. The Integrated LNG segment is involved in the upstream and midstream LNG activities, as well as biogas and synthetic methane activities, as well as gas trading. The Integrated Power segment engages in the generation, storage, electricity trading, and B2B-B2C distribution of gas and electricity. The Refining & Chemicals segment is involved in the industrial hub activities comprising the activities of refining, petrochemicals and specialty chemicals. This segment also includes the activities of oil supply, trading and marine shipping, as well as hydrogen activities. The Marketing & Services segment engages in the marketing activities in the field of petroleum products, as well as corresponding supply and logistics activities. The company was formerly known as TOTAL SE and changed its name to TotalEnergies SE in June 2021. TotalEnergies SE was incorporated in 1924 and is headquartered in Courbevoie, France.",
+  "targetMeanPrice": 88.60433,
+  "targetLowPrice": 74.070984,
+  "targetHighPrice": 100.033585,
+  "numberOfAnalystOpinions": 22,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.90909,
+  "forwardPE": 8.061211,
+  "forwardEps": 9.741713,
+  "trailingEps": 6.85,
+  "earningsGrowth": 1.06,
+  "revenueGrowth": 0.278
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,40 @@
   "intangibles": "yahoo",
   "goodwill_and_intangibles": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF FR",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 291055000000.0,
+    "official": 291055000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 114883000000.0,
+    "official": 114883000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 13127000000.0,
+    "official": 13127000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 182344000000.0,
+    "official": 201196000000.0,
+    "diff": 0.0937
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:26:19+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -117,7 +160,10 @@
    "intangibles": 2328000000.0,
    "goodwill_and_intangibles": 10978000000.0,
    "total_debt": 57020000000.0,
-   "shares_out": 2481943618.0
+   "shares_out": 2481943618.0,
+   "unusual_items": -854000000.0,
+   "normalized_ebitda": 59896000000.0,
+   "normalized_income": 21166500000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -150,7 +196,10 @@
    "intangibles": 2771000000.0,
    "goodwill_and_intangibles": 12722000000.0,
    "total_debt": 47870000000.0,
-   "shares_out": 2351708622.0
+   "shares_out": 2351708622.0,
+   "unusual_items": 2439000000.0,
+   "normalized_ebitda": 48343000000.0,
+   "normalized_income": 19876922064.864555
   },
   {
    "fy_end": "2024-12-31",
@@ -183,7 +232,10 @@
    "intangibles": 3123000000.0,
    "goodwill_and_intangibles": 14388000000.0,
    "total_debt": 51244000000.0,
-   "shares_out": 2248149843.0
+   "shares_out": 2248149843.0,
+   "unusual_items": 1523000000.0,
+   "normalized_ebitda": 40754000000.0,
+   "normalized_income": 14615750000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -216,7 +268,10 @@
    "intangibles": 4144000000.0,
    "goodwill_and_intangibles": 16645000000.0,
    "total_debt": 60071000000.0,
-   "shares_out": 2142883014.0
+   "shares_out": 2142883014.0,
+   "unusual_items": 1750000000.0,
+   "normalized_ebitda": 37104000000.0,
+   "normalized_income": 11814500000.0
   }
  ]
 }

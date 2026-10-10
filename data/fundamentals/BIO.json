@@ -1,6 +1,6 @@
 {
  "ticker": "BIO",
- "fetched_at": "2026-10-10T12:39:01+00:00",
+ "fetched_at": "2026-10-10T15:37:46+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 7450,
   "website": "https://www.bio-rad.com",
-  "longBusinessSummary": "Bio-Rad Laboratories, Inc. develops, manufactures, and distributes life science research and clinical diagnostic products in the United States, Europe, Asia, Canada, Latin America, and internationally. It operates through two segments, Life Science and Clinical Diagnostics. The Life Science segment develops, manufactures, and markets instruments, systems, reagents, and consumables to separate, purify, characterize, and quantify biological materials, including cells, proteins, and nucleic acids used in research and biopharmaceutical laboratory environments, as well as for biopharmaceutical manufacturing, quality control process, food safety, and science education applications. This segment serves universities and medical schools, industrial research organizations, government agencies, pharmaceutical manufacturers, biotechnology companies, food producers, and testing laboratories. Its Clinical Diagnostics segment designs, manufactures, markets, and supports diagnostic test systems, informatics systems, test kits, and specialized quality controls for clinical, hospital, diagnostic reference, and transfusion and physician office laboratories, as well as software. The company offers its products through its direct commercial organization, as well as through distributors, agents, brokers, and resellers. Bio-Rad Laboratories, Inc. was founded in 1952 and is headquartered in Hercules, California."
+  "longBusinessSummary": "Bio-Rad Laboratories, Inc. develops, manufactures, and distributes life science research and clinical diagnostic products in the United States, Europe, Asia, Canada, Latin America, and internationally. It operates through two segments, Life Science and Clinical Diagnostics. The Life Science segment develops, manufactures, and markets instruments, systems, reagents, and consumables to separate, purify, characterize, and quantify biological materials, including cells, proteins, and nucleic acids used in research and biopharmaceutical laboratory environments, as well as for biopharmaceutical manufacturing, quality control process, food safety, and science education applications. This segment serves universities and medical schools, industrial research organizations, government agencies, pharmaceutical manufacturers, biotechnology companies, food producers, and testing laboratories. Its Clinical Diagnostics segment designs, manufactures, markets, and supports diagnostic test systems, informatics systems, test kits, and specialized quality controls for clinical, hospital, diagnostic reference, and transfusion and physician office laboratories, as well as software. The company offers its products through its direct commercial organization, as well as through distributors, agents, brokers, and resellers. Bio-Rad Laboratories, Inc. was founded in 1952 and is headquartered in Hercules, California.",
+  "targetMeanPrice": 328.33334,
+  "targetLowPrice": 280.0,
+  "targetHighPrice": 390.0,
+  "numberOfAnalystOpinions": 3,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.0,
+  "forwardPE": 36.923687,
+  "forwardEps": 9.91667,
+  "trailingEps": 7.89,
+  "earningsGrowth": 0.187,
+  "revenueGrowth": -0.001
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 10576500000.0,
+    "official": 10576500000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 7453600000.0,
+    "official": 7453600000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 759900000.0,
+    "official": 759900000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2583200000.0,
+    "official": 2583200000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:37:46+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -211,7 +253,10 @@
    "goodwill_and_intangibles": 738600000.0,
    "retained_earnings": 9898203000.0,
    "total_debt": 1197716000.0,
-   "shares_out": 29595713.0
+   "shares_out": 29595713.0,
+   "unusual_items": -5201600000.0,
+   "normalized_ebitda": 672800000.0,
+   "normalized_income": 382933600.0
   },
   {
    "fy_end": "2023-12-31",
@@ -246,7 +291,10 @@
    "goodwill_and_intangibles": 734100000.0,
    "retained_earnings": 9260600000.0,
    "total_debt": 1210100000.0,
-   "shares_out": 28518436.0
+   "shares_out": 28518436.0,
+   "unusual_items": -1241800000.0,
+   "normalized_ebitda": 587000000.0,
+   "normalized_income": 294050000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -281,7 +329,10 @@
    "goodwill_and_intangibles": 704100000.0,
    "retained_earnings": 7416400000.0,
    "total_debt": 1200400000.0,
-   "shares_out": 28011144.0
+   "shares_out": 28011144.0,
+   "unusual_items": -2646200000.0,
+   "normalized_ebitda": 504200000.0,
+   "normalized_income": 239096495.197439
   },
   {
    "fy_end": "2025-12-31",
@@ -316,7 +367,10 @@
    "goodwill_and_intangibles": 754100000.0,
    "retained_earnings": 8176300000.0,
    "total_debt": 1203000000.0,
-   "shares_out": 26990394.0
+   "shares_out": 26990394.0,
+   "unusual_items": 729200000.0,
+   "normalized_ebitda": 480700000.0,
+   "normalized_income": 203276112.506278
   }
  ]
 }

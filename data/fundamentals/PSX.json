@@ -1,6 +1,6 @@
 {
  "ticker": "PSX",
- "fetched_at": "2026-10-10T12:56:07+00:00",
+ "fetched_at": "2026-10-10T15:53:48+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 12600,
   "website": "https://www.phillips66.com",
-  "longBusinessSummary": "Phillips 66 operates as an integrated downstream energy provider in the United States, the United Kingdom, Germany, and internationally. It operates through five segments: Midstream, Chemicals, Refining, Marketing and Specialties (M&S), and Renewable Fuels. The Midstream segment provides crude oil and refined petroleum product transportation, terminaling, and storage services, as well as natural gas and natural gas liquids (NGL) gathering, processing, transportation, fractionation, storage and marketing services. It also exports liquefied petroleum gas. The Chemicals segment produces and markets ethylene and other olefin products; aromatics and styrenics products, such as benzene, cyclohexane, styrene, and polystyrene; various specialty chemical products, including organosulfur chemicals, solvents, catalysts, and chemicals used in drilling and mining; and petrochemicals and plastics. The Refining segment refines crude oil and other feedstocks into petroleum products, such as gasolines and distillates, including aviation fuels. The M&S segment purchases for resale and markets refined products, including gasolines, distillates, and aviation fuels. This segment also manufactures and markets specialty products, such as automotive, commercial, industrial, and specialty lubricants, as well as base oils. The Renewable Fuels segment processes renewable feedstocks into renewable products, as well as supplies sustainable aviation fuel. This segment also procures renewable feedstocks, manages certain regulatory credits, and markets renewable diesel, renewable jet fuel, and other renewable fuels. The company markets its products under the Phillips 66, Conoco and 76, JET, Kendall, Red Line, and other private label brands. Phillips 66 was founded in 1875 and is headquartered in Houston, Texas."
+  "longBusinessSummary": "Phillips 66 operates as an integrated downstream energy provider in the United States, the United Kingdom, Germany, and internationally. It operates through five segments: Midstream, Chemicals, Refining, Marketing and Specialties (M&S), and Renewable Fuels. The Midstream segment provides crude oil and refined petroleum product transportation, terminaling, and storage services, as well as natural gas and natural gas liquids (NGL) gathering, processing, transportation, fractionation, storage and marketing services. It also exports liquefied petroleum gas. The Chemicals segment produces and markets ethylene and other olefin products; aromatics and styrenics products, such as benzene, cyclohexane, styrene, and polystyrene; various specialty chemical products, including organosulfur chemicals, solvents, catalysts, and chemicals used in drilling and mining; and petrochemicals and plastics. The Refining segment refines crude oil and other feedstocks into petroleum products, such as gasolines and distillates, including aviation fuels. The M&S segment purchases for resale and markets refined products, including gasolines, distillates, and aviation fuels. This segment also manufactures and markets specialty products, such as automotive, commercial, industrial, and specialty lubricants, as well as base oils. The Renewable Fuels segment processes renewable feedstocks into renewable products, as well as supplies sustainable aviation fuel. This segment also procures renewable feedstocks, manages certain regulatory credits, and markets renewable diesel, renewable jet fuel, and other renewable fuels. The company markets its products under the Phillips 66, Conoco and 76, JET, Kendall, Red Line, and other private label brands. Phillips 66 was founded in 1875 and is headquartered in Houston, Texas.",
+  "targetMeanPrice": 266.57895,
+  "targetLowPrice": 173.0,
+  "targetHighPrice": 340.0,
+  "numberOfAnalystOpinions": 19,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.2,
+  "forwardPE": 10.204486,
+  "forwardEps": 27.26056,
+  "trailingEps": 17.5,
+  "earningsGrowth": 3.449,
+  "revenueGrowth": 0.531
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 73680000000.0,
+    "official": 73680000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 29093000000.0,
+    "official": 29093000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 4403000000.0,
+    "official": 4403000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 132376000000.0,
+    "official": 132376000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:53:48+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -191,7 +233,10 @@
    "goodwill_and_intangibles": 2317000000.0,
    "retained_earnings": 25432000000.0,
    "total_debt": 16661000000.0,
-   "shares_out": 465843978.0
+   "shares_out": 465843978.0,
+   "unusual_items": 2615000000.0,
+   "normalized_ebitda": 14295000000.0,
+   "normalized_income": 8989198100.96318
   },
   {
    "fy_end": "2023-12-31",
@@ -225,7 +270,10 @@
    "goodwill_and_intangibles": 2470000000.0,
    "retained_earnings": 30550000000.0,
    "total_debt": 17877000000.0,
-   "shares_out": 430464662.0
+   "shares_out": 430464662.0,
+   "unusual_items": 130000000.0,
+   "normalized_ebitda": 12242000000.0,
+   "normalized_income": 6915680000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -259,7 +307,10 @@
    "goodwill_and_intangibles": 2736000000.0,
    "retained_earnings": 30771000000.0,
    "total_debt": 18231000000.0,
-   "shares_out": 408392938.0
+   "shares_out": 408392938.0,
+   "unusual_items": -98000000.0,
+   "normalized_ebitda": 6083000000.0,
+   "normalized_income": 2196682242.990654
   },
   {
    "fy_end": "2025-12-31",
@@ -293,7 +344,10 @@
    "goodwill_and_intangibles": 2410000000.0,
    "retained_earnings": 33239000000.0,
    "total_debt": 18678000000.0,
-   "shares_out": 401138881.0
+   "shares_out": 401138881.0,
+   "unusual_items": 1997000000.0,
+   "normalized_ebitda": 7760000000.0,
+   "normalized_income": 2734657564.575646
   }
  ]
 }

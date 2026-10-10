@@ -1,6 +1,6 @@
 {
  "ticker": "VTR",
- "fetched_at": "2026-10-10T13:01:50+00:00",
+ "fetched_at": "2026-10-10T15:59:17+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 542,
   "website": "https://www.ventasreit.com",
-  "longBusinessSummary": "Ventas, Inc. is an S&P 500 company enabling exceptional environments that benefit a large and growing aging population. With approximately 1,450 properties in North America and the United Kingdom, Ventas occupies an essential role in the longevity economy. The Company's growth is fueled by its more than 900 senior housing communities, which provide valuable services to residents and enable them to thrive in supported environments. Ventas aims to deliver outsized performance by leveraging its operational expertise, data-driven insights from its Ventas OITM platform, extensive relationships and strong financial position. The Ventas portfolio also includes outpatient medical buildings, research centers and healthcare facilities. Ventas, Inc. is based in Illinois, Chicago. Ventas, Inc. was incorporated in 1983 in Maryland."
+  "longBusinessSummary": "Ventas, Inc. is an S&P 500 company enabling exceptional environments that benefit a large and growing aging population. With approximately 1,450 properties in North America and the United Kingdom, Ventas occupies an essential role in the longevity economy. The Company's growth is fueled by its more than 900 senior housing communities, which provide valuable services to residents and enable them to thrive in supported environments. Ventas aims to deliver outsized performance by leveraging its operational expertise, data-driven insights from its Ventas OITM platform, extensive relationships and strong financial position. The Ventas portfolio also includes outpatient medical buildings, research centers and healthcare facilities. Ventas, Inc. is based in Illinois, Chicago. Ventas, Inc. was incorporated in 1983 in Maryland.",
+  "targetMeanPrice": 101.81818,
+  "targetLowPrice": 90.0,
+  "targetHighPrice": 113.0,
+  "numberOfAnalystOpinions": 22,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.56522,
+  "forwardPE": 103.8481,
+  "forwardEps": 0.79,
+  "trailingEps": 0.54,
+  "earningsGrowth": -0.067,
+  "revenueGrowth": 0.217
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 27591945000.0,
+    "official": 27591945000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 12527253000.0,
+    "official": 12527253000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 251381000.0,
+    "official": 261518000.0,
+    "diff": 0.038762
+   },
+   "revenue": {
+    "yahoo": 5833980000.0,
+    "official": 5833980000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:59:17+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -174,7 +216,10 @@
    "goodwill_and_intangibles": 1050808000.0,
    "retained_earnings": -5449385000.0,
    "total_debt": 12699780000.0,
-   "shares_out": 399697000.0
+   "shares_out": 399697000.0,
+   "unusual_items": -23685000.0,
+   "normalized_ebitda": 1644140000.0,
+   "normalized_income": -30691019.99758
   },
   {
    "fy_end": "2023-12-31",
@@ -206,7 +251,10 @@
    "goodwill_and_intangibles": 1050760000.0,
    "retained_earnings": -6213803000.0,
    "total_debt": 13490896000.0,
-   "shares_out": 402101000.0
+   "shares_out": 402101000.0,
+   "unusual_items": 53008000.0,
+   "normalized_ebitda": 1896145000.0,
+   "normalized_income": -81287875.389095
   },
   {
    "fy_end": "2024-12-31",
@@ -238,7 +286,10 @@
    "goodwill_and_intangibles": 1056428000.0,
    "retained_earnings": -6886653000.0,
    "total_debt": 13522551000.0,
-   "shares_out": 437081000.0
+   "shares_out": 437081000.0,
+   "unusual_items": 35953000.0,
+   "normalized_ebitda": 1900744000.0,
+   "normalized_income": 54414753.9
   },
   {
    "fy_end": "2025-12-31",
@@ -270,7 +321,10 @@
    "goodwill_and_intangibles": 1056753000.0,
    "retained_earnings": -7527777000.0,
    "total_debt": 13011016000.0,
-   "shares_out": 474926000.0
+   "shares_out": 474926000.0,
+   "unusual_items": 28334000.0,
+   "normalized_ebitda": 2242748000.0,
+   "normalized_income": 230292003.8
   }
  ]
 }

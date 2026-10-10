@@ -1,6 +1,6 @@
 {
  "ticker": "KNSL",
- "fetched_at": "2026-10-10T12:49:55+00:00",
+ "fetched_at": "2026-10-10T15:48:14+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 711,
   "website": "https://www.kinsalecapitalgroup.com",
-  "longBusinessSummary": "Kinsale Capital Group, Inc. engages in the provision of property and casualty insurance products in the United States. The company's commercial lines offerings include commercial property, excess casualty, general casualty, small business casualty, construction, allied health, small business property, products liability, entertainment, commercial auto, energy, excess professional, life sciences, inland marine, professional liability, environmental, health care, management liability, public entity, agribusiness casualty and property, aviation, ocean marine, and product recall insurance. Its personal lines offerings also include high value homeowners and personal insurance products. The company sells its insurance products in all 50 states, the District of Columbia, the Commonwealth of Puerto Rico, and the U.S. Virgin Islands primarily through a network of independent insurance brokers. Kinsale Capital Group, Inc. was founded in 2009 and is headquartered in Richmond, Virginia."
+  "longBusinessSummary": "Kinsale Capital Group, Inc. engages in the provision of property and casualty insurance products in the United States. The company's commercial lines offerings include commercial property, excess casualty, general casualty, small business casualty, construction, allied health, small business property, products liability, entertainment, commercial auto, energy, excess professional, life sciences, inland marine, professional liability, environmental, health care, management liability, public entity, agribusiness casualty and property, aviation, ocean marine, and product recall insurance. Its personal lines offerings also include high value homeowners and personal insurance products. The company sells its insurance products in all 50 states, the District of Columbia, the Commonwealth of Puerto Rico, and the U.S. Virgin Islands primarily through a network of independent insurance brokers. Kinsale Capital Group, Inc. was founded in 2009 and is headquartered in Richmond, Virginia.",
+  "targetMeanPrice": 349.44443,
+  "targetLowPrice": 264.0,
+  "targetHighPrice": 405.0,
+  "numberOfAnalystOpinions": 9,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.16667,
+  "forwardPE": 15.52816,
+  "forwardEps": 21.70122,
+  "trailingEps": 24.65,
+  "earningsGrowth": 0.34,
+  "revenueGrowth": 0.168
  },
  "governance": {
   "ceo": {
@@ -74,8 +85,37 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 6043561000.0,
+    "official": 6043561000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1959583000.0,
+    "official": 1959583000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 503614000.0,
+    "official": 503614000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1873987000.0,
+    "official": 1873987000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:48:14+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -154,7 +194,8 @@
    "goodwill_and_intangibles": 3538000.0,
    "retained_earnings": 533121000.0,
    "total_debt": 195747000.0,
-   "shares_out": 23090526.0
+   "shares_out": 23090526.0,
+   "normalized_income": 159114000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -178,7 +219,8 @@
    "goodwill_and_intangibles": 3538000.0,
    "retained_earnings": 828247000.0,
    "total_debt": 183846000.0,
-   "shares_out": 23181919.0
+   "shares_out": 23181919.0,
+   "normalized_income": 308093000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -202,7 +244,8 @@
    "goodwill_and_intangibles": 3538000.0,
    "retained_earnings": 1229136000.0,
    "total_debt": 184122000.0,
-   "shares_out": 23272157.0
+   "shares_out": 23272157.0,
+   "normalized_income": 414843000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -226,7 +269,8 @@
    "goodwill_and_intangibles": 3538000.0,
    "retained_earnings": 1716945000.0,
    "total_debt": 224397000.0,
-   "shares_out": 23145751.0
+   "shares_out": 23145751.0,
+   "normalized_income": 503614000.0
   }
  ]
 }

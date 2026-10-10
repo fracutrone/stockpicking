@@ -1,6 +1,6 @@
 {
  "ticker": "CNO",
- "fetched_at": "2026-10-10T12:41:22+00:00",
+ "fetched_at": "2026-10-10T15:40:03+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 3200,
   "website": "https://www.cnoinc.com",
-  "longBusinessSummary": "CNO Financial Group, Inc., through its subsidiaries, develops, markets, and administers health insurance, annuity, individual life insurance and other insurance products, and financial services for middle-income pre-retiree and retired Americans in the United States. It offers Medicare supplement, supplemental health, and long-term care insurance policies; life insurance; and annuities, as well as Medicare advantage plans to individual consumers through phone, virtually, online, and face-to-face with agents. The company also focuses on sale of voluntary benefit life and health insurance products for businesses, associations, and other membership groups by interacting with customers at their place of employment. In addition, it provides fixed indexed annuities; fixed interest annuities, including fixed rate single-premium deferred annuities; flexible premium deferred annuities; single premium immediate annuities; supplemental health products, such as specified disease, accident, and hospital indemnity products; and long-term care plans primarily to retirees, lesser degree, and older self-employed individuals in the middle-income market. Further, the company offers universal life and other interest-sensitive life products; and traditional life policies that include whole life, graded benefit life, term life, and single premium whole life products, as well as graded benefit life insurance products. It markets its products under the Bankers Life, Washington National, and Colonial Penn brand names. The company was founded in 1979 and is headquartered in Carmel, Indiana."
+  "longBusinessSummary": "CNO Financial Group, Inc., through its subsidiaries, develops, markets, and administers health insurance, annuity, individual life insurance and other insurance products, and financial services for middle-income pre-retiree and retired Americans in the United States. It offers Medicare supplement, supplemental health, and long-term care insurance policies; life insurance; and annuities, as well as Medicare advantage plans to individual consumers through phone, virtually, online, and face-to-face with agents. The company also focuses on sale of voluntary benefit life and health insurance products for businesses, associations, and other membership groups by interacting with customers at their place of employment. In addition, it provides fixed indexed annuities; fixed interest annuities, including fixed rate single-premium deferred annuities; flexible premium deferred annuities; single premium immediate annuities; supplemental health products, such as specified disease, accident, and hospital indemnity products; and long-term care plans primarily to retirees, lesser degree, and older self-employed individuals in the middle-income market. Further, the company offers universal life and other interest-sensitive life products; and traditional life policies that include whole life, graded benefit life, term life, and single premium whole life products, as well as graded benefit life insurance products. It markets its products under the Bankers Life, Washington National, and Colonial Penn brand names. The company was founded in 1979 and is headquartered in Carmel, Indiana.",
+  "targetMeanPrice": 54.75,
+  "targetLowPrice": 52.0,
+  "targetHighPrice": 57.0,
+  "numberOfAnalystOpinions": 4,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.0,
+  "forwardPE": 10.46406,
+  "forwardEps": 5.064,
+  "trailingEps": 2.89,
+  "earningsGrowth": 0.462,
+  "revenueGrowth": 0.116
  },
  "governance": {
   "ceo": {
@@ -73,9 +84,39 @@
   "retained_earnings": "sec",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "operating_income": "sec",
   "goodwill": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 38790600000.0,
+    "official": 38790600000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2638200000.0,
+    "official": 2638200000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 229300000.0,
+    "official": 229300000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 4487400000.0,
+    "official": 4487400000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:40:03+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -149,7 +190,9 @@
    "receivables": 4223400000.0,
    "retained_earnings": 1691200000.0,
    "total_debt": 3882900000.0,
-   "shares_out": 114343070.0
+   "shares_out": 114343070.0,
+   "unusual_items": 0.0,
+   "normalized_income": 630600000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -172,7 +215,9 @@
    "receivables": 4040700000.0,
    "retained_earnings": 1899800000.0,
    "total_debt": 4150600000.0,
-   "shares_out": 109357540.0
+   "shares_out": 109357540.0,
+   "unusual_items": 0.0,
+   "normalized_income": 276500000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -195,7 +240,9 @@
    "receivables": 3854700000.0,
    "retained_earnings": 2253100000.0,
    "total_debt": 4519900000.0,
-   "shares_out": 101618957.0
+   "shares_out": 101618957.0,
+   "unusual_items": 3900000.0,
+   "normalized_income": 417758000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -218,7 +265,9 @@
    "receivables": 3677500000.0,
    "retained_earnings": 2416000000.0,
    "total_debt": 4051700000.0,
-   "shares_out": 94484339.0
+   "shares_out": 94484339.0,
+   "unusual_items": -100400000.0,
+   "normalized_income": 307712400.0
   }
  ]
 }

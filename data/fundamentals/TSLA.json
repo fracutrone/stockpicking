@@ -1,6 +1,6 @@
 {
  "ticker": "TSLA",
- "fetched_at": "2026-10-10T13:00:14+00:00",
+ "fetched_at": "2026-10-10T15:57:50+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 134785,
   "website": "https://www.tesla.com",
-  "longBusinessSummary": "Tesla, Inc. designs, develops, manufactures, leases, and sells electric vehicles, and energy generation and storage systems in the United States, China, and internationally. The company operates in two segments, Automotive; and Energy Generation and Storage. The company offers electric vehicles, as well as sells automotive regulatory credits; and non-warranty maintenance services and collision, automotive insurance services, as well as part sales and retail merchandise sale. It also provides sedans and sport utility vehicles through direct and used vehicle sales, a network of Tesla Superchargers, and in-app upgrades; purchase financing and leasing services; services for electric vehicles through its company-owned service locations and Tesla mobile service technicians; and vehicle limited warranties and extended service plans. In addition, the company engages in the design, manufacture, installation, sale, and leasing of solar energy generation and energy storage products, and related services to residential, commercial, and industrial customers and utilities through its website, stores, and galleries, as well as through a network of channel partners. Further, it provides services and repairs to its energy product customers, including under warranty and extended service plans; and various financing options to its residential customers; lithium-ion battery energy storage products, such as Powerwall and Megapack; energy generation products, including solar panels and solar roof; self-driving development and artificial intelligence software, vehicle control and infotainment software, and battery and powertrain. The company was formerly known as Tesla Motors, Inc. and changed its name to Tesla, Inc. in February 2017. Tesla, Inc. was incorporated in 2003 and is headquartered in Austin, Texas."
+  "longBusinessSummary": "Tesla, Inc. designs, develops, manufactures, leases, and sells electric vehicles, and energy generation and storage systems in the United States, China, and internationally. The company operates in two segments, Automotive; and Energy Generation and Storage. The company offers electric vehicles, as well as sells automotive regulatory credits; and non-warranty maintenance services and collision, automotive insurance services, as well as part sales and retail merchandise sale. It also provides sedans and sport utility vehicles through direct and used vehicle sales, a network of Tesla Superchargers, and in-app upgrades; purchase financing and leasing services; services for electric vehicles through its company-owned service locations and Tesla mobile service technicians; and vehicle limited warranties and extended service plans. In addition, the company engages in the design, manufacture, installation, sale, and leasing of solar energy generation and energy storage products, and related services to residential, commercial, and industrial customers and utilities through its website, stores, and galleries, as well as through a network of channel partners. Further, it provides services and repairs to its energy product customers, including under warranty and extended service plans; and various financing options to its residential customers; lithium-ion battery energy storage products, such as Powerwall and Megapack; energy generation products, including solar panels and solar roof; self-driving development and artificial intelligence software, vehicle control and infotainment software, and battery and powertrain. The company was formerly known as Tesla Motors, Inc. and changed its name to Tesla, Inc. in February 2017. Tesla, Inc. was incorporated in 2003 and is headquartered in Austin, Texas.",
+  "targetMeanPrice": 396.56894,
+  "targetLowPrice": 128.11,
+  "targetHighPrice": 600.0,
+  "numberOfAnalystOpinions": 38,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.36364,
+  "forwardPE": 175.3534,
+  "forwardEps": 2.18245,
+  "trailingEps": 1.08,
+  "earningsGrowth": -0.03,
+  "revenueGrowth": 0.255
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 137806000000.0,
+    "official": 137806000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 82137000000.0,
+    "official": 82137000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 3794000000.0,
+    "official": 3794000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 94827000000.0,
+    "official": 94827000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:57:50+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -206,7 +248,10 @@
    "goodwill_and_intangibles": 593000000.0,
    "retained_earnings": 12885000000.0,
    "total_debt": 1029000000.0,
-   "shares_out": 3164000000.0
+   "shares_out": 3164000000.0,
+   "unusual_items": -176000000.0,
+   "normalized_ebitda": 17833000000.0,
+   "normalized_income": 12744920000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -241,7 +286,10 @@
    "goodwill_and_intangibles": 615000000.0,
    "retained_earnings": 27882000000.0,
    "total_debt": 2682000000.0,
-   "shares_out": 3185000000.0
+   "shares_out": 3185000000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 14796000000.0,
+   "normalized_income": 14999000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -276,7 +324,10 @@
    "goodwill_and_intangibles": 1470000000.0,
    "retained_earnings": 35209000000.0,
    "total_debt": 5535000000.0,
-   "shares_out": 3216000000.0
+   "shares_out": 3216000000.0,
+   "unusual_items": -684000000.0,
+   "normalized_ebitda": 15392000000.0,
+   "normalized_income": 7677200000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -311,7 +362,10 @@
    "goodwill_and_intangibles": 1389000000.0,
    "retained_earnings": 39003000000.0,
    "total_debt": 6584000000.0,
-   "shares_out": 3751000000.0
+   "shares_out": 3751000000.0,
+   "unusual_items": -494000000.0,
+   "normalized_ebitda": 12258000000.0,
+   "normalized_income": 4154620000.0
   }
  ]
 }

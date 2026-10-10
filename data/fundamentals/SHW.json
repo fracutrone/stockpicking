@@ -1,6 +1,6 @@
 {
  "ticker": "SHW",
- "fetched_at": "2026-10-10T12:57:56+00:00",
+ "fetched_at": "2026-10-10T15:55:31+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 64249,
   "website": "https://www.sherwin-williams.com",
-  "longBusinessSummary": "The Sherwin-Williams Company engages in the development, manufacture, distribution, and sale of paint, coatings, and related products to professional, industrial, commercial and retail customers. The company operates through three segments: Paint Stores Group, Consumer Brands Group, and Performance Coatings Group. The Paint Stores Group segment offers architectural paint and coatings; protective and marine products; and OEM product finishes and related products for architectural and industrial paint contractors, and do-it-yourself homeowners under the Sherwin-Williams brand. The Consumer Brands Group segment supplies a portfolio of branded and private-label architectural paints, stains, varnishes, industrial products, wood finishes products, wood preservatives, applicators, corrosion inhibitors, aerosols, caulks, and adhesives to retailers, including home centers and hardware stores, and dedicated dealers and distributors. The Performance Coatings Group segment develops and sells industrial coatings for wood finishing and general industrial applications; automotive refinish products; protective and marine coatings; coil coatings; packaging coatings; and performance-based resins and colorants. This segment serves retailers, dealers, jobbers, licensees, and other third-party distributors. The company operates in North America, South America, the Caribbean, Europe, Asia, and Australia. The Sherwin-Williams Company was founded in 1866 and is headquartered in Cleveland, Ohio."
+  "longBusinessSummary": "The Sherwin-Williams Company engages in the development, manufacture, distribution, and sale of paint, coatings, and related products to professional, industrial, commercial and retail customers. The company operates through three segments: Paint Stores Group, Consumer Brands Group, and Performance Coatings Group. The Paint Stores Group segment offers architectural paint and coatings; protective and marine products; and OEM product finishes and related products for architectural and industrial paint contractors, and do-it-yourself homeowners under the Sherwin-Williams brand. The Consumer Brands Group segment supplies a portfolio of branded and private-label architectural paints, stains, varnishes, industrial products, wood finishes products, wood preservatives, applicators, corrosion inhibitors, aerosols, caulks, and adhesives to retailers, including home centers and hardware stores, and dedicated dealers and distributors. The Performance Coatings Group segment develops and sells industrial coatings for wood finishing and general industrial applications; automotive refinish products; protective and marine coatings; coil coatings; packaging coatings; and performance-based resins and colorants. This segment serves retailers, dealers, jobbers, licensees, and other third-party distributors. The company operates in North America, South America, the Caribbean, Europe, Asia, and Australia. The Sherwin-Williams Company was founded in 1866 and is headquartered in Cleveland, Ohio.",
+  "targetMeanPrice": 384.65216,
+  "targetLowPrice": 340.0,
+  "targetHighPrice": 420.0,
+  "numberOfAnalystOpinions": 23,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.03571,
+  "forwardPE": 23.581238,
+  "forwardEps": 13.54297,
+  "trailingEps": 10.85,
+  "earningsGrowth": 0.143,
+  "revenueGrowth": 0.075
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 25901700000.0,
+    "official": 25901700000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4598300000.0,
+    "official": 4598300000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2568500000.0,
+    "official": 2568500000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 23574300000.0,
+    "official": 23574300000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:55:31+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -200,7 +242,10 @@
    "goodwill_and_intangibles": 11585200000.0,
    "retained_earnings": 3523200000.0,
    "total_debt": 10569700000.0,
-   "shares_out": 258875999.0
+   "shares_out": 258875999.0,
+   "unusual_items": -41000000.0,
+   "normalized_ebitda": 3586000000.0,
+   "normalized_income": 2052288449.729898
   },
   {
    "fy_end": "2023-12-31",
@@ -234,7 +279,10 @@
    "goodwill_and_intangibles": 11506500000.0,
    "retained_earnings": 5288300000.0,
    "total_debt": 9850900000.0,
-   "shares_out": 254543290.0
+   "shares_out": 254543290.0,
+   "unusual_items": -109100000.0,
+   "normalized_ebitda": 4259000000.0,
+   "normalized_income": 2472588800.0
   },
   {
    "fy_end": "2024-12-31",
@@ -268,7 +316,10 @@
    "goodwill_and_intangibles": 11113300000.0,
    "retained_earnings": 7246300000.0,
    "total_debt": 9888400000.0,
-   "shares_out": 251291100.0
+   "shares_out": 251291100.0,
+   "unusual_items": 62900000.0,
+   "normalized_ebitda": 4428600000.0,
+   "normalized_income": 2632526700.0
   },
   {
    "fy_end": "2025-12-31",
@@ -302,7 +353,10 @@
    "goodwill_and_intangibles": 12002700000.0,
    "retained_earnings": 1029400000.0,
    "total_debt": 10871300000.0,
-   "shares_out": 247701463.0
+   "shares_out": 247701463.0,
+   "unusual_items": -19300000.0,
+   "normalized_ebitda": 4499400000.0,
+   "normalized_income": 2583341700.0
   }
  ]
 }

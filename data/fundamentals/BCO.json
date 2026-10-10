@@ -1,6 +1,6 @@
 {
  "ticker": "BCO",
- "fetched_at": "2026-10-10T12:38:45+00:00",
+ "fetched_at": "2026-10-10T15:37:14+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 63600,
   "website": "https://www.brinks.com",
-  "longBusinessSummary": "The Brink's Company provides cash and valuables management, digital retail solutions (DRS), and automated teller machines (ATM) managed services in North America, Latin America, Europe, and internationally. The company offers cash-in-transit services, such as armored vehicle transportation of cash and coin; cash replenishment and treasury management of automated teller machines; international transportation, pick-up, packaging, customs clearance, secure vault storage, and inventory management of high-value commodities and goods; and counting, sorting, wrapping, check imaging, cashier balancing, counterfeit detection, account consolidation, and electronic reporting cash management services. It also provides vaulting services, including CIT services, cash management, vaulting, and electronic reporting technologies for banks; guarding, commercial security, and payment services; devices, software, analytics, and services for cash management needs, as well as services under the Complete and CompuSafe brands; and ATM management comprising cash forecasting, cash optimization, ATM remote monitoring, service call dispatching, transaction processing, first and second line maintenance, parts provisioning, funds settlements, and installation services. The company was formerly known as The Pittston Company and changed its name to The Brink's Company in May 2003. The Brink's Company was founded in 1859 and is headquartered in Richmond, Virginia."
+  "longBusinessSummary": "The Brink's Company provides cash and valuables management, digital retail solutions (DRS), and automated teller machines (ATM) managed services in North America, Latin America, Europe, and internationally. The company offers cash-in-transit services, such as armored vehicle transportation of cash and coin; cash replenishment and treasury management of automated teller machines; international transportation, pick-up, packaging, customs clearance, secure vault storage, and inventory management of high-value commodities and goods; and counting, sorting, wrapping, check imaging, cashier balancing, counterfeit detection, account consolidation, and electronic reporting cash management services. It also provides vaulting services, including CIT services, cash management, vaulting, and electronic reporting technologies for banks; guarding, commercial security, and payment services; devices, software, analytics, and services for cash management needs, as well as services under the Complete and CompuSafe brands; and ATM management comprising cash forecasting, cash optimization, ATM remote monitoring, service call dispatching, transaction processing, first and second line maintenance, parts provisioning, funds settlements, and installation services. The company was formerly known as The Pittston Company and changed its name to The Brink's Company in May 2003. The Brink's Company was founded in 1859 and is headquartered in Richmond, Virginia.",
+  "targetMeanPrice": 146.33333,
+  "targetLowPrice": 138.0,
+  "targetHighPrice": 163.0,
+  "numberOfAnalystOpinions": 3,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.0,
+  "forwardPE": 9.987125,
+  "forwardEps": 10.35333,
+  "trailingEps": 4.31,
+  "earningsGrowth": 0.041,
+  "revenueGrowth": 0.071
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 7339200000.0,
+    "official": 7339200000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 277700000.0,
+    "official": 277700000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 199700000.0,
+    "official": 199700000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 5261200000.0,
+    "official": 5261200000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:37:14+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -196,7 +238,10 @@
    "goodwill_and_intangibles": 1986400000.0,
    "retained_earnings": 417200000.0,
    "total_debt": 3402800000.0,
-   "shares_out": 46300000.0
+   "shares_out": 46300000.0,
+   "unusual_items": -38400000.0,
+   "normalized_ebitda": 649200000.0,
+   "normalized_income": 204872800.0
   },
   {
    "fy_end": "2023-12-31",
@@ -230,7 +275,10 @@
    "goodwill_and_intangibles": 1962100000.0,
    "retained_earnings": 333000000.0,
    "total_debt": 3531300000.0,
-   "shares_out": 44500000.0
+   "shares_out": 44500000.0,
+   "unusual_items": -83300000.0,
+   "normalized_ebitda": 798700000.0,
+   "normalized_income": 151807000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -264,7 +312,10 @@
    "goodwill_and_intangibles": 1857200000.0,
    "retained_earnings": 285400000.0,
    "total_debt": 3896200000.0,
-   "shares_out": 42900000.0
+   "shares_out": 42900000.0,
+   "unusual_items": 7500000.0,
+   "normalized_ebitda": 787500000.0,
+   "normalized_income": 156910777.318813
   },
   {
    "fy_end": "2025-12-31",
@@ -298,7 +349,10 @@
    "goodwill_and_intangibles": 1900500000.0,
    "retained_earnings": 270100000.0,
    "total_debt": 4214300000.0,
-   "shares_out": 41100000.0
+   "shares_out": 41100000.0,
+   "unusual_items": -16300000.0,
+   "normalized_ebitda": 906500000.0,
+   "normalized_income": 209880000.0
   }
  ]
 }

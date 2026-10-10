@@ -1,6 +1,6 @@
 {
  "ticker": "NOVT",
- "fetched_at": "2026-10-10T12:53:07+00:00",
+ "fetched_at": "2026-10-10T15:51:07+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 3000,
   "website": "https://www.novanta.com",
-  "longBusinessSummary": "Novanta Inc., together with its subsidiaries, provides precision medicine, precision manufacturing, medical solutions, robotics and automation solutions, and advanced surgery solutions in the United States and internationally. The company operates Automation Enabling Technologies and Medical Solutions segments. The Precision Medicine and Manufacturing segment designs, manufactures, and markets laser beam steering and scanning solutions, laser sources, robotic and precision motion, robotic end-of-arm tooling, and bearing spindles. This segment serves advanced industrial processes, advanced industrial and medical robotics, other medical and life science automation applications, and medical laser procedures, such as ophthalmology applications. The Medical Solutions segment provides a range of medical grade technologies, including medical insufflators, pumps, and related disposables; imaging, identification and RFID solutions; advanced motion control solutions; and light engines, and integrated operating room technologies. The company was formerly known as GSI Group, Inc. and changed its name to Novanta Inc. in May 2016. Novanta Inc. was incorporated in 1968 and is based in Bedford, Massachusetts."
+  "longBusinessSummary": "Novanta Inc., together with its subsidiaries, provides precision medicine, precision manufacturing, medical solutions, robotics and automation solutions, and advanced surgery solutions in the United States and internationally. The company operates Automation Enabling Technologies and Medical Solutions segments. The Precision Medicine and Manufacturing segment designs, manufactures, and markets laser beam steering and scanning solutions, laser sources, robotic and precision motion, robotic end-of-arm tooling, and bearing spindles. This segment serves advanced industrial processes, advanced industrial and medical robotics, other medical and life science automation applications, and medical laser procedures, such as ophthalmology applications. The Medical Solutions segment provides a range of medical grade technologies, including medical insufflators, pumps, and related disposables; imaging, identification and RFID solutions; advanced motion control solutions; and light engines, and integrated operating room technologies. The company was formerly known as GSI Group, Inc. and changed its name to Novanta Inc. in May 2016. Novanta Inc. was incorporated in 1968 and is based in Bedford, Massachusetts.",
+  "targetMeanPrice": 194.5,
+  "targetLowPrice": 194.0,
+  "targetHighPrice": 195.0,
+  "numberOfAnalystOpinions": 2,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.33333,
+  "forwardPE": 32.35417,
+  "forwardEps": 4.36667,
+  "trailingEps": 1.58,
+  "earningsGrowth": 1.5,
+  "revenueGrowth": 0.103
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "interest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 1807106000.0,
+    "official": 1807106000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1314287000.0,
+    "official": 1314287000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 53829000.0,
+    "official": 53829000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 980600000.0,
+    "official": 980600000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:51:07+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -202,7 +244,10 @@
    "goodwill_and_intangibles": 654663000.0,
    "retained_earnings": 130584000.0,
    "total_debt": 435462000.0,
-   "shares_out": 35711000.0
+   "shares_out": 35711000.0,
+   "unusual_items": -4317000.0,
+   "normalized_ebitda": 164938000.0,
+   "normalized_income": 77720450.0
   },
   {
    "fy_end": "2023-12-31",
@@ -235,7 +280,10 @@
    "goodwill_and_intangibles": 629529000.0,
    "retained_earnings": 203462000.0,
    "total_debt": 354372000.0,
-   "shares_out": 35814000.0
+   "shares_out": 35814000.0,
+   "unusual_items": -13069000.0,
+   "normalized_ebitda": 182991000.0,
+   "normalized_income": 84248030.0
   },
   {
    "fy_end": "2024-12-31",
@@ -268,7 +316,10 @@
    "goodwill_and_intangibles": 769942000.0,
    "retained_earnings": 267549000.0,
    "total_debt": 416640000.0,
-   "shares_out": 35938000.0
+   "shares_out": 35938000.0,
+   "unusual_items": -13296000.0,
+   "normalized_ebitda": 193152000.0,
+   "normalized_income": 74864081.83037
   },
   {
    "fy_end": "2025-12-31",
@@ -301,7 +352,10 @@
    "goodwill_and_intangibles": 828124000.0,
    "retained_earnings": 321378000.0,
    "total_debt": 250829000.0,
-   "shares_out": 35671000.0
+   "shares_out": 35671000.0,
+   "unusual_items": -24842000.0,
+   "normalized_ebitda": 203438000.0,
+   "normalized_income": 73030344.275006
   }
  ]
 }

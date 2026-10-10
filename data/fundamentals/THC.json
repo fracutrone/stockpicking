@@ -1,6 +1,6 @@
 {
  "ticker": "THC",
- "fetched_at": "2026-10-10T12:59:37+00:00",
+ "fetched_at": "2026-10-10T15:57:18+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 77000,
   "website": "https://www.tenethealth.com",
-  "longBusinessSummary": "Tenet Healthcare Corporation operates as a diversified healthcare services company in the United States. The company operates through two segments: Hospital Operations and Services, and Ambulatory Care. Its general hospitals offer acute care services, operating and recovery rooms, radiology and respiratory therapy services, clinical laboratories, and pharmacies. The company also provides intensive and critical care, and/or coronary care units; cardiovascular, digestive disease, neurosciences, musculoskeletal, and obstetrics services; outpatient services, including physical therapy; tertiary care services, such as cardiothoracic surgery, complex spinal surgery, neonatal intensive care, and neurosurgery services; pediatric quaternary care services through heart, liver, and kidney transplants programs; and limb salvaging vascular procedure, acute level 1 trauma, intravascular stroke care, minimally invasive cardiac valve replacement, imaging technology, surgical robotic, and telemedicine access services. In addition, it offers a range of procedures and services comprising orthopedics, total joint replacement, and spinal and other musculoskeletal procedures; gastroenterology; pain management; otolaryngology; ophthalmology; and urology. Further, the company operates acute care and specialty hospitals, off-campus emergency departments, imaging centers, urgent care centers, and micro-hospitals, as well as ambulatory surgery centers and surgical hospitals. Tenet Healthcare Corporation was founded in 1967 and is headquartered in Dallas, Texas."
+  "longBusinessSummary": "Tenet Healthcare Corporation operates as a diversified healthcare services company in the United States. The company operates through two segments: Hospital Operations and Services, and Ambulatory Care. Its general hospitals offer acute care services, operating and recovery rooms, radiology and respiratory therapy services, clinical laboratories, and pharmacies. The company also provides intensive and critical care, and/or coronary care units; cardiovascular, digestive disease, neurosciences, musculoskeletal, and obstetrics services; outpatient services, including physical therapy; tertiary care services, such as cardiothoracic surgery, complex spinal surgery, neonatal intensive care, and neurosurgery services; pediatric quaternary care services through heart, liver, and kidney transplants programs; and limb salvaging vascular procedure, acute level 1 trauma, intravascular stroke care, minimally invasive cardiac valve replacement, imaging technology, surgical robotic, and telemedicine access services. In addition, it offers a range of procedures and services comprising orthopedics, total joint replacement, and spinal and other musculoskeletal procedures; gastroenterology; pain management; otolaryngology; ophthalmology; and urology. Further, the company operates acute care and specialty hospitals, off-campus emergency departments, imaging centers, urgent care centers, and micro-hospitals, as well as ambulatory surgery centers and surgical hospitals. Tenet Healthcare Corporation was founded in 1967 and is headquartered in Dallas, Texas.",
+  "targetMeanPrice": 285.31818,
+  "targetLowPrice": 260.0,
+  "targetHighPrice": 315.0,
+  "numberOfAnalystOpinions": 22,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.56522,
+  "forwardPE": 12.510636,
+  "forwardEps": 21.08446,
+  "trailingEps": 25.88,
+  "earningsGrowth": 2.134,
+  "revenueGrowth": 0.068
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 29677000000.0,
+    "official": 29677000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4220000000.0,
+    "official": 4220000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1407000000.0,
+    "official": 2367000000.0,
+    "diff": 0.405577
+   },
+   "revenue": {
+    "yahoo": 21310000000.0,
+    "official": 21310000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:57:18+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -195,7 +237,10 @@
    "goodwill_and_intangibles": 11547000000.0,
    "retained_earnings": -803000000.0,
    "total_debt": 14934000000.0,
-   "shares_out": 102246585.0
+   "shares_out": 102246585.0,
+   "unusual_items": -404000000.0,
+   "normalized_ebitda": 3480000000.0,
+   "normalized_income": 711672118.959108
   },
   {
    "fy_end": "2023-12-31",
@@ -229,7 +274,10 @@
    "goodwill_and_intangibles": 11675000000.0,
    "retained_earnings": -192000000.0,
    "total_debt": 14882000000.0,
-   "shares_out": 99950000.0
+   "shares_out": 99950000.0,
+   "unusual_items": -172000000.0,
+   "normalized_ebitda": 3560000000.0,
+   "normalized_income": 750450834.879406
   },
   {
    "fy_end": "2024-12-31",
@@ -263,7 +311,10 @@
    "goodwill_and_intangibles": 12088000000.0,
    "retained_earnings": 3008000000.0,
    "total_debt": 13081000000.0,
-   "shares_out": 95109000.0
+   "shares_out": 95109000.0,
+   "unusual_items": 2771000000.0,
+   "normalized_ebitda": 4121000000.0,
+   "normalized_income": 1054164634.146341
   },
   {
    "fy_end": "2025-12-31",
@@ -297,7 +348,10 @@
    "goodwill_and_intangibles": 12546000000.0,
    "retained_earnings": 4415000000.0,
    "total_debt": 13092000000.0,
-   "shares_out": 86952000.0
+   "shares_out": 86952000.0,
+   "unusual_items": -199000000.0,
+   "normalized_ebitda": 4683000000.0,
+   "normalized_income": 1575226071.428571
   }
  ]
 }

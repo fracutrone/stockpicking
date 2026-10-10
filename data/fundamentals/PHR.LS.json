@@ -1,6 +1,6 @@
 {
  "ticker": "PHR.LS",
- "fetched_at": "2026-10-10T12:14:16+00:00",
+ "fetched_at": "2026-10-10T15:11:42+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LIS",
   "fullTimeEmployees": 11,
   "website": "https://pharol.pt",
-  "longBusinessSummary": "Pharol, S.A., through its investment in Oi, S.A., engages in the provision of telecommunications services in Brazil. It is also involved in the management of shareholdings in other companies. The company was formerly known as Pharol, SGPS S.A. and changed its name to Pharol, S.A. in June 2026. Pharol, S.A. was incorporated in 1994 and is headquartered in Lisbon, Portugal."
+  "longBusinessSummary": "Pharol, S.A., through its investment in Oi, S.A., engages in the provision of telecommunications services in Brazil. It is also involved in the management of shareholdings in other companies. The company was formerly known as Pharol, SGPS S.A. and changed its name to Pharol, S.A. in June 2026. Pharol, S.A. was incorporated in 1994 and is headquartered in Lisbon, Portugal.",
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": -0.0,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "ceo": {
@@ -64,8 +75,35 @@
   "ppe_net": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF PT",
+  "fy_end": "2022-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 86878930.0,
+    "official": 86878930.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 69728977.0,
+    "official": 69728977.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -2510290.0,
+    "official": -2510290.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2022-12-31"
+ },
+ "info_at": "2026-10-10T15:11:43+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -93,7 +131,10 @@
    "ppe_net": 73471.0,
    "retained_earnings": 111912368.0,
    "total_debt": 71573.0,
-   "shares_out": 821822948.0
+   "shares_out": 821822948.0,
+   "unusual_items": -310426.0,
+   "normalized_ebitda": -1861658.0,
+   "normalized_income": -2265053.46
   },
   {
    "fy_end": "2023-12-31",
@@ -120,7 +161,10 @@
    "ppe_net": 35502.0,
    "retained_earnings": 110945176.0,
    "total_debt": 49871.0,
-   "shares_out": 821822948.0
+   "shares_out": 821822948.0,
+   "unusual_items": 1132854.0,
+   "normalized_ebitda": -3354111.0,
+   "normalized_income": -1862146.66
   },
   {
    "fy_end": "2024-12-31",
@@ -144,7 +188,10 @@
    "receivables": 150357.0,
    "ppe_net": 19882.0,
    "total_debt": 7447.0,
-   "shares_out": 821822948.0
+   "shares_out": 821822948.0,
+   "unusual_items": 1398848.0,
+   "normalized_ebitda": -3792534.0,
+   "normalized_income": 22894586.994746
   },
   {
    "fy_end": "2025-12-31",
@@ -168,7 +215,10 @@
    "receivables": 803899.0,
    "ppe_net": 162823.0,
    "total_debt": 813.0,
-   "shares_out": 821822948.0
+   "shares_out": 821822948.0,
+   "unusual_items": 832986.0,
+   "normalized_ebitda": -3320593.0,
+   "normalized_income": 1287324.296577
   }
  ]
 }

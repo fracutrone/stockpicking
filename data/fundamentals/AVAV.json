@@ -1,6 +1,6 @@
 {
  "ticker": "AVAV",
- "fetched_at": "2026-10-10T12:38:13+00:00",
+ "fetched_at": "2026-10-10T15:35:11+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 3991,
   "website": "https://www.avinc.com",
-  "longBusinessSummary": "AeroVironment, Inc., a defense technology provider, designs, develops, produces, delivers, and supports a portfolio of robotic systems and related services for government agencies and businesses in the United States and internationally. The company operates in two segments, Autonomous Systems; and Space, Cyber and Directed Energy. The company provides uncrewed aircraft systems (UAS), which include small and medium UAS, and kinesis command and control software; and counter-UAS and precision strike, a loitering munitions solution that deliver actionable intelligence and precision firepower modern warfighters, including precision strike, radio frequency and kinetic C-UAS, and electronic warfare systems. It also offers autonomy, AI, and platform technologies; unmanned maritime; and uncrewed ground systems. The company provides digital beamforming technology, a multi-band/beam software defined antenna tile that allows simultaneous communication with multiple satellites; laser communications, a data transmission systems for space operations; space-qualified hardware for line of sight stabilization and control electronics in low, medium, and geostationary earth orbit, as well as cislunar orbits; phased array antenna technology to supports hypersonic telemetry and tracking, and other missile testing; and directed energy solution. It also offers cyber solutions for national security and defense operations. AeroVironment, Inc. was incorporated in 1971 and is headquartered in Arlington, Virginia."
+  "longBusinessSummary": "AeroVironment, Inc., a defense technology provider, designs, develops, produces, delivers, and supports a portfolio of robotic systems and related services for government agencies and businesses in the United States and internationally. The company operates in two segments, Autonomous Systems; and Space, Cyber and Directed Energy. The company provides uncrewed aircraft systems (UAS), which include small and medium UAS, and kinesis command and control software; and counter-UAS and precision strike, a loitering munitions solution that deliver actionable intelligence and precision firepower modern warfighters, including precision strike, radio frequency and kinetic C-UAS, and electronic warfare systems. It also offers autonomy, AI, and platform technologies; unmanned maritime; and uncrewed ground systems. The company provides digital beamforming technology, a multi-band/beam software defined antenna tile that allows simultaneous communication with multiple satellites; laser communications, a data transmission systems for space operations; space-qualified hardware for line of sight stabilization and control electronics in low, medium, and geostationary earth orbit, as well as cislunar orbits; phased array antenna technology to supports hypersonic telemetry and tracking, and other missile testing; and directed energy solution. It also offers cyber solutions for national security and defense operations. AeroVironment, Inc. was incorporated in 1971 and is headquartered in Arlington, Virginia.",
+  "targetMeanPrice": 217.59857,
+  "targetLowPrice": 148.57,
+  "targetHighPrice": 315.0,
+  "numberOfAnalystOpinions": 21,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.72727,
+  "forwardPE": 30.832508,
+  "forwardEps": 4.44693,
+  "trailingEps": -4.05,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.057
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-04-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 5716742000.0,
+    "official": 5716742000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4400400000.0,
+    "official": 4400400000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -265122000.0,
+    "official": -265122000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1976845000.0,
+    "official": 1976845000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:35:12+00:00",
  "years": [
   {
    "fy_end": "2020-04-30",
@@ -203,7 +245,10 @@
    "goodwill_and_intangibles": 224378000.0,
    "retained_earnings": 171021000.0,
    "total_debt": 135000000.0,
-   "shares_out": 26216897.0
+   "shares_out": 26216897.0,
+   "unusual_items": -156017000.0,
+   "normalized_ebitda": 77007000.0,
+   "normalized_income": -32339143.239355
   },
   {
    "fy_end": "2024-04-30",
@@ -237,7 +282,10 @@
    "goodwill_and_intangibles": 347876000.0,
    "retained_earnings": 230687000.0,
    "total_debt": 28000000.0,
-   "shares_out": 28134438.0
+   "shares_out": 28134438.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 103200000.0,
+   "normalized_income": 59666000.0
   },
   {
    "fy_end": "2025-04-30",
@@ -271,7 +319,10 @@
    "goodwill_and_intangibles": 305492000.0,
    "retained_earnings": 274306000.0,
    "total_debt": 30000000.0,
-   "shares_out": 28267517.0
+   "shares_out": 28267517.0,
+   "unusual_items": -18359000.0,
+   "normalized_ebitda": 101209000.0,
+   "normalized_income": 61574102.0
   },
   {
    "fy_end": "2026-04-30",
@@ -306,7 +357,10 @@
    "goodwill_and_intangibles": 3423504000.0,
    "retained_earnings": 9184000.0,
    "total_debt": 747500000.0,
-   "shares_out": 50610514.0
+   "shares_out": 50610514.0,
+   "unusual_items": -240708000.0,
+   "normalized_ebitda": 205736000.0,
+   "normalized_income": -42467100.0
   }
  ]
 }

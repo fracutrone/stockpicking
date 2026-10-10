@@ -1,6 +1,6 @@
 {
  "ticker": "AVNT",
- "fetched_at": "2026-10-10T12:38:16+00:00",
+ "fetched_at": "2026-10-10T15:35:15+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 9000,
   "website": "https://www.avient.com",
-  "longBusinessSummary": "Avient Corporation operates as a formulator of material solutions in the United States, Canada, Mexico, Europe, South America, and Asia. The company operates in two segments, Color, Additives and Inks; and Specialty Engineered Materials. The Color, Additives and Inks segment offers custom color and additive concentrates in solid and liquid form for thermoplastics, dispersions for thermosets, and specialty inks; custom-formulated liquid system, such as polyester, vinyl, natural rubber and latex, polyurethane, and silicone; and proprietary inks. The company products are used in medical and pharmaceutical devices, food packaging, personal care and cosmetics, transportation, building products, wire and cable, recreational and athletic apparel, construction and filtration, outdoor furniture, healthcare, textiles and appliances, and industrial markets. The Specialty Engineered Materials segment provides specialty polymer formulations, services, and solutions for designers, assemblers, and processors of thermoplastic materials. It sells its products through direct sales personnel, distributors, and commissioned sales agents. The company was formerly known as PolyOne Corporation and changed its name to Avient Corporation in June 2020. Avient Corporation was founded in 1885 and is headquartered in Avon Lake, Ohio."
+  "longBusinessSummary": "Avient Corporation operates as a formulator of material solutions in the United States, Canada, Mexico, Europe, South America, and Asia. The company operates in two segments, Color, Additives and Inks; and Specialty Engineered Materials. The Color, Additives and Inks segment offers custom color and additive concentrates in solid and liquid form for thermoplastics, dispersions for thermosets, and specialty inks; custom-formulated liquid system, such as polyester, vinyl, natural rubber and latex, polyurethane, and silicone; and proprietary inks. The company products are used in medical and pharmaceutical devices, food packaging, personal care and cosmetics, transportation, building products, wire and cable, recreational and athletic apparel, construction and filtration, outdoor furniture, healthcare, textiles and appliances, and industrial markets. The Specialty Engineered Materials segment provides specialty polymer formulations, services, and solutions for designers, assemblers, and processors of thermoplastic materials. It sells its products through direct sales personnel, distributors, and commissioned sales agents. The company was formerly known as PolyOne Corporation and changed its name to Avient Corporation in June 2020. Avient Corporation was founded in 1885 and is headquartered in Avon Lake, Ohio.",
+  "targetMeanPrice": 50.85714,
+  "targetLowPrice": 46.0,
+  "targetHighPrice": 56.0,
+  "numberOfAnalystOpinions": 7,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.57143,
+  "forwardPE": 10.812559,
+  "forwardEps": 3.49501,
+  "trailingEps": 1.85,
+  "earningsGrowth": 0.228,
+  "revenueGrowth": 0.058
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,38 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 6025600000.0,
+    "official": 6025600000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2374200000.0,
+    "official": 2374200000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 81900000.0,
+    "official": 81900000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3260200000.0,
+    "official": 3260200000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:35:15+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -200,7 +241,9 @@
    "goodwill_and_intangibles": 3269500000.0,
    "retained_earnings": 1823600000.0,
    "total_debt": 2178900000.0,
-   "shares_out": 90900000.0
+   "shares_out": 90900000.0,
+   "normalized_ebitda": 346700000.0,
+   "normalized_income": 82800000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -234,7 +277,9 @@
    "goodwill_and_intangibles": 3310100000.0,
    "retained_earnings": 1808200000.0,
    "total_debt": 2080000000.0,
-   "shares_out": 91200000.0
+   "shares_out": 91200000.0,
+   "normalized_ebitda": 391400000.0,
+   "normalized_income": 75800000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -268,7 +313,9 @@
    "goodwill_and_intangibles": 3110100000.0,
    "retained_earnings": 1882500000.0,
    "total_debt": 2067000000.0,
-   "shares_out": 91400000.0
+   "shares_out": 91400000.0,
+   "normalized_ebitda": 510100000.0,
+   "normalized_income": 169500000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -302,7 +349,9 @@
    "goodwill_and_intangibles": 3250000000.0,
    "retained_earnings": 1865100000.0,
    "total_debt": 1923100000.0,
-   "shares_out": 91563628.0
+   "shares_out": 91563628.0,
+   "normalized_ebitda": 396200000.0,
+   "normalized_income": 81900000.0
   }
  ]
 }

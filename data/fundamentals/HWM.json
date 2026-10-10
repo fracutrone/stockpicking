@@ -1,6 +1,6 @@
 {
  "ticker": "HWM",
- "fetched_at": "2026-10-10T12:48:20+00:00",
+ "fetched_at": "2026-10-10T15:46:45+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 25430,
   "website": "https://www.howmet.com",
-  "longBusinessSummary": "Howmet Aerospace Inc. provides advanced engineered solutions for the aerospace and transportation industries in the United States, Japan, France, Germany, the United Kingdom, Mexico, Italy, Canada, Poland, China, and internationally. It operates through four segments: Engine Products, Fastening Systems, Engineered Structures, and Forged Wheels. The Engine Products segment offers airfoils and seamless rolled rings primarily for aircraft engines and industrial gas turbines; and rotating and structural parts. The Fastening Systems segment produces aerospace fastening systems, as well as commercial transportation, industrial, and other fasteners; and latches, bearings, fluid fittings, and installation tools. The Engineered Structures segment provides titanium ingots and mill products, aluminum and nickel forgings, and machined components and assemblies for aerospace and defense applications; and titanium forgings, extrusions, and forming and machining services for airframe, wing, aero-engine, and landing gear components. The Forged Wheels segment offers forged aluminum wheels and related products for heavy-duty trucks and commercial transportation markets. The company was formerly known as Arconic Inc. Howmet Aerospace Inc. was founded in 1888 and is based in Pittsburgh, Pennsylvania."
+  "longBusinessSummary": "Howmet Aerospace Inc. provides advanced engineered solutions for the aerospace and transportation industries in the United States, Japan, France, Germany, the United Kingdom, Mexico, Italy, Canada, Poland, China, and internationally. It operates through four segments: Engine Products, Fastening Systems, Engineered Structures, and Forged Wheels. The Engine Products segment offers airfoils and seamless rolled rings primarily for aircraft engines and industrial gas turbines; and rotating and structural parts. The Fastening Systems segment produces aerospace fastening systems, as well as commercial transportation, industrial, and other fasteners; and latches, bearings, fluid fittings, and installation tools. The Engineered Structures segment provides titanium ingots and mill products, aluminum and nickel forgings, and machined components and assemblies for aerospace and defense applications; and titanium forgings, extrusions, and forming and machining services for airframe, wing, aero-engine, and landing gear components. The Forged Wheels segment offers forged aluminum wheels and related products for heavy-duty trucks and commercial transportation markets. The company was formerly known as Arconic Inc. Howmet Aerospace Inc. was founded in 1888 and is based in Pittsburgh, Pennsylvania.",
+  "targetMeanPrice": 329.5,
+  "targetLowPrice": 255.0,
+  "targetHighPrice": 377.0,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.45455,
+  "forwardPE": 34.692265,
+  "forwardEps": 6.49309,
+  "trailingEps": 4.64,
+  "earningsGrowth": 0.33,
+  "revenueGrowth": 0.241
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 11179000000.0,
+    "official": 11179000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 5353000000.0,
+    "official": 5353000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1508000000.0,
+    "official": 1508000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 8252000000.0,
+    "official": 8252000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:46:45+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -200,7 +242,10 @@
    "goodwill_and_intangibles": 4534000000.0,
    "retained_earnings": 1028000000.0,
    "total_debt": 4162000000.0,
-   "shares_out": 412155057.0
+   "shares_out": 412155057.0,
+   "unusual_items": -140000000.0,
+   "normalized_ebitda": 1240000000.0,
+   "normalized_income": 577360000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -234,7 +279,10 @@
    "goodwill_and_intangibles": 4540000000.0,
    "retained_earnings": 1720000000.0,
    "total_debt": 3706000000.0,
-   "shares_out": 409914461.0
+   "shares_out": 409914461.0,
+   "unusual_items": -20000000.0,
+   "normalized_ebitda": 1485000000.0,
+   "normalized_income": 780700000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -268,7 +316,10 @@
    "goodwill_and_intangibles": 4485000000.0,
    "retained_earnings": 2766000000.0,
    "total_debt": 3315000000.0,
-   "shares_out": 405431361.0
+   "shares_out": 405431361.0,
+   "unusual_items": -65000000.0,
+   "normalized_ebitda": 1907000000.0,
+   "normalized_income": 1209284164.859002
   },
   {
    "fy_end": "2025-12-31",
@@ -302,7 +353,10 @@
    "goodwill_and_intangibles": 4479000000.0,
    "retained_earnings": 4093000000.0,
    "total_debt": 3050000000.0,
-   "shares_out": 401620565.0
+   "shares_out": 401620565.0,
+   "unusual_items": -118000000.0,
+   "normalized_ebitda": 2392000000.0,
+   "normalized_income": 1604708695.652174
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "HON",
- "fetched_at": "2026-10-10T12:47:53+00:00",
+ "fetched_at": "2026-10-10T15:46:18+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 101000,
   "website": "https://www.honeywell.com",
-  "longBusinessSummary": "Honeywell International Inc. engages in the industrial automation, building automation, and energy and sustainability solutions businesses in the United States, Europe, and internationally. The Industrial Automation segment provides automation control and instrumentation products and services; smart energy products; sensing technologies, including custom-engineered sensors and related services; gas detection technologies and personal protective equipment; and system design automation equipment, as well as software and analytics for manufacturing, distribution, and fulfillment operations. The Building Automation segment provides software applications for building control and optimization; sensors, switches, control systems, and instruments for energy management; access control; video surveillance; fire products; and installation, maintenance, and system upgrade services. The Energy and Sustainability Solutions segment, through its UOP business, delivers licensed process technology, equipment, engineering, catalysts, adsorbents, and services for refining, petrochemicals, low-carbon energy, gas and LNG, and industrial solutions, as well as connectivity, data integration, and software solutions. The company was formerly known as AlliedSignal, Inc. Honeywell International Inc. was founded in 1885 and is headquartered in Charlotte, North Carolina."
+  "longBusinessSummary": "Honeywell International Inc. engages in the industrial automation, building automation, and energy and sustainability solutions businesses in the United States, Europe, and internationally. The Industrial Automation segment provides automation control and instrumentation products and services; smart energy products; sensing technologies, including custom-engineered sensors and related services; gas detection technologies and personal protective equipment; and system design automation equipment, as well as software and analytics for manufacturing, distribution, and fulfillment operations. The Building Automation segment provides software applications for building control and optimization; sensors, switches, control systems, and instruments for energy management; access control; video surveillance; fire products; and installation, maintenance, and system upgrade services. The Energy and Sustainability Solutions segment, through its UOP business, delivers licensed process technology, equipment, engineering, catalysts, adsorbents, and services for refining, petrochemicals, low-carbon energy, gas and LNG, and industrial solutions, as well as connectivity, data integration, and software solutions. The company was formerly known as AlliedSignal, Inc. Honeywell International Inc. was founded in 1885 and is headquartered in Charlotte, North Carolina.",
+  "targetMeanPrice": 257.6087,
+  "targetLowPrice": 186.0,
+  "targetHighPrice": 303.0,
+  "numberOfAnalystOpinions": 23,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": 21.149265,
+  "forwardEps": 9.82209,
+  "trailingEps": 27.09,
+  "earningsGrowth": 2.639,
+  "revenueGrowth": 0.043
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 73681000000.0,
+    "official": 73681000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 13904000000.0,
+    "official": 13904000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 4729000000.0,
+    "official": 4729000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 37442000000.0,
+    "official": 37442000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:46:18+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -199,7 +241,10 @@
    "goodwill_and_intangibles": 20719000000.0,
    "retained_earnings": 45093000000.0,
    "total_debt": 19570000000.0,
-   "shares_out": 333800000.0
+   "shares_out": 333800000.0,
+   "unusual_items": -458000000.0,
+   "normalized_ebitda": 8455000000.0,
+   "normalized_income": 5322782000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -234,7 +279,10 @@
    "goodwill_and_intangibles": 21280000000.0,
    "retained_earnings": 47979000000.0,
    "total_debt": 20443000000.0,
-   "shares_out": 325900000.0
+   "shares_out": 325900000.0,
+   "unusual_items": -9000000.0,
+   "normalized_ebitda": 7953000000.0,
+   "normalized_income": 4922164000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -269,7 +317,10 @@
    "goodwill_and_intangibles": 27640000000.0,
    "retained_earnings": 50835000000.0,
    "total_debt": 31538000000.0,
-   "shares_out": 324900000.0
+   "shares_out": 324900000.0,
+   "unusual_items": -326000000.0,
+   "normalized_ebitda": 8770000000.0,
+   "normalized_income": 5220800000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -304,7 +355,10 @@
    "goodwill_and_intangibles": 27815000000.0,
    "retained_earnings": 50964000000.0,
    "total_debt": 34939000000.0,
-   "shares_out": 317650000.0
+   "shares_out": 317650000.0,
+   "unusual_items": -1435000000.0,
+   "normalized_ebitda": 9643000000.0,
+   "normalized_income": 5595960000.0
   }
  ]
 }

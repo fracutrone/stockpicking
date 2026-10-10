@@ -1,6 +1,6 @@
 {
  "ticker": "PNW",
- "fetched_at": "2026-10-10T12:55:45+00:00",
+ "fetched_at": "2026-10-10T15:53:26+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 6610,
   "website": "https://www.pinnaclewest.com",
-  "longBusinessSummary": "Pinnacle West Capital Corporation, through its subsidiary, provides retail and wholesale electric services in the state of Arizona. The company engages in the generation, transmission, and distribution of electricity using nuclear, gas, oil, coal, and solar generating facilities. Its transmission facilities include overhead lines and underground lines; and distribution facilities consist of overhead lines and underground primary cables. The company also owns and maintains substations, including transmission and distribution yards; and owns energy storage facilities. Pinnacle West Capital Corporation was incorporated in 1985 and is headquartered in Phoenix, Arizona."
+  "longBusinessSummary": "Pinnacle West Capital Corporation, through its subsidiary, provides retail and wholesale electric services in the state of Arizona. The company engages in the generation, transmission, and distribution of electricity using nuclear, gas, oil, coal, and solar generating facilities. Its transmission facilities include overhead lines and underground lines; and distribution facilities consist of overhead lines and underground primary cables. The company also owns and maintains substations, including transmission and distribution yards; and owns energy storage facilities. Pinnacle West Capital Corporation was incorporated in 1985 and is headquartered in Phoenix, Arizona.",
+  "targetMeanPrice": 102.92857,
+  "targetLowPrice": 89.0,
+  "targetHighPrice": 118.0,
+  "numberOfAnalystOpinions": 14,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.52941,
+  "forwardPE": 17.708525,
+  "forwardEps": 5.58601,
+  "trailingEps": 5.21,
+  "earningsGrowth": -0.095,
+  "revenueGrowth": 0.071
  },
  "governance": {
   "ceo": {
@@ -82,8 +93,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "intangibles": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 30031599000.0,
+    "official": 30031599000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 7046458000.0,
+    "official": 7046458000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 616531000.0,
+    "official": 631643000.0,
+    "diff": 0.023925
+   },
+   "revenue": {
+    "yahoo": 5339939000.0,
+    "official": 5339939000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:53:26+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -177,7 +219,10 @@
    "goodwill_and_intangibles": 258880000.0,
    "retained_earnings": 3360347000.0,
    "total_debt": 8082006000.0,
-   "shares_out": 113173576.0
+   "shares_out": 113173576.0,
+   "unusual_items": 24726000.0,
+   "normalized_ebitda": 1624280000.0,
+   "normalized_income": 462090041.101149
   },
   {
    "fy_end": "2023-12-31",
@@ -209,7 +254,10 @@
    "goodwill_and_intangibles": 267110000.0,
    "retained_earnings": 3466317000.0,
    "total_debt": 9025122000.0,
-   "shares_out": 113424417.0
+   "shares_out": 113424417.0,
+   "unusual_items": 55921000.0,
+   "normalized_ebitda": 1725231000.0,
+   "normalized_income": 452855401.1
   },
   {
    "fy_end": "2024-12-31",
@@ -241,7 +289,10 @@
    "goodwill_and_intangibles": 591310000.0,
    "retained_earnings": 3666959000.0,
    "total_debt": 9427098000.0,
-   "shares_out": 119096814.0
+   "shares_out": 119096814.0,
+   "unusual_items": 60190000.0,
+   "normalized_ebitda": 2010025000.0,
+   "normalized_income": 557650519.0
   },
   {
    "fy_end": "2025-12-31",
@@ -273,7 +324,10 @@
    "goodwill_and_intangibles": 575978000.0,
    "retained_earnings": 3850817000.0,
    "total_debt": 10562681000.0,
-   "shares_out": 120903871.0
+   "shares_out": 120903871.0,
+   "unusual_items": 87866000.0,
+   "normalized_ebitda": 2042086000.0,
+   "normalized_income": 541361637.0
   }
  ]
 }

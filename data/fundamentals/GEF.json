@@ -1,6 +1,6 @@
 {
  "ticker": "GEF",
- "fetched_at": "2026-10-10T12:46:29+00:00",
+ "fetched_at": "2026-10-10T15:44:54+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 12000,
   "website": "https://www.greif.com",
-  "longBusinessSummary": "Greif, Inc., together with its subsidiaries, produces and sells industrial packaging products and services worldwide. It operates in four segments: Customized Polymer Solutions; Durable Metal Solutions; Sustainable Fiber Solutions; and Integrated Solutions. The Customized Polymer Solutions segment produces and sells polymer-based packaging products, such as plastic drums, rigid intermediate bulk containers, and small plastics for chemicals, food and beverage, agricultural, pharmaceutical, and mineral products industries. The Durable Metal Solutions segment offers metal-based packaging products, including various steel drums for the chemicals, petroleum, agriculture, and paints and coatings industries. The Sustainable Fiber Solutions segment provides fiber-based packaging products comprising fibre drums, uncoated recycled board, coated recycled board, tubes and cores, and specialty partitions made from uncoated recycled board and coated recycled board to packaging, automotive, construction, food and beverage, and building products industries. The Integrated Solutions segment offers complimentary packaging products, such as paints, linings, and closure systems for industrial packaging products and related services. The company manufactures and sells rigid industrial packaging products, such as steel, fibre and plastic drums, rigid intermediate bulk containers, jerrycans and other small plastics, closure systems for industrial packaging products, water bottles, and remanufactured and reconditioned industrial containers, as well as offers container life cycle management, logistics, warehousing, and other packaging services. It also purchases and sells recycled fiber; and produces and sells adhesives. The company was formerly known as Greif Bros. Corporation and changed its name to Greif, Inc. in 2001. Greif, Inc. was founded in 1877 and is headquartered in Delaware, Ohio."
+  "longBusinessSummary": "Greif, Inc., together with its subsidiaries, produces and sells industrial packaging products and services worldwide. It operates in four segments: Customized Polymer Solutions; Durable Metal Solutions; Sustainable Fiber Solutions; and Integrated Solutions. The Customized Polymer Solutions segment produces and sells polymer-based packaging products, such as plastic drums, rigid intermediate bulk containers, and small plastics for chemicals, food and beverage, agricultural, pharmaceutical, and mineral products industries. The Durable Metal Solutions segment offers metal-based packaging products, including various steel drums for the chemicals, petroleum, agriculture, and paints and coatings industries. The Sustainable Fiber Solutions segment provides fiber-based packaging products comprising fibre drums, uncoated recycled board, coated recycled board, tubes and cores, and specialty partitions made from uncoated recycled board and coated recycled board to packaging, automotive, construction, food and beverage, and building products industries. The Integrated Solutions segment offers complimentary packaging products, such as paints, linings, and closure systems for industrial packaging products and related services. The company manufactures and sells rigid industrial packaging products, such as steel, fibre and plastic drums, rigid intermediate bulk containers, jerrycans and other small plastics, closure systems for industrial packaging products, water bottles, and remanufactured and reconditioned industrial containers, as well as offers container life cycle management, logistics, warehousing, and other packaging services. It also purchases and sells recycled fiber; and produces and sells adhesives. The company was formerly known as Greif Bros. Corporation and changed its name to Greif, Inc. in 2001. Greif, Inc. was founded in 1877 and is headquartered in Delaware, Ohio.",
+  "targetMeanPrice": 88.2,
+  "targetLowPrice": 75.0,
+  "targetHighPrice": 100.0,
+  "numberOfAnalystOpinions": 5,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.83333,
+  "forwardPE": 17.039904,
+  "forwardEps": 4.80167,
+  "trailingEps": 2.21,
+  "earningsGrowth": 0.434,
+  "revenueGrowth": 0.035
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2024-10-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 6647600000.0,
+    "official": 6647600000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2082400000.0,
+    "official": 2082400000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 268800000.0,
+    "official": 268800000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 4354900000.0,
+    "official": 4354900000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:44:54+00:00",
  "years": [
   {
    "fy_end": "2018-10-31",
@@ -191,7 +233,10 @@
    "goodwill_and_intangibles": 2163800000.0,
    "retained_earnings": 1825600000.0,
    "total_debt": 2235900000.0,
-   "shares_out": 59562511.0
+   "shares_out": 59562511.0,
+   "unusual_items": 58100000.0,
+   "normalized_ebitda": 747600000.0,
+   "normalized_income": 341036120.0
   },
   {
    "fy_end": "2022-10-31",
@@ -225,7 +270,10 @@
    "goodwill_and_intangibles": 2040700000.0,
    "retained_earnings": 2095200000.0,
    "total_debt": 1924400000.0,
-   "shares_out": 58361404.0
+   "shares_out": 58361404.0,
+   "unusual_items": -108600000.0,
+   "normalized_ebitda": 912100000.0,
+   "normalized_income": 456966260.0
   },
   {
    "fy_end": "2023-10-31",
@@ -259,7 +307,10 @@
    "goodwill_and_intangibles": 2485200000.0,
    "retained_earnings": 2337900000.0,
    "total_debt": 2223800000.0,
-   "shares_out": 57470944.0
+   "shares_out": 57470944.0,
+   "unusual_items": 8500000.0,
+   "normalized_ebitda": 634200000.0,
+   "normalized_income": 274203750.0
   },
   {
    "fy_end": "2024-10-31",
@@ -293,7 +344,10 @@
    "goodwill_and_intangibles": 2588200000.0,
    "retained_earnings": 2486200000.0,
    "total_debt": 2747700000.0,
-   "shares_out": 57846960.0
+   "shares_out": 57846960.0,
+   "unusual_items": 28600000.0,
+   "normalized_ebitda": 560400000.0,
+   "normalized_income": 209553680.0
   }
  ]
 }

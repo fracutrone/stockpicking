@@ -1,6 +1,6 @@
 {
  "ticker": "HSBA.L",
- "fetched_at": "2026-10-10T12:02:26+00:00",
+ "fetched_at": "2026-10-10T14:55:50+00:00",
  "region": "Europa",
  "statement_currency": "USD",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.00192,
   "heldPercentInstitutions": 0.52984,
   "shortPercentOfFloat": null,
-  "averageVolume": 22286689,
+  "averageVolume": 22222272,
   "quoteType": "EQUITY",
   "exchange": "LSE",
   "fullTimeEmployees": 206161,
   "website": "https://www.hsbc.com",
-  "longBusinessSummary": "HSBC Holdings plc engages in the provision of banking and financial products and services worldwide. It operates through four segments: Hong Kong, UK, Corporate and Institutional Banking, and International Wealth and Premier Banking. The Hong Kong segment is involved in the retail banking and wealth and commercial banking of HSBC Hong Kong and Hang Seng Bank. The UK segment engages in UK retail banking and wealth, as well as first direct and M&S Bank, UK Commercial Banking, and HSBC Innovation Bank. The Corporate and Institutional Banking segment is involved in transaction banking and capital markets. The International Wealth and Premier Banking segment is involved in the business comprising premier banking outside of Hong Kong and the UK, its private bank, asset management, and insurance businesses. The company was founded in 1865 and is headquartered in London, the United Kingdom."
+  "longBusinessSummary": "HSBC Holdings plc engages in the provision of banking and financial products and services worldwide. It operates through four segments: Hong Kong, UK, Corporate and Institutional Banking, and International Wealth and Premier Banking. The Hong Kong segment is involved in the retail banking and wealth and commercial banking of HSBC Hong Kong and Hang Seng Bank. The UK segment engages in UK retail banking and wealth, as well as first direct and M&S Bank, UK Commercial Banking, and HSBC Innovation Bank. The Corporate and Institutional Banking segment is involved in transaction banking and capital markets. The International Wealth and Premier Banking segment is involved in the business comprising premier banking outside of Hong Kong and the UK, its private bank, asset management, and insurance businesses. The company was founded in 1865 and is headquartered in London, the United Kingdom.",
+  "targetMeanPrice": 1530.5442,
+  "targetLowPrice": 806.5217,
+  "targetHighPrice": 1859.8771,
+  "numberOfAnalystOpinions": 17,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.64706,
+  "forwardPE": 9.65608,
+  "forwardEps": 1.445514,
+  "trailingEps": 1.04,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.254
  },
  "governance": {
   "ceo": {
@@ -76,8 +87,34 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3233034000000.0,
+    "official": 3233034000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 198225000000.0,
+    "official": 198225000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 22285000000.0,
+    "official": 23131000000.0,
+    "diff": 0.036574
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:55:50+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -103,7 +140,9 @@
    "goodwill_and_intangibles": 11419000000.0,
    "retained_earnings": 142409000000.0,
    "total_debt": 204239000000.0,
-   "shares_out": 19968334003.0
+   "shares_out": 19968334003.0,
+   "unusual_items": -6267000000.0,
+   "normalized_income": 21678451000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -129,7 +168,9 @@
    "goodwill_and_intangibles": 12487000000.0,
    "retained_earnings": 152148000000.0,
    "total_debt": 235159000000.0,
-   "shares_out": 19241825975.0
+   "shares_out": 19241825975.0,
+   "unusual_items": -1602000000.0,
+   "normalized_income": 24544412218.26809
   },
   {
    "fy_end": "2024-12-31",
@@ -155,7 +196,9 @@
    "goodwill_and_intangibles": 12384000000.0,
    "retained_earnings": 152402000000.0,
    "total_debt": 242347000000.0,
-   "shares_out": 17935716398.0
+   "shares_out": 17935716398.0,
+   "unusual_items": -1653000000.0,
+   "normalized_income": 25335422000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -181,7 +224,9 @@
    "goodwill_and_intangibles": 13107000000.0,
    "retained_earnings": 169605000000.0,
    "total_debt": 256139000000.0,
-   "shares_out": 17139885525.0
+   "shares_out": 17139885525.0,
+   "unusual_items": -7115000000.0,
+   "normalized_income": 28189895000.0
   }
  ]
 }

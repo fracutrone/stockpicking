@@ -1,6 +1,6 @@
 {
  "ticker": "TRST.L",
- "fetched_at": "2026-10-10T12:22:54+00:00",
+ "fetched_at": "2026-10-10T15:25:56+00:00",
  "region": "Europa",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 1108,
   "website": "https://www.trustpilot.com",
-  "longBusinessSummary": "Trustpilot Group plc develops and hosts an online review platform for businesses and consumers in the United Kingdom, North America, Europe, and internationally. The company's online review platform enables consumers to make purchasing decisions and businesses. It also provides software-as-a-service (SaaS). The company was founded in 2007 and is based in London, the United Kingdom."
+  "longBusinessSummary": "Trustpilot Group plc develops and hosts an online review platform for businesses and consumers in the United Kingdom, North America, Europe, and internationally. The company's online review platform enables consumers to make purchasing decisions and businesses. It also provides software-as-a-service (SaaS). The company was founded in 2007 and is based in London, the United Kingdom.",
+  "targetMeanPrice": 344.24237,
+  "targetLowPrice": 250.79993,
+  "targetHighPrice": 417.7956,
+  "numberOfAnalystOpinions": 14,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.35714,
+  "forwardPE": 31.153233,
+  "forwardEps": 0.079671,
+  "trailingEps": -0.66,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.232
  },
  "governance": {
   "ceo": {
@@ -68,8 +79,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 127508000.0,
+    "official": 127508000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": -6730000.0,
+    "official": -6730000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 7758000.0,
+    "official": 7758000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 261050000.0,
+    "official": 261050000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:25:56+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -101,7 +144,10 @@
    "goodwill_and_intangibles": 7055000.0,
    "retained_earnings": -179163000.0,
    "total_debt": 24685000.0,
-   "shares_out": 416241641.0
+   "shares_out": 416241641.0,
+   "unusual_items": -1195000.0,
+   "normalized_ebitda": -5477000.0,
+   "normalized_income": -13480850.78099
   },
   {
    "fy_end": "2023-12-31",
@@ -133,7 +179,10 @@
    "goodwill_and_intangibles": 7355000.0,
    "retained_earnings": -165664000.0,
    "total_debt": 22864000.0,
-   "shares_out": 419783461.0
+   "shares_out": 419783461.0,
+   "unusual_items": -1686000.0,
+   "normalized_ebitda": 10602000.0,
+   "normalized_income": 8474660.0
   },
   {
    "fy_end": "2024-12-31",
@@ -165,7 +214,10 @@
    "goodwill_and_intangibles": 9095000.0,
    "retained_earnings": -118476000.0,
    "total_debt": 20105000.0,
-   "shares_out": 413559205.0
+   "shares_out": 413559205.0,
+   "unusual_items": -2674000.0,
+   "normalized_ebitda": 20376000.0,
+   "normalized_income": 8239500.0
   },
   {
    "fy_end": "2025-12-31",
@@ -197,7 +249,10 @@
    "goodwill_and_intangibles": 12201000.0,
    "retained_earnings": -171338000.0,
    "total_debt": 18131000.0,
-   "shares_out": 393331576.0
+   "shares_out": 393331576.0,
+   "unusual_items": -2140000.0,
+   "normalized_ebitda": 29951000.0,
+   "normalized_income": 9363000.0
   }
  ]
 }

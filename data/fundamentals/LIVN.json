@@ -1,6 +1,6 @@
 {
  "ticker": "LIVN",
- "fetched_at": "2026-10-10T12:50:35+00:00",
+ "fetched_at": "2026-10-10T15:48:50+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 3300,
   "website": "https://www.livanova.com",
-  "longBusinessSummary": "LivaNova PLC, a medical technology company, designs, develops, manufactures, markets, and sells products, therapies, and services. The company operates in two segments, Cardiopulmonary and Neuromodulation. The Cardiopulmonary segment provides cardiopulmonary products, including heart-lung machines, oxygenators, autotransfusion systems, perfusion tubing systems, cannula, and other related accessories, as well as services related products. The Neuromodulation segment offers VNS Therapy System, an implantable pulse generator and connective lead that stimulates the vagus nerve, surgical equipment to assist with the implant procedure, and equipment and instruction manuals; and devices that deliver neuromodulation therapy for treating drug-resistant epilepsy and depression. This segment also includes the development and clinical testing of aura6000 system for treating obstructive sleep apnea. It serves perfusionists, neurologists, neurosurgeons, hospitals, other healthcare professionals and medical institutions, and healthcare providers. The company sells its medical devices through direct sales representatives, agents, and independent distributors in the United States, the United Kingdom, Germany, France, Italy, the Netherlands, Spain, Belgium, Poland, Sweden, Switzerland, Austria, Norway, Portugal, Finland, Denmark, and internationally. LivaNova PLC was incorporated in 2015 and is headquartered in Gloucester, the United Kingdom."
+  "longBusinessSummary": "LivaNova PLC, a medical technology company, designs, develops, manufactures, markets, and sells products, therapies, and services. The company operates in two segments, Cardiopulmonary and Neuromodulation. The Cardiopulmonary segment provides cardiopulmonary products, including heart-lung machines, oxygenators, autotransfusion systems, perfusion tubing systems, cannula, and other related accessories, as well as services related products. The Neuromodulation segment offers VNS Therapy System, an implantable pulse generator and connective lead that stimulates the vagus nerve, surgical equipment to assist with the implant procedure, and equipment and instruction manuals; and devices that deliver neuromodulation therapy for treating drug-resistant epilepsy and depression. This segment also includes the development and clinical testing of aura6000 system for treating obstructive sleep apnea. It serves perfusionists, neurologists, neurosurgeons, hospitals, other healthcare professionals and medical institutions, and healthcare providers. The company sells its medical devices through direct sales representatives, agents, and independent distributors in the United States, the United Kingdom, Germany, France, Italy, the Netherlands, Spain, Belgium, Poland, Sweden, Switzerland, Austria, Norway, Portugal, Finland, Denmark, and internationally. LivaNova PLC was incorporated in 2015 and is headquartered in Gloucester, the United Kingdom.",
+  "targetMeanPrice": 90.54545,
+  "targetLowPrice": 75.0,
+  "targetHighPrice": 105.0,
+  "numberOfAnalystOpinions": 11,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.63636,
+  "forwardPE": 16.311148,
+  "forwardEps": 4.6833,
+  "trailingEps": 3.38,
+  "earningsGrowth": 2.878,
+  "revenueGrowth": 0.108
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 2606053000.0,
+    "official": 2606053000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1199987000.0,
+    "official": 1199987000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -242471000.0,
+    "official": -242471000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1388053000.0,
+    "official": 1388053000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:48:50+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -206,7 +248,10 @@
    "goodwill_and_intangibles": 1137346000.0,
    "retained_earnings": -984030000.0,
    "total_debt": 538959000.0,
-   "shares_out": 53564664.0
+   "shares_out": 53564664.0,
+   "unusual_items": -84924000.0,
+   "normalized_ebitda": 115828000.0,
+   "normalized_income": -19156040.0
   },
   {
    "fy_end": "2023-12-31",
@@ -240,7 +285,10 @@
    "goodwill_and_intangibles": 1044119000.0,
    "retained_earnings": -966484000.0,
    "total_debt": 586027000.0,
-   "shares_out": 53918222.0
+   "shares_out": 53918222.0,
+   "unusual_items": -66470000.0,
+   "normalized_ebitda": 104953000.0,
+   "normalized_income": 70057300.0
   },
   {
    "fy_end": "2024-12-31",
@@ -274,7 +322,10 @@
    "goodwill_and_intangibles": 987300000.0,
    "retained_earnings": -903250000.0,
    "total_debt": 626963000.0,
-   "shares_out": 54348542.0
+   "shares_out": 54348542.0,
+   "unusual_items": -8842000.0,
+   "normalized_ebitda": 211366000.0,
+   "normalized_income": 69567078.745329
   },
   {
    "fy_end": "2025-12-31",
@@ -308,7 +359,10 @@
    "goodwill_and_intangibles": 1022804000.0,
    "retained_earnings": -1145721000.0,
    "total_debt": 376063000.0,
-   "shares_out": 54649085.0
+   "shares_out": 54649085.0,
+   "unusual_items": -390531000.0,
+   "normalized_ebitda": 278668000.0,
+   "normalized_income": 66048490.0
   }
  ]
 }

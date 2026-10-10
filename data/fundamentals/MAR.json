@@ -1,6 +1,6 @@
 {
  "ticker": "MAR",
- "fetched_at": "2026-10-10T12:51:07+00:00",
+ "fetched_at": "2026-10-10T15:49:21+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 414000,
   "website": "https://www.marriott.com",
-  "longBusinessSummary": "Marriott International, Inc. engages in the operation, franchising, and licensing of hotel, residential, timeshare, and other lodging properties in the United States, Canada, Europe, the Middle East, Africa, Greater China, the Asia-Pacific, and internationally. The company operates properties under the JW Marriott, The Ritz-Carlton, The Luxury Collection, W Hotels, St. Regis, EDITION, Bvlgari, Marriott Hotels, Sheraton, Westin, Autograph Collection, Renaissance Hotels, Le Méridien, Delta Hotels by Marriott, MGM Collection with Marriott Bonvoy, Tribute Portfolio, Gaylord Hotels, Design Hotels, Marriott Executive Apartments, Apartments by Marriott Bonvoy, Courtyard by Marriott, Fairfield by Marriott, Residence Inn by Marriott, SpringHill Suites by Marriott, Four Points by Sheraton, TownePlace Suites by Marriott, Aloft Hotels, AC Hotels by Marriott, Moxy Hotels, Element Hotels, Protea Hotels by Marriott, citizenM, City Express by Marriott, and Four Points Flex by Sheraton brands. It also operates residences, timeshares, and yachts. The company was formerly known as New Marriott MI, Inc. and changed its name to Marriott International, Inc. in May 1998. Marriott International, Inc. was founded in 1927 and is headquartered in Bethesda, Maryland."
+  "longBusinessSummary": "Marriott International, Inc. engages in the operation, franchising, and licensing of hotel, residential, timeshare, and other lodging properties in the United States, Canada, Europe, the Middle East, Africa, Greater China, the Asia-Pacific, and internationally. The company operates properties under the JW Marriott, The Ritz-Carlton, The Luxury Collection, W Hotels, St. Regis, EDITION, Bvlgari, Marriott Hotels, Sheraton, Westin, Autograph Collection, Renaissance Hotels, Le Méridien, Delta Hotels by Marriott, MGM Collection with Marriott Bonvoy, Tribute Portfolio, Gaylord Hotels, Design Hotels, Marriott Executive Apartments, Apartments by Marriott Bonvoy, Courtyard by Marriott, Fairfield by Marriott, Residence Inn by Marriott, SpringHill Suites by Marriott, Four Points by Sheraton, TownePlace Suites by Marriott, Aloft Hotels, AC Hotels by Marriott, Moxy Hotels, Element Hotels, Protea Hotels by Marriott, citizenM, City Express by Marriott, and Four Points Flex by Sheraton brands. It also operates residences, timeshares, and yachts. The company was formerly known as New Marriott MI, Inc. and changed its name to Marriott International, Inc. in May 1998. Marriott International, Inc. was founded in 1927 and is headquartered in Bethesda, Maryland.",
+  "targetMeanPrice": 380.8,
+  "targetLowPrice": 280.0,
+  "targetHighPrice": 425.0,
+  "numberOfAnalystOpinions": 25,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.21429,
+  "forwardPE": 27.807335,
+  "forwardEps": 13.15768,
+  "trailingEps": 9.79,
+  "earningsGrowth": 0.043,
+  "revenueGrowth": 0.111
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "inventory": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 27540000000.0,
+    "official": 27540000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": -3771000000.0,
+    "official": -3771000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2601000000.0,
+    "official": 2601000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 26186000000.0,
+    "official": 26186000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:49:21+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -187,7 +229,10 @@
    "goodwill_and_intangibles": 17619000000.0,
    "retained_earnings": 12342000000.0,
    "total_debt": 92000000.0,
-   "shares_out": 310600000.0
+   "shares_out": 310600000.0,
+   "unusual_items": -12000000.0,
+   "normalized_ebitda": 3929000000.0,
+   "normalized_income": 2367084000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -220,7 +265,10 @@
    "goodwill_and_intangibles": 18076000000.0,
    "retained_earnings": 14838000000.0,
    "total_debt": 56000000.0,
-   "shares_out": 290539975.0
+   "shares_out": 290539975.0,
+   "unusual_items": -60000000.0,
+   "normalized_ebitda": 4439000000.0,
+   "normalized_income": 3137780000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -253,7 +301,10 @@
    "goodwill_and_intangibles": 18219000000.0,
    "retained_earnings": 16531000000.0,
    "total_debt": 55000000.0,
-   "shares_out": 276671710.0
+   "shares_out": 276671710.0,
+   "unusual_items": -77000000.0,
+   "normalized_ebitda": 4415000000.0,
+   "normalized_income": 2433058000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -286,7 +337,10 @@
    "goodwill_and_intangibles": 19243000000.0,
    "retained_earnings": 18414000000.0,
    "total_debt": 23000000.0,
-   "shares_out": 265864771.0
+   "shares_out": 265864771.0,
+   "unusual_items": 2000000.0,
+   "normalized_ebitda": 4800000000.0,
+   "normalized_income": 2599468000.0
   }
  ]
 }

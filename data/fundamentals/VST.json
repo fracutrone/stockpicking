@@ -1,6 +1,6 @@
 {
  "ticker": "VST",
- "fetched_at": "2026-10-10T13:01:48+00:00",
+ "fetched_at": "2026-10-10T15:59:15+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 6390,
   "website": "https://vistracorp.com",
-  "longBusinessSummary": "Vistra Corp., together with its subsidiaries, operates as an integrated retail electricity and power generation company in the United States. The company operates through five segments: Retail, Texas, East, West, and Asset Closure. The company retails electricity and natural gas to residential, commercial, and industrial customers across states in the United States and the District of Columbia. It is also involved in electricity generation, wholesale energy purchases and sales, commodity risk management, fuel procurement, and fuel logistics management activities. In addition, the company engages in decommissioning and reclamation of retired generation facilities, including mines, and battery removal and remediation activities. It serves approximately 5 million customers with a generation capacity of approximately 44,000 megawatts with a portfolio of natural gas, nuclear, coal, solar, and battery energy storage facilities. The company was formerly known as Vistra Energy Corp. and changed its name to Vistra Corp. in July 2020. Vistra Corp. was founded in 1882 and is based in Irving, Texas."
+  "longBusinessSummary": "Vistra Corp., together with its subsidiaries, operates as an integrated retail electricity and power generation company in the United States. The company operates through five segments: Retail, Texas, East, West, and Asset Closure. The company retails electricity and natural gas to residential, commercial, and industrial customers across states in the United States and the District of Columbia. It is also involved in electricity generation, wholesale energy purchases and sales, commodity risk management, fuel procurement, and fuel logistics management activities. In addition, the company engages in decommissioning and reclamation of retired generation facilities, including mines, and battery removal and remediation activities. It serves approximately 5 million customers with a generation capacity of approximately 44,000 megawatts with a portfolio of natural gas, nuclear, coal, solar, and battery energy storage facilities. The company was formerly known as Vistra Energy Corp. and changed its name to Vistra Corp. in July 2020. Vistra Corp. was founded in 1882 and is based in Irving, Texas.",
+  "targetMeanPrice": 210.25,
+  "targetLowPrice": 106.0,
+  "targetHighPrice": 305.0,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.33333,
+  "forwardPE": 15.502566,
+  "forwardEps": 10.41634,
+  "trailingEps": 6.13,
+  "earningsGrowth": -0.062,
+  "revenueGrowth": -0.055
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 41550000000.0,
+    "official": 41550000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 5097000000.0,
+    "official": 5097000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 944000000.0,
+    "official": 944000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 17738000000.0,
+    "official": 17738000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:59:15+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -197,7 +239,10 @@
    "goodwill_and_intangibles": 4541000000.0,
    "retained_earnings": -3643000000.0,
    "total_debt": 12583000000.0,
-   "shares_out": 389754870.0
+   "shares_out": 389754870.0,
+   "unusual_items": 255000000.0,
+   "normalized_ebitda": 794000000.0,
+   "normalized_income": -1424880000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -231,7 +276,10 @@
    "goodwill_and_intangibles": 4447000000.0,
    "retained_earnings": -2613000000.0,
    "total_debt": 14402000000.0,
-   "shares_out": 351457016.0
+   "shares_out": 351457016.0,
+   "unusual_items": 37000000.0,
+   "normalized_ebitda": 4536000000.0,
+   "normalized_income": 1465398000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -265,7 +313,10 @@
    "goodwill_and_intangibles": 5020000000.0,
    "retained_earnings": -454000000.0,
    "total_debt": 16298000000.0,
-   "shares_out": 339754307.0
+   "shares_out": 339754307.0,
+   "unusual_items": 88000000.0,
+   "normalized_ebitda": 6869000000.0,
+   "normalized_income": 2587632000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -299,7 +350,10 @@
    "goodwill_and_intangibles": 5245000000.0,
    "retained_earnings": -12000000.0,
    "total_debt": 18843000000.0,
-   "shares_out": 338059635.0
+   "shares_out": 338059635.0,
+   "unusual_items": -175000000.0,
+   "normalized_ebitda": 5230000000.0,
+   "normalized_income": 1091175000.0
   }
  ]
 }

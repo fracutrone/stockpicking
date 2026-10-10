@@ -1,6 +1,6 @@
 {
  "ticker": "NVDA",
- "fetched_at": "2026-10-10T12:53:21+00:00",
+ "fetched_at": "2026-10-10T15:51:26+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 42000,
   "website": "https://www.nvidia.com",
-  "longBusinessSummary": "NVIDIA Corporation operates as a data center scale AI infrastructure company in the United States, Taiwan, China, Hong Kong, Europe, and internationally. It operates through Compute & Networking, and Graphics segments. The Compute & Networking segment provides data center accelerated computing and networking platforms and artificial intelligence solutions and software, and automotive platforms and autonomous and electric vehicle solutions, including software. The Graphics segment offers GeForce GPUs for gaming and PCs; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics. The company's products are used in gaming, professional visualization, data center, and automotive markets. It sells its products to original equipment manufacturers, original device manufacturers, system integrators and distributors, independent software vendors, cloud service providers, add-in board manufacturers, distributors, automotive manufacturers and tier-1 automotive suppliers, and other ecosystem participants. NVIDIA Corporation was incorporated in 1993 and is headquartered in Santa Clara, California."
+  "longBusinessSummary": "NVIDIA Corporation operates as a data center scale AI infrastructure company in the United States, Taiwan, China, Hong Kong, Europe, and internationally. It operates through Compute & Networking, and Graphics segments. The Compute & Networking segment provides data center accelerated computing and networking platforms and artificial intelligence solutions and software, and automotive platforms and autonomous and electric vehicle solutions, including software. The Graphics segment offers GeForce GPUs for gaming and PCs; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics. The company's products are used in gaming, professional visualization, data center, and automotive markets. It sells its products to original equipment manufacturers, original device manufacturers, system integrators and distributors, independent software vendors, cloud service providers, add-in board manufacturers, distributors, automotive manufacturers and tier-1 automotive suppliers, and other ecosystem participants. NVIDIA Corporation was incorporated in 1993 and is headquartered in Santa Clara, California.",
+  "targetMeanPrice": 328.71695,
+  "targetLowPrice": 180.0,
+  "targetHighPrice": 515.0,
+  "numberOfAnalystOpinions": 59,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.29032,
+  "forwardPE": 14.406897,
+  "forwardEps": 15.9146,
+  "trailingEps": 7.91,
+  "earningsGrowth": 1.278,
+  "revenueGrowth": 1.059
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "total_liabilities": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-01-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 206803000000.0,
+    "official": 206803000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 157293000000.0,
+    "official": 157293000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 120067000000.0,
+    "official": 120067000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 215938000000.0,
+    "official": 215938000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:51:26+00:00",
  "years": [
   {
    "fy_end": "2020-01-26",
@@ -171,7 +213,8 @@
    "goodwill": 4349000000.0,
    "intangibles": 2339000000.0,
    "retained_earnings": 16235000000.0,
-   "total_debt": 10946000000.0
+   "total_debt": 10946000000.0,
+   "unusual_items": 0.0
   },
   {
    "fy_end": "2023-01-29",
@@ -206,7 +249,10 @@
    "goodwill_and_intangibles": 6048000000.0,
    "retained_earnings": 10171000000.0,
    "total_debt": 10953000000.0,
-   "shares_out": 24661365720.0
+   "shares_out": 24661365720.0,
+   "unusual_items": -1353000000.0,
+   "normalized_ebitda": 7339000000.0,
+   "normalized_income": 5436870000.0
   },
   {
    "fy_end": "2024-01-28",
@@ -241,7 +287,10 @@
    "goodwill_and_intangibles": 5542000000.0,
    "retained_earnings": 29817000000.0,
    "total_debt": 9709000000.0,
-   "shares_out": 24640000000.0
+   "shares_out": 24640000000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 35583000000.0,
+   "normalized_income": 29760000000.0
   },
   {
    "fy_end": "2025-01-26",
@@ -276,7 +325,10 @@
    "goodwill_and_intangibles": 5995000000.0,
    "retained_earnings": 68038000000.0,
    "total_debt": 8463000000.0,
-   "shares_out": 24477000000.0
+   "shares_out": 24477000000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 86137000000.0,
+   "normalized_income": 72880000000.0
   },
   {
    "fy_end": "2026-01-25",
@@ -311,7 +363,9 @@
    "goodwill_and_intangibles": 24138000000.0,
    "retained_earnings": 146973000000.0,
    "total_debt": 8468000000.0,
-   "shares_out": 24304000000.0
+   "shares_out": 24304000000.0,
+   "normalized_ebitda": 144552000000.0,
+   "normalized_income": 120067000000.0
   }
  ]
 }

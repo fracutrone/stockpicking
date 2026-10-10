@@ -1,6 +1,6 @@
 {
  "ticker": "HCA",
- "fetched_at": "2026-10-10T12:47:33+00:00",
+ "fetched_at": "2026-10-10T15:45:55+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 230000,
   "website": "https://www.hcahealthcare.com",
-  "longBusinessSummary": "HCA Healthcare, Inc., through its subsidiaries, provides health care services in the United States. The company owns, manages, and operates hospitals, ASCs, freestanding emergency care facilities, urgent care facilities, walk-in clinics, diagnostic and imaging centers, radiation and oncology therapy centers, as well as rehabilitation and physical therapy centers, physician practices, home health agencies, hospices, outpatient physical therapy providers, home and community-based services providers, and various other facilities. Its general and acute care hospitals offer medical and surgical services, including inpatient care, intensive care, cardiac care, diagnostic services, and emergency services; and outpatient services, such as outpatient surgery, laboratory, radiology, respiratory therapy, cardiology, and physical therapy. The company was formerly known as HCA Holdings, Inc. HCA Healthcare, Inc. was founded in 1968 and is headquartered in Nashville, Tennessee."
+  "longBusinessSummary": "HCA Healthcare, Inc., through its subsidiaries, provides health care services in the United States. The company owns, manages, and operates hospitals, ASCs, freestanding emergency care facilities, urgent care facilities, walk-in clinics, diagnostic and imaging centers, radiation and oncology therapy centers, as well as rehabilitation and physical therapy centers, physician practices, home health agencies, hospices, outpatient physical therapy providers, home and community-based services providers, and various other facilities. Its general and acute care hospitals offer medical and surgical services, including inpatient care, intensive care, cardiac care, diagnostic services, and emergency services; and outpatient services, such as outpatient surgery, laboratory, radiology, respiratory therapy, cardiology, and physical therapy. The company was formerly known as HCA Holdings, Inc. HCA Healthcare, Inc. was founded in 1968 and is headquartered in Nashville, Tennessee.",
+  "targetMeanPrice": 459.27274,
+  "targetLowPrice": 380.0,
+  "targetHighPrice": 579.0,
+  "numberOfAnalystOpinions": 22,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.96154,
+  "forwardPE": 14.093787,
+  "forwardEps": 32.0063,
+  "trailingEps": 29.83,
+  "earningsGrowth": 0.116,
+  "revenueGrowth": 0.087
  },
  "governance": {
   "ceo": {
@@ -82,8 +93,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 60720000000.0,
+    "official": 60720000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": -6027000000.0,
+    "official": -6027000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 6784000000.0,
+    "official": 6784000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 75600000000.0,
+    "official": 75600000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:45:55+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -182,7 +224,10 @@
    "goodwill_and_intangibles": 9653000000.0,
    "retained_earnings": -2280000000.0,
    "total_debt": 38084000000.0,
-   "shares_out": 277378300.0
+   "shares_out": 277378300.0,
+   "unusual_items": 1223000000.0,
+   "normalized_ebitda": 12067000000.0,
+   "normalized_income": 4668269000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -214,7 +259,10 @@
    "goodwill_and_intangibles": 9945000000.0,
    "retained_earnings": -1352000000.0,
    "total_debt": 39593000000.0,
-   "shares_out": 265537300.0
+   "shares_out": 265537300.0,
+   "unusual_items": -5000000.0,
+   "normalized_ebitda": 12726000000.0,
+   "normalized_income": 5245950000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -246,7 +294,10 @@
    "goodwill_and_intangibles": 10093000000.0,
    "retained_earnings": -2115000000.0,
    "total_debt": 43031000000.0,
-   "shares_out": 249981400.0
+   "shares_out": 249981400.0,
+   "unusual_items": 14000000.0,
+   "normalized_ebitda": 13882000000.0,
+   "normalized_income": 5749066000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -277,7 +328,10 @@
    "goodwill_and_intangibles": 10293000000.0,
    "retained_earnings": -5724000000.0,
    "total_debt": 44285000000.0,
-   "shares_out": 224605100.0
+   "shares_out": 224605100.0,
+   "unusual_items": 37000000.0,
+   "normalized_ebitda": 15566000000.0,
+   "normalized_income": 6754733000.0
   }
  ]
 }

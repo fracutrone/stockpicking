@@ -1,6 +1,6 @@
 {
  "ticker": "SGRO.L",
- "fetched_at": "2026-10-10T12:18:56+00:00",
+ "fetched_at": "2026-10-10T15:19:28+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 463,
   "website": "https://www.segro.com",
-  "longBusinessSummary": "SEGRO Plc is a UK Real Estate Investment Trust (REIT), listed on the London Stock Exchange and Euronext Paris, and is a leading owner, manager and developer of modern warehouses, industrial property and data centres. It owns or manages 10.9 million square meters of space (117 million square feet) valued at 21.7 billion pounds serving customers from a wide range of industry sectors. Its properties are in and around major cities and at key transportation hubs in the UK and in seven other European countries. For over 100 years SEGRO has been creating space that enables extraordinary things to happen. From modern big box warehouses, used primarily for regional, national and international distribution hubs, to urban warehousing located close to major population centres and business districts, it provides high-quality assets that allow its customers to thrive. SEGRO Plc was incorporated in 1920 in United Kingdom."
+  "longBusinessSummary": "SEGRO Plc is a UK Real Estate Investment Trust (REIT), listed on the London Stock Exchange and Euronext Paris, and is a leading owner, manager and developer of modern warehouses, industrial property and data centres. It owns or manages 10.9 million square meters of space (117 million square feet) valued at 21.7 billion pounds serving customers from a wide range of industry sectors. Its properties are in and around major cities and at key transportation hubs in the UK and in seven other European countries. For over 100 years SEGRO has been creating space that enables extraordinary things to happen. From modern big box warehouses, used primarily for regional, national and international distribution hubs, to urban warehousing located close to major population centres and business districts, it provides high-quality assets that allow its customers to thrive. SEGRO Plc was incorporated in 1920 in United Kingdom.",
+  "targetMeanPrice": 980.90894,
+  "targetLowPrice": 850.0,
+  "targetHighPrice": 1300.0,
+  "numberOfAnalystOpinions": 11,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.63636,
+  "forwardPE": 22.677261,
+  "forwardEps": 0.40534,
+  "trailingEps": 0.22,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.054
  },
  "governance": {
   "ceo": {
@@ -78,8 +89,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 18181000000.0,
+    "official": 18181000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 12273000000.0,
+    "official": 12273000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 551000000.0,
+    "official": 551000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 726000000.0,
+    "official": 726000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:19:28+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -111,7 +154,10 @@
    "goodwill_and_intangibles": 12000000.0,
    "retained_earnings": 7463000000.0,
    "total_debt": 4961000000.0,
-   "shares_out": 1209000000.0
+   "shares_out": 1209000000.0,
+   "unusual_items": -199000000.0,
+   "normalized_ebitda": -1679000000.0,
+   "normalized_income": -1733572000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -143,7 +189,10 @@
    "goodwill_and_intangibles": 30000000.0,
    "retained_earnings": 6888000000.0,
    "total_debt": 5423000000.0,
-   "shares_out": 1227605189.0
+   "shares_out": 1227605189.0,
+   "unusual_items": -5000000.0,
+   "normalized_ebitda": -129000000.0,
+   "normalized_income": -248120000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -175,7 +224,10 @@
    "goodwill_and_intangibles": 37000000.0,
    "retained_earnings": 7111000000.0,
    "total_debt": 4677000000.0,
-   "shares_out": 1352162607.0
+   "shares_out": 1352162607.0,
+   "unusual_items": 1000000.0,
+   "normalized_ebitda": 762000000.0,
+   "normalized_income": 593066037.735849
   },
   {
    "fy_end": "2025-12-31",
@@ -206,7 +258,10 @@
    "goodwill_and_intangibles": 44000000.0,
    "retained_earnings": 7264000000.0,
    "total_debt": 5599000000.0,
-   "shares_out": 1352361990.0
+   "shares_out": 1352361990.0,
+   "unusual_items": -35000000.0,
+   "normalized_ebitda": 696000000.0,
+   "normalized_income": 585020000.0
   }
  ]
 }

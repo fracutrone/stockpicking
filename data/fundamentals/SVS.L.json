@@ -1,6 +1,6 @@
 {
  "ticker": "SVS.L",
- "fetched_at": "2026-10-10T12:21:04+00:00",
+ "fetched_at": "2026-10-10T15:23:13+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 40181,
   "website": "https://www.savills.com",
-  "longBusinessSummary": "Savills plc, together with its subsidiaries, engages in the provision of real estate services in the United Kingdom, Continental Europe, the Asia Pacific, North America, Africa, and the Middle East. The company advises on commercial, residential, rural, and leisure properties; and provides corporate finance advisory, investment management, and a range of property-related financial services. It operates through Transaction Advisory, Property and Facilities Management, Investment Management, and Consultancy segments. The Transaction Advisory segment consists of Commercial Transactional and Residential Transactional, which offers commercial, residential, leisure, and agricultural leasing services; and tenant representation, as well as investment advice on purchases and sales. The Property and Facilities Management segment manages commercial, residential, leisure, and agricultural properties for owners; and provides services to occupiers of properties, including strategic advice and project management, as well as various services relating to a property. The Investment Management segment is involved in the investment management of commercial and residential property portfolios for institutional, corporate, or private investors on a pooled or segregated account basis. The Consultancy segment offers various professional property services, such as valuation, project management and housing consultancy, environmental consultancy, landlord and tenant, rating, development, planning, strategic projects, and corporate services and research. Savills plc was founded in 1855 and is headquartered in London, the United Kingdom."
+  "longBusinessSummary": "Savills plc, together with its subsidiaries, engages in the provision of real estate services in the United Kingdom, Continental Europe, the Asia Pacific, North America, Africa, and the Middle East. The company advises on commercial, residential, rural, and leisure properties; and provides corporate finance advisory, investment management, and a range of property-related financial services. It operates through Transaction Advisory, Property and Facilities Management, Investment Management, and Consultancy segments. The Transaction Advisory segment consists of Commercial Transactional and Residential Transactional, which offers commercial, residential, leisure, and agricultural leasing services; and tenant representation, as well as investment advice on purchases and sales. The Property and Facilities Management segment manages commercial, residential, leisure, and agricultural properties for owners; and provides services to occupiers of properties, including strategic advice and project management, as well as various services relating to a property. The Investment Management segment is involved in the investment management of commercial and residential property portfolios for institutional, corporate, or private investors on a pooled or segregated account basis. The Consultancy segment offers various professional property services, such as valuation, project management and housing consultancy, environmental consultancy, landlord and tenant, rating, development, planning, strategic projects, and corporate services and research. Savills plc was founded in 1855 and is headquartered in London, the United Kingdom.",
+  "targetMeanPrice": 1323.0,
+  "targetLowPrice": 1060.0,
+  "targetHighPrice": 1400.0,
+  "numberOfAnalystOpinions": 6,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.16667,
+  "forwardPE": 9.386365,
+  "forwardEps": 1.03661,
+  "trailingEps": 0.46,
+  "earningsGrowth": -0.516,
+  "revenueGrowth": 0.087
  },
  "governance": {
   "ceo": {
@@ -67,8 +78,35 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "equity": {
+    "yahoo": 766400000.0,
+    "official": 766400000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 70900000.0,
+    "official": 70900000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2550900000.0,
+    "official": 2550900000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:23:13+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -98,7 +136,10 @@
    "goodwill_and_intangibles": 515700000.0,
    "retained_earnings": 587000000.0,
    "total_debt": 639300000.0,
-   "shares_out": 135657871.0
+   "shares_out": 135657871.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 254600000.0,
+   "normalized_income": 119400000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -128,7 +169,10 @@
    "goodwill_and_intangibles": 499400000.0,
    "retained_earnings": 547200000.0,
    "total_debt": 603700000.0,
-   "shares_out": 135272344.0
+   "shares_out": 135272344.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 179300000.0,
+   "normalized_income": 47480700.0
   },
   {
    "fy_end": "2024-12-31",
@@ -159,7 +203,10 @@
    "goodwill_and_intangibles": 510800000.0,
    "retained_earnings": 572400000.0,
    "total_debt": 593300000.0,
-   "shares_out": 135681411.0
+   "shares_out": 135681411.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 217600000.0,
+   "normalized_income": 56925000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -190,7 +237,10 @@
    "goodwill_and_intangibles": 506100000.0,
    "retained_earnings": 589000000.0,
    "total_debt": 619300000.0,
-   "shares_out": 138251342.0
+   "shares_out": 138251342.0,
+   "unusual_items": -1600000.0,
+   "normalized_ebitda": 229400000.0,
+   "normalized_income": 77252079.207921
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "ROST",
- "fetched_at": "2026-10-10T12:57:07+00:00",
+ "fetched_at": "2026-10-10T15:54:50+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 111000,
   "website": "https://www.rossstores.com",
-  "longBusinessSummary": "Ross Stores, Inc., together with its subsidiaries, operates off-price retail apparel and home fashion stores under the Ross Dress for Less and dd's DISCOUNTS brands in the United States. The company offers designer apparel, accessories, footwear, and home-fashioned products for the entire family. It sells its products to middle income households and households with lower to more moderate incomes. Ross Stores, Inc. was incorporated in 1957 and is headquartered in Dublin, California."
+  "longBusinessSummary": "Ross Stores, Inc., together with its subsidiaries, operates off-price retail apparel and home fashion stores under the Ross Dress for Less and dd's DISCOUNTS brands in the United States. The company offers designer apparel, accessories, footwear, and home-fashioned products for the entire family. It sells its products to middle income households and households with lower to more moderate incomes. Ross Stores, Inc. was incorporated in 1957 and is headquartered in Dublin, California.",
+  "targetMeanPrice": 270.55557,
+  "targetLowPrice": 187.0,
+  "targetHighPrice": 310.0,
+  "numberOfAnalystOpinions": 18,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.75,
+  "forwardPE": 24.786692,
+  "forwardEps": 8.97296,
+  "trailingEps": 8.27,
+  "earningsGrowth": 0.705,
+  "revenueGrowth": 0.133
  },
  "governance": {
   "ceo": {
@@ -82,9 +93,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec",
   "goodwill": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-01-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 15548737000.0,
+    "official": 15548737000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 6187443000.0,
+    "official": 6187443000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2145044000.0,
+    "official": 2145044000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 22750559000.0,
+    "official": 22750559000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:54:50+00:00",
  "years": [
   {
    "fy_end": "2020-02-01",
@@ -187,7 +228,9 @@
    "ppe_net": 3181527000.0,
    "retained_earnings": 3049656000.0,
    "total_debt": 2456510000.0,
-   "shares_out": 342753000.0
+   "shares_out": 342753000.0,
+   "normalized_ebitda": 2462692000.0,
+   "normalized_income": 1512041000.0
   },
   {
    "fy_end": "2024-02-03",
@@ -218,7 +261,9 @@
    "ppe_net": 3531901000.0,
    "retained_earnings": 3548667000.0,
    "total_debt": 2460730000.0,
-   "shares_out": 335172000.0
+   "shares_out": 335172000.0,
+   "normalized_ebitda": 2965302000.0,
+   "normalized_income": 1874520000.0
   },
   {
    "fy_end": "2025-02-01",
@@ -249,7 +294,9 @@
    "ppe_net": 3792403000.0,
    "retained_earnings": 4128207000.0,
    "total_debt": 2214811000.0,
-   "shares_out": 328813000.0
+   "shares_out": 328813000.0,
+   "normalized_ebitda": 3267329000.0,
+   "normalized_income": 2090730000.0
   },
   {
    "fy_end": "2026-01-31",
@@ -280,7 +327,9 @@
    "ppe_net": 4088760000.0,
    "retained_earnings": 4726154000.0,
    "total_debt": 1517606000.0,
-   "shares_out": 322333000.0
+   "shares_out": 322333000.0,
+   "normalized_ebitda": 3389490000.0,
+   "normalized_income": 2145044000.0
   }
  ]
 }

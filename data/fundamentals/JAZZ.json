@@ -1,6 +1,6 @@
 {
  "ticker": "JAZZ",
- "fetched_at": "2026-10-10T12:49:17+00:00",
+ "fetched_at": "2026-10-10T15:47:37+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 2890,
   "website": "https://www.jazzpharma.com",
-  "longBusinessSummary": "Jazz Pharmaceuticals plc identifies, develops, and commercializes pharmaceutical products in the United States, Europe, and internationally. The company offers Xywav to treat cataplexy or excessive daytime sleepiness (EDS) with narcolepsy and idiopathic hypersomnia (IH); Epidiolex for seizures associated with Lennox-Gastaut syndrome (LGS), Dravet syndrome (DS), or tuberous sclerosis complex (TSC); Rylaze for the treatment of acute lymphoblastic leukemia or lymphoblastic lymphoma; Enrylaze to treat acute lymphoblastic leukemia and lymphoblastic lymphoma; Zepzelca for the treatment of metastatic small cell lung cancer with disease progression on or after platinum-based chemotherapy; Ziihera to treat HER2-positive biliary tract cancers; Modeyso for the treatment of diffuse midline glioma harboring an H3 K27M mutation; and Defitelio to treat severe veno-occlusive disease. It also develops Zanidatamab in Phase 3 trial to treat HER2-positive gastroesophageal adenocarcinoma (GEA) and biliary tract cancers (BTC); Dordaviprone to treat H3 K27M-mutant diffuse glioma; and Vyxeos for the treatment of newly-diagnosed therapy-related acute myeloid leukemia. In addition, the company is developing Zanidatamab to treat neoadjuvant and adjuvant breast cancer; Vyxeos for the treatment of High-risk MDS, newly diagnosed untreated patients with high-risk AML, and De novo intermediate or adverse risk AML stratified by genomics; and JZP3507 to treat pheochromocytoma and paraganglioma that are in Phase 2 clinical trials. Further, it develops JZP815 to treat Raf and Ras mutant tumors; JZP898 for the IFN INDUKIN molecule in solid tumors; and JZP047 to treat absence epilepsy that are in Phase 1 clinical trials. The company collaboration agreements with Redx Pharma plc, Autifony Therapeutics Limited, Zymeworks Inc., Sumitomo Pharma Co., Ltd., Werewolf Therapeutics, Inc; and AbCellera Biologics Inc. Jazz Pharmaceuticals plc was founded in 2003 and is headquartered in Dublin, Ireland."
+  "longBusinessSummary": "Jazz Pharmaceuticals plc identifies, develops, and commercializes pharmaceutical products in the United States, Europe, and internationally. The company offers Xywav to treat cataplexy or excessive daytime sleepiness (EDS) with narcolepsy and idiopathic hypersomnia (IH); Epidiolex for seizures associated with Lennox-Gastaut syndrome (LGS), Dravet syndrome (DS), or tuberous sclerosis complex (TSC); Rylaze for the treatment of acute lymphoblastic leukemia or lymphoblastic lymphoma; Enrylaze to treat acute lymphoblastic leukemia and lymphoblastic lymphoma; Zepzelca for the treatment of metastatic small cell lung cancer with disease progression on or after platinum-based chemotherapy; Ziihera to treat HER2-positive biliary tract cancers; Modeyso for the treatment of diffuse midline glioma harboring an H3 K27M mutation; and Defitelio to treat severe veno-occlusive disease. It also develops Zanidatamab in Phase 3 trial to treat HER2-positive gastroesophageal adenocarcinoma (GEA) and biliary tract cancers (BTC); Dordaviprone to treat H3 K27M-mutant diffuse glioma; and Vyxeos for the treatment of newly-diagnosed therapy-related acute myeloid leukemia. In addition, the company is developing Zanidatamab to treat neoadjuvant and adjuvant breast cancer; Vyxeos for the treatment of High-risk MDS, newly diagnosed untreated patients with high-risk AML, and De novo intermediate or adverse risk AML stratified by genomics; and JZP3507 to treat pheochromocytoma and paraganglioma that are in Phase 2 clinical trials. Further, it develops JZP815 to treat Raf and Ras mutant tumors; JZP898 for the IFN INDUKIN molecule in solid tumors; and JZP047 to treat absence epilepsy that are in Phase 1 clinical trials. The company collaboration agreements with Redx Pharma plc, Autifony Therapeutics Limited, Zymeworks Inc., Sumitomo Pharma Co., Ltd., Werewolf Therapeutics, Inc; and AbCellera Biologics Inc. Jazz Pharmaceuticals plc was founded in 2003 and is headquartered in Dublin, Ireland.",
+  "targetMeanPrice": 294.63635,
+  "targetLowPrice": 225.0,
+  "targetHighPrice": 337.0,
+  "numberOfAnalystOpinions": 22,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.5,
+  "forwardPE": 8.460933,
+  "forwardEps": 25.81512,
+  "trailingEps": 14.59,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.155
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 11659340000.0,
+    "official": 11659340000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4318584000.0,
+    "official": 4318584000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -356148000.0,
+    "official": -356148000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 4267586000.0,
+    "official": 4267586000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:47:37+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -193,7 +235,10 @@
    "goodwill_and_intangibles": 7487099000.0,
    "retained_earnings": 733586000.0,
    "total_debt": 5724341000.0,
-   "shares_out": 63214000.0
+   "shares_out": 63214000.0,
+   "unusual_items": -596810000.0,
+   "normalized_ebitda": 1141739000.0,
+   "normalized_income": 218713339.0
   },
   {
    "fy_end": "2023-12-31",
@@ -228,7 +273,10 @@
    "goodwill_and_intangibles": 7171169000.0,
    "retained_earnings": 878656000.0,
    "total_debt": 5712942000.0,
-   "shares_out": 62255000.0
+   "shares_out": 62255000.0,
+   "unusual_items": -10213000.0,
+   "normalized_ebitda": 1236276000.0,
+   "normalized_income": 422413109.9
   },
   {
    "fy_end": "2024-12-31",
@@ -263,7 +311,10 @@
    "goodwill_and_intangibles": 6472018000.0,
    "retained_earnings": 1127347000.0,
    "total_debt": 6108640000.0,
-   "shares_out": 60631000.0
+   "shares_out": 60631000.0,
+   "unusual_items": -18182000.0,
+   "normalized_ebitda": 1386697000.0,
+   "normalized_income": 573641953.4
   },
   {
    "fy_end": "2025-12-31",
@@ -298,7 +349,10 @@
    "goodwill_and_intangibles": 6258850000.0,
    "retained_earnings": 646176000.0,
    "total_debt": 5358257000.0,
-   "shares_out": 61435000.0
+   "shares_out": 61435000.0,
+   "unusual_items": -950430000.0,
+   "normalized_ebitda": 1213919000.0,
+   "normalized_income": 351257049.0
   }
  ]
 }

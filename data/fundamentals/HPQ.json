@@ -1,6 +1,6 @@
 {
  "ticker": "HPQ",
- "fetched_at": "2026-10-10T12:47:59+00:00",
+ "fetched_at": "2026-10-10T15:46:24+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 55000,
   "website": "https://www.hp.com",
-  "longBusinessSummary": "HP Inc. provides personal computing, printing, 3D printing, hybrid work, gaming, and other related technologies in the United States and internationally. The company operates through three segments: Personal Systems, Printing, and Corporate Investments. The Personal Systems segment offers commercial and consumer desktops and notebooks, workstations, thin clients, retail point-of-sale systems, displays, software, hybrid systems, and endpoint security and services, as well as lifecycle services, including support and deployment, configurations, and extended warranty services. The Printing segment provides consumer and commercial printer hardware, supplies, and solutions, as well as office and home printing solutions; and focuses on graphics, 3D printing, and personalization solutions for the commercial and industrial markets. The Corporate Investments segment is involved in the business incubation and investment projects. It serves small- and medium-sized businesses, public sector, and enterprises. The company was formerly known as Hewlett-Packard Company and changed its name to HP Inc. in October 2015. HP Inc. was founded in 1939 and is headquartered in Palo Alto, California."
+  "longBusinessSummary": "HP Inc. provides personal computing, printing, 3D printing, hybrid work, gaming, and other related technologies in the United States and internationally. The company operates through three segments: Personal Systems, Printing, and Corporate Investments. The Personal Systems segment offers commercial and consumer desktops and notebooks, workstations, thin clients, retail point-of-sale systems, displays, software, hybrid systems, and endpoint security and services, as well as lifecycle services, including support and deployment, configurations, and extended warranty services. The Printing segment provides consumer and commercial printer hardware, supplies, and solutions, as well as office and home printing solutions; and focuses on graphics, 3D printing, and personalization solutions for the commercial and industrial markets. The Corporate Investments segment is involved in the business incubation and investment projects. It serves small- and medium-sized businesses, public sector, and enterprises. The company was formerly known as Hewlett-Packard Company and changed its name to HP Inc. in October 2015. HP Inc. was founded in 1939 and is headquartered in Palo Alto, California.",
+  "targetMeanPrice": 29.66471,
+  "targetLowPrice": 19.0,
+  "targetHighPrice": 72.0,
+  "numberOfAnalystOpinions": 17,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 9.624057,
+  "forwardEps": 3.13797,
+  "trailingEps": 2.62,
+  "earningsGrowth": -0.113,
+  "revenueGrowth": 0.125
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-10-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 41769000000.0,
+    "official": 41769000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": -346000000.0,
+    "official": -346000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2529000000.0,
+    "official": 2529000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 55295000000.0,
+    "official": 55295000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:46:24+00:00",
  "years": [
   {
    "fy_end": "2019-10-31",
@@ -202,7 +244,10 @@
    "goodwill_and_intangibles": 10474000000.0,
    "retained_earnings": -4492000000.0,
    "total_debt": 11190000000.0,
-   "shares_out": 980000000.0
+   "shares_out": 980000000.0,
+   "unusual_items": -559000000.0,
+   "normalized_ebitda": 6022000000.0,
+   "normalized_income": 3536716000.0
   },
   {
    "fy_end": "2023-10-31",
@@ -236,7 +281,10 @@
    "goodwill_and_intangibles": 10184000000.0,
    "retained_earnings": -2361000000.0,
    "total_debt": 9612000000.0,
-   "shares_out": 988268771.0
+   "shares_out": 988268771.0,
+   "unusual_items": -660000000.0,
+   "normalized_ebitda": 5131000000.0,
+   "normalized_income": 3752918000.0
   },
   {
    "fy_end": "2024-10-31",
@@ -270,7 +318,10 @@
    "goodwill_and_intangibles": 9946000000.0,
    "retained_earnings": -2676000000.0,
    "total_debt": 9748000000.0,
-   "shares_out": 938989000.0
+   "shares_out": 938989000.0,
+   "unusual_items": -387000000.0,
+   "normalized_ebitda": 5103000000.0,
+   "normalized_income": 3102402000.0
   },
   {
    "fy_end": "2025-10-31",
@@ -304,7 +355,10 @@
    "goodwill_and_intangibles": 9718000000.0,
    "retained_earnings": -2027000000.0,
    "total_debt": 9723000000.0,
-   "shares_out": 921149000.0
+   "shares_out": 921149000.0,
+   "unusual_items": -398000000.0,
+   "normalized_ebitda": 4537000000.0,
+   "normalized_income": 2906304000.0
   }
  ]
 }

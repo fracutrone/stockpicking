@@ -1,6 +1,6 @@
 {
  "ticker": "RS1.L",
- "fetched_at": "2026-10-10T12:17:41+00:00",
+ "fetched_at": "2026-10-10T15:16:56+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 8500,
   "website": "https://www.rsgroup.com",
-  "longBusinessSummary": "RS Group plc, together with its subsidiaries, engages in the distribution of maintenance, repair, and operations products and service solutions in the United Kingdom, the United States, France, Mexico, Germany, Italy, Switzerland, and internationally. The company offers automation and control, and electrification products; cables and connectors; mechanical and fluid power products, such as transmission, pneumatics, and hydraulic components; semiconductors and passive components; test and measurements products; personal protective equipment (PPE), workwear, and janitorial products; and facilities and maintenance products for buildings. It also provides bundling, kitting, labelling, and assembly services; digital procurement platforms that enhance productivity, reduce spend, and streamline supplier management; inventory solutions that optimize inventory management to reduce waste, enhance supply chains, and lower costs; and DesignSpark, a software tool for design engineers. In addition, the company offers design, manufacturing, and prototyping; maintenance engineering and safety; and integrated supply chain and procurement solutions. The company provides its customers with product and service solutions for designing, building, maintaining, repairing, and operating industrial equipment. It serves design and discrete manufacturing, process manufacturing, facilities and intralogistics, and energy and utilities industries. The company was formerly known as Electrocomponents plc. RS Group plc was founded in 1937 and is headquartered in London, the United Kingdom."
+  "longBusinessSummary": "RS Group plc, together with its subsidiaries, engages in the distribution of maintenance, repair, and operations products and service solutions in the United Kingdom, the United States, France, Mexico, Germany, Italy, Switzerland, and internationally. The company offers automation and control, and electrification products; cables and connectors; mechanical and fluid power products, such as transmission, pneumatics, and hydraulic components; semiconductors and passive components; test and measurements products; personal protective equipment (PPE), workwear, and janitorial products; and facilities and maintenance products for buildings. It also provides bundling, kitting, labelling, and assembly services; digital procurement platforms that enhance productivity, reduce spend, and streamline supplier management; inventory solutions that optimize inventory management to reduce waste, enhance supply chains, and lower costs; and DesignSpark, a software tool for design engineers. In addition, the company offers design, manufacturing, and prototyping; maintenance engineering and safety; and integrated supply chain and procurement solutions. The company provides its customers with product and service solutions for designing, building, maintaining, repairing, and operating industrial equipment. It serves design and discrete manufacturing, process manufacturing, facilities and intralogistics, and energy and utilities industries. The company was formerly known as Electrocomponents plc. RS Group plc was founded in 1937 and is headquartered in London, the United Kingdom.",
+  "targetMeanPrice": 740.625,
+  "targetLowPrice": 520.0,
+  "targetHighPrice": 900.0,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.9375,
+  "forwardPE": 16.727919,
+  "forwardEps": 0.47346,
+  "trailingEps": 0.35,
+  "earningsGrowth": 0.045,
+  "revenueGrowth": 0.011
  },
  "governance": {
   "ceo": {
@@ -70,8 +81,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2026-03-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 2670800000.0,
+    "official": 2670800000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1413500000.0,
+    "official": 1413500000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 161900000.0,
+    "official": 162000000.0,
+    "diff": 0.000617
+   },
+   "revenue": {
+    "yahoo": 2881100000.0,
+    "official": 2881100000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2026-03-31"
+ },
+ "info_at": "2026-10-10T15:16:57+00:00",
  "years": [
   {
    "fy_end": "2023-03-31",
@@ -105,7 +148,10 @@
    "goodwill_and_intangibles": 704800000.0,
    "retained_earnings": 944000000.0,
    "total_debt": 373300000.0,
-   "shares_out": 472784409.0
+   "shares_out": 472784409.0,
+   "unusual_items": -15100000.0,
+   "normalized_ebitda": 462700000.0,
+   "normalized_income": 296396800.0
   },
   {
    "fy_end": "2024-03-31",
@@ -139,7 +185,10 @@
    "goodwill_and_intangibles": 982600000.0,
    "retained_earnings": 1024300000.0,
    "total_debt": 676900000.0,
-   "shares_out": 473669165.0
+   "shares_out": 473669165.0,
+   "unusual_items": -9100000.0,
+   "normalized_ebitda": 368300000.0,
+   "normalized_income": 186115800.0
   },
   {
    "fy_end": "2025-03-31",
@@ -173,7 +222,10 @@
    "goodwill_and_intangibles": 898900000.0,
    "retained_earnings": 1077200000.0,
    "total_debt": 511900000.0,
-   "shares_out": 468511050.0
+   "shares_out": 468511050.0,
+   "unusual_items": -27900000.0,
+   "normalized_ebitda": 348100000.0,
+   "normalized_income": 173257641.921397
   },
   {
    "fy_end": "2026-03-31",
@@ -207,7 +259,10 @@
    "goodwill_and_intangibles": 913000000.0,
    "retained_earnings": 1140900000.0,
    "total_debt": 495400000.0,
-   "shares_out": 463165619.0
+   "shares_out": 463165619.0,
+   "unusual_items": -7800000.0,
+   "normalized_ebitda": 327100000.0,
+   "normalized_income": 167640800.0
   }
  ]
 }

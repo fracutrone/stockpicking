@@ -1,6 +1,6 @@
 {
  "ticker": "SAIN.L",
- "fetched_at": "2026-10-10T12:18:08+00:00",
+ "fetched_at": "2026-10-10T15:17:45+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -49,8 +60,16 @@
   "equity": "yahoo",
   "receivables": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T15:17:45+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -70,7 +89,9 @@
    "equity": 846674000.0,
    "receivables": 3213000.0,
    "total_debt": 94714000.0,
-   "shares_out": 176750943.0
+   "shares_out": 176750943.0,
+   "unusual_items": -5114000.0,
+   "normalized_income": -61438660.0
   },
   {
    "fy_end": "2023-12-31",
@@ -90,7 +111,9 @@
    "equity": 935184000.0,
    "receivables": 3549000.0,
    "total_debt": 94728000.0,
-   "shares_out": 178315943.0
+   "shares_out": 178315943.0,
+   "unusual_items": -6054000.0,
+   "normalized_income": 110971619.348879
   },
   {
    "fy_end": "2024-12-31",
@@ -110,7 +133,9 @@
    "equity": 952693000.0,
    "receivables": 1499000.0,
    "total_debt": 94742000.0,
-   "shares_out": 176650758.0
+   "shares_out": 176650758.0,
+   "unusual_items": 1887000.0,
+   "normalized_income": 50070902.145512
   },
   {
    "fy_end": "2025-12-31",
@@ -130,7 +155,9 @@
    "equity": 878626000.0,
    "receivables": 1599000.0,
    "total_debt": 94756000.0,
-   "shares_out": 163886374.0
+   "shares_out": 163886374.0,
+   "unusual_items": -1976000.0,
+   "normalized_income": 19444519.265322
   }
  ]
 }

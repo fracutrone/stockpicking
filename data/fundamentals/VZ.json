@@ -1,6 +1,6 @@
 {
  "ticker": "VZ",
- "fetched_at": "2026-10-10T13:01:56+00:00",
+ "fetched_at": "2026-10-10T15:59:23+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 97600,
   "website": "https://www.verizon.com",
-  "longBusinessSummary": "Verizon Communications Inc., through its subsidiaries, engages in the provision of communications, technology, information, and streaming products and services to consumers, businesses, and governmental entities worldwide. It operates in two segments, Verizon Consumer Group (Consumer) and Verizon Business Group (Business). The Consumer segment provides wireless services across the wireless networks in the United States under the Verizon and TracFone brands and through wholesale and other arrangements; and fixed wireless access (FWA) broadband through its wireless networks, as well as related equipment and devices, such as smartphones, tablets, smartwatches, and other wireless-enabled connected devices. The segment also offers wireline services in the Mid-Atlantic and Northeastern United States, as well as Washington D.C. through its fiber-optic network, Verizon Fios product portfolio, and a copper-based network. The Business segment provides wireless and wireline communications services and products, including FWA and wireline broadband, advanced communication services, corporate networking, security and managed network, local and long-distance voice, and network access services to deliver various IoT services and products to businesses, government customers, and wireless and wireline carriers in the United States and internationally. The company distributes its products and services through direct channels, company-operated stores, digital and omnichannel platforms, indirect agents, business solution resellers, and national retailers. The company was formerly known as Bell Atlantic Corporation and changed its name to Verizon Communications Inc. in June 2000. Verizon Communications Inc. was incorporated in 1983 and is headquartered in New York, New York."
+  "longBusinessSummary": "Verizon Communications Inc., through its subsidiaries, engages in the provision of communications, technology, information, and streaming products and services to consumers, businesses, and governmental entities worldwide. It operates in two segments, Verizon Consumer Group (Consumer) and Verizon Business Group (Business). The Consumer segment provides wireless services across the wireless networks in the United States under the Verizon and TracFone brands and through wholesale and other arrangements; and fixed wireless access (FWA) broadband through its wireless networks, as well as related equipment and devices, such as smartphones, tablets, smartwatches, and other wireless-enabled connected devices. The segment also offers wireline services in the Mid-Atlantic and Northeastern United States, as well as Washington D.C. through its fiber-optic network, Verizon Fios product portfolio, and a copper-based network. The Business segment provides wireless and wireline communications services and products, including FWA and wireline broadband, advanced communication services, corporate networking, security and managed network, local and long-distance voice, and network access services to deliver various IoT services and products to businesses, government customers, and wireless and wireline carriers in the United States and internationally. The company distributes its products and services through direct channels, company-operated stores, digital and omnichannel platforms, indirect agents, business solution resellers, and national retailers. The company was formerly known as Bell Atlantic Corporation and changed its name to Verizon Communications Inc. in June 2000. Verizon Communications Inc. was incorporated in 1983 and is headquartered in New York, New York.",
+  "targetMeanPrice": 51.30909,
+  "targetLowPrice": 44.0,
+  "targetHighPrice": 62.0,
+  "numberOfAnalystOpinions": 22,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.28,
+  "forwardPE": 7.891681,
+  "forwardEps": 5.27771,
+  "trailingEps": 3.84,
+  "earningsGrowth": -0.22,
+  "revenueGrowth": -0.007
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 404258000000.0,
+    "official": 404258000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 104460000000.0,
+    "official": 105741000000.0,
+    "diff": 0.012115
+   },
+   "net_income": {
+    "yahoo": 17174000000.0,
+    "official": 17174000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 138191000000.0,
+    "official": 138191000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:59:23+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -192,7 +234,10 @@
    "goodwill_and_intangibles": 189928000000.0,
    "retained_earnings": 82380000000.0,
    "total_debt": 140826000000.0,
-   "shares_out": 4199861388.0
+   "shares_out": 4199861388.0,
+   "unusual_items": -1077000000.0,
+   "normalized_ebitda": 50060000000.0,
+   "normalized_income": 22084502564.46535
   },
   {
    "fy_end": "2023-12-31",
@@ -226,7 +271,10 @@
    "goodwill_and_intangibles": 189567000000.0,
    "retained_earnings": 82915000000.0,
    "total_debt": 137701000000.0,
-   "shares_out": 4204260649.0
+   "shares_out": 4204260649.0,
+   "unusual_items": -5533000000.0,
+   "normalized_ebitda": 45668000000.0,
+   "normalized_income": 15553579384.235003
   },
   {
    "fy_end": "2024-12-31",
@@ -260,7 +308,10 @@
    "goodwill_and_intangibles": 190583000000.0,
    "retained_earnings": 89110000000.0,
    "total_debt": 121446000000.0,
-   "shares_out": 4209680158.0
+   "shares_out": 4209680158.0,
+   "unusual_items": 385000000.0,
+   "normalized_ebitda": 47135000000.0,
+   "normalized_income": 17205315000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -294,7 +345,10 @@
    "goodwill_and_intangibles": 190338000000.0,
    "retained_earnings": 94744000000.0,
    "total_debt": 139973000000.0,
-   "shares_out": 4217175350.0
+   "shares_out": 4217175350.0,
+   "unusual_items": 368000000.0,
+   "normalized_ebitda": 47347000000.0,
+   "normalized_income": 16888064000.0
   }
  ]
 }

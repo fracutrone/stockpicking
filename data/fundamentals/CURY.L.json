@@ -1,6 +1,6 @@
 {
  "ticker": "CURY.L",
- "fetched_at": "2026-10-10T11:53:07+00:00",
+ "fetched_at": "2026-10-10T14:41:28+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 24540,
   "website": "https://www.currysplc.com",
-  "longBusinessSummary": "Currys plc operates as a omnichannel retailer of technology products and services in the United Kingdom, Ireland, Norway, Sweden, Finland, Denmark, Iceland, Greenland, and the Faroe Islands. It offers consumer electronics and mobile technology products and services; iD Mobile, a mobile virtual network operator solution; and provides repair services, and sales of third-party insurance products. The company also involved in the sale of customer support agreements; and delivery, installation, and set-up services. It sells its products through franchise and own stores operated under Currys and Elkjøp brand names, as well as through online channels. The company was formerly known as Dixons Carphone plc and changed its name to Currys plc in September 2021. Currys plc was founded in 1884 and is based in London, the United Kingdom."
+  "longBusinessSummary": "Currys plc operates as a omnichannel retailer of technology products and services in the United Kingdom, Ireland, Norway, Sweden, Finland, Denmark, Iceland, Greenland, and the Faroe Islands. It offers consumer electronics and mobile technology products and services; iD Mobile, a mobile virtual network operator solution; and provides repair services, and sales of third-party insurance products. The company also involved in the sale of customer support agreements; and delivery, installation, and set-up services. It sells its products through franchise and own stores operated under Currys and Elkjøp brand names, as well as through online channels. The company was formerly known as Dixons Carphone plc and changed its name to Currys plc in September 2021. Currys plc was founded in 1884 and is based in London, the United Kingdom.",
+  "targetMeanPrice": 185.125,
+  "targetLowPrice": 150.0,
+  "targetHighPrice": 209.99998,
+  "numberOfAnalystOpinions": 8,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 9.643537,
+  "forwardEps": 0.15233,
+  "trailingEps": 0.15,
+  "earningsGrowth": 0.282,
+  "revenueGrowth": 0.049
  },
  "governance": {
   "ceo": {
@@ -69,8 +80,18 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "status": "non verificabile",
+  "items": {},
+  "official_period_end": "2022-04-30"
+ },
+ "info_at": "2026-10-10T14:41:28+00:00",
  "years": [
   {
    "fy_end": "2023-04-30",
@@ -103,7 +124,10 @@
    "goodwill_and_intangibles": 2620000000.0,
    "retained_earnings": 432000000.0,
    "total_debt": 1427000000.0,
-   "shares_out": 1133000000.0
+   "shares_out": 1133000000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": -56000000.0,
+   "normalized_income": 432910000.0
   },
   {
    "fy_end": "2024-04-30",
@@ -136,7 +160,10 @@
    "goodwill_and_intangibles": 2483000000.0,
    "retained_earnings": 652000000.0,
    "total_debt": 1032000000.0,
-   "shares_out": 1133494651.0
+   "shares_out": 1133494651.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 421000000.0,
+   "normalized_income": 27000000.0
   },
   {
    "fy_end": "2025-04-30",
@@ -169,7 +196,10 @@
    "goodwill_and_intangibles": 2455000000.0,
    "retained_earnings": 827000000.0,
    "total_debt": 965000000.0,
-   "shares_out": 1133494651.0
+   "shares_out": 1133494651.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 494000000.0,
+   "normalized_income": 108000000.0
   },
   {
    "fy_end": "2026-04-30",
@@ -201,7 +231,9 @@
    "goodwill_and_intangibles": 2453000000.0,
    "retained_earnings": 959000000.0,
    "total_debt": 952000000.0,
-   "shares_out": 1038129445.0
+   "shares_out": 1038129445.0,
+   "normalized_ebitda": 522000000.0,
+   "normalized_income": 165000000.0
   }
  ]
 }

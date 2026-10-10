@@ -1,6 +1,6 @@
 {
  "ticker": "DLR",
- "fetched_at": "2026-10-10T12:43:17+00:00",
+ "fetched_at": "2026-10-10T15:41:44+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 4282,
   "website": "https://www.digitalrealty.com",
-  "longBusinessSummary": "Digital Realty Trust, Inc. brings companies and data together by delivering the full spectrum of data center, colocation, and interconnection solutions. Platform DIGITAL, the company's global data center platform, provides customers with a secure data meeting place and a proven Pervasive Datacenter Architecture (PDx) solution methodology for powering innovation, from cloud and digital transformation to emerging technologies like artificial intelligence (AI), and efficiently managing Data Gravity challenges. Digital Realty gives its customers access to the connected data communities that matter to them with a global data center footprint of 300+ facilities in 55+ metros across 30+ countries on six continents. Digital Realty Trust, Inc. was founded in 2004 and is based in Austin, Texas."
+  "longBusinessSummary": "Digital Realty Trust, Inc. brings companies and data together by delivering the full spectrum of data center, colocation, and interconnection solutions. Platform DIGITAL, the company's global data center platform, provides customers with a secure data meeting place and a proven Pervasive Datacenter Architecture (PDx) solution methodology for powering innovation, from cloud and digital transformation to emerging technologies like artificial intelligence (AI), and efficiently managing Data Gravity challenges. Digital Realty gives its customers access to the connected data communities that matter to them with a global data center footprint of 300+ facilities in 55+ metros across 30+ countries on six continents. Digital Realty Trust, Inc. was founded in 2004 and is based in Austin, Texas.",
+  "targetMeanPrice": 223.4375,
+  "targetLowPrice": 190.0,
+  "targetHighPrice": 250.0,
+  "numberOfAnalystOpinions": 32,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.44118,
+  "forwardPE": 64.71934,
+  "forwardEps": 2.76208,
+  "trailingEps": 2.06,
+  "earningsGrowth": -0.587,
+  "revenueGrowth": 0.299
  },
  "governance": {
   "ceo": {
@@ -82,8 +93,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 49410468000.0,
+    "official": 49410468000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 22925663000.0,
+    "official": 22925663000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1308589000.0,
+    "official": 1308589000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 6112692000.0,
+    "official": 6112692000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:41:44+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -165,7 +207,10 @@
    "goodwill_and_intangibles": 12301124000.0,
    "retained_earnings": -4698313000.0,
    "total_debt": 18067847000.0,
-   "shares_out": 291148000.0
+   "shares_out": 291148000.0,
+   "unusual_items": 53853000.0,
+   "normalized_ebitda": 2235087000.0,
+   "normalized_income": 327956188.831563
   },
   {
    "fy_end": "2023-12-31",
@@ -196,7 +241,10 @@
    "goodwill_and_intangibles": 11740108000.0,
    "retained_earnings": -5262648000.0,
    "total_debt": 18968001000.0,
-   "shares_out": 311608000.0
+   "shares_out": 311608000.0,
+   "unusual_items": 697446000.0,
+   "normalized_ebitda": 2461045000.0,
+   "normalized_income": 302773941.389485
   },
   {
    "fy_end": "2024-12-31",
@@ -228,7 +276,10 @@
    "goodwill_and_intangibles": 11107485000.0,
    "retained_earnings": -6292085000.0,
    "total_debt": 18008596000.0,
-   "shares_out": 336637000.0
+   "shares_out": 336637000.0,
+   "unusual_items": 304868000.0,
+   "normalized_ebitda": 2562852000.0,
+   "normalized_income": 323582051.563785
   },
   {
    "fy_end": "2025-12-31",
@@ -260,7 +311,10 @@
    "goodwill_and_intangibles": 11846651000.0,
    "retained_earnings": -6690722000.0,
    "total_debt": 19655352000.0,
-   "shares_out": 343557430.0
+   "shares_out": 343557430.0,
+   "unusual_items": 731952000.0,
+   "normalized_ebitda": 2945836000.0,
+   "normalized_income": 594070582.301582
   }
  ]
 }

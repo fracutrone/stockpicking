@@ -1,6 +1,6 @@
 {
  "ticker": "AMCR",
- "fetched_at": "2026-10-10T12:37:15+00:00",
+ "fetched_at": "2026-10-10T15:34:17+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 75000,
   "website": "https://www.amcor.com",
-  "longBusinessSummary": "Amcor plc, together with its subsidiaries, develops and produces packaging solutions for nutrition, health, beauty, and wellness categories in Europe, North America, Latin America, and the Asia Pacific. Its products include apparel, applicators, bags and bulk bags, bottles and vials, building materials, canisters and jerrycans, drinking cups, films and laminates, jars, lids, tapes and adhesives, trays, tubes, wipes packaging solutions, and miscellaneous and accessories, as well as tubs and pots. The company's Global Flexible Packaging Solutions segment develops and supplies flexible packaging; and supplies polymer resin, aluminum, and fiber based flexible packaging solutions. Its Global Rigid Packaging Solutions segment manufactures rigid packaging containers, closures, dispensing and pharma delivery devices, and related products. The company sells its products through its direct sales force. Amcor plc was incorporated in 1926 and is headquartered in Zurich, Switzerland."
+  "longBusinessSummary": "Amcor plc, together with its subsidiaries, develops and produces packaging solutions for nutrition, health, beauty, and wellness categories in Europe, North America, Latin America, and the Asia Pacific. Its products include apparel, applicators, bags and bulk bags, bottles and vials, building materials, canisters and jerrycans, drinking cups, films and laminates, jars, lids, tapes and adhesives, trays, tubes, wipes packaging solutions, and miscellaneous and accessories, as well as tubs and pots. The company's Global Flexible Packaging Solutions segment develops and supplies flexible packaging; and supplies polymer resin, aluminum, and fiber based flexible packaging solutions. Its Global Rigid Packaging Solutions segment manufactures rigid packaging containers, closures, dispensing and pharma delivery devices, and related products. The company sells its products through its direct sales force. Amcor plc was incorporated in 1926 and is headquartered in Zurich, Switzerland.",
+  "targetMeanPrice": 49.7625,
+  "targetLowPrice": 42.0,
+  "targetHighPrice": 60.0,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.07143,
+  "forwardPE": 9.642519,
+  "forwardEps": 4.32667,
+  "trailingEps": 2.38,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.259
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-06-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 37095000000.0,
+    "official": 37095000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 11790000000.0,
+    "official": 11790000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1106000000.0,
+    "official": 1106000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 23506000000.0,
+    "official": 23506000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:34:17+00:00",
  "years": [
   {
    "fy_end": "2020-06-30",
@@ -200,7 +242,10 @@
    "goodwill_and_intangibles": 6890000000.0,
    "retained_earnings": 865000000.0,
    "total_debt": 6733000000.0,
-   "shares_out": 289400000.0
+   "shares_out": 289400000.0,
+   "unusual_items": 104000000.0,
+   "normalized_ebitda": 2023000000.0,
+   "normalized_income": 960016000.0
   },
   {
    "fy_end": "2024-06-30",
@@ -234,7 +279,10 @@
    "goodwill_and_intangibles": 6736000000.0,
    "retained_earnings": 879000000.0,
    "total_debt": 6687000000.0,
-   "shares_out": 289068642.0
+   "shares_out": 289068642.0,
+   "unusual_items": -97000000.0,
+   "normalized_ebitda": 1947000000.0,
+   "normalized_income": 809567805.953693
   },
   {
    "fy_end": "2025-06-30",
@@ -268,7 +316,10 @@
    "goodwill_and_intangibles": 18679000000.0,
    "retained_earnings": 548000000.0,
    "total_debt": 13957000000.0,
-   "shares_out": 460971988.0
+   "shares_out": 460971988.0,
+   "unusual_items": -307000000.0,
+   "normalized_ebitda": 2075000000.0,
+   "normalized_income": 754238461.538462
   },
   {
    "fy_end": "2026-06-30",
@@ -302,7 +353,10 @@
    "goodwill_and_intangibles": 18663000000.0,
    "retained_earnings": 459000000.0,
    "total_debt": 13997000000.0,
-   "shares_out": 461900000.0
+   "shares_out": 461900000.0,
+   "unusual_items": -298000000.0,
+   "normalized_ebitda": 3735000000.0,
+   "normalized_income": 1361982000.0
   }
  ]
 }

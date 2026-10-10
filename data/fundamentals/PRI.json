@@ -1,6 +1,6 @@
 {
  "ticker": "PRI",
- "fetched_at": "2026-10-10T12:56:00+00:00",
+ "fetched_at": "2026-10-10T15:53:42+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 2301,
   "website": "https://www.primerica.com",
-  "longBusinessSummary": "Primerica, Inc., together with its subsidiaries, provides financial products and services to middle-income households in the United States and Canada. It operates in three segments: Term Life Insurance; Investment and Savings Products; and Corporate and Other Distributed Products. The Term Life Insurance segment underwrites individual term life insurance products. The Investment and Savings Products segment provides mutual funds and various retirement plans, managed investments, variable and fixed annuities, and fixed indexed annuities; and offers segregated funds. The Corporate and Other Distributed Products segment provides mortgage loans; prepaid legal services that assist subscribers with legal matters, such as drafting wills, living wills and powers of attorney, trial defense, and motor vehicle-related matters; ID theft defense services; auto and homeowners' insurance; home automation solutions; and insurance products, including supplemental and accidental death, and disability insurance. It distributes and sells its products through licensed sales representatives to middle-income households. Primerica, Inc. was founded in 1927 and is headquartered in Duluth, Georgia."
+  "longBusinessSummary": "Primerica, Inc., together with its subsidiaries, provides financial products and services to middle-income households in the United States and Canada. It operates in three segments: Term Life Insurance; Investment and Savings Products; and Corporate and Other Distributed Products. The Term Life Insurance segment underwrites individual term life insurance products. The Investment and Savings Products segment provides mutual funds and various retirement plans, managed investments, variable and fixed annuities, and fixed indexed annuities; and offers segregated funds. The Corporate and Other Distributed Products segment provides mortgage loans; prepaid legal services that assist subscribers with legal matters, such as drafting wills, living wills and powers of attorney, trial defense, and motor vehicle-related matters; ID theft defense services; auto and homeowners' insurance; home automation solutions; and insurance products, including supplemental and accidental death, and disability insurance. It distributes and sells its products through licensed sales representatives to middle-income households. Primerica, Inc. was founded in 1927 and is headquartered in Duluth, Georgia.",
+  "targetMeanPrice": 323.66666,
+  "targetLowPrice": 276.0,
+  "targetHighPrice": 360.0,
+  "numberOfAnalystOpinions": 6,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.5,
+  "forwardPE": 10.127472,
+  "forwardEps": 27.1825,
+  "trailingEps": 24.9,
+  "earningsGrowth": 0.195,
+  "revenueGrowth": 0.087
  },
  "governance": {
   "ceo": {
@@ -77,8 +88,38 @@
   "retained_earnings": "sec",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "cogs": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 15012336000.0,
+    "official": 15012336000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2445902000.0,
+    "official": 2445902000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 751234000.0,
+    "official": 751234000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3291713000.0,
+    "official": 3291713000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:53:42+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -131,7 +172,8 @@
    "ppe_net": 67022000.0,
    "goodwill": 179154000.0,
    "intangibles": 195825000.0,
-   "retained_earnings": 2004506000.0
+   "retained_earnings": 2004506000.0,
+   "unusual_items": -84927000.0
   },
   {
    "fy_end": "2022-12-31",
@@ -158,7 +200,9 @@
    "goodwill_and_intangibles": 313232000.0,
    "retained_earnings": 2153617000.0,
    "total_debt": 2083369000.0,
-   "shares_out": 36824000.0
+   "shares_out": 36824000.0,
+   "unusual_items": -60000000.0,
+   "normalized_income": 559752000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -185,7 +229,9 @@
    "goodwill_and_intangibles": 45275000.0,
    "retained_earnings": 2276946000.0,
    "total_debt": 2039194000.0,
-   "shares_out": 34995613.0
+   "shares_out": 34995613.0,
+   "unusual_items": 0.0,
+   "normalized_income": 591182000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -210,7 +256,8 @@
    "goodwill_and_intangibles": 45275000.0,
    "retained_earnings": 2231483000.0,
    "total_debt": 1953546000.0,
-   "shares_out": 33367737.0
+   "shares_out": 33367737.0,
+   "normalized_income": 720129000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -235,7 +282,8 @@
    "goodwill_and_intangibles": 45275000.0,
    "retained_earnings": 2416149000.0,
    "total_debt": 1819999000.0,
-   "shares_out": 31809803.0
+   "shares_out": 31809803.0,
+   "normalized_income": 751234000.0
   }
  ]
 }

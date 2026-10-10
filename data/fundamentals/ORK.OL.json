@@ -1,6 +1,6 @@
 {
  "ticker": "ORK.OL",
- "fetched_at": "2026-10-10T12:12:53+00:00",
+ "fetched_at": "2026-10-10T15:10:10+00:00",
  "region": "Europa",
  "statement_currency": "NOK",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "OSL",
   "fullTimeEmployees": 17541,
   "website": "https://www.orkla.com",
-  "longBusinessSummary": "Orkla ASA operates as an industrial investment company within brands and consumer-oriented businesses worldwide. It offers decorative paints, marine coatings, protective coatings, and powder coatings; frozen pizza, condiments, bread toppings, and ready-to-eat meals; bakery, ice cream, and plant-based products; and confectionery, biscuits, and salty snacks. The company also provides branded consumer health products, such as daily nutrition and oral health, wound care, and functional personal care under the Möller's, Jordan, and Salvequick brand names; spices and spice blends, ready-to-eat sweets, breakfast mixes, and other; and cleaning and personal hygiene products, such as detergents, cleaning equipment, and personal care products. In addition, it operates a franchised pizza business; offers paintbrushes, rollers, and other painting project consumables comprising sanding equipment, tape, protective gear, and cleaning products; and health and sports nutrition products. The company was founded in 1654 and is headquartered in Oslo, Norway."
+  "longBusinessSummary": "Orkla ASA operates as an industrial investment company within brands and consumer-oriented businesses worldwide. It offers decorative paints, marine coatings, protective coatings, and powder coatings; frozen pizza, condiments, bread toppings, and ready-to-eat meals; bakery, ice cream, and plant-based products; and confectionery, biscuits, and salty snacks. The company also provides branded consumer health products, such as daily nutrition and oral health, wound care, and functional personal care under the Möller's, Jordan, and Salvequick brand names; spices and spice blends, ready-to-eat sweets, breakfast mixes, and other; and cleaning and personal hygiene products, such as detergents, cleaning equipment, and personal care products. In addition, it operates a franchised pizza business; offers paintbrushes, rollers, and other painting project consumables comprising sanding equipment, tape, protective gear, and cleaning products; and health and sports nutrition products. The company was founded in 1654 and is headquartered in Oslo, Norway.",
+  "targetMeanPrice": 108.25,
+  "targetLowPrice": 89.0,
+  "targetHighPrice": 140.0,
+  "numberOfAnalystOpinions": 8,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.0,
+  "forwardPE": 13.55825,
+  "forwardEps": 6.86298,
+  "trailingEps": 6.57,
+  "earningsGrowth": -0.728,
+  "revenueGrowth": -0.054
  },
  "governance": {
   "ceo": {
@@ -77,8 +88,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF NO",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 89966000000.0,
+    "official": 89966000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 48044000000.0,
+    "official": 51372000000.0,
+    "diff": 0.064782
+   },
+   "net_income": {
+    "yahoo": 6057000000.0,
+    "official": 6057000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 69254000000.0,
+    "official": 69960000000.0,
+    "diff": 0.010091
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T15:10:11+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -112,7 +155,10 @@
    "goodwill_and_intangibles": 33624000000.0,
    "retained_earnings": 39718000000.0,
    "total_debt": 18771000000.0,
-   "shares_out": 997143990.0
+   "shares_out": 997143990.0,
+   "unusual_items": -514000000.0,
+   "normalized_ebitda": 10691000000.0,
+   "normalized_income": 5387538000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -146,7 +192,10 @@
    "goodwill_and_intangibles": 35764000000.0,
    "retained_earnings": 43298000000.0,
    "total_debt": 20488000000.0,
-   "shares_out": 997667043.0
+   "shares_out": 997667043.0,
+   "unusual_items": -687000000.0,
+   "normalized_ebitda": 11747000000.0,
+   "normalized_income": 5730629198.966408
   },
   {
    "fy_end": "2024-12-31",
@@ -181,7 +230,10 @@
    "goodwill_and_intangibles": 36294000000.0,
    "retained_earnings": 46074000000.0,
    "total_debt": 18161000000.0,
-   "shares_out": 998937986.0
+   "shares_out": 998937986.0,
+   "unusual_items": -584000000.0,
+   "normalized_ebitda": 12654000000.0,
+   "normalized_income": 6132464000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -216,7 +268,10 @@
    "goodwill_and_intangibles": 35949000000.0,
    "retained_earnings": 46705000000.0,
    "total_debt": 16463000000.0,
-   "shares_out": 989833578.0
+   "shares_out": 989833578.0,
+   "unusual_items": -561000000.0,
+   "normalized_ebitda": 13157000000.0,
+   "normalized_income": 6817508000.0
   }
  ]
 }

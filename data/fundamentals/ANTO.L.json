@@ -1,6 +1,6 @@
 {
  "ticker": "ANTO.L",
- "fetched_at": "2026-10-10T11:45:32+00:00",
+ "fetched_at": "2026-10-10T14:31:07+00:00",
  "region": "Europa",
  "statement_currency": "USD",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.65474,
   "heldPercentInstitutions": 0.2296,
   "shortPercentOfFloat": null,
-  "averageVolume": 1057248,
+  "averageVolume": 1065721,
   "quoteType": "EQUITY",
   "exchange": "LSE",
   "fullTimeEmployees": 8457,
   "website": "https://www.antofagasta.co.uk",
-  "longBusinessSummary": "Antofagasta plc operates as a mining company. It operates through Los Pelambres, Centinela, Antucoya, Zaldívar, Exploration and Evaluation, and Transport Division segments. The company produces copper cathodes and copper concentrates; molybdenum concentrates; and gold and silver by-products. It also provides rail and road cargo services to mining customers in northern Chile. In addition, the company has exploration projects in various countries. It has operations in the United Kingdom, Switzerland, Spain, Germany, rest of Europe, Chile, rest of Latin America, the United States, Japan, China, Singapore, South Korea, Hong Kong, and rest of Asia. The company was incorporated in 1888 and is headquartered in London, the United Kingdom. Antofagasta plc is a subsidiary of Metalinvest Anstalt."
+  "longBusinessSummary": "Antofagasta plc operates as a mining company. It operates through Los Pelambres, Centinela, Antucoya, Zaldívar, Exploration and Evaluation, and Transport Division segments. The company produces copper cathodes and copper concentrates; molybdenum concentrates; and gold and silver by-products. It also provides rail and road cargo services to mining customers in northern Chile. In addition, the company has exploration projects in various countries. It has operations in the United Kingdom, Switzerland, Spain, Germany, rest of Europe, Chile, rest of Latin America, the United States, Japan, China, Singapore, South Korea, Hong Kong, and rest of Asia. The company was incorporated in 1888 and is headquartered in London, the United Kingdom. Antofagasta plc is a subsidiary of Metalinvest Anstalt.",
+  "targetMeanPrice": 3955.3384,
+  "targetLowPrice": 2489.3076,
+  "targetHighPrice": 5002.488,
+  "numberOfAnalystOpinions": 21,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.81818,
+  "forwardPE": 23.7873,
+  "forwardEps": 1.584879,
+  "trailingEps": 1.25,
+  "earningsGrowth": 0.624,
+  "revenueGrowth": 0.179
  },
  "governance": {
   "ceo": {
@@ -75,8 +86,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 26418400000.0,
+    "official": 26418400000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 10370100000.0,
+    "official": 10370100000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1328900000.0,
+    "official": 1328900000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 8620300000.0,
+    "official": 8620300000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:31:07+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -108,7 +151,10 @@
    "ppe_net": 11543500000.0,
    "retained_earnings": 8333500000.0,
    "total_debt": 3274500000.0,
-   "shares_out": 985856695.0
+   "shares_out": 985856695.0,
+   "unusual_items": 946000000.0,
+   "normalized_ebitda": 2849500000.0,
+   "normalized_income": 810256000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -140,7 +186,10 @@
    "ppe_net": 12678800000.0,
    "retained_earnings": 8558400000.0,
    "total_debt": 4076700000.0,
-   "shares_out": 985856695.0
+   "shares_out": 985856695.0,
+   "unusual_items": 236400000.0,
+   "normalized_ebitda": 3061800000.0,
+   "normalized_income": 678839600.0
   },
   {
    "fy_end": "2024-12-31",
@@ -172,7 +221,10 @@
    "ppe_net": 13917000000.0,
    "retained_earnings": 9191400000.0,
    "total_debt": 5349000000.0,
-   "shares_out": 985856695.0
+   "shares_out": 985856695.0,
+   "unusual_items": 508200000.0,
+   "normalized_ebitda": 3462100000.0,
+   "normalized_income": 506484061.609773
   },
   {
    "fy_end": "2025-12-31",
@@ -204,7 +256,10 @@
    "ppe_net": 16653300000.0,
    "retained_earnings": 10084600000.0,
    "total_debt": 7073300000.0,
-   "shares_out": 985856695.0
+   "shares_out": 985856695.0,
+   "unusual_items": 5200000.0,
+   "normalized_ebitda": 5220500000.0,
+   "normalized_income": 1325490992.245608
   }
  ]
 }

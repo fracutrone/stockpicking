@@ -1,6 +1,6 @@
 {
  "ticker": "PHI.L",
- "fetched_at": "2026-10-10T12:14:10+00:00",
+ "fetched_at": "2026-10-10T15:11:28+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -49,8 +60,15 @@
   "equity": "yahoo",
   "receivables": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T15:11:29+00:00",
  "years": [
   {
    "fy_end": "2022-07-31",
@@ -70,7 +88,8 @@
    "equity": 610550000.0,
    "receivables": 1248000.0,
    "total_debt": 52000.0,
-   "shares_out": 91860961.0
+   "shares_out": 91860961.0,
+   "normalized_income": -108184000.0
   },
   {
    "fy_end": "2023-07-31",
@@ -90,7 +109,8 @@
    "equity": 580355000.0,
    "receivables": 420000.0,
    "total_debt": 52000.0,
-   "shares_out": 91081949.0
+   "shares_out": 91081949.0,
+   "normalized_income": -23285000.0
   },
   {
    "fy_end": "2024-07-31",
@@ -110,7 +130,8 @@
    "equity": 601970000.0,
    "receivables": 790000.0,
    "total_debt": 52000.0,
-   "shares_out": 90656751.0
+   "shares_out": 90656751.0,
+   "normalized_income": 26914000.0
   }
  ]
 }

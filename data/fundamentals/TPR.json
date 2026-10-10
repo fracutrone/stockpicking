@@ -1,6 +1,6 @@
 {
  "ticker": "TPR",
- "fetched_at": "2026-10-10T12:59:58+00:00",
+ "fetched_at": "2026-10-10T15:57:38+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 12600,
   "website": "https://www.tapestry.com",
-  "longBusinessSummary": "Tapestry, Inc. provides accessories and lifestyle brand products in North America, Greater China, rest of Asia, and internationally. The company operates in two segments, Coach and Kate Spade. It offers handbags, fashion designs, business cases, computer bags, messenger style bags, backpacks, travel bags, and totes; accessories, such as small leather goods which includes mini and micro handbags, money pieces, wristlets, pouches, and cosmetic cases, as well as novelty accessories, including address books, time management and travel accessories, sketchbooks, and portfolios; and belts, key rings, technology accessories, gifting, straps, and charms. The company also provides women's and men's footwear, which casual and dress shoes, boots, sneakers, and sandals; and other products which includes outerwear, ready-to-wear, jewelry, watches, eyewear, fragrance, scarves, hats, gloves, and other products. It offers its products through retail and outlet stores, brand e-commerce sites, and concession shop-in-shops, as well as third-party digital platforms, including marketplaces. The company was formerly known as Coach, Inc. and changed its name to Tapestry, Inc. in October 2017. Tapestry, Inc. was founded in 1941 and is headquartered in New York, New York."
+  "longBusinessSummary": "Tapestry, Inc. provides accessories and lifestyle brand products in North America, Greater China, rest of Asia, and internationally. The company operates in two segments, Coach and Kate Spade. It offers handbags, fashion designs, business cases, computer bags, messenger style bags, backpacks, travel bags, and totes; accessories, such as small leather goods which includes mini and micro handbags, money pieces, wristlets, pouches, and cosmetic cases, as well as novelty accessories, including address books, time management and travel accessories, sketchbooks, and portfolios; and belts, key rings, technology accessories, gifting, straps, and charms. The company also provides women's and men's footwear, which casual and dress shoes, boots, sneakers, and sandals; and other products which includes outerwear, ready-to-wear, jewelry, watches, eyewear, fragrance, scarves, hats, gloves, and other products. It offers its products through retail and outlet stores, brand e-commerce sites, and concession shop-in-shops, as well as third-party digital platforms, including marketplaces. The company was formerly known as Coach, Inc. and changed its name to Tapestry, Inc. in October 2017. Tapestry, Inc. was founded in 1941 and is headquartered in New York, New York.",
+  "targetMeanPrice": 166.5,
+  "targetLowPrice": 96.0,
+  "targetHighPrice": 232.0,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 13.061363,
+  "forwardEps": 8.89953,
+  "trailingEps": 7.27,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.089
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-06-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 6691700000.0,
+    "official": 6691700000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 692100000.0,
+    "official": 692100000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1527700000.0,
+    "official": 1527700000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 8004200000.0,
+    "official": 8004200000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:57:38+00:00",
  "years": [
   {
    "fy_end": "2020-06-27",
@@ -210,7 +252,10 @@
    "goodwill_and_intangibles": 2587600000.0,
    "retained_earnings": -1216800000.0,
    "total_debt": 1635800000.0,
-   "shares_out": 227400000.0
+   "shares_out": 227400000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 1394900000.0,
+   "normalized_income": 936000000.0
   },
   {
    "fy_end": "2024-06-29",
@@ -245,7 +290,10 @@
    "goodwill_and_intangibles": 2557700000.0,
    "retained_earnings": -722200000.0,
    "total_debt": 6937200000.0,
-   "shares_out": 230200000.0
+   "shares_out": 230200000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 1365900000.0,
+   "normalized_income": 816000000.0
   },
   {
    "fy_end": "2025-06-28",
@@ -280,7 +328,10 @@
    "goodwill_and_intangibles": 1702900000.0,
    "retained_earnings": -2556800000.0,
    "total_debt": 2377900000.0,
-   "shares_out": 208100000.0
+   "shares_out": 208100000.0,
+   "unusual_items": -974900000.0,
+   "normalized_ebitda": 1501300000.0,
+   "normalized_income": 1009915200.0
   },
   {
    "fy_end": "2026-06-27",
@@ -315,7 +366,10 @@
    "goodwill_and_intangibles": 1674200000.0,
    "retained_earnings": -3209700000.0,
    "total_debt": 2379000000.0,
-   "shares_out": 200400000.0
+   "shares_out": 200400000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 2133000000.0,
+   "normalized_income": 1527700000.0
   }
  ]
 }

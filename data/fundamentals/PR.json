@@ -1,6 +1,6 @@
 {
  "ticker": "PR",
- "fetched_at": "2026-10-10T12:55:59+00:00",
+ "fetched_at": "2026-10-10T15:53:40+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 515,
   "website": "https://www.permianres.com",
-  "longBusinessSummary": "Permian Resources Corporation, an independent oil and natural gas company, focuses on the development of crude oil and associated liquids-rich natural gas reserves in the United States. The company's assets primarily focus on the Delaware Basin, a sub-basin of the Permian Basin. Its properties consist of acreage blocks in Reeves County in West Texas and Lea County in New Mexico. The company was formerly known as Centennial Resource Development, Inc. and changed its name to Permian Resources Corporation in September 2022. The company was incorporated in 2015 and is headquartered in Midland, Texas."
+  "longBusinessSummary": "Permian Resources Corporation, an independent oil and natural gas company, focuses on the development of crude oil and associated liquids-rich natural gas reserves in the United States. The company's assets primarily focus on the Delaware Basin, a sub-basin of the Permian Basin. Its properties consist of acreage blocks in Reeves County in West Texas and Lea County in New Mexico. The company was formerly known as Centennial Resource Development, Inc. and changed its name to Permian Resources Corporation in September 2022. The company was incorporated in 2015 and is headquartered in Midland, Texas.",
+  "targetMeanPrice": 27.57143,
+  "targetLowPrice": 22.0,
+  "targetHighPrice": 31.0,
+  "numberOfAnalystOpinions": 21,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.30435,
+  "forwardPE": 10.255383,
+  "forwardEps": 2.24565,
+  "trailingEps": 1.52,
+  "earningsGrowth": 2.329,
+  "revenueGrowth": 0.551
  },
  "governance": {
   "ceo": {
@@ -80,8 +91,39 @@
   "ppe_net": "sec",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 17912185000.0,
+    "official": 17912185000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 10278282000.0,
+    "official": 10278282000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 935174000.0,
+    "official": 935174000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 5065211000.0,
+    "official": 5065211000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:53:40+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -171,7 +213,10 @@
    "ppe_net": 15173000.0,
    "retained_earnings": 237226000.0,
    "total_debt": 2140798000.0,
-   "shares_out": 288532257.0
+   "shares_out": 288532257.0,
+   "unusual_items": -280705000.0,
+   "normalized_ebitda": 1691160000.0,
+   "normalized_income": 756935743.179196
   },
   {
    "fy_end": "2023-12-31",
@@ -201,7 +246,10 @@
    "ppe_net": 43647000.0,
    "retained_earnings": 569139000.0,
    "total_debt": 3848781000.0,
-   "shares_out": 540789758.0
+   "shares_out": 540789758.0,
+   "unusual_items": -258547000.0,
+   "normalized_ebitda": 2478980000.0,
+   "normalized_income": 695921710.686449
   },
   {
    "fy_end": "2024-12-31",
@@ -231,7 +279,10 @@
    "ppe_net": 50381000.0,
    "retained_earnings": 1081895000.0,
    "total_debt": 4184233000.0,
-   "shares_out": 703774082.0
+   "shares_out": 703774082.0,
+   "unusual_items": -318931000.0,
+   "normalized_ebitda": 3936063000.0,
+   "normalized_income": 1241866959.772409
   },
   {
    "fy_end": "2025-12-31",
@@ -261,7 +312,10 @@
    "ppe_net": 57051000.0,
    "retained_earnings": 1567500000.0,
    "total_debt": 3545598000.0,
-   "shares_out": 751746410.0
+   "shares_out": 751746410.0,
+   "unusual_items": -222636000.0,
+   "normalized_ebitda": 3913297000.0,
+   "normalized_income": 1112066532.649852
   }
  ]
 }

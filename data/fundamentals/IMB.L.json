@@ -1,6 +1,6 @@
 {
  "ticker": "IMB.L",
- "fetched_at": "2026-10-10T12:03:28+00:00",
+ "fetched_at": "2026-10-10T14:57:40+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 25100,
   "website": "https://www.imperialbrandsplc.com",
-  "longBusinessSummary": "Imperial Brands PLC, together with its subsidiaries, manufactures, imports, markets, and sells tobacco and tobacco-related products in Europe, the Americas, Africa, the Asia, Australasia, and internationally. It offers a range of cigarettes, tobacco accessories, vapour, heated tobacco, and oral nicotine. The company sells its products under various brands, including JPS, Davidoff, Gauloises, West, Winston, Kool, Lambert & Butler, P&S, Fortuna, Nobel, News, Backwoods, Champion, Golden Virginia, FINE, Rizla, Blu, Pulze, Skruf, and Zone. In addition, it engages in the distribution of tobacco and NGP products for tobacco and NGP product manufacturers; and various non-tobacco and NGP products and services. Further, the company is involved in the management of a golf course; distribution of pharmaceuticals, POS software, and published materials and other products; printing and publishing activities; and provision of long haul transportation, industrial parcel and express delivery, pharmaceutical products logistics, advertising, payment, freight forwarding, and support management services, as well as owns the trademarks; and retails its products. Additionally, it engages in edition and distribution of books and non-periodical publication. Furthermore, the company is involved in research and development of e-vapour products. The company was formerly known as Imperial Tobacco Group PLC and changed its name to Imperial Brands PLC in February 2016. Imperial Brands PLC was founded in 1636 and is based in Bristol, the United Kingdom."
+  "longBusinessSummary": "Imperial Brands PLC, together with its subsidiaries, manufactures, imports, markets, and sells tobacco and tobacco-related products in Europe, the Americas, Africa, the Asia, Australasia, and internationally. It offers a range of cigarettes, tobacco accessories, vapour, heated tobacco, and oral nicotine. The company sells its products under various brands, including JPS, Davidoff, Gauloises, West, Winston, Kool, Lambert & Butler, P&S, Fortuna, Nobel, News, Backwoods, Champion, Golden Virginia, FINE, Rizla, Blu, Pulze, Skruf, and Zone. In addition, it engages in the distribution of tobacco and NGP products for tobacco and NGP product manufacturers; and various non-tobacco and NGP products and services. Further, the company is involved in the management of a golf course; distribution of pharmaceuticals, POS software, and published materials and other products; printing and publishing activities; and provision of long haul transportation, industrial parcel and express delivery, pharmaceutical products logistics, advertising, payment, freight forwarding, and support management services, as well as owns the trademarks; and retails its products. Additionally, it engages in edition and distribution of books and non-periodical publication. Furthermore, the company is involved in research and development of e-vapour products. The company was formerly known as Imperial Tobacco Group PLC and changed its name to Imperial Brands PLC in February 2016. Imperial Brands PLC was founded in 1636 and is based in Bristol, the United Kingdom.",
+  "targetMeanPrice": 3259.0913,
+  "targetLowPrice": 2700.0,
+  "targetHighPrice": 3550.0,
+  "numberOfAnalystOpinions": 11,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.83333,
+  "forwardPE": 7.226705,
+  "forwardEps": 3.68356,
+  "trailingEps": 2.13,
+  "earningsGrowth": -0.382,
+  "revenueGrowth": 0.049
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-09-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 28715000000.0,
+    "official": 28715000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4824000000.0,
+    "official": 4824000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2071000000.0,
+    "official": 2071000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 32171000000.0,
+    "official": 32171000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-09-30"
+ },
+ "info_at": "2026-10-10T14:57:40+00:00",
  "years": [
   {
    "fy_end": "2022-09-30",
@@ -119,7 +162,10 @@
    "goodwill_and_intangibles": 17777000000.0,
    "retained_earnings": -443000000.0,
    "total_debt": 10255000000.0,
-   "shares_out": 946746311.0
+   "shares_out": 946746311.0,
+   "unusual_items": -671000000.0,
+   "normalized_ebitda": 5599000000.0,
+   "normalized_income": 2008163000.0
   },
   {
    "fy_end": "2023-09-30",
@@ -153,7 +199,10 @@
    "goodwill_and_intangibles": 16944000000.0,
    "retained_earnings": -674000000.0,
    "total_debt": 9730000000.0,
-   "shares_out": 896731653.0
+   "shares_out": 896731653.0,
+   "unusual_items": 139000000.0,
+   "normalized_ebitda": 4106000000.0,
+   "normalized_income": 2218329000.0
   },
   {
    "fy_end": "2024-09-30",
@@ -187,7 +236,10 @@
    "goodwill_and_intangibles": 15938000000.0,
    "retained_earnings": -479000000.0,
    "total_debt": 9083000000.0,
-   "shares_out": 845978513.0
+   "shares_out": 845978513.0,
+   "unusual_items": -119000000.0,
+   "normalized_ebitda": 4256000000.0,
+   "normalized_income": 2720921096.071311
   },
   {
    "fy_end": "2025-09-30",
@@ -221,7 +273,10 @@
    "goodwill_and_intangibles": 16208000000.0,
    "retained_earnings": -1205000000.0,
    "total_debt": 9996000000.0,
-   "shares_out": 804658996.0
+   "shares_out": 804658996.0,
+   "unusual_items": 8000000.0,
+   "normalized_ebitda": 4357000000.0,
+   "normalized_income": 2065322250.639386
   }
  ]
 }

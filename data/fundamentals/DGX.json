@@ -1,6 +1,6 @@
 {
  "ticker": "DGX",
- "fetched_at": "2026-10-10T12:43:05+00:00",
+ "fetched_at": "2026-10-10T15:41:33+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 46000,
   "website": "https://www.questdiagnostics.com",
-  "longBusinessSummary": "Quest Diagnostics Incorporated provides diagnostic testing and services in the United States. The company develops and delivers diagnostic information services, such as routine, non-routine and advanced clinical testing, anatomic pathology testing, and other diagnostic information services. It also provides services under the Quest Diagnostics brand, as well as under the AmeriPath, Dermpath Diagnostics, ExamOne, and Quanum brands to physicians, hospitals, patients and consumers, health plans, government agencies, employers, retailers, pharmaceutical companies and insurers commercial clinical laboratories, and accountable care organizations through a network of laboratories, patient service centers, phlebotomists in physician offices, call centers and mobile phlebotomists, nurses, and other health and wellness professionals. In addition, the company offers risk assessment services for the life insurance industry; healthcare IT healthcare providers and payers; testing and medical director services at hospital laboratories; test offerings in cardiometabolic and endocrine; cancer; clinical drug monitoring and toxicology; infectious disease, including autoimmune; neurology diagnostics, including Alzheimer's disease; and women's health, such as prenatal genetic; workplace drug testing, testing urine, hair, and oral fluid specimens services; and employer population health services, including biometric screenings, flu shots, and related preventative services. Further, it provides population health solutions; extended care services; develops in vitro diagnostic tests; laboratory diagnostic information and digital health connectivity systems; underwriting support services, including data gathering, paramedical examinations, and clinical laboratory testing and analytics; and national specimen collection and health data solutions. Quest Diagnostics Incorporated was founded in 1967 and is headquartered in Secaucus, New Jersey."
+  "longBusinessSummary": "Quest Diagnostics Incorporated provides diagnostic testing and services in the United States. The company develops and delivers diagnostic information services, such as routine, non-routine and advanced clinical testing, anatomic pathology testing, and other diagnostic information services. It also provides services under the Quest Diagnostics brand, as well as under the AmeriPath, Dermpath Diagnostics, ExamOne, and Quanum brands to physicians, hospitals, patients and consumers, health plans, government agencies, employers, retailers, pharmaceutical companies and insurers commercial clinical laboratories, and accountable care organizations through a network of laboratories, patient service centers, phlebotomists in physician offices, call centers and mobile phlebotomists, nurses, and other health and wellness professionals. In addition, the company offers risk assessment services for the life insurance industry; healthcare IT healthcare providers and payers; testing and medical director services at hospital laboratories; test offerings in cardiometabolic and endocrine; cancer; clinical drug monitoring and toxicology; infectious disease, including autoimmune; neurology diagnostics, including Alzheimer's disease; and women's health, such as prenatal genetic; workplace drug testing, testing urine, hair, and oral fluid specimens services; and employer population health services, including biometric screenings, flu shots, and related preventative services. Further, it provides population health solutions; extended care services; develops in vitro diagnostic tests; laboratory diagnostic information and digital health connectivity systems; underwriting support services, including data gathering, paramedical examinations, and clinical laboratory testing and analytics; and national specimen collection and health data solutions. Quest Diagnostics Incorporated was founded in 1967 and is headquartered in Secaucus, New Jersey.",
+  "targetMeanPrice": 248.8,
+  "targetLowPrice": 204.0,
+  "targetHighPrice": 265.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.11765,
+  "forwardPE": 19.194572,
+  "forwardEps": 12.03309,
+  "trailingEps": 9.42,
+  "earningsGrowth": 0.15,
+  "revenueGrowth": 0.102
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,38 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 16225000000.0,
+    "official": 16225000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 7170000000.0,
+    "official": 7170000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 992000000.0,
+    "official": 992000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 11035000000.0,
+    "official": 11035000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:41:33+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -200,7 +241,9 @@
    "goodwill_and_intangibles": 8312000000.0,
    "retained_earnings": 8290000000.0,
    "total_debt": 3980000000.0,
-   "shares_out": 111000000.0
+   "shares_out": 111000000.0,
+   "normalized_ebitda": 1820000000.0,
+   "normalized_income": 946000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -234,7 +277,9 @@
    "goodwill_and_intangibles": 8899000000.0,
    "retained_earnings": 8825000000.0,
    "total_debt": 4713000000.0,
-   "shares_out": 111434997.0
+   "shares_out": 111434997.0,
+   "normalized_ebitda": 1732000000.0,
+   "normalized_income": 854000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -268,7 +313,9 @@
    "goodwill_and_intangibles": 10619000000.0,
    "retained_earnings": 9360000000.0,
    "total_debt": 6217000000.0,
-   "shares_out": 110615181.0
+   "shares_out": 110615181.0,
+   "normalized_ebitda": 1894000000.0,
+   "normalized_income": 871000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -302,7 +349,9 @@
    "goodwill_and_intangibles": 10581000000.0,
    "retained_earnings": 9994000000.0,
    "total_debt": 5671000000.0,
-   "shares_out": 110242362.0
+   "shares_out": 110242362.0,
+   "normalized_ebitda": 2165000000.0,
+   "normalized_income": 992000000.0
   }
  ]
 }

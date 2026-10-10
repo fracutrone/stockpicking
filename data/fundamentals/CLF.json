@@ -1,6 +1,6 @@
 {
  "ticker": "CLF",
- "fetched_at": "2026-10-10T12:41:00+00:00",
+ "fetched_at": "2026-10-10T15:39:43+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 25000,
   "website": "https://www.clevelandcliffs.com",
-  "longBusinessSummary": "Cleveland-Cliffs Inc. operates as a steel producer in the United States and Canada. It offers hot-rolled, cold-rolled, and coated products, such as aluminized, electrogalvanized, and galvalume products, as well as galvanneal and hot-dipped galvanized products; stainless and electrical products, including GOES, NOES, and auto chrome; plate products; and slab and other steel products. The company also provides non- steelmaking products comprising stamped components, tool and die, and tubing; and scrap, iron ore, HBI, coal, and coke products. It also provides tubular components, including carbon steel, stainless steel, and electric resistance welded tubing products. In addition, the company is involved in the mining of iron ore; production of pellets and direct reduced iron; and processing of ferrous scrap through primary steelmaking and downstream finishing, stamping, tooling, and tubing. It serves direct automotive, infrastructure and manufacturing, distributors and converters, and steel producers. The company was formerly known as Cliffs Natural Resources Inc. and changed its name to Cleveland-Cliffs Inc. in August 2017. Cleveland-Cliffs Inc. was founded in 1847 and is headquartered in Cleveland, Ohio."
+  "longBusinessSummary": "Cleveland-Cliffs Inc. operates as a steel producer in the United States and Canada. It offers hot-rolled, cold-rolled, and coated products, such as aluminized, electrogalvanized, and galvalume products, as well as galvanneal and hot-dipped galvanized products; stainless and electrical products, including GOES, NOES, and auto chrome; plate products; and slab and other steel products. The company also provides non- steelmaking products comprising stamped components, tool and die, and tubing; and scrap, iron ore, HBI, coal, and coke products. It also provides tubular components, including carbon steel, stainless steel, and electric resistance welded tubing products. In addition, the company is involved in the mining of iron ore; production of pellets and direct reduced iron; and processing of ferrous scrap through primary steelmaking and downstream finishing, stamping, tooling, and tubing. It serves direct automotive, infrastructure and manufacturing, distributors and converters, and steel producers. The company was formerly known as Cliffs Natural Resources Inc. and changed its name to Cleveland-Cliffs Inc. in August 2017. Cleveland-Cliffs Inc. was founded in 1847 and is headquartered in Cleveland, Ohio.",
+  "targetMeanPrice": 12.5,
+  "targetLowPrice": 10.0,
+  "targetHighPrice": 15.0,
+  "numberOfAnalystOpinions": 10,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.76923,
+  "forwardPE": 15.13085,
+  "forwardEps": 0.85785,
+  "trailingEps": -1.61,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.059
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 20012000000.0,
+    "official": 20012000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 6116000000.0,
+    "official": 6116000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -1478000000.0,
+    "official": -1478000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 18610000000.0,
+    "official": 18610000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:39:43+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -199,7 +241,10 @@
    "goodwill_and_intangibles": 1344000000.0,
    "retained_earnings": 1334000000.0,
    "total_debt": 4249000000.0,
-   "shares_out": 513340779.0
+   "shares_out": 513340779.0,
+   "unusual_items": -108000000.0,
+   "normalized_ebitda": 3214000000.0,
+   "normalized_income": 1415160000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -233,7 +278,10 @@
    "goodwill_and_intangibles": 1206000000.0,
    "retained_earnings": 1733000000.0,
    "total_debt": 3137000000.0,
-   "shares_out": 504886773.0
+   "shares_out": 504886773.0,
+   "unusual_items": -137000000.0,
+   "normalized_ebitda": 1978000000.0,
+   "normalized_income": 486927461.139896
   },
   {
    "fy_end": "2024-12-31",
@@ -267,7 +315,10 @@
    "goodwill_and_intangibles": 2938000000.0,
    "retained_earnings": 949000000.0,
    "total_debt": 7065000000.0,
-   "shares_out": 493948905.0
+   "shares_out": 493948905.0,
+   "unusual_items": -320000000.0,
+   "normalized_ebitda": 691000000.0,
+   "normalized_income": -520000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -301,7 +352,10 @@
    "goodwill_and_intangibles": 2949000000.0,
    "retained_earnings": -529000000.0,
    "total_debt": 7253000000.0,
-   "shares_out": 569759243.0
+   "shares_out": 569759243.0,
+   "unusual_items": -181000000.0,
+   "normalized_ebitda": 6000000.0,
+   "normalized_income": -1344490000.0
   }
  ]
 }

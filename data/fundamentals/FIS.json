@@ -1,6 +1,6 @@
 {
  "ticker": "FIS",
- "fetched_at": "2026-10-10T12:45:38+00:00",
+ "fetched_at": "2026-10-10T15:43:58+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 44000,
   "website": "https://www.fisglobal.com",
-  "longBusinessSummary": "Fidelity National Information Services, Inc. provides solutions to financial institutions, businesses, and developers worldwide. The company operates through Banking Solutions, Capital Market Solutions, and Corporate and Other segments. It provides core processing and ancillary applications; mobile and online banking; fraud, risk management, and compliance; card and retail payment; electronic funds transfer and network; wealth and retirement; and item processing and output solutions. The company also offers trading and assets, lending, leveraged and syndicated loan markets, and treasury and risk solutions. Fidelity National Information Services, Inc. was founded in 1968 and is headquartered in Jacksonville, Florida."
+  "longBusinessSummary": "Fidelity National Information Services, Inc. provides solutions to financial institutions, businesses, and developers worldwide. The company operates through Banking Solutions, Capital Market Solutions, and Corporate and Other segments. It provides core processing and ancillary applications; mobile and online banking; fraud, risk management, and compliance; card and retail payment; electronic funds transfer and network; wealth and retirement; and item processing and output solutions. The company also offers trading and assets, lending, leveraged and syndicated loan markets, and treasury and risk solutions. Fidelity National Information Services, Inc. was founded in 1968 and is headquartered in Jacksonville, Florida.",
+  "targetMeanPrice": 48.95833,
+  "targetLowPrice": 37.0,
+  "targetHighPrice": 77.0,
+  "numberOfAnalystOpinions": 24,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.27586,
+  "forwardPE": 5.092203,
+  "forwardEps": 6.68473,
+  "trailingEps": 6.45,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.291
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 33488000000.0,
+    "official": 33488000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 13899000000.0,
+    "official": 13899000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 382000000.0,
+    "official": 382000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 10677000000.0,
+    "official": 10677000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:43:58+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -199,7 +241,10 @@
    "goodwill_and_intangibles": 21339000000.0,
    "retained_earnings": -14971000000.0,
    "total_debt": 20091000000.0,
-   "shares_out": 591000000.0
+   "shares_out": 591000000.0,
+   "unusual_items": -103000000.0,
+   "normalized_ebitda": 3177000000.0,
+   "normalized_income": 638950000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -231,7 +276,10 @@
    "goodwill_and_intangibles": 20909000000.0,
    "retained_earnings": -22905000000.0,
    "total_debt": 19078000000.0,
-   "shares_out": 583000000.0
+   "shares_out": 583000000.0,
+   "unusual_items": -113000000.0,
+   "normalized_ebitda": 3232000000.0,
+   "normalized_income": 584106000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -263,7 +311,10 @@
    "goodwill_and_intangibles": 21104000000.0,
    "retained_earnings": -22257000000.0,
    "total_debt": 11290000000.0,
-   "shares_out": 531000000.0
+   "shares_out": 531000000.0,
+   "unusual_items": -52000000.0,
+   "normalized_ebitda": 3437000000.0,
+   "normalized_income": 824492000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -295,7 +346,10 @@
    "goodwill_and_intangibles": 21597000000.0,
    "retained_earnings": -22718000000.0,
    "total_debt": 13082000000.0,
-   "shares_out": 514000000.0
+   "shares_out": 514000000.0,
+   "unusual_items": -18000000.0,
+   "normalized_ebitda": 3468000000.0,
+   "normalized_income": 395950000.0
   }
  ]
 }

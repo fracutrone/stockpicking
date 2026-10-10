@@ -1,6 +1,6 @@
 {
  "ticker": "PFE",
- "fetched_at": "2026-10-10T12:55:14+00:00",
+ "fetched_at": "2026-10-10T15:52:58+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 75000,
   "website": "https://www.pfizer.com",
-  "longBusinessSummary": "Pfizer Inc. discovers, develops, manufactures, markets, distributes, and sells biopharmaceutical products in the United States and internationally. It operates in three segments: Biopharma, PC1, and Pfizer Ignite. The company offers internal medicine products, including cardiovascular metabolic diseases products under the Eliquis brand; migraine products under the Nurtec ODT/Vydura and Zavzpret brand; vaccines under the Prevnar family, Abrysvo, Nimenrix, FSME/IMMUN-TicoVac, and Trumenba brands; and Paxlovid for the treatment of COVID-19. It also provides inflammation and immunology products, such as Xeljanz, Enbrel, Cibinqo, Litfulo, Eucrisa, and Velsipity; rare disease products for therapeutic areas comprising amyloidosis, hemophilia, and endocrine diseases under the Vyndaqel family, Genotropin, BeneFIX, Xyntha, Somavert, Ngenla, and Hympavzi brands; and anti-infective and immunoglobulin medicines under the Zavicefta, Octagam, and Panzyga brands. In addition, the company offers oncology products comprising ADCs, small molecules, bispecific, and other immunotherapies for the treatment of cancers, including breast cancer, genitourinary cancer, and hematologic malignancies, as well as melanoma, gastrointestinal, gynecological, and lung cancer under the Ibrance, Xtandi, Padcev, Adcetris, Inlyta, Lorbrena, Bosulif, Tukysa, Braftovi, Mektovi, Orgovyx, Elrexfio, Tivdak, and Talzenna brands. Further, it provides biosimilars under the Inflectra brand; oncology biosimilars comprising Retacrit, Ruxience, Zirabev, Trazimera and Nivestym, and other biosimilars; and sterile injectables, such as Sulperazon, Atgam, Fragmin, Solu Medrol, Solu Cortef, and Bicillin. The company has collaboration agreements with Bristol-Myers Squibb Company; Astellas Pharma US, Inc.; Merck KGaA; and BioNTech SE, as well as a strategic collaboration with Boltz, PBC to develop and deploy biomolecular AI foundation models. Pfizer Inc. was founded in 1849 and is headquartered in New York, New York."
+  "longBusinessSummary": "Pfizer Inc. discovers, develops, manufactures, markets, distributes, and sells biopharmaceutical products in the United States and internationally. It operates in three segments: Biopharma, PC1, and Pfizer Ignite. The company offers internal medicine products, including cardiovascular metabolic diseases products under the Eliquis brand; migraine products under the Nurtec ODT/Vydura and Zavzpret brand; vaccines under the Prevnar family, Abrysvo, Nimenrix, FSME/IMMUN-TicoVac, and Trumenba brands; and Paxlovid for the treatment of COVID-19. It also provides inflammation and immunology products, such as Xeljanz, Enbrel, Cibinqo, Litfulo, Eucrisa, and Velsipity; rare disease products for therapeutic areas comprising amyloidosis, hemophilia, and endocrine diseases under the Vyndaqel family, Genotropin, BeneFIX, Xyntha, Somavert, Ngenla, and Hympavzi brands; and anti-infective and immunoglobulin medicines under the Zavicefta, Octagam, and Panzyga brands. In addition, the company offers oncology products comprising ADCs, small molecules, bispecific, and other immunotherapies for the treatment of cancers, including breast cancer, genitourinary cancer, and hematologic malignancies, as well as melanoma, gastrointestinal, gynecological, and lung cancer under the Ibrance, Xtandi, Padcev, Adcetris, Inlyta, Lorbrena, Bosulif, Tukysa, Braftovi, Mektovi, Orgovyx, Elrexfio, Tivdak, and Talzenna brands. Further, it provides biosimilars under the Inflectra brand; oncology biosimilars comprising Retacrit, Ruxience, Zirabev, Trazimera and Nivestym, and other biosimilars; and sterile injectables, such as Sulperazon, Atgam, Fragmin, Solu Medrol, Solu Cortef, and Bicillin. The company has collaboration agreements with Bristol-Myers Squibb Company; Astellas Pharma US, Inc.; Merck KGaA; and BioNTech SE, as well as a strategic collaboration with Boltz, PBC to develop and deploy biomolecular AI foundation models. Pfizer Inc. was founded in 1849 and is headquartered in New York, New York.",
+  "targetMeanPrice": 29.25962,
+  "targetLowPrice": 25.0,
+  "targetHighPrice": 36.0,
+  "numberOfAnalystOpinions": 26,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.46429,
+  "forwardPE": 9.762362,
+  "forwardEps": 2.89684,
+  "trailingEps": 0.77,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.026
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 208160000000.0,
+    "official": 208160000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 86476000000.0,
+    "official": 86476000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 7771000000.0,
+    "official": 7771000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 62579000000.0,
+    "official": 62579000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:52:58+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -202,7 +244,10 @@
    "goodwill_and_intangibles": 94745000000.0,
    "retained_earnings": 125656000000.0,
    "total_debt": 35444000000.0,
-   "shares_out": 5616000000.0
+   "shares_out": 5616000000.0,
+   "unusual_items": -4014000000.0,
+   "normalized_ebitda": 45045000000.0,
+   "normalized_income": 34994656000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -237,7 +282,10 @@
    "goodwill_and_intangibles": 132683000000.0,
    "retained_earnings": 118353000000.0,
    "total_debt": 71757000000.0,
-   "shares_out": 5646000000.0
+   "shares_out": 5646000000.0,
+   "unusual_items": -4347000000.0,
+   "normalized_ebitda": 13904000000.0,
+   "normalized_income": 5360778100.0
   },
   {
    "fy_end": "2024-12-31",
@@ -272,7 +320,10 @@
    "goodwill_and_intangibles": 123939000000.0,
    "retained_earnings": 116725000000.0,
    "total_debt": 63605000000.0,
-   "shares_out": 5666990035.0
+   "shares_out": 5666990035.0,
+   "unusual_items": -4584000000.0,
+   "normalized_ebitda": 22711000000.0,
+   "normalized_income": 11429120800.0
   },
   {
    "fy_end": "2025-12-31",
@@ -307,7 +358,10 @@
    "goodwill_and_intangibles": 124994000000.0,
    "retained_earnings": 114610000000.0,
    "total_debt": 64638000000.0,
-   "shares_out": 5686000000.0
+   "shares_out": 5686000000.0,
+   "unusual_items": -8962000000.0,
+   "normalized_ebitda": 25745000000.0,
+   "normalized_income": 14416416600.0
   }
  ]
 }

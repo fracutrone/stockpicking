@@ -1,6 +1,6 @@
 {
  "ticker": "INCH.L",
- "fetched_at": "2026-10-10T12:03:32+00:00",
+ "fetched_at": "2026-10-10T14:57:53+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 16000,
   "website": "https://www.inchcape.com",
-  "longBusinessSummary": "Inchcape plc operates as an automotive distributor. It engages in the distribution, sales, and marketing of new and used vehicles, and parts. The company provides aftersales service and body shop repairs; and vehicle parts, maintenance, finance, and insurance products and services, as well as product planning, logistics, brand and marketing, channel management, and digital retail services. It operates in the Asia Pacific, Europe, the Americas, and Africa. Inchcape plc was founded in 1847 and is headquartered in London, the United Kingdom."
+  "longBusinessSummary": "Inchcape plc operates as an automotive distributor. It engages in the distribution, sales, and marketing of new and used vehicles, and parts. The company provides aftersales service and body shop repairs; and vehicle parts, maintenance, finance, and insurance products and services, as well as product planning, logistics, brand and marketing, channel management, and digital retail services. It operates in the Asia Pacific, Europe, the Americas, and Africa. Inchcape plc was founded in 1847 and is headquartered in London, the United Kingdom.",
+  "targetMeanPrice": 991.55597,
+  "targetLowPrice": 750.0,
+  "targetHighPrice": 1277.0,
+  "numberOfAnalystOpinions": 9,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.88889,
+  "forwardPE": 6.911863,
+  "forwardEps": 0.99322,
+  "trailingEps": 0.63,
+  "earningsGrowth": -0.259,
+  "revenueGrowth": 0.093
  },
  "governance": {
   "ceo": {
@@ -71,8 +82,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 5849000000.0,
+    "official": 5849000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1257000000.0,
+    "official": 1257000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 272000000.0,
+    "official": 272000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 9100000000.0,
+    "official": 9100000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:57:53+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -107,7 +150,10 @@
    "goodwill_and_intangibles": 1174000000.0,
    "retained_earnings": 820000000.0,
    "total_debt": 1941000000.0,
-   "shares_out": 374494030.0
+   "shares_out": 374494030.0,
+   "unusual_items": -29000000.0,
+   "normalized_ebitda": 531000000.0,
+   "normalized_income": 250474000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -141,7 +187,10 @@
    "goodwill_and_intangibles": 1271000000.0,
    "retained_earnings": 940000000.0,
    "total_debt": 1730000000.0,
-   "shares_out": 411999074.0
+   "shares_out": 411999074.0,
+   "unusual_items": -29000000.0,
+   "normalized_ebitda": 751000000.0,
+   "normalized_income": 254024000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -175,7 +224,10 @@
    "goodwill_and_intangibles": 1156000000.0,
    "retained_earnings": 1020000000.0,
    "total_debt": 1041000000.0,
-   "shares_out": 394010313.0
+   "shares_out": 394010313.0,
+   "unusual_items": -30000000.0,
+   "normalized_ebitda": 770000000.0,
+   "normalized_income": 291652173.913043
   },
   {
    "fy_end": "2025-12-31",
@@ -209,7 +261,10 @@
    "goodwill_and_intangibles": 1191000000.0,
    "retained_earnings": 942000000.0,
    "total_debt": 1264000000.0,
-   "shares_out": 359806857.0
+   "shares_out": 359806857.0,
+   "unusual_items": -37000000.0,
+   "normalized_ebitda": 741000000.0,
+   "normalized_income": 296879310.344828
   }
  ]
 }

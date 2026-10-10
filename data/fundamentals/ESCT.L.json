@@ -1,6 +1,6 @@
 {
  "ticker": "ESCT.L",
- "fetched_at": "2026-10-10T11:56:33+00:00",
+ "fetched_at": "2026-10-10T14:46:37+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "top_institutions": [
@@ -55,8 +66,15 @@
   "equity": "yahoo",
   "receivables": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T14:46:37+00:00",
  "years": [
   {
    "fy_end": "2022-06-30",
@@ -76,7 +94,8 @@
    "equity": 652464000.0,
    "receivables": 3238000.0,
    "total_debt": 68819000.0,
-   "shares_out": 400867176.0
+   "shares_out": 400867176.0,
+   "normalized_income": -174712000.0
   },
   {
    "fy_end": "2023-06-30",
@@ -96,7 +115,8 @@
    "equity": 738642000.0,
    "receivables": 2023000.0,
    "total_debt": 94016000.0,
-   "shares_out": 400867176.0
+   "shares_out": 400867176.0,
+   "normalized_income": 104381000.0
   },
   {
    "fy_end": "2024-06-30",
@@ -116,7 +136,8 @@
    "equity": 798594000.0,
    "receivables": 1732000.0,
    "total_debt": 90219000.0,
-   "shares_out": 397287598.0
+   "shares_out": 397287598.0,
+   "normalized_income": 84898000.0
   },
   {
    "fy_end": "2025-06-30",
@@ -136,7 +157,8 @@
    "equity": 510677000.0,
    "receivables": 273000.0,
    "total_debt": 8182000.0,
-   "shares_out": 227524156.0
+   "shares_out": 227524156.0,
+   "normalized_income": 90057000.0
   }
  ]
 }

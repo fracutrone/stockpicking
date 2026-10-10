@@ -1,6 +1,6 @@
 {
  "ticker": "PLUS.L",
- "fetched_at": "2026-10-10T12:14:31+00:00",
+ "fetched_at": "2026-10-10T15:11:54+00:00",
  "region": "Europa",
  "statement_currency": "USD",
  "info": {
@@ -11,8 +11,8 @@
   "country": "Israel",
   "currency": "GBp",
   "financialCurrency": "USD",
-  "marketCap": 2362481664,
-  "sharesOutstanding": 70775356,
+  "marketCap": 2361905920,
+  "sharesOutstanding": 70758120,
   "floatShares": 64037735,
   "heldPercentInsiders": 0.02405,
   "heldPercentInstitutions": 0.60752,
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 674,
   "website": "https://www.plus500.com",
-  "longBusinessSummary": "Plus500 Ltd., a fintech company, operates technology-based trading platforms in Europe, the United Kingdom, Australia, and internationally. It develops and operates an online trading platform, such as over the counter (OTC) products comprising the contracts for difference (CFDs) sector enabling its international customer base of individual customers to trade CFDs on underlying financial instruments comprising shares, indices, commodities, options, ETFs, foreign exchange pairs, and cryptocurrencies. The company also operates Plus500 Invest, a share dealing platform. The company was formerly known as Investsoft Ltd. and changed its name to Plus500 Ltd. in June 2012. Plus500 Ltd. was incorporated in 2008 and is based in Haifa, Israel."
+  "longBusinessSummary": "Plus500 Ltd., a fintech company, operates technology-based trading platforms in Europe, the United Kingdom, Australia, and internationally. It develops and operates an online trading platform, such as over the counter (OTC) products comprising the contracts for difference (CFDs) sector enabling its international customer base of individual customers to trade CFDs on underlying financial instruments comprising shares, indices, commodities, options, ETFs, foreign exchange pairs, and cryptocurrencies. The company also operates Plus500 Invest, a share dealing platform. The company was formerly known as Investsoft Ltd. and changed its name to Plus500 Ltd. in June 2012. Plus500 Ltd. was incorporated in 2008 and is based in Haifa, Israel.",
+  "targetMeanPrice": 4662.483,
+  "targetLowPrice": 3506.1697,
+  "targetHighPrice": 5550.9863,
+  "numberOfAnalystOpinions": 6,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.66667,
+  "forwardPE": 10.639012,
+  "forwardEps": 3.137509,
+  "trailingEps": 2.91,
+  "earningsGrowth": 0.055,
+  "revenueGrowth": 0.119
  },
  "governance": {
   "ceo": {
@@ -73,8 +84,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 944100000.0,
+    "official": 944100000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 568000000.0,
+    "official": 568000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 281300000.0,
+    "official": 281300000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 729600000.0,
+    "official": 792400000.0,
+    "diff": 0.079253
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:11:54+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -105,7 +147,9 @@
    "goodwill_and_intangibles": 38700000.0,
    "retained_earnings": 1099100000.0,
    "total_debt": 5600000.0,
-   "shares_out": 93775729.0
+   "shares_out": 93775729.0,
+   "normalized_ebitda": 495100000.0,
+   "normalized_income": 370400000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -136,7 +180,9 @@
    "goodwill_and_intangibles": 38300000.0,
    "retained_earnings": 1283800000.0,
    "total_debt": 18400000.0,
-   "shares_out": 79718040.0
+   "shares_out": 79718040.0,
+   "normalized_ebitda": 347400000.0,
+   "normalized_income": 271400000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -166,7 +212,9 @@
    "goodwill_and_intangibles": 37900000.0,
    "retained_earnings": 1407600000.0,
    "total_debt": 15800000.0,
-   "shares_out": 74318627.0
+   "shares_out": 74318627.0,
+   "normalized_ebitda": 349000000.0,
+   "normalized_income": 273100000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -196,7 +244,9 @@
    "goodwill_and_intangibles": 37500000.0,
    "retained_earnings": 1527100000.0,
    "total_debt": 22400000.0,
-   "shares_out": 70429700.0
+   "shares_out": 70429700.0,
+   "normalized_ebitda": 354900000.0,
+   "normalized_income": 281300000.0
   }
  ]
 }

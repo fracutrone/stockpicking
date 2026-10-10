@@ -1,6 +1,6 @@
 {
  "ticker": "UHS",
- "fetched_at": "2026-10-10T13:00:46+00:00",
+ "fetched_at": "2026-10-10T15:58:21+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 102000,
   "website": "https://uhs.com",
-  "longBusinessSummary": "Universal Health Services, Inc., through its subsidiaries, owns and operates acute care hospitals, and outpatient and behavioral health care facilities in the United States. It operates through Acute Care Hospital Services and Behavioral Health Care Services segments. The company's hospitals offer general and specialty surgery, internal medicine, obstetrics, emergency room care, radiology, oncology, diagnostic and coronary care, pediatric, pharmacy, and/or behavioral health services. It also provides commercial health insurance services; capital resources; and various management services, including central purchasing, information services, finance and control systems, facilities planning, physician recruitment, administrative personnel management, marketing, and public relations services. Universal Health Services, Inc. was founded in 1978 and is headquartered in King of Prussia, Pennsylvania."
+  "longBusinessSummary": "Universal Health Services, Inc., through its subsidiaries, owns and operates acute care hospitals, and outpatient and behavioral health care facilities in the United States. It operates through Acute Care Hospital Services and Behavioral Health Care Services segments. The company's hospitals offer general and specialty surgery, internal medicine, obstetrics, emergency room care, radiology, oncology, diagnostic and coronary care, pediatric, pharmacy, and/or behavioral health services. It also provides commercial health insurance services; capital resources; and various management services, including central purchasing, information services, finance and control systems, facilities planning, physician recruitment, administrative personnel management, marketing, and public relations services. Universal Health Services, Inc. was founded in 1978 and is headquartered in King of Prussia, Pennsylvania.",
+  "targetMeanPrice": 194.94118,
+  "targetLowPrice": 166.0,
+  "targetHighPrice": 290.0,
+  "numberOfAnalystOpinions": 17,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.4,
+  "forwardPE": 7.400746,
+  "forwardEps": 23.9638,
+  "trailingEps": 24.52,
+  "earningsGrowth": 0.101,
+  "revenueGrowth": 0.083
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,38 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "intangibles": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 15527593000.0,
+    "official": 15527593000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 7275792000.0,
+    "official": 7275792000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1488796000.0,
+    "official": 1488796000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 17364829000.0,
+    "official": 17364829000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:58:21+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -191,7 +232,9 @@
    "goodwill_and_intangibles": 3909456000.0,
    "retained_earnings": 6533667000.0,
    "total_debt": 4807980000.0,
-   "shares_out": 70628950.0
+   "shares_out": 70628950.0,
+   "normalized_ebitda": 1575010000.0,
+   "normalized_income": 675609000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -225,7 +268,9 @@
    "goodwill_and_intangibles": 3932407000.0,
    "retained_earnings": 6798930000.0,
    "total_debt": 4912469000.0,
-   "shares_out": 67181833.0
+   "shares_out": 67181833.0,
+   "normalized_ebitda": 1715141000.0,
+   "normalized_income": 717795000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -259,7 +304,9 @@
    "goodwill_and_intangibles": 3932879000.0,
    "retained_earnings": 7372061000.0,
    "total_debt": 4504541000.0,
-   "shares_out": 64977334.0
+   "shares_out": 64977334.0,
+   "normalized_ebitda": 2265280000.0,
+   "normalized_income": 1142097000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -293,7 +340,9 @@
    "goodwill_and_intangibles": 3990213000.0,
    "retained_earnings": 7992755000.0,
    "total_debt": 4752551000.0,
-   "shares_out": 61064008.0
+   "shares_out": 61064008.0,
+   "normalized_ebitda": 2743141000.0,
+   "normalized_income": 1488796000.0
   }
  ]
 }

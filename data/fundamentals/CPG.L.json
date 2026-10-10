@@ -1,6 +1,6 @@
 {
  "ticker": "CPG.L",
- "fetched_at": "2026-10-10T11:52:25+00:00",
+ "fetched_at": "2026-10-10T14:40:44+00:00",
  "region": "Europa",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 590000,
   "website": "https://www.compass-group.com",
-  "longBusinessSummary": "Compass Group PLC provides food and support services in North America and internationally. The company offers support services, such as cleaning in hospitals; reception services at corporate headquarters; managing remote camps; grounds and facilities services at schools and universities; insurance brokerage services; and others. It serves business and industry; healthcare and senior living; education; sports and leisure; and defense, offshore, and remote sectors. The company was founded in 1941 and is based in Chertsey, the United Kingdom."
+  "longBusinessSummary": "Compass Group PLC provides food and support services in North America and internationally. The company offers support services, such as cleaning in hospitals; reception services at corporate headquarters; managing remote camps; grounds and facilities services at schools and universities; insurance brokerage services; and others. It serves business and industry; healthcare and senior living; education; sports and leisure; and defense, offshore, and remote sectors. The company was founded in 1941 and is based in Chertsey, the United Kingdom.",
+  "targetMeanPrice": 38.08421,
+  "targetLowPrice": 31.0,
+  "targetHighPrice": 43.0,
+  "numberOfAnalystOpinions": 19,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.75,
+  "forwardPE": 19.095415,
+  "forwardEps": 1.6339,
+  "trailingEps": 1.19,
+  "earningsGrowth": 0.163,
+  "revenueGrowth": 0.107
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-09-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 26715000000.0,
+    "official": 26715000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 7653000000.0,
+    "official": 7653000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1868000000.0,
+    "official": 1868000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 46070000000.0,
+    "official": 46070000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-09-30"
+ },
+ "info_at": "2026-10-10T14:40:44+00:00",
  "years": [
   {
    "fy_end": "2022-09-30",
@@ -119,7 +162,10 @@
    "goodwill_and_intangibles": 7903000000.0,
    "retained_earnings": 325000000.0,
    "total_debt": 5444000000.0,
-   "shares_out": 1760201478.0
+   "shares_out": 1760201478.0,
+   "unusual_items": -74818537.130095,
+   "normalized_ebitda": 2667783361.250698,
+   "normalized_income": 1297647739.909299
   },
   {
    "fy_end": "2023-09-30",
@@ -153,7 +199,10 @@
    "goodwill_and_intangibles": 8585000000.0,
    "retained_earnings": 1018000000.0,
    "total_debt": 5267000000.0,
-   "shares_out": 1714659895.0
+   "shares_out": 1714659895.0,
+   "unusual_items": -347000000.0,
+   "normalized_ebitda": 3657000000.0,
+   "normalized_income": 1868638000.0
   },
   {
    "fy_end": "2024-09-30",
@@ -187,7 +236,10 @@
    "goodwill_and_intangibles": 10224000000.0,
    "retained_earnings": 1574000000.0,
    "total_debt": 5911000000.0,
-   "shares_out": 1697113260.0
+   "shares_out": 1697113260.0,
+   "unusual_items": -687000000.0,
+   "normalized_ebitda": 4098000000.0,
+   "normalized_income": 1876479571.984436
   },
   {
    "fy_end": "2025-09-30",
@@ -220,7 +272,10 @@
    "goodwill_and_intangibles": 11686000000.0,
    "retained_earnings": 2302000000.0,
    "total_debt": 6992000000.0,
-   "shares_out": 1697300978.0
+   "shares_out": 1697300978.0,
+   "unusual_items": -430000000.0,
+   "normalized_ebitda": 4582000000.0,
+   "normalized_income": 2180848297.213622
   }
  ]
 }

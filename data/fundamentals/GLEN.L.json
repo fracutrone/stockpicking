@@ -1,6 +1,6 @@
 {
  "ticker": "GLEN.L",
- "fetched_at": "2026-10-10T12:00:09+00:00",
+ "fetched_at": "2026-10-10T14:51:41+00:00",
  "region": "Europa",
  "statement_currency": "USD",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.13736,
   "heldPercentInstitutions": 0.64845,
   "shortPercentOfFloat": null,
-  "averageVolume": 40381078,
+  "averageVolume": 40117864,
   "quoteType": "EQUITY",
   "exchange": "LSE",
   "fullTimeEmployees": 140000,
   "website": "https://www.glencore.com",
-  "longBusinessSummary": "Glencore plc engages in the production, refinement, processing, storage, transport, and marketing of metals and minerals, and energy products in the Americas, Europe, Asia, Africa, and Oceania. The company operates in two segments, Marketing Activities and Industrial Activities. It engages in the production and marketing of copper, cobalt, lead, nickel, zinc, chrome ore, ferrochrome, vanadium, aluminum, alumina, and iron ore; and coal, crude oil, refined products, and natural gas, as well as oil exploration and production and refining and distribution. The company is also involved in marketing and distributing physical commodities sourced from third party producers to industrial consumers, including the battery, electronic, construction, automotive, steel, energy, and oil industries. In addition, the company provides financing, logistics, and other services to producers and consumers of commodities. Glencore plc was founded in 1974 and is headquartered in Baar, Switzerland."
+  "longBusinessSummary": "Glencore plc engages in the production, refinement, processing, storage, transport, and marketing of metals and minerals, and energy products in the Americas, Europe, Asia, Africa, and Oceania. The company operates in two segments, Marketing Activities and Industrial Activities. It engages in the production and marketing of copper, cobalt, lead, nickel, zinc, chrome ore, ferrochrome, vanadium, aluminum, alumina, and iron ore; and coal, crude oil, refined products, and natural gas, as well as oil exploration and production and refining and distribution. The company is also involved in marketing and distributing physical commodities sourced from third party producers to industrial consumers, including the battery, electronic, construction, automotive, steel, energy, and oil industries. In addition, the company provides financing, logistics, and other services to producers and consumers of commodities. Glencore plc was founded in 1974 and is headquartered in Baar, Switzerland.",
+  "targetMeanPrice": 656.85974,
+  "targetLowPrice": 475.0036,
+  "targetHighPrice": 796.21783,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.7,
+  "forwardPE": 12.520572,
+  "forwardEps": 0.466912,
+  "trailingEps": 0.34,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.486
  },
  "governance": {
   "ceo": {
@@ -81,8 +92,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 142199000000.0,
+    "official": 142199000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 38860000000.0,
+    "official": 38860000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 363000000.0,
+    "official": 363000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 247535000000.0,
+    "official": 247535000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:51:41+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -117,7 +160,10 @@
    "goodwill_and_intangibles": 6310000000.0,
    "retained_earnings": 25246000000.0,
    "total_debt": 28777000000.0,
-   "shares_out": 12820503000.0
+   "shares_out": 12820503000.0,
+   "unusual_items": -2828000000.0,
+   "normalized_ebitda": 34465000000.0,
+   "normalized_income": 19353332000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -152,7 +198,10 @@
    "goodwill_and_intangibles": 6152000000.0,
    "retained_earnings": 29607000000.0,
    "total_debt": 32241000000.0,
-   "shares_out": 12173411708.0
+   "shares_out": 12173411708.0,
+   "unusual_items": -2448000000.0,
+   "normalized_ebitda": 16361000000.0,
+   "normalized_income": 6519920000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -186,7 +235,10 @@
    "goodwill_and_intangibles": 6078000000.0,
    "retained_earnings": 27139000000.0,
    "total_debt": 38107000000.0,
-   "shares_out": 12157254648.0
+   "shares_out": 12157254648.0,
+   "unusual_items": -3888000000.0,
+   "normalized_ebitda": 12409000000.0,
+   "normalized_income": 1491563200.0
   },
   {
    "fy_end": "2025-12-31",
@@ -221,7 +273,10 @@
    "goodwill_and_intangibles": 5920000000.0,
    "retained_earnings": 27561000000.0,
    "total_debt": 41486000000.0,
-   "shares_out": 11705047064.0
+   "shares_out": 11705047064.0,
+   "unusual_items": -1268000000.0,
+   "normalized_ebitda": 11607000000.0,
+   "normalized_income": 1382345200.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "SCI",
- "fetched_at": "2026-10-10T12:57:45+00:00",
+ "fetched_at": "2026-10-10T15:55:21+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 25000,
   "website": "https://www.sci-corp.com",
-  "longBusinessSummary": "Service Corporation International provides deathcare products and services in the United States and Canada. Its funeral service and cemetery operations comprise funeral service locations, cemeteries, funeral service/cemetery combination locations, crematoria, and other businesses. The company also provides professional services related to funerals and cremations, including the use of funeral home facilities and motor vehicles, arranging and directing services, removal, preparation, embalming, cremation, memorialization, and travel protection, as well as catering services. In addition, it offers funeral merchandise, including burial caskets and related accessories, urns and other cremation receptacles, outer burial containers, flowers, online and video tributes, stationery products, casket and cremation memorialization products, and other ancillary merchandise. Further, the company's cemeteries provide cemetery property interment rights, such as developed lots, lawn crypts, mausoleum spaces, and cremation niches; custom inventory, including private mausoleums, family estates, and exclusive cremation memorialization options; and Cemetery merchandise and services, such as memorial cemetery markers and bases, outer burial containers, flowers and floral placement, other ancillary merchandise, graveside services, merchandise installation, and interments. It offers its products and services under the Dignity Memorial, Dignity Planning, National Cremation Society, Advantage Funeral and Cremation Services, Funeraria del Angel, Making Everlasting Memories, Neptune Society, and Trident Society brand names. Service Corporation International was incorporated in 1962 and is headquartered in Houston, Texas."
+  "longBusinessSummary": "Service Corporation International provides deathcare products and services in the United States and Canada. Its funeral service and cemetery operations comprise funeral service locations, cemeteries, funeral service/cemetery combination locations, crematoria, and other businesses. The company also provides professional services related to funerals and cremations, including the use of funeral home facilities and motor vehicles, arranging and directing services, removal, preparation, embalming, cremation, memorialization, and travel protection, as well as catering services. In addition, it offers funeral merchandise, including burial caskets and related accessories, urns and other cremation receptacles, outer burial containers, flowers, online and video tributes, stationery products, casket and cremation memorialization products, and other ancillary merchandise. Further, the company's cemeteries provide cemetery property interment rights, such as developed lots, lawn crypts, mausoleum spaces, and cremation niches; custom inventory, including private mausoleums, family estates, and exclusive cremation memorialization options; and Cemetery merchandise and services, such as memorial cemetery markers and bases, outer burial containers, flowers and floral placement, other ancillary merchandise, graveside services, merchandise installation, and interments. It offers its products and services under the Dignity Memorial, Dignity Planning, National Cremation Society, Advantage Funeral and Cremation Services, Funeraria del Angel, Making Everlasting Memories, Neptune Society, and Trident Society brand names. Service Corporation International was incorporated in 1962 and is headquartered in Houston, Texas.",
+  "targetMeanPrice": 100.33333,
+  "targetLowPrice": 97.0,
+  "targetHighPrice": 105.0,
+  "numberOfAnalystOpinions": 6,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 16.7264,
+  "forwardEps": 4.59812,
+  "trailingEps": 3.83,
+  "earningsGrowth": 0.047,
+  "revenueGrowth": 0.036
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 18654512000.0,
+    "official": 18654512000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1638271000.0,
+    "official": 1638271000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 542614000.0,
+    "official": 542614000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 4309234000.0,
+    "official": 4309234000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:55:21+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -200,7 +242,10 @@
    "goodwill_and_intangibles": 2426598000.0,
    "retained_earnings": 544384000.0,
    "total_debt": 4341744000.0,
-   "shares_out": 153940365.0
+   "shares_out": 153940365.0,
+   "unusual_items": 8737000.0,
+   "normalized_ebitda": 1206808000.0,
+   "normalized_income": 558793987.0
   },
   {
    "fy_end": "2023-12-31",
@@ -234,7 +279,10 @@
    "goodwill_and_intangibles": 2462295000.0,
    "retained_earnings": 432454000.0,
    "total_debt": 4712496000.0,
-   "shares_out": 146323340.0
+   "shares_out": 146323340.0,
+   "unusual_items": 8702000.0,
+   "normalized_ebitda": 1250593000.0,
+   "normalized_income": 530712182.0
   },
   {
    "fy_end": "2024-12-31",
@@ -268,7 +316,10 @@
    "goodwill_and_intangibles": 2593397000.0,
    "retained_earnings": 553701000.0,
    "total_debt": 4835298000.0,
-   "shares_out": 144694887.0
+   "shares_out": 144694887.0,
+   "unusual_items": -23983000.0,
+   "normalized_ebitda": 1285115000.0,
+   "normalized_income": 537066944.0
   },
   {
    "fy_end": "2025-12-31",
@@ -302,7 +353,10 @@
    "goodwill_and_intangibles": 2642629000.0,
    "retained_earnings": 498958000.0,
    "total_debt": 5139817000.0,
-   "shares_out": 139678199.0
+   "shares_out": 139678199.0,
+   "unusual_items": 3648000.0,
+   "normalized_ebitda": 1321793000.0,
+   "normalized_income": 539899888.0
   }
  ]
 }

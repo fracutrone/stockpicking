@@ -1,6 +1,6 @@
 {
  "ticker": "LOG.MC",
- "fetched_at": "2026-10-10T12:07:00+00:00",
+ "fetched_at": "2026-10-10T15:03:00+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "MCE",
   "fullTimeEmployees": 6898,
   "website": "https://www.logista.com",
-  "longBusinessSummary": "Logista Integral, S.A., through its subsidiaries, operates as a distributor and logistics operator in Spain, France, Italy, Portugal, and Poland. The company distributes a range of products and services, including tobacco products; convenience products; pharmaceutical products; electronic top-ups; books; fiscal stamps, postage stamps, and other official documents; and periodicals, collectibles, and magazines. It also provides parcel and express courier, temperature-controlled capillary transport, and long distance and full load transportation services. Logista Integral, S.A. serves clients in various sectors comprising tobacco, publications, books, e-transactions, transport, pharmaceutical, and public sectors. Logista Integral, S.A. was formerly known as Compañía de Distribución Integral Logista Holdings, S.A. and changed its name to Logista Integral, S.A. in February 2024. The company was incorporated in 2014 and is headquartered in Leganés, Spain. Logista Integral, S.A. operates as a subsidiary of Altadis S.A."
+  "longBusinessSummary": "Logista Integral, S.A., through its subsidiaries, operates as a distributor and logistics operator in Spain, France, Italy, Portugal, and Poland. The company distributes a range of products and services, including tobacco products; convenience products; pharmaceutical products; electronic top-ups; books; fiscal stamps, postage stamps, and other official documents; and periodicals, collectibles, and magazines. It also provides parcel and express courier, temperature-controlled capillary transport, and long distance and full load transportation services. Logista Integral, S.A. serves clients in various sectors comprising tobacco, publications, books, e-transactions, transport, pharmaceutical, and public sectors. Logista Integral, S.A. was formerly known as Compañía de Distribución Integral Logista Holdings, S.A. and changed its name to Logista Integral, S.A. in February 2024. The company was incorporated in 2014 and is headquartered in Leganés, Spain. Logista Integral, S.A. operates as a subsidiary of Altadis S.A.",
+  "targetMeanPrice": 32.53909,
+  "targetLowPrice": 26.7,
+  "targetHighPrice": 35.0,
+  "numberOfAnalystOpinions": 11,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.27273,
+  "forwardPE": 14.756391,
+  "forwardEps": 2.39625,
+  "trailingEps": 2.1,
+  "earningsGrowth": 0.175,
+  "revenueGrowth": 0.017
  },
  "governance": {
   "ceo": {
@@ -76,8 +87,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF ES",
+  "fy_end": "2024-09-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 8080856000.0,
+    "official": 8080856000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 641472000.0,
+    "official": 641472000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 308235000.0,
+    "official": 308235000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 12985534000.0,
+    "official": 12985534000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-09-30"
+ },
+ "info_at": "2026-10-10T15:03:00+00:00",
  "years": [
   {
    "fy_end": "2022-09-30",
@@ -111,7 +154,10 @@
    "goodwill_and_intangibles": 1245132000.0,
    "retained_earnings": 198848000.0,
    "total_debt": 135796000.0,
-   "shares_out": 131872061.0
+   "shares_out": 131872061.0,
+   "unusual_items": 13872000.0,
+   "normalized_ebitda": 396620000.0,
+   "normalized_income": 200083464.0
   },
   {
    "fy_end": "2023-09-30",
@@ -145,7 +191,10 @@
    "goodwill_and_intangibles": 1329049000.0,
    "retained_earnings": 272254000.0,
    "total_debt": 255426000.0,
-   "shares_out": 131866045.0
+   "shares_out": 131866045.0,
+   "unusual_items": -686000.0,
+   "normalized_ebitda": 534503000.0,
+   "normalized_income": 272762326.0
   },
   {
    "fy_end": "2024-09-30",
@@ -179,7 +228,10 @@
    "goodwill_and_intangibles": 1273851000.0,
    "retained_earnings": 308235000.0,
    "total_debt": 276439000.0,
-   "shares_out": 131995912.0
+   "shares_out": 131995912.0,
+   "unusual_items": 5179000.0,
+   "normalized_ebitda": 587814000.0,
+   "normalized_income": 304428435.0
   }
  ]
 }

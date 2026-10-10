@@ -1,6 +1,6 @@
 {
  "ticker": "FERG",
- "fetched_at": "2026-10-10T12:45:29+00:00",
+ "fetched_at": "2026-10-10T15:43:48+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 35000,
   "website": "https://www.corporate.ferguson.com",
-  "longBusinessSummary": "Ferguson Enterprises Inc. distributes essential water and air solutions to specialized professional in the United States and Canada. The company provides various products and services, including plumbing; pipe, valves, and fittings; heating, ventilation, and air conditioning; appliances; lighting; and water and wastewater solutions to residential and non-residential customers. It also supplies specialized water and wastewater treatment products to residential, commercial, and infrastructure contractors, as well as supplies pipe, valves, and fittings solutions to industrial customers. In addition, it offers customized solutions, such as virtual design, fabrication, valve actuation, pre-assembly, kitting, installation, and project management services, as well as after-sales support that comprises warranty, credit, project-based billing, returns and maintenance, and repair and operations support. The company sells its products through a network of distribution centers, branches, counter service and sales associates, showroom consultants, and e-commerce channels. Ferguson Enterprises Inc. was founded in 1953 and is headquartered in Newport News, Virginia."
+  "longBusinessSummary": "Ferguson Enterprises Inc. distributes essential water and air solutions to specialized professional in the United States and Canada. The company provides various products and services, including plumbing; pipe, valves, and fittings; heating, ventilation, and air conditioning; appliances; lighting; and water and wastewater solutions to residential and non-residential customers. It also supplies specialized water and wastewater treatment products to residential, commercial, and infrastructure contractors, as well as supplies pipe, valves, and fittings solutions to industrial customers. In addition, it offers customized solutions, such as virtual design, fabrication, valve actuation, pre-assembly, kitting, installation, and project management services, as well as after-sales support that comprises warranty, credit, project-based billing, returns and maintenance, and repair and operations support. The company sells its products through a network of distribution centers, branches, counter service and sales associates, showroom consultants, and e-commerce channels. Ferguson Enterprises Inc. was founded in 1953 and is headquartered in Newport News, Virginia.",
+  "targetMeanPrice": 284.5,
+  "targetLowPrice": 235.0,
+  "targetHighPrice": 325.0,
+  "numberOfAnalystOpinions": 22,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.875,
+  "forwardPE": 17.318075,
+  "forwardEps": 12.7058,
+  "trailingEps": 10.16,
+  "earningsGrowth": 0.069,
+  "revenueGrowth": 0.046
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-07-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 17729000000.0,
+    "official": 17729000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 5832000000.0,
+    "official": 5832000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1856000000.0,
+    "official": 1856000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 30762000000.0,
+    "official": 30762000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:43:48+00:00",
  "years": [
   {
    "fy_end": "2022-07-31",
@@ -108,7 +150,10 @@
    "equity": 4665000000.0,
    "goodwill": 2048000000.0,
    "goodwill_and_intangibles": 2830000000.0,
-   "shares_out": 211092605.0
+   "shares_out": 211092605.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 3120000000.0,
+   "normalized_income": 2099000000.0
   },
   {
    "fy_end": "2023-07-31",
@@ -142,7 +187,10 @@
    "goodwill_and_intangibles": 3024000000.0,
    "retained_earnings": 8557000000.0,
    "total_debt": 3766000000.0,
-   "shares_out": 204003471.0
+   "shares_out": 204003471.0,
+   "unusual_items": -125000000.0,
+   "normalized_ebitda": 3094000000.0,
+   "normalized_income": 1984875000.0
   },
   {
    "fy_end": "2024-07-31",
@@ -176,7 +224,10 @@
    "goodwill_and_intangibles": 3110000000.0,
    "retained_earnings": 9589000000.0,
    "total_debt": 3950000000.0,
-   "shares_out": 201343253.0
+   "shares_out": 201343253.0,
+   "unusual_items": -28000000.0,
+   "normalized_ebitda": 3006000000.0,
+   "normalized_income": 1754712000.0
   },
   {
    "fy_end": "2025-07-31",
@@ -210,7 +261,10 @@
    "goodwill_and_intangibles": 3190000000.0,
    "retained_earnings": 6776000000.0,
    "total_debt": 4175000000.0,
-   "shares_out": 194128511.0
+   "shares_out": 194128511.0,
+   "unusual_items": -80000000.0,
+   "normalized_ebitda": 3066000000.0,
+   "normalized_income": 1917280000.0
   }
  ]
 }

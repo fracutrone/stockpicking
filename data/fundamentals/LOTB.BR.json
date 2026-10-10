@@ -1,6 +1,6 @@
 {
  "ticker": "LOTB.BR",
- "fetched_at": "2026-10-10T12:07:06+00:00",
+ "fetched_at": "2026-10-10T15:03:18+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "BRU",
   "fullTimeEmployees": 3559,
   "website": "https://www.lotusbakeries.com",
-  "longBusinessSummary": "Lotus Bakeries NV, together with its subsidiaries, provides various snack products in Belgium and internationally. It offers biscuits, cookies, ginger breads, cakes, donut, waffles, pastry, fruity bakes, veggie straws, wriggles, tiddlers, biscptti, melty bittons, and pepparkakor biscuits. The company also provides energy bars, fruit and nut bars, protein bars, fruit and fibre bars, ice creams, and spreads. It sells its products under the Lotus, Biscoff, nakd, TREK, BEAR, Kiddylicious, Peter's Yard, Dinosaurus, Peijnenburg, Snelle Jelle, Annas, Suzy, and Kung Oscar brands. The company was founded in 1932 and is headquartered in Lembeke, Belgium. Lotus Bakeries NV is a subsidiary of Stichting Administratiekantoor van Aandelen Lotus Bakeries."
+  "longBusinessSummary": "Lotus Bakeries NV, together with its subsidiaries, provides various snack products in Belgium and internationally. It offers biscuits, cookies, ginger breads, cakes, donut, waffles, pastry, fruity bakes, veggie straws, wriggles, tiddlers, biscptti, melty bittons, and pepparkakor biscuits. The company also provides energy bars, fruit and nut bars, protein bars, fruit and fibre bars, ice creams, and spreads. It sells its products under the Lotus, Biscoff, nakd, TREK, BEAR, Kiddylicious, Peter's Yard, Dinosaurus, Peijnenburg, Snelle Jelle, Annas, Suzy, and Kung Oscar brands. The company was founded in 1932 and is headquartered in Lembeke, Belgium. Lotus Bakeries NV is a subsidiary of Stichting Administratiekantoor van Aandelen Lotus Bakeries.",
+  "targetMeanPrice": 12891.083,
+  "targetLowPrice": 9000.0,
+  "targetHighPrice": 15000.0,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.25,
+  "forwardPE": 42.68082,
+  "forwardEps": 283.4997,
+  "trailingEps": 234.82,
+  "earningsGrowth": 0.234,
+  "revenueGrowth": 0.14
  },
  "governance": {
   "ceo": {
@@ -70,8 +81,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF BE",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 1536521000.0,
+    "official": 1536521000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 859602000.0,
+    "official": 859602000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 172258000.0,
+    "official": 172258000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1355061000.0,
+    "official": 1355061000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:03:18+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -104,7 +147,10 @@
    "goodwill_and_intangibles": 371981000.0,
    "retained_earnings": 611180000.0,
    "total_debt": 266244000.0,
-   "shares_out": 810941.0
+   "shares_out": 810941.0,
+   "unusual_items": -7798000.0,
+   "normalized_ebitda": 170185000.0,
+   "normalized_income": 109252258.0
   },
   {
    "fy_end": "2023-12-31",
@@ -137,7 +183,10 @@
    "goodwill_and_intangibles": 370740000.0,
    "retained_earnings": 704401000.0,
    "total_debt": 290491000.0,
-   "shares_out": 811700.0
+   "shares_out": 811700.0,
+   "unusual_items": -3770000.0,
+   "normalized_ebitda": 208559000.0,
+   "normalized_income": 132163900.0
   },
   {
    "fy_end": "2024-12-31",
@@ -171,7 +220,10 @@
    "goodwill_and_intangibles": 380508000.0,
    "retained_earnings": 810954000.0,
    "total_debt": 281311000.0,
-   "shares_out": 812466.0
+   "shares_out": 812466.0,
+   "unusual_items": -5096000.0,
+   "normalized_ebitda": 245387000.0,
+   "normalized_income": 156476840.281054
   },
   {
    "fy_end": "2025-12-31",
@@ -205,7 +257,10 @@
    "goodwill_and_intangibles": 370784000.0,
    "retained_earnings": 924803000.0,
    "total_debt": 312250000.0,
-   "shares_out": 812053.0
+   "shares_out": 812053.0,
+   "unusual_items": -5591000.0,
+   "normalized_ebitda": 274286000.0,
+   "normalized_income": 176535115.0
   }
  ]
 }

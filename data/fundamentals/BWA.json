@@ -1,6 +1,6 @@
 {
  "ticker": "BWA",
- "fetched_at": "2026-10-10T12:39:36+00:00",
+ "fetched_at": "2026-10-10T15:38:27+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 37500,
   "website": "https://www.borgwarner.com",
-  "longBusinessSummary": "BorgWarner Inc., together with its subsidiaries, provides technology solutions for combustion, hybrid, and electric vehicles worldwide. The company operates through the Turbos & Thermal Technologies; Drivetrain & Morse Systems; PowerDrive Systems; and Battery & Charging Systems segments. It offers turbochargers, eBoosters, eTurbos, emissions systems, thermal systems, gasoline ignition technology, smart remote actuators, powertrain sensors, cabin heaters, battery heaters, and battery cooling systems. The company also provides chain systems and variable camshaft phasing products; friction and mechanical products for automatic transmissions, including dual clutch modules, friction clutch modules, electromagnetic clutches, friction and separator plates, transmission bands, torque converter clutches, one-way clutches, and torsional vibration dampers; hydraulic controls products for automatic transmissions, such as electro-hydraulic solenoids for standard and hydraulic systems, transmission solenoid modules and dual clutch hydraulic control modules; and torque management products comprising transfer cases and couplings; electronic limited slip differentials, electric torque vectoring products, and axle disconnect systems. In addition, it offers power electronics, including inverters, onboard chargers, DC/DC converters, and combination boxes; rotating electric machines comprising eMotors and generators; fully integrated drive modules consisting of inverters and gear reducers; and electronic controls, such as engine control units, transmission control units, battery management systems, propulsion controllers, and domain controllers. Further, the company provides battery and charging systems, including nickel manganese cobalt battery packs and lithium iron phosphate battery packs. BorgWarner Inc. was formerly known as Borg-Warner Automotive, Inc. The company was founded in 1928 and is headquartered in Auburn Hills, Michigan."
+  "longBusinessSummary": "BorgWarner Inc., together with its subsidiaries, provides technology solutions for combustion, hybrid, and electric vehicles worldwide. The company operates through the Turbos & Thermal Technologies; Drivetrain & Morse Systems; PowerDrive Systems; and Battery & Charging Systems segments. It offers turbochargers, eBoosters, eTurbos, emissions systems, thermal systems, gasoline ignition technology, smart remote actuators, powertrain sensors, cabin heaters, battery heaters, and battery cooling systems. The company also provides chain systems and variable camshaft phasing products; friction and mechanical products for automatic transmissions, including dual clutch modules, friction clutch modules, electromagnetic clutches, friction and separator plates, transmission bands, torque converter clutches, one-way clutches, and torsional vibration dampers; hydraulic controls products for automatic transmissions, such as electro-hydraulic solenoids for standard and hydraulic systems, transmission solenoid modules and dual clutch hydraulic control modules; and torque management products comprising transfer cases and couplings; electronic limited slip differentials, electric torque vectoring products, and axle disconnect systems. In addition, it offers power electronics, including inverters, onboard chargers, DC/DC converters, and combination boxes; rotating electric machines comprising eMotors and generators; fully integrated drive modules consisting of inverters and gear reducers; and electronic controls, such as engine control units, transmission control units, battery management systems, propulsion controllers, and domain controllers. Further, the company provides battery and charging systems, including nickel manganese cobalt battery packs and lithium iron phosphate battery packs. BorgWarner Inc. was formerly known as Borg-Warner Automotive, Inc. The company was founded in 1928 and is headquartered in Auburn Hills, Michigan.",
+  "targetMeanPrice": 80.93333,
+  "targetLowPrice": 62.0,
+  "targetHighPrice": 95.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.86667,
+  "forwardPE": 10.37599,
+  "forwardEps": 5.90787,
+  "trailingEps": 2.0,
+  "earningsGrowth": 0.301,
+  "revenueGrowth": 0.003
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 13769000000.0,
+    "official": 13769000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 5442000000.0,
+    "official": 5442000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 277000000.0,
+    "official": 277000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 14316000000.0,
+    "official": 14316000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:38:27+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -205,7 +247,10 @@
    "goodwill_and_intangibles": 3597000000.0,
    "retained_earnings": 7454000000.0,
    "total_debt": 4140000000.0,
-   "shares_out": 234122211.0
+   "shares_out": 234122211.0,
+   "unusual_items": -147000000.0,
+   "normalized_ebitda": 1683000000.0,
+   "normalized_income": 751603504.928806
   },
   {
    "fy_end": "2023-12-31",
@@ -239,7 +284,10 @@
    "goodwill_and_intangibles": 3577000000.0,
    "retained_earnings": 6152000000.0,
    "total_debt": 3707000000.0,
-   "shares_out": 229783795.0
+   "shares_out": 229783795.0,
+   "unusual_items": -249000000.0,
+   "normalized_ebitda": 1895000000.0,
+   "normalized_income": 808385469.223007
   },
   {
    "fy_end": "2024-12-31",
@@ -273,7 +321,10 @@
    "goodwill_and_intangibles": 2831000000.0,
    "retained_earnings": 6412000000.0,
    "total_debt": 3763000000.0,
-   "shares_out": 218669874.0
+   "shares_out": 218669874.0,
+   "unusual_items": -748000000.0,
+   "normalized_ebitda": 2044000000.0,
+   "normalized_income": 957920000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -307,7 +358,10 @@
    "goodwill_and_intangibles": 2449000000.0,
    "retained_earnings": 6570000000.0,
    "total_debt": 3894000000.0,
-   "shares_out": 207057271.0
+   "shares_out": 207057271.0,
+   "unusual_items": -784000000.0,
+   "normalized_ebitda": 2126000000.0,
+   "normalized_income": 778760000.0
   }
  ]
 }

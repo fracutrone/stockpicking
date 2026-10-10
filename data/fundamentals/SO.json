@@ -1,6 +1,6 @@
 {
  "ticker": "SO",
- "fetched_at": "2026-10-10T12:58:28+00:00",
+ "fetched_at": "2026-10-10T15:56:03+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 29502,
   "website": "https://www.southerncompany.com",
-  "longBusinessSummary": "The Southern Company, through its subsidiaries, engages in the sale of electricity. The company offers electric service to retail customers and wholesale customers; and energy-related products and services to natural gas choice markets. It also develops, constructs, acquires, owns, operates, and manages power generation assets, as well as battery energy storage projects; sells electricity at market-based rates in the wholesale market; and deploys microgrids for commercial, industrial, governmental, and utility customers. In addition, the company is involved in the distribution of natural gas in Illinois, Georgia, Virginia, and Tennessee; distributes energy and resilience solutions; and invests in telecommunications. The Southern Company was incorporated in 1945 and is headquartered in Atlanta, Georgia."
+  "longBusinessSummary": "The Southern Company, through its subsidiaries, engages in the sale of electricity. The company offers electric service to retail customers and wholesale customers; and energy-related products and services to natural gas choice markets. It also develops, constructs, acquires, owns, operates, and manages power generation assets, as well as battery energy storage projects; sells electricity at market-based rates in the wholesale market; and deploys microgrids for commercial, industrial, governmental, and utility customers. In addition, the company is involved in the distribution of natural gas in Illinois, Georgia, Virginia, and Tennessee; distributes energy and resilience solutions; and invests in telecommunications. The Southern Company was incorporated in 1945 and is headquartered in Atlanta, Georgia.",
+  "targetMeanPrice": 98.13158,
+  "targetLowPrice": 79.0,
+  "targetHighPrice": 112.0,
+  "numberOfAnalystOpinions": 19,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.6087,
+  "forwardPE": 17.502808,
+  "forwardEps": 4.92321,
+  "trailingEps": 4.15,
+  "earningsGrowth": 0.304,
+  "revenueGrowth": 0.001
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 155720000000.0,
+    "official": 155720000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 36016000000.0,
+    "official": 36016000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 4341000000.0,
+    "official": 4341000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 29553000000.0,
+    "official": 29553000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:56:03+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -186,7 +228,10 @@
    "goodwill_and_intangibles": 5567000000.0,
    "retained_earnings": 11538000000.0,
    "total_debt": 53265000000.0,
-   "shares_out": 1099000000.0
+   "shares_out": 1099000000.0,
+   "unusual_items": 224000000.0,
+   "normalized_ebitda": 10085000000.0,
+   "normalized_income": 3353112000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -219,7 +264,10 @@
    "goodwill_and_intangibles": 5529000000.0,
    "retained_earnings": 12482000000.0,
    "total_debt": 59524000000.0,
-   "shares_out": 1090814507.0
+   "shares_out": 1090814507.0,
+   "unusual_items": 268000000.0,
+   "normalized_ebitda": 11509000000.0,
+   "normalized_income": 3738552000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -252,7 +300,10 @@
    "goodwill_and_intangibles": 5493000000.0,
    "retained_earnings": 13750000000.0,
    "total_debt": 60106000000.0,
-   "shares_out": 1099000000.0
+   "shares_out": 1099000000.0,
+   "unusual_items": 235000000.0,
+   "normalized_ebitda": 13003000000.0,
+   "normalized_income": 4209475000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -285,7 +336,10 @@
    "goodwill_and_intangibles": 5461000000.0,
    "retained_earnings": 14856000000.0,
    "total_debt": 66371000000.0,
-   "shares_out": 1119237015.0
+   "shares_out": 1119237015.0,
+   "unusual_items": 340000000.0,
+   "normalized_ebitda": 13927000000.0,
+   "normalized_income": 4057440000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "FR",
- "fetched_at": "2026-10-10T12:46:07+00:00",
+ "fetched_at": "2026-10-10T15:44:25+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 151,
   "website": "https://www.firstindustrial.com",
-  "longBusinessSummary": "First Industrial Realty Trust, Inc. is a leading U.S.-only owner, operator, developer and acquirer of logistics properties. Through our fully integrated operating and investing platform, we provide high quality facilities and industry-leading customer service to multinational corporations and regional firms that are essential for their supply chains. In total, we own and have under development approximately 72.1 million square feet of industrial space concentrated in 15 target MSAs as of June 30, 2026. First Industrial Realty Trust, Inc. was established on August 10, 1993 and is based in Chicago, United States."
+  "longBusinessSummary": "First Industrial Realty Trust, Inc. is a leading U.S.-only owner, operator, developer and acquirer of logistics properties. Through our fully integrated operating and investing platform, we provide high quality facilities and industry-leading customer service to multinational corporations and regional firms that are essential for their supply chains. In total, we own and have under development approximately 72.1 million square feet of industrial space concentrated in 15 target MSAs as of June 30, 2026. First Industrial Realty Trust, Inc. was established on August 10, 1993 and is based in Chicago, United States.",
+  "targetMeanPrice": 71.875,
+  "targetLowPrice": 66.0,
+  "targetHighPrice": 86.0,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": 31.52434,
+  "forwardEps": 1.88521,
+  "trailingEps": 2.75,
+  "earningsGrowth": 0.393,
+  "revenueGrowth": 0.084
  },
  "governance": {
   "ceo": {
@@ -80,9 +91,40 @@
   "retained_earnings": "sec",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "tax": "sec",
   "intangibles": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 5688081000.0,
+    "official": 5688081000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2671390000.0,
+    "official": 2671390000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 247443000.0,
+    "official": 247443000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 727076000.0,
+    "official": 727076000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:44:25+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -158,7 +200,10 @@
    "intangibles": 24090000.0,
    "retained_earnings": 23131000.0,
    "total_debt": 2088567000.0,
-   "shares_out": 132141503.0
+   "shares_out": 132141503.0,
+   "unusual_items": 128268000.0,
+   "normalized_ebitda": 363100000.0,
+   "normalized_income": 241198359.710792
   },
   {
    "fy_end": "2023-12-31",
@@ -189,7 +234,10 @@
    "intangibles": 21518000.0,
    "retained_earnings": 127707000.0,
    "total_debt": 2246296000.0,
-   "shares_out": 132289039.0
+   "shares_out": 132289039.0,
+   "unusual_items": 95650000.0,
+   "normalized_ebitda": 405522000.0,
+   "normalized_income": 182335348.358125
   },
   {
    "fy_end": "2024-12-31",
@@ -220,7 +268,10 @@
    "intangibles": 19311000.0,
    "retained_earnings": 219095000.0,
    "total_debt": 2226911000.0,
-   "shares_out": 132349119.0
+   "shares_out": 132349119.0,
+   "unusual_items": 111970000.0,
+   "normalized_ebitda": 445064000.0,
+   "normalized_income": 177868388.349319
   },
   {
    "fy_end": "2025-12-31",
@@ -251,7 +302,10 @@
    "intangibles": 32083000.0,
    "retained_earnings": 230668000.0,
    "total_debt": 2572846000.0,
-   "shares_out": 132470326.0
+   "shares_out": 132470326.0,
+   "unusual_items": 26905000.0,
+   "normalized_ebitda": 497757000.0,
+   "normalized_income": 222218325.511255
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "SAIC",
- "fetched_at": "2026-10-10T12:57:29+00:00",
+ "fetched_at": "2026-10-10T15:55:10+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 23000,
   "website": "https://www.saic.com",
-  "longBusinessSummary": "Science Applications International Corporation provides technical, engineering, and mission and enterprise information technology (IT) services in the United States. It operates through two segments, Defense and Intelligence; and Civilian. The company offers IT modernization services for defense, intelligence, and civilian agencies; digital engineering services; artificial intelligence (AI) solutions; mission systems support and advisory; training and simulation; and ground vehicle support services for the nation's armed forces. It also provides services for the design, development, integration, deployment, management and operations, sustainability, and security of IT infrastructure; mission IT solutions comprising CJADC2, data and AI, digital transformation, and quantum technologies; enterprise IT solutions consisting of service management, cloud, cybersecurity, and digital workplace; engineering services, including system integration and delivery services; and professional services, such as program management. The company serves military forces, including the Army, Air Force, Navy, Marines, Coast Guard, and Space Force; agencies of the Department of War, National Aeronautics and Space Administration, U.S. Department of State, Department of Justice, and Department of Homeland Security; and members of the Intelligence Community, as well as civilian markets, such as federal, state, and local governments. The company was formerly known as SAIC Gemini, Inc. and changed its name to Science Applications International Corporation in September 2013. Science Applications International Corporation was founded in 1969 and is headquartered in Reston, Virginia."
+  "longBusinessSummary": "Science Applications International Corporation provides technical, engineering, and mission and enterprise information technology (IT) services in the United States. It operates through two segments, Defense and Intelligence; and Civilian. The company offers IT modernization services for defense, intelligence, and civilian agencies; digital engineering services; artificial intelligence (AI) solutions; mission systems support and advisory; training and simulation; and ground vehicle support services for the nation's armed forces. It also provides services for the design, development, integration, deployment, management and operations, sustainability, and security of IT infrastructure; mission IT solutions comprising CJADC2, data and AI, digital transformation, and quantum technologies; enterprise IT solutions consisting of service management, cloud, cybersecurity, and digital workplace; engineering services, including system integration and delivery services; and professional services, such as program management. The company serves military forces, including the Army, Air Force, Navy, Marines, Coast Guard, and Space Force; agencies of the Department of War, National Aeronautics and Space Administration, U.S. Department of State, Department of Justice, and Department of Homeland Security; and members of the Intelligence Community, as well as civilian markets, such as federal, state, and local governments. The company was formerly known as SAIC Gemini, Inc. and changed its name to Science Applications International Corporation in September 2013. Science Applications International Corporation was founded in 1969 and is headquartered in Reston, Virginia.",
+  "targetMeanPrice": 132.7,
+  "targetLowPrice": 103.0,
+  "targetHighPrice": 154.0,
+  "numberOfAnalystOpinions": 10,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.81818,
+  "forwardPE": 11.725522,
+  "forwardEps": 11.48435,
+  "trailingEps": 8.57,
+  "earningsGrowth": -0.122,
+  "revenueGrowth": 0.063
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-01-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 5354000000.0,
+    "official": 5354000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1500000000.0,
+    "official": 1500000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 358000000.0,
+    "official": 358000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 7262000000.0,
+    "official": 7262000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:55:10+00:00",
  "years": [
   {
    "fy_end": "2020-01-31",
@@ -197,7 +239,10 @@
    "goodwill_and_intangibles": 3920000000.0,
    "retained_earnings": 1035000000.0,
    "total_debt": 2374000000.0,
-   "shares_out": 54000000.0
+   "shares_out": 54000000.0,
+   "unusual_items": -13000000.0,
+   "normalized_ebitda": 663000000.0,
+   "normalized_income": 310491000.0
   },
   {
    "fy_end": "2024-02-02",
@@ -231,7 +276,10 @@
    "goodwill_and_intangibles": 3745000000.0,
    "retained_earnings": 1432000000.0,
    "total_debt": 2099000000.0,
-   "shares_out": 52000000.0
+   "shares_out": 52000000.0,
+   "unusual_items": 240000000.0,
+   "normalized_ebitda": 642000000.0,
+   "normalized_income": 292354838.709677
   },
   {
    "fy_end": "2025-01-31",
@@ -264,7 +312,10 @@
    "goodwill_and_intangibles": 3630000000.0,
    "retained_earnings": 1565000000.0,
    "total_debt": 2220000000.0,
-   "shares_out": 48000000.0
+   "shares_out": 48000000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 694000000.0,
+   "normalized_income": 362000000.0
   },
   {
    "fy_end": "2026-01-30",
@@ -297,7 +348,10 @@
    "goodwill_and_intangibles": 3705000000.0,
    "retained_earnings": 1492000000.0,
    "total_debt": 2487000000.0,
-   "shares_out": 44000000.0
+   "shares_out": 44000000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 664000000.0,
+   "normalized_income": 358000000.0
   }
  ]
 }

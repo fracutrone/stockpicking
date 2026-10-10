@@ -1,6 +1,6 @@
 {
  "ticker": "SLR.MC",
- "fetched_at": "2026-10-10T12:19:31+00:00",
+ "fetched_at": "2026-10-10T15:20:34+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "MCE",
   "fullTimeEmployees": 182,
   "website": "https://www.solariaenergia.com",
-  "longBusinessSummary": "Solaria Energía y Medio Ambiente, S.A., together with its subsidiaries, generates solar photovoltaic energy. It owns, manages, and operates a pipeline of approximately 14,200 MW of photovoltaic plants in Spain, Italy, Portugal, Uruguay, and Greece. The company was incorporated in 2002 and is based in Madrid, Spain."
+  "longBusinessSummary": "Solaria Energía y Medio Ambiente, S.A., together with its subsidiaries, generates solar photovoltaic energy. It owns, manages, and operates a pipeline of approximately 14,200 MW of photovoltaic plants in Spain, Italy, Portugal, Uruguay, and Greece. The company was incorporated in 2002 and is based in Madrid, Spain.",
+  "targetMeanPrice": 22.39333,
+  "targetLowPrice": 14.0,
+  "targetHighPrice": 28.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.125,
+  "forwardPE": 9.471956,
+  "forwardEps": 1.69342,
+  "trailingEps": 1.87,
+  "earningsGrowth": 0.444,
+  "revenueGrowth": 0.388
  },
  "governance": {
   "ceo": {
@@ -68,8 +79,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF ES",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 1968642000.0,
+    "official": 1968642000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 613886000.0,
+    "official": 617836000.0,
+    "diff": 0.006393
+   },
+   "net_income": {
+    "yahoo": 88614000.0,
+    "official": 88614000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 176906000.0,
+    "official": 176906000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T15:20:34+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -101,7 +144,9 @@
    "goodwill_and_intangibles": 103970000.0,
    "retained_earnings": 14160000.0,
    "total_debt": 881551000.0,
-   "shares_out": 124950876.0
+   "shares_out": 124950876.0,
+   "normalized_ebitda": 147433000.0,
+   "normalized_income": 90048000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -133,7 +178,9 @@
    "goodwill_and_intangibles": 110507000.0,
    "retained_earnings": 107514000.0,
    "total_debt": 1060051000.0,
-   "shares_out": 124950876.0
+   "shares_out": 124950876.0,
+   "normalized_ebitda": 201316000.0,
+   "normalized_income": 107514000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -165,7 +212,10 @@
    "goodwill_and_intangibles": 144439000.0,
    "retained_earnings": 88614000.0,
    "total_debt": 1147432000.0,
-   "shares_out": 124950876.0
+   "shares_out": 124950876.0,
+   "unusual_items": 28900000.0,
+   "normalized_ebitda": 172995000.0,
+   "normalized_income": 67298196.332704
   },
   {
    "fy_end": "2025-12-31",
@@ -197,7 +247,9 @@
    "goodwill_and_intangibles": 186905000.0,
    "retained_earnings": 137390000.0,
    "total_debt": 1508758000.0,
-   "shares_out": 124950876.0
+   "shares_out": 124950876.0,
+   "normalized_ebitda": 266732000.0,
+   "normalized_income": 137390000.0
   }
  ]
 }

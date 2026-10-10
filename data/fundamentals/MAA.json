@@ -1,6 +1,6 @@
 {
  "ticker": "MAA",
- "fetched_at": "2026-10-10T12:51:04+00:00",
+ "fetched_at": "2026-10-10T15:49:18+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 2507,
   "website": "https://www.maac.com",
-  "longBusinessSummary": "Mid-America Apartment Communities, Inc. an S&P 500 company, is a real estate investment trust (REIT) focused on delivering full-cycle and superior investment performance for shareholders through the ownership, management, acquisition, development and redevelopment of quality apartment communities primarily in the Southeast, Southwest and Mid-Atlantic regions of the United States. As of June 30, 2026, MAA had ownership interest in 104,698 apartment units, including communities in development, across 16 states and the District of Columbia. Mid-America Apartment Communities, Inc. was incorporated in 1977 in Tennessee and is based in Germantown, Tennessee."
+  "longBusinessSummary": "Mid-America Apartment Communities, Inc. an S&P 500 company, is a real estate investment trust (REIT) focused on delivering full-cycle and superior investment performance for shareholders through the ownership, management, acquisition, development and redevelopment of quality apartment communities primarily in the Southeast, Southwest and Mid-Atlantic regions of the United States. As of June 30, 2026, MAA had ownership interest in 104,698 apartment units, including communities in development, across 16 states and the District of Columbia. Mid-America Apartment Communities, Inc. was incorporated in 1977 in Tennessee and is based in Germantown, Tennessee.",
+  "targetMeanPrice": 141.4,
+  "targetLowPrice": 121.0,
+  "targetHighPrice": 160.0,
+  "numberOfAnalystOpinions": 25,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.53846,
+  "forwardPE": 35.63272,
+  "forwardEps": 3.27957,
+  "trailingEps": 3.42,
+  "earningsGrowth": 0.137,
+  "revenueGrowth": 0.01
  },
  "governance": {
   "ceo": {
@@ -81,8 +92,39 @@
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "goodwill": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 11975383000.0,
+    "official": 11975383000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 5683253000.0,
+    "official": 5662851000.0,
+    "diff": 0.003603
+   },
+   "net_income": {
+    "yahoo": 446909000.0,
+    "official": 446909000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2209126000.0,
+    "official": 2209126000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:49:18+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -157,7 +199,10 @@
    "equity": 6005089000.0,
    "retained_earnings": -1188854000.0,
    "total_debt": 4443574000.0,
-   "shares_out": 115480336.0
+   "shares_out": 115480336.0,
+   "unusual_items": 215571000.0,
+   "normalized_ebitda": 1130169000.0,
+   "normalized_income": 477503875.1
   },
   {
    "fy_end": "2023-12-31",
@@ -185,7 +230,10 @@
    "equity": 6094071000.0,
    "retained_earnings": -1298263000.0,
    "total_debt": 4567569000.0,
-   "shares_out": 116694124.0
+   "shares_out": 116694124.0,
+   "unusual_items": -8000.0,
+   "normalized_ebitda": 1285944000.0,
+   "normalized_income": 552813933.516103
   },
   {
    "fy_end": "2024-12-31",
@@ -213,7 +261,10 @@
    "equity": 5942131000.0,
    "retained_earnings": -1469557000.0,
    "total_debt": 5007048000.0,
-   "shares_out": 116883421.0
+   "shares_out": 116883421.0,
+   "unusual_items": 55003000.0,
+   "normalized_ebitda": 1244808000.0,
+   "normalized_income": 473068967.212062
   },
   {
    "fy_end": "2025-12-31",
@@ -241,7 +292,10 @@
    "equity": 5662851000.0,
    "retained_earnings": -1734986000.0,
    "total_debt": 5429651000.0,
-   "shares_out": 116878077.0
+   "shares_out": 116878077.0,
+   "unusual_items": 72066000.0,
+   "normalized_ebitda": 1195246000.0,
+   "normalized_income": 375564309.885294
   }
  ]
 }

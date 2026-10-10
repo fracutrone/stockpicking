@@ -1,6 +1,6 @@
 {
  "ticker": "ADBE",
- "fetched_at": "2026-10-10T12:36:21+00:00",
+ "fetched_at": "2026-10-10T15:33:28+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 31360,
   "website": "https://www.adobe.com",
-  "longBusinessSummary": "Adobe Inc. operates as a technology company worldwide. The Digital Media segment offers products and services that enable individuals, teams, and enterprises to create, publish, and promote content. This segment serves photographers, video editors, graphic and experience designers, game developers, content creators, students, marketers, business owners, knowledge workers, and consumers. The Digital Experience segment provides an integrated platform; and products, services, and solutions that enable brands and businesses to create, manage, execute, measure, monetize, and optimize customer experiences from analytics to commerce. This segment serves marketers, advertisers, agencies, publishers, merchandisers, merchants, web analysts, data scientists, developers, and executives across the C-suite. The Publishing and Advertising segment offers e-learning, technical document publishing, web conferencing, document and forms platform, web application development, printing, and Adobe Advertising solutions. It also provides consulting, training, customer management, technical support, and learning services. The company offers its solutions to enterprise customers, and businesses and consumers; and licenses its products to end-user customers through app stores and website at adobe.com. It markets and distributes its products through distributors, retailers, software developers, mobile app stores, systems integrators, independent software vendors, value-added resellers, and original equipment and hardware manufacturers. The company also provides an online visibility management and content marketing software-as-a-service platform. The company has a strategic alliance with HUMAIN for the development of generative AI models and AI-powered applications. The company was formerly known as Adobe Systems Incorporated and changed its name to Adobe Inc. in October 2018. Adobe Inc. was founded in 1982 and is headquartered in San Jose, California."
+  "longBusinessSummary": "Adobe Inc. operates as a technology company worldwide. The Digital Media segment offers products and services that enable individuals, teams, and enterprises to create, publish, and promote content. This segment serves photographers, video editors, graphic and experience designers, game developers, content creators, students, marketers, business owners, knowledge workers, and consumers. The Digital Experience segment provides an integrated platform; and products, services, and solutions that enable brands and businesses to create, manage, execute, measure, monetize, and optimize customer experiences from analytics to commerce. This segment serves marketers, advertisers, agencies, publishers, merchandisers, merchants, web analysts, data scientists, developers, and executives across the C-suite. The Publishing and Advertising segment offers e-learning, technical document publishing, web conferencing, document and forms platform, web application development, printing, and Adobe Advertising solutions. It also provides consulting, training, customer management, technical support, and learning services. The company offers its solutions to enterprise customers, and businesses and consumers; and licenses its products to end-user customers through app stores and website at adobe.com. It markets and distributes its products through distributors, retailers, software developers, mobile app stores, systems integrators, independent software vendors, value-added resellers, and original equipment and hardware manufacturers. The company also provides an online visibility management and content marketing software-as-a-service platform. The company has a strategic alliance with HUMAIN for the development of generative AI models and AI-powered applications. The company was formerly known as Adobe Systems Incorporated and changed its name to Adobe Inc. in October 2018. Adobe Inc. was founded in 1982 and is headquartered in San Jose, California.",
+  "targetMeanPrice": 275.06375,
+  "targetLowPrice": 195.0,
+  "targetHighPrice": 373.0,
+  "numberOfAnalystOpinions": 32,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.76923,
+  "forwardPE": 8.754654,
+  "forwardEps": 27.67328,
+  "trailingEps": 17.91,
+  "earningsGrowth": 0.105,
+  "revenueGrowth": 0.129
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-11-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 29496000000.0,
+    "official": 29496000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 11623000000.0,
+    "official": 11623000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 7130000000.0,
+    "official": 7130000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 23769000000.0,
+    "official": 23769000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:33:28+00:00",
  "years": [
   {
    "fy_end": "2019-11-29",
@@ -203,7 +245,10 @@
    "goodwill_and_intangibles": 14236000000.0,
    "retained_earnings": 28319000000.0,
    "total_debt": 3629000000.0,
-   "shares_out": 462000000.0
+   "shares_out": 462000000.0,
+   "unusual_items": -40000000.0,
+   "normalized_ebitda": 7016000000.0,
+   "normalized_income": 4787600000.0
   },
   {
    "fy_end": "2023-12-01",
@@ -237,7 +282,10 @@
    "goodwill_and_intangibles": 13893000000.0,
    "retained_earnings": 33346000000.0,
    "total_debt": 3634000000.0,
-   "shares_out": 455000000.0
+   "shares_out": 455000000.0,
+   "unusual_items": -8000000.0,
+   "normalized_ebitda": 7792000000.0,
+   "normalized_income": 5434400000.0
   },
   {
    "fy_end": "2024-11-29",
@@ -271,7 +319,10 @@
    "goodwill_and_intangibles": 13570000000.0,
    "retained_earnings": 38470000000.0,
    "total_debt": 4129000000.0,
-   "shares_out": 441000000.0
+   "shares_out": 441000000.0,
+   "unusual_items": -982000000.0,
+   "normalized_ebitda": 8939000000.0,
+   "normalized_income": 6345600000.0
   },
   {
    "fy_end": "2025-11-28",
@@ -305,7 +356,10 @@
    "goodwill_and_intangibles": 13352000000.0,
    "retained_earnings": 45354000000.0,
    "total_debt": 6210000000.0,
-   "shares_out": 413000000.0
+   "shares_out": 413000000.0,
+   "unusual_items": 27000000.0,
+   "normalized_ebitda": 9788000000.0,
+   "normalized_income": 7107860000.0
   }
  ]
 }

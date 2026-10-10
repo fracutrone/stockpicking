@@ -1,6 +1,6 @@
 {
  "ticker": "EDPR.LS",
- "fetched_at": "2026-10-10T11:55:21+00:00",
+ "fetched_at": "2026-10-10T14:44:24+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LIS",
   "fullTimeEmployees": 2481,
   "website": "https://www.edpr-investors.com",
-  "longBusinessSummary": "EDP Renewables, S.A. engages in the renewable energy business in Europe, North America, South America, and the Asia Pacific. The company is involved in the planning, construction, operation, and maintenance of power generation plants using renewable energy sources, including wind and solar power. It operates in Spain, Portugal, Belgium, France, Italy, Germany, the Netherlands, Poland, Romania, the United Kingdom, Hungary, Greece, the United States, Canada, Mexico, Brazil, Chile, South Korea, Singapore, Vietnam, Thailand, China, Taiwan, Australia, and Japan. EDP Renewables, S.A. was formerly known as EDP Renováveis, S.A. and changed its name to EDP Renewables, S.A. in April 2026. The company was incorporated in 2007 and is headquartered in Madrid, Spain. EDP Renewables, S.A. operates as a subsidiary of EDP, S.A."
+  "longBusinessSummary": "EDP Renewables, S.A. engages in the renewable energy business in Europe, North America, South America, and the Asia Pacific. The company is involved in the planning, construction, operation, and maintenance of power generation plants using renewable energy sources, including wind and solar power. It operates in Spain, Portugal, Belgium, France, Italy, Germany, the Netherlands, Poland, Romania, the United Kingdom, Hungary, Greece, the United States, Canada, Mexico, Brazil, Chile, South Korea, Singapore, Vietnam, Thailand, China, Taiwan, Australia, and Japan. EDP Renewables, S.A. was formerly known as EDP Renováveis, S.A. and changed its name to EDP Renewables, S.A. in April 2026. The company was incorporated in 2007 and is headquartered in Madrid, Spain. EDP Renewables, S.A. operates as a subsidiary of EDP, S.A.",
+  "targetMeanPrice": 14.89783,
+  "targetLowPrice": 10.0,
+  "targetHighPrice": 18.0,
+  "numberOfAnalystOpinions": 23,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.04348,
+  "forwardPE": 25.187061,
+  "forwardEps": 0.48914,
+  "trailingEps": 0.34,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "ceo": {
@@ -74,8 +85,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF PT",
+  "fy_end": "2022-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 27453017000.0,
+    "official": 900970000.0,
+    "diff": 29.470512
+   },
+   "equity": {
+    "yahoo": 9025531000.0,
+    "official": 186649000.0,
+    "diff": 47.355635
+   },
+   "net_income": {
+    "yahoo": 616231000.0,
+    "official": 34528000.0,
+    "diff": 16.847283
+   },
+   "revenue": {
+    "yahoo": 2378392000.0,
+    "official": 630046000.0,
+    "diff": 2.77495
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2022-12-31"
+ },
+ "info_at": "2026-10-10T14:44:24+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -106,7 +149,10 @@
    "goodwill_and_intangibles": 2670758000.0,
    "retained_earnings": 3519977000.0,
    "total_debt": 7300078000.0,
-   "shares_out": 988815851.0
+   "shares_out": 988815851.0,
+   "unusual_items": 471625000.0,
+   "normalized_ebitda": 1652928000.0,
+   "normalized_income": 217387175.0
   },
   {
    "fy_end": "2023-12-31",
@@ -137,7 +183,10 @@
    "goodwill_and_intangibles": 2615473000.0,
    "retained_earnings": 3822798000.0,
    "total_debt": 8333442000.0,
-   "shares_out": 1040231721.0
+   "shares_out": 1040231721.0,
+   "unusual_items": 180070000.0,
+   "normalized_ebitda": 1434239000.0,
+   "normalized_income": 163644507.051989
   },
   {
    "fy_end": "2024-12-31",
@@ -169,7 +218,10 @@
    "goodwill_and_intangibles": 2631511000.0,
    "retained_earnings": 3151354000.0,
    "total_debt": 10564313000.0,
-   "shares_out": 1039855871.0
+   "shares_out": 1039855871.0,
+   "unusual_items": -408799000.0,
+   "normalized_ebitda": 1159516000.0,
+   "normalized_income": -246714750.0
   },
   {
    "fy_end": "2025-12-31",
@@ -200,7 +252,10 @@
    "goodwill_and_intangibles": 2469776000.0,
    "retained_earnings": 3323354000.0,
    "total_debt": 10282105000.0,
-   "shares_out": 1051033116.0
+   "shares_out": 1051033116.0,
+   "unusual_items": 10111000.0,
+   "normalized_ebitda": 1791512000.0,
+   "normalized_income": 211878639.1
   }
  ]
 }

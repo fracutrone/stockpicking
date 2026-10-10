@@ -1,6 +1,6 @@
 {
  "ticker": "SWK",
- "fetched_at": "2026-10-10T12:59:07+00:00",
+ "fetched_at": "2026-10-10T15:56:51+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 41000,
   "website": "https://www.stanleyblackanddecker.com",
-  "longBusinessSummary": "Stanley Black & Decker, Inc. provides hand tools, power tools, outdoor products, and related accessories in the United States, Canada, Other Americas, Europe, and Asia. Its Tools & Outdoor segment offers professional grade corded and cordless electric power tools and equipment, including drills, impact wrenches and drivers, grinders, saws, routers, concrete prep and placement tools, and sanders; pneumatic tools and fasteners; corded and cordless electric power tools; household power tools, hand-held vacuums, and small appliances; leveling and layout tools, planes, hammers, demolition tools, clamps, vises, knives, saws, chisels, and industrial and automotive tools; drill, screwdriver, router bits, abrasives, saw blades, and threading products; tool boxes, sawhorses, medical cabinets, and engineered storage solutions; and electric and gas-powered lawn and garden products. This segment sells its products under the DEWALT, CRAFTSMAN, CUB CADET, STANLEY, BLACK+DECKER, and HUSTLER brands through retailers, third-party distributors, independent dealers, and a direct sales force. Its Industrial segment provides threaded fasteners, blind rivets and tools, blind inserts and tools, drawn arc weld studs and systems, engineered plastic and mechanical fasteners, self-piercing riveting systems, precision nut running systems, micro fasteners, high-strength structural fasteners, axel swage, latches, heat shields, pins, couplings, fitting, and other engineered products. This segment sells its products through direct sales force and third-party distributors to the automotive, manufacturing, electronics, construction, aerospace, and other industries. Stanley Black & Decker, Inc. has a strategic partnership with I4F Licensing Nv. The company was formerly known as The Stanley Works and changed its name to Stanley Black & Decker, Inc. in March 2010. The company was founded in 1843 and is headquartered in New Britain, Connecticut."
+  "longBusinessSummary": "Stanley Black & Decker, Inc. provides hand tools, power tools, outdoor products, and related accessories in the United States, Canada, Other Americas, Europe, and Asia. Its Tools & Outdoor segment offers professional grade corded and cordless electric power tools and equipment, including drills, impact wrenches and drivers, grinders, saws, routers, concrete prep and placement tools, and sanders; pneumatic tools and fasteners; corded and cordless electric power tools; household power tools, hand-held vacuums, and small appliances; leveling and layout tools, planes, hammers, demolition tools, clamps, vises, knives, saws, chisels, and industrial and automotive tools; drill, screwdriver, router bits, abrasives, saw blades, and threading products; tool boxes, sawhorses, medical cabinets, and engineered storage solutions; and electric and gas-powered lawn and garden products. This segment sells its products under the DEWALT, CRAFTSMAN, CUB CADET, STANLEY, BLACK+DECKER, and HUSTLER brands through retailers, third-party distributors, independent dealers, and a direct sales force. Its Industrial segment provides threaded fasteners, blind rivets and tools, blind inserts and tools, drawn arc weld studs and systems, engineered plastic and mechanical fasteners, self-piercing riveting systems, precision nut running systems, micro fasteners, high-strength structural fasteners, axel swage, latches, heat shields, pins, couplings, fitting, and other engineered products. This segment sells its products through direct sales force and third-party distributors to the automotive, manufacturing, electronics, construction, aerospace, and other industries. Stanley Black & Decker, Inc. has a strategic partnership with I4F Licensing Nv. The company was formerly known as The Stanley Works and changed its name to Stanley Black & Decker, Inc. in March 2010. The company was founded in 1843 and is headquartered in New Britain, Connecticut.",
+  "targetMeanPrice": 101.09091,
+  "targetLowPrice": 93.0,
+  "targetHighPrice": 110.0,
+  "numberOfAnalystOpinions": 11,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.46667,
+  "forwardPE": 13.951767,
+  "forwardEps": 6.3483,
+  "trailingEps": 4.09,
+  "earningsGrowth": 2.478,
+  "revenueGrowth": 0.004
  },
  "governance": {
   "top_institutions": [
@@ -77,8 +88,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 21243700000.0,
+    "official": 21243700000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 9054600000.0,
+    "official": 9054600000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 401900000.0,
+    "official": 401900000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 15130400000.0,
+    "official": 15130400000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:56:51+00:00",
  "years": [
   {
    "fy_end": "2019-12-28",
@@ -184,7 +226,10 @@
    "goodwill_and_intangibles": 12977500000.0,
    "retained_earnings": 9333300000.0,
    "total_debt": 7457000000.0,
-   "shares_out": 152983530.0
+   "shares_out": 152983530.0,
+   "unusual_items": -317600000.0,
+   "normalized_ebitda": 1266200000.0,
+   "normalized_income": 421004000.0
   },
   {
    "fy_end": "2023-12-30",
@@ -218,7 +263,10 @@
    "goodwill_and_intangibles": 11945500000.0,
    "retained_earnings": 8540200000.0,
    "total_debt": 7176900000.0,
-   "shares_out": 153620088.0
+   "shares_out": 153620088.0,
+   "unusual_items": -325000000.0,
+   "normalized_ebitda": 1133800000.0,
+   "normalized_income": -38014878.892734
   },
   {
    "fy_end": "2024-12-28",
@@ -252,7 +300,10 @@
    "goodwill_and_intangibles": 11636900000.0,
    "retained_earnings": 8343300000.0,
    "total_debt": 6103000000.0,
-   "shares_out": 154372933.0
+   "shares_out": 154372933.0,
+   "unusual_items": -172300000.0,
+   "normalized_ebitda": 1501500000.0,
+   "normalized_income": 422417000.0
   },
   {
    "fy_end": "2026-01-03",
@@ -286,7 +337,10 @@
    "goodwill_and_intangibles": 10375100000.0,
    "retained_earnings": 8244600000.0,
    "total_debt": 5863700000.0,
-   "shares_out": 155036411.0
+   "shares_out": 155036411.0,
+   "unusual_items": -278900000.0,
+   "normalized_ebitda": 1725500000.0,
+   "normalized_income": 670201800.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "MOON.L",
- "fetched_at": "2026-10-10T12:09:10+00:00",
+ "fetched_at": "2026-10-10T15:05:46+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 676,
   "website": "https://www.moonpig.group",
-  "longBusinessSummary": "Moonpig Group PLC, together with its subsidiaries, operates as a data and technology platform for online greeting cards and gifting in the United Kingdom, the Netherlands, Ireland, Australia, and the United States. It operates through the Moonpig, Greetz, and Experiences segments. The company also engages in trading and holding activities, as well as provides management services. The company sells its products under the Moonpig, Buyagift, Red Letter Days, and Greetz brands through its website and app. Moonpig Group PLC was founded in 2000 and is headquartered in London, the United Kingdom."
+  "longBusinessSummary": "Moonpig Group PLC, together with its subsidiaries, operates as a data and technology platform for online greeting cards and gifting in the United Kingdom, the Netherlands, Ireland, Australia, and the United States. It operates through the Moonpig, Greetz, and Experiences segments. The company also engages in trading and holding activities, as well as provides management services. The company sells its products under the Moonpig, Buyagift, Red Letter Days, and Greetz brands through its website and app. Moonpig Group PLC was founded in 2000 and is headquartered in London, the United Kingdom.",
+  "targetMeanPrice": 304.81802,
+  "targetLowPrice": 278.0,
+  "targetHighPrice": 335.0,
+  "numberOfAnalystOpinions": 11,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.4,
+  "forwardPE": 12.836364,
+  "forwardEps": 0.22,
+  "trailingEps": 0.16,
+  "earningsGrowth": 0.233,
+  "revenueGrowth": 0.064
  },
  "governance": {
   "ceo": {
@@ -70,8 +81,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2026-04-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 177233000.0,
+    "official": 177233000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": -54221000.0,
+    "official": -54221000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 51718000.0,
+    "official": 51718000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 372973000.0,
+    "official": 372973000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2026-04-30"
+ },
+ "info_at": "2026-10-10T15:05:46+00:00",
  "years": [
   {
    "fy_end": "2023-04-30",
@@ -105,7 +148,9 @@
    "goodwill_and_intangibles": 210455000.0,
    "retained_earnings": 603849000.0,
    "total_debt": 190045000.0,
-   "shares_out": 342111621.0
+   "shares_out": 342111621.0,
+   "normalized_ebitda": 72031000.0,
+   "normalized_income": 26607000.0
   },
   {
    "fy_end": "2024-04-30",
@@ -139,7 +184,9 @@
    "goodwill_and_intangibles": 203591000.0,
    "retained_earnings": 642056000.0,
    "total_debt": 134694000.0,
-   "shares_out": 343310015.0
+   "shares_out": 343310015.0,
+   "normalized_ebitda": 91813000.0,
+   "normalized_income": 34169000.0
   },
   {
    "fy_end": "2025-04-30",
@@ -173,7 +220,10 @@
    "goodwill_and_intangibles": 137310000.0,
    "retained_earnings": 609589000.0,
    "total_debt": 108594000.0,
-   "shares_out": 333529665.0
+   "shares_out": 333529665.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 40777000.0,
+   "normalized_income": 88882100.0
   },
   {
    "fy_end": "2026-04-30",
@@ -207,7 +257,10 @@
    "goodwill_and_intangibles": 130511000.0,
    "retained_earnings": 590206000.0,
    "total_debt": 117189000.0,
-   "shares_out": 304047117.0
+   "shares_out": 304047117.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 104554000.0,
+   "normalized_income": 51718000.0
   }
  ]
 }

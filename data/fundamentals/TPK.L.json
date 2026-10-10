@@ -1,6 +1,6 @@
 {
  "ticker": "TPK.L",
- "fetched_at": "2026-10-10T12:22:37+00:00",
+ "fetched_at": "2026-10-10T15:25:36+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 17300,
   "website": "https://www.travisperkinsplc.co.uk",
-  "longBusinessSummary": "Travis Perkins plc engages in distribution of building material products in the United Kingdom. It operates through Merchanting and Toolstation segments. The company offers tools and building supplies. It also distributes pipeline, insulation, and interior building products; provides managed and hire services; designs and supplies kitchen offer under the Benchmarx; and commercial and industrial heating and cooling solutions. In addition, the company provides specialist civils and drainage solutions; and air-conditioning, refrigeration products, and heat pumps, as well as installation materials. Further, it provides kitchens and joinery products, as well as repair and maintenance management services for social housing landlords. The company markets its products under Travis Perkins, Toolstation, BSS, Keyline, CCF, and TF Solution brands. It sells its products through branches and distribution centres. Travis Perkins plc was founded in 1797 and is headquartered in Northampton, the United Kingdom."
+  "longBusinessSummary": "Travis Perkins plc engages in distribution of building material products in the United Kingdom. It operates through Merchanting and Toolstation segments. The company offers tools and building supplies. It also distributes pipeline, insulation, and interior building products; provides managed and hire services; designs and supplies kitchen offer under the Benchmarx; and commercial and industrial heating and cooling solutions. In addition, the company provides specialist civils and drainage solutions; and air-conditioning, refrigeration products, and heat pumps, as well as installation materials. Further, it provides kitchens and joinery products, as well as repair and maintenance management services for social housing landlords. The company markets its products under Travis Perkins, Toolstation, BSS, Keyline, CCF, and TF Solution brands. It sells its products through branches and distribution centres. Travis Perkins plc was founded in 1797 and is headquartered in Northampton, the United Kingdom.",
+  "targetMeanPrice": 672.56195,
+  "targetLowPrice": 453.00003,
+  "targetHighPrice": 825.0,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.5625,
+  "forwardPE": 14.143781,
+  "forwardEps": 0.38851,
+  "trailingEps": -0.82,
+  "earningsGrowth": 0.137,
+  "revenueGrowth": -0.018
  },
  "governance": {
   "ceo": {
@@ -76,8 +87,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3810800000.0,
+    "official": 3810800000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1776300000.0,
+    "official": 1776300000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -176300000.0,
+    "official": -176300000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 4564600000.0,
+    "official": 4564600000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:25:36+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -111,7 +154,10 @@
    "goodwill_and_intangibles": 974900000.0,
    "retained_earnings": 1213200000.0,
    "total_debt": 1054200000.0,
-   "shares_out": 209912650.0
+   "shares_out": 209912650.0,
+   "unusual_items": -900000.0,
+   "normalized_ebitda": 462700000.0,
+   "normalized_income": 192905600.0
   },
   {
    "fy_end": "2023-12-31",
@@ -145,7 +191,10 @@
    "goodwill_and_intangibles": 947800000.0,
    "retained_earnings": 1135000000.0,
    "total_debt": 1053500000.0,
-   "shares_out": 210840652.0
+   "shares_out": 210840652.0,
+   "unusual_items": -39200000.0,
+   "normalized_ebitda": 393200000.0,
+   "normalized_income": 118390400.0
   },
   {
    "fy_end": "2024-12-31",
@@ -179,7 +228,10 @@
    "goodwill_and_intangibles": 908200000.0,
    "retained_earnings": 1065900000.0,
    "total_debt": 1089600000.0,
-   "shares_out": 211317151.0
+   "shares_out": 211317151.0,
+   "unusual_items": -155000000.0,
+   "normalized_ebitda": 357700000.0,
+   "normalized_income": 75650000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -213,7 +265,10 @@
    "goodwill_and_intangibles": 786700000.0,
    "retained_earnings": 864000000.0,
    "total_debt": 1048000000.0,
-   "shares_out": 211840211.0
+   "shares_out": 211840211.0,
+   "unusual_items": -237900000.0,
+   "normalized_ebitda": 324200000.0,
+   "normalized_income": 2125000.0
   }
  ]
 }

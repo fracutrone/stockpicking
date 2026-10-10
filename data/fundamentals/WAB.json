@@ -1,6 +1,6 @@
 {
  "ticker": "WAB",
- "fetched_at": "2026-10-10T13:01:57+00:00",
+ "fetched_at": "2026-10-10T15:59:25+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 31000,
   "website": "https://www.wabteccorp.com",
-  "longBusinessSummary": "Westinghouse Air Brake Technologies Corporation provides locomotives, equipment, systems, and services for the freight rail and passenger transit industries worldwide. It operates in two segments, Freight and Transit. It offers diesel-electric and liquid natural gas-powered locomotives; engines, electric motors, and propulsion systems; and marine and mining products. The company also offers positive train control equipment; electronically controlled pneumatic braking products; railway electronics; signal design and engineering services; distributed locomotive power, and train cruise and remote controls; industrial/mobile Internet of Things hardware and software, edge-to-cloud, on and off-board analytics and rules, and asset performance management solutions; rail and shipper transportation management, and port visibility and optimization solutions; and network optimization solutions. In addition, it provides freight car trucks, braking equipment, and related components; air compressors and dryers, as well as heating, ventilation, and air conditioning (HVAC) systems; heat transfer components and systems; custom engineered burners and combustion systems; rail gear, signaling, and switch products; and turbochargers. Further, it offers freight locomotive overhauls, modernizations, and refurbishment; locomotive and car maintenance; transit locomotive and car overhaul; unit exchange of locomotive components; long-term parts arrangements; and way equipment maintenance services. Additionally, it provides railway and freight braking equipment and related components; brake shoes, discs, and pads; HVAC equipment; access and platform screen doors; pantographs; power converters and battery chargers; passenger information systems and closed-circuit television; signaling and railway electric relays; and doors, window assemblies, accessibility lifts, ramps, and electric charging solutions for buses. The company was founded in 1869 and is headquartered in Pittsburgh, Pennsylvania."
+  "longBusinessSummary": "Westinghouse Air Brake Technologies Corporation provides locomotives, equipment, systems, and services for the freight rail and passenger transit industries worldwide. It operates in two segments, Freight and Transit. It offers diesel-electric and liquid natural gas-powered locomotives; engines, electric motors, and propulsion systems; and marine and mining products. The company also offers positive train control equipment; electronically controlled pneumatic braking products; railway electronics; signal design and engineering services; distributed locomotive power, and train cruise and remote controls; industrial/mobile Internet of Things hardware and software, edge-to-cloud, on and off-board analytics and rules, and asset performance management solutions; rail and shipper transportation management, and port visibility and optimization solutions; and network optimization solutions. In addition, it provides freight car trucks, braking equipment, and related components; air compressors and dryers, as well as heating, ventilation, and air conditioning (HVAC) systems; heat transfer components and systems; custom engineered burners and combustion systems; rail gear, signaling, and switch products; and turbochargers. Further, it offers freight locomotive overhauls, modernizations, and refurbishment; locomotive and car maintenance; transit locomotive and car overhaul; unit exchange of locomotive components; long-term parts arrangements; and way equipment maintenance services. Additionally, it provides railway and freight braking equipment and related components; brake shoes, discs, and pads; HVAC equipment; access and platform screen doors; pantographs; power converters and battery chargers; passenger information systems and closed-circuit television; signaling and railway electric relays; and doors, window assemblies, accessibility lifts, ramps, and electric charging solutions for buses. The company was founded in 1869 and is headquartered in Pittsburgh, Pennsylvania.",
+  "targetMeanPrice": 330.0,
+  "targetLowPrice": 292.0,
+  "targetHighPrice": 355.0,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.41667,
+  "forwardPE": 22.862402,
+  "forwardEps": 12.48469,
+  "trailingEps": 7.44,
+  "earningsGrowth": 0.189,
+  "revenueGrowth": 0.175
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 22069000000.0,
+    "official": 22069000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 11142000000.0,
+    "official": 11142000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1170000000.0,
+    "official": 1170000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 11167000000.0,
+    "official": 11167000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:59:25+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -203,7 +245,10 @@
    "goodwill_and_intangibles": 11910000000.0,
    "retained_earnings": 4577000000.0,
    "total_debt": 4002000000.0,
-   "shares_out": 181200000.0
+   "shares_out": 181200000.0,
+   "unusual_items": 6000000.0,
+   "normalized_ebitda": 1460000000.0,
+   "normalized_income": 628500000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -237,7 +282,10 @@
    "goodwill_and_intangibles": 11985000000.0,
    "retained_earnings": 5269000000.0,
    "total_debt": 4069000000.0,
-   "shares_out": 177800000.0
+   "shares_out": 177800000.0,
+   "unusual_items": -20000000.0,
+   "normalized_ebitda": 1807000000.0,
+   "normalized_income": 830100000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -271,7 +319,10 @@
    "goodwill_and_intangibles": 11644000000.0,
    "retained_earnings": 6185000000.0,
    "total_debt": 3980000000.0,
-   "shares_out": 171300000.0
+   "shares_out": 171300000.0,
+   "unusual_items": -19000000.0,
+   "normalized_ebitda": 2089000000.0,
+   "normalized_income": 1070378014.184397
   },
   {
    "fy_end": "2025-12-31",
@@ -305,7 +356,10 @@
    "goodwill_and_intangibles": 14054000000.0,
    "retained_earnings": 3878000000.0,
    "total_debt": 5541000000.0,
-   "shares_out": 170600000.0
+   "shares_out": 170600000.0,
+   "unusual_items": 13000000.0,
+   "normalized_ebitda": 2261000000.0,
+   "normalized_income": 1160339824.120603
   }
  ]
 }

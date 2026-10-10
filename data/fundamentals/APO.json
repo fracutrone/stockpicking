@@ -1,6 +1,6 @@
 {
  "ticker": "APO",
- "fetched_at": "2026-10-10T12:37:48+00:00",
+ "fetched_at": "2026-10-10T15:34:47+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 6140,
   "website": "https://www.apollo.com/institutional/homepage",
-  "longBusinessSummary": "Apollo Global Management, Inc. is a private equity firm specializing in investments in credit, private equity, infrastructure, secondaries and real estate markets. The firm prefers to invest in private and public markets. The firm's private equity investments include traditional buyouts, recapitalization, distressed buyouts and debt investments in real estate, corporate partner buyouts, distressed asset, corporate carve-outs, middle market, growth capital, venture capital, turnaround, bridge, PIPES, corporate restructuring, special situation, acquisition, and industry consolidation transactions. For credit strategies, the firm focuses on investing in multi-sector credit, semi-liquid credit, direct lending, first lien, unitranche, whole loans and private credit. The firm provides its services to endowment and sovereign wealth funds, as well as other institutional and individual investors. It manages client focused portfolios. The firm launches and manages hedge funds for its clients. It also manages real estate funds and private equity funds for its clients. The firm invests in the fixed income and alternative investment markets across the globe. Its fixed income investments include income-oriented senior loans, bonds, collateralized loan obligations, structured credit, opportunistic credit, non-performing loans, distressed debt, mezzanine debt, and value oriented fixed income securities. The firm seeks to invest in chemicals, commodities, consumer and retail, oil and gas, metals, mining, agriculture, commodities, distribution and transportation, financial and business services, manufacturing and industrial, media distribution, cable, entertainment and leisure, telecom, technology, natural resources, energy, packaging and materials, and satellite and wireless industries. It also focuses on clean energy, sustainable industry, climate solutions, energy transition, industrial decarbonization, sustainable mobility, sustainable resource use, and sustainable real estate. It seeks to invest in companies based in across Africa, Asia, North America with a focus on United States, Western Europe and Europe. It employs a combination of contrarian, value, and distressed strategies to make its investments. The firm seeks to make investments in the range of $20 million and $1500 million. The firm seeks to invest in companies with enterprise value between $750 million to $2500 million and EBITDA up to $75 million. The firm conducts in-house research to create its investment portfolio. It seeks to acquire minority and majority positions in its portfolio companies. Apollo Global Management, Inc. was founded in 1990 and is based in New York, New York with additional offices in North America, Asia, Africa and Europe."
+  "longBusinessSummary": "Apollo Global Management, Inc. is a private equity firm specializing in investments in credit, private equity, infrastructure, secondaries and real estate markets. The firm prefers to invest in private and public markets. The firm's private equity investments include traditional buyouts, recapitalization, distressed buyouts and debt investments in real estate, corporate partner buyouts, distressed asset, corporate carve-outs, middle market, growth capital, venture capital, turnaround, bridge, PIPES, corporate restructuring, special situation, acquisition, and industry consolidation transactions. For credit strategies, the firm focuses on investing in multi-sector credit, semi-liquid credit, direct lending, first lien, unitranche, whole loans and private credit. The firm provides its services to endowment and sovereign wealth funds, as well as other institutional and individual investors. It manages client focused portfolios. The firm launches and manages hedge funds for its clients. It also manages real estate funds and private equity funds for its clients. The firm invests in the fixed income and alternative investment markets across the globe. Its fixed income investments include income-oriented senior loans, bonds, collateralized loan obligations, structured credit, opportunistic credit, non-performing loans, distressed debt, mezzanine debt, and value oriented fixed income securities. The firm seeks to invest in chemicals, commodities, consumer and retail, oil and gas, metals, mining, agriculture, commodities, distribution and transportation, financial and business services, manufacturing and industrial, media distribution, cable, entertainment and leisure, telecom, technology, natural resources, energy, packaging and materials, and satellite and wireless industries. It also focuses on clean energy, sustainable industry, climate solutions, energy transition, industrial decarbonization, sustainable mobility, sustainable resource use, and sustainable real estate. It seeks to invest in companies based in across Africa, Asia, North America with a focus on United States, Western Europe and Europe. It employs a combination of contrarian, value, and distressed strategies to make its investments. The firm seeks to make investments in the range of $20 million and $1500 million. The firm seeks to invest in companies with enterprise value between $750 million to $2500 million and EBITDA up to $75 million. The firm conducts in-house research to create its investment portfolio. It seeks to acquire minority and majority positions in its portfolio companies. Apollo Global Management, Inc. was founded in 1990 and is based in New York, New York with additional offices in North America, Asia, Africa and Europe.",
+  "targetMeanPrice": 151.45,
+  "targetLowPrice": 127.0,
+  "targetHighPrice": 173.0,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.77273,
+  "forwardPE": 11.093005,
+  "forwardEps": 10.69593,
+  "trailingEps": 2.79,
+  "earningsGrowth": 0.637,
+  "revenueGrowth": 0.638
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 460949000000.0,
+    "official": 460949000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 23341000000.0,
+    "official": 23341000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 3492000000.0,
+    "official": 3492000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 32049000000.0,
+    "official": 32049000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:34:47+00:00",
  "years": [
   {
    "fy_end": "2020-12-31",
@@ -153,7 +195,10 @@
    "goodwill_and_intangibles": 4322000000.0,
    "retained_earnings": -1007000000.0,
    "total_debt": 6472000000.0,
-   "shares_out": 570276188.0
+   "shares_out": 570276188.0,
+   "unusual_items": -186000000.0,
+   "normalized_ebitda": -3310000000.0,
+   "normalized_income": -1807364000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -184,7 +229,10 @@
    "goodwill_and_intangibles": 4329000000.0,
    "retained_earnings": 2972000000.0,
    "total_debt": 8092000000.0,
-   "shares_out": 567762932.0
+   "shares_out": 567762932.0,
+   "unusual_items": -614000000.0,
+   "normalized_ebitda": 7261000000.0,
+   "normalized_income": 5532060000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -215,7 +263,10 @@
    "goodwill_and_intangibles": 4327000000.0,
    "retained_earnings": 6022000000.0,
    "total_debt": 10588000000.0,
-   "shares_out": 565738933.0
+   "shares_out": 565738933.0,
+   "unusual_items": -844000000.0,
+   "normalized_ebitda": 9693000000.0,
+   "normalized_income": 5300308000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -246,7 +297,10 @@
    "goodwill_and_intangibles": 5920000000.0,
    "retained_earnings": 7634000000.0,
    "total_debt": 13364000000.0,
-   "shares_out": 578981398.0
+   "shares_out": 578981398.0,
+   "unusual_items": -1206000000.0,
+   "normalized_ebitda": 9684000000.0,
+   "normalized_income": 4467654000.0
   }
  ]
 }

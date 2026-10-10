@@ -1,6 +1,6 @@
 {
  "ticker": "COL.MC",
- "fetched_at": "2026-10-10T11:52:04+00:00",
+ "fetched_at": "2026-10-10T14:40:08+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "MCE",
   "fullTimeEmployees": 226,
   "website": "https://www.inmocolonial.com",
-  "longBusinessSummary": "Colonial SFL, Socimi S. A. is a real estate investment firm specializing in Real Estate. It focuses on quality office properties. The firm invests in the Eurozone, with a focus on Barcelona, Spain, Madrid, Spain, and Paris, France. Colonial SFL, Socimi S. A. is based in Madrid, Spain, with additional offices in Barcelona, Spain, and Paris, France."
+  "longBusinessSummary": "Colonial SFL, Socimi S. A. is a real estate investment firm specializing in Real Estate. It focuses on quality office properties. The firm invests in the Eurozone, with a focus on Barcelona, Spain, Madrid, Spain, and Paris, France. Colonial SFL, Socimi S. A. is based in Madrid, Spain, with additional offices in Barcelona, Spain, and Paris, France.",
+  "targetMeanPrice": 6.32719,
+  "targetLowPrice": 4.6,
+  "targetHighPrice": 8.25,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.5,
+  "forwardPE": 13.073736,
+  "forwardEps": 0.36929,
+  "trailingEps": 0.53,
+  "earningsGrowth": -0.11,
+  "revenueGrowth": 0.037
  },
  "governance": {
   "ceo": {
@@ -68,8 +79,35 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF ES",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 12236502000.0,
+    "official": 12236502000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 5677320000.0,
+    "official": 5677320000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 307395000.0,
+    "official": 307395000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T14:40:08+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -99,7 +137,10 @@
    "goodwill_and_intangibles": 4882000.0,
    "retained_earnings": 2861375000.0,
    "total_debt": 5433345000.0,
-   "shares_out": 531397267.0
+   "shares_out": 531397267.0,
+   "unusual_items": 3315000.0,
+   "normalized_ebitda": 122016000.0,
+   "normalized_income": 5492750.0
   },
   {
    "fy_end": "2023-12-31",
@@ -131,7 +172,10 @@
    "goodwill_and_intangibles": 5226000.0,
    "retained_earnings": 1725573000.0,
    "total_debt": 5294056000.0,
-   "shares_out": 531621872.0
+   "shares_out": 531621872.0,
+   "unusual_items": 6342000.0,
+   "normalized_ebitda": -1114280000.0,
+   "normalized_income": -1025118371.410938
   },
   {
    "fy_end": "2024-12-31",
@@ -163,7 +207,10 @@
    "goodwill_and_intangibles": 6409000.0,
    "retained_earnings": 1808375000.0,
    "total_debt": 4999588000.0,
-   "shares_out": 617968565.0
+   "shares_out": 617968565.0,
+   "unusual_items": 19546000.0,
+   "normalized_ebitda": 445116000.0,
+   "normalized_income": 292735500.0
   },
   {
    "fy_end": "2025-12-31",
@@ -194,7 +241,10 @@
    "goodwill_and_intangibles": 6306000.0,
    "retained_earnings": 2011646000.0,
    "total_debt": 5126902000.0,
-   "shares_out": 619584520.0
+   "shares_out": 619584520.0,
+   "unusual_items": -1828000.0,
+   "normalized_ebitda": 464016000.0,
+   "normalized_income": 345820000.0
   }
  ]
 }

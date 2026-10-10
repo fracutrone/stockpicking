@@ -1,6 +1,6 @@
 {
  "ticker": "ROK",
- "fetched_at": "2026-10-10T12:57:00+00:00",
+ "fetched_at": "2026-10-10T15:54:42+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 26000,
   "website": "https://www.rockwellautomation.com",
-  "longBusinessSummary": "Rockwell Automation, Inc., together with its subsidiaries, provides industrial automation and digital transformation solutions in North America, Europe, the Middle East, Africa, the Asia Pacific, and Latin America. It operates in three segments: Intelligent Devices, Software & Control, and Lifecycle Services. The company offers drives, motion, advanced material handling, safety, sensing, industrial components, hardware, software, and configured-to-order products; and control and visualization software and hardware, digital twin, simulation and information software, network and security infrastructure, and custom-engineered systems. It also provides digital consulting, professional services, engineered-to-order solutions, recurring services, cybersecurity, safety, remote monitoring, customer technical support and repair, asset management and optimization consulting, and training, as well as spare parts. The company sells its products through independent distributors in relation to its direct sales force. It serves discrete end markets, including automotive, semiconductor, e-commerce, and warehouse automation; hybrid end markets, such as food and beverage, life sciences, and tire; and process end markets comprising energy, mining, and chemicals. The company was formerly known as Rockwell International Corporation and changed its name to Rockwell Automation, Inc. in February 2002. Rockwell Automation, Inc. was founded in 1903 and is headquartered in Milwaukee, Wisconsin."
+  "longBusinessSummary": "Rockwell Automation, Inc., together with its subsidiaries, provides industrial automation and digital transformation solutions in North America, Europe, the Middle East, Africa, the Asia Pacific, and Latin America. It operates in three segments: Intelligent Devices, Software & Control, and Lifecycle Services. The company offers drives, motion, advanced material handling, safety, sensing, industrial components, hardware, software, and configured-to-order products; and control and visualization software and hardware, digital twin, simulation and information software, network and security infrastructure, and custom-engineered systems. It also provides digital consulting, professional services, engineered-to-order solutions, recurring services, cybersecurity, safety, remote monitoring, customer technical support and repair, asset management and optimization consulting, and training, as well as spare parts. The company sells its products through independent distributors in relation to its direct sales force. It serves discrete end markets, including automotive, semiconductor, e-commerce, and warehouse automation; hybrid end markets, such as food and beverage, life sciences, and tire; and process end markets comprising energy, mining, and chemicals. The company was formerly known as Rockwell International Corporation and changed its name to Rockwell Automation, Inc. in February 2002. Rockwell Automation, Inc. was founded in 1903 and is headquartered in Milwaukee, Wisconsin.",
+  "targetMeanPrice": 477.1154,
+  "targetLowPrice": 282.0,
+  "targetHighPrice": 550.0,
+  "numberOfAnalystOpinions": 26,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.32143,
+  "forwardPE": 29.003706,
+  "forwardEps": 14.91499,
+  "trailingEps": 10.68,
+  "earningsGrowth": 0.404,
+  "revenueGrowth": 0.079
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-09-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 11219000000.0,
+    "official": 11219000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3654000000.0,
+    "official": 3654000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 869000000.0,
+    "official": 869000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 8342000000.0,
+    "official": 8342000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:54:42+00:00",
  "years": [
   {
    "fy_end": "2019-09-30",
@@ -205,7 +247,10 @@
    "goodwill_and_intangibles": 4426000000.0,
    "retained_earnings": 8411800000.0,
    "total_debt": 3227100000.0,
-   "shares_out": 115200000.0
+   "shares_out": 115200000.0,
+   "unusual_items": -136900000.0,
+   "normalized_ebitda": 1572600000.0,
+   "normalized_income": 1049386400.0
   },
   {
    "fy_end": "2023-09-30",
@@ -240,7 +285,10 @@
    "goodwill_and_intangibles": 4381600000.0,
    "retained_earnings": 9255200000.0,
    "total_debt": 2957600000.0,
-   "shares_out": 114800000.0
+   "shares_out": 114800000.0,
+   "unusual_items": 121000000.0,
+   "normalized_ebitda": 1872000000.0,
+   "normalized_income": 1290805000.0
   },
   {
    "fy_end": "2024-09-30",
@@ -275,7 +323,10 @@
    "goodwill_and_intangibles": 5059000000.0,
    "retained_earnings": 9635000000.0,
    "total_debt": 3332000000.0,
-   "shares_out": 113067383.0
+   "shares_out": 113067383.0,
+   "unusual_items": 31000000.0,
+   "normalized_ebitda": 1540000000.0,
+   "normalized_income": 926283636.363636
   },
   {
    "fy_end": "2025-09-30",
@@ -309,7 +360,10 @@
    "goodwill_and_intangibles": 4703000000.0,
    "retained_earnings": 5422000000.0,
    "total_debt": 3222000000.0,
-   "shares_out": 112434397.0
+   "shares_out": 112434397.0,
+   "unusual_items": -220000000.0,
+   "normalized_ebitda": 1618000000.0,
+   "normalized_income": 1048694656.48855
   }
  ]
 }

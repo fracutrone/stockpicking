@@ -1,6 +1,6 @@
 {
  "ticker": "GM",
- "fetched_at": "2026-10-10T12:46:48+00:00",
+ "fetched_at": "2026-10-10T15:45:17+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 156000,
   "website": "https://www.gm.com",
-  "longBusinessSummary": "General Motors Company designs, builds, and sells trucks, crossovers, cars, and automobile parts worldwide. It operates through GM North America, GM International, and GM Financial segments. The company markets its vehicles primarily under the Buick, Cadillac, Chevrolet, GMC, Baojun, and Wuling brand names. In addition, it sells trucks, crossovers, cars, and automobile parts through retail dealers, distributors and dealers, as well as to fleet customers, including daily rental car companies, commercial fleet customers, leasing companies, and governments. Further, the company offers various range of after-sale services through dealer network, such as maintenance, light repairs, collision repairs, vehicle accessories, and extended service warranties. Additionally, it provides automotive financing; and software-enabled services and subscriptions. General Motors Company was founded in 1908 and is based in Detroit, Michigan."
+  "longBusinessSummary": "General Motors Company designs, builds, and sells trucks, crossovers, cars, and automobile parts worldwide. It operates through GM North America, GM International, and GM Financial segments. The company markets its vehicles primarily under the Buick, Cadillac, Chevrolet, GMC, Baojun, and Wuling brand names. In addition, it sells trucks, crossovers, cars, and automobile parts through retail dealers, distributors and dealers, as well as to fleet customers, including daily rental car companies, commercial fleet customers, leasing companies, and governments. Further, the company offers various range of after-sale services through dealer network, such as maintenance, light repairs, collision repairs, vehicle accessories, and extended service warranties. Additionally, it provides automotive financing; and software-enabled services and subscriptions. General Motors Company was founded in 1908 and is based in Detroit, Michigan.",
+  "targetMeanPrice": 104.65217,
+  "targetLowPrice": 75.0,
+  "targetHighPrice": 132.0,
+  "numberOfAnalystOpinions": 23,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.625,
+  "forwardPE": 5.470754,
+  "forwardEps": 15.12223,
+  "trailingEps": 2.23,
+  "earningsGrowth": -0.262,
+  "revenueGrowth": 0.019
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 281284000000.0,
+    "official": 281284000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 61119000000.0,
+    "official": 61119000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2697000000.0,
+    "official": 2697000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 185019000000.0,
+    "official": 185019000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:45:17+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -190,7 +232,10 @@
    "goodwill_and_intangibles": 4934000000.0,
    "retained_earnings": 49251000000.0,
    "total_debt": 115666000000.0,
-   "shares_out": 1400000000.0
+   "shares_out": 1400000000.0,
+   "unusual_items": -236000000.0,
+   "normalized_ebitda": 24110000000.0,
+   "normalized_income": 10131532000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -225,7 +270,10 @@
    "goodwill_and_intangibles": 4841000000.0,
    "retained_earnings": 55391000000.0,
    "total_debt": 122648000000.0,
-   "shares_out": 1200000000.0
+   "shares_out": 1200000000.0,
+   "unusual_items": -77000000.0,
+   "normalized_ebitda": 23279000000.0,
+   "normalized_income": 10199842000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -260,7 +308,10 @@
    "goodwill_and_intangibles": 4550000000.0,
    "retained_earnings": 53472000000.0,
    "total_debt": 130693000000.0,
-   "shares_out": 1000000000.0
+   "shares_out": 1000000000.0,
+   "unusual_items": -225000000.0,
+   "normalized_ebitda": 21979000000.0,
+   "normalized_income": 6165492076.534805
   },
   {
    "fy_end": "2025-12-31",
@@ -295,7 +346,10 @@
    "goodwill_and_intangibles": 4353000000.0,
    "retained_earnings": 51524000000.0,
    "total_debt": 131312000000.0,
-   "shares_out": 904000000.0
+   "shares_out": 904000000.0,
+   "unusual_items": 274000000.0,
+   "normalized_ebitda": 18158000000.0,
+   "normalized_income": 2452711902.470324
   }
  ]
 }

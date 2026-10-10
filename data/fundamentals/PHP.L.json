@@ -1,6 +1,6 @@
 {
  "ticker": "PHP.L",
- "fetched_at": "2026-10-10T12:14:15+00:00",
+ "fetched_at": "2026-10-10T15:11:38+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 156,
   "website": "https://www.phpgroup.co.uk",
-  "longBusinessSummary": "Primary Health Properties PLC (PHP) is a UK Real Estate Investment Trust and leading investor in modern primary healthcare premises. We invest in flexible, modern properties for local primary healthcare. The overall objective of the group is to create progressive returns to shareholders through a combination of earnings growth and capital appreciation. To achieve this, PHP invests in healthcare real estate let on long-term leases, backed by secure underlying covenants where the majority of rental income is funded directly or indirectly by a government body. Primary Health Properties Plc was incorporated in 1994 in United Kingdom."
+  "longBusinessSummary": "Primary Health Properties PLC (PHP) is a UK Real Estate Investment Trust and leading investor in modern primary healthcare premises. We invest in flexible, modern properties for local primary healthcare. The overall objective of the group is to create progressive returns to shareholders through a combination of earnings growth and capital appreciation. To achieve this, PHP invests in healthcare real estate let on long-term leases, backed by secure underlying covenants where the majority of rental income is funded directly or indirectly by a government body. Primary Health Properties Plc was incorporated in 1994 in United Kingdom.",
+  "targetMeanPrice": 114.667,
+  "targetLowPrice": 104.99999,
+  "targetHighPrice": 133.0,
+  "numberOfAnalystOpinions": 9,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.33333,
+  "forwardPE": 11.736904,
+  "forwardEps": 0.07617,
+  "trailingEps": 0.06,
+  "earningsGrowth": -0.136,
+  "revenueGrowth": 1.189
  },
  "governance": {
   "ceo": {
@@ -60,8 +71,34 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 2791000000.0,
+    "official": 2791300000.0,
+    "diff": 0.000107
+   },
+   "equity": {
+    "yahoo": 1376000000.0,
+    "official": 1376000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 41000000.0,
+    "official": 41400000.0,
+    "diff": 0.009662
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T15:11:38+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -85,7 +122,9 @@
    "goodwill_and_intangibles": 0.0,
    "retained_earnings": 430100000.0,
    "total_debt": 1302600000.0,
-   "shares_out": 1336500000.0
+   "shares_out": 1336500000.0,
+   "unusual_items": 2900000.0,
+   "normalized_income": 53430579.964851
   },
   {
    "fy_end": "2023-12-31",
@@ -109,7 +148,9 @@
    "goodwill_and_intangibles": 6200000.0,
    "retained_earnings": 369100000.0,
    "total_debt": 1326300000.0,
-   "shares_out": 1335630211.0
+   "shares_out": 1335630211.0,
+   "unusual_items": 0.0,
+   "normalized_income": 27300000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -133,7 +174,9 @@
    "goodwill_and_intangibles": 5000000.0,
    "retained_earnings": 319000000.0,
    "total_debt": 1340000000.0,
-   "shares_out": 1336493786.0
+   "shares_out": 1336493786.0,
+   "unusual_items": -38400000.0,
+   "normalized_income": 41000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -157,7 +200,8 @@
    "goodwill_and_intangibles": 4000000.0,
    "retained_earnings": 322000000.0,
    "total_debt": 3308000000.0,
-   "shares_out": 2595089751.0
+   "shares_out": 2595089751.0,
+   "normalized_income": 119000000.0
   }
  ]
 }

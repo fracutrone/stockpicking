@@ -1,6 +1,6 @@
 {
  "ticker": "DE",
- "fetched_at": "2026-10-10T12:42:59+00:00",
+ "fetched_at": "2026-10-10T15:41:26+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 73100,
   "website": "https://www.deere.com",
-  "longBusinessSummary": "Deere & Company engages in the manufacture and distribution of various equipment worldwide. The company operates through four segments: Production and Precision Agriculture, Small Agriculture and Turf, Construction and Forestry, and Financial Services. The Production and Precision Agriculture segment provides four-wheel-drive track and row crop tractors, harvesters, cotton pickers and strippers, sugarcane harvesters and loaders, soil preparation, tillage, seeding, and crop care equipment, as well as application equipment, including sprayers and nutrient management, soil preparation machinery, and related attachments and service parts. The Small Agriculture and Turf segment offers specialty, utility, and compact tractors; self-propelled forage harvesters and attachments; rotary mowers, hay and forage equipment, and utility vehicles; turf and utility equipment, including riding lawn, commercial mowing, and golf course equipment, and utility vehicles, as well as implements for mowing, tilling, snow and debris handling, aerating, residential, commercial, golf, and sports turf care applications. The Construction and Forestry segment provides backhoe loaders, crawler dozers and loaders, four-wheel-drive loaders, excavators, motor graders, articulated dump trucks, skid-steer loaders, milling machines, recyclers, slipform and asphalt pavers, surface miners, compactors, tandem, static rollers, mobile crushers and screens, mobile and stationary asphalt plants, and log harvesters; and road building and rehabilitation equipment. The Financial Services segment finances sales and leases agriculture and turf, and construction and forestry equipment. It also offers wholesale financing to dealers of the foregoing equipment; and extended equipment warranties. Deere & Company has a strategic partnership with Tarter USA to develop and produce flex wing rotary cutters. It also has strategic partnership with Yamaha Motor Corporation, Usa to co-develop future side-by-side vehicles. The company was founded in 1837 and is headquartered in Moline, Illinois."
+  "longBusinessSummary": "Deere & Company engages in the manufacture and distribution of various equipment worldwide. The company operates through four segments: Production and Precision Agriculture, Small Agriculture and Turf, Construction and Forestry, and Financial Services. The Production and Precision Agriculture segment provides four-wheel-drive track and row crop tractors, harvesters, cotton pickers and strippers, sugarcane harvesters and loaders, soil preparation, tillage, seeding, and crop care equipment, as well as application equipment, including sprayers and nutrient management, soil preparation machinery, and related attachments and service parts. The Small Agriculture and Turf segment offers specialty, utility, and compact tractors; self-propelled forage harvesters and attachments; rotary mowers, hay and forage equipment, and utility vehicles; turf and utility equipment, including riding lawn, commercial mowing, and golf course equipment, and utility vehicles, as well as implements for mowing, tilling, snow and debris handling, aerating, residential, commercial, golf, and sports turf care applications. The Construction and Forestry segment provides backhoe loaders, crawler dozers and loaders, four-wheel-drive loaders, excavators, motor graders, articulated dump trucks, skid-steer loaders, milling machines, recyclers, slipform and asphalt pavers, surface miners, compactors, tandem, static rollers, mobile crushers and screens, mobile and stationary asphalt plants, and log harvesters; and road building and rehabilitation equipment. The Financial Services segment finances sales and leases agriculture and turf, and construction and forestry equipment. It also offers wholesale financing to dealers of the foregoing equipment; and extended equipment warranties. Deere & Company has a strategic partnership with Tarter USA to develop and produce flex wing rotary cutters. It also has strategic partnership with Yamaha Motor Corporation, Usa to co-develop future side-by-side vehicles. The company was founded in 1837 and is headquartered in Moline, Illinois.",
+  "targetMeanPrice": 693.57306,
+  "targetLowPrice": 500.0,
+  "targetHighPrice": 813.18,
+  "numberOfAnalystOpinions": 23,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.92,
+  "forwardPE": 27.265808,
+  "forwardEps": 22.77321,
+  "trailingEps": 17.99,
+  "earningsGrowth": 0.074,
+  "revenueGrowth": 0.049
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-10-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 105996000000.0,
+    "official": 105996000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 25950000000.0,
+    "official": 25950000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 5027000000.0,
+    "official": 5027000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 44665000000.0,
+    "official": 45684000000.0,
+    "diff": 0.022305
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:41:26+00:00",
  "years": [
   {
    "fy_end": "2019-11-03",
@@ -184,7 +226,10 @@
    "goodwill_and_intangibles": 5277000000.0,
    "retained_earnings": 42247000000.0,
    "total_debt": 52201000000.0,
-   "shares_out": 298771915.0
+   "shares_out": 298771915.0,
+   "unusual_items": 280000000.0,
+   "normalized_ebitda": 11804000000.0,
+   "normalized_income": 6912571162.484935
   },
   {
    "fy_end": "2023-10-29",
@@ -219,7 +264,10 @@
    "goodwill_and_intangibles": 5483000000.0,
    "retained_earnings": 50931000000.0,
    "total_debt": 63692000000.0,
-   "shares_out": 281584277.0
+   "shares_out": 281584277.0,
+   "unusual_items": -60000000.0,
+   "normalized_ebitda": 17536000000.0,
+   "normalized_income": 10212768569.014517
   },
   {
    "fy_end": "2024-10-27",
@@ -254,7 +302,10 @@
    "goodwill_and_intangibles": 5462000000.0,
    "retained_earnings": 56402000000.0,
    "total_debt": 65463000000.0,
-   "shares_out": 271752292.0
+   "shares_out": 271752292.0,
+   "unusual_items": 75000000.0,
+   "normalized_ebitda": 14597000000.0,
+   "normalized_income": 7042059526.395829
   },
   {
    "fy_end": "2025-11-02",
@@ -289,7 +340,10 @@
    "goodwill_and_intangibles": 5550000000.0,
    "retained_earnings": 59676000000.0,
    "total_debt": 64250000000.0,
-   "shares_out": 270352040.0
+   "shares_out": 270352040.0,
+   "unusual_items": 57000000.0,
+   "normalized_ebitda": 11599000000.0,
+   "normalized_income": 4981469234.457408
   }
  ]
 }

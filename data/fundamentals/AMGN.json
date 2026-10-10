@@ -1,6 +1,6 @@
 {
  "ticker": "AMGN",
- "fetched_at": "2026-10-10T12:37:21+00:00",
+ "fetched_at": "2026-10-10T15:34:23+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 31500,
   "website": "https://www.amgen.com",
-  "longBusinessSummary": "Amgen Inc. discovers, develops, manufactures, and delivers human therapeutics worldwide. The company's principal products include Enbrel for the treatment of rheumatoid arthritis, plaque psoriasis, and psoriatic arthritis; Otezla for the treatment of adult patients with plaque psoriasis, psoriatic arthritis, and oral ulcers associated with Behçet's disease; Prolia to treat postmenopausal women with osteoporosis; XGEVA for skeletal-related events prevention; Repatha, which reduces the risks of myocardial infarction, stroke, and coronary revascularization; Nplate for the treatment of patients with immune thrombocytopenia; KYPROLIS to treat patients with relapsed or refractory multiple myeloma; Aranesp to treat a lower-than-normal number of red blood cells and anemia; EVENITY for the treatment of osteoporosis in postmenopausal for women; Vectibix to treat patients with wild-type RAS metastatic colorectal cancer; BLINCYTO for the treatment of patients with acute lymphoblastic leukemia; TEPEZZA to treat thyroid eye disease; and KRYSTEXXA for the treatment of chronic refractory gout. It also markets other products, including PROLIA, REPATHA, OTEZLA, ENBREL, EVENITY, XGEVA, TEPEZZA, BLINCYTO, NPLATE, TEZSPIRE, KYPROLIS, ARANESP, KRYSTEXXA AND VECTIBIX, MVASI, PAVBLU, UPLIZNA, IMDELLTRA/IMDYLLTRA, AMJEVITA/AMGEVITA, TAVNEOS, NEULASTA, LUMAKRAS/LUMYKRAS, RAVICTI, PARSABIV, AIMOVIG, WEZLANA/WEZENLA, AND PROCYSBI. The company serves healthcare providers, including physicians or their clinics, dialysis centers, hospitals, and pharmacies. It distributes its products through pharmaceutical wholesale distributors. The company has collaboration agreements with AstraZeneca plc for the development and commercialization of TEZSPIRE; BEONE MEDICINES LTD. to develop and commercialize Aimovig; UCB for the development and commercialization of EVENITY; Kyowa Kirin Co., Ltd. for rocatinlimab development and commercialization; and BeiGene, Ltd. for oncology products expansion and development. The company was incorporated in 1980 and is headquartered in Thousand Oaks, California."
+  "longBusinessSummary": "Amgen Inc. discovers, develops, manufactures, and delivers human therapeutics worldwide. The company's principal products include Enbrel for the treatment of rheumatoid arthritis, plaque psoriasis, and psoriatic arthritis; Otezla for the treatment of adult patients with plaque psoriasis, psoriatic arthritis, and oral ulcers associated with Behçet's disease; Prolia to treat postmenopausal women with osteoporosis; XGEVA for skeletal-related events prevention; Repatha, which reduces the risks of myocardial infarction, stroke, and coronary revascularization; Nplate for the treatment of patients with immune thrombocytopenia; KYPROLIS to treat patients with relapsed or refractory multiple myeloma; Aranesp to treat a lower-than-normal number of red blood cells and anemia; EVENITY for the treatment of osteoporosis in postmenopausal for women; Vectibix to treat patients with wild-type RAS metastatic colorectal cancer; BLINCYTO for the treatment of patients with acute lymphoblastic leukemia; TEPEZZA to treat thyroid eye disease; and KRYSTEXXA for the treatment of chronic refractory gout. It also markets other products, including PROLIA, REPATHA, OTEZLA, ENBREL, EVENITY, XGEVA, TEPEZZA, BLINCYTO, NPLATE, TEZSPIRE, KYPROLIS, ARANESP, KRYSTEXXA AND VECTIBIX, MVASI, PAVBLU, UPLIZNA, IMDELLTRA/IMDYLLTRA, AMJEVITA/AMGEVITA, TAVNEOS, NEULASTA, LUMAKRAS/LUMYKRAS, RAVICTI, PARSABIV, AIMOVIG, WEZLANA/WEZENLA, AND PROCYSBI. The company serves healthcare providers, including physicians or their clinics, dialysis centers, hospitals, and pharmacies. It distributes its products through pharmaceutical wholesale distributors. The company has collaboration agreements with AstraZeneca plc for the development and commercialization of TEZSPIRE; BEONE MEDICINES LTD. to develop and commercialize Aimovig; UCB for the development and commercialization of EVENITY; Kyowa Kirin Co., Ltd. for rocatinlimab development and commercialization; and BeiGene, Ltd. for oncology products expansion and development. The company was incorporated in 1980 and is headquartered in Thousand Oaks, California.",
+  "targetMeanPrice": 395.25415,
+  "targetLowPrice": 225.0,
+  "targetHighPrice": 500.0,
+  "numberOfAnalystOpinions": 29,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.64706,
+  "forwardPE": 16.944681,
+  "forwardEps": 24.48379,
+  "trailingEps": 16.1,
+  "earningsGrowth": 0.649,
+  "revenueGrowth": 0.095
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 90586000000.0,
+    "official": 90586000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 8658000000.0,
+    "official": 8658000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 7711000000.0,
+    "official": 7711000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 36751000000.0,
+    "official": 36751000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:34:23+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -168,7 +210,8 @@
    "goodwill": 14890000000.0,
    "intangibles": 15182000000.0,
    "retained_earnings": -24600000000.0,
-   "total_debt": 33309000000.0
+   "total_debt": 33309000000.0,
+   "unusual_items": -1505000000.0
   },
   {
    "fy_end": "2022-12-31",
@@ -203,7 +246,10 @@
    "goodwill_and_intangibles": 31609000000.0,
    "retained_earnings": -28622000000.0,
    "total_debt": 38945000000.0,
-   "shares_out": 534000000.0
+   "shares_out": 534000000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 12169000000.0,
+   "normalized_income": 6552000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -238,7 +284,10 @@
    "goodwill_and_intangibles": 51270000000.0,
    "retained_earnings": -26549000000.0,
    "total_debt": 64613000000.0,
-   "shares_out": 535400000.0
+   "shares_out": 535400000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 14801000000.0,
+   "normalized_income": 6717000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -272,7 +321,9 @@
    "goodwill_and_intangibles": 46336000000.0,
    "retained_earnings": -27590000000.0,
    "total_debt": 60099000000.0,
-   "shares_out": 537000000.0
+   "shares_out": 537000000.0,
+   "normalized_ebitda": 13356000000.0,
+   "normalized_income": 4090000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -306,7 +357,9 @@
    "goodwill_and_intangibles": 40956000000.0,
    "retained_earnings": -25107000000.0,
    "total_debt": 54604000000.0,
-   "shares_out": 538800000.0
+   "shares_out": 538800000.0,
+   "normalized_ebitda": 16898000000.0,
+   "normalized_income": 7711000000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "CDW",
- "fetched_at": "2026-10-10T12:40:18+00:00",
+ "fetched_at": "2026-10-10T15:39:11+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 14800,
   "website": "https://www.cdw.com",
-  "longBusinessSummary": "CDW Corporation provides information technology (IT) solutions in the United States, the United Kingdom, and Canada. It operates through three segments: Commercial, Government, and Education. The company offers discrete hardware and software products and services, as well as integrated IT solutions, including on-premise and cloud capabilities across hybrid infrastructure, digital experience, and security. It also provides hardware products comprising notebooks/mobile devices, tablets, network communications, collaboration hardware, data storage and servers, desktop computers, and other hardware; and software products, such as cloud solutions, software assurance, application suites, security, virtualization, collaboration and productivity applications, operating systems, and network management. In addition, the company offers advisory and design, software development, implementation, and managed services, as well as warranties. It serves business, government, education, and healthcare customers. The company was formerly known as CDW Computer Centers, Inc. and changed its name to CDW Corporation in June 2003. CDW Corporation was founded in 1984 and is based in Vernon Hills, Illinois."
+  "longBusinessSummary": "CDW Corporation provides information technology (IT) solutions in the United States, the United Kingdom, and Canada. It operates through three segments: Commercial, Government, and Education. The company offers discrete hardware and software products and services, as well as integrated IT solutions, including on-premise and cloud capabilities across hybrid infrastructure, digital experience, and security. It also provides hardware products comprising notebooks/mobile devices, tablets, network communications, collaboration hardware, data storage and servers, desktop computers, and other hardware; and software products, such as cloud solutions, software assurance, application suites, security, virtualization, collaboration and productivity applications, operating systems, and network management. In addition, the company offers advisory and design, software development, implementation, and managed services, as well as warranties. It serves business, government, education, and healthcare customers. The company was formerly known as CDW Computer Centers, Inc. and changed its name to CDW Corporation in June 2003. CDW Corporation was founded in 1984 and is based in Vernon Hills, Illinois.",
+  "targetMeanPrice": 158.66667,
+  "targetLowPrice": 148.0,
+  "targetHighPrice": 171.0,
+  "numberOfAnalystOpinions": 9,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.8,
+  "forwardPE": 11.832482,
+  "forwardEps": 12.01523,
+  "trailingEps": 8.32,
+  "earningsGrowth": 0.049,
+  "revenueGrowth": 0.1
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,38 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 16028200000.0,
+    "official": 16028200000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2606100000.0,
+    "official": 2606100000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1066600000.0,
+    "official": 1066600000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 22424100000.0,
+    "official": 22424100000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:39:11+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -201,7 +242,9 @@
    "goodwill_and_intangibles": 5833400000.0,
    "retained_earnings": -1763800000.0,
    "total_debt": 5922700000.0,
-   "shares_out": 135500000.0
+   "shares_out": 135500000.0,
+   "normalized_ebitda": 2014100000.0,
+   "normalized_income": 1114500000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -236,7 +279,9 @@
    "goodwill_and_intangibles": 5783100000.0,
    "retained_earnings": -1525500000.0,
    "total_debt": 5644900000.0,
-   "shares_out": 134100000.0
+   "shares_out": 134100000.0,
+   "normalized_ebitda": 1947500000.0,
+   "normalized_income": 1104300000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -271,7 +316,9 @@
    "goodwill_and_intangibles": 5977000000.0,
    "retained_earnings": -1322900000.0,
    "total_debt": 5842800000.0,
-   "shares_out": 132600000.0
+   "shares_out": 132600000.0,
+   "normalized_ebitda": 1925200000.0,
+   "normalized_income": 1077800000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -306,7 +353,9 @@
    "goodwill_and_intangibles": 5848700000.0,
    "retained_earnings": -1273900000.0,
    "total_debt": 5629800000.0,
-   "shares_out": 129400000.0
+   "shares_out": 129400000.0,
+   "normalized_ebitda": 1950400000.0,
+   "normalized_income": 1066600000.0
   }
  ]
 }

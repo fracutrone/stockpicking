@@ -1,6 +1,6 @@
 {
  "ticker": "PPG",
- "fetched_at": "2026-10-10T12:55:55+00:00",
+ "fetched_at": "2026-10-10T15:53:36+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 43500,
   "website": "https://www.ppg.com",
-  "longBusinessSummary": "PPG Industries, Inc. manufactures and distributes paints, coatings, and specialty materials in the United States, Canada, the Asia Pacific, Latin America, Europe, the Middle East, and Africa. It operates through three segments: Global Architectural Coatings, Performance Coatings, and Industrial Coatings. The Global Architectural Coatings segment supplies a variety of decorative coatings, adhesives, sealants, and finishes, as well as paint strippers, stains, and related chemicals. Its Performance Coatings segment offers aerospace coatings, automotive refinishing coatings, protective and marine coatings, and traffic solutions comprising paints, thermoplastics, raised pavement markers, and other technologies for pavement marking. The Industrial Coatings segment provides automotive OEM coatings, industrial coatings, and packaging coatings, as well as specialty products, such as optical monomers and coatings, low-friction coatings, and other specialty products. The company delivers its products to company-owned stores, home centers and other consumer retail outlets, paint dealers, concessionaires and independent distributors, company-owned distribution networks, and directly to manufacturing companies and retail customers. PPG Industries, Inc. was incorporated in 1883 and is headquartered in Pittsburgh, Pennsylvania."
+  "longBusinessSummary": "PPG Industries, Inc. manufactures and distributes paints, coatings, and specialty materials in the United States, Canada, the Asia Pacific, Latin America, Europe, the Middle East, and Africa. It operates through three segments: Global Architectural Coatings, Performance Coatings, and Industrial Coatings. The Global Architectural Coatings segment supplies a variety of decorative coatings, adhesives, sealants, and finishes, as well as paint strippers, stains, and related chemicals. Its Performance Coatings segment offers aerospace coatings, automotive refinishing coatings, protective and marine coatings, and traffic solutions comprising paints, thermoplastics, raised pavement markers, and other technologies for pavement marking. The Industrial Coatings segment provides automotive OEM coatings, industrial coatings, and packaging coatings, as well as specialty products, such as optical monomers and coatings, low-friction coatings, and other specialty products. The company delivers its products to company-owned stores, home centers and other consumer retail outlets, paint dealers, concessionaires and independent distributors, company-owned distribution networks, and directly to manufacturing companies and retail customers. PPG Industries, Inc. was incorporated in 1883 and is headquartered in Pittsburgh, Pennsylvania.",
+  "targetMeanPrice": 125.2381,
+  "targetLowPrice": 115.0,
+  "targetHighPrice": 138.0,
+  "numberOfAnalystOpinions": 21,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.08333,
+  "forwardPE": 12.033381,
+  "forwardEps": 8.6393,
+  "trailingEps": 6.96,
+  "earningsGrowth": -0.015,
+  "revenueGrowth": 0.072
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 22098000000.0,
+    "official": 22098000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 7941000000.0,
+    "official": 7941000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1576000000.0,
+    "official": 1576000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 15875000000.0,
+    "official": 15875000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:53:36+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -205,7 +247,10 @@
    "goodwill_and_intangibles": 8492000000.0,
    "retained_earnings": 20828000000.0,
    "total_debt": 6806000000.0,
-   "shares_out": 235073926.0
+   "shares_out": 235073926.0,
+   "unusual_items": -260000000.0,
+   "normalized_ebitda": 2284000000.0,
+   "normalized_income": 1205640000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -240,7 +285,10 @@
    "goodwill_and_intangibles": 8376000000.0,
    "retained_earnings": 21500000000.0,
    "total_debt": 6046000000.0,
-   "shares_out": 235210854.0
+   "shares_out": 235210854.0,
+   "unusual_items": -165000000.0,
+   "normalized_ebitda": 2616000000.0,
+   "normalized_income": 1346255000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -275,7 +323,10 @@
    "goodwill_and_intangibles": 7612000000.0,
    "retained_earnings": 21994000000.0,
    "total_debt": 5808000000.0,
-   "shares_out": 229927883.0
+   "shares_out": 229927883.0,
+   "unusual_items": -356000000.0,
+   "normalized_ebitda": 2941000000.0,
+   "normalized_income": 1608693304.535637
   },
   {
    "fy_end": "2025-12-31",
@@ -310,7 +361,10 @@
    "goodwill_and_intangibles": 8120000000.0,
    "retained_earnings": 22942000000.0,
    "total_debt": 7301000000.0,
-   "shares_out": 223426948.0
+   "shares_out": 223426948.0,
+   "unusual_items": -35000000.0,
+   "normalized_ebitda": 2849000000.0,
+   "normalized_income": 1598161369.193154
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "VEIL.L",
- "fetched_at": "2026-10-10T12:24:44+00:00",
+ "fetched_at": "2026-10-10T15:28:10+00:00",
  "region": "Europa",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": "https://www.dragoncapital.com/dragon-capital-funds/vietnam-enterprise-investments-limited",
-  "longBusinessSummary": "Vietnam Enterprise Investments Limited is a closed ended equity mutual fund launched and managed by Dragon Capital Management Limited. It invests in the public equity markets of Vietnam. The fund seeks to invest in stocks of companies operating across diversified sectors. It primarily invests in value and growth stocks of companies. The fund also invests a part of its assets in private companies and equity linked instruments. It focuses on such factors as good corporate governance and alignment to Vietnam's underlying growth drivers to create its portfolio. The fund benchmarks the performance of its portfolio against the VN index, the MSCI EM Index, and the VN30 Index. Vietnam Enterprise Investments Limited was formed on August 31, 1995 and is domiciled in the Cayman Islands."
+  "longBusinessSummary": "Vietnam Enterprise Investments Limited is a closed ended equity mutual fund launched and managed by Dragon Capital Management Limited. It invests in the public equity markets of Vietnam. The fund seeks to invest in stocks of companies operating across diversified sectors. It primarily invests in value and growth stocks of companies. The fund also invests a part of its assets in private companies and equity linked instruments. It focuses on such factors as good corporate governance and alignment to Vietnam's underlying growth drivers to create its portfolio. The fund benchmarks the performance of its portfolio against the VN index, the MSCI EM Index, and the VN30 Index. Vietnam Enterprise Investments Limited was formed on August 31, 1995 and is domiciled in the Cayman Islands.",
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": 1.14,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -49,8 +60,16 @@
   "equity": "yahoo",
   "receivables": "yahoo",
   "retained_earnings": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T15:28:10+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -70,7 +89,8 @@
    "equity": 1622581751.0,
    "receivables": 2549944.0,
    "retained_earnings": 1171708685.0,
-   "shares_out": 206725678.0
+   "shares_out": 206725678.0,
+   "normalized_income": -923291448.0
   },
   {
    "fy_end": "2023-12-31",
@@ -90,7 +110,8 @@
    "equity": 1743257708.0,
    "receivables": 4521664.0,
    "retained_earnings": 1332657274.0,
-   "shares_out": 201026986.0
+   "shares_out": 201026986.0,
+   "normalized_income": 160948589.0
   },
   {
    "fy_end": "2024-12-31",
@@ -109,7 +130,8 @@
    "equity": 1797109701.0,
    "receivables": 2252695.0,
    "retained_earnings": 1508213203.0,
-   "shares_out": 184733753.0
+   "shares_out": 184733753.0,
+   "normalized_income": 175555929.0
   },
   {
    "fy_end": "2025-12-31",
@@ -128,7 +150,8 @@
    "equity": 1949274993.0,
    "receivables": 5923756.0,
    "retained_earnings": 1869943767.0,
-   "shares_out": 160977760.0
+   "shares_out": 160977760.0,
+   "normalized_income": 361730564.0
   }
  ]
 }

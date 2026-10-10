@@ -1,6 +1,6 @@
 {
  "ticker": "WSM",
- "fetched_at": "2026-10-10T13:02:40+00:00",
+ "fetched_at": "2026-10-10T16:00:02+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 19800,
   "website": "https://www.williams-sonomainc.com",
-  "longBusinessSummary": "Williams-Sonoma, Inc. operates as an omni-channel specialty retailer of various products for home the United States and internationally. The company provides cooking, dining, and entertaining products, such as cookware, tools, electrics, cutlery, tabletop and bar, outdoor, furniture, and a library of cookbooks. It offers home furnishings, home decor products and accessories, bedding, lighting, rugs, table essentials, kids accessories, made-to-order lighting, hardware, personalized products, custom gifts, and vintage-inspired heirloom products. It offers its products under the Williams Sonoma, Pottery Barn, Pottery Barn Kids, Pottery Barn Teen, West Elm, Williams Sonoma Home, Rejuvenation, Mark and Graham, and GreenRow brand names. The company markets its products through e-commerce websites, direct-mail catalogs, and retail stores. Williams-Sonoma, Inc. was founded in 1956 and is headquartered in San Francisco, California."
+  "longBusinessSummary": "Williams-Sonoma, Inc. operates as an omni-channel specialty retailer of various products for home the United States and internationally. The company provides cooking, dining, and entertaining products, such as cookware, tools, electrics, cutlery, tabletop and bar, outdoor, furniture, and a library of cookbooks. It offers home furnishings, home decor products and accessories, bedding, lighting, rugs, table essentials, kids accessories, made-to-order lighting, hardware, personalized products, custom gifts, and vintage-inspired heirloom products. It offers its products under the Williams Sonoma, Pottery Barn, Pottery Barn Kids, Pottery Barn Teen, West Elm, Williams Sonoma Home, Rejuvenation, Mark and Graham, and GreenRow brand names. The company markets its products through e-commerce websites, direct-mail catalogs, and retail stores. Williams-Sonoma, Inc. was founded in 1956 and is headquartered in San Francisco, California.",
+  "targetMeanPrice": 247.85,
+  "targetLowPrice": 151.0,
+  "targetHighPrice": 280.0,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.21739,
+  "forwardPE": 22.995743,
+  "forwardEps": 10.51412,
+  "trailingEps": 9.75,
+  "earningsGrowth": 0.42,
+  "revenueGrowth": 0.067
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,38 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-01-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 5411912000.0,
+    "official": 5411912000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2082559000.0,
+    "official": 2082559000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1088437000.0,
+    "official": 1088437000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 7806816000.0,
+    "official": 7806816000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T16:00:02+00:00",
  "years": [
   {
    "fy_end": "2020-02-02",
@@ -192,7 +233,9 @@
    "goodwill_and_intangibles": 77307000.0,
    "retained_earnings": 1141819000.0,
    "total_debt": 1443658000.0,
-   "shares_out": 132452000.0
+   "shares_out": 132452000.0,
+   "normalized_ebitda": 1712575000.0,
+   "normalized_income": 1127904000.0
   },
   {
    "fy_end": "2024-01-28",
@@ -224,7 +267,9 @@
    "goodwill_and_intangibles": 77306000.0,
    "retained_earnings": 1555595000.0,
    "total_debt": 1390621000.0,
-   "shares_out": 128302000.0
+   "shares_out": 128302000.0,
+   "normalized_ebitda": 1476783000.0,
+   "normalized_income": 949762000.0
   },
   {
    "fy_end": "2025-02-02",
@@ -256,7 +301,9 @@
    "goodwill_and_intangibles": 77260000.0,
    "retained_earnings": 1591630000.0,
    "total_debt": 1347315000.0,
-   "shares_out": 123125000.0
+   "shares_out": 123125000.0,
+   "normalized_ebitda": 1659986000.0,
+   "normalized_income": 1125251000.0
   },
   {
    "fy_end": "2026-02-01",
@@ -288,7 +335,9 @@
    "goodwill_and_intangibles": 77398000.0,
    "retained_earnings": 1509129000.0,
    "total_debt": 1456905000.0,
-   "shares_out": 118770000.0
+   "shares_out": 118770000.0,
+   "normalized_ebitda": 1647171000.0,
+   "normalized_income": 1088437000.0
   }
  ]
 }

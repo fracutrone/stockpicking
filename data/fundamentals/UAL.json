@@ -1,6 +1,6 @@
 {
  "ticker": "UAL",
- "fetched_at": "2026-10-10T13:00:36+00:00",
+ "fetched_at": "2026-10-10T15:58:11+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 117500,
   "website": "https://www.united.com",
-  "longBusinessSummary": "United Airlines Holdings, Inc., through its subsidiaries, provides air transportation services in the United States, Canada, Atlantic, the Pacific, and Latin America. It transports people and cargo through its mainline and regional fleets. The company also offers ground handling, flight academy, frequent flyer award non-travel redemptions, and maintenance services for third parties. In addition, it provides freight and mail transportation services to commercial businesses, freight forwarders, logistics firms, and national postal services, as well as loyalty programs. The company distributes its products through direct channels, such as the Company's website and the Company's mobile app; and traditional travel agencies, online travel agencies, and other intermediaries. The company was formerly known as United Continental Holdings, Inc. and changed its name to United Airlines Holdings, Inc. in June 2019. United Airlines Holdings, Inc. was incorporated in 1968 and is based in Chicago, Illinois."
+  "longBusinessSummary": "United Airlines Holdings, Inc., through its subsidiaries, provides air transportation services in the United States, Canada, Atlantic, the Pacific, and Latin America. It transports people and cargo through its mainline and regional fleets. The company also offers ground handling, flight academy, frequent flyer award non-travel redemptions, and maintenance services for third parties. In addition, it provides freight and mail transportation services to commercial businesses, freight forwarders, logistics firms, and national postal services, as well as loyalty programs. The company distributes its products through direct channels, such as the Company's website and the Company's mobile app; and traditional travel agencies, online travel agencies, and other intermediaries. The company was formerly known as United Continental Holdings, Inc. and changed its name to United Airlines Holdings, Inc. in June 2019. United Airlines Holdings, Inc. was incorporated in 1968 and is based in Chicago, Illinois.",
+  "targetMeanPrice": 152.78261,
+  "targetLowPrice": 102.0,
+  "targetHighPrice": 203.0,
+  "numberOfAnalystOpinions": 23,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.32,
+  "forwardPE": 7.807715,
+  "forwardEps": 13.76267,
+  "trailingEps": 10.68,
+  "earningsGrowth": -0.172,
+  "revenueGrowth": 0.16
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 76448000000.0,
+    "official": 76448000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 15282000000.0,
+    "official": 15282000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 3353000000.0,
+    "official": 3353000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 59070000000.0,
+    "official": 59070000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:58:11+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -190,7 +232,10 @@
    "goodwill_and_intangibles": 7289000000.0,
    "retained_earnings": 1265000000.0,
    "total_debt": 31194000000.0,
-   "shares_out": 326930321.0
+   "shares_out": 326930321.0,
+   "unusual_items": -120000000.0,
+   "normalized_ebitda": 5239000000.0,
+   "normalized_income": 826333333.333333
   },
   {
    "fy_end": "2023-12-31",
@@ -225,7 +270,10 @@
    "goodwill_and_intangibles": 7252000000.0,
    "retained_earnings": 3831000000.0,
    "total_debt": 27413000000.0,
-   "shares_out": 328018739.0
+   "shares_out": 328018739.0,
+   "unusual_items": -922000000.0,
+   "normalized_ebitda": 8754000000.0,
+   "normalized_income": 3330664895.187482
   },
   {
    "fy_end": "2024-12-31",
@@ -260,7 +308,10 @@
    "goodwill_and_intangibles": 7209000000.0,
    "retained_earnings": 6880000000.0,
    "total_debt": 25203000000.0,
-   "shares_out": 327899771.0
+   "shares_out": 327899771.0,
+   "unusual_items": -311000000.0,
+   "normalized_ebitda": 8809000000.0,
+   "normalized_income": 3383966170.825336
   },
   {
    "fy_end": "2025-12-31",
@@ -295,7 +346,10 @@
    "goodwill_and_intangibles": 7183000000.0,
    "retained_earnings": 10092000000.0,
    "total_debt": 20562000000.0,
-   "shares_out": 323470682.0
+   "shares_out": 323470682.0,
+   "unusual_items": -254000000.0,
+   "normalized_ebitda": 8666000000.0,
+   "normalized_income": 3550784951.230841
   }
  ]
 }

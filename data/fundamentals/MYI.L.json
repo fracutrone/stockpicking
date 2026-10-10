@@ -1,6 +1,6 @@
 {
  "ticker": "MYI.L",
- "fetched_at": "2026-10-10T12:10:18+00:00",
+ "fetched_at": "2026-10-10T15:06:58+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -49,8 +60,15 @@
   "equity": "yahoo",
   "receivables": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T15:06:59+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -70,7 +88,8 @@
    "equity": 1616750000.0,
    "receivables": 205000.0,
    "total_debt": 199866000.0,
-   "shares_out": 625064465.0
+   "shares_out": 625064465.0,
+   "normalized_income": 134721000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -90,7 +109,8 @@
    "equity": 1668862000.0,
    "receivables": 20000.0,
    "total_debt": 139901000.0,
-   "shares_out": 620866332.0
+   "shares_out": 620866332.0,
+   "normalized_income": 131847000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -110,7 +130,8 @@
    "equity": 1678849000.0,
    "receivables": 54000.0,
    "total_debt": 109916000.0,
-   "shares_out": 603129219.0
+   "shares_out": 603129219.0,
+   "normalized_income": 126707000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -130,7 +151,8 @@
    "equity": 1920974000.0,
    "receivables": 33000.0,
    "total_debt": 109926000.0,
-   "shares_out": 590252333.0
+   "shares_out": 590252333.0,
+   "normalized_income": 348575000.0
   }
  ]
 }

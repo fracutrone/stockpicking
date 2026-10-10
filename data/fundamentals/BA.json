@@ -1,6 +1,6 @@
 {
  "ticker": "BA",
- "fetched_at": "2026-10-10T12:38:32+00:00",
+ "fetched_at": "2026-10-10T15:35:59+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 182000,
   "website": "https://www.boeing.com",
-  "longBusinessSummary": "The Boeing Company, together with its subsidiaries, designs, develops, manufactures, sells, services, and supports commercial jetliners, military aircraft, satellites, missile defense, human space flight and launch systems, and services worldwide. The company operates through three segments: Commercial Airplanes; Defense, Space & Security; and Global Services. The Commercial Airplanes segment develops, produces, and markets commercial jet aircraft for passenger and cargo requirements. The Defense, Space & Security segment engages in the research, development, production, and modification of manned and unmanned military aircraft and weapons systems; strategic defense and intelligence systems, which include strategic missile and defense systems, command, control, communications, computers, intelligence, surveillance and reconnaissance, cyber and information solutions, and intelligence systems; and satellite systems, such as government and commercial satellites, and space exploration. The Global Services segment offers products and services, including supply chain and logistics management, engineering, maintenance and modifications, upgrades and conversions, spare parts, pilot and maintenance training systems and services, technical and maintenance documents, and data analytics and digital services to commercial and defense customers. The Boeing Company was incorporated in 1916 and is based in Arlington, Virginia."
+  "longBusinessSummary": "The Boeing Company, together with its subsidiaries, designs, develops, manufactures, sells, services, and supports commercial jetliners, military aircraft, satellites, missile defense, human space flight and launch systems, and services worldwide. The company operates through three segments: Commercial Airplanes; Defense, Space & Security; and Global Services. The Commercial Airplanes segment develops, produces, and markets commercial jet aircraft for passenger and cargo requirements. The Defense, Space & Security segment engages in the research, development, production, and modification of manned and unmanned military aircraft and weapons systems; strategic defense and intelligence systems, which include strategic missile and defense systems, command, control, communications, computers, intelligence, surveillance and reconnaissance, cyber and information solutions, and intelligence systems; and satellite systems, such as government and commercial satellites, and space exploration. The Global Services segment offers products and services, including supply chain and logistics management, engineering, maintenance and modifications, upgrades and conversions, spare parts, pilot and maintenance training systems and services, technical and maintenance documents, and data analytics and digital services to commercial and defense customers. The Boeing Company was incorporated in 1916 and is based in Arlington, Virginia.",
+  "targetMeanPrice": 272.44443,
+  "targetLowPrice": 240.0,
+  "targetHighPrice": 305.0,
+  "numberOfAnalystOpinions": 27,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.51724,
+  "forwardPE": 47.734627,
+  "forwardEps": 3.98809,
+  "trailingEps": 2.8,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.08
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 168235000000.0,
+    "official": 168235000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 5454000000.0,
+    "official": 5454000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2235000000.0,
+    "official": 2235000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 89463000000.0,
+    "official": 89463000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:36:00+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -205,7 +247,10 @@
    "goodwill_and_intangibles": 10368000000.0,
    "retained_earnings": 29473000000.0,
    "total_debt": 56794000000.0,
-   "shares_out": 597589776.0
+   "shares_out": 597589776.0,
+   "unusual_items": -10000000.0,
+   "normalized_ebitda": -472000000.0,
+   "normalized_income": -4927100000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -240,7 +285,10 @@
    "goodwill_and_intangibles": 10187000000.0,
    "retained_earnings": 27251000000.0,
    "total_debt": 52055000000.0,
-   "shares_out": 609515023.0
+   "shares_out": 609515023.0,
+   "unusual_items": 48000000.0,
+   "normalized_ebitda": 2267000000.0,
+   "normalized_income": -2259920000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -275,7 +323,10 @@
    "goodwill_and_intangibles": 10041000000.0,
    "retained_earnings": 15362000000.0,
    "total_debt": 53625000000.0,
-   "shares_out": 749216319.0
+   "shares_out": 749216319.0,
+   "unusual_items": 117000000.0,
+   "normalized_ebitda": -7766000000.0,
+   "normalized_income": -11930349140.04914
   },
   {
    "fy_end": "2025-12-31",
@@ -310,7 +361,10 @@
    "goodwill_and_intangibles": 18842000000.0,
    "retained_earnings": 17252000000.0,
    "total_debt": 53848000000.0,
-   "shares_out": 784698272.0
+   "shares_out": 784698272.0,
+   "unusual_items": 9697000000.0,
+   "normalized_ebitda": -2338000000.0,
+   "normalized_income": -6001009867.172676
   }
  ]
 }

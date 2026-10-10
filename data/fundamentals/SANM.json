@@ -1,6 +1,6 @@
 {
  "ticker": "SANM",
- "fetched_at": "2026-10-10T12:57:30+00:00",
+ "fetched_at": "2026-10-10T15:55:12+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 35000,
   "website": "https://www.sanmina.com",
-  "longBusinessSummary": "Sanmina Corporation provides integrated manufacturing solutions, components, products and repair, logistics, and after-market services in the Americas, the Asia Pacific, Europe, the Middle East, and Africa. The company operates through two businesses: Integrated Manufacturing Solutions; and Components, Products and Services. The company offers product design and engineering, including concept development, detailed design, prototyping, validation, preproduction, manufacturing design release, and product industrialization; assembly and test services; direct order fulfillment and logistics services; after-market product service and support; and supply chain management services, as well as engaging in the manufacture of components, subassemblies, and complete systems; and direct order fulfilment and logistics services. In addition, the company provides components, such as printed circuit boards, backplane fabrication and backplane assemblies, cable assemblies, fabricated metal parts, precision machined parts, and plastic injected molded parts; memory solutions; storage platforms; optical, radio frequency, and microelectronic solutions; defense and aerospace products, design, manufacturing, repair, and refurbishment services; and cloud-based manufacturing execution software. It offers its products and services primarily to original equipment manufacturers in the industrial, medical, defense and aerospace, automotive, communications networks, and cloud infrastructure industries. The company was formerly known as Sanmina-SCI Corp. Sanmina Corporation was incorporated in 1980 and is headquartered in San Jose, California."
+  "longBusinessSummary": "Sanmina Corporation provides integrated manufacturing solutions, components, products and repair, logistics, and after-market services in the Americas, the Asia Pacific, Europe, the Middle East, and Africa. The company operates through two businesses: Integrated Manufacturing Solutions; and Components, Products and Services. The company offers product design and engineering, including concept development, detailed design, prototyping, validation, preproduction, manufacturing design release, and product industrialization; assembly and test services; direct order fulfillment and logistics services; after-market product service and support; and supply chain management services, as well as engaging in the manufacture of components, subassemblies, and complete systems; and direct order fulfilment and logistics services. In addition, the company provides components, such as printed circuit boards, backplane fabrication and backplane assemblies, cable assemblies, fabricated metal parts, precision machined parts, and plastic injected molded parts; memory solutions; storage platforms; optical, radio frequency, and microelectronic solutions; defense and aerospace products, design, manufacturing, repair, and refurbishment services; and cloud-based manufacturing execution software. It offers its products and services primarily to original equipment manufacturers in the industrial, medical, defense and aerospace, automotive, communications networks, and cloud infrastructure industries. The company was formerly known as Sanmina-SCI Corp. Sanmina Corporation was incorporated in 1980 and is headquartered in San Jose, California.",
+  "targetMeanPrice": 260.0,
+  "targetLowPrice": 210.0,
+  "targetHighPrice": 300.0,
+  "numberOfAnalystOpinions": 4,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 15.627257,
+  "forwardEps": 13.91735,
+  "trailingEps": 5.59,
+  "earningsGrowth": 0.683,
+  "revenueGrowth": 0.697
  },
  "governance": {
   "ceo": {
@@ -82,9 +93,40 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "goodwill": "sec",
   "intangibles": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-09-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 5858173000.0,
+    "official": 5858173000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2353906000.0,
+    "official": 2539163000.0,
+    "diff": 0.07296
+   },
+   "net_income": {
+    "yahoo": 245893000.0,
+    "official": 245893000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 8128382000.0,
+    "official": 8128382000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:55:12+00:00",
  "years": [
   {
    "fy_end": "2019-09-28",
@@ -191,7 +233,10 @@
    "ppe_net": 575170000.0,
    "retained_earnings": -3239978000.0,
    "total_debt": 329237000.0,
-   "shares_out": 57394000.0
+   "shares_out": 57394000.0,
+   "unusual_items": -6815000.0,
+   "normalized_ebitda": 440391000.0,
+   "normalized_income": 245802606.5
   },
   {
    "fy_end": "2023-09-30",
@@ -222,7 +267,10 @@
    "ppe_net": 632836000.0,
    "retained_earnings": -2930008000.0,
    "total_debt": 312327000.0,
-   "shares_out": 56833000.0
+   "shares_out": 56833000.0,
+   "unusual_items": -6054000.0,
+   "normalized_ebitda": 573388000.0,
+   "normalized_income": 314773243.6
   },
   {
    "fy_end": "2024-09-28",
@@ -253,7 +301,10 @@
    "ppe_net": 616067000.0,
    "retained_earnings": -2707472000.0,
    "total_debt": 299823000.0,
-   "shares_out": 53921000.0
+   "shares_out": 53921000.0,
+   "unusual_items": -10227000.0,
+   "normalized_ebitda": 479363000.0,
+   "normalized_income": 230193358.958855
   },
   {
    "fy_end": "2025-09-27",
@@ -284,7 +335,10 @@
    "ppe_net": 682354000.0,
    "retained_earnings": -2461579000.0,
    "total_debt": 282974000.0,
-   "shares_out": 53404000.0
+   "shares_out": 53404000.0,
+   "unusual_items": -40481000.0,
+   "normalized_ebitda": 519526000.0,
+   "normalized_income": 277647808.26567
   }
  ]
 }

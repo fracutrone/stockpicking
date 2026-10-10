@@ -1,6 +1,6 @@
 {
  "ticker": "IQV",
- "fetched_at": "2026-10-10T12:48:58+00:00",
+ "fetched_at": "2026-10-10T15:47:20+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 94000,
   "website": "https://www.iqvia.com",
-  "longBusinessSummary": "IQVIA Holdings Inc. provides clinical research services, commercial insights, and healthcare intelligence to the life sciences and healthcare industries in the Americas, Europe, Africa, and the Asia-Pacific. It operates through three segments: Technology & Analytics Solutions, Research & Development Solutions, and Contract Sales & Medical Solutions. The Technology & Analytics Solutions segment offers a range of cloud-based applications and associated implementation services; real world solutions that enable life sciences and provider customers to generate and disseminate evidence, which informs health care decision making and improves patients' outcomes; and strategic and implementation consulting services, such as advanced analytics and commercial processes outsourcing services. This segment also provides country level performance metrics related to sales of pharmaceutical products, prescribing trends, medical treatment, and promotional activity across various channels, including retail, hospital, and mail order; and measurement of sales or prescribing activity at the regional, zip code, and individual prescriber level. The Research & Development Solutions segment offers project management and clinical monitoring; clinical trial support; strategic planning and design services; and patient and site centric solutions, as well as central laboratory, genomic, bioanalytical, ADME, discovery, vaccine and biomarker laboratory services. The Contract Sales & Medical Solutions segment provides health care provider and patient engagement services, and scientific strategy and medical services. It serves pharmaceutical, biotechnology, device and diagnostic, and consumer health companies. The company has a strategic collaboration with Kexing Biopharm Co., Ltd. for biosimilar development. The company was formerly known as Quintiles IMS Holdings, Inc. and changed its name to IQVIA Holdings Inc. in November 2017. IQVIA Holdings Inc. is based in Durham, North Carolina."
+  "longBusinessSummary": "IQVIA Holdings Inc. provides clinical research services, commercial insights, and healthcare intelligence to the life sciences and healthcare industries in the Americas, Europe, Africa, and the Asia-Pacific. It operates through three segments: Technology & Analytics Solutions, Research & Development Solutions, and Contract Sales & Medical Solutions. The Technology & Analytics Solutions segment offers a range of cloud-based applications and associated implementation services; real world solutions that enable life sciences and provider customers to generate and disseminate evidence, which informs health care decision making and improves patients' outcomes; and strategic and implementation consulting services, such as advanced analytics and commercial processes outsourcing services. This segment also provides country level performance metrics related to sales of pharmaceutical products, prescribing trends, medical treatment, and promotional activity across various channels, including retail, hospital, and mail order; and measurement of sales or prescribing activity at the regional, zip code, and individual prescriber level. The Research & Development Solutions segment offers project management and clinical monitoring; clinical trial support; strategic planning and design services; and patient and site centric solutions, as well as central laboratory, genomic, bioanalytical, ADME, discovery, vaccine and biomarker laboratory services. The Contract Sales & Medical Solutions segment provides health care provider and patient engagement services, and scientific strategy and medical services. It serves pharmaceutical, biotechnology, device and diagnostic, and consumer health companies. The company has a strategic collaboration with Kexing Biopharm Co., Ltd. for biosimilar development. The company was formerly known as Quintiles IMS Holdings, Inc. and changed its name to IQVIA Holdings Inc. in November 2017. IQVIA Holdings Inc. is based in Durham, North Carolina.",
+  "targetMeanPrice": 295.05264,
+  "targetLowPrice": 250.0,
+  "targetHighPrice": 345.0,
+  "numberOfAnalystOpinions": 19,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.40909,
+  "forwardPE": 18.008642,
+  "forwardEps": 14.43085,
+  "trailingEps": 8.05,
+  "earningsGrowth": -0.006,
+  "revenueGrowth": 0.087
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 29944000000.0,
+    "official": 29944000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 6503000000.0,
+    "official": 6503000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1360000000.0,
+    "official": 1360000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 16310000000.0,
+    "official": 16310000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:47:20+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -200,7 +242,10 @@
    "goodwill_and_intangibles": 18741000000.0,
    "retained_earnings": 3334000000.0,
    "total_debt": 12747000000.0,
-   "shares_out": 185700000.0
+   "shares_out": 185700000.0,
+   "unusual_items": -28000000.0,
+   "normalized_ebitda": 2937000000.0,
+   "normalized_income": 1113652000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -234,7 +279,10 @@
    "goodwill_and_intangibles": 19406000000.0,
    "retained_earnings": 4692000000.0,
    "total_debt": 13673000000.0,
-   "shares_out": 181500000.0
+   "shares_out": 181500000.0,
+   "unusual_items": -90000000.0,
+   "normalized_ebitda": 3346000000.0,
+   "normalized_income": 1441790000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -268,7 +316,10 @@
    "goodwill_and_intangibles": 19209000000.0,
    "retained_earnings": 6065000000.0,
    "total_debt": 13983000000.0,
-   "shares_out": 176100000.0
+   "shares_out": 176100000.0,
+   "unusual_items": -67000000.0,
+   "normalized_ebitda": 3520000000.0,
+   "normalized_income": 1427940000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -302,7 +353,10 @@
    "goodwill_and_intangibles": 21578000000.0,
    "retained_earnings": 7425000000.0,
    "total_debt": 15724000000.0,
-   "shares_out": 169600000.0
+   "shares_out": 169600000.0,
+   "unusual_items": -111000000.0,
+   "normalized_ebitda": 3575000000.0,
+   "normalized_income": 1453462000.0
   }
  ]
 }

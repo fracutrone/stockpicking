@@ -1,6 +1,6 @@
 {
  "ticker": "EXEL",
- "fetched_at": "2026-10-10T12:44:58+00:00",
+ "fetched_at": "2026-10-10T15:43:18+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 1077,
   "website": "https://www.exelixis.com",
-  "longBusinessSummary": "Exelixis, Inc., an oncology company, focuses on the discovery, development, and commercialization of new medicines for difficult-to-treat cancers in the United States. The company offers CABOMETYX tablets for the treatment of patients with advanced renal cell carcinoma who received prior anti-angiogenic therapy; and COMETRIQ capsules for the treatment of progressive and metastatic medullary thyroid cancer. Its CABOMETYX and COMETRIQ are derived from cabozantinib, an inhibitor of multiple tyrosine kinases, including MET, AXL, RET, and VEGF receptors. The company also offers COTELLIC, an inhibitor of MEK as a combination regimen to treat specific forms of advanced melanoma; and MINNEBRO, an oral non-steroidal selective blocker of the mineralocorticoid receptor for the treatment of hypertension in Japan. It develops zanzalintinib, a novel, potent oral inhibitor of kinases, including the TAM kinases, MET, and VEGF receptors; XL309, a small molecule inhibitor of USP1, a synthetic lethal target in the context of BRCA-mutated tumors; XB010, an antibody-drug conjugates (ADC) consisting of a MMAE payload conjugated to a monoclonal antibody targeting the tumor antigen 5T4;  XB628, a first-in-class bispecific antibody that targets programmed cell death ligand 1and natural killer cell receptor group 2A; and XB371, a next-generation tissue factor targeting ADC with a topoisomerase inhibitor payload. It has research collaborations and license agreements with Ipsen Pharma SAS; Takeda Pharmaceutical Company Ltd.; F. Hoffmann-La Roche Ltd.; Catalent, Inc.; Iconic Therapeutics, Inc.; Adagene Inc.; Invenra, Inc.; Genentech, Inc.; Bristol-Myers Squibb Company; and Daiichi Sankyo Company, Limited, as well as business development activities and other collaborations. The company was formerly known as Exelixis Pharmaceuticals, Inc. and changed its name to Exelixis, Inc. in February 2000. Exelixis, Inc. was incorporated in 1994 and is headquartered in Alameda, California."
+  "longBusinessSummary": "Exelixis, Inc., an oncology company, focuses on the discovery, development, and commercialization of new medicines for difficult-to-treat cancers in the United States. The company offers CABOMETYX tablets for the treatment of patients with advanced renal cell carcinoma who received prior anti-angiogenic therapy; and COMETRIQ capsules for the treatment of progressive and metastatic medullary thyroid cancer. Its CABOMETYX and COMETRIQ are derived from cabozantinib, an inhibitor of multiple tyrosine kinases, including MET, AXL, RET, and VEGF receptors. The company also offers COTELLIC, an inhibitor of MEK as a combination regimen to treat specific forms of advanced melanoma; and MINNEBRO, an oral non-steroidal selective blocker of the mineralocorticoid receptor for the treatment of hypertension in Japan. It develops zanzalintinib, a novel, potent oral inhibitor of kinases, including the TAM kinases, MET, and VEGF receptors; XL309, a small molecule inhibitor of USP1, a synthetic lethal target in the context of BRCA-mutated tumors; XB010, an antibody-drug conjugates (ADC) consisting of a MMAE payload conjugated to a monoclonal antibody targeting the tumor antigen 5T4;  XB628, a first-in-class bispecific antibody that targets programmed cell death ligand 1and natural killer cell receptor group 2A; and XB371, a next-generation tissue factor targeting ADC with a topoisomerase inhibitor payload. It has research collaborations and license agreements with Ipsen Pharma SAS; Takeda Pharmaceutical Company Ltd.; F. Hoffmann-La Roche Ltd.; Catalent, Inc.; Iconic Therapeutics, Inc.; Adagene Inc.; Invenra, Inc.; Genentech, Inc.; Bristol-Myers Squibb Company; and Daiichi Sankyo Company, Limited, as well as business development activities and other collaborations. The company was formerly known as Exelixis Pharmaceuticals, Inc. and changed its name to Exelixis, Inc. in February 2000. Exelixis, Inc. was incorporated in 1994 and is headquartered in Alameda, California.",
+  "targetMeanPrice": 54.86667,
+  "targetLowPrice": 41.0,
+  "targetHighPrice": 70.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.33333,
+  "forwardPE": 14.005615,
+  "forwardEps": 4.274,
+  "trailingEps": 3.17,
+  "earningsGrowth": 0.262,
+  "revenueGrowth": 0.106
  },
  "governance": {
   "ceo": {
@@ -83,9 +94,40 @@
   "retained_earnings": "sec",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "interest_expense": "sec",
   "current_liabilities": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 2844423000.0,
+    "official": 2844423000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2161319000.0,
+    "official": 2161319000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 782570000.0,
+    "official": 782570000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2320126000.0,
+    "official": 2320126000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:43:18+00:00",
  "years": [
   {
    "fy_end": "2020-01-03",
@@ -194,7 +236,10 @@
    "goodwill_and_intangibles": 63684000.0,
    "retained_earnings": -34225000.0,
    "total_debt": 190170000.0,
-   "shares_out": 323951000.0
+   "shares_out": 323951000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 222359000.0,
+   "normalized_income": 182282000.0
   },
   {
    "fy_end": "2023-12-29",
@@ -227,7 +272,10 @@
    "goodwill_and_intangibles": 63684000.0,
    "retained_earnings": -173351000.0,
    "total_debt": 189944000.0,
-   "shares_out": 302793000.0
+   "shares_out": 302793000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 196602000.0,
+   "normalized_income": 207765000.0
   },
   {
    "fy_end": "2025-01-03",
@@ -260,7 +308,10 @@
    "goodwill_and_intangibles": 63684000.0,
    "retained_earnings": -98647000.0,
    "total_debt": 190823000.0,
-   "shares_out": 281732000.0
+   "shares_out": 281732000.0,
+   "unusual_items": -85332000.0,
+   "normalized_ebitda": 804084000.0,
+   "normalized_income": 586545980.0
   },
   {
    "fy_end": "2026-01-02",
@@ -293,7 +344,10 @@
    "goodwill_and_intangibles": 63684000.0,
    "retained_earnings": -76830000.0,
    "total_debt": 173038000.0,
-   "shares_out": 262483000.0
+   "shares_out": 262483000.0,
+   "unusual_items": -20510000.0,
+   "normalized_ebitda": 942266000.0,
+   "normalized_income": 799613810.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "KNEBV.HE",
- "fetched_at": "2026-10-10T12:05:46+00:00",
+ "fetched_at": "2026-10-10T15:01:26+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "HEL",
   "fullTimeEmployees": 64907,
   "website": "https://www.kone.com",
-  "longBusinessSummary": "KONE Oyj, together with its subsidiaries, engages in the elevator and escalator business worldwide. The company provides elevators, escalators, automatic building doors, and integrated access control solutions, as well as maintenance and modernization solutions. It also offers KONE Office Flow, a modular connected people flow solution that delivers personalized access and enhanced user experiences in workplaces; health and well-being solutions for elevators, escalators, and doors; KONE Access, an access control system, which is integrated with elevator system and building doors; KONE Destination, a destination control system that reduce waiting and travel times; KONE infotainment, a communication channel for building tenants and visitors; and monitoring solutions that enable real-time inspection of elevators and escalators. In addition, the company provides people flow planning and consulting services; solutions for special buildings and large projects; cybersecurity solutions; and energy solutions for greener buildings. It also offers hands-on, immersive training to technicians, engineers, and service professional through a training center in Egypt. KONE Oyj was founded in 1908 and is based in Espoo, Finland."
+  "longBusinessSummary": "KONE Oyj, together with its subsidiaries, engages in the elevator and escalator business worldwide. The company provides elevators, escalators, automatic building doors, and integrated access control solutions, as well as maintenance and modernization solutions. It also offers KONE Office Flow, a modular connected people flow solution that delivers personalized access and enhanced user experiences in workplaces; health and well-being solutions for elevators, escalators, and doors; KONE Access, an access control system, which is integrated with elevator system and building doors; KONE Destination, a destination control system that reduce waiting and travel times; KONE infotainment, a communication channel for building tenants and visitors; and monitoring solutions that enable real-time inspection of elevators and escalators. In addition, the company provides people flow planning and consulting services; solutions for special buildings and large projects; cybersecurity solutions; and energy solutions for greener buildings. It also offers hands-on, immersive training to technicians, engineers, and service professional through a training center in Egypt. KONE Oyj was founded in 1908 and is based in Espoo, Finland.",
+  "targetMeanPrice": 59.70455,
+  "targetLowPrice": 45.0,
+  "targetHighPrice": 82.0,
+  "numberOfAnalystOpinions": 22,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.2381,
+  "forwardPE": 21.430971,
+  "forwardEps": 2.47119,
+  "trailingEps": 1.82,
+  "earningsGrowth": -0.132,
+  "revenueGrowth": 0.031
  },
  "governance": {
   "ceo": {
@@ -77,8 +88,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF FI",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 9052000000.0,
+    "official": 9052000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2797300000.0,
+    "official": 2797400000.0,
+    "diff": 3.6e-05
+   },
+   "net_income": {
+    "yahoo": 980100000.0,
+    "official": 980100000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 11245200000.0,
+    "official": 11245200000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:01:26+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -113,7 +156,10 @@
    "goodwill_and_intangibles": 1622900000.0,
    "retained_earnings": 2420900000.0,
    "total_debt": 532600000.0,
-   "shares_out": 517089220.0
+   "shares_out": 517089220.0,
+   "unusual_items": -45400000.0,
+   "normalized_ebitda": 1355900000.0,
+   "normalized_income": 809128315.830416
   },
   {
    "fy_end": "2023-12-31",
@@ -148,7 +194,10 @@
    "goodwill_and_intangibles": 1756200000.0,
    "retained_earnings": 2386600000.0,
    "total_debt": 554800000.0,
-   "shares_out": 517236701.0
+   "shares_out": 517236701.0,
+   "unusual_items": -48300000.0,
+   "normalized_ebitda": 1549100000.0,
+   "normalized_income": 963103250.145096
   },
   {
    "fy_end": "2024-12-31",
@@ -183,7 +232,10 @@
    "goodwill_and_intangibles": 1891700000.0,
    "retained_earnings": 2449700000.0,
    "total_debt": 836400000.0,
-   "shares_out": 517528108.0
+   "shares_out": 517528108.0,
+   "unusual_items": -36000000.0,
+   "normalized_ebitda": 1581600000.0,
+   "normalized_income": 951300000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -218,7 +270,9 @@
    "goodwill_and_intangibles": 1889700000.0,
    "retained_earnings": 2527600000.0,
    "total_debt": 857900000.0,
-   "shares_out": 517858622.0
+   "shares_out": 517858622.0,
+   "normalized_ebitda": 1687100000.0,
+   "normalized_income": 980100000.0
   }
  ]
 }

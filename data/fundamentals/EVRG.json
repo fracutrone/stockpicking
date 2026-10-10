@@ -1,6 +1,6 @@
 {
  "ticker": "EVRG",
- "fetched_at": "2026-10-10T12:44:48+00:00",
+ "fetched_at": "2026-10-10T15:43:10+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 4691,
   "website": "https://investors.evergy.com",
-  "longBusinessSummary": "Evergy, Inc., together with its subsidiaries, engages in the generation, transmission, distribution, and sale of electricity in the United States. The company generates electricity through coal, landfill gas, uranium, and natural gas and oil sources, as well as solar, wind, and other renewable sources. It serves residences, commercial firms, industrials, municipalities, and other electric utilities. The company was incorporated in 2017 and is headquartered in Kansas City, Missouri."
+  "longBusinessSummary": "Evergy, Inc., together with its subsidiaries, engages in the generation, transmission, distribution, and sale of electricity in the United States. The company generates electricity through coal, landfill gas, uranium, and natural gas and oil sources, as well as solar, wind, and other renewable sources. It serves residences, commercial firms, industrials, municipalities, and other electric utilities. The company was incorporated in 2017 and is headquartered in Kansas City, Missouri.",
+  "targetMeanPrice": 91.18182,
+  "targetLowPrice": 80.0,
+  "targetHighPrice": 103.0,
+  "numberOfAnalystOpinions": 11,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.92308,
+  "forwardPE": 17.765646,
+  "forwardEps": 4.55711,
+  "trailingEps": 3.93,
+  "earningsGrowth": 0.23,
+  "revenueGrowth": 0.044
  },
  "governance": {
   "ceo": {
@@ -82,8 +93,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 33948500000.0,
+    "official": 33948500000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 10221300000.0,
+    "official": 10221300000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 855600000.0,
+    "official": 855600000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 5961600000.0,
+    "official": 5961600000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:43:10+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -184,7 +226,10 @@
    "goodwill_and_intangibles": 2336600000.0,
    "retained_earnings": 2298500000.0,
    "total_debt": 10344800000.0,
-   "shares_out": 229546105.0
+   "shares_out": 229546105.0,
+   "unusual_items": -25500000.0,
+   "normalized_ebitda": 2219600000.0,
+   "normalized_income": 776721000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -216,7 +261,10 @@
    "goodwill_and_intangibles": 2336600000.0,
    "retained_earnings": 2457800000.0,
    "total_debt": 12805100000.0,
-   "shares_out": 229729296.0
+   "shares_out": 229729296.0,
+   "unusual_items": 29700000.0,
+   "normalized_ebitda": 2386800000.0,
+   "normalized_income": 702194000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -248,7 +296,10 @@
    "goodwill_and_intangibles": 2336600000.0,
    "retained_earnings": 2732900000.0,
    "total_debt": 13668500000.0,
-   "shares_out": 229983615.0
+   "shares_out": 229983615.0,
+   "unusual_items": 4600000.0,
+   "normalized_ebitda": 2637000000.0,
+   "normalized_income": 869051800.0
   },
   {
    "fy_end": "2025-12-31",
@@ -280,7 +331,10 @@
    "goodwill_and_intangibles": 2336600000.0,
    "retained_earnings": 2966200000.0,
    "total_debt": 14800200000.0,
-   "shares_out": 230262674.0
+   "shares_out": 230262674.0,
+   "unusual_items": -35000000.0,
+   "normalized_ebitda": 2760400000.0,
+   "normalized_income": 889445000.0
   }
  ]
 }

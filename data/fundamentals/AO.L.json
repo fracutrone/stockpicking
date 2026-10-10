@@ -1,6 +1,6 @@
 {
  "ticker": "AO.L",
- "fetched_at": "2026-10-10T11:45:33+00:00",
+ "fetched_at": "2026-10-10T14:31:11+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.4683,
   "heldPercentInstitutions": 0.41852,
   "shortPercentOfFloat": null,
-  "averageVolume": 711602,
+  "averageVolume": 709049,
   "quoteType": "EQUITY",
   "exchange": "LSE",
   "fullTimeEmployees": 2892,
   "website": "https://www.ao-world.com",
-  "longBusinessSummary": "AO World plc, together with its subsidiaries, engages in the online retailing of domestic appliances and ancillary services in the United Kingdom and Germany. It retails fridges and freezers, laundry products, and dishwashers, as well as smart tech, computing, AV, consumer electronics, gaming and smart home products, and TV and entertainment products through its e-commerce platforms. The company also engages in the production of content, including imagery, videos, how-to guides and lifestyle contents, and energy efficiency ratings; and operation of waste electrical and electronic equipment (WEEE) and plastics recycling facilities, as well as distribution centers. In addition, the company offers musicMagpie, a reverse supply chain platform that provides customers options to train in tech and to buy second-life products. Further, it provides logistics and transport services. The company sells its products through its website, marketplaces, and third-party websites. AO World plc was founded in 2000 and is headquartered in Bolton, the United Kingdom."
+  "longBusinessSummary": "AO World plc, together with its subsidiaries, engages in the online retailing of domestic appliances and ancillary services in the United Kingdom and Germany. It retails fridges and freezers, laundry products, and dishwashers, as well as smart tech, computing, AV, consumer electronics, gaming and smart home products, and TV and entertainment products through its e-commerce platforms. The company also engages in the production of content, including imagery, videos, how-to guides and lifestyle contents, and energy efficiency ratings; and operation of waste electrical and electronic equipment (WEEE) and plastics recycling facilities, as well as distribution centers. In addition, the company offers musicMagpie, a reverse supply chain platform that provides customers options to train in tech and to buy second-life products. Further, it provides logistics and transport services. The company sells its products through its website, marketplaces, and third-party websites. AO World plc was founded in 2000 and is headquartered in Bolton, the United Kingdom.",
+  "targetMeanPrice": 146.75,
+  "targetLowPrice": 125.0,
+  "targetHighPrice": 170.0,
+  "numberOfAnalystOpinions": 4,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.0,
+  "forwardPE": 11.518987,
+  "forwardEps": 0.079,
+  "trailingEps": 0.06,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.089
  },
  "governance": {
   "ceo": {
@@ -70,8 +81,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2026-03-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 485400000.0,
+    "official": 485400000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 175500000.0,
+    "official": 175500000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 35900000.0,
+    "official": 35900000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1266500000.0,
+    "official": 1266600000.0,
+    "diff": 7.9e-05
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2026-03-31"
+ },
+ "info_at": "2026-10-10T14:31:11+00:00",
  "years": [
   {
    "fy_end": "2023-03-31",
@@ -105,7 +148,9 @@
    "goodwill_and_intangibles": 37800000.0,
    "retained_earnings": -63300000.0,
    "total_debt": 95300000.0,
-   "shares_out": 576400777.0
+   "shares_out": 576400777.0,
+   "normalized_ebitda": 43100000.0,
+   "normalized_income": 6200000.0
   },
   {
    "fy_end": "2024-03-31",
@@ -139,7 +184,9 @@
    "goodwill_and_intangibles": 37800000.0,
    "retained_earnings": -36500000.0,
    "total_debt": 70900000.0,
-   "shares_out": 577781870.0
+   "shares_out": 577781870.0,
+   "normalized_ebitda": 63300000.0,
+   "normalized_income": 24700000.0
   },
   {
    "fy_end": "2025-03-31",
@@ -173,7 +220,10 @@
    "goodwill_and_intangibles": 38600000.0,
    "retained_earnings": -22800000.0,
    "total_debt": 63300000.0,
-   "shares_out": 569138358.0
+   "shares_out": 569138358.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 51300000.0,
+   "normalized_income": 44000000.0
   },
   {
    "fy_end": "2026-03-31",
@@ -206,7 +256,10 @@
    "goodwill_and_intangibles": 36800000.0,
    "retained_earnings": 4600000.0,
    "total_debt": 64800000.0,
-   "shares_out": 559515012.0
+   "shares_out": 559515012.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 83700000.0,
+   "normalized_income": 35900000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "KGF.L",
- "fetched_at": "2026-10-10T12:05:27+00:00",
+ "fetched_at": "2026-10-10T15:01:01+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 69720,
   "website": "https://www.kingfisher.com",
-  "longBusinessSummary": "Kingfisher plc, together with its subsidiaries, supplies home improvement products and services in the United Kingdom, Ireland, France, Poland, and internationally. The company operates retail stores under the B&Q, Castorama, Brico Dépôt, Screwfix, TradePoint, and Koçtas brand names. It sells its products to consumers and trade professionals through stores and e-commerce channels. Kingfisher plc was incorporated in 1982 and is based in London, the United Kingdom."
+  "longBusinessSummary": "Kingfisher plc, together with its subsidiaries, supplies home improvement products and services in the United Kingdom, Ireland, France, Poland, and internationally. The company operates retail stores under the B&Q, Castorama, Brico Dépôt, Screwfix, TradePoint, and Koçtas brand names. It sells its products to consumers and trade professionals through stores and e-commerce channels. Kingfisher plc was incorporated in 1982 and is based in London, the United Kingdom.",
+  "targetMeanPrice": 331.22202,
+  "targetLowPrice": 265.0,
+  "targetHighPrice": 400.0,
+  "numberOfAnalystOpinions": 18,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.88235,
+  "forwardPE": 10.979527,
+  "forwardEps": 0.28963,
+  "trailingEps": 0.18,
+  "earningsGrowth": 0.288,
+  "revenueGrowth": 0.008
  },
  "governance": {
   "ceo": {
@@ -76,8 +87,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2026-01-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 11398000000.0,
+    "official": 11398000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 6158000000.0,
+    "official": 6158000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 245000000.0,
+    "official": 245000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 12945000000.0,
+    "official": 12945000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2026-01-31"
+ },
+ "info_at": "2026-10-10T15:01:01+00:00",
  "years": [
   {
    "fy_end": "2023-01-31",
@@ -111,7 +154,9 @@
    "goodwill_and_intangibles": 2779000000.0,
    "retained_earnings": 3796000000.0,
    "total_debt": 2562000000.0,
-   "shares_out": 1940000000.0
+   "shares_out": 1940000000.0,
+   "normalized_ebitda": 1322000000.0,
+   "normalized_income": 471000000.0
   },
   {
    "fy_end": "2024-01-31",
@@ -145,7 +190,9 @@
    "goodwill_and_intangibles": 2766000000.0,
    "retained_earnings": 3741000000.0,
    "total_debt": 2476000000.0,
-   "shares_out": 1864256017.0
+   "shares_out": 1864256017.0,
+   "normalized_ebitda": 1249000000.0,
+   "normalized_income": 345000000.0
   },
   {
    "fy_end": "2025-01-31",
@@ -179,7 +226,9 @@
    "goodwill_and_intangibles": 2624000000.0,
    "retained_earnings": 3475000000.0,
    "total_debt": 2320000000.0,
-   "shares_out": 1781595280.0
+   "shares_out": 1781595280.0,
+   "normalized_ebitda": 1095000000.0,
+   "normalized_income": 185000000.0
   },
   {
    "fy_end": "2026-01-31",
@@ -213,7 +262,9 @@
    "goodwill_and_intangibles": 2500000000.0,
    "retained_earnings": 3212000000.0,
    "total_debt": 2341000000.0,
-   "shares_out": 1696765735.0
+   "shares_out": 1696765735.0,
+   "normalized_ebitda": 1169000000.0,
+   "normalized_income": 245000000.0
   }
  ]
 }

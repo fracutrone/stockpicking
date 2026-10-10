@@ -1,6 +1,6 @@
 {
  "ticker": "HAE",
- "fetched_at": "2026-10-10T12:47:24+00:00",
+ "fetched_at": "2026-10-10T15:45:47+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 3009,
   "website": "https://www.haemonetics.com",
-  "longBusinessSummary": "Haemonetics Corporation, a medical technology company, provides a suite of hospital technologies solutions. The company operates through Plasma, Blood Center, and Hospital segments. It provides automated plasma collection systems, donor management software, and supporting software solutions, such as NexSys PCS plasmapheresis equipment system and related disposables and solutions, as well as integrated information technology platforms for plasma customers to manage their donors, operations, and supply chain; and NexLynk DMS donor management system and Donor360 tools. The company also offers treatment in electrophysiology, critical care, neurocritical care, trauma, burn surgery, spine surgery, and cancer surgery; SavvyWire, a sensor-guided 3-in-1 guidewire for TAVR procedures; and OptoWire, a pressure guidewire that measures fractional flow reserve and diastolic pressure ratio, as well as fiber optic sensor solutions used in medical devices and other critical industrial applications. In addition, it provides hospital products comprising TEG 6s system, smallest cartridge-based viscoelastic analyzer that provides a comprehensive assessment of a patient's overall hemostasis; and TEG Manager software, which connects various TEG analyzers throughout the hospital, providing clinicians remote access to active and historical test results that inform treatment decisions. Further, the company offers Cell Saver Elite +, an autologous blood recovery system for cardiovascular, orthopedic, trauma, transplant, vascular, obstetrical, and gynecological surgeries;vascular closure products comprise VASCADE 5F, VASCADE 6/7F, VASCADE MVP XL, and VASCADE MVP, a technology platform which offers catheter-based delivery system and leverages the natural clot-inducing properties of collagen; and transfusion management solutions. It sells its products through direct sales force and independent distributors. The company was founded in 1971 and is headquartered in Boston, Massachusetts."
+  "longBusinessSummary": "Haemonetics Corporation, a medical technology company, provides a suite of hospital technologies solutions. The company operates through Plasma, Blood Center, and Hospital segments. It provides automated plasma collection systems, donor management software, and supporting software solutions, such as NexSys PCS plasmapheresis equipment system and related disposables and solutions, as well as integrated information technology platforms for plasma customers to manage their donors, operations, and supply chain; and NexLynk DMS donor management system and Donor360 tools. The company also offers treatment in electrophysiology, critical care, neurocritical care, trauma, burn surgery, spine surgery, and cancer surgery; SavvyWire, a sensor-guided 3-in-1 guidewire for TAVR procedures; and OptoWire, a pressure guidewire that measures fractional flow reserve and diastolic pressure ratio, as well as fiber optic sensor solutions used in medical devices and other critical industrial applications. In addition, it provides hospital products comprising TEG 6s system, smallest cartridge-based viscoelastic analyzer that provides a comprehensive assessment of a patient's overall hemostasis; and TEG Manager software, which connects various TEG analyzers throughout the hospital, providing clinicians remote access to active and historical test results that inform treatment decisions. Further, the company offers Cell Saver Elite +, an autologous blood recovery system for cardiovascular, orthopedic, trauma, transplant, vascular, obstetrical, and gynecological surgeries;vascular closure products comprise VASCADE 5F, VASCADE 6/7F, VASCADE MVP XL, and VASCADE MVP, a technology platform which offers catheter-based delivery system and leverages the natural clot-inducing properties of collagen; and transfusion management solutions. It sells its products through direct sales force and independent distributors. The company was founded in 1971 and is headquartered in Boston, Massachusetts.",
+  "targetMeanPrice": 122.2,
+  "targetLowPrice": 86.0,
+  "targetHighPrice": 140.0,
+  "numberOfAnalystOpinions": 10,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.72727,
+  "forwardPE": 20.400202,
+  "forwardEps": 5.81808,
+  "trailingEps": 2.07,
+  "earningsGrowth": 0.029,
+  "revenueGrowth": 0.056
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-03-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 2395925000.0,
+    "official": 2395925000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 796320000.0,
+    "official": 796320000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 97308000.0,
+    "official": 97308000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1334027000.0,
+    "official": 1334027000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:45:47+00:00",
  "years": [
   {
    "fy_end": "2020-03-28",
@@ -203,7 +245,10 @@
    "goodwill_and_intangibles": 742002000.0,
    "retained_earnings": 253168000.0,
    "total_debt": 765886000.0,
-   "shares_out": 50448519.0
+   "shares_out": 50448519.0,
+   "unusual_items": 382000.0,
+   "normalized_ebitda": 248958000.0,
+   "normalized_income": 115089288.0
   },
   {
    "fy_end": "2024-03-30",
@@ -237,7 +282,10 @@
    "goodwill_and_intangibles": 971199000.0,
    "retained_earnings": 360456000.0,
    "total_debt": 807793000.0,
-   "shares_out": 50787859.0
+   "shares_out": 50787859.0,
+   "unusual_items": -10419000.0,
+   "normalized_ebitda": 272517000.0,
+   "normalized_income": 125622306.0
   },
   {
    "fy_end": "2025-03-29",
@@ -271,7 +319,10 @@
    "goodwill_and_intangibles": 1060011000.0,
    "retained_earnings": 352174000.0,
    "total_debt": 1246120000.0,
-   "shares_out": 48215899.0
+   "shares_out": 48215899.0,
+   "unusual_items": 20631000.0,
+   "normalized_ebitda": 316772000.0,
+   "normalized_income": 151359879.0
   },
   {
    "fy_end": "2026-03-28",
@@ -305,7 +356,10 @@
    "goodwill_and_intangibles": 1104023000.0,
    "retained_earnings": 279344000.0,
    "total_debt": 1239807000.0,
-   "shares_out": 45252667.0
+   "shares_out": 45252667.0,
+   "unusual_items": -84667000.0,
+   "normalized_ebitda": 353118000.0,
+   "normalized_income": 161654920.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "BMPS.MI",
- "fetched_at": "2026-10-10T11:48:17+00:00",
+ "fetched_at": "2026-10-10T14:35:57+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.37628,
   "heldPercentInstitutions": 0.26744,
   "shortPercentOfFloat": null,
-  "averageVolume": 11619029,
+  "averageVolume": 11603053,
   "quoteType": "EQUITY",
   "exchange": "MIL",
   "fullTimeEmployees": 21817,
   "website": "https://www.gruppomps.it",
-  "longBusinessSummary": "Banca Monte dei Paschi di Siena S.p.A., together with its subsidiaries, provides various banking products and services in Italy and internationally. It operates through four segments: Retail Banking, Wealth Management, Corporate Banking, and Large Corporate and Investment Banking. The company offers savings and deposit accounts, cards, advanced payment systems, insurance products, pensions, mortgages, and loans, as well as financial advisory, electronic payment, self-service customer operations, and consultancy services. It also provides asset management, financial planning, consultancy on non-financial services, and fiduciary and trust services; and credit intermediation, collaboration with trade associations, factoring offers, and third-party custody and storage services for dairy products. In addition, the company offers corporate and structured finance, medium and long-term credit, and specialized support, as well as leasing and bancassurance. It serves private customers, corporate and large group clients, and small and medium enterprises. The company was founded in 1472 and is headquartered in Siena, Italy."
+  "longBusinessSummary": "Banca Monte dei Paschi di Siena S.p.A., together with its subsidiaries, provides various banking products and services in Italy and internationally. It operates through four segments: Retail Banking, Wealth Management, Corporate Banking, and Large Corporate and Investment Banking. The company offers savings and deposit accounts, cards, advanced payment systems, insurance products, pensions, mortgages, and loans, as well as financial advisory, electronic payment, self-service customer operations, and consultancy services. It also provides asset management, financial planning, consultancy on non-financial services, and fiduciary and trust services; and credit intermediation, collaboration with trade associations, factoring offers, and third-party custody and storage services for dairy products. In addition, the company offers corporate and structured finance, medium and long-term credit, and specialized support, as well as leasing and bancassurance. It serves private customers, corporate and large group clients, and small and medium enterprises. The company was founded in 1472 and is headquartered in Siena, Italy.",
+  "targetMeanPrice": 11.76667,
+  "targetLowPrice": 10.1,
+  "targetHighPrice": 12.5,
+  "numberOfAnalystOpinions": 6,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": 12.333498,
+  "forwardEps": 0.89188,
+  "trailingEps": 1.17,
+  "earningsGrowth": -0.472,
+  "revenueGrowth": 0.995
  },
  "governance": {
   "ceo": {
@@ -69,8 +80,29 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF IT",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 241640511000.0,
+    "official": 241640511000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2715707000.0,
+    "official": 2715707000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:35:57+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -97,7 +129,9 @@
    "goodwill_and_intangibles": 162649000.0,
    "retained_earnings": -178361000.0,
    "total_debt": 10303201000.0,
-   "shares_out": 1259689706.0
+   "shares_out": 1259689706.0,
+   "unusual_items": -967285000.0,
+   "normalized_income": 556775600.0
   },
   {
    "fy_end": "2023-12-31",
@@ -124,7 +158,9 @@
    "goodwill_and_intangibles": 178224000.0,
    "retained_earnings": 2051781000.0,
    "total_debt": 12941704000.0,
-   "shares_out": 1259689706.0
+   "shares_out": 1259689706.0,
+   "unusual_items": 276214000.0,
+   "normalized_income": 1837514360.0
   },
   {
    "fy_end": "2024-12-31",
@@ -151,7 +187,9 @@
    "goodwill_and_intangibles": 156066000.0,
    "retained_earnings": 1950783000.0,
    "total_debt": 12526969000.0,
-   "shares_out": 1259689706.0
+   "shares_out": 1259689706.0,
+   "unusual_items": -144666000.0,
+   "normalized_income": 2082750160.0
   },
   {
    "fy_end": "2025-12-31",
@@ -178,7 +216,9 @@
    "goodwill_and_intangibles": 3336130000.0,
    "retained_earnings": 2715707000.0,
    "total_debt": 51769910000.0,
-   "shares_out": 3038185181.0
+   "shares_out": 3038185181.0,
+   "unusual_items": -160252000.0,
+   "normalized_income": 2837722520.0
   }
  ]
 }

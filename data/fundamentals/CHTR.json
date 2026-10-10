@@ -1,6 +1,6 @@
 {
  "ticker": "CHTR",
- "fetched_at": "2026-10-10T12:40:49+00:00",
+ "fetched_at": "2026-10-10T15:39:34+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 91900,
   "website": "https://corporate.charter.com",
-  "longBusinessSummary": "Charter Communications, Inc. operates as a broadband connectivity company in the United States. The company offers subscription-based internet, mobile, video, and voice services; broadband connectivity services, including fixed internet, WiFi, and mobile; Spectrum internet products; advanced WiFi services; and in-home WiFi, which provides customers with high performance wireless routers and managed WiFi services to enhance their wireless internet experience. It also offers wireline voice communications services using voice over internet protocol technology; Call Guard, an advanced caller ID and robocall blocking solution; video programming and video services, including access to an interactive programming guide with parental controls, video on demand and pay-per-view services; and broadband communications solutions, such as internet access, data networking, fiber connectivity, video entertainment, and business telephone services. In addition, the company provides advertising services on cable television networks, various streaming services, and advertising platforms for local, regional and national businesses. Further, it offers production and technical services for regional sports networks; owns and manages local news channels, including Spectrum News NY1® and Spectrum News SoCal; and delivers broadband connectivity solutions to apartments, single-family gated communities, off-campus student housing, senior residences, and RV parks. The company was founded in 1993 and is headquartered in Stamford, Connecticut."
+  "longBusinessSummary": "Charter Communications, Inc. operates as a broadband connectivity company in the United States. The company offers subscription-based internet, mobile, video, and voice services; broadband connectivity services, including fixed internet, WiFi, and mobile; Spectrum internet products; advanced WiFi services; and in-home WiFi, which provides customers with high performance wireless routers and managed WiFi services to enhance their wireless internet experience. It also offers wireline voice communications services using voice over internet protocol technology; Call Guard, an advanced caller ID and robocall blocking solution; video programming and video services, including access to an interactive programming guide with parental controls, video on demand and pay-per-view services; and broadband communications solutions, such as internet access, data networking, fiber connectivity, video entertainment, and business telephone services. In addition, the company provides advertising services on cable television networks, various streaming services, and advertising platforms for local, regional and national businesses. Further, it offers production and technical services for regional sports networks; owns and manages local news channels, including Spectrum News NY1® and Spectrum News SoCal; and delivers broadband connectivity solutions to apartments, single-family gated communities, off-campus student housing, senior residences, and RV parks. The company was founded in 1993 and is headquartered in Stamford, Connecticut.",
+  "targetMeanPrice": 176.5,
+  "targetLowPrice": 68.0,
+  "targetHighPrice": 380.0,
+  "numberOfAnalystOpinions": 18,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.0,
+  "forwardPE": 2.197704,
+  "forwardEps": 47.04,
+  "trailingEps": 38.41,
+  "earningsGrowth": 0.161,
+  "revenueGrowth": -0.017
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 154213000000.0,
+    "official": 154213000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 16054000000.0,
+    "official": 16054000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 4987000000.0,
+    "official": 4987000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 54774000000.0,
+    "official": 54774000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:39:34+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -186,7 +228,10 @@
    "goodwill_and_intangibles": 99698000000.0,
    "retained_earnings": -14821000000.0,
    "total_debt": 97603000000.0,
-   "shares_out": 152651397.0
+   "shares_out": 152651397.0,
+   "unusual_items": -379000000.0,
+   "normalized_ebitda": 21300000000.0,
+   "normalized_income": 5352074644.867328
   },
   {
    "fy_end": "2023-12-31",
@@ -219,7 +264,10 @@
    "goodwill_and_intangibles": 98809000000.0,
    "retained_earnings": -12260000000.0,
    "total_debt": 97777000000.0,
-   "shares_out": 145225459.0
+   "shares_out": 145225459.0,
+   "unusual_items": 95000000.0,
+   "normalized_ebitda": 20643000000.0,
+   "normalized_income": 4484040000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -252,7 +300,10 @@
    "goodwill_and_intangibles": 98111000000.0,
    "retained_earnings": -7750000000.0,
    "total_debt": 93933000000.0,
-   "shares_out": 141946427.0
+   "shares_out": 141946427.0,
+   "unusual_items": -160000000.0,
+   "normalized_ebitda": 21564000000.0,
+   "normalized_income": 5207800000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -285,7 +336,10 @@
    "goodwill_and_intangibles": 97621000000.0,
    "retained_earnings": -5393000000.0,
    "total_debt": 94756000000.0,
-   "shares_out": 126631550.0
+   "shares_out": 126631550.0,
+   "unusual_items": -471000000.0,
+   "normalized_ebitda": 21682000000.0,
+   "normalized_income": 5351083000.0
   }
  ]
 }

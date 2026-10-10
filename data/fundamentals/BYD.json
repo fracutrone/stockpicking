@@ -1,6 +1,6 @@
 {
  "ticker": "BYD",
- "fetched_at": "2026-10-10T12:39:43+00:00",
+ "fetched_at": "2026-10-10T15:38:34+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 16009,
   "website": "https://www.boydgaming.com",
-  "longBusinessSummary": "Boyd Gaming Corporation, together with its subsidiaries, operates as a multi-jurisdictional gaming company in the United States and Canada. The company operates through Las Vegas Locals, Downtown Las Vegas, Midwest & South, and Online segments. It owns and operates casinos; Boyd Interactive, an online casino gaming business; and a travel agency. The company was formerly known as The Boyd Group and changed its name to Boyd Gaming Corporation in April 1993. Boyd Gaming Corporation was founded in 1975 and is headquartered in Las Vegas, Nevada."
+  "longBusinessSummary": "Boyd Gaming Corporation, together with its subsidiaries, operates as a multi-jurisdictional gaming company in the United States and Canada. The company operates through Las Vegas Locals, Downtown Las Vegas, Midwest & South, and Online segments. It owns and operates casinos; Boyd Interactive, an online casino gaming business; and a travel agency. The company was formerly known as The Boyd Group and changed its name to Boyd Gaming Corporation in April 1993. Boyd Gaming Corporation was founded in 1975 and is headquartered in Las Vegas, Nevada.",
+  "targetMeanPrice": 95.5,
+  "targetLowPrice": 85.0,
+  "targetHighPrice": 111.0,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.26316,
+  "forwardPE": 8.918544,
+  "forwardEps": 7.72884,
+  "trailingEps": 22.91,
+  "earningsGrowth": -0.049,
+  "revenueGrowth": 0.0
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 6574690000.0,
+    "official": 6574690000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2608499000.0,
+    "official": 2608499000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1843273000.0,
+    "official": 1843273000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 4091989000.0,
+    "official": 4091989000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:38:34+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -197,7 +239,10 @@
    "goodwill_and_intangibles": 2460879000.0,
    "retained_earnings": 1285827000.0,
    "total_debt": 3049409000.0,
-   "shares_out": 102816110.0
+   "shares_out": 102816110.0,
+   "unusual_items": -60590000.0,
+   "normalized_ebitda": 1298824000.0,
+   "normalized_income": 686118761.558193
   },
   {
    "fy_end": "2023-12-31",
@@ -231,7 +276,10 @@
    "goodwill_and_intangibles": 2340185000.0,
    "retained_earnings": 1744232000.0,
    "total_debt": 2915498000.0,
-   "shares_out": 96832453.0
+   "shares_out": 96832453.0,
+   "unusual_items": -107837000.0,
+   "normalized_ebitda": 1288771000.0,
+   "normalized_income": 708880688.0
   },
   {
    "fy_end": "2024-12-31",
@@ -265,7 +313,10 @@
    "goodwill_and_intangibles": 2348896000.0,
    "retained_earnings": 1583053000.0,
    "total_debt": 3176590000.0,
-   "shares_out": 86184155.0
+   "shares_out": 86184155.0,
+   "unusual_items": -10500000.0,
+   "normalized_ebitda": 1216551000.0,
+   "normalized_income": 586026500.0
   },
   {
    "fy_end": "2025-12-31",
@@ -299,7 +350,10 @@
    "goodwill_and_intangibles": 2432968000.0,
    "retained_earnings": 2609285000.0,
    "total_debt": 2045569000.0,
-   "shares_out": 76368491.0
+   "shares_out": 76368491.0,
+   "unusual_items": -129841000.0,
+   "normalized_ebitda": 2919864000.0,
+   "normalized_income": 1945717549.0
   }
  ]
 }

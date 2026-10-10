@@ -1,6 +1,6 @@
 {
  "ticker": "DPLM.L",
- "fetched_at": "2026-10-10T11:54:39+00:00",
+ "fetched_at": "2026-10-10T14:43:18+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 3400,
   "website": "https://www.diplomaplc.com",
-  "longBusinessSummary": "Diploma PLC, together with its subsidiaries, supplies specialized technical products and services in the United Kingdom, Europe, North America, and internationally. It operates through three business sectors: Controls, Seals, and Life Sciences. The Controls sector offers wire and cabling, interconnect, specialty fasteners, specialty adhesive and industrial automation solutions for various applications. The Seals sector supplies sealing and fluid power products, gaskets, hoses and fittings, pumps and valves, and solutions for aftermarket repairs, original equipment manufacturing, and maintenance, repair and overhaul projects. The Life Sciences sector supplies and services equipment; provides consumables and instrumentation for surgery, diagnosis of disease, and critical care support; and supplies diagnostic and scientific technologies, surgical instruments, medical devices, endoscopes, patient monitoring equipment, specialist hospital supplies, and clinical nutrition. It serves public and private hospitals, clinics and diagnostics laboratories. Diploma PLC was incorporated in 1999 and is based in London, the United Kingdom."
+  "longBusinessSummary": "Diploma PLC, together with its subsidiaries, supplies specialized technical products and services in the United Kingdom, Europe, North America, and internationally. It operates through three business sectors: Controls, Seals, and Life Sciences. The Controls sector offers wire and cabling, interconnect, specialty fasteners, specialty adhesive and industrial automation solutions for various applications. The Seals sector supplies sealing and fluid power products, gaskets, hoses and fittings, pumps and valves, and solutions for aftermarket repairs, original equipment manufacturing, and maintenance, repair and overhaul projects. The Life Sciences sector supplies and services equipment; provides consumables and instrumentation for surgery, diagnosis of disease, and critical care support; and supplies diagnostic and scientific technologies, surgical instruments, medical devices, endoscopes, patient monitoring equipment, specialist hospital supplies, and clinical nutrition. It serves public and private hospitals, clinics and diagnostics laboratories. Diploma PLC was incorporated in 1999 and is based in London, the United Kingdom.",
+  "targetMeanPrice": 8329.375,
+  "targetLowPrice": 7000.0,
+  "targetHighPrice": 9000.0,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.6875,
+  "forwardPE": 29.425327,
+  "forwardEps": 2.64568,
+  "trailingEps": 1.41,
+  "earningsGrowth": 0.045,
+  "revenueGrowth": 0.168
  },
  "governance": {
   "ceo": {
@@ -76,8 +87,35 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-09-30",
+  "items": {
+   "equity": {
+    "yahoo": 989700000.0,
+    "official": 989700000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 184900000.0,
+    "official": 184900000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1524500000.0,
+    "official": 1524500000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-09-30"
+ },
+ "info_at": "2026-10-10T14:43:18+00:00",
  "years": [
   {
    "fy_end": "2022-09-30",
@@ -111,7 +149,10 @@
    "goodwill_and_intangibles": 831400000.0,
    "retained_earnings": 375100000.0,
    "total_debt": 439700000.0,
-   "shares_out": 124545137.0
+   "shares_out": 124545137.0,
+   "unusual_items": -2800000.0,
+   "normalized_ebitda": 167100000.0,
+   "normalized_income": 96762702.702703
   },
   {
    "fy_end": "2023-09-30",
@@ -144,7 +185,10 @@
    "goodwill_and_intangibles": 963400000.0,
    "retained_earnings": 424400000.0,
    "total_debt": 397300000.0,
-   "shares_out": 133967060.0
+   "shares_out": 133967060.0,
+   "unusual_items": -9800000.0,
+   "normalized_ebitda": 266300000.0,
+   "normalized_income": 125150771.208226
   },
   {
    "fy_end": "2024-09-30",
@@ -177,7 +221,10 @@
    "goodwill_and_intangibles": 1051500000.0,
    "retained_earnings": 478200000.0,
    "total_debt": 552100000.0,
-   "shares_out": 134031267.0
+   "shares_out": 134031267.0,
+   "unusual_items": -3200000.0,
+   "normalized_ebitda": 297500000.0,
+   "normalized_income": 131655605.889015
   },
   {
    "fy_end": "2025-09-30",
@@ -210,7 +257,10 @@
    "goodwill_and_intangibles": 1045600000.0,
    "retained_earnings": 588000000.0,
    "total_debt": 464900000.0,
-   "shares_out": 134094839.0
+   "shares_out": 134094839.0,
+   "unusual_items": -9300000.0,
+   "normalized_ebitda": 375500000.0,
+   "normalized_income": 191847845.348369
   }
  ]
 }

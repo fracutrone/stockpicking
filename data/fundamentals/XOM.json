@@ -1,6 +1,6 @@
 {
  "ticker": "XOM",
- "fetched_at": "2026-10-10T13:03:02+00:00",
+ "fetched_at": "2026-10-10T16:00:21+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 57900,
   "website": "https://corporate.exxonmobil.com",
-  "longBusinessSummary": "ExxonMobil Holdings Corporation engages in the exploration and production of crude oil and natural gas in the United States, Canada, and internationally. The company operates through Upstream, Energy Products, Chemical Products, and Specialty Products segments. Its Upstream segment explores for and produces crude oil and natural gas. The Energy Products segment offers fuels, aromatics, and catalysts, as well as licensing services. Its Chemical Products segment manufactures and sells olefins, polyolefins, and intermediates. The Specialty Products segment offers finished lubricants, basestocks, waxes, synthetics, elastomers, and resins. It is also involved in the manufacture, trade, transport, and sale of crude oil, natural gas, petroleum products, petrochemicals, and other specialty products; and pursuit of lower-emission and business opportunities, including carbon capture and storage, hydrogen, lower-emission fuels, Proxxima resin systems, carbon materials, low-carbon data center, and lithium. In addition, the company offers aviation fuel. It sells its products under the Exxon, Esso, and Mobil brands. The company was formerly known as Exxon Mobil Corporation and changed its name to ExxonMobil Holdings Corporation in July 2026. ExxonMobil Holdings Corporation was founded in 1870 and is headquartered in Spring, Texas."
+  "longBusinessSummary": "ExxonMobil Holdings Corporation engages in the exploration and production of crude oil and natural gas in the United States, Canada, and internationally. The company operates through Upstream, Energy Products, Chemical Products, and Specialty Products segments. Its Upstream segment explores for and produces crude oil and natural gas. The Energy Products segment offers fuels, aromatics, and catalysts, as well as licensing services. Its Chemical Products segment manufactures and sells olefins, polyolefins, and intermediates. The Specialty Products segment offers finished lubricants, basestocks, waxes, synthetics, elastomers, and resins. It is also involved in the manufacture, trade, transport, and sale of crude oil, natural gas, petroleum products, petrochemicals, and other specialty products; and pursuit of lower-emission and business opportunities, including carbon capture and storage, hydrogen, lower-emission fuels, Proxxima resin systems, carbon materials, low-carbon data center, and lithium. In addition, the company offers aviation fuel. It sells its products under the Exxon, Esso, and Mobil brands. The company was formerly known as Exxon Mobil Corporation and changed its name to ExxonMobil Holdings Corporation in July 2026. ExxonMobil Holdings Corporation was founded in 1870 and is headquartered in Spring, Texas.",
+  "targetMeanPrice": 173.63635,
+  "targetLowPrice": 142.0,
+  "targetHighPrice": 200.0,
+  "numberOfAnalystOpinions": 22,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.4,
+  "forwardPE": 14.741994,
+  "forwardEps": 11.45978,
+  "trailingEps": 7.77,
+  "earningsGrowth": 1.128,
+  "revenueGrowth": 0.441
  },
  "governance": {
   "ceo": {
@@ -81,8 +92,16 @@
   "ppe_net": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T16:00:21+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -113,7 +132,9 @@
    "ppe_net": 204692000000.0,
    "retained_earnings": 432860000000.0,
    "total_debt": 41193000000.0,
-   "shares_out": 4082000000.0
+   "shares_out": 4082000000.0,
+   "normalized_ebitda": 102591000000.0,
+   "normalized_income": 55740000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -144,7 +165,9 @@
    "ppe_net": 214940000000.0,
    "retained_earnings": 453927000000.0,
    "total_debt": 41573000000.0,
-   "shares_out": 3971000000.0
+   "shares_out": 3971000000.0,
+   "normalized_ebitda": 74273000000.0,
+   "normalized_income": 36010000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -175,7 +198,9 @@
    "ppe_net": 294318000000.0,
    "retained_earnings": 470903000000.0,
    "total_debt": 41710000000.0,
-   "shares_out": 4353094536.0
+   "shares_out": 4353094536.0,
+   "normalized_ebitda": 73311000000.0,
+   "normalized_income": 33680000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -206,7 +231,9 @@
    "ppe_net": 299373000000.0,
    "retained_earnings": 482494000000.0,
    "total_debt": 43537000000.0,
-   "shares_out": 4179000000.0
+   "shares_out": 4179000000.0,
+   "normalized_ebitda": 67864000000.0,
+   "normalized_income": 28844000000.0
   }
  ]
 }

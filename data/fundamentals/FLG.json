@@ -1,6 +1,6 @@
 {
  "ticker": "FLG",
- "fetched_at": "2026-10-10T12:45:48+00:00",
+ "fetched_at": "2026-10-10T15:44:07+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 5631,
   "website": "https://www.flagstar.com",
-  "longBusinessSummary": "Flagstar Bank, National Association provides banking products and services in the United States. The company's deposit products include interest-bearing checking and money market, savings, and non-interest-bearing accounts, as well as certificates of deposit. It offers loan products comprising multi-family loans; commercial real estate loans; acquisition, development, and construction loans; commercial and industrial loans; one-to-four family loans; specialty finance loans and leases; warehouse loans; and home equity lines of credit, as well as other consumer loans, including overdraft loans. The company offers non-deposit investment and insurance products; and online and mobile banking services. It primarily serves individuals, small and mid-size businesses, and professional associations. The company was formerly known as Flagstar Financial, Inc. Flagstar Bank, National Association was founded in 1859 and is headquartered in Hicksville, New York."
+  "longBusinessSummary": "Flagstar Bank, National Association provides banking products and services in the United States. The company's deposit products include interest-bearing checking and money market, savings, and non-interest-bearing accounts, as well as certificates of deposit. It offers loan products comprising multi-family loans; commercial real estate loans; acquisition, development, and construction loans; commercial and industrial loans; one-to-four family loans; specialty finance loans and leases; warehouse loans; and home equity lines of credit, as well as other consumer loans, including overdraft loans. The company offers non-deposit investment and insurance products; and online and mobile banking services. It primarily serves individuals, small and mid-size businesses, and professional associations. The company was formerly known as Flagstar Financial, Inc. Flagstar Bank, National Association was founded in 1859 and is headquartered in Hicksville, New York.",
+  "targetMeanPrice": 15.35294,
+  "targetLowPrice": 13.0,
+  "targetHighPrice": 18.0,
+  "numberOfAnalystOpinions": 17,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.88889,
+  "forwardPE": 9.336313,
+  "forwardEps": 1.21247,
+  "trailingEps": 0.03,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.153
  },
  "governance": {
   "ceo": {
@@ -78,8 +89,33 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "noninterest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 87512000000.0,
+    "official": 87512000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 8143000000.0,
+    "official": 8143000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -177000000.0,
+    "official": -177000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:44:07+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -106,7 +142,9 @@
    "goodwill_and_intangibles": 3746000000.0,
    "retained_earnings": 1041000000.0,
    "total_debt": 21332000000.0,
-   "shares_out": 227072444.0
+   "shares_out": 227072444.0,
+   "unusual_items": 86000000.0,
+   "normalized_income": 582324455.205811
   },
   {
    "fy_end": "2023-12-31",
@@ -133,7 +171,9 @@
    "goodwill_and_intangibles": 1736000000.0,
    "retained_earnings": 443000000.0,
    "total_debt": 21267000000.0,
-   "shares_out": 240688789.0
+   "shares_out": 240688789.0,
+   "unusual_items": -625000000.0,
+   "normalized_income": 414750000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -161,7 +201,9 @@
    "goodwill_and_intangibles": 488000000.0,
    "retained_earnings": -763000000.0,
    "total_debt": 14426000000.0,
-   "shares_out": 414934628.0
+   "shares_out": 414934628.0,
+   "unusual_items": -215000000.0,
+   "normalized_income": -943566037.735849
   },
   {
    "fy_end": "2025-12-31",
@@ -188,7 +230,9 @@
    "goodwill_and_intangibles": 381000000.0,
    "retained_earnings": -988000000.0,
    "total_debt": 12184000000.0,
-   "shares_out": 415982036.0
+   "shares_out": 415982036.0,
+   "unusual_items": -56000000.0,
+   "normalized_income": -126939393.939394
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "IAG.MC",
- "fetched_at": "2026-10-10T12:02:55+00:00",
+ "fetched_at": "2026-10-10T14:56:39+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "MCE",
   "fullTimeEmployees": 76581,
   "website": "https://www.iairgroup.com",
-  "longBusinessSummary": "International Consolidated Airlines Group S.A., together with its subsidiaries, engages in the provision of passenger and cargo transportation services in the North Atlantic, Latin America, the Caribbean, Europe, Africa, the Middle East, South Asia, the Asia Pacific, and internationally. It operates through British Airways, Iberia, Vueling, Aer Lingus, and IAG Loyalty segments. The company manufactures, repairs, maintains, overhauls, retrofits, repurposes, upgrades aircraft, and aircraft parts and equipment. In addition, it provides airline operations, insurance, aircraft leasing, aircraft maintenance, tour operation, air freight operations, call center, ground handling, trustee, retail, IT, finance, flight procurement, storage, aircraft technical assistance, human resources support, and airport infrastructure development services; and manages airline loyalty reward currency. The company was incorporated in 2009 and is headquartered in Harmondsworth, the United Kingdom."
+  "longBusinessSummary": "International Consolidated Airlines Group S.A., together with its subsidiaries, engages in the provision of passenger and cargo transportation services in the North Atlantic, Latin America, the Caribbean, Europe, Africa, the Middle East, South Asia, the Asia Pacific, and internationally. It operates through British Airways, Iberia, Vueling, Aer Lingus, and IAG Loyalty segments. The company manufactures, repairs, maintains, overhauls, retrofits, repurposes, upgrades aircraft, and aircraft parts and equipment. In addition, it provides airline operations, insurance, aircraft leasing, aircraft maintenance, tour operation, air freight operations, call center, ground handling, trustee, retail, IT, finance, flight procurement, storage, aircraft technical assistance, human resources support, and airport infrastructure development services; and manages airline loyalty reward currency. The company was incorporated in 2009 and is headquartered in Harmondsworth, the United Kingdom.",
+  "targetMeanPrice": 5.98636,
+  "targetLowPrice": 5.3,
+  "targetHighPrice": 6.5,
+  "numberOfAnalystOpinions": 11,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.81818,
+  "forwardPE": 6.239856,
+  "forwardEps": 0.78864,
+  "trailingEps": 0.66,
+  "earningsGrowth": -0.304,
+  "revenueGrowth": 0.002
  },
  "governance": {
   "ceo": {
@@ -76,8 +87,40 @@
   "intangibles": "yahoo",
   "goodwill_and_intangibles": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 42849000000.0,
+    "official": 42849000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 7588000000.0,
+    "official": 7588000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 3342000000.0,
+    "official": 3342000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 33213000000.0,
+    "official": 33213000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:56:40+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -111,7 +154,10 @@
    "intangibles": 3210000000.0,
    "goodwill_and_intangibles": 3556000000.0,
    "total_debt": 19984000000.0,
-   "shares_out": 4954423265.0
+   "shares_out": 4954423265.0,
+   "unusual_items": 208000000.0,
+   "normalized_ebitda": 3293000000.0,
+   "normalized_income": 262520000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -145,7 +191,10 @@
    "intangibles": 2985000000.0,
    "goodwill_and_intangibles": 3332000000.0,
    "total_debt": 16082000000.0,
-   "shares_out": 4915631255.0
+   "shares_out": 4915631255.0,
+   "unusual_items": -7000000.0,
+   "normalized_ebitda": 6221000000.0,
+   "normalized_income": 2661083000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -179,7 +228,10 @@
    "intangibles": 3293000000.0,
    "goodwill_and_intangibles": 3642000000.0,
    "total_debt": 17345000000.0,
-   "shares_out": 4853639082.0
+   "shares_out": 4853639082.0,
+   "unusual_items": -129000000.0,
+   "normalized_ebitda": 6958000000.0,
+   "normalized_income": 2830913275.329778
   },
   {
    "fy_end": "2025-12-31",
@@ -213,7 +265,10 @@
    "intangibles": 3424000000.0,
    "goodwill_and_intangibles": 3770000000.0,
    "total_debt": 14267000000.0,
-   "shares_out": 4565025872.0
+   "shares_out": 4565025872.0,
+   "unusual_items": -360000000.0,
+   "normalized_ebitda": 8311000000.0,
+   "normalized_income": 3609063263.041065
   }
  ]
 }

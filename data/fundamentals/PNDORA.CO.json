@@ -1,6 +1,6 @@
 {
  "ticker": "PNDORA.CO",
- "fetched_at": "2026-10-10T12:14:36+00:00",
+ "fetched_at": "2026-10-10T15:12:00+00:00",
  "region": "Europa",
  "statement_currency": "DKK",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "CPH",
   "fullTimeEmployees": 39000,
   "website": "https://www.pandoragroup.com",
-  "longBusinessSummary": "Pandora A/S engages in the design, crafting, and marketing of jewelry worldwide. The company operates in two segments, Core and Fuel With More. It offers charm and carrier products; and lab grown diamonds. The company sells its products through physical stores, online stores, and wholesale and third-party distribution. Pandora A/S was founded in 1982 and is based in Copenhagen, Denmark."
+  "longBusinessSummary": "Pandora A/S engages in the design, crafting, and marketing of jewelry worldwide. The company operates in two segments, Core and Fuel With More. It offers charm and carrier products; and lab grown diamonds. The company sells its products through physical stores, online stores, and wholesale and third-party distribution. Pandora A/S was founded in 1982 and is based in Copenhagen, Denmark.",
+  "targetMeanPrice": 858.0,
+  "targetLowPrice": 440.0,
+  "targetHighPrice": 1300.0,
+  "numberOfAnalystOpinions": 18,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.52632,
+  "forwardPE": 16.916956,
+  "forwardEps": 48.53119,
+  "trailingEps": 67.5,
+  "earningsGrowth": 0.136,
+  "revenueGrowth": 0.02
  },
  "governance": {
   "ceo": {
@@ -76,8 +87,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF DK",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 29603000000.0,
+    "official": 29603000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 5282000000.0,
+    "official": 5282000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 5241000000.0,
+    "official": 5241000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 32549000000.0,
+    "official": 32549000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:12:00+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -111,7 +154,10 @@
    "goodwill_and_intangibles": 7568000000.0,
    "retained_earnings": 8044000000.0,
    "total_debt": 7588000000.0,
-   "shares_out": 88904380.0
+   "shares_out": 88904380.0,
+   "unusual_items": -155000000.0,
+   "normalized_ebitda": 8923000000.0,
+   "normalized_income": 5148350000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -145,7 +191,10 @@
    "goodwill_and_intangibles": 7801000000.0,
    "retained_earnings": 7530000000.0,
    "total_debt": 11167000000.0,
-   "shares_out": 82209972.0
+   "shares_out": 82209972.0,
+   "unusual_items": -95000000.0,
+   "normalized_ebitda": 9052000000.0,
+   "normalized_income": 4812200000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -179,7 +228,10 @@
    "goodwill_and_intangibles": 8232000000.0,
    "retained_earnings": 6219000000.0,
    "total_debt": 13401000000.0,
-   "shares_out": 78817541.0
+   "shares_out": 78817541.0,
+   "unusual_items": -112000000.0,
+   "normalized_ebitda": 10192000000.0,
+   "normalized_income": 5311560000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -213,7 +265,10 @@
    "goodwill_and_intangibles": 8364000000.0,
    "retained_earnings": 6535000000.0,
    "total_debt": 15024000000.0,
-   "shares_out": 74584447.0
+   "shares_out": 74584447.0,
+   "unusual_items": 133000000.0,
+   "normalized_ebitda": 10212000000.0,
+   "normalized_income": 5140186000.0
   }
  ]
 }

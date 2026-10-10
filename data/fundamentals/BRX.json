@@ -1,6 +1,6 @@
 {
  "ticker": "BRX",
- "fetched_at": "2026-10-10T12:39:28+00:00",
+ "fetched_at": "2026-10-10T15:38:18+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 462,
   "website": "https://www.brixmor.com",
-  "longBusinessSummary": "Brixmor Property Group Inc. owns and operates a high-quality, national portfolio of open-air shopping centers. The Company's 346 retail centers comprise approximately 63 million square feet of prime retail space in established trade areas. Brixmor's properties reflect their vision (to be the center of the communities we serve) and are home to a diverse mix of thriving national, regional and local retailers. Brixmor is a valued partner to a broad range of retailers, including The TJX Companies, The Kroger Co., Publix Super Markets and Ross Stores. Brixmor Property Group Inc. was established on May 27, 2011 and is based in New York, United States."
+  "longBusinessSummary": "Brixmor Property Group Inc. owns and operates a high-quality, national portfolio of open-air shopping centers. The Company's 346 retail centers comprise approximately 63 million square feet of prime retail space in established trade areas. Brixmor's properties reflect their vision (to be the center of the communities we serve) and are home to a diverse mix of thriving national, regional and local retailers. Brixmor is a valued partner to a broad range of retailers, including The TJX Companies, The Kroger Co., Publix Super Markets and Ross Stores. Brixmor Property Group Inc. was established on May 27, 2011 and is based in New York, United States.",
+  "targetMeanPrice": 34.13333,
+  "targetLowPrice": 30.0,
+  "targetHighPrice": 42.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.46667,
+  "forwardPE": 25.260704,
+  "forwardEps": 1.08073,
+  "trailingEps": 1.4,
+  "earningsGrowth": -0.141,
+  "revenueGrowth": 0.043
  },
  "governance": {
   "ceo": {
@@ -78,8 +89,39 @@
   "receivables": "sec",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 9133137000.0,
+    "official": 9133137000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3009814000.0,
+    "official": 3009814000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 386228000.0,
+    "official": 386228000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1371597000.0,
+    "official": 1371597000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:38:18+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -149,7 +191,10 @@
    "receivables": 264146000.0,
    "retained_earnings": -446336000.0,
    "total_debt": 5035501000.0,
-   "shares_out": 299915762.0
+   "shares_out": 299915762.0,
+   "unusual_items": 105932000.0,
+   "normalized_ebitda": 785419000.0,
+   "normalized_income": 270506720.0
   },
   {
    "fy_end": "2023-12-31",
@@ -177,7 +222,10 @@
    "receivables": 278775000.0,
    "retained_earnings": -460595000.0,
    "total_debt": 4933525000.0,
-   "shares_out": 300596394.0
+   "shares_out": 300596394.0,
+   "unusual_items": 52625000.0,
+   "normalized_ebitda": 805472000.0,
+   "normalized_income": 263513250.0
   },
   {
    "fy_end": "2024-12-31",
@@ -205,7 +253,10 @@
    "receivables": 281947000.0,
    "retained_earnings": -458638000.0,
    "total_debt": 5339751000.0,
-   "shares_out": 305492016.0
+   "shares_out": 305492016.0,
+   "unusual_items": 88251000.0,
+   "normalized_ebitda": 848415000.0,
+   "normalized_income": 269555710.0
   },
   {
    "fy_end": "2025-12-31",
@@ -233,7 +284,10 @@
    "receivables": 315128000.0,
    "retained_earnings": -432822000.0,
    "total_debt": 5494753000.0,
-   "shares_out": 306104769.0
+   "shares_out": 306104769.0,
+   "unusual_items": 110318000.0,
+   "normalized_ebitda": 915556000.0,
+   "normalized_income": 299076780.0
   }
  ]
 }

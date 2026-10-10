@@ -1,6 +1,6 @@
 {
  "ticker": "OLLI",
- "fetched_at": "2026-10-10T12:54:06+00:00",
+ "fetched_at": "2026-10-10T15:52:09+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NGM",
   "fullTimeEmployees": 6500,
   "website": "https://www.ollies.com",
-  "longBusinessSummary": "Ollie's Bargain Outlet Holdings, Inc. operates as a retailer of closeout merchandise and excess inventory in the United States. The company offers health and beauty aids, food, candy, beverages, pet food and treats, laundry related products, and cleaning supplies; housewares and kitchen items, home decor products, furniture, household essential items, and home maintenance and utility items; patio furniture, air conditioners, fans, space heaters, toys, lawn and garden related products, outdoor items, holiday decor, gifts, and decorations products; books, stationery items, small electronic devices and accessories, clothing, sporting goods, pet products, automotive products, luggage and other general merchandise. It sells its products under the Ollie's, Ollie's Bargain Outlet, Good Stuff Cheap, Ollie's Army, Real Brands! Real Bargains, Sarasota Breeze, American Way brands. The company was formerly known as Bargain Holdings, Inc. and changed its name to Ollie's Bargain Outlet Holdings, Inc. in March 2015. Ollie's Bargain Outlet Holdings, Inc. was founded in 1982 and is headquartered in Harrisburg, Pennsylvania."
+  "longBusinessSummary": "Ollie's Bargain Outlet Holdings, Inc. operates as a retailer of closeout merchandise and excess inventory in the United States. The company offers health and beauty aids, food, candy, beverages, pet food and treats, laundry related products, and cleaning supplies; housewares and kitchen items, home decor products, furniture, household essential items, and home maintenance and utility items; patio furniture, air conditioners, fans, space heaters, toys, lawn and garden related products, outdoor items, holiday decor, gifts, and decorations products; books, stationery items, small electronic devices and accessories, clothing, sporting goods, pet products, automotive products, luggage and other general merchandise. It sells its products under the Ollie's, Ollie's Bargain Outlet, Good Stuff Cheap, Ollie's Army, Real Brands! Real Bargains, Sarasota Breeze, American Way brands. The company was formerly known as Bargain Holdings, Inc. and changed its name to Ollie's Bargain Outlet Holdings, Inc. in March 2015. Ollie's Bargain Outlet Holdings, Inc. was founded in 1982 and is headquartered in Harrisburg, Pennsylvania.",
+  "targetMeanPrice": 99.93333,
+  "targetLowPrice": 76.0,
+  "targetHighPrice": 130.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.6,
+  "forwardPE": 17.266987,
+  "forwardEps": 4.9418,
+  "trailingEps": 4.47,
+  "earningsGrowth": 0.434,
+  "revenueGrowth": 0.091
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "interest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-01-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 2954953000.0,
+    "official": 2954953000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1888076000.0,
+    "official": 1888076000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 240596000.0,
+    "official": 240596000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2649198000.0,
+    "official": 2649198000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:52:09+00:00",
  "years": [
   {
    "fy_end": "2020-02-01",
@@ -204,7 +246,10 @@
    "goodwill_and_intangibles": 675409000.0,
    "retained_earnings": 986512000.0,
    "total_debt": 858000.0,
-   "shares_out": 62008000.0
+   "shares_out": 62008000.0,
+   "unusual_items": -11700000.0,
+   "normalized_ebitda": 183007000.0,
+   "normalized_income": 111772790.944332
   },
   {
    "fy_end": "2024-02-03",
@@ -238,7 +283,10 @@
    "goodwill_and_intangibles": 675409000.0,
    "retained_earnings": 1167951000.0,
    "total_debt": 1022000.0,
-   "shares_out": 61454000.0
+   "shares_out": 61454000.0,
+   "unusual_items": -14075000.0,
+   "normalized_ebitda": 290885000.0,
+   "normalized_income": 191967100.0
   },
   {
    "fy_end": "2025-02-01",
@@ -272,7 +320,10 @@
    "goodwill_and_intangibles": 675409000.0,
    "retained_earnings": 1367713000.0,
    "total_debt": 1040000.0,
-   "shares_out": 61349000.0
+   "shares_out": 61349000.0,
+   "unusual_items": -19319000.0,
+   "normalized_ebitda": 332099000.0,
+   "normalized_income": 214270569.0
   },
   {
    "fy_end": "2026-01-31",
@@ -306,7 +357,10 @@
    "goodwill_and_intangibles": 675409000.0,
    "retained_earnings": 1608309000.0,
    "total_debt": 974000.0,
-   "shares_out": 61090000.0
+   "shares_out": 61090000.0,
+   "unusual_items": -25281000.0,
+   "normalized_ebitda": 403463000.0,
+   "normalized_income": 259809560.0
   }
  ]
 }

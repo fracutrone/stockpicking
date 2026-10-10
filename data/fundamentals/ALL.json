@@ -1,6 +1,6 @@
 {
  "ticker": "ALL",
- "fetched_at": "2026-10-10T12:37:04+00:00",
+ "fetched_at": "2026-10-10T15:34:06+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 53000,
   "website": "https://www.allstate.com",
-  "longBusinessSummary": "The Allstate Corporation, together with its subsidiaries, provides property and casualty, and other insurance products in the United States and Canada. It operates in four segments: Allstate Protection; Run-off Property-Liability; Protection Services; and Corporate and Other. The company offers private passenger auto, homeowners, other personal lines and commercial insurance through exclusive agents, independent agents, contact centers and online under the Allstate, National General, Direct Auto and Answer Financial brands. It also provides consumer product protection plans, device and mobile data collection services, and analytic solutions using automotive telematics information, roadside assistance, and protection plans; and insurance products, such as identity protection and restoration. In addition, the company offers property and casualty insurance, as well as engages in company activities and certain non-insurance operations, including expenses associated with strategic initiatives. Further, it offers automotive protection; vehicle service contracts, guaranteed asset protection, road hazard tires and wheels, and paintless dent repair protection; and roadside assistance, mobility data collection services, and analytic solutions using automotive telematics information, identity theft protection, and remediation services. The Allstate Corporation was founded in 1931 and is headquartered in Northbrook, Illinois."
+  "longBusinessSummary": "The Allstate Corporation, together with its subsidiaries, provides property and casualty, and other insurance products in the United States and Canada. It operates in four segments: Allstate Protection; Run-off Property-Liability; Protection Services; and Corporate and Other. The company offers private passenger auto, homeowners, other personal lines and commercial insurance through exclusive agents, independent agents, contact centers and online under the Allstate, National General, Direct Auto and Answer Financial brands. It also provides consumer product protection plans, device and mobile data collection services, and analytic solutions using automotive telematics information, roadside assistance, and protection plans; and insurance products, such as identity protection and restoration. In addition, the company offers property and casualty insurance, as well as engages in company activities and certain non-insurance operations, including expenses associated with strategic initiatives. Further, it offers automotive protection; vehicle service contracts, guaranteed asset protection, road hazard tires and wheels, and paintless dent repair protection; and roadside assistance, mobility data collection services, and analytic solutions using automotive telematics information, identity theft protection, and remediation services. The Allstate Corporation was founded in 1931 and is headquartered in Northbrook, Illinois.",
+  "targetMeanPrice": 270.54544,
+  "targetLowPrice": 191.0,
+  "targetHighPrice": 336.0,
+  "numberOfAnalystOpinions": 22,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.52,
+  "forwardPE": 8.201271,
+  "forwardEps": 27.97493,
+  "trailingEps": 49.98,
+  "earningsGrowth": 0.612,
+  "revenueGrowth": 0.118
  },
  "governance": {
   "ceo": {
@@ -77,8 +88,38 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 119758000000.0,
+    "official": 119758000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 30610000000.0,
+    "official": 30610000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 10282000000.0,
+    "official": 10282000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 67069000000.0,
+    "official": 67685000000.0,
+    "diff": 0.009101
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:34:06+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -161,7 +202,9 @@
    "goodwill_and_intangibles": 4679000000.0,
    "retained_earnings": 50970000000.0,
    "total_debt": 7964000000.0,
-   "shares_out": 263000000.0
+   "shares_out": 263000000.0,
+   "unusual_items": -51000000.0,
+   "normalized_income": -1251617000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -188,7 +231,9 @@
    "goodwill_and_intangibles": 4468000000.0,
    "retained_earnings": 49716000000.0,
    "total_debt": 7942000000.0,
-   "shares_out": 262496775.0
+   "shares_out": 262496775.0,
+   "unusual_items": -169000000.0,
+   "normalized_income": -84572000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -215,7 +260,9 @@
    "goodwill_and_intangibles": 3999000000.0,
    "retained_earnings": 53288000000.0,
    "total_debt": 8085000000.0,
-   "shares_out": 264969685.0
+   "shares_out": 264969685.0,
+   "unusual_items": -61000000.0,
+   "normalized_income": 4715678000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -242,7 +289,9 @@
    "goodwill_and_intangibles": 3676000000.0,
    "retained_earnings": 62393000000.0,
    "total_debt": 7490000000.0,
-   "shares_out": 260135910.0
+   "shares_out": 260135910.0,
+   "unusual_items": 1542000000.0,
+   "normalized_income": 9079240000.0
   }
  ]
 }

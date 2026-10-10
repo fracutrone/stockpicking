@@ -1,6 +1,6 @@
 {
  "ticker": "JCI",
- "fetched_at": "2026-10-10T12:49:22+00:00",
+ "fetched_at": "2026-10-10T15:47:42+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 87000,
   "website": "https://www.johnsoncontrols.com",
-  "longBusinessSummary": "Johnson Controls International plc, together with its subsidiaries, engages in engineering, manufacturing, commissioning, and retrofitting building products and systems in the Americas, Europe, the Middle East, Africa, and the Asia-Pacific. The company designs, manufactures, sells, installs, and services heating, ventilating, air conditioning, controls, building management, refrigeration, integrated electronic security, integrated fire detection and suppression systems, and digital solutions. It also provides energy solutions and technical services, including inspection, scheduled maintenance, and repair and replacement of mechanical and control systems, as well as data-driven building solutions. It sells its products and services to commercial, residential security, institutional, industrial, data center, marine, and governmental customers. Johnson Controls International plc was incorporated in 1885 and is based in Cork, Ireland."
+  "longBusinessSummary": "Johnson Controls International plc, together with its subsidiaries, engages in engineering, manufacturing, commissioning, and retrofitting building products and systems in the Americas, Europe, the Middle East, Africa, and the Asia-Pacific. The company designs, manufactures, sells, installs, and services heating, ventilating, air conditioning, controls, building management, refrigeration, integrated electronic security, integrated fire detection and suppression systems, and digital solutions. It also provides energy solutions and technical services, including inspection, scheduled maintenance, and repair and replacement of mechanical and control systems, as well as data-driven building solutions. It sells its products and services to commercial, residential security, institutional, industrial, data center, marine, and governmental customers. Johnson Controls International plc was incorporated in 1885 and is based in Cork, Ireland.",
+  "targetMeanPrice": 166.9,
+  "targetLowPrice": 129.0,
+  "targetHighPrice": 193.0,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.04545,
+  "forwardPE": 25.793896,
+  "forwardEps": 6.10377,
+  "trailingEps": 3.54,
+  "earningsGrowth": 0.153,
+  "revenueGrowth": 0.093
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-09-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 37939000000.0,
+    "official": 37939000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 12927000000.0,
+    "official": 12927000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 3291000000.0,
+    "official": 3291000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 23596000000.0,
+    "official": 23596000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:47:42+00:00",
  "years": [
   {
    "fy_end": "2019-09-30",
@@ -197,7 +239,10 @@
    "goodwill_and_intangibles": 22505000000.0,
    "retained_earnings": 1151000000.0,
    "total_debt": 8095000000.0,
-   "shares_out": 688696768.0
+   "shares_out": 688696768.0,
+   "unusual_items": -664000000.0,
+   "normalized_ebitda": 2714000000.0,
+   "normalized_income": 1595621600.0
   },
   {
    "fy_end": "2023-09-30",
@@ -231,7 +276,10 @@
    "goodwill_and_intangibles": 21544000000.0,
    "retained_earnings": 1384000000.0,
    "total_debt": 8823000000.0,
-   "shares_out": 680372072.0
+   "shares_out": 680372072.0,
+   "unusual_items": -1049000000.0,
+   "normalized_ebitda": 3165000000.0,
+   "normalized_income": 2175672700.0
   },
   {
    "fy_end": "2024-09-30",
@@ -265,7 +313,10 @@
    "goodwill_and_intangibles": 20855000000.0,
    "retained_earnings": 848000000.0,
    "total_debt": 9521000000.0,
-   "shares_out": 662878003.0
+   "shares_out": 662878003.0,
+   "unusual_items": -450000000.0,
+   "normalized_ebitda": 3169000000.0,
+   "normalized_income": 1634500000.0
   },
   {
    "fy_end": "2025-09-30",
@@ -299,7 +350,10 @@
    "goodwill_and_intangibles": 20246000000.0,
    "retained_earnings": 0.0,
    "total_debt": 9918000000.0,
-   "shares_out": 611130391.0
+   "shares_out": 611130391.0,
+   "unusual_items": -635000000.0,
+   "normalized_ebitda": 3696000000.0,
+   "normalized_income": 2060800000.0
   }
  ]
 }

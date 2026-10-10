@@ -1,6 +1,6 @@
 {
  "ticker": "INCY",
- "fetched_at": "2026-10-10T12:48:46+00:00",
+ "fetched_at": "2026-10-10T15:47:07+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 2844,
   "website": "https://www.incyte.com",
-  "longBusinessSummary": "Incyte Corporation, a biopharmaceutical company, engages in the discovery, development, and commercialization of therapeutics in the United States, Europe, Canada, and Japan. The company offers JAKAFI for the treatment of myelofibrosis (MF), polycythemia vera, and steroid-refractory acute graft-versus-host disease; ICLUSIG, a kinase inhibitor to treat chronic myeloid leukemia and Philadelphia-chromosome positive acute lymphoblastic leukemia; MONJUVI/ MINJUVI for the treatment of diffuse large B-cell lymphoma and Follicular Lymphoma; NIKTIMVO for the treatment of chronic graft-versus-host disease. It also provides INCA033989 for the treatment of essential thrombocythemia and MF;  INCA035784 for the treatment of anti-mutant calreticulin and myeloproliferative neoplasms (MPNs); INCB160058 for the treatment of MPNs; PEMAZYRE, a selective fibroblast growth factor receptor kinase inhibitor for the treatment of unresectable biliary tract cancer, metastatic cholangiocarcinoma, and myeloid/lymphoid neoplasms; ZYNYZ to treat adults with metastatic or recurrent locally advanced Merkel cell carcinoma. The company's clinical stage products include INCB123667 for ovarian cancer; INCB161734 for solid tumors; INCA33890 for cancers; Ruxolitinib cream for atopic dermatitis, hidradenitis suppurativa (HS), and prurigo nodularis; Povorcitinib for HS, nonsegmental vitiligo, prurigo nodularis, and asthma; and INCB00928 for the treatment of fibrodysplasia ossificans progressive. It has collaboration and license agreement with Novartis, Lilly, and Syndax. The company sells its products to specialty and retail pharmacies, hospital pharmacies, and distributors. The company was formerly known as Incyte Genomics Inc and changed its name to Incyte Corporation in March 2003. Incyte Corporation was incorporated in 1991 and is headquartered in Wilmington, Delaware."
+  "longBusinessSummary": "Incyte Corporation, a biopharmaceutical company, engages in the discovery, development, and commercialization of therapeutics in the United States, Europe, Canada, and Japan. The company offers JAKAFI for the treatment of myelofibrosis (MF), polycythemia vera, and steroid-refractory acute graft-versus-host disease; ICLUSIG, a kinase inhibitor to treat chronic myeloid leukemia and Philadelphia-chromosome positive acute lymphoblastic leukemia; MONJUVI/ MINJUVI for the treatment of diffuse large B-cell lymphoma and Follicular Lymphoma; NIKTIMVO for the treatment of chronic graft-versus-host disease. It also provides INCA033989 for the treatment of essential thrombocythemia and MF;  INCA035784 for the treatment of anti-mutant calreticulin and myeloproliferative neoplasms (MPNs); INCB160058 for the treatment of MPNs; PEMAZYRE, a selective fibroblast growth factor receptor kinase inhibitor for the treatment of unresectable biliary tract cancer, metastatic cholangiocarcinoma, and myeloid/lymphoid neoplasms; ZYNYZ to treat adults with metastatic or recurrent locally advanced Merkel cell carcinoma. The company's clinical stage products include INCB123667 for ovarian cancer; INCB161734 for solid tumors; INCA33890 for cancers; Ruxolitinib cream for atopic dermatitis, hidradenitis suppurativa (HS), and prurigo nodularis; Povorcitinib for HS, nonsegmental vitiligo, prurigo nodularis, and asthma; and INCB00928 for the treatment of fibrodysplasia ossificans progressive. It has collaboration and license agreement with Novartis, Lilly, and Syndax. The company sells its products to specialty and retail pharmacies, hospital pharmacies, and distributors. The company was formerly known as Incyte Genomics Inc and changed its name to Incyte Corporation in March 2003. Incyte Corporation was incorporated in 1991 and is headquartered in Wilmington, Delaware.",
+  "targetMeanPrice": 129.125,
+  "targetLowPrice": 86.0,
+  "targetHighPrice": 157.0,
+  "numberOfAnalystOpinions": 24,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.25,
+  "forwardPE": 12.893439,
+  "forwardEps": 8.74786,
+  "trailingEps": 7.85,
+  "earningsGrowth": 0.377,
+  "revenueGrowth": 0.377
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 6957973000.0,
+    "official": 6957973000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 5167478000.0,
+    "official": 5167478000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1286650000.0,
+    "official": 1286650000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 5141242000.0,
+    "official": 5141242000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:47:07+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -193,7 +235,10 @@
    "goodwill_and_intangibles": 284812000.0,
    "retained_earnings": -437214000.0,
    "total_debt": 41457000.0,
-   "shares_out": 222746719.0
+   "shares_out": 222746719.0,
+   "unusual_items": -99739000.0,
+   "normalized_ebitda": 699376000.0,
+   "normalized_income": 404891916.0
   },
   {
    "fy_end": "2023-12-31",
@@ -228,7 +273,10 @@
    "goodwill_and_intangibles": 279138000.0,
    "retained_earnings": 160385000.0,
    "total_debt": 38287000.0,
-   "shares_out": 224286862.0
+   "shares_out": 224286862.0,
+   "unusual_items": 9060000.0,
+   "normalized_ebitda": 910366000.0,
+   "normalized_income": 591108770.334986
   },
   {
    "fy_end": "2024-12-31",
@@ -263,7 +311,10 @@
    "goodwill_and_intangibles": 269396000.0,
    "retained_earnings": -1072881000.0,
    "total_debt": 43544000.0,
-   "shares_out": 193434305.0
+   "shares_out": 193434305.0,
+   "unusual_items": 76022000.0,
+   "normalized_ebitda": 332136000.0,
+   "normalized_income": -27442380.0
   },
   {
    "fy_end": "2025-12-31",
@@ -298,7 +349,10 @@
    "goodwill_and_intangibles": 250131000.0,
    "retained_earnings": 213769000.0,
    "total_debt": 40412000.0,
-   "shares_out": 198460009.0
+   "shares_out": 198460009.0,
+   "unusual_items": 193415000.0,
+   "normalized_ebitda": 1566750000.0,
+   "normalized_income": 1137140205.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "SAIA",
- "fetched_at": "2026-10-10T12:57:26+00:00",
+ "fetched_at": "2026-10-10T15:55:09+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 13734,
   "website": "https://www.saia.com",
-  "longBusinessSummary": "Saia, Inc., together with its subsidiaries, operates as a transportation company in North America. The company provides less-than-truckload services for shipments between 100 and 10,000 pounds. It also offers other value-added services, including brokered truckload, expedited transportation, and other logistics services. As of December 31, 2025, it operated 213 owned and leased terminals; and owned approximately 7,700 tractors and 26,500 trailers. The company was formerly known as SCS Transportation, Inc. and changed its name to Saia, Inc. in July 2002. Saia, Inc. was founded in 1924 and is headquartered in Johns Creek, Georgia."
+  "longBusinessSummary": "Saia, Inc., together with its subsidiaries, operates as a transportation company in North America. The company provides less-than-truckload services for shipments between 100 and 10,000 pounds. It also offers other value-added services, including brokered truckload, expedited transportation, and other logistics services. As of December 31, 2025, it operated 213 owned and leased terminals; and owned approximately 7,700 tractors and 26,500 trailers. The company was formerly known as SCS Transportation, Inc. and changed its name to Saia, Inc. in July 2002. Saia, Inc. was founded in 1924 and is headquartered in Johns Creek, Georgia.",
+  "targetMeanPrice": 423.66666,
+  "targetLowPrice": 285.0,
+  "targetHighPrice": 510.0,
+  "numberOfAnalystOpinions": 21,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.90476,
+  "forwardPE": 23.6419,
+  "forwardEps": 14.24378,
+  "trailingEps": 10.36,
+  "earningsGrowth": 0.315,
+  "revenueGrowth": 0.171
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3482681000.0,
+    "official": 3482681000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2577699000.0,
+    "official": 2577699000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 255036000.0,
+    "official": 255036000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3234286000.0,
+    "official": 3234286000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:55:09+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -153,7 +195,8 @@
    "ppe_net": 1280454000.0,
    "goodwill": 12100000.0,
    "retained_earnings": 949775000.0,
-   "total_debt": 0
+   "total_debt": 0,
+   "unusual_items": -61345000.0
   },
   {
    "fy_end": "2022-12-31",
@@ -186,7 +229,9 @@
    "goodwill_and_intangibles": 18149000.0,
    "retained_earnings": 1307197000.0,
    "total_debt": 0,
-   "shares_out": 26464197.0
+   "shares_out": 26464197.0,
+   "normalized_ebitda": 627862000.0,
+   "normalized_income": 357422000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -219,7 +264,9 @@
    "goodwill_and_intangibles": 17296000.0,
    "retained_earnings": 1662054000.0,
    "total_debt": 0,
-   "shares_out": 26479700.0
+   "shares_out": 26479700.0,
+   "normalized_ebitda": 647607000.0,
+   "normalized_income": 354857000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -252,7 +299,9 @@
    "goodwill_and_intangibles": 16442000.0,
    "retained_earnings": 2024119000.0,
    "total_debt": 194000000.0,
-   "shares_out": 26528412.0
+   "shares_out": 26528412.0,
+   "normalized_ebitda": 695043000.0,
+   "normalized_income": 362065000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -285,7 +334,9 @@
    "goodwill_and_intangibles": 15589000.0,
    "retained_earnings": 2279155000.0,
    "total_debt": 163000000.0,
-   "shares_out": 26645402.0
+   "shares_out": 26645402.0,
+   "normalized_ebitda": 602406000.0,
+   "normalized_income": 255036000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "EXPN.L",
- "fetched_at": "2026-10-10T11:57:13+00:00",
+ "fetched_at": "2026-10-10T14:47:24+00:00",
  "region": "Europa",
  "statement_currency": "USD",
  "info": {
@@ -11,8 +11,8 @@
   "country": "Ireland",
   "currency": "GBp",
   "financialCurrency": "USD",
-  "marketCap": 23510413312,
-  "sharesOutstanding": 876600041,
+  "marketCap": 23496736768,
+  "sharesOutstanding": 876090110,
   "floatShares": 896865052,
   "heldPercentInsiders": 0.00224,
   "heldPercentInstitutions": 0.55297,
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 25200,
   "website": "https://www.experianplc.com",
-  "longBusinessSummary": "Experian plc, together with its subsidiaries, operates as a data and technology company in North America, Latin America, the United Kingdom, Ireland, Europe, the Middle East, Africa, and the Asia Pacific. It operates through two segments: Business-to-Business and Consumer Services. The company provides data, software, and AI-enabled analytics integrate directly into client workflows to support decisioning, risk management, fraud prevention and customer engagement at scale; credit information, affordability insights, identity protection and personalized offers. It serves its customers in financial service, health, automotive, and marketing services. The company was formerly known as Experian Group Limited and changed its name to Experian plc in July 2008. Experian plc was founded in 1826 and is headquartered in Dublin, Ireland."
+  "longBusinessSummary": "Experian plc, together with its subsidiaries, operates as a data and technology company in North America, Latin America, the United Kingdom, Ireland, Europe, the Middle East, Africa, and the Asia Pacific. It operates through two segments: Business-to-Business and Consumer Services. The company provides data, software, and AI-enabled analytics integrate directly into client workflows to support decisioning, risk management, fraud prevention and customer engagement at scale; credit information, affordability insights, identity protection and personalized offers. It serves its customers in financial service, health, automotive, and marketing services. The company was formerly known as Experian Group Limited and changed its name to Experian plc in July 2008. Experian plc was founded in 1826 and is headquartered in Dublin, Ireland.",
+  "targetMeanPrice": 3750.0627,
+  "targetLowPrice": 2523.331,
+  "targetHighPrice": 4775.522,
+  "numberOfAnalystOpinions": 18,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.55556,
+  "forwardPE": 15.581041,
+  "forwardEps": 1.721323,
+  "trailingEps": 1.22,
+  "earningsGrowth": 0.231,
+  "revenueGrowth": 0.123
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,35 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2026-03-31",
+  "items": {
+   "equity": {
+    "yahoo": 5545000000.0,
+    "official": 5545000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1502000000.0,
+    "official": 1502000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 8445000000.0,
+    "official": 8445000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2026-03-31"
+ },
+ "info_at": "2026-10-10T14:47:24+00:00",
  "years": [
   {
    "fy_end": "2023-03-31",
@@ -119,7 +157,10 @@
    "goodwill_and_intangibles": 7864000000.0,
    "retained_earnings": 20447000000.0,
    "total_debt": 4099000000.0,
-   "shares_out": 919100000.0
+   "shares_out": 919100000.0,
+   "unusual_items": 50000000.0,
+   "normalized_ebitda": 1935000000.0,
+   "normalized_income": 737100000.0
   },
   {
    "fy_end": "2024-03-31",
@@ -152,7 +193,10 @@
    "goodwill_and_intangibles": 8399000000.0,
    "retained_earnings": 21155000000.0,
    "total_debt": 4266000000.0,
-   "shares_out": 913089047.0
+   "shares_out": 913089047.0,
+   "unusual_items": -32000000.0,
+   "normalized_ebitda": 2449000000.0,
+   "normalized_income": 1223820116.054159
   },
   {
    "fy_end": "2025-03-31",
@@ -186,7 +230,10 @@
    "goodwill_and_intangibles": 9509000000.0,
    "retained_earnings": 21797000000.0,
    "total_debt": 5016000000.0,
-   "shares_out": 913734135.0
+   "shares_out": 913734135.0,
+   "unusual_items": -32000000.0,
+   "normalized_ebitda": 2516000000.0,
+   "normalized_income": 1190170432.537121
   },
   {
    "fy_end": "2026-03-31",
@@ -219,7 +266,10 @@
    "goodwill_and_intangibles": 10339000000.0,
    "retained_earnings": 22210000000.0,
    "total_debt": 5565000000.0,
-   "shares_out": 899066092.0
+   "shares_out": 899066092.0,
+   "unusual_items": 1000000.0,
+   "normalized_ebitda": 3053000000.0,
+   "normalized_income": 1501227000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "SNPS",
- "fetched_at": "2026-10-10T12:58:24+00:00",
+ "fetched_at": "2026-10-10T15:55:58+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 28000,
   "website": "https://www.synopsys.com",
-  "longBusinessSummary": "Synopsys, Inc. provides design IP solutions in the semiconductor and electronics industries. It operates in two segments, Design Automation and Design IP. The company offers Digital and Custom IC Design solution that provides digital design implementation solutions; Verification solution that offers virtual prototyping, static and formal verification, simulation, emulation, field programmable gate array (FPGA)-based prototyping, and debug solutions; FPGA design products that are programmed to perform specific functions; synopsys technology computer-aided design (TCAD), mask synthesis, and manufacturing analytic solutions; and AI-driven EDA solutions. It also provides pre-verified and silicon-proven IP solutions, logic libraries and embedded memories, processor and security solutions, IP Offerings for the automotive market, SOC infrastructure IP, data path and building block IP, and mathematical and floating-point components. Synopsys, Inc. has a strategic collaboration with Arm Holdings plc for development of AGI CPU that provides solutions across its full-stack design portfolio including EDA, interface IP, and hardware-assisted verification (HAV). The company was incorporated in 1986 and is headquartered in Sunnyvale, California."
+  "longBusinessSummary": "Synopsys, Inc. provides design IP solutions in the semiconductor and electronics industries. It operates in two segments, Design Automation and Design IP. The company offers Digital and Custom IC Design solution that provides digital design implementation solutions; Verification solution that offers virtual prototyping, static and formal verification, simulation, emulation, field programmable gate array (FPGA)-based prototyping, and debug solutions; FPGA design products that are programmed to perform specific functions; synopsys technology computer-aided design (TCAD), mask synthesis, and manufacturing analytic solutions; and AI-driven EDA solutions. It also provides pre-verified and silicon-proven IP solutions, logic libraries and embedded memories, processor and security solutions, IP Offerings for the automotive market, SOC infrastructure IP, data path and building block IP, and mathematical and floating-point components. Synopsys, Inc. has a strategic collaboration with Arm Holdings plc for development of AGI CPU that provides solutions across its full-stack design portfolio including EDA, interface IP, and hardware-assisted verification (HAV). The company was incorporated in 1986 and is headquartered in Sunnyvale, California.",
+  "targetMeanPrice": 570.5712,
+  "targetLowPrice": 414.77,
+  "targetHighPrice": 700.0,
+  "numberOfAnalystOpinions": 25,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.32,
+  "forwardPE": 27.443886,
+  "forwardEps": 18.58301,
+  "trailingEps": 5.66,
+  "earningsGrowth": 0.893,
+  "revenueGrowth": 0.424
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-10-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 48224461000.0,
+    "official": 48224461000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 28327602000.0,
+    "official": 28327602000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1332220000.0,
+    "official": 1332220000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 7054178000.0,
+    "official": 7054178000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:55:58+00:00",
  "years": [
   {
    "fy_end": "2019-10-31",
@@ -207,7 +249,10 @@
    "goodwill_and_intangibles": 4228680000.0,
    "retained_earnings": 5534307000.0,
    "total_debt": 20824000.0,
-   "shares_out": 152375000.0
+   "shares_out": 152375000.0,
+   "unusual_items": -6527000.0,
+   "normalized_ebitda": 1340082000.0,
+   "normalized_income": 975927527.440251
   },
   {
    "fy_end": "2023-10-31",
@@ -242,7 +287,10 @@
    "goodwill_and_intangibles": 3585642000.0,
    "retained_earnings": 6741699000.0,
    "total_debt": 18078000.0,
-   "shares_out": 152053000.0
+   "shares_out": 152053000.0,
+   "unusual_items": -54620000.0,
+   "normalized_ebitda": 1609913000.0,
+   "normalized_income": 1277891593.824446
   },
   {
    "fy_end": "2024-10-31",
@@ -277,7 +325,10 @@
    "goodwill_and_intangibles": 3644014000.0,
    "retained_earnings": 8984105000.0,
    "total_debt": 15601000.0,
-   "shares_out": 154112000.0
+   "shares_out": 154112000.0,
+   "unusual_items": 63277000.0,
+   "normalized_ebitda": 1782475000.0,
+   "normalized_income": 1382609282.0
   },
   {
    "fy_end": "2025-10-31",
@@ -312,7 +363,10 @@
    "goodwill_and_intangibles": 39578806000.0,
    "retained_earnings": 10315487000.0,
    "total_debt": 13484515000.0,
-   "shares_out": 185994000.0
+   "shares_out": 185994000.0,
+   "unusual_items": 598498000.0,
+   "normalized_ebitda": 1901803000.0,
+   "normalized_income": 761561920.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "VFC",
- "fetched_at": "2026-10-10T13:01:16+00:00",
+ "fetched_at": "2026-10-10T15:58:47+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 14560,
   "website": "https://www.vfc.com",
-  "longBusinessSummary": "V.F. Corporation, together with its subsidiaries, offers branded apparel, footwear, and accessories for men, women, and children in the Americas, Europe, and the Asia-Pacific. The company operates through two segments: Outdoor and Active. The company provides outdoor apparel, footwear, equipment, accessories; and style-forward and weather-ready footwear, apparel, and accessories under the Timberland, Timberland PRO, and The North Face brands. It also offers youth culture/action sports-inspired and apparel, footwear, and accessories; handbags, luggage, backpacks, totes, and accessories; and backpacks and luggage under the Vans, Kipling, Eastpak, and JanSport brands. In addition, the company provides performance-based footwear; performance merino wool and other natural fibers-based apparel and accessories; performance-based footwear; and high-performance apparel and accessories based on natural fibers under the Smartwool, Napapijri, Icebreaker, and Altra brands. The company sells its products primarily to specialty stores, department stores, national chains, independently operated partnership stores, and mass merchants, as well as sells through direct-to-consumer operations, including retail stores, concession retail stores, and e-commerce sites, and other digital platforms. V.F. Corporation was incorporated in 1899 and is headquartered in Denver, Colorado."
+  "longBusinessSummary": "V.F. Corporation, together with its subsidiaries, offers branded apparel, footwear, and accessories for men, women, and children in the Americas, Europe, and the Asia-Pacific. The company operates through two segments: Outdoor and Active. The company provides outdoor apparel, footwear, equipment, accessories; and style-forward and weather-ready footwear, apparel, and accessories under the Timberland, Timberland PRO, and The North Face brands. It also offers youth culture/action sports-inspired and apparel, footwear, and accessories; handbags, luggage, backpacks, totes, and accessories; and backpacks and luggage under the Vans, Kipling, Eastpak, and JanSport brands. In addition, the company provides performance-based footwear; performance merino wool and other natural fibers-based apparel and accessories; performance-based footwear; and high-performance apparel and accessories based on natural fibers under the Smartwool, Napapijri, Icebreaker, and Altra brands. The company sells its products primarily to specialty stores, department stores, national chains, independently operated partnership stores, and mass merchants, as well as sells through direct-to-consumer operations, including retail stores, concession retail stores, and e-commerce sites, and other digital platforms. V.F. Corporation was incorporated in 1899 and is headquartered in Denver, Colorado.",
+  "targetMeanPrice": 18.32727,
+  "targetLowPrice": 13.0,
+  "targetHighPrice": 40.0,
+  "numberOfAnalystOpinions": 22,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.58333,
+  "forwardPE": 11.169024,
+  "forwardEps": 1.343,
+  "trailingEps": 0.68,
+  "earningsGrowth": null,
+  "revenueGrowth": -0.052
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-03-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 9290177000.0,
+    "official": 9290177000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1849878000.0,
+    "official": 1849878000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 254920000.0,
+    "official": 254920000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 9605207000.0,
+    "official": 9605207000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:58:47+00:00",
  "years": [
   {
    "fy_end": "2020-03-28",
@@ -199,7 +241,10 @@
    "goodwill_and_intangibles": 4969973000.0,
    "retained_earnings": 57086000.0,
    "total_debt": 6629572000.0,
-   "shares_out": 388665531.0
+   "shares_out": 388665531.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 1142236000.0,
+   "normalized_income": 755734000.0
   },
   {
    "fy_end": "2024-03-30",
@@ -233,7 +278,10 @@
    "goodwill_and_intangibles": 2709674000.0,
    "retained_earnings": -974584000.0,
    "total_debt": 5950784000.0,
-   "shares_out": 388836219.0
+   "shares_out": 388836219.0,
+   "unusual_items": -507566000.0,
+   "normalized_ebitda": 716098000.0,
+   "normalized_income": -641000165.8
   },
   {
    "fy_end": "2025-03-29",
@@ -268,7 +316,10 @@
    "goodwill_and_intangibles": 2568379000.0,
    "retained_earnings": -1173011000.0,
    "total_debt": 3963095000.0,
-   "shares_out": 389695199.0
+   "shares_out": 389695199.0,
+   "unusual_items": -89242000.0,
+   "normalized_ebitda": 668155000.0,
+   "normalized_income": 135746820.6
   },
   {
    "fy_end": "2026-03-28",
@@ -303,7 +354,10 @@
    "goodwill_and_intangibles": 2274802000.0,
    "retained_earnings": -928834000.0,
    "total_debt": 3530009000.0,
-   "shares_out": 391515399.0
+   "shares_out": 391515399.0,
+   "unusual_items": -30716000.0,
+   "normalized_ebitda": 819234000.0,
+   "normalized_income": 277864852.0
   }
  ]
 }

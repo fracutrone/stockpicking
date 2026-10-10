@@ -1,6 +1,6 @@
 {
  "ticker": "DOCU",
- "fetched_at": "2026-10-10T12:43:25+00:00",
+ "fetched_at": "2026-10-10T15:41:52+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 7044,
   "website": "https://www.docusign.com",
-  "longBusinessSummary": "DocuSign, Inc. provides electronic signature solution in the United States and internationally. The company offers AI-powered intelligent agreement management (IAM) platform to optimize the gain intelligence and automation across the entire agreement lifecycle; and provides e-signature solution that enables sending and signing of agreements on various devices; Contract Lifecycle Management (CLM), which automates workflows across the entire agreement process; and Document Generation streamlines the process of generating new, custom agreements. It also provides Identify, a signer-identification option for checking government-issued IDs; Standards-Based Signatures, which support signatures that involve digital certificates; Monitor that uses advanced analytics; Notary which enables notaries public to conduct remote online notarization transactions; and Web Forms. In addition, the company offers Real Estate for eSignature that provides a way for brokers and agents to manage the entire real estate transaction digitally. eSignature and CLM are Federal Risk and Authorization Management Program (FedRAMP), an authorized version of DocuSign eSignature for U.S. federal government agencies; and life sciences modules that support compliance with the electronic signature practices. The company sells its products through direct and partner-assisted sales, and digital self-service purchasing. DocuSign, Inc. was incorporated in 2003 and is headquartered in San Francisco, California."
+  "longBusinessSummary": "DocuSign, Inc. provides electronic signature solution in the United States and internationally. The company offers AI-powered intelligent agreement management (IAM) platform to optimize the gain intelligence and automation across the entire agreement lifecycle; and provides e-signature solution that enables sending and signing of agreements on various devices; Contract Lifecycle Management (CLM), which automates workflows across the entire agreement process; and Document Generation streamlines the process of generating new, custom agreements. It also provides Identify, a signer-identification option for checking government-issued IDs; Standards-Based Signatures, which support signatures that involve digital certificates; Monitor that uses advanced analytics; Notary which enables notaries public to conduct remote online notarization transactions; and Web Forms. In addition, the company offers Real Estate for eSignature that provides a way for brokers and agents to manage the entire real estate transaction digitally. eSignature and CLM are Federal Risk and Authorization Management Program (FedRAMP), an authorized version of DocuSign eSignature for U.S. federal government agencies; and life sciences modules that support compliance with the electronic signature practices. The company sells its products through direct and partner-assisted sales, and digital self-service purchasing. DocuSign, Inc. was incorporated in 2003 and is headquartered in San Francisco, California.",
+  "targetMeanPrice": 69.99312,
+  "targetLowPrice": 46.89,
+  "targetHighPrice": 86.0,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 13.64289,
+  "forwardEps": 5.21004,
+  "trailingEps": 1.64,
+  "earningsGrowth": 0.333,
+  "revenueGrowth": 0.094
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-01-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 4229550000.0,
+    "official": 4229550000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1917820000.0,
+    "official": 1917820000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 309085000.0,
+    "official": 309085000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3219500000.0,
+    "official": 3219500000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:41:52+00:00",
  "years": [
   {
    "fy_end": "2020-01-31",
@@ -197,7 +239,10 @@
    "goodwill_and_intangibles": 423899000.0,
    "retained_earnings": -1598684000.0,
    "total_debt": 888290000.0,
-   "shares_out": 201904000.0
+   "shares_out": 201904000.0,
+   "unusual_items": -28335000.0,
+   "normalized_ebitda": 31098000.0,
+   "normalized_income": -75069350.0
   },
   {
    "fy_end": "2024-01-31",
@@ -231,7 +276,10 @@
    "goodwill_and_intangibles": 404043000.0,
    "retained_earnings": -1670219000.0,
    "total_debt": 143053000.0,
-   "shares_out": 205326000.0
+   "shares_out": 205326000.0,
+   "unusual_items": -30381000.0,
+   "normalized_ebitda": 225966000.0,
+   "normalized_income": 97980990.0
   },
   {
    "fy_end": "2025-01-31",
@@ -265,7 +313,10 @@
    "goodwill_and_intangibles": 530865000.0,
    "retained_earnings": -1287323000.0,
    "total_debt": 124427000.0,
-   "shares_out": 202477000.0
+   "shares_out": 202477000.0,
+   "unusual_items": -29721000.0,
+   "normalized_ebitda": 387016000.0,
+   "normalized_income": 1091364590.0
   },
   {
    "fy_end": "2026-01-31",
@@ -299,7 +350,10 @@
    "goodwill_and_intangibles": 519840000.0,
    "retained_earnings": -1856483000.0,
    "total_debt": 185119000.0,
-   "shares_out": 197765000.0
+   "shares_out": 197765000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 465955000.0,
+   "normalized_income": 309085000.0
   }
  ]
 }

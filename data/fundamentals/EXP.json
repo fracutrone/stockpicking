@@ -1,6 +1,6 @@
 {
  "ticker": "EXP",
- "fetched_at": "2026-10-10T12:45:01+00:00",
+ "fetched_at": "2026-10-10T15:43:21+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 2800,
   "website": "https://www.eaglematerials.com",
-  "longBusinessSummary": "Eagle Materials Inc., through its subsidiaries, manufactures and sells heavy construction products and light building materials in the United States. The company operates in four segments: Cement, Concrete and Aggregates, Gypsum Wallboard, and Recycled Paperboard. It engages in the mining of limestone for the manufacture, production, distribution, and sale of portland cement, including Portland limestone cement; grinding and sale of slag; and mining of gypsum for the manufacture and sale of gypsum wallboards used to finish the interior walls and ceilings in residential, commercial, and industrial structures, as well as well as containerboard and lightweight packaging grades. The company is also involved in the manufacture and sale of recycled paperboard to the gypsum wallboard industry and other paperboard converters; sale of readymix concrete; and mining and sale of aggregates, such as crushed stone, sand, and gravel. Its products are used in commercial and residential construction; public construction projects to build, expand, and repair roads and highways; and repair and remodel activities. The company was formerly known as Centex Construction Products, Inc. and changed its name to Eagle Materials, Inc. in January 2004. Eagle Materials Inc. was founded in 1963 and is headquartered in Dallas, Texas."
+  "longBusinessSummary": "Eagle Materials Inc., through its subsidiaries, manufactures and sells heavy construction products and light building materials in the United States. The company operates in four segments: Cement, Concrete and Aggregates, Gypsum Wallboard, and Recycled Paperboard. It engages in the mining of limestone for the manufacture, production, distribution, and sale of portland cement, including Portland limestone cement; grinding and sale of slag; and mining of gypsum for the manufacture and sale of gypsum wallboards used to finish the interior walls and ceilings in residential, commercial, and industrial structures, as well as well as containerboard and lightweight packaging grades. The company is also involved in the manufacture and sale of recycled paperboard to the gypsum wallboard industry and other paperboard converters; sale of readymix concrete; and mining and sale of aggregates, such as crushed stone, sand, and gravel. Its products are used in commercial and residential construction; public construction projects to build, expand, and repair roads and highways; and repair and remodel activities. The company was formerly known as Centex Construction Products, Inc. and changed its name to Eagle Materials, Inc. in January 2004. Eagle Materials Inc. was founded in 1963 and is headquartered in Dallas, Texas.",
+  "targetMeanPrice": 201.5,
+  "targetLowPrice": 165.0,
+  "targetHighPrice": 232.0,
+  "numberOfAnalystOpinions": 10,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.0,
+  "forwardPE": 12.062619,
+  "forwardEps": 13.65375,
+  "trailingEps": 12.69,
+  "earningsGrowth": -0.125,
+  "revenueGrowth": 0.026
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-03-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3842244000.0,
+    "official": 3842244000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1474828000.0,
+    "official": 1474828000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 423809000.0,
+    "official": 423809000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2308658000.0,
+    "official": 2308658000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:43:21+00:00",
  "years": [
   {
    "fy_end": "2020-03-31",
@@ -161,7 +203,8 @@
    "ppe_net": 1616539000.0,
    "goodwill": 329137000.0,
    "retained_earnings": 1136344000.0,
-   "total_debt": 1106000000.0
+   "total_debt": 1106000000.0,
+   "unusual_items": -8407000.0
   },
   {
    "fy_end": "2023-03-31",
@@ -195,7 +238,10 @@
    "goodwill_and_intangibles": 466043000.0,
    "retained_earnings": 1188883000.0,
    "total_debt": 1099500000.0,
-   "shares_out": 35768376.0
+   "shares_out": 35768376.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 762739000.0,
+   "normalized_income": 461540000.0
   },
   {
    "fy_end": "2024-03-31",
@@ -229,7 +275,10 @@
    "goodwill_and_intangibles": 486117000.0,
    "retained_earnings": 1311567000.0,
    "total_debt": 1102500000.0,
-   "shares_out": 34143945.0
+   "shares_out": 34143945.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 811069000.0,
+   "normalized_income": 477639000.0
   },
   {
    "fy_end": "2025-03-31",
@@ -263,7 +312,9 @@
    "goodwill_and_intangibles": 595752000.0,
    "retained_earnings": 1459495000.0,
    "total_debt": 1246250000.0,
-   "shares_out": 32973121.0
+   "shares_out": 32973121.0,
+   "normalized_ebitda": 792631000.0,
+   "normalized_income": 463416000.0
   },
   {
    "fy_end": "2026-03-31",
@@ -297,7 +348,9 @@
    "goodwill_and_intangibles": 585443000.0,
    "retained_earnings": 1478920000.0,
    "total_debt": 1781250000.0,
-   "shares_out": 31227012.0
+   "shares_out": 31227012.0,
+   "normalized_ebitda": 759360000.0,
+   "normalized_income": 423809000.0
   }
  ]
 }

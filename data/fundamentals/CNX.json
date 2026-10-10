@@ -1,6 +1,6 @@
 {
  "ticker": "CNX",
- "fetched_at": "2026-10-10T12:41:28+00:00",
+ "fetched_at": "2026-10-10T15:40:06+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 390,
   "website": "https://www.cnx.com",
-  "longBusinessSummary": "CNX Resources Corporation, an independent natural gas and midstream company, engages in the acquisition, exploration, development, and production of natural gas properties in the Appalachian Basin. The company operates in two segments, Shale and Coalbed Methane (CBM). It produces and sells pipeline quality natural gas primarily for gas wholesalers. The company owns rights to extract natural gas from shale formations in Pennsylvania, West Virginia, and Ohio, as well as rights to extract natural gas from other Shale and shallow oil and gas formations primarily in Illinois, Indiana, New York, Ohio, Pennsylvania, Virginia, and West Virginia. In addition, the company designs, builds, and operates natural gas gathering systems to move natural gas from the wellhead to interstate pipelines or other local sales points; owns or operates approximately 2,600 miles of natural gas gathering pipelines as well as various natural gas processing facilities. Further, it offers turn-key solutions for water sourcing, delivery and disposal for its natural gas operations and supplies solutions for water sourcing as well as delivery and disposal for third parties. The company was formerly known as CONSOL Energy Inc. and changed its name to CNX Resources Corporation in November 2017. CNX Resources Corporation was founded in 1860 and is based in Canonsburg, Pennsylvania."
+  "longBusinessSummary": "CNX Resources Corporation, an independent natural gas and midstream company, engages in the acquisition, exploration, development, and production of natural gas properties in the Appalachian Basin. The company operates in two segments, Shale and Coalbed Methane (CBM). It produces and sells pipeline quality natural gas primarily for gas wholesalers. The company owns rights to extract natural gas from shale formations in Pennsylvania, West Virginia, and Ohio, as well as rights to extract natural gas from other Shale and shallow oil and gas formations primarily in Illinois, Indiana, New York, Ohio, Pennsylvania, Virginia, and West Virginia. In addition, the company designs, builds, and operates natural gas gathering systems to move natural gas from the wellhead to interstate pipelines or other local sales points; owns or operates approximately 2,600 miles of natural gas gathering pipelines as well as various natural gas processing facilities. Further, it offers turn-key solutions for water sourcing, delivery and disposal for its natural gas operations and supplies solutions for water sourcing as well as delivery and disposal for third parties. The company was formerly known as CONSOL Energy Inc. and changed its name to CNX Resources Corporation in November 2017. CNX Resources Corporation was founded in 1860 and is based in Canonsburg, Pennsylvania.",
+  "targetMeanPrice": 37.63636,
+  "targetLowPrice": 32.0,
+  "targetHighPrice": 48.0,
+  "numberOfAnalystOpinions": 11,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.08333,
+  "forwardPE": 8.897732,
+  "forwardEps": 3.82457,
+  "trailingEps": 6.22,
+  "earningsGrowth": -0.477,
+  "revenueGrowth": -0.181
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 9094446000.0,
+    "official": 9094446000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4337016000.0,
+    "official": 4337016000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 633162000.0,
+    "official": 633162000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2142473000.0,
+    "official": 2239134000.0,
+    "diff": 0.043169
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:40:06+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -191,7 +233,10 @@
    "goodwill_and_intangibles": 400304000.0,
    "retained_earnings": 448993000.0,
    "total_debt": 2205735000.0,
-   "shares_out": 170841164.0
+   "shares_out": 170841164.0,
+   "unusual_items": -2677744000.0,
+   "normalized_ebitda": 3054701000.0,
+   "normalized_income": 1652011480.0
   },
   {
    "fy_end": "2023-12-31",
@@ -225,7 +270,10 @@
    "goodwill_and_intangibles": 393752000.0,
    "retained_earnings": 1981860000.0,
    "total_debt": 2214374000.0,
-   "shares_out": 154382880.0
+   "shares_out": 154382880.0,
+   "unusual_items": 2061024000.0,
+   "normalized_ebitda": 738765000.0,
+   "normalized_income": 125483424.0
   },
   {
    "fy_end": "2024-12-31",
@@ -259,7 +307,10 @@
    "goodwill_and_intangibles": 387199000.0,
    "retained_earnings": 1753293000.0,
    "total_debt": 2166000000.0,
-   "shares_out": 148879640.0
+   "shares_out": 148879640.0,
+   "unusual_items": -133733000.0,
+   "normalized_ebitda": 649719000.0,
+   "normalized_income": 10073216.0
   },
   {
    "fy_end": "2025-12-31",
@@ -293,7 +344,10 @@
    "goodwill_and_intangibles": 380647000.0,
    "retained_earnings": 1984229000.0,
    "total_debt": 2421359000.0,
-   "shares_out": 142590509.0
+   "shares_out": 142590509.0,
+   "unusual_items": 193987000.0,
+   "normalized_ebitda": 1353660000.0,
+   "normalized_income": 480106257.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "DANSKE.CO",
- "fetched_at": "2026-10-10T11:53:35+00:00",
+ "fetched_at": "2026-10-10T14:41:44+00:00",
  "region": "Europa",
  "statement_currency": "DKK",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "CPH",
   "fullTimeEmployees": 19472,
   "website": "https://danskebank.com",
-  "longBusinessSummary": "Danske Bank A/S provides various banking products and services to corporate, institutional, and international clients. The company offers banking, mortgage finance, insurance, pension, real-estate brokerage, asset management, trading in fixed income products, foreign exchange, and equities. It also provides advisory services to personal and private banking customers. In addition, the company offers financing, risk management, investment, and financial advisory services for large corporates and institutions; healthcare solutions; and online and mobile banking services. It operates in Denmark, Finland, Sweden, Norway, the United Kingdom, Ireland, Lithuania, Luxembourg, Poland, and the United States of America. The company was founded in 1871 and is headquartered in Copenhagen, Denmark."
+  "longBusinessSummary": "Danske Bank A/S provides various banking products and services to corporate, institutional, and international clients. The company offers banking, mortgage finance, insurance, pension, real-estate brokerage, asset management, trading in fixed income products, foreign exchange, and equities. It also provides advisory services to personal and private banking customers. In addition, the company offers financing, risk management, investment, and financial advisory services for large corporates and institutions; healthcare solutions; and online and mobile banking services. It operates in Denmark, Finland, Sweden, Norway, the United Kingdom, Ireland, Lithuania, Luxembourg, Poland, and the United States of America. The company was founded in 1871 and is headquartered in Copenhagen, Denmark.",
+  "targetMeanPrice": 406.5625,
+  "targetLowPrice": 320.0,
+  "targetHighPrice": 449.0,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.125,
+  "forwardPE": 10.583948,
+  "forwardEps": 33.15398,
+  "trailingEps": 29.0,
+  "earningsGrowth": 0.152,
+  "revenueGrowth": 0.08
  },
  "governance": {
   "ceo": {
@@ -69,8 +80,34 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF DK",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3716042000000.0,
+    "official": 3716042000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 174570000000.0,
+    "official": 175687000000.0,
+    "diff": 0.006358
+   },
+   "net_income": {
+    "yahoo": 23629000000.0,
+    "official": 23629000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T14:41:44+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -97,7 +134,9 @@
    "goodwill_and_intangibles": 6045000000.0,
    "retained_earnings": 155812000000.0,
    "total_debt": 1053562000000.0,
-   "shares_out": 850946772.0
+   "shares_out": 850946772.0,
+   "unusual_items": -15279000000.0,
+   "normalized_income": 8964620000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -124,7 +163,9 @@
    "goodwill_and_intangibles": 6064000000.0,
    "retained_earnings": 163596000000.0,
    "total_debt": 1102243000000.0,
-   "shares_out": 859773706.0
+   "shares_out": 859773706.0,
+   "unusual_items": -959000000.0,
+   "normalized_income": 22026323000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -151,7 +192,9 @@
    "goodwill_and_intangibles": 6737000000.0,
    "retained_earnings": 157040000000.0,
    "total_debt": 1126723000000.0,
-   "shares_out": 833817419.0
+   "shares_out": 833817419.0,
+   "unusual_items": -30000000.0,
+   "normalized_income": 23651710000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -178,7 +221,9 @@
    "goodwill_and_intangibles": 7872000000.0,
    "retained_earnings": 156832000000.0,
    "total_debt": 1136680000000.0,
-   "shares_out": 814998194.0
+   "shares_out": 814998194.0,
+   "unusual_items": -697000000.0,
+   "normalized_income": 23559750000.0
   }
  ]
 }

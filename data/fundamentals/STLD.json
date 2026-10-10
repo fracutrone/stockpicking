@@ -1,6 +1,6 @@
 {
  "ticker": "STLD",
- "fetched_at": "2026-10-10T12:58:52+00:00",
+ "fetched_at": "2026-10-10T15:56:36+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 14400,
   "website": "https://www.steeldynamics.com",
-  "longBusinessSummary": "Steel Dynamics, Inc., together with its subsidiaries, operates as a steel producer and metal recycler in the United States. It operates through four segments: Steel Operations, Metals Recycling Operations, Steel Fabrication Operations, and Aluminum Operations. The Steel Operations segment offers hot rolled, cold rolled, and coated steel products; parallel flange beams and channel sections, large unequal leg angles, and reinforcing steel bars, standard strength carbon, intermediate alloy hardness, and premium grade rail products; engineered special-bar-quality products, merchant-bar-quality products, and other engineered round steel bars; channels, angles, flats, merchant rounds, and reinforcing steel bars; and specialty shapes and light structural steel products. This segment also engages in turning, polishing, straightening, chamfering, precision saw-cutting, and heat treating of bar products. Its products are used in construction, automotive, manufacturing, transportation, heavy and agricultural equipment, energy, and pipe and tube markets. The Metals Recycling Operations segment is involved in the ferrous and nonferrous scrap metal processing, transportation, marketing, brokerage, and scrap management services. Its ferrous products include heavy melting steel, busheling, bundled scrap, shredded scrap, steel turnings, and cast-iron products; and nonferrous products comprise aluminum, brass, copper, stainless steel, and other nonferrous metals. The Steel Fabrication Operations segment produces steel non-residential building components, such as steel joists, joist girders, and steel deck products for non-residential steel fabricators, metal building companies, general construction contractors, developers, property owners, brokers, and governmental entities. The Aluminum Operations segment offers recycled aluminum flat rolled products. The company also exports its products. Steel Dynamics, Inc. was incorporated in 1993 and is headquartered in Fort Wayne, Indiana."
+  "longBusinessSummary": "Steel Dynamics, Inc., together with its subsidiaries, operates as a steel producer and metal recycler in the United States. It operates through four segments: Steel Operations, Metals Recycling Operations, Steel Fabrication Operations, and Aluminum Operations. The Steel Operations segment offers hot rolled, cold rolled, and coated steel products; parallel flange beams and channel sections, large unequal leg angles, and reinforcing steel bars, standard strength carbon, intermediate alloy hardness, and premium grade rail products; engineered special-bar-quality products, merchant-bar-quality products, and other engineered round steel bars; channels, angles, flats, merchant rounds, and reinforcing steel bars; and specialty shapes and light structural steel products. This segment also engages in turning, polishing, straightening, chamfering, precision saw-cutting, and heat treating of bar products. Its products are used in construction, automotive, manufacturing, transportation, heavy and agricultural equipment, energy, and pipe and tube markets. The Metals Recycling Operations segment is involved in the ferrous and nonferrous scrap metal processing, transportation, marketing, brokerage, and scrap management services. Its ferrous products include heavy melting steel, busheling, bundled scrap, shredded scrap, steel turnings, and cast-iron products; and nonferrous products comprise aluminum, brass, copper, stainless steel, and other nonferrous metals. The Steel Fabrication Operations segment produces steel non-residential building components, such as steel joists, joist girders, and steel deck products for non-residential steel fabricators, metal building companies, general construction contractors, developers, property owners, brokers, and governmental entities. The Aluminum Operations segment offers recycled aluminum flat rolled products. The company also exports its products. Steel Dynamics, Inc. was incorporated in 1993 and is headquartered in Fort Wayne, Indiana.",
+  "targetMeanPrice": 270.10358,
+  "targetLowPrice": 205.45,
+  "targetHighPrice": 310.0,
+  "numberOfAnalystOpinions": 14,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": 11.741788,
+  "forwardEps": 20.30185,
+  "trailingEps": 11.03,
+  "earningsGrowth": 0.836,
+  "revenueGrowth": 0.334
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 16419780000.0,
+    "official": 16419780000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 8957182000.0,
+    "official": 8957182000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1185595000.0,
+    "official": 1185595000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 18176581000.0,
+    "official": 18176581000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:56:36+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -173,7 +215,8 @@
    "goodwill": 453835000.0,
    "intangibles": 295345000.0,
    "retained_earnings": 7761417000.0,
-   "total_debt": 3105876000.0
+   "total_debt": 3105876000.0,
+   "unusual_items": 0.0
   },
   {
    "fy_end": "2022-12-31",
@@ -208,7 +251,10 @@
    "goodwill_and_intangibles": 769574000.0,
    "retained_earnings": 11375765000.0,
    "total_debt": 3070575000.0,
-   "shares_out": 172936163.0
+   "shares_out": 172936163.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 5496809000.0,
+   "normalized_income": 3862674000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -243,7 +289,9 @@
    "goodwill_and_intangibles": 735230000.0,
    "retained_earnings": 13545590000.0,
    "total_debt": 3071056000.0,
-   "shares_out": 160018100.0
+   "shares_out": 160018100.0,
+   "normalized_ebitda": 3733231000.0,
+   "normalized_income": 2450882000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -278,7 +326,9 @@
    "goodwill_and_intangibles": 704705000.0,
    "retained_earnings": 14798082000.0,
    "total_debt": 3231007000.0,
-   "shares_out": 151117153.0
+   "shares_out": 151117153.0,
+   "normalized_ebitda": 2518135000.0,
+   "normalized_income": 1537134000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -313,7 +363,9 @@
    "goodwill_and_intangibles": 808761000.0,
    "retained_earnings": 15689042000.0,
    "total_debt": 4211163000.0,
-   "shares_out": 144940102.0
+   "shares_out": 144940102.0,
+   "normalized_ebitda": 2114404000.0,
+   "normalized_income": 1185595000.0
   }
  ]
 }

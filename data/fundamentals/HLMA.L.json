@@ -1,6 +1,6 @@
 {
  "ticker": "HLMA.L",
- "fetched_at": "2026-10-10T12:01:50+00:00",
+ "fetched_at": "2026-10-10T14:54:50+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 9000,
   "website": "https://www.halma.com",
-  "longBusinessSummary": "Halma plc, together with its subsidiaries, provides technology solutions in the safety, health, and environmental markets in the United States, Mainland Europe, the United Kingdom, the Asia Pacific, Africa, the Middle East, and internationally. The company operates in three segments: Safety, Environmental & Analysis, and Healthcare. Its Safety segment provides products that protect people, assets, and infrastructure used in public and commercial spaces and in industrial and logistics operations. This segment serves fire safety, public safety, worker safety, and infrastructure and asset safety markets. The Environmental & Analysis segment offers technologies that monitor the environment used in optical solutions, water analysis and treatment system, and environmental monitoring technologies. Its Healthcare segment provides technologies and digital solutions for healthcare enablement, discovery, prevention, and diagnostics, and therapeutic solutions. The company also designs and manufactures differentiated orthobiologic products. Halma plc was incorporated in 1894 and is headquartered in Amersham, the United Kingdom."
+  "longBusinessSummary": "Halma plc, together with its subsidiaries, provides technology solutions in the safety, health, and environmental markets in the United States, Mainland Europe, the United Kingdom, the Asia Pacific, Africa, the Middle East, and internationally. The company operates in three segments: Safety, Environmental & Analysis, and Healthcare. Its Safety segment provides products that protect people, assets, and infrastructure used in public and commercial spaces and in industrial and logistics operations. This segment serves fire safety, public safety, worker safety, and infrastructure and asset safety markets. The Environmental & Analysis segment offers technologies that monitor the environment used in optical solutions, water analysis and treatment system, and environmental monitoring technologies. Its Healthcare segment provides technologies and digital solutions for healthcare enablement, discovery, prevention, and diagnostics, and therapeutic solutions. The company also designs and manufactures differentiated orthobiologic products. Halma plc was incorporated in 1894 and is headquartered in Amersham, the United Kingdom.",
+  "targetMeanPrice": 4401.667,
+  "targetLowPrice": 3650.0,
+  "targetHighPrice": 5180.0,
+  "numberOfAnalystOpinions": 18,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.94444,
+  "forwardPE": 23.91297,
+  "forwardEps": 1.47535,
+  "trailingEps": 0.98,
+  "earningsGrowth": 0.16,
+  "revenueGrowth": 0.146
  },
  "governance": {
   "ceo": {
@@ -76,8 +87,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2026-03-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3712700000.0,
+    "official": 3712700000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2168000000.0,
+    "official": 2168000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 372300000.0,
+    "official": 372300000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2582300000.0,
+    "official": 2582300000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2026-03-31"
+ },
+ "info_at": "2026-10-10T14:54:50+00:00",
  "years": [
   {
    "fy_end": "2023-03-31",
@@ -111,7 +154,10 @@
    "goodwill_and_intangibles": 1592800000.0,
    "retained_earnings": 1415800000.0,
    "total_debt": 766200000.0,
-   "shares_out": 377743917.0
+   "shares_out": 377743917.0,
+   "unusual_items": -400000.0,
+   "normalized_ebitda": 411000000.0,
+   "normalized_income": 234821600.0
   },
   {
    "fy_end": "2024-03-31",
@@ -145,7 +191,10 @@
    "goodwill_and_intangibles": 1780000000.0,
    "retained_earnings": 1604500000.0,
    "total_debt": 795900000.0,
-   "shares_out": 377188127.0
+   "shares_out": 377188127.0,
+   "unusual_items": 300000.0,
+   "normalized_ebitda": 475200000.0,
+   "normalized_income": 268563000.0
   },
   {
    "fy_end": "2025-03-31",
@@ -179,7 +228,10 @@
    "goodwill_and_intangibles": 1839300000.0,
    "retained_earnings": 1792400000.0,
    "total_debt": 849000000.0,
-   "shares_out": 377701673.0
+   "shares_out": 377701673.0,
+   "unusual_items": 2900000.0,
+   "normalized_ebitda": 534400000.0,
+   "normalized_income": 294164100.0
   },
   {
    "fy_end": "2026-03-31",
@@ -213,7 +265,10 @@
    "goodwill_and_intangibles": 2254100000.0,
    "retained_earnings": 2077600000.0,
    "total_debt": 913400000.0,
-   "shares_out": 377678275.0
+   "shares_out": 377678275.0,
+   "unusual_items": -6300000.0,
+   "normalized_ebitda": 662800000.0,
+   "normalized_income": 377081700.0
   }
  ]
 }

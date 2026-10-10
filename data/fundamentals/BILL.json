@@ -1,6 +1,6 @@
 {
  "ticker": "BILL",
- "fetched_at": "2026-10-10T12:38:59+00:00",
+ "fetched_at": "2026-10-10T15:37:44+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 1683,
   "website": "https://www.bill.com",
-  "longBusinessSummary": "BILL Holdings, Inc. provides financial operations platform for small and midsize businesses worldwide. The company offers cloud-based payments, accounts payable, accounts receivable, and spend and expense management solutions. It also provides BILL Spend and Expense, a spend and expense management suite that provides a solution for businesses to have charge cards, build and monitor budgets, manage payments, and eliminate the need for manual expense reports. In addition, the company offers onboarding implementation support, and ongoing support and training services. Additionally, it provides payment services, including ACH, card, real-time, and cross-border payments, as well as checks and pay by card services; lending and deposit products; and value-added services. The company's artificial intelligence enabled financial software platform provides connections between suppliers and clients. It serves accounting firms, financial institutions, and software provider companies. The company was formerly known as Bill.com Holdings, Inc. and changed its name to BILL Holdings, Inc. in February 2023. BILL Holdings, Inc. was incorporated in 2006 and is headquartered in San Jose, California."
+  "longBusinessSummary": "BILL Holdings, Inc. provides financial operations platform for small and midsize businesses worldwide. The company offers cloud-based payments, accounts payable, accounts receivable, and spend and expense management solutions. It also provides BILL Spend and Expense, a spend and expense management suite that provides a solution for businesses to have charge cards, build and monitor budgets, manage payments, and eliminate the need for manual expense reports. In addition, the company offers onboarding implementation support, and ongoing support and training services. Additionally, it provides payment services, including ACH, card, real-time, and cross-border payments, as well as checks and pay by card services; lending and deposit products; and value-added services. The company's artificial intelligence enabled financial software platform provides connections between suppliers and clients. It serves accounting firms, financial institutions, and software provider companies. The company was formerly known as Bill.com Holdings, Inc. and changed its name to BILL Holdings, Inc. in February 2023. BILL Holdings, Inc. was incorporated in 2006 and is headquartered in San Jose, California.",
+  "targetMeanPrice": 57.2,
+  "targetLowPrice": 43.0,
+  "targetHighPrice": 75.0,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.95455,
+  "forwardPE": 10.350122,
+  "forwardEps": 4.33135,
+  "trailingEps": -0.11,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.138
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-06-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 10218139000.0,
+    "official": 10218139000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3530602000.0,
+    "official": 3530602000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -11241000.0,
+    "official": -11241000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1653160000.0,
+    "official": 1653160000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:37:44+00:00",
  "years": [
   {
    "fy_end": "2020-06-30",
@@ -195,7 +237,10 @@
    "goodwill_and_intangibles": 2757936000.0,
    "retained_earnings": -856168000.0,
    "total_debt": 1839828000.0,
-   "shares_out": 106550000.0
+   "shares_out": 106550000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": -119000000.0,
+   "normalized_income": -223725000.0
   },
   {
    "fy_end": "2024-06-30",
@@ -229,7 +274,10 @@
    "goodwill_and_intangibles": 2677980000.0,
    "retained_earnings": -1096948000.0,
    "total_debt": 914000000.0,
-   "shares_out": 106645577.0
+   "shares_out": 106645577.0,
+   "unusual_items": 17685000.0,
+   "normalized_ebitda": 72103000.0,
+   "normalized_income": -42849150.0
   },
   {
    "fy_end": "2025-06-30",
@@ -263,7 +311,10 @@
    "goodwill_and_intangibles": 2619314000.0,
    "retained_earnings": -1510804000.0,
    "total_debt": 1714470000.0,
-   "shares_out": 103012468.0
+   "shares_out": 103012468.0,
+   "unusual_items": 40550000.0,
+   "normalized_ebitda": 93127000.0,
+   "normalized_income": -7935608.681355
   },
   {
    "fy_end": "2026-06-30",
@@ -297,7 +348,10 @@
    "goodwill_and_intangibles": 2558655000.0,
    "retained_earnings": -2089312000.0,
    "total_debt": 1836123000.0,
-   "shares_out": 92062867.0
+   "shares_out": 92062867.0,
+   "unusual_items": -90895000.0,
+   "normalized_ebitda": 216751000.0,
+   "normalized_income": 43296000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "CRDA.L",
- "fetched_at": "2026-10-10T11:52:34+00:00",
+ "fetched_at": "2026-10-10T14:40:54+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 5954,
   "website": "https://www.croda.com",
-  "longBusinessSummary": "Croda International Plc engages in the consumer care, life science, and industrial specialty businesses in Europe, the Middle East, Africa, North America, Asia, and Latin America. The company offers consumer care products across beauty care, beauty actives, and home care products, as well as fragrances and flavours. It also provides biologics drug delivery, crop protection, and seed coating systems and enhancement technologies to improve germination. In addition, the company offers industrial specialties, including phase change materials; surfactants, such as emulsifiers, dispersants, wetting agents, detergents, and polymerics; and formulated textile and spin finishes. Croda International Plc was incorporated in 1925 and is headquartered in Goole, the United Kingdom."
+  "longBusinessSummary": "Croda International Plc engages in the consumer care, life science, and industrial specialty businesses in Europe, the Middle East, Africa, North America, Asia, and Latin America. The company offers consumer care products across beauty care, beauty actives, and home care products, as well as fragrances and flavours. It also provides biologics drug delivery, crop protection, and seed coating systems and enhancement technologies to improve germination. In addition, the company offers industrial specialties, including phase change materials; surfactants, such as emulsifiers, dispersants, wetting agents, detergents, and polymerics; and formulated textile and spin finishes. Croda International Plc was incorporated in 1925 and is headquartered in Goole, the United Kingdom.",
+  "targetMeanPrice": 3696.154,
+  "targetLowPrice": 3190.0,
+  "targetHighPrice": 4250.0,
+  "numberOfAnalystOpinions": 13,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.92308,
+  "forwardPE": 19.04152,
+  "forwardEps": 1.78032,
+  "trailingEps": 0.57,
+  "earningsGrowth": 0.285,
+  "revenueGrowth": 0.029
  },
  "governance": {
   "ceo": {
@@ -70,8 +81,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3411000000.0,
+    "official": 3411000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2187100000.0,
+    "official": 2187100000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 62000000.0,
+    "official": 62000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1699400000.0,
+    "official": 1699400000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:40:54+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -105,7 +148,10 @@
    "goodwill_and_intangibles": 1253200000.0,
    "retained_earnings": 1645700000.0,
    "total_debt": 615800000.0,
-   "shares_out": 139577538.0
+   "shares_out": 139577538.0,
+   "unusual_items": 356000000.0,
+   "normalized_ebitda": 570400000.0,
+   "normalized_income": 350972000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -139,7 +185,10 @@
    "goodwill_and_intangibles": 1408500000.0,
    "retained_earnings": 1640000000.0,
    "total_debt": 710100000.0,
-   "shares_out": 139583303.0
+   "shares_out": 139583303.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 388400000.0,
+   "normalized_income": 171000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -173,7 +222,10 @@
    "goodwill_and_intangibles": 1310600000.0,
    "retained_earnings": 1660100000.0,
    "total_debt": 699100000.0,
-   "shares_out": 139590808.0
+   "shares_out": 139590808.0,
+   "unusual_items": -15000000.0,
+   "normalized_ebitda": 389500000.0,
+   "normalized_income": 170020692.974013
   },
   {
    "fy_end": "2025-12-31",
@@ -206,7 +258,10 @@
    "goodwill_and_intangibles": 1284200000.0,
    "retained_earnings": 1567000000.0,
    "total_debt": 696600000.0,
-   "shares_out": 139354139.0
+   "shares_out": 139354139.0,
+   "unusual_items": -149500000.0,
+   "normalized_ebitda": 405700000.0,
+   "normalized_income": 168292857.142857
   }
  ]
 }

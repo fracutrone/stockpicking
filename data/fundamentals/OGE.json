@@ -1,6 +1,6 @@
 {
  "ticker": "OGE",
- "fetched_at": "2026-10-10T12:53:46+00:00",
+ "fetched_at": "2026-10-10T15:51:58+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 2248,
   "website": "https://www.oge.com",
-  "longBusinessSummary": "OGE Energy Corp., through its subsidiaries, generates, transmits, distributes, and sells electric energy in the United States. It owns and operates coal-fired, natural gas-fired, wind-powered, and solar-powered generating assets. The company also provides retail electric services to approximately 913,000 customers that covers a service area of approximately 30,000 square miles. Additionally, it offers bill payment and electric construction services for residential and business sectors. OGE Energy Corp. was founded in 1902 and is based in Oklahoma City, Oklahoma."
+  "longBusinessSummary": "OGE Energy Corp., through its subsidiaries, generates, transmits, distributes, and sells electric energy in the United States. It owns and operates coal-fired, natural gas-fired, wind-powered, and solar-powered generating assets. The company also provides retail electric services to approximately 913,000 customers that covers a service area of approximately 30,000 square miles. Additionally, it offers bill payment and electric construction services for residential and business sectors. OGE Energy Corp. was founded in 1902 and is based in Oklahoma City, Oklahoma.",
+  "targetMeanPrice": 49.58333,
+  "targetLowPrice": 44.0,
+  "targetHighPrice": 54.0,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.42857,
+  "forwardPE": 17.83331,
+  "forwardEps": 2.60748,
+  "trailingEps": 2.29,
+  "earningsGrowth": 0.057,
+  "revenueGrowth": -0.04
  },
  "governance": {
   "ceo": {
@@ -81,10 +92,41 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "sga": "sec",
   "goodwill": "sec",
   "intangibles": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 14370500000.0,
+    "official": 14370500000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4977300000.0,
+    "official": 4977300000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 470700000.0,
+    "official": 470700000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3260100000.0,
+    "official": 3260100000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:51:58+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -191,7 +233,10 @@
    "ppe_net": 10546800000.0,
    "retained_earnings": 3290900000.0,
    "total_debt": 4548600000.0,
-   "shares_out": 200200000.0
+   "shares_out": 200200000.0,
+   "unusual_items": 289000000.0,
+   "normalized_ebitda": 1127500000.0,
+   "normalized_income": 421955796.275181
   },
   {
    "fy_end": "2023-12-31",
@@ -222,7 +267,10 @@
    "ppe_net": 11301000000.0,
    "retained_earnings": 3373700000.0,
    "total_debt": 4839700000.0,
-   "shares_out": 200300000.0
+   "shares_out": 200300000.0,
+   "unusual_items": 19400000.0,
+   "normalized_ebitda": 1181600000.0,
+   "normalized_income": 399708600.0
   },
   {
    "fy_end": "2024-12-31",
@@ -252,7 +300,10 @@
    "ppe_net": 12086600000.0,
    "retained_earnings": 3475700000.0,
    "total_debt": 5522600000.0,
-   "shares_out": 200947879.0
+   "shares_out": 200947879.0,
+   "unusual_items": 25500000.0,
+   "normalized_ebitda": 1289100000.0,
+   "normalized_income": 419876000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -282,7 +333,10 @@
    "ppe_net": 12730400000.0,
    "retained_earnings": 3601500000.0,
    "total_debt": 5661200000.0,
-   "shares_out": 206135563.0
+   "shares_out": 206135563.0,
+   "unusual_items": 26000000.0,
+   "normalized_ebitda": 1364600000.0,
+   "normalized_income": 448860000.0
   }
  ]
 }

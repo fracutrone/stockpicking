@@ -1,6 +1,6 @@
 {
  "ticker": "OGS",
- "fetched_at": "2026-10-10T12:53:48+00:00",
+ "fetched_at": "2026-10-10T15:52:00+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 4000,
   "website": "https://www.onegas.com",
-  "longBusinessSummary": "ONE Gas, Inc., together with its subsidiaries, operates as a regulated natural gas distribution utility company in the United States. The company offers natural gas distribution services. As of December 31, 2025, it owned 43,200 miles of distribution pipelines and 2,200 miles of transmission pipelines. The company serves approximately 2.3 million residential, commercial, industrial, transportation, and wholesale customers in Oklahoma, Kansas, and Texas. ONE Gas, Inc. was founded in 1906 and is headquartered in Tulsa, Oklahoma."
+  "longBusinessSummary": "ONE Gas, Inc., together with its subsidiaries, operates as a regulated natural gas distribution utility company in the United States. The company offers natural gas distribution services. As of December 31, 2025, it owned 43,200 miles of distribution pipelines and 2,200 miles of transmission pipelines. The company serves approximately 2.3 million residential, commercial, industrial, transportation, and wholesale customers in Oklahoma, Kansas, and Texas. ONE Gas, Inc. was founded in 1906 and is headquartered in Tulsa, Oklahoma.",
+  "targetMeanPrice": 86.16667,
+  "targetLowPrice": 79.0,
+  "targetHighPrice": 95.0,
+  "numberOfAnalystOpinions": 9,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.9,
+  "forwardPE": 14.402066,
+  "forwardEps": 5.034,
+  "trailingEps": 4.65,
+  "earningsGrowth": 0.396,
+  "revenueGrowth": -0.029
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,34 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 8853084000.0,
+    "official": 8853084000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3440123000.0,
+    "official": 3440123000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 264224000.0,
+    "official": 264224000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:52:00+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -118,7 +155,10 @@
    "goodwill_and_intangibles": 481791000.0,
    "retained_earnings": 651863000.0,
    "total_debt": 2700000000.0,
-   "shares_out": 55349954.0
+   "shares_out": 55349954.0,
+   "unusual_items": -7197000.0,
+   "normalized_ebitda": 581450000.0,
+   "normalized_income": 227643540.0
   },
   {
    "fy_end": "2023-12-31",
@@ -151,7 +191,10 @@
    "goodwill_and_intangibles": 451572000.0,
    "retained_earnings": 737739000.0,
    "total_debt": 2960815000.0,
-   "shares_out": 56545924.0
+   "shares_out": 56545924.0,
+   "unusual_items": 4826000.0,
+   "normalized_ebitda": 662070000.0,
+   "normalized_income": 227125074.0
   },
   {
    "fy_end": "2024-12-31",
@@ -185,7 +228,10 @@
    "goodwill_and_intangibles": 423904000.0,
    "retained_earnings": 809606000.0,
    "total_debt": 2414256000.0,
-   "shares_out": 59876861.0
+   "shares_out": 59876861.0,
+   "unusual_items": 3653000.0,
+   "normalized_ebitda": 699517000.0,
+   "normalized_income": 219709515.9
   },
   {
    "fy_end": "2025-12-31",
@@ -219,7 +265,10 @@
    "goodwill_and_intangibles": 391739000.0,
    "retained_earnings": 909355000.0,
    "total_debt": 3373678000.0,
-   "shares_out": 62692392.0
+   "shares_out": 62692392.0,
+   "unusual_items": 5018000.0,
+   "normalized_ebitda": 776506000.0,
+   "normalized_income": 260099705.8
   }
  ]
 }

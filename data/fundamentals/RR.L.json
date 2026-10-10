@@ -1,6 +1,6 @@
 {
  "ticker": "RR.L",
- "fetched_at": "2026-10-10T12:17:30+00:00",
+ "fetched_at": "2026-10-10T15:16:44+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 43162,
   "website": "https://www.rolls-royce.com",
-  "longBusinessSummary": "Rolls-Royce Holdings plc designs and manages mission-critical power systems in the United Kingdom and internationally. The company operates through three segments: Civil Aerospace, Defence, and Power Systems. The Civil Aerospace segment develops, manufactures, markets, and sells aero engines for large commercial aircraft, regional jet, and business aviation markets, as well as provides aftermarket services. The Defence segment is involved in the development, manufacture, marketing, and sale of military aero engines, naval engines, and submarine nuclear power plants, as well as offers aftermarket services. The Power Systems segment engages in the development, manufacture, marketing, and sale of integrated solutions for onsite power and propulsion under the mtu brand name. Rolls-Royce Holdings plc was founded in 1884 and is headquartered in London, the United Kingdom."
+  "longBusinessSummary": "Rolls-Royce Holdings plc designs and manages mission-critical power systems in the United Kingdom and internationally. The company operates through three segments: Civil Aerospace, Defence, and Power Systems. The Civil Aerospace segment develops, manufactures, markets, and sells aero engines for large commercial aircraft, regional jet, and business aviation markets, as well as provides aftermarket services. The Defence segment is involved in the development, manufacture, marketing, and sale of military aero engines, naval engines, and submarine nuclear power plants, as well as offers aftermarket services. The Power Systems segment engages in the development, manufacture, marketing, and sale of integrated solutions for onsite power and propulsion under the mtu brand name. Rolls-Royce Holdings plc was founded in 1884 and is headquartered in London, the United Kingdom.",
+  "targetMeanPrice": 1732.0499,
+  "targetLowPrice": 1199.0,
+  "targetHighPrice": 2000.0,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.6,
+  "forwardPE": 27.346308,
+  "forwardEps": 0.50654,
+  "trailingEps": 0.36,
+  "earningsGrowth": -0.63,
+  "revenueGrowth": 0.206
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 38115000000.0,
+    "official": 38115000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2726000000.0,
+    "official": 2726000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 5841000000.0,
+    "official": 5841000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 21207000000.0,
+    "official": 21207000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:16:44+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -121,7 +164,10 @@
    "goodwill_and_intangibles": 4098000000.0,
    "retained_earnings": -9789000000.0,
    "total_debt": 5955000000.0,
-   "shares_out": 8367596989.0
+   "shares_out": 8367596989.0,
+   "unusual_items": 377000000.0,
+   "normalized_ebitda": -584000000.0,
+   "normalized_income": -1488692410.11984
   },
   {
    "fy_end": "2023-12-31",
@@ -156,7 +202,10 @@
    "goodwill_and_intangibles": 4009000000.0,
    "retained_earnings": -7190000000.0,
    "total_debt": 5759000000.0,
-   "shares_out": 8416696989.0
+   "shares_out": 8416696989.0,
+   "unusual_items": -58000000.0,
+   "normalized_ebitda": 3802000000.0,
+   "normalized_income": 2469450350.226617
   },
   {
    "fy_end": "2024-12-31",
@@ -191,7 +240,10 @@
    "goodwill_and_intangibles": 4402000000.0,
    "retained_earnings": -4409000000.0,
    "total_debt": 5135000000.0,
-   "shares_out": 8398830158.0
+   "shares_out": 8398830158.0,
+   "unusual_items": 14000000.0,
+   "normalized_ebitda": 3469000000.0,
+   "normalized_income": 2510500000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -226,7 +278,10 @@
    "goodwill_and_intangibles": 4598000000.0,
    "retained_earnings": 607000000.0,
    "total_debt": 4272000000.0,
-   "shares_out": 8374517890.0
+   "shares_out": 8374517890.0,
+   "unusual_items": 798000000.0,
+   "normalized_ebitda": 7341000000.0,
+   "normalized_income": 5169460273.972603
   }
  ]
 }

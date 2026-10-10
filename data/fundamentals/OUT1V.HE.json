@@ -1,6 +1,6 @@
 {
  "ticker": "OUT1V.HE",
- "fetched_at": "2026-10-10T12:13:03+00:00",
+ "fetched_at": "2026-10-10T15:10:30+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "HEL",
   "fullTimeEmployees": 8205,
   "website": "https://www.outokumpu.com",
-  "longBusinessSummary": "Outokumpu Oyj produces and sells various stainless-steel products in Finland, Germany, Italy, the United Kingdom, other European countries, North America, the Asia-Pacific, and internationally. It operates through Europe, the Americas, Ferrochrome, and Other operations segments. The company offers cold rolled coils, strips, and sheets; hot rolled coils, strips, and plates; quarto plates; precision strips; and specialized components, such as welded stainless-steel I-beams, H-beams, hollow-section tubes, bent profiles, duprof structural sections, hardened and customized press plates, suction roll shells, and blancs and disks. It also provides stainless steel powder which includes Supra 316L, Dura 17-4PH, Ultra 904L, Therma 253MA, Dura 4116, and Ni-free austenitic stainless-steel powder, ferritic grades as well as tailored product; and nickel-based alloys for environments in the process industry, oil and gas, and electric vehicles. In addition, the company offers cutting, polishing and brushing, welding, machining, plate bending and other services. Further, its products are used in various applications, including commercial kitchens, cooking, food industry, and home appliances; automotive and transportation; building and infrastructure; energy; marine; and heavy industries. Outokumpu Oyj was founded in 1910 and is headquartered in Helsinki, Finland."
+  "longBusinessSummary": "Outokumpu Oyj produces and sells various stainless-steel products in Finland, Germany, Italy, the United Kingdom, other European countries, North America, the Asia-Pacific, and internationally. It operates through Europe, the Americas, Ferrochrome, and Other operations segments. The company offers cold rolled coils, strips, and sheets; hot rolled coils, strips, and plates; quarto plates; precision strips; and specialized components, such as welded stainless-steel I-beams, H-beams, hollow-section tubes, bent profiles, duprof structural sections, hardened and customized press plates, suction roll shells, and blancs and disks. It also provides stainless steel powder which includes Supra 316L, Dura 17-4PH, Ultra 904L, Therma 253MA, Dura 4116, and Ni-free austenitic stainless-steel powder, ferritic grades as well as tailored product; and nickel-based alloys for environments in the process industry, oil and gas, and electric vehicles. In addition, the company offers cutting, polishing and brushing, welding, machining, plate bending and other services. Further, its products are used in various applications, including commercial kitchens, cooking, food industry, and home appliances; automotive and transportation; building and infrastructure; energy; marine; and heavy industries. Outokumpu Oyj was founded in 1910 and is headquartered in Helsinki, Finland.",
+  "targetMeanPrice": 5.95833,
+  "targetLowPrice": 4.0,
+  "targetHighPrice": 7.5,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.25,
+  "forwardPE": 10.520601,
+  "forwardEps": 0.48809,
+  "trailingEps": -0.17,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.065
  },
  "governance": {
   "ceo": {
@@ -71,8 +82,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF FI",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 5705000000.0,
+    "official": 5705000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3405000000.0,
+    "official": 3405000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -137000000.0,
+    "official": -137000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 5468000000.0,
+    "official": 5468000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:10:30+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -107,7 +150,10 @@
    "goodwill_and_intangibles": 546000000.0,
    "retained_earnings": 1054000000.0,
    "total_debt": 575000000.0,
-   "shares_out": 444134611.0
+   "shares_out": 444134611.0,
+   "unusual_items": -51000000.0,
+   "normalized_ebitda": 1322000000.0,
+   "normalized_income": 1126800000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -142,7 +188,10 @@
    "goodwill_and_intangibles": 555000000.0,
    "retained_earnings": 593000000.0,
    "total_debt": 442000000.0,
-   "shares_out": 431190703.0
+   "shares_out": 431190703.0,
+   "unusual_items": -290000000.0,
+   "normalized_ebitda": 731000000.0,
+   "normalized_income": 131030075.18797
   },
   {
    "fy_end": "2024-12-31",
@@ -177,7 +226,10 @@
    "goodwill_and_intangibles": 580000000.0,
    "retained_earnings": 553000000.0,
    "total_debt": 501000000.0,
-   "shares_out": 423685628.0
+   "shares_out": 423685628.0,
+   "unusual_items": 94000000.0,
+   "normalized_ebitda": 94000000.0,
+   "normalized_income": -115200000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -212,7 +264,10 @@
    "goodwill_and_intangibles": 573000000.0,
    "retained_earnings": 92000000.0,
    "total_debt": 627000000.0,
-   "shares_out": 471208421.0
+   "shares_out": 471208421.0,
+   "unusual_items": -100000000.0,
+   "normalized_ebitda": 202000000.0,
+   "normalized_income": -57689655.172414
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "BN.PA",
- "fetched_at": "2026-10-10T14:26:38+00:00",
+ "fetched_at": "2026-10-10T16:01:31+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -15,7 +15,7 @@
   "sharesOutstanding": 644095494,
   "floatShares": 631712021,
   "heldPercentInsiders": 0.01695,
-  "heldPercentInstitutions": 0.58109,
+  "heldPercentInstitutions": 0.58368,
   "shortPercentOfFloat": null,
   "averageVolume": 1242133,
   "quoteType": "EQUITY",
@@ -94,11 +94,34 @@
   "normalized_income": "yahoo"
  },
  "crosscheck": {
-  "source": null,
-  "status": "non verificabile",
-  "items": {}
+  "source": "ESEF FR",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 45292000000.0,
+    "official": 45292000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 17795000000.0,
+    "official": 17795000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2021000000.0,
+    "official": 2021000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 27376000000.0,
+    "official": 27376000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
  },
- "info_at": "2026-10-10T14:26:38+00:00",
+ "info_at": "2026-10-10T16:01:31+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",

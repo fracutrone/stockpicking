@@ -1,6 +1,6 @@
 {
  "ticker": "NLY",
- "fetched_at": "2026-10-10T12:53:00+00:00",
+ "fetched_at": "2026-10-10T15:51:00+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 212,
   "website": "https://www.annaly.com",
-  "longBusinessSummary": "Annaly Capital Management, Inc., a diversified capital manager, engages in the residential mortgage finance business. The company invests in agency mortgage-backed securities collateralized by residential mortgages; non-agency residential whole loans and securitized products within the residential and commercial markets; mortgage servicing rights; agency commercial mortgage-backed securities; to-be-announced forward contracts; residential mortgage-backed securities; residential mortgage loans; and agency or private label credit risk transfer securities. It has elected to be taxed as a real estate investment trust (REIT). As a REIT, it is not subject to federal income tax to the extent that it distributes its taxable income to its shareholders. Annaly Capital Management, Inc. was incorporated in 1996 and is based in New York, New York."
+  "longBusinessSummary": "Annaly Capital Management, Inc., a diversified capital manager, engages in the residential mortgage finance business. The company invests in agency mortgage-backed securities collateralized by residential mortgages; non-agency residential whole loans and securitized products within the residential and commercial markets; mortgage servicing rights; agency commercial mortgage-backed securities; to-be-announced forward contracts; residential mortgage-backed securities; residential mortgage loans; and agency or private label credit risk transfer securities. It has elected to be taxed as a real estate investment trust (REIT). As a REIT, it is not subject to federal income tax to the extent that it distributes its taxable income to its shareholders. Annaly Capital Management, Inc. was incorporated in 1996 and is based in New York, New York.",
+  "targetMeanPrice": 23.36364,
+  "targetLowPrice": 21.0,
+  "targetHighPrice": 25.0,
+  "numberOfAnalystOpinions": 11,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.92308,
+  "forwardPE": 5.890532,
+  "forwardEps": 3.10668,
+  "trailingEps": 4.09,
+  "earningsGrowth": 34.26,
+  "revenueGrowth": 4.794
  },
  "governance": {
   "ceo": {
@@ -76,9 +87,34 @@
   "retained_earnings": "sec",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "noninterest_expense": "sec",
   "goodwill": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 135609838000.0,
+    "official": 135609838000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 16090772000.0,
+    "official": 16090772000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2027262000.0,
+    "official": 2027262000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:51:00+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -102,7 +138,9 @@
    "goodwill_and_intangibles": 1080185000.0,
    "retained_earnings": -9543233000.0,
    "total_debt": 8795009000.0,
-   "shares_out": 468309810.0
+   "shares_out": 468309810.0,
+   "unusual_items": -40258000.0,
+   "normalized_income": 1764536292.0
   },
   {
    "fy_end": "2023-12-31",
@@ -127,7 +165,9 @@
    "goodwill_and_intangibles": 353023000.0,
    "retained_earnings": -12622768000.0,
    "total_debt": 13204173000.0,
-   "shares_out": 500080287.0
+   "shares_out": 500080287.0,
+   "unusual_items": 0.0,
+   "normalized_income": -1643171000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -152,7 +192,9 @@
    "goodwill_and_intangibles": 458298000.0,
    "retained_earnings": -13173146000.0,
    "total_debt": 21445494000.0,
-   "shares_out": 578357118.0
+   "shares_out": 578357118.0,
+   "unusual_items": 0.0,
+   "normalized_income": 1001906000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -177,7 +219,8 @@
    "goodwill_and_intangibles": 139803000.0,
    "retained_earnings": -13157325000.0,
    "total_debt": 31926408000.0,
-   "shares_out": 706972452.0
+   "shares_out": 706972452.0,
+   "normalized_income": 2027262000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "H",
- "fetched_at": "2026-10-10T12:47:22+00:00",
+ "fetched_at": "2026-10-10T15:45:45+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 50000,
   "website": "https://www.hyatt.com",
-  "longBusinessSummary": "Hyatt Hotels Corporation operates as a hospitality company in the United States and internationally. It operates through Management and Franchising, Owned and Leased, and Distribution segments. The company develops, owns, operates, manages, franchises, leases, and licenses a portfolio of properties, consisting of full-service hotels and resorts, select service hotels, and other properties, including timeshare, fractional, and other forms of residential and vacation units. It operates its properties under the Park Hyatt, Alila, Miraval, Impression by Secrets, The Unbound Collection by Hyatt, Andaz, Thompson Hotels, The Standard, Dream Hotels, The StandardX, Breathless Resorts & Spas, JdV by Hyatt, Bunkhouse Hotels, Me and All Hotels, Zoëtry Wellness & Spa Resorts, Hyatt Ziva, Hyatt Zilara, Secrets Resorts & Spas, Dreams Resorts & Spas, Hyatt Vivid Hotels & Resorts, Bahia Principe Hotels & Resorts, Alua Hotels & Resorts, Sunscape Resorts & Spas, Grand Hyatt, Hyatt Regency, Destination by Hyatt, Hyatt Centric, Hyatt Vacation Club, Hyatt, Caption by Hyatt, Unscripted by Hyatt, Hyatt Place, Hyatt House, Hyatt Studios, Hyatt Select, and UrCove brands. The company also offers Homes & Hideaways by World of Hyatt, a short-term vacation rental platform that features direct booking for short-term private home rentals in the United States, as well as distribution and destination management services; and World of Hyatt loyalty program, which allows rewards points to be redeemed for hotel nights and other rewards. It serves corporations; national, state, and regional associations; specialty market accounts, including social, government, military, educational, religious, and fraternal organizations; travel agency and luxury organizations; and a group of individual consumers. It has a long-term strategic loyalty collaboration with Delta Air Lines to add highly sought after benefits for members. Hyatt Hotels Corporation was founded in 1957 and is headquartered in Chicago, Illinois."
+  "longBusinessSummary": "Hyatt Hotels Corporation operates as a hospitality company in the United States and internationally. It operates through Management and Franchising, Owned and Leased, and Distribution segments. The company develops, owns, operates, manages, franchises, leases, and licenses a portfolio of properties, consisting of full-service hotels and resorts, select service hotels, and other properties, including timeshare, fractional, and other forms of residential and vacation units. It operates its properties under the Park Hyatt, Alila, Miraval, Impression by Secrets, The Unbound Collection by Hyatt, Andaz, Thompson Hotels, The Standard, Dream Hotels, The StandardX, Breathless Resorts & Spas, JdV by Hyatt, Bunkhouse Hotels, Me and All Hotels, Zoëtry Wellness & Spa Resorts, Hyatt Ziva, Hyatt Zilara, Secrets Resorts & Spas, Dreams Resorts & Spas, Hyatt Vivid Hotels & Resorts, Bahia Principe Hotels & Resorts, Alua Hotels & Resorts, Sunscape Resorts & Spas, Grand Hyatt, Hyatt Regency, Destination by Hyatt, Hyatt Centric, Hyatt Vacation Club, Hyatt, Caption by Hyatt, Unscripted by Hyatt, Hyatt Place, Hyatt House, Hyatt Studios, Hyatt Select, and UrCove brands. The company also offers Homes & Hideaways by World of Hyatt, a short-term vacation rental platform that features direct booking for short-term private home rentals in the United States, as well as distribution and destination management services; and World of Hyatt loyalty program, which allows rewards points to be redeemed for hotel nights and other rewards. It serves corporations; national, state, and regional associations; specialty market accounts, including social, government, military, educational, religious, and fraternal organizations; travel agency and luxury organizations; and a group of individual consumers. It has a long-term strategic loyalty collaboration with Delta Air Lines to add highly sought after benefits for members. Hyatt Hotels Corporation was founded in 1957 and is headquartered in Chicago, Illinois.",
+  "targetMeanPrice": 196.875,
+  "targetLowPrice": 165.0,
+  "targetHighPrice": 222.0,
+  "numberOfAnalystOpinions": 24,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.875,
+  "forwardPE": 33.2216,
+  "forwardEps": 4.87454,
+  "trailingEps": 0.81,
+  "earningsGrowth": null,
+  "revenueGrowth": -0.066
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 14036000000.0,
+    "official": 14036000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3334000000.0,
+    "official": 3334000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -52000000.0,
+    "official": -52000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 7101000000.0,
+    "official": 7101000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:45:45+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -199,7 +241,10 @@
    "goodwill_and_intangibles": 4769000000.0,
    "retained_earnings": 3622000000.0,
    "total_debt": 3113000000.0,
-   "shares_out": 106400536.0
+   "shares_out": 106400536.0,
+   "unusual_items": 40000000.0,
+   "normalized_ebitda": 934000000.0,
+   "normalized_income": 423400000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -234,7 +279,10 @@
    "goodwill_and_intangibles": 4875000000.0,
    "retained_earnings": 3738000000.0,
    "total_debt": 3056000000.0,
-   "shares_out": 103032941.0
+   "shares_out": 103032941.0,
+   "unusual_items": 12000000.0,
+   "normalized_ebitda": 882000000.0,
+   "normalized_income": 211468000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -269,7 +317,10 @@
    "goodwill_and_intangibles": 4708000000.0,
    "retained_earnings": 3815000000.0,
    "total_debt": 3782000000.0,
-   "shares_out": 96144669.0
+   "shares_out": 96144669.0,
+   "unusual_items": 1134000000.0,
+   "normalized_ebitda": 978000000.0,
+   "normalized_income": 355914000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -304,7 +355,10 @@
    "goodwill_and_intangibles": 5683000000.0,
    "retained_earnings": 3482000000.0,
    "total_debt": 4278000000.0,
-   "shares_out": 94604312.0
+   "shares_out": 94604312.0,
+   "unusual_items": -203000000.0,
+   "normalized_ebitda": 960000000.0,
+   "normalized_income": 108370000.0
   }
  ]
 }

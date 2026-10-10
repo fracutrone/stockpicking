@@ -1,6 +1,6 @@
 {
  "ticker": "ERIE",
- "fetched_at": "2026-10-10T12:44:35+00:00",
+ "fetched_at": "2026-10-10T15:42:58+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 6667,
   "website": "https://www.erieinsurance.com",
-  "longBusinessSummary": "Erie Indemnity Company operates as a managing attorney-in-fact for the subscribers at the Erie Insurance Exchange in the United States. It provides issuance and renewal services; sales related services, including agent compensation and sales and advertising support services; underwriting services that include underwriting and policy processing; and other services consist of customer services and administrative support services, as well as information technology services. The company was incorporated in 1925 and is based in Erie, Pennsylvania."
+  "longBusinessSummary": "Erie Indemnity Company operates as a managing attorney-in-fact for the subscribers at the Erie Insurance Exchange in the United States. It provides issuance and renewal services; sales related services, including agent compensation and sales and advertising support services; underwriting services that include underwriting and policy processing; and other services consist of customer services and administrative support services, as well as information technology services. The company was incorporated in 1925 and is based in Erie, Pennsylvania.",
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 15.848679,
+  "forwardEps": 14.01,
+  "trailingEps": 11.03,
+  "earningsGrowth": 0.032,
+  "revenueGrowth": 0.028
  },
  "governance": {
   "ceo": {
@@ -75,11 +86,40 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "normalized_income": "yahoo",
   "operating_income": "sec",
   "current_assets": "sec",
   "current_liabilities": "sec",
   "intangibles": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3355481000.0,
+    "official": 3355481000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2283374000.0,
+    "official": 2283374000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 559335000.0,
+    "official": 559335000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 4148570000.0,
+    "official": 4067258000.0,
+    "diff": 0.019992
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:42:58+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -170,7 +210,8 @@
    "ppe_net": 413874000.0,
    "retained_earnings": 2583261000.0,
    "total_debt": 0,
-   "shares_out": 52289868.0
+   "shares_out": 52289868.0,
+   "normalized_income": 298569000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -196,7 +237,8 @@
    "receivables": 625338000.0,
    "ppe_net": 442610000.0,
    "retained_earnings": 2803689000.0,
-   "shares_out": 52289868.0
+   "shares_out": 52289868.0,
+   "normalized_income": 446061000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -222,7 +264,8 @@
    "receivables": 707060000.0,
    "ppe_net": 513494000.0,
    "retained_earnings": 3162303000.0,
-   "shares_out": 52289868.0
+   "shares_out": 52289868.0,
+   "normalized_income": 600314000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -246,7 +289,8 @@
    "receivables": 735589000.0,
    "ppe_net": 571476000.0,
    "retained_earnings": 3462823000.0,
-   "shares_out": 52289868.0
+   "shares_out": 52289868.0,
+   "normalized_income": 559335000.0
   }
  ]
 }

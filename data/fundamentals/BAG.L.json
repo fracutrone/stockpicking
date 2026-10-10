@@ -1,6 +1,6 @@
 {
  "ticker": "BAG.L",
- "fetched_at": "2026-10-10T11:47:07+00:00",
+ "fetched_at": "2026-10-10T14:33:11+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.09287,
   "heldPercentInstitutions": 0.43128,
   "shortPercentOfFloat": null,
-  "averageVolume": 241887,
+  "averageVolume": 243437,
   "quoteType": "EQUITY",
   "exchange": "LSE",
   "fullTimeEmployees": 937,
   "website": "https://agbarr.co.uk",
-  "longBusinessSummary": "A.G. BARR p.l.c., together with its subsidiaries, manufactures, distributes, and sells soft drinks and cocktail solutions in the United Kingdom and internationally. It operates in three segments: Soft Drinks, Cocktail Solutions, and Other. The company provides mixers, various fruit purees, boost drinks, energy stimulation drinks, sport drinks, iced coffee, oat drinks, spring and sparkling water, fruit juices, and other non-alcoholic beverages. It also engages in the distribution of fruit based soft-drinks, as well as distribution and sale of oat drinks and cereals. The company sells its products under the IRN-BRU, Bundaberg, Barr Flavours, KA, D'N'B, OMJ!, Rubicon, Simply Fruity, Snapple, Sun Exotic, Tizer, and MOMA brands. A.G. BARR p.l.c. was founded in 1875 and is headquartered in Cumbernauld, the United Kingdom."
+  "longBusinessSummary": "A.G. BARR p.l.c., together with its subsidiaries, manufactures, distributes, and sells soft drinks and cocktail solutions in the United Kingdom and internationally. It operates in three segments: Soft Drinks, Cocktail Solutions, and Other. The company provides mixers, various fruit purees, boost drinks, energy stimulation drinks, sport drinks, iced coffee, oat drinks, spring and sparkling water, fruit juices, and other non-alcoholic beverages. It also engages in the distribution of fruit based soft-drinks, as well as distribution and sale of oat drinks and cereals. The company sells its products under the IRN-BRU, Bundaberg, Barr Flavours, KA, D'N'B, OMJ!, Rubicon, Simply Fruity, Snapple, Sun Exotic, Tizer, and MOMA brands. A.G. BARR p.l.c. was founded in 1875 and is headquartered in Cumbernauld, the United Kingdom.",
+  "targetMeanPrice": 762.5,
+  "targetLowPrice": 580.0,
+  "targetHighPrice": 830.0,
+  "numberOfAnalystOpinions": 10,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.44444,
+  "forwardPE": 10.7701,
+  "forwardEps": 0.51253,
+  "trailingEps": 0.41,
+  "earningsGrowth": -0.044,
+  "revenueGrowth": 0.085
  },
  "governance": {
   "ceo": {
@@ -71,8 +82,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2026-01-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 514200000.0,
+    "official": 514200000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 338000000.0,
+    "official": 338000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 47100000.0,
+    "official": 47100000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 437300000.0,
+    "official": 437300000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2026-01-31"
+ },
+ "info_at": "2026-10-10T14:33:11+00:00",
  "years": [
   {
    "fy_end": "2023-01-31",
@@ -107,7 +150,10 @@
    "goodwill_and_intangibles": 116200000.0,
    "retained_earnings": 259700000.0,
    "total_debt": 5800000.0,
-   "shares_out": 111886981.0
+   "shares_out": 111886981.0,
+   "unusual_items": 1300000.0,
+   "normalized_ebitda": 55500000.0,
+   "normalized_income": 32906800.0
   },
   {
    "fy_end": "2024-01-31",
@@ -142,7 +188,10 @@
    "goodwill_and_intangibles": 130400000.0,
    "retained_earnings": 283200000.0,
    "total_debt": 4900000.0,
-   "shares_out": 110980194.0
+   "shares_out": 110980194.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 63800000.0,
+   "normalized_income": 38500000.0
   },
   {
    "fy_end": "2025-01-31",
@@ -177,7 +226,9 @@
    "goodwill_and_intangibles": 129200000.0,
    "retained_earnings": 308400000.0,
    "total_debt": 4600000.0,
-   "shares_out": 111237045.0
+   "shares_out": 111237045.0,
+   "normalized_ebitda": 65900000.0,
+   "normalized_income": 39700000.0
   },
   {
    "fy_end": "2026-01-31",
@@ -211,7 +262,9 @@
    "goodwill_and_intangibles": 162300000.0,
    "retained_earnings": 328100000.0,
    "total_debt": 48000000.0,
-   "shares_out": 110975668.0
+   "shares_out": 110975668.0,
+   "normalized_ebitda": 74600000.0,
+   "normalized_income": 47100000.0
   }
  ]
 }

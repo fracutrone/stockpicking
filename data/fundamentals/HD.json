@@ -1,6 +1,6 @@
 {
  "ticker": "HD",
- "fetched_at": "2026-10-10T12:47:35+00:00",
+ "fetched_at": "2026-10-10T15:45:57+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 470000,
   "website": "https://www.homedepot.com",
-  "longBusinessSummary": "The Home Depot, Inc. operates as a home improvement retailer in the United States and internationally. It sells various building materials, home improvement products, lawn and garden products, and décor products, as well as facilities maintenance, repair, and operations products. The company also offers installation services for flooring, water heaters, baths, garage doors, cabinets, cabinet makeovers, countertops, sheds, furnaces and central air systems, windows, and window coverings. In addition, it provides tool and equipment rental services. The company serves consumers, such as do-it-yourself homeowners and do-it-for-me customers; and professional renovators/remodelers, general contractors, homebuilders, maintenance professionals, handymen, property managers, building service contractors and specialty tradespeople, such as electricians, landscapers, insulation installers, plumbers, painters, pool contractors, roofers, and wallboard and ceiling installers. It sells its products through websites and its mobile applications, including homedepot.com; homedepot.ca and homedepot.com.mx; blinds.com, justblinds.com, and americanblinds.com for custom window coverings; constructionresourcesusa.com or design-oriented surfaces, appliances, and architectural specialty products; thecompanystore.com, an online site for textiles and décor products; hdsupply.com for maintenance, repair, and operations products and related services; and srsdistribution.com, heritagelandscapesupplygroup.com, heritagepoolsupplygroup.com, and gms.com for roofing and building materials, landscape, and pool products; and The Home Depot stores. The Home Depot, Inc. was incorporated in 1978 and is headquartered in Atlanta, Georgia."
+  "longBusinessSummary": "The Home Depot, Inc. operates as a home improvement retailer in the United States and internationally. It sells various building materials, home improvement products, lawn and garden products, and décor products, as well as facilities maintenance, repair, and operations products. The company also offers installation services for flooring, water heaters, baths, garage doors, cabinets, cabinet makeovers, countertops, sheds, furnaces and central air systems, windows, and window coverings. In addition, it provides tool and equipment rental services. The company serves consumers, such as do-it-yourself homeowners and do-it-for-me customers; and professional renovators/remodelers, general contractors, homebuilders, maintenance professionals, handymen, property managers, building service contractors and specialty tradespeople, such as electricians, landscapers, insulation installers, plumbers, painters, pool contractors, roofers, and wallboard and ceiling installers. It sells its products through websites and its mobile applications, including homedepot.com; homedepot.ca and homedepot.com.mx; blinds.com, justblinds.com, and americanblinds.com for custom window coverings; constructionresourcesusa.com or design-oriented surfaces, appliances, and architectural specialty products; thecompanystore.com, an online site for textiles and décor products; hdsupply.com for maintenance, repair, and operations products and related services; and srsdistribution.com, heritagelandscapesupplygroup.com, heritagepoolsupplygroup.com, and gms.com for roofing and building materials, landscape, and pool products; and The Home Depot stores. The Home Depot, Inc. was incorporated in 1978 and is headquartered in Atlanta, Georgia.",
+  "targetMeanPrice": 378.34375,
+  "targetLowPrice": 310.0,
+  "targetHighPrice": 425.0,
+  "numberOfAnalystOpinions": 32,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.88889,
+  "forwardPE": 18.18317,
+  "forwardEps": 15.98951,
+  "trailingEps": 14.29,
+  "earningsGrowth": 0.046,
+  "revenueGrowth": 0.057
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,38 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-01-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 105095000000.0,
+    "official": 105095000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 12813000000.0,
+    "official": 12813000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 14156000000.0,
+    "official": 14156000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 164683000000.0,
+    "official": 164683000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:45:57+00:00",
  "years": [
   {
    "fy_end": "2020-02-02",
@@ -201,7 +242,9 @@
    "goodwill_and_intangibles": 7444000000.0,
    "retained_earnings": 76896000000.0,
    "total_debt": 41150000000.0,
-   "shares_out": 1016000000.0
+   "shares_out": 1016000000.0,
+   "normalized_ebitda": 27069000000.0,
+   "normalized_income": 17105000000.0
   },
   {
    "fy_end": "2024-01-28",
@@ -235,7 +278,9 @@
    "goodwill_and_intangibles": 12061000000.0,
    "retained_earnings": 83656000000.0,
    "total_debt": 42150000000.0,
-   "shares_out": 992000000.0
+   "shares_out": 992000000.0,
+   "normalized_ebitda": 25114000000.0,
+   "normalized_income": 15143000000.0
   },
   {
    "fy_end": "2025-02-02",
@@ -269,7 +314,9 @@
    "goodwill_and_intangibles": 28458000000.0,
    "retained_earnings": 89533000000.0,
    "total_debt": 51681000000.0,
-   "shares_out": 994000000.0
+   "shares_out": 994000000.0,
+   "normalized_ebitda": 25488000000.0,
+   "normalized_income": 14806000000.0
   },
   {
    "fy_end": "2026-02-01",
@@ -303,7 +350,9 @@
    "goodwill_and_intangibles": 32673000000.0,
    "retained_earnings": 94537000000.0,
    "total_debt": 53861000000.0,
-   "shares_out": 995511485.0
+   "shares_out": 995511485.0,
+   "normalized_ebitda": 25135000000.0,
+   "normalized_income": 14156000000.0
   }
  ]
 }

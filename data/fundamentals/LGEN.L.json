@@ -1,6 +1,6 @@
 {
  "ticker": "LGEN.L",
- "fetched_at": "2026-10-10T12:06:36+00:00",
+ "fetched_at": "2026-10-10T15:02:37+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 10500,
   "website": "https://group.legalandgeneral.com",
-  "longBusinessSummary": "Legal & General Group Plc provides various insurance products and services in the United Kingdom, the United States, and internationally. It operates through Institutional Retirement, Asset Management, Insurance, and Retail Retirement segments. The Institutional Retirement segment offers annuity contracts with guaranteed income for a specified time; longevity insurance products; and writes assured payment policies (APP). The Asset Management segment provides unit linked institutional pensions, segregated investment management mandates, and collective investment schemes; index fund management; pooled and segregated active fixed income funds; active equity management; solutions for cash management requirements for institutional investors; solutions and liability driven investment; multi-asset funds; private markets strategies for physical real estate, private corporate debts, infrastructure debts, and real estate loans; and direct investment services. The Retail Retirement segment offers protection products, such as health, disability, critical illness, and accident; annuities; lifetime mortgages; lifetime care plans; retirement interest only mortgages; and workplace and retail savings scheme that provides corporate pension scheme solutions. Legal & General Group Plc was founded in 1836 and is headquartered in London, the United Kingdom."
+  "longBusinessSummary": "Legal & General Group Plc provides various insurance products and services in the United Kingdom, the United States, and internationally. It operates through Institutional Retirement, Asset Management, Insurance, and Retail Retirement segments. The Institutional Retirement segment offers annuity contracts with guaranteed income for a specified time; longevity insurance products; and writes assured payment policies (APP). The Asset Management segment provides unit linked institutional pensions, segregated investment management mandates, and collective investment schemes; index fund management; pooled and segregated active fixed income funds; active equity management; solutions for cash management requirements for institutional investors; solutions and liability driven investment; multi-asset funds; private markets strategies for physical real estate, private corporate debts, infrastructure debts, and real estate loans; and direct investment services. The Retail Retirement segment offers protection products, such as health, disability, critical illness, and accident; annuities; lifetime mortgages; lifetime care plans; retirement interest only mortgages; and workplace and retail savings scheme that provides corporate pension scheme solutions. Legal & General Group Plc was founded in 1836 and is headquartered in London, the United Kingdom.",
+  "targetMeanPrice": 273.841,
+  "targetLowPrice": 191.0,
+  "targetHighPrice": 385.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "underperform",
+  "recommendationMean": 3.66667,
+  "forwardPE": 11.297878,
+  "forwardEps": 0.25403,
+  "trailingEps": 0.11,
+  "earningsGrowth": 5.071,
+  "revenueGrowth": 0.153
  },
  "governance": {
   "ceo": {
@@ -77,8 +88,38 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 582268000000.0,
+    "official": 582268000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2283000000.0,
+    "official": 1788000000.0,
+    "diff": 0.276846
+   },
+   "net_income": {
+    "yahoo": 592000000.0,
+    "official": 592000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 42039000000.0,
+    "official": 2167000000.0,
+    "diff": 18.399631
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:02:37+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -105,7 +146,8 @@
    "goodwill_and_intangibles": 512000000.0,
    "retained_earnings": 3707000000.0,
    "total_debt": 5557000000.0,
-   "shares_out": 5912446287.0
+   "shares_out": 5912446287.0,
+   "normalized_income": 783000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -130,7 +172,8 @@
    "goodwill_and_intangibles": 550000000.0,
    "retained_earnings": 2973000000.0,
    "total_debt": 6120000000.0,
-   "shares_out": 5917399489.0
+   "shares_out": 5917399489.0,
+   "normalized_income": 457000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -155,7 +198,8 @@
    "goodwill_and_intangibles": 480000000.0,
    "retained_earnings": 1714000000.0,
    "total_debt": 7699000000.0,
-   "shares_out": 5826024026.0
+   "shares_out": 5826024026.0,
+   "normalized_income": 126000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -180,7 +224,8 @@
    "goodwill_and_intangibles": 395000000.0,
    "retained_earnings": 517000000.0,
    "total_debt": 4898000000.0,
-   "shares_out": 5630391876.0
+   "shares_out": 5630391876.0,
+   "normalized_income": 496000000.0
   }
  ]
 }

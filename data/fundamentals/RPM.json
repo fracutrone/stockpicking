@@ -1,6 +1,6 @@
 {
  "ticker": "RPM",
- "fetched_at": "2026-10-10T12:57:09+00:00",
+ "fetched_at": "2026-10-10T15:54:53+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 17500,
   "website": "https://www.rpminc.com",
-  "longBusinessSummary": "RPM International Inc. provides specialty chemicals for the construction, industrial, specialty, and consumer markets. It operates through CPG, PCG, and Consumer segments. The company offers waterproofing, coating, and traditional roofing systems; sealants, air barriers, tapes, and foams; residential home weatherization systems; roofing, and building maintenance services; sealing and bonding, subfloor preparation, glazing solutions; resin flooring systems, terrazzo, polyurethane, MMA waterproof, epoxy floor paint and coatings, concrete repair, and protection products, traffic deck coatings, and decorative concrete; fire stopping and intumescent coatings, and adhesive and sealant solutions; and rolled asphalt roofing materials and chemical admixtures. It also provides concrete and masonry admixtures, concrete fibers, cement grinding aids, cement performance enhancers, curing and sealing compounds, structural grouts and mortars, epoxy adhesives, polyurethane foams, floor hardeners and toppings, joint fillers, industrial and architectural coatings, decorative color/stains/stamps, restoration materials, insulated building cladding materials, specialty finishes, metal and composite materials, and exterior insulating and finishing systems; insulated concrete form and industrial concrete panel wall, engineered buck framing, and ICF bracing systems; and firestopping, flooring systems, weatherproofing solutions, and restoration services equipment. In addition, it offers corrosion control, fireproofing, edible, and factory applied industrial coatings; infrastructure repair and raised-flooring systems, fiberglass reinforced plastic structures, preservation products, specialty glazes, and food industry coatings; and rust-preventative, special purpose, and decorative paints, caulks, sealants, primers, contact cement, cleaners, woodcare coatings, abrasives, colorant, and other consumer products. The company was incorporated in 1947 and is headquartered in Medina, Ohio."
+  "longBusinessSummary": "RPM International Inc. provides specialty chemicals for the construction, industrial, specialty, and consumer markets. It operates through CPG, PCG, and Consumer segments. The company offers waterproofing, coating, and traditional roofing systems; sealants, air barriers, tapes, and foams; residential home weatherization systems; roofing, and building maintenance services; sealing and bonding, subfloor preparation, glazing solutions; resin flooring systems, terrazzo, polyurethane, MMA waterproof, epoxy floor paint and coatings, concrete repair, and protection products, traffic deck coatings, and decorative concrete; fire stopping and intumescent coatings, and adhesive and sealant solutions; and rolled asphalt roofing materials and chemical admixtures. It also provides concrete and masonry admixtures, concrete fibers, cement grinding aids, cement performance enhancers, curing and sealing compounds, structural grouts and mortars, epoxy adhesives, polyurethane foams, floor hardeners and toppings, joint fillers, industrial and architectural coatings, decorative color/stains/stamps, restoration materials, insulated building cladding materials, specialty finishes, metal and composite materials, and exterior insulating and finishing systems; insulated concrete form and industrial concrete panel wall, engineered buck framing, and ICF bracing systems; and firestopping, flooring systems, weatherproofing solutions, and restoration services equipment. In addition, it offers corrosion control, fireproofing, edible, and factory applied industrial coatings; infrastructure repair and raised-flooring systems, fiberglass reinforced plastic structures, preservation products, specialty glazes, and food industry coatings; and rust-preventative, special purpose, and decorative paints, caulks, sealants, primers, contact cement, cleaners, woodcare coatings, abrasives, colorant, and other consumer products. The company was incorporated in 1947 and is headquartered in Medina, Ohio.",
+  "targetMeanPrice": 124.6,
+  "targetLowPrice": 114.0,
+  "targetHighPrice": 147.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.26667,
+  "forwardPE": 14.76777,
+  "forwardEps": 6.61779,
+  "trailingEps": 5.41,
+  "earningsGrowth": 0.133,
+  "revenueGrowth": 0.048
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-05-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 8344605000.0,
+    "official": 8344605000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3311533000.0,
+    "official": 3311533000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 661392000.0,
+    "official": 661392000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 7863422000.0,
+    "official": 7863422000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:54:53+00:00",
  "years": [
   {
    "fy_end": "2020-05-31",
@@ -205,7 +247,10 @@
    "goodwill_and_intangibles": 1848579000.0,
    "retained_earnings": 2404125000.0,
    "total_debt": 2505221000.0,
-   "shares_out": 128766000.0
+   "shares_out": 128766000.0,
+   "unusual_items": -23080000.0,
+   "normalized_ebitda": 946426000.0,
+   "normalized_income": 495747120.0
   },
   {
    "fy_end": "2024-05-31",
@@ -239,7 +284,10 @@
    "goodwill_and_intangibles": 1821883000.0,
    "retained_earnings": 2760639000.0,
    "total_debt": 1990935000.0,
-   "shares_out": 128629000.0
+   "shares_out": 128629000.0,
+   "unusual_items": -5981000.0,
+   "normalized_ebitda": 1083038000.0,
+   "normalized_income": 592871850.257096
   },
   {
    "fy_end": "2025-05-31",
@@ -273,7 +321,10 @@
    "goodwill_and_intangibles": 2398452000.0,
    "retained_earnings": 3193764000.0,
    "total_debt": 2638922000.0,
-   "shares_out": 128269000.0
+   "shares_out": 128269000.0,
+   "unusual_items": -25567000.0,
+   "normalized_ebitda": 1108710000.0,
+   "normalized_income": 710951472.436803
   },
   {
    "fy_end": "2026-05-31",
@@ -307,7 +358,10 @@
    "goodwill_and_intangibles": 2512802000.0,
    "retained_earnings": 3583451000.0,
    "total_debt": 2125690000.0,
-   "shares_out": 127643000.0
+   "shares_out": 127643000.0,
+   "unusual_items": -10571000.0,
+   "normalized_ebitda": 1205945000.0,
+   "normalized_income": 669436531.0
   }
  ]
 }

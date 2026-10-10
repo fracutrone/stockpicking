@@ -1,6 +1,6 @@
 {
  "ticker": "ENS",
- "fetched_at": "2026-10-10T12:44:22+00:00",
+ "fetched_at": "2026-10-10T15:42:45+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 9682,
   "website": "https://www.enersys.com",
-  "longBusinessSummary": "EnerSys engages in the provision of stored energy solutions for industrial applications worldwide. It operates through three segments: Network & Infrastructure Solutions, Industrial Mobility Solutions, and Precision Power Solutions. The Network & Infrastructure Solutions segment provides power solutions and services to broadband, telecommunications, data center, and industrial utility customers. The Industrial Mobility Solutions segment provides power for electric industrial forklifts and other material handling equipment as well as transportation applications, primarily Class 8 trucks. The Precision Power Solutions segment provides energy solutions primarily for military vehicles, advanced defense programs, soldier powering and autonomous systems. It sells its products through a network of distributors, independent representatives, and internal sales forces. The company was formerly known as Yuasa, Inc. and changed its name to EnerSys in January 2001. EnerSys was founded in 1991 and is headquartered in Reading, Pennsylvania."
+  "longBusinessSummary": "EnerSys engages in the provision of stored energy solutions for industrial applications worldwide. It operates through three segments: Network & Infrastructure Solutions, Industrial Mobility Solutions, and Precision Power Solutions. The Network & Infrastructure Solutions segment provides power solutions and services to broadband, telecommunications, data center, and industrial utility customers. The Industrial Mobility Solutions segment provides power for electric industrial forklifts and other material handling equipment as well as transportation applications, primarily Class 8 trucks. The Precision Power Solutions segment provides energy solutions primarily for military vehicles, advanced defense programs, soldier powering and autonomous systems. It sells its products through a network of distributors, independent representatives, and internal sales forces. The company was formerly known as Yuasa, Inc. and changed its name to EnerSys in January 2001. EnerSys was founded in 1991 and is headquartered in Reading, Pennsylvania.",
+  "targetMeanPrice": 249.48,
+  "targetLowPrice": 202.92,
+  "targetHighPrice": 280.0,
+  "numberOfAnalystOpinions": 4,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.8,
+  "forwardPE": 12.507651,
+  "forwardEps": 14.376,
+  "trailingEps": 9.34,
+  "earningsGrowth": 1.116,
+  "revenueGrowth": 0.048
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-03-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 4003324000.0,
+    "official": 4003324000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1905284000.0,
+    "official": 1905284000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 293557000.0,
+    "official": 293557000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3751376000.0,
+    "official": 3751376000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:42:45+00:00",
  "years": [
   {
    "fy_end": "2020-03-31",
@@ -195,7 +237,10 @@
    "goodwill_and_intangibles": 1037127000.0,
    "retained_earnings": 1930148000.0,
    "total_debt": 1072631000.0,
-   "shares_out": 40901059.0
+   "shares_out": 40901059.0,
+   "unusual_items": -17590000.0,
+   "normalized_ebitda": 378911000.0,
+   "normalized_income": 190497650.0
   },
   {
    "fy_end": "2024-03-31",
@@ -228,7 +273,10 @@
    "goodwill_and_intangibles": 1002341000.0,
    "retained_earnings": 2163880000.0,
    "total_debt": 832409000.0,
-   "shares_out": 40271936.0
+   "shares_out": 40271936.0,
+   "unusual_items": -35669000.0,
+   "normalized_ebitda": 469829000.0,
+   "normalized_income": 302981550.0
   },
   {
    "fy_end": "2025-03-31",
@@ -261,7 +309,10 @@
    "goodwill_and_intangibles": 1096503000.0,
    "retained_earnings": 2489200000.0,
    "total_debt": 1112043000.0,
-   "shares_out": 39192061.0
+   "shares_out": 39192061.0,
+   "unusual_items": -15738000.0,
+   "normalized_ebitda": 574307000.0,
+   "normalized_income": 377820510.0
   },
   {
    "fy_end": "2026-03-31",
@@ -294,7 +345,10 @@
    "goodwill_and_intangibles": 1095322000.0,
    "retained_earnings": 2743635000.0,
    "total_debt": 1108983000.0,
-   "shares_out": 36462211.0
+   "shares_out": 36462211.0,
+   "unusual_items": -57561000.0,
+   "normalized_ebitda": 569026000.0,
+   "normalized_income": 342196045.0
   }
  ]
 }

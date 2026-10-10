@@ -1,6 +1,6 @@
 {
  "ticker": "AD.AS",
- "fetched_at": "2026-10-10T12:28:25+00:00",
+ "fetched_at": "2026-10-10T15:32:53+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "AMS",
   "fullTimeEmployees": 384000,
   "website": "https://www.aholddelhaize.com",
-  "longBusinessSummary": "Koninklijke Ahold Delhaize N.V. operates retail food stores and e-commerce in the Netherlands, the United States, and internationally. The company's stores offer produce, dairy, meat, deli, bakery, seafood, and frozen products; grocery, beer, and wine; floral, pet food, health and beauty care, kitchen and cookware, gardening tools, general merchandise articles, electronics, newspapers and magazines, and tobacco; gasoline; and pharmacy products. It operates its supermarkets, convenience stores, and online stores under the Albert, Albert Heijin, Alfa Beta Vassilopoulos, bol, Delhaize, ENA, Food Lion, Gall & Gall, Giant Food, The GIANT Company, Hannaford, Maxi, Mega Image, Stop & Shop, Profi, and Super Indo brands. The company was formerly known as Koninklijke Ahold N.V. and changed its name to Koninklijke Ahold Delhaize N.V. in July 2016. The company was founded in 1867 and is headquartered in Zaandam, the Netherlands."
+  "longBusinessSummary": "Koninklijke Ahold Delhaize N.V. operates retail food stores and e-commerce in the Netherlands, the United States, and internationally. The company's stores offer produce, dairy, meat, deli, bakery, seafood, and frozen products; grocery, beer, and wine; floral, pet food, health and beauty care, kitchen and cookware, gardening tools, general merchandise articles, electronics, newspapers and magazines, and tobacco; gasoline; and pharmacy products. It operates its supermarkets, convenience stores, and online stores under the Albert, Albert Heijin, Alfa Beta Vassilopoulos, bol, Delhaize, ENA, Food Lion, Gall & Gall, Giant Food, The GIANT Company, Hannaford, Maxi, Mega Image, Stop & Shop, Profi, and Super Indo brands. The company was formerly known as Koninklijke Ahold N.V. and changed its name to Koninklijke Ahold Delhaize N.V. in July 2016. The company was founded in 1867 and is headquartered in Zaandam, the Netherlands.",
+  "targetMeanPrice": 37.82944,
+  "targetLowPrice": 22.63,
+  "targetHighPrice": 44.0,
+  "numberOfAnalystOpinions": 18,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.47368,
+  "forwardPE": 11.063053,
+  "forwardEps": 2.91782,
+  "trailingEps": 2.52,
+  "earningsGrowth": -0.002,
+  "revenueGrowth": 0.003
  },
  "governance": {
   "ceo": {
@@ -77,8 +88,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF NL",
+  "fy_end": "2023-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 47821000000.0,
+    "official": 47821000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 14755000000.0,
+    "official": 14755000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1874000000.0,
+    "official": 1874000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 88734000000.0,
+    "official": 88649000000.0,
+    "diff": 0.000959
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2023-12-31"
+ },
+ "info_at": "2026-10-10T15:32:53+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -113,7 +156,10 @@
    "goodwill_and_intangibles": 13174000000.0,
    "retained_earnings": 4744000000.0,
    "total_debt": 17640000000.0,
-   "shares_out": 977352954.0
+   "shares_out": 977352954.0,
+   "unusual_items": -19000000.0,
+   "normalized_ebitda": 7289000000.0,
+   "normalized_income": 2560782000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -147,7 +193,10 @@
    "intangibles": 5210000000.0,
    "goodwill_and_intangibles": 12998000000.0,
    "total_debt": 17766000000.0,
-   "shares_out": 946013323.0
+   "shares_out": 946013323.0,
+   "unusual_items": 3000000.0,
+   "normalized_ebitda": 6500000000.0,
+   "normalized_income": 1871594000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -181,7 +230,10 @@
    "intangibles": 5330000000.0,
    "goodwill_and_intangibles": 13420000000.0,
    "total_debt": 20315000000.0,
-   "shares_out": 913583817.0
+   "shares_out": 913583817.0,
+   "unusual_items": -1000000.0,
+   "normalized_ebitda": 6483000000.0,
+   "normalized_income": 1764783528.352835
   },
   {
    "fy_end": "2025-12-31",
@@ -215,7 +267,10 @@
    "intangibles": 5304000000.0,
    "goodwill_and_intangibles": 13667000000.0,
    "total_debt": 18403000000.0,
-   "shares_out": 886877259.0
+   "shares_out": 886877259.0,
+   "unusual_items": 12000000.0,
+   "normalized_ebitda": 7292000000.0,
+   "normalized_income": 2254688000.0
   }
  ]
 }

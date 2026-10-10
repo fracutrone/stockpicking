@@ -1,6 +1,6 @@
 {
  "ticker": "L",
- "fetched_at": "2026-10-10T12:50:11+00:00",
+ "fetched_at": "2026-10-10T15:48:28+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 13100,
   "website": "https://www.loews.com",
-  "longBusinessSummary": "Loews Corporation, through its subsidiaries, provides commercial property and casualty insurance in the United States and internationally. The company offers specialty insurance products, such as management and professional liability and other coverage products; surety and fidelity bonds; professional liability coverages and risk management services to various professional firms, including architects, real estate agents, and accounting and law firms; standard and excess property, marine and boiler, machinery coverages, workers' compensation, general and product liability, commercial auto, umbrella, excess and surplus coverages, specialized loss-sensitive insurance programs, total risk management services relating to claim and information services; directors and officers, errors and omissions, employment practices, fiduciary, fidelity, and cyber coverages, as well as for small and mid-size firms, public and privately held firms, and not-for-profit organizations; and insurance products to serve the health care industry, including professional and general liability, as well as associated casualty coverage to aging services, allied medical facilities, dentists, physicians, nurses, and other medical practitioners. It also provides warranty and alternative risk, and run-off long-term care insurance products; ethane supply and transportation services for petrochemical customers, as well as transports and stores natural gas and natural gas liquids; operates a chain of hotels; develops, manufactures, and markets a range of extrusion blow-molded and injection molded plastic containers; and manufactures commodities and differentiated plastic resins. The company markets its insurance products and services through a network of retail and wholesale brokers, independent agents, brokers, and managing general underwriters. Loews Corporation was incorporated in 1969 and is headquartered in New York, New York."
+  "longBusinessSummary": "Loews Corporation, through its subsidiaries, provides commercial property and casualty insurance in the United States and internationally. The company offers specialty insurance products, such as management and professional liability and other coverage products; surety and fidelity bonds; professional liability coverages and risk management services to various professional firms, including architects, real estate agents, and accounting and law firms; standard and excess property, marine and boiler, machinery coverages, workers' compensation, general and product liability, commercial auto, umbrella, excess and surplus coverages, specialized loss-sensitive insurance programs, total risk management services relating to claim and information services; directors and officers, errors and omissions, employment practices, fiduciary, fidelity, and cyber coverages, as well as for small and mid-size firms, public and privately held firms, and not-for-profit organizations; and insurance products to serve the health care industry, including professional and general liability, as well as associated casualty coverage to aging services, allied medical facilities, dentists, physicians, nurses, and other medical practitioners. It also provides warranty and alternative risk, and run-off long-term care insurance products; ethane supply and transportation services for petrochemical customers, as well as transports and stores natural gas and natural gas liquids; operates a chain of hotels; develops, manufactures, and markets a range of extrusion blow-molded and injection molded plastic containers; and manufactures commodities and differentiated plastic resins. The company markets its insurance products and services through a network of retail and wholesale brokers, independent agents, brokers, and managing general underwriters. Loews Corporation was incorporated in 1969 and is headquartered in New York, New York.",
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 36.789654,
+  "forwardEps": 2.9,
+  "trailingEps": 8.16,
+  "earningsGrowth": 0.156,
+  "revenueGrowth": 0.039
  },
  "governance": {
   "ceo": {
@@ -77,8 +88,38 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "cogs": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 86348000000.0,
+    "official": 86348000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 18686000000.0,
+    "official": 18686000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1667000000.0,
+    "official": 1667000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 18176000000.0,
+    "official": 18454000000.0,
+    "diff": 0.015064
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:48:28+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -143,7 +184,8 @@
    "goodwill": 349000000.0,
    "intangibles": 109000000.0,
    "retained_earnings": 14776000000.0,
-   "total_debt": 8986000000.0
+   "total_debt": 8986000000.0,
+   "unusual_items": 555000000.0
   },
   {
    "fy_end": "2022-12-31",
@@ -169,7 +211,8 @@
    "goodwill_and_intangibles": 457000000.0,
    "retained_earnings": 14931000000.0,
    "total_debt": 8165000000.0,
-   "shares_out": 235960991.0
+   "shares_out": 235960991.0,
+   "normalized_income": 822000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -195,7 +238,9 @@
    "goodwill_and_intangibles": 498000000.0,
    "retained_earnings": 15617000000.0,
    "total_debt": 7919000000.0,
-   "shares_out": 222168150.0
+   "shares_out": 222168150.0,
+   "unusual_items": 46000000.0,
+   "normalized_income": 1398396000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -221,7 +266,8 @@
    "goodwill_and_intangibles": 347000000.0,
    "retained_earnings": 16459000000.0,
    "total_debt": 8939000000.0,
-   "shares_out": 214700344.0
+   "shares_out": 214700344.0,
+   "normalized_income": 1414000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -246,7 +292,8 @@
    "goodwill_and_intangibles": 349000000.0,
    "retained_earnings": 17377000000.0,
    "total_debt": 8437000000.0,
-   "shares_out": 206003999.0
+   "shares_out": 206003999.0,
+   "normalized_income": 1667000000.0
   }
  ]
 }

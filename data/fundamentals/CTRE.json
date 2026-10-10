@@ -1,6 +1,6 @@
 {
  "ticker": "CTRE",
- "fetched_at": "2026-10-10T12:42:24+00:00",
+ "fetched_at": "2026-10-10T15:40:52+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 43,
   "website": "https://www.caretrustreit.com",
-  "longBusinessSummary": "CareTrust REIT, Inc. is a self-administered, publicly-traded real estate investment trust engaged in the ownership, acquisition, development and leasing of skilled nursing, seniors housing and other healthcare-related properties. With a portfolio of long-term net-leased properties spanning the United States and United Kingdom, and a growing portfolio of quality operators leasing them, CareTrust is pursuing both external and organic growth opportunities across the US and internationally. CareTrust REIT, Inc. was established in 2013 and was incorporated in Maryland."
+  "longBusinessSummary": "CareTrust REIT, Inc. is a self-administered, publicly-traded real estate investment trust engaged in the ownership, acquisition, development and leasing of skilled nursing, seniors housing and other healthcare-related properties. With a portfolio of long-term net-leased properties spanning the United States and United Kingdom, and a growing portfolio of quality operators leasing them, CareTrust is pursuing both external and organic growth opportunities across the US and internationally. CareTrust REIT, Inc. was established in 2013 and was incorporated in Maryland.",
+  "targetMeanPrice": 44.61538,
+  "targetLowPrice": 42.0,
+  "targetHighPrice": 49.0,
+  "numberOfAnalystOpinions": 13,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.30769,
+  "forwardPE": 20.425169,
+  "forwardEps": 1.764,
+  "trailingEps": 1.6,
+  "earningsGrowth": 0.086,
+  "revenueGrowth": 0.435
  },
  "governance": {
   "ceo": {
@@ -81,8 +92,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 5148436000.0,
+    "official": 5148436000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4035280000.0,
+    "official": 4035280000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 320538000.0,
+    "official": 320538000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 369419000.0,
+    "official": 476393000.0,
+    "diff": 0.22455
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:40:52+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -152,7 +194,10 @@
    "goodwill_and_intangibles": 2832000.0,
    "retained_earnings": -396954000.0,
    "total_debt": 719498000.0,
-   "shares_out": 99010112.0
+   "shares_out": 99010112.0,
+   "unusual_items": -89933000.0,
+   "normalized_ebitda": 162813000.0,
+   "normalized_income": 82427000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -182,7 +227,10 @@
    "goodwill_and_intangibles": 5283000.0,
    "retained_earnings": -467628000.0,
    "total_debt": 595598000.0,
-   "shares_out": 129992796.0
+   "shares_out": 129992796.0,
+   "unusual_items": -40568000.0,
+   "normalized_ebitda": 186372000.0,
+   "normalized_income": 94303000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -213,7 +261,10 @@
    "goodwill_and_intangibles": 4388000.0,
    "retained_earnings": -532570000.0,
    "total_debt": 396927000.0,
-   "shares_out": 186993010.0
+   "shares_out": 186993010.0,
+   "unusual_items": -37371000.0,
+   "normalized_ebitda": 248911000.0,
+   "normalized_income": 162451000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -244,7 +295,10 @@
    "goodwill_and_intangibles": 48332000.0,
    "retained_earnings": -491796000.0,
    "total_debt": 894220000.0,
-   "shares_out": 222746343.0
+   "shares_out": 222746343.0,
+   "unusual_items": 43189000.0,
+   "normalized_ebitda": 418696000.0,
+   "normalized_income": 278012992.686458
   }
  ]
 }

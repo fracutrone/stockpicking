@@ -1,6 +1,6 @@
 {
  "ticker": "VMC",
- "fetched_at": "2026-10-10T13:01:28+00:00",
+ "fetched_at": "2026-10-10T15:58:58+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 11548,
   "website": "https://www.vulcanmaterials.com",
-  "longBusinessSummary": "Vulcan Materials Company produces and supplies construction aggregates in the United States. It operates through three segments: Aggregates, Asphalt, and Concrete. The company provides crushed stone, sand and gravel, sand, and other aggregates for use in construction and maintenance of highways, streets, and other public works, as well as in the construction of housing and commercial, industrial, and other nonresidential facilities; aggregates that are used as ballast for construction and maintenance of railroad tracks; riprap and jetty stones for use in erosion control along roads and waterways; asphalt mix; asphalt construction paving services; and ready-mixed concrete products. The company was formerly known as Virginia Holdco, Inc. and changed its name to Vulcan Materials Company. Vulcan Materials Company was founded in 1909 and is headquartered in Birmingham, Alabama."
+  "longBusinessSummary": "Vulcan Materials Company produces and supplies construction aggregates in the United States. It operates through three segments: Aggregates, Asphalt, and Concrete. The company provides crushed stone, sand and gravel, sand, and other aggregates for use in construction and maintenance of highways, streets, and other public works, as well as in the construction of housing and commercial, industrial, and other nonresidential facilities; aggregates that are used as ballast for construction and maintenance of railroad tracks; riprap and jetty stones for use in erosion control along roads and waterways; asphalt mix; asphalt construction paving services; and ready-mixed concrete products. The company was formerly known as Virginia Holdco, Inc. and changed its name to Vulcan Materials Company. Vulcan Materials Company was founded in 1909 and is headquartered in Birmingham, Alabama.",
+  "targetMeanPrice": 312.30435,
+  "targetLowPrice": 238.0,
+  "targetHighPrice": 365.0,
+  "numberOfAnalystOpinions": 23,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.83333,
+  "forwardPE": 23.439123,
+  "forwardEps": 10.43469,
+  "trailingEps": 8.48,
+  "earningsGrowth": 0.027,
+  "revenueGrowth": 0.025
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 16700400000.0,
+    "official": 16700400000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 8525100000.0,
+    "official": 8525100000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1076700000.0,
+    "official": 1076700000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 7941100000.0,
+    "official": 7941100000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:58:58+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -201,7 +243,10 @@
    "goodwill_and_intangibles": 5391700000.0,
    "retained_earnings": 4111400000.0,
    "total_debt": 3975700000.0,
-   "shares_out": 132900000.0
+   "shares_out": 132900000.0,
+   "unusual_items": -57200000.0,
+   "normalized_ebitda": 1587900000.0,
+   "normalized_income": 637386000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -235,7 +280,10 @@
    "goodwill_and_intangibles": 4992400000.0,
    "retained_earnings": 4615000000.0,
    "total_debt": 3877800000.0,
-   "shares_out": 132100000.0
+   "shares_out": 132100000.0,
+   "unusual_items": 48100000.0,
+   "normalized_ebitda": 1996200000.0,
+   "normalized_income": 907444000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -269,7 +317,10 @@
    "goodwill_and_intangibles": 5671100000.0,
    "retained_earnings": 5213800000.0,
    "total_debt": 5307400000.0,
-   "shares_out": 132061259.0
+   "shares_out": 132061259.0,
+   "unusual_items": -34300000.0,
+   "normalized_ebitda": 2015100000.0,
+   "normalized_income": 946443102.124392
   },
   {
    "fy_end": "2025-12-31",
@@ -303,7 +354,10 @@
    "goodwill_and_intangibles": 5269900000.0,
    "retained_earnings": 5590100000.0,
    "total_debt": 4362100000.0,
-   "shares_out": 130600000.0
+   "shares_out": 130600000.0,
+   "unusual_items": 52400000.0,
+   "normalized_ebitda": 2305100000.0,
+   "normalized_income": 1040391252.427883
   }
  ]
 }

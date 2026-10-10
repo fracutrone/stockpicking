@@ -1,6 +1,6 @@
 {
  "ticker": "CME",
- "fetched_at": "2026-10-10T12:41:09+00:00",
+ "fetched_at": "2026-10-10T15:39:52+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 3875,
   "website": "https://www.cmegroup.com",
-  "longBusinessSummary": "CME Group Inc., together with its subsidiaries, operates contract markets for the trading of futures and options on futures contracts worldwide. It offers futures and options products based on interest rates, equity indexes, and foreign exchange; and agricultural, energy, and metals commodities, as well as fixed income and foreign currency trading services. The company provides clearing house services, including clearing, settling, and guaranteeing futures and options contracts, and cleared swaps products traded through its exchanges. In addition, the company offers a range of market data services, including real-time and historical data services. It serves professional traders, financial institutions, institutional and individual investors, corporations, manufacturers, producers, governments, and central banks. CME Group Inc. partners with FutureSports to futures on sports indexes. The company was formerly known as Chicago Mercantile Exchange Holdings Inc. and changed its name to CME Group Inc. in July 2007. The company was founded in 1898 and is headquartered in Chicago, Illinois."
+  "longBusinessSummary": "CME Group Inc., together with its subsidiaries, operates contract markets for the trading of futures and options on futures contracts worldwide. It offers futures and options products based on interest rates, equity indexes, and foreign exchange; and agricultural, energy, and metals commodities, as well as fixed income and foreign currency trading services. The company provides clearing house services, including clearing, settling, and guaranteeing futures and options contracts, and cleared swaps products traded through its exchanges. In addition, the company offers a range of market data services, including real-time and historical data services. It serves professional traders, financial institutions, institutional and individual investors, corporations, manufacturers, producers, governments, and central banks. CME Group Inc. partners with FutureSports to futures on sports indexes. The company was formerly known as Chicago Mercantile Exchange Holdings Inc. and changed its name to CME Group Inc. in July 2007. The company was founded in 1898 and is headquartered in Chicago, Illinois.",
+  "targetMeanPrice": 289.0625,
+  "targetLowPrice": 217.0,
+  "targetHighPrice": 337.0,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.47059,
+  "forwardPE": 21.59762,
+  "forwardEps": 12.99032,
+  "trailingEps": 11.79,
+  "earningsGrowth": 0.025,
+  "revenueGrowth": 0.008
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 198424200000.0,
+    "official": 198424200000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 28728200000.0,
+    "official": 28728200000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 4072200000.0,
+    "official": 4072200000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 6520600000.0,
+    "official": 6520600000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:39:52+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -197,7 +239,10 @@
    "goodwill_and_intangibles": 30927500000.0,
    "retained_earnings": 4746800000.0,
    "total_debt": 16000000.0,
-   "shares_out": 358932100.0
+   "shares_out": 358932100.0,
+   "unusual_items": 2198400000.0,
+   "normalized_ebitda": 1817200000.0,
+   "normalized_income": 996047016.015815
   },
   {
    "fy_end": "2023-12-31",
@@ -231,7 +276,10 @@
    "goodwill_and_intangibles": 30720800000.0,
    "retained_earnings": 4455200000.0,
    "total_debt": 0,
-   "shares_out": 359234138.0
+   "shares_out": 359234138.0,
+   "unusual_items": 5275300000.0,
+   "normalized_ebitda": -609700000.0,
+   "normalized_income": -871251093.027735
   },
   {
    "fy_end": "2024-12-31",
@@ -265,7 +313,10 @@
    "goodwill_and_intangibles": 30483800000.0,
    "retained_earnings": 4185800000.0,
    "total_debt": 749800000.0,
-   "shares_out": 359605138.0
+   "shares_out": 359605138.0,
+   "unusual_items": 4079100000.0,
+   "normalized_ebitda": 960000000.0,
+   "normalized_income": 360418400.0
   },
   {
    "fy_end": "2025-12-31",
@@ -299,7 +350,10 @@
    "goodwill_and_intangibles": 30300700000.0,
    "retained_earnings": 6433200000.0,
    "total_debt": 0,
-   "shares_out": 358953138.0
+   "shares_out": 358953138.0,
+   "unusual_items": 5736500000.0,
+   "normalized_ebitda": 98300000.0,
+   "normalized_income": -310486000.0
   }
  ]
 }

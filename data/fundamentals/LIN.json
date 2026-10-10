@@ -1,6 +1,6 @@
 {
  "ticker": "LIN",
- "fetched_at": "2026-10-10T12:50:31+00:00",
+ "fetched_at": "2026-10-10T15:48:46+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 64649,
   "website": "https://www.linde.com",
-  "longBusinessSummary": "Linde plc operates as an industrial gas company worldwide. The company offers atmospheric gases, including oxygen, nitrogen, argon, and rare gases; and process gases, such as hydrogen, helium, carbon dioxide, carbon monoxide, electronic gases, specialty gases, and acetylene. It also engages in the design and construction of turnkey process plants for third-party customers, as well as for its gas businesses, including air separation, hydrogen, synthesis, olefin, and natural gas plants. The company serves the healthcare, chemicals and energy, manufacturing, metals and mining, food and beverage, and electronics industries. It operates in the United States, Brazil, Mexico, Canada, Germany, the United Kingdom, Eastern Europe, China, Australia, South Korea, and India. Linde plc was founded in 1879 and is based in Woking, the United Kingdom."
+  "longBusinessSummary": "Linde plc operates as an industrial gas company worldwide. The company offers atmospheric gases, including oxygen, nitrogen, argon, and rare gases; and process gases, such as hydrogen, helium, carbon dioxide, carbon monoxide, electronic gases, specialty gases, and acetylene. It also engages in the design and construction of turnkey process plants for third-party customers, as well as for its gas businesses, including air separation, hydrogen, synthesis, olefin, and natural gas plants. The company serves the healthcare, chemicals and energy, manufacturing, metals and mining, food and beverage, and electronics industries. It operates in the United States, Brazil, Mexico, Canada, Germany, the United Kingdom, Eastern Europe, China, Australia, South Korea, and India. Linde plc was founded in 1879 and is based in Woking, the United Kingdom.",
+  "targetMeanPrice": 543.03845,
+  "targetLowPrice": 400.0,
+  "targetHighPrice": 580.0,
+  "numberOfAnalystOpinions": 26,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.67857,
+  "forwardPE": 24.710714,
+  "forwardEps": 19.57572,
+  "trailingEps": 15.49,
+  "earningsGrowth": 0.113,
+  "revenueGrowth": 0.093
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 86817000000.0,
+    "official": 86817000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 38245000000.0,
+    "official": 38245000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 6898000000.0,
+    "official": 6898000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 33986000000.0,
+    "official": 33986000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:48:46+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -202,7 +244,10 @@
    "goodwill_and_intangibles": 38237000000.0,
    "retained_earnings": 20541000000.0,
    "total_debt": 17914000000.0,
-   "shares_out": 492457627.0
+   "shares_out": 492457627.0,
+   "unusual_items": -1067000000.0,
+   "normalized_ebitda": 11029000000.0,
+   "normalized_income": 4937962114.378495
   },
   {
    "fy_end": "2023-12-31",
@@ -236,7 +281,10 @@
    "goodwill_and_intangibles": 39150000000.0,
    "retained_earnings": 8845000000.0,
    "total_debt": 19373000000.0,
-   "shares_out": 482445145.0
+   "shares_out": 482445145.0,
+   "unusual_items": -43000000.0,
+   "normalized_ebitda": 12260000000.0,
+   "normalized_income": 6232239000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -270,7 +318,10 @@
    "goodwill_and_intangibles": 37267000000.0,
    "retained_earnings": 12634000000.0,
    "total_debt": 21623000000.0,
-   "shares_out": 473236732.0
+   "shares_out": 473236732.0,
+   "unusual_items": -67000000.0,
+   "normalized_ebitda": 12903000000.0,
+   "normalized_income": 6616346598.202824
   },
   {
    "fy_end": "2025-12-31",
@@ -304,7 +355,10 @@
    "goodwill_and_intangibles": 39798000000.0,
    "retained_earnings": 16608000000.0,
    "total_debt": 26989000000.0,
-   "shares_out": 463680942.0
+   "shares_out": 463680942.0,
+   "unusual_items": -430000000.0,
+   "normalized_ebitda": 13554000000.0,
+   "normalized_income": 7231869843.767562
   }
  ]
 }

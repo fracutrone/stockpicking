@@ -1,6 +1,6 @@
 {
  "ticker": "EXO.AS",
- "fetched_at": "2026-10-10T11:57:05+00:00",
+ "fetched_at": "2026-10-10T14:47:15+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.55131,
   "heldPercentInstitutions": 0.26957,
   "shortPercentOfFloat": null,
-  "averageVolume": 177412,
+  "averageVolume": 178384,
   "quoteType": "EQUITY",
   "exchange": "AMS",
   "fullTimeEmployees": 20,
   "website": "https://www.exor.com",
-  "longBusinessSummary": "Exor N.V. engages in the automotive, agriculture and construction, sports car, commercial vehicle, health technology, football and powertrain businesses in the Netherlands and internationally. The company designs, engineers, produces, and sells luxury performance sports cars under the Ferrari brand. It also provides automotive vehicles and mobility solutions under the Abarth, Alfa Romeo, Chrysler, Citroen, Dodge, DS, Fiat, Fiat Professional, Jeep, Lancia, Maserati, Mopar, Opel, Peugeot, Ram, and Vauxhall brands; diagnostic imaging, ultrasound, image-guided therapy, monitoring and enterprise informatic, and personal health equipment under Philips brand; agricultural and construction equipment and services; heavy, medium, and light-duty trucks; powertrain technologies; mass-transit and premium buses and coaches; defense and civil protection equipment; heavy-duty quarry and construction vehicles; and firefighting vehicles and equipment, as well as financing services. In addition, the company offers men's footwear, leather goods, beauty, and accessories; equipment for the building and repairing of oil and gas wells; clean energy solutions; data, insights and analytics, expert, and workflow solutions; information through newspapers and magazines to conferences and electronic services and publishes The Economist; and apparel, furniture, homeware, and jewelry products. Further, it engages in the management of professional football teams under the Juventus Football Club name; and hospitals and outpatient clinics, as well as operates as investment management company and technology company specializing in the data-driven optimization of public mobility systems. Exor N.V. was founded in 1899 and is headquartered in Amsterdam, the Netherlands. Exor N.V. is a subsidiary of Giovanni Agnelli B.V."
+  "longBusinessSummary": "Exor N.V. engages in the automotive, agriculture and construction, sports car, commercial vehicle, health technology, football and powertrain businesses in the Netherlands and internationally. The company designs, engineers, produces, and sells luxury performance sports cars under the Ferrari brand. It also provides automotive vehicles and mobility solutions under the Abarth, Alfa Romeo, Chrysler, Citroen, Dodge, DS, Fiat, Fiat Professional, Jeep, Lancia, Maserati, Mopar, Opel, Peugeot, Ram, and Vauxhall brands; diagnostic imaging, ultrasound, image-guided therapy, monitoring and enterprise informatic, and personal health equipment under Philips brand; agricultural and construction equipment and services; heavy, medium, and light-duty trucks; powertrain technologies; mass-transit and premium buses and coaches; defense and civil protection equipment; heavy-duty quarry and construction vehicles; and firefighting vehicles and equipment, as well as financing services. In addition, the company offers men's footwear, leather goods, beauty, and accessories; equipment for the building and repairing of oil and gas wells; clean energy solutions; data, insights and analytics, expert, and workflow solutions; information through newspapers and magazines to conferences and electronic services and publishes The Economist; and apparel, furniture, homeware, and jewelry products. Further, it engages in the management of professional football teams under the Juventus Football Club name; and hospitals and outpatient clinics, as well as operates as investment management company and technology company specializing in the data-driven optimization of public mobility systems. Exor N.V. was founded in 1899 and is headquartered in Amsterdam, the Netherlands. Exor N.V. is a subsidiary of Giovanni Agnelli B.V.",
+  "targetMeanPrice": 103.25,
+  "targetLowPrice": 89.0,
+  "targetHighPrice": 120.0,
+  "numberOfAnalystOpinions": 8,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.375,
+  "forwardPE": 58.528572,
+  "forwardEps": 1.19258,
+  "trailingEps": -21.02,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "ceo": {
@@ -71,8 +82,35 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF NL",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 37130000000.0,
+    "official": 37130000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 33241000000.0,
+    "official": 33241000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -3793000000.0,
+    "official": -3793000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:47:15+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -106,7 +144,10 @@
    "intangibles": 5249000000.0,
    "goodwill_and_intangibles": 9292000000.0,
    "total_debt": 33662000000.0,
-   "shares_out": 227873381.0
+   "shares_out": 227873381.0,
+   "unusual_items": -55000000.0,
+   "normalized_ebitda": 6016000000.0,
+   "normalized_income": 2905111000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -141,7 +182,10 @@
    "goodwill_and_intangibles": 9887000000.0,
    "retained_earnings": 4194000000.0,
    "total_debt": 37986000000.0,
-   "shares_out": 215969689.0
+   "shares_out": 215969689.0,
+   "unusual_items": -134000000.0,
+   "normalized_ebitda": 10767000000.0,
+   "normalized_income": 4194000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -172,7 +216,10 @@
    "goodwill_and_intangibles": 0.0,
    "retained_earnings": 14671000000.0,
    "total_debt": 4090000000.0,
-   "shares_out": 213742459.0
+   "shares_out": 213742459.0,
+   "unusual_items": 13750000000.0,
+   "normalized_ebitda": 1125000000.0,
+   "normalized_income": 14671000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -190,7 +237,8 @@
    "cash": 1389000000.0,
    "equity": 33241000000.0,
    "ppe_net": 21000000.0,
-   "total_debt": 3668000000.0
+   "total_debt": 3668000000.0,
+   "normalized_income": -3793000000.0
   }
  ]
 }

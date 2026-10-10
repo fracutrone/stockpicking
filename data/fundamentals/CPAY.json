@@ -1,6 +1,6 @@
 {
  "ticker": "CPAY",
- "fetched_at": "2026-10-10T12:41:54+00:00",
+ "fetched_at": "2026-10-10T15:40:25+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 11800,
   "website": "https://www.corpay.com",
-  "longBusinessSummary": "Corpay, Inc. operates as a payments company that helps businesses and consumers to manage and pay their expenses.\nIt operates through Corporate Payments, Vehicle Payments, Lodging Payments, and Other segments. The company offers vehicle payment solutions for fuel, tolls and parking, vehicle compliance, auto insurance and road assistance, fleet maintenance, and long-haul transportation services, as well as prepaid food and transportation vouchers and cards. It also provides corporate payment solutions, such as cross-border payments, spend management solutions, AP modernization, virtual cards, and purchasing and T&E cards. Additionally, it offers lodging payments solutions for employees who travel overnight for work purposes; traveling crews and stranded passengers from airlines and cruise lines; workforce lodging solutions for business travel programs; airline logistics, crew management, insurance, and other payments solutions. Further, the company offers gifts and payroll cards. It serves business, merchant, consumer, and payment network customers. The company was formerly known as FLEETCOR Technologies, Inc. and changed its name to Corpay, Inc. in June 2002. Corpay, Inc. was founded in 1986 and is headquartered in Atlanta, Georgia."
+  "longBusinessSummary": "Corpay, Inc. operates as a payments company that helps businesses and consumers to manage and pay their expenses.\nIt operates through Corporate Payments, Vehicle Payments, Lodging Payments, and Other segments. The company offers vehicle payment solutions for fuel, tolls and parking, vehicle compliance, auto insurance and road assistance, fleet maintenance, and long-haul transportation services, as well as prepaid food and transportation vouchers and cards. It also provides corporate payment solutions, such as cross-border payments, spend management solutions, AP modernization, virtual cards, and purchasing and T&E cards. Additionally, it offers lodging payments solutions for employees who travel overnight for work purposes; traveling crews and stranded passengers from airlines and cruise lines; workforce lodging solutions for business travel programs; airline logistics, crew management, insurance, and other payments solutions. Further, the company offers gifts and payroll cards. It serves business, merchant, consumer, and payment network customers. The company was formerly known as FLEETCOR Technologies, Inc. and changed its name to Corpay, Inc. in June 2002. Corpay, Inc. was founded in 1986 and is headquartered in Atlanta, Georgia.",
+  "targetMeanPrice": 461.0,
+  "targetLowPrice": 390.0,
+  "targetHighPrice": 536.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.6875,
+  "forwardPE": 12.62992,
+  "forwardEps": 31.50614,
+  "trailingEps": 16.45,
+  "earningsGrowth": -0.07,
+  "revenueGrowth": 0.215
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 26408135000.0,
+    "official": 26408135000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3883864000.0,
+    "official": 3883864000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1069826000.0,
+    "official": 1069826000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 4528403000.0,
+    "official": 4528403000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:40:25+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -184,7 +226,10 @@
    "goodwill_and_intangibles": 7332409000.0,
    "retained_earnings": 7210769000.0,
    "total_debt": 7036894000.0,
-   "shares_out": 73356709.0
+   "shares_out": 73356709.0,
+   "unusual_items": -3316000.0,
+   "normalized_ebitda": 1765920000.0,
+   "normalized_income": 956807714.55717
   },
   {
    "fy_end": "2023-12-31",
@@ -217,7 +262,10 @@
    "goodwill_and_intangibles": 7730621000.0,
    "retained_earnings": 8192659000.0,
    "total_debt": 6722905000.0,
-   "shares_out": 71715804.0
+   "shares_out": 71715804.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 2010216000.0,
+   "normalized_income": 981890000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -250,7 +298,10 @@
    "goodwill_and_intangibles": 8395109000.0,
    "retained_earnings": 9196405000.0,
    "total_debt": 7996080000.0,
-   "shares_out": 70170016.0
+   "shares_out": 70170016.0,
+   "unusual_items": 26270000.0,
+   "normalized_ebitda": 2092974000.0,
+   "normalized_income": 984700250.0
   },
   {
    "fy_end": "2025-12-31",
@@ -283,7 +334,10 @@
    "goodwill_and_intangibles": 10802551000.0,
    "retained_earnings": 10264751000.0,
    "total_debt": 10001687000.0,
-   "shares_out": 68362289.0
+   "shares_out": 68362289.0,
+   "unusual_items": 40665000.0,
+   "normalized_ebitda": 2298165000.0,
+   "normalized_income": 1041563825.0
   }
  ]
 }

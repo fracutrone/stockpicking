@@ -1,6 +1,6 @@
 {
  "ticker": "ENX.PA",
- "fetched_at": "2026-10-10T11:56:11+00:00",
+ "fetched_at": "2026-10-10T14:46:04+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.08474,
   "heldPercentInstitutions": 0.6598,
   "shortPercentOfFloat": null,
-  "averageVolume": 166943,
+  "averageVolume": 168088,
   "quoteType": "EQUITY",
   "exchange": "PAR",
   "fullTimeEmployees": 3056,
   "website": "https://www.euronext.com",
-  "longBusinessSummary": "Euronext N.V., together with its subsidiaries, operates securities and derivatives exchanges in the Netherlands, France, Italy, Belgium, Portugal, Ireland, the United States, Norway, Denmark, and internationally. The company offers a range of exchange and corporate services, including security listings, cash and derivatives trading, and market data dissemination. It also provides listing venues and cash equities trading venues; and various marketplaces comprising multilateral trading facilities for investors, broker-dealers, and other market participants to meet directly to buy and sell cash equities, fixed income securities, and exchange traded products. In addition, the company offers options contracts based on the blue-chip equities listed on Euronext; commodity derivatives, such as milling wheat futures contracts; and post-trade services, as well as distributes and sells real-time, historic, and reference data to data vendors, and financial institutions and individual investors. Further, it provides listing; cash, derivatives, fixed income, foreign exchange, and power trading; investor; advances data; clearing; custody and settlement; NTI; and other services. Additionally, it offers technology solutions and services to exchanges, venue operators, and financial institutions; colocation and network services; and software and services licensed by third parties. The company was formerly known as Euronext Group N.V. and changed its name to Euronext N.V. in May 2014. Euronext N.V. was founded in 2000 and is headquartered in Amsterdam, the Netherlands."
+  "longBusinessSummary": "Euronext N.V., together with its subsidiaries, operates securities and derivatives exchanges in the Netherlands, France, Italy, Belgium, Portugal, Ireland, the United States, Norway, Denmark, and internationally. The company offers a range of exchange and corporate services, including security listings, cash and derivatives trading, and market data dissemination. It also provides listing venues and cash equities trading venues; and various marketplaces comprising multilateral trading facilities for investors, broker-dealers, and other market participants to meet directly to buy and sell cash equities, fixed income securities, and exchange traded products. In addition, the company offers options contracts based on the blue-chip equities listed on Euronext; commodity derivatives, such as milling wheat futures contracts; and post-trade services, as well as distributes and sells real-time, historic, and reference data to data vendors, and financial institutions and individual investors. Further, it provides listing; cash, derivatives, fixed income, foreign exchange, and power trading; investor; advances data; clearing; custody and settlement; NTI; and other services. Additionally, it offers technology solutions and services to exchanges, venue operators, and financial institutions; colocation and network services; and software and services licensed by third parties. The company was formerly known as Euronext Group N.V. and changed its name to Euronext N.V. in May 2014. Euronext N.V. was founded in 2000 and is headquartered in Amsterdam, the Netherlands.",
+  "targetMeanPrice": 167.94118,
+  "targetLowPrice": 136.0,
+  "targetHighPrice": 200.0,
+  "numberOfAnalystOpinions": 17,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.17647,
+  "forwardPE": 17.864964,
+  "forwardEps": 9.15759,
+  "trailingEps": 6.88,
+  "earningsGrowth": 0.181,
+  "revenueGrowth": 0.167
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF NL",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 327630224000.0,
+    "official": 327630224000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4537736000.0,
+    "official": 4537736000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 642937000.0,
+    "official": 642937000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1818071000.0,
+    "official": 1748427000.0,
+    "diff": 0.039832
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:46:04+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -119,7 +162,10 @@
    "goodwill_and_intangibles": 6205826000.0,
    "retained_earnings": 1265765000.0,
    "total_debt": 3094645000.0,
-   "shares_out": 106727763.0
+   "shares_out": 106727763.0,
+   "unusual_items": -33000.0,
+   "normalized_ebitda": 811789000.0,
+   "normalized_income": 437851222.0
   },
   {
    "fy_end": "2023-12-31",
@@ -153,7 +199,10 @@
    "goodwill_and_intangibles": 6108152000.0,
    "retained_earnings": 1543458000.0,
    "total_debt": 3108388000.0,
-   "shares_out": 103666168.0
+   "shares_out": 103666168.0,
+   "unusual_items": 57543000.0,
+   "normalized_ebitda": 847414000.0,
+   "normalized_income": 469431519.0
   },
   {
    "fy_end": "2024-12-31",
@@ -187,7 +236,10 @@
    "goodwill_and_intangibles": 6096232000.0,
    "retained_earnings": 1839923000.0,
    "total_debt": 3115527000.0,
-   "shares_out": 102760112.0
+   "shares_out": 102760112.0,
+   "unusual_items": 7060000.0,
+   "normalized_ebitda": 1057257000.0,
+   "normalized_income": 580348448.260492
   },
   {
    "fy_end": "2025-12-31",
@@ -221,7 +273,10 @@
    "goodwill_and_intangibles": 6776913000.0,
    "retained_earnings": 2188619000.0,
    "total_debt": 3401194000.0,
-   "shares_out": 101708102.0
+   "shares_out": 101708102.0,
+   "unusual_items": 1866000.0,
+   "normalized_ebitda": 1183100000.0,
+   "normalized_income": 641569222.0
   }
  ]
 }

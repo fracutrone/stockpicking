@@ -1,6 +1,6 @@
 {
  "ticker": "VMRK",
- "fetched_at": "2026-10-10T13:01:32+00:00",
+ "fetched_at": "2026-10-10T15:59:01+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": null,
   "website": "https://www.vivmarkresidential.com",
-  "longBusinessSummary": "Vivmark Residential focused on building, buying, and managing high-quality apartment communities across major U.S. metro areas. The company owns or held investments in more than 184,000 rental apartments across premier U.S. markets and over 11,100 apartments under construction. Vivmark Residential based in Chicago, Illinois."
+  "longBusinessSummary": "Vivmark Residential focused on building, buying, and managing high-quality apartment communities across major U.S. metro areas. The company owns or held investments in more than 184,000 rental apartments across premier U.S. markets and over 11,100 apartments under construction. Vivmark Residential based in Chicago, Illinois.",
+  "targetMeanPrice": 73.44211,
+  "targetLowPrice": 66.0,
+  "targetHighPrice": 80.0,
+  "numberOfAnalystOpinions": 19,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.09524,
+  "forwardPE": 41.599785,
+  "forwardEps": 1.4702,
+  "trailingEps": 2.61,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.033
  },
  "governance": {
   "ceo": {
@@ -79,8 +90,34 @@
   "ppe_net": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 22192137000.0,
+    "official": 20746023000.0,
+    "diff": 0.069706
+   },
+   "equity": {
+    "yahoo": 11611340000.0,
+    "official": 11041499000.0,
+    "diff": 0.051609
+   },
+   "net_income": {
+    "yahoo": 1051301000.0,
+    "official": 1120089000.0,
+    "diff": 0.061413
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:59:01+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -109,7 +146,10 @@
    "ppe_net": 143331000.0,
    "retained_earnings": 1658837000.0,
    "total_debt": 8994250000.0,
-   "shares_out": 390787801.0
+   "shares_out": 390787801.0,
+   "unusual_items": 553912000.0,
+   "normalized_ebitda": 1642224000.0,
+   "normalized_income": 589910787.261399
   },
   {
    "fy_end": "2023-12-31",
@@ -138,7 +178,10 @@
    "ppe_net": 134674000.0,
    "retained_earnings": 1437185000.0,
    "total_debt": 7874657000.0,
-   "shares_out": 396677098.0
+   "shares_out": 396677098.0,
+   "unusual_items": 278156000.0,
+   "normalized_ebitda": 1683392000.0,
+   "normalized_income": 653677890.84596
   },
   {
    "fy_end": "2024-12-31",
@@ -167,7 +210,10 @@
    "ppe_net": 154654000.0,
    "retained_earnings": 1407570000.0,
    "total_debt": 8737552000.0,
-   "shares_out": 397315483.0
+   "shares_out": 397315483.0,
+   "unusual_items": 360365000.0,
+   "normalized_ebitda": 1795697000.0,
+   "normalized_income": 721777124.388059
   },
   {
    "fy_end": "2025-12-31",
@@ -196,7 +242,10 @@
    "ppe_net": 147537000.0,
    "retained_earnings": 1193931000.0,
    "total_debt": 8828642000.0,
-   "shares_out": 391245275.0
+   "shares_out": 391245275.0,
+   "unusual_items": 334437000.0,
+   "normalized_ebitda": 1893584000.0,
+   "normalized_income": 787095770.0
   }
  ]
 }

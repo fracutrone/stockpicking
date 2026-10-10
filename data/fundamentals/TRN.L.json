@@ -1,6 +1,6 @@
 {
  "ticker": "TRN.L",
- "fetched_at": "2026-10-10T12:22:49+00:00",
+ "fetched_at": "2026-10-10T15:25:47+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 990,
   "website": "https://www.trainlinegroup.com",
-  "longBusinessSummary": "Trainline plc engages in the operation of an independent rail and coach travel platform that sells rail and coach tickets worldwide. It operates in three segments: UK Consumer, International Consumer, and Trainline Solutions. The UK Consumer segment provides travel apps and websites for individual travelers for journeys within the United Kingdom. Its International Consumer segment offers travel apps and websites for individual travelers for journeys between the United Kingdom and outside the United Kingdom. The Trainline Solutions segment provides travel portal platforms for its own branded business units, corporates, and travel management companies; and white label e-commerce platforms for train operating companies within the United Kingdom, as well as operates Platform One Solutions. Trainline plc was founded in 1997 and is based in London, the United Kingdom."
+  "longBusinessSummary": "Trainline plc engages in the operation of an independent rail and coach travel platform that sells rail and coach tickets worldwide. It operates in three segments: UK Consumer, International Consumer, and Trainline Solutions. The UK Consumer segment provides travel apps and websites for individual travelers for journeys within the United Kingdom. Its International Consumer segment offers travel apps and websites for individual travelers for journeys between the United Kingdom and outside the United Kingdom. The Trainline Solutions segment provides travel portal platforms for its own branded business units, corporates, and travel management companies; and white label e-commerce platforms for train operating companies within the United Kingdom, as well as operates Platform One Solutions. Trainline plc was founded in 1997 and is based in London, the United Kingdom.",
+  "targetMeanPrice": 334.33298,
+  "targetLowPrice": 185.0,
+  "targetHighPrice": 580.0,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.5,
+  "forwardPE": 7.53834,
+  "forwardEps": 0.27778,
+  "trailingEps": 0.19,
+  "earningsGrowth": 0.434,
+  "revenueGrowth": 0.023
  },
  "governance": {
   "ceo": {
@@ -75,8 +86,35 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2026-02-28",
+  "items": {
+   "equity": {
+    "yahoo": 204369000.0,
+    "official": 204369000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 79813000.0,
+    "official": 79813000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 452684000.0,
+    "official": 452684000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2026-02-28"
+ },
+ "info_at": "2026-10-10T15:25:47+00:00",
  "years": [
   {
    "fy_end": "2023-02-28",
@@ -109,7 +147,10 @@
    "goodwill_and_intangibles": 487537000.0,
    "retained_earnings": 212784000.0,
    "total_debt": 153905000.0,
-   "shares_out": 480680508.0
+   "shares_out": 480680508.0,
+   "unusual_items": 3987000.0,
+   "normalized_ebitda": 69540000.0,
+   "normalized_income": 17389480.0
   },
   {
    "fy_end": "2024-02-29",
@@ -142,7 +183,10 @@
    "goodwill_and_intangibles": 488877000.0,
    "retained_earnings": 1417798000.0,
    "total_debt": 153113000.0,
-   "shares_out": 459532086.0
+   "shares_out": 459532086.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 98147000.0,
+   "normalized_income": 33986000.0
   },
   {
    "fy_end": "2025-02-28",
@@ -175,7 +219,9 @@
    "goodwill_and_intangibles": 490838000.0,
    "retained_earnings": 1387481000.0,
    "total_debt": 158582000.0,
-   "shares_out": 432365480.0
+   "shares_out": 432365480.0,
+   "normalized_ebitda": 132160000.0,
+   "normalized_income": 58348000.0
   },
   {
    "fy_end": "2026-02-28",
@@ -208,7 +254,9 @@
    "goodwill_and_intangibles": 501176000.0,
    "retained_earnings": 1306750000.0,
    "total_debt": 261946000.0,
-   "shares_out": 377209753.0
+   "shares_out": 377209753.0,
+   "normalized_ebitda": 167243000.0,
+   "normalized_income": 79813000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "SPG",
- "fetched_at": "2026-10-10T12:58:34+00:00",
+ "fetched_at": "2026-10-10T15:56:12+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 3100,
   "website": "https://www.simon.com",
-  "longBusinessSummary": "Simon Property Group, Inc. is a self-administered and self-managed real estate investment trust (REIT). Simon Property Group, L.P., or the Operating Partnership, is our majority-owned partnership subsidiary that owns all of our real estate properties and other assets. In this package, the terms Simon, we, our, or the Company refer to Simon Property Group, Inc., the Operating Partnership, and its subsidiaries. We own, develop and manage premier shopping, dining, entertainment and mixed-use destinations, which consist primarily of malls, Premium Outlets, The Mills, and International Properties. At December 31, 2024, we owned or had an interest in 229 properties comprising 183 million square feet in North America, Asia and Europe. We also owned an 88% interest in The Taubman Realty Group, or TRG, which owns 22 regional, super-regional, and outlet malls in the U.S. and Asia. Additionally, at December 31, 2024, we had a 22.4% ownership interest in Klepierre, a publicly traded, Paris-based real estate company, which owns shopping centers in 14 European countries. Simon Property Group, Inc. was incorporated in 1960 and is based in Indianapolis, Indiana."
+  "longBusinessSummary": "Simon Property Group, Inc. is a self-administered and self-managed real estate investment trust (REIT). Simon Property Group, L.P., or the Operating Partnership, is our majority-owned partnership subsidiary that owns all of our real estate properties and other assets. In this package, the terms Simon, we, our, or the Company refer to Simon Property Group, Inc., the Operating Partnership, and its subsidiaries. We own, develop and manage premier shopping, dining, entertainment and mixed-use destinations, which consist primarily of malls, Premium Outlets, The Mills, and International Properties. At December 31, 2024, we owned or had an interest in 229 properties comprising 183 million square feet in North America, Asia and Europe. We also owned an 88% interest in The Taubman Realty Group, or TRG, which owns 22 regional, super-regional, and outlet malls in the U.S. and Asia. Additionally, at December 31, 2024, we had a 22.4% ownership interest in Klepierre, a publicly traded, Paris-based real estate company, which owns shopping centers in 14 European countries. Simon Property Group, Inc. was incorporated in 1960 and is based in Indianapolis, Indiana.",
+  "targetMeanPrice": 232.0,
+  "targetLowPrice": 205.0,
+  "targetHighPrice": 285.0,
+  "numberOfAnalystOpinions": 19,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.42857,
+  "forwardPE": 29.441942,
+  "forwardEps": 6.77333,
+  "trailingEps": 14.17,
+  "earningsGrowth": -0.125,
+  "revenueGrowth": 0.195
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 40606466000.0,
+    "official": 40606466000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 5208268000.0,
+    "official": 5208268000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 4627612000.0,
+    "official": 5364120000.0,
+    "diff": 0.137303
+   },
+   "revenue": {
+    "yahoo": 6364505000.0,
+    "official": 6364505000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:56:12+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -172,7 +214,10 @@
    "goodwill_and_intangibles": 37870000.0,
    "retained_earnings": -5926974000.0,
    "total_debt": 24960286000.0,
-   "shares_out": 326953791.0
+   "shares_out": 326953791.0,
+   "unusual_items": 65620000.0,
+   "normalized_ebitda": 4523643000.0,
+   "normalized_income": 2076075993.699665
   },
   {
    "fy_end": "2023-12-31",
@@ -206,7 +251,10 @@
    "goodwill_and_intangibles": 28811000.0,
    "retained_earnings": -6095576000.0,
    "total_debt": 26033423000.0,
-   "shares_out": 325920522.0
+   "shares_out": 325920522.0,
+   "unusual_items": 370855000.0,
+   "normalized_ebitda": 4516269000.0,
+   "normalized_income": 1923521313.932532
   },
   {
    "fy_end": "2024-12-31",
@@ -240,7 +288,10 @@
    "goodwill_and_intangibles": 22844000.0,
    "retained_earnings": -6382515000.0,
    "total_debt": 24264495000.0,
-   "shares_out": 326278138.0
+   "shares_out": 326278138.0,
+   "unusual_items": 357962000.0,
+   "normalized_ebitda": 4659979000.0,
+   "normalized_income": 2015959456.337157
   },
   {
    "fy_end": "2025-12-31",
@@ -273,7 +324,10 @@
    "goodwill_and_intangibles": 69331000.0,
    "retained_earnings": -4608136000.0,
    "total_debt": 28430175000.0,
-   "shares_out": 325223870.0
+   "shares_out": 325223870.0,
+   "unusual_items": 2695259000.0,
+   "normalized_ebitda": 5233830000.0,
+   "normalized_income": 1950215883.792094
   }
  ]
 }

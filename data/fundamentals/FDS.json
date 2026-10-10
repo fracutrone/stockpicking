@@ -1,6 +1,6 @@
 {
  "ticker": "FDS",
- "fetched_at": "2026-10-10T12:45:23+00:00",
+ "fetched_at": "2026-10-10T15:43:41+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": null,
   "website": "https://www.factset.com",
-  "longBusinessSummary": "FactSet Research Systems Inc., together with its subsidiaries, operates as a financial digital platform and enterprise solutions provider for the investment community. It offers data, products, and analytical applications; and workstations, portfolio analytics, and enterprise data solutions, as well as managed services for supporting data, performance, risk, and reporting workflows. The company also provides subscription-based financial data and market intelligence on securities, companies, industries, and people that enable clients to research investment ideas, as well as analyze, monitor, and manage portfolios; and solutions covering investment lifecycle of investment research, portfolio construction and analysis, trade execution, performance measurement, risk management, and reporting. In addition, it offers services through configurable desktop and mobile platform, data feeds, cloud-based digital solutions, and application programming interfaces. It operates in Europe, the Middle East, Africa, the Americas, the Asia Pacific, and internationally. The company serves investment professionals, including institutional asset managers, bankers, wealth managers, asset owners, partners, hedge funds, corporate users, and private equity and venture capital professionals. It has a strategic partnership with Google Cloud to create a new generation of AI-powered solutions for the financial industry. FactSet Research Systems Inc. was founded in 1978 and is headquartered in Norwalk, Connecticut."
+  "longBusinessSummary": "FactSet Research Systems Inc., together with its subsidiaries, operates as a financial digital platform and enterprise solutions provider for the investment community. It offers data, products, and analytical applications; and workstations, portfolio analytics, and enterprise data solutions, as well as managed services for supporting data, performance, risk, and reporting workflows. The company also provides subscription-based financial data and market intelligence on securities, companies, industries, and people that enable clients to research investment ideas, as well as analyze, monitor, and manage portfolios; and solutions covering investment lifecycle of investment research, portfolio construction and analysis, trade execution, performance measurement, risk management, and reporting. In addition, it offers services through configurable desktop and mobile platform, data feeds, cloud-based digital solutions, and application programming interfaces. It operates in Europe, the Middle East, Africa, the Americas, the Asia Pacific, and internationally. The company serves investment professionals, including institutional asset managers, bankers, wealth managers, asset owners, partners, hedge funds, corporate users, and private equity and venture capital professionals. It has a strategic partnership with Google Cloud to create a new generation of AI-powered solutions for the financial industry. FactSet Research Systems Inc. was founded in 1978 and is headquartered in Norwalk, Connecticut.",
+  "targetMeanPrice": 279.125,
+  "targetLowPrice": 212.0,
+  "targetHighPrice": 340.0,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.22222,
+  "forwardPE": 13.221647,
+  "forwardEps": 21.72044,
+  "trailingEps": 14.57,
+  "earningsGrowth": -0.152,
+  "revenueGrowth": 0.063
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-08-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 4304272000.0,
+    "official": 4304272000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2186413000.0,
+    "official": 2186413000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 597040000.0,
+    "official": 597040000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2321748000.0,
+    "official": 2321748000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:43:42+00:00",
  "years": [
   {
    "fy_end": "2019-08-31",
@@ -203,7 +245,10 @@
    "goodwill_and_intangibles": 2861757000.0,
    "retained_earnings": 1179739000.0,
    "total_debt": 1982424000.0,
-   "shares_out": 38044756.0
+   "shares_out": 38044756.0,
+   "unusual_items": -64272000.0,
+   "normalized_ebitda": 673278000.0,
+   "normalized_income": 454440440.0
   },
   {
    "fy_end": "2023-08-31",
@@ -237,7 +282,10 @@
    "goodwill_and_intangibles": 2863938000.0,
    "retained_earnings": 1505096000.0,
    "total_debt": 1612700000.0,
-   "shares_out": 38025372.0
+   "shares_out": 38025372.0,
+   "unusual_items": -25946000.0,
+   "normalized_ebitda": 788001000.0,
+   "normalized_income": 468173000.0
   },
   {
    "fy_end": "2024-08-31",
@@ -271,7 +319,10 @@
    "goodwill_and_intangibles": 2855270000.0,
    "retained_earnings": 1888504000.0,
    "total_debt": 1365973000.0,
-   "shares_out": 37952270.0
+   "shares_out": 37952270.0,
+   "unusual_items": -4677000.0,
+   "normalized_ebitda": 872875000.0,
+   "normalized_income": 537126000.0
   },
   {
    "fy_end": "2025-08-31",
@@ -305,7 +356,9 @@
    "goodwill_and_intangibles": 3200810000.0,
    "retained_earnings": 2323407000.0,
    "total_debt": 1368260000.0,
-   "shares_out": 37645870.0
+   "shares_out": 37645870.0,
+   "normalized_ebitda": 965955000.0,
+   "normalized_income": 597040000.0
   }
  ]
 }

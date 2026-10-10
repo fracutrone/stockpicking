@@ -1,6 +1,6 @@
 {
  "ticker": "T",
- "fetched_at": "2026-10-10T12:59:19+00:00",
+ "fetched_at": "2026-10-10T15:57:02+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 133030,
   "website": "https://www.att.com",
-  "longBusinessSummary": "AT&T Inc. provides telecommunications and technology services worldwide. It operates through two segments, Communications and Latin America. The Communications segment offers wireless voice and data communications services; and sells handsets, wireless data cards, wireless computing devices, carrying cases/protective covers, and wireless chargers through its own company-owned stores, agents, and third-party retail stores. It also provides AT&T Dedicated Internet, fiber ethernet and broadband, fixed wireless, and hosted and managed professional services; and copper-based voice and data, Virtual Private Networks (VPN), wholesale, outsourcing, and IP, as well as customer premises equipment for multinational corporations, small and mid-sized businesses, governmental, and wholesale customers. In addition, this segment offers broadband services, including fiber connections, legacy telephony voice communication services, and other VoIP services and equipment to residential customers. This segment markets its communications services and products under the AT&T, AT&T Business, Cricket, AT&T PREPAID, AT&T Fiber, and AT&T Internet Air brand names. Its Latin America segment provides postpaid and prepaid wireless services in Mexico under the AT&T and Unefon brand names, as well as sells smartphones through its stores, agents and third-party retail stores. The company was formerly known as SBC Communications Inc. and changed its name to AT&T Inc. in 2005. AT&T Inc. was incorporated in 1983 and is based in Dallas, Texas."
+  "longBusinessSummary": "AT&T Inc. provides telecommunications and technology services worldwide. It operates through two segments, Communications and Latin America. The Communications segment offers wireless voice and data communications services; and sells handsets, wireless data cards, wireless computing devices, carrying cases/protective covers, and wireless chargers through its own company-owned stores, agents, and third-party retail stores. It also provides AT&T Dedicated Internet, fiber ethernet and broadband, fixed wireless, and hosted and managed professional services; and copper-based voice and data, Virtual Private Networks (VPN), wholesale, outsourcing, and IP, as well as customer premises equipment for multinational corporations, small and mid-sized businesses, governmental, and wholesale customers. In addition, this segment offers broadband services, including fiber connections, legacy telephony voice communication services, and other VoIP services and equipment to residential customers. This segment markets its communications services and products under the AT&T, AT&T Business, Cricket, AT&T PREPAID, AT&T Fiber, and AT&T Internet Air brand names. Its Latin America segment provides postpaid and prepaid wireless services in Mexico under the AT&T and Unefon brand names, as well as sells smartphones through its stores, agents and third-party retail stores. The company was formerly known as SBC Communications Inc. and changed its name to AT&T Inc. in 2005. AT&T Inc. was incorporated in 1983 and is based in Dallas, Texas.",
+  "targetMeanPrice": 28.84783,
+  "targetLowPrice": 20.0,
+  "targetHighPrice": 36.0,
+  "numberOfAnalystOpinions": 23,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": 8.635222,
+  "forwardEps": 2.56855,
+  "trailingEps": 3.03,
+  "earningsGrowth": 0.062,
+  "revenueGrowth": 0.023
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 420198000000.0,
+    "official": 420198000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 110533000000.0,
+    "official": 126491000000.0,
+    "diff": 0.126159
+   },
+   "net_income": {
+    "yahoo": 21953000000.0,
+    "official": 21953000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 125648000000.0,
+    "official": 125648000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:57:02+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -189,7 +231,10 @@
    "goodwill_and_intangibles": 197341000000.0,
    "retained_earnings": -19415000000.0,
    "total_debt": 134073000000.0,
-   "shares_out": 7128000000.0
+   "shares_out": 7128000000.0,
+   "unusual_items": -27498000000.0,
+   "normalized_ebitda": 48533000000.0,
+   "normalized_income": 13380420000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -223,7 +268,10 @@
    "goodwill_and_intangibles": 200356000000.0,
    "retained_earnings": -5015000000.0,
    "total_debt": 135493000000.0,
-   "shares_out": 7150063361.0
+   "shares_out": 7150063361.0,
+   "unusual_items": -1193000000.0,
+   "normalized_ebitda": 46522000000.0,
+   "normalized_income": 15338891000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -257,7 +305,10 @@
    "goodwill_and_intangibles": 195722000000.0,
    "retained_earnings": 1871000000.0,
    "total_debt": 122116000000.0,
-   "shares_out": 7175895450.0
+   "shares_out": 7175895450.0,
+   "unusual_items": -5075000000.0,
+   "normalized_ebitda": 49112000000.0,
+   "normalized_income": 14673050000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -291,7 +342,10 @@
    "goodwill_and_intangibles": 196827000000.0,
    "retained_earnings": 15768000000.0,
    "total_debt": 134718000000.0,
-   "shares_out": 6878770356.0
+   "shares_out": 6878770356.0,
+   "unusual_items": -838000000.0,
+   "normalized_ebitda": 55535000000.0,
+   "normalized_income": 22678708000.0
   }
  ]
 }

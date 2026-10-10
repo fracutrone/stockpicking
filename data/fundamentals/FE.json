@@ -1,6 +1,6 @@
 {
  "ticker": "FE",
- "fetched_at": "2026-10-10T12:45:27+00:00",
+ "fetched_at": "2026-10-10T15:43:46+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 11186,
   "website": "https://www.firstenergycorp.com",
-  "longBusinessSummary": "FirstEnergy Corp., together with its subsidiaries, engages in the generation, distribution, and transmission of electricity in the United States. It operates through Distribution, Integrated, and Stand-Alone Transmission segments. The company owns and operates coal-fired, nuclear, hydroelectric, wind, and solar power generating facilities. The company operates 252,959 distribution line miles and 24,157 transmission line miles, including overhead pole line and underground conduit carrying primary, secondary, and street lighting circuits. The company serves customers in Ohio, Pennsylvania, New Jersey, West Virginia, Maryland, and New York. FirstEnergy Corp. was incorporated in 1996 and is headquartered in Akron, Ohio."
+  "longBusinessSummary": "FirstEnergy Corp., together with its subsidiaries, engages in the generation, distribution, and transmission of electricity in the United States. It operates through Distribution, Integrated, and Stand-Alone Transmission segments. The company owns and operates coal-fired, nuclear, hydroelectric, wind, and solar power generating facilities. The company operates 252,959 distribution line miles and 24,157 transmission line miles, including overhead pole line and underground conduit carrying primary, secondary, and street lighting circuits. The company serves customers in Ohio, Pennsylvania, New Jersey, West Virginia, Maryland, and New York. FirstEnergy Corp. was incorporated in 1996 and is headquartered in Akron, Ohio.",
+  "targetMeanPrice": 52.66667,
+  "targetLowPrice": 48.0,
+  "targetHighPrice": 56.0,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.125,
+  "forwardPE": 15.265363,
+  "forwardEps": 2.94785,
+  "trailingEps": 1.88,
+  "earningsGrowth": 0.083,
+  "revenueGrowth": 0.088
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "intangibles": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 55904000000.0,
+    "official": 55904000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 12510000000.0,
+    "official": 12510000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1020000000.0,
+    "official": 1020000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 15090000000.0,
+    "official": 15090000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:43:46+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -190,7 +232,10 @@
    "goodwill_and_intangibles": 5618000000.0,
    "retained_earnings": -1199000000.0,
    "total_debt": 21303000000.0,
-   "shares_out": 572130932.0
+   "shares_out": 572130932.0,
+   "unusual_items": -171000000.0,
+   "normalized_ebitda": 3940000000.0,
+   "normalized_income": 541090000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -223,7 +268,10 @@
    "goodwill_and_intangibles": 5618000000.0,
    "retained_earnings": -97000000.0,
    "total_debt": 23660000000.0,
-   "shares_out": 574335396.0
+   "shares_out": 574335396.0,
+   "unusual_items": -51000000.0,
+   "normalized_ebitda": 4003000000.0,
+   "normalized_income": 1164718000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -255,7 +303,10 @@
    "goodwill_and_intangibles": 5618000000.0,
    "retained_earnings": 43000000.0,
    "total_debt": 23046000000.0,
-   "shares_out": 576612245.0
+   "shares_out": 576612245.0,
+   "unusual_items": -200000000.0,
+   "normalized_ebitda": 4296000000.0,
+   "normalized_income": 1127800000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -287,7 +338,10 @@
    "goodwill_and_intangibles": 5618000000.0,
    "retained_earnings": 35000000.0,
    "total_debt": 25833000000.0,
-   "shares_out": 577851052.0
+   "shares_out": 577851052.0,
+   "unusual_items": -651000000.0,
+   "normalized_ebitda": 4906000000.0,
+   "normalized_income": 1550565000.0
   }
  ]
 }

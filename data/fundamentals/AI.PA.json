@@ -1,6 +1,6 @@
 {
  "ticker": "AI.PA",
- "fetched_at": "2026-10-10T11:44:16+00:00",
+ "fetched_at": "2026-10-10T14:28:51+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "PAR",
   "fullTimeEmployees": 65000,
   "website": "https://www.airliquide.com",
-  "longBusinessSummary": "L'Air Liquide S.A. provides gases, technologies, and services for the industrial and health sectors in Europe, the Americas, the Asia Pacific, the Middle East, and Africa. It operates in Gas & Services, and Engineering & Construction segments. The Gas & Services segment comprises large industries business, which offers gas and energy solutions including oxygen, nitrogen, argon, hydrogen, and carbon monoxide, as well as operates cogeneration plants to supply steam and electricity to metals, chemicals, refining, and energy industries; and industrial merchant business line provides industrial gases, equipment, hardgoods, and associated services to materials and energy, materials and chemicals, food and pharmaceuticals, technology and research, and fabrication and construction sectors. This segment also includes healthcare business, which provides medical gases, home healthcare services, medical equipment, and specialty ingredient; healthcare professionals, and hospitals; and electronic business supply carrier gases, electronic specialty and advanced materials, equipment and installation, service, and analysis to semiconductor, flat panel, and photovoltaic markets. The Engineering & Construction segment designs, develops, and builds industrial gas production plants to third parties; and designs and manufacture plants in the traditional, renewable, and alternative energy sectors. This segment also focuses on markets which require a global approach, drawing on science, technologies, development models, and usages related to digital transformation. L'Air Liquide S.A. was incorporated in 1902 and is headquartered in Paris, France."
+  "longBusinessSummary": "L'Air Liquide S.A. provides gases, technologies, and services for the industrial and health sectors in Europe, the Americas, the Asia Pacific, the Middle East, and Africa. It operates in Gas & Services, and Engineering & Construction segments. The Gas & Services segment comprises large industries business, which offers gas and energy solutions including oxygen, nitrogen, argon, hydrogen, and carbon monoxide, as well as operates cogeneration plants to supply steam and electricity to metals, chemicals, refining, and energy industries; and industrial merchant business line provides industrial gases, equipment, hardgoods, and associated services to materials and energy, materials and chemicals, food and pharmaceuticals, technology and research, and fabrication and construction sectors. This segment also includes healthcare business, which provides medical gases, home healthcare services, medical equipment, and specialty ingredient; healthcare professionals, and hospitals; and electronic business supply carrier gases, electronic specialty and advanced materials, equipment and installation, service, and analysis to semiconductor, flat panel, and photovoltaic markets. The Engineering & Construction segment designs, develops, and builds industrial gas production plants to third parties; and designs and manufacture plants in the traditional, renewable, and alternative energy sectors. This segment also focuses on markets which require a global approach, drawing on science, technologies, development models, and usages related to digital transformation. L'Air Liquide S.A. was incorporated in 1902 and is headquartered in Paris, France.",
+  "targetMeanPrice": 197.325,
+  "targetLowPrice": 162.0,
+  "targetHighPrice": 216.0,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.35,
+  "forwardPE": 23.658804,
+  "forwardEps": 7.17196,
+  "trailingEps": 5.55,
+  "earningsGrowth": 0.007,
+  "revenueGrowth": 0.008
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF FR",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 51867500000.0,
+    "official": 51867500000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 26860000000.0,
+    "official": 26860000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 3306100000.0,
+    "official": 3306100000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 27057800000.0,
+    "official": 27057800000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T14:28:52+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -117,7 +160,10 @@
    "goodwill_and_intangibles": 16398600000.0,
    "retained_earnings": 18626800000.0,
    "total_debt": 13375700000.0,
-   "shares_out": 631894453.0
+   "shares_out": 631894453.0,
+   "unusual_items": -570700000.0,
+   "normalized_ebitda": 6986500000.0,
+   "normalized_income": 3182830100.0
   },
   {
    "fy_end": "2023-12-31",
@@ -150,7 +196,10 @@
    "goodwill_and_intangibles": 15825500000.0,
    "retained_earnings": 19141700000.0,
    "total_debt": 12037600000.0,
-   "shares_out": 633015231.0
+   "shares_out": 633015231.0,
+   "unusual_items": -496500000.0,
+   "normalized_ebitda": 7206900000.0,
+   "normalized_income": 3458319000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -183,7 +232,10 @@
    "goodwill_and_intangibles": 16668900000.0,
    "retained_earnings": 21840300000.0,
    "total_debt": 12393600000.0,
-   "shares_out": 634089045.0
+   "shares_out": 634089045.0,
+   "unusual_items": -211800000.0,
+   "normalized_ebitda": 7323000000.0,
+   "normalized_income": 3467069309.948754
   },
   {
    "fy_end": "2025-12-31",
@@ -216,7 +268,10 @@
    "goodwill_and_intangibles": 15385500000.0,
    "retained_earnings": 21014400000.0,
    "total_debt": 13595900000.0,
-   "shares_out": 635735026.0
+   "shares_out": 635735026.0,
+   "unusual_items": 44400000.0,
+   "normalized_ebitda": 7484300000.0,
+   "normalized_income": 3484688800.0
   }
  ]
 }

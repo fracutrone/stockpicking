@@ -1,6 +1,6 @@
 {
  "ticker": "MCK",
- "fetched_at": "2026-10-10T12:51:15+00:00",
+ "fetched_at": "2026-10-10T15:49:29+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 41600,
   "website": "https://www.mckesson.com",
-  "longBusinessSummary": "McKesson Corporation provides healthcare services in the United States and internationally. It operates through four segments: North American Pharmaceutical, Oncology & Multispecialty, Prescription Technology Solutions, and Medical-Surgical Solutions. The company distributes branded, generic, specialty, biosimilar and over-the-counter pharmaceutical drugs, and other healthcare-related products; delivers products to retail pharmacies, hospitals, long-term care centers, clinics, and institutions; and provides logistics and distribution services for manufacturers. It also provides consulting, outsourcing, technological, and other services, as well as sells financial, operational, and clinical solutions to pharmacies; gene therapy with InspiroGene, practice consulting, and vaccine distribution services; and technology solutions, as well as research, insights, technologies, and services to improve cancer and specialty care. In addition, the company helps in solving medication access, affordability, and adherence challenges for patients by working across healthcare to connect patients, pharmacies, providers, pharmacy benefit managers, health plans, and biopharma companies. Further, it offers technology services, which includes electronic prior authorization, prescription price transparency, benefit insight, dispensing support services, patient enrollment, third-party logistics, and wholesale distribution support; medical-surgical supplies, laboratory equipment, pharmaceutical distribution, logistics, and other services to healthcare providers, including physician offices, surgery centers, hospital reference labs, nursing homes, hospice and home health care agencies, government facilities, and online marketplaces and retailers. McKesson Corporation was founded in 1833 and is headquartered in Irving, Texas."
+  "longBusinessSummary": "McKesson Corporation provides healthcare services in the United States and internationally. It operates through four segments: North American Pharmaceutical, Oncology & Multispecialty, Prescription Technology Solutions, and Medical-Surgical Solutions. The company distributes branded, generic, specialty, biosimilar and over-the-counter pharmaceutical drugs, and other healthcare-related products; delivers products to retail pharmacies, hospitals, long-term care centers, clinics, and institutions; and provides logistics and distribution services for manufacturers. It also provides consulting, outsourcing, technological, and other services, as well as sells financial, operational, and clinical solutions to pharmacies; gene therapy with InspiroGene, practice consulting, and vaccine distribution services; and technology solutions, as well as research, insights, technologies, and services to improve cancer and specialty care. In addition, the company helps in solving medication access, affordability, and adherence challenges for patients by working across healthcare to connect patients, pharmacies, providers, pharmacy benefit managers, health plans, and biopharma companies. Further, it offers technology services, which includes electronic prior authorization, prescription price transparency, benefit insight, dispensing support services, patient enrollment, third-party logistics, and wholesale distribution support; medical-surgical supplies, laboratory equipment, pharmaceutical distribution, logistics, and other services to healthcare providers, including physician offices, surgery centers, hospital reference labs, nursing homes, hospice and home health care agencies, government facilities, and online marketplaces and retailers. McKesson Corporation was founded in 1833 and is headquartered in Irving, Texas.",
+  "targetMeanPrice": 980.6667,
+  "targetLowPrice": 845.0,
+  "targetHighPrice": 1070.0,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.6,
+  "forwardPE": 18.605131,
+  "forwardEps": 50.46135,
+  "trailingEps": 37.31,
+  "earningsGrowth": -0.176,
+  "revenueGrowth": 0.077
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-03-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 82323000000.0,
+    "official": 82323000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": -2172000000.0,
+    "official": -2172000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 4762000000.0,
+    "official": 4762000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 403430000000.0,
+    "official": 403430000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:49:30+00:00",
  "years": [
   {
    "fy_end": "2020-03-31",
@@ -203,7 +245,10 @@
    "goodwill_and_intangibles": 12224000000.0,
    "retained_earnings": 12295000000.0,
    "total_debt": 5594000000.0,
-   "shares_out": 136000000.0
+   "shares_out": 136000000.0,
+   "unusual_items": -90000000.0,
+   "normalized_ebitda": 5576000000.0,
+   "normalized_income": 3635450000.0
   },
   {
    "fy_end": "2024-03-31",
@@ -237,7 +282,10 @@
    "goodwill_and_intangibles": 12242000000.0,
    "retained_earnings": 14978000000.0,
    "total_debt": 5629000000.0,
-   "shares_out": 130408286.0
+   "shares_out": 130408286.0,
+   "unusual_items": -282000000.0,
+   "normalized_ebitda": 4958000000.0,
+   "normalized_income": 3237186064.924782
   },
   {
    "fy_end": "2025-03-31",
@@ -271,7 +319,10 @@
    "goodwill_and_intangibles": 11486000000.0,
    "retained_earnings": 17921000000.0,
    "total_debt": 5654000000.0,
-   "shares_out": 125000000.0
+   "shares_out": 125000000.0,
+   "unusual_items": -327000000.0,
+   "normalized_ebitda": 5587000000.0,
+   "normalized_income": 3556273000.0
   },
   {
    "fy_end": "2026-03-31",
@@ -305,7 +356,10 @@
    "goodwill_and_intangibles": 15395000000.0,
    "retained_earnings": 22291000000.0,
    "total_debt": 6526000000.0,
-   "shares_out": 120000000.0
+   "shares_out": 120000000.0,
+   "unusual_items": -229000000.0,
+   "normalized_ebitda": 7406000000.0,
+   "normalized_income": 4950238000.0
   }
  ]
 }

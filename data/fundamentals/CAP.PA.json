@@ -1,6 +1,6 @@
 {
  "ticker": "CAP.PA",
- "fetched_at": "2026-10-10T11:49:34+00:00",
+ "fetched_at": "2026-10-10T14:38:42+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.08805,
   "heldPercentInstitutions": 0.72528,
   "shortPercentOfFloat": null,
-  "averageVolume": 593535,
+  "averageVolume": 595463,
   "quoteType": "EQUITY",
   "exchange": "PAR",
   "fullTimeEmployees": 417610,
   "website": "https://www.capgemini.com",
-  "longBusinessSummary": "Capgemini SE, together with its subsidiaries, provides consulting, digital transformation, technology, and engineering services primarily in North America, France, the United Kingdom, Ireland, the rest of Europe, the Asia-Pacific, and Latin America. It offers strategy and transformation services in strategy, technology, engineering, data science, and creative design fields to support companies and organizations in creating new models and new products within the digital economy. The company provides applications and technology services to help clients to develop, modernize, extend, and secure IT and digital environment, as well as designs and develops technological solutions in data strategy and architecture, data engineering, information governance, data science and analytics, artificial intelligence, and data-driven innovation fields. In addition, it offers cloud infrastructure services for its clients to build an optimal, agile, and secure foundation for business transformations; and business process outsourcing and transactional services, as well as installation and maintenance services for its clients' IT infrastructures in data centers or in the cloud. The company serves various industries, including aerospace and defense, automotive, banking and capital markets, consumer products, energy and utilities, healthcare, high-tech, hospitality and travel, insurance, life sciences, manufacturing, media and entertainment, public sector, retail, and telecoms. The company has a strategic alliance with OpenAI for the development and deployment of enterprise AI solutions. The company was formerly known as Cap Gemini S.A. and changed its name to Capgemini SE in June 2017. It has a strategic partnership with Duality Technologies to help organizations operationalize secure AI and analytics across sensitive, regulated, and distributed data environments. The company was incorporated in 1967 and is headquartered in Paris, France."
+  "longBusinessSummary": "Capgemini SE, together with its subsidiaries, provides consulting, digital transformation, technology, and engineering services primarily in North America, France, the United Kingdom, Ireland, the rest of Europe, the Asia-Pacific, and Latin America. It offers strategy and transformation services in strategy, technology, engineering, data science, and creative design fields to support companies and organizations in creating new models and new products within the digital economy. The company provides applications and technology services to help clients to develop, modernize, extend, and secure IT and digital environment, as well as designs and develops technological solutions in data strategy and architecture, data engineering, information governance, data science and analytics, artificial intelligence, and data-driven innovation fields. In addition, it offers cloud infrastructure services for its clients to build an optimal, agile, and secure foundation for business transformations; and business process outsourcing and transactional services, as well as installation and maintenance services for its clients' IT infrastructures in data centers or in the cloud. The company serves various industries, including aerospace and defense, automotive, banking and capital markets, consumer products, energy and utilities, healthcare, high-tech, hospitality and travel, insurance, life sciences, manufacturing, media and entertainment, public sector, retail, and telecoms. The company has a strategic alliance with OpenAI for the development and deployment of enterprise AI solutions. The company was formerly known as Cap Gemini S.A. and changed its name to Capgemini SE in June 2017. It has a strategic partnership with Duality Technologies to help organizations operationalize secure AI and analytics across sensitive, regulated, and distributed data environments. The company was incorporated in 1967 and is headquartered in Paris, France.",
+  "targetMeanPrice": 140.50764,
+  "targetLowPrice": 107.0,
+  "targetHighPrice": 177.63,
+  "numberOfAnalystOpinions": 17,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.76471,
+  "forwardPE": 8.403159,
+  "forwardEps": 13.69128,
+  "trailingEps": 7.87,
+  "earningsGrowth": -0.307,
+  "revenueGrowth": 0.088
  },
  "governance": {
   "ceo": {
@@ -80,8 +91,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF FR",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 25660000000.0,
+    "official": 25660000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 11775000000.0,
+    "official": 11775000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1671000000.0,
+    "official": 1671000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 22096000000.0,
+    "official": 22096000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T14:38:42+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -115,7 +158,10 @@
    "goodwill_and_intangibles": 11996000000.0,
    "retained_earnings": 4632000000.0,
    "total_debt": 7547000000.0,
-   "shares_out": 171917536.0
+   "shares_out": 171917536.0,
+   "unusual_items": -167000000.0,
+   "normalized_ebitda": 3307000000.0,
+   "normalized_income": 1661729000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -149,7 +195,10 @@
    "goodwill_and_intangibles": 12011000000.0,
    "retained_earnings": 5591000000.0,
    "total_debt": 6595000000.0,
-   "shares_out": 171287948.0
+   "shares_out": 171287948.0,
+   "unusual_items": -239000000.0,
+   "normalized_ebitda": 3429000000.0,
+   "normalized_income": 1837063368.055556
   },
   {
    "fy_end": "2024-12-31",
@@ -183,7 +232,10 @@
    "goodwill_and_intangibles": 13180000000.0,
    "retained_earnings": 7212000000.0,
    "total_debt": 6077000000.0,
-   "shares_out": 169951043.0
+   "shares_out": 169951043.0,
+   "unusual_items": -199000000.0,
+   "normalized_ebitda": 3434000000.0,
+   "normalized_income": 1812794850.147742
   },
   {
    "fy_end": "2025-12-31",
@@ -217,7 +269,10 @@
    "goodwill_and_intangibles": 15963000000.0,
    "retained_earnings": 7306000000.0,
    "total_debt": 9458000000.0,
-   "shares_out": 169742028.0
+   "shares_out": 169742028.0,
+   "unusual_items": -280000000.0,
+   "normalized_ebitda": 3345000000.0,
+   "normalized_income": 1812120000.0
   }
  ]
 }

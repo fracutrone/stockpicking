@@ -1,6 +1,6 @@
 {
  "ticker": "MTRO.L",
- "fetched_at": "2026-10-10T12:10:02+00:00",
+ "fetched_at": "2026-10-10T15:06:37+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 2891,
   "website": "https://www.metrobankonline.co.uk",
-  "longBusinessSummary": "Metro Bank Holdings PLC operates as the bank holding company for Metro Bank PLC that provides business, commercial, retail and private banking products and services in the United Kingdom. It offers personal banking products and services, including current, cash, and foreign currency accounts; savings; residential and buy-to-let mortgages; overdrafts; credit cards; and safe deposit box services. The company also provides business banking products and services comprising business bank, commercial and community current, foreign currency, and insolvency practitioner accounts; deposit accounts, such as business and community instant access deposit, business notice, client premium and flexible client term deposit, and business and community fixed term deposit accounts; and business and commercial loans and overdrafts, business loan calculators, asset based lending, asset and invoice financing, bounce back loans, business credit cards, and recovery loan schemes services. In addition, it offers private banking products and services, such as private bank, savings, foreign currency, and money management accounts; mortgages and buy-to-let; cards; and partnership loans. Further, the company provides business mobile and commercial online banking, apple pay, google pay, post office business banking, personal online banking, mobile app, Apple Pay, Google Pay, and internet banking registration services. The company was founded in 2010 and is headquartered in London, the United Kingdom. Metro Bank Holdings PLC is a subsidiary of Spaldy Investments Limited."
+  "longBusinessSummary": "Metro Bank Holdings PLC operates as the bank holding company for Metro Bank PLC that provides business, commercial, retail and private banking products and services in the United Kingdom. It offers personal banking products and services, including current, cash, and foreign currency accounts; savings; residential and buy-to-let mortgages; overdrafts; credit cards; and safe deposit box services. The company also provides business banking products and services comprising business bank, commercial and community current, foreign currency, and insolvency practitioner accounts; deposit accounts, such as business and community instant access deposit, business notice, client premium and flexible client term deposit, and business and community fixed term deposit accounts; and business and commercial loans and overdrafts, business loan calculators, asset based lending, asset and invoice financing, bounce back loans, business credit cards, and recovery loan schemes services. In addition, it offers private banking products and services, such as private bank, savings, foreign currency, and money management accounts; mortgages and buy-to-let; cards; and partnership loans. Further, the company provides business mobile and commercial online banking, apple pay, google pay, post office business banking, personal online banking, mobile app, Apple Pay, Google Pay, and internet banking registration services. The company was founded in 2010 and is headquartered in London, the United Kingdom. Metro Bank Holdings PLC is a subsidiary of Spaldy Investments Limited.",
+  "targetMeanPrice": 173.25,
+  "targetLowPrice": 120.00001,
+  "targetHighPrice": 200.0,
+  "numberOfAnalystOpinions": 4,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.0,
+  "forwardPE": 7.389749,
+  "forwardEps": 0.20975,
+  "trailingEps": 0.08,
+  "earningsGrowth": 0.022,
+  "revenueGrowth": 0.021
  },
  "governance": {
   "ceo": {
@@ -69,8 +80,34 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 16475000000.0,
+    "official": 16475000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1484000000.0,
+    "official": 1484000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 52400000.0,
+    "official": 52400000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:06:37+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -97,7 +134,9 @@
    "goodwill_and_intangibles": 216000000.0,
    "retained_earnings": -1015000000.0,
    "total_debt": 819000000.0,
-   "shares_out": 172537631.0
+   "shares_out": 172537631.0,
+   "unusual_items": -13000000.0,
+   "normalized_income": -60064000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -124,7 +163,9 @@
    "goodwill_and_intangibles": 193000000.0,
    "retained_earnings": 978000000.0,
    "total_debt": 928000000.0,
-   "shares_out": 672676547.0
+   "shares_out": 672676547.0,
+   "unusual_items": 49200000.0,
+   "normalized_income": -18076400.0
   },
   {
    "fy_end": "2024-12-31",
@@ -151,7 +192,9 @@
    "goodwill_and_intangibles": 126000000.0,
    "retained_earnings": 1022000000.0,
    "total_debt": 880000000.0,
-   "shares_out": 672979623.0
+   "shares_out": 672979623.0,
+   "unusual_items": -75100000.0,
+   "normalized_income": 98825000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -178,7 +221,9 @@
    "goodwill_and_intangibles": 143000000.0,
    "retained_earnings": 1075000000.0,
    "total_debt": 869000000.0,
-   "shares_out": 673292488.0
+   "shares_out": 673292488.0,
+   "unusual_items": -10100000.0,
+   "normalized_income": 60473050.458716
   }
  ]
 }

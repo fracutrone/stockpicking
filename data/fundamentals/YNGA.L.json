@@ -1,6 +1,6 @@
 {
  "ticker": "YNGA.L",
- "fetched_at": "2026-10-10T12:27:22+00:00",
+ "fetched_at": "2026-10-10T15:30:30+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 7477,
   "website": "https://www.youngs.co.uk",
-  "longBusinessSummary": "Young & Co.'s Brewery, P.L.C. engages in the operation and management of pubs and hotels in the United Kingdom. The company was founded in 1831 and is based in London, the United Kingdom."
+  "longBusinessSummary": "Young & Co.'s Brewery, P.L.C. engages in the operation and management of pubs and hotels in the United Kingdom. The company was founded in 1831 and is based in London, the United Kingdom.",
+  "targetMeanPrice": 1309.0,
+  "targetLowPrice": 1090.0,
+  "targetHighPrice": 1450.0,
+  "numberOfAnalystOpinions": 5,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.2,
+  "forwardPE": 12.677723,
+  "forwardEps": 0.78563,
+  "trailingEps": 0.45,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.037
  },
  "governance": {
   "ceo": {
@@ -68,8 +79,17 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T15:30:30+00:00",
  "years": [
   {
    "fy_end": "2023-03-31",
@@ -101,7 +121,10 @@
    "goodwill_and_intangibles": 32500000.0,
    "retained_earnings": 442400000.0,
    "total_debt": 175900000.0,
-   "shares_out": 58133056.0
+   "shares_out": 58133056.0,
+   "unusual_items": -9000000.0,
+   "normalized_ebitda": 85900000.0,
+   "normalized_income": 37080000.0
   },
   {
    "fy_end": "2024-03-31",
@@ -133,7 +156,10 @@
    "goodwill_and_intangibles": 77400000.0,
    "retained_earnings": 438000000.0,
    "total_debt": 376500000.0,
-   "shares_out": 61748965.0
+   "shares_out": 61748965.0,
+   "unusual_items": -27000000.0,
+   "normalized_ebitda": 90700000.0,
+   "normalized_income": 34325000.0
   },
   {
    "fy_end": "2025-03-31",
@@ -165,7 +191,10 @@
    "goodwill_and_intangibles": 77100000.0,
    "retained_earnings": 427800000.0,
    "total_debt": 343800000.0,
-   "shares_out": 61759775.0
+   "shares_out": 61759775.0,
+   "unusual_items": -33500000.0,
+   "normalized_ebitda": 113700000.0,
+   "normalized_income": 34925000.0
   },
   {
    "fy_end": "2026-03-31",
@@ -197,7 +226,10 @@
    "goodwill_and_intangibles": 77100000.0,
    "retained_earnings": 442400000.0,
    "total_debt": 315100000.0,
-   "shares_out": 60775998.0
+   "shares_out": 60775998.0,
+   "unusual_items": -12000000.0,
+   "normalized_ebitda": 115200000.0,
+   "normalized_income": 36208000.0
   }
  ]
 }

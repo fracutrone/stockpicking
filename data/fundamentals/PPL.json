@@ -1,6 +1,6 @@
 {
  "ticker": "PPL",
- "fetched_at": "2026-10-10T12:55:57+00:00",
+ "fetched_at": "2026-10-10T15:53:38+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 6546,
   "website": "https://www.pplweb.com",
-  "longBusinessSummary": "PPL Corporation provides electricity and natural gas to approximately 3.6 million customers in the United States. It operates in three segments: Kentucky Regulated, Pennsylvania Regulated, and Rhode Island Regulated. The company engages in the transmission and distribution of electricity in eastern and central Pennsylvania; generation, transmission, distribution, and sale of electricity in Kentucky, Virginia, and Rhode Island; distribution and sale of natural gas in Kentucky and Rhode Island; sale of wholesale electricity in Kentucky; and generation of electricity from power plants in Kentucky. It generates electricity from coal, gas, hydro, and solar sources. The company was formerly known as PP&L Resources, Inc. and changed its name to PPL Corporation in 2000. PPL Corporation was founded in 1920 and is headquartered in Allentown, Pennsylvania."
+  "longBusinessSummary": "PPL Corporation provides electricity and natural gas to approximately 3.6 million customers in the United States. It operates in three segments: Kentucky Regulated, Pennsylvania Regulated, and Rhode Island Regulated. The company engages in the transmission and distribution of electricity in eastern and central Pennsylvania; generation, transmission, distribution, and sale of electricity in Kentucky, Virginia, and Rhode Island; distribution and sale of natural gas in Kentucky and Rhode Island; sale of wholesale electricity in Kentucky; and generation of electricity from power plants in Kentucky. It generates electricity from coal, gas, hydro, and solar sources. The company was formerly known as PP&L Resources, Inc. and changed its name to PPL Corporation in 2000. PPL Corporation was founded in 1920 and is headquartered in Allentown, Pennsylvania.",
+  "targetMeanPrice": 40.125,
+  "targetLowPrice": 35.0,
+  "targetHighPrice": 45.0,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.70588,
+  "forwardPE": 16.162142,
+  "forwardEps": 2.11915,
+  "trailingEps": 1.69,
+  "earningsGrowth": 0.212,
+  "revenueGrowth": 0.042
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 45244000000.0,
+    "official": 45244000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 14881000000.0,
+    "official": 14881000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1181000000.0,
+    "official": 1181000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 9042000000.0,
+    "official": 9042000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:53:38+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -196,7 +238,10 @@
    "goodwill_and_intangibles": 2561000000.0,
    "retained_earnings": 2681000000.0,
    "total_debt": 14228000000.0,
-   "shares_out": 736487000.0
+   "shares_out": 736487000.0,
+   "unusual_items": 23000000.0,
+   "normalized_ebitda": 2638000000.0,
+   "normalized_income": 696060000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -230,7 +275,10 @@
    "goodwill_and_intangibles": 2553000000.0,
    "retained_earnings": 2710000000.0,
    "total_debt": 15604000000.0,
-   "shares_out": 737130000.0
+   "shares_out": 737130000.0,
+   "unusual_items": -94000000.0,
+   "normalized_ebitda": 3019000000.0,
+   "normalized_income": 815294000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -263,7 +311,10 @@
    "goodwill_and_intangibles": 2561000000.0,
    "retained_earnings": 2835000000.0,
    "total_debt": 16806000000.0,
-   "shares_out": 738033000.0
+   "shares_out": 738033000.0,
+   "unusual_items": 45000000.0,
+   "normalized_ebitda": 3166000000.0,
+   "normalized_income": 852180000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -296,7 +347,10 @@
    "goodwill_and_intangibles": 2574000000.0,
    "retained_earnings": 3207000000.0,
    "total_debt": 19350000000.0,
-   "shares_out": 751041000.0
+   "shares_out": 751041000.0,
+   "unusual_items": 81000000.0,
+   "normalized_ebitda": 3615000000.0,
+   "normalized_income": 1116038000.0
   }
  ]
 }

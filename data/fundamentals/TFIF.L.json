@@ -1,6 +1,6 @@
 {
  "ticker": "TFIF.L",
- "fetched_at": "2026-10-10T12:21:59+00:00",
+ "fetched_at": "2026-10-10T15:24:40+00:00",
  "region": "Europa",
  "statement_currency": "GBp",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": "https://www.twentyfouram.com/funds/twentyfour",
-  "longBusinessSummary": "TwentyFour Income Fund Limited is a closed-ended fixed income mutual fund launched by Numis Securities Limited. The fund is managed by TwentyFour Asset Management LLP. It invests in the fixed income markets of Europe. The fund primarily invests in asset backed securities. It seeks to invest in securities across the maturity spectrum. The fund employs fundamental analysis with both top-down and bottom-up security selection approaches, focusing on such factors as market technicals, sentiment, valuations, risk/stress analysis, pre-sale reports, investment banking research, historical information/reporting, manager evaluation, and site visits to create its portfolio. TwentyFour Income Fund Limited was formed on March 6, 2013 and is domiciled in Guernsey."
+  "longBusinessSummary": "TwentyFour Income Fund Limited is a closed-ended fixed income mutual fund launched by Numis Securities Limited. The fund is managed by TwentyFour Asset Management LLP. It invests in the fixed income markets of Europe. The fund primarily invests in asset backed securities. It seeks to invest in securities across the maturity spectrum. The fund employs fundamental analysis with both top-down and bottom-up security selection approaches, focusing on such factors as market technicals, sentiment, valuations, risk/stress analysis, pre-sale reports, investment banking research, historical information/reporting, manager evaluation, and site visits to create its portfolio. TwentyFour Income Fund Limited was formed on March 6, 2013 and is domiciled in Guernsey.",
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": 0.07,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -49,8 +60,15 @@
   "receivables": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T15:24:40+00:00",
  "years": [
   {
    "fy_end": "2023-03-31",
@@ -70,7 +88,8 @@
    "receivables": 6870412.0,
    "retained_earnings": -25576224.0,
    "total_debt": 49827700.0,
-   "shares_out": 718036661.0
+   "shares_out": 718036661.0,
+   "normalized_income": -22595345.0
   },
   {
    "fy_end": "2024-03-31",
@@ -90,7 +109,8 @@
    "receivables": 11045170.0,
    "retained_earnings": 33305443.0,
    "total_debt": 14090507.0,
-   "shares_out": 747836661.0
+   "shares_out": 747836661.0,
+   "normalized_income": 136014165.0
   },
   {
    "fy_end": "2025-03-31",
@@ -110,7 +130,8 @@
    "receivables": 11556358.0,
    "retained_earnings": 63551978.0,
    "total_debt": 4168090.0,
-   "shares_out": 747836661.0
+   "shares_out": 747836661.0,
+   "normalized_income": 104731066.0
   },
   {
    "fy_end": "2026-03-31",
@@ -129,7 +150,8 @@
    "receivables": 7794928.0,
    "retained_earnings": 35949667.0,
    "total_debt": 2887772.0,
-   "shares_out": 850205296.0
+   "shares_out": 850205296.0,
+   "normalized_income": 54827418.0
   }
  ]
 }

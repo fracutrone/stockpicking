@@ -1,6 +1,6 @@
 {
  "ticker": "WELL",
- "fetched_at": "2026-10-10T13:02:11+00:00",
+ "fetched_at": "2026-10-10T15:59:38+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 712,
   "website": "https://www.welltower.com",
-  "longBusinessSummary": "Welltower Inc., an S&P 500 company, is positioned at the center of the silver economy, focusing on rental housing for aging seniors across the United States, United Kingdom, and Canada. Their portfolio of 2,500+ seniors and wellness housing communities are positioned at the intersection of housing and hospitality, creating vibrant communities for mature renters and older adults. They believe our real estate portfolio is unmatched, located in highly attractive micro markets with stunning built environments. Yet, Welltower is an unusual real estate organization as they view themselves as an operating company in a real estate wrapper, driven by highly aligned partnerships and an unconventional culture. Through their disciplined approach to capital allocation powered by their Data Science platform and superior operating results driven by the Welltower Business System - their end-to-end operating platform - they aspire to deliver long-term compounding of per share growth for their existing investors, North Star. Welltower Inc. was incorporated in 1970 in Delaware and is based in Toledo, Ohio."
+  "longBusinessSummary": "Welltower Inc., an S&P 500 company, is positioned at the center of the silver economy, focusing on rental housing for aging seniors across the United States, United Kingdom, and Canada. Their portfolio of 2,500+ seniors and wellness housing communities are positioned at the intersection of housing and hospitality, creating vibrant communities for mature renters and older adults. They believe our real estate portfolio is unmatched, located in highly attractive micro markets with stunning built environments. Yet, Welltower is an unusual real estate organization as they view themselves as an operating company in a real estate wrapper, driven by highly aligned partnerships and an unconventional culture. Through their disciplined approach to capital allocation powered by their Data Science platform and superior operating results driven by the Welltower Business System - their end-to-end operating platform - they aspire to deliver long-term compounding of per share growth for their existing investors, North Star. Welltower Inc. was incorporated in 1970 in Delaware and is based in Toledo, Ohio.",
+  "targetMeanPrice": 262.04544,
+  "targetLowPrice": 219.0,
+  "targetHighPrice": 292.0,
+  "numberOfAnalystOpinions": 22,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.63636,
+  "forwardPE": 70.90251,
+  "forwardEps": 3.18,
+  "trailingEps": 2.25,
+  "earningsGrowth": 0.356,
+  "revenueGrowth": 0.391
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 67303047000.0,
+    "official": 67303047000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 42129498000.0,
+    "official": 42129498000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 936845000.0,
+    "official": 961837000.0,
+    "diff": 0.025984
+   },
+   "revenue": {
+    "yahoo": 10667136000.0,
+    "official": 10838034000.0,
+    "diff": 0.015768
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:59:38+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -175,7 +217,10 @@
    "goodwill_and_intangibles": 68321000.0,
    "retained_earnings": 8804950000.0,
    "total_debt": 14714483000.0,
-   "shares_out": 490508937.0
+   "shares_out": 490508937.0,
+   "unusual_items": -26516000.0,
+   "normalized_ebitda": 2066006000.0,
+   "normalized_income": 166619638.095018
   },
   {
    "fy_end": "2023-12-31",
@@ -208,7 +253,10 @@
    "goodwill_and_intangibles": 68321000.0,
    "retained_earnings": 9145044000.0,
    "total_debt": 15735549000.0,
-   "shares_out": 564241181.0
+   "shares_out": 564241181.0,
+   "unusual_items": -33984000.0,
+   "normalized_ebitda": 2435094000.0,
+   "normalized_income": 373500272.0
   },
   {
    "fy_end": "2024-12-31",
@@ -240,7 +288,10 @@
    "intangibles": 665944000.0,
    "retained_earnings": 10096724000.0,
    "total_debt": 15500257000.0,
-   "shares_out": 635289329.0
+   "shares_out": 635289329.0,
+   "unusual_items": -67036000.0,
+   "normalized_ebitda": 2845372000.0,
+   "normalized_income": 1018514892.0
   },
   {
    "fy_end": "2025-12-31",
@@ -272,7 +323,10 @@
    "intangibles": 908747000.0,
    "retained_earnings": 11033569000.0,
    "total_debt": 19197302000.0,
-   "shares_out": 696507255.0
+   "shares_out": 696507255.0,
+   "unusual_items": -152935000.0,
+   "normalized_ebitda": 2463393000.0,
+   "normalized_income": 1088709455.0
   }
  ]
 }

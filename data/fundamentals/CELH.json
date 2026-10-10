@@ -1,6 +1,6 @@
 {
  "ticker": "CELH",
- "fetched_at": "2026-10-10T12:40:21+00:00",
+ "fetched_at": "2026-10-10T15:39:13+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NCM",
   "fullTimeEmployees": 1497,
   "website": "https://celsiusholdingsinc.com",
-  "longBusinessSummary": "Celsius Holdings, Inc. develops, processes, manufactures, markets, sells, and distributes functional energy drinks in the United States, North America, Europe, the Asia Pacific, and internationally. The company offers CELSIUS ESSENTIALS, a functional energy drink formulated with aminos; and CELSIUS Hydration, a line of zero-sugar hydration powders featuring electrolytes in various fruit-forward flavors, as well as ready-to-drink energy beverages, on-the-go powder and hydration sticks, and nutrition and wellness products under CELSIUS, Alani Nu, and Rockstar brand names. It distributes its products through direct-to-store delivery, independent distributors, supermarkets, convenience stores, drug stores, nutritional stores, food service providers, and mass merchants, as well as natural food stores, fitness centers, mass market retailers, vitamin specialty stores, club stores, gyms, and e-commerce platforms. The company was formerly known as Vector Ventures, Inc. and changed its name to Celsius Holdings, Inc. in January 2007. Celsius Holdings, Inc. was founded in 2004 and is headquartered in Boca Raton, Florida."
+  "longBusinessSummary": "Celsius Holdings, Inc. develops, processes, manufactures, markets, sells, and distributes functional energy drinks in the United States, North America, Europe, the Asia Pacific, and internationally. The company offers CELSIUS ESSENTIALS, a functional energy drink formulated with aminos; and CELSIUS Hydration, a line of zero-sugar hydration powders featuring electrolytes in various fruit-forward flavors, as well as ready-to-drink energy beverages, on-the-go powder and hydration sticks, and nutrition and wellness products under CELSIUS, Alani Nu, and Rockstar brand names. It distributes its products through direct-to-store delivery, independent distributors, supermarkets, convenience stores, drug stores, nutritional stores, food service providers, and mass merchants, as well as natural food stores, fitness centers, mass market retailers, vitamin specialty stores, club stores, gyms, and e-commerce platforms. The company was formerly known as Vector Ventures, Inc. and changed its name to Celsius Holdings, Inc. in January 2007. Celsius Holdings, Inc. was founded in 2004 and is headquartered in Boca Raton, Florida.",
+  "targetMeanPrice": 42.19048,
+  "targetLowPrice": 26.0,
+  "targetHighPrice": 64.0,
+  "numberOfAnalystOpinions": 21,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.75,
+  "forwardPE": 16.54481,
+  "forwardEps": 1.72743,
+  "trailingEps": 0.23,
+  "earningsGrowth": -0.569,
+  "revenueGrowth": 0.106
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 5119621000.0,
+    "official": 5119621000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2941442000.0,
+    "official": 1181467000.0,
+    "diff": 1.489652
+   },
+   "net_income": {
+    "yahoo": 107999000.0,
+    "official": 107999000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2515269000.0,
+    "official": 2515269000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:39:14+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -199,7 +241,10 @@
    "goodwill_and_intangibles": 25933000.0,
    "retained_earnings": -238772000.0,
    "total_debt": 1219000.0,
-   "shares_out": 229146000.0
+   "shares_out": 229146000.0,
+   "unusual_items": -392000.0,
+   "normalized_ebitda": -155492000.0,
+   "normalized_income": -186972320.0
   },
   {
    "fy_end": "2023-12-31",
@@ -233,7 +278,10 @@
    "goodwill_and_intangibles": 26312000.0,
    "retained_earnings": -12053000.0,
    "total_debt": 2187000.0,
-   "shares_out": 231787482.0
+   "shares_out": 231787482.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 294975000.0,
+   "normalized_income": 226801000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -267,7 +315,10 @@
    "goodwill_and_intangibles": 83795000.0,
    "retained_earnings": 105521000.0,
    "total_debt": 20250000.0,
-   "shares_out": 235013960.0
+   "shares_out": 235013960.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 202324000.0,
+   "normalized_income": 145074000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -301,7 +352,10 @@
    "goodwill_and_intangibles": 2309475000.0,
    "retained_earnings": 175912000.0,
    "total_debt": 669926000.0,
-   "shares_out": 256906000.0
+   "shares_out": 256906000.0,
+   "unusual_items": -327461000.0,
+   "normalized_ebitda": 530922000.0,
+   "normalized_income": 390925304.0
   }
  ]
 }

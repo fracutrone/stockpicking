@@ -1,6 +1,6 @@
 {
  "ticker": "TMPL.L",
- "fetched_at": "2026-10-10T12:22:26+00:00",
+ "fetched_at": "2026-10-10T15:25:22+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -49,8 +60,15 @@
   "equity": "yahoo",
   "receivables": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T15:25:22+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -70,7 +88,8 @@
    "equity": 726346000.0,
    "receivables": 2257000.0,
    "total_debt": 74707000.0,
-   "shares_out": 317822386.0
+   "shares_out": 317822386.0,
+   "normalized_income": -15969000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -90,7 +109,8 @@
    "equity": 720704000.0,
    "receivables": 2979000.0,
    "total_debt": 74744000.0,
-   "shares_out": 290612881.0
+   "shares_out": 290612881.0,
+   "normalized_income": 86825000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -110,7 +130,8 @@
    "equity": 816725000.0,
    "receivables": 2059000.0,
    "total_debt": 74781000.0,
-   "shares_out": 285395624.0
+   "shares_out": 285395624.0,
+   "normalized_income": 139546000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -130,7 +151,8 @@
    "equity": 1069192000.0,
    "receivables": 4334000.0,
    "total_debt": 74818000.0,
-   "shares_out": 289649378.0
+   "shares_out": 289649378.0,
+   "normalized_income": 276713000.0
   }
  ]
 }

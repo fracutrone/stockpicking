@@ -1,6 +1,6 @@
 {
  "ticker": "BKR",
- "fetched_at": "2026-10-10T12:39:08+00:00",
+ "fetched_at": "2026-10-10T15:37:52+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 54000,
   "website": "https://www.bakerhughes.com",
-  "longBusinessSummary": "Baker Hughes Company provides a portfolio of technologies and services to energy and industrial value chain. Its Oilfield Services & Equipment segment designs and manufactures exploration, appraisal, development, production, rejuvenation, and decommissioning products and related services for onshore and offshore oilfield operations. This segment also provides drilling services, drill bits, and drilling and completions fluids; completions, intervention, measurements, pressure pumping, and wireline services; artificial lift systems, and oilfield and industrial chemicals; subsea projects and services, flexible pipe systems, and surface pressure control systems; and integrated well services and solutions. It serves oil and natural gas companies; the United States and international independent oil and natural gas companies; national or state-owned oil companies; engineering, procurement, and construction contractors; geothermal companies; and other oilfield service companies. The company's Industrial & Energy Technology segment offers gas technology equipment, such as drivers, driven equipment, and turnkey solutions for the mechanical and electric-drive, compression, and power-generation applications; aftermarket support and uptime gas technology services; non-destructive testing technologies, software, and services; pre-commissioning and maintenance services; flow control and safety solutions; mechanical and electromechanical gear transmission systems; Cordant, a software solution to optimize assets, processes, and energy use; Bently Nevada, a sensing and protection hardware for rack-based vibrating monitoring equipment and sensors; and climate technology solutions. It serves industrial, upstream, midstream, downstream, onshore, offshore, and small-to-large scale customers. The company was formerly known as Baker Hughes, a GE company and changed its name to Baker Hughes Company in October 2019. The company was incorporated in 2016 and is based in Houston, Texas."
+  "longBusinessSummary": "Baker Hughes Company provides a portfolio of technologies and services to energy and industrial value chain. Its Oilfield Services & Equipment segment designs and manufactures exploration, appraisal, development, production, rejuvenation, and decommissioning products and related services for onshore and offshore oilfield operations. This segment also provides drilling services, drill bits, and drilling and completions fluids; completions, intervention, measurements, pressure pumping, and wireline services; artificial lift systems, and oilfield and industrial chemicals; subsea projects and services, flexible pipe systems, and surface pressure control systems; and integrated well services and solutions. It serves oil and natural gas companies; the United States and international independent oil and natural gas companies; national or state-owned oil companies; engineering, procurement, and construction contractors; geothermal companies; and other oilfield service companies. The company's Industrial & Energy Technology segment offers gas technology equipment, such as drivers, driven equipment, and turnkey solutions for the mechanical and electric-drive, compression, and power-generation applications; aftermarket support and uptime gas technology services; non-destructive testing technologies, software, and services; pre-commissioning and maintenance services; flow control and safety solutions; mechanical and electromechanical gear transmission systems; Cordant, a software solution to optimize assets, processes, and energy use; Bently Nevada, a sensing and protection hardware for rack-based vibrating monitoring equipment and sensors; and climate technology solutions. It serves industrial, upstream, midstream, downstream, onshore, offshore, and small-to-large scale customers. The company was formerly known as Baker Hughes, a GE company and changed its name to Baker Hughes Company in October 2019. The company was incorporated in 2016 and is based in Houston, Texas.",
+  "targetMeanPrice": 71.16667,
+  "targetLowPrice": 51.0,
+  "targetHighPrice": 85.0,
+  "numberOfAnalystOpinions": 24,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.68,
+  "forwardPE": 19.187038,
+  "forwardEps": 2.95512,
+  "trailingEps": 3.11,
+  "earningsGrowth": -0.042,
+  "revenueGrowth": -0.024
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 40881000000.0,
+    "official": 40881000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 18834000000.0,
+    "official": 18834000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2588000000.0,
+    "official": 2588000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 27733000000.0,
+    "official": 27733000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:37:52+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -191,7 +233,10 @@
    "goodwill_and_intangibles": 10109000000.0,
    "retained_earnings": -10761000000.0,
    "total_debt": 5980000000.0,
-   "shares_out": 1006000000.0
+   "shares_out": 1006000000.0,
+   "unusual_items": -705000000.0,
+   "normalized_ebitda": 2040000000.0,
+   "normalized_income": -77960500.0
   },
   {
    "fy_end": "2023-12-31",
@@ -225,7 +270,10 @@
    "goodwill_and_intangibles": 10230000000.0,
    "retained_earnings": -8819000000.0,
    "total_debt": 5872000000.0,
-   "shares_out": 998000000.0
+   "shares_out": 998000000.0,
+   "unusual_items": 223000000.0,
+   "normalized_ebitda": 3735000000.0,
+   "normalized_income": 1777534000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -259,7 +307,10 @@
    "goodwill_and_intangibles": 10029000000.0,
    "retained_earnings": -5840000000.0,
    "total_debt": 5970000000.0,
-   "shares_out": 989525809.0
+   "shares_out": 989525809.0,
+   "unusual_items": 101000000.0,
+   "normalized_ebitda": 4498000000.0,
+   "normalized_income": 2885979000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -293,7 +344,10 @@
    "goodwill_and_intangibles": 10165000000.0,
    "retained_earnings": -3252000000.0,
    "total_debt": 5398000000.0,
-   "shares_out": 986773882.0
+   "shares_out": 986773882.0,
+   "unusual_items": -425000000.0,
+   "normalized_ebitda": 4712000000.0,
+   "normalized_income": 2975600000.0
   }
  ]
 }

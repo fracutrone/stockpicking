@@ -1,6 +1,6 @@
 {
  "ticker": "QLYS",
- "fetched_at": "2026-10-10T12:56:21+00:00",
+ "fetched_at": "2026-10-10T15:54:03+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 2718,
   "website": "https://www.qualys.com",
-  "longBusinessSummary": "Qualys, Inc. provides cloud-based platform delivering information technology (IT), security, and compliance solutions in the United States and internationally. The company provides Qualys Cloud Apps, which include cybersecurity asset management; enterprise TruRisk management; vulnerability management, detection, and response; total application security; patch management; custom assessment and remediation; multi-vector endpoint detection and response; policy audit; and file integrity monitoring. It offers TotalCloud, a cloud-native application protection platform, which include cloud workload protection, cloud detection and response, cloud security posture management, infrastructure as code, SaaS security posture management, cloud infrastructure and entitlement management, and Kubernetes and container security. In addition, the company markets and sells IT, security, and compliance solutions; offers Qualys' Enterprise TruRisk platform that enables customers to identify and manage IT and operational technology assets; collect and analyze IT security data; discover and prioritize vulnerabilities; quantify cyber risk exposure; recommend and implement remediation actions; and verify the implementation of such actions. Further, it offers asset tagging and management; reporting and dashboards; questionnaires and collaboration; remediation and workflow; big data correlation and analytics engine; and alerts and notifications. The company offers its solutions to enterprises, government entities, and small and medium-sized businesses in various industries, including education, financial services, government, healthcare, insurance, manufacturing, media, retail, technology, and utilities through its sales teams, as well as through security consulting organizations, managed service providers, resellers, cloud providers, and consulting firms. Qualys, Inc. was incorporated in 1999 and is headquartered in Foster City, California."
+  "longBusinessSummary": "Qualys, Inc. provides cloud-based platform delivering information technology (IT), security, and compliance solutions in the United States and internationally. The company provides Qualys Cloud Apps, which include cybersecurity asset management; enterprise TruRisk management; vulnerability management, detection, and response; total application security; patch management; custom assessment and remediation; multi-vector endpoint detection and response; policy audit; and file integrity monitoring. It offers TotalCloud, a cloud-native application protection platform, which include cloud workload protection, cloud detection and response, cloud security posture management, infrastructure as code, SaaS security posture management, cloud infrastructure and entitlement management, and Kubernetes and container security. In addition, the company markets and sells IT, security, and compliance solutions; offers Qualys' Enterprise TruRisk platform that enables customers to identify and manage IT and operational technology assets; collect and analyze IT security data; discover and prioritize vulnerabilities; quantify cyber risk exposure; recommend and implement remediation actions; and verify the implementation of such actions. Further, it offers asset tagging and management; reporting and dashboards; questionnaires and collaboration; remediation and workflow; big data correlation and analytics engine; and alerts and notifications. The company offers its solutions to enterprises, government entities, and small and medium-sized businesses in various industries, including education, financial services, government, healthcare, insurance, manufacturing, media, retail, technology, and utilities through its sales teams, as well as through security consulting organizations, managed service providers, resellers, cloud providers, and consulting firms. Qualys, Inc. was incorporated in 1999 and is headquartered in Foster City, California.",
+  "targetMeanPrice": 179.36278,
+  "targetLowPrice": 130.0,
+  "targetHighPrice": 220.0,
+  "numberOfAnalystOpinions": 18,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.77273,
+  "forwardPE": 23.950891,
+  "forwardEps": 8.45146,
+  "trailingEps": 5.77,
+  "earningsGrowth": 0.161,
+  "revenueGrowth": 0.11
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 1095081000.0,
+    "official": 1095081000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 561153000.0,
+    "official": 561153000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 198320000.0,
+    "official": 198320000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 669125000.0,
+    "official": 669125000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:54:03+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -197,7 +239,10 @@
    "goodwill_and_intangibles": 20248000.0,
    "retained_earnings": -221447000.0,
    "total_debt": 42181000.0,
-   "shares_out": 37362000.0
+   "shares_out": 37362000.0,
+   "unusual_items": -1771000.0,
+   "normalized_ebitda": 166940000.0,
+   "normalized_income": 109422968.0
   },
   {
    "fy_end": "2023-12-31",
@@ -230,7 +275,10 @@
    "goodwill_and_intangibles": 17162000.0,
    "retained_earnings": -228080000.0,
    "total_debt": 28742000.0,
-   "shares_out": 36909000.0
+   "shares_out": 36909000.0,
+   "unusual_items": -697000.0,
+   "normalized_ebitda": 190757000.0,
+   "normalized_income": 152186753.0
   },
   {
    "fy_end": "2024-12-31",
@@ -263,7 +311,10 @@
    "goodwill_and_intangibles": 14259000.0,
    "retained_earnings": -189217000.0,
    "total_debt": 47221000.0,
-   "shares_out": 36503000.0
+   "shares_out": 36503000.0,
+   "unusual_items": -3192000.0,
+   "normalized_ebitda": 208901000.0,
+   "normalized_income": 176322976.0
   },
   {
    "fy_end": "2025-12-31",
@@ -296,7 +347,10 @@
    "goodwill_and_intangibles": 11702000.0,
    "retained_earnings": -166659000.0,
    "total_debt": 52274000.0,
-   "shares_out": 35730000.0
+   "shares_out": 35730000.0,
+   "unusual_items": -423000.0,
+   "normalized_ebitda": 236866000.0,
+   "normalized_income": 198659669.0
   }
  ]
 }

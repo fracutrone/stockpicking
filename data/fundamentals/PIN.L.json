@@ -1,6 +1,6 @@
 {
  "ticker": "PIN.L",
- "fetched_at": "2026-10-10T12:14:19+00:00",
+ "fetched_at": "2026-10-10T15:11:45+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": 405.00003,
+  "targetLowPrice": 405.00003,
+  "targetHighPrice": 405.00003,
+  "numberOfAnalystOpinions": 1,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 7.901235,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -49,8 +60,15 @@
   "equity": "yahoo",
   "receivables": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T15:11:46+00:00",
  "years": [
   {
    "fy_end": "2023-05-31",
@@ -70,7 +88,8 @@
    "equity": 2450072000.0,
    "receivables": 307000.0,
    "total_debt": 32520000.0,
-   "shares_out": 529893457.0
+   "shares_out": 529893457.0,
+   "normalized_income": 42281000.0
   },
   {
    "fy_end": "2024-05-31",
@@ -90,7 +109,8 @@
    "equity": 2283641000.0,
    "receivables": 1131000.0,
    "total_debt": 231899000.0,
-   "shares_out": 465613611.0
+   "shares_out": 465613611.0,
+   "normalized_income": 31649000.0
   },
   {
    "fy_end": "2025-05-31",
@@ -110,7 +130,8 @@
    "equity": 2223040000.0,
    "receivables": 447000.0,
    "total_debt": 236710000.0,
-   "shares_out": 447784724.0
+   "shares_out": 447784724.0,
+   "normalized_income": -6712000.0
   },
   {
    "fy_end": "2026-05-31",
@@ -130,7 +151,8 @@
    "equity": 2149795000.0,
    "receivables": 777000.0,
    "total_debt": 241378000.0,
-   "shares_out": 415120404.0
+   "shares_out": 415120404.0,
+   "normalized_income": 45993000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "OR.PA",
- "fetched_at": "2026-10-10T12:12:45+00:00",
+ "fetched_at": "2026-10-10T15:09:59+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "PAR",
   "fullTimeEmployees": 95000,
   "website": "https://www.loreal.com",
-  "longBusinessSummary": "L'Oréal S.A., through its subsidiaries, manufactures and sells cosmetic products for women and men in Europe, North America, North Asia, South Asia Pacific, the Middle East, North Africa, Sub-Saharan Africa, and Latin America. It operates through four divisions: Professional Products, Consumer Products, Luxe, and Dermatological Beauty. The company offers skincare, make-up, hair colourant, haircare, perfume, and hygiene products. It provides its products under the L'Oréal Paris, Garnier, Maybelline New York, NYX Professional Makeup, Stylenanda, Essie, Dark & Lovely, Mixa, Niely, L'Oréal Professionnel, Kérastase, Redken, Matrix, Pureology, Lancôme, Yves Saint Laurent Beauté, Armani Beauty, Kiehl's, Helena Rubinstein, Aesop, Biotherm, Valentino, Prada, Shu Uemura, IT Cosmetics, Mugler, Ralph Lauren, Urban Decay, Azzaro, Maison Margiela, Viktor&Rolf, Takami, La RochePosay, CeraVe, Vichy, SkinCeuticals, Skinbetter Science, and other brand names. The company sells its products through distribution channels, such as hair salons, local stores, e-commerce, travel retail, mass market retail, department store perfumeries, pharmacies, drug stores, medi-spas, and free-standing stores. L'Oréal S.A. was founded in 1909 and is headquartered in Clichy, France."
+  "longBusinessSummary": "L'Oréal S.A., through its subsidiaries, manufactures and sells cosmetic products for women and men in Europe, North America, North Asia, South Asia Pacific, the Middle East, North Africa, Sub-Saharan Africa, and Latin America. It operates through four divisions: Professional Products, Consumer Products, Luxe, and Dermatological Beauty. The company offers skincare, make-up, hair colourant, haircare, perfume, and hygiene products. It provides its products under the L'Oréal Paris, Garnier, Maybelline New York, NYX Professional Makeup, Stylenanda, Essie, Dark & Lovely, Mixa, Niely, L'Oréal Professionnel, Kérastase, Redken, Matrix, Pureology, Lancôme, Yves Saint Laurent Beauté, Armani Beauty, Kiehl's, Helena Rubinstein, Aesop, Biotherm, Valentino, Prada, Shu Uemura, IT Cosmetics, Mugler, Ralph Lauren, Urban Decay, Azzaro, Maison Margiela, Viktor&Rolf, Takami, La RochePosay, CeraVe, Vichy, SkinCeuticals, Skinbetter Science, and other brand names. The company sells its products through distribution channels, such as hair salons, local stores, e-commerce, travel retail, mass market retail, department store perfumeries, pharmacies, drug stores, medi-spas, and free-standing stores. L'Oréal S.A. was founded in 1909 and is headquartered in Clichy, France.",
+  "targetMeanPrice": 418.0,
+  "targetLowPrice": 340.0,
+  "targetHighPrice": 460.0,
+  "numberOfAnalystOpinions": 24,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": 25.559637,
+  "forwardEps": 14.91414,
+  "trailingEps": 11.78,
+  "earningsGrowth": 0.054,
+  "revenueGrowth": 0.058
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF FR",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 61821200000.0,
+    "official": 61821200000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 34953200000.0,
+    "official": 34953200000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 6127200000.0,
+    "official": 6127200000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 44052000000.0,
+    "official": 44052000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:09:59+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -121,7 +164,10 @@
    "goodwill_and_intangibles": 15357800000.0,
    "retained_earnings": 5706600000.0,
    "total_debt": 5650900000.0,
-   "shares_out": 535186562.0
+   "shares_out": 535186562.0,
+   "unusual_items": -219000000.0,
+   "normalized_ebitda": 9442600000.0,
+   "normalized_income": 5870943520.878774
   },
   {
    "fy_end": "2023-12-31",
@@ -156,7 +202,10 @@
    "goodwill_and_intangibles": 17389700000.0,
    "retained_earnings": 6184000000.0,
    "total_debt": 8692000000.0,
-   "shares_out": 534725475.0
+   "shares_out": 534725475.0,
+   "unusual_items": -365800000.0,
+   "normalized_ebitda": 10310700000.0,
+   "normalized_income": 6467020662.417198
   },
   {
    "fy_end": "2024-12-31",
@@ -191,7 +240,10 @@
    "goodwill_and_intangibles": 17976800000.0,
    "retained_earnings": 6408700000.0,
    "total_debt": 8495000000.0,
-   "shares_out": 534312021.0
+   "shares_out": 534312021.0,
+   "unusual_items": -303100000.0,
+   "normalized_ebitda": 10975600000.0,
+   "normalized_income": 6639372150.742924
   },
   {
    "fy_end": "2025-12-31",
@@ -226,7 +278,10 @@
    "goodwill_and_intangibles": 19541700000.0,
    "retained_earnings": 6127200000.0,
    "total_debt": 11916100000.0,
-   "shares_out": 533783028.0
+   "shares_out": 533783028.0,
+   "unusual_items": -246200000.0,
+   "normalized_ebitda": 10940600000.0,
+   "normalized_income": 6313573400.0
   }
  ]
 }

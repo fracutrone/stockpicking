@@ -1,6 +1,6 @@
 {
  "ticker": "BR",
- "fetched_at": "2026-10-10T12:39:19+00:00",
+ "fetched_at": "2026-10-10T15:38:09+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 16000,
   "website": "https://www.broadridge.com",
-  "longBusinessSummary": "Broadridge Financial Solutions, Inc. provides investor communications and technology-driven solutions for the financial services industry in the United States and internationally. The company's Investor Communication Solutions segment handles the proxy materials distribution and voting processes for bank, broker-dealer, corporate issuer, and fund clients; provides fund manager; and various other regulatory communication solutions. The segment also offers ProxyEdge, an institutional voting platform that allows institutional investors to view, manage, and vote multi-custodial holdings, as well as third party vote recommendations; data-driven analytics solutions; international corporate governance solutions; fiduciary-focused learning and development, software and technology, and data and analytics services, as well as automated mutual fund and exchange-traded funds trade processing; content management and omni-channel distribution platform; corporate solutions that revolve around shareholder meetings and proxy, corporate governance, regulatory filings and disclosure, and stock transfer services; corporate issuer solutions; and customer communications solutions. The Global Technology and Operations segment provides solutions that automate the front-to-back transaction lifecycle of equity, mutual fund, fixed income, foreign exchange and exchange-traded derivatives, order capture and execution, trade confirmation, margin, cash management, clearing and settlement, reference data management, reconciliations, securities financing and collateral management, asset servicing, compliance and regulatory reporting, portfolio accounting, and custody-related services. This segment also offers business process outsourcing services; technology solutions, such portfolio management, compliance, fee billing, and operational support solutions; and capital market and wealth and investment management solutions. The company was founded in 1962 and is headquartered in Lake Success, New York."
+  "longBusinessSummary": "Broadridge Financial Solutions, Inc. provides investor communications and technology-driven solutions for the financial services industry in the United States and internationally. The company's Investor Communication Solutions segment handles the proxy materials distribution and voting processes for bank, broker-dealer, corporate issuer, and fund clients; provides fund manager; and various other regulatory communication solutions. The segment also offers ProxyEdge, an institutional voting platform that allows institutional investors to view, manage, and vote multi-custodial holdings, as well as third party vote recommendations; data-driven analytics solutions; international corporate governance solutions; fiduciary-focused learning and development, software and technology, and data and analytics services, as well as automated mutual fund and exchange-traded funds trade processing; content management and omni-channel distribution platform; corporate solutions that revolve around shareholder meetings and proxy, corporate governance, regulatory filings and disclosure, and stock transfer services; corporate issuer solutions; and customer communications solutions. The Global Technology and Operations segment provides solutions that automate the front-to-back transaction lifecycle of equity, mutual fund, fixed income, foreign exchange and exchange-traded derivatives, order capture and execution, trade confirmation, margin, cash management, clearing and settlement, reference data management, reconciliations, securities financing and collateral management, asset servicing, compliance and regulatory reporting, portfolio accounting, and custody-related services. This segment also offers business process outsourcing services; technology solutions, such portfolio management, compliance, fee billing, and operational support solutions; and capital market and wealth and investment management solutions. The company was founded in 1962 and is headquartered in Lake Success, New York.",
+  "targetMeanPrice": 213.375,
+  "targetLowPrice": 176.0,
+  "targetHighPrice": 250.0,
+  "numberOfAnalystOpinions": 8,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.33333,
+  "forwardPE": 14.294094,
+  "forwardEps": 11.57471,
+  "trailingEps": 9.6,
+  "earningsGrowth": 0.084,
+  "revenueGrowth": 0.075
  },
  "governance": {
   "ceo": {
@@ -84,9 +95,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec",
   "inventory": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-06-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 8945300000.0,
+    "official": 8945300000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2840600000.0,
+    "official": 2840500000.0,
+    "diff": 3.5e-05
+   },
+   "net_income": {
+    "yahoo": 1124300000.0,
+    "official": 1124300000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 7476800000.0,
+    "official": 7476800000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:38:09+00:00",
  "years": [
   {
    "fy_end": "2020-06-30",
@@ -201,7 +242,9 @@
    "goodwill_and_intangibles": 4928800000.0,
    "retained_earnings": 3113000000.0,
    "total_debt": 3413300000.0,
-   "shares_out": 118100000.0
+   "shares_out": 118100000.0,
+   "normalized_ebitda": 1237400000.0,
+   "normalized_income": 630600000.0
   },
   {
    "fy_end": "2024-06-30",
@@ -236,7 +279,9 @@
    "goodwill_and_intangibles": 4776700000.0,
    "retained_earnings": 3435100000.0,
    "total_debt": 3355100000.0,
-   "shares_out": 116700000.0
+   "shares_out": 116700000.0,
+   "normalized_ebitda": 1347700000.0,
+   "normalized_income": 698100000.0
   },
   {
    "fy_end": "2025-06-30",
@@ -271,7 +316,9 @@
    "goodwill_and_intangibles": 4887000000.0,
    "retained_earnings": 3862500000.0,
    "total_debt": 3252300000.0,
-   "shares_out": 117200000.0
+   "shares_out": 117200000.0,
+   "normalized_ebitda": 1521800000.0,
+   "normalized_income": 839500000.0
   },
   {
    "fy_end": "2026-06-30",
@@ -306,7 +353,9 @@
    "goodwill_and_intangibles": 4987200000.0,
    "retained_earnings": 4553600000.0,
    "total_debt": 3254600000.0,
-   "shares_out": 114058297.0
+   "shares_out": 114058297.0,
+   "normalized_ebitda": 1898900000.0,
+   "normalized_income": 1124300000.0
   }
  ]
 }

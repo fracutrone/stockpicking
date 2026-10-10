@@ -1,6 +1,6 @@
 {
  "ticker": "RF",
- "fetched_at": "2026-10-10T12:56:38+00:00",
+ "fetched_at": "2026-10-10T15:54:20+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 20003,
   "website": "https://www.regions.com",
-  "longBusinessSummary": "Regions Financial Corporation, a financial holding company, provides various banking and related products and services to individual and corporate customers. It operates through three segments: Corporate Bank, Consumer Bank, and Wealth Management. The Corporate Bank segment offers commercial banking services, such as commercial and industrial, commercial real estate, and investor real estate lending; equipment lease financing; deposit products; capital markets activities, such as securities underwriting and placement; and loan syndication and placement, foreign exchange, derivatives, merger and acquisition, and other advisory services to corporate, middle market, and commercial real estate developers and investors. The Consumer Bank segment provides consumer banking products and services related to residential first mortgages, home equity lines and loans, consumer credit cards, and other consumer loans, as well as the corresponding deposit relationships. The Wealth Management segment offers credit related products, and retirement and savings solutions; and trust and investment management, asset management, and estate planning to individuals, businesses, governmental institutions, and non-profit entities. It also provides investment and insurance products; home improvement lending, investment advisory services, equipment financing for commercial clients, small business customers, low-income housing tax credit corporate fund syndication services, financing to CRA-qualified customers, and broker-dealer services to commercial clients, as well as other specialty financing services. The company was founded in 1971 and is headquartered in Birmingham, Alabama."
+  "longBusinessSummary": "Regions Financial Corporation, a financial holding company, provides various banking and related products and services to individual and corporate customers. It operates through three segments: Corporate Bank, Consumer Bank, and Wealth Management. The Corporate Bank segment offers commercial banking services, such as commercial and industrial, commercial real estate, and investor real estate lending; equipment lease financing; deposit products; capital markets activities, such as securities underwriting and placement; and loan syndication and placement, foreign exchange, derivatives, merger and acquisition, and other advisory services to corporate, middle market, and commercial real estate developers and investors. The Consumer Bank segment provides consumer banking products and services related to residential first mortgages, home equity lines and loans, consumer credit cards, and other consumer loans, as well as the corresponding deposit relationships. The Wealth Management segment offers credit related products, and retirement and savings solutions; and trust and investment management, asset management, and estate planning to individuals, businesses, governmental institutions, and non-profit entities. It also provides investment and insurance products; home improvement lending, investment advisory services, equipment financing for commercial clients, small business customers, low-income housing tax credit corporate fund syndication services, financing to CRA-qualified customers, and broker-dealer services to commercial clients, as well as other specialty financing services. The company was founded in 1971 and is headquartered in Birmingham, Alabama.",
+  "targetMeanPrice": 31.84048,
+  "targetLowPrice": 27.0,
+  "targetHighPrice": 36.0,
+  "numberOfAnalystOpinions": 21,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.78261,
+  "forwardPE": 9.490504,
+  "forwardEps": 2.84811,
+  "trailingEps": 2.45,
+  "earningsGrowth": 0.085,
+  "revenueGrowth": 0.034
  },
  "governance": {
   "ceo": {
@@ -78,9 +89,34 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "operating_income": "sec",
   "noninterest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 158814000000.0,
+    "official": 158814000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 19043000000.0,
+    "official": 19043000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2156000000.0,
+    "official": 2156000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:54:20+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -109,7 +145,9 @@
    "goodwill_and_intangibles": 6794000000.0,
    "retained_earnings": 7004000000.0,
    "total_debt": 2284000000.0,
-   "shares_out": 934491492.0
+   "shares_out": 934491492.0,
+   "unusual_items": 47000000.0,
+   "normalized_income": 2208311891.515994
   },
   {
    "fy_end": "2023-12-31",
@@ -138,7 +176,9 @@
    "goodwill_and_intangibles": 6844000000.0,
    "retained_earnings": 8186000000.0,
    "total_debt": 2330000000.0,
-   "shares_out": 922343005.0
+   "shares_out": 922343005.0,
+   "unusual_items": -3000000.0,
+   "normalized_income": 2076385000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -167,7 +207,9 @@
    "goodwill_and_intangibles": 6909000000.0,
    "retained_earnings": 9060000000.0,
    "total_debt": 6493000000.0,
-   "shares_out": 908477658.0
+   "shares_out": 908477658.0,
+   "unusual_items": -3000000.0,
+   "normalized_income": 1895412489.379779
   },
   {
    "fy_end": "2025-12-31",
@@ -196,7 +238,9 @@
    "goodwill_and_intangibles": 6843000000.0,
    "retained_earnings": 10205000000.0,
    "total_debt": 4884000000.0,
-   "shares_out": 867013150.0
+   "shares_out": 867013150.0,
+   "unusual_items": 5000000.0,
+   "normalized_income": 2152069996.354357
   }
  ]
 }

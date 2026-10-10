@@ -1,6 +1,6 @@
 {
  "ticker": "HRL",
- "fetched_at": "2026-10-10T12:48:06+00:00",
+ "fetched_at": "2026-10-10T15:46:31+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 20000,
   "website": "https://www.hormelfoods.com",
-  "longBusinessSummary": "Hormel Foods Corporation develops, processes, and distributes various meat, nut, and other food products to foodservice, convenience stores, and commercial customers in the United States and internationally. It operates through three segments: Retail, Foodservice, and International. The company provides perishable products, including fresh meats, frozen items, refrigerated meal solutions, bacon, sausages, hams, guacamole, and other items that require refrigeration, as well as shelf-stable products, such as canned luncheon meats, nut butters, snack nuts, chili, shelf-stable microwaveable meals, hash, stews, tortillas, salsas, tortilla chips, and other items that do not require refrigeration. It sells its products under the HORMEL, ALWAYS TENDER, APPLEGATE, AUSTIN BLUES, BACON 1, BLACK LABEL, BREAD READY, BURKE, CAFÉ H, CERATTI, CHI-CHI'S, COLUMBUS, COMPLEATS, CORN NUTS, CURE 81, DAN'S PRIZE, DI LUSSO, DINTY MOORE, DON MIGUEL, DOÑA MARIA, EMBASA, FAST N EASY, FIRE BRAISED, FONTANINI, HERDEZ, HORMEL GATHERINGS, HOUSE OF TSANG, JENNIE-O, JUSTIN'S, LA VICTORIA, LAYOUT, LLOYD'S, MARY KITCHEN, MR. PEANUT, NATURAL CHOICE, NUT-RITION, OLD SMOKEHOUSE, OVEN READY, PILLOW PACK, PLANTERS, ROSA GRANDE, SADLER'S SMOKEHOUSE, SKIPPY, SPAM, SQUARE TABLE, SPECIAL RECIPE, VALLEY FRESH, and WHOLLY brands through sales personnel, independent brokers, and distributors. The company was formerly known as Geo. A. Hormel & Company and changed its name to Hormel Foods Corporation in January 1995. Hormel Foods Corporation was founded in 1891 and is headquartered in Austin, Minnesota."
+  "longBusinessSummary": "Hormel Foods Corporation develops, processes, and distributes various meat, nut, and other food products to foodservice, convenience stores, and commercial customers in the United States and internationally. It operates through three segments: Retail, Foodservice, and International. The company provides perishable products, including fresh meats, frozen items, refrigerated meal solutions, bacon, sausages, hams, guacamole, and other items that require refrigeration, as well as shelf-stable products, such as canned luncheon meats, nut butters, snack nuts, chili, shelf-stable microwaveable meals, hash, stews, tortillas, salsas, tortilla chips, and other items that do not require refrigeration. It sells its products under the HORMEL, ALWAYS TENDER, APPLEGATE, AUSTIN BLUES, BACON 1, BLACK LABEL, BREAD READY, BURKE, CAFÉ H, CERATTI, CHI-CHI'S, COLUMBUS, COMPLEATS, CORN NUTS, CURE 81, DAN'S PRIZE, DI LUSSO, DINTY MOORE, DON MIGUEL, DOÑA MARIA, EMBASA, FAST N EASY, FIRE BRAISED, FONTANINI, HERDEZ, HORMEL GATHERINGS, HOUSE OF TSANG, JENNIE-O, JUSTIN'S, LA VICTORIA, LAYOUT, LLOYD'S, MARY KITCHEN, MR. PEANUT, NATURAL CHOICE, NUT-RITION, OLD SMOKEHOUSE, OVEN READY, PILLOW PACK, PLANTERS, ROSA GRANDE, SADLER'S SMOKEHOUSE, SKIPPY, SPAM, SQUARE TABLE, SPECIAL RECIPE, VALLEY FRESH, and WHOLLY brands through sales personnel, independent brokers, and distributors. The company was formerly known as Geo. A. Hormel & Company and changed its name to Hormel Foods Corporation in January 1995. Hormel Foods Corporation was founded in 1891 and is headquartered in Austin, Minnesota.",
+  "targetMeanPrice": 25.5625,
+  "targetLowPrice": 23.0,
+  "targetHighPrice": 30.0,
+  "numberOfAnalystOpinions": 8,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.6,
+  "forwardPE": 12.256734,
+  "forwardEps": 1.56567,
+  "trailingEps": 0.62,
+  "earningsGrowth": -0.672,
+  "revenueGrowth": -0.024
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-10-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 13393119000.0,
+    "official": 13393119000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 7901171000.0,
+    "official": 7901171000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 478197000.0,
+    "official": 478197000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 12106160000.0,
+    "official": 12106160000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:46:31+00:00",
  "years": [
   {
    "fy_end": "2019-10-27",
@@ -205,7 +247,10 @@
    "goodwill_and_intangibles": 6728856000.0,
    "retained_earnings": 7313374000.0,
    "total_debt": 3290549000.0,
-   "shares_out": 546237051.0
+   "shares_out": 546237051.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 1576503000.0,
+   "normalized_income": 999987000.0
   },
   {
    "fy_end": "2023-10-29",
@@ -240,7 +285,10 @@
    "goodwill_and_intangibles": 6685634000.0,
    "retained_earnings": 7492952000.0,
    "total_debt": 2358719000.0,
-   "shares_out": 546599420.0
+   "shares_out": 546599420.0,
+   "unusual_items": -28383000.0,
+   "normalized_ebitda": 1368568000.0,
+   "normalized_income": 815767506.0
   },
   {
    "fy_end": "2024-10-27",
@@ -275,7 +323,10 @@
    "goodwill_and_intangibles": 6656191000.0,
    "retained_earnings": 7677537000.0,
    "total_debt": 2850944000.0,
-   "shares_out": 548605305.0
+   "shares_out": 548605305.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 1374084000.0,
+   "normalized_income": 805038000.0
   },
   {
    "fy_end": "2025-10-26",
@@ -310,7 +361,10 @@
    "goodwill_and_intangibles": 6571385000.0,
    "retained_earnings": 7516690000.0,
    "total_debt": 2850778000.0,
-   "shares_out": 550107260.0
+   "shares_out": 550107260.0,
+   "unusual_items": -70751000.0,
+   "normalized_ebitda": 1076139000.0,
+   "normalized_income": 529146434.719172
   }
  ]
 }

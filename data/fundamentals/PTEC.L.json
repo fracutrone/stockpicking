@@ -1,6 +1,6 @@
 {
  "ticker": "PTEC.L",
- "fetched_at": "2026-10-10T12:15:21+00:00",
+ "fetched_at": "2026-10-10T15:13:14+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 7400,
   "website": "https://www.playtech.com",
-  "longBusinessSummary": "Playtech plc, a technology company, provides gambling software, services, content, and platform technologies. It offers technologies across various product verticals, including casino, live casino, sports betting, virtual sports, bingo, and poker. The company also owns intellectual property rights; licenses the software; provides online bingo and casino software; casino management systems; licenses Alderney for online gaming and Bingo B2C operations; poker and bingo network; and owns video slots intellectual property. In addition, it engages in owning bingo software intellectual property and bingo hardware; developing and provision of online gaming slots; provision of marketing support services, software development and support services; development of software for fixed odds betting terminals and casino machines; Software development and operational support; Consulting and online technical support, data mining processing and advertising services; and operates poker community business. Further, the company designs, develops, and manufactures online software; offers management services; retail and digital sports betting; and develops mobile sportsbook betting platform. It operates in the United Kingdom, Latvia, Italy, Cyprus, Australia, Estonia, Alderney, and internationally. Playtech plc was founded in 1999 and is headquartered in London, the United Kingdom."
+  "longBusinessSummary": "Playtech plc, a technology company, provides gambling software, services, content, and platform technologies. It offers technologies across various product verticals, including casino, live casino, sports betting, virtual sports, bingo, and poker. The company also owns intellectual property rights; licenses the software; provides online bingo and casino software; casino management systems; licenses Alderney for online gaming and Bingo B2C operations; poker and bingo network; and owns video slots intellectual property. In addition, it engages in owning bingo software intellectual property and bingo hardware; developing and provision of online gaming slots; provision of marketing support services, software development and support services; development of software for fixed odds betting terminals and casino machines; Software development and operational support; Consulting and online technical support, data mining processing and advertising services; and operates poker community business. Further, the company designs, develops, and manufactures online software; offers management services; retail and digital sports betting; and develops mobile sportsbook betting platform. It operates in the United Kingdom, Latvia, Italy, Cyprus, Australia, Estonia, Alderney, and internationally. Playtech plc was founded in 1999 and is headquartered in London, the United Kingdom.",
+  "targetMeanPrice": 511.21036,
+  "targetLowPrice": 287.2975,
+  "targetHighPrice": 749.5181,
+  "numberOfAnalystOpinions": 9,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.88889,
+  "forwardPE": 12.893137,
+  "forwardEps": 0.2817,
+  "trailingEps": 0.03,
+  "earningsGrowth": -0.933,
+  "revenueGrowth": 0.098
  },
  "governance": {
   "ceo": {
@@ -74,8 +85,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3297900000.0,
+    "official": 3297900000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1815600000.0,
+    "official": 1815600000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -23900000.0,
+    "official": -23900000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 848000000.0,
+    "official": 848000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T15:13:14+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -107,7 +150,10 @@
    "goodwill_and_intangibles": 980900000.0,
    "retained_earnings": 1128300000.0,
    "total_debt": 633400000.0,
-   "shares_out": 306356693.0
+   "shares_out": 306356693.0,
+   "unusual_items": -56400000.0,
+   "normalized_ebitda": 370100000.0,
+   "normalized_income": 83464000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -139,7 +185,10 @@
    "goodwill_and_intangibles": 881200000.0,
    "retained_earnings": 1234500000.0,
    "total_debt": 732900000.0,
-   "shares_out": 304692807.0
+   "shares_out": 304692807.0,
+   "unusual_items": -3300000.0,
+   "normalized_ebitda": 285800000.0,
+   "normalized_income": 16708000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -171,7 +220,10 @@
    "goodwill_and_intangibles": 314100000.0,
    "retained_earnings": 1206800000.0,
    "total_debt": 494000000.0,
-   "shares_out": 307224760.0
+   "shares_out": 307224760.0,
+   "unusual_items": -27200000.0,
+   "normalized_ebitda": 234800000.0,
+   "normalized_income": -115528000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -203,7 +255,10 @@
    "goodwill_and_intangibles": 295000000.0,
    "retained_earnings": 935400000.0,
    "total_debt": 337300000.0,
-   "shares_out": 283509705.0
+   "shares_out": 283509705.0,
+   "unusual_items": -59500000.0,
+   "normalized_ebitda": 55000000.0,
+   "normalized_income": -124380000.0
   }
  ]
 }

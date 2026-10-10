@@ -1,6 +1,6 @@
 {
  "ticker": "OXY",
- "fetched_at": "2026-10-10T12:54:43+00:00",
+ "fetched_at": "2026-10-10T15:52:32+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 10412,
   "website": "https://www.oxy.com",
-  "longBusinessSummary": "Occidental Petroleum Corporation, together with its subsidiaries, engages in the acquisition, exploration, and development of oil and gas properties in the United States and internationally. It operates through Oil and Gas and Midstream and Marketing. The Oil and Gas segment explores for, develops, and produces oil and condensate, natural gas liquids (NGLs), and natural gas. This segment also optimizes its transportation and storage capacity and invests in entities. The Midstream and Marketing segment purchases, markets, gathers, processes, transports and stores oil, condensate, NGLs, natural gas, carbon dioxide, and power. Occidental Petroleum Corporation was founded in 1920 and is headquartered in Houston, Texas."
+  "longBusinessSummary": "Occidental Petroleum Corporation, together with its subsidiaries, engages in the acquisition, exploration, and development of oil and gas properties in the United States and internationally. It operates through Oil and Gas and Midstream and Marketing. The Oil and Gas segment explores for, develops, and produces oil and condensate, natural gas liquids (NGLs), and natural gas. This segment also optimizes its transportation and storage capacity and invests in entities. The Midstream and Marketing segment purchases, markets, gathers, processes, transports and stores oil, condensate, NGLs, natural gas, carbon dioxide, and power. Occidental Petroleum Corporation was founded in 1920 and is headquartered in Houston, Texas.",
+  "targetMeanPrice": 68.36,
+  "targetLowPrice": 55.0,
+  "targetHighPrice": 82.0,
+  "numberOfAnalystOpinions": 25,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.23077,
+  "forwardPE": 14.713694,
+  "forwardEps": 4.08531,
+  "trailingEps": 3.52,
+  "earningsGrowth": 9.649,
+  "revenueGrowth": 0.534
  },
  "governance": {
   "ceo": {
@@ -82,8 +93,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "goodwill": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 84186000000.0,
+    "official": 84186000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 36034000000.0,
+    "official": 36034000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2326000000.0,
+    "official": 2369000000.0,
+    "diff": 0.018151
+   },
+   "revenue": {
+    "yahoo": 21593000000.0,
+    "official": 21593000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:52:32+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -180,7 +222,10 @@
    "ppe_net": 59287000000.0,
    "retained_earnings": 16499000000.0,
    "total_debt": 19146000000.0,
-   "shares_out": 899858944.0
+   "shares_out": 899858944.0,
+   "unusual_items": 536000000.0,
+   "normalized_ebitda": 21537000000.0,
+   "normalized_income": 12800160000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -211,7 +256,10 @@
    "ppe_net": 59659000000.0,
    "retained_earnings": 19626000000.0,
    "total_debt": 19001000000.0,
-   "shares_out": 879463103.0
+   "shares_out": 879463103.0,
+   "unusual_items": 287000000.0,
+   "normalized_ebitda": 11355000000.0,
+   "normalized_income": 3122490000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -243,7 +291,10 @@
    "goodwill": 668000000.0,
    "retained_earnings": 21189000000.0,
    "total_debt": 25324000000.0,
-   "shares_out": 938457983.0
+   "shares_out": 938457983.0,
+   "unusual_items": -456000000.0,
+   "normalized_ebitda": 11841000000.0,
+   "normalized_income": 3167760000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -275,7 +326,10 @@
    "goodwill": 668000000.0,
    "retained_earnings": 21891000000.0,
    "total_debt": 21397000000.0,
-   "shares_out": 986026416.0
+   "shares_out": 986026416.0,
+   "unusual_items": 190000000.0,
+   "normalized_ebitda": 11474000000.0,
+   "normalized_income": 1936700000.0
   }
  ]
 }

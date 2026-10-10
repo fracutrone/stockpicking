@@ -1,6 +1,6 @@
 {
  "ticker": "NG.L",
- "fetched_at": "2026-10-10T12:11:00+00:00",
+ "fetched_at": "2026-10-10T15:08:17+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 33026,
   "website": "https://www.nationalgrid.com",
-  "longBusinessSummary": "National Grid plc engages in the transmission and distribution of electricity and gas. It operates through UK Electricity Transmission, UK Electricity Distribution, New England, New York, National Grid Ventures, and Other segments. The UK Electricity Transmission segment provides electricity transmission networks in England and Wales. The UK Electricity Distribution segment offers electricity distribution services in east and west Midlands, Southwest of England, and South Wales. The New England segment provides electricity and gas supply and distribution, and high-voltage electricity transmission services in New England. The New York segment offers electricity and gas distribution, and electricity transmission services in New York. The National Grid Ventures segment provides transmission services through electricity interconnectors and LNG importation at the Isle of Grain. The Other segment engages in the leasing and sale of commercial property, as well as insurance activities in the United Kingdom. The company was founded in 1990 and is headquartered in London, the United Kingdom."
+  "longBusinessSummary": "National Grid plc engages in the transmission and distribution of electricity and gas. It operates through UK Electricity Transmission, UK Electricity Distribution, New England, New York, National Grid Ventures, and Other segments. The UK Electricity Transmission segment provides electricity transmission networks in England and Wales. The UK Electricity Distribution segment offers electricity distribution services in east and west Midlands, Southwest of England, and South Wales. The New England segment provides electricity and gas supply and distribution, and high-voltage electricity transmission services in New England. The New York segment offers electricity and gas distribution, and electricity transmission services in New York. The National Grid Ventures segment provides transmission services through electricity interconnectors and LNG importation at the Isle of Grain. The Other segment engages in the leasing and sale of commercial property, as well as insurance activities in the United Kingdom. The company was founded in 1990 and is headquartered in London, the United Kingdom.",
+  "targetMeanPrice": 1339.7999,
+  "targetLowPrice": 1060.0,
+  "targetHighPrice": 1500.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.4375,
+  "forwardPE": 11.758193,
+  "forwardEps": 0.97549,
+  "trailingEps": 0.65,
+  "earningsGrowth": 0.144,
+  "revenueGrowth": 0.02
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2026-03-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 108281000000.0,
+    "official": 108281000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 39299000000.0,
+    "official": 39299000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 3241000000.0,
+    "official": 3241000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 17687000000.0,
+    "official": 17687000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2026-03-31"
+ },
+ "info_at": "2026-10-10T15:08:17+00:00",
  "years": [
   {
    "fy_end": "2023-03-31",
@@ -119,7 +162,10 @@
    "goodwill_and_intangibles": 13451000000.0,
    "retained_earnings": 31608000000.0,
    "total_debt": 42985000000.0,
-   "shares_out": 3999907773.0
+   "shares_out": 3999907773.0,
+   "unusual_items": 51000000.0,
+   "normalized_ebitda": 7203000000.0,
+   "normalized_income": 2675444568.245125
   },
   {
    "fy_end": "2024-03-31",
@@ -153,7 +199,10 @@
    "goodwill_and_intangibles": 13160000000.0,
    "retained_earnings": 32066000000.0,
    "total_debt": 47072000000.0,
-   "shares_out": 4047100522.0
+   "shares_out": 4047100522.0,
+   "unusual_items": -176000000.0,
+   "normalized_ebitda": 7008000000.0,
+   "normalized_income": 2343952000.0
   },
   {
    "fy_end": "2025-03-31",
@@ -187,7 +236,10 @@
    "goodwill_and_intangibles": 13096000000.0,
    "retained_earnings": 40106000000.0,
    "total_debt": 47539000000.0,
-   "shares_out": 4897123773.0
+   "shares_out": 4897123773.0,
+   "unusual_items": -509000000.0,
+   "normalized_ebitda": 8448000000.0,
+   "normalized_income": 3220509863.013699
   },
   {
    "fy_end": "2026-03-31",
@@ -221,7 +273,10 @@
    "goodwill_and_intangibles": 13296000000.0,
    "retained_earnings": 41909000000.0,
    "total_debt": 46755000000.0,
-   "shares_out": 4973426832.0
+   "shares_out": 4973426832.0,
+   "unusual_items": -313000000.0,
+   "normalized_ebitda": 8391000000.0,
+   "normalized_income": 3483720946.915352
   }
  ]
 }

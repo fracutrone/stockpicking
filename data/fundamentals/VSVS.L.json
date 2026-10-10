@@ -1,6 +1,6 @@
 {
  "ticker": "VSVS.L",
- "fetched_at": "2026-10-10T12:25:33+00:00",
+ "fetched_at": "2026-10-10T15:28:56+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 11116,
   "website": "https://www.vesuvius.com",
-  "longBusinessSummary": "Vesuvius plc provides molten metal flow engineering and technology services to steel and foundry casting industries worldwide. It operates through Steel Flow Control, Steel Advanced Refractories, Steel Sensors & Probes, and Foundry segments. The company offers feeder sleeves and risers, including insulating, exothermic insulating, and highly exothermic sleeves, as well as boards, lids, and powders. It also provides coatings for sand moulds and cores comprising high-production foundry jobbing, foundry coating equipment, and speciality foundry coatings; filters and gating systems for steel, iron, and nonferrous castings; metal treatment products; refractory linings and flow control products, such as furnace linings, ladle linings, and stoppers and nozzles for iron and steel foundries; die coatings for permanent mould casting; and crucibles and retorts under the Salamander and Noltina brands. In addition, the company offers organic and inorganic mould and core binder systems, including self-setting binders, ester-setting silicates, gas-setting binders, and heat-setting resins, as well as ancillary products comprising release and parting agents, glues and sealants, and sand additives. Further, it provides foundry services and support. The company was formerly known as Vesuvius Technologies plc and changed its name to Vesuvius plc in October 2012. Vesuvius plc was founded in 1916 and is headquartered in London, the United Kingdom."
+  "longBusinessSummary": "Vesuvius plc provides molten metal flow engineering and technology services to steel and foundry casting industries worldwide. It operates through Steel Flow Control, Steel Advanced Refractories, Steel Sensors & Probes, and Foundry segments. The company offers feeder sleeves and risers, including insulating, exothermic insulating, and highly exothermic sleeves, as well as boards, lids, and powders. It also provides coatings for sand moulds and cores comprising high-production foundry jobbing, foundry coating equipment, and speciality foundry coatings; filters and gating systems for steel, iron, and nonferrous castings; metal treatment products; refractory linings and flow control products, such as furnace linings, ladle linings, and stoppers and nozzles for iron and steel foundries; die coatings for permanent mould casting; and crucibles and retorts under the Salamander and Noltina brands. In addition, the company offers organic and inorganic mould and core binder systems, including self-setting binders, ester-setting silicates, gas-setting binders, and heat-setting resins, as well as ancillary products comprising release and parting agents, glues and sealants, and sand additives. Further, it provides foundry services and support. The company was formerly known as Vesuvius Technologies plc and changed its name to Vesuvius plc in October 2012. Vesuvius plc was founded in 1916 and is headquartered in London, the United Kingdom.",
+  "targetMeanPrice": 500.0,
+  "targetLowPrice": 400.0,
+  "targetHighPrice": 590.0,
+  "numberOfAnalystOpinions": 6,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.83333,
+  "forwardPE": 11.635675,
+  "forwardEps": 0.40118,
+  "trailingEps": 0.15,
+  "earningsGrowth": -0.447,
+  "revenueGrowth": 0.017
  },
  "governance": {
   "ceo": {
@@ -70,8 +81,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 2410100000.0,
+    "official": 2410100000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1124200000.0,
+    "official": 1124200000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 52200000.0,
+    "official": 52200000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1809500000.0,
+    "official": 1809500000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:28:57+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -105,7 +148,9 @@
    "goodwill_and_intangibles": 737500000.0,
    "retained_earnings": 2656000000.0,
    "total_debt": 441900000.0,
-   "shares_out": 268759787.0
+   "shares_out": 268759787.0,
+   "normalized_ebitda": 292300000.0,
+   "normalized_income": 181100000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -139,7 +184,10 @@
    "goodwill_and_intangibles": 706000000.0,
    "retained_earnings": 2717200000.0,
    "total_debt": 402200000.0,
-   "shares_out": 268627220.0
+   "shares_out": 268627220.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 274700000.0,
+   "normalized_income": 118500000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -173,7 +221,10 @@
    "goodwill_and_intangibles": 690900000.0,
    "retained_earnings": 2682600000.0,
    "total_debt": 520200000.0,
-   "shares_out": 253367416.0
+   "shares_out": 253367416.0,
+   "unusual_items": -14600000.0,
+   "normalized_ebitda": 251500000.0,
+   "normalized_income": 97765512.265512
   },
   {
    "fy_end": "2025-12-31",
@@ -207,7 +258,10 @@
    "goodwill_and_intangibles": 747900000.0,
    "retained_earnings": 2644300000.0,
    "total_debt": 641900000.0,
-   "shares_out": 246197618.0
+   "shares_out": 246197618.0,
+   "unusual_items": -25900000.0,
+   "normalized_ebitda": 224600000.0,
+   "normalized_income": 69466666.666667
   }
  ]
 }

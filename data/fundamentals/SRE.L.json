@@ -1,6 +1,6 @@
 {
  "ticker": "SRE.L",
- "fetched_at": "2026-10-10T12:20:16+00:00",
+ "fetched_at": "2026-10-10T15:21:31+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 470,
   "website": "https://www.sirius-real-estate.com",
-  "longBusinessSummary": "Sirius Real Estate Limited engages in the investment, development, and operation of commercial and industrial properties in Germany and the United Kingdom. It owns and manages offices; warehouses, storerooms, and self-storage products; production and workshop spaces; and business parks and lettable space. The company serves individuals tenants, corporations, and small and medium-sized enterprises under the Sirius and BizSpace brands. The company was formerly known as Dawnay, Day Sirius Limited and changed its name to Sirius Real Estate Limited in October 2008. Sirius Real Estate Limited was incorporated in 2007 and is based in Saint Peter Port, Guernsey."
+  "longBusinessSummary": "Sirius Real Estate Limited engages in the investment, development, and operation of commercial and industrial properties in Germany and the United Kingdom. It owns and manages offices; warehouses, storerooms, and self-storage products; production and workshop spaces; and business parks and lettable space. The company serves individuals tenants, corporations, and small and medium-sized enterprises under the Sirius and BizSpace brands. The company was formerly known as Dawnay, Day Sirius Limited and changed its name to Sirius Real Estate Limited in October 2008. Sirius Real Estate Limited was incorporated in 2007 and is based in Saint Peter Port, Guernsey.",
+  "targetMeanPrice": 124.90445,
+  "targetLowPrice": 109.40626,
+  "targetHighPrice": 134.69986,
+  "numberOfAnalystOpinions": 6,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.0,
+  "forwardPE": 11.626719,
+  "forwardEps": 0.076032,
+  "trailingEps": 0.13,
+  "earningsGrowth": 0.143,
+  "revenueGrowth": 0.156
  },
  "governance": {
   "ceo": {
@@ -69,8 +80,17 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T15:21:31+00:00",
  "years": [
   {
    "fy_end": "2023-03-31",
@@ -103,7 +123,10 @@
    "goodwill_and_intangibles": 4100000.0,
    "retained_earnings": 707900000.0,
    "total_debt": 1004000000.0,
-   "shares_out": 1168371222.0
+   "shares_out": 1168371222.0,
+   "unusual_items": 200000.0,
+   "normalized_ebitda": 107000000.0,
+   "normalized_income": 79416781.609195
   },
   {
    "fy_end": "2024-03-31",
@@ -135,7 +158,10 @@
    "goodwill_and_intangibles": 3300000.0,
    "retained_earnings": 815700000.0,
    "total_debt": 982900000.0,
-   "shares_out": 1340848147.0
+   "shares_out": 1340848147.0,
+   "unusual_items": -2200000.0,
+   "normalized_ebitda": 139500000.0,
+   "normalized_income": 109860590.277778
   },
   {
    "fy_end": "2025-03-31",
@@ -167,7 +193,10 @@
    "goodwill_and_intangibles": 1700000.0,
    "retained_earnings": 993700000.0,
    "total_debt": 1355000000.0,
-   "shares_out": 1506613743.0
+   "shares_out": 1506613743.0,
+   "unusual_items": -600000.0,
+   "normalized_ebitda": 231700000.0,
+   "normalized_income": 178100000.0
   },
   {
    "fy_end": "2026-03-31",
@@ -199,7 +228,9 @@
    "goodwill_and_intangibles": 1600000.0,
    "retained_earnings": 1223400000.0,
    "total_debt": 1451300000.0,
-   "shares_out": 1579369538.0
+   "shares_out": 1579369538.0,
+   "normalized_ebitda": 252600000.0,
+   "normalized_income": 229600000.0
   }
  ]
 }

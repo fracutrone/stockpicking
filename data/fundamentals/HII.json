@@ -1,6 +1,6 @@
 {
  "ticker": "HII",
- "fetched_at": "2026-10-10T12:47:40+00:00",
+ "fetched_at": "2026-10-10T15:46:02+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 45000,
   "website": "https://www.hii.com",
-  "longBusinessSummary": "Huntington Ingalls Industries, Inc. designs, builds, overhauls, and repairs military ships in the United States. It operates through three segments: Ingalls, Newport News, and Mission Technologies. The company is involved in the design and construction of non-nuclear ships comprising amphibious assault ships, surface combatants, and national security cutters for the U.S. Navy and U.S. Coast Guard. It also provides nuclear-powered ships, such as aircraft carriers and submarines, as well as refueling and overhaul, and inactivation services of nuclear-powered aircraft carriers. In addition, the company offers naval nuclear support services, including fleet services comprising design, construction, maintenance, and disposal activities for in-service the U.S. Navy nuclear ships; and maintenance services on nuclear reactor prototypes. Further, the company provides C5ISR systems and operations; application of artificial intelligence and machine learning to battlefield decisions; defensive and offensive cyberspace strategies and electronic warfare; uncrewed autonomous systems; live, virtual, and constructive solutions; platform modernization; and critical nuclear operations. The company has a strategic partnership with HD Hyundai Heavy Industries to implement intelligent mechanized welding systems at Huntington Ingalls Industries, Inc.'s Ingalls Shipbuilding division. Huntington Ingalls Industries, Inc. was founded in 1886 and is headquartered in Newport News, Virginia."
+  "longBusinessSummary": "Huntington Ingalls Industries, Inc. designs, builds, overhauls, and repairs military ships in the United States. It operates through three segments: Ingalls, Newport News, and Mission Technologies. The company is involved in the design and construction of non-nuclear ships comprising amphibious assault ships, surface combatants, and national security cutters for the U.S. Navy and U.S. Coast Guard. It also provides nuclear-powered ships, such as aircraft carriers and submarines, as well as refueling and overhaul, and inactivation services of nuclear-powered aircraft carriers. In addition, the company offers naval nuclear support services, including fleet services comprising design, construction, maintenance, and disposal activities for in-service the U.S. Navy nuclear ships; and maintenance services on nuclear reactor prototypes. Further, the company provides C5ISR systems and operations; application of artificial intelligence and machine learning to battlefield decisions; defensive and offensive cyberspace strategies and electronic warfare; uncrewed autonomous systems; live, virtual, and constructive solutions; platform modernization; and critical nuclear operations. The company has a strategic partnership with HD Hyundai Heavy Industries to implement intelligent mechanized welding systems at Huntington Ingalls Industries, Inc.'s Ingalls Shipbuilding division. Huntington Ingalls Industries, Inc. was founded in 1886 and is headquartered in Newport News, Virginia.",
+  "targetMeanPrice": 363.0,
+  "targetLowPrice": 304.0,
+  "targetHighPrice": 439.0,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.08333,
+  "forwardPE": 12.632465,
+  "forwardEps": 20.96186,
+  "trailingEps": 16.78,
+  "earningsGrowth": 0.365,
+  "revenueGrowth": 0.109
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 12749000000.0,
+    "official": 12749000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 5073000000.0,
+    "official": 5073000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 605000000.0,
+    "official": 605000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 12484000000.0,
+    "official": 12484000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:46:02+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -194,7 +236,10 @@
    "goodwill_and_intangibles": 3637000000.0,
    "retained_earnings": 4276000000.0,
    "total_debt": 2905000000.0,
-   "shares_out": 39900000.0
+   "shares_out": 39900000.0,
+   "unusual_items": 48000000.0,
+   "normalized_ebitda": 1131000000.0,
+   "normalized_income": 540360000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -228,7 +273,10 @@
    "goodwill_and_intangibles": 3509000000.0,
    "retained_earnings": 4755000000.0,
    "total_debt": 2214000000.0,
-   "shares_out": 39618880.0
+   "shares_out": 39618880.0,
+   "unusual_items": 37000000.0,
+   "normalized_ebitda": 1258000000.0,
+   "normalized_income": 651474000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -262,7 +310,10 @@
    "goodwill_and_intangibles": 3400000000.0,
    "retained_earnings": 5097000000.0,
    "total_debt": 2700000000.0,
-   "shares_out": 39129419.0
+   "shares_out": 39129419.0,
+   "unusual_items": 49000000.0,
+   "normalized_ebitda": 1015000000.0,
+   "normalized_income": 508105000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -296,7 +347,10 @@
    "goodwill_and_intangibles": 3344000000.0,
    "retained_earnings": 5487000000.0,
    "total_debt": 2700000000.0,
-   "shares_out": 39241527.0
+   "shares_out": 39241527.0,
+   "unusual_items": 46000000.0,
+   "normalized_ebitda": 1165000000.0,
+   "normalized_income": 569166000.0
   }
  ]
 }

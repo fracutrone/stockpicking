@@ -1,6 +1,6 @@
 {
  "ticker": "DKS",
- "fetched_at": "2026-10-10T12:43:14+00:00",
+ "fetched_at": "2026-10-10T15:41:40+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 31600,
   "website": "https://www.dickssportinggoods.com",
-  "longBusinessSummary": "DICK'S Sporting Goods, Inc., together with its subsidiaries, operates as an omni-channel sporting goods retailer primarily in the United States. It provides hardlines, including sporting goods equipment, fitness equipment, golf equipment, and fishing gear products; and apparel. The company also offers footwear and accessories, such as athletic shoes for running, walking, tennis, fitness and cross training, basketball, and hiking; and specialty footwear comprising casual footwear and a complete line of cleats for team sports. In addition, it owns and operates Sporting Goods, Golf Galaxy, Public Lands, Moosejaw, and Going Going Gone! specialty concept stores; and DICK'S House of Sport and Golf Galaxy Performance Center, as well as GameChanger, a youth sports mobile app for live streaming, scheduling, communications, and scorekeeping. Further, the company owns and operates Foot Locker, which includes Foot Locker, Kids Foot Locker, Champs Sports, WSS and atmos banners. It offers its products online, as well as through its mobile apps. The company was formerly known as Dick'S Clothing and Sporting Goods, Inc. and changed its name to DICK'S Sporting Goods, Inc. in April 1999. DICK'S Sporting Goods, Inc. was incorporated in 1948 and is headquartered in Coraopolis, Pennsylvania."
+  "longBusinessSummary": "DICK'S Sporting Goods, Inc., together with its subsidiaries, operates as an omni-channel sporting goods retailer primarily in the United States. It provides hardlines, including sporting goods equipment, fitness equipment, golf equipment, and fishing gear products; and apparel. The company also offers footwear and accessories, such as athletic shoes for running, walking, tennis, fitness and cross training, basketball, and hiking; and specialty footwear comprising casual footwear and a complete line of cleats for team sports. In addition, it owns and operates Sporting Goods, Golf Galaxy, Public Lands, Moosejaw, and Going Going Gone! specialty concept stores; and DICK'S House of Sport and Golf Galaxy Performance Center, as well as GameChanger, a youth sports mobile app for live streaming, scheduling, communications, and scorekeeping. Further, the company owns and operates Foot Locker, which includes Foot Locker, Kids Foot Locker, Champs Sports, WSS and atmos banners. It offers its products online, as well as through its mobile apps. The company was formerly known as Dick'S Clothing and Sporting Goods, Inc. and changed its name to DICK'S Sporting Goods, Inc. in April 1999. DICK'S Sporting Goods, Inc. was incorporated in 1948 and is headquartered in Coraopolis, Pennsylvania.",
+  "targetMeanPrice": 157.96088,
+  "targetLowPrice": 99.0,
+  "targetHighPrice": 205.0,
+  "numberOfAnalystOpinions": 23,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.2963,
+  "forwardPE": 10.39252,
+  "forwardEps": 13.14888,
+  "trailingEps": 9.21,
+  "earningsGrowth": -0.257,
+  "revenueGrowth": 0.532
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-01-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 17411499000.0,
+    "official": 17411499000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 5540120000.0,
+    "official": 5540120000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 849239000.0,
+    "official": 849239000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 17215120000.0,
+    "official": 17215120000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:41:41+00:00",
  "years": [
   {
    "fy_end": "2020-02-01",
@@ -193,7 +235,10 @@
    "goodwill_and_intangibles": 306221000.0,
    "retained_earnings": 4878404000.0,
    "total_debt": 4205135000.0,
-   "shares_out": 82167634.0
+   "shares_out": 82167634.0,
+   "unusual_items": -21686000.0,
+   "normalized_ebitda": 1866129000.0,
+   "normalized_income": 1059485984.364205
   },
   {
    "fy_end": "2024-02-03",
@@ -227,7 +272,10 @@
    "goodwill_and_intangibles": 302520000.0,
    "retained_earnings": 5588914000.0,
    "total_debt": 4263830000.0,
-   "shares_out": 80407767.0
+   "shares_out": 80407767.0,
+   "unusual_items": -67840000.0,
+   "normalized_ebitda": 1837947000.0,
+   "normalized_income": 1100379179.114532
   },
   {
    "fy_end": "2025-02-01",
@@ -261,7 +309,10 @@
    "goodwill_and_intangibles": 304455000.0,
    "retained_earnings": 6392513000.0,
    "total_debt": 4487760000.0,
-   "shares_out": 80229688.0
+   "shares_out": 80229688.0,
+   "unusual_items": -57492000.0,
+   "normalized_ebitda": 2029921000.0,
+   "normalized_income": 1209412300.259441
   },
   {
    "fy_end": "2026-01-31",
@@ -295,7 +346,10 @@
    "goodwill_and_intangibles": 1632622000.0,
    "retained_earnings": 6827900000.0,
    "total_debt": 7746643000.0,
-   "shares_out": 88844031.0
+   "shares_out": 88844031.0,
+   "unusual_items": -233191000.0,
+   "normalized_ebitda": 1928057000.0,
+   "normalized_income": 1022653688.13098
   }
  ]
 }

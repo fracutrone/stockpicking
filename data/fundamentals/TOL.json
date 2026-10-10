@@ -1,6 +1,6 @@
 {
  "ticker": "TOL",
- "fetched_at": "2026-10-10T12:59:54+00:00",
+ "fetched_at": "2026-10-10T15:57:34+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 4900,
   "website": "https://www.tollbrothers.com",
-  "longBusinessSummary": "Toll Brothers, Inc., together with its subsidiaries, designs, builds, markets, sells, and arranges finance for a range of detached and attached homes in luxury residential communities in the United States. It designs, builds, markets, and sells condominiums through Toll Brothers City Living. The company also develops a range of single-story living and first-floor primary bedroom suite home designs, as well as communities with recreational amenities, such as golf courses, marinas, pool complexes, country clubs, and fitness and recreation centers; and develops, operates, rents apartments and student housing communities. In addition, it provides various interior fit-out options, such as flooring, wall tile, plumbing, cabinets, fixtures, appliances, lighting, and home-automation and security technologies. Further, the company owns and operates architectural, engineering, mortgage, title, land development, insurance, smart home technology, landscaping, lumber distribution, house component assembly, and component manufacturing operations. It serves luxury first-time, move-up, empty-nester, active-adult, and second-home buyers. The company was founded in 1967 and is headquartered in Fort Washington, Pennsylvania."
+  "longBusinessSummary": "Toll Brothers, Inc., together with its subsidiaries, designs, builds, markets, sells, and arranges finance for a range of detached and attached homes in luxury residential communities in the United States. It designs, builds, markets, and sells condominiums through Toll Brothers City Living. The company also develops a range of single-story living and first-floor primary bedroom suite home designs, as well as communities with recreational amenities, such as golf courses, marinas, pool complexes, country clubs, and fitness and recreation centers; and develops, operates, rents apartments and student housing communities. In addition, it provides various interior fit-out options, such as flooring, wall tile, plumbing, cabinets, fixtures, appliances, lighting, and home-automation and security technologies. Further, the company owns and operates architectural, engineering, mortgage, title, land development, insurance, smart home technology, landscaping, lumber distribution, house component assembly, and component manufacturing operations. It serves luxury first-time, move-up, empty-nester, active-adult, and second-home buyers. The company was founded in 1967 and is headquartered in Fort Washington, Pennsylvania.",
+  "targetMeanPrice": 170.88235,
+  "targetLowPrice": 118.0,
+  "targetHighPrice": 195.0,
+  "numberOfAnalystOpinions": 17,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.75,
+  "forwardPE": 9.638517,
+  "forwardEps": 13.81229,
+  "trailingEps": 12.41,
+  "earningsGrowth": -0.204,
+  "revenueGrowth": -0.097
  },
  "governance": {
   "ceo": {
@@ -81,8 +92,39 @@
   "ppe_net": "sec",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-10-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 14519866000.0,
+    "official": 14519866000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 8270663000.0,
+    "official": 8270663000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1346486000.0,
+    "official": 1346486000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 10966723000.0,
+    "official": 10966723000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:57:34+00:00",
  "years": [
   {
    "fy_end": "2019-10-31",
@@ -173,7 +215,10 @@
    "ppe_net": 287827000.0,
    "retained_earnings": 6166732000.0,
    "total_debt": 3469073000.0,
-   "shares_out": 109625000.0
+   "shares_out": 109625000.0,
+   "unusual_items": 141234000.0,
+   "normalized_ebitda": 1444208000.0,
+   "normalized_income": 1179868330.0
   },
   {
    "fy_end": "2023-10-31",
@@ -203,7 +248,10 @@
    "ppe_net": 323990000.0,
    "retained_earnings": 6675719000.0,
    "total_debt": 2984333000.0,
-   "shares_out": 103791000.0
+   "shares_out": 103791000.0,
+   "unusual_items": 27683000.0,
+   "normalized_ebitda": 1773545000.0,
+   "normalized_income": 1351447165.0
   },
   {
    "fy_end": "2024-10-31",
@@ -233,7 +281,10 @@
    "ppe_net": 453007000.0,
    "retained_earnings": 8153356000.0,
    "total_debt": 2961507000.0,
-   "shares_out": 99788000.0
+   "shares_out": 99788000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 2121388000.0,
+   "normalized_income": 1571195000.0
   },
   {
    "fy_end": "2025-10-31",
@@ -263,7 +314,10 @@
    "ppe_net": 273397000.0,
    "retained_earnings": 8574807000.0,
    "total_debt": 2916253000.0,
-   "shares_out": 94797000.0
+   "shares_out": 94797000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 1802699000.0,
+   "normalized_income": 1346486000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "DOCS",
- "fetched_at": "2026-10-10T12:43:23+00:00",
+ "fetched_at": "2026-10-10T15:41:50+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 880,
   "website": "https://www.doximity.com",
-  "longBusinessSummary": "Doximity, Inc. operates a digital platform for medical professionals in the United States. Its Doximity platform includes a personalized newsfeed that presents clinical and professional content to members, which offers medical articles, clinical trials or research results in an easy-to-consume video format, professional updates and accomplishments of their peers and colleagues, clinical discussions, Op-Med articles for publication, and sponsored content from pharmaceutical manufacturers and health systems. The company also offers workflow tools, including Ask, a HIPAA-compliant AI assistant, to access and apply evidence-based medical information within clinical workflows; Scribe, a HIPAA-compliant, AI-powered clinical documentation tool; Telehealth tools for hospitals and health systems; and AMiON, an on-call scheduling tool. The company primarily serves physicians, nurse practitioners, physician assistants, medical students, pharmaceutical manufacturers, and healthcare systems. The company was formerly known as 3MD Communications, Inc. and changed its name to Doximity, Inc. in June 2010. Doximity, Inc. was incorporated in 2010 and is headquartered in San Francisco, California."
+  "longBusinessSummary": "Doximity, Inc. operates a digital platform for medical professionals in the United States. Its Doximity platform includes a personalized newsfeed that presents clinical and professional content to members, which offers medical articles, clinical trials or research results in an easy-to-consume video format, professional updates and accomplishments of their peers and colleagues, clinical discussions, Op-Med articles for publication, and sponsored content from pharmaceutical manufacturers and health systems. The company also offers workflow tools, including Ask, a HIPAA-compliant AI assistant, to access and apply evidence-based medical information within clinical workflows; Scribe, a HIPAA-compliant, AI-powered clinical documentation tool; Telehealth tools for hospitals and health systems; and AMiON, an on-call scheduling tool. The company primarily serves physicians, nurse practitioners, physician assistants, medical students, pharmaceutical manufacturers, and healthcare systems. The company was formerly known as 3MD Communications, Inc. and changed its name to Doximity, Inc. in June 2010. Doximity, Inc. was incorporated in 2010 and is headquartered in San Francisco, California.",
+  "targetMeanPrice": 29.66667,
+  "targetLowPrice": 18.0,
+  "targetHighPrice": 47.0,
+  "numberOfAnalystOpinions": 18,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.61905,
+  "forwardPE": 19.58845,
+  "forwardEps": 1.55704,
+  "trailingEps": 0.88,
+  "earningsGrowth": -0.519,
+  "revenueGrowth": 0.073
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-03-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 1123687000.0,
+    "official": 1123687000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 950837000.0,
+    "official": 950837000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 196051000.0,
+    "official": 196051000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 644863000.0,
+    "official": 644863000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:41:50+00:00",
  "years": [
   {
    "fy_end": "2020-03-31",
@@ -183,7 +225,10 @@
    "goodwill_and_intangibles": 99776000.0,
    "retained_earnings": 217855000.0,
    "total_debt": 15637000.0,
-   "shares_out": 193941000.0
+   "shares_out": 193941000.0,
+   "unusual_items": -1093000.0,
+   "normalized_ebitda": 136484000.0,
+   "normalized_income": 113744057.211091
   },
   {
    "fy_end": "2024-03-31",
@@ -216,7 +261,10 @@
    "goodwill_and_intangibles": 95257000.0,
    "retained_earnings": 79989000.0,
    "total_debt": 14546000.0,
-   "shares_out": 186561649.0
+   "shares_out": 186561649.0,
+   "unusual_items": -8338000.0,
+   "normalized_ebitda": 190417000.0,
+   "normalized_income": 154226305.763437
   },
   {
    "fy_end": "2025-03-31",
@@ -249,7 +297,10 @@
    "goodwill_and_intangibles": 91012000.0,
    "retained_earnings": 186888000.0,
    "total_debt": 12396000.0,
-   "shares_out": 188875301.0
+   "shares_out": 188875301.0,
+   "unusual_items": -2135000.0,
+   "normalized_ebitda": 242898000.0,
+   "normalized_income": 224992841.346263
   },
   {
    "fy_end": "2026-03-31",
@@ -282,7 +333,10 @@
    "goodwill_and_intangibles": 120298000.0,
    "retained_earnings": -51062000.0,
    "total_debt": 10185000.0,
-   "shares_out": 183059646.0
+   "shares_out": 183059646.0,
+   "unusual_items": 188000.0,
+   "normalized_ebitda": 229115000.0,
+   "normalized_income": 195903608.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "KNF",
- "fetched_at": "2026-10-10T12:49:54+00:00",
+ "fetched_at": "2026-10-10T15:48:12+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 5298,
   "website": "https://www.kniferiver.com",
-  "longBusinessSummary": "Knife River Corporation, together with its subsidiaries, provides aggregates-based construction materials and contracting services in the United States. The company operates through West, Mountain, Central, and Energy Services segments. It mines, processes, and sells construction aggregates, including crushed stone and sand, and gravel; and produces and sells asphalt and ready-mix concrete. The company also provides contracting services, such as heavy-civil construction, asphalt and concrete paving, and site development and grading. In addition, it sells cement, merchandise, and other building materials and related services; and produces and supplies liquid asphalt for use in asphalt road construction. The company sells its construction materials to public and private-sector customers comprising federal, state, and municipal governments; industrial, commercial, and residential developers, as well as other private parties; and provides its contracting services to public-sector customers for the development and servicing of highways, local roads, bridges, and other public-infrastructure projects. Knife River Corporation was founded in 1917 and is headquartered in Bismarck, North Dakota."
+  "longBusinessSummary": "Knife River Corporation, together with its subsidiaries, provides aggregates-based construction materials and contracting services in the United States. The company operates through West, Mountain, Central, and Energy Services segments. It mines, processes, and sells construction aggregates, including crushed stone and sand, and gravel; and produces and sells asphalt and ready-mix concrete. The company also provides contracting services, such as heavy-civil construction, asphalt and concrete paving, and site development and grading. In addition, it sells cement, merchandise, and other building materials and related services; and produces and supplies liquid asphalt for use in asphalt road construction. The company sells its construction materials to public and private-sector customers comprising federal, state, and municipal governments; industrial, commercial, and residential developers, as well as other private parties; and provides its contracting services to public-sector customers for the development and servicing of highways, local roads, bridges, and other public-infrastructure projects. Knife River Corporation was founded in 1917 and is headquartered in Bismarck, North Dakota.",
+  "targetMeanPrice": 78.75,
+  "targetLowPrice": 54.0,
+  "targetHighPrice": 118.0,
+  "numberOfAnalystOpinions": 8,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.125,
+  "forwardPE": 15.366922,
+  "forwardEps": 3.24333,
+  "trailingEps": 2.46,
+  "earningsGrowth": -0.135,
+  "revenueGrowth": 0.126
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,38 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3650113000.0,
+    "official": 3650113000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1640939000.0,
+    "official": 1640940000.0,
+    "diff": 1e-06
+   },
+   "net_income": {
+    "yahoo": 157074000.0,
+    "official": 157074000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3146012000.0,
+    "official": 3146012000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:48:12+00:00",
  "years": [
   {
    "fy_end": "2021-12-31",
@@ -140,7 +181,9 @@
    "goodwill_and_intangibles": 287970000.0,
    "retained_earnings": 494661000.0,
    "total_debt": 638000.0,
-   "shares_out": 56566215.0
+   "shares_out": 56566215.0,
+   "normalized_ebitda": 306740000.0,
+   "normalized_income": 116220000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -174,7 +217,9 @@
    "goodwill_and_intangibles": 285299000.0,
    "retained_earnings": 665874000.0,
    "total_debt": 681659000.0,
-   "shares_out": 56578406.0
+   "shares_out": 56578406.0,
+   "normalized_ebitda": 427209000.0,
+   "normalized_income": 182872000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -208,7 +253,9 @@
    "goodwill_and_intangibles": 326639000.0,
    "retained_earnings": 867546000.0,
    "total_debt": 677386000.0,
-   "shares_out": 56612705.0
+   "shares_out": 56612705.0,
+   "normalized_ebitda": 463107000.0,
+   "normalized_income": 201678000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -242,7 +289,9 @@
    "goodwill_and_intangibles": 552348000.0,
    "retained_earnings": 1024620000.0,
    "total_debt": 1165538000.0,
-   "shares_out": 56664165.0
+   "shares_out": 56664165.0,
+   "normalized_ebitda": 488886000.0,
+   "normalized_income": 157074000.0
   }
  ]
 }

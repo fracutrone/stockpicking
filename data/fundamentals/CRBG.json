@@ -1,6 +1,6 @@
 {
  "ticker": "CRBG",
- "fetched_at": "2026-10-10T12:42:00+00:00",
+ "fetched_at": "2026-10-10T15:40:31+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 4800,
   "website": "https://www.corebridgefinancial.com",
-  "longBusinessSummary": "Corebridge Financial, Inc. provides retirement solutions and insurance products in the United States. The company operates through Individual Retirement, Group Retirement, Life Insurance, and Institutional Markets segments. The Individual Retirement segment provides fixed annuities, fixed index and registered index-linked, and variable annuities. The Group Retirement segment offers in-plan products and services comprising an open architecture recordkeeping platform that allows plan participants to allocate money to a variety of mutual fund options or a fixed interest account; flexible group variable and fixed annuity; and in-plan investment advisory services. It also provides out-of-plan products and services, including proprietary and non-proprietary annuities; investment advisory solutions, such as fiduciary, fee-based investments; and brokerage services for non-proprietary variable annuity, securities, life insurance, mutual funds, and 529 plans. The Life Insurance segment offers term, whole, index universal, and guaranteed universal life insurance products. The Institutional Markets segment provides defined contribution and bank-owned life insurance stable value wraps, structured settlement and pension risk transfer annuities, corporate and bank-owned life insurance, private placement variable universal life and annuities products, and guaranteed investment contracts. The company was formerly known as SAFG Retirement Services, Inc. Corebridge Financial, Inc. was incorporated in 1998 and is headquartered in Houston, Texas."
+  "longBusinessSummary": "Corebridge Financial, Inc. provides retirement solutions and insurance products in the United States. The company operates through Individual Retirement, Group Retirement, Life Insurance, and Institutional Markets segments. The Individual Retirement segment provides fixed annuities, fixed index and registered index-linked, and variable annuities. The Group Retirement segment offers in-plan products and services comprising an open architecture recordkeeping platform that allows plan participants to allocate money to a variety of mutual fund options or a fixed interest account; flexible group variable and fixed annuity; and in-plan investment advisory services. It also provides out-of-plan products and services, including proprietary and non-proprietary annuities; investment advisory solutions, such as fiduciary, fee-based investments; and brokerage services for non-proprietary variable annuity, securities, life insurance, mutual funds, and 529 plans. The Life Insurance segment offers term, whole, index universal, and guaranteed universal life insurance products. The Institutional Markets segment provides defined contribution and bank-owned life insurance stable value wraps, structured settlement and pension risk transfer annuities, corporate and bank-owned life insurance, private placement variable universal life and annuities products, and guaranteed investment contracts. The company was formerly known as SAFG Retirement Services, Inc. Corebridge Financial, Inc. was incorporated in 1998 and is headquartered in Houston, Texas.",
+  "targetMeanPrice": 40.08333,
+  "targetLowPrice": 36.0,
+  "targetHighPrice": 46.0,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.64286,
+  "forwardPE": 5.942928,
+  "forwardEps": 5.73623,
+  "trailingEps": 1.59,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.259
  },
  "governance": {
   "ceo": {
@@ -80,10 +91,41 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "ppe_net": "sec",
   "goodwill": "sec",
   "intangibles": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 413547000000.0,
+    "official": 413547000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 13201000000.0,
+    "official": 13201000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -366000000.0,
+    "official": -366000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 18019000000.0,
+    "official": 18481000000.0,
+    "diff": 0.024999
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:40:31+00:00",
  "years": [
   {
    "fy_end": "2020-12-31",
@@ -129,7 +171,8 @@
    "goodwill": 192000000.0,
    "intangibles": 18000000.0,
    "retained_earnings": 8859000000.0,
-   "total_debt": 8744000000.0
+   "total_debt": 8744000000.0,
+   "normalized_ebitda": -5337000000.0
   },
   {
    "fy_end": "2022-12-31",
@@ -154,7 +197,9 @@
    "intangibles": 12000000.0,
    "retained_earnings": 18207000000.0,
    "total_debt": 9368000000.0,
-   "shares_out": 645000000.0
+   "shares_out": 645000000.0,
+   "unusual_items": -1000000.0,
+   "normalized_income": 8159808000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -178,7 +223,9 @@
    "intangibles": 0.0,
    "retained_earnings": 17572000000.0,
    "total_debt": 250000000.0,
-   "shares_out": 621664326.0
+   "shares_out": 621664326.0,
+   "unusual_items": 676000000.0,
+   "normalized_income": 602205200.0
   },
   {
    "fy_end": "2024-12-31",
@@ -200,7 +247,9 @@
    "receivables": 713000000.0,
    "retained_earnings": 19257000000.0,
    "total_debt": 1101000000.0,
-   "shares_out": 561485033.0
+   "shares_out": 561485033.0,
+   "unusual_items": 245000000.0,
+   "normalized_income": 2037430000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -222,7 +271,9 @@
    "receivables": 648000000.0,
    "retained_earnings": 18373000000.0,
    "total_debt": 0,
-   "shares_out": 496373746.0
+   "shares_out": 496373746.0,
+   "unusual_items": 0.0,
+   "normalized_income": -366000000.0
   }
  ]
 }

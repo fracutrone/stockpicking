@@ -1,6 +1,6 @@
 {
  "ticker": "MEDP",
- "fetched_at": "2026-10-10T12:51:23+00:00",
+ "fetched_at": "2026-10-10T15:49:36+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 6500,
   "website": "https://www.medpace.com",
-  "longBusinessSummary": "Medpace Holdings, Inc. provides clinical research-based drug and medical device development services in North America, Europe, Asia, South America, Africa, and Australia. The company offers a suite of services supporting the clinical development process from Phase I to Phase IV in various therapeutic areas. It provides clinical development services to the pharmaceutical, biotechnology, and medical device industries; and development plan design, coordinated central laboratory, project management, regulatory affairs, clinical monitoring, data management and analysis, pharmacovigilance new drug application submissions, and post-marketing clinical support services. In addition, the company offers bio-analytical laboratory services, clinical human pharmacology, imaging services, and electrocardiography reading support for clinical trials. Medpace Holdings, Inc. was founded in 1992 and is based in Cincinnati, Ohio."
+  "longBusinessSummary": "Medpace Holdings, Inc. provides clinical research-based drug and medical device development services in North America, Europe, Asia, South America, Africa, and Australia. The company offers a suite of services supporting the clinical development process from Phase I to Phase IV in various therapeutic areas. It provides clinical development services to the pharmaceutical, biotechnology, and medical device industries; and development plan design, coordinated central laboratory, project management, regulatory affairs, clinical monitoring, data management and analysis, pharmacovigilance new drug application submissions, and post-marketing clinical support services. In addition, the company offers bio-analytical laboratory services, clinical human pharmacology, imaging services, and electrocardiography reading support for clinical trials. Medpace Holdings, Inc. was founded in 1992 and is based in Cincinnati, Ohio.",
+  "targetMeanPrice": 595.9231,
+  "targetLowPrice": 370.0,
+  "targetHighPrice": 700.0,
+  "numberOfAnalystOpinions": 13,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.92857,
+  "forwardPE": 31.687248,
+  "forwardEps": 19.31534,
+  "trailingEps": 17.03,
+  "earningsGrowth": 0.371,
+  "revenueGrowth": 0.172
  },
  "governance": {
   "ceo": {
@@ -82,8 +93,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 1975472000.0,
+    "official": 1975472000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 459071000.0,
+    "official": 459071000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 451123000.0,
+    "official": 451123000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2530234000.0,
+    "official": 2530234000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:49:36+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -187,7 +229,10 @@
    "goodwill_and_intangibles": 700404000.0,
    "retained_earnings": -359827000.0,
    "total_debt": 188867000.0,
-   "shares_out": 31091694.0
+   "shares_out": 31091694.0,
+   "unusual_items": 3859000.0,
+   "normalized_ebitda": 297179000.0,
+   "normalized_income": 242022247.0
   },
   {
    "fy_end": "2023-12-31",
@@ -219,7 +264,10 @@
    "goodwill_and_intangibles": 698205000.0,
    "retained_earnings": -221645000.0,
    "total_debt": 142122000.0,
-   "shares_out": 30752292.0
+   "shares_out": 30752292.0,
+   "unusual_items": -1929000.0,
+   "normalized_ebitda": 365082000.0,
+   "normalized_income": 284434218.0
   },
   {
    "fy_end": "2024-12-31",
@@ -251,7 +299,10 @@
    "goodwill_and_intangibles": 696762000.0,
    "retained_earnings": 8167000.0,
    "total_debt": 126234000.0,
-   "shares_out": 30630799.0
+   "shares_out": 30630799.0,
+   "unusual_items": -496000.0,
+   "normalized_ebitda": 476617000.0,
+   "normalized_income": 404807600.0
   },
   {
    "fy_end": "2025-12-31",
@@ -283,7 +334,10 @@
    "goodwill_and_intangibles": 695816000.0,
    "retained_earnings": -459981000.0,
    "total_debt": 113643000.0,
-   "shares_out": 28370780.0
+   "shares_out": 28370780.0,
+   "unusual_items": -7731000.0,
+   "normalized_ebitda": 570790000.0,
+   "normalized_income": 457555192.0
   }
  ]
 }

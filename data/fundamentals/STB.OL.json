@@ -1,6 +1,6 @@
 {
  "ticker": "STB.OL",
- "fetched_at": "2026-10-10T12:20:34+00:00",
+ "fetched_at": "2026-10-10T15:22:15+00:00",
  "region": "Europa",
  "statement_currency": "NOK",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "OSL",
   "fullTimeEmployees": 2490,
   "website": "https://www.storebrand.no",
-  "longBusinessSummary": "Storebrand ASA provides insurance products and services in Norway, the United States, Germany, Sweden, the United Kingdom, and internationally. It operates through four segments: Savings, Insurance, Guaranteed Pensions, and Other. The Savings segment offers retirement savings, defined contribution pensions, asset management, and retail banking products. The Insurance segment provides personal insurance, non-life insurance, personal risk, and pension-related insurance products. The Guaranteed Pensions segment offers long-term pension savings products, such as defined contribution pensions, paid-up policies, and individual capital and pension insurance products. The Other segment provides life insurance products. The company serves private individuals, businesses, public enterprises, and corporate and retail markets. Storebrand ASA was founded in 1767 and is headquartered in Lysaker, Norway."
+  "longBusinessSummary": "Storebrand ASA provides insurance products and services in Norway, the United States, Germany, Sweden, the United Kingdom, and internationally. It operates through four segments: Savings, Insurance, Guaranteed Pensions, and Other. The Savings segment offers retirement savings, defined contribution pensions, asset management, and retail banking products. The Insurance segment provides personal insurance, non-life insurance, personal risk, and pension-related insurance products. The Guaranteed Pensions segment offers long-term pension savings products, such as defined contribution pensions, paid-up policies, and individual capital and pension insurance products. The Other segment provides life insurance products. The company serves private individuals, businesses, public enterprises, and corporate and retail markets. Storebrand ASA was founded in 1767 and is headquartered in Lysaker, Norway.",
+  "targetMeanPrice": 205.8,
+  "targetLowPrice": 143.0,
+  "targetHighPrice": 245.0,
+  "numberOfAnalystOpinions": 10,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.9,
+  "forwardPE": 13.977025,
+  "forwardEps": 13.44349,
+  "trailingEps": 11.3,
+  "earningsGrowth": 0.211,
+  "revenueGrowth": 1.279
  },
  "governance": {
   "ceo": {
@@ -59,8 +70,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF NO",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 905448000000.0,
+    "official": 996811000000.0,
+    "diff": 0.091655
+   },
+   "equity": {
+    "yahoo": 31712000000.0,
+    "official": 32113000000.0,
+    "diff": 0.012487
+   },
+   "net_income": {
+    "yahoo": 5523000000.0,
+    "official": 5494000000.0,
+    "diff": 0.005278
+   },
+   "revenue": {
+    "yahoo": 95257000000.0,
+    "official": 12714000000.0,
+    "diff": 6.492292
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T15:22:15+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -83,7 +125,9 @@
    "goodwill_and_intangibles": 5990000000.0,
    "retained_earnings": 16029000000.0,
    "total_debt": 43779000000.0,
-   "shares_out": 464210664.0
+   "shares_out": 464210664.0,
+   "unusual_items": 43000000.0,
+   "normalized_income": 2376000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -106,7 +150,8 @@
    "goodwill_and_intangibles": 6055000000.0,
    "retained_earnings": 16045000000.0,
    "total_debt": 52439000000.0,
-   "shares_out": 447320260.0
+   "shares_out": 447320260.0,
+   "normalized_income": 3378000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -129,7 +174,8 @@
    "goodwill_and_intangibles": 6721000000.0,
    "retained_earnings": 18347000000.0,
    "total_debt": 53891000000.0,
-   "shares_out": 433984411.0
+   "shares_out": 433984411.0,
+   "normalized_income": 5523000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -151,7 +197,8 @@
    "intangibles": 2223000000.0,
    "goodwill_and_intangibles": 6285000000.0,
    "total_debt": 62534000000.0,
-   "shares_out": 423925900.0
+   "shares_out": 423925900.0,
+   "normalized_income": 5046000000.0
   }
  ]
 }

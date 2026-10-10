@@ -1,6 +1,6 @@
 {
  "ticker": "NFG",
- "fetched_at": "2026-10-10T12:52:50+00:00",
+ "fetched_at": "2026-10-10T15:50:52+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 2322,
   "website": "https://www.nationalfuel.com",
-  "longBusinessSummary": "National Fuel Gas Company operates as a diversified energy company. It operates through Integrated Upstream and Gathering, Pipeline and Storage, and Utility segments. The Integrated Upstream and Gathering segment explores for, develops, and produces natural gas and oil. It also builds, owns, and operates gathering facilities in the Appalachian region, as well as provides gathering services to Seneca. The Pipeline and Storage segment provides interstate natural gas transportation services through an integrated gas pipeline system in Pennsylvania and New York; and storage services through its underground natural gas storage fields. This segment also transports and stores natural gas for National Fuel Gas Distribution Corporation, as well as for utilities, industrial companies, and power producers in New York State. The Utility segment sells natural gas to retail customers; and provides natural gas utility services to various customers in Buffalo, Niagara Falls, and Jamestown, New York, as well as in Erie and Sharon, Pennsylvania. National Fuel Gas Company was incorporated in 1902 and is headquartered in Williamsville, New York."
+  "longBusinessSummary": "National Fuel Gas Company operates as a diversified energy company. It operates through Integrated Upstream and Gathering, Pipeline and Storage, and Utility segments. The Integrated Upstream and Gathering segment explores for, develops, and produces natural gas and oil. It also builds, owns, and operates gathering facilities in the Appalachian region, as well as provides gathering services to Seneca. The Pipeline and Storage segment provides interstate natural gas transportation services through an integrated gas pipeline system in Pennsylvania and New York; and storage services through its underground natural gas storage fields. This segment also transports and stores natural gas for National Fuel Gas Distribution Corporation, as well as for utilities, industrial companies, and power producers in New York State. The Utility segment sells natural gas to retail customers; and provides natural gas utility services to various customers in Buffalo, Niagara Falls, and Jamestown, New York, as well as in Erie and Sharon, Pennsylvania. National Fuel Gas Company was incorporated in 1902 and is headquartered in Williamsville, New York.",
+  "targetMeanPrice": 93.0,
+  "targetLowPrice": 91.0,
+  "targetHighPrice": 95.0,
+  "numberOfAnalystOpinions": 2,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": 10.530121,
+  "forwardEps": 7.47,
+  "trailingEps": 7.18,
+  "earningsGrowth": -0.116,
+  "revenueGrowth": 0.011
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "intangibles": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-09-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 8719104000.0,
+    "official": 8719104000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3094604000.0,
+    "official": 3094604000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 518504000.0,
+    "official": 518504000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2277541000.0,
+    "official": 2277541000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:50:52+00:00",
  "years": [
   {
    "fy_end": "2019-09-30",
@@ -185,7 +227,10 @@
    "goodwill_and_intangibles": 5476000.0,
    "retained_earnings": 1587085000.0,
    "total_debt": 2692409000.0,
-   "shares_out": 91478064.0
+   "shares_out": 91478064.0,
+   "unusual_items": 12736000.0,
+   "normalized_ebitda": 1170061000.0,
+   "normalized_income": 555460912.904124
   },
   {
    "fy_end": "2023-09-30",
@@ -217,7 +262,10 @@
    "goodwill_and_intangibles": 5476000.0,
    "retained_earnings": 1885856000.0,
    "total_debt": 2671985000.0,
-   "shares_out": 91819405.0
+   "shares_out": 91819405.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 1182858000.0,
+   "normalized_income": 476866000.0
   },
   {
    "fy_end": "2024-09-30",
@@ -249,7 +297,10 @@
    "goodwill_and_intangibles": 5476000.0,
    "retained_earnings": 1727326000.0,
    "total_debt": 2778943000.0,
-   "shares_out": 91005993.0
+   "shares_out": 91005993.0,
+   "unusual_items": -519129000.0,
+   "normalized_ebitda": 1202105000.0,
+   "normalized_income": 538681370.603404
   },
   {
    "fy_end": "2025-09-30",
@@ -281,7 +332,10 @@
    "goodwill_and_intangibles": 5476000.0,
    "retained_earnings": 2012529000.0,
    "total_debt": 2833061000.0,
-   "shares_out": 90379095.0
+   "shares_out": 90379095.0,
+   "unusual_items": -141802000.0,
+   "normalized_ebitda": 1448283000.0,
+   "normalized_income": 624439575.824901
   }
  ]
 }

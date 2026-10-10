@@ -1,6 +1,6 @@
 {
  "ticker": "HIMS",
- "fetched_at": "2026-10-10T12:47:41+00:00",
+ "fetched_at": "2026-10-10T15:46:04+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 2442,
   "website": "https://www.hims.com",
-  "longBusinessSummary": "Hims & Hers Health, Inc. operates as a consumer-first health and wellness platform that connects consumers to licensed healthcare professionals in the United States, the United Kingdom, Canada, Germany, the Republic of Ireland, France, Spain, Australia, and internationally. The company offers a range of curated prescription and non-prescription health and wellness products and services available to purchase on its websites and mobile application directly by customers. It also provides personalized health and wellness products; over-the-counter drug and device products, cosmetics, and supplement products primarily focusing on general wellness, skincare, sexual health and wellness, and hair care under the Hims & Hers brand name; and laboratory testing services to measure a set of biomarkers. Additionally, it offers medical consultation, post-consultation support services, and delivery of laboratory testing results services. Further, the company provides treatments and products for various chronic conditions related to hormone health, weight loss, dermatology, and mental health. The company offers its products through retail partnerships, in stores, and online. The company was formerly known as Hims, Inc. and changed its name to Hims & Hers Health, Inc. in January 2021. The company was founded in 2017 and is based in San Francisco, California."
+  "longBusinessSummary": "Hims & Hers Health, Inc. operates as a consumer-first health and wellness platform that connects consumers to licensed healthcare professionals in the United States, the United Kingdom, Canada, Germany, the Republic of Ireland, France, Spain, Australia, and internationally. The company offers a range of curated prescription and non-prescription health and wellness products and services available to purchase on its websites and mobile application directly by customers. It also provides personalized health and wellness products; over-the-counter drug and device products, cosmetics, and supplement products primarily focusing on general wellness, skincare, sexual health and wellness, and hair care under the Hims & Hers brand name; and laboratory testing services to measure a set of biomarkers. Additionally, it offers medical consultation, post-consultation support services, and delivery of laboratory testing results services. Further, the company provides treatments and products for various chronic conditions related to hormone health, weight loss, dermatology, and mental health. The company offers its products through retail partnerships, in stores, and online. The company was formerly known as Hims, Inc. and changed its name to Hims & Hers Health, Inc. in January 2021. The company was founded in 2017 and is based in San Francisco, California.",
+  "targetMeanPrice": 31.15385,
+  "targetLowPrice": 23.0,
+  "targetHighPrice": 42.0,
+  "numberOfAnalystOpinions": 13,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.73333,
+  "forwardPE": 41.93907,
+  "forwardEps": 0.73726,
+  "trailingEps": -0.64,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.382
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 2154705000.0,
+    "official": 2154705000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 540928000.0,
+    "official": 540928000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 128365000.0,
+    "official": 128365000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2347637000.0,
+    "official": 2347637000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:46:04+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -158,7 +200,8 @@
    "inventory": 13558000.0,
    "goodwill": 110881000.0,
    "intangibles": 25890000.0,
-   "retained_earnings": -278951000.0
+   "retained_earnings": -278951000.0,
+   "unusual_items": 3802000.0
   },
   {
    "fy_end": "2022-12-31",
@@ -191,7 +234,10 @@
    "goodwill_and_intangibles": 132722000.0,
    "retained_earnings": -344629000.0,
    "total_debt": 5307000.0,
-   "shares_out": 208429312.0
+   "shares_out": 208429312.0,
+   "unusual_items": 70000.0,
+   "normalized_ebitda": -61223000.0,
+   "normalized_income": -65678000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -224,7 +270,9 @@
    "goodwill_and_intangibles": 129455000.0,
    "retained_earnings": -368175000.0,
    "total_debt": 9948000.0,
-   "shares_out": 213481743.0
+   "shares_out": 213481743.0,
+   "normalized_ebitda": -19938000.0,
+   "normalized_income": -23546000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -257,7 +305,9 @@
    "goodwill_and_intangibles": 156138000.0,
    "retained_earnings": -242137000.0,
    "total_debt": 11345000.0,
-   "shares_out": 220837209.0
+   "shares_out": 220837209.0,
+   "normalized_ebitda": 78991000.0,
+   "normalized_income": 126038000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -290,7 +340,10 @@
    "goodwill_and_intangibles": 474441000.0,
    "retained_earnings": -113772000.0,
    "total_debt": 1120590000.0,
-   "shares_out": 227245521.0
+   "shares_out": 227245521.0,
+   "unusual_items": 4437000.0,
+   "normalized_ebitda": 155678000.0,
+   "normalized_income": 124859770.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "TKO",
- "fetched_at": "2026-10-10T12:59:44+00:00",
+ "fetched_at": "2026-10-10T15:57:24+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 4000,
   "website": "https://tkogrp.com",
-  "longBusinessSummary": "TKO Group Holdings, Inc. operates as a sports and entertainment company. The company operates through three segments: UFC, WWE and IMG. The UFC segment distributes programming content; ticket sales and site fees associated with the business's global live events; partnerships and marketing; and consumer products licensing agreements of UFC-branded products. The WWE segment consists of media rights fees associated with the distribution of its programming content; ticket sales and site fees associated with the business's global live events; partnerships and marketing; and consumer products licensing agreements of WWE-branded products. The IMG segment specializing in media rights management and sales, multi-channel content production and distribution, brand partnerships, strategic consulting, digital services, and event management. This segment also offers hospitality business, offering ticketing, curated guest experiences, live event production and travel management services. It is also involved in the merchandising of video games, apparel, equipment, trading cards, memorabilia, digital goods, and toys. In addition, the company engages in the sponsorships and advertising business, which offers sale of in-venue and in-broadcast advertising assets, content product integration, and digital impressions. The company was incorporated in 2023 and is based in New York, New York. TKO Group Holdings, Inc. is a subsidiary of WME Group, Inc."
+  "longBusinessSummary": "TKO Group Holdings, Inc. operates as a sports and entertainment company. The company operates through three segments: UFC, WWE and IMG. The UFC segment distributes programming content; ticket sales and site fees associated with the business's global live events; partnerships and marketing; and consumer products licensing agreements of UFC-branded products. The WWE segment consists of media rights fees associated with the distribution of its programming content; ticket sales and site fees associated with the business's global live events; partnerships and marketing; and consumer products licensing agreements of WWE-branded products. The IMG segment specializing in media rights management and sales, multi-channel content production and distribution, brand partnerships, strategic consulting, digital services, and event management. This segment also offers hospitality business, offering ticketing, curated guest experiences, live event production and travel management services. It is also involved in the merchandising of video games, apparel, equipment, trading cards, memorabilia, digital goods, and toys. In addition, the company engages in the sponsorships and advertising business, which offers sale of in-venue and in-broadcast advertising assets, content product integration, and digital impressions. The company was incorporated in 2023 and is based in New York, New York. TKO Group Holdings, Inc. is a subsidiary of WME Group, Inc.",
+  "targetMeanPrice": 231.63158,
+  "targetLowPrice": 185.0,
+  "targetHighPrice": 250.0,
+  "numberOfAnalystOpinions": 19,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.5,
+  "forwardPE": 38.026085,
+  "forwardEps": 4.68126,
+  "trailingEps": 2.86,
+  "earningsGrowth": 0.144,
+  "revenueGrowth": 0.182
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 15495821000.0,
+    "official": 15495821000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3737381000.0,
+    "official": 3737381000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 195403000.0,
+    "official": 195403000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 4735151000.0,
+    "official": 4735151000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:57:24+00:00",
  "years": [
   {
    "fy_end": "2021-12-31",
@@ -132,7 +174,9 @@
    "goodwill_and_intangibles": 3078404000.0,
    "retained_earnings": 0.0,
    "total_debt": 2758998000.0,
-   "shares_out": 83162446.0
+   "shares_out": 83162446.0,
+   "normalized_ebitda": 603148000.0,
+   "normalized_income": 387275000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -165,7 +209,10 @@
    "goodwill_and_intangibles": 11230148000.0,
    "retained_earnings": -135227000.0,
    "total_debt": 2736315000.0,
-   "shares_out": 82292902.0
+   "shares_out": 82292902.0,
+   "unusual_items": -21529000.0,
+   "normalized_ebitda": 667140000.0,
+   "normalized_income": 240725063.216016
   },
   {
    "fy_end": "2024-12-31",
@@ -199,7 +246,10 @@
    "goodwill_and_intangibles": 12091896000.0,
    "retained_earnings": -291728000.0,
    "total_debt": 2762282000.0,
-   "shares_out": 81203161.0
+   "shares_out": 81203161.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 511034000.0,
+   "normalized_income": 9408000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -233,7 +283,10 @@
    "goodwill_and_intangibles": 11772748000.0,
    "retained_earnings": -797314000.0,
    "total_debt": 3762124000.0,
-   "shares_out": 77767155.0
+   "shares_out": 77767155.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 1320595000.0,
+   "normalized_income": 195403000.0
   }
  ]
 }

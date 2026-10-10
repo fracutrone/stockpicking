@@ -1,6 +1,6 @@
 {
  "ticker": "NXT.L",
- "fetched_at": "2026-10-10T12:12:09+00:00",
+ "fetched_at": "2026-10-10T15:09:32+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 31589,
   "website": "https://www.nextplc.co.uk",
-  "longBusinessSummary": "NEXT plc engages in the retail of clothing, homeware, and beauty products in the United Kingdom, rest of Europe, the Middle East, Asia, and internationally. It operates through \nRetail Stores, Online (UK), Online (International), NEXT Finance, Total Platform, and Other Business Activities segments. The company offers NEXT branded products; and women's, men's, children's fashion clothing, and accessories; and third-party branded products. It also provides consumer credit; services to third-party brands, including websites, marketing, warehousing, distribution networks, and contact centers; and property management, which holds and leases properties. The company operates through retail stores, online retail platforms, and franchise stores. The company was formerly known as J Hepworth & Son and changed its name to NEXT plc in 1986. NEXT plc was founded in 1864 and is headquartered in Enderby, the United Kingdom."
+  "longBusinessSummary": "NEXT plc engages in the retail of clothing, homeware, and beauty products in the United Kingdom, rest of Europe, the Middle East, Asia, and internationally. It operates through \nRetail Stores, Online (UK), Online (International), NEXT Finance, Total Platform, and Other Business Activities segments. The company offers NEXT branded products; and women's, men's, children's fashion clothing, and accessories; and third-party branded products. It also provides consumer credit; services to third-party brands, including websites, marketing, warehousing, distribution networks, and contact centers; and property management, which holds and leases properties. The company operates through retail stores, online retail platforms, and franchise stores. The company was formerly known as J Hepworth & Son and changed its name to NEXT plc in 1986. NEXT plc was founded in 1864 and is headquartered in Enderby, the United Kingdom.",
+  "targetMeanPrice": 16294.737,
+  "targetLowPrice": 13900.0,
+  "targetHighPrice": 18700.0,
+  "numberOfAnalystOpinions": 19,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": 16.675722,
+  "forwardEps": 8.81521,
+  "trailingEps": 7.86,
+  "earningsGrowth": 0.128,
+  "revenueGrowth": 0.096
  },
  "governance": {
   "ceo": {
@@ -81,8 +92,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2026-01-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 4915300000.0,
+    "official": 4915300000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1662500000.0,
+    "official": 1780500000.0,
+    "diff": 0.066274
+   },
+   "net_income": {
+    "yahoo": 888500000.0,
+    "official": 888500000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 6901300000.0,
+    "official": 6901300000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2026-01-31"
+ },
+ "info_at": "2026-10-10T15:09:32+00:00",
  "years": [
   {
    "fy_end": "2023-01-31",
@@ -117,7 +160,10 @@
    "goodwill_and_intangibles": 137100000.0,
    "retained_earnings": 2984800000.0,
    "total_debt": 1916300000.0,
-   "shares_out": 122794352.0
+   "shares_out": 122794352.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 1113000000.0,
+   "normalized_income": 711700000.0
   },
   {
    "fy_end": "2024-01-31",
@@ -152,7 +198,10 @@
    "goodwill_and_intangibles": 757200000.0,
    "retained_earnings": 3271300000.0,
    "total_debt": 1916700000.0,
-   "shares_out": 121260630.0
+   "shares_out": 121260630.0,
+   "unusual_items": 120900000.0,
+   "normalized_ebitda": 1228400000.0,
+   "normalized_income": 707024896.633196
   },
   {
    "fy_end": "2025-01-31",
@@ -186,7 +235,10 @@
    "goodwill_and_intangibles": 735400000.0,
    "retained_earnings": 3419500000.0,
    "total_debt": 1868800000.0,
-   "shares_out": 117371020.0
+   "shares_out": 117371020.0,
+   "unusual_items": -24100000.0,
+   "normalized_ebitda": 1418700000.0,
+   "normalized_income": 754247031.408308
   },
   {
    "fy_end": "2026-01-31",
@@ -220,7 +272,10 @@
    "goodwill_and_intangibles": 713700000.0,
    "retained_earnings": 3494000000.0,
    "total_debt": 1808700000.0,
-   "shares_out": 116931852.0
+   "shares_out": 116931852.0,
+   "unusual_items": -6300000.0,
+   "normalized_ebitda": 1630800000.0,
+   "normalized_income": 893243753.14439
   }
  ]
 }

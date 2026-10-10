@@ -1,6 +1,6 @@
 {
  "ticker": "PAG.L",
- "fetched_at": "2026-10-10T12:13:17+00:00",
+ "fetched_at": "2026-10-10T15:10:48+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 1413,
   "website": "https://www.paragonbankinggroup.co.uk",
-  "longBusinessSummary": "Paragon Banking Group PLC provides financial products and services in the United Kingdom. It operates in two segments, Mortgage Lending and Commercial Lending. The Mortgage Lending segment offers buy-to-let mortgages, and owner-occupied first and second charge lending. The Commercial Lending segment comprises equipment leasing, development finance, structured lending, and other offerings for SME customers, as well as motor finance business. This segment also provides hire purchase, business loans, and operating and finance leasing. In addition, it offers a range of savings products; and deposits taking, residential mortgages, loan and vehicle finance, surveyors and property consulting, contract hire, asset administration, asset and development finance, consumer loan finance, and asset investment services, as well as acts as an asset finance broker. The company was formerly known as The Paragon Group of Companies PLC and changed its name to Paragon Banking Group PLC in September 2017. Paragon Banking Group PLC was founded in 1985 and is headquartered in Solihull, the United Kingdom."
+  "longBusinessSummary": "Paragon Banking Group PLC provides financial products and services in the United Kingdom. It operates in two segments, Mortgage Lending and Commercial Lending. The Mortgage Lending segment offers buy-to-let mortgages, and owner-occupied first and second charge lending. The Commercial Lending segment comprises equipment leasing, development finance, structured lending, and other offerings for SME customers, as well as motor finance business. This segment also provides hire purchase, business loans, and operating and finance leasing. In addition, it offers a range of savings products; and deposits taking, residential mortgages, loan and vehicle finance, surveyors and property consulting, contract hire, asset administration, asset and development finance, consumer loan finance, and asset investment services, as well as acts as an asset finance broker. The company was formerly known as The Paragon Group of Companies PLC and changed its name to Paragon Banking Group PLC in September 2017. Paragon Banking Group PLC was founded in 1985 and is headquartered in Solihull, the United Kingdom.",
+  "targetMeanPrice": 1054.167,
+  "targetLowPrice": 846.0,
+  "targetHighPrice": 1165.0,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.41667,
+  "forwardPE": 5.825452,
+  "forwardEps": 1.20334,
+  "trailingEps": 0.9,
+  "earningsGrowth": 0.044,
+  "revenueGrowth": 0.007
  },
  "governance": {
   "ceo": {
@@ -63,8 +74,34 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-09-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 19930000000.0,
+    "official": 19930000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1420200000.0,
+    "official": 1420200000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 180300000.0,
+    "official": 180300000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-09-30"
+ },
+ "info_at": "2026-10-10T15:10:48+00:00",
  "years": [
   {
    "fy_end": "2022-09-30",
@@ -91,7 +128,9 @@
    "goodwill_and_intangibles": 170200000.0,
    "retained_earnings": 1151200000.0,
    "total_debt": 1266200000.0,
-   "shares_out": 233889945.0
+   "shares_out": 233889945.0,
+   "unusual_items": 0.0,
+   "normalized_income": 313600000.0
   },
   {
    "fy_end": "2023-09-30",
@@ -118,7 +157,9 @@
    "goodwill_and_intangibles": 168200000.0,
    "retained_earnings": 1243400000.0,
    "total_debt": 295300000.0,
-   "shares_out": 214616921.0
+   "shares_out": 214616921.0,
+   "unusual_items": -4600000.0,
+   "normalized_income": 157442000.0
   },
   {
    "fy_end": "2024-09-30",
@@ -145,7 +186,9 @@
    "goodwill_and_intangibles": 171500000.0,
    "retained_earnings": 1242100000.0,
    "total_debt": 158200000.0,
-   "shares_out": 204298566.0
+   "shares_out": 204298566.0,
+   "unusual_items": 0.0,
+   "normalized_income": 186000000.0
   },
   {
    "fy_end": "2025-09-30",
@@ -172,7 +215,8 @@
    "goodwill_and_intangibles": 172100000.0,
    "retained_earnings": 1231200000.0,
    "total_debt": 656600000.0,
-   "shares_out": 190553288.0
+   "shares_out": 190553288.0,
+   "normalized_income": 180300000.0
   }
  ]
 }

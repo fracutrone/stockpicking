@@ -1,6 +1,6 @@
 {
  "ticker": "IVZ",
- "fetched_at": "2026-10-10T12:49:14+00:00",
+ "fetched_at": "2026-10-10T15:47:33+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 7405,
   "website": "https://www.invesco.com/corporate/en/home.html",
-  "longBusinessSummary": "Invesco Ltd. is a publicly owned investment manager. The firm provides its services to retail clients, institutional clients, high-net worth clients, public entities, corporations, unions, non-profit organizations, endowments, foundations, pension funds, financial institutions, and sovereign wealth funds. It manages separate client-focused equity and fixed income portfolios. The firm also launches equity, commodity, fixed income, multi-asset, and balanced mutual funds for its clients. It launches equity, fixed income, multi-asset, and balanced exchange-traded funds. The firm also launches and manages private funds. It invests in the public equity and fixed income markets across the globe. The firm prefers to invest between $5 million and $15 million in companies. The firm also invests in alternative markets, such as commodities and currencies. For the equity portion of its portfolio, it invests in growth and value stocks of large-cap, mid-cap, and small-cap companies. For the fixed income portion of its portfolio, the firm invests in convertibles, government bonds, municipal bonds, treasury securities, and cash. It also invests in short term and intermediate term bonds, investment grade and high yield bonds, taxable and tax-free bonds, senior secured loans, and structured securities such as asset-backed securities, mortgage-backed securities, and commercial mortgage-backed securities. The firm employs absolute return, global macro, and long/short strategies. It employs quantitative analysis to make its investments. The firm was formerly known as Invesco Plc, AMVESCAP plc, Amvesco plc, Invesco PLC, Invesco MIM, and H. Lotery & Co. Ltd. Invesco Ltd. was founded in 1935 and is based in Atlanta, Georgia with an additional office in Asia, Europe, Africa and North America."
+  "longBusinessSummary": "Invesco Ltd. is a publicly owned investment manager. The firm provides its services to retail clients, institutional clients, high-net worth clients, public entities, corporations, unions, non-profit organizations, endowments, foundations, pension funds, financial institutions, and sovereign wealth funds. It manages separate client-focused equity and fixed income portfolios. The firm also launches equity, commodity, fixed income, multi-asset, and balanced mutual funds for its clients. It launches equity, fixed income, multi-asset, and balanced exchange-traded funds. The firm also launches and manages private funds. It invests in the public equity and fixed income markets across the globe. The firm prefers to invest between $5 million and $15 million in companies. The firm also invests in alternative markets, such as commodities and currencies. For the equity portion of its portfolio, it invests in growth and value stocks of large-cap, mid-cap, and small-cap companies. For the fixed income portion of its portfolio, the firm invests in convertibles, government bonds, municipal bonds, treasury securities, and cash. It also invests in short term and intermediate term bonds, investment grade and high yield bonds, taxable and tax-free bonds, senior secured loans, and structured securities such as asset-backed securities, mortgage-backed securities, and commercial mortgage-backed securities. The firm employs absolute return, global macro, and long/short strategies. It employs quantitative analysis to make its investments. The firm was formerly known as Invesco Plc, AMVESCAP plc, Amvesco plc, Invesco PLC, Invesco MIM, and H. Lotery & Co. Ltd. Invesco Ltd. was founded in 1935 and is based in Atlanta, Georgia with an additional office in Asia, Europe, Africa and North America.",
+  "targetMeanPrice": 34.60714,
+  "targetLowPrice": 29.5,
+  "targetHighPrice": 41.0,
+  "numberOfAnalystOpinions": 14,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.33333,
+  "forwardPE": 9.006974,
+  "forwardEps": 3.27635,
+  "trailingEps": -0.68,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.205
  },
  "governance": {
   "ceo": {
@@ -83,9 +94,40 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "cash": "sec",
   "st_investments": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 27094000000.0,
+    "official": 27094000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 12231000000.0,
+    "official": 12231000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -281700000.0,
+    "official": -174800000.0,
+    "diff": 0.611556
+   },
+   "revenue": {
+    "yahoo": 6377100000.0,
+    "official": 6377100000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:47:33+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -184,7 +226,10 @@
    "goodwill_and_intangibles": 15698900000.0,
    "retained_earnings": 7518300000.0,
    "total_debt": 1487600000.0,
-   "shares_out": 454800000.0
+   "shares_out": 454800000.0,
+   "unusual_items": -21200000.0,
+   "normalized_ebitda": 1549400000.0,
+   "normalized_income": 936430400.0
   },
   {
    "fy_end": "2023-12-31",
@@ -217,7 +262,10 @@
    "goodwill_and_intangibles": 14539600000.0,
    "retained_earnings": 6826700000.0,
    "total_debt": 1489500000.0,
-   "shares_out": 449500000.0
+   "shares_out": 449500000.0,
+   "unusual_items": -41600000.0,
+   "normalized_ebitda": 1173000000.0,
+   "normalized_income": -67488800.0
   },
   {
    "fy_end": "2024-12-31",
@@ -250,7 +298,10 @@
    "goodwill_and_intangibles": 14067400000.0,
    "retained_earnings": 6990400000.0,
    "total_debt": 890600000.0,
-   "shares_out": 448000000.0
+   "shares_out": 448000000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 1242900000.0,
+   "normalized_income": 774800000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -283,7 +334,10 @@
    "goodwill_and_intangibles": 12404400000.0,
    "retained_earnings": 5886800000.0,
    "total_debt": 1825100000.0,
-   "shares_out": 444000000.0
+   "shares_out": 444000000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 1535500000.0,
+   "normalized_income": -281700000.0
   }
  ]
 }

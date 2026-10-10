@@ -1,6 +1,6 @@
 {
  "ticker": "AXON",
- "fetched_at": "2026-10-10T12:38:24+00:00",
+ "fetched_at": "2026-10-10T15:35:23+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 5100,
   "website": "https://www.axon.com",
-  "longBusinessSummary": "Axon Enterprise, Inc. provides public safety technology solutions in the United States and internationally. The company operates in two segments, Software and Services, and Connected Devices. The Software and Services segment develops, manufactures, and sells cloud-based software-as-a-service solutions to capture, store, manage, share, and analyze video and other digital evidence. This segment also offers Axon Evidence, Draft One, Axon Records, Axon Standards, Axon Fusus, Axon Assistant, and others. The Connected Devices segment engages in the development, manufacture, and sale of integrated hardware solutions, such as conducted energy devices under the TASER brand, body cameras, fixed and in-car cameras, drone and counter-drone technologies, accessories, extended warranties, and related hardware products, as well as virtual reality training hardware. The company serves first responders across international, federal, state, and local governments, international governmental entities, commercial enterprises, and consumers through direct sales, distribution partners, and third-party resellers. The company was formerly known as TASER International, Inc. and changed its name to Axon Enterprise, Inc. in April 2017. Axon Enterprise, Inc. was incorporated in 1993 and is headquartered in Scottsdale, Arizona."
+  "longBusinessSummary": "Axon Enterprise, Inc. provides public safety technology solutions in the United States and internationally. The company operates in two segments, Software and Services, and Connected Devices. The Software and Services segment develops, manufactures, and sells cloud-based software-as-a-service solutions to capture, store, manage, share, and analyze video and other digital evidence. This segment also offers Axon Evidence, Draft One, Axon Records, Axon Standards, Axon Fusus, Axon Assistant, and others. The Connected Devices segment engages in the development, manufacture, and sale of integrated hardware solutions, such as conducted energy devices under the TASER brand, body cameras, fixed and in-car cameras, drone and counter-drone technologies, accessories, extended warranties, and related hardware products, as well as virtual reality training hardware. The company serves first responders across international, federal, state, and local governments, international governmental entities, commercial enterprises, and consumers through direct sales, distribution partners, and third-party resellers. The company was formerly known as TASER International, Inc. and changed its name to Axon Enterprise, Inc. in April 2017. Axon Enterprise, Inc. was incorporated in 1993 and is headquartered in Scottsdale, Arizona.",
+  "targetMeanPrice": 704.1053,
+  "targetLowPrice": 440.0,
+  "targetHighPrice": 830.0,
+  "numberOfAnalystOpinions": 19,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.66667,
+  "forwardPE": 40.10759,
+  "forwardEps": 10.54389,
+  "trailingEps": 2.41,
+  "earningsGrowth": -0.182,
+  "revenueGrowth": 0.353
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 7000313000.0,
+    "official": 7000313000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3242658000.0,
+    "official": 3242658000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 124656000.0,
+    "official": 124656000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2779536000.0,
+    "official": 2779536000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:35:24+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -201,7 +243,10 @@
    "intangibles": 12158000.0,
    "goodwill_and_intangibles": 57141000.0,
    "retained_earnings": 257022000.0,
-   "shares_out": 71474581.0
+   "shares_out": 71474581.0,
+   "unusual_items": 98054000.0,
+   "normalized_ebitda": 116089000.0,
+   "normalized_income": 146930000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -236,7 +281,10 @@
    "goodwill_and_intangibles": 77484000.0,
    "retained_earnings": 434980000.0,
    "total_debt": 677113000.0,
-   "shares_out": 75301424.0
+   "shares_out": 75301424.0,
+   "unusual_items": -42289000.0,
+   "normalized_ebitda": 183371000.0,
+   "normalized_income": 175783000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -271,7 +319,10 @@
    "goodwill_and_intangibles": 931995000.0,
    "retained_earnings": 812014000.0,
    "total_debt": 680289000.0,
-   "shares_out": 76619331.0
+   "shares_out": 76619331.0,
+   "unusual_items": 286680000.0,
+   "normalized_ebitda": 150347000.0,
+   "normalized_income": 93794160.0
   },
   {
    "fy_end": "2025-12-31",
@@ -306,7 +357,10 @@
    "goodwill_and_intangibles": 1567161000.0,
    "retained_earnings": 936670000.0,
    "total_debt": 1810722000.0,
-   "shares_out": 80211537.0
+   "shares_out": 80211537.0,
+   "unusual_items": 138516000.0,
+   "normalized_ebitda": 57857000.0,
+   "normalized_income": 21558541.2
   }
  ]
 }

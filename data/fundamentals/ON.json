@@ -1,6 +1,6 @@
 {
  "ticker": "ON",
- "fetched_at": "2026-10-10T12:54:11+00:00",
+ "fetched_at": "2026-10-10T15:52:12+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 22600,
   "website": "https://www.onsemi.com",
-  "longBusinessSummary": "ON Semiconductor Corporation provides intelligent sensing and power solutions in Hong Kong, Singapore, the United Kingdom, the United States, and internationally. It operates through three segments: Power Solutions Group, Analog and Mixed-Signal Group, and Intelligent Sensing Group. The Power Solutions Group segment offers discrete, module, and integrated semiconductor devices designed to enable power conversion, including power switching, signal conditioning, and circuit protection technologies. Its Analog and Mixed-Signal Group segment designs and develops analog and mixed-signal solutions, including power management, sensor interface, connectivity, and standard products for automotive, industrial automation, AI data centers, computing, and mobile end markets. The Intelligent Sensing Group segment develops complementary metal-oxide-semiconductor image sensors, image signal processors, short-wave infrared sensors, and other products, as well as photon-counting technologies, including single-photon avalanche diode arrays and silicon photomultiplier devices for depth sensing, factory automation, safety systems, and robotics industries. ON Semiconductor Corporation was incorporated in 1992 and is headquartered in Scottsdale, Arizona."
+  "longBusinessSummary": "ON Semiconductor Corporation provides intelligent sensing and power solutions in Hong Kong, Singapore, the United Kingdom, the United States, and internationally. It operates through three segments: Power Solutions Group, Analog and Mixed-Signal Group, and Intelligent Sensing Group. The Power Solutions Group segment offers discrete, module, and integrated semiconductor devices designed to enable power conversion, including power switching, signal conditioning, and circuit protection technologies. Its Analog and Mixed-Signal Group segment designs and develops analog and mixed-signal solutions, including power management, sensor interface, connectivity, and standard products for automotive, industrial automation, AI data centers, computing, and mobile end markets. The Intelligent Sensing Group segment develops complementary metal-oxide-semiconductor image sensors, image signal processors, short-wave infrared sensors, and other products, as well as photon-counting technologies, including single-photon avalanche diode arrays and silicon photomultiplier devices for depth sensing, factory automation, safety systems, and robotics industries. ON Semiconductor Corporation was incorporated in 1992 and is headquartered in Scottsdale, Arizona.",
+  "targetMeanPrice": 104.46154,
+  "targetLowPrice": 75.0,
+  "targetHighPrice": 150.0,
+  "numberOfAnalystOpinions": 26,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.13333,
+  "forwardPE": 17.119326,
+  "forwardEps": 4.5288,
+  "trailingEps": 1.55,
+  "earningsGrowth": 0.366,
+  "revenueGrowth": 0.092
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 12524100000.0,
+    "official": 12524100000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 7673300000.0,
+    "official": 7673300000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 121000000.0,
+    "official": 121000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 5995400000.0,
+    "official": 5995400000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:52:12+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -204,7 +246,10 @@
    "goodwill_and_intangibles": 1937300000.0,
    "retained_earnings": 4364400000.0,
    "total_debt": 3228300000.0,
-   "shares_out": 431936415.0
+   "shares_out": 431936415.0,
+   "unusual_items": -344800000.0,
+   "normalized_ebitda": 3353700000.0,
+   "normalized_income": 2180108800.0
   },
   {
    "fy_end": "2023-12-31",
@@ -239,7 +284,10 @@
    "goodwill_and_intangibles": 1876900000.0,
    "retained_earnings": 6548100000.0,
    "total_debt": 3379900000.0,
-   "shares_out": 426386426.0
+   "shares_out": 426386426.0,
+   "unusual_items": -88900000.0,
+   "normalized_ebitda": 3309000000.0,
+   "normalized_income": 2260331800.0
   },
   {
    "fy_end": "2024-12-31",
@@ -274,7 +322,10 @@
    "goodwill_and_intangibles": 1845800000.0,
    "retained_earnings": 8120900000.0,
    "total_debt": 3345900000.0,
-   "shares_out": 422955173.0
+   "shares_out": 422955173.0,
+   "unusual_items": -133900000.0,
+   "normalized_ebitda": 2676500000.0,
+   "normalized_income": 1687552300.0
   },
   {
    "fy_end": "2025-12-31",
@@ -309,7 +360,10 @@
    "goodwill_and_intangibles": 2023800000.0,
    "retained_earnings": 8241900000.0,
    "total_debt": 2980500000.0,
-   "shares_out": 396740551.0
+   "shares_out": 396740551.0,
+   "unusual_items": -666900000.0,
+   "normalized_ebitda": 1555100000.0,
+   "normalized_income": 748552900.0
   }
  ]
 }

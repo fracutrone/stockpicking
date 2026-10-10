@@ -1,6 +1,6 @@
 {
  "ticker": "STAG",
- "fetched_at": "2026-10-10T12:58:48+00:00",
+ "fetched_at": "2026-10-10T15:56:32+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 93,
   "website": "https://www.stagindustrial.com",
-  "longBusinessSummary": "STAG Industrial, Inc. is a real estate investment trust focused on the acquisition, development, ownership and operation of industrial properties throughout the United States. As of June 30, 2026, the Company's portfolio consists of 606 buildings in 41 states with approximately 122.6 million rentable square feet. STAG Industrial, Inc. was established in 2010 and was incorporated in Maryland."
+  "longBusinessSummary": "STAG Industrial, Inc. is a real estate investment trust focused on the acquisition, development, ownership and operation of industrial properties throughout the United States. As of June 30, 2026, the Company's portfolio consists of 606 buildings in 41 states with approximately 122.6 million rentable square feet. STAG Industrial, Inc. was established in 2010 and was incorporated in Maryland.",
+  "targetMeanPrice": 41.75,
+  "targetLowPrice": 38.0,
+  "targetHighPrice": 46.0,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.33333,
+  "forwardPE": 40.920452,
+  "forwardEps": 0.88,
+  "trailingEps": 1.3,
+  "earningsGrowth": 0.033,
+  "revenueGrowth": 0.081
  },
  "governance": {
   "ceo": {
@@ -82,8 +93,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "goodwill": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 7208069000.0,
+    "official": 7208069000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3595697000.0,
+    "official": 3595697000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 273519000.0,
+    "official": 273519000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 845184000.0,
+    "official": 845184000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:56:32+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -165,7 +207,10 @@
    "goodwill_and_intangibles": 508935000.0,
    "retained_earnings": -876145000.0,
    "total_debt": 2498780000.0,
-   "shares_out": 179248980.0
+   "shares_out": 179248980.0,
+   "unusual_items": 54866000.0,
+   "normalized_ebitda": 480426000.0,
+   "normalized_income": 134981860.0
   },
   {
    "fy_end": "2023-12-31",
@@ -196,7 +241,10 @@
    "goodwill_and_intangibles": 435722000.0,
    "retained_earnings": -948720000.0,
    "total_debt": 2624046000.0,
-   "shares_out": 181690867.0
+   "shares_out": 181690867.0,
+   "unusual_items": 54100000.0,
+   "normalized_ebitda": 516123000.0,
+   "normalized_income": 150106000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -227,7 +275,10 @@
    "goodwill_and_intangibles": 428865000.0,
    "retained_earnings": -1029757000.0,
    "total_debt": 3029135000.0,
-   "shares_out": 186517523.0
+   "shares_out": 186517523.0,
+   "unusual_items": 38446000.0,
+   "normalized_ebitda": 561066000.0,
+   "normalized_income": 158847660.0
   },
   {
    "fy_end": "2025-12-31",
@@ -258,7 +309,10 @@
    "goodwill_and_intangibles": 394967000.0,
    "retained_earnings": -1034954000.0,
    "total_debt": 3254315000.0,
-   "shares_out": 191005261.0
+   "shares_out": 191005261.0,
+   "unusual_items": 93214000.0,
+   "normalized_ebitda": 620013000.0,
+   "normalized_income": 199879940.0
   }
  ]
 }

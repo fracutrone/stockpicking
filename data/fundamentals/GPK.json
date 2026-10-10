@@ -1,6 +1,6 @@
 {
  "ticker": "GPK",
- "fetched_at": "2026-10-10T12:47:06+00:00",
+ "fetched_at": "2026-10-10T15:45:31+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 23000,
   "website": "https://www.graphicpkg.com",
-  "longBusinessSummary": "Graphic Packaging Holding Company, together with its subsidiaries, engages in the design, production, and sale of consumer packaging products to brands in food, beverage, foodservice, household, and other consumer products in the Americas, Europe, and the Asia Pacific. It operates through two segments, Americas Paperboard Packaging and International Paperboard Packaging. The Americas Paperboard Packaging segment includes paperboard packaging sold primarily to consumer packaged goods (CPG) companies serving the food, beverage and consumer product markets and cups, lids and food containers sold primarily to foodservice companies and quick-service restaurants in the Americas. The International Paperboard Packaging includes paperboard packaging sold primarily to CPG companies serving the food, foodservice, beverage and consumer product markets, including healthcare and beauty, outside of the Americas. It also designs, manufactures, and installs specialized packaging machines. The company sells its products through sales offices, as well as through broker arrangements with third parties. Graphic Packaging Holding Company was incorporated in 2007 and is headquartered in Atlanta, Georgia."
+  "longBusinessSummary": "Graphic Packaging Holding Company, together with its subsidiaries, engages in the design, production, and sale of consumer packaging products to brands in food, beverage, foodservice, household, and other consumer products in the Americas, Europe, and the Asia Pacific. It operates through two segments, Americas Paperboard Packaging and International Paperboard Packaging. The Americas Paperboard Packaging segment includes paperboard packaging sold primarily to consumer packaged goods (CPG) companies serving the food, beverage and consumer product markets and cups, lids and food containers sold primarily to foodservice companies and quick-service restaurants in the Americas. The International Paperboard Packaging includes paperboard packaging sold primarily to CPG companies serving the food, foodservice, beverage and consumer product markets, including healthcare and beauty, outside of the Americas. It also designs, manufactures, and installs specialized packaging machines. The company sells its products through sales offices, as well as through broker arrangements with third parties. Graphic Packaging Holding Company was incorporated in 2007 and is headquartered in Atlanta, Georgia.",
+  "targetMeanPrice": 11.71818,
+  "targetLowPrice": 9.0,
+  "targetHighPrice": 18.0,
+  "numberOfAnalystOpinions": 11,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.0,
+  "forwardPE": 7.785984,
+  "forwardEps": 1.07244,
+  "trailingEps": 0.66,
+  "earningsGrowth": -0.765,
+  "revenueGrowth": -0.007
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 11775000000.0,
+    "official": 11775000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3336000000.0,
+    "official": 3336000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 444000000.0,
+    "official": 444000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 8617000000.0,
+    "official": 8617000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:45:31+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -194,7 +236,10 @@
    "goodwill_and_intangibles": 2696000000.0,
    "retained_earnings": 469000000.0,
    "total_debt": 5113000000.0,
-   "shares_out": 307116089.0
+   "shares_out": 307116089.0,
+   "unusual_items": -131000000.0,
+   "normalized_ebitda": 1597000000.0,
+   "normalized_income": 617368000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -228,7 +273,10 @@
    "goodwill_and_intangibles": 2923000000.0,
    "retained_earnings": 1029000000.0,
    "total_debt": 5235000000.0,
-   "shares_out": 306058815.0
+   "shares_out": 306058815.0,
+   "unusual_items": -74000000.0,
+   "normalized_ebitda": 1864000000.0,
+   "normalized_income": 780350000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -262,7 +310,10 @@
    "goodwill_and_intangibles": 2660000000.0,
    "retained_earnings": 1410000000.0,
    "total_debt": 5064000000.0,
-   "shares_out": 300163372.0
+   "shares_out": 300163372.0,
+   "unusual_items": -5000000.0,
+   "normalized_ebitda": 1678000000.0,
+   "normalized_income": 661710000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -296,7 +347,10 @@
    "goodwill_and_intangibles": 2735000000.0,
    "retained_earnings": 1614000000.0,
    "total_debt": 5451000000.0,
-   "shares_out": 295128049.0
+   "shares_out": 295128049.0,
+   "unusual_items": -41000000.0,
+   "normalized_ebitda": 1379000000.0,
+   "normalized_income": 475160000.0
   }
  ]
 }

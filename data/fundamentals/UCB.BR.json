@@ -1,6 +1,6 @@
 {
  "ticker": "UCB.BR",
- "fetched_at": "2026-10-10T12:23:41+00:00",
+ "fetched_at": "2026-10-10T15:26:45+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "BRU",
   "fullTimeEmployees": 9000,
   "website": "https://www.ucb.com",
-  "longBusinessSummary": "UCB SA, a biopharmaceutical company, develops products and solutions for people with neurology and immunology diseases worldwide. The company offers Cimzia for ankylosing spondylitis (AS), axial spondyloarthritis, Crohn's disease, non-radiographic axial spondyloarthritis, plaque psoriasis, psoriatic arthritis, polyarticular juvenile idiopathic arthritis, and rheumatoid arthritis; Vimpat, Keppra, and Briviact for epilepsy; and Neupro for Parkinson's disease and restless legs syndrome. It also provides Nayzilam, a nasal spray rescue treatment for epilepsy seizure clusters; and Zyrtec and Xyzal for allergies. In addition, the company offers Evenity for the treatment of osteoporosis in postmenopausal women; Bimzelx to treat plaque psoriasis, psoriatic arthritis, hidradenitis suppurativa, and axial spondyloarthritis; Fintepla for the treatment of Dravet and Lennox-Gastaut syndrome; and RYSTIGGO and ZILBRYSQ to treat people living with generalized myasthenia gravis. Further, it develops KYGEVVI (doxecitine/doxribtimine) for thymidine kinase 2 deficiency disorder; fenfluramine to treat CDKL5 deficiency disorder, and RETT-Syndrome; dapirolizumab pegol for systemic lupus erythematosus; STACCATO alprazolam for treating stereotypical prolonged seizures; bepranemab to treat Alzheimer's disease; and UCB9741 for atopic dermatitis, non cystic fibrosis bronchiectasis, and chronic obstructive pulmonary disease. Additionally, it engages in the contract manufacturing activities. The company was incorporated in 1925 and is headquartered in Brussels, Belgium."
+  "longBusinessSummary": "UCB SA, a biopharmaceutical company, develops products and solutions for people with neurology and immunology diseases worldwide. The company offers Cimzia for ankylosing spondylitis (AS), axial spondyloarthritis, Crohn's disease, non-radiographic axial spondyloarthritis, plaque psoriasis, psoriatic arthritis, polyarticular juvenile idiopathic arthritis, and rheumatoid arthritis; Vimpat, Keppra, and Briviact for epilepsy; and Neupro for Parkinson's disease and restless legs syndrome. It also provides Nayzilam, a nasal spray rescue treatment for epilepsy seizure clusters; and Zyrtec and Xyzal for allergies. In addition, the company offers Evenity for the treatment of osteoporosis in postmenopausal women; Bimzelx to treat plaque psoriasis, psoriatic arthritis, hidradenitis suppurativa, and axial spondyloarthritis; Fintepla for the treatment of Dravet and Lennox-Gastaut syndrome; and RYSTIGGO and ZILBRYSQ to treat people living with generalized myasthenia gravis. Further, it develops KYGEVVI (doxecitine/doxribtimine) for thymidine kinase 2 deficiency disorder; fenfluramine to treat CDKL5 deficiency disorder, and RETT-Syndrome; dapirolizumab pegol for systemic lupus erythematosus; STACCATO alprazolam for treating stereotypical prolonged seizures; bepranemab to treat Alzheimer's disease; and UCB9741 for atopic dermatitis, non cystic fibrosis bronchiectasis, and chronic obstructive pulmonary disease. Additionally, it engages in the contract manufacturing activities. The company was incorporated in 1925 and is headquartered in Brussels, Belgium.",
+  "targetMeanPrice": 285.0,
+  "targetLowPrice": 208.0,
+  "targetHighPrice": 340.0,
+  "numberOfAnalystOpinions": 19,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.6,
+  "forwardPE": 14.736147,
+  "forwardEps": 13.80958,
+  "trailingEps": 11.32,
+  "earningsGrowth": 1.348,
+  "revenueGrowth": 0.225
  },
  "governance": {
   "ceo": {
@@ -81,8 +92,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF BE",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 17347000000.0,
+    "official": 17347000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 10029000000.0,
+    "official": 10029000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1065000000.0,
+    "official": 1065000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 6152000000.0,
+    "official": 6152000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T15:26:46+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -117,7 +160,10 @@
    "goodwill_and_intangibles": 10156000000.0,
    "retained_earnings": 6445000000.0,
    "total_debt": 2900000000.0,
-   "shares_out": 189594898.0
+   "shares_out": 189594898.0,
+   "unusual_items": -102000000.0,
+   "normalized_ebitda": 1273000000.0,
+   "normalized_income": 503640000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -152,7 +198,10 @@
    "goodwill_and_intangibles": 9486000000.0,
    "retained_earnings": 6578000000.0,
    "total_debt": 3038000000.0,
-   "shares_out": 189776569.0
+   "shares_out": 189776569.0,
+   "unusual_items": 2000000.0,
+   "normalized_ebitda": 1274000000.0,
+   "normalized_income": 341440000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -186,7 +235,10 @@
    "goodwill_and_intangibles": 9544000000.0,
    "retained_earnings": 7395000000.0,
    "total_debt": 3026000000.0,
-   "shares_out": 190042407.0
+   "shares_out": 190042407.0,
+   "unusual_items": -139000000.0,
+   "normalized_ebitda": 2102000000.0,
+   "normalized_income": 1192880000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -221,7 +273,10 @@
    "goodwill_and_intangibles": 8538000000.0,
    "retained_earnings": 8679000000.0,
    "total_debt": 2245000000.0,
-   "shares_out": 190361362.0
+   "shares_out": 190361362.0,
+   "unusual_items": 3000000.0,
+   "normalized_ebitda": 2574000000.0,
+   "normalized_income": 1555420000.0
   }
  ]
 }

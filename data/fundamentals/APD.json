@@ -1,6 +1,6 @@
 {
  "ticker": "APD",
- "fetched_at": "2026-10-10T12:37:43+00:00",
+ "fetched_at": "2026-10-10T15:34:42+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 21087,
   "website": "https://www.airproducts.com",
-  "longBusinessSummary": "Air Products and Chemicals, Inc. provides atmospheric gases, process and specialty gases, equipment, and related services in the Americas, Asia, Europe, the Middle East, India, and internationally. The company produces atmospheric gases, including oxygen, nitrogen, and argon; process gases, such as hydrogen, helium, carbon dioxide, carbon monoxide, and syngas; and specialty gases for customers in various industries, including refining, chemical, metals, manufacturing, electronics, energy production, medical, food, chemical and petrochemical manufacturing, oil and gas recovery and processing, and steel and primary metals processing. It also designs and manufactures equipment for air separation, hydrocarbon recovery and purification, natural gas liquefaction, and liquid helium and liquid hydrogen transport and storage. Air Products and Chemicals, Inc. was founded in 1940 and is headquartered in Allentown, Pennsylvania."
+  "longBusinessSummary": "Air Products and Chemicals, Inc. provides atmospheric gases, process and specialty gases, equipment, and related services in the Americas, Asia, Europe, the Middle East, India, and internationally. The company produces atmospheric gases, including oxygen, nitrogen, and argon; process gases, such as hydrogen, helium, carbon dioxide, carbon monoxide, and syngas; and specialty gases for customers in various industries, including refining, chemical, metals, manufacturing, electronics, energy production, medical, food, chemical and petrochemical manufacturing, oil and gas recovery and processing, and steel and primary metals processing. It also designs and manufactures equipment for air separation, hydrocarbon recovery and purification, natural gas liquefaction, and liquid helium and liquid hydrogen transport and storage. Air Products and Chemicals, Inc. was founded in 1940 and is headquartered in Allentown, Pennsylvania.",
+  "targetMeanPrice": 342.5263,
+  "targetLowPrice": 305.0,
+  "targetHighPrice": 373.0,
+  "numberOfAnalystOpinions": 19,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.81818,
+  "forwardPE": 19.47749,
+  "forwardEps": 14.44026,
+  "trailingEps": -0.21,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.046
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-09-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 41059500000.0,
+    "official": 41059500000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 15024900000.0,
+    "official": 15024900000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -394500000.0,
+    "official": -394500000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 12037300000.0,
+    "official": 12037300000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:34:42+00:00",
  "years": [
   {
    "fy_end": "2019-09-30",
@@ -208,7 +250,10 @@
    "goodwill_and_intangibles": 1170500000.0,
    "retained_earnings": 16520300000.0,
    "total_debt": 6444500000.0,
-   "shares_out": 221838696.0
+   "shares_out": 221838696.0,
+   "unusual_items": -73700000.0,
+   "normalized_ebitda": 4294600000.0,
+   "normalized_income": 2303786600.0
   },
   {
    "fy_end": "2023-09-30",
@@ -243,7 +288,10 @@
    "goodwill_and_intangibles": 1196300000.0,
    "retained_earnings": 17289700000.0,
    "total_debt": 874500000.0,
-   "shares_out": 222199845.0
+   "shares_out": 222199845.0,
+   "unusual_items": -244600000.0,
+   "normalized_ebitda": 4662800000.0,
+   "normalized_income": 2490681400.0
   },
   {
    "fy_end": "2024-09-30",
@@ -278,7 +326,10 @@
    "goodwill_and_intangibles": 1216700000.0,
    "retained_earnings": 19545700000.0,
    "total_debt": 694900000.0,
-   "shares_out": 222372418.0
+   "shares_out": 222372418.0,
+   "unusual_items": 1518600000.0,
+   "normalized_ebitda": 4972500000.0,
+   "normalized_income": 2621145600.0
   },
   {
    "fy_end": "2025-09-30",
@@ -313,7 +364,10 @@
    "goodwill_and_intangibles": 1257400000.0,
    "retained_earnings": 17558600000.0,
    "total_debt": 751000000.0,
-   "shares_out": 222588256.0
+   "shares_out": 222588256.0,
+   "unusual_items": -3766000000.0,
+   "normalized_ebitda": 5103500000.0,
+   "normalized_income": 2573576000.0
   }
  ]
 }

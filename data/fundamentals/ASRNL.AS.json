@@ -1,6 +1,6 @@
 {
  "ticker": "ASRNL.AS",
- "fetched_at": "2026-10-10T11:46:15+00:00",
+ "fetched_at": "2026-10-10T14:31:48+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.00022,
   "heldPercentInstitutions": 0.88899,
   "shortPercentOfFloat": null,
-  "averageVolume": 427842,
+  "averageVolume": 425652,
   "quoteType": "EQUITY",
   "exchange": "AMS",
   "fullTimeEmployees": 9542,
   "website": "https://www.asrnl.com",
-  "longBusinessSummary": "ASR Nederland N.V. provides insurance, pensions, and mortgages products and services for consumers, businesses, and employers in the Netherlands. The company operates through five segments: Non-Life, Life, Asset Management, Distribution and Services, and Holding and Other. It offers individual and group disability, as well as sickness leave; property and casualty, including motor, fire, liability, legal aid, travel and recreation, pet, and transport insurance; and health insurance, such as basic and supplementary health insurance. The company also provides pension products; Individual term life insurance; and funeral capital insurance. In addition, it is involved in the provision of asset management services, including investment property management, as well as managing of corporate bonds, government bonds, and equities; investment solutions; manages non-listed sector funds, which invest in retail and residential properties, offices, real estate on science parks, agricultural land, and renewable energy sources comprising wind, solar farms, and energy storage; and develops investment strategies. Further, the company operates in the residential mortgage markets under a.s.r. and Aegon brands; and specialised products for first-time buyers, customers who want to finance sustainable home modifications and senior citizens. Additionally, it engages in the provision of distribution and services; involved in the group-related activities, real estate development business, and activities relating to private investments for customers; offers expert guidance, software and advice on creating healthy and safe working environments services under the ArboNed, Mensely, HumanCapitalCare, Focus, and IT&Care brands; and health and reintegration services. The company was formerly known as Fortis Verzekeringen Nederland N.V. and changed its name to ASR Nederland N.V. in October 2008. The company was founded in 1720 and is based in Utrecht, the Netherlands."
+  "longBusinessSummary": "ASR Nederland N.V. provides insurance, pensions, and mortgages products and services for consumers, businesses, and employers in the Netherlands. The company operates through five segments: Non-Life, Life, Asset Management, Distribution and Services, and Holding and Other. It offers individual and group disability, as well as sickness leave; property and casualty, including motor, fire, liability, legal aid, travel and recreation, pet, and transport insurance; and health insurance, such as basic and supplementary health insurance. The company also provides pension products; Individual term life insurance; and funeral capital insurance. In addition, it is involved in the provision of asset management services, including investment property management, as well as managing of corporate bonds, government bonds, and equities; investment solutions; manages non-listed sector funds, which invest in retail and residential properties, offices, real estate on science parks, agricultural land, and renewable energy sources comprising wind, solar farms, and energy storage; and develops investment strategies. Further, the company operates in the residential mortgage markets under a.s.r. and Aegon brands; and specialised products for first-time buyers, customers who want to finance sustainable home modifications and senior citizens. Additionally, it engages in the provision of distribution and services; involved in the group-related activities, real estate development business, and activities relating to private investments for customers; offers expert guidance, software and advice on creating healthy and safe working environments services under the ArboNed, Mensely, HumanCapitalCare, Focus, and IT&Care brands; and health and reintegration services. The company was formerly known as Fortis Verzekeringen Nederland N.V. and changed its name to ASR Nederland N.V. in October 2008. The company was founded in 1720 and is based in Utrecht, the Netherlands.",
+  "targetMeanPrice": 76.06615,
+  "targetLowPrice": 52.5,
+  "targetHighPrice": 85.0,
+  "numberOfAnalystOpinions": 13,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.85714,
+  "forwardPE": 11.003797,
+  "forwardEps": 6.49594,
+  "trailingEps": 5.12,
+  "earningsGrowth": 6.478,
+  "revenueGrowth": 0.177
  },
  "governance": {
   "ceo": {
@@ -69,8 +80,34 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF NL",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 142151000000.0,
+    "official": 142151000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 10111000000.0,
+    "official": 8604000000.0,
+    "diff": 0.175151
+   },
+   "net_income": {
+    "yahoo": 548000000.0,
+    "official": 476000000.0,
+    "diff": 0.151261
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:31:48+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -97,7 +134,9 @@
    "goodwill_and_intangibles": 322000000.0,
    "retained_earnings": 3569000000.0,
    "total_debt": 4457000000.0,
-   "shares_out": 147924284.0
+   "shares_out": 147924284.0,
+   "unusual_items": 11000000.0,
+   "normalized_income": -1717129000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -124,7 +163,9 @@
    "goodwill_and_intangibles": 649000000.0,
    "retained_earnings": 4147000000.0,
    "total_debt": 12901000000.0,
-   "shares_out": 211148162.0
+   "shares_out": 211148162.0,
+   "unusual_items": 25000000.0,
+   "normalized_income": 983375000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -150,7 +191,9 @@
    "goodwill_and_intangibles": 592000000.0,
    "retained_earnings": 4582000000.0,
    "total_debt": 10692000000.0,
-   "shares_out": 208902381.0
+   "shares_out": 208902381.0,
+   "unusual_items": 16000000.0,
+   "normalized_income": 1067224000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -176,7 +219,9 @@
    "goodwill_and_intangibles": 804000000.0,
    "retained_earnings": 4342000000.0,
    "total_debt": 8914000000.0,
-   "shares_out": 204558568.0
+   "shares_out": 204558568.0,
+   "unusual_items": 68000000.0,
+   "normalized_income": 492784000.0
   }
  ]
 }

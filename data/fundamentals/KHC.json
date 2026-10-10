@@ -1,6 +1,6 @@
 {
  "ticker": "KHC",
- "fetched_at": "2026-10-10T12:49:44+00:00",
+ "fetched_at": "2026-10-10T15:48:03+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 35000,
   "website": "https://www.kraftheinzcompany.com",
-  "longBusinessSummary": "The Kraft Heinz Company, together with its subsidiaries, manufactures and markets food and beverage products in North America and internationally. Its products include condiments, sauces, dressings, and spreads; cheese, frozen potato products, and other frozen meals; meal kits, frozen snacks, and pickles; dry packaged desserts, refrigerated ready to eat desserts, and other dessert toppings; ready to drink and powdered beverages, and liquid concentrates; American sliced and recipe cheeses; mainstream coffee, coffee pods, and premium coffee; and cold cuts, bacon, and hot dogs. It offers its products under the Kraft, Oscar Mayer, Heinz, Philadelphia, Lunchables, Velveeta, Ore-Ida, Capri Sun, Maxwell House, Kool-Aid, Jell-O, ABC, Master, Quero, Golden Circle, Wattie's, Pudliszki, and Plasmon brands, as well as Bagel Bites, Claussen, A1, and Cool Whip. It sells its products through its own sales organizations, as well as through independent brokers, agents, and distributors to chain, wholesale, cooperative, and independent grocery accounts; convenience, value, and club stores; pharmacies and drug stores; mass merchants; foodservice distributors; institutions, including hotels, restaurants, bakeries, hospitals, health care facilities, and government agencies; and various e-commerce platforms and retailers. The company has a strategic partnership with the National Football League. The company was formerly known as H.J. Heinz Holding Corporation and changed its name to The Kraft Heinz Company in July 2015. The company was founded in 1869 and is headquartered in Pittsburgh, Pennsylvania."
+  "longBusinessSummary": "The Kraft Heinz Company, together with its subsidiaries, manufactures and markets food and beverage products in North America and internationally. Its products include condiments, sauces, dressings, and spreads; cheese, frozen potato products, and other frozen meals; meal kits, frozen snacks, and pickles; dry packaged desserts, refrigerated ready to eat desserts, and other dessert toppings; ready to drink and powdered beverages, and liquid concentrates; American sliced and recipe cheeses; mainstream coffee, coffee pods, and premium coffee; and cold cuts, bacon, and hot dogs. It offers its products under the Kraft, Oscar Mayer, Heinz, Philadelphia, Lunchables, Velveeta, Ore-Ida, Capri Sun, Maxwell House, Kool-Aid, Jell-O, ABC, Master, Quero, Golden Circle, Wattie's, Pudliszki, and Plasmon brands, as well as Bagel Bites, Claussen, A1, and Cool Whip. It sells its products through its own sales organizations, as well as through independent brokers, agents, and distributors to chain, wholesale, cooperative, and independent grocery accounts; convenience, value, and club stores; pharmacies and drug stores; mass merchants; foodservice distributors; institutions, including hotels, restaurants, bakeries, hospitals, health care facilities, and government agencies; and various e-commerce platforms and retailers. The company has a strategic partnership with the National Football League. The company was formerly known as H.J. Heinz Holding Corporation and changed its name to The Kraft Heinz Company in July 2015. The company was founded in 1869 and is headquartered in Pittsburgh, Pennsylvania.",
+  "targetMeanPrice": 25.25,
+  "targetLowPrice": 19.0,
+  "targetHighPrice": 41.0,
+  "numberOfAnalystOpinions": 18,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.05,
+  "forwardPE": 10.698656,
+  "forwardEps": 2.08157,
+  "trailingEps": -2.84,
+  "earningsGrowth": null,
+  "revenueGrowth": -0.014
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 81786000000.0,
+    "official": 81786000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 41664000000.0,
+    "official": 41664000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -5846000000.0,
+    "official": -5846000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 24942000000.0,
+    "official": 24942000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:48:03+00:00",
  "years": [
   {
    "fy_end": "2019-12-28",
@@ -204,7 +246,10 @@
    "goodwill_and_intangibles": 73482000000.0,
    "retained_earnings": 489000000.0,
    "total_debt": 19239000000.0,
-   "shares_out": 1224930164.0
+   "shares_out": 1224930164.0,
+   "unusual_items": -832000000.0,
+   "normalized_ebitda": 5652000000.0,
+   "normalized_income": 3026936000.0
   },
   {
    "fy_end": "2023-12-30",
@@ -238,7 +283,10 @@
    "goodwill_and_intangibles": 72907000000.0,
    "retained_earnings": 1367000000.0,
    "total_debt": 19394000000.0,
-   "shares_out": 1218000000.0
+   "shares_out": 1218000000.0,
+   "unusual_items": -672000000.0,
+   "normalized_ebitda": 6178000000.0,
+   "normalized_income": 3381176000.0
   },
   {
    "fy_end": "2024-12-28",
@@ -273,7 +321,10 @@
    "goodwill_and_intangibles": 68772000000.0,
    "retained_earnings": 2171000000.0,
    "total_debt": 19215000000.0,
-   "shares_out": 1195000000.0
+   "shares_out": 1195000000.0,
+   "unusual_items": -3774000000.0,
+   "normalized_ebitda": 6490000000.0,
+   "normalized_income": 5725460000.0
   },
   {
    "fy_end": "2025-12-27",
@@ -308,7 +359,10 @@
    "goodwill_and_intangibles": 59708000000.0,
    "retained_earnings": -4629000000.0,
    "total_debt": 19311000000.0,
-   "shares_out": 1183655579.0
+   "shares_out": 1183655579.0,
+   "unusual_items": -9370000000.0,
+   "normalized_ebitda": 5840000000.0,
+   "normalized_income": 1556300000.0
   }
  ]
 }

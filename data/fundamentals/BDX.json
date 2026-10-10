@@ -1,6 +1,6 @@
 {
  "ticker": "BDX",
- "fetched_at": "2026-10-10T12:38:48+00:00",
+ "fetched_at": "2026-10-10T15:37:29+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 72000,
   "website": "https://www.bd.com",
-  "longBusinessSummary": "Becton, Dickinson and Company develops, manufactures, and sells medical supplies, devices, laboratory equipment, and diagnostic products for healthcare institutions, physicians, life science researchers, clinical laboratories, pharmaceutical industry, and the general public worldwide. It operates through Medical Essentials, Connected Care, BioPharma Systems, Interventional and Life Sciences segments. It provides peripheral intravenous (IV) and advanced peripheral catheters, central lines, acute dialysis catheters, vascular access technology, vascular care and preparation products, needle-free IV connectors and extensions sets, closed-system drug transfer devices, hazardous drug detections, hypodermic syringes and needles, anesthesia needles and trays, enteral syringes, and sharps disposal systems; IV medication safety and infusion therapy delivery systems, medication compounding workflow system, automated medication dispensing and supply management systems, informatics and analytics and pharmacy automation system, and medication inventory optimization and tracking system; hemodynamic monitoring system; and prefillable drug delivery systems. It also offers specimen and blood collection products; automated blood and tuberculosis culturing, molecular testing, and microorganism identification and drug susceptibility, as well as rapid diagnostic assays, microbiology laboratory automation products, and plated media products; and fluorescence-activated cell sorters and analyzers, antibodies and kits, reagent system, and solution for single-cell gene expression analysis, as well as clinical oncology, immunological, and transplantation diagnostic/monitoring reagents and analyzers. It provides hernia and soft tissue repair, biological and bioresorbable graft, biosurgery, and other surgical products; surgical infection prevention, peripheral intervention, and urology and critical care products. The company has a strategic collaboration with ChemoGLO for the advancement of hazardous drug contamination testing in health care settings to improve the safety of health care workers. The company was founded in 1897 and is headquartered in Franklin Lakes, New Jersey."
+  "longBusinessSummary": "Becton, Dickinson and Company develops, manufactures, and sells medical supplies, devices, laboratory equipment, and diagnostic products for healthcare institutions, physicians, life science researchers, clinical laboratories, pharmaceutical industry, and the general public worldwide. It operates through Medical Essentials, Connected Care, BioPharma Systems, Interventional and Life Sciences segments. It provides peripheral intravenous (IV) and advanced peripheral catheters, central lines, acute dialysis catheters, vascular access technology, vascular care and preparation products, needle-free IV connectors and extensions sets, closed-system drug transfer devices, hazardous drug detections, hypodermic syringes and needles, anesthesia needles and trays, enteral syringes, and sharps disposal systems; IV medication safety and infusion therapy delivery systems, medication compounding workflow system, automated medication dispensing and supply management systems, informatics and analytics and pharmacy automation system, and medication inventory optimization and tracking system; hemodynamic monitoring system; and prefillable drug delivery systems. It also offers specimen and blood collection products; automated blood and tuberculosis culturing, molecular testing, and microorganism identification and drug susceptibility, as well as rapid diagnostic assays, microbiology laboratory automation products, and plated media products; and fluorescence-activated cell sorters and analyzers, antibodies and kits, reagent system, and solution for single-cell gene expression analysis, as well as clinical oncology, immunological, and transplantation diagnostic/monitoring reagents and analyzers. It provides hernia and soft tissue repair, biological and bioresorbable graft, biosurgery, and other surgical products; surgical infection prevention, peripheral intervention, and urology and critical care products. The company has a strategic collaboration with ChemoGLO for the advancement of hazardous drug contamination testing in health care settings to improve the safety of health care workers. The company was founded in 1897 and is headquartered in Franklin Lakes, New Jersey.",
+  "targetMeanPrice": 194.07692,
+  "targetLowPrice": 165.0,
+  "targetHighPrice": 225.0,
+  "numberOfAnalystOpinions": 13,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.2,
+  "forwardPE": 13.813307,
+  "forwardEps": 13.30239,
+  "trailingEps": 4.3,
+  "earningsGrowth": -0.314,
+  "revenueGrowth": 0.054
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-09-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 55325000000.0,
+    "official": 55325000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 25390000000.0,
+    "official": 25390000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1678000000.0,
+    "official": 1678000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 21840000000.0,
+    "official": 21840000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:37:29+00:00",
  "years": [
   {
    "fy_end": "2019-09-30",
@@ -201,7 +243,10 @@
    "goodwill_and_intangibles": 36930000000.0,
    "retained_earnings": 15157000000.0,
    "total_debt": 13886000000.0,
-   "shares_out": 283356710.0
+   "shares_out": 283356710.0,
+   "unusual_items": -279000000.0,
+   "normalized_ebitda": 4689000000.0,
+   "normalized_income": 1890843000.0
   },
   {
    "fy_end": "2023-09-30",
@@ -236,7 +281,10 @@
    "goodwill_and_intangibles": 35469000000.0,
    "retained_earnings": 15535000000.0,
    "total_debt": 14738000000.0,
-   "shares_out": 290391793.0
+   "shares_out": 290391793.0,
+   "unusual_items": -352000000.0,
+   "normalized_ebitda": 4754000000.0,
+   "normalized_income": 1854192000.0
   },
   {
    "fy_end": "2024-09-30",
@@ -271,7 +319,10 @@
    "goodwill_and_intangibles": 37382000000.0,
    "retained_earnings": 16139000000.0,
    "total_debt": 17940000000.0,
-   "shares_out": 289101319.0
+   "shares_out": 289101319.0,
+   "unusual_items": -500000000.0,
+   "normalized_ebitda": 5319000000.0,
+   "normalized_income": 2130000000.0
   },
   {
    "fy_end": "2025-09-30",
@@ -306,7 +357,10 @@
    "goodwill_and_intangibles": 36016000000.0,
    "retained_earnings": 16622000000.0,
    "total_debt": 17621000000.0,
-   "shares_out": 285402168.0
+   "shares_out": 285402168.0,
+   "unusual_items": -460000000.0,
+   "normalized_ebitda": 5416000000.0,
+   "normalized_income": 2088320000.0
   }
  ]
 }

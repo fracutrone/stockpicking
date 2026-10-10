@@ -1,6 +1,6 @@
 {
  "ticker": "AME",
- "fetched_at": "2026-10-10T12:37:18+00:00",
+ "fetched_at": "2026-10-10T15:34:20+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 22500,
   "website": "https://www.ametek.com",
-  "longBusinessSummary": "AMETEK, Inc. manufactures and sells electronic instruments (EIG) and electromechanical (EMG) devices in the United States and internationally. It operates through EIG and EMG segments. The company offers advanced instruments for the process, aerospace, power, and industrial markets; process and analytical instruments for the oil and gas, petrochemical, pharmaceutical, semiconductor, automation, and food and beverage industries; instruments to the laboratory equipment, ultra-precision manufacturing, medical, and test and measurement markets; power quality monitoring and metering devices, uninterruptible power supplies, programmable power and electromagnetic compatibility test equipment, and gas turbines sensors; dashboard instruments for heavy trucks and other vehicles; instrumentation and controls for food and beverage industries; and aircraft and engine sensors, embedded computing, monitoring, power supplies, fuel and fluid measurement, and data acquisition systems for aerospace and defense industry. It also provides engineered medical components and devices, automation solutions, thermal management systems, specialty metals, and electrical interconnects; single-use and consumable surgical instruments, implantable components, and drug delivery systems; engineered electrical connectors and electronics packaging; precision motion control products for data storage, medical devices, business equipment, automation, and other application; high-purity powdered metals, strips and foils, specialty clad metals, and metal matrix composites; motor-blower systems and heat exchangers for thermal management, military and commercial aircraft, and military ground vehicles; and motors used in commercial appliances, food and beverage machines, hydraulic pumps, and industrial blowers, as well as operates a network of aviation maintenance, repair, and overhaul facilities. AMETEK, Inc. was incorporated in 1930 and is headquartered in Berwyn, Pennsylvania."
+  "longBusinessSummary": "AMETEK, Inc. manufactures and sells electronic instruments (EIG) and electromechanical (EMG) devices in the United States and internationally. It operates through EIG and EMG segments. The company offers advanced instruments for the process, aerospace, power, and industrial markets; process and analytical instruments for the oil and gas, petrochemical, pharmaceutical, semiconductor, automation, and food and beverage industries; instruments to the laboratory equipment, ultra-precision manufacturing, medical, and test and measurement markets; power quality monitoring and metering devices, uninterruptible power supplies, programmable power and electromagnetic compatibility test equipment, and gas turbines sensors; dashboard instruments for heavy trucks and other vehicles; instrumentation and controls for food and beverage industries; and aircraft and engine sensors, embedded computing, monitoring, power supplies, fuel and fluid measurement, and data acquisition systems for aerospace and defense industry. It also provides engineered medical components and devices, automation solutions, thermal management systems, specialty metals, and electrical interconnects; single-use and consumable surgical instruments, implantable components, and drug delivery systems; engineered electrical connectors and electronics packaging; precision motion control products for data storage, medical devices, business equipment, automation, and other application; high-purity powdered metals, strips and foils, specialty clad metals, and metal matrix composites; motor-blower systems and heat exchangers for thermal management, military and commercial aircraft, and military ground vehicles; and motors used in commercial appliances, food and beverage machines, hydraulic pumps, and industrial blowers, as well as operates a network of aviation maintenance, repair, and overhaul facilities. AMETEK, Inc. was incorporated in 1930 and is headquartered in Berwyn, Pennsylvania.",
+  "targetMeanPrice": 281.94443,
+  "targetLowPrice": 217.0,
+  "targetHighPrice": 318.0,
+  "numberOfAnalystOpinions": 18,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.75,
+  "forwardPE": 26.027794,
+  "forwardEps": 9.55056,
+  "trailingEps": 6.87,
+  "earningsGrowth": 0.142,
+  "revenueGrowth": 0.15
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,38 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 16067543000.0,
+    "official": 16067543000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 10628786000.0,
+    "official": 10628786000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1480142000.0,
+    "official": 1480142000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 7401116000.0,
+    "official": 7401116000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:34:20+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -204,7 +245,9 @@
    "goodwill_and_intangibles": 8714647000.0,
    "retained_earnings": 8857485000.0,
    "total_debt": 2385007000.0,
-   "shares_out": 230050658.0
+   "shares_out": 230050658.0,
+   "normalized_ebitda": 1831305000.0,
+   "normalized_income": 1159542000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -238,7 +281,9 @@
    "goodwill_and_intangibles": 10612946000.0,
    "retained_earnings": 9940343000.0,
    "total_debt": 3313347000.0,
-   "shares_out": 230930096.0
+   "shares_out": 230930096.0,
+   "normalized_ebitda": 2025843000.0,
+   "normalized_income": 1313188000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -272,7 +317,9 @@
    "goodwill_and_intangibles": 10471050000.0,
    "retained_earnings": 11057684000.0,
    "total_debt": 2079721000.0,
-   "shares_out": 230699421.0
+   "shares_out": 230699421.0,
+   "normalized_ebitda": 2157428000.0,
+   "normalized_income": 1376124000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -306,7 +353,9 @@
    "goodwill_and_intangibles": 11299164000.0,
    "retained_earnings": 12252480000.0,
    "total_debt": 2283309000.0,
-   "shares_out": 229037304.0
+   "shares_out": 229037304.0,
+   "normalized_ebitda": 2302397000.0,
+   "normalized_income": 1480142000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "MAT",
- "fetched_at": "2026-10-10T12:51:10+00:00",
+ "fetched_at": "2026-10-10T15:49:25+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 31000,
   "website": "https://corporate.mattel.com",
-  "longBusinessSummary": "Mattel, Inc., a play and family entertainment company, designs, manufactures, markets, and sells toys, games, and other products in North America, Europe, the Middle East, Africa, Latin America, and the Asia Pacific. The company offers dolls and accessories, books, content, and lifestyle products for children under the Barbie, American Girl, Disney Princess, Disney Frozen, Monster High, Polly Pocket, and KPop Demon Hunters brands; die-cast vehicles, tracks, playsets, and accessories for kids, adults, and collectors under the Hot Wheels, Hot Wheels Monster Trucks, Hot Wheels RC, Matchbox, and Matchbox, and Cars brands; and infant, toddler, and preschool products comprising toys, content, live events, and other consumer products under the Fisher-Price, Little People, Thomas & Friends, and Power Wheels brands. It also provides action figures, building sets, games, and other products under the Masters of the Universe, Mattel Brick Shop, MEGA, UNO, Jurassic World, Minecraft, WWE, Toy Story, Star Wars, Pictionary, Skip-Bo, Phase 10, and Blokus brands; and licensor partner brands, including Disney Pixar, Microsoft, NBCUniversal, and WWE. The company sells its products to retailers, including omnichannel retailers, discount and free-standing toy stores, chain stores, department stores, and other retail outlets; wholesalers; and directly to consumers through retail spaces, boutique stores, agents and distributors, and its e-commerce platforms and third-party e-commerce channels. Mattel, Inc. was founded in 1945 and is headquartered in El Segundo, California."
+  "longBusinessSummary": "Mattel, Inc., a play and family entertainment company, designs, manufactures, markets, and sells toys, games, and other products in North America, Europe, the Middle East, Africa, Latin America, and the Asia Pacific. The company offers dolls and accessories, books, content, and lifestyle products for children under the Barbie, American Girl, Disney Princess, Disney Frozen, Monster High, Polly Pocket, and KPop Demon Hunters brands; die-cast vehicles, tracks, playsets, and accessories for kids, adults, and collectors under the Hot Wheels, Hot Wheels Monster Trucks, Hot Wheels RC, Matchbox, and Matchbox, and Cars brands; and infant, toddler, and preschool products comprising toys, content, live events, and other consumer products under the Fisher-Price, Little People, Thomas & Friends, and Power Wheels brands. It also provides action figures, building sets, games, and other products under the Masters of the Universe, Mattel Brick Shop, MEGA, UNO, Jurassic World, Minecraft, WWE, Toy Story, Star Wars, Pictionary, Skip-Bo, Phase 10, and Blokus brands; and licensor partner brands, including Disney Pixar, Microsoft, NBCUniversal, and WWE. The company sells its products to retailers, including omnichannel retailers, discount and free-standing toy stores, chain stores, department stores, and other retail outlets; wholesalers; and directly to consumers through retail spaces, boutique stores, agents and distributors, and its e-commerce platforms and third-party e-commerce channels. Mattel, Inc. was founded in 1945 and is headquartered in El Segundo, California.",
+  "targetMeanPrice": 18.16667,
+  "targetLowPrice": 11.0,
+  "targetHighPrice": 28.0,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": 10.54627,
+  "forwardEps": 1.58255,
+  "trailingEps": 1.37,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.105
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,38 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 6640382000.0,
+    "official": 6640382000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2233048000.0,
+    "official": 2233048000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 397584000.0,
+    "official": 397584000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 5347623000.0,
+    "official": 5347623000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:49:25+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -197,7 +238,9 @@
    "goodwill_and_intangibles": 1803651000.0,
    "retained_earnings": 2847709000.0,
    "total_debt": 2325644000.0,
-   "shares_out": 354400000.0
+   "shares_out": 354400000.0,
+   "normalized_ebitda": 875369000.0,
+   "normalized_income": 393913000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -231,7 +274,9 @@
    "goodwill_and_intangibles": 1777551000.0,
    "retained_earnings": 3062061000.0,
    "total_debt": 2329986000.0,
-   "shares_out": 348469000.0
+   "shares_out": 348469000.0,
+   "normalized_ebitda": 818371000.0,
+   "normalized_income": 214352000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -265,7 +310,9 @@
    "goodwill_and_intangibles": 1742284000.0,
    "retained_earnings": 3603878000.0,
    "total_debt": 2334351000.0,
-   "shares_out": 329969000.0
+   "shares_out": 329969000.0,
+   "normalized_ebitda": 987228000.0,
+   "normalized_income": 541817000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -299,7 +346,9 @@
    "goodwill_and_intangibles": 1727274000.0,
    "retained_earnings": 4001462000.0,
    "total_debt": 2331675000.0,
-   "shares_out": 301369000.0
+   "shares_out": 301369000.0,
+   "normalized_ebitda": 796401000.0,
+   "normalized_income": 397584000.0
   }
  ]
 }

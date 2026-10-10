@@ -1,6 +1,6 @@
 {
  "ticker": "ARGX.BR",
- "fetched_at": "2026-10-10T11:45:58+00:00",
+ "fetched_at": "2026-10-10T14:31:24+00:00",
  "region": "Europa",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "BRU",
   "fullTimeEmployees": 1863,
   "website": "https://argenx.com",
-  "longBusinessSummary": "argenx SE, a commercial-stage biopharma company, develops various therapies for the treatment of autoimmune diseases in the United States, Japan, China, the Netherlands, and internationally. The company offers VYVGART for the treatment of gMG and immune thrombocytopenia (ITP), and VYVGART HYTRULO for the treatment of gMG and chronic inflammatory demyelinating polyneuropathy (CIDP). It also develops efgartigimod for the treatment of seronegative gMG, ocular myasthenia gravis (MG), primary ITP, grave's disease, myositis, Sjögren's disease, systemic sclerosis, and AMR; empasiprubart for MMN, delayed graft function, and CIDP; and adimanebart for congenital myasthenic syndrome and spinal muscular atrophy. In addition, the company is developing ARGX-213, a neonatal Fc receptor (FcRn)-targeted antibody engineered for half-life extension and sustained IgG reduction; ARGX-124, a FcRn pipeline candidate; ARGX-109, which targets IL-6 to treat inflammation; ARGX-121, which targets immunoglobulin A; and ARGX-118, which develops antibodies against Galectin-10, as well as cusatuzumab, ARGX-112, ARGX-114, and ARGX-115. It has strategic partnerships and license agreements with Zai Lab to develop and commercialize efgartigimod; Halozyme Therapeutics to its ENHANZE for the prevention and treatment of human diseases; OncoVerity, Inc for cusatuzumab; and AbbVie, Inc. for ARGX-115. argenx SE was incorporated in 2008 and is based in Amsterdam, the Netherlands."
+  "longBusinessSummary": "argenx SE, a commercial-stage biopharma company, develops various therapies for the treatment of autoimmune diseases in the United States, Japan, China, the Netherlands, and internationally. The company offers VYVGART for the treatment of gMG and immune thrombocytopenia (ITP), and VYVGART HYTRULO for the treatment of gMG and chronic inflammatory demyelinating polyneuropathy (CIDP). It also develops efgartigimod for the treatment of seronegative gMG, ocular myasthenia gravis (MG), primary ITP, grave's disease, myositis, Sjögren's disease, systemic sclerosis, and AMR; empasiprubart for MMN, delayed graft function, and CIDP; and adimanebart for congenital myasthenic syndrome and spinal muscular atrophy. In addition, the company is developing ARGX-213, a neonatal Fc receptor (FcRn)-targeted antibody engineered for half-life extension and sustained IgG reduction; ARGX-124, a FcRn pipeline candidate; ARGX-109, which targets IL-6 to treat inflammation; ARGX-121, which targets immunoglobulin A; and ARGX-118, which develops antibodies against Galectin-10, as well as cusatuzumab, ARGX-112, ARGX-114, and ARGX-115. It has strategic partnerships and license agreements with Zai Lab to develop and commercialize efgartigimod; Halozyme Therapeutics to its ENHANZE for the prevention and treatment of human diseases; OncoVerity, Inc for cusatuzumab; and AbbVie, Inc. for ARGX-115. argenx SE was incorporated in 2008 and is based in Amsterdam, the Netherlands.",
+  "targetMeanPrice": 1013.4981,
+  "targetLowPrice": 776.47815,
+  "targetHighPrice": 1249.36,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.46667,
+  "forwardPE": 22.702272,
+  "forwardEps": 32.084896,
+  "trailingEps": 22.49,
+  "earningsGrowth": 0.952,
+  "revenueGrowth": 0.593
  },
  "governance": {
   "ceo": {
@@ -76,8 +87,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF NL",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 8682698000.0,
+    "official": 8682698000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 7323092000.0,
+    "official": 7323092000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1292035000.0,
+    "official": 1292035000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 4153482000.0,
+    "official": 4151316000.0,
+    "diff": 0.000522
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:31:24+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -111,7 +154,10 @@
    "goodwill_and_intangibles": 174901000.0,
    "retained_earnings": -2109791000.0,
    "total_debt": 12426000.0,
-   "shares_out": 55395856.0
+   "shares_out": 55395856.0,
+   "unusual_items": -27265000.0,
+   "normalized_ebitda": -595514000.0,
+   "normalized_income": -683066221.279175
   },
   {
    "fy_end": "2023-12-31",
@@ -145,7 +191,10 @@
    "goodwill_and_intangibles": 125228000.0,
    "retained_earnings": -2404844000.0,
    "total_debt": 20000000.0,
-   "shares_out": 59194488.0
+   "shares_out": 59194488.0,
+   "unusual_items": 14073000.0,
+   "normalized_ebitda": -206356000.0,
+   "normalized_income": -308689569.508302
   },
   {
    "fy_end": "2024-12-31",
@@ -179,7 +228,10 @@
    "goodwill_and_intangibles": 181445000.0,
    "retained_earnings": -1571804000.0,
    "total_debt": 39053000.0,
-   "shares_out": 60760957.0
+   "shares_out": 60760957.0,
+   "unusual_items": -44377000.0,
+   "normalized_ebitda": 149548000.0,
+   "normalized_income": 868097830.0
   },
   {
    "fy_end": "2025-12-31",
@@ -213,7 +265,10 @@
    "goodwill_and_intangibles": 272103000.0,
    "retained_earnings": -279769000.0,
    "total_debt": 47160000.0,
-   "shares_out": 61883306.0
+   "shares_out": 61883306.0,
+   "unusual_items": 77373000.0,
+   "normalized_ebitda": 1233418000.0,
+   "normalized_income": 1230910330.0
   }
  ]
 }

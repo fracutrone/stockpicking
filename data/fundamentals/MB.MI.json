@@ -1,6 +1,6 @@
 {
  "ticker": "MB.MI",
- "fetched_at": "2026-10-10T12:07:58+00:00",
+ "fetched_at": "2026-10-10T15:04:21+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "MIL",
   "fullTimeEmployees": 5447,
   "website": "https://www.mediobanca.com",
-  "longBusinessSummary": "Mediobanca Banca di Credito Finanziario S.p.A., together with its subsidiaries, provides various banking products and services in Italy, Other European countries, the United States, Asia, and internationally. It operates through Wealth Management, Consumer Finance, Corporate and Investment Banking, Insurance - Principal Investing, and Holding Functions segments. The Wealth Management segment offers portfolio management, asset management, and management services to private banking and premier customers. Its Consumer Finance segment provides a range of consumer credit products, including personal and special-purpose loans, salary-or pension-backed finances, and credit cards, as well as Pagolight, a buy-now-pay-later solution. The Corporate and Investment Banking segment offers lending, capital market, advisory, and trading services; and specialty finance services, such as factoring and credit management services. Its Insurance - Principal Investing segment engages in equity investment and holding activities. The Holding Functions segment is involved in treasury, and asset and liability management operations. The company was founded in 1946 and is headquartered in Milan, Italy. Mediobanca Banca di Credito Finanziario S.p.A. operates as a subsidiary of Banca Monte dei Paschi di Siena S.p.A."
+  "longBusinessSummary": "Mediobanca Banca di Credito Finanziario S.p.A., together with its subsidiaries, provides various banking products and services in Italy, Other European countries, the United States, Asia, and internationally. It operates through Wealth Management, Consumer Finance, Corporate and Investment Banking, Insurance - Principal Investing, and Holding Functions segments. The Wealth Management segment offers portfolio management, asset management, and management services to private banking and premier customers. Its Consumer Finance segment provides a range of consumer credit products, including personal and special-purpose loans, salary-or pension-backed finances, and credit cards, as well as Pagolight, a buy-now-pay-later solution. The Corporate and Investment Banking segment offers lending, capital market, advisory, and trading services; and specialty finance services, such as factoring and credit management services. Its Insurance - Principal Investing segment engages in equity investment and holding activities. The Holding Functions segment is involved in treasury, and asset and liability management operations. The company was founded in 1946 and is headquartered in Milan, Italy. Mediobanca Banca di Credito Finanziario S.p.A. operates as a subsidiary of Banca Monte dei Paschi di Siena S.p.A.",
+  "targetMeanPrice": 26.6,
+  "targetLowPrice": 18.4,
+  "targetHighPrice": 30.4,
+  "numberOfAnalystOpinions": 4,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 13.522202,
+  "forwardEps": 1.86656,
+  "trailingEps": 1.51,
+  "earningsGrowth": 0.158,
+  "revenueGrowth": 0.151
  },
  "governance": {
   "ceo": {
@@ -68,8 +79,29 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF IT",
+  "fy_end": "2022-06-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 90568420000.0,
+    "official": 90568420000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 906977000.0,
+    "official": 906977000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2022-06-30"
+ },
+ "info_at": "2026-10-10T15:04:21+00:00",
  "years": [
   {
    "fy_end": "2022-06-30",
@@ -95,7 +127,9 @@
    "goodwill_and_intangibles": 838411000.0,
    "retained_earnings": 906977000.0,
    "total_debt": 22745595000.0,
-   "shares_out": 838885607.0
+   "shares_out": 838885607.0,
+   "unusual_items": -21027000.0,
+   "normalized_income": 926450812.2
   },
   {
    "fy_end": "2023-06-30",
@@ -121,7 +155,9 @@
    "goodwill_and_intangibles": 796700000.0,
    "retained_earnings": 1025986000.0,
    "total_debt": 26368246000.0,
-   "shares_out": 840802545.0
+   "shares_out": 840802545.0,
+   "unusual_items": -67735000.0,
+   "normalized_income": 1124562140.0
   },
   {
    "fy_end": "2024-06-30",
@@ -146,7 +182,9 @@
    "goodwill_and_intangibles": 1045432000.0,
    "retained_earnings": 1273382000.0,
    "total_debt": 33734434000.0,
-   "shares_out": 826649366.0
+   "shares_out": 826649366.0,
+   "unusual_items": -65235000.0,
+   "normalized_income": 1322066101.21129
   }
  ]
 }

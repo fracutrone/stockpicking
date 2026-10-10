@@ -1,6 +1,6 @@
 {
  "ticker": "AIE.L",
- "fetched_at": "2026-10-10T11:44:17+00:00",
+ "fetched_at": "2026-10-10T14:28:55+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": null,
   "heldPercentInstitutions": null,
   "shortPercentOfFloat": null,
-  "averageVolume": 372451,
+  "averageVolume": 372074,
   "quoteType": "EQUITY",
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -47,8 +58,15 @@
   "cash": "yahoo",
   "equity": "yahoo",
   "receivables": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T14:28:55+00:00",
  "years": [
   {
    "fy_end": "2022-06-30",
@@ -66,7 +84,8 @@
    "cash": 7027000.0,
    "equity": 187386000.0,
    "receivables": 230000.0,
-   "shares_out": 107567672.0
+   "shares_out": 107567672.0,
+   "normalized_income": 9224000.0
   },
   {
    "fy_end": "2023-06-30",
@@ -84,7 +103,8 @@
    "cash": 6489000.0,
    "equity": 232551000.0,
    "receivables": 454000.0,
-   "shares_out": 112807812.0
+   "shares_out": 112807812.0,
+   "normalized_income": 34580000.0
   },
   {
    "fy_end": "2024-06-30",
@@ -102,7 +122,8 @@
    "cash": 5677000.0,
    "equity": 435439000.0,
    "receivables": 463000.0,
-   "shares_out": 156162397.0
+   "shares_out": 156162397.0,
+   "normalized_income": 96653000.0
   }
  ]
 }

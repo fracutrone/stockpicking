@@ -1,6 +1,6 @@
 {
  "ticker": "CSX",
- "fetched_at": "2026-10-10T12:42:21+00:00",
+ "fetched_at": "2026-10-10T15:40:49+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 22200,
   "website": "https://www.csx.com",
-  "longBusinessSummary": "CSX Corporation, together with its subsidiaries, provides rail-based freight transportation services in the United States and Canada. It operates through two segments: rail and trucking. The company offers rail services; and transportation of intermodal containers and trailers, as well as other transportation services, such as rail-to-truck transfers and bulk commodity operations. It also transports chemicals, agricultural and food products, minerals, automotive, forest products, fertilizers, and metals and equipment; and coal, coke, and iron ore to electricity-generating power plants, steel manufacturers, and industrial plants, as well as exports coal to deep-water port facilities. In addition, the company provides intermodal services through a network of approximately 30 terminals transporting manufactured consumer goods in containers; and drayage services, including the pickup and delivery of intermodal shipments. It serves the automotive industry with distribution centers and storage locations, as well as connects non-rail served customers through transferring products, such as plastics and ethanol from rail to trucks. The company operates approximately 20,000 route mile rail network, which serves various population centers in 26 states east of the Mississippi River, the District of Columbia, and the Canadian provinces of Ontario and Quebec, as well as owns 3400 locomotives. It serves production and distribution facilities through track connections. CSX Corporation was incorporated in 1978 and is headquartered in Jacksonville, Florida."
+  "longBusinessSummary": "CSX Corporation, together with its subsidiaries, provides rail-based freight transportation services in the United States and Canada. It operates through two segments: rail and trucking. The company offers rail services; and transportation of intermodal containers and trailers, as well as other transportation services, such as rail-to-truck transfers and bulk commodity operations. It also transports chemicals, agricultural and food products, minerals, automotive, forest products, fertilizers, and metals and equipment; and coal, coke, and iron ore to electricity-generating power plants, steel manufacturers, and industrial plants, as well as exports coal to deep-water port facilities. In addition, the company provides intermodal services through a network of approximately 30 terminals transporting manufactured consumer goods in containers; and drayage services, including the pickup and delivery of intermodal shipments. It serves the automotive industry with distribution centers and storage locations, as well as connects non-rail served customers through transferring products, such as plastics and ethanol from rail to trucks. The company operates approximately 20,000 route mile rail network, which serves various population centers in 26 states east of the Mississippi River, the District of Columbia, and the Canadian provinces of Ontario and Quebec, as well as owns 3400 locomotives. It serves production and distribution facilities through track connections. CSX Corporation was incorporated in 1978 and is headquartered in Jacksonville, Florida.",
+  "targetMeanPrice": 52.79873,
+  "targetLowPrice": 32.0,
+  "targetHighPrice": 60.0,
+  "numberOfAnalystOpinions": 23,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.92,
+  "forwardPE": 20.711445,
+  "forwardEps": 2.28183,
+  "trailingEps": 1.72,
+  "earningsGrowth": 0.227,
+  "revenueGrowth": 0.101
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 43682000000.0,
+    "official": 43682000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 13155000000.0,
+    "official": 13160000000.0,
+    "diff": 0.00038
+   },
+   "net_income": {
+    "yahoo": 2889000000.0,
+    "official": 2889000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 14092000000.0,
+    "official": 14092000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:40:49+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -196,7 +238,10 @@
    "goodwill_and_intangibles": 502000000.0,
    "retained_earnings": 10229000000.0,
    "total_debt": 17896000000.0,
-   "shares_out": 2066000000.0
+   "shares_out": 2066000000.0,
+   "unusual_items": 238000000.0,
+   "normalized_ebitda": 7351000000.0,
+   "normalized_income": 3930740000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -231,7 +276,10 @@
    "goodwill_and_intangibles": 506000000.0,
    "retained_earnings": 9609000000.0,
    "total_debt": 17975000000.0,
-   "shares_out": 1958427685.0
+   "shares_out": 1958427685.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 7245000000.0,
+   "normalized_income": 3668000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -266,7 +314,10 @@
    "goodwill_and_intangibles": 433000000.0,
    "retained_earnings": 9988000000.0,
    "total_debt": 17897000000.0,
-   "shares_out": 1900189590.0
+   "shares_out": 1900189590.0,
+   "unusual_items": -108000000.0,
+   "normalized_ebitda": 7153000000.0,
+   "normalized_income": 3552274423.710209
   },
   {
    "fy_end": "2025-12-31",
@@ -301,7 +352,10 @@
    "goodwill_and_intangibles": 267000000.0,
    "retained_earnings": 10560000000.0,
    "total_debt": 18165000000.0,
-   "shares_out": 1859740714.0
+   "shares_out": 1859740714.0,
+   "unusual_items": -164000000.0,
+   "normalized_ebitda": 6457000000.0,
+   "normalized_income": 3014788000.0
   }
  ]
 }

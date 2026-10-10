@@ -1,6 +1,6 @@
 {
  "ticker": "RTW.L",
- "fetched_at": "2026-10-10T12:17:47+00:00",
+ "fetched_at": "2026-10-10T15:17:11+00:00",
  "region": "Europa",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": "https://www.rtwfunds.com/rtw-biotech-opportunities-ltd",
-  "longBusinessSummary": "RTW Biotech Opportunities Ltd is a venture capital fund. The fund specializes in directly investing and early-stage. The fund specializes in identifying transformative assets with high growth potential across the life sciences, biopharmaceutical and medical technology sectors. The fund invests in companies developing next-generation therapies and technologies that can significantly improve patients' lives."
+  "longBusinessSummary": "RTW Biotech Opportunities Ltd is a venture capital fund. The fund specializes in directly investing and early-stage. The fund specializes in identifying transformative assets with high growth potential across the life sciences, biopharmaceutical and medical technology sectors. The fund invests in companies developing next-generation therapies and technologies that can significantly improve patients' lives.",
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": 1.27,
+  "earningsGrowth": null,
+  "revenueGrowth": -0.706
  },
  "governance": {
   "insider_6m": {
@@ -47,8 +58,28 @@
   "cash": "yahoo",
   "equity": "yahoo",
   "receivables": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 1069041570.0,
+    "official": 1069041570.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 245192677.0,
+    "official": 245192677.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:17:11+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -66,7 +97,8 @@
    "cash": 6966168.0,
    "equity": 347923989.0,
    "receivables": 6250548.0,
-   "shares_out": 212389138.0
+   "shares_out": 212389138.0,
+   "normalized_income": -39436737.0
   },
   {
    "fy_end": "2023-12-31",
@@ -84,7 +116,8 @@
    "cash": 2721553.0,
    "equity": 429022957.0,
    "receivables": 34093785.0,
-   "shares_out": 210635347.0
+   "shares_out": 210635347.0,
+   "normalized_income": 83192379.0
   },
   {
    "fy_end": "2024-12-31",
@@ -102,7 +135,8 @@
    "cash": 5360022.0,
    "equity": 632643685.0,
    "receivables": 8837587.0,
-   "shares_out": 335713649.0
+   "shares_out": 335713649.0,
+   "normalized_income": 34179969.0
   },
   {
    "fy_end": "2025-12-31",
@@ -120,7 +154,8 @@
    "cash": 5986177.0,
    "equity": 865222854.0,
    "receivables": 90454226.0,
-   "shares_out": 326373649.0
+   "shares_out": 326373649.0,
+   "normalized_income": 245192677.0
   }
  ]
 }

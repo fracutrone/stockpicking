@@ -1,6 +1,6 @@
 {
  "ticker": "FGP.L",
- "fetched_at": "2026-10-10T11:57:59+00:00",
+ "fetched_at": "2026-10-10T14:48:17+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 30513,
   "website": "https://www.firstgroupplc.com",
-  "longBusinessSummary": "FirstGroup plc provides public transport services in the United Kingdom. It operates through First Bus and First Rail segments. It operates a fleet of approximately 6,000 buses and coaches, as well as 320 trains. The company was founded in 1986 and is based in London, the United Kingdom."
+  "longBusinessSummary": "FirstGroup plc provides public transport services in the United Kingdom. It operates through First Bus and First Rail segments. It operates a fleet of approximately 6,000 buses and coaches, as well as 320 trains. The company was founded in 1986 and is based in London, the United Kingdom.",
+  "targetMeanPrice": 260.0,
+  "targetLowPrice": 255.0,
+  "targetHighPrice": 270.0,
+  "numberOfAnalystOpinions": 3,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.33333,
+  "forwardPE": 9.767586,
+  "forwardEps": 0.19534,
+  "trailingEps": 0.2,
+  "earningsGrowth": -0.059,
+  "revenueGrowth": -0.142
  },
  "governance": {
   "ceo": {
@@ -71,8 +82,17 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T14:48:17+00:00",
  "years": [
   {
    "fy_end": "2023-03-31",
@@ -106,7 +126,10 @@
    "goodwill_and_intangibles": 110400000.0,
    "retained_earnings": 19500000.0,
    "total_debt": 2043800000.0,
-   "shares_out": 705459932.0
+   "shares_out": 705459932.0,
+   "unusual_items": -8600000.0,
+   "normalized_ebitda": 905300000.0,
+   "normalized_income": 84864000.0
   },
   {
    "fy_end": "2024-03-31",
@@ -140,7 +163,10 @@
    "goodwill_and_intangibles": 121400000.0,
    "retained_earnings": -74800000.0,
    "total_debt": 1599200000.0,
-   "shares_out": 625402016.0
+   "shares_out": 625402016.0,
+   "unusual_items": -145000000.0,
+   "normalized_ebitda": 800300000.0,
+   "normalized_income": 98550000.0
   },
   {
    "fy_end": "2025-03-31",
@@ -174,7 +200,10 @@
    "goodwill_and_intangibles": 159500000.0,
    "retained_earnings": -1300000.0,
    "total_debt": 1357400000.0,
-   "shares_out": 570558074.0
+   "shares_out": 570558074.0,
+   "unusual_items": 200000.0,
+   "normalized_ebitda": 849600000.0,
+   "normalized_income": 122649800.0
   },
   {
    "fy_end": "2026-03-31",
@@ -208,7 +237,10 @@
    "goodwill_and_intangibles": 178900000.0,
    "retained_earnings": 200000.0,
    "total_debt": 1005000000.0,
-   "shares_out": 542608697.0
+   "shares_out": 542608697.0,
+   "unusual_items": 10300000.0,
+   "normalized_ebitda": 774800000.0,
+   "normalized_income": 108351400.0
   }
  ]
 }

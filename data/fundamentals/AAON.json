@@ -1,6 +1,6 @@
 {
  "ticker": "AAON",
- "fetched_at": "2026-10-10T12:36:04+00:00",
+ "fetched_at": "2026-10-10T15:33:15+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 5897,
   "website": "https://www.aaon.com",
-  "longBusinessSummary": "AAON, Inc., together with its subsidiaries, engages in engineering, manufacturing, marketing, and selling air conditioning and heating equipment in the United States and Canada. The company operates through three segments: AAON Oklahoma, AAON Coil Products, and BASX. It offers rooftop units, data center cooling solutions, cleanroom systems, packaged outdoor mechanical rooms, air handling units, makeup air units, energy recovery units, condensing units, geothermal/water-source heat pumps, coils, and controls. The company markets and sells its products to retail, manufacturing, educational, lodging, supermarket, data centers, medical and pharmaceutical, and other commercial industries. It sells its products through a network of independent manufacturer representative organizations and internal sales force, as well as online. AAON, Inc. was incorporated in 1987 and is headquartered in Tulsa, Oklahoma."
+  "longBusinessSummary": "AAON, Inc., together with its subsidiaries, engages in engineering, manufacturing, marketing, and selling air conditioning and heating equipment in the United States and Canada. The company operates through three segments: AAON Oklahoma, AAON Coil Products, and BASX. It offers rooftop units, data center cooling solutions, cleanroom systems, packaged outdoor mechanical rooms, air handling units, makeup air units, energy recovery units, condensing units, geothermal/water-source heat pumps, coils, and controls. The company markets and sells its products to retail, manufacturing, educational, lodging, supermarket, data centers, medical and pharmaceutical, and other commercial industries. It sells its products through a network of independent manufacturer representative organizations and internal sales force, as well as online. AAON, Inc. was incorporated in 1987 and is headquartered in Tulsa, Oklahoma.",
+  "targetMeanPrice": 134.75,
+  "targetLowPrice": 110.0,
+  "targetHighPrice": 154.0,
+  "numberOfAnalystOpinions": 4,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.5,
+  "forwardPE": 24.628895,
+  "forwardEps": 3.49833,
+  "trailingEps": 1.9,
+  "earningsGrowth": 2.579,
+  "revenueGrowth": 1.012
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 1686510000.0,
+    "official": 1686510000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 894985000.0,
+    "official": 894985000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 107593000.0,
+    "official": 107593000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1442076000.0,
+    "official": 1442076000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:33:15+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -194,7 +236,10 @@
    "goodwill_and_intangibles": 146498000.0,
    "retained_earnings": 461657000.0,
    "total_debt": 78251000.0,
-   "shares_out": 80137776.0
+   "shares_out": 80137776.0,
+   "unusual_items": 12000.0,
+   "normalized_ebitda": 162578000.0,
+   "normalized_income": 100366328.0
   },
   {
    "fy_end": "2023-12-31",
@@ -228,7 +273,10 @@
    "goodwill_and_intangibles": 149945000.0,
    "retained_earnings": 612835000.0,
    "total_debt": 50550000.0,
-   "shares_out": 81508381.0
+   "shares_out": 81508381.0,
+   "unusual_items": 13000.0,
+   "normalized_ebitda": 241745000.0,
+   "normalized_income": 177612652.0
   },
   {
    "fy_end": "2024-12-31",
@@ -262,7 +310,10 @@
    "goodwill_and_intangibles": 160152000.0,
    "retained_earnings": 755310000.0,
    "total_debt": 170964000.0,
-   "shares_out": 81436594.0
+   "shares_out": 81436594.0,
+   "unusual_items": 23000.0,
+   "normalized_ebitda": 230015000.0,
+   "normalized_income": 168540232.0
   },
   {
    "fy_end": "2025-12-31",
@@ -296,7 +347,10 @@
    "goodwill_and_intangibles": 165799000.0,
    "retained_earnings": 830300000.0,
    "total_debt": 424646000.0,
-   "shares_out": 81691075.0
+   "shares_out": 81691075.0,
+   "unusual_items": -6101000.0,
+   "normalized_ebitda": 231936000.0,
+   "normalized_income": 112693436.0
   }
  ]
 }

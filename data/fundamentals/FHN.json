@@ -1,6 +1,6 @@
 {
  "ticker": "FHN",
- "fetched_at": "2026-10-10T12:45:35+00:00",
+ "fetched_at": "2026-10-10T15:43:54+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 7400,
   "website": "https://www.firsthorizon.com",
-  "longBusinessSummary": "First Horizon Corporation operates as the bank holding company for First Horizon Bank that provides various financial services. It operates through Regional Banking, Specialty Banking, and Corporate segments. The company offers commercial banking, business banking, consumer banking, private client investment, wealth management, financial planning, trust and asset management services, asset-based lending, commercial real estate, equipment finance/leasing, energy finance, international banking, healthcare finance, transportation and logistics finance, treasury management solutions, and loan syndications services. It also provides fixed income securities sales, trading, underwriting, and strategies for institutional clients; loan sales; portfolio advisory services; derivative sales; mortgage warehouse lending; franchise finance; corporate and correspondent banking; and mortgage origination services. Further, it provides transaction processing services, credit card products, and sale of mutual funds. First Horizon Corporation was formerly known as First Horizon National Corporation and changed its name to First Horizon Corporation in April 2004. The company was founded in 1864 and is headquartered in Memphis, Tennessee."
+  "longBusinessSummary": "First Horizon Corporation operates as the bank holding company for First Horizon Bank that provides various financial services. It operates through Regional Banking, Specialty Banking, and Corporate segments. The company offers commercial banking, business banking, consumer banking, private client investment, wealth management, financial planning, trust and asset management services, asset-based lending, commercial real estate, equipment finance/leasing, energy finance, international banking, healthcare finance, transportation and logistics finance, treasury management solutions, and loan syndications services. It also provides fixed income securities sales, trading, underwriting, and strategies for institutional clients; loan sales; portfolio advisory services; derivative sales; mortgage warehouse lending; franchise finance; corporate and correspondent banking; and mortgage origination services. Further, it provides transaction processing services, credit card products, and sale of mutual funds. First Horizon Corporation was formerly known as First Horizon National Corporation and changed its name to First Horizon Corporation in April 2004. The company was founded in 1864 and is headquartered in Memphis, Tennessee.",
+  "targetMeanPrice": 27.16667,
+  "targetLowPrice": 25.0,
+  "targetHighPrice": 30.0,
+  "numberOfAnalystOpinions": 21,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.38095,
+  "forwardPE": 9.954712,
+  "forwardEps": 2.3185,
+  "trailingEps": 2.08,
+  "earningsGrowth": 0.2,
+  "revenueGrowth": 0.09
  },
  "governance": {
   "ceo": {
@@ -78,8 +89,38 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "noninterest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 83876000000.0,
+    "official": 83876000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 8847000000.0,
+    "official": 8847000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 982000000.0,
+    "official": 982000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3323000000.0,
+    "official": 3419000000.0,
+    "diff": 0.028078
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:43:54+00:00",
  "years": [
   {
    "fy_end": "2017-12-31",
@@ -170,7 +211,9 @@
    "goodwill_and_intangibles": 1745000000.0,
    "retained_earnings": 3430000000.0,
    "total_debt": 2506000000.0,
-   "shares_out": 537100615.0
+   "shares_out": 537100615.0,
+   "unusual_items": 0.0,
+   "normalized_income": 900000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -197,7 +240,9 @@
    "goodwill_and_intangibles": 1696000000.0,
    "retained_earnings": 3964000000.0,
    "total_debt": 2549000000.0,
-   "shares_out": 558838694.0
+   "shares_out": 558838694.0,
+   "unusual_items": 225000000.0,
+   "normalized_income": 714300000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -225,7 +270,9 @@
    "goodwill_and_intangibles": 1653000000.0,
    "retained_earnings": 4382000000.0,
    "total_debt": 3400000000.0,
-   "shares_out": 524280000.0
+   "shares_out": 524280000.0,
+   "unusual_items": 0.0,
+   "normalized_income": 775000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -253,7 +300,9 @@
    "goodwill_and_intangibles": 1615000000.0,
    "retained_earnings": 5031000000.0,
    "total_debt": 3254000000.0,
-   "shares_out": 484825395.0
+   "shares_out": 484825395.0,
+   "unusual_items": 0.0,
+   "normalized_income": 982000000.0
   }
  ]
 }

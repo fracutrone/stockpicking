@@ -1,6 +1,6 @@
 {
  "ticker": "QCOM",
- "fetched_at": "2026-10-10T12:56:18+00:00",
+ "fetched_at": "2026-10-10T15:54:00+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 52000,
   "website": "https://www.qualcomm.com",
-  "longBusinessSummary": "QUALCOMM Incorporated engages in the development and commercialization of foundational technologies for the wireless industry worldwide. It operates through three segments: Qualcomm CDMA Technologies (QCT); Qualcomm Technology Licensing (QTL); and Qualcomm Strategic Initiatives (QSI). The QCT segment develops and supplies integrated circuits and system software with connectivity and computing technologies for use in mobile devices; automotive systems for connectivity, digital cockpit, and ADAS/AD; and IoT, including consumer electronic devices, industrial devices, and edge networking products. The QTL segment grants licenses or provides rights to use portions of its intellectual property portfolio, which include various patent rights useful in the manufacture and sale of wireless products comprising products implementing LTE, and/or OFDMA-based 5G products and derivatives; to use cellular standard-essential patents, including 3G, 4G and 5G for cellular devices. The QSI segment invests in early-stage companies in various industries, including 5G, artificial intelligence, automotive, consumer, enterprise, cloud, IoT, and extended reality, and investments, including non-marketable equity securities and, to a lesser extent, marketable equity securities, and convertible debt instruments. It also provides development, and other services and sells related products to the United States government agencies and their contractors. In addition, the company is also involved in Qualcomm government technologies and data center businesses. Further, it provides security and intelligence services for unmanaged networks through software-based network security solutions. The company is in collaboration with Amazon to enable customized silicon at scale for large-scale AI data centers. QUALCOMM Incorporated was incorporated in 1985 and is headquartered in San Diego, California."
+  "longBusinessSummary": "QUALCOMM Incorporated engages in the development and commercialization of foundational technologies for the wireless industry worldwide. It operates through three segments: Qualcomm CDMA Technologies (QCT); Qualcomm Technology Licensing (QTL); and Qualcomm Strategic Initiatives (QSI). The QCT segment develops and supplies integrated circuits and system software with connectivity and computing technologies for use in mobile devices; automotive systems for connectivity, digital cockpit, and ADAS/AD; and IoT, including consumer electronic devices, industrial devices, and edge networking products. The QTL segment grants licenses or provides rights to use portions of its intellectual property portfolio, which include various patent rights useful in the manufacture and sale of wireless products comprising products implementing LTE, and/or OFDMA-based 5G products and derivatives; to use cellular standard-essential patents, including 3G, 4G and 5G for cellular devices. The QSI segment invests in early-stage companies in various industries, including 5G, artificial intelligence, automotive, consumer, enterprise, cloud, IoT, and extended reality, and investments, including non-marketable equity securities and, to a lesser extent, marketable equity securities, and convertible debt instruments. It also provides development, and other services and sells related products to the United States government agencies and their contractors. In addition, the company is also involved in Qualcomm government technologies and data center businesses. Further, it provides security and intelligence services for unmanaged networks through software-based network security solutions. The company is in collaboration with Amazon to enable customized silicon at scale for large-scale AI data centers. QUALCOMM Incorporated was incorporated in 1985 and is headquartered in San Diego, California.",
+  "targetMeanPrice": 194.13333,
+  "targetLowPrice": 100.0,
+  "targetHighPrice": 400.0,
+  "numberOfAnalystOpinions": 30,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.56757,
+  "forwardPE": 17.211536,
+  "forwardEps": 10.19665,
+  "trailingEps": 8.64,
+  "earningsGrowth": -0.23,
+  "revenueGrowth": -0.04
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-09-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 50143000000.0,
+    "official": 50143000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 21206000000.0,
+    "official": 21206000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 5541000000.0,
+    "official": 5541000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 44284000000.0,
+    "official": 44284000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:54:00+00:00",
  "years": [
   {
    "fy_end": "2019-09-29",
@@ -208,7 +250,10 @@
    "goodwill_and_intangibles": 12390000000.0,
    "retained_earnings": 17840000000.0,
    "total_debt": 13537000000.0,
-   "shares_out": 1121000000.0
+   "shares_out": 1121000000.0,
+   "unusual_items": -322000000.0,
+   "normalized_ebitda": 17572000000.0,
+   "normalized_income": 13266140000.0
   },
   {
    "fy_end": "2023-09-24",
@@ -243,7 +288,10 @@
    "goodwill_and_intangibles": 12050000000.0,
    "retained_earnings": 20733000000.0,
    "total_debt": 14484000000.0,
-   "shares_out": 1114000000.0
+   "shares_out": 1114000000.0,
+   "unusual_items": -912000000.0,
+   "normalized_ebitda": 10858000000.0,
+   "normalized_income": 8241880000.0
   },
   {
    "fy_end": "2024-09-29",
@@ -278,7 +326,10 @@
    "goodwill_and_intangibles": 12043000000.0,
    "retained_earnings": 25687000000.0,
    "total_debt": 13270000000.0,
-   "shares_out": 1113000000.0
+   "shares_out": 1113000000.0,
+   "unusual_items": -93000000.0,
+   "normalized_ebitda": 12832000000.0,
+   "normalized_income": 10201140000.0
   },
   {
    "fy_end": "2025-09-28",
@@ -313,7 +364,10 @@
    "goodwill_and_intangibles": 12506000000.0,
    "retained_earnings": 20646000000.0,
    "total_debt": 14811000000.0,
-   "shares_out": 1074000000.0
+   "shares_out": 1074000000.0,
+   "unusual_items": 167000000.0,
+   "normalized_ebitda": 14762000000.0,
+   "normalized_income": 5409070000.0
   }
  ]
 }

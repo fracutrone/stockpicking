@@ -1,6 +1,6 @@
 {
  "ticker": "ODFL",
- "fetched_at": "2026-10-10T12:53:44+00:00",
+ "fetched_at": "2026-10-10T15:51:56+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 20173,
   "website": "https://www.odfl.com",
-  "longBusinessSummary": "Old Dominion Freight Line, Inc. operates as a less-than-truckload motor carrier in the United States and North America. The company offers regional, inter-regional, and national less-than-truckload services, as well as expedited transportation services. It also provides various value-added services, including container drayage, truckload brokerage, and supply chain consulting. In addition, the company operates fleet maintenance centers. As of December 31, 2025, it owned and operated 10,184 tractors, 30,824 linehaul trailers, and 14,313 pickup and delivery trailers. Old Dominion Freight Line, Inc. was founded in 1934 and is headquartered in Thomasville, North Carolina."
+  "longBusinessSummary": "Old Dominion Freight Line, Inc. operates as a less-than-truckload motor carrier in the United States and North America. The company offers regional, inter-regional, and national less-than-truckload services, as well as expedited transportation services. It also provides various value-added services, including container drayage, truckload brokerage, and supply chain consulting. In addition, the company operates fleet maintenance centers. As of December 31, 2025, it owned and operated 10,184 tractors, 30,824 linehaul trailers, and 14,313 pickup and delivery trailers. Old Dominion Freight Line, Inc. was founded in 1934 and is headquartered in Thomasville, North Carolina.",
+  "targetMeanPrice": 222.38095,
+  "targetLowPrice": 156.0,
+  "targetHighPrice": 250.0,
+  "numberOfAnalystOpinions": 21,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.33333,
+  "forwardPE": 27.115507,
+  "forwardEps": 6.71092,
+  "trailingEps": 5.2,
+  "earningsGrowth": 0.323,
+  "revenueGrowth": 0.104
  },
  "governance": {
   "ceo": {
@@ -82,8 +93,38 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "goodwill": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 5470160000.0,
+    "official": 5470160000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4311057000.0,
+    "official": 4311057000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1023703000.0,
+    "official": 1023703000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 5496389000.0,
+    "official": 5496389000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:51:56+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -186,7 +227,9 @@
    "ppe_net": 3687068000.0,
    "retained_earnings": 3397305000.0,
    "total_debt": 79963000.0,
-   "shares_out": 220445638.0
+   "shares_out": 220445638.0,
+   "normalized_ebitda": 2118978000.0,
+   "normalized_income": 1377159000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -217,7 +260,9 @@
    "ppe_net": 4095405000.0,
    "retained_earnings": 4004569000.0,
    "total_debt": 59977000.0,
-   "shares_out": 217930932.0
+   "shares_out": 217930932.0,
+   "normalized_ebitda": 1972689000.0,
+   "normalized_income": 1239502000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -248,7 +293,9 @@
    "ppe_net": 4505431000.0,
    "retained_earnings": 3995209000.0,
    "total_debt": 39987000.0,
-   "shares_out": 212984747.0
+   "shares_out": 212984747.0,
+   "normalized_ebitda": 1902387000.0,
+   "normalized_income": 1186073000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -279,7 +326,9 @@
    "ppe_net": 4504204000.0,
    "retained_earnings": 4055604000.0,
    "total_debt": 19995000.0,
-   "shares_out": 208556788.0
+   "shares_out": 208556788.0,
+   "normalized_ebitda": 1726295000.0,
+   "normalized_income": 1023703000.0
   }
  ]
 }

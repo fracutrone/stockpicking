@@ -1,6 +1,6 @@
 {
  "ticker": "PG",
- "fetched_at": "2026-10-10T12:55:19+00:00",
+ "fetched_at": "2026-10-10T15:53:03+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 104000,
   "website": "https://www.pginvestor.com",
-  "longBusinessSummary": "The Procter & Gamble Company provides branded consumer packaged goods worldwide. It operates through five segments: Beauty; Grooming; Health Care; Fabric & Home Care; and Baby, Feminine & Family Care. The company offers conditioners, shampoos, styling aids, and treatments under the Head & Shoulders, Herbal Essences, Pantene, and Rejoice brands; antiperspirants, deodorants, and personal cleansing products under the Native, Old Spice, Safeguard, and Secret brands; and facial moisturizers, cleaners, and treatments under the Olay and SK-II brands. It also provides blades, razors, shave products, appliances, and other grooming products under the Braun, Gillette, and Venus brands. In addition, the company offers toothbrushes, toothpastes, and other oral care products under the Crest and Oral-B brands; and gastrointestinal, pain relief, rapid diagnostics, respiratory, vitamins/minerals/supplements, and other personal health care products under the Metamucil, Neurobion, Pepto-Bismol, and Vicks brands. Further, it provides fabric enhancers, and laundry additives and detergents under the Ariel, Downy, Gain, and Tide brands; and air and dish care, P&G professional, and surface care under the Cascade, Dawn, Fairy, Febreze, Mr. Clean, and Swiffer brands. Additionally, the company offers baby wipes, taped diapers, and pants under the Luvs and Pampers brands; adult incontinence and menstrual care products under the Always, Always Discreet, and Tampax brands; and paper towels, tissues, and toilet papers under the Bounty, Charmin, and Puffs brands. It sells its products through mass merchandisers, social ecommerce channels, grocery and specialty beauty stores, membership club stores, drug and department stores, distributors, wholesalers, airport duty-free and high-frequency stores, pharmacies, electronics stores, and professional channels, as well as directly to consumers. The company was founded in 1837 and is headquartered in Cincinnati, Ohio."
+  "longBusinessSummary": "The Procter & Gamble Company provides branded consumer packaged goods worldwide. It operates through five segments: Beauty; Grooming; Health Care; Fabric & Home Care; and Baby, Feminine & Family Care. The company offers conditioners, shampoos, styling aids, and treatments under the Head & Shoulders, Herbal Essences, Pantene, and Rejoice brands; antiperspirants, deodorants, and personal cleansing products under the Native, Old Spice, Safeguard, and Secret brands; and facial moisturizers, cleaners, and treatments under the Olay and SK-II brands. It also provides blades, razors, shave products, appliances, and other grooming products under the Braun, Gillette, and Venus brands. In addition, the company offers toothbrushes, toothpastes, and other oral care products under the Crest and Oral-B brands; and gastrointestinal, pain relief, rapid diagnostics, respiratory, vitamins/minerals/supplements, and other personal health care products under the Metamucil, Neurobion, Pepto-Bismol, and Vicks brands. Further, it provides fabric enhancers, and laundry additives and detergents under the Ariel, Downy, Gain, and Tide brands; and air and dish care, P&G professional, and surface care under the Cascade, Dawn, Fairy, Febreze, Mr. Clean, and Swiffer brands. Additionally, the company offers baby wipes, taped diapers, and pants under the Luvs and Pampers brands; adult incontinence and menstrual care products under the Always, Always Discreet, and Tampax brands; and paper towels, tissues, and toilet papers under the Bounty, Charmin, and Puffs brands. It sells its products through mass merchandisers, social ecommerce channels, grocery and specialty beauty stores, membership club stores, drug and department stores, distributors, wholesalers, airport duty-free and high-frequency stores, pharmacies, electronics stores, and professional channels, as well as directly to consumers. The company was founded in 1837 and is headquartered in Cincinnati, Ohio.",
+  "targetMeanPrice": 161.21739,
+  "targetLowPrice": 143.0,
+  "targetHighPrice": 186.0,
+  "numberOfAnalystOpinions": 23,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.12,
+  "forwardPE": 20.4461,
+  "forwardEps": 7.39652,
+  "trailingEps": 6.62,
+  "earningsGrowth": -0.155,
+  "revenueGrowth": 0.015
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-06-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 126521000000.0,
+    "official": 126521000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 54081000000.0,
+    "official": 54311000000.0,
+    "diff": 0.004235
+   },
+   "net_income": {
+    "yahoo": 16046000000.0,
+    "official": 16046000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 87032000000.0,
+    "official": 87032000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:53:03+00:00",
  "years": [
   {
    "fy_end": "2020-06-30",
@@ -201,7 +243,10 @@
    "goodwill_and_intangibles": 64442000000.0,
    "retained_earnings": 118170000000.0,
    "total_debt": 34565000000.0,
-   "shares_out": 2362100000.0
+   "shares_out": 2362100000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 21823000000.0,
+   "normalized_income": 14653000000.0
   },
   {
    "fy_end": "2024-06-30",
@@ -235,7 +280,10 @@
    "goodwill_and_intangibles": 62350000000.0,
    "retained_earnings": 123811000000.0,
    "total_debt": 32434000000.0,
-   "shares_out": 2357050915.0
+   "shares_out": 2357050915.0,
+   "unusual_items": -1341000000.0,
+   "normalized_ebitda": 23923000000.0,
+   "normalized_income": 15949118000.0
   },
   {
    "fy_end": "2025-06-30",
@@ -269,7 +317,10 @@
    "goodwill_and_intangibles": 63560000000.0,
    "retained_earnings": 129973000000.0,
    "total_debt": 34480000000.0,
-   "shares_out": 2341944000.0
+   "shares_out": 2341944000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 23921000000.0,
+   "normalized_income": 15974000000.0
   },
   {
    "fy_end": "2026-06-30",
@@ -303,7 +354,10 @@
    "goodwill_and_intangibles": 62720000000.0,
    "retained_earnings": 135852000000.0,
    "total_debt": 34136000000.0,
-   "shares_out": 2323859000.0
+   "shares_out": 2323859000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 24414000000.0,
+   "normalized_income": 16046000000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "WIZZ.L",
- "fetched_at": "2026-10-10T12:26:20+00:00",
+ "fetched_at": "2026-10-10T15:29:40+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 9668,
   "website": "https://wizzair.com",
-  "longBusinessSummary": "Wizz Air Holdings Plc, together with its subsidiaries, engages in the provision of passenger air transportation services. The company offers scheduled short-haul and medium-haul point-to-point routes in Europe, the Middle East, North Africa, and Northwest Asia. As of 31 March 2026, it operated a fleet of 262 aircraft, connecting approximately 200 destinations on 1016 routes in 45 countries. The company provides its services under the Wizz Air brand. Wizz Air Holdings Plc was founded in 2003 and is headquartered in Budapest, Hungary."
+  "longBusinessSummary": "Wizz Air Holdings Plc, together with its subsidiaries, engages in the provision of passenger air transportation services. The company offers scheduled short-haul and medium-haul point-to-point routes in Europe, the Middle East, North Africa, and Northwest Asia. As of 31 March 2026, it operated a fleet of 262 aircraft, connecting approximately 200 destinations on 1016 routes in 45 countries. The company provides its services under the Wizz Air brand. Wizz Air Holdings Plc was founded in 2003 and is headquartered in Budapest, Hungary.",
+  "targetMeanPrice": 1059.0099,
+  "targetLowPrice": 688.7767,
+  "targetHighPrice": 1433.3949,
+  "numberOfAnalystOpinions": 21,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.28571,
+  "forwardPE": -12.112245,
+  "forwardEps": -0.836344,
+  "trailingEps": 0.02,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.055
  },
  "governance": {
   "ceo": {
@@ -70,8 +81,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2026-03-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 11269900000.0,
+    "official": 11269900000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 932100000.0,
+    "official": 932100000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2200000.0,
+    "official": 2200000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 5691400000.0,
+    "official": 5691400000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2026-03-31"
+ },
+ "info_at": "2026-10-10T15:29:40+00:00",
  "years": [
   {
    "fy_end": "2023-03-31",
@@ -104,7 +147,10 @@
    "goodwill_and_intangibles": 76800000.0,
    "retained_earnings": -433600000.0,
    "total_debt": 5301500000.0,
-   "shares_out": 103282854.0
+   "shares_out": 103282854.0,
+   "unusual_items": 99900000.0,
+   "normalized_ebitda": 71800000.0,
+   "normalized_income": -617680286.928799
   },
   {
    "fy_end": "2024-03-31",
@@ -138,7 +184,10 @@
    "goodwill_and_intangibles": 92800000.0,
    "retained_earnings": -48700000.0,
    "total_debt": 6269700000.0,
-   "shares_out": 103360705.0
+   "shares_out": 103360705.0,
+   "unusual_items": 245500000.0,
+   "normalized_ebitda": 1293100000.0,
+   "normalized_income": 376600000.0
   },
   {
    "fy_end": "2025-03-31",
@@ -172,7 +221,10 @@
    "goodwill_and_intangibles": 99000000.0,
    "retained_earnings": 188600000.0,
    "total_debt": 6614000000.0,
-   "shares_out": 103396078.0
+   "shares_out": 103396078.0,
+   "unusual_items": -6400000.0,
+   "normalized_ebitda": 1242400000.0,
+   "normalized_income": 230600000.0
   },
   {
    "fy_end": "2026-03-31",
@@ -206,7 +258,10 @@
    "goodwill_and_intangibles": 114900000.0,
    "retained_earnings": 207300000.0,
    "total_debt": 6980200000.0,
-   "shares_out": 103461185.0
+   "shares_out": 103461185.0,
+   "unusual_items": -20600000.0,
+   "normalized_ebitda": 1494000000.0,
+   "normalized_income": 14560000.0
   }
  ]
 }

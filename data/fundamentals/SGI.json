@@ -1,6 +1,6 @@
 {
  "ticker": "SGI",
- "fetched_at": "2026-10-10T12:57:52+00:00",
+ "fetched_at": "2026-10-10T15:55:28+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 19000,
   "website": "https://somnigroup.com",
-  "longBusinessSummary": "Somnigroup International Inc., together with its subsidiaries, designs, manufactures, distributes, and retails bedding products in the United States and internationally. It provides mattresses, foundations and adjustable foundations, and adjustable bases, as well as other products comprising pillows and other accessories under the Tempur-Pedic, Sealy, Stearns & Foster, and Sleepy's brands. The company operates a portfolio of retail brands, including Mattress Firm, Dreams, Tempur-Pedic retail stores, and SOVA; and licenses Sealy, Tempur, and Stearns & Foster brands, as well as technology and trademarks to other manufacturers. It sells its products through company-owned stores, online, and call centers; and third-party retailers, including third party distribution, hospitality, and healthcare. The company was formerly known as Tempur Sealy International, Inc. and changed its name to Somnigroup International Inc. in February 2025. The company was founded in 1846 and is based in Dallas, Texas."
+  "longBusinessSummary": "Somnigroup International Inc., together with its subsidiaries, designs, manufactures, distributes, and retails bedding products in the United States and internationally. It provides mattresses, foundations and adjustable foundations, and adjustable bases, as well as other products comprising pillows and other accessories under the Tempur-Pedic, Sealy, Stearns & Foster, and Sleepy's brands. The company operates a portfolio of retail brands, including Mattress Firm, Dreams, Tempur-Pedic retail stores, and SOVA; and licenses Sealy, Tempur, and Stearns & Foster brands, as well as technology and trademarks to other manufacturers. It sells its products through company-owned stores, online, and call centers; and third-party retailers, including third party distribution, hospitality, and healthcare. The company was formerly known as Tempur Sealy International, Inc. and changed its name to Somnigroup International Inc. in February 2025. The company was founded in 1846 and is based in Dallas, Texas.",
+  "targetMeanPrice": 93.44444,
+  "targetLowPrice": 80.0,
+  "targetHighPrice": 105.0,
+  "numberOfAnalystOpinions": 9,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 15.813844,
+  "forwardEps": 3.93263,
+  "trailingEps": 2.51,
+  "earningsGrowth": 0.106,
+  "revenueGrowth": -0.03
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 11600700000.0,
+    "official": 11600700000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3108000000.0,
+    "official": 3108000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 384100000.0,
+    "official": 384100000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 7476500000.0,
+    "official": 7476500000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:55:28+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -200,7 +242,9 @@
    "goodwill_and_intangibles": 1778100000.0,
    "retained_earnings": 2988500000.0,
    "total_debt": 2752000000.0,
-   "shares_out": 170400000.0
+   "shares_out": 170400000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 807300000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -234,7 +278,10 @@
    "goodwill_and_intangibles": 1798100000.0,
    "retained_earnings": 3279200000.0,
    "total_debt": 2501500000.0,
-   "shares_out": 172274333.0
+   "shares_out": 172274333.0,
+   "unusual_items": -3200000.0,
+   "normalized_ebitda": 742500000.0,
+   "normalized_income": 370602088.167053
   },
   {
    "fy_end": "2024-12-31",
@@ -268,7 +315,9 @@
    "goodwill_and_intangibles": 1767200000.0,
    "retained_earnings": 3571800000.0,
    "total_debt": 3755700000.0,
-   "shares_out": 173652870.0
+   "shares_out": 173652870.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 804200000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -302,7 +351,9 @@
    "goodwill_and_intangibles": 7183000000.0,
    "retained_earnings": 3829200000.0,
    "total_debt": 4606700000.0,
-   "shares_out": 209907662.0
+   "shares_out": 209907662.0,
+   "unusual_items": -13900000.0,
+   "normalized_ebitda": 1012300000.0
   }
  ]
 }

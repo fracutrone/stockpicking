@@ -1,6 +1,6 @@
 {
  "ticker": "OTIS",
- "fetched_at": "2026-10-10T12:54:39+00:00",
+ "fetched_at": "2026-10-10T15:52:29+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 72000,
   "website": "https://www.otis.com",
-  "longBusinessSummary": "Otis Worldwide Corporation engages in manufacturing, installation, and servicing of elevators and escalators in the United States, China, and internationally. The company operates in two segments, New Equipment and Service. The New Equipment segment designs, manufactures, sells, and installs a range of passenger and freight elevators, as well as escalators and moving walkways for residential and commercial buildings, and infrastructure projects. This segment serves real-estate and building developers, and general contractors. It sells its products directly to customers, as well as through agents and distributors. The Service segment performs maintenance and repair services, as well as modernization services to upgrade elevators and escalators. Otis Worldwide Corporation was founded in 1853 and is headquartered in Farmington, Connecticut."
+  "longBusinessSummary": "Otis Worldwide Corporation engages in manufacturing, installation, and servicing of elevators and escalators in the United States, China, and internationally. The company operates in two segments, New Equipment and Service. The New Equipment segment designs, manufactures, sells, and installs a range of passenger and freight elevators, as well as escalators and moving walkways for residential and commercial buildings, and infrastructure projects. This segment serves real-estate and building developers, and general contractors. It sells its products directly to customers, as well as through agents and distributors. The Service segment performs maintenance and repair services, as well as modernization services to upgrade elevators and escalators. Otis Worldwide Corporation was founded in 1853 and is headquartered in Farmington, Connecticut.",
+  "targetMeanPrice": 86.53846,
+  "targetLowPrice": 73.0,
+  "targetHighPrice": 105.0,
+  "numberOfAnalystOpinions": 13,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.33333,
+  "forwardPE": 14.55959,
+  "forwardEps": 4.52966,
+  "trailingEps": 3.89,
+  "earningsGrowth": 0.13,
+  "revenueGrowth": 0.073
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "interest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 10653000000.0,
+    "official": 10653000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": -5392000000.0,
+    "official": -5392000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1384000000.0,
+    "official": 1384000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 14431000000.0,
+    "official": 14431000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:52:29+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -200,7 +242,10 @@
    "goodwill_and_intangibles": 1936000000.0,
    "retained_earnings": -2865000000.0,
    "total_debt": 6768000000.0,
-   "shares_out": 414800000.0
+   "shares_out": 414800000.0,
+   "unusual_items": -38000000.0,
+   "normalized_ebitda": 2300000000.0,
+   "normalized_income": 1280550000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -234,7 +279,10 @@
    "goodwill_and_intangibles": 1923000000.0,
    "retained_earnings": -2005000000.0,
    "total_debt": 6898000000.0,
-   "shares_out": 406600000.0
+   "shares_out": 406600000.0,
+   "unusual_items": -61000000.0,
+   "normalized_ebitda": 2501000000.0,
+   "normalized_income": 1451018000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -268,7 +316,10 @@
    "goodwill_and_intangibles": 1859000000.0,
    "retained_earnings": -978000000.0,
    "total_debt": 8324000000.0,
-   "shares_out": 397600000.0
+   "shares_out": 397600000.0,
+   "unusual_items": -43000000.0,
+   "normalized_ebitda": 2275000000.0,
+   "normalized_income": 1681567925.453654
   },
   {
    "fy_end": "2025-12-31",
@@ -302,7 +353,10 @@
    "goodwill_and_intangibles": 2038000000.0,
    "retained_earnings": -440000000.0,
    "total_debt": 7956000000.0,
-   "shares_out": 389800000.0
+   "shares_out": 389800000.0,
+   "unusual_items": -86000000.0,
+   "normalized_ebitda": 2480000000.0,
+   "normalized_income": 1448700103.412616
   }
  ]
 }

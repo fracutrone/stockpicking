@@ -1,6 +1,6 @@
 {
  "ticker": "LYV",
- "fetched_at": "2026-10-10T12:50:59+00:00",
+ "fetched_at": "2026-10-10T15:49:13+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 17700,
   "website": "https://www.livenationentertainment.com",
-  "longBusinessSummary": "Live Nation Entertainment, Inc. operates as a live entertainment company worldwide. The company operates through Concerts, Ticketing, and Sponsorship & Advertising segments. Its Concerts segment promotes live music events in its owned or operated venues, and in rented third-party venues. This segment operates and manages music venues; produces music festivals; creates associated content; and offers management and other services to artists. The Ticketing segment manages the ticketing operations, including the provision of ticketing software and services to consumers with marketplace for tickets and event information through mobile apps, other websites, and retail outlets, as well as its websites, such as livenation.com and ticketmaster.com; and provides ticket resale services. This segment offers ticketing services for arenas, stadiums, amphitheaters, music clubs, concert promoters, professional sports franchises and leagues, college sports teams, performing arts venues, museums, and theaters. Its Sponsorship & Advertising segment sells international, national, and local sponsorships and placement of advertising, including signage, online advertising, and promotional programs; rich media offering, including advertising related with live streaming and music-related content; and ads through distribution network of venues, events, and websites. This segment also manages the development of strategic sponsorship programs, as well as develops, books, and produces custom events or programs for specific brands. It owns, operates, or leases entertainment venues. The company was formerly known as Live Nation, Inc. and changed its name to Live Nation Entertainment, Inc. in January 2010. Live Nation Entertainment, Inc. was incorporated in 2005 and is headquartered in Beverly Hills, California."
+  "longBusinessSummary": "Live Nation Entertainment, Inc. operates as a live entertainment company worldwide. The company operates through Concerts, Ticketing, and Sponsorship & Advertising segments. Its Concerts segment promotes live music events in its owned or operated venues, and in rented third-party venues. This segment operates and manages music venues; produces music festivals; creates associated content; and offers management and other services to artists. The Ticketing segment manages the ticketing operations, including the provision of ticketing software and services to consumers with marketplace for tickets and event information through mobile apps, other websites, and retail outlets, as well as its websites, such as livenation.com and ticketmaster.com; and provides ticket resale services. This segment offers ticketing services for arenas, stadiums, amphitheaters, music clubs, concert promoters, professional sports franchises and leagues, college sports teams, performing arts venues, museums, and theaters. Its Sponsorship & Advertising segment sells international, national, and local sponsorships and placement of advertising, including signage, online advertising, and promotional programs; rich media offering, including advertising related with live streaming and music-related content; and ads through distribution network of venues, events, and websites. This segment also manages the development of strategic sponsorship programs, as well as develops, books, and produces custom events or programs for specific brands. It owns, operates, or leases entertainment venues. The company was formerly known as Live Nation, Inc. and changed its name to Live Nation Entertainment, Inc. in January 2010. Live Nation Entertainment, Inc. was incorporated in 2005 and is headquartered in Beverly Hills, California.",
+  "targetMeanPrice": 201.95833,
+  "targetLowPrice": 145.0,
+  "targetHighPrice": 222.0,
+  "numberOfAnalystOpinions": 24,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.64,
+  "forwardPE": 88.14655,
+  "forwardEps": 1.93235,
+  "trailingEps": -1.11,
+  "earningsGrowth": 1.562,
+  "revenueGrowth": 0.094
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 22912533000.0,
+    "official": 22912533000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 271007000.0,
+    "official": 271007000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 495972000.0,
+    "official": 495972000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 25201406000.0,
+    "official": 25201406000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:49:13+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -196,7 +238,10 @@
    "goodwill_and_intangibles": 3948714000.0,
    "retained_earnings": -2971229000.0,
    "total_debt": 5283467000.0,
-   "shares_out": 231263623.0
+   "shares_out": 231263623.0,
+   "unusual_items": 32082000.0,
+   "normalized_ebitda": 1186901000.0,
+   "normalized_income": 241940950.39998
   },
   {
    "fy_end": "2023-12-31",
@@ -230,7 +275,10 @@
    "goodwill_and_intangibles": 4230436000.0,
    "retained_earnings": -2443106000.0,
    "total_debt": 5459026000.0,
-   "shares_out": 233303152.0
+   "shares_out": 233303152.0,
+   "unusual_items": -4577000.0,
+   "normalized_ebitda": 1784892000.0,
+   "normalized_income": 560420181.816191
   },
   {
    "fy_end": "2024-12-31",
@@ -264,7 +312,10 @@
    "goodwill_and_intangibles": 3987281000.0,
    "retained_earnings": -1546819000.0,
    "total_debt": 6177168000.0,
-   "shares_out": 234363735.0
+   "shares_out": 234363735.0,
+   "unusual_items": 8452000.0,
+   "normalized_ebitda": 1606871000.0,
+   "normalized_income": 889609920.0
   },
   {
    "fy_end": "2025-12-31",
@@ -298,7 +349,10 @@
    "goodwill_and_intangibles": 4336646000.0,
    "retained_earnings": -1041978000.0,
    "total_debt": 7612018000.0,
-   "shares_out": 235421446.0
+   "shares_out": 235421446.0,
+   "unusual_items": 17748000.0,
+   "normalized_ebitda": 1967684000.0,
+   "normalized_income": 484080840.0
   }
  ]
 }

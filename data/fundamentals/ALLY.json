@@ -1,6 +1,6 @@
 {
  "ticker": "ALLY",
- "fetched_at": "2026-10-10T12:37:07+00:00",
+ "fetched_at": "2026-10-10T15:34:09+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 10300,
   "website": "https://www.ally.com",
-  "longBusinessSummary": "Ally Financial Inc., a digital financial-services company, provides various digital financial products and services in the United States and Canada. The company operates through Automotive Finance operations, Insurance operations, and Corporate Finance operations. It offers automotive financing services, including providing retail installment sales contracts, loans and operating leases, term loans to dealers, financing dealer floorplans and other lines of credit to dealers, warehouse lines to automotive retailers, and fleet financing; and financing services to companies and municipalities for the purchase or lease of vehicles, and vehicle-remarketing services. The company also provides consumer finance protection and insurance products through the automotive dealer channel, and commercial insurance products directly to dealers; VSCs, VMCs, and GAP products; and underwrite select commercial insurance coverages, which primarily insure dealers' vehicle inventory. In addition, it provides senior secured asset-based and leveraged cash flow loans to middle-market companies; leveraged loans; commercial real estate product to serve companies in the nursing facilities, senior housing, and medical office buildings; and treasury activities, such as management of the cash and corporate investment securities and loan portfolios, short- and long-term debt, retail and brokered deposit liabilities, derivative instruments, original issue discount, and equity investments. Further, the company offers deposits and securities brokerage and investment advisory services. The company was formerly known as GMAC Inc. and changed its name to Ally Financial Inc. in May 2010. Ally Financial Inc. was founded in 1919 and is based in Detroit, Michigan."
+  "longBusinessSummary": "Ally Financial Inc., a digital financial-services company, provides various digital financial products and services in the United States and Canada. The company operates through Automotive Finance operations, Insurance operations, and Corporate Finance operations. It offers automotive financing services, including providing retail installment sales contracts, loans and operating leases, term loans to dealers, financing dealer floorplans and other lines of credit to dealers, warehouse lines to automotive retailers, and fleet financing; and financing services to companies and municipalities for the purchase or lease of vehicles, and vehicle-remarketing services. The company also provides consumer finance protection and insurance products through the automotive dealer channel, and commercial insurance products directly to dealers; VSCs, VMCs, and GAP products; and underwrite select commercial insurance coverages, which primarily insure dealers' vehicle inventory. In addition, it provides senior secured asset-based and leveraged cash flow loans to middle-market companies; leveraged loans; commercial real estate product to serve companies in the nursing facilities, senior housing, and medical office buildings; and treasury activities, such as management of the cash and corporate investment securities and loan portfolios, short- and long-term debt, retail and brokered deposit liabilities, derivative instruments, original issue discount, and equity investments. Further, the company offers deposits and securities brokerage and investment advisory services. The company was formerly known as GMAC Inc. and changed its name to Ally Financial Inc. in May 2010. Ally Financial Inc. was founded in 1919 and is based in Detroit, Michigan.",
+  "targetMeanPrice": 49.72778,
+  "targetLowPrice": 40.0,
+  "targetHighPrice": 58.0,
+  "numberOfAnalystOpinions": 18,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.61111,
+  "forwardPE": 6.063862,
+  "forwardEps": 6.19902,
+  "trailingEps": 4.25,
+  "earningsGrowth": 0.135,
+  "revenueGrowth": 0.11
  },
  "governance": {
   "ceo": {
@@ -78,8 +89,38 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "noninterest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 196002000000.0,
+    "official": 196002000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 15498000000.0,
+    "official": 15498000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 852000000.0,
+    "official": 852000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 8770000000.0,
+    "official": 7914000000.0,
+    "diff": 0.108163
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:34:09+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -167,7 +208,9 @@
    "goodwill_and_intangibles": 920000000.0,
    "retained_earnings": -384000000.0,
    "total_debt": 20161000000.0,
-   "shares_out": 299324357.0
+   "shares_out": 299324357.0,
+   "unusual_items": 0.0,
+   "normalized_income": 1715000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -195,7 +238,9 @@
    "goodwill_and_intangibles": 742000000.0,
    "retained_earnings": 91000000.0,
    "total_debt": 20867000000.0,
-   "shares_out": 302459258.0
+   "shares_out": 302459258.0,
+   "unusual_items": -149000000.0,
+   "normalized_income": 1088547597.461469
   },
   {
    "fy_end": "2024-12-31",
@@ -223,7 +268,9 @@
    "goodwill_and_intangibles": 605000000.0,
    "retained_earnings": 270000000.0,
    "total_debt": 19120000000.0,
-   "shares_out": 305220495.0
+   "shares_out": 305220495.0,
+   "unusual_items": -118000000.0,
+   "normalized_income": 763428229.665072
   },
   {
    "fy_end": "2025-12-31",
@@ -251,7 +298,9 @@
    "goodwill_and_intangibles": 190000000.0,
    "retained_earnings": 633000000.0,
    "total_debt": 21765000000.0,
-   "shares_out": 308492929.0
+   "shares_out": 308492929.0,
+   "unusual_items": -305000000.0,
+   "normalized_income": 1099250237.868696
   }
  ]
 }

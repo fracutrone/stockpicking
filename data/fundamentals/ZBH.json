@@ -1,6 +1,6 @@
 {
  "ticker": "ZBH",
- "fetched_at": "2026-10-10T13:03:16+00:00",
+ "fetched_at": "2026-10-10T16:00:34+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 17000,
   "website": "https://www.zimmerbiomet.com",
-  "longBusinessSummary": "Zimmer Biomet Holdings, Inc., together with its subsidiaries, operates as a medical technology company worldwide. The company designs, manufactures, and markets orthopedic reconstructive products, such as knee and hip products; S.E.T. products, including sports medicine, biologics, foot and ankle, upper extremities, and trauma and CMFT products; sports medicine products for the repair of soft tissue injuries, used in the knee and shoulder; and craniomaxillofacial and thoracic products comprising face and skull reconstruction products, as well as products that fixate and stabilize the bones of the chest to facilitate healing or reconstruction after open-heart surgery, trauma, or for deformities of the chest. It offers technology and data, bone cement, and surgical products; and a suite of integrated digital and robotic technologies that leverage data, data analytics and artificial intelligence. The company's products and solutions are used to treat patients suffering from disorders of, or injuries to, bones, joints, or supporting soft tissues. It serves orthopedic surgeons, neurosurgeons, hospitals, healthcare institutions, stocking distributors, healthcare dealers, and other specialists, as well as agents, healthcare purchasing organizations, or buying groups. It also offers ROSA Robot, which utilizes robotic technologies to assist a surgeon with implant positioning in total knee arthroplasty or partial knee arthroplasty; and the ZBEdge Platform connects robotic and digital technologies together to collect data before, during and after surgery, that can deliver insights to surgeons to assist in making informed decisions on patient care. The company was formerly known as Zimmer Holdings, Inc. and changed its name to Zimmer Biomet Holdings, Inc. in June 2015. Zimmer Biomet Holdings, Inc. was founded in 1927 and is headquartered in Warsaw, Indiana."
+  "longBusinessSummary": "Zimmer Biomet Holdings, Inc., together with its subsidiaries, operates as a medical technology company worldwide. The company designs, manufactures, and markets orthopedic reconstructive products, such as knee and hip products; S.E.T. products, including sports medicine, biologics, foot and ankle, upper extremities, and trauma and CMFT products; sports medicine products for the repair of soft tissue injuries, used in the knee and shoulder; and craniomaxillofacial and thoracic products comprising face and skull reconstruction products, as well as products that fixate and stabilize the bones of the chest to facilitate healing or reconstruction after open-heart surgery, trauma, or for deformities of the chest. It offers technology and data, bone cement, and surgical products; and a suite of integrated digital and robotic technologies that leverage data, data analytics and artificial intelligence. The company's products and solutions are used to treat patients suffering from disorders of, or injuries to, bones, joints, or supporting soft tissues. It serves orthopedic surgeons, neurosurgeons, hospitals, healthcare institutions, stocking distributors, healthcare dealers, and other specialists, as well as agents, healthcare purchasing organizations, or buying groups. It also offers ROSA Robot, which utilizes robotic technologies to assist a surgeon with implant positioning in total knee arthroplasty or partial knee arthroplasty; and the ZBEdge Platform connects robotic and digital technologies together to collect data before, during and after surgery, that can deliver insights to surgeons to assist in making informed decisions on patient care. The company was formerly known as Zimmer Holdings, Inc. and changed its name to Zimmer Biomet Holdings, Inc. in June 2015. Zimmer Biomet Holdings, Inc. was founded in 1927 and is headquartered in Warsaw, Indiana.",
+  "targetMeanPrice": 106.81818,
+  "targetLowPrice": 93.0,
+  "targetHighPrice": 130.0,
+  "numberOfAnalystOpinions": 22,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.46429,
+  "forwardPE": 9.826878,
+  "forwardEps": 9.07104,
+  "trailingEps": 4.12,
+  "earningsGrowth": 0.338,
+  "revenueGrowth": 0.048
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 23091700000.0,
+    "official": 23091700000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 12697700000.0,
+    "official": 12697700000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 705100000.0,
+    "official": 705100000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 8231500000.0,
+    "official": 8231500000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T16:00:34+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -203,7 +245,10 @@
    "goodwill_and_intangibles": 13644000000.0,
    "retained_earnings": 9559300000.0,
    "total_debt": 5696500000.0,
-   "shares_out": 209000000.0
+   "shares_out": 209000000.0,
+   "unusual_items": -495800000.0,
+   "normalized_ebitda": 1990500000.0,
+   "normalized_income": 647671800.0
   },
   {
    "fy_end": "2023-12-31",
@@ -237,7 +282,10 @@
    "goodwill_and_intangibles": 13674900000.0,
    "retained_earnings": 10384500000.0,
    "total_debt": 5767900000.0,
-   "shares_out": 205600000.0
+   "shares_out": 205600000.0,
+   "unusual_items": -173600000.0,
+   "normalized_ebitda": 2393800000.0,
+   "normalized_income": 1190656000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -271,7 +319,10 @@
    "goodwill_and_intangibles": 13549500000.0,
    "retained_earnings": 11095300000.0,
    "total_debt": 6204600000.0,
-   "shares_out": 199073712.0
+   "shares_out": 199073712.0,
+   "unusual_items": -242600000.0,
+   "normalized_ebitda": 2493500000.0,
+   "normalized_income": 1115647887.323944
   },
   {
    "fy_end": "2025-12-31",
@@ -305,7 +356,10 @@
    "goodwill_and_intangibles": 14664400000.0,
    "retained_earnings": 11611000000.0,
    "total_debt": 7519100000.0,
-   "shares_out": 195481555.0
+   "shares_out": 195481555.0,
+   "unusual_items": -258100000.0,
+   "normalized_ebitda": 2475500000.0,
+   "normalized_income": 924149482.426577
   }
  ]
 }

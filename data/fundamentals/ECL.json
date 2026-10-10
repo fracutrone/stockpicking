@@ -1,6 +1,6 @@
 {
  "ticker": "ECL",
- "fetched_at": "2026-10-10T12:43:54+00:00",
+ "fetched_at": "2026-10-10T15:42:20+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 48000,
   "website": "https://www.ecolab.com",
-  "longBusinessSummary": "Ecolab Inc. provides water, hygiene, and infection prevention solutions and services in the United States and internationally. The company operates through four segments: Global Water, Global Institutional & Specialty, Global Pest Elimination, and Global Life Sciences. The Global Water segment offers water treatment and process applications, and cleaning and sanitizing solutions to manufacturing, food and beverage processing, transportation, chemical, primary metals and mining, power generation, global refining, petrochemical, pulp and paper industries. The Global Institutional & Specialty segment provides cleaning and sanitizing products to the foodservice, healthcare, hospitality, lodging, government, education and retail industries. The Global Pest Elimination segment provides pest elimination services to detect, prevent, and eliminate pests comprising rodents and insects in full-service and quick-service restaurants, food and beverage processors, hotels, grocery operations, and other commercial segments, including education, life sciences, and healthcare. The Global Life Sciences segment provides cleaning and contamination control solutions to pharmaceutical and personal care manufacturers. It offers its products under the Ecolab, Kay, Purolite, and Bioquell brand names. The company sells its products through field sales and corporate account personnel, distributors, and dealers. Ecolab Inc. was founded in 1923 and is headquartered in Saint Paul, Minnesota."
+  "longBusinessSummary": "Ecolab Inc. provides water, hygiene, and infection prevention solutions and services in the United States and internationally. The company operates through four segments: Global Water, Global Institutional & Specialty, Global Pest Elimination, and Global Life Sciences. The Global Water segment offers water treatment and process applications, and cleaning and sanitizing solutions to manufacturing, food and beverage processing, transportation, chemical, primary metals and mining, power generation, global refining, petrochemical, pulp and paper industries. The Global Institutional & Specialty segment provides cleaning and sanitizing products to the foodservice, healthcare, hospitality, lodging, government, education and retail industries. The Global Pest Elimination segment provides pest elimination services to detect, prevent, and eliminate pests comprising rodents and insects in full-service and quick-service restaurants, food and beverage processors, hotels, grocery operations, and other commercial segments, including education, life sciences, and healthcare. The Global Life Sciences segment provides cleaning and contamination control solutions to pharmaceutical and personal care manufacturers. It offers its products under the Ecolab, Kay, Purolite, and Bioquell brand names. The company sells its products through field sales and corporate account personnel, distributors, and dealers. Ecolab Inc. was founded in 1923 and is headquartered in Saint Paul, Minnesota.",
+  "targetMeanPrice": 325.0476,
+  "targetLowPrice": 295.0,
+  "targetHighPrice": 360.0,
+  "numberOfAnalystOpinions": 21,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.54167,
+  "forwardPE": 29.961834,
+  "forwardEps": 9.4063,
+  "trailingEps": 7.45,
+  "earningsGrowth": 0.033,
+  "revenueGrowth": 0.097
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 24696300000.0,
+    "official": 24696300000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 9770800000.0,
+    "official": 9770800000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2075600000.0,
+    "official": 2075600000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 16081200000.0,
+    "official": 16081200000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:42:20+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -203,7 +245,10 @@
    "goodwill_and_intangibles": 11693400000.0,
    "retained_earnings": 9318800000.0,
    "total_debt": 8075300000.0,
-   "shares_out": 284500000.0
+   "shares_out": 284500000.0,
+   "unusual_items": -140500000.0,
+   "normalized_ebitda": 2674700000.0,
+   "normalized_income": 1207612500.0
   },
   {
    "fy_end": "2023-12-31",
@@ -237,7 +282,10 @@
    "goodwill_and_intangibles": 11641700000.0,
    "retained_earnings": 10075400000.0,
    "total_debt": 7551400000.0,
-   "shares_out": 285448531.0
+   "shares_out": 285448531.0,
+   "unusual_items": -111400000.0,
+   "normalized_ebitda": 3139400000.0,
+   "normalized_income": 1460751600.0
   },
   {
    "fy_end": "2024-12-31",
@@ -271,7 +319,10 @@
    "goodwill_and_intangibles": 11216100000.0,
    "retained_earnings": 11517100000.0,
    "total_debt": 6949200000.0,
-   "shares_out": 283354746.0
+   "shares_out": 283354746.0,
+   "unusual_items": 188900000.0,
+   "normalized_ebitda": 3658000000.0,
+   "normalized_income": 1955774334.940884
   },
   {
    "fy_end": "2025-12-31",
@@ -305,7 +356,10 @@
    "goodwill_and_intangibles": 12915500000.0,
    "retained_earnings": 12834000000.0,
    "total_debt": 7365900000.0,
-   "shares_out": 282022564.0
+   "shares_out": 282022564.0,
+   "unusual_items": -154900000.0,
+   "normalized_ebitda": 3985400000.0,
+   "normalized_income": 2202862518.152204
   }
  ]
 }

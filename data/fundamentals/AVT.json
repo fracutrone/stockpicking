@@ -1,6 +1,6 @@
 {
  "ticker": "AVT",
- "fetched_at": "2026-10-10T12:38:17+00:00",
+ "fetched_at": "2026-10-10T15:35:16+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 15040,
   "website": "https://www.avnet.com",
-  "longBusinessSummary": "Avnet, Inc., engages in the distribution of electronic component technology in the Americas, Europe, the Middle East, Africa, and Asia/Pacific. The company operates through two segments, Electronic Components and Farnell. It markets, sells, and distributes semiconductors; interconnect, passive, and electromechanical components; and other integrated and embedded components from electronic component manufacturers. The company also offers design support that provides engineers with technical design solutions; engineering and technical resources to support product design, bill of materials development, and technical education and training; and supply chain solutions which provides support, warehousing, and logistics services to original equipment manufacturers, electronic manufacturing service providers, and electronic component manufacturers. In addition, it provides embedded solutions, such as technical design, integration, and assembly of embedded products, systems, and solutions, as well as embedded display solutions comprising touch and passive displays; and develops and produces standard board and industrial subsystems, and application-specific devices that enable it to produce systems tailored to specific customer requirements. The company serves various markets, such as engineering, product prototyping, integration, and other value-added services in the medical, telecommunications, industrial, and digital editing. Further, it distributes kits, tools, and electronic and industrial automation components, as well as test and measurement products to engineers and entrepreneurs. The company was founded in 1921 and is headquartered in Phoenix, Arizona."
+  "longBusinessSummary": "Avnet, Inc., engages in the distribution of electronic component technology in the Americas, Europe, the Middle East, Africa, and Asia/Pacific. The company operates through two segments, Electronic Components and Farnell. It markets, sells, and distributes semiconductors; interconnect, passive, and electromechanical components; and other integrated and embedded components from electronic component manufacturers. The company also offers design support that provides engineers with technical design solutions; engineering and technical resources to support product design, bill of materials development, and technical education and training; and supply chain solutions which provides support, warehousing, and logistics services to original equipment manufacturers, electronic manufacturing service providers, and electronic component manufacturers. In addition, it provides embedded solutions, such as technical design, integration, and assembly of embedded products, systems, and solutions, as well as embedded display solutions comprising touch and passive displays; and develops and produces standard board and industrial subsystems, and application-specific devices that enable it to produce systems tailored to specific customer requirements. The company serves various markets, such as engineering, product prototyping, integration, and other value-added services in the medical, telecommunications, industrial, and digital editing. Further, it distributes kits, tools, and electronic and industrial automation components, as well as test and measurement products to engineers and entrepreneurs. The company was founded in 1921 and is headquartered in Phoenix, Arizona.",
+  "targetMeanPrice": 106.25,
+  "targetLowPrice": 80.0,
+  "targetHighPrice": 120.0,
+  "numberOfAnalystOpinions": 4,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 8.994566,
+  "forwardEps": 11.04667,
+  "trailingEps": 4.01,
+  "earningsGrowth": 19.689,
+  "revenueGrowth": 0.477
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-06-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 15425393000.0,
+    "official": 15425393000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 5022503000.0,
+    "official": 5022503000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 334389000.0,
+    "official": 334389000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 27632683000.0,
+    "official": 27632683000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:35:16+00:00",
  "years": [
   {
    "fy_end": "2020-06-27",
@@ -206,7 +248,10 @@
    "goodwill_and_intangibles": 780629000.0,
    "retained_earnings": 3378212000.0,
    "total_debt": 2988029000.0,
-   "shares_out": 91504053.0
+   "shares_out": 91504053.0,
+   "unusual_items": 8999000.0,
+   "normalized_ebitda": 1367751000.0,
+   "normalized_income": 763772784.0
   },
   {
    "fy_end": "2024-06-29",
@@ -239,7 +284,10 @@
    "goodwill_and_intangibles": 780984000.0,
    "retained_earnings": 3601812000.0,
    "total_debt": 2406629000.0,
-   "shares_out": 89045996.0
+   "shares_out": 89045996.0,
+   "unusual_items": 33949000.0,
+   "normalized_ebitda": 1021685000.0,
+   "normalized_income": 471921642.553811
   },
   {
    "fy_end": "2025-06-28",
@@ -272,7 +320,10 @@
    "goodwill_and_intangibles": 837031000.0,
    "retained_earnings": 3430193000.0,
    "total_debt": 2574729000.0,
-   "shares_out": 83853935.0
+   "shares_out": 83853935.0,
+   "unusual_items": -108316000.0,
+   "normalized_ebitda": 730482000.0,
+   "normalized_income": 344058036.089859
   },
   {
    "fy_end": "2026-06-27",
@@ -305,7 +356,10 @@
    "goodwill_and_intangibles": 810163000.0,
    "retained_earnings": 3513176000.0,
    "total_debt": 2478864000.0,
-   "shares_out": 82082259.0
+   "shares_out": 82082259.0,
+   "unusual_items": -134706000.0,
+   "normalized_ebitda": 987604000.0,
+   "normalized_income": 430703790.0
   }
  ]
 }

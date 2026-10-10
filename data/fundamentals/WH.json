@@ -1,6 +1,6 @@
 {
  "ticker": "WH",
- "fetched_at": "2026-10-10T13:02:18+00:00",
+ "fetched_at": "2026-10-10T15:59:44+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 2000,
   "website": "https://www.wyndhamhotels.com",
-  "longBusinessSummary": "Wyndham Hotels & Resorts, Inc. is the world's largest hotel franchising company by the number of franchised properties, with approximately 8,300 hotels across approximately 100 countries on six continents. Through its network of over 855,000 rooms appealing to the everyday traveler, Wyndham commands a leading presence in the economy and midscale segments of the lodging industry. The Company operates a portfolio of 25 hotel brands, including Super 8, Days Inn, Ramada, Microtel, La Quinta, Baymont, Wingate, AmericInn, ECHO Suites, Registry Collection Hotels, Trademark Collection and Wyndham. Wyndham Hotels & Resorts, Inc. was incorporated in 2017 and is headquartered in Parsippany, New Jersey."
+  "longBusinessSummary": "Wyndham Hotels & Resorts, Inc. is the world's largest hotel franchising company by the number of franchised properties, with approximately 8,300 hotels across approximately 100 countries on six continents. Through its network of over 855,000 rooms appealing to the everyday traveler, Wyndham commands a leading presence in the economy and midscale segments of the lodging industry. The Company operates a portfolio of 25 hotel brands, including Super 8, Days Inn, Ramada, Microtel, La Quinta, Baymont, Wingate, AmericInn, ECHO Suites, Registry Collection Hotels, Trademark Collection and Wyndham. Wyndham Hotels & Resorts, Inc. was incorporated in 2017 and is headquartered in Parsippany, New Jersey.",
+  "targetMeanPrice": 97.58824,
+  "targetLowPrice": 80.0,
+  "targetHighPrice": 115.0,
+  "numberOfAnalystOpinions": 17,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.58824,
+  "forwardPE": 13.895507,
+  "forwardEps": 5.32978,
+  "trailingEps": 2.76,
+  "earningsGrowth": 0.204,
+  "revenueGrowth": -0.055
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 4182000000.0,
+    "official": 4182000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 468000000.0,
+    "official": 468000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 193000000.0,
+    "official": 193000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1429000000.0,
+    "official": 1429000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:59:44+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -194,7 +236,10 @@
    "goodwill_and_intangibles": 3132000000.0,
    "retained_earnings": 318000000.0,
    "total_debt": 2057000000.0,
-   "shares_out": 86400000.0
+   "shares_out": 86400000.0,
+   "unusual_items": 32000000.0,
+   "normalized_ebitda": 606000000.0,
+   "normalized_income": 331134453.781513
   },
   {
    "fy_end": "2023-12-31",
@@ -227,7 +272,10 @@
    "goodwill_and_intangibles": 3104000000.0,
    "retained_earnings": 488000000.0,
    "total_debt": 2164000000.0,
-   "shares_out": 81400000.0
+   "shares_out": 81400000.0,
+   "unusual_items": -15000000.0,
+   "normalized_ebitda": 597000000.0,
+   "normalized_income": 299890000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -258,7 +306,10 @@
    "goodwill_and_intangibles": 3073000000.0,
    "retained_earnings": 654000000.0,
    "total_debt": 2420000000.0,
-   "shares_out": 78000000.0
+   "shares_out": 78000000.0,
+   "unusual_items": -66000000.0,
+   "normalized_ebitda": 634000000.0,
+   "normalized_income": 340810000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -289,7 +340,10 @@
    "goodwill_and_intangibles": 3015000000.0,
    "retained_earnings": 471000000.0,
    "total_debt": 2515000000.0,
-   "shares_out": 75400000.0
+   "shares_out": 75400000.0,
+   "unusual_items": -107000000.0,
+   "normalized_ebitda": 579000000.0,
+   "normalized_income": 271538000.0
   }
  ]
 }

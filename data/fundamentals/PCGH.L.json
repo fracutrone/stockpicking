@@ -1,6 +1,6 @@
 {
  "ticker": "PCGH.L",
- "fetched_at": "2026-10-10T12:13:32+00:00",
+ "fetched_at": "2026-10-10T15:11:00+00:00",
  "region": "Europa",
  "statement_currency": "GBp",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -49,8 +60,15 @@
   "equity": "yahoo",
   "receivables": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T15:11:00+00:00",
  "years": [
   {
    "fy_end": "2022-09-30",
@@ -69,7 +87,8 @@
    "cash": 7546000.0,
    "equity": 404833000.0,
    "receivables": 205000.0,
-   "shares_out": 121270000.0
+   "shares_out": 121270000.0,
+   "normalized_income": 21531000.0
   },
   {
    "fy_end": "2023-09-30",
@@ -89,7 +108,8 @@
    "equity": 419182000.0,
    "receivables": 472000.0,
    "total_debt": 40701000.0,
-   "shares_out": 121270000.0
+   "shares_out": 121270000.0,
+   "normalized_income": 16896000.0
   },
   {
    "fy_end": "2024-09-30",
@@ -109,7 +129,8 @@
    "equity": 479073000.0,
    "receivables": 138000.0,
    "total_debt": 374000.0,
-   "shares_out": 121270000.0
+   "shares_out": 121270000.0,
+   "normalized_income": 62801000.0
   },
   {
    "fy_end": "2025-09-30",
@@ -129,7 +150,8 @@
    "equity": 448110000.0,
    "receivables": 37000.0,
    "total_debt": 1000.0,
-   "shares_out": 121270000.0
+   "shares_out": 121270000.0,
+   "normalized_income": -28053000.0
   }
  ]
 }

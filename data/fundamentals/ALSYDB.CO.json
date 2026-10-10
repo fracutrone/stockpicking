@@ -1,6 +1,6 @@
 {
  "ticker": "ALSYDB.CO",
- "fetched_at": "2026-10-10T11:44:52+00:00",
+ "fetched_at": "2026-10-10T14:29:40+00:00",
  "region": "Europa",
  "statement_currency": "DKK",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.25052,
   "heldPercentInstitutions": 0.22398,
   "shortPercentOfFloat": null,
-  "averageVolume": 147595,
+  "averageVolume": 148834,
   "quoteType": "EQUITY",
   "exchange": "CPH",
   "fullTimeEmployees": 3888,
   "website": "https://www.sydbank.com",
-  "longBusinessSummary": "AL Sydbank A/S, together with its subsidiaries, provides various banking products and services to retail clients, corporates, and associations in Denmark and internationally. The company operates through Banking, Asset Management, AL Sydbank Markets, Treasury, and Other segments. The company offers various deposits and loans and advances, advisory services, securities trading, asset management, distribution of mortgage credit products, investment products, pension, and insurance products. It also provides private banking solutions; services for investment funds, pooled pension plans, foundations, institutional clients, and wealthy customers; and economic research and equity research. Further, it provides retail banking services, such as insurance, housing, pension, and mortgage credit services to retail clients; mortgage bonds; and advice and quotes prices as regards bonds, shares, and foreign exchange, as well as undertakes market-making obligations for institutional clients, central banks, foreign and other clients, and banks. The company was formerly known as Sydbank A/S and changed its name to AL Sydbank A/S in December 2025. AL Sydbank A/S was founded in 1986 and is headquartered in Aabenraa, Denmark."
+  "longBusinessSummary": "AL Sydbank A/S, together with its subsidiaries, provides various banking products and services to retail clients, corporates, and associations in Denmark and internationally. The company operates through Banking, Asset Management, AL Sydbank Markets, Treasury, and Other segments. The company offers various deposits and loans and advances, advisory services, securities trading, asset management, distribution of mortgage credit products, investment products, pension, and insurance products. It also provides private banking solutions; services for investment funds, pooled pension plans, foundations, institutional clients, and wealthy customers; and economic research and equity research. Further, it provides retail banking services, such as insurance, housing, pension, and mortgage credit services to retail clients; mortgage bonds; and advice and quotes prices as regards bonds, shares, and foreign exchange, as well as undertakes market-making obligations for institutional clients, central banks, foreign and other clients, and banks. The company was formerly known as Sydbank A/S and changed its name to AL Sydbank A/S in December 2025. AL Sydbank A/S was founded in 1986 and is headquartered in Aabenraa, Denmark.",
+  "targetMeanPrice": 752.5,
+  "targetLowPrice": 730.0,
+  "targetHighPrice": 780.0,
+  "numberOfAnalystOpinions": 4,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.0,
+  "forwardPE": 11.511654,
+  "forwardEps": 60.85138,
+  "trailingEps": 31.6,
+  "earningsGrowth": 0.01,
+  "revenueGrowth": 0.917
  },
  "governance": {
   "ceo": {
@@ -62,8 +73,33 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF DK",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 193669000000.0,
+    "official": 193669000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 15742000000.0,
+    "official": 14982000000.0,
+    "diff": 0.050728
+   },
+   "net_income": {
+    "yahoo": 2762000000.0,
+    "official": 2762000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T14:29:40+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -89,7 +125,8 @@
    "goodwill_and_intangibles": 364000000.0,
    "retained_earnings": 11071000000.0,
    "total_debt": 14357000000.0,
-   "shares_out": 56494660.0
+   "shares_out": 56494660.0,
+   "normalized_income": 1901000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -115,7 +152,8 @@
    "goodwill_and_intangibles": 329000000.0,
    "retained_earnings": 12133000000.0,
    "total_debt": 12279000000.0,
-   "shares_out": 54582651.0
+   "shares_out": 54582651.0,
+   "normalized_income": 3342000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -141,7 +179,8 @@
    "goodwill_and_intangibles": 421000000.0,
    "retained_earnings": 12387000000.0,
    "total_debt": 13317000000.0,
-   "shares_out": 51395137.0
+   "shares_out": 51395137.0,
+   "normalized_income": 2762000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -167,7 +206,8 @@
    "goodwill_and_intangibles": 9127000000.0,
    "retained_earnings": 31242000000.0,
    "total_debt": 24939000000.0,
-   "shares_out": 85788416.0
+   "shares_out": 85788416.0,
+   "normalized_income": 1893000000.0
   }
  ]
 }

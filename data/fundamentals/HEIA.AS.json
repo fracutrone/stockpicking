@@ -1,6 +1,6 @@
 {
  "ticker": "HEIA.AS",
- "fetched_at": "2026-10-10T12:01:22+00:00",
+ "fetched_at": "2026-10-10T14:53:42+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "AMS",
   "fullTimeEmployees": 85000,
   "website": "https://www.theheinekencompany.com",
-  "longBusinessSummary": "Heineken N.V. brews and sells beer and cider in Europe, the Americas, Africa, the Middle East, and the Asia Pacific. The company also provides soft drinks. It sells its products under the Heineken, Heineken 0.0, Heineken Silver, Amstel, Moretti, Tiger, Desperados, Edelweiss, Lagunitas, Orchard Thieves, Windhoek, Dos Equis, Red Stripe, Kingfisher, Bintang, Gosser, Affligem, Mort Subite, Strongbow, Stassen, Bulmers, Old Mout, Savanna, Turbo King, Tecate, Lagunitas Hoppy Refresher, Bia Viet, Tiger Crystal, Birra Moretti, Harar, Cruzcampo, Bernini, Legend Stout, Beavertown, Stëlz, Texels, Ladrón, Bandida, Stibitzer, El Aguila, and Murphy's brands. In addition, the company engages in rental of pubs and bars; wholesale activities; and pub management and technical services. The company offers its products to retailers, wholesalers and distributors, bars, restaurants, clubs, cafes, and hotels. Heineken N.V. was incorporated in 1864 and is headquartered in Amsterdam, the Netherlands. Heineken N.V. is a subsidiary of Heineken Holding N.V."
+  "longBusinessSummary": "Heineken N.V. brews and sells beer and cider in Europe, the Americas, Africa, the Middle East, and the Asia Pacific. The company also provides soft drinks. It sells its products under the Heineken, Heineken 0.0, Heineken Silver, Amstel, Moretti, Tiger, Desperados, Edelweiss, Lagunitas, Orchard Thieves, Windhoek, Dos Equis, Red Stripe, Kingfisher, Bintang, Gosser, Affligem, Mort Subite, Strongbow, Stassen, Bulmers, Old Mout, Savanna, Turbo King, Tecate, Lagunitas Hoppy Refresher, Bia Viet, Tiger Crystal, Birra Moretti, Harar, Cruzcampo, Bernini, Legend Stout, Beavertown, Stëlz, Texels, Ladrón, Bandida, Stibitzer, El Aguila, and Murphy's brands. In addition, the company engages in rental of pubs and bars; wholesale activities; and pub management and technical services. The company offers its products to retailers, wholesalers and distributors, bars, restaurants, clubs, cafes, and hotels. Heineken N.V. was incorporated in 1864 and is headquartered in Amsterdam, the Netherlands. Heineken N.V. is a subsidiary of Heineken Holding N.V.",
+  "targetMeanPrice": 88.78826,
+  "targetLowPrice": 70.0,
+  "targetHighPrice": 126.0,
+  "numberOfAnalystOpinions": 23,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.82609,
+  "forwardPE": 12.49304,
+  "forwardEps": 5.69277,
+  "trailingEps": 4.1,
+  "earningsGrowth": 0.541,
+  "revenueGrowth": 0.047
  },
  "governance": {
   "top_institutions": [
@@ -76,8 +87,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF NL",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 53753000000.0,
+    "official": 53753000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 17978000000.0,
+    "official": 17978000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1885000000.0,
+    "official": 1885000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 28753000000.0,
+    "official": 34257000000.0,
+    "diff": 0.160668
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:53:42+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -110,7 +153,10 @@
    "goodwill_and_intangibles": 21408000000.0,
    "retained_earnings": 18351000000.0,
    "total_debt": 16377000000.0,
-   "shares_out": 575318212.0
+   "shares_out": 575318212.0,
+   "unusual_items": 215000000.0,
+   "normalized_ebitda": 6235000000.0,
+   "normalized_income": 2528705000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -143,7 +189,10 @@
    "goodwill_and_intangibles": 21781000000.0,
    "retained_earnings": 19074000000.0,
    "total_debt": 18238000000.0,
-   "shares_out": 565426968.0
+   "shares_out": 565426968.0,
+   "unusual_items": 126000000.0,
+   "normalized_ebitda": 5946000000.0,
+   "normalized_income": 2184552000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -176,7 +225,10 @@
    "goodwill_and_intangibles": 21701000000.0,
    "retained_earnings": 19206000000.0,
    "total_debt": 17049000000.0,
-   "shares_out": 565138630.0
+   "shares_out": 565138630.0,
+   "unusual_items": 65000000.0,
+   "normalized_ebitda": 5248000000.0,
+   "normalized_income": 933280000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -209,7 +261,10 @@
    "goodwill_and_intangibles": 20011000000.0,
    "retained_earnings": 19754000000.0,
    "total_debt": 19279000000.0,
-   "shares_out": 560557296.0
+   "shares_out": 560557296.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 6248000000.0,
+   "normalized_income": 1885000000.0
   }
  ]
 }

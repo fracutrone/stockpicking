@@ -1,6 +1,6 @@
 {
  "ticker": "UMI.BR",
- "fetched_at": "2026-10-10T12:24:02+00:00",
+ "fetched_at": "2026-10-10T15:27:02+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "BRU",
   "fullTimeEmployees": 11213,
   "website": "https://www.umicore.com",
-  "longBusinessSummary": "Umicore SA operates as a materials technology and recycling company in Belgium, Europe, the Asia-Pacific, North America, South America, and Africa. It operates through Battery Material, Catalysis, Recycling, and Specialty Materials segments. The Battery Material segment develops, manufactures, and markets cathode materials and its precursors for lithium-ion batteries, as well as related refining activities of cobalt and nickel chemical refining activities; and offers integrated, circular and sustainable battery materials. Its Catalysis segment provides automotive catalysts for light-duty gasoline and diesel light, and heavy-duty diesel applications, including on-road and off-road vehicles; stationary catalysts for industrial emissions control; and produces precious metals-based compounds and catalysts for use in the pharmaceutical and fine chemicals industries, as well as fuel cell applications. The Recyling segment is involved in precious metals refining and management, jewelry and industrial metals; and treating complex waste streams containing precious and other specialty metals. This segment also produces precious metals-based materials for high-tech glass production and electronics; and offers products for chemical, electric, electronic, automotive and special glass applications. Its Specialty Materials segments offers cobalt and specialty materials, electro-optic materials, and metal deposition solutions; produces and distributes cobalt and nickel products; and supplies products for precious and non-precious metal-based electroplating and PVD coating, as well as germanium-based material solutions for the space, optics and electronics sectors. The company was formerly known as Union Minière du Haut Katanga and changed its name to Umicore SA in 2001. Umicore SA was founded in 1805 and is headquartered in Brussels, Belgium."
+  "longBusinessSummary": "Umicore SA operates as a materials technology and recycling company in Belgium, Europe, the Asia-Pacific, North America, South America, and Africa. It operates through Battery Material, Catalysis, Recycling, and Specialty Materials segments. The Battery Material segment develops, manufactures, and markets cathode materials and its precursors for lithium-ion batteries, as well as related refining activities of cobalt and nickel chemical refining activities; and offers integrated, circular and sustainable battery materials. Its Catalysis segment provides automotive catalysts for light-duty gasoline and diesel light, and heavy-duty diesel applications, including on-road and off-road vehicles; stationary catalysts for industrial emissions control; and produces precious metals-based compounds and catalysts for use in the pharmaceutical and fine chemicals industries, as well as fuel cell applications. The Recyling segment is involved in precious metals refining and management, jewelry and industrial metals; and treating complex waste streams containing precious and other specialty metals. This segment also produces precious metals-based materials for high-tech glass production and electronics; and offers products for chemical, electric, electronic, automotive and special glass applications. Its Specialty Materials segments offers cobalt and specialty materials, electro-optic materials, and metal deposition solutions; produces and distributes cobalt and nickel products; and supplies products for precious and non-precious metal-based electroplating and PVD coating, as well as germanium-based material solutions for the space, optics and electronics sectors. The company was formerly known as Union Minière du Haut Katanga and changed its name to Umicore SA in 2001. Umicore SA was founded in 1805 and is headquartered in Brussels, Belgium.",
+  "targetMeanPrice": 25.63077,
+  "targetLowPrice": 18.5,
+  "targetHighPrice": 33.0,
+  "numberOfAnalystOpinions": 13,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.07692,
+  "forwardPE": 11.614711,
+  "forwardEps": 1.80633,
+  "trailingEps": 2.06,
+  "earningsGrowth": 0.742,
+  "revenueGrowth": 0.601
  },
  "governance": {
   "ceo": {
@@ -70,8 +81,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF BE",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 9411500000.0,
+    "official": 9411505000.0,
+    "diff": 1e-06
+   },
+   "equity": {
+    "yahoo": 1938000000.0,
+    "official": 1937942000.0,
+    "diff": 3e-05
+   },
+   "net_income": {
+    "yahoo": -1479879000.0,
+    "official": -1479879000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 14853681000.0,
+    "official": 14853681000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T15:27:02+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -105,7 +148,10 @@
    "goodwill_and_intangibles": 343366000.0,
    "retained_earnings": 2526051000.0,
    "total_debt": 2349762000.0,
-   "shares_out": 240200659.0
+   "shares_out": 240200659.0,
+   "unusual_items": -26682000.0,
+   "normalized_ebitda": 1110033000.0,
+   "normalized_income": 591223600.0
   },
   {
    "fy_end": "2023-12-31",
@@ -138,7 +184,10 @@
    "goodwill_and_intangibles": 381041000.0,
    "retained_earnings": 2715614000.0,
    "total_debt": 2754543000.0,
-   "shares_out": 240400917.0
+   "shares_out": 240400917.0,
+   "unusual_items": -55546000.0,
+   "normalized_ebitda": 973600000.0,
+   "normalized_income": 428400880.0
   },
   {
    "fy_end": "2024-12-31",
@@ -169,7 +218,10 @@
    "goodwill_and_intangibles": 387200000.0,
    "retained_earnings": 1072300000.0,
    "total_debt": 3447857000.0,
-   "shares_out": 240481134.0
+   "shares_out": 240481134.0,
+   "unusual_items": -1431211000.0,
+   "normalized_ebitda": 416116000.0,
+   "normalized_income": -469444034.0
   },
   {
    "fy_end": "2025-12-31",
@@ -202,7 +254,10 @@
    "goodwill_and_intangibles": 390064000.0,
    "retained_earnings": 1413228000.0,
    "total_debt": 2852722000.0,
-   "shares_out": 240561925.0
+   "shares_out": 240561925.0,
+   "unusual_items": -34797000.0,
+   "normalized_ebitda": 1206339000.0,
+   "normalized_income": 410645750.0
   }
  ]
 }

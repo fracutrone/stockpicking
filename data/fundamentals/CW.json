@@ -1,6 +1,6 @@
 {
  "ticker": "CW",
- "fetched_at": "2026-10-10T12:42:40+00:00",
+ "fetched_at": "2026-10-10T15:41:08+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 9200,
   "website": "https://www.curtisswright.com",
-  "longBusinessSummary": "Curtiss-Wright Corporation, together with its subsidiaries, provides engineered products, solutions, and services mainly to aerospace and defense, commercial nuclear power, process, and industrial markets worldwide. It operates through three segments: Aerospace & Industrial, Defense Electronics, and Naval & Power. The Aerospace & Industrial segment offers industrial and specialty vehicle products, such as power management electronics, traction inverters, transmission shifters, and control systems; sensors, controls, and electro-mechanical actuation components used on commercial and military aircraft; and surface technology services including shot peening, laser peening, and engineered coatings. The Defense Electronics segment provides commercial off-the-shelf embedded computing board-level modules and processing equipment, data acquisition and flight test instrumentation equipment, integrated subsystems, instrumentation and control systems, tactical communications solutions; and electronic stabilization products, and weapons handling systems; avionics and electronics; flight test equipment; and aircraft data management solutions. The Naval & Power segment offers main coolant pumps, power-dense compact motors, generators, steam turbines, valves, and secondary propulsion systems; energy absorbers, retractable hook cable systems, net-stanchion systems and mobile systems to support fixed land-based arresting systems; hardware, valves, fastening systems, specialized containment doors, airlock hatches, and spent fuel management products; reactor coolant pumps and control rod drive mechanisms for commercial nuclear power plants, as well as various nuclear reactor technologies. This segment furnishes severe-service valve technologies and services, heat exchanger repair, and piping test and isolation products, and offers ship repair and maintenance for the U.S. navy. Curtiss-Wright Corporation was incorporated in 1929 and is headquartered in Davidson, North Carolina."
+  "longBusinessSummary": "Curtiss-Wright Corporation, together with its subsidiaries, provides engineered products, solutions, and services mainly to aerospace and defense, commercial nuclear power, process, and industrial markets worldwide. It operates through three segments: Aerospace & Industrial, Defense Electronics, and Naval & Power. The Aerospace & Industrial segment offers industrial and specialty vehicle products, such as power management electronics, traction inverters, transmission shifters, and control systems; sensors, controls, and electro-mechanical actuation components used on commercial and military aircraft; and surface technology services including shot peening, laser peening, and engineered coatings. The Defense Electronics segment provides commercial off-the-shelf embedded computing board-level modules and processing equipment, data acquisition and flight test instrumentation equipment, integrated subsystems, instrumentation and control systems, tactical communications solutions; and electronic stabilization products, and weapons handling systems; avionics and electronics; flight test equipment; and aircraft data management solutions. The Naval & Power segment offers main coolant pumps, power-dense compact motors, generators, steam turbines, valves, and secondary propulsion systems; energy absorbers, retractable hook cable systems, net-stanchion systems and mobile systems to support fixed land-based arresting systems; hardware, valves, fastening systems, specialized containment doors, airlock hatches, and spent fuel management products; reactor coolant pumps and control rod drive mechanisms for commercial nuclear power plants, as well as various nuclear reactor technologies. This segment furnishes severe-service valve technologies and services, heat exchanger repair, and piping test and isolation products, and offers ship repair and maintenance for the U.S. navy. Curtiss-Wright Corporation was incorporated in 1929 and is headquartered in Davidson, North Carolina.",
+  "targetMeanPrice": 761.125,
+  "targetLowPrice": 622.0,
+  "targetHighPrice": 870.0,
+  "numberOfAnalystOpinions": 8,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.77778,
+  "forwardPE": 29.875294,
+  "forwardEps": 17.15799,
+  "trailingEps": 14.52,
+  "earningsGrowth": 0.276,
+  "revenueGrowth": 0.054
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 5221292000.0,
+    "official": 5221292000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2533574000.0,
+    "official": 2533574000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 484228000.0,
+    "official": 484228000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3498372000.0,
+    "official": 3498372000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:41:08+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -203,7 +245,10 @@
    "goodwill_and_intangibles": 2165532000.0,
    "retained_earnings": 3163491000.0,
    "total_debt": 1254400000.0,
-   "shares_out": 38259722.0
+   "shares_out": 38259722.0,
+   "unusual_items": -4651000.0,
+   "normalized_ebitda": 552853000.0,
+   "normalized_income": 297864156.0
   },
   {
    "fy_end": "2023-12-31",
@@ -237,7 +282,10 @@
    "goodwill_and_intangibles": 2116438000.0,
    "retained_earnings": 3487751000.0,
    "total_debt": 1050362000.0,
-   "shares_out": 38202754.0
+   "shares_out": 38202754.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 630635000.0,
+   "normalized_income": 354509000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -271,7 +319,10 @@
    "goodwill_and_intangibles": 2272549000.0,
    "retained_earnings": 3861073000.0,
    "total_debt": 1048949000.0,
-   "shares_out": 37650645.0
+   "shares_out": 37650645.0,
+   "unusual_items": -14448000.0,
+   "normalized_ebitda": 689040000.0,
+   "normalized_income": 416189648.0
   },
   {
    "fy_end": "2025-12-31",
@@ -305,7 +356,10 @@
    "goodwill_and_intangibles": 2224871000.0,
    "retained_earnings": 4310680000.0,
    "total_debt": 957884000.0,
-   "shares_out": 36859333.0
+   "shares_out": 36859333.0,
+   "unusual_items": -4504000.0,
+   "normalized_ebitda": 792479000.0,
+   "normalized_income": 487745624.0
   }
  ]
 }

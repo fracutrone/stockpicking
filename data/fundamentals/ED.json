@@ -1,6 +1,6 @@
 {
  "ticker": "ED",
- "fetched_at": "2026-10-10T12:43:55+00:00",
+ "fetched_at": "2026-10-10T15:42:22+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 15407,
   "website": "https://www.conedison.com",
-  "longBusinessSummary": "Consolidated Edison, Inc., through its subsidiaries, engages in the regulated electric, gas, and steam delivery businesses in the United States. The company offers electric services to approximately 3.7 million customers in New York City and Westchester County; gas to approximately 1.1 million customers in Manhattan, the Bronx, parts of Queens, and Westchester County; and steam to approximately 1,490 customers in parts of Manhattan. It also supplies electricity to approximately 0.3 million customers in southeastern New York and northern New Jersey; and gas to approximately 0.1 million customers in southeastern New York. In addition, the company operates 552 circuit miles of transmission lines; 16 transmission substations; 63 distribution substations; 89,675 in-service line transformers; 3,764 pole miles of overhead distribution lines; and 2,417 miles of underground distribution lines, as well as 4,374 miles of mains and 379, 939 service lines for natural gas distribution. Further, it invests in electric and gas transmission projects. The company primarily sells electricity to industrial, commercial, residential, and government customers. Consolidated Edison, Inc. was founded in 1823 and is based in New York, New York."
+  "longBusinessSummary": "Consolidated Edison, Inc., through its subsidiaries, engages in the regulated electric, gas, and steam delivery businesses in the United States. The company offers electric services to approximately 3.7 million customers in New York City and Westchester County; gas to approximately 1.1 million customers in Manhattan, the Bronx, parts of Queens, and Westchester County; and steam to approximately 1,490 customers in parts of Manhattan. It also supplies electricity to approximately 0.3 million customers in southeastern New York and northern New Jersey; and gas to approximately 0.1 million customers in southeastern New York. In addition, the company operates 552 circuit miles of transmission lines; 16 transmission substations; 63 distribution substations; 89,675 in-service line transformers; 3,764 pole miles of overhead distribution lines; and 2,417 miles of underground distribution lines, as well as 4,374 miles of mains and 379, 939 service lines for natural gas distribution. Further, it invests in electric and gas transmission projects. The company primarily sells electricity to industrial, commercial, residential, and government customers. Consolidated Edison, Inc. was founded in 1823 and is based in New York, New York.",
+  "targetMeanPrice": 109.34375,
+  "targetLowPrice": 94.0,
+  "targetHighPrice": 130.0,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.22222,
+  "forwardPE": 16.323353,
+  "forwardEps": 6.49989,
+  "trailingEps": 6.07,
+  "earningsGrowth": 0.221,
+  "revenueGrowth": 0.132
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 74603000000.0,
+    "official": 74603000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 24190000000.0,
+    "official": 24190000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2023000000.0,
+    "official": 2023000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 16918000000.0,
+    "official": 16918000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:42:22+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -183,7 +225,10 @@
    "goodwill_and_intangibles": 408000000.0,
    "retained_earnings": 11985000000.0,
    "total_debt": 23841000000.0,
-   "shares_out": 354962058.0
+   "shares_out": 354962058.0,
+   "unusual_items": 39000000.0,
+   "normalized_ebitda": 5066000000.0,
+   "normalized_income": 1630360000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -215,7 +260,10 @@
    "goodwill_and_intangibles": 408000000.0,
    "retained_earnings": 13377000000.0,
    "total_debt": 24528000000.0,
-   "shares_out": 345415772.0
+   "shares_out": 345415772.0,
+   "unusual_items": 953000000.0,
+   "normalized_ebitda": 5104000000.0,
+   "normalized_income": 1742174000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -247,7 +295,10 @@
    "goodwill_and_intangibles": 408000000.0,
    "retained_earnings": 14048000000.0,
    "total_debt": 26880000000.0,
-   "shares_out": 346597693.0
+   "shares_out": 346597693.0,
+   "unusual_items": 38000000.0,
+   "normalized_ebitda": 5442000000.0,
+   "normalized_income": 1787700000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -279,7 +330,10 @@
    "goodwill_and_intangibles": 406000000.0,
    "retained_earnings": 14857000000.0,
    "total_debt": 25801000000.0,
-   "shares_out": 361121447.0
+   "shares_out": 361121447.0,
+   "unusual_items": 67000000.0,
+   "normalized_ebitda": 6084000000.0,
+   "normalized_income": 1970807000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "HAUTO.OL",
- "fetched_at": "2026-10-10T12:01:13+00:00",
+ "fetched_at": "2026-10-10T14:53:24+00:00",
  "region": "Europa",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "OSL",
   "fullTimeEmployees": 1763,
   "website": "https://www.hoeghautoliners.com",
-  "longBusinessSummary": "Höegh Autoliners ASA provides ocean transportation services within the roll-on roll-off (RoRo) segment for the deep sea and short sea markets in Norway. It operates through two segments, Shipping Services and Logistics Services. The company offers ocean cargo transportation for automobiles; breakbulk; trucks, buses, and trailers; railcars and tramways; mining equipment; agricultural machinery; machinery shipping; construction equipment; power equipment; and boats and yachts. It also provides equipment handling and project cargo logistics services. In addition, the company is involved in terminal-related, management, ship owning, and crewing office activities, as well as the establishment of SPVs for entering into ship building contracts. It serves vehicle manufacturers; and producers of high and heavy construction equipment, as well as of other rolling and non-rolling stocks. As of December 31, 2025, the company operated a fleet of approximately 40 vessels. Höegh Autoliners ASA was founded in 1927 and is headquartered in Oslo, Norway."
+  "longBusinessSummary": "Höegh Autoliners ASA provides ocean transportation services within the roll-on roll-off (RoRo) segment for the deep sea and short sea markets in Norway. It operates through two segments, Shipping Services and Logistics Services. The company offers ocean cargo transportation for automobiles; breakbulk; trucks, buses, and trailers; railcars and tramways; mining equipment; agricultural machinery; machinery shipping; construction equipment; power equipment; and boats and yachts. It also provides equipment handling and project cargo logistics services. In addition, the company is involved in terminal-related, management, ship owning, and crewing office activities, as well as the establishment of SPVs for entering into ship building contracts. It serves vehicle manufacturers; and producers of high and heavy construction equipment, as well as of other rolling and non-rolling stocks. As of December 31, 2025, the company operated a fleet of approximately 40 vessels. Höegh Autoliners ASA was founded in 1927 and is headquartered in Oslo, Norway.",
+  "targetMeanPrice": 163.68953,
+  "targetLowPrice": 125.83638,
+  "targetHighPrice": 207.84167,
+  "numberOfAnalystOpinions": 5,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.8,
+  "forwardPE": 9.289191,
+  "forwardEps": 19.872559,
+  "trailingEps": 21.96,
+  "earningsGrowth": -0.297,
+  "revenueGrowth": 0.023
  },
  "governance": {
   "ceo": {
@@ -74,8 +85,40 @@
   "ppe_net": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF NO",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 2105644000.0,
+    "official": 2105644000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1177449000.0,
+    "official": 1177449000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 619509000.0,
+    "official": 619509000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1370828000.0,
+    "official": 1370828000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T14:53:24+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -106,7 +149,10 @@
    "ppe_net": 1416983000.0,
    "retained_earnings": 329187000.0,
    "total_debt": 563312000.0,
-   "shares_out": 190769749.0
+   "shares_out": 190769749.0,
+   "unusual_items": 39963000.0,
+   "normalized_ebitda": 456319000.0,
+   "normalized_income": 260620150.0
   },
   {
    "fy_end": "2023-12-31",
@@ -137,7 +183,10 @@
    "ppe_net": 1458481000.0,
    "retained_earnings": 677380000.0,
    "total_debt": 509847000.0,
-   "shares_out": 190769749.0
+   "shares_out": 190769749.0,
+   "unusual_items": 35835000.0,
+   "normalized_ebitda": 740933000.0,
+   "normalized_income": 554246169.914897
   },
   {
    "fy_end": "2024-12-31",
@@ -169,7 +218,10 @@
    "ppe_net": 1741889000.0,
    "retained_earnings": 570935000.0,
    "total_debt": 788608000.0,
-   "shares_out": 190766097.0
+   "shares_out": 190766097.0,
+   "unusual_items": 41297000.0,
+   "normalized_ebitda": 701304000.0,
+   "normalized_income": 587297340.0
   },
   {
    "fy_end": "2025-12-31",
@@ -201,7 +253,10 @@
    "ppe_net": 1859005000.0,
    "retained_earnings": 668331000.0,
    "total_debt": 929499000.0,
-   "shares_out": 190769288.0
+   "shares_out": 190769288.0,
+   "unusual_items": 60684000.0,
+   "normalized_ebitda": 628613000.0,
+   "normalized_income": 452795000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "UPS",
- "fetched_at": "2026-10-10T13:00:59+00:00",
+ "fetched_at": "2026-10-10T15:58:32+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 460000,
   "website": "https://www.ups.com",
-  "longBusinessSummary": "United Parcel Service, Inc., a package delivery and logistics provider, offers transportation and delivery services. It operates through two segments, U.S. Domestic Package and International Package. The U.S. Domestic Package segment offers time-definite delivery services for express letters, documents, packages and palletized freight through air and ground services. The International Package segment provides small package operations in Europe, the Middle East and Africa, Canada and Latin America, and Asia. The company offers a range of guaranteed day- and time-definite international transportation services; day-definite services; cross-border ground package delivery; contract-only, e-commerce solutions for non-urgent, and cross-border shipments; and international service for urgent and palletized shipments. It also provides international air and ocean freight forwarding, contract logistics, customs brokerage and insurance, mail services, healthcare logistics, distribution, and post-sales services. United Parcel Service, Inc. was founded in 1907 and is headquartered in Atlanta, Georgia."
+  "longBusinessSummary": "United Parcel Service, Inc., a package delivery and logistics provider, offers transportation and delivery services. It operates through two segments, U.S. Domestic Package and International Package. The U.S. Domestic Package segment offers time-definite delivery services for express letters, documents, packages and palletized freight through air and ground services. The International Package segment provides small package operations in Europe, the Middle East and Africa, Canada and Latin America, and Asia. The company offers a range of guaranteed day- and time-definite international transportation services; day-definite services; cross-border ground package delivery; contract-only, e-commerce solutions for non-urgent, and cross-border shipments; and international service for urgent and palletized shipments. It also provides international air and ocean freight forwarding, contract logistics, customs brokerage and insurance, mail services, healthcare logistics, distribution, and post-sales services. United Parcel Service, Inc. was founded in 1907 and is headquartered in Atlanta, Georgia.",
+  "targetMeanPrice": 114.26923,
+  "targetLowPrice": 76.0,
+  "targetHighPrice": 135.0,
+  "numberOfAnalystOpinions": 26,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.17241,
+  "forwardPE": 11.733294,
+  "forwardEps": 8.05997,
+  "trailingEps": 5.38,
+  "earningsGrowth": -0.53,
+  "revenueGrowth": 0.076
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 73090000000.0,
+    "official": 73090000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 16227000000.0,
+    "official": 16227000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 5572000000.0,
+    "official": 5572000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 88661000000.0,
+    "official": 88661000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:58:32+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -194,7 +236,9 @@
    "goodwill_and_intangibles": 7019000000.0,
    "retained_earnings": 21326000000.0,
    "total_debt": 19436000000.0,
-   "shares_out": 858800000.0
+   "shares_out": 858800000.0,
+   "unusual_items": 2435000000.0,
+   "normalized_ebitda": 16282000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -228,7 +272,10 @@
    "goodwill_and_intangibles": 8177000000.0,
    "retained_earnings": 21055000000.0,
    "total_debt": 21998000000.0,
-   "shares_out": 853616677.0
+   "shares_out": 853616677.0,
+   "unusual_items": 219000000.0,
+   "normalized_ebitda": 12507000000.0,
+   "normalized_income": 6536642015.630468
   },
   {
    "fy_end": "2024-12-31",
@@ -262,7 +309,9 @@
    "goodwill_and_intangibles": 7364000000.0,
    "retained_earnings": 20882000000.0,
    "total_debt": 21030000000.0,
-   "shares_out": 853900000.0
+   "shares_out": 853900000.0,
+   "unusual_items": -160000000.0,
+   "normalized_ebitda": 12077000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -295,7 +344,9 @@
    "goodwill_and_intangibles": 9858000000.0,
    "retained_earnings": 20151000000.0,
    "total_debt": 23585000000.0,
-   "shares_out": 848900000.0
+   "shares_out": 848900000.0,
+   "unusual_items": 314000000.0,
+   "normalized_ebitda": 11613000000.0
   }
  ]
 }

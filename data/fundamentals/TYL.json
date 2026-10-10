@@ -1,6 +1,6 @@
 {
  "ticker": "TYL",
- "fetched_at": "2026-10-10T13:00:34+00:00",
+ "fetched_at": "2026-10-10T15:58:09+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 7879,
   "website": "https://www.tylertech.com",
-  "longBusinessSummary": "Tyler Technologies, Inc. provides integrated software and technology management solutions for the public sector in the United States. It operates in two segments, Enterprise Software and Platform Technologies. The company designs, develops, markets, and supports a range of software solutions to serve mission-critical back-office functions. It also offers platform and transformative technology solutions, such as cybersecurity, data and insights, digital solutions, payments, platform technologies, and outdoor recreation; public administration solutions, including civic services, ERP, property and recording, and regulatory; and corrections, courts and justice, and public safety solutions. In addition, the company provides school ERP and student transportation K-12 education solutions; and health and human services solutions comprising environmental health, and disability and benefits. It has a strategic collaboration agreement with Amazon Web Services for cloud hosting services. The company was formerly known as Tyler Corporation and changed its name to Tyler Technologies, Inc. in June 1999. Tyler Technologies, Inc. was founded in 1966 and is based in Plano, Texas."
+  "longBusinessSummary": "Tyler Technologies, Inc. provides integrated software and technology management solutions for the public sector in the United States. It operates in two segments, Enterprise Software and Platform Technologies. The company designs, develops, markets, and supports a range of software solutions to serve mission-critical back-office functions. It also offers platform and transformative technology solutions, such as cybersecurity, data and insights, digital solutions, payments, platform technologies, and outdoor recreation; public administration solutions, including civic services, ERP, property and recording, and regulatory; and corrections, courts and justice, and public safety solutions. In addition, the company provides school ERP and student transportation K-12 education solutions; and health and human services solutions comprising environmental health, and disability and benefits. It has a strategic collaboration agreement with Amazon Web Services for cloud hosting services. The company was formerly known as Tyler Corporation and changed its name to Tyler Technologies, Inc. in June 1999. Tyler Technologies, Inc. was founded in 1966 and is based in Plano, Texas.",
+  "targetMeanPrice": 422.5,
+  "targetLowPrice": 335.0,
+  "targetHighPrice": 525.0,
+  "numberOfAnalystOpinions": 22,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.69565,
+  "forwardPE": 21.50649,
+  "forwardEps": 15.32328,
+  "trailingEps": 7.6,
+  "earningsGrowth": 0.155,
+  "revenueGrowth": 0.082
  },
  "governance": {
   "top_institutions": [
@@ -77,8 +88,38 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 5638908000.0,
+    "official": 5638908000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3702789000.0,
+    "official": 3702789000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 315603000.0,
+    "official": 315603000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2332340000.0,
+    "official": 2332340000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:58:10+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -192,7 +233,9 @@
    "goodwill_and_intangibles": 3539661000.0,
    "retained_earnings": 1437854000.0,
    "total_debt": 987389000.0,
-   "shares_out": 41782978.0
+   "shares_out": 41782978.0,
+   "normalized_ebitda": 388013000.0,
+   "normalized_income": 164240000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -226,7 +269,9 @@
    "goodwill_and_intangibles": 3528103000.0,
    "retained_earnings": 1603773000.0,
    "total_debt": 646007000.0,
-   "shares_out": 42289493.0
+   "shares_out": 42289493.0,
+   "normalized_ebitda": 392632000.0,
+   "normalized_income": 165919000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -260,7 +305,9 @@
    "goodwill_and_intangibles": 3439736000.0,
    "retained_earnings": 1866799000.0,
    "total_debt": 597934000.0,
-   "shares_out": 42963877.0
+   "shares_out": 42963877.0,
+   "normalized_ebitda": 466467000.0,
+   "normalized_income": 263026000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -294,7 +341,9 @@
    "goodwill_and_intangibles": 3438798000.0,
    "retained_earnings": 2182402000.0,
    "total_debt": 599663000.0,
-   "shares_out": 43120932.0
+   "shares_out": 43120932.0,
+   "normalized_ebitda": 543177000.0,
+   "normalized_income": 315603000.0
   }
  ]
 }

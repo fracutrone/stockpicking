@@ -1,6 +1,6 @@
 {
  "ticker": "NOC",
- "fetched_at": "2026-10-10T12:53:04+00:00",
+ "fetched_at": "2026-10-10T15:51:03+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 95000,
   "website": "https://www.northropgrumman.com",
-  "longBusinessSummary": "Northrop Grumman Corporation operates as an aerospace and defense technology company in the United States, Asia/Pacific, Europe, and internationally. It operates through four segments: Aeronautics Systems, Defense Systems, Mission Systems and Space Systems. The Aeronautics Systems segment designs, develops, produces, integrates, sustains, and modernizes aircraft systems. This segment also offers unmanned autonomous aircraft systems, including high-altitude long-endurance strategic, surveillance and reconnaissance systems; and strategic long-range strike aircraft, tactical fighter and air dominance aircraft, and airborne battle management and command and control systems. Its Defense Systems segment designs, develops, integrates, and produces strategic deterrent systems, tactical weapons, and missile defense solutions; and provides sustainment, modernization, and training services for manned and unmanned aircraft and electronics systems. This segment also offers strategic missiles; integrated all-domain command and control systems; precision strike weapons; tactical solid rocket motors, and high-speed air-breathing and hypersonic systems; high-performance gun systems, ammunition, precision munitions, and advanced fuzes; and sustainment, operation, and modernization. The Mission Systems segment provides command, control, communication and computer, intelligence, surveillance, and reconnaissance systems; radar, electro-optical/infrared, and acoustic sensors; electronic warfare systems; advanced communications and network systems; microelectronics; navigation and positioning sensors; maritime power, propulsion, and payload launch systems; cyber solutions; and intelligence processing systems. Its Space Systems segment offers satellites, spacecraft systems, subsystems, sensors, and payloads; ground systems; missile defense systems and interceptors; and launch vehicles and related propulsion systems. The company was founded in 1939 and is based in Falls Church, Virginia."
+  "longBusinessSummary": "Northrop Grumman Corporation operates as an aerospace and defense technology company in the United States, Asia/Pacific, Europe, and internationally. It operates through four segments: Aeronautics Systems, Defense Systems, Mission Systems and Space Systems. The Aeronautics Systems segment designs, develops, produces, integrates, sustains, and modernizes aircraft systems. This segment also offers unmanned autonomous aircraft systems, including high-altitude long-endurance strategic, surveillance and reconnaissance systems; and strategic long-range strike aircraft, tactical fighter and air dominance aircraft, and airborne battle management and command and control systems. Its Defense Systems segment designs, develops, integrates, and produces strategic deterrent systems, tactical weapons, and missile defense solutions; and provides sustainment, modernization, and training services for manned and unmanned aircraft and electronics systems. This segment also offers strategic missiles; integrated all-domain command and control systems; precision strike weapons; tactical solid rocket motors, and high-speed air-breathing and hypersonic systems; high-performance gun systems, ammunition, precision munitions, and advanced fuzes; and sustainment, operation, and modernization. The Mission Systems segment provides command, control, communication and computer, intelligence, surveillance, and reconnaissance systems; radar, electro-optical/infrared, and acoustic sensors; electronic warfare systems; advanced communications and network systems; microelectronics; navigation and positioning sensors; maritime power, propulsion, and payload launch systems; cyber solutions; and intelligence processing systems. Its Space Systems segment offers satellites, spacecraft systems, subsystems, sensors, and payloads; ground systems; missile defense systems and interceptors; and launch vehicles and related propulsion systems. The company was founded in 1939 and is based in Falls Church, Virginia.",
+  "targetMeanPrice": 623.0,
+  "targetLowPrice": 419.0,
+  "targetHighPrice": 815.0,
+  "numberOfAnalystOpinions": 24,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.07692,
+  "forwardPE": 15.812212,
+  "forwardEps": 30.40182,
+  "trailingEps": 31.46,
+  "earningsGrowth": -0.058,
+  "revenueGrowth": 0.051
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 51377000000.0,
+    "official": 51377000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 16674000000.0,
+    "official": 16674000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 4182000000.0,
+    "official": 4182000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 41954000000.0,
+    "official": 41954000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:51:04+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -198,7 +240,10 @@
    "goodwill_and_intangibles": 17900000000.0,
    "retained_earnings": 15312000000.0,
    "total_debt": 12877000000.0,
-   "shares_out": 153157924.0
+   "shares_out": 153157924.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 7684000000.0,
+   "normalized_income": 4896000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -232,7 +277,10 @@
    "goodwill_and_intangibles": 17822000000.0,
    "retained_earnings": 14773000000.0,
    "total_debt": 13856000000.0,
-   "shares_out": 150109271.0
+   "shares_out": 150109271.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 4229000000.0,
+   "normalized_income": 2056000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -266,7 +314,10 @@
    "goodwill_and_intangibles": 17512000000.0,
    "retained_earnings": 15297000000.0,
    "total_debt": 16274000000.0,
-   "shares_out": 144952026.0
+   "shares_out": 144952026.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 7007000000.0,
+   "normalized_income": 4174000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -300,7 +351,10 @@
    "goodwill_and_intangibles": 17437000000.0,
    "retained_earnings": 16658000000.0,
    "total_debt": 15696000000.0,
-   "shares_out": 141997194.0
+   "shares_out": 141997194.0,
+   "unusual_items": 231000000.0,
+   "normalized_ebitda": 6974000000.0,
+   "normalized_income": 3991425000.0
   }
  ]
 }

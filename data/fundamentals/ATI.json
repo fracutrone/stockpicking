@@ -1,6 +1,6 @@
 {
  "ticker": "ATI",
- "fetched_at": "2026-10-10T12:38:08+00:00",
+ "fetched_at": "2026-10-10T15:35:06+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 7600,
   "website": "https://www.atimaterials.com",
-  "longBusinessSummary": "ATI Inc. produces and sells specialty materials and complex components worldwide. It operates in two segments, High Performance Materials & Components, and Advanced Alloys & Solutions. The company produces high performance materials, including titanium and titanium-based alloys, nickel- and cobalt-based alloys and superalloys, advanced powder alloys and other specialty materials, and metallic powder alloys, as well as long product forms, such as ingot, billet, bar, rod, wire, shapes and rectangles, seamless tubes, plus precision forgings, components, and machined parts. It also offers zirconium and related alloys, including hafnium and niobium, nickel-based alloys, titanium and titanium-based alloys, and specialty alloys in various forms, such as plate, sheet, and precision rolled strip products. In addition, the company provides hot-rolling conversion services comprising carbon steel products. It serves medical and specialty energy, aerospace and defense, construction and mining, transportation, oil and gas, automotive, food equipment and appliances, and mining markets. The company was formerly known as Allegheny Technologies Incorporated. ATI Inc. was founded in 1996 and is headquartered in Dallas, Texas."
+  "longBusinessSummary": "ATI Inc. produces and sells specialty materials and complex components worldwide. It operates in two segments, High Performance Materials & Components, and Advanced Alloys & Solutions. The company produces high performance materials, including titanium and titanium-based alloys, nickel- and cobalt-based alloys and superalloys, advanced powder alloys and other specialty materials, and metallic powder alloys, as well as long product forms, such as ingot, billet, bar, rod, wire, shapes and rectangles, seamless tubes, plus precision forgings, components, and machined parts. It also offers zirconium and related alloys, including hafnium and niobium, nickel-based alloys, titanium and titanium-based alloys, and specialty alloys in various forms, such as plate, sheet, and precision rolled strip products. In addition, the company provides hot-rolling conversion services comprising carbon steel products. It serves medical and specialty energy, aerospace and defense, construction and mining, transportation, oil and gas, automotive, food equipment and appliances, and mining markets. The company was formerly known as Allegheny Technologies Incorporated. ATI Inc. was founded in 1996 and is headquartered in Dallas, Texas.",
+  "targetMeanPrice": 252.66667,
+  "targetLowPrice": 228.0,
+  "targetHighPrice": 270.0,
+  "numberOfAnalystOpinions": 9,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.11111,
+  "forwardPE": 30.102512,
+  "forwardEps": 6.37289,
+  "trailingEps": 3.41,
+  "earningsGrowth": 0.557,
+  "revenueGrowth": 0.106
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 5099600000.0,
+    "official": 5099600000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1804500000.0,
+    "official": 1804500000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 404300000.0,
+    "official": 404300000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 4587400000.0,
+    "official": 4587400000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:35:07+00:00",
  "years": [
   {
    "fy_end": "2021-12-31",
@@ -177,7 +219,10 @@
    "goodwill_and_intangibles": 227200000.0,
    "retained_earnings": 176900000.0,
    "total_debt": 1706300000.0,
-   "shares_out": 128273042.0
+   "shares_out": 128273042.0,
+   "unusual_items": -128000000.0,
+   "normalized_ebitda": 717600000.0,
+   "normalized_income": 445904963.338973
   },
   {
    "fy_end": "2023-01-01",
@@ -211,7 +256,10 @@
    "goodwill_and_intangibles": 227200000.0,
    "retained_earnings": -480900000.0,
    "total_debt": 1706300000.0,
-   "shares_out": 128273042.0
+   "shares_out": 128273042.0,
+   "unusual_items": -128000000.0,
+   "normalized_ebitda": 717600000.0,
+   "normalized_income": 445904963.338973
   },
   {
    "fy_end": "2023-12-31",
@@ -244,7 +292,10 @@
    "goodwill_and_intangibles": 227200000.0,
    "retained_earnings": -70100000.0,
    "total_debt": 2147700000.0,
-   "shares_out": 126879099.0
+   "shares_out": 126879099.0,
+   "unusual_items": -7800000.0,
+   "normalized_ebitda": 554900000.0,
+   "normalized_income": 416962000.0
   },
   {
    "fy_end": "2024-12-29",
@@ -277,7 +328,10 @@
    "goodwill_and_intangibles": 227200000.0,
    "retained_earnings": 64300000.0,
    "total_debt": 1714900000.0,
-   "shares_out": 141387049.0
+   "shares_out": 141387049.0,
+   "unusual_items": 64600000.0,
+   "normalized_ebitda": 697200000.0,
+   "normalized_income": 316959800.0
   },
   {
    "fy_end": "2025-12-28",
@@ -310,7 +364,10 @@
    "goodwill_and_intangibles": 225200000.0,
    "retained_earnings": 468700000.0,
    "total_debt": 1718300000.0,
-   "shares_out": 135934852.0
+   "shares_out": 135934852.0,
+   "unusual_items": 9500000.0,
+   "normalized_ebitda": 791600000.0,
+   "normalized_income": 396690500.0
   }
  ]
 }

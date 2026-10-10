@@ -1,6 +1,6 @@
 {
  "ticker": "AAS.L",
- "fetched_at": "2026-10-10T12:27:55+00:00",
+ "fetched_at": "2026-10-10T15:31:35+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -49,8 +60,15 @@
   "equity": "yahoo",
   "receivables": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T15:31:35+00:00",
  "years": [
   {
    "fy_end": "2022-07-31",
@@ -70,7 +88,8 @@
    "equity": 464396000.0,
    "receivables": 1046000.0,
    "total_debt": 65832000.0,
-   "shares_out": 156953631.0
+   "shares_out": 156953631.0,
+   "normalized_income": -11022000.0
   },
   {
    "fy_end": "2023-07-31",
@@ -90,7 +109,8 @@
    "equity": 485784000.0,
    "receivables": 2097000.0,
    "total_debt": 66073000.0,
-   "shares_out": 156457978.0
+   "shares_out": 156457978.0,
+   "normalized_income": 35189000.0
   },
   {
    "fy_end": "2024-07-31",
@@ -110,7 +130,8 @@
    "equity": 502260000.0,
    "receivables": 3457000.0,
    "total_debt": 66274000.0,
-   "shares_out": 153626718.0
+   "shares_out": 153626718.0,
+   "normalized_income": 37325000.0
   },
   {
    "fy_end": "2025-07-31",
@@ -130,7 +151,8 @@
    "equity": 558593000.0,
    "receivables": 4611000.0,
    "total_debt": 64784000.0,
-   "shares_out": 146335588.0
+   "shares_out": 146335588.0,
+   "normalized_income": 89935000.0
   }
  ]
 }

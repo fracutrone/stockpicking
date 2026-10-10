@@ -1,6 +1,6 @@
 {
  "ticker": "COO",
- "fetched_at": "2026-10-10T12:41:45+00:00",
+ "fetched_at": "2026-10-10T15:40:17+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 15000,
   "website": "https://www.coopercos.com",
-  "longBusinessSummary": "The Cooper Companies, Inc., together with its subsidiaries, develops, manufactures, and markets contact lens wearers. The company operates in two segments, CooperVision and CooperSurgical. The CooperVision segment offers spherical, toric, and multifocal contact lenses that address vision challenges, such as astigmatism, presbyopia, and myopia. Its CooperSurgical segment focuses on family and women's health care, which provides fertility products and services, medical devices, and contraception, as well as cryostorage, such as cord blood and cord tissue storage. This segment offers Paragard, a hormone-free intrauterine device; and fertility consumables and equipment, donor gamete services, and genomic services, including genetic testing. The company sells its products to distributors, group purchasing organizations, eye care and health care professionals, including independent practices, corporate retailers, hospitals and clinics, and authorized resellers. The Cooper Companies, Inc. was founded in 1958 and is headquartered in San Ramon, California."
+  "longBusinessSummary": "The Cooper Companies, Inc., together with its subsidiaries, develops, manufactures, and markets contact lens wearers. The company operates in two segments, CooperVision and CooperSurgical. The CooperVision segment offers spherical, toric, and multifocal contact lenses that address vision challenges, such as astigmatism, presbyopia, and myopia. Its CooperSurgical segment focuses on family and women's health care, which provides fertility products and services, medical devices, and contraception, as well as cryostorage, such as cord blood and cord tissue storage. This segment offers Paragard, a hormone-free intrauterine device; and fertility consumables and equipment, donor gamete services, and genomic services, including genetic testing. The company sells its products to distributors, group purchasing organizations, eye care and health care professionals, including independent practices, corporate retailers, hospitals and clinics, and authorized resellers. The Cooper Companies, Inc. was founded in 1958 and is headquartered in San Ramon, California.",
+  "targetMeanPrice": 65.8,
+  "targetLowPrice": 58.0,
+  "targetHighPrice": 75.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.52941,
+  "forwardPE": 11.586549,
+  "forwardEps": 4.69251,
+  "trailingEps": 2.91,
+  "earningsGrowth": 3.571,
+  "revenueGrowth": 0.006
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-10-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 12394800000.0,
+    "official": 12394800000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 8238900000.0,
+    "official": 8238900000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 374900000.0,
+    "official": 374900000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 4092400000.0,
+    "official": 4092400000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:40:17+00:00",
  "years": [
   {
    "fy_end": "2019-10-31",
@@ -206,7 +248,10 @@
    "goodwill_and_intangibles": 5494800000.0,
    "retained_earnings": 6584900000.0,
    "total_debt": 2746500000.0,
-   "shares_out": 197200000.0
+   "shares_out": 197200000.0,
+   "unusual_items": 25700000.0,
+   "normalized_ebitda": 878700000.0,
+   "normalized_income": 385800000.0
   },
   {
    "fy_end": "2023-10-31",
@@ -240,7 +285,10 @@
    "goodwill_and_intangibles": 5334800000.0,
    "retained_earnings": 6876100000.0,
    "total_debt": 2568200000.0,
-   "shares_out": 198096596.0
+   "shares_out": 198096596.0,
+   "unusual_items": -7000000.0,
+   "normalized_ebitda": 885900000.0,
+   "normalized_income": 294200000.0
   },
   {
    "fy_end": "2024-10-31",
@@ -274,7 +322,10 @@
    "goodwill_and_intangibles": 5629400000.0,
    "retained_earnings": 7268400000.0,
    "total_debt": 2582600000.0,
-   "shares_out": 199600000.0
+   "shares_out": 199600000.0,
+   "unusual_items": -5200000.0,
+   "normalized_ebitda": 1076900000.0,
+   "normalized_income": 395804800.0
   },
   {
    "fy_end": "2025-10-31",
@@ -308,7 +359,10 @@
    "goodwill_and_intangibles": 5439700000.0,
    "retained_earnings": 7643300000.0,
    "total_debt": 2504600000.0,
-   "shares_out": 195900000.0
+   "shares_out": 195900000.0,
+   "unusual_items": -8000000.0,
+   "normalized_ebitda": 1051900000.0,
+   "normalized_income": 380196000.0
   }
  ]
 }

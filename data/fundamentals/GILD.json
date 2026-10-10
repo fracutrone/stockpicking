@@ -1,6 +1,6 @@
 {
  "ticker": "GILD",
- "fetched_at": "2026-10-10T12:46:39+00:00",
+ "fetched_at": "2026-10-10T15:45:08+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 17000,
   "website": "https://www.gilead.com",
-  "longBusinessSummary": "Gilead Sciences, Inc., a biopharmaceutical company, discovers, develops, and commercializes medicines in the areas of unmet medical need in the United States, Europe, and internationally. The company provides Biktarvy, Descovy, Genvoya, Odefsey, Sunlenca, Symtuza, and YeztugoFor the treatment of HIV-1 infection in patients. It also provides Epclusa, Livdelzi, and Vemlidy to treat chronic hepatitis C virus, primary biliary cholangitis, and chronic hepatitis B virus; Tecartus, a T-cell therapy for the treatment of adult patients; Trodelvy, an injection for intravenous use; and Yescarta, a suspension for intravenous infusion, is a CAR T-cell therapy for the treatment of adult patients. Further, it provides AmBisome, for the treatment of serious invasive fungal infections; and Veklury for the treatment of COVID-19. Additionally, the company engages in the development of various immunotherapies for patients with cancer and other incurable diseases. The company has collaboration agreements with Shenzhen Pregene Biopharma Co., Ltd.; Abingworth; Arcus Biosciences, Inc.; Merck Sharp & Dohme Corp.; Janssen Sciences Ireland Unlimited Company; Japan Tobacco, Inc.; Everest Medicines; Merck & Co, Inc.; Tentarix Biotherapeutics Inc.; and Assembly Biosciences, Inc. It also has research collaboration, option, and license agreement with Merus N.V. for the discovery of novel dual tumor-associated antigens (TAA) targeting trispecific antibodies. The company has a collaboration with Terray Therapeutics, Inc. to discover and develop small molecule therapies; and LEO Pharma to develop, manufacture, and commercialize the small molecule oral STAT6 program. The company has a partnership with Pan American Health Organization (PAHO) to accelerate access to lenacapavir for HIV prevention as pre-exposure prophylaxis (PrEP) across all PAHO member states in Latin America and the Caribbean. The company was incorporated in 1987 and is headquartered in Foster City, California."
+  "longBusinessSummary": "Gilead Sciences, Inc., a biopharmaceutical company, discovers, develops, and commercializes medicines in the areas of unmet medical need in the United States, Europe, and internationally. The company provides Biktarvy, Descovy, Genvoya, Odefsey, Sunlenca, Symtuza, and YeztugoFor the treatment of HIV-1 infection in patients. It also provides Epclusa, Livdelzi, and Vemlidy to treat chronic hepatitis C virus, primary biliary cholangitis, and chronic hepatitis B virus; Tecartus, a T-cell therapy for the treatment of adult patients; Trodelvy, an injection for intravenous use; and Yescarta, a suspension for intravenous infusion, is a CAR T-cell therapy for the treatment of adult patients. Further, it provides AmBisome, for the treatment of serious invasive fungal infections; and Veklury for the treatment of COVID-19. Additionally, the company engages in the development of various immunotherapies for patients with cancer and other incurable diseases. The company has collaboration agreements with Shenzhen Pregene Biopharma Co., Ltd.; Abingworth; Arcus Biosciences, Inc.; Merck Sharp & Dohme Corp.; Janssen Sciences Ireland Unlimited Company; Japan Tobacco, Inc.; Everest Medicines; Merck & Co, Inc.; Tentarix Biotherapeutics Inc.; and Assembly Biosciences, Inc. It also has research collaboration, option, and license agreement with Merus N.V. for the discovery of novel dual tumor-associated antigens (TAA) targeting trispecific antibodies. The company has a collaboration with Terray Therapeutics, Inc. to discover and develop small molecule therapies; and LEO Pharma to develop, manufacture, and commercialize the small molecule oral STAT6 program. The company has a partnership with Pan American Health Organization (PAHO) to accelerate access to lenacapavir for HIV prevention as pre-exposure prophylaxis (PrEP) across all PAHO member states in Latin America and the Caribbean. The company was incorporated in 1987 and is headquartered in Foster City, California.",
+  "targetMeanPrice": 159.38461,
+  "targetLowPrice": 126.0,
+  "targetHighPrice": 180.0,
+  "numberOfAnalystOpinions": 26,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.67857,
+  "forwardPE": 15.286512,
+  "forwardEps": 9.88911,
+  "trailingEps": -2.65,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.102
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 59023000000.0,
+    "official": 59023000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 22702000000.0,
+    "official": 22703000000.0,
+    "diff": 4.4e-05
+   },
+   "net_income": {
+    "yahoo": 8510000000.0,
+    "official": 8510000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 29442000000.0,
+    "official": 29443000000.0,
+    "diff": 3.4e-05
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:45:08+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -205,7 +247,10 @@
    "goodwill_and_intangibles": 37207000000.0,
    "retained_earnings": 15687000000.0,
    "total_debt": 25229000000.0,
-   "shares_out": 1247000000.0
+   "shares_out": 1247000000.0,
+   "unusual_items": -4301000000.0,
+   "normalized_ebitda": 13153000000.0,
+   "normalized_income": 7969771929.824561
   },
   {
    "fy_end": "2023-12-31",
@@ -240,7 +285,10 @@
    "goodwill_and_intangibles": 34768000000.0,
    "retained_earnings": 16304000000.0,
    "total_debt": 24987000000.0,
-   "shares_out": 1246041895.0
+   "shares_out": 1246041895.0,
+   "unusual_items": -1400000000.0,
+   "normalized_ebitda": 11896000000.0,
+   "normalized_income": 6810200000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -275,7 +323,10 @@
    "goodwill_and_intangibles": 28262000000.0,
    "retained_earnings": 11497000000.0,
    "total_debt": 26710000000.0,
-   "shares_out": 1246265857.0
+   "shares_out": 1246265857.0,
+   "unusual_items": -9208000000.0,
+   "normalized_ebitda": 13642000000.0,
+   "normalized_income": 6872220289.855072
   },
   {
    "fy_end": "2025-12-31",
@@ -310,7 +361,10 @@
    "goodwill_and_intangibles": 25292000000.0,
    "retained_earnings": 13730000000.0,
    "total_debt": 24937000000.0,
-   "shares_out": 1240679623.0
+   "shares_out": 1240679623.0,
+   "unusual_items": -1229000000.0,
+   "normalized_ebitda": 14809000000.0,
+   "normalized_income": 9577659248.672928
   }
  ]
 }

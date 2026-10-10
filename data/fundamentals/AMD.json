@@ -1,6 +1,6 @@
 {
  "ticker": "AMD",
- "fetched_at": "2026-10-10T12:37:17+00:00",
+ "fetched_at": "2026-10-10T15:34:19+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 31000,
   "website": "https://www.amd.com",
-  "longBusinessSummary": "Advanced Micro Devices, Inc. operates as a semiconductor company internationally. It operates in three segments: Data Center, Client and Gaming, and Embedded. The company offers artificial intelligence (AI) accelerators, microprocessors, and graphics processing units (GPUs) as standalone devices or as incorporated into accelerated processing units, chipsets, and data center and professional GPUs; and embedded processors and semi-custom system-on-chip (SoC) products, microprocessor and SoC development services and technology, data processing units, field programmable gate arrays (FPGA), system on modules, AI network interface cards, and adaptive SoC products. It provides processors under the AMD Ryzen, AMD Ryzen AI, AMD Ryzen PRO, AMD Ryzen Threadripper, AMD Ryzen Threadripper PRO, AMD Athlon, and AMD PRO A-Series brands; graphics under the AMD Radeon graphics and AMD Embedded Radeon graphics; professional graphics under the AMD Radeon Pro graphics brand; and AI and general-purpose compute infrastructure for hyperscale providers. The company offers data center graphics under the AMD Instinct accelerators and Radeon PRO V-series brands; server microprocessors under the AMD EPYC brand; low power solutions under the AMD Athlon, AMD Geode, AMD Ryzen, AMD EPYC, and AMD R-Series and G-Series brands; FPGA products under the Virtex-6, Virtex-7, Virtex UltraScale+, Kintex-7, Kintex UltraScale, Kintex UltraScale+, Artix-7, Artix UltraScale+, Spartan-6, and Spartan-7 brands; adaptive SOCs under the Zynq-7000, Zynq UltraScale+ MPSoC, Zynq UltraScale+ RFSoCs, Versal HBM, Versal Premium, Versal Prime, Versal AI Core, Versal AI Edge, Vitis, and Vivado brands; and compute and network acceleration board products under the Alveo and Pensando brands. It serves original equipment and design manufacturers, public cloud service providers, system integrators, distributors, and add-in-board manufacturers. The company was incorporated in 1969 and is headquartered in Santa Clara, California."
+  "longBusinessSummary": "Advanced Micro Devices, Inc. operates as a semiconductor company internationally. It operates in three segments: Data Center, Client and Gaming, and Embedded. The company offers artificial intelligence (AI) accelerators, microprocessors, and graphics processing units (GPUs) as standalone devices or as incorporated into accelerated processing units, chipsets, and data center and professional GPUs; and embedded processors and semi-custom system-on-chip (SoC) products, microprocessor and SoC development services and technology, data processing units, field programmable gate arrays (FPGA), system on modules, AI network interface cards, and adaptive SoC products. It provides processors under the AMD Ryzen, AMD Ryzen AI, AMD Ryzen PRO, AMD Ryzen Threadripper, AMD Ryzen Threadripper PRO, AMD Athlon, and AMD PRO A-Series brands; graphics under the AMD Radeon graphics and AMD Embedded Radeon graphics; professional graphics under the AMD Radeon Pro graphics brand; and AI and general-purpose compute infrastructure for hyperscale providers. The company offers data center graphics under the AMD Instinct accelerators and Radeon PRO V-series brands; server microprocessors under the AMD EPYC brand; low power solutions under the AMD Athlon, AMD Geode, AMD Ryzen, AMD EPYC, and AMD R-Series and G-Series brands; FPGA products under the Virtex-6, Virtex-7, Virtex UltraScale+, Kintex-7, Kintex UltraScale, Kintex UltraScale+, Artix-7, Artix UltraScale+, Spartan-6, and Spartan-7 brands; adaptive SOCs under the Zynq-7000, Zynq UltraScale+ MPSoC, Zynq UltraScale+ RFSoCs, Versal HBM, Versal Premium, Versal Prime, Versal AI Core, Versal AI Edge, Vitis, and Vivado brands; and compute and network acceleration board products under the Alveo and Pensando brands. It serves original equipment and design manufacturers, public cloud service providers, system integrators, distributors, and add-in-board manufacturers. The company was incorporated in 1969 and is headquartered in Santa Clara, California.",
+  "targetMeanPrice": 636.208,
+  "targetLowPrice": 365.0,
+  "targetHighPrice": 1250.0,
+  "numberOfAnalystOpinions": 50,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.49091,
+  "forwardPE": 38.678555,
+  "forwardEps": 15.72189,
+  "trailingEps": 3.92,
+  "earningsGrowth": 1.595,
+  "revenueGrowth": 0.501
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 76926000000.0,
+    "official": 76926000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 62999000000.0,
+    "official": 62999000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 4335000000.0,
+    "official": 4335000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 34639000000.0,
+    "official": 34639000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:34:19+00:00",
  "years": [
   {
    "fy_end": "2019-12-28",
@@ -209,7 +251,10 @@
    "goodwill_and_intangibles": 48295000000.0,
    "retained_earnings": -131000000.0,
    "total_debt": 2467000000.0,
-   "shares_out": 1612000000.0
+   "shares_out": 1612000000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 5534000000.0,
+   "normalized_income": 1320000000.0
   },
   {
    "fy_end": "2023-12-30",
@@ -244,7 +289,10 @@
    "goodwill_and_intangibles": 45625000000.0,
    "retained_earnings": 723000000.0,
    "total_debt": 3219000000.0,
-   "shares_out": 1616000000.0
+   "shares_out": 1616000000.0,
+   "unusual_items": 1000000.0,
+   "normalized_ebitda": 4050000000.0,
+   "normalized_income": 853210000.0
   },
   {
    "fy_end": "2024-12-28",
@@ -279,7 +327,10 @@
    "goodwill_and_intangibles": 43769000000.0,
    "retained_earnings": 2364000000.0,
    "total_debt": 1721000000.0,
-   "shares_out": 1622000000.0
+   "shares_out": 1622000000.0,
+   "unusual_items": -188000000.0,
+   "normalized_ebitda": 5333000000.0,
+   "normalized_income": 1793280000.0
   },
   {
    "fy_end": "2025-12-27",
@@ -314,7 +365,10 @@
    "goodwill_and_intangibles": 41831000000.0,
    "retained_earnings": 6699000000.0,
    "total_debt": 4096000000.0,
-   "shares_out": 1630000000.0
+   "shares_out": 1630000000.0,
+   "unusual_items": 366000000.0,
+   "normalized_ebitda": 6909000000.0,
+   "normalized_income": 3979860000.0
   }
  ]
 }

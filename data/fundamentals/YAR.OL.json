@@ -1,6 +1,6 @@
 {
  "ticker": "YAR.OL",
- "fetched_at": "2026-10-10T12:27:20+00:00",
+ "fetched_at": "2026-10-10T15:30:26+00:00",
  "region": "Europa",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "OSL",
   "fullTimeEmployees": 15383,
   "website": "https://www.yara.com",
-  "longBusinessSummary": "Yara International ASA provides crop nutrition, ammonia, and industrial solutions in Norway, European Union, Europe, Africa, Asia, North America, Latin America, Australia, and New Zealand. The company offers ammonium- and urea-based fertilizers; compound fertilizers that contain nutrients, such as nitrogen, phosphorus, and potassium; coatings; biostimulants; organic-based fertilizers; climate choice fertilizers; and nitrate-based fertilizers, as well as foliar and fertigation solutions; and nitrate, calcium nitrate, micronutrient, and urea fertilizers. It also provides digital solutions, such as YaraFX Insight, an agricultural API that connects unparalleled crop nutrition expertise with digital platforms; N-sensors, a tractor-mounted sensor; N-Tester, a handheld tool that measures chlorophyll content; YaraPlus, a digital platform to support crop nutrition decisions; Atfarm, a digital toolbox for farmer; Tankmix, an app and web solutions that provides guidelines; Yara E-commerce, a platform that enables customer access to nutritional solutions; Yara FarmCare, a mobile app for farmers; Yara AllFarm, a farm management platform; YaraConnect, a mobile app for retailers; and Yara Crop Nutrition Recommendation System, a service that helps farmers to make decisions for crop management. The company sells its products under YaraBela, YaraMila, YaraLiva, YaraVita, YaraAmplix, YaraRega, YaraTera, YaraSuna, and YaraVera brand names. Yara International ASA was founded in 1905 and is based in Oslo, Norway."
+  "longBusinessSummary": "Yara International ASA provides crop nutrition, ammonia, and industrial solutions in Norway, European Union, Europe, Africa, Asia, North America, Latin America, Australia, and New Zealand. The company offers ammonium- and urea-based fertilizers; compound fertilizers that contain nutrients, such as nitrogen, phosphorus, and potassium; coatings; biostimulants; organic-based fertilizers; climate choice fertilizers; and nitrate-based fertilizers, as well as foliar and fertigation solutions; and nitrate, calcium nitrate, micronutrient, and urea fertilizers. It also provides digital solutions, such as YaraFX Insight, an agricultural API that connects unparalleled crop nutrition expertise with digital platforms; N-sensors, a tractor-mounted sensor; N-Tester, a handheld tool that measures chlorophyll content; YaraPlus, a digital platform to support crop nutrition decisions; Atfarm, a digital toolbox for farmer; Tankmix, an app and web solutions that provides guidelines; Yara E-commerce, a platform that enables customer access to nutritional solutions; Yara FarmCare, a mobile app for farmers; Yara AllFarm, a farm management platform; YaraConnect, a mobile app for retailers; and Yara Crop Nutrition Recommendation System, a service that helps farmers to make decisions for crop management. The company sells its products under YaraBela, YaraMila, YaraLiva, YaraVita, YaraAmplix, YaraRega, YaraTera, YaraSuna, and YaraVera brand names. Yara International ASA was founded in 1905 and is based in Oslo, Norway.",
+  "targetMeanPrice": 467.3684,
+  "targetLowPrice": 380.0,
+  "targetHighPrice": 580.0,
+  "numberOfAnalystOpinions": 19,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.94737,
+  "forwardPE": 8.83313,
+  "forwardEps": 46.82372,
+  "trailingEps": 59.14,
+  "earningsGrowth": 0.318,
+  "revenueGrowth": 0.081
  },
  "governance": {
   "ceo": {
@@ -76,8 +87,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF NO",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 14994000000.0,
+    "official": 14994000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 6988000000.0,
+    "official": 6988000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 14000000.0,
+    "official": 14000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 13868000000.0,
+    "official": 13868000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T15:30:26+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -111,7 +154,10 @@
    "goodwill_and_intangibles": 866000000.0,
    "retained_earnings": 10745000000.0,
    "total_debt": 4218000000.0,
-   "shares_out": 254725627.0
+   "shares_out": 254725627.0,
+   "unusual_items": 96000000.0,
+   "normalized_ebitda": 4738000000.0,
+   "normalized_income": 2703560000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -145,7 +191,10 @@
    "goodwill_and_intangibles": 895000000.0,
    "retained_earnings": 9497000000.0,
    "total_debt": 4230000000.0,
-   "shares_out": 254725627.0
+   "shares_out": 254725627.0,
+   "unusual_items": -122000000.0,
+   "normalized_ebitda": 1653000000.0,
+   "normalized_income": 162740000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -179,7 +228,10 @@
    "goodwill_and_intangibles": 834000000.0,
    "retained_earnings": 9409000000.0,
    "total_debt": 4048000000.0,
-   "shares_out": 254725627.0
+   "shares_out": 254725627.0,
+   "unusual_items": -137000000.0,
+   "normalized_ebitda": 1602000000.0,
+   "normalized_income": 126200000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -213,7 +265,10 @@
    "goodwill_and_intangibles": 851000000.0,
    "retained_earnings": 10661000000.0,
    "total_debt": 4186000000.0,
-   "shares_out": 254725627.0
+   "shares_out": 254725627.0,
+   "unusual_items": -77000000.0,
+   "normalized_ebitda": 3183000000.0,
+   "normalized_income": 1427444000.0
   }
  ]
 }

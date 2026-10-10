@@ -1,6 +1,6 @@
 {
  "ticker": "TXNM",
- "fetched_at": "2026-10-10T13:00:29+00:00",
+ "fetched_at": "2026-10-10T15:58:05+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 1755,
   "website": "https://www.txnmenergy.com",
-  "longBusinessSummary": "TXNM Energy, Inc., through its subsidiaries, provides electricity and electric services in the United States. The company engages in the generation, transmission, and distribution of electricity for retail electric customers; and owns and leases communications, office and other equipment, office space, vehicles, energy storage facilities, and real estate. It also provides regulated transmission and distribution services in Texas, as well as owns and leases vehicles, service facilities, and office locations throughout its service territory. It serves residential, commercial, and industrial customers and end-users of electricity in New Mexico and Texas. The company was formerly known as PNM Resources, Inc and changed its name to TXNM Energy, Inc. in August 2024. TXNM Energy, Inc. was founded in 1882 and is based in Albuquerque, New Mexico."
+  "longBusinessSummary": "TXNM Energy, Inc., through its subsidiaries, provides electricity and electric services in the United States. The company engages in the generation, transmission, and distribution of electricity for retail electric customers; and owns and leases communications, office and other equipment, office space, vehicles, energy storage facilities, and real estate. It also provides regulated transmission and distribution services in Texas, as well as owns and leases vehicles, service facilities, and office locations throughout its service territory. It serves residential, commercial, and industrial customers and end-users of electricity in New Mexico and Texas. The company was formerly known as PNM Resources, Inc and changed its name to TXNM Energy, Inc. in August 2024. TXNM Energy, Inc. was founded in 1882 and is based in Albuquerque, New Mexico.",
+  "targetMeanPrice": 60.7,
+  "targetLowPrice": 59.0,
+  "targetHighPrice": 61.25,
+  "numberOfAnalystOpinions": 5,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 18.026192,
+  "forwardEps": 3.25138,
+  "trailingEps": 1.74,
+  "earningsGrowth": 1.909,
+  "revenueGrowth": 0.092
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "intangibles": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 12059285000.0,
+    "official": 12059285000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3415547000.0,
+    "official": 3404018000.0,
+    "diff": 0.003387
+   },
+   "net_income": {
+    "yahoo": 151890000.0,
+    "official": 169826000.0,
+    "diff": 0.105614
+   },
+   "revenue": {
+    "yahoo": 2165606000.0,
+    "official": 2165606000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:58:05+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -190,7 +232,10 @@
    "goodwill_and_intangibles": 278297000.0,
    "retained_earnings": 828878000.0,
    "total_debt": 4309387000.0,
-   "shares_out": 85834874.0
+   "shares_out": 85834874.0,
+   "unusual_items": -79189000.0,
+   "normalized_ebitda": 759530000.0,
+   "normalized_income": 239454711.087975
   },
   {
    "fy_end": "2023-12-31",
@@ -223,7 +268,10 @@
    "goodwill_and_intangibles": 278297000.0,
    "retained_earnings": 787110000.0,
    "total_debt": 4783711000.0,
-   "shares_out": 90200384.0
+   "shares_out": 90200384.0,
+   "unusual_items": -52677000.0,
+   "normalized_ebitda": 687253000.0,
+   "normalized_income": 127448137.1
   },
   {
    "fy_end": "2024-12-31",
@@ -256,7 +304,10 @@
    "goodwill_and_intangibles": 278297000.0,
    "retained_earnings": 887649000.0,
    "total_debt": 5532668000.0,
-   "shares_out": 92659335.0
+   "shares_out": 92659335.0,
+   "unusual_items": 17871000.0,
+   "normalized_ebitda": 913445000.0,
+   "normalized_income": 226183492.8
   },
   {
    "fy_end": "2025-12-31",
@@ -289,7 +340,10 @@
    "goodwill_and_intangibles": 278297000.0,
    "retained_earnings": 866904000.0,
    "total_debt": 5599964000.0,
-   "shares_out": 108921356.0
+   "shares_out": 108921356.0,
+   "unusual_items": 35481000.0,
+   "normalized_ebitda": 899432000.0,
+   "normalized_income": 118417224.6
   }
  ]
 }

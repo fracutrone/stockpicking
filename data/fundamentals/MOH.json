@@ -1,6 +1,6 @@
 {
  "ticker": "MOH",
- "fetched_at": "2026-10-10T12:51:49+00:00",
+ "fetched_at": "2026-10-10T15:49:58+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 19000,
   "website": "https://www.molinahealthcare.com",
-  "longBusinessSummary": "Molina Healthcare, Inc. provides managed healthcare services to low-income families and individuals under the Medicaid and Medicare programs and through the state insurance marketplaces in the United States. It operates through Medicaid, Medicare, Marketplace, and Other segments. The company was founded in 1980 and is headquartered in Long Beach, California."
+  "longBusinessSummary": "Molina Healthcare, Inc. provides managed healthcare services to low-income families and individuals under the Medicaid and Medicare programs and through the state insurance marketplaces in the United States. It operates through Medicaid, Medicare, Marketplace, and Other segments. The company was founded in 1980 and is headquartered in Long Beach, California.",
+  "targetMeanPrice": 209.11765,
+  "targetLowPrice": 147.0,
+  "targetHighPrice": 266.0,
+  "numberOfAnalystOpinions": 17,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.68421,
+  "forwardPE": 20.20827,
+  "forwardEps": 9.74502,
+  "trailingEps": 0.09,
+  "earningsGrowth": -0.753,
+  "revenueGrowth": -0.057
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 15564000000.0,
+    "official": 15564000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4069000000.0,
+    "official": 4069000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 472000000.0,
+    "official": 472000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 45426000000.0,
+    "official": 45426000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:49:58+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -163,7 +205,8 @@
    "goodwill": 982000000.0,
    "intangibles": 270000000.0,
    "retained_earnings": 2399000000.0,
-   "total_debt": 2173000000.0
+   "total_debt": 2173000000.0,
+   "unusual_items": 0.0
   },
   {
    "fy_end": "2022-12-31",
@@ -197,7 +240,10 @@
    "goodwill_and_intangibles": 1390000000.0,
    "retained_earnings": 2796000000.0,
    "total_debt": 2176000000.0,
-   "shares_out": 58000000.0
+   "shares_out": 58000000.0,
+   "unusual_items": -208000000.0,
+   "normalized_ebitda": 1557000000.0,
+   "normalized_income": 946972718.720602
   },
   {
    "fy_end": "2023-12-31",
@@ -231,7 +277,10 @@
    "goodwill_and_intangibles": 1449000000.0,
    "retained_earnings": 3887000000.0,
    "total_debt": 2180000000.0,
-   "shares_out": 58300000.0
+   "shares_out": 58300000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 1744000000.0,
+   "normalized_income": 1091000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -265,7 +314,10 @@
    "goodwill_and_intangibles": 1938000000.0,
    "retained_earnings": 4091000000.0,
    "total_debt": 2923000000.0,
-   "shares_out": 56000000.0
+   "shares_out": 56000000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 1893000000.0,
+   "normalized_income": 1179000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -299,7 +351,9 @@
    "goodwill_and_intangibles": 2195000000.0,
    "retained_earnings": 3602000000.0,
    "total_debt": 3766000000.0,
-   "shares_out": 51400000.0
+   "shares_out": 51400000.0,
+   "normalized_ebitda": 976000000.0,
+   "normalized_income": 472000000.0
   }
  ]
 }

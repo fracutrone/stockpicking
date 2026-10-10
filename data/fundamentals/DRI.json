@@ -1,6 +1,6 @@
 {
  "ticker": "DRI",
- "fetched_at": "2026-10-10T12:43:32+00:00",
+ "fetched_at": "2026-10-10T15:41:58+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 209931,
   "website": "https://www.darden.com",
-  "longBusinessSummary": "Darden Restaurants, Inc., together with its subsidiaries, owns and operates full-service restaurants in the United States and Canada. The company operates under Olive Garden, LongHorn Steakhouse, Cheddar's Scratch Kitchen, Chuy's, Yard House, Ruth's Chris Steak House, The Capital Grille, Seasons 52, Eddie V's Prime Seafood, Bahama Breeze, The Capital Burger, Darden and Darden Restaurants brand names. Darden Restaurants, Inc. was founded in 1938 and is based in Orlando, Florida."
+  "longBusinessSummary": "Darden Restaurants, Inc., together with its subsidiaries, owns and operates full-service restaurants in the United States and Canada. The company operates under Olive Garden, LongHorn Steakhouse, Cheddar's Scratch Kitchen, Chuy's, Yard House, Ruth's Chris Steak House, The Capital Grille, Seasons 52, Eddie V's Prime Seafood, Bahama Breeze, The Capital Burger, Darden and Darden Restaurants brand names. Darden Restaurants, Inc. was founded in 1938 and is based in Orlando, Florida.",
+  "targetMeanPrice": 233.44,
+  "targetLowPrice": 163.0,
+  "targetHighPrice": 276.0,
+  "numberOfAnalystOpinions": 25,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.82143,
+  "forwardPE": 15.94049,
+  "forwardEps": 12.39987,
+  "trailingEps": 10.3,
+  "earningsGrowth": -0.067,
+  "revenueGrowth": 0.051
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-05-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 12862400000.0,
+    "official": 12862400000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2207500000.0,
+    "official": 2207500000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1206700000.0,
+    "official": 1206700000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 13210900000.0,
+    "official": 13210900000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:41:58+00:00",
  "years": [
   {
    "fy_end": "2020-05-31",
@@ -194,7 +236,10 @@
    "goodwill_and_intangibles": 1922000000.0,
    "retained_earnings": -32500000.0,
    "total_debt": 884900000.0,
-   "shares_out": 121070611.0
+   "shares_out": 121070611.0,
+   "unusual_items": -15300000.0,
+   "normalized_ebitda": 1612700000.0,
+   "normalized_income": 996929317.269076
   },
   {
    "fy_end": "2024-05-26",
@@ -228,7 +273,10 @@
    "goodwill_and_intangibles": 2630900000.0,
    "retained_earnings": -35500000.0,
    "total_debt": 1457200000.0,
-   "shares_out": 118862950.0
+   "shares_out": 118862950.0,
+   "unusual_items": -36700000.0,
+   "normalized_ebitda": 1815300000.0,
+   "normalized_income": 1062685900.0
   },
   {
    "fy_end": "2025-05-25",
@@ -262,7 +310,10 @@
    "goodwill_and_intangibles": 3103100000.0,
    "retained_earnings": -16100000.0,
    "total_debt": 2128900000.0,
-   "shares_out": 117033830.0
+   "shares_out": 117033830.0,
+   "unusual_items": -74000000.0,
+   "normalized_ebitda": 1955800000.0,
+   "normalized_income": 1116490000.0
   },
   {
    "fy_end": "2026-05-31",
@@ -296,7 +347,10 @@
    "goodwill_and_intangibles": 3107500000.0,
    "retained_earnings": -108400000.0,
    "total_debt": 1637700000.0,
-   "shares_out": 114077969.0
+   "shares_out": 114077969.0,
+   "unusual_items": -23800000.0,
+   "normalized_ebitda": 2169800000.0,
+   "normalized_income": 1234501200.0
   }
  ]
 }

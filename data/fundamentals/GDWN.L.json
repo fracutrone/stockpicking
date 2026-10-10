@@ -1,6 +1,6 @@
 {
  "ticker": "GDWN.L",
- "fetched_at": "2026-10-10T11:59:35+00:00",
+ "fetched_at": "2026-10-10T14:50:47+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 1296,
   "website": "https://www.goodwin.co.uk",
-  "longBusinessSummary": "Goodwin PLC, together with its subsidiaries, provides refractory engineering and technological solutions in the United Kingdom, rest of Europe, the United States, the Pacific Basin, and internationally. It designs, manufactures, and sells investment casting powders, injection moulding rubbers, and waxes for jewelry casting, tire mould, and aerospace industries. The company also produces exfoliated vermiculite that is used in insulation, brake linings, and fire protection products, including technical textiles; manufactures cristobalite and ground silica, as well as various grades of perlite and a range of biodegradable bags for use inside traditional hessian/jute bags for the placement of concrete and other materials in or around rivers; sells consumable refractories to the shell molding casting industry; and designs, patents, and sells fire extinguishers. In addition, it manufactures and sells polyimide resins; and provides internet services. The company was founded in 1883 and is headquartered in Stoke-On-Trent, the United Kingdom."
+  "longBusinessSummary": "Goodwin PLC, together with its subsidiaries, provides refractory engineering and technological solutions in the United Kingdom, rest of Europe, the United States, the Pacific Basin, and internationally. It designs, manufactures, and sells investment casting powders, injection moulding rubbers, and waxes for jewelry casting, tire mould, and aerospace industries. The company also produces exfoliated vermiculite that is used in insulation, brake linings, and fire protection products, including technical textiles; manufactures cristobalite and ground silica, as well as various grades of perlite and a range of biodegradable bags for use inside traditional hessian/jute bags for the placement of concrete and other materials in or around rivers; sells consumable refractories to the shell molding casting industry; and designs, patents, and sells fire extinguishers. In addition, it manufactures and sells polyimide resins; and provides internet services. The company was founded in 1883 and is headquartered in Stoke-On-Trent, the United Kingdom.",
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": 0.73,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -64,8 +75,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2026-04-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 323470000.0,
+    "official": 323470000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 130642000.0,
+    "official": 130642000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 55454000.0,
+    "official": 55454000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 68862000.0,
+    "official": 68862000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2026-04-30"
+ },
+ "info_at": "2026-10-10T14:50:47+00:00",
  "years": [
   {
    "fy_end": "2023-04-30",
@@ -100,7 +143,10 @@
    "goodwill_and_intangibles": 25448000.0,
    "retained_earnings": 119055000.0,
    "total_debt": 53985000.0,
-   "shares_out": 7689600.0
+   "shares_out": 7689600.0,
+   "unusual_items": 3670000.0,
+   "normalized_ebitda": 29198000.0,
+   "normalized_income": 13165389.579285
   },
   {
    "fy_end": "2024-04-30",
@@ -135,7 +181,10 @@
    "goodwill_and_intangibles": 25900000.0,
    "retained_earnings": 123714000.0,
    "total_debt": 75933000.0,
-   "shares_out": 7509600.0
+   "shares_out": 7509600.0,
+   "unusual_items": 1382000.0,
+   "normalized_ebitda": 36554000.0,
+   "normalized_income": 15890577.188417
   },
   {
    "fy_end": "2025-04-30",
@@ -170,7 +219,10 @@
    "goodwill_and_intangibles": 27670000.0,
    "retained_earnings": 138295000.0,
    "total_debt": 32127000.0,
-   "shares_out": 7509600.0
+   "shares_out": 7509600.0,
+   "unusual_items": -47000.0,
+   "normalized_ebitda": 21705000.0,
+   "normalized_income": 6752603.857702
   },
   {
    "fy_end": "2026-04-30",
@@ -204,7 +256,10 @@
    "goodwill_and_intangibles": 15748000.0,
    "retained_earnings": 132771000.0,
    "total_debt": 1430000.0,
-   "shares_out": 7509600.0
+   "shares_out": 7509600.0,
+   "unusual_items": 993000.0,
+   "normalized_ebitda": 19821000.0,
+   "normalized_income": 4768754.870575
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "SAN.PA",
- "fetched_at": "2026-10-10T12:18:13+00:00",
+ "fetched_at": "2026-10-10T15:18:06+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "PAR",
   "fullTimeEmployees": 74846,
   "website": "https://www.sanofi.com",
-  "longBusinessSummary": "Sanofi engages in the research, development, manufacture, and marketing of therapeutic solutions. It provides immunology and inflammation, rare diseases neurology, oncology, and other vaccines. It also offers poliomyelitis, pertussis, and haemophilus influenzae type b (Hib) pediatric vaccines; respiratory syncytial virus protection; hexavalent combination vaccines that includes hepatitis A, typhoid, yellow fever, and rabies vaccines; and Fluzone, a flu vaccine. It has a collaboration and license agreement with Exscientia to develop up to 15 novel small-molecule for oncology and immunology; ABL Bio, Inc. to develop ABL301 for treatment of alpha-synucleinopathies; and Innate Pharma SA for cell engager program targeting B7-H3. Further, it has a collaboration agreements with Atomwise to use ATOMNET platform and Insilico Medicine to use Pharma.AI, a medicine's AI platform; Kymera Therapeutics, Inc. to develop and commercialize protein degrader therapies targeting IRAK4 in patients with immune-inflammatory diseases; Nurix Therapeutics, Inc. to develop protein degradation therapies; Denali Therapeutics Inc. to treat systemic inflammatory diseases, such as ulcerative colitis; and Adagene Inc. for development of antibody-based therapies. Additionally, it has a collaboration with Scribe Therapeutics Inc. to develop genome editing technologies; Teva Pharmaceuticals to co-develop and co-commercialize TEV'574, for treatment of ulcerative colitis and Crohn's disease; and co-promotion service agreement with Provention Bio, Inc. for the commercialization of teplizumab. The company was formerly known as Sanofi-Aventis and changed its name to Sanofi in May 2011. Sanofi was incorporated in 1994 and is headquartered in Paris, France."
+  "longBusinessSummary": "Sanofi engages in the research, development, manufacture, and marketing of therapeutic solutions. It provides immunology and inflammation, rare diseases neurology, oncology, and other vaccines. It also offers poliomyelitis, pertussis, and haemophilus influenzae type b (Hib) pediatric vaccines; respiratory syncytial virus protection; hexavalent combination vaccines that includes hepatitis A, typhoid, yellow fever, and rabies vaccines; and Fluzone, a flu vaccine. It has a collaboration and license agreement with Exscientia to develop up to 15 novel small-molecule for oncology and immunology; ABL Bio, Inc. to develop ABL301 for treatment of alpha-synucleinopathies; and Innate Pharma SA for cell engager program targeting B7-H3. Further, it has a collaboration agreements with Atomwise to use ATOMNET platform and Insilico Medicine to use Pharma.AI, a medicine's AI platform; Kymera Therapeutics, Inc. to develop and commercialize protein degrader therapies targeting IRAK4 in patients with immune-inflammatory diseases; Nurix Therapeutics, Inc. to develop protein degradation therapies; Denali Therapeutics Inc. to treat systemic inflammatory diseases, such as ulcerative colitis; and Adagene Inc. for development of antibody-based therapies. Additionally, it has a collaboration with Scribe Therapeutics Inc. to develop genome editing technologies; Teva Pharmaceuticals to co-develop and co-commercialize TEV'574, for treatment of ulcerative colitis and Crohn's disease; and co-promotion service agreement with Provention Bio, Inc. for the commercialization of teplizumab. The company was formerly known as Sanofi-Aventis and changed its name to Sanofi in May 2011. Sanofi was incorporated in 1994 and is headquartered in Paris, France.",
+  "targetMeanPrice": 94.05875,
+  "targetLowPrice": 78.0,
+  "targetHighPrice": 112.0,
+  "numberOfAnalystOpinions": 24,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.12,
+  "forwardPE": 7.869692,
+  "forwardEps": 9.08803,
+  "trailingEps": 3.25,
+  "earningsGrowth": -0.912,
+  "revenueGrowth": 0.146
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,35 @@
   "intangibles": "yahoo",
   "goodwill_and_intangibles": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF FR",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 126805000000.0,
+    "official": 126805000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 71376000000.0,
+    "official": 71376000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 7813000000.0,
+    "official": 7813000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:18:06+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -119,7 +157,10 @@
    "intangibles": 21640000000.0,
    "goodwill_and_intangibles": 71532000000.0,
    "total_debt": 21212000000.0,
-   "shares_out": 1260835732.0
+   "shares_out": 1260835732.0,
+   "unusual_items": -766000000.0,
+   "normalized_ebitda": 14276000000.0,
+   "normalized_income": 8588928000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -153,7 +194,10 @@
    "intangibles": 24319000000.0,
    "goodwill_and_intangibles": 73723000000.0,
    "total_debt": 18422000000.0,
-   "shares_out": 1251349581.0
+   "shares_out": 1251349581.0,
+   "unusual_items": -1814000000.0,
+   "normalized_ebitda": 13137000000.0,
+   "normalized_income": 6580318000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -187,7 +231,10 @@
    "intangibles": 22629000000.0,
    "goodwill_and_intangibles": 66013000000.0,
    "total_debt": 17906000000.0,
-   "shares_out": 1253591640.0
+   "shares_out": 1253591640.0,
+   "unusual_items": -1735000000.0,
+   "normalized_ebitda": 12723000000.0,
+   "normalized_income": 6919124813.377128
   },
   {
    "fy_end": "2025-12-31",
@@ -221,7 +268,10 @@
    "intangibles": 26261000000.0,
    "goodwill_and_intangibles": 67561000000.0,
    "total_debt": 20329000000.0,
-   "shares_out": 1207641512.0
+   "shares_out": 1207641512.0,
+   "unusual_items": -3293000000.0,
+   "normalized_ebitda": 15772000000.0,
+   "normalized_income": 7675789635.62753
   }
  ]
 }

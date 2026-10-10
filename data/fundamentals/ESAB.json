@@ -1,6 +1,6 @@
 {
  "ticker": "ESAB",
- "fetched_at": "2026-10-10T12:44:39+00:00",
+ "fetched_at": "2026-10-10T15:43:01+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 10300,
   "website": "https://www.esabcorporation.com",
-  "longBusinessSummary": "ESAB Corporation engages in the formulation, development, manufacture, and supply of consumable products and equipment for use in cutting, joining, automated welding, and gas control equipment. It offers its products through independent distributors and direct salespeople. It operates in Europe, Asia Pacific, South America, and the Middle East. ESAB Corporation was founded in 1904 and is headquartered in North Bethesda, Maryland."
+  "longBusinessSummary": "ESAB Corporation engages in the formulation, development, manufacture, and supply of consumable products and equipment for use in cutting, joining, automated welding, and gas control equipment. It offers its products through independent distributors and direct salespeople. It operates in Europe, Asia Pacific, South America, and the Middle East. ESAB Corporation was founded in 1904 and is headquartered in North Bethesda, Maryland.",
+  "targetMeanPrice": 123.63636,
+  "targetLowPrice": 95.0,
+  "targetHighPrice": 145.0,
+  "numberOfAnalystOpinions": 11,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.27273,
+  "forwardPE": 10.373428,
+  "forwardEps": 6.44435,
+  "trailingEps": 3.21,
+  "earningsGrowth": -0.541,
+  "revenueGrowth": 0.129
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 4766094000.0,
+    "official": 4766094000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2166040000.0,
+    "official": 2166040000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 226766000.0,
+    "official": 226766000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2842555000.0,
+    "official": 2842555000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:43:01+00:00",
  "years": [
   {
    "fy_end": "2020-12-31",
@@ -165,7 +207,10 @@
    "goodwill_and_intangibles": 2046934000.0,
    "retained_earnings": 159231000.0,
    "total_debt": 1218643000.0,
-   "shares_out": 60094725.0
+   "shares_out": 60094725.0,
+   "unusual_items": -23096000.0,
+   "normalized_ebitda": 427275000.0,
+   "normalized_income": 244598920.0
   },
   {
    "fy_end": "2023-12-31",
@@ -199,7 +244,10 @@
    "goodwill_and_intangibles": 2087866000.0,
    "retained_earnings": 350557000.0,
    "total_debt": 1018057000.0,
-   "shares_out": 60295634.0
+   "shares_out": 60295634.0,
+   "unusual_items": -24110000.0,
+   "normalized_ebitda": 503310000.0,
+   "normalized_income": 234503045.334888
   },
   {
    "fy_end": "2024-12-31",
@@ -233,7 +281,10 @@
    "goodwill_and_intangibles": 2139986000.0,
    "retained_earnings": 597180000.0,
    "total_debt": 1075739000.0,
-   "shares_out": 60517574.0
+   "shares_out": 60517574.0,
+   "unusual_items": -10227000.0,
+   "normalized_ebitda": 512312000.0,
+   "normalized_income": 295242397.089672
   },
   {
    "fy_end": "2025-12-31",
@@ -267,7 +318,10 @@
    "goodwill_and_intangibles": 2622708000.0,
    "retained_earnings": 800806000.0,
    "total_debt": 1234952000.0,
-   "shares_out": 60721079.0
+   "shares_out": 60721079.0,
+   "unusual_items": -27756000.0,
+   "normalized_ebitda": 524031000.0,
+   "normalized_income": 274536484.0
   }
  ]
 }

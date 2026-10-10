@@ -1,6 +1,6 @@
 {
  "ticker": "CAVA",
- "fetched_at": "2026-10-10T12:39:57+00:00",
+ "fetched_at": "2026-10-10T15:38:50+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 13480,
   "website": "https://cava.com",
-  "longBusinessSummary": "CAVA Group, Inc. owns and operates a chain of restaurants under the CAVA brand in the United States. It also offers dips, spreads, and dressings through grocery stores. In addition, the company provides walk-the-line, online, and mobile ordering platforms. CAVA Group, Inc. was founded in 2006 and is headquartered in Washington, District Of Columbia."
+  "longBusinessSummary": "CAVA Group, Inc. owns and operates a chain of restaurants under the CAVA brand in the United States. It also offers dips, spreads, and dressings through grocery stores. In addition, the company provides walk-the-line, online, and mobile ordering platforms. CAVA Group, Inc. was founded in 2006 and is headquartered in Washington, District Of Columbia.",
+  "targetMeanPrice": 83.66667,
+  "targetLowPrice": 18.0,
+  "targetHighPrice": 110.0,
+  "numberOfAnalystOpinions": 24,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.82143,
+  "forwardPE": 71.8765,
+  "forwardEps": 0.74628,
+  "trailingEps": 0.55,
+  "earningsGrowth": 0.198,
+  "revenueGrowth": 0.313
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 1360027000.0,
+    "official": 1360027000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 779656000.0,
+    "official": 779656000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 63743000.0,
+    "official": 63743000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1179664000.0,
+    "official": 1179664000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:38:50+00:00",
  "years": [
   {
    "fy_end": "2021-12-26",
@@ -136,7 +178,10 @@
    "goodwill_and_intangibles": 3326000.0,
    "retained_earnings": -460943000.0,
    "total_debt": 314733000.0,
-   "shares_out": 111385928.0
+   "shares_out": 111385928.0,
+   "unusual_items": -44989000.0,
+   "normalized_ebitda": 72936000.0,
+   "normalized_income": -23445690.0
   },
   {
    "fy_end": "2023-12-31",
@@ -169,7 +214,10 @@
    "goodwill_and_intangibles": 3299000.0,
    "retained_earnings": -447663000.0,
    "total_debt": 336198000.0,
-   "shares_out": 113708000.0
+   "shares_out": 113708000.0,
+   "unusual_items": -26697000.0,
+   "normalized_ebitda": 105552000.0,
+   "normalized_income": 38517482.915718
   },
   {
    "fy_end": "2024-12-29",
@@ -203,7 +251,10 @@
    "goodwill_and_intangibles": 3299000.0,
    "retained_earnings": -317344000.0,
    "total_debt": 378708000.0,
-   "shares_out": 115093000.0
+   "shares_out": 115093000.0,
+   "unusual_items": -17832000.0,
+   "normalized_ebitda": 139137000.0,
+   "normalized_income": 144406280.0
   },
   {
    "fy_end": "2025-12-28",
@@ -237,7 +288,10 @@
    "goodwill_and_intangibles": 3723000.0,
    "retained_earnings": -253601000.0,
    "total_debt": 466248000.0,
-   "shares_out": 116127000.0
+   "shares_out": 116127000.0,
+   "unusual_items": -24059000.0,
+   "normalized_ebitda": 177064000.0,
+   "normalized_income": 85396100.0
   }
  ]
 }

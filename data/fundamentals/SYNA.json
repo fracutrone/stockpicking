@@ -1,6 +1,6 @@
 {
  "ticker": "SYNA",
- "fetched_at": "2026-10-10T12:59:16+00:00",
+ "fetched_at": "2026-10-10T15:56:59+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 1700,
   "website": "https://www.synaptics.com",
-  "longBusinessSummary": "Synaptics Incorporated develops, markets, and sells semiconductor products worldwide. The company provides edge AI processors, wireless connectivity, touch controllers, biometrics, voice, audio, and multimedia products for physical AI and robotics, edge AI, smart home, industrial and automotive, personal computers, and mobile applications, as well as modular development kits, open software frameworks, and optimized AI/ML toolchains. It also offers Wi-Fi, Bluetooth, Bluetooth Low Energy, Zigbee, Thread, Matter, global positioning system, global navigation satellite system, ultra-low energy solutions, human interface products, organic light-emitting diodes, multimedia SoCs, fax/modem/printer processors, video interface ICs, DisplayLink graphics, and display driver ICs (DDIC); Astra, an AI solution; and DisplayLink and DisplayPort to simplify connectivity to external displays. In addition, it provides Natural ID, a fingerprint ID product for notebook, personal computer peripherals, automobiles, and other applications, as well as integrated touch and display, local dimming, and driver sensing technologies. The company sells its products through direct sales, outside sales representatives, distributors, and value-added resellers. Synaptics Incorporated was incorporated in 1986 and is headquartered in San Jose, California."
+  "longBusinessSummary": "Synaptics Incorporated develops, markets, and sells semiconductor products worldwide. The company provides edge AI processors, wireless connectivity, touch controllers, biometrics, voice, audio, and multimedia products for physical AI and robotics, edge AI, smart home, industrial and automotive, personal computers, and mobile applications, as well as modular development kits, open software frameworks, and optimized AI/ML toolchains. It also offers Wi-Fi, Bluetooth, Bluetooth Low Energy, Zigbee, Thread, Matter, global positioning system, global navigation satellite system, ultra-low energy solutions, human interface products, organic light-emitting diodes, multimedia SoCs, fax/modem/printer processors, video interface ICs, DisplayLink graphics, and display driver ICs (DDIC); Astra, an AI solution; and DisplayLink and DisplayPort to simplify connectivity to external displays. In addition, it provides Natural ID, a fingerprint ID product for notebook, personal computer peripherals, automobiles, and other applications, as well as integrated touch and display, local dimming, and driver sensing technologies. The company sells its products through direct sales, outside sales representatives, distributors, and value-added resellers. Synaptics Incorporated was incorporated in 1986 and is headquartered in San Jose, California.",
+  "targetMeanPrice": 129.33333,
+  "targetLowPrice": 105.0,
+  "targetHighPrice": 170.0,
+  "numberOfAnalystOpinions": 9,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.84615,
+  "forwardPE": 18.217175,
+  "forwardEps": 6.57731,
+  "trailingEps": -12.62,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.089
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-06-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 2102000000.0,
+    "official": 2102000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 929500000.0,
+    "official": 929500000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -490800000.0,
+    "official": -490800000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1197200000.0,
+    "official": 1197200000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:56:59+00:00",
  "years": [
   {
    "fy_end": "2020-06-27",
@@ -210,7 +252,10 @@
    "goodwill_and_intangibles": 1114900000.0,
    "retained_earnings": 1112100000.0,
    "total_debt": 991000000.0,
-   "shares_out": 38571072.0
+   "shares_out": 38571072.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 339300000.0,
+   "normalized_income": 73600000.0
   },
   {
    "fy_end": "2024-06-29",
@@ -245,7 +290,10 @@
    "goodwill_and_intangibles": 1147300000.0,
    "retained_earnings": 1237700000.0,
    "total_debt": 972900000.0,
-   "shares_out": 39567552.0
+   "shares_out": 39567552.0,
+   "unusual_items": -26500000.0,
+   "normalized_ebitda": 76400000.0,
+   "normalized_income": 145308050.0
   },
   {
    "fy_end": "2025-06-28",
@@ -280,7 +328,10 @@
    "goodwill_and_intangibles": 1273800000.0,
    "retained_earnings": 1189900000.0,
    "total_debt": 834800000.0,
-   "shares_out": 38642761.0
+   "shares_out": 38642761.0,
+   "unusual_items": -37200000.0,
+   "normalized_ebitda": 106600000.0,
+   "normalized_income": -20112040.0
   },
   {
    "fy_end": "2026-06-27",
@@ -315,7 +366,10 @@
    "goodwill_and_intangibles": 1148100000.0,
    "retained_earnings": 699100000.0,
    "total_debt": 837300000.0,
-   "shares_out": 39062676.0
+   "shares_out": 39062676.0,
+   "unusual_items": -10100000.0,
+   "normalized_ebitda": 103900000.0,
+   "normalized_income": -484740000.0
   }
  ]
 }

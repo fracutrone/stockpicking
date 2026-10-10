@@ -1,6 +1,6 @@
 {
  "ticker": "NEU",
- "fetched_at": "2026-10-10T12:52:49+00:00",
+ "fetched_at": "2026-10-10T15:50:50+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 2050,
   "website": "https://www.newmarket.com",
-  "longBusinessSummary": "NewMarket Corporation, through its subsidiaries, primarily engages in the manufacture and sale of petroleum additives. It offers lubricant additives for use in various vehicle and industrial applications, including engine oils, transmission fluids, off-road powertrain and hydraulic systems, gear oils, hydraulic oils, turbine oils, and other applications where metal-to-metal moving parts are utilized; engine oil additives designed for passenger cars, motorcycles, on and off-road heavy duty commercial equipment, locomotives, and engines in ocean-going vessels; driveline additives designed for products, such as transmission fluids, axle fluids, and off-road powertrain fluids; and industrial additives designed for products for industrial applications consisting of hydraulic fluids, greases, industrial gear fluids, and industrial specialty applications comprising turbine oils. The company also provides fuel additives that are used to enhance the oil refining process and the performance of gasoline, diesel, biofuels, and other fuels to industry, government, original equipment manufacturers, and individual customers. In addition, it engages in the marketing of antiknock compounds, as well as contracted manufacturing and related services; and owns and manages a real property in Virginia. The company operates in North America, Latin America, the Asia Pacific, Europe, the Middle East, Africa, India, and internationally. NewMarket Corporation was founded in 1887 and is headquartered in Richmond, Virginia."
+  "longBusinessSummary": "NewMarket Corporation, through its subsidiaries, primarily engages in the manufacture and sale of petroleum additives. It offers lubricant additives for use in various vehicle and industrial applications, including engine oils, transmission fluids, off-road powertrain and hydraulic systems, gear oils, hydraulic oils, turbine oils, and other applications where metal-to-metal moving parts are utilized; engine oil additives designed for passenger cars, motorcycles, on and off-road heavy duty commercial equipment, locomotives, and engines in ocean-going vessels; driveline additives designed for products, such as transmission fluids, axle fluids, and off-road powertrain fluids; and industrial additives designed for products for industrial applications consisting of hydraulic fluids, greases, industrial gear fluids, and industrial specialty applications comprising turbine oils. The company also provides fuel additives that are used to enhance the oil refining process and the performance of gasoline, diesel, biofuels, and other fuels to industry, government, original equipment manufacturers, and individual customers. In addition, it engages in the marketing of antiknock compounds, as well as contracted manufacturing and related services; and owns and manages a real property in Virginia. The company operates in North America, Latin America, the Asia Pacific, Europe, the Middle East, Africa, India, and internationally. NewMarket Corporation was founded in 1887 and is headquartered in Richmond, Virginia.",
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 34.599537,
+  "forwardEps": 25.82,
+  "trailingEps": 45.94,
+  "earningsGrowth": 0.229,
+  "revenueGrowth": 0.07
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3492465000.0,
+    "official": 3492465000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1778243000.0,
+    "official": 1778243000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 418747000.0,
+    "official": 418747000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2725169000.0,
+    "official": 2725169000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:50:50+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -168,7 +210,8 @@
    "inventory": 498539000.0,
    "ppe_net": 676770000.0,
    "retained_earnings": 844356000.0,
-   "total_debt": 1139287000.0
+   "total_debt": 1139287000.0,
+   "unusual_items": 0.0
   },
   {
    "fy_end": "2022-12-31",
@@ -203,7 +246,10 @@
    "goodwill_and_intangibles": 126069000.0,
    "retained_earnings": 834402000.0,
    "total_debt": 1003737000.0,
-   "shares_out": 9702147.0
+   "shares_out": 9702147.0,
+   "unusual_items": -7545000.0,
+   "normalized_ebitda": 472766000.0,
+   "normalized_income": 285604180.0
   },
   {
    "fy_end": "2023-12-31",
@@ -237,7 +283,10 @@
    "goodwill_and_intangibles": 124642000.0,
    "retained_earnings": 1096002000.0,
    "total_debt": 643622000.0,
-   "shares_out": 9590086.0
+   "shares_out": 9590086.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 604331000.0,
+   "normalized_income": 388864000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -271,7 +320,10 @@
    "goodwill_and_intangibles": 750424000.0,
    "retained_earnings": 1428713000.0,
    "total_debt": 971281000.0,
-   "shares_out": 9524789.0
+   "shares_out": 9524789.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 758430000.0,
+   "normalized_income": 462413000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -305,7 +357,9 @@
    "goodwill_and_intangibles": 941156000.0,
    "retained_earnings": 1669034000.0,
    "total_debt": 883391000.0,
-   "shares_out": 9397364.0
+   "shares_out": 9397364.0,
+   "normalized_ebitda": 722677000.0,
+   "normalized_income": 418747000.0
   }
  ]
 }

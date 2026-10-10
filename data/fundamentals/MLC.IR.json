@@ -1,6 +1,6 @@
 {
  "ticker": "MLC.IR",
- "fetched_at": "2026-10-10T12:08:42+00:00",
+ "fetched_at": "2026-10-10T15:05:08+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "ISE",
   "fullTimeEmployees": 2,
   "website": "https://malinplc.com",
-  "longBusinessSummary": "Malin Corporation plc, together with its subsidiaries, operates as an investment company in Europe and North America. It engages in the investment in life sciences and healthcare companies targeting various therapeutic areas, including oncology, immunology, and genetic diseases. The company was incorporated in 2014 and is headquartered in Dublin, Ireland."
+  "longBusinessSummary": "Malin Corporation plc, together with its subsidiaries, operates as an investment company in Europe and North America. It engages in the investment in life sciences and healthcare companies targeting various therapeutic areas, including oncology, immunology, and genetic diseases. The company was incorporated in 2014 and is headquartered in Dublin, Ireland.",
+  "targetMeanPrice": 15.5,
+  "targetLowPrice": 15.5,
+  "targetHighPrice": 15.5,
+  "numberOfAnalystOpinions": 1,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": -58.333336,
+  "forwardEps": -0.12,
+  "trailingEps": 0.0,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -60,8 +71,17 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T15:05:08+00:00",
  "years": [
   {
    "fy_end": "2021-12-31",
@@ -91,7 +111,10 @@
    "goodwill_and_intangibles": 100000.0,
    "retained_earnings": 139500000.0,
    "total_debt": 100000.0,
-   "shares_out": 37275352.0
+   "shares_out": 37275352.0,
+   "unusual_items": -2100000.0,
+   "normalized_ebitda": 3600000.0,
+   "normalized_income": 4737500.0
   },
   {
    "fy_end": "2022-12-31",
@@ -119,7 +142,10 @@
    "goodwill_and_intangibles": 0.0,
    "retained_earnings": 257000000.0,
    "total_debt": 100000.0,
-   "shares_out": 34471551.0
+   "shares_out": 34471551.0,
+   "unusual_items": -1100000.0,
+   "normalized_ebitda": 13900000.0,
+   "normalized_income": 13862500.0
   },
   {
    "fy_end": "2023-12-31",
@@ -148,7 +174,10 @@
    "goodwill_and_intangibles": 0.0,
    "retained_earnings": 118000000.0,
    "total_debt": 100000.0,
-   "shares_out": 18971256.0
+   "shares_out": 18971256.0,
+   "unusual_items": 1700000.0,
+   "normalized_ebitda": -1300000.0,
+   "normalized_income": -1700000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -173,7 +202,10 @@
    "ppe_net": 0.0,
    "retained_earnings": 247700000.0,
    "total_debt": 0.0,
-   "shares_out": 18971256.0
+   "shares_out": 18971256.0,
+   "unusual_items": 1000000.0,
+   "normalized_ebitda": -700000.0,
+   "normalized_income": -1000000.0
   }
  ]
 }

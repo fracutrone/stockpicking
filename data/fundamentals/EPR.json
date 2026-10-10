@@ -1,6 +1,6 @@
 {
  "ticker": "EPR",
- "fetched_at": "2026-10-10T12:44:29+00:00",
+ "fetched_at": "2026-10-10T15:42:52+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 54,
   "website": "https://www.eprkc.com",
-  "longBusinessSummary": "EPR Properties is the leading diversified experiential net lease real estate investment trust (REIT), specializing in select enduring experiential properties in the real estate industry. We focus on real estate venues that create value by facilitating out-of-home leisure and recreation experiences where consumers choose to spend their discretionary time and money. We have total assets of approximately 6.1 billion dollars (after accumulated depreciation of approximately 1.8 billion dollars) across 43 states and Canada. We adhere to rigorous underwriting and investing criteria centered on key industry, property and tenant level cash flow standards. We believe our focused approach provides a competitive advantage and the potential for stable and attractive returns. EPR Properties was established on August 22, 1997 and is based in Kansas City, United States."
+  "longBusinessSummary": "EPR Properties is the leading diversified experiential net lease real estate investment trust (REIT), specializing in select enduring experiential properties in the real estate industry. We focus on real estate venues that create value by facilitating out-of-home leisure and recreation experiences where consumers choose to spend their discretionary time and money. We have total assets of approximately 6.1 billion dollars (after accumulated depreciation of approximately 1.8 billion dollars) across 43 states and Canada. We adhere to rigorous underwriting and investing criteria centered on key industry, property and tenant level cash flow standards. We believe our focused approach provides a competitive advantage and the potential for stable and attractive returns. EPR Properties was established on August 22, 1997 and is based in Kansas City, United States.",
+  "targetMeanPrice": 64.68182,
+  "targetLowPrice": 58.0,
+  "targetHighPrice": 70.5,
+  "numberOfAnalystOpinions": 11,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.5,
+  "forwardPE": 17.213837,
+  "forwardEps": 3.18,
+  "trailingEps": 3.14,
+  "earningsGrowth": -0.132,
+  "revenueGrowth": 0.106
  },
  "governance": {
   "ceo": {
@@ -82,9 +93,40 @@
   "retained_earnings": "yahoo",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "capex": "sec",
   "goodwill": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 5699762000.0,
+    "official": 5699762000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2329171000.0,
+    "official": 2329171000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 274936000.0,
+    "official": 274936000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 672765000.0,
+    "official": 718357000.0,
+    "diff": 0.063467
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:42:52+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -173,7 +215,10 @@
    "goodwill_and_intangibles": 36622000.0,
    "retained_earnings": -1097132000.0,
    "total_debt": 2810111000.0,
-   "shares_out": 75025274.0
+   "shares_out": 75025274.0,
+   "unusual_items": -31878000.0,
+   "normalized_ebitda": 497461000.0,
+   "normalized_income": 207851976.0
   },
   {
    "fy_end": "2023-12-31",
@@ -206,7 +251,10 @@
    "goodwill_and_intangibles": 34710000.0,
    "retained_earnings": -1200547000.0,
    "total_debt": 2816095000.0,
-   "shares_out": 75332506.0
+   "shares_out": 75332506.0,
+   "unusual_items": -71664000.0,
+   "normalized_ebitda": 536548000.0,
+   "normalized_income": 243850032.0
   },
   {
    "fy_end": "2024-12-31",
@@ -239,7 +287,10 @@
    "goodwill_and_intangibles": 32441000.0,
    "retained_earnings": -1339098000.0,
    "total_debt": 2860458000.0,
-   "shares_out": 75736159.0
+   "shares_out": 75736159.0,
+   "unusual_items": -66514000.0,
+   "normalized_ebitda": 504203000.0,
+   "normalized_income": 211933795.198612
   },
   {
    "fy_end": "2025-12-31",
@@ -272,7 +323,10 @@
    "goodwill_and_intangibles": 31655000.0,
    "retained_earnings": -1355659000.0,
    "total_debt": 2929411000.0,
-   "shares_out": 76144638.0
+   "shares_out": 76144638.0,
+   "unusual_items": 34339000.0,
+   "normalized_ebitda": 537882000.0,
+   "normalized_income": 240940390.0
   }
  ]
 }

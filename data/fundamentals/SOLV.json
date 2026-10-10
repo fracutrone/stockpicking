@@ -1,6 +1,6 @@
 {
  "ticker": "SOLV",
- "fetched_at": "2026-10-10T12:58:31+00:00",
+ "fetched_at": "2026-10-10T15:56:06+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 20584,
   "website": "https://www.solventum.com",
-  "longBusinessSummary": "Solventum Corporation, a healthcare company, develops, manufactures, and commercializes a portfolio of solutions to address critical customer and patient needs in the United States and internationally. It operates through three segments: Medsurg, Dental Solutions, and Health Information Systems. The Medsurg segment offers solutions, such as negative pressure wound therapy, advanced wound dressings, advanced skin care, synthetic tissue matrices, I.V. site management, sterilization assurance, temperature management, surgical supplies, medical tapes and wraps, stethoscopes, medical electrodes, and medical technologies for original equipment manufacturers. The Dental Solutions segment provides dental and orthodontic products, including brackets, aligners, restorative cements, and bonding agents to span the life of the tooth, and products for preventative dental care, direct and indirect restoration, and orthodontic needs. The Health Information Systems segment offers healthcare systems with software solutions comprising computer-assisted physician documentation, direct-to-bill and coding automation, classification methodologies, speech recognition, and data visualization platforms. The company sells its products and services through direct-to-consumer, distribution, key account management, inside sales, and e-commerce. Solventum Corporation was incorporated in 2023 and is headquartered in Eagan, Minnesota."
+  "longBusinessSummary": "Solventum Corporation, a healthcare company, develops, manufactures, and commercializes a portfolio of solutions to address critical customer and patient needs in the United States and internationally. It operates through three segments: Medsurg, Dental Solutions, and Health Information Systems. The Medsurg segment offers solutions, such as negative pressure wound therapy, advanced wound dressings, advanced skin care, synthetic tissue matrices, I.V. site management, sterilization assurance, temperature management, surgical supplies, medical tapes and wraps, stethoscopes, medical electrodes, and medical technologies for original equipment manufacturers. The Dental Solutions segment provides dental and orthodontic products, including brackets, aligners, restorative cements, and bonding agents to span the life of the tooth, and products for preventative dental care, direct and indirect restoration, and orthodontic needs. The Health Information Systems segment offers healthcare systems with software solutions comprising computer-assisted physician documentation, direct-to-bill and coding automation, classification methodologies, speech recognition, and data visualization platforms. The company sells its products and services through direct-to-consumer, distribution, key account management, inside sales, and e-commerce. Solventum Corporation was incorporated in 2023 and is headquartered in Eagan, Minnesota.",
+  "targetMeanPrice": 94.30769,
+  "targetLowPrice": 71.0,
+  "targetHighPrice": 113.0,
+  "numberOfAnalystOpinions": 13,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.2,
+  "forwardPE": 12.072771,
+  "forwardEps": 7.23032,
+  "trailingEps": 8.17,
+  "earningsGrowth": 0.039,
+  "revenueGrowth": 0.022
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 14294000000.0,
+    "official": 14294000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 5050000000.0,
+    "official": 5049000000.0,
+    "diff": 0.000198
+   },
+   "net_income": {
+    "yahoo": 1556000000.0,
+    "official": 1556000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 8325000000.0,
+    "official": 8325000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:56:06+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -117,7 +159,9 @@
    "goodwill": 6434000000.0,
    "intangibles": 3252000000.0,
    "goodwill_and_intangibles": 9686000000.0,
-   "shares_out": 172709175.0
+   "shares_out": 172709175.0,
+   "normalized_ebitda": 2270000000.0,
+   "normalized_income": 1343000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -151,7 +195,10 @@
    "goodwill_and_intangibles": 9437000000.0,
    "retained_earnings": 0.0,
    "total_debt": 0,
-   "shares_out": 172709175.0
+   "shares_out": 172709175.0,
+   "unusual_items": 56000000.0,
+   "normalized_ebitda": 2172000000.0,
+   "normalized_income": 1300808000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -185,7 +232,10 @@
    "goodwill_and_intangibles": 8921000000.0,
    "retained_earnings": 242000000.0,
    "total_debt": 8010000000.0,
-   "shares_out": 172785606.0
+   "shares_out": 172785606.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 1527000000.0,
+   "normalized_income": 479000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -219,7 +269,10 @@
    "goodwill_and_intangibles": 8296000000.0,
    "retained_earnings": 1797000000.0,
    "total_debt": 5035000000.0,
-   "shares_out": 173490864.0
+   "shares_out": 173490864.0,
+   "unusual_items": 1467000000.0,
+   "normalized_ebitda": 1082000000.0,
+   "normalized_income": 223453590.192644
   }
  ]
 }

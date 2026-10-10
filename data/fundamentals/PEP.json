@@ -1,6 +1,6 @@
 {
  "ticker": "PEP",
- "fetched_at": "2026-10-10T12:55:12+00:00",
+ "fetched_at": "2026-10-10T15:52:56+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 306000,
   "website": "https://www.pepsico.com",
-  "longBusinessSummary": "PepsiCo, Inc. engages in the manufacture, marketing, distribution, and sale of various beverages and convenient foods worldwide. The company operates through six segments: PepsiCo Foods North America; PepsiCo Beverages North America; International Beverages Franchise; Europe, Middle East and Africa; Latin America Foods; and Asia Pacific Foods. It offers cereals, chips, dips, granola bars, oatmeal, pasta, rice, and syrups and mixes; refrigerated dips and spreads; beverage concentrates, fountain syrups, and finished goods; and ready-to-drink tea and coffee products. The company also provides SodaStream sparkling water makers and related products, as well as various dairy products under the Agusha, Chudo, and Domik v Derevne brands. It serves wholesale and other distributors, foodservice customers, grocery stores, drug stores, convenience stores, discount/dollar stores, mass merchandisers, membership stores, hard discounters, e-commerce retailers and authorized independent bottlers, and others through a network of direct-store-delivery, customer warehouse, and distributor networks, as well as directly to consumers through e-commerce platforms and retailers. PepsiCo, Inc. was founded in 1898 and is based in Purchase, New York."
+  "longBusinessSummary": "PepsiCo, Inc. engages in the manufacture, marketing, distribution, and sale of various beverages and convenient foods worldwide. The company operates through six segments: PepsiCo Foods North America; PepsiCo Beverages North America; International Beverages Franchise; Europe, Middle East and Africa; Latin America Foods; and Asia Pacific Foods. It offers cereals, chips, dips, granola bars, oatmeal, pasta, rice, and syrups and mixes; refrigerated dips and spreads; beverage concentrates, fountain syrups, and finished goods; and ready-to-drink tea and coffee products. The company also provides SodaStream sparkling water makers and related products, as well as various dairy products under the Agusha, Chudo, and Domik v Derevne brands. It serves wholesale and other distributors, foodservice customers, grocery stores, drug stores, convenience stores, discount/dollar stores, mass merchandisers, membership stores, hard discounters, e-commerce retailers and authorized independent bottlers, and others through a network of direct-store-delivery, customer warehouse, and distributor networks, as well as directly to consumers through e-commerce platforms and retailers. PepsiCo, Inc. was founded in 1898 and is based in Purchase, New York.",
+  "targetMeanPrice": 143.18182,
+  "targetLowPrice": 124.0,
+  "targetHighPrice": 169.0,
+  "numberOfAnalystOpinions": 22,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.66667,
+  "forwardPE": 14.501562,
+  "forwardEps": 8.68665,
+  "trailingEps": 7.95,
+  "earningsGrowth": 0.174,
+  "revenueGrowth": 0.056
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 107399000000.0,
+    "official": 107399000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 20406000000.0,
+    "official": 20406000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 8240000000.0,
+    "official": 8240000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 93925000000.0,
+    "official": 93925000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:52:56+00:00",
  "years": [
   {
    "fy_end": "2019-12-28",
@@ -208,7 +250,10 @@
    "goodwill_and_intangibles": 33788000000.0,
    "retained_earnings": 67800000000.0,
    "total_debt": 38753000000.0,
-   "shares_out": 1377000000.0
+   "shares_out": 1377000000.0,
+   "unusual_items": 155000000.0,
+   "normalized_ebitda": 14769000000.0,
+   "normalized_income": 8779955000.0
   },
   {
    "fy_end": "2023-12-30",
@@ -243,7 +288,10 @@
    "goodwill_and_intangibles": 32657000000.0,
    "retained_earnings": 70035000000.0,
    "total_debt": 41519000000.0,
-   "shares_out": 1374000000.0
+   "shares_out": 1374000000.0,
+   "unusual_items": -927000000.0,
+   "normalized_ebitda": 16681000000.0,
+   "normalized_income": 9817454000.0
   },
   {
    "fy_end": "2024-12-28",
@@ -278,7 +326,10 @@
    "goodwill_and_intangibles": 32335000000.0,
    "retained_earnings": 72266000000.0,
    "total_debt": 41228000000.0,
-   "shares_out": 1371989025.0
+   "shares_out": 1371989025.0,
+   "unusual_items": -33000000.0,
+   "normalized_ebitda": 16713000000.0,
+   "normalized_income": 9604591160.220995
   },
   {
    "fy_end": "2025-12-27",
@@ -313,7 +364,10 @@
    "goodwill_and_intangibles": 33982000000.0,
    "retained_earnings": 72788000000.0,
    "total_debt": 46351000000.0,
-   "shares_out": 1367340122.0
+   "shares_out": 1367340122.0,
+   "unusual_items": -1993000000.0,
+   "normalized_ebitda": 17536000000.0,
+   "normalized_income": 9853816380.320187
   }
  ]
 }

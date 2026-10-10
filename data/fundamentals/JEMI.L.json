@@ -1,6 +1,6 @@
 {
  "ticker": "JEMI.L",
- "fetched_at": "2026-10-10T12:04:43+00:00",
+ "fetched_at": "2026-10-10T14:59:32+00:00",
  "region": "Europa",
  "statement_currency": "GBp",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -49,8 +60,15 @@
   "equity": "yahoo",
   "receivables": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T14:59:32+00:00",
  "years": [
   {
    "fy_end": "2022-07-31",
@@ -70,7 +88,8 @@
    "equity": 416535000.0,
    "receivables": 8556000.0,
    "total_debt": 32870000.0,
-   "shares_out": 296840161.0
+   "shares_out": 296840161.0,
+   "normalized_income": -20297000.0
   },
   {
    "fy_end": "2023-07-31",
@@ -90,7 +109,8 @@
    "equity": 437846000.0,
    "receivables": 3392000.0,
    "total_debt": 31088000.0,
-   "shares_out": 296482060.0
+   "shares_out": 296482060.0,
+   "normalized_income": 37187000.0
   },
   {
    "fy_end": "2024-07-31",
@@ -110,7 +130,8 @@
    "equity": 438624000.0,
    "receivables": 2804000.0,
    "total_debt": 31142000.0,
-   "shares_out": 289682588.0
+   "shares_out": 289682588.0,
+   "normalized_income": 25426000.0
   },
   {
    "fy_end": "2025-07-31",
@@ -130,7 +151,8 @@
    "equity": 449522000.0,
    "receivables": 1296000.0,
    "total_debt": 30226000.0,
-   "shares_out": 269640266.0
+   "shares_out": 269640266.0,
+   "normalized_income": 53701000.0
   }
  ]
 }

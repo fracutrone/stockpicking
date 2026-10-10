@@ -1,6 +1,6 @@
 {
  "ticker": "HAS",
- "fetched_at": "2026-10-10T12:47:29+00:00",
+ "fetched_at": "2026-10-10T15:45:52+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 4520,
   "website": "https://corporate.hasbro.com",
-  "longBusinessSummary": "Hasbro, Inc. operates as a toy and game company in the United States, Europe, Canada, Mexico, Latin America, Australia, China, and Hong Kong. The company offers trading cards and collectibles, action figures, arts and crafts and creative play products, dolls, play sets, preschool toys, plush products, vehicles and toy-related specialty products, sports action products and accessories, and other consumer products; and licensed products, such as apparel, publishing products, home goods and electronics, and toy products. It also engages in the sourcing, marketing, and sale of toy and game products; and promotes its brands through the out-licensing of trademarks, characters, and other brand and intellectual property rights to third parties through the sale of branded consumer products, such as toys and apparel. In addition, the company is involved in the promotion of its brands through the development of trading cards, role-playing, and digital game experiences based on Hasbro and Wizards of the Coast games; and license certain brands to other third-party digital game developers who transform Hasbro brand-based characters and other intellectual properties, into digital gaming experiences. Further, it develops and produces of Hasbro-branded entertainment content, including film, television, children's programming, digital content, and live entertainment. The company sells its products to retailers, distributors, wholesalers, discount stores, specialty hobby stores, drug stores, mail order houses, catalog stores, department stores, and other traditional retailers, as well as ecommerce retailers under the MAGIC: THE GATHERING, MONOPOLY, HASBRO GAMES, PLAY-DOH, TRANSFORMERS, DUNGEONS & DRAGONS, NERF, and PEPPA PIG, as well as LUCASFILMS' STAR WARS, BEYBLADE, Final Fantasy, The Lord of the Rings, Fallout, SPIDER-MAN, and THE AVENGERS brands. Hasbro, Inc. was founded in 1923 and is headquartered in Pawtucket, Rhode Island."
+  "longBusinessSummary": "Hasbro, Inc. operates as a toy and game company in the United States, Europe, Canada, Mexico, Latin America, Australia, China, and Hong Kong. The company offers trading cards and collectibles, action figures, arts and crafts and creative play products, dolls, play sets, preschool toys, plush products, vehicles and toy-related specialty products, sports action products and accessories, and other consumer products; and licensed products, such as apparel, publishing products, home goods and electronics, and toy products. It also engages in the sourcing, marketing, and sale of toy and game products; and promotes its brands through the out-licensing of trademarks, characters, and other brand and intellectual property rights to third parties through the sale of branded consumer products, such as toys and apparel. In addition, the company is involved in the promotion of its brands through the development of trading cards, role-playing, and digital game experiences based on Hasbro and Wizards of the Coast games; and license certain brands to other third-party digital game developers who transform Hasbro brand-based characters and other intellectual properties, into digital gaming experiences. Further, it develops and produces of Hasbro-branded entertainment content, including film, television, children's programming, digital content, and live entertainment. The company sells its products to retailers, distributors, wholesalers, discount stores, specialty hobby stores, drug stores, mail order houses, catalog stores, department stores, and other traditional retailers, as well as ecommerce retailers under the MAGIC: THE GATHERING, MONOPOLY, HASBRO GAMES, PLAY-DOH, TRANSFORMERS, DUNGEONS & DRAGONS, NERF, and PEPPA PIG, as well as LUCASFILMS' STAR WARS, BEYBLADE, Final Fantasy, The Lord of the Rings, Fallout, SPIDER-MAN, and THE AVENGERS brands. Hasbro, Inc. was founded in 1923 and is headquartered in Pawtucket, Rhode Island.",
+  "targetMeanPrice": 110.61538,
+  "targetLowPrice": 90.0,
+  "targetHighPrice": 120.0,
+  "numberOfAnalystOpinions": 13,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.35714,
+  "forwardPE": 14.351293,
+  "forwardEps": 6.50255,
+  "trailingEps": 5.59,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.162
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 5552000000.0,
+    "official": 5552000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 538500000.0,
+    "official": 565500000.0,
+    "diff": 0.047745
+   },
+   "net_income": {
+    "yahoo": -322400000.0,
+    "official": -322400000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 4701300000.0,
+    "official": 5365900000.0,
+    "diff": 0.123856
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:45:52+00:00",
  "years": [
   {
    "fy_end": "2019-12-29",
@@ -204,7 +246,10 @@
    "goodwill_and_intangibles": 4284700000.0,
    "retained_earnings": 4071400000.0,
    "total_debt": 3966800000.0,
-   "shares_out": 138180353.0
+   "shares_out": 138180353.0,
+   "unusual_items": -22100000.0,
+   "normalized_ebitda": 1242700000.0,
+   "normalized_income": 220649600.0
   },
   {
    "fy_end": "2023-12-31",
@@ -238,7 +283,10 @@
    "goodwill_and_intangibles": 2866700000.0,
    "retained_earnings": 2188400000.0,
    "total_debt": 3465800000.0,
-   "shares_out": 138788555.0
+   "shares_out": 138788555.0,
+   "unusual_items": -1730200000.0,
+   "normalized_ebitda": 867000000.0,
+   "normalized_income": 17704200.0
   },
   {
    "fy_end": "2024-12-29",
@@ -273,7 +321,10 @@
    "goodwill_and_intangibles": 2796600000.0,
    "retained_earnings": 2274200000.0,
    "total_debt": 3380800000.0,
-   "shares_out": 139528691.0
+   "shares_out": 139528691.0,
+   "unusual_items": -37400000.0,
+   "normalized_ebitda": 917900000.0,
+   "normalized_income": 415258200.0
   },
   {
    "fy_end": "2025-12-28",
@@ -308,7 +359,10 @@
    "goodwill_and_intangibles": 1713400000.0,
    "retained_earnings": 1554100000.0,
    "total_debt": 3264900000.0,
-   "shares_out": 140385121.0
+   "shares_out": 140385121.0,
+   "unusual_items": -1046900000.0,
+   "normalized_ebitda": 1279600000.0,
+   "normalized_income": 504651000.0
   }
  ]
 }

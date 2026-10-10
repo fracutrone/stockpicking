@@ -1,6 +1,6 @@
 {
  "ticker": "IRM",
- "fetched_at": "2026-10-10T12:49:02+00:00",
+ "fetched_at": "2026-10-10T15:47:23+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 29400,
   "website": "https://www.ironmountain.com",
-  "longBusinessSummary": "Iron Mountain Incorporated is trusted by more than 240,000 customers in 61 countries, including approximately 95% of the Fortune 1000, to help unlock value and intelligence from their assets through services that transcend the physical and digital worlds. Our broad range of solutions address their information management, digital transformation, information security, data center and asset lifecycle management needs. Iron Mountain Incorporated is based in Portsmouth, New Hampshire. Iron Mountain Incorporated was founded in 1951 and is incorporated in Delaware and is based in Portsmouth, New Hampshire."
+  "longBusinessSummary": "Iron Mountain Incorporated is trusted by more than 240,000 customers in 61 countries, including approximately 95% of the Fortune 1000, to help unlock value and intelligence from their assets through services that transcend the physical and digital worlds. Our broad range of solutions address their information management, digital transformation, information security, data center and asset lifecycle management needs. Iron Mountain Incorporated is based in Portsmouth, New Hampshire. Iron Mountain Incorporated was founded in 1951 and is incorporated in Delaware and is based in Portsmouth, New Hampshire.",
+  "targetMeanPrice": 145.09091,
+  "targetLowPrice": 132.0,
+  "targetHighPrice": 155.0,
+  "numberOfAnalystOpinions": 11,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.66667,
+  "forwardPE": 41.993664,
+  "forwardEps": 2.72684,
+  "trailingEps": 1.42,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.185
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "retained_earnings": "yahoo",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "inventory": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 21125019000.0,
+    "official": 21125019000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": -981007000.0,
+    "official": -981007000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 144591000.0,
+    "official": 152254000.0,
+    "diff": 0.05033
+   },
+   "revenue": {
+    "yahoo": 6901737000.0,
+    "official": 6901737000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:47:23+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -185,7 +227,10 @@
    "goodwill_and_intangibles": 6305879000.0,
    "retained_earnings": -3392272000.0,
    "total_debt": 10568995000.0,
-   "shares_out": 290830296.0
+   "shares_out": 290830296.0,
+   "unusual_items": 64602000.0,
+   "normalized_ebitda": 1808965000.0,
+   "normalized_income": 499485220.0
   },
   {
    "fy_end": "2023-12-31",
@@ -218,7 +263,10 @@
    "goodwill_and_intangibles": 6297678000.0,
    "retained_earnings": -3953808000.0,
    "total_debt": 11933170000.0,
-   "shares_out": 292142739.0
+   "shares_out": 292142739.0,
+   "unusual_items": -263064000.0,
+   "normalized_ebitda": 1881691000.0,
+   "normalized_income": 400998736.0
   },
   {
    "fy_end": "2024-12-31",
@@ -251,7 +299,10 @@
    "goodwill_and_intangibles": 6358548000.0,
    "retained_earnings": -4583436000.0,
    "total_debt": 13719086000.0,
-   "shares_out": 293592637.0
+   "shares_out": 293592637.0,
+   "unusual_items": -240211000.0,
+   "normalized_ebitda": 2147465000.0,
+   "normalized_income": 360554461.0
   },
   {
    "fy_end": "2025-12-31",
@@ -284,7 +335,10 @@
    "goodwill_and_intangibles": 6555408000.0,
    "retained_earnings": -5405147000.0,
    "total_debt": 16431959000.0,
-   "shares_out": 295788645.0
+   "shares_out": 295788645.0,
+   "unusual_items": -359542000.0,
+   "normalized_ebitda": 2474396000.0,
+   "normalized_income": 403820782.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "KNX",
- "fetched_at": "2026-10-10T12:49:57+00:00",
+ "fetched_at": "2026-10-10T15:48:16+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 37100,
   "website": "https://knight-swift.com",
-  "longBusinessSummary": "Knight-Swift Transportation Holdings Inc., together with its subsidiaries, operates as a freight transportation company in the United States and Mexico. The company operates through four segments: Truckload, LTL, Logistics, and Intermodal. The Truckload segment offers irregular route, dedicated, refrigerated, flatbed, expedited, and cross-border services. The LTL segment provides regional direct service and serves its customers' national transportation needs by utilizing key partner carriers for coverage areas outside of its network. The Logistics segment provides brokerage and other freight management services utilizing third-party transportation providers and equipment. The Intermodal segment offers transportation services, including arranging the movement of customers' freight through third-party intermodal rail services on its trailing equipment; and drayage services to transport loads between the railheads and customer locations. The company also provides repair and maintenance shop services, equipment leasing, warranty services, and insurance; and trailer parts manufacturing, warehousing, and certain driving academy activities. It serves retail, food and beverage, consumer and paper products, transportation and logistics, housing and building, automotive, and manufacturing industries. The company was incorporated in 1989 and is headquartered in Phoenix, Arizona."
+  "longBusinessSummary": "Knight-Swift Transportation Holdings Inc., together with its subsidiaries, operates as a freight transportation company in the United States and Mexico. The company operates through four segments: Truckload, LTL, Logistics, and Intermodal. The Truckload segment offers irregular route, dedicated, refrigerated, flatbed, expedited, and cross-border services. The LTL segment provides regional direct service and serves its customers' national transportation needs by utilizing key partner carriers for coverage areas outside of its network. The Logistics segment provides brokerage and other freight management services utilizing third-party transportation providers and equipment. The Intermodal segment offers transportation services, including arranging the movement of customers' freight through third-party intermodal rail services on its trailing equipment; and drayage services to transport loads between the railheads and customer locations. The company also provides repair and maintenance shop services, equipment leasing, warranty services, and insurance; and trailer parts manufacturing, warehousing, and certain driving academy activities. It serves retail, food and beverage, consumer and paper products, transportation and logistics, housing and building, automotive, and manufacturing industries. The company was incorporated in 1989 and is headquartered in Phoenix, Arizona.",
+  "targetMeanPrice": 85.7,
+  "targetLowPrice": 57.0,
+  "targetHighPrice": 100.0,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.52381,
+  "forwardPE": 16.024038,
+  "forwardEps": 4.02333,
+  "trailingEps": 0.27,
+  "earningsGrowth": 0.238,
+  "revenueGrowth": 0.126
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 11955436000.0,
+    "official": 11955436000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 7082454000.0,
+    "official": 7082454000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 65946000.0,
+    "official": 65946000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 7469689000.0,
+    "official": 7469689000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:48:16+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -189,7 +231,10 @@
    "goodwill_and_intangibles": 5295908000.0,
    "retained_earnings": 2553567000.0,
    "total_debt": 1080462000.0,
-   "shares_out": 160706000.0
+   "shares_out": 160706000.0,
+   "unusual_items": -810000.0,
+   "normalized_ebitda": 1731943000.0,
+   "normalized_income": 771937360.0
   },
   {
    "fy_end": "2023-12-31",
@@ -222,7 +267,10 @@
    "goodwill_and_intangibles": 5907680000.0,
    "retained_earnings": 2659755000.0,
    "total_debt": 1628079000.0,
-   "shares_out": 161384768.0
+   "shares_out": 161384768.0,
+   "unusual_items": -2236000.0,
+   "normalized_ebitda": 1134725000.0,
+   "normalized_income": 218931924.780513
   },
   {
    "fy_end": "2024-12-31",
@@ -255,7 +303,10 @@
    "goodwill_and_intangibles": 6019186000.0,
    "retained_earnings": 2661064000.0,
    "total_debt": 1825607000.0,
-   "shares_out": 161896124.0
+   "shares_out": 161896124.0,
+   "unusual_items": -19012000.0,
+   "normalized_ebitda": 1132018000.0,
+   "normalized_income": 132433690.457979
   },
   {
    "fy_end": "2025-12-31",
@@ -288,7 +339,10 @@
    "goodwill_and_intangibles": 5870440000.0,
    "retained_earnings": 2600822000.0,
    "total_debt": 1744015000.0,
-   "shares_out": 162339397.0
+   "shares_out": 162339397.0,
+   "unusual_items": -98308000.0,
+   "normalized_ebitda": 1143478000.0,
+   "normalized_income": 133581904.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "AVY",
- "fetched_at": "2026-10-10T12:38:21+00:00",
+ "fetched_at": "2026-10-10T15:35:20+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 35000,
   "website": "https://www.averydennison.com",
-  "longBusinessSummary": "Avery Dennison Corporation operates as a materials science and digital identification solutions company in the North America, Europe, the Middle East, North Africa, Asia, and Latin America. It offers pressure-sensitive label materials, which consist of papers, plastic films, and metal foils; performance tapes products, including mechanical fasteners, which are precision-extruded and injection-molded plastic devices; and other pressure-sensitive adhesive-based materials and converted products under the Fasson, JAC, and Avery Dennison brands. The company provides graphics and reflective products that include films and other products for the architectural, commercial sign, digital printing, and other related market segments; durable cast and reflective films to the construction, automotive, and fleet transportation markets; sign shops, commercial printers, and designers for pressure-sensitive materials; reflective films for traffic and safety applications; and pressure-sensitive vinyl and specialty materials for digital imaging, screen printing, and sign cutting applications under the Avery Dennison and Mactac brand names. In addition, it offers branding solutions, which include brand embellishments, graphic tickets, tags, labels, and sustainable packaging; information solutions, such as item-level RFID, visibility and loss prevention, price ticketing and marking, productivity and media, and brand protection and security solutions; and shelf-edge productivity and media solutions under the Vestcom brand names, as well as care, content, and country of origin compliance solutions. It serves home and personal care, apparel, general retail, e-commerce, logistics, food and grocery, pharmaceuticals, and automotive industries. The company was formerly known as Avery International Corporation and changed its name to Avery Dennison Corporation in 1990. The company was founded in 1935 and is headquartered in Mentor, Ohio."
+  "longBusinessSummary": "Avery Dennison Corporation operates as a materials science and digital identification solutions company in the North America, Europe, the Middle East, North Africa, Asia, and Latin America. It offers pressure-sensitive label materials, which consist of papers, plastic films, and metal foils; performance tapes products, including mechanical fasteners, which are precision-extruded and injection-molded plastic devices; and other pressure-sensitive adhesive-based materials and converted products under the Fasson, JAC, and Avery Dennison brands. The company provides graphics and reflective products that include films and other products for the architectural, commercial sign, digital printing, and other related market segments; durable cast and reflective films to the construction, automotive, and fleet transportation markets; sign shops, commercial printers, and designers for pressure-sensitive materials; reflective films for traffic and safety applications; and pressure-sensitive vinyl and specialty materials for digital imaging, screen printing, and sign cutting applications under the Avery Dennison and Mactac brand names. In addition, it offers branding solutions, which include brand embellishments, graphic tickets, tags, labels, and sustainable packaging; information solutions, such as item-level RFID, visibility and loss prevention, price ticketing and marking, productivity and media, and brand protection and security solutions; and shelf-edge productivity and media solutions under the Vestcom brand names, as well as care, content, and country of origin compliance solutions. It serves home and personal care, apparel, general retail, e-commerce, logistics, food and grocery, pharmaceuticals, and automotive industries. The company was formerly known as Avery International Corporation and changed its name to Avery Dennison Corporation in 1990. The company was founded in 1935 and is headquartered in Mentor, Ohio.",
+  "targetMeanPrice": 199.6,
+  "targetLowPrice": 181.0,
+  "targetHighPrice": 225.0,
+  "numberOfAnalystOpinions": 10,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.54545,
+  "forwardPE": 15.003165,
+  "forwardEps": 11.18564,
+  "trailingEps": 9.13,
+  "earningsGrowth": 0.108,
+  "revenueGrowth": 0.109
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 8801700000.0,
+    "official": 8801700000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2242100000.0,
+    "official": 2242100000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 688000000.0,
+    "official": 688000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 8855500000.0,
+    "official": 8855500000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:35:20+00:00",
  "years": [
   {
    "fy_end": "2019-12-28",
@@ -197,7 +239,10 @@
    "goodwill_and_intangibles": 2702700000.0,
    "retained_earnings": 4414600000.0,
    "total_debt": 2495400000.0,
-   "shares_out": 80810016.0
+   "shares_out": 80810016.0,
+   "unusual_items": 600000.0,
+   "normalized_ebitda": 1373500000.0,
+   "normalized_income": 756645200.0
   },
   {
    "fy_end": "2023-12-30",
@@ -231,7 +276,10 @@
    "goodwill_and_intangibles": 2862700000.0,
    "retained_earnings": 4691800000.0,
    "total_debt": 2615000000.0,
-   "shares_out": 80495585.0
+   "shares_out": 80495585.0,
+   "unusual_items": -180900000.0,
+   "normalized_ebitda": 1293000000.0,
+   "normalized_income": 633971600.0
   },
   {
    "fy_end": "2024-12-28",
@@ -265,7 +313,10 @@
    "goodwill_and_intangibles": 2731500000.0,
    "retained_earnings": 5151200000.0,
    "total_debt": 2550800000.0,
-   "shares_out": 79800396.0
+   "shares_out": 79800396.0,
+   "unusual_items": -71600000.0,
+   "normalized_ebitda": 1454300000.0,
+   "normalized_income": 757832186.68065
   },
   {
    "fy_end": "2025-12-31",
@@ -299,7 +350,10 @@
    "goodwill_and_intangibles": 3100000000.0,
    "retained_earnings": 5597500000.0,
    "total_debt": 3199000000.0,
-   "shares_out": 76877487.0
+   "shares_out": 76877487.0,
+   "unusual_items": -77500000.0,
+   "normalized_ebitda": 1466200000.0,
+   "normalized_income": 745637012.214896
   }
  ]
 }

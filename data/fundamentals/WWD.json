@@ -1,6 +1,6 @@
 {
  "ticker": "WWD",
- "fetched_at": "2026-10-10T13:02:55+00:00",
+ "fetched_at": "2026-10-10T16:00:15+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 10200,
   "website": "https://www.woodward.com",
-  "longBusinessSummary": "Woodward, Inc. designs, manufactures, and services control solutions for the aerospace and industrial markets worldwide. It operates through two segments, Aerospace and Industrial. The Aerospace segment offers fuel pumps, metering units, actuators, air valves, specialty valves, fuel nozzles, and thrust reverser actuation systems for turbine engines and nacelles, as well as flight deck controls, actuators, servocontrols, motors, and sensors for aircraft. This segment also provides aftermarket maintenance, repair and overhaul, and other services to commercial airlines, repair facilities, military depots, third party repair shops, and other end users. Its Industrial segment offers actuators, valves, pumps, fuel injection systems, solenoids, ignition systems, control systems, electronics and software, and sensors used on industrial gas turbines, steam turbines, compressors, and reciprocating engines, as well as aftermarket products and related services. The company primarily serves OEMs and equipment packagers. Woodward, Inc. was founded in 1870 and is headquartered in Fort Collins, Colorado."
+  "longBusinessSummary": "Woodward, Inc. designs, manufactures, and services control solutions for the aerospace and industrial markets worldwide. It operates through two segments, Aerospace and Industrial. The Aerospace segment offers fuel pumps, metering units, actuators, air valves, specialty valves, fuel nozzles, and thrust reverser actuation systems for turbine engines and nacelles, as well as flight deck controls, actuators, servocontrols, motors, and sensors for aircraft. This segment also provides aftermarket maintenance, repair and overhaul, and other services to commercial airlines, repair facilities, military depots, third party repair shops, and other end users. Its Industrial segment offers actuators, valves, pumps, fuel injection systems, solenoids, ignition systems, control systems, electronics and software, and sensors used on industrial gas turbines, steam turbines, compressors, and reciprocating engines, as well as aftermarket products and related services. The company primarily serves OEMs and equipment packagers. Woodward, Inc. was founded in 1870 and is headquartered in Fort Collins, Colorado.",
+  "targetMeanPrice": 429.16666,
+  "targetLowPrice": 380.0,
+  "targetHighPrice": 502.0,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.53846,
+  "forwardPE": 31.294249,
+  "forwardEps": 10.72114,
+  "trailingEps": 8.99,
+  "earningsGrowth": 0.364,
+  "revenueGrowth": 0.212
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "sga": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-09-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 4630143000.0,
+    "official": 4630143000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2566390000.0,
+    "official": 2566390000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 442111000.0,
+    "official": 442111000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3567064000.0,
+    "official": 3567064000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T16:00:15+00:00",
  "years": [
   {
    "fy_end": "2019-09-30",
@@ -200,7 +242,10 @@
    "goodwill_and_intangibles": 1233139000.0,
    "retained_earnings": 2727233000.0,
    "total_debt": 777416000.0,
-   "shares_out": 59753000.0
+   "shares_out": 59753000.0,
+   "unusual_items": -1100000.0,
+   "normalized_ebitda": 356171000.0,
+   "normalized_income": 172642820.858638
   },
   {
    "fy_end": "2023-09-30",
@@ -234,7 +279,10 @@
    "goodwill_and_intangibles": 1243831000.0,
    "retained_earnings": 2908574000.0,
    "total_debt": 721526000.0,
-   "shares_out": 59835000.0
+   "shares_out": 59835000.0,
+   "unusual_items": -3398000.0,
+   "normalized_ebitda": 446807000.0,
+   "normalized_income": 235232514.0
   },
   {
    "fy_end": "2024-09-30",
@@ -268,7 +316,10 @@
    "goodwill_and_intangibles": 1247062000.0,
    "retained_earnings": 3223259000.0,
    "total_debt": 872470000.0,
-   "shares_out": 59173000.0
+   "shares_out": 59173000.0,
+   "unusual_items": 11831000.0,
+   "normalized_ebitda": 606269000.0,
+   "normalized_income": 363250952.021164
   },
   {
    "fy_end": "2025-09-30",
@@ -302,7 +353,10 @@
    "goodwill_and_intangibles": 1260368000.0,
    "retained_earnings": 3600395000.0,
    "total_debt": 702202000.0,
-   "shares_out": 59900000.0
+   "shares_out": 59900000.0,
+   "unusual_items": 22882000.0,
+   "normalized_ebitda": 657496000.0,
+   "normalized_income": 422709061.98565
   }
  ]
 }

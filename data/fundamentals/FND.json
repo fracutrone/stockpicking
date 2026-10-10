@@ -1,6 +1,6 @@
 {
  "ticker": "FND",
- "fetched_at": "2026-10-10T12:45:57+00:00",
+ "fetched_at": "2026-10-10T15:44:16+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 10469,
   "website": "https://www.flooranddecor.com",
-  "longBusinessSummary": "Floor & Decor Holdings, Inc., together with its subsidiaries, operates as a multi-channel specialty retailer of hard surface flooring and related accessories, and commercial surfaces seller in the United States. The company offers wood-based laminate flooring, vinyl, and engineered/composite rigid core vinyl; porcelain and ceramic tile, porcelain mosaics and tile slabs; grout, mortar, backer board, tools, adhesives, underlayments, moldings, and stair treads; and decorative tiles and mosaics, such as natural stone, porcelain, ceramic, glass, wall tile, and decorative trims. The company also provides solid prefinished and unfinished hardwood, engineered hardwood, bamboo, and wood countertops; marble, limestone, travertine, slate, ledger; and vanities, shower doors, bath accessories, faucets, sinks, custom countertops, bathroom mirrors, bathroom lighting, and kitchen cabinets. It sells products through its warehouse-format stores and five small-format design studios, as well as through Website, FloorandDecor.com. The company serves professional installers, commercial businesses, and homeowners. The company was formerly known as FDO Holdings, Inc. and changed its name to Floor & Decor Holdings, Inc. in April 2017. Floor & Decor Holdings, Inc. was founded in 2000 and is headquartered in Atlanta, Georgia."
+  "longBusinessSummary": "Floor & Decor Holdings, Inc., together with its subsidiaries, operates as a multi-channel specialty retailer of hard surface flooring and related accessories, and commercial surfaces seller in the United States. The company offers wood-based laminate flooring, vinyl, and engineered/composite rigid core vinyl; porcelain and ceramic tile, porcelain mosaics and tile slabs; grout, mortar, backer board, tools, adhesives, underlayments, moldings, and stair treads; and decorative tiles and mosaics, such as natural stone, porcelain, ceramic, glass, wall tile, and decorative trims. The company also provides solid prefinished and unfinished hardwood, engineered hardwood, bamboo, and wood countertops; marble, limestone, travertine, slate, ledger; and vanities, shower doors, bath accessories, faucets, sinks, custom countertops, bathroom mirrors, bathroom lighting, and kitchen cabinets. It sells products through its warehouse-format stores and five small-format design studios, as well as through Website, FloorandDecor.com. The company serves professional installers, commercial businesses, and homeowners. The company was formerly known as FDO Holdings, Inc. and changed its name to Floor & Decor Holdings, Inc. in April 2017. Floor & Decor Holdings, Inc. was founded in 2000 and is headquartered in Atlanta, Georgia.",
+  "targetMeanPrice": 58.36364,
+  "targetLowPrice": 38.0,
+  "targetHighPrice": 75.0,
+  "numberOfAnalystOpinions": 22,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.6087,
+  "forwardPE": 20.72874,
+  "forwardEps": 2.19502,
+  "trailingEps": 2.09,
+  "earningsGrowth": 0.534,
+  "revenueGrowth": 0.03
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 5469358000.0,
+    "official": 5469358000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2408836000.0,
+    "official": 2408836000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 208647000.0,
+    "official": 208647000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 4684088000.0,
+    "official": 4684088000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:44:16+00:00",
  "years": [
   {
    "fy_end": "2019-12-26",
@@ -166,7 +208,8 @@
    "goodwill": 255473000.0,
    "intangibles": 151935000.0,
    "retained_earnings": 872226000.0,
-   "total_debt": 197865000.0
+   "total_debt": 197865000.0,
+   "unusual_items": -34433000.0
   },
   {
    "fy_end": "2022-12-29",
@@ -200,7 +243,10 @@
    "goodwill_and_intangibles": 407826000.0,
    "retained_earnings": 1170421000.0,
    "total_debt": 407654000.0,
-   "shares_out": 106150661.0
+   "shares_out": 106150661.0,
+   "unusual_items": -38642000.0,
+   "normalized_ebitda": 590425000.0,
+   "normalized_income": 328065266.0
   },
   {
    "fy_end": "2023-12-28",
@@ -234,7 +280,10 @@
    "goodwill_and_intangibles": 411809000.0,
    "retained_earnings": 1416401000.0,
    "total_debt": 197042000.0,
-   "shares_out": 106737532.0
+   "shares_out": 106737532.0,
+   "unusual_items": -44982000.0,
+   "normalized_ebitda": 529689000.0,
+   "normalized_income": 245980000.0
   },
   {
    "fy_end": "2024-12-26",
@@ -268,7 +317,10 @@
    "goodwill_and_intangibles": 408143000.0,
    "retained_earnings": 1622273000.0,
    "total_debt": 196630000.0,
-   "shares_out": 107356999.0
+   "shares_out": 107356999.0,
+   "unusual_items": -43585000.0,
+   "normalized_ebitda": 496190000.0,
+   "normalized_income": 205872000.0
   },
   {
    "fy_end": "2025-12-25",
@@ -302,7 +354,9 @@
    "goodwill_and_intangibles": 404476000.0,
    "retained_earnings": 1830920000.0,
    "total_debt": 196218000.0,
-   "shares_out": 107774329.0
+   "shares_out": 107774329.0,
+   "normalized_ebitda": 519088000.0,
+   "normalized_income": 208647000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "GSK.L",
- "fetched_at": "2026-10-10T12:00:50+00:00",
+ "fetched_at": "2026-10-10T14:52:44+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 66841,
   "website": "https://www.gsk.com",
-  "longBusinessSummary": "GSK plc, together with its subsidiaries, engages in the research, development, and manufacture of vaccines, specialty medicines, and general medicines to prevent and treat disease in the United Kingdom, the United States, and internationally. It operates through Commercial Operations and Total R&D segments. The company offers specialty medicines that include oncology, respiratory/immunology, inflammation, and inhaled medicines for HIV, respiratory eosinophildriven diseases, lupus and lupus nephritis, ovarian cancer, and endometrial cancer. It also provides vaccines for Shingles, Meningitis, RSV, Seasonal Influenza, Hepatitis, Diphtheria, Tetanus, Acellular Pertussis, Rotavirus, Pertussis, Polio, Haemophilus, Invasive Diseases, Pneumonia, Acute Otitis Media, Measles, Mumps, Rubella and Chickenpox, and Human Papilloma Virus. Additionally, the company offers general medicines for asthma, COPD, bacterial infection, benign prostatic hyperplasia, allergic rhinitis, and inflammatory skin conditions. It also focuses on the discovery, development, and commercialization of oral small molecule therapies for patients with unmet needs in oncology and inflammatory diseases. It has a collaboration agreement with CureVac to develop mRNA vaccines for infectious diseases; and strategic research collaboration with Engitix Ltd. to identify and validate novel therapeutic targets driving liver fibrosis regression. The company has a strategic alliance with AN2 Therapeutics, Inc. for the development of new therapies for TB. GSK plc was formerly known as GlaxoSmithKline plc and changed its name to GSK plc in May 2022. The company was founded in 1715 and is headquartered in London, United Kingdom."
+  "longBusinessSummary": "GSK plc, together with its subsidiaries, engages in the research, development, and manufacture of vaccines, specialty medicines, and general medicines to prevent and treat disease in the United Kingdom, the United States, and internationally. It operates through Commercial Operations and Total R&D segments. The company offers specialty medicines that include oncology, respiratory/immunology, inflammation, and inhaled medicines for HIV, respiratory eosinophildriven diseases, lupus and lupus nephritis, ovarian cancer, and endometrial cancer. It also provides vaccines for Shingles, Meningitis, RSV, Seasonal Influenza, Hepatitis, Diphtheria, Tetanus, Acellular Pertussis, Rotavirus, Pertussis, Polio, Haemophilus, Invasive Diseases, Pneumonia, Acute Otitis Media, Measles, Mumps, Rubella and Chickenpox, and Human Papilloma Virus. Additionally, the company offers general medicines for asthma, COPD, bacterial infection, benign prostatic hyperplasia, allergic rhinitis, and inflammatory skin conditions. It also focuses on the discovery, development, and commercialization of oral small molecule therapies for patients with unmet needs in oncology and inflammatory diseases. It has a collaboration agreement with CureVac to develop mRNA vaccines for infectious diseases; and strategic research collaboration with Engitix Ltd. to identify and validate novel therapeutic targets driving liver fibrosis regression. The company has a strategic alliance with AN2 Therapeutics, Inc. for the development of new therapies for TB. GSK plc was formerly known as GlaxoSmithKline plc and changed its name to GSK plc in May 2022. The company was founded in 1715 and is headquartered in London, United Kingdom.",
+  "targetMeanPrice": 2172.905,
+  "targetLowPrice": 1455.0,
+  "targetHighPrice": 3010.0,
+  "numberOfAnalystOpinions": 21,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.52174,
+  "forwardPE": 9.190115,
+  "forwardEps": 1.90422,
+  "trailingEps": 1.18,
+  "earningsGrowth": -0.695,
+  "revenueGrowth": 0.053
  },
  "governance": {
   "top_institutions": [
@@ -78,8 +89,35 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 61118000000.0,
+    "official": 61118000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 16377000000.0,
+    "official": 16377000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 5716000000.0,
+    "official": 5716000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:52:44+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -114,7 +152,10 @@
    "goodwill_and_intangibles": 21364000000.0,
    "retained_earnings": 4363000000.0,
    "total_debt": 20987000000.0,
-   "shares_out": 4094218581.0
+   "shares_out": 4094218581.0,
+   "unusual_items": -273000000.0,
+   "normalized_ebitda": 8874000000.0,
+   "normalized_income": 4494602000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -149,7 +190,10 @@
    "goodwill_and_intangibles": 21579000000.0,
    "retained_earnings": 7239000000.0,
    "total_debt": 18018000000.0,
-   "shares_out": 4056260617.0
+   "shares_out": 4056260617.0,
+   "unusual_items": -541000000.0,
+   "normalized_ebitda": 9624000000.0,
+   "normalized_income": 5401375000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -184,7 +228,10 @@
    "goodwill_and_intangibles": 22497000000.0,
    "retained_earnings": 7796000000.0,
    "total_debt": 16986000000.0,
-   "shares_out": 4080818273.0
+   "shares_out": 4080818273.0,
+   "unusual_items": -1459000000.0,
+   "normalized_ebitda": 8127000000.0,
+   "normalized_income": 3813282714.984182
   },
   {
    "fy_end": "2025-12-31",
@@ -219,7 +266,10 @@
    "goodwill_and_intangibles": 23766000000.0,
    "retained_earnings": 10209000000.0,
    "total_debt": 17720000000.0,
-   "shares_out": 4012550322.0
+   "shares_out": 4012550322.0,
+   "unusual_items": -305000000.0,
+   "normalized_ebitda": 10707000000.0,
+   "normalized_income": 5975173760.302662
   }
  ]
 }

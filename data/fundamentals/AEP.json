@@ -1,6 +1,6 @@
 {
  "ticker": "AEP",
- "fetched_at": "2026-10-10T12:36:35+00:00",
+ "fetched_at": "2026-10-10T15:33:41+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 17581,
   "website": "https://www.aep.com",
-  "longBusinessSummary": "American Electric Power Company, Inc., an electric public utility holding company, engages in the generation, transmission, and distribution of electricity for sale to retail and wholesale customers in the United States. It operates through Vertically Integrated Utilities, Transmission and Distribution Utilities, AEP Transmission Holdco, and Generation & Marketing segments. The company generates electricity using coal and lignite, nuclear, natural gas, renewable, hydro, solar, wind, and other energy sources; owns, operates, maintains, and invests in transmission infrastructure; and engages in the retail supply, and wholesale energy trading and marketing businesses. It operates approximately 252,000 circuit miles of distribution lines; 38,000 circuit miles of transmission lines; and 25,000 MWs of regulated owned generating capacity. American Electric Power Company, Inc. was incorporated in 1906 and is headquartered in Columbus, Ohio."
+  "longBusinessSummary": "American Electric Power Company, Inc., an electric public utility holding company, engages in the generation, transmission, and distribution of electricity for sale to retail and wholesale customers in the United States. It operates through Vertically Integrated Utilities, Transmission and Distribution Utilities, AEP Transmission Holdco, and Generation & Marketing segments. The company generates electricity using coal and lignite, nuclear, natural gas, renewable, hydro, solar, wind, and other energy sources; owns, operates, maintains, and invests in transmission infrastructure; and engages in the retail supply, and wholesale energy trading and marketing businesses. It operates approximately 252,000 circuit miles of distribution lines; 38,000 circuit miles of transmission lines; and 25,000 MWs of regulated owned generating capacity. American Electric Power Company, Inc. was incorporated in 1906 and is headquartered in Columbus, Ohio.",
+  "targetMeanPrice": 142.525,
+  "targetLowPrice": 128.0,
+  "targetHighPrice": 173.0,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": 17.910582,
+  "forwardEps": 6.85684,
+  "trailingEps": 5.79,
+  "earningsGrowth": -0.432,
+  "revenueGrowth": 0.07
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 114460000000.0,
+    "official": 114460000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 31138000000.0,
+    "official": 31138000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 3580000000.0,
+    "official": 3696000000.0,
+    "diff": 0.031385
+   },
+   "revenue": {
+    "yahoo": 21876000000.0,
+    "official": 21876000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:33:41+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -190,7 +232,10 @@
    "goodwill_and_intangibles": 52500000.0,
    "retained_earnings": 12345600000.0,
    "total_debt": 40913200000.0,
-   "shares_out": 513866081.0
+   "shares_out": 513866081.0,
+   "unusual_items": -295800000.0,
+   "normalized_ebitda": 7398000000.0,
+   "normalized_income": 2602340059.494298
   },
   {
    "fy_end": "2023-12-31",
@@ -223,7 +268,10 @@
    "goodwill_and_intangibles": 52500000.0,
    "retained_earnings": 12800400000.0,
    "total_debt": 42973400000.0,
-   "shares_out": 526184585.0
+   "shares_out": 526184585.0,
+   "unusual_items": -179000000.0,
+   "normalized_ebitda": 7382000000.0,
+   "normalized_income": 2382704000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -256,7 +304,10 @@
    "goodwill_and_intangibles": 53000000.0,
    "retained_earnings": 13869000000.0,
    "total_debt": 45167000000.0,
-   "shares_out": 532907715.0
+   "shares_out": 532907715.0,
+   "unusual_items": -143000000.0,
+   "normalized_ebitda": 8242000000.0,
+   "normalized_income": 3073349100.0
   },
   {
    "fy_end": "2025-12-31",
@@ -289,7 +340,10 @@
    "goodwill_and_intangibles": 53000000.0,
    "retained_earnings": 15441000000.0,
    "total_debt": 48830000000.0,
-   "shares_out": 540861473.0
+   "shares_out": 540861473.0,
+   "unusual_items": -66000000.0,
+   "normalized_ebitda": 9305000000.0,
+   "normalized_income": 3643756000.0
   }
  ]
 }

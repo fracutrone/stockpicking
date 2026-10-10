@@ -1,6 +1,6 @@
 {
  "ticker": "FCT.MI",
- "fetched_at": "2026-10-10T11:57:38+00:00",
+ "fetched_at": "2026-10-10T14:47:47+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.60567,
   "heldPercentInstitutions": 0.09584,
   "shortPercentOfFloat": null,
-  "averageVolume": 2427220,
+  "averageVolume": 2441110,
   "quoteType": "EQUITY",
   "exchange": "MIL",
   "fullTimeEmployees": 24451,
   "website": "https://www.fincantieri.com",
-  "longBusinessSummary": "Fincantieri S.p.A. operates in the shipbuilding industry worldwide. It operates through four segments: Shipbuilding; Offshore and Specialized Vessels; Underwater; and Equipment, Systems, and Infrastructure. The company designs and constructs cruise ships, submarines, offshore support vessels, specialized vessels, and offshore wind plant vessels, as well as semi-submersible drilling ships and platforms products; cable-laying vessels and ferries; unmanned vessels; expedition cruise vessels; and aircraft carriers, destroyers, frigates, corvettes, patrol vessels, amphibious and logistic support ships, multirole and research vessels, and special vessels. It also provides product lifecycle management, and training and assistance services; cabins, wet units, public areas, catering, glazing, and interior design solutions; and ship repairs, refitting, conversions, and refurbishment services, as well as products that reduce environmental impact. In addition, the company offers technologies in the field of effectors, acoustic sensors, unmanned, radar, advanced communication systems, and top-side systems of autonomous vessels. Further, it provides electrical, and electronic and electromechanical integrated systems; stabilization, propulsion, positioning, and power generation systems; and steam turbines, as well as designs and integrates systems on automation, cyber security, telecommunications, and critical infrastructures and designs, constructs, and assembles bridges, viaducts, airports, ports, maritime/hydraulic works, large commercial and industrial buildings, and facility management. Additionally, the company provides dry-dock management; engineering, project, and supply chain management; IT consultancy; mechanical products sale and after-sale; marine diesel engine maintenance; technological research and development; ship accommodation services; and charters boats, ships, and barges. Fincantieri S.p.A. was founded in 1959 and is headquartered in Trieste, Italy."
+  "longBusinessSummary": "Fincantieri S.p.A. operates in the shipbuilding industry worldwide. It operates through four segments: Shipbuilding; Offshore and Specialized Vessels; Underwater; and Equipment, Systems, and Infrastructure. The company designs and constructs cruise ships, submarines, offshore support vessels, specialized vessels, and offshore wind plant vessels, as well as semi-submersible drilling ships and platforms products; cable-laying vessels and ferries; unmanned vessels; expedition cruise vessels; and aircraft carriers, destroyers, frigates, corvettes, patrol vessels, amphibious and logistic support ships, multirole and research vessels, and special vessels. It also provides product lifecycle management, and training and assistance services; cabins, wet units, public areas, catering, glazing, and interior design solutions; and ship repairs, refitting, conversions, and refurbishment services, as well as products that reduce environmental impact. In addition, the company offers technologies in the field of effectors, acoustic sensors, unmanned, radar, advanced communication systems, and top-side systems of autonomous vessels. Further, it provides electrical, and electronic and electromechanical integrated systems; stabilization, propulsion, positioning, and power generation systems; and steam turbines, as well as designs and integrates systems on automation, cyber security, telecommunications, and critical infrastructures and designs, constructs, and assembles bridges, viaducts, airports, ports, maritime/hydraulic works, large commercial and industrial buildings, and facility management. Additionally, the company provides dry-dock management; engineering, project, and supply chain management; IT consultancy; mechanical products sale and after-sale; marine diesel engine maintenance; technological research and development; ship accommodation services; and charters boats, ships, and barges. Fincantieri S.p.A. was founded in 1959 and is headquartered in Trieste, Italy.",
+  "targetMeanPrice": 17.7,
+  "targetLowPrice": 15.0,
+  "targetHighPrice": 20.5,
+  "numberOfAnalystOpinions": 10,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.4,
+  "forwardPE": 15.200954,
+  "forwardEps": 0.82133,
+  "trailingEps": 0.53,
+  "earningsGrowth": 1.548,
+  "revenueGrowth": -0.027
  },
  "governance": {
   "ceo": {
@@ -68,8 +79,40 @@
   "intangibles": "yahoo",
   "goodwill_and_intangibles": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF IT",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 9562408000.0,
+    "official": 9562408000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 849463000.0,
+    "official": 849463000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 32833000.0,
+    "official": 27377000.0,
+    "diff": 0.199291
+   },
+   "revenue": {
+    "yahoo": 7950731000.0,
+    "official": 7950731000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T14:47:47+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -101,7 +144,10 @@
    "intangibles": 385422000.0,
    "goodwill_and_intangibles": 508724000.0,
    "total_debt": 3212630000.0,
-   "shares_out": 219079933.0
+   "shares_out": 219079933.0,
+   "unusual_items": -6563000.0,
+   "normalized_ebitda": 10141000.0,
+   "normalized_income": -24706588.755285
   },
   {
    "fy_end": "2023-12-31",
@@ -133,7 +179,10 @@
    "intangibles": 358307000.0,
    "goodwill_and_intangibles": 474440000.0,
    "total_debt": 2913787000.0,
-   "shares_out": 218185922.0
+   "shares_out": 218185922.0,
+   "unusual_items": 104951000.0,
+   "normalized_ebitda": 294328000.0,
+   "normalized_income": -139991304.139107
   },
   {
    "fy_end": "2024-12-31",
@@ -165,7 +214,10 @@
    "intangibles": 415163000.0,
    "goodwill_and_intangibles": 571468000.0,
    "total_debt": 2325380000.0,
-   "shares_out": 322752243.0
+   "shares_out": 322752243.0,
+   "unusual_items": 134974000.0,
+   "normalized_ebitda": 422981000.0,
+   "normalized_income": -70390174.423152
   },
   {
    "fy_end": "2025-12-31",
@@ -197,7 +249,10 @@
    "intangibles": 700584000.0,
    "goodwill_and_intangibles": 1050877000.0,
    "total_debt": 2294692000.0,
-   "shares_out": 324284998.0
+   "shares_out": 324284998.0,
+   "unusual_items": -20703000.0,
+   "normalized_ebitda": 666803000.0,
+   "normalized_income": 137947599.468321
   }
  ]
 }

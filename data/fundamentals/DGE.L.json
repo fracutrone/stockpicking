@@ -1,6 +1,6 @@
 {
  "ticker": "DGE.L",
- "fetched_at": "2026-10-10T11:54:00+00:00",
+ "fetched_at": "2026-10-10T14:42:25+00:00",
  "region": "Europa",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 27972,
   "website": "https://www.diageo.com",
-  "longBusinessSummary": "Diageo plc, together with its subsidiaries, engages in the production, marketing, and distribution of alcoholic beverages in North America, Europe, the Asia Pacific, Latin America and Caribbean, and Africa. It offers beer, scotch, gin, vodka, rum, liqueur, raki, wine, cachaça, tequila, brandy, and Chinese white spirit beverages, as well as Irish, Canadian, Chinese US, and Indian whisky. The company also provides ready-to-drink and non-alcoholic beverages. Its principal brands include Johnnie Walker, Don Julio, Guinness, Crown Royal, Smirnoff, Baileys, Captain Morgan, Buchanan's, Casamigos, Shui Jing Fang, and McDowell's. The company was formerly known as Guinness plc and changed its name to Diageo plc in February 1998. The company was incorporated in 1886 and is headquartered in London, the United Kingdom."
+  "longBusinessSummary": "Diageo plc, together with its subsidiaries, engages in the production, marketing, and distribution of alcoholic beverages in North America, Europe, the Asia Pacific, Latin America and Caribbean, and Africa. It offers beer, scotch, gin, vodka, rum, liqueur, raki, wine, cachaça, tequila, brandy, and Chinese white spirit beverages, as well as Irish, Canadian, Chinese US, and Indian whisky. The company also provides ready-to-drink and non-alcoholic beverages. Its principal brands include Johnnie Walker, Don Julio, Guinness, Crown Royal, Smirnoff, Baileys, Captain Morgan, Buchanan's, Casamigos, Shui Jing Fang, and McDowell's. The company was formerly known as Guinness plc and changed its name to Diageo plc in February 1998. The company was incorporated in 1886 and is headquartered in London, the United Kingdom.",
+  "targetMeanPrice": 2034.0264,
+  "targetLowPrice": 1553.3683,
+  "targetHighPrice": 2510.298,
+  "numberOfAnalystOpinions": 22,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": 12.162183,
+  "forwardEps": 1.346798,
+  "trailingEps": 0.58,
+  "earningsGrowth": null,
+  "revenueGrowth": -0.017
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2026-06-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 46845000000.0,
+    "official": 46845000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 10871000000.0,
+    "official": 10871000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1737000000.0,
+    "official": 1958000000.0,
+    "diff": 0.11287
+   },
+   "revenue": {
+    "yahoo": 19643000000.0,
+    "official": 27762000000.0,
+    "diff": 0.29245
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2026-06-30"
+ },
+ "info_at": "2026-10-10T14:42:25+00:00",
  "years": [
   {
    "fy_end": "2023-06-30",
@@ -121,7 +164,10 @@
    "goodwill_and_intangibles": 14506000000.0,
    "retained_earnings": 8876000000.0,
    "total_debt": 21355000000.0,
-   "shares_out": 2244000000.0
+   "shares_out": 2244000000.0,
+   "unusual_items": 11000000.0,
+   "normalized_ebitda": 7879000000.0,
+   "normalized_income": 4436267458.348104
   },
   {
    "fy_end": "2024-06-30",
@@ -156,7 +202,10 @@
    "goodwill_and_intangibles": 14814000000.0,
    "retained_earnings": 9783000000.0,
    "total_debt": 22105000000.0,
-   "shares_out": 2220147656.0
+   "shares_out": 2220147656.0,
+   "unusual_items": -34000000.0,
+   "normalized_ebitda": 7121000000.0,
+   "normalized_income": 3895942124.542125
   },
   {
    "fy_end": "2025-06-30",
@@ -191,7 +240,10 @@
    "goodwill_and_intangibles": 14776000000.0,
    "retained_earnings": 10274000000.0,
    "total_debt": 24401000000.0,
-   "shares_out": 2222326358.0
+   "shares_out": 2222326358.0,
+   "unusual_items": -125000000.0,
+   "normalized_ebitda": 6484000000.0,
+   "normalized_income": 2441625000.0
   },
   {
    "fy_end": "2026-06-30",
@@ -226,7 +278,10 @@
    "goodwill_and_intangibles": 13375000000.0,
    "retained_earnings": 10502000000.0,
    "total_debt": 22196000000.0,
-   "shares_out": 2224584768.0
+   "shares_out": 2224584768.0,
+   "unusual_items": 5000000.0,
+   "normalized_ebitda": 6113000000.0,
+   "normalized_income": 1733290000.0
   }
  ]
 }

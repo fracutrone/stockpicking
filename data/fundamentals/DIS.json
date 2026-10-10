@@ -1,6 +1,6 @@
 {
  "ticker": "DIS",
- "fetched_at": "2026-10-10T12:43:12+00:00",
+ "fetched_at": "2026-10-10T15:41:39+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 175560,
   "website": "https://thewaltdisneycompany.com",
-  "longBusinessSummary": "The Walt Disney Company operates as an entertainment company in Americas, Europe, and the Asia Pacific. It operates in three segments: Entertainment, Sports, and Experiences. The company produces and distributes film and television content under the ABC Television Network, Disney, Freeform, FX, Fox, National Geographic, and Star brand television channels, as well as ABC television stations and A+E television networks; and produces original content under the Disney Branded Television, FX Productions, Lucasfilm, Marvel, National Geographic Studios, Pixar, Searchlight Pictures, Twentieth Century Studios, 20th Television, and Walt Disney Pictures banners. It also provides direct-to-consumer streaming services through Disney+, Disney+ Hotstar, and Hulu; sports-related video streaming content through ESPN, ESPN on ABC, ESPN+ DTC, and Star; sale/licensing of film and episodic content to television and video-on-demand services; theatrical, home entertainment, and music distribution services; DVD and Blu-ray discs, electronic home video licenses, and VOD rental services; staging and licensing of live entertainment events; and post-production services. In addition, the company operates theme parks and resorts, such as Walt Disney World Resort, Disneyland Resort, Disneyland Paris, Hong Kong Disneyland Resort, Shanghai Disney Resort, Disney Cruise Line, Disney Vacation Club, National Geographic Expeditions, and Adventures by Disney, as well as Aulani, a Disney resort and spa in Hawaii. Further, it licenses its intellectual property (IP) to a third party that owns and operates Tokyo Disney Resort; licenses trade names, characters, visual, literary, and other IP for use on merchandise, published materials, and games; operates a direct-to-home satellite distribution platform; sells branded merchandise through retail, online, and wholesale businesses; and develops and publishes books, comic books, and magazines. The company was founded in 1923 and is based in Burbank, California."
+  "longBusinessSummary": "The Walt Disney Company operates as an entertainment company in Americas, Europe, and the Asia Pacific. It operates in three segments: Entertainment, Sports, and Experiences. The company produces and distributes film and television content under the ABC Television Network, Disney, Freeform, FX, Fox, National Geographic, and Star brand television channels, as well as ABC television stations and A+E television networks; and produces original content under the Disney Branded Television, FX Productions, Lucasfilm, Marvel, National Geographic Studios, Pixar, Searchlight Pictures, Twentieth Century Studios, 20th Television, and Walt Disney Pictures banners. It also provides direct-to-consumer streaming services through Disney+, Disney+ Hotstar, and Hulu; sports-related video streaming content through ESPN, ESPN on ABC, ESPN+ DTC, and Star; sale/licensing of film and episodic content to television and video-on-demand services; theatrical, home entertainment, and music distribution services; DVD and Blu-ray discs, electronic home video licenses, and VOD rental services; staging and licensing of live entertainment events; and post-production services. In addition, the company operates theme parks and resorts, such as Walt Disney World Resort, Disneyland Resort, Disneyland Paris, Hong Kong Disneyland Resort, Shanghai Disney Resort, Disney Cruise Line, Disney Vacation Club, National Geographic Expeditions, and Adventures by Disney, as well as Aulani, a Disney resort and spa in Hawaii. Further, it licenses its intellectual property (IP) to a third party that owns and operates Tokyo Disney Resort; licenses trade names, characters, visual, literary, and other IP for use on merchandise, published materials, and games; operates a direct-to-home satellite distribution platform; sells branded merchandise through retail, online, and wholesale businesses; and develops and publishes books, comic books, and magazines. The company was founded in 1923 and is based in Burbank, California.",
+  "targetMeanPrice": 126.48906,
+  "targetLowPrice": 88.0,
+  "targetHighPrice": 144.0,
+  "numberOfAnalystOpinions": 32,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.48485,
+  "forwardPE": 14.45601,
+  "forwardEps": 7.4744,
+  "trailingEps": 4.85,
+  "earningsGrowth": -0.483,
+  "revenueGrowth": 0.068
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-09-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 197514000000.0,
+    "official": 197514000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 109869000000.0,
+    "official": 109869000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 12404000000.0,
+    "official": 12404000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 94425000000.0,
+    "official": 94425000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:41:39+00:00",
  "years": [
   {
    "fy_end": "2019-09-28",
@@ -197,7 +239,10 @@
    "goodwill_and_intangibles": 92734000000.0,
    "retained_earnings": 43636000000.0,
    "total_debt": 48369000000.0,
-   "shares_out": 1781000000.0
+   "shares_out": 1781000000.0,
+   "unusual_items": -900000000.0,
+   "normalized_ebitda": 12897000000.0,
+   "normalized_income": 3797800000.0
   },
   {
    "fy_end": "2023-09-30",
@@ -231,7 +276,10 @@
    "goodwill_and_intangibles": 90128000000.0,
    "retained_earnings": 46093000000.0,
    "total_debt": 46431000000.0,
-   "shares_out": 1830000000.0
+   "shares_out": 1830000000.0,
+   "unusual_items": -3824000000.0,
+   "normalized_ebitda": 15935000000.0,
+   "normalized_income": 5072864000.0
   },
   {
    "fy_end": "2024-09-28",
@@ -265,7 +313,10 @@
    "goodwill_and_intangibles": 84065000000.0,
    "retained_earnings": 49722000000.0,
    "total_debt": 45815000000.0,
-   "shares_out": 1808587380.0
+   "shares_out": 1808587380.0,
+   "unusual_items": -3660000000.0,
+   "normalized_ebitda": 18289000000.0,
+   "normalized_income": 7764580000.0
   },
   {
    "fy_end": "2025-09-27",
@@ -299,7 +350,10 @@
    "goodwill_and_intangibles": 82566000000.0,
    "retained_earnings": 60410000000.0,
    "total_debt": 42026000000.0,
-   "shares_out": 1791000000.0
+   "shares_out": 1791000000.0,
+   "unusual_items": -819000000.0,
+   "normalized_ebitda": 19960000000.0,
+   "normalized_income": 13051010000.0
   }
  ]
 }

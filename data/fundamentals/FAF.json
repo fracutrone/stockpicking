@@ -1,6 +1,6 @@
 {
  "ticker": "FAF",
- "fetched_at": "2026-10-10T12:45:10+00:00",
+ "fetched_at": "2026-10-10T15:43:30+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 19102,
   "website": "https://www.firstam.com",
-  "longBusinessSummary": "First American Financial Corporation, through its subsidiaries, provides financial services. It operates through Title Insurance and Services, and Home Warranty segments. The Title Insurance and Services segment issues title insurance policies on residential and commercial property, as well as offers related products and services internationally. This segment also provides closing and/or escrow services; products, services, and solutions to mitigate risk or otherwise facilitate real estate transactions; appraisals and other valuation-related products and services; lien release, document custodial, and default-related products and services; document generation services; warehouse lending services; and subservices mortgage loans; as well as banking, trust, and wealth management services. In addition, it accommodates tax-deferred exchanges of real estate; and maintains, manages, and provides access to title plant data and records. This segment offers its products through a network of direct operations and agents in various states and in the District of Columbia, as well as in Canada, the United Kingdom, Australia, New Zealand, South Korea, and internationally. The Home Warranty segment provides home warranty products, including residential service contracts that cover residential systems, such as heating and air conditioning systems, and certain appliances against failures that occur as the result of normal usage during the coverage period. This segment operates in various states and the District of Columbia. First American Financial Corporation was founded in 1889 and is based in Santa Ana, California."
+  "longBusinessSummary": "First American Financial Corporation, through its subsidiaries, provides financial services. It operates through Title Insurance and Services, and Home Warranty segments. The Title Insurance and Services segment issues title insurance policies on residential and commercial property, as well as offers related products and services internationally. This segment also provides closing and/or escrow services; products, services, and solutions to mitigate risk or otherwise facilitate real estate transactions; appraisals and other valuation-related products and services; lien release, document custodial, and default-related products and services; document generation services; warehouse lending services; and subservices mortgage loans; as well as banking, trust, and wealth management services. In addition, it accommodates tax-deferred exchanges of real estate; and maintains, manages, and provides access to title plant data and records. This segment offers its products through a network of direct operations and agents in various states and in the District of Columbia, as well as in Canada, the United Kingdom, Australia, New Zealand, South Korea, and internationally. The Home Warranty segment provides home warranty products, including residential service contracts that cover residential systems, such as heating and air conditioning systems, and certain appliances against failures that occur as the result of normal usage during the coverage period. This segment operates in various states and the District of Columbia. First American Financial Corporation was founded in 1889 and is based in Santa Ana, California.",
+  "targetMeanPrice": 86.33333,
+  "targetLowPrice": 79.0,
+  "targetHighPrice": 99.0,
+  "numberOfAnalystOpinions": 6,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.33333,
+  "forwardPE": 8.423951,
+  "forwardEps": 7.265,
+  "trailingEps": 7.22,
+  "earningsGrowth": 0.504,
+  "revenueGrowth": 0.15
  },
  "governance": {
   "ceo": {
@@ -76,8 +87,38 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 16228800000.0,
+    "official": 16228800000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 5499500000.0,
+    "official": 5499500000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 621800000.0,
+    "official": 621800000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 7445000000.0,
+    "official": 7452200000.0,
+    "diff": 0.000966
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:43:31+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -137,7 +178,8 @@
    "ppe_net": 506000000.0,
    "goodwill": 1587600000.0,
    "intangibles": 218000000.0,
-   "retained_earnings": 3680000000.0
+   "retained_earnings": 3680000000.0,
+   "unusual_items": 0.0
   },
   {
    "fy_end": "2022-12-31",
@@ -163,7 +205,9 @@
    "goodwill_and_intangibles": 2631800000.0,
    "retained_earnings": 3714300000.0,
    "total_debt": 2281400000.0,
-   "shares_out": 103200000.0
+   "shares_out": 103200000.0,
+   "unusual_items": 0.0,
+   "normalized_income": 263000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -189,7 +233,8 @@
    "goodwill_and_intangibles": 2613700000.0,
    "retained_earnings": 3710600000.0,
    "total_debt": 2193800000.0,
-   "shares_out": 103100000.0
+   "shares_out": 103100000.0,
+   "normalized_income": 216800000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -215,7 +260,8 @@
    "goodwill_and_intangibles": 2603400000.0,
    "retained_earnings": 3617300000.0,
    "total_debt": 2420300000.0,
-   "shares_out": 103003922.0
+   "shares_out": 103003922.0,
+   "normalized_income": 131100000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -241,7 +287,8 @@
    "goodwill_and_intangibles": 2606000000.0,
    "retained_earnings": 4011800000.0,
    "total_debt": 2670100000.0,
-   "shares_out": 102000000.0
+   "shares_out": 102000000.0,
+   "normalized_income": 621800000.0
   }
  ]
 }

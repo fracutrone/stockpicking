@@ -1,6 +1,6 @@
 {
  "ticker": "RRX",
- "fetched_at": "2026-10-10T12:57:13+00:00",
+ "fetched_at": "2026-10-10T15:54:57+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 28700,
   "website": "https://www.regalrexnord.com",
-  "longBusinessSummary": "Regal Rexnord Corporation provides sustainable solutions for power, transmit, and control motion products in the North America, Asia, Europe, and internationally. The company operates through Automation & Motion Control, Industrial Powertrain Solutions, and Power Efficiency Solutions. The Automation & Motion Control segment provides conveyor products, conveying automation subsystems, aerospace components, precision motion control solutions, miniature servo motors, controls, drives, and linear actuators, as well as power management products that include automatic transfer switches, paralleling switchgear, and customized modular electric pod solutions that comprise relevant power and thermal management content. The Industrial Powertrain Solutions segment offers mounted and unmounted bearings, couplings, mechanical power transmission drives and components, gearboxes and gear motors, clutches, brakes, and industrial powertrain components and solutions, as well as industrial powertrain solutions. The Power Efficiency Solutions segment produces fractional to approximately 5 horsepower AC and DC motors, electronic variable speed controls, electronic drives, fans and blowers, as well as integrated air moving subsystems. It serves factory automation, food and beverage, aerospace, general industrial, medical, data center, general industrial, metals and mining, energy, discrete automation, commercial HVAC, and general commercial applications. The company was formerly known as Regal Beloit Corporation. Regal Rexnord Corporation was founded in 1955 and is based in Milwaukee, Wisconsin."
+  "longBusinessSummary": "Regal Rexnord Corporation provides sustainable solutions for power, transmit, and control motion products in the North America, Asia, Europe, and internationally. The company operates through Automation & Motion Control, Industrial Powertrain Solutions, and Power Efficiency Solutions. The Automation & Motion Control segment provides conveyor products, conveying automation subsystems, aerospace components, precision motion control solutions, miniature servo motors, controls, drives, and linear actuators, as well as power management products that include automatic transfer switches, paralleling switchgear, and customized modular electric pod solutions that comprise relevant power and thermal management content. The Industrial Powertrain Solutions segment offers mounted and unmounted bearings, couplings, mechanical power transmission drives and components, gearboxes and gear motors, clutches, brakes, and industrial powertrain components and solutions, as well as industrial powertrain solutions. The Power Efficiency Solutions segment produces fractional to approximately 5 horsepower AC and DC motors, electronic variable speed controls, electronic drives, fans and blowers, as well as integrated air moving subsystems. It serves factory automation, food and beverage, aerospace, general industrial, medical, data center, general industrial, metals and mining, energy, discrete automation, commercial HVAC, and general commercial applications. The company was formerly known as Regal Beloit Corporation. Regal Rexnord Corporation was founded in 1955 and is based in Milwaukee, Wisconsin.",
+  "targetMeanPrice": 233.1,
+  "targetLowPrice": 196.0,
+  "targetHighPrice": 275.0,
+  "numberOfAnalystOpinions": 10,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.27273,
+  "forwardPE": 12.762324,
+  "forwardEps": 12.93103,
+  "trailingEps": 4.86,
+  "earningsGrowth": 0.471,
+  "revenueGrowth": 0.042
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 13921000000.0,
+    "official": 13921000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 6844100000.0,
+    "official": 6844100000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 279500000.0,
+    "official": 279500000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 5934500000.0,
+    "official": 5934500000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:54:57+00:00",
  "years": [
   {
    "fy_end": "2019-12-28",
@@ -195,7 +237,10 @@
    "goodwill_and_intangibles": 6248700000.0,
    "retained_earnings": 2130000000.0,
    "total_debt": 2023500000.0,
-   "shares_out": 66200000.0
+   "shares_out": 66200000.0,
+   "unusual_items": -900000.0,
+   "normalized_ebitda": 1009300000.0,
+   "normalized_income": 489625659.824047
   },
   {
    "fy_end": "2023-12-31",
@@ -228,7 +273,10 @@
    "goodwill_and_intangibles": 10636500000.0,
    "retained_earnings": 1979800000.0,
    "total_debt": 6380900000.0,
-   "shares_out": 66300000.0
+   "shares_out": 66300000.0,
+   "unusual_items": -145000000.0,
+   "normalized_ebitda": 1067200000.0,
+   "normalized_income": 57150000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -261,7 +309,10 @@
    "goodwill_and_intangibles": 10123500000.0,
    "retained_earnings": 2043800000.0,
    "total_debt": 5499800000.0,
-   "shares_out": 66300000.0
+   "shares_out": 66300000.0,
+   "unusual_items": -8500000.0,
+   "normalized_ebitda": 1168000000.0,
+   "normalized_income": 203000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -294,7 +345,10 @@
    "goodwill_and_intangibles": 10029700000.0,
    "retained_earnings": 2230300000.0,
    "total_debt": 4819100000.0,
-   "shares_out": 66389673.0
+   "shares_out": 66389673.0,
+   "unusual_items": -4500000.0,
+   "normalized_ebitda": 1206800000.0,
+   "normalized_income": 283084680.851064
   }
  ]
 }

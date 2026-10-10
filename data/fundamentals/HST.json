@@ -1,6 +1,6 @@
 {
  "ticker": "HST",
- "fetched_at": "2026-10-10T12:48:09+00:00",
+ "fetched_at": "2026-10-10T15:46:34+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 162,
   "website": "https://www.hosthotels.com",
-  "longBusinessSummary": "Host Hotels & Resorts, Inc. is an S&P 500 company and is the largest lodging real estate investment trust and one of the largest owners of luxury and upper-upscale hotels. The Company currently owns 70 properties in the United States and five properties internationally totaling approximately 41,300 rooms. The Company also holds non-controlling interests in seven domestic joint ventures. Guided by a disciplined approach to capital allocation and aggressive asset management, the Company partners with premium brands such as Marriott, Ritz-Carlton, Westin, W, The Luxury Collection, Hyatt, Fairmont, 1 Hotels, Hilton, Swissôtel, ibis and Novotel, as well as independent brands. Host Hotels & Resorts, Inc. was established in 1927 and was incorporated in Maryland."
+  "longBusinessSummary": "Host Hotels & Resorts, Inc. is an S&P 500 company and is the largest lodging real estate investment trust and one of the largest owners of luxury and upper-upscale hotels. The Company currently owns 70 properties in the United States and five properties internationally totaling approximately 41,300 rooms. The Company also holds non-controlling interests in seven domestic joint ventures. Guided by a disciplined approach to capital allocation and aggressive asset management, the Company partners with premium brands such as Marriott, Ritz-Carlton, Westin, W, The Luxury Collection, Hyatt, Fairmont, 1 Hotels, Hilton, Swissôtel, ibis and Novotel, as well as independent brands. Host Hotels & Resorts, Inc. was established in 1927 and was incorporated in Maryland.",
+  "targetMeanPrice": 25.29033,
+  "targetLowPrice": 21.0,
+  "targetHighPrice": 29.0,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.90476,
+  "forwardPE": 21.457193,
+  "forwardEps": 1.05559,
+  "trailingEps": 1.49,
+  "earningsGrowth": 0.084,
+  "revenueGrowth": 0.036
  },
  "governance": {
   "ceo": {
@@ -80,8 +91,39 @@
   "ppe_net": "sec",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 13049000000.0,
+    "official": 13049000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 6558000000.0,
+    "official": 6558000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 765000000.0,
+    "official": 765000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 6114000000.0,
+    "official": 6114000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:46:34+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -168,7 +210,10 @@
    "ppe_net": 9748000000.0,
    "retained_earnings": -939000000.0,
    "total_debt": 758000000.0,
-   "shares_out": 713400000.0
+   "shares_out": 713400000.0,
+   "unusual_items": 17000000.0,
+   "normalized_ebitda": 1472000000.0,
+   "normalized_income": 616660687.593423
   },
   {
    "fy_end": "2023-12-31",
@@ -198,7 +243,10 @@
    "ppe_net": 9624000000.0,
    "retained_earnings": -839000000.0,
    "total_debt": 746000000.0,
-   "shares_out": 703600000.0
+   "shares_out": 703600000.0,
+   "unusual_items": 86000000.0,
+   "normalized_ebitda": 1590000000.0,
+   "normalized_income": 657928934.010152
   },
   {
    "fy_end": "2024-12-31",
@@ -228,7 +276,10 @@
    "ppe_net": 10906000000.0,
    "retained_earnings": -777000000.0,
    "total_debt": 896000000.0,
-   "shares_out": 699100000.0
+   "shares_out": 699100000.0,
+   "unusual_items": 104000000.0,
+   "normalized_ebitda": 1594000000.0,
+   "normalized_income": 595019417.475728
   },
   {
    "fy_end": "2025-12-31",
@@ -258,7 +309,10 @@
    "ppe_net": 10636000000.0,
    "retained_earnings": -670000000.0,
    "total_debt": 1274000000.0,
-   "shares_out": 687800000.0
+   "shares_out": 687800000.0,
+   "unusual_items": 167000000.0,
+   "normalized_ebitda": 1681000000.0,
+   "normalized_income": 606574572.127139
   }
  ]
 }

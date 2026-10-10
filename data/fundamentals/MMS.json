@@ -1,6 +1,6 @@
 {
  "ticker": "MMS",
- "fetched_at": "2026-10-10T12:51:41+00:00",
+ "fetched_at": "2026-10-10T15:49:52+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 37200,
   "website": "https://www.maximus.com",
-  "longBusinessSummary": "Maximus, Inc. operates as a provider of government services worldwide. The company operates through three segments: U.S. Federal Services, U.S. Services, and Outside the U.S. The U.S. Federal Services segment offers business process services, eligibility and enrollment, outreach, and other services for federal health and human services programs; clinical services; and technology solutions, such as application development and modernization services, enterprise business solutions, advanced analytics and emerging technologies, cybersecurity services, data management, and infrastructure and engineering solutions. The U.S. Services segment offers program eligibility support and enrollment; centralized multilingual customer contact centers, multichannel, and digital self-service options for enrollment; application assistance and independent health plan choice counseling; beneficiary outreach, education, eligibility, enrollment, and redeterminations; subsidized telephone services; and person-centered independent assessment services. This segment also provides employment services, such as eligibility support, case management, job-readiness preparation, job search and employer outreach, job retention and career advancement, and educational and training services; technology solutions; and system implementation project management services. The Outside the U.S. segment offers BPS and technology solutions for international governments, including health and disability assessments, program administration for employment services, wellbeing solutions and other job seeker-related services, digitally-enabled customer services, and technologies for modernization. Maximus, Inc. was founded in 1975 and is headquartered in McLean, Virginia."
+  "longBusinessSummary": "Maximus, Inc. operates as a provider of government services worldwide. The company operates through three segments: U.S. Federal Services, U.S. Services, and Outside the U.S. The U.S. Federal Services segment offers business process services, eligibility and enrollment, outreach, and other services for federal health and human services programs; clinical services; and technology solutions, such as application development and modernization services, enterprise business solutions, advanced analytics and emerging technologies, cybersecurity services, data management, and infrastructure and engineering solutions. The U.S. Services segment offers program eligibility support and enrollment; centralized multilingual customer contact centers, multichannel, and digital self-service options for enrollment; application assistance and independent health plan choice counseling; beneficiary outreach, education, eligibility, enrollment, and redeterminations; subsidized telephone services; and person-centered independent assessment services. This segment also provides employment services, such as eligibility support, case management, job-readiness preparation, job search and employer outreach, job retention and career advancement, and educational and training services; technology solutions; and system implementation project management services. The Outside the U.S. segment offers BPS and technology solutions for international governments, including health and disability assessments, program administration for employment services, wellbeing solutions and other job seeker-related services, digitally-enabled customer services, and technologies for modernization. Maximus, Inc. was founded in 1975 and is headquartered in McLean, Virginia.",
+  "targetMeanPrice": 92.5,
+  "targetLowPrice": 75.0,
+  "targetHighPrice": 110.0,
+  "numberOfAnalystOpinions": 2,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 7.104067,
+  "forwardEps": 8.36,
+  "trailingEps": 6.76,
+  "earningsGrowth": 0.048,
+  "revenueGrowth": -0.051
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-09-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 4069639000.0,
+    "official": 4069639000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1674035000.0,
+    "official": 1674035000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 319034000.0,
+    "official": 319034000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 5431276000.0,
+    "official": 5431276000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:49:52+00:00",
  "years": [
   {
    "fy_end": "2019-09-30",
@@ -203,7 +245,10 @@
    "goodwill_and_intangibles": 2643059000.0,
    "retained_earnings": 1025354000.0,
    "total_debt": 1355941000.0,
-   "shares_out": 60774000.0
+   "shares_out": 60774000.0,
+   "unusual_items": 11046000.0,
+   "normalized_ebitda": 444812000.0,
+   "normalized_income": 195702773.228244
   },
   {
    "fy_end": "2023-09-30",
@@ -236,7 +281,10 @@
    "goodwill_and_intangibles": 2590674000.0,
    "retained_earnings": 1117552000.0,
    "total_debt": 1249993000.0,
-   "shares_out": 60997874.0
+   "shares_out": 60997874.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 443747000.0,
+   "normalized_income": 161792000.0
   },
   {
    "fy_end": "2024-09-30",
@@ -269,7 +317,10 @@
    "goodwill_and_intangibles": 2601117000.0,
    "retained_earnings": 1276971000.0,
    "total_debt": 1132093000.0,
-   "shares_out": 60352000.0
+   "shares_out": 60352000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 614476000.0,
+   "normalized_income": 306914000.0
   },
   {
    "fy_end": "2025-09-30",
@@ -302,7 +353,9 @@
    "goodwill_and_intangibles": 2534621000.0,
    "retained_earnings": 1063784000.0,
    "total_debt": 1334273000.0,
-   "shares_out": 54805000.0
+   "shares_out": 54805000.0,
+   "normalized_ebitda": 662645000.0,
+   "normalized_income": 319034000.0
   }
  ]
 }

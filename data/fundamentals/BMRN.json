@@ -1,6 +1,6 @@
 {
  "ticker": "BMRN",
- "fetched_at": "2026-10-10T12:39:15+00:00",
+ "fetched_at": "2026-10-10T15:37:58+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 3221,
   "website": "https://www.biomarin.com",
-  "longBusinessSummary": "BioMarin Pharmaceutical Inc., a biotechnology company, engages in the development and commercialization of therapies for life-threatening rare diseases and medical conditions in the United States, Europe, Latin America, the Middle East, the Asia Pacific, and internationally. The company's products include VIMIZIM, an enzyme replacement therapy for the treatment of mucopolysaccharidosis (MPS) IV type A, a lysosomal storage disorder; VOXZOGO, a once daily injection analog of c-type natriuretic peptide (CNP) for the treatment of achondroplasia; NAGLAZYME, a recombinant form of N- acetylgalactosamine 4-sulfatase for patients with MPS VI; and PALYNZIQ, a PEGylated recombinant phenylalanine (Phe) ammonia lyase enzyme delivered through subcutaneous injection to reduce blood Phe concentrations. It also develops BRINEURA, a recombinant human tripeptidyl peptidase 1 for the treatment of patients with ceroid lipofuscinosis type 2, a form of Batten disease; ALDURAZYME, a purified protein designed to be identical to a naturally occurring form of the human enzyme alpha-L-iduronidase; and KUVAN, a proprietary synthetic oral form of 6R-BH4 that is used to treat patients with phenylketonuria, an inherited metabolic disease. The company's products under development include BMN 333, a longer-acting CNP for the treatment of multiple growth disorders, such as achondroplasia and hypochondroplasia; and BMN 351, an oligonucleotide for the treatment of duchenne muscular dystrophy. It serves specialty pharmacies, hospitals, non-U.S. government agencies, distributors, and pharmaceutical wholesalers. The company has license and collaboration agreements with and Ares Trading S.A. The company was incorporated in 1996 and is based in San Rafael, California."
+  "longBusinessSummary": "BioMarin Pharmaceutical Inc., a biotechnology company, engages in the development and commercialization of therapies for life-threatening rare diseases and medical conditions in the United States, Europe, Latin America, the Middle East, the Asia Pacific, and internationally. The company's products include VIMIZIM, an enzyme replacement therapy for the treatment of mucopolysaccharidosis (MPS) IV type A, a lysosomal storage disorder; VOXZOGO, a once daily injection analog of c-type natriuretic peptide (CNP) for the treatment of achondroplasia; NAGLAZYME, a recombinant form of N- acetylgalactosamine 4-sulfatase for patients with MPS VI; and PALYNZIQ, a PEGylated recombinant phenylalanine (Phe) ammonia lyase enzyme delivered through subcutaneous injection to reduce blood Phe concentrations. It also develops BRINEURA, a recombinant human tripeptidyl peptidase 1 for the treatment of patients with ceroid lipofuscinosis type 2, a form of Batten disease; ALDURAZYME, a purified protein designed to be identical to a naturally occurring form of the human enzyme alpha-L-iduronidase; and KUVAN, a proprietary synthetic oral form of 6R-BH4 that is used to treat patients with phenylketonuria, an inherited metabolic disease. The company's products under development include BMN 333, a longer-acting CNP for the treatment of multiple growth disorders, such as achondroplasia and hypochondroplasia; and BMN 351, an oligonucleotide for the treatment of duchenne muscular dystrophy. It serves specialty pharmacies, hospitals, non-U.S. government agencies, distributors, and pharmaceutical wholesalers. The company has license and collaboration agreements with and Ares Trading S.A. The company was incorporated in 1996 and is based in San Rafael, California.",
+  "targetMeanPrice": 91.61538,
+  "targetLowPrice": 60.0,
+  "targetHighPrice": 124.0,
+  "numberOfAnalystOpinions": 26,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.74074,
+  "forwardPE": 8.264319,
+  "forwardEps": 6.63031,
+  "trailingEps": 0.37,
+  "earningsGrowth": -0.813,
+  "revenueGrowth": 0.199
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 7594022000.0,
+    "official": 7594022000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 6086999000.0,
+    "official": 6086999000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 348901000.0,
+    "official": 348901000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3221253000.0,
+    "official": 3221253000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:37:58+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -202,7 +244,10 @@
    "goodwill_and_intangibles": 534768000.0,
    "retained_earnings": -789199000.0,
    "total_debt": 1093394000.0,
-   "shares_out": 186250719.0
+   "shares_out": 186250719.0,
+   "unusual_items": 103600000.0,
+   "normalized_ebitda": 161759000.0,
+   "normalized_income": 43512385.24897
   },
   {
    "fy_end": "2023-12-31",
@@ -237,7 +282,10 @@
    "goodwill_and_intangibles": 490900000.0,
    "retained_earnings": -621554000.0,
    "total_debt": 1095751000.0,
-   "shares_out": 188598154.0
+   "shares_out": 188598154.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 310284000.0,
+   "normalized_income": 167645000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -272,7 +320,10 @@
    "goodwill_and_intangibles": 451477000.0,
    "retained_earnings": -194695000.0,
    "total_debt": 602712000.0,
-   "shares_out": 190761349.0
+   "shares_out": 190761349.0,
+   "unusual_items": 10000000.0,
+   "normalized_ebitda": 640855000.0,
+   "normalized_income": 418979927.416601
   },
   {
    "fy_end": "2025-12-31",
@@ -307,7 +358,10 @@
    "goodwill_and_intangibles": 410036000.0,
    "retained_earnings": 154206000.0,
    "total_debt": 605861000.0,
-   "shares_out": 192300101.0
+   "shares_out": 192300101.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 572936000.0,
+   "normalized_income": 348901000.0
   }
  ]
 }

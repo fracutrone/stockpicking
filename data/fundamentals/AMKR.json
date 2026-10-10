@@ -1,6 +1,6 @@
 {
  "ticker": "AMKR",
- "fetched_at": "2026-10-10T12:37:25+00:00",
+ "fetched_at": "2026-10-10T15:34:26+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 30800,
   "website": "https://amkor.com",
-  "longBusinessSummary": "Amkor Technology, Inc. provides outsourced semiconductor packaging and test services in the United States, Japan, Europe, and the Asia Pacific. It offers turnkey packaging and test services, including semiconductor wafer bump, wafer probe, wafer back-grind, package design, packaging, burn-in, system-level and final test, and drop shipment services; flip chip scale package products for smartphones, tablets, and other mobile consumer electronic devices; flip chip stacked chip scale packages that are used to stack memory digital baseband, and as applications processors in mobile devices; flip-chip ball grid array packages for various networking, storage, computing, automotive, and consumer applications; and memory products for system memory or platform data storage. The company provides wafer-level CSP packages for power management, transceivers, sensors, wireless charging, codecs, and specialty silicon; wafer-level fan-out packages used in power management, transceivers, radar, and specialty silicon; silicon wafer integrated fan-out technology that replaces a laminate substrate with a thinner structure; leadframe packages for electronic devices and mixed-signal applications; and substrate-based wirebond packages used to connect a die to a substrate. In addition, it offers micro-electro-mechanical systems packages that are miniaturized mechanical and electromechanical devices; and advanced system-in-package modules used in radio frequency and front end modules, basebands, connectivity, fingerprint sensors, display and touch screen drivers, sensors and MEMS, and NAND memory and solid-state drives. Further, the company provides wafer, package, and system level test services, as well as burn-in test and test development services. It serves integrated device manufacturers, fabless semiconductor companies, original equipment manufacturers, and contract foundries. Amkor Technology, Inc. was founded in 1968 and is headquartered in Tempe, Arizona."
+  "longBusinessSummary": "Amkor Technology, Inc. provides outsourced semiconductor packaging and test services in the United States, Japan, Europe, and the Asia Pacific. It offers turnkey packaging and test services, including semiconductor wafer bump, wafer probe, wafer back-grind, package design, packaging, burn-in, system-level and final test, and drop shipment services; flip chip scale package products for smartphones, tablets, and other mobile consumer electronic devices; flip chip stacked chip scale packages that are used to stack memory digital baseband, and as applications processors in mobile devices; flip-chip ball grid array packages for various networking, storage, computing, automotive, and consumer applications; and memory products for system memory or platform data storage. The company provides wafer-level CSP packages for power management, transceivers, sensors, wireless charging, codecs, and specialty silicon; wafer-level fan-out packages used in power management, transceivers, radar, and specialty silicon; silicon wafer integrated fan-out technology that replaces a laminate substrate with a thinner structure; leadframe packages for electronic devices and mixed-signal applications; and substrate-based wirebond packages used to connect a die to a substrate. In addition, it offers micro-electro-mechanical systems packages that are miniaturized mechanical and electromechanical devices; and advanced system-in-package modules used in radio frequency and front end modules, basebands, connectivity, fingerprint sensors, display and touch screen drivers, sensors and MEMS, and NAND memory and solid-state drives. Further, the company provides wafer, package, and system level test services, as well as burn-in test and test development services. It serves integrated device manufacturers, fabless semiconductor companies, original equipment manufacturers, and contract foundries. Amkor Technology, Inc. was founded in 1968 and is headquartered in Tempe, Arizona.",
+  "targetMeanPrice": 76.4,
+  "targetLowPrice": 65.0,
+  "targetHighPrice": 92.0,
+  "numberOfAnalystOpinions": 10,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 17.503162,
+  "forwardEps": 2.80635,
+  "trailingEps": 2.23,
+  "earningsGrowth": 2.182,
+  "revenueGrowth": 0.256
  },
  "governance": {
   "ceo": {
@@ -84,9 +95,35 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "total_assets": "sec",
   "intangibles": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "equity": {
+    "yahoo": 4471106000.0,
+    "official": 4471106000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 373895000.0,
+    "official": 373895000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 6707981000.0,
+    "official": 6707981000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:34:27+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -203,7 +240,10 @@
    "goodwill_and_intangibles": 21517000.0,
    "retained_earnings": 1874644000.0,
    "total_debt": 1088521000.0,
-   "shares_out": 245091000.0
+   "shares_out": 245091000.0,
+   "unusual_items": 1108000.0,
+   "normalized_ebitda": 1527089000.0,
+   "normalized_income": 764831340.0
   },
   {
    "fy_end": "2023-12-31",
@@ -237,7 +277,10 @@
    "goodwill_and_intangibles": 20003000.0,
    "retained_earnings": 2159831000.0,
    "total_debt": 1071832000.0,
-   "shares_out": 245888000.0
+   "shares_out": 245888000.0,
+   "unusual_items": -18361000.0,
+   "normalized_ebitda": 1152710000.0,
+   "normalized_income": 374795576.0
   },
   {
    "fy_end": "2024-12-31",
@@ -271,7 +314,10 @@
    "goodwill_and_intangibles": 17947000.0,
    "retained_earnings": 2335132000.0,
    "total_debt": 923431000.0,
-   "shares_out": 246684000.0
+   "shares_out": 246684000.0,
+   "unusual_items": -8856000.0,
+   "normalized_ebitda": 1099480000.0,
+   "normalized_income": 361318200.0
   },
   {
    "fy_end": "2025-12-31",
@@ -305,7 +351,10 @@
    "goodwill_and_intangibles": 18003000.0,
    "retained_earnings": 2627038000.0,
    "total_debt": 1282816000.0,
-   "shares_out": 247303000.0
+   "shares_out": 247303000.0,
+   "unusual_items": -12623000.0,
+   "normalized_ebitda": 1174694000.0,
+   "normalized_income": 384574058.0
   }
  ]
 }

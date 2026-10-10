@@ -1,6 +1,6 @@
 {
  "ticker": "GLPI",
- "fetched_at": "2026-10-10T12:46:44+00:00",
+ "fetched_at": "2026-10-10T15:45:14+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 20,
   "website": "https://www.glpropinc.com",
-  "longBusinessSummary": "Gaming and Leisure Properties, Inc. is engaged in the business of acquiring, financing, and owning real estate property to be leased to gaming operators in triple-net lease arrangements, pursuant to which the tenant is responsible for all facility maintenance, insurance required in connection with the leased properties and the business conducted on the leased properties, taxes levied on or with respect to the leased properties and all utilities and other services necessary or appropriate for the leased properties and the business conducted on the leased properties. Gaming and Leisure Properties, Inc. was established on February 13th, 2013, incorporated in 2013 in Pennsylvania in and is based in Wyomissing, United States."
+  "longBusinessSummary": "Gaming and Leisure Properties, Inc. is engaged in the business of acquiring, financing, and owning real estate property to be leased to gaming operators in triple-net lease arrangements, pursuant to which the tenant is responsible for all facility maintenance, insurance required in connection with the leased properties and the business conducted on the leased properties, taxes levied on or with respect to the leased properties and all utilities and other services necessary or appropriate for the leased properties and the business conducted on the leased properties. Gaming and Leisure Properties, Inc. was established on February 13th, 2013, incorporated in 2013 in Pennsylvania in and is based in Wyomissing, United States.",
+  "targetMeanPrice": 51.65217,
+  "targetLowPrice": 43.0,
+  "targetHighPrice": 63.0,
+  "numberOfAnalystOpinions": 23,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": 11.500296,
+  "forwardEps": 3.32861,
+  "trailingEps": 3.42,
+  "earningsGrowth": 0.479,
+  "revenueGrowth": 0.09
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "goodwill": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 12909609000.0,
+    "official": 12909609000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4626452000.0,
+    "official": 4626452000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 825111000.0,
+    "official": 825111000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1594752000.0,
+    "official": 1594752000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:45:14+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -172,7 +214,10 @@
    "goodwill_and_intangibles": 652824000.0,
    "retained_earnings": -1798216000.0,
    "total_debt": 6128468000.0,
-   "shares_out": 260727030.0
+   "shares_out": 260727030.0,
+   "unusual_items": 65292000.0,
+   "normalized_ebitda": 1218886000.0,
+   "normalized_income": 620928008.0
   },
   {
    "fy_end": "2023-12-31",
@@ -205,7 +250,10 @@
    "goodwill_and_intangibles": 639270000.0,
    "retained_earnings": -1897913000.0,
    "total_debt": 6627550000.0,
-   "shares_out": 270922719.0
+   "shares_out": 270922719.0,
+   "unusual_items": -534000.0,
+   "normalized_ebitda": 1357713000.0,
+   "normalized_income": 734815398.0
   },
   {
    "fy_end": "2024-12-31",
@@ -238,7 +286,10 @@
    "goodwill_and_intangibles": 847189000.0,
    "retained_earnings": -1944009000.0,
    "total_debt": 7735877000.0,
-   "shares_out": 274422549.0
+   "shares_out": 274422549.0,
+   "unusual_items": 3790000.0,
+   "normalized_ebitda": 1446306000.0,
+   "normalized_income": 780841370.0
   },
   {
    "fy_end": "2025-12-31",
@@ -271,7 +322,10 @@
    "goodwill_and_intangibles": 830110000.0,
    "retained_earnings": -1990770000.0,
    "total_debt": 7203731000.0,
-   "shares_out": 283037310.0
+   "shares_out": 283037310.0,
+   "unusual_items": -9958000.0,
+   "normalized_ebitda": 1519368000.0,
+   "normalized_income": 835039126.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "BC",
- "fetched_at": "2026-10-10T12:38:43+00:00",
+ "fetched_at": "2026-10-10T15:36:37+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 14000,
   "website": "https://www.brunswick.com",
-  "longBusinessSummary": "Brunswick Corporation designs, manufactures, and markets recreation products in the United States, Europe, the Asia-Pacific, Canada, and internationally. The company operates through four segments: Propulsion, Engine P&A, Navico Group, and Boat. The Propulsion segment provides outboard, sterndrive, inboard engines, propulsion-related controls, rigging, and propellers for boat builders through marine retail dealers under the Mercury, Mercury MerCruiser, Mariner, Mercury Racing, Mercury Diesel, Avator, and Fliteboard brands. The Engine P&A segment offers engine parts and consumables, electrical products, boat parts and systems, and engine oils and lubricants through aftermarket retailers, dealers, distributors, and original equipment manufacturers for marine and non-marine markets under the Mercury, Mercury Precision Parts, Quicksilver, and Seachoice brands; and distributes marine parts and accessories. The Navico Group segment provides products and systems for the marine, recreational vehicle (RV), specialty vehicle, mobile, and industrial markets, as well as aftermarket channels; and marine electronics, sensors, control systems, instruments, power systems, and general accessories under the Ancor, Attwood, B&G, BEP, Blue Sea Systems, C-MAP, CZone, Lenco, Lowrance, Marinco, Mastervolt, MotorGuide, Progressive Industries, ProMariner, Simrad, and Whale brand names. The Boat segment offers Sea Ray sport boats and cruisers; Bayliner sport cruisers, runabouts, and Heyday wake boats; Boston Whaler fiberglass offshore boats; Lund fiberglass fishing boats; Crestliner, Harris, Lowe, Lund, and Princecraft aluminum fishing; utility, pontoon, and deck boats; Navan premium exploration boats; and Thunder Jet and Lund heavy-gauge aluminum boats; and the freedom boat club, dealer services, and technology to the marine industry through dealers and distributors. Brunswick Corporation was founded in 1845 and is headquartered in Mettawa, Illinois."
+  "longBusinessSummary": "Brunswick Corporation designs, manufactures, and markets recreation products in the United States, Europe, the Asia-Pacific, Canada, and internationally. The company operates through four segments: Propulsion, Engine P&A, Navico Group, and Boat. The Propulsion segment provides outboard, sterndrive, inboard engines, propulsion-related controls, rigging, and propellers for boat builders through marine retail dealers under the Mercury, Mercury MerCruiser, Mariner, Mercury Racing, Mercury Diesel, Avator, and Fliteboard brands. The Engine P&A segment offers engine parts and consumables, electrical products, boat parts and systems, and engine oils and lubricants through aftermarket retailers, dealers, distributors, and original equipment manufacturers for marine and non-marine markets under the Mercury, Mercury Precision Parts, Quicksilver, and Seachoice brands; and distributes marine parts and accessories. The Navico Group segment provides products and systems for the marine, recreational vehicle (RV), specialty vehicle, mobile, and industrial markets, as well as aftermarket channels; and marine electronics, sensors, control systems, instruments, power systems, and general accessories under the Ancor, Attwood, B&G, BEP, Blue Sea Systems, C-MAP, CZone, Lenco, Lowrance, Marinco, Mastervolt, MotorGuide, Progressive Industries, ProMariner, Simrad, and Whale brand names. The Boat segment offers Sea Ray sport boats and cruisers; Bayliner sport cruisers, runabouts, and Heyday wake boats; Boston Whaler fiberglass offshore boats; Lund fiberglass fishing boats; Crestliner, Harris, Lowe, Lund, and Princecraft aluminum fishing; utility, pontoon, and deck boats; Navan premium exploration boats; and Thunder Jet and Lund heavy-gauge aluminum boats; and the freedom boat club, dealer services, and technology to the marine industry through dealers and distributors. Brunswick Corporation was founded in 1845 and is headquartered in Mettawa, Illinois.",
+  "targetMeanPrice": 91.625,
+  "targetLowPrice": 80.0,
+  "targetHighPrice": 120.0,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": 11.339722,
+  "forwardEps": 5.42165,
+  "trailingEps": -1.32,
+  "earningsGrowth": 0.875,
+  "revenueGrowth": 0.077
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 5312200000.0,
+    "official": 5312200000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1625600000.0,
+    "official": 1625600000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -137300000.0,
+    "official": -137300000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 5362800000.0,
+    "official": 5362800000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:36:37+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -202,7 +244,10 @@
    "goodwill_and_intangibles": 1965000000.0,
    "retained_earnings": 3288500000.0,
    "total_debt": 2548400000.0,
-   "shares_out": 71365000.0
+   "shares_out": 71365000.0,
+   "unusual_items": -25200000.0,
+   "normalized_ebitda": 1208100000.0,
+   "normalized_income": 701409600.0
   },
   {
    "fy_end": "2023-12-31",
@@ -237,7 +282,10 @@
    "goodwill_and_intangibles": 2008700000.0,
    "retained_earnings": 3596900000.0,
    "total_debt": 2462900000.0,
-   "shares_out": 68227000.0
+   "shares_out": 68227000.0,
+   "unusual_items": -54700000.0,
+   "normalized_ebitda": 1068900000.0,
+   "normalized_income": 470226363.491811
   },
   {
    "fy_end": "2024-12-31",
@@ -272,7 +320,10 @@
    "goodwill_and_intangibles": 1884400000.0,
    "retained_earnings": 3614700000.0,
    "total_debt": 2489000000.0,
-   "shares_out": 65987000.0
+   "shares_out": 65987000.0,
+   "unusual_items": -134400000.0,
+   "normalized_ebitda": 753100000.0,
+   "normalized_income": 248001032.956222
   },
   {
    "fy_end": "2025-12-31",
@@ -307,7 +358,10 @@
    "goodwill_and_intangibles": 1536000000.0,
    "retained_earnings": 3364800000.0,
    "total_debt": 2410800000.0,
-   "shares_out": 64889000.0
+   "shares_out": 64889000.0,
+   "unusual_items": -348100000.0,
+   "normalized_ebitda": 616600000.0,
+   "normalized_income": 139099000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "ALV.DE",
- "fetched_at": "2026-10-10T11:44:56+00:00",
+ "fetched_at": "2026-10-10T14:30:10+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 9e-05,
   "heldPercentInstitutions": 0.43223,
   "shortPercentOfFloat": null,
-  "averageVolume": 500965,
+  "averageVolume": 499606,
   "quoteType": "EQUITY",
   "exchange": "GER",
   "fullTimeEmployees": 138378,
   "website": "https://www.allianz.com",
-  "longBusinessSummary": "Allianz SE, together with its subsidiaries, provides property-casualty insurance, life/health insurance, and asset management products and services worldwide. The company's Property-Casualty segment offers various insurance products, including motor liability, accident, fire and property, general liability, credit, and travel, and assistance services to private and corporate customers. Its Life/Health segment provides a range of life and health insurance products on an individual and a group basis, such as annuities, endowment and term insurance, and unit-linked and investment-oriented products, as well as private and supplemental health, and long-term care insurance products. The company's Asset Management segment offers institutional and retail asset management products and services to third-party investors comprising equity and fixed income funds, cash, and multi-assets; and alternative investment products that include real estate, infrastructure debt/equity, real assets, liquid alternatives, and solutions business. In addition, it provides banking services for retail clients; and digital investment services. Allianz SE was founded in 1890 and is headquartered in Munich, Germany."
+  "longBusinessSummary": "Allianz SE, together with its subsidiaries, provides property-casualty insurance, life/health insurance, and asset management products and services worldwide. The company's Property-Casualty segment offers various insurance products, including motor liability, accident, fire and property, general liability, credit, and travel, and assistance services to private and corporate customers. Its Life/Health segment provides a range of life and health insurance products on an individual and a group basis, such as annuities, endowment and term insurance, and unit-linked and investment-oriented products, as well as private and supplemental health, and long-term care insurance products. The company's Asset Management segment offers institutional and retail asset management products and services to third-party investors comprising equity and fixed income funds, cash, and multi-assets; and alternative investment products that include real estate, infrastructure debt/equity, real assets, liquid alternatives, and solutions business. In addition, it provides banking services for retail clients; and digital investment services. Allianz SE was founded in 1890 and is headquartered in Munich, Germany.",
+  "targetMeanPrice": 447.26578,
+  "targetLowPrice": 353.0,
+  "targetHighPrice": 684.0,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.70588,
+  "forwardPE": 12.486668,
+  "forwardEps": 33.39562,
+  "trailingEps": 30.48,
+  "earningsGrowth": -0.08,
+  "revenueGrowth": 0.121
  },
  "governance": {
   "ceo": {
@@ -77,8 +88,16 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T14:30:10+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -105,7 +124,9 @@
    "goodwill_and_intangibles": 18442000000.0,
    "retained_earnings": 29687000000.0,
    "total_debt": 29498000000.0,
-   "shares_out": 401589162.0
+   "shares_out": 401589162.0,
+   "unusual_items": -951000000.0,
+   "normalized_income": 7095259000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -132,7 +153,9 @@
    "goodwill_and_intangibles": 18649000000.0,
    "retained_earnings": 30502000000.0,
    "total_debt": 29983000000.0,
-   "shares_out": 391458589.0
+   "shares_out": 391458589.0,
+   "unusual_items": -568000000.0,
+   "normalized_income": 8984040000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -159,7 +182,9 @@
    "goodwill_and_intangibles": 19125000000.0,
    "retained_earnings": 33354000000.0,
    "total_debt": 34839000000.0,
-   "shares_out": 385919437.0
+   "shares_out": 385919437.0,
+   "unusual_items": -700000000.0,
+   "normalized_income": 10457400000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -186,7 +211,9 @@
    "goodwill_and_intangibles": 18622000000.0,
    "retained_earnings": 36275000000.0,
    "total_debt": 35275000000.0,
-   "shares_out": 380242198.0
+   "shares_out": 380242198.0,
+   "unusual_items": -736000000.0,
+   "normalized_income": 11318904000.0
   }
  ]
 }

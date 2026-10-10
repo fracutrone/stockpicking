@@ -1,6 +1,6 @@
 {
  "ticker": "SON.LS",
- "fetched_at": "2026-10-10T12:20:01+00:00",
+ "fetched_at": "2026-10-10T15:21:12+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LIS",
   "fullTimeEmployees": 44478,
   "website": "https://www.sonae.pt",
-  "longBusinessSummary": "Sonae, SGPS, S.A. operates a portfolio of businesses in retail, real estate, telecommunications, technology, and financial services in Portugal and internationally. The company operates through six segments: MC, Worten, Musti, Sierra, Bright Pixel, and NOS. It is involved in retailing in the food sector through a network of stores, such as Continente Modelo and Continente Bom Dia supermarkets, Continente hypermarkets, and Meu Super, a franchised supermarket; health and wellness markets under the Wells, Arenal, Druni, and other retail banners; bookshops and stationery under the Note! brand; and cafeterias and restaurants under the Bagga brand. The company also offers electronics and appliances through digital channels and physical stores; a range of services under the Worten Resolve and iServices brands; retail products and services for pets under the Musti ja Miri, Arken Zoo, Musti, Pet City, and ZU brands; telecommunication services, including Pay TV, broadband services, and cinema film exhibition and distribution; wellbeing solutions; financial solutions; and jeanswear, clothing, and accessories. In addition, it operates in the real estate sector; and invests in the retail technology, digital infrastructure, and cybersecurity. The company was founded in 1959 and is headquartered in Cidade da Maia, Portugal. Sonae, SGPS, S.A. operates as a subsidiary of Efanor Investimentos SGPS, SA."
+  "longBusinessSummary": "Sonae, SGPS, S.A. operates a portfolio of businesses in retail, real estate, telecommunications, technology, and financial services in Portugal and internationally. The company operates through six segments: MC, Worten, Musti, Sierra, Bright Pixel, and NOS. It is involved in retailing in the food sector through a network of stores, such as Continente Modelo and Continente Bom Dia supermarkets, Continente hypermarkets, and Meu Super, a franchised supermarket; health and wellness markets under the Wells, Arenal, Druni, and other retail banners; bookshops and stationery under the Note! brand; and cafeterias and restaurants under the Bagga brand. The company also offers electronics and appliances through digital channels and physical stores; a range of services under the Worten Resolve and iServices brands; retail products and services for pets under the Musti ja Miri, Arken Zoo, Musti, Pet City, and ZU brands; telecommunication services, including Pay TV, broadband services, and cinema film exhibition and distribution; wellbeing solutions; financial solutions; and jeanswear, clothing, and accessories. In addition, it operates in the real estate sector; and invests in the retail technology, digital infrastructure, and cybersecurity. The company was founded in 1959 and is headquartered in Cidade da Maia, Portugal. Sonae, SGPS, S.A. operates as a subsidiary of Efanor Investimentos SGPS, SA.",
+  "targetMeanPrice": 2.27429,
+  "targetLowPrice": 1.4,
+  "targetHighPrice": 2.9,
+  "numberOfAnalystOpinions": 7,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.14286,
+  "forwardPE": 12.474897,
+  "forwardEps": 0.16433,
+  "trailingEps": 0.19,
+  "earningsGrowth": 0.276,
+  "revenueGrowth": 0.062
  },
  "governance": {
   "ceo": {
@@ -69,8 +80,35 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF PT",
+  "fy_end": "2022-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 8641084000.0,
+    "official": 8647091000.0,
+    "diff": 0.000695
+   },
+   "equity": {
+    "yahoo": 2790545000.0,
+    "official": 2796552000.0,
+    "diff": 0.002148
+   },
+   "net_income": {
+    "yahoo": 335547000.0,
+    "official": 341554000.0,
+    "diff": 0.017587
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2022-12-31"
+ },
+ "info_at": "2026-10-10T15:21:12+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -103,7 +141,10 @@
    "goodwill_and_intangibles": 1155376000.0,
    "retained_earnings": 335547000.0,
    "total_debt": 2575238000.0,
-   "shares_out": 1920265242.0
+   "shares_out": 1920265242.0,
+   "unusual_items": -10016000.0,
+   "normalized_ebitda": 823789000.0,
+   "normalized_income": 294141074.540302
   },
   {
    "fy_end": "2023-12-31",
@@ -136,7 +177,10 @@
    "goodwill_and_intangibles": 1147145000.0,
    "retained_earnings": 357062000.0,
    "total_debt": 2669293000.0,
-   "shares_out": 1929727461.0
+   "shares_out": 1929727461.0,
+   "unusual_items": -70260000.0,
+   "normalized_ebitda": 1038045000.0,
+   "normalized_income": 495732813.372662
   },
   {
    "fy_end": "2024-12-31",
@@ -169,7 +213,10 @@
    "goodwill_and_intangibles": 2406989000.0,
    "retained_earnings": 222665000.0,
    "total_debt": 3926647000.0,
-   "shares_out": 1938334607.0
+   "shares_out": 1938334607.0,
+   "unusual_items": -13741000.0,
+   "normalized_ebitda": 1031810000.0,
+   "normalized_income": 250879704.704987
   },
   {
    "fy_end": "2025-12-31",
@@ -202,7 +249,10 @@
    "goodwill_and_intangibles": 2406084000.0,
    "retained_earnings": 199222000.0,
    "total_debt": 3795290000.0,
-   "shares_out": 1944778067.0
+   "shares_out": 1944778067.0,
+   "unusual_items": -44125000.0,
+   "normalized_ebitda": 1181862000.0,
+   "normalized_income": 258442080.802215
   }
  ]
 }

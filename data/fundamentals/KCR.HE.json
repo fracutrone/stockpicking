@@ -1,6 +1,6 @@
 {
  "ticker": "KCR.HE",
- "fetched_at": "2026-10-10T12:05:12+00:00",
+ "fetched_at": "2026-10-10T15:00:40+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "HEL",
   "fullTimeEmployees": 16371,
   "website": "https://www.konecranes.com",
-  "longBusinessSummary": "Konecranes Plc manufactures, sells, and services material handling products in Europe, the Middle East, Africa, the Americas, and the Asia-Pacific. It operates through three segments: Industrial Service, Industrial Equipment, and Port Solutions. The Industrial Service segment provides maintenance services for various industrial cranes and hoists. The Industrial Equipment segment offers industrial cranes and wire rope hoists, crane manufacturing components, digital controls, and software and automation; chain hoists, workstation lifting systems, overhead cranes, and cranes and hoists for hazardous environments. The Port Solutions segment provides equipment, services and software, and products, such as ship-to shore cranes, yard cranes, lift trucks, mobile harbor cranes, straddle carriers, and automated guided vehicles. It also offers maintenance, repair and digital services, and spare parts for the container handling industry. It serves general manufacturing metals production, power generation, automotive, pulp and paper, raw materials and chemicals, and container handling industries. The company was founded in 1910 and is headquartered in Hyvinkää, Finland."
+  "longBusinessSummary": "Konecranes Plc manufactures, sells, and services material handling products in Europe, the Middle East, Africa, the Americas, and the Asia-Pacific. It operates through three segments: Industrial Service, Industrial Equipment, and Port Solutions. The Industrial Service segment provides maintenance services for various industrial cranes and hoists. The Industrial Equipment segment offers industrial cranes and wire rope hoists, crane manufacturing components, digital controls, and software and automation; chain hoists, workstation lifting systems, overhead cranes, and cranes and hoists for hazardous environments. The Port Solutions segment provides equipment, services and software, and products, such as ship-to shore cranes, yard cranes, lift trucks, mobile harbor cranes, straddle carriers, and automated guided vehicles. It also offers maintenance, repair and digital services, and spare parts for the container handling industry. It serves general manufacturing metals production, power generation, automotive, pulp and paper, raw materials and chemicals, and container handling industries. The company was founded in 1910 and is headquartered in Hyvinkää, Finland.",
+  "targetMeanPrice": 36.75,
+  "targetLowPrice": 36.0,
+  "targetHighPrice": 38.0,
+  "numberOfAnalystOpinions": 4,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.0,
+  "forwardPE": 14.424821,
+  "forwardEps": 2.095,
+  "trailingEps": 1.6,
+  "earningsGrowth": -0.095,
+  "revenueGrowth": -0.031
  },
  "governance": {
   "ceo": {
@@ -76,8 +87,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF FI",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 4550800000.0,
+    "official": 4550800000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2087400000.0,
+    "official": 2087400000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 399800000.0,
+    "official": 399800000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 4165000000.0,
+    "official": 4187800000.0,
+    "diff": 0.005444
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:00:41+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -110,7 +153,10 @@
    "goodwill_and_intangibles": 1494900000.0,
    "retained_earnings": 535800000.0,
    "total_debt": 1106200000.0,
-   "shares_out": 237499797.0
+   "shares_out": 237499797.0,
+   "unusual_items": -32500000.0,
+   "normalized_ebitda": 374100000.0,
+   "normalized_income": 170626400.0
   },
   {
    "fy_end": "2023-12-31",
@@ -143,7 +189,10 @@
    "goodwill_and_intangibles": 1496600000.0,
    "retained_earnings": 701400000.0,
    "total_debt": 954900000.0,
-   "shares_out": 237606750.0
+   "shares_out": 237606750.0,
+   "unusual_items": 14600000.0,
+   "normalized_ebitda": 514400000.0,
+   "normalized_income": 264650000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -177,7 +226,10 @@
    "goodwill_and_intangibles": 1508300000.0,
    "retained_earnings": 963800000.0,
    "total_debt": 895700000.0,
-   "shares_out": 237627354.0
+   "shares_out": 237627354.0,
+   "unusual_items": 5300000.0,
+   "normalized_ebitda": 654400000.0,
+   "normalized_income": 364377300.0
   },
   {
    "fy_end": "2025-12-31",
@@ -210,7 +262,10 @@
    "goodwill_and_intangibles": 1458000000.0,
    "retained_earnings": 1243400000.0,
    "total_debt": 469900000.0,
-   "shares_out": 237642807.0
+   "shares_out": 237642807.0,
+   "unusual_items": 21800000.0,
+   "normalized_ebitda": 667700000.0,
+   "normalized_income": 382926800.0
   }
  ]
 }

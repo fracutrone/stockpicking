@@ -1,6 +1,6 @@
 {
  "ticker": "STMMI.MI",
- "fetched_at": "2026-10-10T12:20:46+00:00",
+ "fetched_at": "2026-10-10T15:22:51+00:00",
  "region": "Europa",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "MIL",
   "fullTimeEmployees": 49000,
   "website": "https://www.st.com/content/st_com/en.html",
-  "longBusinessSummary": "STMicroelectronics N.V., together with its subsidiaries, designs, develops, manufactures, and sells semiconductor products in Europe, the Middle East, Africa, the Americas, and the Asia Pacific. The company operates through Analog products, MEMS and Sensors Group (AM&S); Power and Discrete products (P&D); Embedded Processing (EMP); and RF Products (D&RF) segments. It offers industrial application-specific integrated circuits (ASICs) and application-specific standard products (ASSPs); power management solutions; custom analog ICs, wireless charging solutions; galvanic isolated gate and LED drivers; converters, transistors, intelligent power switches, clocks and timers, comparators, and current-sense amplifiers; micro-electro-mechanical systems (MEMS) sensors, including accelerometers, gyroscopes, magnetic sensors, pressure, temperature, presence detection, biosensors, machine learning, and edge AI processing smart sensors, as well as thermal and piezoelectric actuators; and optical sensing solutions. The company also provides silicon MOSFETs, SiC MOSFETs, IGBTs, thyristors, rectifiers, and power modules and bipolar transistors; microcontrollers, and automotive microcontrollers and secured; radio frequency (RF) communications and ASICs; car infotainment products; ultra-wide band and radar systems; and Connected Security Products; and automotive driver assistance systems. It serves automotive, industrial, personal electronics and communications equipment, and computers and peripherals markets. STMicroelectronics N.V. was incorporated in 1987 and is headquartered in Schiphol, the Netherlands."
+  "longBusinessSummary": "STMicroelectronics N.V., together with its subsidiaries, designs, develops, manufactures, and sells semiconductor products in Europe, the Middle East, Africa, the Americas, and the Asia Pacific. The company operates through Analog products, MEMS and Sensors Group (AM&S); Power and Discrete products (P&D); Embedded Processing (EMP); and RF Products (D&RF) segments. It offers industrial application-specific integrated circuits (ASICs) and application-specific standard products (ASSPs); power management solutions; custom analog ICs, wireless charging solutions; galvanic isolated gate and LED drivers; converters, transistors, intelligent power switches, clocks and timers, comparators, and current-sense amplifiers; micro-electro-mechanical systems (MEMS) sensors, including accelerometers, gyroscopes, magnetic sensors, pressure, temperature, presence detection, biosensors, machine learning, and edge AI processing smart sensors, as well as thermal and piezoelectric actuators; and optical sensing solutions. The company also provides silicon MOSFETs, SiC MOSFETs, IGBTs, thyristors, rectifiers, and power modules and bipolar transistors; microcontrollers, and automotive microcontrollers and secured; radio frequency (RF) communications and ASICs; car infotainment products; ultra-wide band and radar systems; and Connected Security Products; and automotive driver assistance systems. It serves automotive, industrial, personal electronics and communications equipment, and computers and peripherals markets. STMicroelectronics N.V. was incorporated in 1987 and is headquartered in Schiphol, the Netherlands.",
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 32.785213,
+  "forwardEps": 1.42,
+  "trailingEps": 0.03,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.261
  },
  "governance": {
   "ceo": {
@@ -81,8 +92,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF NL",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 24800000000.0,
+    "official": 25932000000.0,
+    "diff": 0.043653
+   },
+   "equity": {
+    "yahoo": 17828000000.0,
+    "official": 18877000000.0,
+    "diff": 0.05557
+   },
+   "net_income": {
+    "yahoo": 166000000.0,
+    "official": 299000000.0,
+    "diff": 0.444816
+   },
+   "revenue": {
+    "yahoo": 11800000000.0,
+    "official": 11800000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:22:51+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -117,7 +160,10 @@
    "goodwill_and_intangibles": 702000000.0,
    "retained_earnings": 8713000000.0,
    "total_debt": 2910000000.0,
-   "shares_out": 903865763.0
+   "shares_out": 903865763.0,
+   "unusual_items": -14000000.0,
+   "normalized_ebitda": 5729000000.0,
+   "normalized_income": 3972320000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -151,7 +197,10 @@
    "goodwill_and_intangibles": 670000000.0,
    "retained_earnings": 12470000000.0,
    "total_debt": 3173000000.0,
-   "shares_out": 902771081.0
+   "shares_out": 902771081.0,
+   "unusual_items": -135000000.0,
+   "normalized_ebitda": 6514000000.0,
+   "normalized_income": 4331150000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -185,7 +234,10 @@
    "goodwill_and_intangibles": 636000000.0,
    "retained_earnings": 13459000000.0,
    "total_debt": 3167000000.0,
-   "shares_out": 898175408.0
+   "shares_out": 898175408.0,
+   "unusual_items": -64000000.0,
+   "normalized_ebitda": 3787000000.0,
+   "normalized_income": 1610120000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -219,7 +271,10 @@
    "goodwill_and_intangibles": 639000000.0,
    "retained_earnings": 13082000000.0,
    "total_debt": 2354000000.0,
-   "shares_out": 888768152.0
+   "shares_out": 888768152.0,
+   "unusual_items": -282000000.0,
+   "normalized_ebitda": 2591000000.0,
+   "normalized_income": 400060000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "ADM.L",
- "fetched_at": "2026-10-10T12:28:37+00:00",
+ "fetched_at": "2026-10-10T15:33:01+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 14805,
   "website": "https://admiralgroup.co.uk",
-  "longBusinessSummary": "Admiral Group plc, a financial services company, provides insurance and personal lending products in the United Kingdom, France, Italy, and Spain. It operates through four segments: UK Insurance, European Insurance, Admiral Money, and Other. The company offers underwriting services that include motor, household, pet, travel, and other insurance, as well as car and home insurance; and distributes and underwrites unsecured personal loans, car finance products, and secured homeowner loans. It provides its insurance products and services under the Admiral, Admiral Business, Admiral Money, Admiral Pioneer, Balumba, Bell, Connect by Admiral, ConTe.it Assicurazioni, ConTe.it Prestiti, Diamond, Gladiator, L'olivier  assurance, More Than, Qualitas Auto, and Veygo brand names. The company was formerly known as Admiral Group Limited and changed its name to Admiral Group plc in September 2004. Admiral Group plc was founded in 1993 and is headquartered in Cardiff, the United Kingdom."
+  "longBusinessSummary": "Admiral Group plc, a financial services company, provides insurance and personal lending products in the United Kingdom, France, Italy, and Spain. It operates through four segments: UK Insurance, European Insurance, Admiral Money, and Other. The company offers underwriting services that include motor, household, pet, travel, and other insurance, as well as car and home insurance; and distributes and underwrites unsecured personal loans, car finance products, and secured homeowner loans. It provides its insurance products and services under the Admiral, Admiral Business, Admiral Money, Admiral Pioneer, Balumba, Bell, Connect by Admiral, ConTe.it Assicurazioni, ConTe.it Prestiti, Diamond, Gladiator, L'olivier  assurance, More Than, Qualitas Auto, and Veygo brand names. The company was formerly known as Admiral Group Limited and changed its name to Admiral Group plc in September 2004. Admiral Group plc was founded in 1993 and is headquartered in Cardiff, the United Kingdom.",
+  "targetMeanPrice": 4005.2668,
+  "targetLowPrice": 2620.0,
+  "targetHighPrice": 4800.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 13.22821,
+  "forwardEps": 2.7396,
+  "trailingEps": 2.18,
+  "earningsGrowth": -0.178,
+  "revenueGrowth": -0.0
  },
  "governance": {
   "ceo": {
@@ -73,8 +84,34 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 9022800000.0,
+    "official": 9022800000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1443300000.0,
+    "official": 1443300000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 742600000.0,
+    "official": 742600000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:33:01+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -101,7 +138,8 @@
    "goodwill_and_intangibles": 217600000.0,
    "retained_earnings": 922600000.0,
    "total_debt": 1027600000.0,
-   "shares_out": 302837726.0
+   "shares_out": 302837726.0,
+   "normalized_income": 286500000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -127,7 +165,8 @@
    "goodwill_and_intangibles": 242900000.0,
    "retained_earnings": 1018900000.0,
    "total_debt": 1211000000.0,
-   "shares_out": 296407745.0
+   "shares_out": 296407745.0,
+   "normalized_income": 338000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -153,7 +192,8 @@
    "goodwill_and_intangibles": 321000000.0,
    "retained_earnings": 1383400000.0,
    "total_debt": 1393600000.0,
-   "shares_out": 298902015.0
+   "shares_out": 298902015.0,
+   "normalized_income": 651600000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -179,7 +219,9 @@
    "goodwill_and_intangibles": 327600000.0,
    "retained_earnings": 1459200000.0,
    "total_debt": 1885800000.0,
-   "shares_out": 300998503.0
+   "shares_out": 300998503.0,
+   "unusual_items": 17100000.0,
+   "normalized_income": 732293454.431569
   }
  ]
 }

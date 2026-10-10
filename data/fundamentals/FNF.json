@@ -1,6 +1,6 @@
 {
  "ticker": "FNF",
- "fetched_at": "2026-10-10T12:45:59+00:00",
+ "fetched_at": "2026-10-10T15:44:17+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 24535,
   "website": "https://www.fnf.com",
-  "longBusinessSummary": "Fidelity National Financial, Inc., together with its subsidiaries, provides various insurance products in the United States. It operates through Title, F&G, and Corporate and Other segments. The company offers title insurance, escrow, and other title related services, including trust activities, trustee sales guarantees, recordings and reconveyances, and home warranty products. It also provides technology and transaction services to the real estate and mortgage industries; and mortgage transaction services, including title-related services and facilitation of production and management of mortgage loans. In addition, the company offers annuity and life insurance products, such as deferred and immediate annuities, as well as indexed universal life insurance products; and funding agreements and pension risk transfer (PRT) solutions. Further, it engages in the real estate brokerage business. Fidelity National Financial, Inc. was incorporated in 2005 and is headquartered in Jacksonville, Florida."
+  "longBusinessSummary": "Fidelity National Financial, Inc., together with its subsidiaries, provides various insurance products in the United States. It operates through Title, F&G, and Corporate and Other segments. The company offers title insurance, escrow, and other title related services, including trust activities, trustee sales guarantees, recordings and reconveyances, and home warranty products. It also provides technology and transaction services to the real estate and mortgage industries; and mortgage transaction services, including title-related services and facilitation of production and management of mortgage loans. In addition, the company offers annuity and life insurance products, such as deferred and immediate annuities, as well as indexed universal life insurance products; and funding agreements and pension risk transfer (PRT) solutions. Further, it engages in the real estate brokerage business. Fidelity National Financial, Inc. was incorporated in 2005 and is headquartered in Jacksonville, Florida.",
+  "targetMeanPrice": 57.8,
+  "targetLowPrice": 47.0,
+  "targetHighPrice": 70.0,
+  "numberOfAnalystOpinions": 5,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.6,
+  "forwardPE": 7.0256,
+  "forwardEps": 5.52266,
+  "trailingEps": 2.88,
+  "earningsGrowth": 0.058,
+  "revenueGrowth": 0.105
  },
  "governance": {
   "ceo": {
@@ -77,8 +88,37 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 109014000000.0,
+    "official": 109014000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 7424000000.0,
+    "official": 7424000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 602000000.0,
+    "official": 602000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 14140000000.0,
+    "official": 14445000000.0,
+    "diff": 0.021115
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:44:17+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -162,7 +202,8 @@
    "goodwill_and_intangibles": 8862000000.0,
    "retained_earnings": 5225000000.0,
    "total_debt": 3238000000.0,
-   "shares_out": 272309890.0
+   "shares_out": 272309890.0,
+   "normalized_income": 1294000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -189,7 +230,8 @@
    "goodwill_and_intangibles": 9875000000.0,
    "retained_earnings": 5244000000.0,
    "total_debt": 3887000000.0,
-   "shares_out": 273251449.0
+   "shares_out": 273251449.0,
+   "normalized_income": 517000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -216,7 +258,8 @@
    "goodwill_and_intangibles": 11667000000.0,
    "retained_earnings": 5982000000.0,
    "total_debt": 4321000000.0,
-   "shares_out": 275000000.0
+   "shares_out": 275000000.0,
+   "normalized_income": 1270000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -243,7 +286,8 @@
    "goodwill_and_intangibles": 12337000000.0,
    "retained_earnings": 5484000000.0,
    "total_debt": 4400000000.0,
-   "shares_out": 271336723.0
+   "shares_out": 271336723.0,
+   "normalized_income": 602000000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "RRTL.DE",
- "fetched_at": "2026-10-10T12:17:36+00:00",
+ "fetched_at": "2026-10-10T15:16:52+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "GER",
   "fullTimeEmployees": 11931,
   "website": "https://rtl.com",
-  "longBusinessSummary": "RTL Group S.A. operates as an entertainment company. The company operates television (TV) channels and radio stations; and provides streaming services, including RTL+, Videoland, and M6+ in France, Germany, Spain, Luxembourg, Hungary, and the Netherlands. It is also involved in radio and digital publishing business. In addition, the company operates Fremantle, a producer and distributor of scripted and unscripted content; Bedrock, a streaming tech business; Smartclip, an ad-tech business; and social media business under the We Are Era name. The company was founded in 1924 and is based in Luxembourg, Luxembourg. RTL Group S.A. operates as a subsidiary of Bertelsmann Capital Holding GmbH."
+  "longBusinessSummary": "RTL Group S.A. operates as an entertainment company. The company operates television (TV) channels and radio stations; and provides streaming services, including RTL+, Videoland, and M6+ in France, Germany, Spain, Luxembourg, Hungary, and the Netherlands. It is also involved in radio and digital publishing business. In addition, the company operates Fremantle, a producer and distributor of scripted and unscripted content; Bedrock, a streaming tech business; Smartclip, an ad-tech business; and social media business under the We Are Era name. The company was founded in 1924 and is based in Luxembourg, Luxembourg. RTL Group S.A. operates as a subsidiary of Bertelsmann Capital Holding GmbH.",
+  "targetMeanPrice": 34.22714,
+  "targetLowPrice": 29.0,
+  "targetHighPrice": 38.09,
+  "numberOfAnalystOpinions": 7,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.16667,
+  "forwardPE": 10.04996,
+  "forwardEps": 2.93036,
+  "trailingEps": 0.6,
+  "earningsGrowth": 0.485,
+  "revenueGrowth": 0.039
  },
  "governance": {
   "ceo": {
@@ -76,8 +87,35 @@
   "intangibles": "yahoo",
   "goodwill_and_intangibles": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF LU",
+  "fy_end": "2024-12-31",
+  "items": {
+   "equity": {
+    "yahoo": 4306000000.0,
+    "official": 4306000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 460000000.0,
+    "official": 460000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 6254000000.0,
+    "official": 6254000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T15:16:52+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -111,7 +149,10 @@
    "intangibles": 664000000.0,
    "goodwill_and_intangibles": 3995000000.0,
    "total_debt": 1070000000.0,
-   "shares_out": 154742806.0
+   "shares_out": 154742806.0,
+   "unusual_items": 21000000.0,
+   "normalized_ebitda": 1019000000.0,
+   "normalized_income": 615790155.440415
   },
   {
    "fy_end": "2023-12-31",
@@ -145,7 +186,10 @@
    "intangibles": 625000000.0,
    "goodwill_and_intangibles": 3773000000.0,
    "total_debt": 1243000000.0,
-   "shares_out": 154742806.0
+   "shares_out": 154742806.0,
+   "unusual_items": 36000000.0,
+   "normalized_ebitda": 868000000.0,
+   "normalized_income": 400570016.474465
   },
   {
    "fy_end": "2024-12-31",
@@ -178,7 +222,10 @@
    "intangibles": 707000000.0,
    "goodwill_and_intangibles": 4070000000.0,
    "total_debt": 1426000000.0,
-   "shares_out": 154742806.0
+   "shares_out": 154742806.0,
+   "unusual_items": 40000000.0,
+   "normalized_ebitda": 892000000.0,
+   "normalized_income": 397331034.482759
   },
   {
    "fy_end": "2025-12-31",
@@ -212,7 +259,10 @@
    "intangibles": 752000000.0,
    "goodwill_and_intangibles": 4126000000.0,
    "total_debt": 1115000000.0,
-   "shares_out": 154742806.0
+   "shares_out": 154742806.0,
+   "unusual_items": 64000000.0,
+   "normalized_ebitda": 505000000.0,
+   "normalized_income": 149900000.0
   }
  ]
 }

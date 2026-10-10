@@ -1,6 +1,6 @@
 {
  "ticker": "USFD",
- "fetched_at": "2026-10-10T13:01:04+00:00",
+ "fetched_at": "2026-10-10T15:58:37+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 30000,
   "website": "https://www.usfoods.com",
-  "longBusinessSummary": "US Foods Holding Corp., together with its subsidiaries, markets, sells, and distributes fresh, frozen, and dry food and non-food products to foodservice customers in the United States. The company also provides MOXe, an all-in-one foodservice business application. Its customers include independently owned single and multi-unit restaurants, regional concepts, national restaurant chains, hospitals, nursing homes, hotels and motels, country clubs, government and military organizations, colleges and universities, and retail locations. The company was formerly known as USF Holding Corp. and changed its name to US Foods Holding Corp. in February 2016. US Foods Holding Corp. was incorporated in 2007 and is headquartered in Rosemont, Illinois."
+  "longBusinessSummary": "US Foods Holding Corp., together with its subsidiaries, markets, sells, and distributes fresh, frozen, and dry food and non-food products to foodservice customers in the United States. The company also provides MOXe, an all-in-one foodservice business application. Its customers include independently owned single and multi-unit restaurants, regional concepts, national restaurant chains, hospitals, nursing homes, hotels and motels, country clubs, government and military organizations, colleges and universities, and retail locations. The company was formerly known as USF Holding Corp. and changed its name to US Foods Holding Corp. in February 2016. US Foods Holding Corp. was incorporated in 2007 and is headquartered in Rosemont, Illinois.",
+  "targetMeanPrice": 116.0,
+  "targetLowPrice": 65.0,
+  "targetHighPrice": 130.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.53333,
+  "forwardPE": 17.563532,
+  "forwardEps": 5.54729,
+  "trailingEps": 3.26,
+  "earningsGrowth": 0.292,
+  "revenueGrowth": 0.045
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 13943000000.0,
+    "official": 13943000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4307000000.0,
+    "official": 4307000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 676000000.0,
+    "official": 676000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 39424000000.0,
+    "official": 39424000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:58:37+00:00",
  "years": [
   {
    "fy_end": "2019-12-28",
@@ -206,7 +248,10 @@
    "goodwill_and_intangibles": 6410000000.0,
    "retained_earnings": 1010000000.0,
    "total_debt": 4738000000.0,
-   "shares_out": 225000000.0
+   "shares_out": 225000000.0,
+   "unusual_items": -12000000.0,
+   "normalized_ebitda": 1000000000.0,
+   "normalized_income": 273760000.0
   },
   {
    "fy_end": "2023-12-30",
@@ -240,7 +285,10 @@
    "goodwill_and_intangibles": 6500000000.0,
    "retained_earnings": 1509000000.0,
    "total_debt": 4564000000.0,
-   "shares_out": 245200000.0
+   "shares_out": 245200000.0,
+   "unusual_items": -35000000.0,
+   "normalized_ebitda": 1432000000.0,
+   "normalized_income": 532120943.952802
   },
   {
    "fy_end": "2024-12-28",
@@ -274,7 +322,10 @@
    "goodwill_and_intangibles": 6602000000.0,
    "retained_earnings": 2003000000.0,
    "total_debt": 4819000000.0,
-   "shares_out": 230500000.0
+   "shares_out": 230500000.0,
+   "unusual_items": -157000000.0,
+   "normalized_ebitda": 1554000000.0,
+   "normalized_income": 614576000.0
   },
   {
    "fy_end": "2025-12-27",
@@ -308,7 +359,10 @@
    "goodwill_and_intangibles": 6575000000.0,
    "retained_earnings": 2679000000.0,
    "total_debt": 5063000000.0,
-   "shares_out": 220500000.0
+   "shares_out": 220500000.0,
+   "unusual_items": -33000000.0,
+   "normalized_ebitda": 1698000000.0,
+   "normalized_income": 700849000.0
   }
  ]
 }

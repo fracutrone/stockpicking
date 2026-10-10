@@ -1,6 +1,6 @@
 {
  "ticker": "PLD",
- "fetched_at": "2026-10-10T12:55:33+00:00",
+ "fetched_at": "2026-10-10T15:53:16+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 2802,
   "website": "https://www.prologis.com",
-  "longBusinessSummary": "Prologis, Inc. don't just lead the industry, they define it. The firm creates the intelligent infrastructure that powers global commerce, seamlessly connecting the digital and physical worlds. From agile supply chains to clean energy solutions, their ecosystems help your business move faster, operate smarter and grow sustainably. With unmatched scale, innovation and expertise, Prologis is a category of onenot just shaping the future of logistics but building what comes next. Prologis, Inc. was established in 1983 and is incorporated in Maryland."
+  "longBusinessSummary": "Prologis, Inc. don't just lead the industry, they define it. The firm creates the intelligent infrastructure that powers global commerce, seamlessly connecting the digital and physical worlds. From agile supply chains to clean energy solutions, their ecosystems help your business move faster, operate smarter and grow sustainably. With unmatched scale, innovation and expertise, Prologis is a category of onenot just shaping the future of logistics but building what comes next. Prologis, Inc. was established in 1983 and is incorporated in Maryland.",
+  "targetMeanPrice": 158.23077,
+  "targetLowPrice": 140.0,
+  "targetHighPrice": 170.0,
+  "numberOfAnalystOpinions": 13,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": 38.847042,
+  "forwardEps": 3.33333,
+  "trailingEps": 4.5,
+  "earningsGrowth": 0.853,
+  "revenueGrowth": 0.123
  },
  "governance": {
   "ceo": {
@@ -81,8 +92,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 98724256000.0,
+    "official": 98724256000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 53193178000.0,
+    "official": 53193178000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 3328231000.0,
+    "official": 3328231000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 8790127000.0,
+    "official": 8790127000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:53:16+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -173,7 +215,10 @@
    "goodwill_and_intangibles": 1183006000.0,
    "retained_earnings": -457695000.0,
    "total_debt": 23875961000.0,
-   "shares_out": 923142000.0
+   "shares_out": 923142000.0,
+   "unusual_items": 1408573000.0,
+   "normalized_ebitda": 4386917000.0,
+   "normalized_income": 2007962085.912307
   },
   {
    "fy_end": "2023-12-31",
@@ -204,7 +249,10 @@
    "goodwill_and_intangibles": 1010615000.0,
    "retained_earnings": -627068000.0,
    "total_debt": 29000501000.0,
-   "shares_out": 924391000.0
+   "shares_out": 924391000.0,
+   "unusual_items": 713805000.0,
+   "normalized_ebitda": 5853992000.0,
+   "normalized_income": 2388893994.756339
   },
   {
    "fy_end": "2024-12-31",
@@ -235,7 +283,10 @@
    "goodwill_and_intangibles": 764546000.0,
    "retained_earnings": -465913000.0,
    "total_debt": 30879263000.0,
-   "shares_out": 926283000.0
+   "shares_out": 926283000.0,
+   "unusual_items": 1527146000.0,
+   "normalized_ebitda": 6005547000.0,
+   "normalized_income": 2266446203.756223
   },
   {
    "fy_end": "2025-12-31",
@@ -266,7 +317,10 @@
    "goodwill_and_intangibles": 588427000.0,
    "retained_earnings": -902427000.0,
    "total_debt": 35037073000.0,
-   "shares_out": 929153000.0
+   "shares_out": 929153000.0,
+   "unusual_items": 954827000.0,
+   "normalized_ebitda": 6412776000.0,
+   "normalized_income": 2425084713.439521
   }
  ]
 }

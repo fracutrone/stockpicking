@@ -1,6 +1,6 @@
 {
  "ticker": "GS",
- "fetched_at": "2026-10-10T12:47:12+00:00",
+ "fetched_at": "2026-10-10T15:45:35+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 46200,
   "website": "https://www.goldmansachs.com",
-  "longBusinessSummary": "The Goldman Sachs Group, Inc., a financial institution, provides a range of financial services for corporations, financial institutions, governments, and individuals in the Americas, Europe, the Middle East, Africa, and Asia. It operates through three segments: Global Banking & Markets, Asset & Wealth Management, and Platform Solutions. The Global Banking & Markets segment provides financial advisory services, including strategic advisory assignments related to mergers and acquisitions, divestitures, corporate defense activities, restructurings, and spin-offs; equity and debt underwriting of public offerings and private placements; relationship lending and acquisition financing; secured lending through structured credit and asset-backed lending, such as warehouse, residential and commercial mortgage, corporate, consumer, auto, and student loans; financing through securities purchased under agreements to resell; and commodity financing through structured transactions. This segment also offers client execution activities for cash and derivative instruments; credit and interest rate products; and provision of mortgages, currencies, commodities, and equities related products. Its Asset & Wealth Management segment manages assets across various classes, including equity, fixed income, hedge funds, credit funds, private equity, real estate, currencies, commodities, and asset allocation strategies; and provides customized investment advisory solutions, wealth advisory services, personalized financial planning, and private banking services, as well as invests in corporate equity, credit, real estate, and infrastructure assets. The Platform Solutions segment offers credit cards; and transaction banking and other services, such as deposit-taking, payment solutions, and other cash management services for corporate and institutional clients. The Goldman Sachs Group, Inc. was founded in 1869 and is headquartered in New York, New York."
+  "longBusinessSummary": "The Goldman Sachs Group, Inc., a financial institution, provides a range of financial services for corporations, financial institutions, governments, and individuals in the Americas, Europe, the Middle East, Africa, and Asia. It operates through three segments: Global Banking & Markets, Asset & Wealth Management, and Platform Solutions. The Global Banking & Markets segment provides financial advisory services, including strategic advisory assignments related to mergers and acquisitions, divestitures, corporate defense activities, restructurings, and spin-offs; equity and debt underwriting of public offerings and private placements; relationship lending and acquisition financing; secured lending through structured credit and asset-backed lending, such as warehouse, residential and commercial mortgage, corporate, consumer, auto, and student loans; financing through securities purchased under agreements to resell; and commodity financing through structured transactions. This segment also offers client execution activities for cash and derivative instruments; credit and interest rate products; and provision of mortgages, currencies, commodities, and equities related products. Its Asset & Wealth Management segment manages assets across various classes, including equity, fixed income, hedge funds, credit funds, private equity, real estate, currencies, commodities, and asset allocation strategies; and provides customized investment advisory solutions, wealth advisory services, personalized financial planning, and private banking services, as well as invests in corporate equity, credit, real estate, and infrastructure assets. The Platform Solutions segment offers credit cards; and transaction banking and other services, such as deposit-taking, payment solutions, and other cash management services for corporate and institutional clients. The Goldman Sachs Group, Inc. was founded in 1869 and is headquartered in New York, New York.",
+  "targetMeanPrice": 1069.0952,
+  "targetLowPrice": 730.0,
+  "targetHighPrice": 1250.0,
+  "numberOfAnalystOpinions": 21,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.53846,
+  "forwardPE": 12.406834,
+  "forwardEps": 72.16346,
+  "trailingEps": 64.75,
+  "earningsGrowth": 0.923,
+  "revenueGrowth": 0.425
  },
  "governance": {
   "ceo": {
@@ -78,8 +89,38 @@
   "retained_earnings": "sec",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "noninterest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 1809320000000.0,
+    "official": 1809320000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 124972000000.0,
+    "official": 124972000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 17176000000.0,
+    "official": 17176000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 58283000000.0,
+    "official": 58283000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:45:35+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -170,7 +211,9 @@
    "goodwill_and_intangibles": 8383000000.0,
    "retained_earnings": 139372000000.0,
    "total_debt": 324199000000.0,
-   "shares_out": 334918639.0
+   "shares_out": 334918639.0,
+   "unusual_items": -314000000.0,
+   "normalized_income": 11523190000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -198,7 +241,9 @@
    "goodwill_and_intangibles": 7093000000.0,
    "retained_earnings": 143688000000.0,
    "total_debt": 333248000000.0,
-   "shares_out": 323376354.0
+   "shares_out": 323376354.0,
+   "unusual_items": -3117000000.0,
+   "normalized_income": 10987781000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -226,7 +271,9 @@
    "goodwill_and_intangibles": 6700000000.0,
    "retained_earnings": 153412000000.0,
    "total_debt": 342555000000.0,
-   "shares_out": 310653708.0
+   "shares_out": 310653708.0,
+   "unusual_items": -465000000.0,
+   "normalized_income": 14636838180.138065
   },
   {
    "fy_end": "2025-12-31",
@@ -254,7 +301,9 @@
    "goodwill_and_intangibles": 6791000000.0,
    "retained_earnings": 165288000000.0,
    "total_debt": 386150000000.0,
-   "shares_out": 296476742.0
+   "shares_out": 296476742.0,
+   "unusual_items": -399000000.0,
+   "normalized_income": 17489619989.017025
   }
  ]
 }

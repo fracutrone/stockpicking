@@ -1,6 +1,6 @@
 {
  "ticker": "UBSI",
- "fetched_at": "2026-10-10T13:00:39+00:00",
+ "fetched_at": "2026-10-10T15:58:14+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 2740,
   "website": "https://www.ubsi-inc.com",
-  "longBusinessSummary": "United Bankshares, Inc., through its subsidiaries, provides commercial and retail banking products and services in the United States. The company accepts checking, savings, and time and money market accounts; individual retirement accounts; and demand deposits, statement and special savings, and NOW accounts. Its loan products include commercial loans and leases to small to mid-size industrial and commercial companies, as well as automobile dealers, service, retail and wholesale merchants; construction and real estate loans, such as commercial and residential mortgages, and loans secured by owner-occupied real estate; personal, automobiles, boats, recreational vehicles, credit card receivables, commercial, and floor plan loans; and home equity loans. In addition, the company provides credit cards; trust, safe deposit boxes, wire transfers, and other banking products and services; investment and security services; buying and selling federal fund services; automated teller machine services; and internet and automated telephone banking services. Further, it offers community banking services, such as asset management, real property title insurance, financial planning, mortgage banking, and brokerage services, as well as custody of assets, investment management, escrow services, and related fiduciary activities. The company was incorporated in 1982 and is headquartered in Charleston, West Virginia."
+  "longBusinessSummary": "United Bankshares, Inc., through its subsidiaries, provides commercial and retail banking products and services in the United States. The company accepts checking, savings, and time and money market accounts; individual retirement accounts; and demand deposits, statement and special savings, and NOW accounts. Its loan products include commercial loans and leases to small to mid-size industrial and commercial companies, as well as automobile dealers, service, retail and wholesale merchants; construction and real estate loans, such as commercial and residential mortgages, and loans secured by owner-occupied real estate; personal, automobiles, boats, recreational vehicles, credit card receivables, commercial, and floor plan loans; and home equity loans. In addition, the company provides credit cards; trust, safe deposit boxes, wire transfers, and other banking products and services; investment and security services; buying and selling federal fund services; automated teller machine services; and internet and automated telephone banking services. Further, it offers community banking services, such as asset management, real property title insurance, financial planning, mortgage banking, and brokerage services, as well as custody of assets, investment management, escrow services, and related fiduciary activities. The company was incorporated in 1982 and is headquartered in Charleston, West Virginia.",
+  "targetMeanPrice": 50.33333,
+  "targetLowPrice": 48.0,
+  "targetHighPrice": 52.0,
+  "numberOfAnalystOpinions": 6,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.66667,
+  "forwardPE": 11.756887,
+  "forwardEps": 3.86667,
+  "trailingEps": 3.67,
+  "earningsGrowth": 0.122,
+  "revenueGrowth": 0.062
  },
  "governance": {
   "ceo": {
@@ -78,8 +89,33 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "noninterest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 33660281000.0,
+    "official": 33660281000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 5495983000.0,
+    "official": 5495983000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 464603000.0,
+    "official": 464603000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:58:14+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -107,7 +143,9 @@
    "goodwill_and_intangibles": 1909911000.0,
    "retained_earnings": 1575426000.0,
    "total_debt": 2358354000.0,
-   "shares_out": 134745122.0
+   "shares_out": 134745122.0,
+   "unusual_items": -700000.0,
+   "normalized_income": 380185529.623799
   },
   {
    "fy_end": "2023-12-31",
@@ -135,7 +173,9 @@
    "goodwill_and_intangibles": 1893443000.0,
    "retained_earnings": 1745619000.0,
    "total_debt": 1985198000.0,
-   "shares_out": 134949063.0
+   "shares_out": 134949063.0,
+   "unusual_items": 60000.0,
+   "normalized_income": 366265600.0
   },
   {
    "fy_end": "2024-12-31",
@@ -162,7 +202,9 @@
    "goodwill_and_intangibles": 1888889000.0,
    "retained_earnings": 1917726000.0,
    "total_debt": 716510000.0,
-   "shares_out": 135346628.0
+   "shares_out": 135346628.0,
+   "unusual_items": 75000.0,
+   "normalized_income": 372935784.837455
   },
   {
    "fy_end": "2025-12-31",
@@ -189,7 +231,9 @@
    "goodwill_and_intangibles": 2018848000.0,
    "retained_earnings": 2170327000.0,
    "total_debt": 730390000.0,
-   "shares_out": 139880247.0
+   "shares_out": 139880247.0,
+   "unusual_items": 148000.0,
+   "normalized_income": 464485137.051766
   }
  ]
 }

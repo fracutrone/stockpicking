@@ -1,6 +1,6 @@
 {
  "ticker": "AAL",
- "fetched_at": "2026-10-10T12:36:02+00:00",
+ "fetched_at": "2026-10-10T15:33:13+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 143400,
   "website": "https://www.aa.com",
-  "longBusinessSummary": "American Airlines Group Inc., through its subsidiaries, operates as a network air carrier in the United States, Latin America, Atlantic, and Pacific. The company provides scheduled air transportation services for passengers and cargo through its hubs in Charlotte, Chicago, Dallas/Fort Worth, Los Angeles, Miami, New York, Philadelphia, Phoenix, and Washington, D.C., as well as through partner gateways in London, Doha, Madrid, Seattle/Tacoma, Sydney, and Tokyo. It also operates a mainline fleet of 1,013 aircraft. The company was formerly known as AMR Corporation and changed its name to American Airlines Group Inc. in December 2013. American Airlines Group Inc. was founded in 1926 and is headquartered in Fort Worth, Texas."
+  "longBusinessSummary": "American Airlines Group Inc., through its subsidiaries, operates as a network air carrier in the United States, Latin America, Atlantic, and Pacific. The company provides scheduled air transportation services for passengers and cargo through its hubs in Charlotte, Chicago, Dallas/Fort Worth, Los Angeles, Miami, New York, Philadelphia, Phoenix, and Washington, D.C., as well as through partner gateways in London, Doha, Madrid, Seattle/Tacoma, Sydney, and Tokyo. It also operates a mainline fleet of 1,013 aircraft. The company was formerly known as AMR Corporation and changed its name to American Airlines Group Inc. in December 2013. American Airlines Group Inc. was founded in 1926 and is headquartered in Fort Worth, Texas.",
+  "targetMeanPrice": 15.92609,
+  "targetLowPrice": 10.3,
+  "targetHighPrice": 24.0,
+  "numberOfAnalystOpinions": 23,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.24,
+  "forwardPE": 9.075262,
+  "forwardEps": 1.40602,
+  "trailingEps": -0.49,
+  "earningsGrowth": -0.882,
+  "revenueGrowth": 0.163
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 61774000000.0,
+    "official": 61774000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": -3727000000.0,
+    "official": -3727000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 111000000.0,
+    "official": 111000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 54633000000.0,
+    "official": 54633000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:33:13+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -190,7 +232,10 @@
    "goodwill_and_intangibles": 6150000000.0,
    "retained_earnings": -8511000000.0,
    "total_debt": 31844000000.0,
-   "shares_out": 650642461.0
+   "shares_out": 650642461.0,
+   "unusual_items": -193000000.0,
+   "normalized_ebitda": 4639000000.0,
+   "normalized_income": 258779569.892473
   },
   {
    "fy_end": "2023-12-31",
@@ -225,7 +270,10 @@
    "goodwill_and_intangibles": 6142000000.0,
    "retained_earnings": -7689000000.0,
    "total_debt": 28895000000.0,
-   "shares_out": 654273192.0
+   "shares_out": 654273192.0,
+   "unusual_items": -971000000.0,
+   "normalized_ebitda": 6491000000.0,
+   "normalized_income": 1533743000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -260,7 +308,10 @@
    "goodwill_and_intangibles": 6135000000.0,
    "retained_earnings": -6843000000.0,
    "total_debt": 24617000000.0,
-   "shares_out": 657566166.0
+   "shares_out": 657566166.0,
+   "unusual_items": -610000000.0,
+   "normalized_ebitda": 5943000000.0,
+   "normalized_income": 1293130000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -295,7 +346,10 @@
    "goodwill_and_intangibles": 6157000000.0,
    "retained_earnings": -6732000000.0,
    "total_debt": 24639000000.0,
-   "shares_out": 660301080.0
+   "shares_out": 660301080.0,
+   "unusual_items": -159000000.0,
+   "normalized_ebitda": 4284000000.0,
+   "normalized_income": 236610000.0
   }
  ]
 }

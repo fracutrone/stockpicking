@@ -1,6 +1,6 @@
 {
  "ticker": "CSL",
- "fetched_at": "2026-10-10T12:42:19+00:00",
+ "fetched_at": "2026-10-10T15:40:47+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 5900,
   "website": "https://www.carlisle.com",
-  "longBusinessSummary": "Carlisle Companies Incorporated operates as a manufacturer and supplier of building envelope products and solutions in the United States, Europe, North America, and internationally. It operates through two segments, Carlisle Construction Materials (CCM) and Carlisle Weatherproofing Technologies (CWT). The CCM segment offers single-ply roofing solutions, including ethylene propylene diene monomer, thermoplastic polyolefin, polyvinyl chloride membrane, polyiso insulation, and engineered metal roofing and wall panel systems for commercial and residential buildings. Its CWT segment provides waterproofing and moisture protection products; protective roofing underlayment; fully integrated liquid and sheet applied air/vapor barriers; sealants/primers and flashing systems; roof coatings and mastics; spray polyurethane foam and coating systems for a range of thermal protection applications and other premium polyurethane products; block-molded expanded polystyrene insulation; engineered products for HVAC applications; and products for a variety of industrial and surfacing applications. The company sells its products under the Carlisle SynTec, Versico, WeatherBond, Hunter Panels, Resitrix, and Hertalan brands. The company was founded in 1917 and is headquartered in Scottsdale, Arizona."
+  "longBusinessSummary": "Carlisle Companies Incorporated operates as a manufacturer and supplier of building envelope products and solutions in the United States, Europe, North America, and internationally. It operates through two segments, Carlisle Construction Materials (CCM) and Carlisle Weatherproofing Technologies (CWT). The CCM segment offers single-ply roofing solutions, including ethylene propylene diene monomer, thermoplastic polyolefin, polyvinyl chloride membrane, polyiso insulation, and engineered metal roofing and wall panel systems for commercial and residential buildings. Its CWT segment provides waterproofing and moisture protection products; protective roofing underlayment; fully integrated liquid and sheet applied air/vapor barriers; sealants/primers and flashing systems; roof coatings and mastics; spray polyurethane foam and coating systems for a range of thermal protection applications and other premium polyurethane products; block-molded expanded polystyrene insulation; engineered products for HVAC applications; and products for a variety of industrial and surfacing applications. The company sells its products under the Carlisle SynTec, Versico, WeatherBond, Hunter Panels, Resitrix, and Hertalan brands. The company was founded in 1917 and is headquartered in Scottsdale, Arizona.",
+  "targetMeanPrice": 403.5,
+  "targetLowPrice": 340.0,
+  "targetHighPrice": 475.0,
+  "numberOfAnalystOpinions": 8,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.2,
+  "forwardPE": 13.345802,
+  "forwardEps": 24.00455,
+  "trailingEps": 17.59,
+  "earningsGrowth": 0.072,
+  "revenueGrowth": 0.083
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 6263000000.0,
+    "official": 6263000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1795400000.0,
+    "official": 1795400000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 740700000.0,
+    "official": 740700000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 5019900000.0,
+    "official": 5019900000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:40:47+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -163,7 +205,8 @@
    "goodwill": 1172600000.0,
    "intangibles": 2008700000.0,
    "retained_earnings": 4237700000.0,
-   "total_debt": 2927400000.0
+   "total_debt": 2927400000.0,
+   "unusual_items": 0.0
   },
   {
    "fy_end": "2022-12-31",
@@ -197,7 +240,10 @@
    "goodwill_and_intangibles": 2505100000.0,
    "retained_earnings": 5027100000.0,
    "total_debt": 2582800000.0,
-   "shares_out": 50900000.0
+   "shares_out": 50900000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 1460900000.0,
+   "normalized_income": 858000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -231,7 +277,9 @@
    "goodwill_and_intangibles": 2455400000.0,
    "retained_earnings": 5634000000.0,
    "total_debt": 2289400000.0,
-   "shares_out": 47700000.0
+   "shares_out": 47700000.0,
+   "normalized_ebitda": 1210700000.0,
+   "normalized_income": 718900000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -265,7 +313,9 @@
    "goodwill_and_intangibles": 2982900000.0,
    "retained_earnings": 6773100000.0,
    "total_debt": 1890600000.0,
-   "shares_out": 44400000.0
+   "shares_out": 44400000.0,
+   "normalized_ebitda": 1356800000.0,
+   "normalized_income": 865100000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -299,7 +349,9 @@
    "goodwill_and_intangibles": 2964400000.0,
    "retained_earnings": 7332500000.0,
    "total_debt": 2886400000.0,
-   "shares_out": 41000000.0
+   "shares_out": 41000000.0,
+   "normalized_ebitda": 1223800000.0,
+   "normalized_income": 742500000.0
   }
  ]
 }

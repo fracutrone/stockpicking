@@ -1,6 +1,6 @@
 {
  "ticker": "VICR",
- "fetched_at": "2026-10-10T13:01:21+00:00",
+ "fetched_at": "2026-10-10T15:58:52+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 1092,
   "website": "https://www.vicorpower.com",
-  "longBusinessSummary": "Vicor Corporation, together with its subsidiaries, designs, develops, manufactures, and markets modular power components and power systems for converting electrical power for use in electrically powered devices in the United States, Europe, the Asia Pacific, and internationally. The company offers a range of brick-format DC-DC converters; complementary components that provide AC line rectification, input filtering, power factor correction, and transient protection; and input and output voltage, and output power products, as well as sells electrical and mechanical accessories. It also designs, sells, and services custom power system solutions. It serves independent manufacturers of electronic devices, original equipment manufacturers, original design manufacturers, and their contract manufacturers in the aerospace and aviation, defense electronics, satellites, factory automation, instrumentation, test equipment, transportation, telecommunications and networking infrastructure, and vehicle markets. Vicor Corporation was incorporated in 1981 and is headquartered in Andover, Massachusetts."
+  "longBusinessSummary": "Vicor Corporation, together with its subsidiaries, designs, develops, manufactures, and markets modular power components and power systems for converting electrical power for use in electrically powered devices in the United States, Europe, the Asia Pacific, and internationally. The company offers a range of brick-format DC-DC converters; complementary components that provide AC line rectification, input filtering, power factor correction, and transient protection; and input and output voltage, and output power products, as well as sells electrical and mechanical accessories. It also designs, sells, and services custom power system solutions. It serves independent manufacturers of electronic devices, original equipment manufacturers, original design manufacturers, and their contract manufacturers in the aerospace and aviation, defense electronics, satellites, factory automation, instrumentation, test equipment, transportation, telecommunications and networking infrastructure, and vehicle markets. Vicor Corporation was incorporated in 1981 and is headquartered in Andover, Massachusetts.",
+  "targetMeanPrice": 393.75,
+  "targetLowPrice": 350.0,
+  "targetHighPrice": 450.0,
+  "numberOfAnalystOpinions": 4,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.5,
+  "forwardPE": 43.47549,
+  "forwardEps": 6.12,
+  "trailingEps": 3.13,
+  "earningsGrowth": 0.143,
+  "revenueGrowth": 0.493
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 785831000.0,
+    "official": 785831000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 711557000.0,
+    "official": 711557000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 118556000.0,
+    "official": 118556000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 452701000.0,
+    "official": 452701000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:58:52+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -196,7 +238,10 @@
    "goodwill_and_intangibles": 258000.0,
    "retained_earnings": 243079000.0,
    "total_debt": 8459000.0,
-   "shares_out": 44084748.0
+   "shares_out": 44084748.0,
+   "unusual_items": -7150000.0,
+   "normalized_ebitda": 54627000.0,
+   "normalized_income": 31783222.435249
   },
   {
    "fy_end": "2023-12-31",
@@ -228,7 +273,10 @@
    "goodwill_and_intangibles": 192000.0,
    "retained_earnings": 296674000.0,
    "total_debt": 8228000.0,
-   "shares_out": 44462806.0
+   "shares_out": 44462806.0,
+   "unusual_items": -150000.0,
+   "normalized_ebitda": 68748000.0,
+   "normalized_income": 53728457.273753
   },
   {
    "fy_end": "2024-12-31",
@@ -260,7 +308,10 @@
    "goodwill_and_intangibles": 149000.0,
    "retained_earnings": 302803000.0,
    "total_debt": 7336000.0,
-   "shares_out": 45171764.0
+   "shares_out": 45171764.0,
+   "unusual_items": -20149000.0,
+   "normalized_ebitda": 56965000.0,
+   "normalized_income": 22046710.0
   },
   {
    "fy_end": "2025-12-31",
@@ -292,7 +343,10 @@
    "goodwill_and_intangibles": 119000.0,
    "retained_earnings": 421359000.0,
    "total_debt": 7176000.0,
-   "shares_out": 45259095.0
+   "shares_out": 45259095.0,
+   "unusual_items": -539000.0,
+   "normalized_ebitda": 103153000.0,
+   "normalized_income": 118981810.0
   }
  ]
 }

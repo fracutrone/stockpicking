@@ -1,6 +1,6 @@
 {
  "ticker": "BBY",
- "fetched_at": "2026-10-10T12:38:41+00:00",
+ "fetched_at": "2026-10-10T15:36:33+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 82000,
   "website": "https://corporate.bestbuy.com",
-  "longBusinessSummary": "Best Buy Co., Inc. offers technology products and solutions in the United States, Canada, and internationally. The company provides computing and mobile phone products, such as desktops, notebooks, and peripherals; mobile phones comprising related mobile network carrier commissions; networking products; tablets covering e-readers; smartwatches; and consumer electronics consisting of digital imaging, health and fitness products, portable audio comprising headphones and portable speakers, and smart home products, as well as home theaters that includes home theater accessories, soundbars, and televisions. It also offers appliances, such as dishwashers, laundry, ovens, refrigerators, blenders, coffee makers, vacuums, and personal care; entertainment products consisting of drones, peripherals, gaming, toys, and virtual reality, as well as hardware and software, and augmented reality glasses and other software products; and other products, such as baby, food and beverage, luggage, and outdoor living products. In addition, the company provides delivery, installation, marketplace commissions, memberships, repair, set-up, technical support, health-related, and warranty-related services. It offers its products through stores and websites under the Best Buy, Best Buy Ads, Best Buy Business, Best Buy Essentials, Best Buy Health, Best Buy Marketplace, Geek Squad, Imagine That, Insignia, Lively, Jitterbug, My Best Buy, My Best Buy Memberships, Pacific Kitchen, Home, TechLiquidators, and Yardbird brand names, as well as domain names comprising bestbuy.com, lively.com, techliquidators.com, yardbird.com, bestbuy.ca, and techliquidators.ca. The company was formerly known as Sound of Music, Inc. Best Buy Co., Inc. was incorporated in 1966 and is headquartered in Richfield, Minnesota."
+  "longBusinessSummary": "Best Buy Co., Inc. offers technology products and solutions in the United States, Canada, and internationally. The company provides computing and mobile phone products, such as desktops, notebooks, and peripherals; mobile phones comprising related mobile network carrier commissions; networking products; tablets covering e-readers; smartwatches; and consumer electronics consisting of digital imaging, health and fitness products, portable audio comprising headphones and portable speakers, and smart home products, as well as home theaters that includes home theater accessories, soundbars, and televisions. It also offers appliances, such as dishwashers, laundry, ovens, refrigerators, blenders, coffee makers, vacuums, and personal care; entertainment products consisting of drones, peripherals, gaming, toys, and virtual reality, as well as hardware and software, and augmented reality glasses and other software products; and other products, such as baby, food and beverage, luggage, and outdoor living products. In addition, the company provides delivery, installation, marketplace commissions, memberships, repair, set-up, technical support, health-related, and warranty-related services. It offers its products through stores and websites under the Best Buy, Best Buy Ads, Best Buy Business, Best Buy Essentials, Best Buy Health, Best Buy Marketplace, Geek Squad, Imagine That, Insignia, Lively, Jitterbug, My Best Buy, My Best Buy Memberships, Pacific Kitchen, Home, TechLiquidators, and Yardbird brand names, as well as domain names comprising bestbuy.com, lively.com, techliquidators.com, yardbird.com, bestbuy.ca, and techliquidators.ca. The company was formerly known as Sound of Music, Inc. Best Buy Co., Inc. was incorporated in 1966 and is headquartered in Richfield, Minnesota.",
+  "targetMeanPrice": 86.95,
+  "targetLowPrice": 71.0,
+  "targetHighPrice": 100.0,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.8,
+  "forwardPE": 12.062591,
+  "forwardEps": 7.21321,
+  "trailingEps": 6.01,
+  "earningsGrowth": 0.701,
+  "revenueGrowth": 0.036
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-01-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 14670000000.0,
+    "official": 14670000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2964000000.0,
+    "official": 2964000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1069000000.0,
+    "official": 1069000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 41691000000.0,
+    "official": 41691000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:36:34+00:00",
  "years": [
   {
    "fy_end": "2020-02-01",
@@ -201,7 +243,10 @@
    "goodwill_and_intangibles": 1572000000.0,
    "retained_earnings": 2430000000.0,
    "total_debt": 1176000000.0,
-   "shares_out": 218100000.0
+   "shares_out": 218100000.0,
+   "unusual_items": -119000000.0,
+   "normalized_ebitda": 2860000000.0,
+   "normalized_income": 1513367000.0
   },
   {
    "fy_end": "2024-02-03",
@@ -235,7 +280,10 @@
    "goodwill_and_intangibles": 1511000000.0,
    "retained_earnings": 2683000000.0,
    "total_debt": 1165000000.0,
-   "shares_out": 215395970.0
+   "shares_out": 215395970.0,
+   "unusual_items": -54000000.0,
+   "normalized_ebitda": 2650000000.0,
+   "normalized_income": 1282310000.0
   },
   {
    "fy_end": "2025-02-01",
@@ -269,7 +317,10 @@
    "goodwill_and_intangibles": 999000000.0,
    "retained_earnings": 2486000000.0,
    "total_debt": 1154000000.0,
-   "shares_out": 211400000.0
+   "shares_out": 211400000.0,
+   "unusual_items": -388000000.0,
+   "normalized_ebitda": 2600000000.0,
+   "normalized_income": 1203543629.343629
   },
   {
    "fy_end": "2026-01-31",
@@ -303,7 +354,10 @@
    "goodwill_and_intangibles": 795000000.0,
    "retained_earnings": 2610000000.0,
    "total_debt": 1165000000.0,
-   "shares_out": 209100000.0
+   "shares_out": 209100000.0,
+   "unusual_items": -299000000.0,
+   "normalized_ebitda": 2581000000.0,
+   "normalized_income": 1296231481.481481
   }
  ]
 }

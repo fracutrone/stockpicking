@@ -1,6 +1,6 @@
 {
  "ticker": "MONY.L",
- "fetched_at": "2026-10-10T12:09:09+00:00",
+ "fetched_at": "2026-10-10T15:05:42+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 629,
   "website": "https://www.monygroup.com",
-  "longBusinessSummary": "MONY Group plc, together with its subsidiaries, provides price comparison and lead generation services through its websites and applications in the United Kingdom. The company operates through Insurance, Money, Home Services, Travel, and Cashback segments. It offers MoneySuperMarket, a price comparison site, which provides online and app-based tools to help people save money on their household bills; MoneySavingExpert, a consumer finance website; Quidco, a cashback site; TravelSupermarket for comparing prices on a range of holiday options, including package holidays and hotels, low-cost and charter airlines, and car hire providers; icelolly.com, a holiday price comparison website and deals platform; and Decision Tech, a B2B solution offers industry-leading comparison technology for third party brands. The company was formerly known as Moneysupermarket.com Group PLC and changed its name to MONY Group plc in May 2024. MONY Group plc was founded in 1993 and is based in Chester, the United Kingdom."
+  "longBusinessSummary": "MONY Group plc, together with its subsidiaries, provides price comparison and lead generation services through its websites and applications in the United Kingdom. The company operates through Insurance, Money, Home Services, Travel, and Cashback segments. It offers MoneySuperMarket, a price comparison site, which provides online and app-based tools to help people save money on their household bills; MoneySavingExpert, a consumer finance website; Quidco, a cashback site; TravelSupermarket for comparing prices on a range of holiday options, including package holidays and hotels, low-cost and charter airlines, and car hire providers; icelolly.com, a holiday price comparison website and deals platform; and Decision Tech, a B2B solution offers industry-leading comparison technology for third party brands. The company was formerly known as Moneysupermarket.com Group PLC and changed its name to MONY Group plc in May 2024. MONY Group plc was founded in 1993 and is based in Chester, the United Kingdom.",
+  "targetMeanPrice": 232.545,
+  "targetLowPrice": 180.0,
+  "targetHighPrice": 300.0,
+  "numberOfAnalystOpinions": 11,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 9.306167,
+  "forwardEps": 0.19976,
+  "trailingEps": 0.16,
+  "earningsGrowth": 0.047,
+  "revenueGrowth": 0.008
  },
  "governance": {
   "ceo": {
@@ -69,8 +80,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 377800000.0,
+    "official": 377800000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 226500000.0,
+    "official": 226500000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 81200000.0,
+    "official": 81200000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 446300000.0,
+    "official": 446300000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:05:42+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -103,7 +146,10 @@
    "goodwill_and_intangibles": 279900000.0,
    "retained_earnings": -58100000.0,
    "total_debt": 72600000.0,
-   "shares_out": 536861647.0
+   "shares_out": 536861647.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 115500000.0,
+   "normalized_income": 68300000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -136,7 +182,9 @@
    "goodwill_and_intangibles": 260300000.0,
    "retained_earnings": -46300000.0,
    "total_debt": 60700000.0,
-   "shares_out": 536476284.0
+   "shares_out": 536476284.0,
+   "normalized_ebitda": 131900000.0,
+   "normalized_income": 72700000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -169,7 +217,10 @@
    "goodwill_and_intangibles": 252500000.0,
    "retained_earnings": -29300000.0,
    "total_debt": 35000000.0,
-   "shares_out": 536934484.0
+   "shares_out": 536934484.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 139000000.0,
+   "normalized_income": 80600000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -202,7 +253,10 @@
    "goodwill_and_intangibles": 228300000.0,
    "retained_earnings": -38000000.0,
    "total_debt": 34000000.0,
-   "shares_out": 523620081.0
+   "shares_out": 523620081.0,
+   "unusual_items": -3600000.0,
+   "normalized_ebitda": 140900000.0,
+   "normalized_income": 83829140.271493
   }
  ]
 }

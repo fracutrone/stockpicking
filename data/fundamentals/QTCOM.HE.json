@@ -1,6 +1,6 @@
 {
  "ticker": "QTCOM.HE",
- "fetched_at": "2026-10-10T12:15:41+00:00",
+ "fetched_at": "2026-10-10T15:14:01+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "HEL",
   "fullTimeEmployees": 1034,
   "website": "https://www.qt.io",
-  "longBusinessSummary": "Qt Group Oyj offers cross-platform solutions for the software development lifecycle in Finland, rest of Europe, the Asia Pacific, and North America. The company offers Qt Design Studio, which turns design visions into production-ready UIs; Qt Creator IDE, a cross-platform integrated development environment for software development; Qt Framework, a comprehensive set of libraries and APIs; Qt AI Assistant that offloads developers from tasks to free time for coding; Qt for MCUs designs, develops, and tests modern applications for microcontrollers; and Figma to Qt, a plugin that helps to reduce iterations and ensure design comes to life. It also provides quality assurance tools comprising Squish, an automated GUI testing for cross-platform desktop, mobile, embedded, and web applications; Coco for code coverage analysis and tool qualification; Test Center, a test result management platform; Axivion Static Code Analysis, a static code analysis that checks software for style violations; and Axivion Architecture Verification, an automated architecture check that guarantees necessary conformance. In addition, the company offers professional and support services. It serves the automotive, aviation and aerospace, industrial vehicle, micro-mobility interface, consumer electronics, industrial automation, and medical device industries. Qt Group Oyj was founded in 1995 and is headquartered in Espoo, Finland."
+  "longBusinessSummary": "Qt Group Oyj offers cross-platform solutions for the software development lifecycle in Finland, rest of Europe, the Asia Pacific, and North America. The company offers Qt Design Studio, which turns design visions into production-ready UIs; Qt Creator IDE, a cross-platform integrated development environment for software development; Qt Framework, a comprehensive set of libraries and APIs; Qt AI Assistant that offloads developers from tasks to free time for coding; Qt for MCUs designs, develops, and tests modern applications for microcontrollers; and Figma to Qt, a plugin that helps to reduce iterations and ensure design comes to life. It also provides quality assurance tools comprising Squish, an automated GUI testing for cross-platform desktop, mobile, embedded, and web applications; Coco for code coverage analysis and tool qualification; Test Center, a test result management platform; Axivion Static Code Analysis, a static code analysis that checks software for style violations; and Axivion Architecture Verification, an automated architecture check that guarantees necessary conformance. In addition, the company offers professional and support services. It serves the automotive, aviation and aerospace, industrial vehicle, micro-mobility interface, consumer electronics, industrial automation, and medical device industries. Qt Group Oyj was founded in 1995 and is headquartered in Espoo, Finland.",
+  "targetMeanPrice": 32.66667,
+  "targetLowPrice": 22.0,
+  "targetHighPrice": 38.0,
+  "numberOfAnalystOpinions": 3,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 17.76853,
+  "forwardEps": 1.9225,
+  "trailingEps": 0.9,
+  "earningsGrowth": -0.667,
+  "revenueGrowth": 0.196
  },
  "governance": {
   "ceo": {
@@ -70,8 +81,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF FI",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 444347000.0,
+    "official": 444347000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 209521000.0,
+    "official": 209522000.0,
+    "diff": 5e-06
+   },
+   "net_income": {
+    "yahoo": 31786000.0,
+    "official": 31786000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 216281000.0,
+    "official": 216281000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:14:01+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -104,7 +146,9 @@
    "goodwill_and_intangibles": 98746000.0,
    "retained_earnings": 41001000.0,
    "total_debt": 28158000.0,
-   "shares_out": 25319398.0
+   "shares_out": 25319398.0,
+   "normalized_ebitda": 46441000.0,
+   "normalized_income": 34301000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -137,7 +181,9 @@
    "goodwill_and_intangibles": 91568000.0,
    "retained_earnings": 76831000.0,
    "total_debt": 20513000.0,
-   "shares_out": 25391211.0
+   "shares_out": 25391211.0,
+   "normalized_ebitda": 57030000.0,
+   "normalized_income": 35455000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -171,7 +217,9 @@
    "goodwill_and_intangibles": 83529000.0,
    "retained_earnings": 132961000.0,
    "total_debt": 4316000.0,
-   "shares_out": 25391211.0
+   "shares_out": 25391211.0,
+   "normalized_ebitda": 82095000.0,
+   "normalized_income": 57314000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -205,7 +253,9 @@
    "goodwill_and_intangibles": 292691000.0,
    "retained_earnings": 165332000.0,
    "total_debt": 143224000.0,
-   "shares_out": 25391211.0
+   "shares_out": 25391211.0,
+   "normalized_ebitda": 54698000.0,
+   "normalized_income": 31786000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "DLN.L",
- "fetched_at": "2026-10-10T11:54:20+00:00",
+ "fetched_at": "2026-10-10T14:42:57+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.04602,
   "heldPercentInstitutions": 0.82561,
   "shortPercentOfFloat": null,
-  "averageVolume": 268403,
+  "averageVolume": 267396,
   "quoteType": "EQUITY",
   "exchange": "LSE",
   "fullTimeEmployees": 206,
   "website": "https://www.derwentlondon.com",
-  "longBusinessSummary": "Derwent London Plc owns a commercial real estate portfolio predominantly in central London valued at 5.0 billion pounds as at 30 June 2026, making it the largest London office-focused real estate investment trust (REIT). Their experienced team has a long track record of creating value throughout the property cycle by regenerating buildings via redevelopment or refurbishment, effective asset management and capital recycling. The firm typically acquires central London properties off market with low capital values and modest rents in improving locations, most of which are either in the West End or City Borders. They capitalize on the unique qualities of each of their properties  taking a fresh approach to the regeneration of every building with a focus on anticipating tenant requirements and an emphasis on design. Reflecting and supporting their long-term success, the business has a strong balance sheet with modest leverage, a robust income stream and flexible financing. They are frequently recognized in industry awards for the quality, design and innovation of our projects. Landmark buildings in their 5.2 million sq ft portfolio include 25 Baker Street W1, 1 Soho Place W1, 80 Charlotte Street W1, Brunel Building W2, White Collar Factory EC1, Angel Building EC1 and Tea Building E1. As part of commitment to lead the industry in mitigating climate change, Derwent London has committed to becoming a net zero carbon business by 2030, with its updated pathway published in 2025. Their science-based carbon targets have been validated by the Science Based Targets initiative (SBTi). In 2013, the firm launched a voluntary Community Fund which to date has supported 200 community projects in central London. Derwent London Plc is a public limited company and incorporated and domiciled in the UK. The address of its registered office is 25 Savile Row, London, W1S 2ER."
+  "longBusinessSummary": "Derwent London Plc owns a commercial real estate portfolio predominantly in central London valued at 5.0 billion pounds as at 30 June 2026, making it the largest London office-focused real estate investment trust (REIT). Their experienced team has a long track record of creating value throughout the property cycle by regenerating buildings via redevelopment or refurbishment, effective asset management and capital recycling. The firm typically acquires central London properties off market with low capital values and modest rents in improving locations, most of which are either in the West End or City Borders. They capitalize on the unique qualities of each of their properties  taking a fresh approach to the regeneration of every building with a focus on anticipating tenant requirements and an emphasis on design. Reflecting and supporting their long-term success, the business has a strong balance sheet with modest leverage, a robust income stream and flexible financing. They are frequently recognized in industry awards for the quality, design and innovation of our projects. Landmark buildings in their 5.2 million sq ft portfolio include 25 Baker Street W1, 1 Soho Place W1, 80 Charlotte Street W1, Brunel Building W2, White Collar Factory EC1, Angel Building EC1 and Tea Building E1. As part of commitment to lead the industry in mitigating climate change, Derwent London has committed to becoming a net zero carbon business by 2030, with its updated pathway published in 2025. Their science-based carbon targets have been validated by the Science Based Targets initiative (SBTi). In 2013, the firm launched a voluntary Community Fund which to date has supported 200 community projects in central London. Derwent London Plc is a public limited company and incorporated and domiciled in the UK. The address of its registered office is 25 Savile Row, London, W1S 2ER.",
+  "targetMeanPrice": 2101.5,
+  "targetLowPrice": 1679.9999,
+  "targetHighPrice": 2642.0,
+  "numberOfAnalystOpinions": 14,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.66667,
+  "forwardPE": 16.78744,
+  "forwardEps": 1.05019,
+  "trailingEps": 0.43,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.038
  },
  "governance": {
   "ceo": {
@@ -67,8 +78,35 @@
   "ppe_net": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 5313700000.0,
+    "official": 5313700000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3615300000.0,
+    "official": 3615300000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 161100000.0,
+    "official": 161100000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:42:57+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -99,7 +137,10 @@
    "ppe_net": 54300000.0,
    "retained_earnings": 2931400000.0,
    "total_debt": 1284100000.0,
-   "shares_out": 112274108.0
+   "shares_out": 112274108.0,
+   "unusual_items": 6300000.0,
+   "normalized_ebitda": -248700000.0,
+   "normalized_income": -285603000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -130,7 +171,10 @@
    "ppe_net": 49900000.0,
    "retained_earnings": 2367300000.0,
    "total_debt": 1370700000.0,
-   "shares_out": 112290929.0
+   "shares_out": 112290929.0,
+   "unusual_items": -3300000.0,
+   "normalized_ebitda": -434700000.0,
+   "normalized_income": -473727000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -161,7 +205,10 @@
    "ppe_net": 52000000.0,
    "retained_earnings": 2394400000.0,
    "total_debt": 1498100000.0,
-   "shares_out": 112290929.0
+   "shares_out": 112290929.0,
+   "unusual_items": -2700000.0,
+   "normalized_ebitda": 156300000.0,
+   "normalized_income": 118597672.413793
   },
   {
    "fy_end": "2025-12-31",
@@ -192,7 +239,10 @@
    "ppe_net": 68100000.0,
    "retained_earnings": 2465800000.0,
    "total_debt": 1527600000.0,
-   "shares_out": 112290929.0
+   "shares_out": 112290929.0,
+   "unusual_items": -3700000.0,
+   "normalized_ebitda": 211700000.0,
+   "normalized_income": 164790835.913313
   }
  ]
 }

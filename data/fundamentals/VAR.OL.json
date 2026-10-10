@@ -1,6 +1,6 @@
 {
  "ticker": "VAR.OL",
- "fetched_at": "2026-10-10T12:24:38+00:00",
+ "fetched_at": "2026-10-10T15:28:03+00:00",
  "region": "Europa",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "OSL",
   "fullTimeEmployees": 1433,
   "website": "https://varenergi.no",
-  "longBusinessSummary": "Vår Energi ASA operates as an independent upstream oil and gas company on the Norwegian continental shelf in Norway. The company produces crude oil and natural gas liquids. It also engages in the production, development, and exploration assets on the Norwegian Continental Shelf (NCS). The company was formerly known as Eni Norge AS and changed its name to Vår Energi AS in December 2018. The company was incorporated in 1965 and is headquartered in Sandnes, Norway. Vår Energi ASA is a subsidiary of Eni International B.V."
+  "longBusinessSummary": "Vår Energi ASA operates as an independent upstream oil and gas company on the Norwegian continental shelf in Norway. The company produces crude oil and natural gas liquids. It also engages in the production, development, and exploration assets on the Norwegian Continental Shelf (NCS). The company was formerly known as Eni Norge AS and changed its name to Vår Energi AS in December 2018. The company was incorporated in 1965 and is headquartered in Sandnes, Norway. Vår Energi ASA is a subsidiary of Eni International B.V.",
+  "targetMeanPrice": 53.77358,
+  "targetLowPrice": 41.709755,
+  "targetHighPrice": 67.50005,
+  "numberOfAnalystOpinions": 14,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.4,
+  "forwardPE": 11.39922,
+  "forwardEps": 4.666986,
+  "trailingEps": 5.22,
+  "earningsGrowth": 3.043,
+  "revenueGrowth": 1.027
  },
  "governance": {
   "ceo": {
@@ -75,8 +86,35 @@
   "intangibles": "yahoo",
   "goodwill_and_intangibles": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF NO",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 21868200000.0,
+    "official": 21868164000.0,
+    "diff": 2e-06
+   },
+   "equity": {
+    "yahoo": 832600000.0,
+    "official": 832508000.0,
+    "diff": 0.000111
+   },
+   "net_income": {
+    "yahoo": 327100000.0,
+    "official": 327108000.0,
+    "diff": 2.4e-05
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T15:28:03+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -109,7 +147,10 @@
    "intangibles": 93515000.0,
    "goodwill_and_intangibles": 2113028000.0,
    "total_debt": 3165235000.0,
-   "shares_out": 2496406250.0
+   "shares_out": 2496406250.0,
+   "unusual_items": -657622000.0,
+   "normalized_ebitda": 7969573000.0,
+   "normalized_income": 1449347160.0
   },
   {
    "fy_end": "2023-12-31",
@@ -142,7 +183,10 @@
    "intangibles": 83060000.0,
    "goodwill_and_intangibles": 2041538000.0,
    "total_debt": 3263509000.0,
-   "shares_out": 2496406250.0
+   "shares_out": 2496406250.0,
+   "unusual_items": -525154000.0,
+   "normalized_ebitda": 5309026000.0,
+   "normalized_income": 1019849120.0
   },
   {
    "fy_end": "2024-12-31",
@@ -175,7 +219,10 @@
    "intangibles": 241900000.0,
    "goodwill_and_intangibles": 3229800000.0,
    "total_debt": 5348800000.0,
-   "shares_out": 2496406250.0
+   "shares_out": 2496406250.0,
+   "unusual_items": 61300000.0,
+   "normalized_ebitda": 5164600000.0,
+   "normalized_income": 279286000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -208,7 +255,10 @@
    "intangibles": 135800000.0,
    "goodwill_and_intangibles": 3493900000.0,
    "total_debt": 6189800000.0,
-   "shares_out": 2496406250.0
+   "shares_out": 2496406250.0,
+   "unusual_items": 521000000.0,
+   "normalized_ebitda": 6644200000.0,
+   "normalized_income": 440020000.0
   }
  ]
 }

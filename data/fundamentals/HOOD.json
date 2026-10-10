@@ -1,6 +1,6 @@
 {
  "ticker": "HOOD",
- "fetched_at": "2026-10-10T12:47:56+00:00",
+ "fetched_at": "2026-10-10T15:46:21+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 2900,
   "website": "https://robinhood.com",
-  "longBusinessSummary": "Robinhood Markets, Inc. operates financial services platform in the United States. The company's platform allows users to invest in stocks, exchange-traded funds (ETFs), and American depository receipts. It offers fractional trading, recurring investments, access to investing on margin, fully-paid securities lending, cash sweep, instant withdrawals, retirement program, around-the-clock trading, joint investing accounts, event contracts, future contract services, and short selling. The company also provides various learning and education solutions comprise Snacks, an accessible digest of business news stories for a new generation of investors; Learn, which is an online collection of guides, feature tutorials, and financial dictionary; Newsfeeds that offer access to free, premium news from sites from various sites, such as Barron's, Reuters, and Dow Jones. In addition, the company offers In-App Education, a resource that covers investing fundamentals, including why people invest, a stock market overview, and tips on how to define investing goals, as well as allows customers to understand the basics of investing before their first trade; and Crypto Learn and Earn, an educational module available to various crypto customers through Robinhood Learn to teach customers the basics related to cryptocurrency. Further, it provides Robinhood credit cards, cash card and spending accounts, and wallets. Robinhood Markets, Inc. was incorporated in 2013 and is headquartered in Menlo Park, California."
+  "longBusinessSummary": "Robinhood Markets, Inc. operates financial services platform in the United States. The company's platform allows users to invest in stocks, exchange-traded funds (ETFs), and American depository receipts. It offers fractional trading, recurring investments, access to investing on margin, fully-paid securities lending, cash sweep, instant withdrawals, retirement program, around-the-clock trading, joint investing accounts, event contracts, future contract services, and short selling. The company also provides various learning and education solutions comprise Snacks, an accessible digest of business news stories for a new generation of investors; Learn, which is an online collection of guides, feature tutorials, and financial dictionary; Newsfeeds that offer access to free, premium news from sites from various sites, such as Barron's, Reuters, and Dow Jones. In addition, the company offers In-App Education, a resource that covers investing fundamentals, including why people invest, a stock market overview, and tips on how to define investing goals, as well as allows customers to understand the basics of investing before their first trade; and Crypto Learn and Earn, an educational module available to various crypto customers through Robinhood Learn to teach customers the basics related to cryptocurrency. Further, it provides Robinhood credit cards, cash card and spending accounts, and wallets. Robinhood Markets, Inc. was incorporated in 2013 and is headquartered in Menlo Park, California.",
+  "targetMeanPrice": 134.68356,
+  "targetLowPrice": 57.0,
+  "targetHighPrice": 170.0,
+  "numberOfAnalystOpinions": 28,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.7,
+  "forwardPE": 31.717861,
+  "forwardEps": 3.43718,
+  "trailingEps": 2.27,
+  "earningsGrowth": 0.476,
+  "revenueGrowth": 0.323
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "retained_earnings": "sec",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "nii": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 38137000000.0,
+    "official": 38137000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 9140000000.0,
+    "official": 9151000000.0,
+    "diff": 0.001202
+   },
+   "net_income": {
+    "yahoo": 1883000000.0,
+    "official": 1883000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 4473000000.0,
+    "official": 4473000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:46:21+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -139,7 +181,8 @@
    "ppe_net": 146000000.0,
    "goodwill": 101000000.0,
    "intangibles": 34000000.0,
-   "retained_earnings": -3877000000.0
+   "retained_earnings": -3877000000.0,
+   "unusual_items": -2045000000.0
   },
   {
    "fy_end": "2022-12-31",
@@ -172,7 +215,10 @@
    "goodwill_and_intangibles": 125000000.0,
    "retained_earnings": -4905000000.0,
    "total_debt": 1834000000.0,
-   "shares_out": 892751571.0
+   "shares_out": 892751571.0,
+   "unusual_items": -45000000.0,
+   "normalized_ebitda": -860000000.0,
+   "normalized_income": -992450000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -205,7 +251,10 @@
    "goodwill_and_intangibles": 223000000.0,
    "retained_earnings": -5446000000.0,
    "total_debt": 3547000000.0,
-   "shares_out": 872162664.0
+   "shares_out": 872162664.0,
+   "unusual_items": -5000000.0,
+   "normalized_ebitda": -465000000.0,
+   "normalized_income": -541000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -238,7 +287,10 @@
    "goodwill_and_intangibles": 217000000.0,
    "retained_earnings": -4035000000.0,
    "total_debt": 7463000000.0,
-   "shares_out": 884492983.0
+   "shares_out": 884492983.0,
+   "unusual_items": -2000000.0,
+   "normalized_ebitda": 1131000000.0,
+   "normalized_income": 1411000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -271,7 +323,9 @@
    "goodwill_and_intangibles": 553000000.0,
    "retained_earnings": -2152000000.0,
    "total_debt": 11626000000.0,
-   "shares_out": 901328432.0
+   "shares_out": 901328432.0,
+   "normalized_ebitda": 2180000000.0,
+   "normalized_income": 1883000000.0
   }
  ]
 }

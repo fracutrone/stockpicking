@@ -1,6 +1,6 @@
 {
  "ticker": "JNJ",
- "fetched_at": "2026-10-10T12:49:28+00:00",
+ "fetched_at": "2026-10-10T15:47:48+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 138200,
   "website": "https://www.jnj.com",
-  "longBusinessSummary": "Johnson & Johnson, together with its subsidiaries, engages in the research and development, manufacture, and sale of a range of products in the healthcare field worldwide. It operates in two segments, Innovative Medicine and MedTech. The Innovative Medicine segment offers products for various therapeutic areas, such as oncology, immunology, neuroscience, pulmonary hypertension, infectious diseases, and cardiovascular and metabolism distributed through retailers, wholesalers, distributors, hospitals, and healthcare professionals for prescription use. The MedTech segment provides a portfolio of products used in the surgery, orthopedic, cardiovascular, and vision fields distributed through wholesalers, hospitals and retailers, and used in the professional fields by physicians, nurses, hospitals, eye care professionals and clinics. This segment also offers products and enabling technologies that support joint reconstruction, trauma, spine, sports related injuries, and others, as well as open, laparoscopic, and robotic surgical procedures; instrumentation, energy devices, stapling systems, wound closure, biosurgery products, and digital and robotic technologies; breast aesthetics and reconstruction; contact lenses under the ACUVUE brand; intraocular lenses for cataract surgery, and other products used in cataract and refractive procedures under the TECNIS brand. The company was founded in 1886 and is based in New Brunswick, New Jersey."
+  "longBusinessSummary": "Johnson & Johnson, together with its subsidiaries, engages in the research and development, manufacture, and sale of a range of products in the healthcare field worldwide. It operates in two segments, Innovative Medicine and MedTech. The Innovative Medicine segment offers products for various therapeutic areas, such as oncology, immunology, neuroscience, pulmonary hypertension, infectious diseases, and cardiovascular and metabolism distributed through retailers, wholesalers, distributors, hospitals, and healthcare professionals for prescription use. The MedTech segment provides a portfolio of products used in the surgery, orthopedic, cardiovascular, and vision fields distributed through wholesalers, hospitals and retailers, and used in the professional fields by physicians, nurses, hospitals, eye care professionals and clinics. This segment also offers products and enabling technologies that support joint reconstruction, trauma, spine, sports related injuries, and others, as well as open, laparoscopic, and robotic surgical procedures; instrumentation, energy devices, stapling systems, wound closure, biosurgery products, and digital and robotic technologies; breast aesthetics and reconstruction; contact lenses under the ACUVUE brand; intraocular lenses for cataract surgery, and other products used in cataract and refractive procedures under the TECNIS brand. The company was founded in 1886 and is based in New Brunswick, New Jersey.",
+  "targetMeanPrice": 279.81818,
+  "targetLowPrice": 190.0,
+  "targetHighPrice": 320.0,
+  "numberOfAnalystOpinions": 22,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.91304,
+  "forwardPE": 21.60363,
+  "forwardEps": 12.10167,
+  "trailingEps": 8.63,
+  "earningsGrowth": -0.009,
+  "revenueGrowth": 0.066
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 199210000000.0,
+    "official": 199210000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 81544000000.0,
+    "official": 81544000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 26804000000.0,
+    "official": 26804000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 94193000000.0,
+    "official": 94193000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:47:48+00:00",
  "years": [
   {
    "fy_end": "2019-12-29",
@@ -208,7 +250,10 @@
    "goodwill_and_intangibles": 74536000000.0,
    "retained_earnings": 128345000000.0,
    "total_debt": 41193000000.0,
-   "shares_out": 2613597000.0
+   "shares_out": 2613597000.0,
+   "unusual_items": -1058000000.0,
+   "normalized_ebitda": 27663000000.0,
+   "normalized_income": 17265068000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -243,7 +288,10 @@
    "goodwill_and_intangibles": 70733000000.0,
    "retained_earnings": 153843000000.0,
    "total_debt": 30801000000.0,
-   "shares_out": 2407078000.0
+   "shares_out": 2407078000.0,
+   "unusual_items": -802000000.0,
+   "normalized_ebitda": 24122000000.0,
+   "normalized_income": 14035770000.0
   },
   {
    "fy_end": "2024-12-29",
@@ -278,7 +326,10 @@
    "goodwill_and_intangibles": 81818000000.0,
    "retained_earnings": 155791000000.0,
    "total_debt": 38383000000.0,
-   "shares_out": 2406922000.0
+   "shares_out": 2406922000.0,
+   "unusual_items": -7045000000.0,
+   "normalized_ebitda": 31826000000.0,
+   "normalized_income": 20004453286.989872
   },
   {
    "fy_end": "2025-12-28",
@@ -313,7 +364,10 @@
    "goodwill_and_intangibles": 99175000000.0,
    "retained_earnings": 168978000000.0,
    "total_debt": 49933000000.0,
-   "shares_out": 2407939000.0
+   "shares_out": 2407939000.0,
+   "unusual_items": 5891000000.0,
+   "normalized_ebitda": 35164000000.0,
+   "normalized_income": 21957544581.19763
   }
  ]
 }

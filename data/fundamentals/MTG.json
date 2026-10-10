@@ -1,6 +1,6 @@
 {
  "ticker": "MTG",
- "fetched_at": "2026-10-10T12:52:22+00:00",
+ "fetched_at": "2026-10-10T15:50:28+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 542,
   "website": "https://www.mgic.com",
-  "longBusinessSummary": "MGIC Investment Corporation, through its subsidiaries, provides private mortgage insurance, other mortgage credit risk management solutions, and ancillary services in the United States, the District of Columbia, Puerto Rico, and Guam. The company offers primary insurance that provides mortgage default protection on individual loans, as well as covers unpaid loan principal, delinquent interest, and various expenses associated with the default and subsequent foreclosure on the mortgage or sale of the underlying property. It also provides contract underwriting services, as well as reinsurance services. The company serves originators of residential mortgage loans, including savings institutions, commercial banks, mortgage brokers, credit unions, mortgage bankers, and other lenders. The company was founded in 1957 and is headquartered in Milwaukee, Wisconsin."
+  "longBusinessSummary": "MGIC Investment Corporation, through its subsidiaries, provides private mortgage insurance, other mortgage credit risk management solutions, and ancillary services in the United States, the District of Columbia, Puerto Rico, and Guam. The company offers primary insurance that provides mortgage default protection on individual loans, as well as covers unpaid loan principal, delinquent interest, and various expenses associated with the default and subsequent foreclosure on the mortgage or sale of the underlying property. It also provides contract underwriting services, as well as reinsurance services. The company serves originators of residential mortgage loans, including savings institutions, commercial banks, mortgage brokers, credit unions, mortgage bankers, and other lenders. The company was founded in 1957 and is headquartered in Milwaukee, Wisconsin.",
+  "targetMeanPrice": 31.4,
+  "targetLowPrice": 29.0,
+  "targetHighPrice": 35.0,
+  "numberOfAnalystOpinions": 5,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.83333,
+  "forwardPE": 7.874649,
+  "forwardEps": 3.48333,
+  "trailingEps": 3.2,
+  "earningsGrowth": 0.062,
+  "revenueGrowth": -0.029
  },
  "governance": {
   "ceo": {
@@ -73,8 +84,38 @@
   "ppe_net": "sec",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 6639486000.0,
+    "official": 6639486000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 5147551000.0,
+    "official": 5147551000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 738347000.0,
+    "official": 738347000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1213636000.0,
+    "official": 1213636000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:50:28+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -128,7 +169,8 @@
    "cash": 284690000.0,
    "equity": 4861382000.0,
    "ppe_net": 45614000.0,
-   "retained_earnings": 3250691000.0
+   "retained_earnings": 3250691000.0,
+   "unusual_items": -36914000.0
   },
   {
    "fy_end": "2022-12-31",
@@ -151,7 +193,9 @@
    "ppe_net": 41419000.0,
    "retained_earnings": 4004294000.0,
    "total_debt": 662810000.0,
-   "shares_out": 293433000.0
+   "shares_out": 293433000.0,
+   "unusual_items": -40199000.0,
+   "normalized_income": 897261916.891583
   },
   {
    "fy_end": "2023-12-31",
@@ -174,7 +218,9 @@
    "ppe_net": 38755000.0,
    "retained_earnings": 4593125000.0,
    "total_debt": 643196000.0,
-   "shares_out": 272494000.0
+   "shares_out": 272494000.0,
+   "unusual_items": 0.0,
+   "normalized_income": 712949000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -197,7 +243,9 @@
    "ppe_net": 35679000.0,
    "retained_earnings": 3403852000.0,
    "total_debt": 644667000.0,
-   "shares_out": 248449000.0
+   "shares_out": 248449000.0,
+   "unusual_items": 0.0,
+   "normalized_income": 762994000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -220,7 +268,8 @@
    "ppe_net": 32454000.0,
    "retained_earnings": 3250115000.0,
    "total_debt": 646138000.0,
-   "shares_out": 219367000.0
+   "shares_out": 219367000.0,
+   "normalized_income": 738347000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "PODD",
- "fetched_at": "2026-10-10T12:55:47+00:00",
+ "fetched_at": "2026-10-10T15:53:28+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 5400,
   "website": "https://www.insulet.com",
-  "longBusinessSummary": "Insulet Corporation develops, manufactures, and sells insulin delivery systems for people with insulin-dependent diabetes in the United States and internationally. The company offers Omnipod platform products comprising Omnipod 5 automated insulin delivery system, which includes a proprietary AID algorithm embedded in the pod that integrates with a third-party continuous glucose monitor to obtain glucose values through wireless Bluetooth communication; Omnipod DASH insulin management system that features a Bluetooth enabled pod that is controlled by a smartphone-like personal diabetes manager with a color touch screen user interface; and the Omnipod Insulin Management System. It also provides pods for Amgen for use in the Neulasta Onpro kit, which is a delivery system to help reduce the risk of infection after intense chemotherapy. The company sells its products to end-users through the pharmacy channel; and independent distributors. Insulet Corporation was incorporated in 2000 and is headquartered in Acton, Massachusetts."
+  "longBusinessSummary": "Insulet Corporation develops, manufactures, and sells insulin delivery systems for people with insulin-dependent diabetes in the United States and internationally. The company offers Omnipod platform products comprising Omnipod 5 automated insulin delivery system, which includes a proprietary AID algorithm embedded in the pod that integrates with a third-party continuous glucose monitor to obtain glucose values through wireless Bluetooth communication; Omnipod DASH insulin management system that features a Bluetooth enabled pod that is controlled by a smartphone-like personal diabetes manager with a color touch screen user interface; and the Omnipod Insulin Management System. It also provides pods for Amgen for use in the Neulasta Onpro kit, which is a delivery system to help reduce the risk of infection after intense chemotherapy. The company sells its products to end-users through the pharmacy channel; and independent distributors. Insulet Corporation was incorporated in 2000 and is headquartered in Acton, Massachusetts.",
+  "targetMeanPrice": 170.86957,
+  "targetLowPrice": 143.0,
+  "targetHighPrice": 275.0,
+  "numberOfAnalystOpinions": 23,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": 17.50776,
+  "forwardEps": 7.72686,
+  "trailingEps": 5.34,
+  "earningsGrowth": 3.286,
+  "revenueGrowth": 0.235
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3190400000.0,
+    "official": 3190400000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1515300000.0,
+    "official": 1515200000.0,
+    "diff": 6.6e-05
+   },
+   "net_income": {
+    "yahoo": 247100000.0,
+    "official": 247100000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2708100000.0,
+    "official": 2708100000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:53:28+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -202,7 +244,10 @@
    "goodwill_and_intangibles": 127200000.0,
    "retained_earnings": -584300000.0,
    "total_debt": 1401800000.0,
-   "shares_out": 69511286.0
+   "shares_out": 69511286.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 109000000.0,
+   "normalized_income": 4600000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -236,7 +281,10 @@
    "goodwill_and_intangibles": 150400000.0,
    "retained_earnings": -378000000.0,
    "total_debt": 1366400000.0,
-   "shares_out": 69907289.0
+   "shares_out": 69907289.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 323700000.0,
+   "normalized_income": 206300000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -270,7 +318,10 @@
    "goodwill_and_intangibles": 150000000.0,
    "retained_earnings": 40300000.0,
    "total_debt": 1296100000.0,
-   "shares_out": 70196031.0
+   "shares_out": 70196031.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 423700000.0,
+   "normalized_income": 418300000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -304,7 +355,10 @@
    "goodwill_and_intangibles": 168700000.0,
    "retained_earnings": 287400000.0,
    "total_debt": 930800000.0,
-   "shares_out": 70390816.0
+   "shares_out": 70390816.0,
+   "unusual_items": -111400000.0,
+   "normalized_ebitda": 600700000.0,
+   "normalized_income": 328180824.742268
   }
  ]
 }

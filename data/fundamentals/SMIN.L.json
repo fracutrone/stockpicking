@@ -1,6 +1,6 @@
 {
  "ticker": "SMIN.L",
- "fetched_at": "2026-10-10T12:19:35+00:00",
+ "fetched_at": "2026-10-10T15:20:38+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 10435,
   "website": "https://www.smiths.com",
-  "longBusinessSummary": "Smiths Group plc operates as an industrial engineering company in Americas, Europe, the Asia Pacific, and internationally. The company operates through two segments, John Crane and Flex-Tek. Its John Crane business offers mechanical seals, seal support systems, power transmission couplings, and specialized filtration systems. The Flex-Tek business offers engineered components, flexible hosing, and rigid tubing that heat and move fluids and gases. It serves energy, process industries, aerospace, construction, and other markets. The company was formerly known as Smiths Industries and changed its name to Smiths Group plc in 2000. Smiths Group plc was founded in 1851 and is headquartered in London, the United Kingdom."
+  "longBusinessSummary": "Smiths Group plc operates as an industrial engineering company in Americas, Europe, the Asia Pacific, and internationally. The company operates through two segments, John Crane and Flex-Tek. Its John Crane business offers mechanical seals, seal support systems, power transmission couplings, and specialized filtration systems. The Flex-Tek business offers engineered components, flexible hosing, and rigid tubing that heat and move fluids and gases. It serves energy, process industries, aerospace, construction, and other markets. The company was formerly known as Smiths Industries and changed its name to Smiths Group plc in 2000. Smiths Group plc was founded in 1851 and is headquartered in London, the United Kingdom.",
+  "targetMeanPrice": 2935.3572,
+  "targetLowPrice": 2400.0,
+  "targetHighPrice": 3300.0,
+  "numberOfAnalystOpinions": 14,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.06667,
+  "forwardPE": 19.247854,
+  "forwardEps": 1.41834,
+  "trailingEps": 0.49,
+  "earningsGrowth": 15.501,
+  "revenueGrowth": 0.049
  },
  "governance": {
   "ceo": {
@@ -76,8 +87,18 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "status": "non verificabile",
+  "items": {},
+  "official_period_end": "2025-07-31"
+ },
+ "info_at": "2026-10-10T15:20:38+00:00",
  "years": [
   {
    "fy_end": "2022-07-31",
@@ -110,7 +131,10 @@
    "goodwill_and_intangibles": 1588000000.0,
    "retained_earnings": 1659000000.0,
    "total_debt": 1166000000.0,
-   "shares_out": 362356159.0
+   "shares_out": 362356159.0,
+   "unusual_items": -35000000.0,
+   "normalized_ebitda": 322000000.0,
+   "normalized_income": 36480000.0
   },
   {
    "fy_end": "2023-07-31",
@@ -144,7 +168,10 @@
    "goodwill_and_intangibles": 1521000000.0,
    "retained_earnings": 1431000000.0,
    "total_debt": 654000000.0,
-   "shares_out": 347560061.0
+   "shares_out": 347560061.0,
+   "unusual_items": -45000000.0,
+   "normalized_ebitda": 625000000.0,
+   "normalized_income": 253350000.0
   },
   {
    "fy_end": "2024-07-31",
@@ -178,7 +205,10 @@
    "goodwill_and_intangibles": 1521000000.0,
    "retained_earnings": 1306000000.0,
    "total_debt": 659000000.0,
-   "shares_out": 343709064.0
+   "shares_out": 343709064.0,
+   "unusual_items": -158000000.0,
+   "normalized_ebitda": 692000000.0,
+   "normalized_income": 328266055.045872
   }
  ]
 }

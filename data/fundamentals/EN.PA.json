@@ -1,6 +1,6 @@
 {
  "ticker": "EN.PA",
- "fetched_at": "2026-10-10T11:55:55+00:00",
+ "fetched_at": "2026-10-10T14:45:12+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "PAR",
   "fullTimeEmployees": 196184,
   "website": "https://www.bouygues.com",
-  "longBusinessSummary": "Bouygues SA, together with its subsidiaries, operates in the construction, energies and services, telecom, and media sectors in France and internationally. It operates through Colas, Bouygues Construction, Bouygues Immobilier, Equans, Bouygues Telecom, TF1, and Other segments. The company engages in the construction and maintenance of roads; production, distribution, sale, and recycling of aggregates, emulsions, asphalt mixes, ready-mix concrete, and bitumen; design, construction, upgrade, and maintenance of rail networks; design, construction, refurbishment, and renovation of buildings, as well as property development and consulting; public works, which include civil engineering, bridges, nuclear power station, tunnels and underground structures, prestressing, and stay cable systems; and concession activities. It is also involved in property development of housing, offices, and hotels; urban operations; design, building, management, and decarbonization of electrical installations; mechanical and robotics; HVAC; cooling and fire protection; facility management solutions, including technical services for installations; and digital technology and ICT services. In addition, the company engages in the roll out, maintenance, and management of mobile and fixed networks; B2C and B2B services; production, editing, and broadcasting of televisual content; music production and live events; and creation and distribution of programmes for TV channels and digital platforms. Further, it operates unencrypted television channels comprising TF1, TMC, TFX, TF1 Séries Films, and LCI; theme television channels consisting of Ushuaia TV, Histoire TV, TV Breizh, and Série Club; TF1+, a free streaming platform for family entertainment and news; TFOU MAX, an on-demand platform; and TF1 PUB, an advertising sales unit. The company exports its products. Bouygues SA was founded in 1952 and is headquartered in Paris, France."
+  "longBusinessSummary": "Bouygues SA, together with its subsidiaries, operates in the construction, energies and services, telecom, and media sectors in France and internationally. It operates through Colas, Bouygues Construction, Bouygues Immobilier, Equans, Bouygues Telecom, TF1, and Other segments. The company engages in the construction and maintenance of roads; production, distribution, sale, and recycling of aggregates, emulsions, asphalt mixes, ready-mix concrete, and bitumen; design, construction, upgrade, and maintenance of rail networks; design, construction, refurbishment, and renovation of buildings, as well as property development and consulting; public works, which include civil engineering, bridges, nuclear power station, tunnels and underground structures, prestressing, and stay cable systems; and concession activities. It is also involved in property development of housing, offices, and hotels; urban operations; design, building, management, and decarbonization of electrical installations; mechanical and robotics; HVAC; cooling and fire protection; facility management solutions, including technical services for installations; and digital technology and ICT services. In addition, the company engages in the roll out, maintenance, and management of mobile and fixed networks; B2C and B2B services; production, editing, and broadcasting of televisual content; music production and live events; and creation and distribution of programmes for TV channels and digital platforms. Further, it operates unencrypted television channels comprising TF1, TMC, TFX, TF1 Séries Films, and LCI; theme television channels consisting of Ushuaia TV, Histoire TV, TV Breizh, and Série Club; TF1+, a free streaming platform for family entertainment and news; TFOU MAX, an on-demand platform; and TF1 PUB, an advertising sales unit. The company exports its products. Bouygues SA was founded in 1952 and is headquartered in Paris, France.",
+  "targetMeanPrice": 59.6,
+  "targetLowPrice": 52.0,
+  "targetHighPrice": 75.0,
+  "numberOfAnalystOpinions": 10,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.9,
+  "forwardPE": 10.43571,
+  "forwardEps": 3.86174,
+  "trailingEps": 3.27,
+  "earningsGrowth": 0.126,
+  "revenueGrowth": -0.01
  },
  "governance": {
   "ceo": {
@@ -76,8 +87,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF FR",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 63084000000.0,
+    "official": 63084000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 12700000000.0,
+    "official": 12700000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1058000000.0,
+    "official": 1058000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 56752000000.0,
+    "official": 56752000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T14:45:12+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -111,7 +154,10 @@
    "goodwill_and_intangibles": 16595000000.0,
    "retained_earnings": 973000000.0,
    "total_debt": 15970000000.0,
-   "shares_out": 372241406.0
+   "shares_out": 372241406.0,
+   "unusual_items": 78000000.0,
+   "normalized_ebitda": 4453000000.0,
+   "normalized_income": 915865000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -144,7 +190,10 @@
    "goodwill_and_intangibles": 16375000000.0,
    "retained_earnings": 1040000000.0,
    "total_debt": 14834000000.0,
-   "shares_out": 378154589.0
+   "shares_out": 378154589.0,
+   "unusual_items": -128000000.0,
+   "normalized_ebitda": 5265000000.0,
+   "normalized_income": 1126540800.0
   },
   {
    "fy_end": "2024-12-31",
@@ -177,7 +226,10 @@
    "goodwill_and_intangibles": 17564000000.0,
    "retained_earnings": 1058000000.0,
    "total_debt": 14742000000.0,
-   "shares_out": 376400179.0
+   "shares_out": 376400179.0,
+   "unusual_items": -368000000.0,
+   "normalized_ebitda": 5760000000.0,
+   "normalized_income": 1303272000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -210,7 +262,10 @@
    "goodwill_and_intangibles": 17361000000.0,
    "retained_earnings": 1138000000.0,
    "total_debt": 15168000000.0,
-   "shares_out": 384226249.0
+   "shares_out": 384226249.0,
+   "unusual_items": -383000000.0,
+   "normalized_ebitda": 6141000000.0,
+   "normalized_income": 1390397000.0
   }
  ]
 }

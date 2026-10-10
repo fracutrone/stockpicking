@@ -1,6 +1,6 @@
 {
  "ticker": "STZ",
- "fetched_at": "2026-10-10T12:59:02+00:00",
+ "fetched_at": "2026-10-10T15:56:46+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 9400,
   "website": "https://www.cbrands.com",
-  "longBusinessSummary": "Constellation Brands, Inc., together with its subsidiaries, produces, imports, markets, and sells beer, wine, and spirits in the United States, Canada, Mexico, New Zealand, and Italy. It offers beer under the Corona Extra, Corona Familiar, Corona Sunbrew, Corona Light, Corona Non-Alcoholic, Corona Premier, Modelo Especial, Modelo Chelada, Modelo Negra, Modelo Spiked Aguas Frescas, Modelo Oro, Modelo Noche Especial, Victoria, Vicky Chamoy, and Pacifico brand names. The company also offers wine under the Sea Smoke, Schrader Cellars, Kim Crawford, Mount Veeder, Ruffino, My Favorite Neighbor, Robert Mondavi Winery, and The Prisoner Wine Company brand names; and spirits under the Casa Noble, High West, Mi CAMPO, and Nelson's Green Brier brand names. Additionally, it offers a spirit-based, ready-to-drink alcoholic beverage under the SpikedAde brand. It provides its products to wholesale distributors, retailers, and state alcohol beverage control agencies. Constellation Brands, Inc. was founded in 1945 and is headquartered in Rochester, New York."
+  "longBusinessSummary": "Constellation Brands, Inc., together with its subsidiaries, produces, imports, markets, and sells beer, wine, and spirits in the United States, Canada, Mexico, New Zealand, and Italy. It offers beer under the Corona Extra, Corona Familiar, Corona Sunbrew, Corona Light, Corona Non-Alcoholic, Corona Premier, Modelo Especial, Modelo Chelada, Modelo Negra, Modelo Spiked Aguas Frescas, Modelo Oro, Modelo Noche Especial, Victoria, Vicky Chamoy, and Pacifico brand names. The company also offers wine under the Sea Smoke, Schrader Cellars, Kim Crawford, Mount Veeder, Ruffino, My Favorite Neighbor, Robert Mondavi Winery, and The Prisoner Wine Company brand names; and spirits under the Casa Noble, High West, Mi CAMPO, and Nelson's Green Brier brand names. Additionally, it offers a spirit-based, ready-to-drink alcoholic beverage under the SpikedAde brand. It provides its products to wholesale distributors, retailers, and state alcohol beverage control agencies. Constellation Brands, Inc. was founded in 1945 and is headquartered in Rochester, New York.",
+  "targetMeanPrice": 151.73914,
+  "targetLowPrice": 99.0,
+  "targetHighPrice": 209.0,
+  "numberOfAnalystOpinions": 23,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.04167,
+  "forwardPE": 9.998084,
+  "forwardEps": 12.26635,
+  "trailingEps": 11.17,
+  "earningsGrowth": 0.253,
+  "revenueGrowth": 0.061
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-02-28",
+  "items": {
+   "total_assets": {
+    "yahoo": 21900500000.0,
+    "official": 21900500000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 8082400000.0,
+    "official": 8082400000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1686700000.0,
+    "official": 1686700000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 9139000000.0,
+    "official": 9139000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:56:46+00:00",
  "years": [
   {
    "fy_end": "2020-02-29",
@@ -197,7 +239,10 @@
    "goodwill_and_intangibles": 10653500000.0,
    "retained_earnings": 12343900000.0,
    "total_debt": 12461300000.0,
-   "shares_out": 183221707.0
+   "shares_out": 183221707.0,
+   "unusual_items": -1104200000.0,
+   "normalized_ebitda": 2294500000.0,
+   "normalized_income": 801318000.0
   },
   {
    "fy_end": "2024-02-29",
@@ -231,7 +276,10 @@
    "goodwill_and_intangibles": 10712000000.0,
    "retained_earnings": 13417200000.0,
    "total_debt": 11879300000.0,
-   "shares_out": 182912078.0
+   "shares_out": 182912078.0,
+   "unusual_items": -237300000.0,
+   "normalized_ebitda": 3330600000.0,
+   "normalized_income": 1915816200.0
   },
   {
    "fy_end": "2025-02-28",
@@ -265,7 +313,10 @@
    "goodwill_and_intangibles": 7659100000.0,
    "retained_earnings": 12603400000.0,
    "total_debt": 11497700000.0,
-   "shares_out": 178220194.0
+   "shares_out": 178220194.0,
+   "unusual_items": -3059100000.0,
+   "normalized_ebitda": 3840400000.0,
+   "normalized_income": 2335289000.0
   },
   {
    "fy_end": "2026-02-28",
@@ -299,7 +350,10 @@
    "goodwill_and_intangibles": 7766900000.0,
    "retained_earnings": 13574400000.0,
    "total_debt": 10568500000.0,
-   "shares_out": 172798369.0
+   "shares_out": 172798369.0,
+   "unusual_items": -149600000.0,
+   "normalized_ebitda": 3307700000.0,
+   "normalized_income": 1797229598.788796
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "BG",
- "fetched_at": "2026-10-10T12:38:54+00:00",
+ "fetched_at": "2026-10-10T15:37:38+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 34000,
   "website": "https://www.bunge.com",
-  "longBusinessSummary": "Bunge Global SA operates as an agribusiness and food company worldwide. It operates through four segments: Soybean Processing and Refining, Softseed Processing and Refining, Other Oilseeds Processing and Refining, and Grain Merchandising and Milling. The Soybean Processing and Refining segment is involved in the purchase, storage, transportation, processing, distribution, refining, marketing, and sale of soybeans and soybean related products, as well as biodiesel and fertilizer production and distribution for the food, animal feed and biofuel industries. The Softseed Processing and Refining segment is involved in the purchase, storage, transportation, processing, distribution, refining, marketing, and sale of softseeds and softseed related products, as well as biodiesel production and distribution. The Other Oilseeds Processing and Refining Segment is involved in products of a specialty nature, including the purchase, storage, transportation, processing, distribution, refining, marketing, and sale of these related products. The Grain Merchandising and Milling segment is involved in the purchase, storage, transportation, distribution, and marketing of commodities primarily consisting of corn, wheat, barley, cotton, pulses, and sugar; milling of wheat and sugar; and related services including ocean freight and financial services. Bunge Global SA was founded in 1818 and is headquartered in Chesterfield, Missouri."
+  "longBusinessSummary": "Bunge Global SA operates as an agribusiness and food company worldwide. It operates through four segments: Soybean Processing and Refining, Softseed Processing and Refining, Other Oilseeds Processing and Refining, and Grain Merchandising and Milling. The Soybean Processing and Refining segment is involved in the purchase, storage, transportation, processing, distribution, refining, marketing, and sale of soybeans and soybean related products, as well as biodiesel and fertilizer production and distribution for the food, animal feed and biofuel industries. The Softseed Processing and Refining segment is involved in the purchase, storage, transportation, processing, distribution, refining, marketing, and sale of softseeds and softseed related products, as well as biodiesel production and distribution. The Other Oilseeds Processing and Refining Segment is involved in products of a specialty nature, including the purchase, storage, transportation, processing, distribution, refining, marketing, and sale of these related products. The Grain Merchandising and Milling segment is involved in the purchase, storage, transportation, distribution, and marketing of commodities primarily consisting of corn, wheat, barley, cotton, pulses, and sugar; milling of wheat and sugar; and related services including ocean freight and financial services. Bunge Global SA was founded in 1818 and is headquartered in Chesterfield, Missouri.",
+  "targetMeanPrice": 141.77779,
+  "targetLowPrice": 116.0,
+  "targetHighPrice": 155.0,
+  "numberOfAnalystOpinions": 9,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.55556,
+  "forwardPE": 9.12181,
+  "forwardEps": 11.26202,
+  "trailingEps": 5.02,
+  "earningsGrowth": 0.33,
+  "revenueGrowth": 0.883
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 44528000000.0,
+    "official": 44528000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 15904000000.0,
+    "official": 15904000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 816000000.0,
+    "official": 816000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 70329000000.0,
+    "official": 70329000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:37:39+00:00",
  "years": [
   {
    "fy_end": "2021-12-31",
@@ -139,7 +181,10 @@
    "goodwill_and_intangibles": 830000000.0,
    "retained_earnings": 10222000000.0,
    "total_debt": 4651000000.0,
-   "shares_out": 149907932.0
+   "shares_out": 149907932.0,
+   "unusual_items": -11000000.0,
+   "normalized_ebitda": 2888000000.0,
+   "normalized_income": 1618934172.31365
   },
   {
    "fy_end": "2023-12-31",
@@ -174,7 +219,10 @@
    "goodwill_and_intangibles": 887000000.0,
    "retained_earnings": 12077000000.0,
    "total_debt": 4882000000.0,
-   "shares_out": 149907932.0
+   "shares_out": 149907932.0,
+   "unusual_items": 20000000.0,
+   "normalized_ebitda": 3998000000.0,
+   "normalized_income": 2227680432.645034
   },
   {
    "fy_end": "2024-12-31",
@@ -209,7 +257,10 @@
    "goodwill_and_intangibles": 774000000.0,
    "retained_earnings": 12838000000.0,
    "total_debt": 6238000000.0,
-   "shares_out": 133964235.0
+   "shares_out": 133964235.0,
+   "unusual_items": -189000000.0,
+   "normalized_ebitda": 2652000000.0,
+   "normalized_income": 1284330708.661417
   },
   {
    "fy_end": "2025-12-31",
@@ -244,7 +295,10 @@
    "goodwill_and_intangibles": 3450000000.0,
    "retained_earnings": 13152000000.0,
    "total_debt": 14051000000.0,
-   "shares_out": 193408656.0
+   "shares_out": 193408656.0,
+   "unusual_items": -51000000.0,
+   "normalized_ebitda": 2516000000.0,
+   "normalized_income": 857046000.0
   }
  ]
 }

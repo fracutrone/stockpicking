@@ -1,6 +1,6 @@
 {
  "ticker": "LSEG.L",
- "fetched_at": "2026-10-10T12:07:18+00:00",
+ "fetched_at": "2026-10-10T15:03:39+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 28516,
   "website": "https://www.lseg.com",
-  "longBusinessSummary": "London Stock Exchange Group plc provides financial markets infrastructure and data products in the United Kingdom, the United States, Europe, Asia, and internationally. The company operates through four segments: Data & Analytics, FTSE Russell, Risk Intelligence, and Markets. It offers data, analytics, and AI tools through an open and interoperable architecture; real-time data and news, text, reference, and legal entity information; and cross-asset models and analytics solutions, such as Yield Book fixed income, Lipper fund performance, private credit analytics, and StarMine sentiment analysis. The company also provides index and benchmark solutions; risk intelligence solutions to meet Know Your Customer and Know Your Third Party obligations, perform due diligence, and mitigate identity and payment fraud risks; World-Check Verify, a cloud-native screening API; and World-Check On Demand for continuously updated sanctions, politically exposed persons, adverse media, and enforcement data. In addition, it offers access to various liquidity pools in multiple asset classes comprising equities, fixed income, exchange-traded funds and products, and foreign exchange; capital formation and execution venues consisting of London Stock Exchange, AIM, Turquoise, FXall, FX Matching, and Tradeweb; and clearing and capital optimization solutions for interest rate swap, foreign exchange, and credit default swap OTC derivatives. Further, the company provides securities clearing, capital optimization, and regulatory reporting solutions; software licenses; network connections; hosting services; clearing, settlement, and other post trade services; and events and media services. London Stock Exchange Group plc was founded in 1698 and is based in London, the United Kingdom."
+  "longBusinessSummary": "London Stock Exchange Group plc provides financial markets infrastructure and data products in the United Kingdom, the United States, Europe, Asia, and internationally. The company operates through four segments: Data & Analytics, FTSE Russell, Risk Intelligence, and Markets. It offers data, analytics, and AI tools through an open and interoperable architecture; real-time data and news, text, reference, and legal entity information; and cross-asset models and analytics solutions, such as Yield Book fixed income, Lipper fund performance, private credit analytics, and StarMine sentiment analysis. The company also provides index and benchmark solutions; risk intelligence solutions to meet Know Your Customer and Know Your Third Party obligations, perform due diligence, and mitigate identity and payment fraud risks; World-Check Verify, a cloud-native screening API; and World-Check On Demand for continuously updated sanctions, politically exposed persons, adverse media, and enforcement data. In addition, it offers access to various liquidity pools in multiple asset classes comprising equities, fixed income, exchange-traded funds and products, and foreign exchange; capital formation and execution venues consisting of London Stock Exchange, AIM, Turquoise, FXall, FX Matching, and Tradeweb; and clearing and capital optimization solutions for interest rate swap, foreign exchange, and credit default swap OTC derivatives. Further, the company provides securities clearing, capital optimization, and regulatory reporting solutions; software licenses; network connections; hosting services; clearing, settlement, and other post trade services; and events and media services. London Stock Exchange Group plc was founded in 1698 and is based in London, the United Kingdom.",
+  "targetMeanPrice": 11665.625,
+  "targetLowPrice": 10400.0,
+  "targetHighPrice": 13600.0,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.5,
+  "forwardPE": 15.99741,
+  "forwardEps": 5.43463,
+  "trailingEps": 2.78,
+  "earningsGrowth": 0.337,
+  "revenueGrowth": 0.067
  },
  "governance": {
   "ceo": {
@@ -80,8 +91,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 796704000000.0,
+    "official": 796704000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 19779000000.0,
+    "official": 19779000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1249000000.0,
+    "official": 1249000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 9346000000.0,
+    "official": 9081000000.0,
+    "diff": 0.029182
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:03:39+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -115,7 +158,10 @@
    "goodwill_and_intangibles": 35066000000.0,
    "retained_earnings": 3840000000.0,
    "total_debt": 8823000000.0,
-   "shares_out": 554446680.0
+   "shares_out": 554446680.0,
+   "unusual_items": -233000000.0,
+   "normalized_ebitda": 3552000000.0,
+   "normalized_income": 974837000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -148,7 +194,10 @@
    "goodwill_and_intangibles": 33147000000.0,
    "retained_earnings": 2917000000.0,
    "total_debt": 9699000000.0,
-   "shares_out": 540030026.0
+   "shares_out": 540030026.0,
+   "unusual_items": -276000000.0,
+   "normalized_ebitda": 3898000000.0,
+   "normalized_income": 979952301.25523
   },
   {
    "fy_end": "2024-12-31",
@@ -180,7 +229,10 @@
    "goodwill_and_intangibles": 32970000000.0,
    "retained_earnings": 1879000000.0,
    "total_debt": 9965000000.0,
-   "shares_out": 529846727.0
+   "shares_out": 529846727.0,
+   "unusual_items": 84000000.0,
+   "normalized_ebitda": 3995000000.0,
+   "normalized_income": 623502384.737679
   },
   {
    "fy_end": "2025-12-31",
@@ -213,7 +265,10 @@
    "goodwill_and_intangibles": 31273000000.0,
    "retained_earnings": 1399000000.0,
    "total_debt": 11718000000.0,
-   "shares_out": 509009651.0
+   "shares_out": 509009651.0,
+   "unusual_items": 11000000.0,
+   "normalized_ebitda": 4520000000.0,
+   "normalized_income": 1240586592.178771
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "WEX",
- "fetched_at": "2026-10-10T13:02:13+00:00",
+ "fetched_at": "2026-10-10T15:59:39+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 6600,
   "website": "https://www.wexinc.com",
-  "longBusinessSummary": "WEX Inc. operates a commerce platform in the United States and internationally. The Mobility segment offers fleet payment solutions, transaction processing, and information management services; and provides account activation and account retention services; authorization and billing inquiries, and account maintenance services; account management; credit and collections services; merchant services; analytics solutions; and ancillary services and offerings. This segment markets its products directly and indirectly to businesses and government agencies with fleets of commercial vehicles; and indirectly through co-branded and private label relationships. The Corporate Payments segment provides payment solutions, including embedded payments; and accounts payable automation and spend management solutions. This segment also markets its products directly and indirectly to customers in travel, fintech, insurance, consumer bill pay, and media verticals. The Benefits segment offers software-as-a-service (SaaS) platform for consumer directed healthcare benefits and full-service benefit enrollment solutions. In addition, its SaaS platform includes embedded payment solutions and plan administration services for consumer-directed health benefits; COBRA accounts; and benefit enrollment and administration services. Further, it offers custodial and depository services for health savings accounts; and markets its products through third-party administrators, financial institutions, payroll providers, and health plans. WEX Inc. was formerly known as Wright Express Corporation and changed its name to WEX Inc. in October 2012. WEX Inc. was founded in 1983 and is headquartered in Portland, Maine."
+  "longBusinessSummary": "WEX Inc. operates a commerce platform in the United States and internationally. The Mobility segment offers fleet payment solutions, transaction processing, and information management services; and provides account activation and account retention services; authorization and billing inquiries, and account maintenance services; account management; credit and collections services; merchant services; analytics solutions; and ancillary services and offerings. This segment markets its products directly and indirectly to businesses and government agencies with fleets of commercial vehicles; and indirectly through co-branded and private label relationships. The Corporate Payments segment provides payment solutions, including embedded payments; and accounts payable automation and spend management solutions. This segment also markets its products directly and indirectly to customers in travel, fintech, insurance, consumer bill pay, and media verticals. The Benefits segment offers software-as-a-service (SaaS) platform for consumer directed healthcare benefits and full-service benefit enrollment solutions. In addition, its SaaS platform includes embedded payment solutions and plan administration services for consumer-directed health benefits; COBRA accounts; and benefit enrollment and administration services. Further, it offers custodial and depository services for health savings accounts; and markets its products through third-party administrators, financial institutions, payroll providers, and health plans. WEX Inc. was formerly known as Wright Express Corporation and changed its name to WEX Inc. in October 2012. WEX Inc. was founded in 1983 and is headquartered in Portland, Maine.",
+  "targetMeanPrice": 195.36365,
+  "targetLowPrice": 172.0,
+  "targetHighPrice": 224.0,
+  "numberOfAnalystOpinions": 11,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.4,
+  "forwardPE": 8.108145,
+  "forwardEps": 21.26627,
+  "trailingEps": 10.03,
+  "earningsGrowth": 0.571,
+  "revenueGrowth": 0.142
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 14399500000.0,
+    "official": 14399500000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1234500000.0,
+    "official": 1234500000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 304100000.0,
+    "official": 304100000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2660800000.0,
+    "official": 2660800000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:59:39+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -193,7 +235,10 @@
    "goodwill_and_intangibles": 4202300000.0,
    "retained_earnings": 1490500000.0,
    "total_debt": 2777900000.0,
-   "shares_out": 43220000.0
+   "shares_out": 43220000.0,
+   "unusual_items": -298300000.0,
+   "normalized_ebitda": 870200000.0,
+   "normalized_income": 393206900.0
   },
   {
    "fy_end": "2023-12-31",
@@ -227,7 +272,10 @@
    "goodwill_and_intangibles": 4474400000.0,
    "retained_earnings": 1757100000.0,
    "total_debt": 3923700000.0,
-   "shares_out": 41900000.0
+   "shares_out": 41900000.0,
+   "unusual_items": -73700000.0,
+   "normalized_ebitda": 923300000.0,
+   "normalized_income": 319885100.0
   },
   {
    "fy_end": "2024-12-31",
@@ -261,7 +309,10 @@
    "goodwill_and_intangibles": 4243300000.0,
    "retained_earnings": 2066800000.0,
    "total_debt": 4427400000.0,
-   "shares_out": 39000000.0
+   "shares_out": 39000000.0,
+   "unusual_items": -32600000.0,
+   "normalized_ebitda": 1007600000.0,
+   "normalized_income": 333756600.0
   },
   {
    "fy_end": "2025-12-31",
@@ -295,7 +346,10 @@
    "goodwill_and_intangibles": 4103400000.0,
    "retained_earnings": 2370800000.0,
    "total_debt": 4913100000.0,
-   "shares_out": 34288525.0
+   "shares_out": 34288525.0,
+   "unusual_items": -3100000.0,
+   "normalized_ebitda": 995000000.0,
+   "normalized_income": 306344400.0
   }
  ]
 }

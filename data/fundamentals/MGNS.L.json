@@ -1,6 +1,6 @@
 {
  "ticker": "MGNS.L",
- "fetched_at": "2026-10-10T12:08:30+00:00",
+ "fetched_at": "2026-10-10T15:04:52+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 8500,
   "website": "https://www.morgansindall.com",
-  "longBusinessSummary": "Morgan Sindall Group plc operates as a construction and regeneration company in the United Kingdom. The company operates through six segments: Partnership Housing, Mixed Use Partnerships, Fit Out, Construction, Infrastructure, and Property Services. The Partnership Housing segment focuses on working in partnerships with local authorities and housing associations, which includes mixed-tenure developments; building and developing homes for open market sale and for social/affordable rent; design and build house contracting; and planned maintenance and refurbishment. The Mixed Use Partnerships segment transforms urban landscape through partnership working and the development of multi-phase sites and mixed-use placemaking. The Fit Out segment offers fit out and refurbishment in commercial, central and local government offices, and further education, as well as provides office interior design and build services direct to occupiers. The Construction segment focuses on education, healthcare, commercial, industrial, leisure, and retail markets. The Property Services segment provides response and planned maintenance services for social housing and the wider public sector. The Infrastructure segment provides services to energy, nuclear, rail, highways, water, and defence markets, including BakerHicks design activities from the United Kingdom and Switzerland. The company was incorporated in 1953 and is headquartered in London, the United Kingdom."
+  "longBusinessSummary": "Morgan Sindall Group plc operates as a construction and regeneration company in the United Kingdom. The company operates through six segments: Partnership Housing, Mixed Use Partnerships, Fit Out, Construction, Infrastructure, and Property Services. The Partnership Housing segment focuses on working in partnerships with local authorities and housing associations, which includes mixed-tenure developments; building and developing homes for open market sale and for social/affordable rent; design and build house contracting; and planned maintenance and refurbishment. The Mixed Use Partnerships segment transforms urban landscape through partnership working and the development of multi-phase sites and mixed-use placemaking. The Fit Out segment offers fit out and refurbishment in commercial, central and local government offices, and further education, as well as provides office interior design and build services direct to occupiers. The Construction segment focuses on education, healthcare, commercial, industrial, leisure, and retail markets. The Property Services segment provides response and planned maintenance services for social housing and the wider public sector. The Infrastructure segment provides services to energy, nuclear, rail, highways, water, and defence markets, including BakerHicks design activities from the United Kingdom and Switzerland. The company was incorporated in 1953 and is headquartered in London, the United Kingdom.",
+  "targetMeanPrice": 5621.429,
+  "targetLowPrice": 4800.0,
+  "targetHighPrice": 6200.0,
+  "numberOfAnalystOpinions": 7,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 11.744013,
+  "forwardEps": 3.47922,
+  "trailingEps": 3.83,
+  "earningsGrowth": 0.188,
+  "revenueGrowth": 0.081
  },
  "governance": {
   "ceo": {
@@ -70,8 +81,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 2448300000.0,
+    "official": 2448300000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 748800000.0,
+    "official": 748800000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 174900000.0,
+    "official": 174900000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 5018600000.0,
+    "official": 5018600000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:04:52+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -105,7 +148,9 @@
    "goodwill_and_intangibles": 221200000.0,
    "retained_earnings": 436800000.0,
    "total_debt": 134000000.0,
-   "shares_out": 47350604.0
+   "shares_out": 47350604.0,
+   "normalized_ebitda": 113300000.0,
+   "normalized_income": 60900000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -139,7 +184,10 @@
    "goodwill_and_intangibles": 218600000.0,
    "retained_earnings": 508400000.0,
    "total_debt": 144400000.0,
-   "shares_out": 46233511.0
+   "shares_out": 46233511.0,
+   "unusual_items": -2800000.0,
+   "normalized_ebitda": 178900000.0,
+   "normalized_income": 119990201.528839
   },
   {
    "fy_end": "2024-12-31",
@@ -173,7 +221,10 @@
    "goodwill_and_intangibles": 218100000.0,
    "retained_earnings": 578200000.0,
    "total_debt": 118500000.0,
-   "shares_out": 46762699.0
+   "shares_out": 46762699.0,
+   "unusual_items": -21000000.0,
+   "normalized_ebitda": 230300000.0,
+   "normalized_income": 147789005.235602
   },
   {
    "fy_end": "2025-12-31",
@@ -206,7 +257,10 @@
    "goodwill_and_intangibles": 218300000.0,
    "retained_earnings": 679300000.0,
    "total_debt": 132900000.0,
-   "shares_out": 46645805.0
+   "shares_out": 46645805.0,
+   "unusual_items": -2500000.0,
+   "normalized_ebitda": 274700000.0,
+   "normalized_income": 176786324.417601
   }
  ]
 }

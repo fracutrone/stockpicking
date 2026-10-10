@@ -1,6 +1,6 @@
 {
  "ticker": "CTVA",
- "fetched_at": "2026-10-10T12:42:28+00:00",
+ "fetched_at": "2026-10-10T15:40:56+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": null,
   "website": "https://www.corteva.com",
-  "longBusinessSummary": "Corteva, Inc. operates as a pure-play agriculture company in the United States, Canada, the Middle East, Africa, Europe, Latin America, and the Asia Pacific. The company provides products that protect against weeds, insects, diseases, nematodes, and other pests, as well as supports crop health via nitrogen management and seed-applied technologies. Its crop protection solutions and digital solutions provide farmers tools to improve productivity and help keep fields free of weeds, insects, and diseases. The company offers herbicides, soybeans, cereals, fruits and vegetables, insecticides, nitrogen stabilizers, pasture, and a range management herbicides and biologicals and other nature-based products. The company is headquartered in Indianapolis, Indiana."
+  "longBusinessSummary": "Corteva, Inc. operates as a pure-play agriculture company in the United States, Canada, the Middle East, Africa, Europe, Latin America, and the Asia Pacific. The company provides products that protect against weeds, insects, diseases, nematodes, and other pests, as well as supports crop health via nitrogen management and seed-applied technologies. Its crop protection solutions and digital solutions provide farmers tools to improve productivity and help keep fields free of weeds, insects, and diseases. The company offers herbicides, soybeans, cereals, fruits and vegetables, insecticides, nitrogen stabilizers, pasture, and a range management herbicides and biologicals and other nature-based products. The company is headquartered in Indianapolis, Indiana.",
+  "targetMeanPrice": 17.28329,
+  "targetLowPrice": 13.65291,
+  "targetHighPrice": 20.0,
+  "numberOfAnalystOpinions": 10,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.6,
+  "forwardPE": 11.568168,
+  "forwardEps": 1.14452,
+  "trailingEps": 1.62,
+  "earningsGrowth": -0.099,
+  "revenueGrowth": -0.012
  },
  "governance": {
   "top_institutions": [
@@ -78,8 +89,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 42845000000.0,
+    "official": 42845000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 24144000000.0,
+    "official": 24144000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1094000000.0,
+    "official": 1094000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 17401000000.0,
+    "official": 17401000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:40:56+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -195,7 +237,10 @@
    "goodwill_and_intangibles": 19301000000.0,
    "retained_earnings": 250000000.0,
    "total_debt": 1283000000.0,
-   "shares_out": 713419000.0
+   "shares_out": 713419000.0,
+   "unusual_items": -574000000.0,
+   "normalized_ebitda": 3302000000.0,
+   "normalized_income": 1694469845.7223
   },
   {
    "fy_end": "2023-12-31",
@@ -230,7 +275,10 @@
    "goodwill_and_intangibles": 20231000000.0,
    "retained_earnings": -41000000.0,
    "total_debt": 2291000000.0,
-   "shares_out": 701260000.0
+   "shares_out": 701260000.0,
+   "unusual_items": -711000000.0,
+   "normalized_ebitda": 3248000000.0,
+   "normalized_income": 1541171000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -265,7 +313,10 @@
    "goodwill_and_intangibles": 19284000000.0,
    "retained_earnings": 55000000.0,
    "total_debt": 1953000000.0,
-   "shares_out": 685595000.0
+   "shares_out": 685595000.0,
+   "unusual_items": -555000000.0,
+   "normalized_ebitda": 3290000000.0,
+   "normalized_income": 1226658823.529412
   },
   {
    "fy_end": "2025-12-31",
@@ -300,7 +351,10 @@
    "goodwill_and_intangibles": 18766000000.0,
    "retained_earnings": -67000000.0,
    "total_debt": 1686000000.0,
-   "shares_out": 672163000.0
+   "shares_out": 672163000.0,
+   "unusual_items": -321000000.0,
+   "normalized_ebitda": 3392000000.0,
+   "normalized_income": 1421959715.63981
   }
  ]
 }

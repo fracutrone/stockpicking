@@ -1,6 +1,6 @@
 {
  "ticker": "RDDT",
- "fetched_at": "2026-10-10T12:56:30+00:00",
+ "fetched_at": "2026-10-10T15:54:12+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 2555,
   "website": "https://redditinc.com",
-  "longBusinessSummary": "Reddit, Inc. operates a digital community in the United States and internationally. The company's platform enables user to engage in conversations, explore passions, research new hobbies, exchange goods and services, create new communities and experiences, share laughs, and find belonging. It also organizes communities based on specific interests that enable users to engage in conversations by sharing experiences, submitting links, uploading images and videos, and replying to one another. Reddit, Inc. was founded in 2005 and is headquartered in San Francisco, California."
+  "longBusinessSummary": "Reddit, Inc. operates a digital community in the United States and internationally. The company's platform enables user to engage in conversations, explore passions, research new hobbies, exchange goods and services, create new communities and experiences, share laughs, and find belonging. It also organizes communities based on specific interests that enable users to engage in conversations by sharing experiences, submitting links, uploading images and videos, and replying to one another. Reddit, Inc. was founded in 2005 and is headquartered in San Francisco, California.",
+  "targetMeanPrice": 213.70909,
+  "targetLowPrice": 130.0,
+  "targetHighPrice": 300.0,
+  "numberOfAnalystOpinions": 33,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.94118,
+  "forwardPE": 16.506855,
+  "forwardEps": 9.68749,
+  "trailingEps": 4.3,
+  "earningsGrowth": 1.778,
+  "revenueGrowth": 0.611
  },
  "governance": {
   "top_institutions": [
@@ -75,8 +86,38 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3239173000.0,
+    "official": 3239173000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2929038000.0,
+    "official": 2929038000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 529721000.0,
+    "official": 529721000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2202506000.0,
+    "official": 2202506000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:54:13+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -108,7 +149,9 @@
    "goodwill_and_intangibles": 67536000.0,
    "retained_earnings": -625738000.0,
    "total_debt": 19492000.0,
-   "shares_out": 158993090.0
+   "shares_out": 158993090.0,
+   "normalized_ebitda": -164162000.0,
+   "normalized_income": -158550000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -140,7 +183,9 @@
    "goodwill_and_intangibles": 56619000.0,
    "retained_earnings": -716562000.0,
    "total_debt": 25747000.0,
-   "shares_out": 158993090.0
+   "shares_out": 158993090.0,
+   "normalized_ebitda": -126459000.0,
+   "normalized_income": -90824000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -172,7 +217,9 @@
    "goodwill_and_intangibles": 67583000.0,
    "retained_earnings": -1200838000.0,
    "total_debt": 26702000.0,
-   "shares_out": 180315979.0
+   "shares_out": 180315979.0,
+   "normalized_ebitda": -544925000.0,
+   "normalized_income": -484276000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -204,7 +251,9 @@
    "goodwill_and_intangibles": 57670000.0,
    "retained_earnings": -671117000.0,
    "total_debt": 23214000.0,
-   "shares_out": 190892108.0
+   "shares_out": 190892108.0,
+   "normalized_ebitda": 457932000.0,
+   "normalized_income": 529721000.0
   }
  ]
 }

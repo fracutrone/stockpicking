@@ -1,6 +1,6 @@
 {
  "ticker": "PEY.L",
- "fetched_at": "2026-10-10T12:13:44+00:00",
+ "fetched_at": "2026-10-10T15:11:14+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 2000,
   "website": "https://www.princess-privateequity.net",
-  "longBusinessSummary": "Princess Private Equity Holding Limited specializes in private equity and debt investments in non-public companies or assets through privately negotiated transactions. The fund invests in primary and secondary fund investments, direct investments, and listed private equity. It makes private equity investments in buyout, venture capital, and special situation and private debt investments in mezzanine, second lien, or senior debt investments. The fund makes investments without limitations as to geographic regions, financing stage, vintage year, and industry. It also makes investments as limited partnerships in the form of private equity and private debt funds in the form of common and preferred equity, convertible securities, subordinated debt and warrants, or other derivatives."
+  "longBusinessSummary": "Princess Private Equity Holding Limited specializes in private equity and debt investments in non-public companies or assets through privately negotiated transactions. The fund invests in primary and secondary fund investments, direct investments, and listed private equity. It makes private equity investments in buyout, venture capital, and special situation and private debt investments in mezzanine, second lien, or senior debt investments. The fund makes investments without limitations as to geographic regions, financing stage, vintage year, and industry. It also makes investments as limited partnerships in the form of private equity and private debt funds in the form of common and preferred equity, convertible securities, subordinated debt and warrants, or other derivatives.",
+  "targetMeanPrice": 10.6,
+  "targetLowPrice": 10.6,
+  "targetHighPrice": 10.6,
+  "numberOfAnalystOpinions": 1,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 6.570881,
+  "forwardEps": 1.044,
+  "trailingEps": -1.62,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -49,8 +60,33 @@
   "equity": "yahoo",
   "receivables": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 956629000.0,
+    "official": 956629000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 891520000.0,
+    "official": 891520000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -89942000.0,
+    "official": -89942000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:11:15+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -68,7 +104,8 @@
    "cash": 14851000.0,
    "equity": 1011304000.0,
    "receivables": 5300000.0,
-   "shares_out": 69151168.0
+   "shares_out": 69151168.0,
+   "normalized_income": -17433000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -88,7 +125,8 @@
    "equity": 979245000.0,
    "receivables": 5628000.0,
    "total_debt": 19000000.0,
-   "shares_out": 69151168.0
+   "shares_out": 69151168.0,
+   "normalized_income": 18421000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -107,7 +145,8 @@
    "cash": 18651000.0,
    "equity": 1039068000.0,
    "receivables": 1207000.0,
-   "shares_out": 69151168.0
+   "shares_out": 69151168.0,
+   "normalized_income": 108920000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -126,7 +165,8 @@
    "cash": 8138000.0,
    "equity": 891520000.0,
    "receivables": 18954000.0,
-   "shares_out": 68589143.0
+   "shares_out": 68589143.0,
+   "normalized_income": -89942000.0
   }
  ]
 }

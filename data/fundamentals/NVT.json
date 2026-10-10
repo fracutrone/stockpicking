@@ -1,6 +1,6 @@
 {
  "ticker": "NVT",
- "fetched_at": "2026-10-10T12:53:26+00:00",
+ "fetched_at": "2026-10-10T15:51:35+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 12000,
   "website": "https://www.nvent.com",
-  "longBusinessSummary": "nVent Electric plc designs, manufactures, markets, installs, and services electrical connection and protection solutions in the America, Europe, the Middle East, India, Africa, the Asia Pacific, and internationally. It operates in two segments, Systems Protection and Electrical Connections. The company provides solutions to protect electronics, systems, and data in mission critical applications, including data centers. It also offers solutions that connect power and data infrastructure. In addition, the company provides bus systems, cable management, control buildings, liquid and air-cooling solutions, electrical connections, enclosures, equipment protection, power connections, and power management solutions, switchgear systems, as well as tools and test instruments. The company markets its products through electrical distributors, retail, contractors, and original equipment manufacturers under the nVent CADDY, ERICO, HOFFMAN, ILSCO, SCHROFF, and TRACHTE brand names. Its products are used for various applications, such as industrial, commercial and residential, infrastructure, and energy. The company was founded in 1903 and is based in London, the United Kingdom."
+  "longBusinessSummary": "nVent Electric plc designs, manufactures, markets, installs, and services electrical connection and protection solutions in the America, Europe, the Middle East, India, Africa, the Asia Pacific, and internationally. It operates in two segments, Systems Protection and Electrical Connections. The company provides solutions to protect electronics, systems, and data in mission critical applications, including data centers. It also offers solutions that connect power and data infrastructure. In addition, the company provides bus systems, cable management, control buildings, liquid and air-cooling solutions, electrical connections, enclosures, equipment protection, power connections, and power management solutions, switchgear systems, as well as tools and test instruments. The company markets its products through electrical distributors, retail, contractors, and original equipment manufacturers under the nVent CADDY, ERICO, HOFFMAN, ILSCO, SCHROFF, and TRACHTE brand names. Its products are used for various applications, such as industrial, commercial and residential, infrastructure, and energy. The company was founded in 1903 and is based in London, the United Kingdom.",
+  "targetMeanPrice": 204.70589,
+  "targetLowPrice": 136.0,
+  "targetHighPrice": 240.0,
+  "numberOfAnalystOpinions": 17,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.31579,
+  "forwardPE": 25.72648,
+  "forwardEps": 6.50808,
+  "trailingEps": 3.61,
+  "earningsGrowth": 0.98,
+  "revenueGrowth": 0.528
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 6851900000.0,
+    "official": 6851900000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3730200000.0,
+    "official": 3730200000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 710200000.0,
+    "official": 710200000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3893100000.0,
+    "official": 3893100000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:51:35+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -166,7 +208,8 @@
    "goodwill": 2186700000.0,
    "intangibles": 1143800000.0,
    "retained_earnings": 174500000.0,
-   "total_debt": 999200000.0
+   "total_debt": 999200000.0,
+   "unusual_items": -15200000.0
   },
   {
    "fy_end": "2022-12-31",
@@ -200,7 +243,10 @@
    "goodwill_and_intangibles": 3244200000.0,
    "retained_earnings": 457300000.0,
    "total_debt": 1083200000.0,
-   "shares_out": 165348060.0
+   "shares_out": 165348060.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 453900000.0,
+   "normalized_income": 293100000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -234,7 +280,10 @@
    "goodwill_and_intangibles": 3208600000.0,
    "retained_earnings": 905300000.0,
    "total_debt": 1780700000.0,
-   "shares_out": 165069204.0
+   "shares_out": 165069204.0,
+   "unusual_items": 10300000.0,
+   "normalized_ebitda": 557600000.0,
+   "normalized_income": 451357000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -268,7 +317,9 @@
    "goodwill_and_intangibles": 3808800000.0,
    "retained_earnings": 1108600000.0,
    "total_debt": 2155000000.0,
-   "shares_out": 165022146.0
+   "shares_out": 165022146.0,
+   "normalized_ebitda": 681200000.0,
+   "normalized_income": 240800000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -302,7 +353,9 @@
    "goodwill_and_intangibles": 4554500000.0,
    "retained_earnings": 1687500000.0,
    "total_debt": 1559800000.0,
-   "shares_out": 161729472.0
+   "shares_out": 161729472.0,
+   "normalized_ebitda": 832800000.0,
+   "normalized_income": 428500000.0
   }
  ]
 }

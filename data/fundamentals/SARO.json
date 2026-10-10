@@ -1,6 +1,6 @@
 {
  "ticker": "SARO",
- "fetched_at": "2026-10-10T12:57:32+00:00",
+ "fetched_at": "2026-10-10T15:55:13+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 8000,
   "website": "https://standardaero.com",
-  "longBusinessSummary": "StandardAero, Inc. provides aerospace engine aftermarket services for fixed and rotary wing aircraft in the United States, Canada, the United Kingdom, Rest of Europe, Asia, and internationally. It operates in two segments, Engine Services and Component Repair Services. The Engine Services segment provides a suite of aftermarket services, including maintenance, repair and overhaul, on-wing and field service support, asset management, and engineering and related solutions to customers in the commercial aerospace, military and helicopter, and business aviation end markets. The Component Repair Services segment offers engine component and accessory repairs to the commercial aerospace, military and helicopter, land and marine, and oil and gas end markets. StandardAero, Inc. was formerly known as Dynasty Parent Co., Inc. and changed its name to StandardAero, Inc. in September 2024. The company was founded in 1911 and is headquartered in Scottsdale, Arizona."
+  "longBusinessSummary": "StandardAero, Inc. provides aerospace engine aftermarket services for fixed and rotary wing aircraft in the United States, Canada, the United Kingdom, Rest of Europe, Asia, and internationally. It operates in two segments, Engine Services and Component Repair Services. The Engine Services segment provides a suite of aftermarket services, including maintenance, repair and overhaul, on-wing and field service support, asset management, and engineering and related solutions to customers in the commercial aerospace, military and helicopter, and business aviation end markets. The Component Repair Services segment offers engine component and accessory repairs to the commercial aerospace, military and helicopter, land and marine, and oil and gas end markets. StandardAero, Inc. was formerly known as Dynasty Parent Co., Inc. and changed its name to StandardAero, Inc. in September 2024. The company was founded in 1911 and is headquartered in Scottsdale, Arizona.",
+  "targetMeanPrice": 34.02857,
+  "targetLowPrice": 25.0,
+  "targetHighPrice": 42.4,
+  "numberOfAnalystOpinions": 14,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.66667,
+  "forwardPE": 11.450793,
+  "forwardEps": 1.76145,
+  "trailingEps": 0.97,
+  "earningsGrowth": 0.45,
+  "revenueGrowth": 0.046
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 6557411000.0,
+    "official": 6557411000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2667311000.0,
+    "official": 2667311000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 277417000.0,
+    "official": 277417000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 6062513000.0,
+    "official": 6062513000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:55:13+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -119,7 +161,10 @@
    "goodwill_and_intangibles": 3001613000.0,
    "retained_earnings": -1539234000.0,
    "total_debt": 3367659000.0,
-   "shares_out": 334461630.0
+   "shares_out": 334461630.0,
+   "unusual_items": -1282000.0,
+   "normalized_ebitda": 461488000.0,
+   "normalized_income": -19987220.0
   },
   {
    "fy_end": "2023-12-31",
@@ -153,7 +198,10 @@
    "goodwill_and_intangibles": 2928223000.0,
    "retained_earnings": -1574295000.0,
    "total_debt": 3375306000.0,
-   "shares_out": 334461630.0
+   "shares_out": 334461630.0,
+   "unusual_items": -7696000.0,
+   "normalized_ebitda": 519564000.0,
+   "normalized_income": -28981160.0
   },
   {
    "fy_end": "2024-12-31",
@@ -187,7 +235,10 @@
    "goodwill_and_intangibles": 2982158000.0,
    "retained_earnings": -1563321000.0,
    "total_debt": 2413313000.0,
-   "shares_out": 334461630.0
+   "shares_out": 334461630.0,
+   "unusual_items": -16629000.0,
+   "normalized_ebitda": 567973000.0,
+   "normalized_income": 24110910.0
   },
   {
    "fy_end": "2025-12-31",
@@ -221,7 +272,10 @@
    "goodwill_and_intangibles": 2849564000.0,
    "retained_earnings": -1285904000.0,
    "total_debt": 2449278000.0,
-   "shares_out": 334294245.0
+   "shares_out": 334294245.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 744733000.0,
+   "normalized_income": 277417000.0
   }
  ]
 }

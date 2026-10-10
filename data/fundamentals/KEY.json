@@ -1,6 +1,6 @@
 {
  "ticker": "KEY",
- "fetched_at": "2026-10-10T12:49:41+00:00",
+ "fetched_at": "2026-10-10T15:47:59+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 17493,
   "website": "https://www.key.com",
-  "longBusinessSummary": "KeyCorp operates as the holding company for KeyBank National Association that provides various retail and commercial banking products and services in the United States. It operates in two segments, Consumer Bank and Commercial Bank. The company offers various deposits and investment products; personal finance and financial wellness, lending, student loan refinancing, mortgage and home equity, credit card, treasury, and business advisory; commercial leasing, investment management, consumer finance; and wealth management and investment services for institutional, non-profit, and high-net-worth clients. It also provides lending, cash management, equipment financing, and commercial mortgage loans; and capital market products and services, such as syndicated finance, debt and equity underwriting, fixed income and equity sales and trading, derivatives, foreign exchange, mergers and acquisition, other advisory services, and public finance to large corporate and institutional clients. In addition, the company offers personal and institutional trust custody services, personal financial and planning services, access to mutual funds, treasury services, and international banking services. Further, it provides community development financing, securities underwriting, brokerage, and investment banking services, as well as merchant services. The company was founded in 1849 and is headquartered in Cleveland, Ohio."
+  "longBusinessSummary": "KeyCorp operates as the holding company for KeyBank National Association that provides various retail and commercial banking products and services in the United States. It operates in two segments, Consumer Bank and Commercial Bank. The company offers various deposits and investment products; personal finance and financial wellness, lending, student loan refinancing, mortgage and home equity, credit card, treasury, and business advisory; commercial leasing, investment management, consumer finance; and wealth management and investment services for institutional, non-profit, and high-net-worth clients. It also provides lending, cash management, equipment financing, and commercial mortgage loans; and capital market products and services, such as syndicated finance, debt and equity underwriting, fixed income and equity sales and trading, derivatives, foreign exchange, mergers and acquisition, other advisory services, and public finance to large corporate and institutional clients. In addition, the company offers personal and institutional trust custody services, personal financial and planning services, access to mutual funds, treasury services, and international banking services. Further, it provides community development financing, securities underwriting, brokerage, and investment banking services, as well as merchant services. The company was founded in 1849 and is headquartered in Cleveland, Ohio.",
+  "targetMeanPrice": 25.105,
+  "targetLowPrice": 22.0,
+  "targetHighPrice": 43.0,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.95,
+  "forwardPE": 9.280213,
+  "forwardEps": 2.15189,
+  "trailingEps": 1.72,
+  "earningsGrowth": 0.253,
+  "revenueGrowth": 0.101
  },
  "governance": {
   "ceo": {
@@ -78,8 +89,38 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "noninterest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 184381000000.0,
+    "official": 184381000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 20381000000.0,
+    "official": 20381000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1829000000.0,
+    "official": 1829000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 7285000000.0,
+    "official": 7513000000.0,
+    "diff": 0.030347
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:47:59+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -173,7 +214,9 @@
    "goodwill_and_intangibles": 2846000000.0,
    "retained_earnings": 15616000000.0,
    "total_debt": 19307000000.0,
-   "shares_out": 933324581.0
+   "shares_out": 933324581.0,
+   "unusual_items": -3000000.0,
+   "normalized_income": 1913457351.05015
   },
   {
    "fy_end": "2023-12-31",
@@ -200,7 +243,9 @@
    "goodwill_and_intangibles": 2807000000.0,
    "retained_earnings": 15672000000.0,
    "total_debt": 19554000000.0,
-   "shares_out": 936563987.0
+   "shares_out": 936563987.0,
+   "unusual_items": -438000000.0,
+   "normalized_income": 1327978000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -227,7 +272,9 @@
    "goodwill_and_intangibles": 2779000000.0,
    "retained_earnings": 14584000000.0,
    "total_debt": 12105000000.0,
-   "shares_out": 1106786451.0
+   "shares_out": 1106786451.0,
+   "unusual_items": -23000000.0,
+   "normalized_income": -144830000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -254,7 +301,9 @@
    "goodwill_and_intangibles": 2760000000.0,
    "retained_earnings": 15359000000.0,
    "total_debt": 9917000000.0,
-   "shares_out": 1102400694.0
+   "shares_out": 1102400694.0,
+   "unusual_items": 5000000.0,
+   "normalized_income": 1824035000.0
   }
  ]
 }

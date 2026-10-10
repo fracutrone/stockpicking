@@ -1,6 +1,6 @@
 {
  "ticker": "DCI",
- "fetched_at": "2026-10-10T12:42:54+00:00",
+ "fetched_at": "2026-10-10T15:41:21+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 15500,
   "website": "https://www.donaldson.com",
-  "longBusinessSummary": "Donaldson Company, Inc. manufactures and sells filtration systems and replacement parts worldwide. The company operates through Mobile Solutions, Industrial Solutions, and Life Sciences segments. The Mobile Solutions segment provides replacement filters for air and liquid filtration applications, such as air filtration systems, fuel, lube and hydraulic systems, emissions systems and sensors, indicators, and monitoring systems. This segment sells its products to original equipment manufacturers (OEMs) in the construction, mining, agriculture, and transportation markets; and to independent distributors, and OEM dealer networks. The Industrial Solutions segment offers dust, fume, and mist collectors; compressed air and industrial gasses purification systems; air inlet systems and filtration for power generation; ancillary components; replacement parts; performance monitoring and service; and hydraulic and lubricated rotating equipment applications, as well as gas and liquid filtration for industrial processes and connected services. It also sells aerospace and defense products comprising of air, fuel, lubrication and hydraulic filtration for fixed-wing and rotorcraft aerospace platforms, missile systems, and ground defense vehicles and naval platforms. This segment sells its products to various distributors, OEMs, and direct-to-consumer. The Life Sciences segment provides micro-environment gas and liquid filtration for food, beverage, and industrial processes; bioprocessing equipment that includes bioreactors and fermenters; and bioprocessing consumables, such as chromatography devices, reagents and filters, and polytetrafluoroethylene membrane-based products, as well as specialized air and gas filtration systems for applications, including hard disk drives, semi-conductor manufacturing and sensors, battery systems, and powertrain components to OEMs and various end-users. The company was founded in 1915 and is headquartered in Bloomington, Minnesota."
+  "longBusinessSummary": "Donaldson Company, Inc. manufactures and sells filtration systems and replacement parts worldwide. The company operates through Mobile Solutions, Industrial Solutions, and Life Sciences segments. The Mobile Solutions segment provides replacement filters for air and liquid filtration applications, such as air filtration systems, fuel, lube and hydraulic systems, emissions systems and sensors, indicators, and monitoring systems. This segment sells its products to original equipment manufacturers (OEMs) in the construction, mining, agriculture, and transportation markets; and to independent distributors, and OEM dealer networks. The Industrial Solutions segment offers dust, fume, and mist collectors; compressed air and industrial gasses purification systems; air inlet systems and filtration for power generation; ancillary components; replacement parts; performance monitoring and service; and hydraulic and lubricated rotating equipment applications, as well as gas and liquid filtration for industrial processes and connected services. It also sells aerospace and defense products comprising of air, fuel, lubrication and hydraulic filtration for fixed-wing and rotorcraft aerospace platforms, missile systems, and ground defense vehicles and naval platforms. This segment sells its products to various distributors, OEMs, and direct-to-consumer. The Life Sciences segment provides micro-environment gas and liquid filtration for food, beverage, and industrial processes; bioprocessing equipment that includes bioreactors and fermenters; and bioprocessing consumables, such as chromatography devices, reagents and filters, and polytetrafluoroethylene membrane-based products, as well as specialized air and gas filtration systems for applications, including hard disk drives, semi-conductor manufacturing and sensors, battery systems, and powertrain components to OEMs and various end-users. The company was founded in 1915 and is headquartered in Bloomington, Minnesota.",
+  "targetMeanPrice": 100.4,
+  "targetLowPrice": 79.0,
+  "targetHighPrice": 123.0,
+  "numberOfAnalystOpinions": 5,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.625,
+  "forwardPE": 17.900644,
+  "forwardEps": 4.85625,
+  "trailingEps": 3.85,
+  "earningsGrowth": 0.14,
+  "revenueGrowth": 0.08
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-07-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 2977200000.0,
+    "official": 2977200000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1453500000.0,
+    "official": 1453500000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 367000000.0,
+    "official": 367000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3690900000.0,
+    "official": 3690900000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:41:21+00:00",
  "years": [
   {
    "fy_end": "2020-07-31",
@@ -178,7 +220,9 @@
    "goodwill_and_intangibles": 445600000.0,
    "retained_earnings": 1845700000.0,
    "total_debt": 650400000.0,
-   "shares_out": 122553582.0
+   "shares_out": 122553582.0,
+   "normalized_ebitda": 547100000.0,
+   "normalized_income": 332800000.0
   },
   {
    "fy_end": "2023-07-31",
@@ -212,7 +256,9 @@
    "goodwill_and_intangibles": 669200000.0,
    "retained_earnings": 2087800000.0,
    "total_debt": 657500000.0,
-   "shares_out": 121114498.0
+   "shares_out": 121114498.0,
+   "normalized_ebitda": 580200000.0,
+   "normalized_income": 358800000.0
   },
   {
    "fy_end": "2024-07-31",
@@ -246,7 +292,9 @@
    "goodwill_and_intangibles": 650300000.0,
    "retained_earnings": 2377500000.0,
    "total_debt": 538300000.0,
-   "shares_out": 120110002.0
+   "shares_out": 120110002.0,
+   "normalized_ebitda": 655100000.0,
+   "normalized_income": 414000000.0
   },
   {
    "fy_end": "2025-07-31",
@@ -280,7 +328,10 @@
    "goodwill_and_intangibles": 591000000.0,
    "retained_earnings": 2610100000.0,
    "total_debt": 671200000.0,
-   "shares_out": 116042454.0
+   "shares_out": 116042454.0,
+   "unusual_items": -62000000.0,
+   "normalized_ebitda": 677900000.0,
+   "normalized_income": 413229175.13206
   },
   {
    "fy_end": "2026-07-31",

@@ -1,6 +1,6 @@
 {
  "ticker": "MA",
- "fetched_at": "2026-10-10T12:51:02+00:00",
+ "fetched_at": "2026-10-10T15:49:16+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 39800,
   "website": "https://www.mastercard.com",
-  "longBusinessSummary": "Mastercard Incorporated, a technology company, provides transaction processing and other payment-related products and services in the United States and internationally. The company offers products and services for account holders, merchants, financial institutions, digital partners, businesses, governments, and other organizations, such as programs that enable issuers to provide consumers with credits to defer payments; payment products and solutions that allow its customers to access funds in deposit and other accounts; prepaid programs services; consumer bill payment services; and commercial credit, debit, and prepaid payment products and solutions. It also provides solutions that enable businesses or governments to make payments to businesses, including Virtual Card Number, which is generated dynamically from an existing account and leverages the credit limit of the funding account; and a platform to optimize supplier payment enablement campaigns for financial institutions. In addition, the company offers Mastercard Move, which partners with digital messaging and payment platforms to enable consumers to send money directly within applications to other consumers; and partners with central banks, fintechs, and financial institutions, as well as enables various cross-border payment flows. Further, it provides security solutions; marketing, personalization, and issuer and merchant loyalty services; business and operational intelligence, advanced analytics and AI, consulting and agentic solutions, and payments and portfolio optimization; digital and authentication; processing and gateway solutions; and other solutions. The company offers payment solutions and services under the MasterCard, Maestro, and Cirrus names. Mastercard Incorporated was founded in 1966 and is headquartered in Purchase, New York."
+  "longBusinessSummary": "Mastercard Incorporated, a technology company, provides transaction processing and other payment-related products and services in the United States and internationally. The company offers products and services for account holders, merchants, financial institutions, digital partners, businesses, governments, and other organizations, such as programs that enable issuers to provide consumers with credits to defer payments; payment products and solutions that allow its customers to access funds in deposit and other accounts; prepaid programs services; consumer bill payment services; and commercial credit, debit, and prepaid payment products and solutions. It also provides solutions that enable businesses or governments to make payments to businesses, including Virtual Card Number, which is generated dynamically from an existing account and leverages the credit limit of the funding account; and a platform to optimize supplier payment enablement campaigns for financial institutions. In addition, the company offers Mastercard Move, which partners with digital messaging and payment platforms to enable consumers to send money directly within applications to other consumers; and partners with central banks, fintechs, and financial institutions, as well as enables various cross-border payment flows. Further, it provides security solutions; marketing, personalization, and issuer and merchant loyalty services; business and operational intelligence, advanced analytics and AI, consulting and agentic solutions, and payments and portfolio optimization; digital and authentication; processing and gateway solutions; and other solutions. The company offers payment solutions and services under the MasterCard, Maestro, and Cirrus names. Mastercard Incorporated was founded in 1966 and is headquartered in Purchase, New York.",
+  "targetMeanPrice": 668.0651,
+  "targetLowPrice": 550.0,
+  "targetHighPrice": 740.0,
+  "numberOfAnalystOpinions": 37,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.425,
+  "forwardPE": 25.576363,
+  "forwardEps": 23.03455,
+  "trailingEps": 18.64,
+  "earningsGrowth": 0.221,
+  "revenueGrowth": 0.141
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 54157000000.0,
+    "official": 54157000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 7737000000.0,
+    "official": 7737000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 14968000000.0,
+    "official": 14968000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 32791000000.0,
+    "official": 32791000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:49:16+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -194,7 +236,10 @@
    "goodwill_and_intangibles": 11381000000.0,
    "retained_earnings": 53607000000.0,
    "total_debt": 14023000000.0,
-   "shares_out": 956000000.0
+   "shares_out": 956000000.0,
+   "unusual_items": -542000000.0,
+   "normalized_ebitda": 13495000000.0,
+   "normalized_income": 10388532000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -228,7 +273,10 @@
    "goodwill_and_intangibles": 11746000000.0,
    "retained_earnings": 62564000000.0,
    "total_debt": 15681000000.0,
-   "shares_out": 934000000.0
+   "shares_out": 934000000.0,
+   "unusual_items": -409000000.0,
+   "normalized_ebitda": 15422000000.0,
+   "normalized_income": 11530789000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -262,7 +310,10 @@
    "goodwill_and_intangibles": 14646000000.0,
    "retained_earnings": 72907000000.0,
    "total_debt": 18226000000.0,
-   "shares_out": 913400000.0
+   "shares_out": 913400000.0,
+   "unusual_items": -447000000.0,
+   "normalized_ebitda": 17244000000.0,
+   "normalized_income": 13251256981.775272
   },
   {
    "fy_end": "2025-12-31",
@@ -296,7 +347,10 @@
    "goodwill_and_intangibles": 15114000000.0,
    "retained_earnings": 85035000000.0,
    "total_debt": 19000000000.0,
-   "shares_out": 894037665.0
+   "shares_out": 894037665.0,
+   "unusual_items": -380000000.0,
+   "normalized_ebitda": 20823000000.0,
+   "normalized_income": 15274159974.162989
   }
  ]
 }

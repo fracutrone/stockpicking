@@ -1,6 +1,6 @@
 {
  "ticker": "UMG.AS",
- "fetched_at": "2026-10-10T12:24:01+00:00",
+ "fetched_at": "2026-10-10T15:26:57+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "AMS",
   "fullTimeEmployees": null,
   "website": "https://www.universalmusic.com",
-  "longBusinessSummary": "Universal Music Group N.V. operates as a music company worldwide. The company operates through Recorded Music, Music Publishing, and Merchandising & Other segments. Its Recorded Music segment discovers and develops recording artists, as well as licenses, markets, promotes, distributes, and sells their music across various formats and platforms; and engages in the live events, sponsorship, film, and television operations. The Music Publishing segment discovers and develops songwriters, as well as owns and administers the copyright for musical compositions used in recordings, public performances, and related uses, such as films and advertisements. Its Merchandising & Other segment produces and sells artist and other branded products through various sales channels, including fashion retail, concert touring, and online, as well as offers brand rights management services. Universal Music Group N.V. was incorporated in 2020 and is headquartered in Hilversum, the Netherlands."
+  "longBusinessSummary": "Universal Music Group N.V. operates as a music company worldwide. The company operates through Recorded Music, Music Publishing, and Merchandising & Other segments. Its Recorded Music segment discovers and develops recording artists, as well as licenses, markets, promotes, distributes, and sells their music across various formats and platforms; and engages in the live events, sponsorship, film, and television operations. The Music Publishing segment discovers and develops songwriters, as well as owns and administers the copyright for musical compositions used in recordings, public performances, and related uses, such as films and advertisements. Its Merchandising & Other segment produces and sells artist and other branded products through various sales channels, including fashion retail, concert touring, and online, as well as offers brand rights management services. Universal Music Group N.V. was incorporated in 2020 and is headquartered in Hilversum, the Netherlands.",
+  "targetMeanPrice": 21.59,
+  "targetLowPrice": 12.0,
+  "targetHighPrice": 39.0,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.28571,
+  "forwardPE": 13.674115,
+  "forwardEps": 1.08965,
+  "trailingEps": 0.18,
+  "earningsGrowth": -0.844,
+  "revenueGrowth": 0.053
  },
  "governance": {
   "ceo": {
@@ -81,8 +92,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF NL",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 17456000000.0,
+    "official": 17456000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4543000000.0,
+    "official": 4543000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1533000000.0,
+    "official": 1533000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 12507000000.0,
+    "official": 12507000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:26:57+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -116,7 +159,10 @@
    "goodwill_and_intangibles": 6348000000.0,
    "retained_earnings": -30714000000.0,
    "total_debt": 2673000000.0,
-   "shares_out": 1813298507.0
+   "shares_out": 1813298507.0,
+   "unusual_items": -651000000.0,
+   "normalized_ebitda": 1996000000.0,
+   "normalized_income": 1363434000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -151,7 +197,10 @@
    "goodwill_and_intangibles": 6398000000.0,
    "retained_earnings": -30244000000.0,
    "total_debt": 2514000000.0,
-   "shares_out": 1821451206.0
+   "shares_out": 1821451206.0,
+   "unusual_items": 429000000.0,
+   "normalized_ebitda": 1787000000.0,
+   "normalized_income": 944114000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -186,7 +235,10 @@
    "goodwill_and_intangibles": 7605000000.0,
    "retained_earnings": -28803000000.0,
    "total_debt": 3192000000.0,
-   "shares_out": 1829066936.0
+   "shares_out": 1829066936.0,
+   "unusual_items": 1049000000.0,
+   "normalized_ebitda": 2366000000.0,
+   "normalized_income": 1321279000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -221,7 +273,10 @@
    "goodwill_and_intangibles": 7056000000.0,
    "retained_earnings": -28888000000.0,
    "total_debt": 3407000000.0,
-   "shares_out": 1833967537.0
+   "shares_out": 1833967537.0,
+   "unusual_items": 111000000.0,
+   "normalized_ebitda": 2558000000.0,
+   "normalized_income": 1451082000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "AM",
- "fetched_at": "2026-10-10T12:37:12+00:00",
+ "fetched_at": "2026-10-10T15:34:14+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 632,
   "website": "https://www.anteromidstream.com",
-  "longBusinessSummary": "Antero Midstream Corporation owns, operates, and develops midstream energy assets in the Appalachian Basin. It operates in two segments, Gathering and Processing, and Water Handling. The gathering and processing segment includes a network of gathering pipelines and compressor stations that collect and process natural gas and NGLs from Antero Resources' wells in West Virginia and Ohio. The Water Handling segment delivers water from sources, including the Ohio River, local reservoirs, and various regional waterways; other fluid handling services, which include transfer and disposal; uses water handling systems to transport flowback and produced water; and buried pipelines, surface pipelines, and water storage facilities, as well as pumping stations and blending facilities. Antero Midstream Corporation was founded in 2002 and is headquartered in Denver, Colorado."
+  "longBusinessSummary": "Antero Midstream Corporation owns, operates, and develops midstream energy assets in the Appalachian Basin. It operates in two segments, Gathering and Processing, and Water Handling. The gathering and processing segment includes a network of gathering pipelines and compressor stations that collect and process natural gas and NGLs from Antero Resources' wells in West Virginia and Ohio. The Water Handling segment delivers water from sources, including the Ohio River, local reservoirs, and various regional waterways; other fluid handling services, which include transfer and disposal; uses water handling systems to transport flowback and produced water; and buried pipelines, surface pipelines, and water storage facilities, as well as pumping stations and blending facilities. Antero Midstream Corporation was founded in 2002 and is headquartered in Denver, Colorado.",
+  "targetMeanPrice": 24.0,
+  "targetLowPrice": 22.0,
+  "targetHighPrice": 26.0,
+  "numberOfAnalystOpinions": 7,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 13.084101,
+  "forwardEps": 1.61188,
+  "trailingEps": 0.83,
+  "earningsGrowth": -0.08,
+  "revenueGrowth": 0.083
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "goodwill": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 5884116000.0,
+    "official": 5884116000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1972041000.0,
+    "official": 1972041000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 413163000.0,
+    "official": 413163000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1259098000.0,
+    "official": 1188426000.0,
+    "diff": 0.059467
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:34:14+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -178,7 +220,10 @@
    "goodwill_and_intangibles": 1286103000.0,
    "retained_earnings": 82793000.0,
    "total_debt": 3361282000.0,
-   "shares_out": 478497000.0
+   "shares_out": 478497000.0,
+   "unusual_items": -1451000.0,
+   "normalized_ebitda": 837569000.0,
+   "normalized_income": 327308799.047181
   },
   {
    "fy_end": "2023-12-31",
@@ -210,7 +255,10 @@
    "goodwill_and_intangibles": 1215431000.0,
    "retained_earnings": 100447000.0,
    "total_debt": 3213216000.0,
-   "shares_out": 478497000.0
+   "shares_out": 478497000.0,
+   "unusual_items": -146000.0,
+   "normalized_ebitda": 924195000.0,
+   "normalized_income": 371892872.0
   },
   {
    "fy_end": "2024-12-31",
@@ -241,7 +289,10 @@
    "goodwill_and_intangibles": 1144759000.0,
    "retained_earnings": 90547000.0,
    "total_debt": 3116958000.0,
-   "shares_out": 479422000.0
+   "shares_out": 479422000.0,
+   "unusual_items": -14423000.0,
+   "normalized_ebitda": 980743000.0,
+   "normalized_income": 411435213.0
   },
   {
    "fy_end": "2025-12-31",
@@ -273,7 +324,10 @@
    "goodwill_and_intangibles": 1074087000.0,
    "retained_earnings": 14776000.0,
    "total_debt": 3222530000.0,
-   "shares_out": 474060000.0
+   "shares_out": 474060000.0,
+   "unusual_items": -94118000.0,
+   "normalized_ebitda": 1053700000.0,
+   "normalized_income": 483092674.0
   }
  ]
 }

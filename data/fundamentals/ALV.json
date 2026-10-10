@@ -1,6 +1,6 @@
 {
  "ticker": "ALV",
- "fetched_at": "2026-10-10T12:37:11+00:00",
+ "fetched_at": "2026-10-10T15:34:12+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 56515,
   "website": "https://www.autoliv.com",
-  "longBusinessSummary": "Autoliv, Inc., through its subsidiaries, develops, manufactures, and supplies passive safety systems to the automotive industry in the Americas, Europe, China, and Asia. The company offers passive safety systems, such as modules and components for frontal-impact airbag protection systems, side-impact airbag protection systems, pedestrian protection systems, steering wheels, inflator technologies, battery cut-off switches, and seatbelts. It also develops and manufactures mobility safety solutions, including passive safety systems for commercial vehicles; and safety solutions for riders of motorcycles and bikes. The company primarily serves car manufacturers. Autoliv, Inc. was founded in 1953 and is based in Stockholm, Sweden."
+  "longBusinessSummary": "Autoliv, Inc., through its subsidiaries, develops, manufactures, and supplies passive safety systems to the automotive industry in the Americas, Europe, China, and Asia. The company offers passive safety systems, such as modules and components for frontal-impact airbag protection systems, side-impact airbag protection systems, pedestrian protection systems, steering wheels, inflator technologies, battery cut-off switches, and seatbelts. It also develops and manufactures mobility safety solutions, including passive safety systems for commercial vehicles; and safety solutions for riders of motorcycles and bikes. The company primarily serves car manufacturers. Autoliv, Inc. was founded in 1953 and is based in Stockholm, Sweden.",
+  "targetMeanPrice": 134.25,
+  "targetLowPrice": 118.0,
+  "targetHighPrice": 148.0,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.05556,
+  "forwardPE": 9.425407,
+  "forwardEps": 11.64512,
+  "trailingEps": 8.48,
+  "earningsGrowth": -0.375,
+  "revenueGrowth": 0.033
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 8644000000.0,
+    "official": 8644000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2572000000.0,
+    "official": 2572000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 735000000.0,
+    "official": 735000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 10815000000.0,
+    "official": 10815000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:34:12+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -203,7 +245,9 @@
    "goodwill_and_intangibles": 1382000000.0,
    "retained_earnings": 2310000000.0,
    "total_debt": 1765000000.0,
-   "shares_out": 86200000.0
+   "shares_out": 86200000.0,
+   "normalized_ebitda": 1026000000.0,
+   "normalized_income": 423000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -237,7 +281,9 @@
    "goodwill_and_intangibles": 1385000000.0,
    "retained_earnings": 2289000000.0,
    "total_debt": 1862000000.0,
-   "shares_out": 82642524.0
+   "shares_out": 82642524.0,
+   "normalized_ebitda": 1083000000.0,
+   "normalized_income": 488000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -271,7 +317,9 @@
    "goodwill_and_intangibles": 1375000000.0,
    "retained_earnings": 2105000000.0,
    "total_debt": 1909000000.0,
-   "shares_out": 77712479.0
+   "shares_out": 77712479.0,
+   "normalized_ebitda": 1370000000.0,
+   "normalized_income": 646000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -305,7 +353,10 @@
    "goodwill_and_intangibles": 1387000000.0,
    "retained_earnings": 2308000000.0,
    "total_debt": 2153000000.0,
-   "shares_out": 74705356.0
+   "shares_out": 74705356.0,
+   "unusual_items": -1000000.0,
+   "normalized_ebitda": 1497000000.0,
+   "normalized_income": 735746450.30426
   }
  ]
 }

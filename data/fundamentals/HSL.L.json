@@ -1,6 +1,6 @@
 {
  "ticker": "HSL.L",
- "fetched_at": "2026-10-10T12:02:29+00:00",
+ "fetched_at": "2026-10-10T14:55:53+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -49,8 +60,15 @@
   "equity": "yahoo",
   "receivables": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T14:55:53+00:00",
  "years": [
   {
    "fy_end": "2023-05-31",
@@ -70,7 +88,8 @@
    "equity": 675387000.0,
    "receivables": 506000.0,
    "total_debt": 100439000.0,
-   "shares_out": 74701796.0
+   "shares_out": 74701796.0,
+   "normalized_income": -109287000.0
   },
   {
    "fy_end": "2024-05-31",
@@ -90,7 +109,8 @@
    "equity": 747340000.0,
    "receivables": 0.0,
    "total_debt": 105522000.0,
-   "shares_out": 74505131.0
+   "shares_out": 74505131.0,
+   "normalized_income": 93345000.0
   },
   {
    "fy_end": "2025-05-31",
@@ -110,7 +130,8 @@
    "equity": 634324000.0,
    "receivables": 2542000.0,
    "total_debt": 69924000.0,
-   "shares_out": 68487974.0
+   "shares_out": 68487974.0,
+   "normalized_income": -44994000.0
   },
   {
    "fy_end": "2026-05-31",
@@ -130,7 +151,8 @@
    "equity": 558580000.0,
    "receivables": 904000.0,
    "total_debt": 64803000.0,
-   "shares_out": 55588912.0
+   "shares_out": 55588912.0,
+   "normalized_income": 53647000.0
   }
  ]
 }

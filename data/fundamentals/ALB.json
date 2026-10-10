@@ -1,6 +1,6 @@
 {
  "ticker": "ALB",
- "fetched_at": "2026-10-10T12:36:57+00:00",
+ "fetched_at": "2026-10-10T15:34:00+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 7800,
   "website": "https://www.albemarle.com",
-  "longBusinessSummary": "Albemarle Corporation provides energy storage solutions worldwide. It operates through three segments: Energy Storage, Specialties, and Ketjen. The Energy Storage segment offers lithium compounds, including lithium carbonate, lithium hydroxide, and lithium chloride for use in lithium batteries used in consumer electronics and electric vehicles; power grids and solar panels; high-performance greases; and specialty glass used in consumer appliances and electronics. The Specialties segment provides bromine and highly specialized lithium solutions for various industries, such as energy, mobility, connectivity, and health comprising fire safety compounds; bromine-based specialty chemical products, including elemental bromine, alkyl bromides, inorganic bromides, brominated powdered activated carbon, and various bromine fine chemicals; lithium specialties, such as butyllithium and lithium aluminum hydride; cesium products for the chemical and pharmaceutical industries; and zirconium, barium, and titanium products for pyrotechnical applications, including airbag initiators. This segment also provides organic synthesis processes in the areas of steroid chemistry and vitamins, and various life science applications, as well as intermediates for the pharmaceutical industry; technical services, including handling and use of reactive lithium products; and recycling services for lithium-containing by-products. The Ketjen segment offers clean fuels technologies, including hydroprocessing catalysts together with isomerization and alkylation catalysts; fluidized catalytic cracking catalysts and additives; and performance catalyst solutions comprising organometallics and curatives. It serves the grid storage, automotive, aerospace, conventional energy, electronics, construction, agriculture and food, pharmaceuticals, and medical device industries. Albemarle Corporation was founded in 1887 and is headquartered in Charlotte, North Carolina."
+  "longBusinessSummary": "Albemarle Corporation provides energy storage solutions worldwide. It operates through three segments: Energy Storage, Specialties, and Ketjen. The Energy Storage segment offers lithium compounds, including lithium carbonate, lithium hydroxide, and lithium chloride for use in lithium batteries used in consumer electronics and electric vehicles; power grids and solar panels; high-performance greases; and specialty glass used in consumer appliances and electronics. The Specialties segment provides bromine and highly specialized lithium solutions for various industries, such as energy, mobility, connectivity, and health comprising fire safety compounds; bromine-based specialty chemical products, including elemental bromine, alkyl bromides, inorganic bromides, brominated powdered activated carbon, and various bromine fine chemicals; lithium specialties, such as butyllithium and lithium aluminum hydride; cesium products for the chemical and pharmaceutical industries; and zirconium, barium, and titanium products for pyrotechnical applications, including airbag initiators. This segment also provides organic synthesis processes in the areas of steroid chemistry and vitamins, and various life science applications, as well as intermediates for the pharmaceutical industry; technical services, including handling and use of reactive lithium products; and recycling services for lithium-containing by-products. The Ketjen segment offers clean fuels technologies, including hydroprocessing catalysts together with isomerization and alkylation catalysts; fluidized catalytic cracking catalysts and additives; and performance catalyst solutions comprising organometallics and curatives. It serves the grid storage, automotive, aerospace, conventional energy, electronics, construction, agriculture and food, pharmaceuticals, and medical device industries. Albemarle Corporation was founded in 1887 and is headquartered in Charlotte, North Carolina.",
+  "targetMeanPrice": 168.564,
+  "targetLowPrice": 83.28,
+  "targetHighPrice": 225.0,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.95455,
+  "forwardPE": 8.966334,
+  "forwardEps": 11.29447,
+  "trailingEps": 0.27,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.311
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 16374211000.0,
+    "official": 16374211000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 9533365000.0,
+    "official": 9533365000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -510628000.0,
+    "official": -510628000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 5142733000.0,
+    "official": 5142733000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:34:00+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -200,7 +242,10 @@
    "goodwill_and_intangibles": 1905497000.0,
    "retained_earnings": 5601277000.0,
    "total_debt": 3217100000.0,
-   "shares_out": 117168000.0
+   "shares_out": 117168000.0,
+   "unusual_items": -8400000.0,
+   "normalized_ebitda": 2865658000.0,
+   "normalized_income": 2696867730.140492
   },
   {
    "fy_end": "2023-12-31",
@@ -234,7 +279,10 @@
    "goodwill_and_intangibles": 1891587000.0,
    "retained_earnings": 6987015000.0,
    "total_debt": 4166763000.0,
-   "shares_out": 117356000.0
+   "shares_out": 117356000.0,
+   "unusual_items": 61699000.0,
+   "normalized_ebitda": 731055000.0,
+   "normalized_income": 1524733790.0
   },
   {
    "fy_end": "2024-12-31",
@@ -268,7 +316,10 @@
    "goodwill_and_intangibles": 1813467000.0,
    "retained_earnings": 5481692000.0,
    "total_debt": 3516165000.0,
-   "shares_out": 117559774.0
+   "shares_out": 117559774.0,
+   "unusual_items": -1134316000.0,
+   "normalized_ebitda": 124748000.0,
+   "normalized_income": -283339360.0
   },
   {
    "fy_end": "2025-12-31",
@@ -302,7 +353,10 @@
    "goodwill_and_intangibles": 1713890000.0,
    "retained_earnings": 4613676000.0,
    "total_debt": 3193541000.0,
-   "shares_out": 117715875.0
+   "shares_out": 117715875.0,
+   "unusual_items": -434369000.0,
+   "normalized_ebitda": 748625000.0,
+   "normalized_income": -167476490.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "PRU.L",
- "fetched_at": "2026-10-10T12:15:06+00:00",
+ "fetched_at": "2026-10-10T15:12:32+00:00",
  "region": "Europa",
  "statement_currency": "USD",
  "info": {
@@ -11,8 +11,8 @@
   "country": "Hong Kong",
   "currency": "GBp",
   "financialCurrency": "USD",
-  "marketCap": 22091771904,
-  "sharesOutstanding": 2459012919,
+  "marketCap": 22084431872,
+  "sharesOutstanding": 2458195745,
   "floatShares": 2357460400,
   "heldPercentInsiders": 0.00306,
   "heldPercentInstitutions": 0.62368,
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 15338,
   "website": "https://www.prudentialplc.com",
-  "longBusinessSummary": "Prudential plc, through its subsidiaries, provides life and health insurance, and asset management solutions to individuals in Asia and Africa. It offers savings and investments products; and wealth, health, and protection products. The company was founded in 1848 and is headquartered in Central, Hong Kong."
+  "longBusinessSummary": "Prudential plc, through its subsidiaries, provides life and health insurance, and asset management solutions to individuals in Asia and Africa. It offers savings and investments products; and wealth, health, and protection products. The company was founded in 1848 and is headquartered in Central, Hong Kong.",
+  "targetMeanPrice": 1420.037,
+  "targetLowPrice": 1200.0,
+  "targetHighPrice": 1610.0,
+  "numberOfAnalystOpinions": 13,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.5,
+  "forwardPE": 8.694222,
+  "forwardEps": 1.03333,
+  "trailingEps": 1.06,
+  "earningsGrowth": -0.23,
+  "revenueGrowth": -0.018
  },
  "governance": {
   "ceo": {
@@ -68,8 +79,17 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "status": "valuta diversa",
+  "items": {},
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:12:32+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -95,7 +115,9 @@
    "goodwill_and_intangibles": 4774000000.0,
    "retained_earnings": 10653000000.0,
    "total_debt": 5076000000.0,
-   "shares_out": 2749669380.0
+   "shares_out": 2749669380.0,
+   "unusual_items": 55000000.0,
+   "normalized_income": -1052925000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -118,7 +140,9 @@
    "goodwill_and_intangibles": 4882000000.0,
    "retained_earnings": 11928000000.0,
    "total_debt": 4874000000.0,
-   "shares_out": 2743520756.0
+   "shares_out": 2743520756.0,
+   "unusual_items": -22000000.0,
+   "normalized_income": 1718960896.518836
   },
   {
    "fy_end": "2024-12-31",
@@ -141,7 +165,9 @@
    "goodwill_and_intangibles": 4672000000.0,
    "retained_earnings": 11906000000.0,
    "total_debt": 4722000000.0,
-   "shares_out": 2642621888.0
+   "shares_out": 2642621888.0,
+   "unusual_items": -71000000.0,
+   "normalized_income": 2343064679.986454
   },
   {
    "fy_end": "2025-12-31",
@@ -164,7 +190,9 @@
    "goodwill_and_intangibles": 4860000000.0,
    "retained_earnings": 14086000000.0,
    "total_debt": 5290000000.0,
-   "shares_out": 2531613779.0
+   "shares_out": 2531613779.0,
+   "unusual_items": 1515000000.0,
+   "normalized_income": 2715040072.859745
   }
  ]
 }

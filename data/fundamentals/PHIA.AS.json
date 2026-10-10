@@ -1,6 +1,6 @@
 {
  "ticker": "PHIA.AS",
- "fetched_at": "2026-10-10T12:14:12+00:00",
+ "fetched_at": "2026-10-10T15:11:34+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "AMS",
   "fullTimeEmployees": 63670,
   "website": "https://www.philips.com",
-  "longBusinessSummary": "Koninklijke Philips N.V. operates as a health technology company in North America, the Greater China, and internationally. It operates through Diagnosis & Treatment, Connected Care, and Personal Health segments. The company provides diagnostic imaging solutions, includes ultrasound business unit, magnetic resonance imaging, computed tomography, and diagnostic x-ray; Image Guided Therapy, including image guided therapy systems and image guided therapy devices. It also offers monitoring, enterprise informatics, and sleep and respiratory care, as well as personal health. Koninklijke Philips N.V. has strategic alliance with WellSpan Health to advanced imaging and diagnostics technology products and platforms. The company was formerly known as Koninklijke Philips Electronics N.V. and changed its name to Koninklijke Philips N.V. in May 2013. Koninklijke Philips N.V. was founded in 1891 and is headquartered in Amsterdam, the Netherlands."
+  "longBusinessSummary": "Koninklijke Philips N.V. operates as a health technology company in North America, the Greater China, and internationally. It operates through Diagnosis & Treatment, Connected Care, and Personal Health segments. The company provides diagnostic imaging solutions, includes ultrasound business unit, magnetic resonance imaging, computed tomography, and diagnostic x-ray; Image Guided Therapy, including image guided therapy systems and image guided therapy devices. It also offers monitoring, enterprise informatics, and sleep and respiratory care, as well as personal health. Koninklijke Philips N.V. has strategic alliance with WellSpan Health to advanced imaging and diagnostics technology products and platforms. The company was formerly known as Koninklijke Philips Electronics N.V. and changed its name to Koninklijke Philips N.V. in May 2013. Koninklijke Philips N.V. was founded in 1891 and is headquartered in Amsterdam, the Netherlands.",
+  "targetMeanPrice": 26.845,
+  "targetLowPrice": 21.0,
+  "targetHighPrice": 35.0,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.4,
+  "forwardPE": 12.935874,
+  "forwardEps": 1.68369,
+  "trailingEps": 1.15,
+  "earningsGrowth": 0.614,
+  "revenueGrowth": 0.005
  },
  "governance": {
   "ceo": {
@@ -81,8 +92,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF NL",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 26944000000.0,
+    "official": 26944000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 10957000000.0,
+    "official": 10957000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 895000000.0,
+    "official": 895000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 17834000000.0,
+    "official": 17834000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:11:34+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -117,7 +160,10 @@
    "goodwill_and_intangibles": 13764000000.0,
    "retained_earnings": 6832000000.0,
    "total_debt": 7342000000.0,
-   "shares_out": 952311077.0
+   "shares_out": 952311077.0,
+   "unusual_items": -1330000000.0,
+   "normalized_ebitda": 1445000000.0,
+   "normalized_income": -377450000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -152,7 +198,10 @@
    "goodwill_and_intangibles": 13068000000.0,
    "retained_earnings": 5402000000.0,
    "total_debt": 7293000000.0,
-   "shares_out": 937371816.0
+   "shares_out": 937371816.0,
+   "unusual_items": 6000000.0,
+   "normalized_ebitda": 1035000000.0,
+   "normalized_income": -460980000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -187,7 +236,10 @@
    "goodwill_and_intangibles": 13366000000.0,
    "retained_earnings": 3650000000.0,
    "total_debt": 7491000000.0,
-   "shares_out": 925009074.0
+   "shares_out": 925009074.0,
+   "unusual_items": -9000000.0,
+   "normalized_ebitda": 1858000000.0,
+   "normalized_income": -837322000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -221,7 +273,10 @@
    "goodwill_and_intangibles": 11840000000.0,
    "retained_earnings": 3575000000.0,
    "total_debt": 7811000000.0,
-   "shares_out": 951288934.0
+   "shares_out": 951288934.0,
+   "unusual_items": -41000000.0,
+   "normalized_ebitda": 2641000000.0,
+   "normalized_income": 930324000.0
   }
  ]
 }

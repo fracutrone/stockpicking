@@ -1,6 +1,6 @@
 {
  "ticker": "CHWY",
- "fetched_at": "2026-10-10T12:40:51+00:00",
+ "fetched_at": "2026-10-10T15:39:35+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 18000,
   "website": "https://www.chewy.com",
-  "longBusinessSummary": "Chewy, Inc., together with its subsidiaries, engages in the e-commerce business in the United States. It offers pet food and treats, pet supplies and pet medications, and other pet-health products, as well as pet services. The company serves its customer through its retail websites and mobile applications, including Autoship subscription program. Chewy, Inc. was founded in 2010 and is based in Plantation, Florida."
+  "longBusinessSummary": "Chewy, Inc., together with its subsidiaries, engages in the e-commerce business in the United States. It offers pet food and treats, pet supplies and pet medications, and other pet-health products, as well as pet services. The company serves its customer through its retail websites and mobile applications, including Autoship subscription program. Chewy, Inc. was founded in 2010 and is based in Plantation, Florida.",
+  "targetMeanPrice": 28.63636,
+  "targetLowPrice": 21.0,
+  "targetHighPrice": 36.0,
+  "numberOfAnalystOpinions": 22,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.88462,
+  "forwardPE": 10.136184,
+  "forwardEps": 1.86954,
+  "trailingEps": 0.65,
+  "earningsGrowth": 0.415,
+  "revenueGrowth": 0.073
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "retained_earnings": "sec",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "intangibles": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-01-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3366400000.0,
+    "official": 3366400000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 497900000.0,
+    "official": 497900000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 222800000.0,
+    "official": 222800000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 12601500000.0,
+    "official": 12601500000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:39:35+00:00",
  "years": [
   {
    "fy_end": "2020-02-02",
@@ -196,7 +238,10 @@
    "goodwill_and_intangibles": 39442000.0,
    "retained_earnings": -2015232000.0,
    "total_debt": 471821000.0,
-   "shares_out": 425348887.0
+   "shares_out": 425348887.0,
+   "unusual_items": -13166000.0,
+   "normalized_ebitda": 151726000.0,
+   "normalized_income": 62406700.0
   },
   {
    "fy_end": "2024-01-28",
@@ -231,7 +276,10 @@
    "goodwill_and_intangibles": 39442000.0,
    "retained_earnings": -1975652000.0,
    "total_debt": 527795000.0,
-   "shares_out": 431776402.0
+   "shares_out": 431776402.0,
+   "unusual_items": 13400000.0,
+   "normalized_ebitda": 148200000.0,
+   "normalized_income": 28598600.0
   },
   {
    "fy_end": "2025-02-02",
@@ -266,7 +314,10 @@
    "goodwill_and_intangibles": 39400000.0,
    "retained_earnings": -1582900000.0,
    "total_debt": 502400000.0,
-   "shares_out": 413591436.0
+   "shares_out": 413591436.0,
+   "unusual_items": 4000000.0,
+   "normalized_ebitda": 267800000.0,
+   "normalized_income": 389540000.0
   },
   {
    "fy_end": "2026-02-01",
@@ -300,7 +351,10 @@
    "goodwill_and_intangibles": 39400000.0,
    "retained_earnings": -1360100000.0,
    "total_debt": 518700000.0,
-   "shares_out": 415125373.0
+   "shares_out": 415125373.0,
+   "unusual_items": -6200000.0,
+   "normalized_ebitda": 403400000.0,
+   "normalized_income": 228045200.0
   }
  ]
 }

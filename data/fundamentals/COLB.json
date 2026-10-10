@@ -1,6 +1,6 @@
 {
  "ticker": "COLB",
- "fetched_at": "2026-10-10T12:41:41+00:00",
+ "fetched_at": "2026-10-10T15:40:14+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 6005,
   "website": "https://www.columbiabankingsystem.com",
-  "longBusinessSummary": "Columbia Banking System, Inc. operates as the bank holding company for Columbia Bank that provides banking, private banking, mortgage, and other financial services in the United States. The company offers deposit products, including business, non-interest-bearing checking, interest-bearing checking and savings, money market, insured cash sweep and other investment sweep solutions, and certificates of deposit. It also provides commercial lending products, such as commercial lines of credit and term loans, accounts receivable and inventory financing, international trade finance, commercial property loans, multifamily loans, equipment loans, commercial equipment leases, real estate construction loans, permanent financing, small business administration program financing, and capital markets services. In addition, the company offers wealth management, comprising financial planning, investment, trust, insurance, and private banking solutions, as well as treasury management, which includes digital and mobile banking solutions, ACH, wires, positive pay, remote deposit capture, integrated payments, integrated receivables, lockbox, cash vault, real-time payments, commercial card, foreign exchange, trade and supply chain finance, international banking related products, and merchant services. Further, it provides residential real estate loans and consumer loans. The company serves corporate, institutional, small business, and individual customers in the United States. Columbia Banking System, Inc. was founded in 1953 and is based in Tacoma, Washington."
+  "longBusinessSummary": "Columbia Banking System, Inc. operates as the bank holding company for Columbia Bank that provides banking, private banking, mortgage, and other financial services in the United States. The company offers deposit products, including business, non-interest-bearing checking, interest-bearing checking and savings, money market, insured cash sweep and other investment sweep solutions, and certificates of deposit. It also provides commercial lending products, such as commercial lines of credit and term loans, accounts receivable and inventory financing, international trade finance, commercial property loans, multifamily loans, equipment loans, commercial equipment leases, real estate construction loans, permanent financing, small business administration program financing, and capital markets services. In addition, the company offers wealth management, comprising financial planning, investment, trust, insurance, and private banking solutions, as well as treasury management, which includes digital and mobile banking solutions, ACH, wires, positive pay, remote deposit capture, integrated payments, integrated receivables, lockbox, cash vault, real-time payments, commercial card, foreign exchange, trade and supply chain finance, international banking related products, and merchant services. Further, it provides residential real estate loans and consumer loans. The company serves corporate, institutional, small business, and individual customers in the United States. Columbia Banking System, Inc. was founded in 1953 and is based in Tacoma, Washington.",
+  "targetMeanPrice": 33.42857,
+  "targetLowPrice": 31.0,
+  "targetHighPrice": 36.0,
+  "numberOfAnalystOpinions": 14,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.28571,
+  "forwardPE": 8.59093,
+  "forwardEps": 3.30232,
+  "trailingEps": 2.55,
+  "earningsGrowth": 0.002,
+  "revenueGrowth": 0.351
  },
  "governance": {
   "ceo": {
@@ -78,8 +89,38 @@
   "retained_earnings": "sec",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "noninterest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 66832000000.0,
+    "official": 66832000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 7840000000.0,
+    "official": 7840000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 550000000.0,
+    "official": 550000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2301000000.0,
+    "official": 177000000.0,
+    "diff": 12.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:40:14+00:00",
  "years": [
   {
    "fy_end": "2021-12-31",
@@ -128,7 +169,9 @@
    "goodwill_and_intangibles": 189762000.0,
    "retained_earnings": -543803000.0,
    "total_debt": 1409321000.0,
-   "shares_out": 217054317.0
+   "shares_out": 217054317.0,
+   "unusual_items": -17356000.0,
+   "normalized_income": 349716932.0
   },
   {
    "fy_end": "2023-12-31",
@@ -154,7 +197,9 @@
    "goodwill_and_intangibles": 1742156000.0,
    "retained_earnings": -467571000.0,
    "total_debt": 4504911000.0,
-   "shares_out": 208584667.0
+   "shares_out": 208584667.0,
+   "unusual_items": -172000000.0,
+   "normalized_income": 476280000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -181,7 +226,9 @@
    "goodwill_and_intangibles": 1513000000.0,
    "retained_earnings": -237000000.0,
    "total_debt": 3539000000.0,
-   "shares_out": 209536323.0
+   "shares_out": 209536323.0,
+   "unusual_items": -24000000.0,
+   "normalized_income": 551832000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -208,7 +255,9 @@
    "goodwill_and_intangibles": 2194000000.0,
    "retained_earnings": -26000000.0,
    "total_debt": 3635000000.0,
-   "shares_out": 295422000.0
+   "shares_out": 295422000.0,
+   "unusual_items": -203000000.0,
+   "normalized_income": 703468000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "MTB",
- "fetched_at": "2026-10-10T12:52:18+00:00",
+ "fetched_at": "2026-10-10T15:50:23+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 21662,
   "website": "https://www.mtb.com",
-  "longBusinessSummary": "M&T Bank Corporation operates as a bank holding company for Manufacturers and Traders Trust Company and Wilmington Trust, National Association that provides retail and commercial banking products and services in the United States. The company operates through three segments: Commercial Bank, Retail Bank, and Institutional Services and Wealth Management. It offers a range of credit products and banking services, such as commercial lending and leasing, letters of credits, deposit products, cash management services, commercial real estate loans, and credit facilities secured by various commercial real estate properties to middle-market and large commercial customers. The company also provides customers deposit products, including demand, savings and time accounts, and other services; automobile and recreational finance loans, home equity loans and lines of credit, credit cards, and other loan products, as well as residential mortgage and real estate loans; business loans, cash management, payroll, direct deposit, and merchant credit card services to consumers and small businesses through branch network, telephone banking, internet banking, and automated teller machines. In addition, it offers trustee, agency, investment management, and administrative services; personal trust, planning and advisory, fiduciary, asset management, family office, and other services; and investment products, including mutual funds and annuities, and other services for corporations and institutions, investment bankers, corporate tax, finance and legal executives, and other institutional clients. M&T Bank Corporation was founded in 1856 and is headquartered in Buffalo, New York."
+  "longBusinessSummary": "M&T Bank Corporation operates as a bank holding company for Manufacturers and Traders Trust Company and Wilmington Trust, National Association that provides retail and commercial banking products and services in the United States. The company operates through three segments: Commercial Bank, Retail Bank, and Institutional Services and Wealth Management. It offers a range of credit products and banking services, such as commercial lending and leasing, letters of credits, deposit products, cash management services, commercial real estate loans, and credit facilities secured by various commercial real estate properties to middle-market and large commercial customers. The company also provides customers deposit products, including demand, savings and time accounts, and other services; automobile and recreational finance loans, home equity loans and lines of credit, credit cards, and other loan products, as well as residential mortgage and real estate loans; business loans, cash management, payroll, direct deposit, and merchant credit card services to consumers and small businesses through branch network, telephone banking, internet banking, and automated teller machines. In addition, it offers trustee, agency, investment management, and administrative services; personal trust, planning and advisory, fiduciary, asset management, family office, and other services; and investment products, including mutual funds and annuities, and other services for corporations and institutions, investment bankers, corporate tax, finance and legal executives, and other institutional clients. M&T Bank Corporation was founded in 1856 and is headquartered in Buffalo, New York.",
+  "targetMeanPrice": 251.775,
+  "targetLowPrice": 224.0,
+  "targetHighPrice": 301.0,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.68182,
+  "forwardPE": 10.333957,
+  "forwardEps": 21.04615,
+  "trailingEps": 18.92,
+  "earningsGrowth": 0.255,
+  "revenueGrowth": 0.062
  },
  "governance": {
   "ceo": {
@@ -78,8 +89,38 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "noninterest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 213510000000.0,
+    "official": 213510000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 29177000000.0,
+    "official": 29177000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2851000000.0,
+    "official": 2851000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 9632000000.0,
+    "official": 1657000000.0,
+    "diff": 4.812915
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:50:23+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -168,7 +209,9 @@
    "goodwill_and_intangibles": 8699000000.0,
    "retained_earnings": 15754000000.0,
    "total_debt": 7520000000.0,
-   "shares_out": 169285391.0
+   "shares_out": 169285391.0,
+   "unusual_items": 136000000.0,
+   "normalized_income": 1888281776.416539
   },
   {
    "fy_end": "2023-12-31",
@@ -196,7 +239,9 @@
    "goodwill_and_intangibles": 8612000000.0,
    "retained_earnings": 17524000000.0,
    "total_debt": 13517000000.0,
-   "shares_out": 166136481.0
+   "shares_out": 166136481.0,
+   "unusual_items": 225000000.0,
+   "normalized_income": 2570675000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -223,7 +268,9 @@
    "goodwill_and_intangibles": 8559000000.0,
    "retained_earnings": 19079000000.0,
    "total_debt": 13665000000.0,
-   "shares_out": 165513959.0
+   "shares_out": 165513959.0,
+   "unusual_items": -34000000.0,
+   "normalized_income": 2614583685.800604
   },
   {
    "fy_end": "2025-12-31",
@@ -250,7 +297,9 @@
    "goodwill_and_intangibles": 8529000000.0,
    "retained_earnings": 20882000000.0,
    "total_debt": 13060000000.0,
-   "shares_out": 151832266.0
+   "shares_out": 151832266.0,
+   "unusual_items": 38000000.0,
+   "normalized_income": 2821656013.001083
   }
  ]
 }

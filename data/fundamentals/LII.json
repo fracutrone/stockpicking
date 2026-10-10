@@ -1,6 +1,6 @@
 {
  "ticker": "LII",
- "fetched_at": "2026-10-10T12:50:29+00:00",
+ "fetched_at": "2026-10-10T15:48:45+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 5400,
   "website": "https://www.lennox.com",
-  "longBusinessSummary": "Lennox International Inc., together with its subsidiaries, designs, manufactures, and markets products for the heating, ventilation, air conditioning, and refrigeration markets in the United States, Canada, and internationally. The Home Comfort Solutions segment provides furnaces, air conditioners, heat pumps, packaged heating and cooling systems, indoor air quality equipment, comfort control products, and replacement parts and supplies; residential heating, ventilation, cooling equipment, and air conditioning; and evaporator coils, air handlers, and unit heaters under the Lennox, Dave Lennox Signature Collection, Armstrong Air, Ducane, AirEase, Concord, MagicPak, Advanced Distributor Products, Allied, Elite Series, Supco, Linebacker, Elite series, Merit Series, Comfort Sync, Healthy Climate, Healthy Climate Solutions, iComfort, ComfortSense, and Lennox Stores names. The Building Climate Solutions segment offers unitary heating and air conditioning equipment, controls, installation and service of commercial heating and cooling equipment, variable refrigerant flow commercial, curb, curb adapters, drop box diffusers, HVAC recycling, and salvage service. This segment also provides condensing units, unit coolers, fluid coolers, air cooled condensers, process chillers, compressorized racks, and replacement parts and supplies under the Lennox, Model L, CORE, Enlight, Xion, Energence, Prodigy, Strategos, Raider, Lennox VRF, Lennox National Account Services, Allied Commercial, Duro Dyne, Dyne-Tite, Durozone, Elite, AES Industries, Mechanical, Heatcraft Worldwide Refrigeration, Bohn, MAGNA, Larkin, Climate Control, Chandler Refrigeration, IntelliGen, and Interlink brands. The company also offers small package units, rooftop units, chillers, air handlers, and fan coils. It sells its products and services through direct sales, distributors, and company-owned parts and supplies stores. The company was founded in 1895 and is headquartered in Richardson, Texas."
+  "longBusinessSummary": "Lennox International Inc., together with its subsidiaries, designs, manufactures, and markets products for the heating, ventilation, air conditioning, and refrigeration markets in the United States, Canada, and internationally. The Home Comfort Solutions segment provides furnaces, air conditioners, heat pumps, packaged heating and cooling systems, indoor air quality equipment, comfort control products, and replacement parts and supplies; residential heating, ventilation, cooling equipment, and air conditioning; and evaporator coils, air handlers, and unit heaters under the Lennox, Dave Lennox Signature Collection, Armstrong Air, Ducane, AirEase, Concord, MagicPak, Advanced Distributor Products, Allied, Elite Series, Supco, Linebacker, Elite series, Merit Series, Comfort Sync, Healthy Climate, Healthy Climate Solutions, iComfort, ComfortSense, and Lennox Stores names. The Building Climate Solutions segment offers unitary heating and air conditioning equipment, controls, installation and service of commercial heating and cooling equipment, variable refrigerant flow commercial, curb, curb adapters, drop box diffusers, HVAC recycling, and salvage service. This segment also provides condensing units, unit coolers, fluid coolers, air cooled condensers, process chillers, compressorized racks, and replacement parts and supplies under the Lennox, Model L, CORE, Enlight, Xion, Energence, Prodigy, Strategos, Raider, Lennox VRF, Lennox National Account Services, Allied Commercial, Duro Dyne, Dyne-Tite, Durozone, Elite, AES Industries, Mechanical, Heatcraft Worldwide Refrigeration, Bohn, MAGNA, Larkin, Climate Control, Chandler Refrigeration, IntelliGen, and Interlink brands. The company also offers small package units, rooftop units, chillers, air handlers, and fan coils. It sells its products and services through direct sales, distributors, and company-owned parts and supplies stores. The company was founded in 1895 and is headquartered in Richardson, Texas.",
+  "targetMeanPrice": 472.64285,
+  "targetLowPrice": 375.0,
+  "targetHighPrice": 600.0,
+  "numberOfAnalystOpinions": 14,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.61111,
+  "forwardPE": 13.747337,
+  "forwardEps": 25.92793,
+  "trailingEps": 22.68,
+  "earningsGrowth": 0.001,
+  "revenueGrowth": 0.03
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 4081800000.0,
+    "official": 4081800000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1163100000.0,
+    "official": 1163100000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 805800000.0,
+    "official": 805800000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 5195300000.0,
+    "official": 5195300000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:48:45+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -207,7 +249,10 @@
    "goodwill_and_intangibles": 186300000.0,
    "retained_earnings": 3070600000.0,
    "total_debt": 814200000.0,
-   "shares_out": 35469937.0
+   "shares_out": 35469937.0,
+   "unusual_items": -8000000.0,
+   "normalized_ebitda": 741500000.0,
+   "normalized_income": 503556000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -241,7 +286,10 @@
    "goodwill_and_intangibles": 222100000.0,
    "retained_earnings": 3613900000.0,
    "total_debt": 1293100000.0,
-   "shares_out": 35582094.0
+   "shares_out": 35582094.0,
+   "unusual_items": -63000000.0,
+   "normalized_ebitda": 943900000.0,
+   "normalized_income": 641606820.950061
   },
   {
    "fy_end": "2024-12-31",
@@ -276,7 +324,10 @@
    "goodwill_and_intangibles": 265100000.0,
    "retained_earnings": 4262700000.0,
    "total_debt": 833100000.0,
-   "shares_out": 35596211.0
+   "shares_out": 35596211.0,
+   "unusual_items": -13900000.0,
+   "normalized_ebitda": 1152500000.0,
+   "normalized_income": 822381058.635181
   },
   {
    "fy_end": "2025-12-31",
@@ -311,7 +362,10 @@
    "goodwill_and_intangibles": 770200000.0,
    "retained_earnings": 4891100000.0,
    "total_debt": 1370100000.0,
-   "shares_out": 34796050.0
+   "shares_out": 34796050.0,
+   "unusual_items": -17700000.0,
+   "normalized_ebitda": 1173400000.0,
+   "normalized_income": 820101600.0
   }
  ]
 }

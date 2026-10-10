@@ -1,6 +1,6 @@
 {
  "ticker": "AVGO",
- "fetched_at": "2026-10-10T12:38:14+00:00",
+ "fetched_at": "2026-10-10T15:35:13+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 33000,
   "website": "https://www.broadcom.com",
-  "longBusinessSummary": "Broadcom Inc. designs, develops, and supplies various semiconductor devices and infrastructure software solutions internationally. The company operates in two segments: Semiconductor Solutions and Infrastructure Software. The company offers networking connectivity, such as custom silicon solutions, ethernet switching & routing, ethernet NIC controllers, physical layer devices, and fiber optic components; wireless device connectivity, including RF semiconductor devices, connectivity solutions, custom touch controllers, and inductive charging ASICS; servers and storage system solutions, such as PCIE switches, SAS & raid products, fibre channel products, and HDD & SSD solutions; broadband solutions, includes set-top box, and broadband access; and industrial. The company also offers a private cloud software portfolio, including the VMware Cloud Foundation, Edge, vSphere foundation, telco cloud platform, private AI, live recovery, application networking and security, application development and data services; mainframe software, such as AIOPS & automation, database & data management, DEVX & DEVOPS, cybersecurity & compliance management, beyond code programs, foundational & open mainframe solutions; cybersecurity, such as endpoint, network, information, application security, and identity & access management; enterprise software; and fc san management. Its products are used in various applications in enterprise and data center networking, including artificial intelligence networking and connectivity, home connectivity, set-top boxes, broadband access, telecommunication equipment, wireless device and base stations, data center servers and storage systems, factory automation, power generation and alternative energy systems, and electronic displays. Broadcom Inc. was founded in 1961 and is headquartered in Palo Alto, California."
+  "longBusinessSummary": "Broadcom Inc. designs, develops, and supplies various semiconductor devices and infrastructure software solutions internationally. The company operates in two segments: Semiconductor Solutions and Infrastructure Software. The company offers networking connectivity, such as custom silicon solutions, ethernet switching & routing, ethernet NIC controllers, physical layer devices, and fiber optic components; wireless device connectivity, including RF semiconductor devices, connectivity solutions, custom touch controllers, and inductive charging ASICS; servers and storage system solutions, such as PCIE switches, SAS & raid products, fibre channel products, and HDD & SSD solutions; broadband solutions, includes set-top box, and broadband access; and industrial. The company also offers a private cloud software portfolio, including the VMware Cloud Foundation, Edge, vSphere foundation, telco cloud platform, private AI, live recovery, application networking and security, application development and data services; mainframe software, such as AIOPS & automation, database & data management, DEVX & DEVOPS, cybersecurity & compliance management, beyond code programs, foundational & open mainframe solutions; cybersecurity, such as endpoint, network, information, application security, and identity & access management; enterprise software; and fc san management. Its products are used in various applications in enterprise and data center networking, including artificial intelligence networking and connectivity, home connectivity, set-top boxes, broadband access, telecommunication equipment, wireless device and base stations, data center servers and storage systems, factory automation, power generation and alternative energy systems, and electronic displays. Broadcom Inc. was founded in 1961 and is headquartered in Palo Alto, California.",
+  "targetMeanPrice": 531.3149,
+  "targetLowPrice": 215.88,
+  "targetHighPrice": 715.0,
+  "numberOfAnalystOpinions": 47,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.26,
+  "forwardPE": 18.642021,
+  "forwardEps": 19.39382,
+  "trailingEps": 7.83,
+  "earningsGrowth": 2.153,
+  "revenueGrowth": 0.855
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-10-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 171092000000.0,
+    "official": 171092000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 81292000000.0,
+    "official": 81292000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 23126000000.0,
+    "official": 23126000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 63887000000.0,
+    "official": 63887000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:35:13+00:00",
  "years": [
   {
    "fy_end": "2019-11-03",
@@ -206,7 +248,10 @@
    "goodwill_and_intangibles": 50725000000.0,
    "retained_earnings": 1604000000.0,
    "total_debt": 39075000000.0,
-   "shares_out": 4180000000.0
+   "shares_out": 4180000000.0,
+   "unusual_items": -226000000.0,
+   "normalized_ebitda": 19381000000.0,
+   "normalized_income": 11704050000.0
   },
   {
    "fy_end": "2023-10-29",
@@ -240,7 +285,10 @@
    "goodwill_and_intangibles": 47520000000.0,
    "retained_earnings": 2682000000.0,
    "total_debt": 37621000000.0,
-   "shares_out": 4140000000.0
+   "shares_out": 4140000000.0,
+   "unusual_items": -233000000.0,
+   "normalized_ebitda": 20787000000.0,
+   "normalized_income": 14299389000.0
   },
   {
    "fy_end": "2024-11-03",
@@ -274,7 +322,10 @@
    "goodwill_and_intangibles": 138456000000.0,
    "retained_earnings": 0.0,
    "total_debt": 66295000000.0,
-   "shares_out": 4686000000.0
+   "shares_out": 4686000000.0,
+   "unusual_items": -1545000000.0,
+   "normalized_ebitda": 25424000000.0,
+   "normalized_income": 7128990000.0
   },
   {
    "fy_end": "2025-11-02",
@@ -308,7 +359,10 @@
    "goodwill_and_intangibles": 130074000000.0,
    "retained_earnings": 9761000000.0,
    "total_debt": 61984000000.0,
-   "shares_out": 4741000000.0
+   "shares_out": 4741000000.0,
+   "unusual_items": -608000000.0,
+   "normalized_ebitda": 35322000000.0,
+   "normalized_income": 23578534400.0
   }
  ]
 }

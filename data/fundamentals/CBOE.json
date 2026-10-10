@@ -1,6 +1,6 @@
 {
  "ticker": "CBOE",
- "fetched_at": "2026-10-10T12:40:01+00:00",
+ "fetched_at": "2026-10-10T15:38:53+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "BTS",
   "fullTimeEmployees": 1661,
   "website": "https://www.cboe.com",
-  "longBusinessSummary": "Cboe Global Markets, Inc., through its subsidiaries, operates as a derivatives and securities exchange network that delivers trading, clearing, and investment solutions in the United States and internationally. It operates through five segments: Options, North American Equities, Europe and Asia Pacific, Futures, and Global FX. The Options segment includes options on market indices, stocks of individual corporations, and exchange-traded products (ETPs), such as exchange-traded funds (ETFs) and exchange-traded notes (ETNs). This segment also offers trading in listed options through a single system. The North American Equities segment comprises U.S. equities and ETP transaction services. This segment also includes listing services on Cboe Canada, ETP listings on BZX, the Cboe Global Markets, Inc. common stock listing, and applicable market data. The Europe and Asia Pacific segment provides pan-European derivatives transaction services; ETPs, including exchange-traded funds, exchange-traded notes, and exchange-traded commodities; international depository receipts; and an ETP listings business on regulated markets and clearing activities, as well as equities services. The Futures segment offers transaction services, including trading in VIX futures and other futures products, the licensing of proprietary market data, and access and capacity services. The Global FX segment provides institutional foreign exchange (FX) trading and non-deliverable forward FX transaction services. The company also provides trading solutions and products in multiple asset classes, including equities, derivatives, and FX across North America, Europe, and Asia Pacific. It has strategic relationships with S&P Dow Jones Indices, LLC; Frank Russell Company; and FTSE International Limited. The company was formerly known as CBOE Holdings, Inc. and changed its name to Cboe Global Markets, Inc. in October 2017. Cboe Global Markets, Inc. was founded in 1973 and is headquartered in Chicago, Illinois."
+  "longBusinessSummary": "Cboe Global Markets, Inc., through its subsidiaries, operates as a derivatives and securities exchange network that delivers trading, clearing, and investment solutions in the United States and internationally. It operates through five segments: Options, North American Equities, Europe and Asia Pacific, Futures, and Global FX. The Options segment includes options on market indices, stocks of individual corporations, and exchange-traded products (ETPs), such as exchange-traded funds (ETFs) and exchange-traded notes (ETNs). This segment also offers trading in listed options through a single system. The North American Equities segment comprises U.S. equities and ETP transaction services. This segment also includes listing services on Cboe Canada, ETP listings on BZX, the Cboe Global Markets, Inc. common stock listing, and applicable market data. The Europe and Asia Pacific segment provides pan-European derivatives transaction services; ETPs, including exchange-traded funds, exchange-traded notes, and exchange-traded commodities; international depository receipts; and an ETP listings business on regulated markets and clearing activities, as well as equities services. The Futures segment offers transaction services, including trading in VIX futures and other futures products, the licensing of proprietary market data, and access and capacity services. The Global FX segment provides institutional foreign exchange (FX) trading and non-deliverable forward FX transaction services. The company also provides trading solutions and products in multiple asset classes, including equities, derivatives, and FX across North America, Europe, and Asia Pacific. It has strategic relationships with S&P Dow Jones Indices, LLC; Frank Russell Company; and FTSE International Limited. The company was formerly known as CBOE Holdings, Inc. and changed its name to Cboe Global Markets, Inc. in October 2017. Cboe Global Markets, Inc. was founded in 1973 and is headquartered in Chicago, Illinois.",
+  "targetMeanPrice": 320.46667,
+  "targetLowPrice": 288.0,
+  "targetHighPrice": 358.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.66667,
+  "forwardPE": 20.010881,
+  "forwardEps": 15.19973,
+  "trailingEps": 12.83,
+  "earningsGrowth": 0.502,
+  "revenueGrowth": 0.229
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 9305300000.0,
+    "official": 9305300000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 5138300000.0,
+    "official": 5138300000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1100000000.0,
+    "official": 1100000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 4714200000.0,
+    "official": 4714200000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:38:53+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -203,7 +245,10 @@
    "goodwill_and_intangibles": 4839900000.0,
    "retained_earnings": 2171100000.0,
    "total_debt": 1742000000.0,
-   "shares_out": 105951199.0
+   "shares_out": 105951199.0,
+   "unusual_items": -473600000.0,
+   "normalized_ebitda": 1133300000.0,
+   "normalized_income": 609144000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -237,7 +282,10 @@
    "goodwill_and_intangibles": 4745400000.0,
    "retained_earnings": 2525200000.0,
    "total_debt": 1439200000.0,
-   "shares_out": 105527815.0
+   "shares_out": 105527815.0,
+   "unusual_items": 32100000.0,
+   "normalized_ebitda": 1235900000.0,
+   "normalized_income": 738063300.0
   },
   {
    "fy_end": "2024-12-31",
@@ -271,7 +319,10 @@
    "goodwill_and_intangibles": 4547900000.0,
    "retained_earnings": 2815900000.0,
    "total_debt": 1441000000.0,
-   "shares_out": 104686478.0
+   "shares_out": 104686478.0,
+   "unusual_items": -53300000.0,
+   "normalized_ebitda": 1321600000.0,
+   "normalized_income": 802529800.0
   },
   {
    "fy_end": "2025-12-31",
@@ -305,7 +356,10 @@
    "goodwill_and_intangibles": 4494800000.0,
    "retained_earnings": 3543600000.0,
    "total_debt": 1442900000.0,
-   "shares_out": 104647739.0
+   "shares_out": 104647739.0,
+   "unusual_items": 45800000.0,
+   "normalized_ebitda": 1695500000.0,
+   "normalized_income": 1067848400.0
   }
  ]
 }

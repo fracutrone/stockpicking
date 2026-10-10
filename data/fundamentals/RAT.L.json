@@ -1,6 +1,6 @@
 {
  "ticker": "RAT.L",
- "fetched_at": "2026-10-10T12:15:48+00:00",
+ "fetched_at": "2026-10-10T15:14:22+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 3300,
   "website": "https://www.rathbones.com",
-  "longBusinessSummary": "Rathbones Group Plc, together with its subsidiaries, provides wealth management, asset management, and related services in the United Kingdom and Channel Islands. The company operates in two segments: Wealth Management and Asset Management. Its services include discretionary investment management; financial planning and advisory services comprising trust, tax, and legal services; international investment services; ethical and sustainable investments; and personal injury and court of protection services. The company also offers banking services, including currency and payment services, fixed interest term deposits, and loans. It serves individuals, families, financial advisers, professional intermediaries, entrepreneurs, private clients, charities, trustees, and professional partners. The company was formerly known as Rathbone Brothers Plc and changed its name to Rathbones Group Plc in December 2021. Rathbones Group Plc was founded in 1742 and is based in London, the United Kingdom."
+  "longBusinessSummary": "Rathbones Group Plc, together with its subsidiaries, provides wealth management, asset management, and related services in the United Kingdom and Channel Islands. The company operates in two segments: Wealth Management and Asset Management. Its services include discretionary investment management; financial planning and advisory services comprising trust, tax, and legal services; international investment services; ethical and sustainable investments; and personal injury and court of protection services. The company also offers banking services, including currency and payment services, fixed interest term deposits, and loans. It serves individuals, families, financial advisers, professional intermediaries, entrepreneurs, private clients, charities, trustees, and professional partners. The company was formerly known as Rathbone Brothers Plc and changed its name to Rathbones Group Plc in December 2021. Rathbones Group Plc was founded in 1742 and is based in London, the United Kingdom.",
+  "targetMeanPrice": 1999.444,
+  "targetLowPrice": 1360.0,
+  "targetHighPrice": 2560.0,
+  "numberOfAnalystOpinions": 9,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.22222,
+  "forwardPE": 8.603929,
+  "forwardEps": 1.78988,
+  "trailingEps": 1.12,
+  "earningsGrowth": 0.183,
+  "revenueGrowth": 0.085
  },
  "governance": {
   "ceo": {
@@ -63,8 +74,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 4290100000.0,
+    "official": 4290100000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1359400000.0,
+    "official": 1359400000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 65500000.0,
+    "official": 65500000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 895900000.0,
+    "official": 895900000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T15:14:22+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -91,7 +133,9 @@
    "goodwill_and_intangibles": 356200000.0,
    "retained_earnings": 297200000.0,
    "total_debt": 90400000.0,
-   "shares_out": 63394837.0
+   "shares_out": 63394837.0,
+   "unusual_items": -13500000.0,
+   "normalized_income": 59314000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -118,7 +162,9 @@
    "goodwill_and_intangibles": 1025300000.0,
    "retained_earnings": 263700000.0,
    "total_debt": 114800000.0,
-   "shares_out": 103622480.0
+   "shares_out": 103622480.0,
+   "unusual_items": -44300000.0,
+   "normalized_income": 66339300.0
   },
   {
    "fy_end": "2024-12-31",
@@ -145,7 +191,9 @@
    "goodwill_and_intangibles": 982700000.0,
    "retained_earnings": 279800000.0,
    "total_debt": 84700000.0,
-   "shares_out": 103459175.0
+   "shares_out": 103459175.0,
+   "unusual_items": -83400000.0,
+   "normalized_income": 120377200.0
   },
   {
    "fy_end": "2025-12-31",
@@ -172,7 +220,9 @@
    "goodwill_and_intangibles": 947000000.0,
    "retained_earnings": 578500000.0,
    "total_debt": 114800000.0,
-   "shares_out": 103430336.0
+   "shares_out": 103430336.0,
+   "unusual_items": -39900000.0,
+   "normalized_income": 141586600.0
   }
  ]
 }

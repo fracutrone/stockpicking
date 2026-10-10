@@ -1,6 +1,6 @@
 {
  "ticker": "ETN",
- "fetched_at": "2026-10-10T12:44:44+00:00",
+ "fetched_at": "2026-10-10T15:43:06+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 97303,
   "website": "https://www.eaton.com",
-  "longBusinessSummary": "Eaton Corporation plc operates as a power management company in the United States, Canada, Latin America, Europe, and the Asia Pacific. It operates through Electrical Americas, Electrical Global, Aerospace, Vehicle, and eMobility segments. The company offers electrical and industrial components, power distribution and assemblies, residential products, single- and three-phase power quality and connectivity products, wiring devices, circuit protection products, utility power distribution products, and power reliability equipment; and hazardous duty electrical equipment, emergency lighting, fire detection, intrinsically safe explosion-proof instrumentation, and structural support systems. It also provides pumps, motors, hydraulic power units, hoses and fittings, and electro-hydraulic pumps; valves, cylinders, electronic controls, electromechanical actuators, sensors, aircraft flap and slat systems, and nose wheel steering systems; hose and thermoplastic tubing products, fittings, adapters, couplings, and sealing and ducting products; air-to-air refueling systems, fuel pumps, fuel inerting products, sensors, and adapters and regulators; oxygen generation systems, payload carriages, and thermal management products; wiring connectors and cables; and hydraulic and bag filters, strainers and cartridges, and golf grips for manufacturers of commercial and military aircraft, related aftermarket customers, and industrial applications. In addition, the company offers transmissions, clutches, hybrid power systems, superchargers, engine valves and valve actuation systems, locking and limited slip differentials, transmission controls, and fuel vapor components for the vehicle industry; and voltage inverters, converters, fuses, circuit protection units, vehicle controls, power distribution systems, fuel tank isolation valves, and commercial vehicle hybrid systems. The company was formerly known as Abeiron Limited. The company was founded in 1911 and is based in Dublin, Ireland."
+  "longBusinessSummary": "Eaton Corporation plc operates as a power management company in the United States, Canada, Latin America, Europe, and the Asia Pacific. It operates through Electrical Americas, Electrical Global, Aerospace, Vehicle, and eMobility segments. The company offers electrical and industrial components, power distribution and assemblies, residential products, single- and three-phase power quality and connectivity products, wiring devices, circuit protection products, utility power distribution products, and power reliability equipment; and hazardous duty electrical equipment, emergency lighting, fire detection, intrinsically safe explosion-proof instrumentation, and structural support systems. It also provides pumps, motors, hydraulic power units, hoses and fittings, and electro-hydraulic pumps; valves, cylinders, electronic controls, electromechanical actuators, sensors, aircraft flap and slat systems, and nose wheel steering systems; hose and thermoplastic tubing products, fittings, adapters, couplings, and sealing and ducting products; air-to-air refueling systems, fuel pumps, fuel inerting products, sensors, and adapters and regulators; oxygen generation systems, payload carriages, and thermal management products; wiring connectors and cables; and hydraulic and bag filters, strainers and cartridges, and golf grips for manufacturers of commercial and military aircraft, related aftermarket customers, and industrial applications. In addition, the company offers transmissions, clutches, hybrid power systems, superchargers, engine valves and valve actuation systems, locking and limited slip differentials, transmission controls, and fuel vapor components for the vehicle industry; and voltage inverters, converters, fuses, circuit protection units, vehicle controls, power distribution systems, fuel tank isolation valves, and commercial vehicle hybrid systems. The company was formerly known as Abeiron Limited. The company was founded in 1911 and is based in Dublin, Ireland.",
+  "targetMeanPrice": 482.895,
+  "targetLowPrice": 333.0,
+  "targetHighPrice": 534.0,
+  "numberOfAnalystOpinions": 26,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.57143,
+  "forwardPE": 26.446348,
+  "forwardEps": 16.2461,
+  "trailingEps": 9.83,
+  "earningsGrowth": -0.159,
+  "revenueGrowth": 0.214
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 41251000000.0,
+    "official": 41251000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 19425000000.0,
+    "official": 19425000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 4087000000.0,
+    "official": 4087000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 27448000000.0,
+    "official": 27448000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:43:06+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -167,7 +209,8 @@
    "goodwill": 14751000000.0,
    "intangibles": 5855000000.0,
    "retained_earnings": 7594000000.0,
-   "total_debt": 8579000000.0
+   "total_debt": 8579000000.0,
+   "unusual_items": 617000000.0
   },
   {
    "fy_end": "2022-12-31",
@@ -201,7 +244,10 @@
    "goodwill_and_intangibles": 20282000000.0,
    "retained_earnings": 8468000000.0,
    "total_debt": 8655000000.0,
-   "shares_out": 397800000.0
+   "shares_out": 397800000.0,
+   "unusual_items": 24000000.0,
+   "normalized_ebitda": 3985000000.0,
+   "normalized_income": 2441672000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -236,7 +282,10 @@
    "goodwill_and_intangibles": 20069000000.0,
    "retained_earnings": 10305000000.0,
    "total_debt": 9269000000.0,
-   "shares_out": 399400000.0
+   "shares_out": 399400000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 4904000000.0,
+   "normalized_income": 3218000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -271,7 +320,10 @@
    "goodwill_and_intangibles": 19370000000.0,
    "retained_earnings": 10096000000.0,
    "total_debt": 9152000000.0,
-   "shares_out": 392900000.0
+   "shares_out": 392900000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 5617000000.0,
+   "normalized_income": 3794000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -306,7 +358,9 @@
    "goodwill_and_intangibles": 20823000000.0,
    "retained_earnings": 10702000000.0,
    "total_debt": 9895000000.0,
-   "shares_out": 387900000.0
+   "shares_out": 387900000.0,
+   "normalized_ebitda": 6179000000.0,
+   "normalized_income": 4087000000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "EDIN.L",
- "fetched_at": "2026-10-10T11:55:19+00:00",
+ "fetched_at": "2026-10-10T14:44:10+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -49,8 +60,15 @@
   "equity": "yahoo",
   "receivables": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T14:44:10+00:00",
  "years": [
   {
    "fy_end": "2023-03-31",
@@ -70,7 +88,8 @@
    "equity": 1139344000.0,
    "receivables": 0.0,
    "total_debt": 120000000.0,
-   "shares_out": 165476525.0
+   "shares_out": 165476525.0,
+   "normalized_income": 42243000.0
   },
   {
    "fy_end": "2024-03-31",
@@ -90,7 +109,8 @@
    "equity": 1135047000.0,
    "receivables": 9766000.0,
    "total_debt": 120000000.0,
-   "shares_out": 151491525.0
+   "shares_out": 151491525.0,
+   "normalized_income": 131705000.0
   },
   {
    "fy_end": "2025-03-31",
@@ -110,7 +130,8 @@
    "equity": 1125946000.0,
    "receivables": 0.0,
    "total_debt": 120000000.0,
-   "shares_out": 144321025.0
+   "shares_out": 144321025.0,
+   "normalized_income": 85448000.0
   },
   {
    "fy_end": "2026-03-31",
@@ -130,7 +151,8 @@
    "equity": 1059432000.0,
    "receivables": 2495000.0,
    "total_debt": 120000000.0,
-   "shares_out": 131653025.0
+   "shares_out": 131653025.0,
+   "normalized_income": 78144000.0
   }
  ]
 }

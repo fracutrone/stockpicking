@@ -1,6 +1,6 @@
 {
  "ticker": "COKE",
- "fetched_at": "2026-10-10T12:41:38+00:00",
+ "fetched_at": "2026-10-10T15:40:13+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 15000,
   "website": "https://www.cokeconsolidated.com",
-  "longBusinessSummary": "Coca-Cola Consolidated, Inc., together with its subsidiaries, manufactures, markets, and distributes nonalcoholic beverages in the United States. It operates through Nonalcoholic Beverages and All Other segments. The company offers sparkling beverages; still beverages, including energy products; noncarbonated beverages, such as bottled water, ready to drink coffee and tea, enhanced water, juices, and sports drinks. It also sells its products to other Coca-Cola bottlers; and post-mix products that are dispensed through equipment, which mix the fountain syrups with carbonated or still water enabling fountain retailers to sell finished products to consumers in cups or glasses. In addition, the company manufactures and distributes various other beverage brands comprising Dr Pepper and Monster Energy. It sells and distributes its products directly to customers, including grocery stores, mass merchandise stores, club stores, convenience stores and drug stores, restaurants, schools, amusement parks, and recreational facilities, as well as vending machine outlets. The company was formerly known as Coca-Cola Bottling Co. Consolidated and changed its name to Coca-Cola Consolidated, Inc. in January 2019. Coca-Cola Consolidated, Inc. was founded in 1902 and is headquartered in Charlotte, North Carolina."
+  "longBusinessSummary": "Coca-Cola Consolidated, Inc., together with its subsidiaries, manufactures, markets, and distributes nonalcoholic beverages in the United States. It operates through Nonalcoholic Beverages and All Other segments. The company offers sparkling beverages; still beverages, including energy products; noncarbonated beverages, such as bottled water, ready to drink coffee and tea, enhanced water, juices, and sports drinks. It also sells its products to other Coca-Cola bottlers; and post-mix products that are dispensed through equipment, which mix the fountain syrups with carbonated or still water enabling fountain retailers to sell finished products to consumers in cups or glasses. In addition, the company manufactures and distributes various other beverage brands comprising Dr Pepper and Monster Energy. It sells and distributes its products directly to customers, including grocery stores, mass merchandise stores, club stores, convenience stores and drug stores, restaurants, schools, amusement parks, and recreational facilities, as well as vending machine outlets. The company was formerly known as Coca-Cola Bottling Co. Consolidated and changed its name to Coca-Cola Consolidated, Inc. in January 2019. Coca-Cola Consolidated, Inc. was founded in 1902 and is headquartered in Charlotte, North Carolina.",
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 5.039548,
+  "forwardEps": 38.94,
+  "trailingEps": 7.53,
+  "earningsGrowth": 0.107,
+  "revenueGrowth": 0.106
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 4302998000.0,
+    "official": 4302998000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": -739723000.0,
+    "official": -739723000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 570582000.0,
+    "official": 570582000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 7228055000.0,
+    "official": 7228055000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:40:13+00:00",
  "years": [
   {
    "fy_end": "2019-12-29",
@@ -196,7 +238,10 @@
    "goodwill_and_intangibles": 1017103000.0,
    "retained_earnings": 1112462000.0,
    "total_debt": 600000000.0,
-   "shares_out": 93736890.0
+   "shares_out": 93736890.0,
+   "unusual_items": -32301000.0,
+   "normalized_ebitda": 803770000.0,
+   "normalized_income": 454319148.0
   },
   {
    "fy_end": "2023-12-31",
@@ -230,7 +275,10 @@
    "goodwill_and_intangibles": 990545000.0,
    "retained_earnings": 1352111000.0,
    "total_debt": 599159000.0,
-   "shares_out": 93736890.0
+   "shares_out": 93736890.0,
+   "unusual_items": -159354000.0,
+   "normalized_ebitda": 1170771000.0,
+   "normalized_income": 525181482.0
   },
   {
    "fy_end": "2024-12-31",
@@ -265,7 +313,10 @@
    "goodwill_and_intangibles": 964033000.0,
    "retained_earnings": 1395183000.0,
    "total_debt": 1786348000.0,
-   "shares_out": 87177840.0
+   "shares_out": 87177840.0,
+   "unusual_items": -59166000.0,
+   "normalized_ebitda": 1111459000.0,
+   "normalized_income": 676848674.0
   },
   {
    "fy_end": "2025-12-31",
@@ -300,7 +351,10 @@
    "goodwill_and_intangibles": 937520000.0,
    "retained_earnings": -824046000.0,
    "total_debt": 2786009000.0,
-   "shares_out": 66564294.0
+   "shares_out": 66564294.0,
+   "unusual_items": -131901000.0,
+   "normalized_ebitda": 1166027000.0,
+   "normalized_income": 667924938.0
   }
  ]
 }

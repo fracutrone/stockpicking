@@ -1,6 +1,6 @@
 {
  "ticker": "DY",
- "fetched_at": "2026-10-10T12:43:46+00:00",
+ "fetched_at": "2026-10-10T15:42:13+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 19556,
   "website": "https://www.dycomind.com",
-  "longBusinessSummary": "Dycom Industries, Inc. provides specialty contracting services to the digital infrastructure, telecommunications infrastructure, and utility industries in the United States. It operates through Communications and Building Systems segments. The company offers engineering services to telecommunications providers, including the planning and design of aerial, underground, and buried fiber optic, copper, and coaxial cable systems; placement of cables, related structures, and drop lines for telephone companies and cable multiple system operators; program and project management, and inspection personnel; and wireless networks in connection with the deployment of macro cell and new small cell sites. It also provides construction, maintenance, and installation services, such as placement and splicing of copper, fiber, and coaxial cables; tower construction, lines and antenna installation, foundation and equipment pad construction, and small cell site placement for wireless carriers, as well as equipment installation and material fabrication, and site testing services; underground facility locating services, including locating telephone, cable television, power, water, sewer, and gas lines for utility companies; installation and maintenance of customer premise equipment for electric and gas utilities, and other customers. Dycom Industries, Inc. was incorporated in 1969 and is based in West Palm Beach, Florida."
+  "longBusinessSummary": "Dycom Industries, Inc. provides specialty contracting services to the digital infrastructure, telecommunications infrastructure, and utility industries in the United States. It operates through Communications and Building Systems segments. The company offers engineering services to telecommunications providers, including the planning and design of aerial, underground, and buried fiber optic, copper, and coaxial cable systems; placement of cables, related structures, and drop lines for telephone companies and cable multiple system operators; program and project management, and inspection personnel; and wireless networks in connection with the deployment of macro cell and new small cell sites. It also provides construction, maintenance, and installation services, such as placement and splicing of copper, fiber, and coaxial cables; tower construction, lines and antenna installation, foundation and equipment pad construction, and small cell site placement for wireless carriers, as well as equipment installation and material fabrication, and site testing services; underground facility locating services, including locating telephone, cable television, power, water, sewer, and gas lines for utility companies; installation and maintenance of customer premise equipment for electric and gas utilities, and other customers. Dycom Industries, Inc. was incorporated in 1969 and is based in West Palm Beach, Florida.",
+  "targetMeanPrice": 520.9091,
+  "targetLowPrice": 375.0,
+  "targetHighPrice": 625.0,
+  "numberOfAnalystOpinions": 11,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.09091,
+  "forwardPE": 12.954812,
+  "forwardEps": 20.78224,
+  "trailingEps": 10.95,
+  "earningsGrowth": 0.144,
+  "revenueGrowth": 0.456
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-01-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 5979182000.0,
+    "official": 5979182000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1859136000.0,
+    "official": 1859136000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 281189000.0,
+    "official": 281189000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 5545912000.0,
+    "official": 5545912000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:42:13+00:00",
  "years": [
   {
    "fy_end": "2020-01-25",
@@ -194,7 +236,10 @@
    "goodwill_and_intangibles": 359111000.0,
    "retained_earnings": 855089000.0,
    "total_debt": 824867000.0,
-   "shares_out": 29350021.0
+   "shares_out": 29350021.0,
+   "unusual_items": 16759000.0,
+   "normalized_ebitda": 348162000.0,
+   "normalized_income": 128981147.883101
   },
   {
    "fy_end": "2024-01-27",
@@ -228,7 +273,10 @@
    "goodwill_and_intangibles": 420945000.0,
    "retained_earnings": 1040289000.0,
    "total_debt": 808915000.0,
-   "shares_out": 29091278.0
+   "shares_out": 29091278.0,
+   "unusual_items": 28348000.0,
+   "normalized_ebitda": 479346000.0,
+   "normalized_income": 197662000.0
   },
   {
    "fy_end": "2025-01-25",
@@ -262,7 +310,10 @@
    "goodwill_and_intangibles": 550076000.0,
    "retained_earnings": 1220447000.0,
    "total_debt": 943212000.0,
-   "shares_out": 28978949.0
+   "shares_out": 28978949.0,
+   "unusual_items": 35496000.0,
+   "normalized_ebitda": 531859000.0,
+   "normalized_income": 206507032.0
   },
   {
    "fy_end": "2026-01-31",
@@ -296,7 +347,10 @@
    "goodwill_and_intangibles": 2369383000.0,
    "retained_earnings": 1467487000.0,
    "total_debt": 2814497000.0,
-   "shares_out": 29969648.0
+   "shares_out": 29969648.0,
+   "unusual_items": 19440000.0,
+   "normalized_ebitda": 684513000.0,
+   "normalized_income": 266336840.0
   }
  ]
 }

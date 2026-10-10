@@ -1,6 +1,6 @@
 {
  "ticker": "IFF",
- "fetched_at": "2026-10-10T12:48:42+00:00",
+ "fetched_at": "2026-10-10T15:47:03+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 21500,
   "website": "https://www.iff.com",
-  "longBusinessSummary": "International Flavors & Fragrances Inc., together with its subsidiaries, manufactures and markets food, beverage, health and biosciences, scent, and complementary adjacent products in the United States, and internationally. It operates in through Taste, Food Ingredients, Health & Biosciences, and Scent segments. The Taste segment offers savory products such as soups, sauces, meat, fish, poultry, snacks; beverages consists of juice drinks, carbonated or flavored beverages, spirits; sweets comprising, bakery products, candy, cereal, chewing gum; and dairy products, such as yogurt, ice cream, cheese, and other products, as well as spices and seasoning ingredients for meat, food service, convenience, alternative protein and culinary products. The Food Ingredients segment provides natural, artificial, and plant-based specialty food ingredients; natural antioxidants and anti-microbials used for natural food preservation and shelf-life extension for beverages, cosmetic and healthcare products, pet food and feed additives; and savory solutions, such as spices, marinades, and mixtures, and inclusion products comprising  combining flavorings with fruit, vegetables and other natural ingredients, as well as soy and pea protein with value-added formulations, emulsifiers and sweeteners. The Health & Biosciences segment offers enzymes, food cultures, probiotics and specialty ingredients for food and non-food applications, as well as engages in health, food biosciences, home and personal care, animal nutrition and grain processing businesses. The Scent segment creates fragrance compounds, and fragrance ingredients. International Flavors & Fragrances Inc. was incorporated in 1909 and is headquartered in New York, New York."
+  "longBusinessSummary": "International Flavors & Fragrances Inc., together with its subsidiaries, manufactures and markets food, beverage, health and biosciences, scent, and complementary adjacent products in the United States, and internationally. It operates in through Taste, Food Ingredients, Health & Biosciences, and Scent segments. The Taste segment offers savory products such as soups, sauces, meat, fish, poultry, snacks; beverages consists of juice drinks, carbonated or flavored beverages, spirits; sweets comprising, bakery products, candy, cereal, chewing gum; and dairy products, such as yogurt, ice cream, cheese, and other products, as well as spices and seasoning ingredients for meat, food service, convenience, alternative protein and culinary products. The Food Ingredients segment provides natural, artificial, and plant-based specialty food ingredients; natural antioxidants and anti-microbials used for natural food preservation and shelf-life extension for beverages, cosmetic and healthcare products, pet food and feed additives; and savory solutions, such as spices, marinades, and mixtures, and inclusion products comprising  combining flavorings with fruit, vegetables and other natural ingredients, as well as soy and pea protein with value-added formulations, emulsifiers and sweeteners. The Health & Biosciences segment offers enzymes, food cultures, probiotics and specialty ingredients for food and non-food applications, as well as engages in health, food biosciences, home and personal care, animal nutrition and grain processing businesses. The Scent segment creates fragrance compounds, and fragrance ingredients. International Flavors & Fragrances Inc. was incorporated in 1909 and is headquartered in New York, New York.",
+  "targetMeanPrice": 96.23529,
+  "targetLowPrice": 76.0,
+  "targetHighPrice": 105.0,
+  "numberOfAnalystOpinions": 17,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.75,
+  "forwardPE": 21.324247,
+  "forwardEps": 3.96497,
+  "trailingEps": 1.01,
+  "earningsGrowth": -0.916,
+  "revenueGrowth": 0.018
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 25539000000.0,
+    "official": 25539000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 14154000000.0,
+    "official": 14154000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -361000000.0,
+    "official": -359000000.0,
+    "diff": 0.005571
+   },
+   "revenue": {
+    "yahoo": 10890000000.0,
+    "official": 10890000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:47:03+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -203,7 +245,10 @@
    "goodwill_and_intangibles": 22455000000.0,
    "retained_earnings": 955000000.0,
    "total_debt": 10767000000.0,
-   "shares_out": 254968463.0
+   "shares_out": 254968463.0,
+   "unusual_items": -2368000000.0,
+   "normalized_ebitda": 2258000000.0,
+   "normalized_income": -111180800.0
   },
   {
    "fy_end": "2023-12-31",
@@ -237,7 +282,10 @@
    "goodwill_and_intangibles": 18992000000.0,
    "retained_earnings": -2439000000.0,
    "total_debt": 9980000000.0,
-   "shares_out": 255288535.0
+   "shares_out": 255288535.0,
+   "unusual_items": -2711000000.0,
+   "normalized_ebitda": 1715000000.0,
+   "normalized_income": -578624700.0
   },
   {
    "fy_end": "2024-12-31",
@@ -271,7 +319,10 @@
    "goodwill_and_intangibles": 15520000000.0,
    "retained_earnings": -2647000000.0,
    "total_debt": 8891000000.0,
-   "shares_out": 255682329.0
+   "shares_out": 255682329.0,
+   "unusual_items": -53000000.0,
+   "normalized_ebitda": 1681000000.0,
+   "normalized_income": 308951000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -305,7 +356,10 @@
    "goodwill_and_intangibles": 14312000000.0,
    "retained_earnings": -3417000000.0,
    "total_debt": 5951000000.0,
-   "shares_out": 255700000.0
+   "shares_out": 255700000.0,
+   "unusual_items": -960000000.0,
+   "normalized_ebitda": 1739000000.0,
+   "normalized_income": 475160000.0
   }
  ]
 }

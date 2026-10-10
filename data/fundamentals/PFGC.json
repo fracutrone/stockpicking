@@ -1,6 +1,6 @@
 {
  "ticker": "PFGC",
- "fetched_at": "2026-10-10T12:55:17+00:00",
+ "fetched_at": "2026-10-10T15:53:01+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 43560,
   "website": "https://www.pfgc.com",
-  "longBusinessSummary": "Performance Food Group Company, through its subsidiaries, markets and distributes food and food-related products in North America. It operates through three segments: Foodservice, Convenience, and Specialty. The company offers beef, pork, poultry, seafood, frozen food, refrigerated products, and dry groceries to disposables, cleaning and kitchen supplies, and related products, as well as value-added services, such as product selection and procurement, menu development, and operational strategies to independent restaurants, chain restaurants, and other institutional food-away-from-home locations. It also provides wholesale consumer products, including cigarettes and alternative nicotine products, candy, snacks, fresh products, groceries, dairy, bread, beverages, general merchandise, and health and beauty care products to traditional convenience stores, drug stores, mass merchants, grocery stores, liquor stores, and other specialty and small format stores. In addition, the company distributes candy, snacks, beverages, fresh and frozen perishable food, and other non-food items. Performance Food Group Company was founded in 1885 and is headquartered in Richmond, Virginia."
+  "longBusinessSummary": "Performance Food Group Company, through its subsidiaries, markets and distributes food and food-related products in North America. It operates through three segments: Foodservice, Convenience, and Specialty. The company offers beef, pork, poultry, seafood, frozen food, refrigerated products, and dry groceries to disposables, cleaning and kitchen supplies, and related products, as well as value-added services, such as product selection and procurement, menu development, and operational strategies to independent restaurants, chain restaurants, and other institutional food-away-from-home locations. It also provides wholesale consumer products, including cigarettes and alternative nicotine products, candy, snacks, fresh products, groceries, dairy, bread, beverages, general merchandise, and health and beauty care products to traditional convenience stores, drug stores, mass merchants, grocery stores, liquor stores, and other specialty and small format stores. In addition, the company distributes candy, snacks, beverages, fresh and frozen perishable food, and other non-food items. Performance Food Group Company was founded in 1885 and is headquartered in Richmond, Virginia.",
+  "targetMeanPrice": 125.58333,
+  "targetLowPrice": 79.0,
+  "targetHighPrice": 144.0,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.46154,
+  "forwardPE": 14.054359,
+  "forwardEps": 6.75093,
+  "trailingEps": 2.29,
+  "earningsGrowth": 0.227,
+  "revenueGrowth": 0.073
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,38 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-06-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 18849100000.0,
+    "official": 18849100000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4899300000.0,
+    "official": 4899300000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 359300000.0,
+    "official": 359300000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 67839500000.0,
+    "official": 67839500000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:53:01+00:00",
  "years": [
   {
    "fy_end": "2020-06-27",
@@ -201,7 +242,9 @@
    "goodwill_and_intangibles": 3329400000.0,
    "retained_earnings": 867000000.0,
    "total_debt": 3460100000.0,
-   "shares_out": 154500000.0
+   "shares_out": 154500000.0,
+   "normalized_ebitda": 1258700000.0,
+   "normalized_income": 397200000.0
   },
   {
    "fy_end": "2024-06-29",
@@ -234,7 +277,9 @@
    "goodwill_and_intangibles": 3389400000.0,
    "retained_earnings": 1302900000.0,
    "total_debt": 3198500000.0,
-   "shares_out": 154200000.0
+   "shares_out": 154200000.0,
+   "normalized_ebitda": 1385700000.0,
+   "normalized_income": 435900000.0
   },
   {
    "fy_end": "2025-06-28",
@@ -267,7 +312,9 @@
    "goodwill_and_intangibles": 5168600000.0,
    "retained_earnings": 1643100000.0,
    "total_debt": 5388800000.0,
-   "shares_out": 154900000.0
+   "shares_out": 154900000.0,
+   "normalized_ebitda": 1535100000.0,
+   "normalized_income": 340200000.0
   },
   {
    "fy_end": "2026-06-27",
@@ -300,7 +347,9 @@
    "goodwill_and_intangibles": 5109600000.0,
    "retained_earnings": 2002400000.0,
    "total_debt": 5006800000.0,
-   "shares_out": 156100000.0
+   "shares_out": 156100000.0,
+   "normalized_ebitda": 1713400000.0,
+   "normalized_income": 359300000.0
   }
  ]
 }

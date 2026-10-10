@@ -1,6 +1,6 @@
 {
  "ticker": "PUB.PA",
- "fetched_at": "2026-10-10T12:15:24+00:00",
+ "fetched_at": "2026-10-10T15:13:26+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "PAR",
   "fullTimeEmployees": 115782,
   "website": "https://www.publicisgroupe.com",
-  "longBusinessSummary": "Publicis Groupe S.A., together with its subsidiaries, provides marketing, communications, and digital business transformation services in North America, Europe, the Asia Pacific, Latin America, Africa, and the Middle East, and internationally. The company offers power of one, publicis communications; publicis sapient; publicis media; publicis health; and other services. Publicis Groupe S.A. was founded in 1926 and is headquartered in Paris, France."
+  "longBusinessSummary": "Publicis Groupe S.A., together with its subsidiaries, provides marketing, communications, and digital business transformation services in North America, Europe, the Asia Pacific, Latin America, Africa, and the Middle East, and internationally. The company offers power of one, publicis communications; publicis sapient; publicis media; publicis health; and other services. Publicis Groupe S.A. was founded in 1926 and is headquartered in Paris, France.",
+  "targetMeanPrice": 113.0,
+  "targetLowPrice": 90.0,
+  "targetHighPrice": 133.0,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.5,
+  "forwardPE": 11.387554,
+  "forwardEps": 8.54266,
+  "trailingEps": 6.42,
+  "earningsGrowth": -0.031,
+  "revenueGrowth": 0.03
  },
  "governance": {
   "ceo": {
@@ -67,8 +78,40 @@
   "intangibles": "yahoo",
   "goodwill_and_intangibles": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF FR",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 39854000000.0,
+    "official": 39854000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 11060000000.0,
+    "official": 11060000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1660000000.0,
+    "official": 1660000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 16030000000.0,
+    "official": 16030000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T15:13:26+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -98,7 +141,10 @@
    "intangibles": 1247000000.0,
    "goodwill_and_intangibles": 13793000000.0,
    "total_debt": 6173000000.0,
-   "shares_out": 251992065.0
+   "shares_out": 251992065.0,
+   "unusual_items": -261000000.0,
+   "normalized_ebitda": 2936000000.0,
+   "normalized_income": 1467328000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -129,7 +175,10 @@
    "intangibles": 958000000.0,
    "goodwill_and_intangibles": 13380000000.0,
    "total_debt": 5540000000.0,
-   "shares_out": 250574493.0
+   "shares_out": 250574493.0,
+   "unusual_items": -197000000.0,
+   "normalized_ebitda": 2883000000.0,
+   "normalized_income": 1472077000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -160,7 +209,10 @@
    "intangibles": 1069000000.0,
    "goodwill_and_intangibles": 14912000000.0,
    "total_debt": 5175000000.0,
-   "shares_out": 250739747.0
+   "shares_out": 250739747.0,
+   "unusual_items": -133000000.0,
+   "normalized_ebitda": 3286000000.0,
+   "normalized_income": 1764147000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -191,7 +243,10 @@
    "intangibles": 934000000.0,
    "goodwill_and_intangibles": 14227000000.0,
    "total_debt": 5661000000.0,
-   "shares_out": 250869883.0
+   "shares_out": 250869883.0,
+   "unusual_items": -209000000.0,
+   "normalized_ebitda": 3380000000.0,
+   "normalized_income": 1809541000.0
   }
  ]
 }

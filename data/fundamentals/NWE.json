@@ -1,6 +1,6 @@
 {
  "ticker": "NWE",
- "fetched_at": "2026-10-10T12:53:28+00:00",
+ "fetched_at": "2026-10-10T15:51:37+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 1667,
   "website": "https://www.northwesternenergy.com",
-  "longBusinessSummary": "NorthWestern Energy Group, Inc., doing business as NorthWestern Energy, provides electricity and natural gas to residential, commercial, and diversified industrial customers. It generates, purchases, transmits, and distributes electricity; and produces, purchases, stores, transmits, and distributes natural gas, as well as owns municipal franchises to provide natural gas service in the communities. The company operates 6,596 miles of electric transmission and 18,946 miles of electric distribution lines with approximately 397 transmission and distribution substations; and 2,133 miles of natural gas transmission and 5,939 miles of natural gas distribution lines with approximately 134 city gate stations in Montana. It also operates 1,344 miles of electric transmission and 2,386 miles of electric distribution lines in South Dakota with approximately 123 transmission and distribution substations; and 55 miles of natural gas transmission, 1,853 miles of natural gas distribution lines in South Dakota, and 836 miles of natural gas distribution lines Nebraska. The company provides electricity and/or natural gas to approximately 850,300 customers in Montana, South Dakota, Nebraska, and Yellowstone National Park. NorthWestern Energy Group, Inc. was incorporated in 1923 and is based in Sioux Falls, South Dakota."
+  "longBusinessSummary": "NorthWestern Energy Group, Inc., doing business as NorthWestern Energy, provides electricity and natural gas to residential, commercial, and diversified industrial customers. It generates, purchases, transmits, and distributes electricity; and produces, purchases, stores, transmits, and distributes natural gas, as well as owns municipal franchises to provide natural gas service in the communities. The company operates 6,596 miles of electric transmission and 18,946 miles of electric distribution lines with approximately 397 transmission and distribution substations; and 2,133 miles of natural gas transmission and 5,939 miles of natural gas distribution lines with approximately 134 city gate stations in Montana. It also operates 1,344 miles of electric transmission and 2,386 miles of electric distribution lines in South Dakota with approximately 123 transmission and distribution substations; and 55 miles of natural gas transmission, 1,853 miles of natural gas distribution lines in South Dakota, and 836 miles of natural gas distribution lines Nebraska. The company provides electricity and/or natural gas to approximately 850,300 customers in Montana, South Dakota, Nebraska, and Yellowstone National Park. NorthWestern Energy Group, Inc. was incorporated in 1923 and is based in Sioux Falls, South Dakota.",
+  "targetMeanPrice": 72.75,
+  "targetLowPrice": 70.0,
+  "targetHighPrice": 78.5,
+  "numberOfAnalystOpinions": 6,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.28571,
+  "forwardPE": 18.727207,
+  "forwardEps": 3.95948,
+  "trailingEps": 2.75,
+  "earningsGrowth": 0.157,
+  "revenueGrowth": 0.146
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,38 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 8459691000.0,
+    "official": 8459691000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2885740000.0,
+    "official": 2885740000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 181092000.0,
+    "official": 181092000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1610559000.0,
+    "official": 1610559000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:51:37+00:00",
  "years": [
   {
    "fy_end": "2021-12-31",
@@ -133,7 +174,9 @@
    "goodwill_and_intangibles": 357586000.0,
    "retained_earnings": 771414000.0,
    "total_debt": 2763407000.0,
-   "shares_out": 59744130.0
+   "shares_out": 59744130.0,
+   "normalized_ebitda": 477533000.0,
+   "normalized_income": 183008000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -166,7 +209,9 @@
    "goodwill_and_intangibles": 357586000.0,
    "retained_earnings": 811495000.0,
    "total_debt": 2784585000.0,
-   "shares_out": 61248800.0
+   "shares_out": 61248800.0,
+   "normalized_ebitda": 526761000.0,
+   "normalized_income": 194131000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -199,7 +244,9 @@
    "goodwill_and_intangibles": 357586000.0,
    "retained_earnings": 877017000.0,
    "total_debt": 3095293000.0,
-   "shares_out": 61320812.0
+   "shares_out": 61320812.0,
+   "normalized_ebitda": 573980000.0,
+   "normalized_income": 224111000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -232,7 +279,9 @@
    "goodwill_and_intangibles": 367635000.0,
    "retained_earnings": 896720000.0,
    "total_debt": 3436007000.0,
-   "shares_out": 61418311.0
+   "shares_out": 61418311.0,
+   "normalized_ebitda": 587442000.0,
+   "normalized_income": 181092000.0
   }
  ]
 }

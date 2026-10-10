@@ -1,6 +1,6 @@
 {
  "ticker": "FGT.L",
- "fetched_at": "2026-10-10T11:58:01+00:00",
+ "fetched_at": "2026-10-10T14:48:26+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -49,8 +60,15 @@
   "equity": "yahoo",
   "receivables": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T14:48:26+00:00",
  "years": [
   {
    "fy_end": "2022-09-30",
@@ -70,7 +88,8 @@
    "equity": 1830384000.0,
    "receivables": 12398000.0,
    "total_debt": 36700000.0,
-   "shares_out": 215737992.0
+   "shares_out": 215737992.0,
+   "normalized_income": -118740000.0
   },
   {
    "fy_end": "2023-09-30",
@@ -90,7 +109,8 @@
    "equity": 1822729000.0,
    "receivables": 10209000.0,
    "total_debt": 36700000.0,
-   "shares_out": 204519434.0
+   "shares_out": 204519434.0,
+   "normalized_income": 128858000.0
   },
   {
    "fy_end": "2024-09-30",
@@ -110,7 +130,8 @@
    "equity": 1582168000.0,
    "receivables": 7509000.0,
    "total_debt": 29200000.0,
-   "shares_out": 167717668.0
+   "shares_out": 167717668.0,
+   "normalized_income": 108178000.0
   },
   {
    "fy_end": "2025-09-30",
@@ -130,7 +151,8 @@
    "equity": 1227740000.0,
    "receivables": 5387000.0,
    "total_debt": 29200000.0,
-   "shares_out": 133018887.0
+   "shares_out": 133018887.0,
+   "normalized_income": -13885000.0
   }
  ]
 }

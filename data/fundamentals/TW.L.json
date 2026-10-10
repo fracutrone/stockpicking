@@ -1,6 +1,6 @@
 {
  "ticker": "TW.L",
- "fetched_at": "2026-10-10T12:23:19+00:00",
+ "fetched_at": "2026-10-10T15:26:28+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 4400,
   "website": "https://www.taylorwimpey.co.uk",
-  "longBusinessSummary": "Taylor Wimpey plc operates as a homebuilder company in the United Kingdom and Spain. It engages in building and delivering various homes and communities. Taylor Wimpey plc was founded in 1880 and is based in High Wycombe, the United Kingdom."
+  "longBusinessSummary": "Taylor Wimpey plc operates as a homebuilder company in the United Kingdom and Spain. It engages in building and delivering various homes and communities. Taylor Wimpey plc was founded in 1880 and is based in High Wycombe, the United Kingdom.",
+  "targetMeanPrice": 86.049995,
+  "targetLowPrice": 68.0,
+  "targetHighPrice": 110.0,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.85,
+  "forwardPE": 13.893303,
+  "forwardEps": 0.05286,
+  "trailingEps": 0.07,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.017
  },
  "governance": {
   "ceo": {
@@ -75,8 +86,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 6066100000.0,
+    "official": 6066100000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4186800000.0,
+    "official": 4186800000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 100400000.0,
+    "official": 100400000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3844600000.0,
+    "official": 3844600000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:26:28+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -109,7 +152,9 @@
    "goodwill_and_intangibles": 4200000.0,
    "retained_earnings": 2930400000.0,
    "total_debt": 115500000.0,
-   "shares_out": 3531985103.0
+   "shares_out": 3531985103.0,
+   "normalized_ebitda": 866500000.0,
+   "normalized_income": 643600000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -142,7 +187,10 @@
    "goodwill_and_intangibles": 2600000.0,
    "retained_earnings": 2939500000.0,
    "total_debt": 126800000.0,
-   "shares_out": 3533819337.0
+   "shares_out": 3533819337.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 511900000.0,
+   "normalized_income": 349000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -175,7 +223,10 @@
    "goodwill_and_intangibles": 1500000.0,
    "retained_earnings": 2824100000.0,
    "total_debt": 121000000.0,
-   "shares_out": 3536385103.0
+   "shares_out": 3536385103.0,
+   "unusual_items": -82500000.0,
+   "normalized_ebitda": 444400000.0,
+   "normalized_income": 276162597.564783
   },
   {
    "fy_end": "2025-12-31",
@@ -208,7 +259,10 @@
    "goodwill_and_intangibles": 2700000.0,
    "retained_earnings": 2594400000.0,
    "total_debt": 124000000.0,
-   "shares_out": 3541285103.0
+   "shares_out": 3541285103.0,
+   "unusual_items": -243800000.0,
+   "normalized_ebitda": 447600000.0,
+   "normalized_income": 267482047.78157
   }
  ]
 }

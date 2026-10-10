@@ -1,6 +1,6 @@
 {
  "ticker": "FFIV",
- "fetched_at": "2026-10-10T12:45:32+00:00",
+ "fetched_at": "2026-10-10T15:43:51+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 6512,
   "website": "https://www.f5.com",
-  "longBusinessSummary": "F5, Inc. provides multicloud application security and delivery solutions in the United States, Europe, the Middle East, Africa, and the Asia Pacific region. The company's distributed cloud services enable its customers to deploy, secure, and operate applications in any architecture, from on-premises to the public cloud. It also offers unified, security, networking, and application management solutions, such as web app and API protection; multi-cloud networking; application delivery and deployment; domain name system; content delivery network; and application deployment and orchestration. In addition, the company provides application security and delivery products, including NGINX Plus; NGINX One Console; NGINX Ingress Controller; WAF for NGINX; BIG-IP Packaged Software; and BIG-IP Systems. Further, it provides a range of professional services, including maintenance, consulting, training, and other technical support services. The company sells its products to large enterprise businesses, public sector institutions, governments, and service providers through distributors, value-added resellers, managed service providers, systems integrators, and other indirect channel partners. It has partnerships with public cloud providers, such as Amazon Web Services, Microsoft Azure, and Google Cloud Platform. The company was formerly known as F5 Networks, Inc. and changed its name to F5, Inc. in November 2021. F5, Inc. was incorporated in 1996 and is headquartered in Seattle, Washington."
+  "longBusinessSummary": "F5, Inc. provides multicloud application security and delivery solutions in the United States, Europe, the Middle East, Africa, and the Asia Pacific region. The company's distributed cloud services enable its customers to deploy, secure, and operate applications in any architecture, from on-premises to the public cloud. It also offers unified, security, networking, and application management solutions, such as web app and API protection; multi-cloud networking; application delivery and deployment; domain name system; content delivery network; and application deployment and orchestration. In addition, the company provides application security and delivery products, including NGINX Plus; NGINX One Console; NGINX Ingress Controller; WAF for NGINX; BIG-IP Packaged Software; and BIG-IP Systems. Further, it provides a range of professional services, including maintenance, consulting, training, and other technical support services. The company sells its products to large enterprise businesses, public sector institutions, governments, and service providers through distributors, value-added resellers, managed service providers, systems integrators, and other indirect channel partners. It has partnerships with public cloud providers, such as Amazon Web Services, Microsoft Azure, and Google Cloud Platform. The company was formerly known as F5 Networks, Inc. and changed its name to F5, Inc. in November 2021. F5, Inc. was incorporated in 1996 and is headquartered in Seattle, Washington.",
+  "targetMeanPrice": 436.1,
+  "targetLowPrice": 300.0,
+  "targetHighPrice": 515.0,
+  "numberOfAnalystOpinions": 10,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 26.544027,
+  "forwardEps": 18.07676,
+  "trailingEps": 13.05,
+  "earningsGrowth": 0.114,
+  "revenueGrowth": 0.109
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-09-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 6319492000.0,
+    "official": 6319492000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3591999000.0,
+    "official": 3591999000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 692380000.0,
+    "official": 692380000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3088072000.0,
+    "official": 3088072000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:43:51+00:00",
  "years": [
   {
    "fy_end": "2019-09-30",
@@ -195,7 +237,10 @@
    "goodwill_and_intangibles": 2459570000.0,
    "retained_earnings": 2404106000.0,
    "total_debt": 664671000.0,
-   "shares_out": 59860000.0
+   "shares_out": 59860000.0,
+   "unusual_items": -7909000.0,
+   "normalized_ebitda": 535219000.0,
+   "normalized_income": 328771924.0
   },
   {
    "fy_end": "2023-09-30",
@@ -228,7 +273,10 @@
    "goodwill_and_intangibles": 2439647000.0,
    "retained_earnings": 2799054000.0,
    "total_debt": 280986000.0,
-   "shares_out": 59207000.0
+   "shares_out": 59207000.0,
+   "unusual_items": -65388000.0,
+   "normalized_ebitda": 716046000.0,
+   "normalized_income": 448108444.0
   },
   {
    "fy_end": "2024-09-30",
@@ -261,7 +309,10 @@
    "goodwill_and_intangibles": 2423938000.0,
    "retained_earnings": 3144401000.0,
    "total_debt": 249564000.0,
-   "shares_out": 58094000.0
+   "shares_out": 58094000.0,
+   "unusual_items": -8655000.0,
+   "normalized_ebitda": 782892000.0,
+   "normalized_income": 573831825.0
   },
   {
    "fy_end": "2025-09-30",
@@ -294,7 +345,10 @@
    "goodwill_and_intangibles": 2540148000.0,
    "retained_earnings": 3568300000.0,
    "total_debt": 261791000.0,
-   "shares_out": 57684000.0
+   "shares_out": 57684000.0,
+   "unusual_items": -25484000.0,
+   "normalized_ebitda": 909316000.0,
+   "normalized_income": 714219788.0
   }
  ]
 }

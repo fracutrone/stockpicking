@@ -1,6 +1,6 @@
 {
  "ticker": "HLT",
- "fetched_at": "2026-10-10T12:47:48+00:00",
+ "fetched_at": "2026-10-10T15:46:13+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 182000,
   "website": "https://www.hilton.com",
-  "longBusinessSummary": "Hilton Worldwide Holdings Inc., a hospitality company, engages in managing, franchising, and leasing hotels and resorts. It operates in two segments, Management and Franchise, and Ownership. The company engages in the hotel management and licensing of its brand names, trademarks, and service marks. It operates a brand portfolio of luxury, lifestyle, full service, focused service, all-suites hotel, and timeshare under the Waldorf Astoria Hotels & Resorts, LXR Hotels & Resorts, Conrad Hotels & Resorts, Signia by Hilton, NoMad, Canopy by Hilton, Graduate by Hilton, Tempo by Hilton, Motto by Hilton, Hilton Hotels & Resorts, DoubleTree by Hilton, Curio Collection by Hilton, Tapestry Collection by Hilton, Outset Collection by Hilton, Embassy Suites by Hilton, Homewood Suites by Hilton, Home2 Suites by Hilton, LivSmart Studios by Hilton, Hilton Garden Inn, Hampton by Hilton, Tru by Hilton, Spark by Hilton, Hilton Grand Vacations, Small Luxury Hotels of the World, AutoCamp, and Hilton Honors brand names. The company has operations in North America, South America, and Central America, including various Caribbean nations; Europe, the Middle East, and Africa; and the Asia Pacific. Hilton Worldwide Holdings Inc. was founded in 1919 and is headquartered in McLean, Virginia."
+  "longBusinessSummary": "Hilton Worldwide Holdings Inc., a hospitality company, engages in managing, franchising, and leasing hotels and resorts. It operates in two segments, Management and Franchise, and Ownership. The company engages in the hotel management and licensing of its brand names, trademarks, and service marks. It operates a brand portfolio of luxury, lifestyle, full service, focused service, all-suites hotel, and timeshare under the Waldorf Astoria Hotels & Resorts, LXR Hotels & Resorts, Conrad Hotels & Resorts, Signia by Hilton, NoMad, Canopy by Hilton, Graduate by Hilton, Tempo by Hilton, Motto by Hilton, Hilton Hotels & Resorts, DoubleTree by Hilton, Curio Collection by Hilton, Tapestry Collection by Hilton, Outset Collection by Hilton, Embassy Suites by Hilton, Homewood Suites by Hilton, Home2 Suites by Hilton, LivSmart Studios by Hilton, Hilton Garden Inn, Hampton by Hilton, Tru by Hilton, Spark by Hilton, Hilton Grand Vacations, Small Luxury Hotels of the World, AutoCamp, and Hilton Honors brand names. The company has operations in North America, South America, and Central America, including various Caribbean nations; Europe, the Middle East, and Africa; and the Asia Pacific. Hilton Worldwide Holdings Inc. was founded in 1919 and is headquartered in McLean, Virginia.",
+  "targetMeanPrice": 353.0,
+  "targetLowPrice": 270.0,
+  "targetHighPrice": 394.0,
+  "numberOfAnalystOpinions": 26,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.96429,
+  "forwardPE": 31.234695,
+  "forwardEps": 10.45504,
+  "trailingEps": 6.89,
+  "earningsGrowth": 0.141,
+  "revenueGrowth": 0.025
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "inventory": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 16774000000.0,
+    "official": 16774000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": -5388000000.0,
+    "official": -5388000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1457000000.0,
+    "official": 1457000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 12039000000.0,
+    "official": 12039000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:46:13+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -191,7 +233,10 @@
    "goodwill_and_intangibles": 10920000000.0,
    "retained_earnings": -5190000000.0,
    "total_debt": 8708000000.0,
-   "shares_out": 267860301.0
+   "shares_out": 267860301.0,
+   "unusual_items": 5000000.0,
+   "normalized_ebitda": 2306000000.0,
+   "normalized_income": 1251375432.525952
   },
   {
    "fy_end": "2023-12-31",
@@ -224,7 +269,10 @@
    "goodwill_and_intangibles": 11135000000.0,
    "retained_earnings": -4207000000.0,
    "total_debt": 9157000000.0,
-   "shares_out": 253488288.0
+   "shares_out": 253488288.0,
+   "unusual_items": -54000000.0,
+   "normalized_ebitda": 2357000000.0,
+   "normalized_income": 1177734042.553191
   },
   {
    "fy_end": "2024-12-31",
@@ -257,7 +305,10 @@
    "goodwill_and_intangibles": 11454000000.0,
    "retained_earnings": -2822000000.0,
    "total_debt": 10616000000.0,
-   "shares_out": 241806421.0
+   "shares_out": 241806421.0,
+   "unusual_items": -7000000.0,
+   "normalized_ebitda": 2505000000.0,
+   "normalized_income": 1541042063.937185
   },
   {
    "fy_end": "2025-12-31",
@@ -290,7 +341,10 @@
    "goodwill_and_intangibles": 11781000000.0,
    "retained_earnings": -1508000000.0,
    "total_debt": 12338000000.0,
-   "shares_out": 230433192.0
+   "shares_out": 230433192.0,
+   "unusual_items": -11000000.0,
+   "normalized_ebitda": 2880000000.0,
+   "normalized_income": 1464755000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "LULU",
- "fetched_at": "2026-10-10T12:50:52+00:00",
+ "fetched_at": "2026-10-10T15:49:06+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 39000,
   "website": "https://corporate.lululemon.com",
-  "longBusinessSummary": "lululemon athletica inc., together with its subsidiaries, designs, distributes, and retails technical athletic apparel, footwear, and accessories for women and men under the lululemon brand in the United States, Canada, Mexico, China, Hong Kong, Taiwan, Macau, Greece, and internationally. It offers pants, shorts, tops, and jackets for athletic activities, such as yoga, running, training, and other activities. The company also provides fitness-inspired accessories. It sells its products through company-operated stores; seasonal stores, pop-ups, university campus retailers, and yoga and fitness studios; outlets; Like New, a re-commerce program; and its e-commerce website. The company was founded in 1998 and is based in Vancouver, Canada."
+  "longBusinessSummary": "lululemon athletica inc., together with its subsidiaries, designs, distributes, and retails technical athletic apparel, footwear, and accessories for women and men under the lululemon brand in the United States, Canada, Mexico, China, Hong Kong, Taiwan, Macau, Greece, and internationally. It offers pants, shorts, tops, and jackets for athletic activities, such as yoga, running, training, and other activities. The company also provides fitness-inspired accessories. It sells its products through company-operated stores; seasonal stores, pop-ups, university campus retailers, and yoga and fitness studios; outlets; Like New, a re-commerce program; and its e-commerce website. The company was founded in 1998 and is based in Vancouver, Canada.",
+  "targetMeanPrice": 104.91111,
+  "targetLowPrice": 44.0,
+  "targetHighPrice": 255.0,
+  "numberOfAnalystOpinions": 27,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.2,
+  "forwardPE": 10.929645,
+  "forwardEps": 8.64621,
+  "trailingEps": 12.15,
+  "earningsGrowth": -0.059,
+  "revenueGrowth": -0.043
  },
  "governance": {
   "ceo": {
@@ -82,8 +93,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-01-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 8456743000.0,
+    "official": 8456743000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4961840000.0,
+    "official": 4961840000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1579183000.0,
+    "official": 1579183000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 11102600000.0,
+    "official": 11102600000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:49:07+00:00",
  "years": [
   {
    "fy_end": "2020-02-02",
@@ -196,7 +238,10 @@
    "goodwill_and_intangibles": 46105000.0,
    "retained_earnings": 2926127000.0,
    "total_debt": 1070334000.0,
-   "shares_out": 127321000.0
+   "shares_out": 127321000.0,
+   "unusual_items": -397733000.0,
+   "normalized_ebitda": 2415665000.0,
+   "normalized_income": 1109746853.0
   },
   {
    "fy_end": "2024-01-28",
@@ -228,7 +273,10 @@
    "goodwill_and_intangibles": 24083000.0,
    "retained_earnings": 3920362000.0,
    "total_debt": 1403282000.0,
-   "shares_out": 126222000.0
+   "shares_out": 126222000.0,
+   "unusual_items": -74501000.0,
+   "normalized_ebitda": 2661062000.0,
+   "normalized_income": 1603234712.0
   },
   {
    "fy_end": "2025-02-02",
@@ -260,7 +308,10 @@
    "goodwill_and_intangibles": 171191000.0,
    "retained_earnings": 4109717000.0,
    "total_debt": 1575791000.0,
-   "shares_out": 121281961.0
+   "shares_out": 121281961.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 2952221000.0,
+   "normalized_income": 1814616000.0
   },
   {
    "fy_end": "2026-02-01",
@@ -292,7 +343,10 @@
    "goodwill_and_intangibles": 191194000.0,
    "retained_earnings": 4522581000.0,
    "total_debt": 1798441000.0,
-   "shares_out": 116495961.0
+   "shares_out": 116495961.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 2706843000.0,
+   "normalized_income": 1579183000.0
   }
  ]
 }

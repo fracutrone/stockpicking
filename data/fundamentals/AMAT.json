@@ -1,6 +1,6 @@
 {
  "ticker": "AMAT",
- "fetched_at": "2026-10-10T12:37:14+00:00",
+ "fetched_at": "2026-10-10T15:34:16+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 38900,
   "website": "https://www.appliedmaterials.com",
-  "longBusinessSummary": "Applied Materials, Inc. provides materials engineering solutions, equipment, services, and software to the semiconductor and related industries in the United States, China, Korea, Taiwan, Japan, Southeast Asia, Europe, and internationally. The company operates through Semiconductor Systems and Applied Global Services (AGS) segments. The Semiconductor Systems segment includes semiconductor capital equipment to enable materials engineering steps, including etch, rapid thermal processing, deposition, chemical mechanical planarization, metrology and inspection, wafer packaging, and ion implantation. The AGS segment offers integrated solutions to optimize equipment and fab performance and productivity comprising spares, upgrades, services, and 200 millimeter and other equipment and factory automation software for semiconductor and other products. It serves manufacturers of semiconductor wafers and chips, and other electronic devices. Applied Materials, Inc. was incorporated in 1967 and is headquartered in Santa Clara, California."
+  "longBusinessSummary": "Applied Materials, Inc. provides materials engineering solutions, equipment, services, and software to the semiconductor and related industries in the United States, China, Korea, Taiwan, Japan, Southeast Asia, Europe, and internationally. The company operates through Semiconductor Systems and Applied Global Services (AGS) segments. The Semiconductor Systems segment includes semiconductor capital equipment to enable materials engineering steps, including etch, rapid thermal processing, deposition, chemical mechanical planarization, metrology and inspection, wafer packaging, and ion implantation. The AGS segment offers integrated solutions to optimize equipment and fab performance and productivity comprising spares, upgrades, services, and 200 millimeter and other equipment and factory automation software for semiconductor and other products. It serves manufacturers of semiconductor wafers and chips, and other electronic devices. Applied Materials, Inc. was incorporated in 1967 and is headquartered in Santa Clara, California.",
+  "targetMeanPrice": 638.94446,
+  "targetLowPrice": 358.0,
+  "targetHighPrice": 900.0,
+  "numberOfAnalystOpinions": 36,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.45,
+  "forwardPE": 27.443773,
+  "forwardEps": 18.47523,
+  "trailingEps": 11.59,
+  "earningsGrowth": 0.428,
+  "revenueGrowth": 0.248
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-10-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 36299000000.0,
+    "official": 36299000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 20415000000.0,
+    "official": 20415000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 6998000000.0,
+    "official": 6998000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 28368000000.0,
+    "official": 28368000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:34:16+00:00",
  "years": [
   {
    "fy_end": "2019-10-27",
@@ -207,7 +249,10 @@
    "goodwill_and_intangibles": 4039000000.0,
    "retained_earnings": 37892000000.0,
    "total_debt": 5457000000.0,
-   "shares_out": 844000000.0
+   "shares_out": 844000000.0,
+   "unusual_items": 4000000.0,
+   "normalized_ebitda": 8267000000.0,
+   "normalized_income": 6521564000.0
   },
   {
    "fy_end": "2023-10-29",
@@ -242,7 +287,10 @@
    "goodwill_and_intangibles": 4026000000.0,
    "retained_earnings": 43726000000.0,
    "total_debt": 5561000000.0,
-   "shares_out": 833000000.0
+   "shares_out": 833000000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 8469000000.0,
+   "normalized_income": 6856000000.0
   },
   {
    "fy_end": "2024-10-27",
@@ -277,7 +325,10 @@
    "goodwill_and_intangibles": 3981000000.0,
    "retained_earnings": 49651000000.0,
    "total_debt": 6959000000.0,
-   "shares_out": 818000000.0
+   "shares_out": 818000000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 8791000000.0,
+   "normalized_income": 7177000000.0
   },
   {
    "fy_end": "2025-10-26",
@@ -312,7 +363,10 @@
    "goodwill_and_intangibles": 3933000000.0,
    "retained_earnings": 55227000000.0,
    "total_debt": 6555000000.0,
-   "shares_out": 793000000.0
+   "shares_out": 793000000.0,
+   "unusual_items": -181000000.0,
+   "normalized_ebitda": 10156000000.0,
+   "normalized_income": 7134655000.0
   }
  ]
 }

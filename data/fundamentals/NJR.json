@@ -1,6 +1,6 @@
 {
  "ticker": "NJR",
- "fetched_at": "2026-10-10T12:52:56+00:00",
+ "fetched_at": "2026-10-10T15:50:57+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 1300,
   "website": "https://www.njresources.com",
-  "longBusinessSummary": "New Jersey Resources Corporation, an energy services holding company, distributes natural gas. The company operates through four segments: Natural Gas Distribution, Clean Energy Ventures, Energy Services, and Storage and Transportation. The Natural Gas Distribution segment offers regulated natural gas utility services to residential and commercial customers in Burlington, Middlesex, Monmouth, Morris, Ocean, and Sussex counties in New Jersey; provides capacity and storage management services; and participates in the off-system sales and capacity release markets. The Clean Energy Ventures segment invests in, owns, and operates clean energy projects, including commercial and residential solar installation situated in New Jersey, Rhode Island, New York, Connecticut, Michigan, Indiana, and Pennsylvania. The Energy Services segment maintains and transacts natural gas transportation and storage capacity contracts, as well as provides physical wholesale energy, retail energy and energy management services. The Storage and Transportation segment invests in energy-related ventures. It provides home services and other operations, such as heating, ventilation, and cooling services; sales and installation of appliances; electrical and generator service and installations; and plumbing repair and installation services, as well as holds commercial real estate properties. The company also offers shared administrative and financial services; and natural gas storage and transmission assets services. New Jersey Resources Corporation was founded in 1922 and is headquartered in Wall, New Jersey."
+  "longBusinessSummary": "New Jersey Resources Corporation, an energy services holding company, distributes natural gas. The company operates through four segments: Natural Gas Distribution, Clean Energy Ventures, Energy Services, and Storage and Transportation. The Natural Gas Distribution segment offers regulated natural gas utility services to residential and commercial customers in Burlington, Middlesex, Monmouth, Morris, Ocean, and Sussex counties in New Jersey; provides capacity and storage management services; and participates in the off-system sales and capacity release markets. The Clean Energy Ventures segment invests in, owns, and operates clean energy projects, including commercial and residential solar installation situated in New Jersey, Rhode Island, New York, Connecticut, Michigan, Indiana, and Pennsylvania. The Energy Services segment maintains and transacts natural gas transportation and storage capacity contracts, as well as provides physical wholesale energy, retail energy and energy management services. The Storage and Transportation segment invests in energy-related ventures. It provides home services and other operations, such as heating, ventilation, and cooling services; sales and installation of appliances; electrical and generator service and installations; and plumbing repair and installation services, as well as holds commercial real estate properties. The company also offers shared administrative and financial services; and natural gas storage and transmission assets services. New Jersey Resources Corporation was founded in 1922 and is headquartered in Wall, New Jersey.",
+  "targetMeanPrice": 59.85714,
+  "targetLowPrice": 53.0,
+  "targetHighPrice": 63.0,
+  "numberOfAnalystOpinions": 7,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 14.852906,
+  "forwardEps": 3.44781,
+  "trailingEps": 3.61,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.168
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-09-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 7578775000.0,
+    "official": 7578775000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2391666000.0,
+    "official": 2391666000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 335627000.0,
+    "official": 335627000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2036412000.0,
+    "official": 1351305000.0,
+    "diff": 0.506997
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:50:57+00:00",
  "years": [
   {
    "fy_end": "2019-09-30",
@@ -174,7 +216,9 @@
    "goodwill_and_intangibles": 8468000.0,
    "retained_earnings": 1067528000.0,
    "total_debt": 2909352000.0,
-   "shares_out": 96249859.0
+   "shares_out": 96249859.0,
+   "normalized_ebitda": 558019000.0,
+   "normalized_income": 274922000.0
   },
   {
    "fy_end": "2023-09-30",
@@ -206,7 +250,10 @@
    "goodwill_and_intangibles": 8375000.0,
    "retained_earnings": 1177834000.0,
    "total_debt": 3020117000.0,
-   "shares_out": 97584455.0
+   "shares_out": 97584455.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 586024000.0,
+   "normalized_income": 264724000.0
   },
   {
    "fy_end": "2024-09-30",
@@ -238,7 +285,10 @@
    "goodwill_and_intangibles": 10522000.0,
    "retained_earnings": 1298774000.0,
    "total_debt": 3171264000.0,
-   "shares_out": 99461448.0
+   "shares_out": 99461448.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 666224000.0,
+   "normalized_income": 289775000.0
   },
   {
    "fy_end": "2025-09-30",
@@ -270,7 +320,10 @@
    "goodwill_and_intangibles": 11151000.0,
    "retained_earnings": 1451367000.0,
    "total_debt": 3445987000.0,
-   "shares_out": 100478590.0
+   "shares_out": 100478590.0,
+   "unusual_items": 58200000.0,
+   "normalized_ebitda": 685685000.0,
+   "normalized_income": 290463800.0
   }
  ]
 }

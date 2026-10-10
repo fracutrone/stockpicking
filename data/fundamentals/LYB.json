@@ -1,6 +1,6 @@
 {
  "ticker": "LYB",
- "fetched_at": "2026-10-10T12:50:57+00:00",
+ "fetched_at": "2026-10-10T15:49:11+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 18970,
   "website": "https://www.lyondellbasell.com",
-  "longBusinessSummary": "LyondellBasell Industries N.V. operates as a chemical company in the United States, Germany, China, Mexico, Italy, Japan, France, Poland, the Netherlands, and internationally. It operates in five segments: Olefins and PolyolefinsAmericas; Olefins and PolyolefinsEurope, Asia, International; Intermediates and Derivatives; Advanced Polymer Solutions; and Technology. The company produces and markets olefins and co-products, such as ethylene, aromatics, propylene and butadiene; polyolefins; polyethylene; polypropylene homopolymers and copolymers; propylene oxide and derivatives; oxyfuels and related products; and intermediate chemicals, such as styrene monomer and acetyls. It also produces and markets compounding and solutions, including polypropylene compounds, engineered plastics, masterbatches, and engineered composites and colors. In addition, it develops and licenses chemical and polyolefin process technologies; and manufactures and sells polyolefin catalysts and serves food packaging, home furnishings, automotive components, and paints and coatings applications. LyondellBasell Industries N.V. was incorporated in 2009 and is headquartered in Rotterdam, the Netherlands."
+  "longBusinessSummary": "LyondellBasell Industries N.V. operates as a chemical company in the United States, Germany, China, Mexico, Italy, Japan, France, Poland, the Netherlands, and internationally. It operates in five segments: Olefins and PolyolefinsAmericas; Olefins and PolyolefinsEurope, Asia, International; Intermediates and Derivatives; Advanced Polymer Solutions; and Technology. The company produces and markets olefins and co-products, such as ethylene, aromatics, propylene and butadiene; polyolefins; polyethylene; polypropylene homopolymers and copolymers; propylene oxide and derivatives; oxyfuels and related products; and intermediate chemicals, such as styrene monomer and acetyls. It also produces and markets compounding and solutions, including polypropylene compounds, engineered plastics, masterbatches, and engineered composites and colors. In addition, it develops and licenses chemical and polyolefin process technologies; and manufactures and sells polyolefin catalysts and serves food packaging, home furnishings, automotive components, and paints and coatings applications. LyondellBasell Industries N.V. was incorporated in 2009 and is headquartered in Rotterdam, the Netherlands.",
+  "targetMeanPrice": 67.94118,
+  "targetLowPrice": 56.0,
+  "targetHighPrice": 88.0,
+  "numberOfAnalystOpinions": 17,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.84211,
+  "forwardPE": 9.654183,
+  "forwardEps": 6.21803,
+  "trailingEps": -0.83,
+  "earningsGrowth": 3.96,
+  "revenueGrowth": 0.198
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 34003000000.0,
+    "official": 34003000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 10082000000.0,
+    "official": 10082000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -745000000.0,
+    "official": -738000000.0,
+    "diff": 0.009485
+   },
+   "revenue": {
+    "yahoo": 30153000000.0,
+    "official": 30153000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:49:11+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -199,7 +241,10 @@
    "goodwill_and_intangibles": 2489000000.0,
    "retained_earnings": 9195000000.0,
    "total_debt": 10889000000.0,
-   "shares_out": 326000000.0
+   "shares_out": 326000000.0,
+   "unusual_items": -69000000.0,
+   "normalized_ebitda": 6399000000.0,
+   "normalized_income": 3943257537.688442
   },
   {
    "fy_end": "2023-12-31",
@@ -234,7 +279,10 @@
    "goodwill_and_intangibles": 2288000000.0,
    "retained_earnings": 9692000000.0,
    "total_debt": 10450000000.0,
-   "shares_out": 324483402.0
+   "shares_out": 324483402.0,
+   "unusual_items": -507000000.0,
+   "normalized_ebitda": 4817000000.0,
+   "normalized_income": 2270684000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -269,7 +317,10 @@
    "goodwill_and_intangibles": 2138000000.0,
    "retained_earnings": 9325000000.0,
    "total_debt": 10651000000.0,
-   "shares_out": 323889832.0
+   "shares_out": 323889832.0,
+   "unusual_items": -665000000.0,
+   "normalized_ebitda": 4369000000.0,
+   "normalized_income": 1998920000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -304,7 +355,10 @@
    "goodwill_and_intangibles": 1158000000.0,
    "retained_earnings": 6812000000.0,
    "total_debt": 12350000000.0,
-   "shares_out": 322084769.0
+   "shares_out": 322084769.0,
+   "unusual_items": -1257000000.0,
+   "normalized_ebitda": 2419000000.0,
+   "normalized_income": 201030000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "SPM.MI",
- "fetched_at": "2026-10-10T12:20:08+00:00",
+ "fetched_at": "2026-10-10T15:21:23+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "MIL",
   "fullTimeEmployees": 30000,
   "website": "https://www.saipem.com",
-  "longBusinessSummary": "Saipem SpA provides energy and infrastructure solutions worldwide. It operates through Asset Based Services, Offshore Drilling, and Energy Carriers segments. The company offers development of subsea fields and pipelaying; installation and lifting of offshore structures; engages in engineering, implementation, installation, maintenance, modification, and decommissioning activities, as well as offshore engineering and construction, and wind activities. It is also involved in onshore engineering and construction, sustainable infrastructures, and robotics and industrialized solutions; and design and construction of infrastructure projects, such as railway lines in high speed/high capacity lines. In addition, the company provides procurement, project management, and construction services to oil and gas, civil and marine infrastructure, and environmental markets. The company was founded in 1957 and is headquartered in Milan, Italy."
+  "longBusinessSummary": "Saipem SpA provides energy and infrastructure solutions worldwide. It operates through Asset Based Services, Offshore Drilling, and Energy Carriers segments. The company offers development of subsea fields and pipelaying; installation and lifting of offshore structures; engages in engineering, implementation, installation, maintenance, modification, and decommissioning activities, as well as offshore engineering and construction, and wind activities. It is also involved in onshore engineering and construction, sustainable infrastructures, and robotics and industrialized solutions; and design and construction of infrastructure projects, such as railway lines in high speed/high capacity lines. In addition, the company provides procurement, project management, and construction services to oil and gas, civil and marine infrastructure, and environmental markets. The company was founded in 1957 and is headquartered in Milan, Italy.",
+  "targetMeanPrice": 4.96333,
+  "targetLowPrice": 3.4,
+  "targetHighPrice": 6.0,
+  "numberOfAnalystOpinions": 18,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.94444,
+  "forwardPE": 15.161067,
+  "forwardEps": 0.30143,
+  "trailingEps": 0.13,
+  "earningsGrowth": -0.712,
+  "revenueGrowth": 0.035
  },
  "governance": {
   "ceo": {
@@ -70,8 +81,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF IT",
+  "fy_end": "2022-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 12397000000.0,
+    "official": 12397000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2068000000.0,
+    "official": 2068000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -209000000.0,
+    "official": -209000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 9987000000.0,
+    "official": 9991000000.0,
+    "diff": 0.0004
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2022-12-31"
+ },
+ "info_at": "2026-10-10T15:21:23+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -105,7 +148,10 @@
    "goodwill_and_intangibles": 691000000.0,
    "retained_earnings": -118000000.0,
    "total_debt": 3033000000.0,
-   "shares_out": 1995142834.0
+   "shares_out": 1995142834.0,
+   "unusual_items": -158000000.0,
+   "normalized_ebitda": 579000000.0,
+   "normalized_income": -194920000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -139,7 +185,10 @@
    "goodwill_and_intangibles": 666000000.0,
    "retained_earnings": 316000000.0,
    "total_debt": 3123000000.0,
-   "shares_out": 1995160142.0
+   "shares_out": 1995160142.0,
+   "unusual_items": 20000000.0,
+   "normalized_ebitda": 931000000.0,
+   "normalized_income": 169800000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -172,7 +221,10 @@
    "goodwill_and_intangibles": 668000000.0,
    "retained_earnings": 631000000.0,
    "total_debt": 3016000000.0,
-   "shares_out": 1957188327.0
+   "shares_out": 1957188327.0,
+   "unusual_items": -163000000.0,
+   "normalized_ebitda": 1515000000.0,
+   "normalized_income": 406560483.870968
   },
   {
    "fy_end": "2025-12-31",
@@ -206,7 +258,10 @@
    "goodwill_and_intangibles": 679000000.0,
    "retained_earnings": 619000000.0,
    "total_debt": 3106000000.0,
-   "shares_out": 1940282698.0
+   "shares_out": 1940282698.0,
+   "unusual_items": -4000000.0,
+   "normalized_ebitda": 1672000000.0,
+   "normalized_income": 312401544.401544
   }
  ]
 }

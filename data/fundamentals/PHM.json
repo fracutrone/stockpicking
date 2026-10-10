@@ -1,6 +1,6 @@
 {
  "ticker": "PHM",
- "fetched_at": "2026-10-10T12:55:24+00:00",
+ "fetched_at": "2026-10-10T15:53:08+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 6506,
   "website": "https://pultegroupinc.com",
-  "longBusinessSummary": "PulteGroup, Inc., through its subsidiaries, engages in the homebuilding business in the United States. The company is involved in the acquisition and development of land primarily for residential purposes, as well as construction of housing; and sale of single-family detached homes; and attached homes, such as townhomes, condominiums, and duplexes under the Centex, Pulte Homes, Del Webb, DiVosta Homes, and John Wieland Homes and Neighborhoods brands. It also engages in the mortgage banking, title, and insurance agency operations. PulteGroup, Inc. was founded in 1950 and is headquartered in Atlanta, Georgia."
+  "longBusinessSummary": "PulteGroup, Inc., through its subsidiaries, engages in the homebuilding business in the United States. The company is involved in the acquisition and development of land primarily for residential purposes, as well as construction of housing; and sale of single-family detached homes; and attached homes, such as townhomes, condominiums, and duplexes under the Centex, Pulte Homes, Del Webb, DiVosta Homes, and John Wieland Homes and Neighborhoods brands. It also engages in the mortgage banking, title, and insurance agency operations. PulteGroup, Inc. was founded in 1950 and is headquartered in Atlanta, Georgia.",
+  "targetMeanPrice": 137.58824,
+  "targetLowPrice": 100.0,
+  "targetHighPrice": 166.0,
+  "numberOfAnalystOpinions": 17,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.05882,
+  "forwardPE": 10.292792,
+  "forwardEps": 10.89306,
+  "trailingEps": 9.8,
+  "earningsGrowth": -0.182,
+  "revenueGrowth": -0.096
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 18048423000.0,
+    "official": 18048423000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 12985442000.0,
+    "official": 12985442000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2218730000.0,
+    "official": 2218730000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 17311953000.0,
+    "official": 17311953000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:53:08+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -179,7 +221,10 @@
    "goodwill_and_intangibles": 135805000.0,
    "retained_earnings": 5581702000.0,
    "total_debt": 77300000.0,
-   "shares_out": 225840443.0
+   "shares_out": 225840443.0,
+   "unusual_items": -63559000.0,
+   "normalized_ebitda": 3574319000.0,
+   "normalized_income": 2665685399.0
   },
   {
    "fy_end": "2023-12-31",
@@ -214,7 +259,10 @@
    "goodwill_and_intangibles": 125268000.0,
    "retained_earnings": 7012724000.0,
    "total_debt": 73500000.0,
-   "shares_out": 212557522.0
+   "shares_out": 212557522.0,
+   "unusual_items": -22849000.0,
+   "normalized_ebitda": 3553409000.0,
+   "normalized_income": 2619610908.390681
   },
   {
    "fy_end": "2024-12-31",
@@ -249,7 +297,10 @@
    "goodwill_and_intangibles": 115233000.0,
    "retained_earnings": 8694551000.0,
    "total_debt": 31100000.0,
-   "shares_out": 202912881.0
+   "shares_out": 202912881.0,
+   "unusual_items": -18488000.0,
+   "normalized_ebitda": 4114008000.0,
+   "normalized_income": 3097497760.0
   },
   {
    "fy_end": "2025-12-31",
@@ -284,7 +335,10 @@
    "goodwill_and_intangibles": 66587000.0,
    "retained_earnings": 9494591000.0,
    "total_debt": 43900000.0,
-   "shares_out": 192724978.0
+   "shares_out": 192724978.0,
+   "unusual_items": -126624000.0,
+   "normalized_ebitda": 3151057000.0,
+   "normalized_income": 2315217488.0
   }
  ]
 }

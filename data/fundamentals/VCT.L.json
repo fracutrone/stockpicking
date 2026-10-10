@@ -1,6 +1,6 @@
 {
  "ticker": "VCT.L",
- "fetched_at": "2026-10-10T12:24:41+00:00",
+ "fetched_at": "2026-10-10T15:28:07+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 1169,
   "website": "https://www.victrexplc.com",
-  "longBusinessSummary": "Victrex plc, through its subsidiaries, engages in the manufacture and sale of polymer solutions worldwide. The company operates through two segments, Sustainable Solutions and Medical. It develops PEEK and PAEK based polymer solutions, and semi-finished and finished parts. The company also provides specialist solutions for medical device manufacturers; and sells thermoplastic polymers; sustainable solutions for energy and industrial, VAR, aerospace, automotive, and electronics markets, as well as engages in trading activities. It serves automotive, aerospace, energy and industrial, electronics, and medical markets. Victrex plc was incorporated in 1993 and is headquartered in Thornton-Cleveleys, the United Kingdom."
+  "longBusinessSummary": "Victrex plc, through its subsidiaries, engages in the manufacture and sale of polymer solutions worldwide. The company operates through two segments, Sustainable Solutions and Medical. It develops PEEK and PAEK based polymer solutions, and semi-finished and finished parts. The company also provides specialist solutions for medical device manufacturers; and sells thermoplastic polymers; sustainable solutions for energy and industrial, VAR, aerospace, automotive, and electronics markets, as well as engages in trading activities. It serves automotive, aerospace, energy and industrial, electronics, and medical markets. Victrex plc was incorporated in 1993 and is headquartered in Thornton-Cleveleys, the United Kingdom.",
+  "targetMeanPrice": 919.583,
+  "targetLowPrice": 700.0,
+  "targetHighPrice": 1180.0,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.08333,
+  "forwardPE": 18.95601,
+  "forwardEps": 0.49694,
+  "trailingEps": -0.22,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.008
  },
  "governance": {
   "ceo": {
@@ -77,8 +88,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-09-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 566900000.0,
+    "official": 566900000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 433500000.0,
+    "official": 433500000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 27800000.0,
+    "official": 27800000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 296400000.0,
+    "official": 292700000.0,
+    "diff": 0.012641
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-09-30"
+ },
+ "info_at": "2026-10-10T15:28:07+00:00",
  "years": [
   {
    "fy_end": "2022-09-30",
@@ -113,7 +156,10 @@
    "goodwill_and_intangibles": 20200000.0,
    "retained_earnings": 427200000.0,
    "total_debt": 32100000.0,
-   "shares_out": 86995029.0
+   "shares_out": 86995029.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 109600000.0,
+   "normalized_income": 76200000.0
   },
   {
    "fy_end": "2023-09-30",
@@ -148,7 +194,9 @@
    "goodwill_and_intangibles": 18700000.0,
    "retained_earnings": 432800000.0,
    "total_debt": 50200000.0,
-   "shares_out": 87018377.0
+   "shares_out": 87018377.0,
+   "normalized_ebitda": 94400000.0,
+   "normalized_income": 61700000.0
   },
   {
    "fy_end": "2024-09-30",
@@ -182,7 +230,10 @@
    "goodwill_and_intangibles": 17100000.0,
    "retained_earnings": 398000000.0,
    "total_debt": 50400000.0,
-   "shares_out": 87034903.0
+   "shares_out": 87034903.0,
+   "unusual_items": -14500000.0,
+   "normalized_ebitda": 48300000.0,
+   "normalized_income": 17200000.0
   },
   {
    "fy_end": "2025-09-30",
@@ -216,7 +267,10 @@
    "goodwill_and_intangibles": 16400000.0,
    "retained_earnings": 375400000.0,
    "total_debt": 49000000.0,
-   "shares_out": 87052107.0
+   "shares_out": 87052107.0,
+   "unusual_items": -8600000.0,
+   "normalized_ebitda": 61100000.0,
+   "normalized_income": 27800000.0
   }
  ]
 }

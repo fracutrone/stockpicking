@@ -1,6 +1,6 @@
 {
  "ticker": "DLB",
- "fetched_at": "2026-10-10T12:43:15+00:00",
+ "fetched_at": "2026-10-10T15:41:42+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 2051,
   "website": "https://www.dolby.com",
-  "longBusinessSummary": "Dolby Laboratories, Inc. engages in the design and manufacture of audio, imaging, accessibility, and other hardware and software solutions for television, broadcast, and live entertainment industries in the United States and internationally. The company develops and licenses its audio technologies, such as AAC, HE-AAC, and extended HE-AAC, a digital audio codec solution; AVC, a digital video codec used in STBs, mobile devices, cameras, and broadcast television services and other products; and Dolby Atmos and Dolby Vision include encoding technologies that artists use to create more compelling and immersive audio and video experiences. It also provides DD+, an advanced surround sound audio codec technology; Dolby AC-4, an audio codec that uses cutting edge compression; and HEVC, a digital video codec that compresses video. In addition, the company offers Dolby Cinemas, a premium large format cinemas that deliver a Dolby branded premium cinema offering with Dolby Vision, Dolby Atmos, and a Dolby theater design; Dolby.io, a SaaS product of immersive, interactive, and social experiences with real-time engagement for live events, especially sports; and digital cinema servers, cinema processors, amplifiers, loudspeakers, and audio and imaging hardware and software products for the cinema, television, broadcast, communication, and entertainment industries. Further, it provides various services to support theatrical and television production for cinema exhibition, broadcast, and home entertainment. It serves film studios, content creators, post-production facilities, and broadcasters. Dolby Laboratories, Inc. was founded in 1965 and is headquartered in San Francisco, California."
+  "longBusinessSummary": "Dolby Laboratories, Inc. engages in the design and manufacture of audio, imaging, accessibility, and other hardware and software solutions for television, broadcast, and live entertainment industries in the United States and internationally. The company develops and licenses its audio technologies, such as AAC, HE-AAC, and extended HE-AAC, a digital audio codec solution; AVC, a digital video codec used in STBs, mobile devices, cameras, and broadcast television services and other products; and Dolby Atmos and Dolby Vision include encoding technologies that artists use to create more compelling and immersive audio and video experiences. It also provides DD+, an advanced surround sound audio codec technology; Dolby AC-4, an audio codec that uses cutting edge compression; and HEVC, a digital video codec that compresses video. In addition, the company offers Dolby Cinemas, a premium large format cinemas that deliver a Dolby branded premium cinema offering with Dolby Vision, Dolby Atmos, and a Dolby theater design; Dolby.io, a SaaS product of immersive, interactive, and social experiences with real-time engagement for live events, especially sports; and digital cinema servers, cinema processors, amplifiers, loudspeakers, and audio and imaging hardware and software products for the cinema, television, broadcast, communication, and entertainment industries. Further, it provides various services to support theatrical and television production for cinema exhibition, broadcast, and home entertainment. It serves film studios, content creators, post-production facilities, and broadcasters. Dolby Laboratories, Inc. was founded in 1965 and is headquartered in San Francisco, California.",
+  "targetMeanPrice": 79.0,
+  "targetLowPrice": 62.0,
+  "targetHighPrice": 90.0,
+  "numberOfAnalystOpinions": 3,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 12.825328,
+  "forwardEps": 4.58,
+  "trailingEps": 2.36,
+  "earningsGrowth": -0.375,
+  "revenueGrowth": -0.033
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-09-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 3227760000.0,
+    "official": 3227760000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2622557000.0,
+    "official": 2622557000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 255018000.0,
+    "official": 255018000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1349130000.0,
+    "official": 1349130000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:41:42+00:00",
  "years": [
   {
    "fy_end": "2019-09-27",
@@ -206,7 +248,10 @@
    "goodwill_and_intangibles": 477412000.0,
    "retained_earnings": 2297730000.0,
    "total_debt": 50942000.0,
-   "shares_out": 95884641.0
+   "shares_out": 95884641.0,
+   "unusual_items": -10623000.0,
+   "normalized_ebitda": 331460000.0,
+   "normalized_income": 193159042.0
   },
   {
    "fy_end": "2023-09-29",
@@ -240,7 +285,10 @@
    "goodwill_and_intangibles": 575836000.0,
    "retained_earnings": 2391990000.0,
    "total_debt": 50648000.0,
-   "shares_out": 95759412.0
+   "shares_out": 95759412.0,
+   "unusual_items": -47061000.0,
+   "normalized_ebitda": 405389000.0,
+   "normalized_income": 238587166.0
   },
   {
    "fy_end": "2024-09-27",
@@ -274,7 +322,10 @@
    "goodwill_and_intangibles": 967722000.0,
    "retained_earnings": 2496255000.0,
    "total_debt": 46992000.0,
-   "shares_out": 95393221.0
+   "shares_out": 95393221.0,
+   "unusual_items": -6384000.0,
+   "normalized_ebitda": 358421000.0,
+   "normalized_income": 267225864.0
   },
   {
    "fy_end": "2025-09-26",
@@ -308,7 +359,10 @@
    "goodwill_and_intangibles": 926957000.0,
    "retained_earnings": 2634980000.0,
    "total_debt": 38878000.0,
-   "shares_out": 95462661.0
+   "shares_out": 95462661.0,
+   "unusual_items": -15007000.0,
+   "normalized_ebitda": 393570000.0,
+   "normalized_income": 267698915.0
   }
  ]
 }

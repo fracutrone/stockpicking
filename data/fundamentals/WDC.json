@@ -1,6 +1,6 @@
 {
  "ticker": "WDC",
- "fetched_at": "2026-10-10T13:02:07+00:00",
+ "fetched_at": "2026-10-10T15:59:34+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 40000,
   "website": "https://www.westerndigital.com",
-  "longBusinessSummary": "Western Digital Corporation engages in the development, manufacture, and sale of data storage devices and solutions based on hard disk drive (HDD) technology in the United States, Asia, Europe, the Middle East, and Africa. The company offers internal HDDs, data center drives, data center platforms, external drives, portable drives, NAS for home and office, and accessories. It sells its data storage devices and solutions through its computer sales personnel, dealers, distributors, retailers, and subsidiaries. The company has a collaboration with Open Quantum Design for the development of quantum error correction technology and related systems to advance reliable quantum computing. Western Digital Corporation was founded in 1970 and is headquartered in San Jose, California."
+  "longBusinessSummary": "Western Digital Corporation engages in the development, manufacture, and sale of data storage devices and solutions based on hard disk drive (HDD) technology in the United States, Asia, Europe, the Middle East, and Africa. The company offers internal HDDs, data center drives, data center platforms, external drives, portable drives, NAS for home and office, and accessories. It sells its data storage devices and solutions through its computer sales personnel, dealers, distributors, retailers, and subsidiaries. The company has a collaboration with Open Quantum Design for the development of quantum error correction technology and related systems to advance reliable quantum computing. Western Digital Corporation was founded in 1970 and is headquartered in San Jose, California.",
+  "targetMeanPrice": 670.7917,
+  "targetLowPrice": 420.0,
+  "targetHighPrice": 1050.0,
+  "numberOfAnalystOpinions": 24,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.53846,
+  "forwardPE": 12.398135,
+  "forwardEps": 32.04353,
+  "trailingEps": 26.92,
+  "earningsGrowth": 9.841,
+  "revenueGrowth": 0.438
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-06-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 13861000000.0,
+    "official": 13861000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 8864000000.0,
+    "official": 8864000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 9298000000.0,
+    "official": 9424000000.0,
+    "diff": 0.01337
+   },
+   "revenue": {
+    "yahoo": 12919000000.0,
+    "official": 12919000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:59:34+00:00",
  "years": [
   {
    "fy_end": "2020-07-03",
@@ -207,7 +249,10 @@
    "goodwill_and_intangibles": 10117000000.0,
    "retained_earnings": 7573000000.0,
    "total_debt": 7070000000.0,
-   "shares_out": 322000000.0
+   "shares_out": 322000000.0,
+   "unusual_items": -146000000.0,
+   "normalized_ebitda": 435000000.0,
+   "normalized_income": -793624200.0
   },
   {
    "fy_end": "2024-06-28",
@@ -241,7 +286,10 @@
    "goodwill_and_intangibles": 4319000000.0,
    "retained_earnings": 6775000000.0,
    "total_debt": 7434000000.0,
-   "shares_out": 343000000.0
+   "shares_out": 343000000.0,
+   "unusual_items": -500000000.0,
+   "normalized_ebitda": 743000000.0,
+   "normalized_income": -393150000.0
   },
   {
    "fy_end": "2025-06-27",
@@ -274,7 +322,10 @@
    "goodwill_and_intangibles": 4319000000.0,
    "retained_earnings": 762000000.0,
    "total_debt": 4711000000.0,
-   "shares_out": 347000000.0
+   "shares_out": 347000000.0,
+   "unusual_items": -668000000.0,
+   "normalized_ebitda": 2606000000.0,
+   "normalized_income": 2112192400.0
   },
   {
    "fy_end": "2026-07-03",
@@ -308,7 +359,10 @@
    "goodwill_and_intangibles": 4321000000.0,
    "retained_earnings": 9998000000.0,
    "total_debt": 1052000000.0,
-   "shares_out": 361000000.0
+   "shares_out": 361000000.0,
+   "unusual_items": 5807000000.0,
+   "normalized_ebitda": 4638000000.0,
+   "normalized_income": 3781350000.0
   }
  ]
 }

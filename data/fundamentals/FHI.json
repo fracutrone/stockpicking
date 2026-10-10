@@ -1,6 +1,6 @@
 {
  "ticker": "FHI",
- "fetched_at": "2026-10-10T12:45:34+00:00",
+ "fetched_at": "2026-10-10T15:43:53+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 2091,
   "website": "https://www.federatedhermes.com/us/home.do",
-  "longBusinessSummary": "Federated Hermes, Inc. is a publicly owned investment manager. Through its subsidiaries, the firm provides its services to individuals, including high net worth individuals, banking or thrift institutions, investment companies, pension and profit sharing plans, pooled investment vehicles, charitable organizations, state or municipal government entities, and registered investment advisors. Through its subsidiaries, it manages separate client-focused equity, fixed income, balanced and money market mutual funds along with separate client-focused equity, fixed income, money market, and balanced portfolios. Through its subsidiaries, the firm invests in the public equity and fixed income markets across the globe. It invests in growth and value stocks of small-cap, mid-cap, and large-cap companies. The firm makes its fixed income investments in ultra-short, short-term, and intermediate-term mortgage-backed, U.S. Government, U.S. corporate, high yield, and municipal securities. It employs both fundamental and quantitative analysis to make its equity investments. Federated Hermes, Inc. was founded in 1955 and is based in Pittsburgh, Pennsylvania with additional offices in New York City; Chicago, Illinois and London, United Kingdom."
+  "longBusinessSummary": "Federated Hermes, Inc. is a publicly owned investment manager. Through its subsidiaries, the firm provides its services to individuals, including high net worth individuals, banking or thrift institutions, investment companies, pension and profit sharing plans, pooled investment vehicles, charitable organizations, state or municipal government entities, and registered investment advisors. Through its subsidiaries, it manages separate client-focused equity, fixed income, balanced and money market mutual funds along with separate client-focused equity, fixed income, money market, and balanced portfolios. Through its subsidiaries, the firm invests in the public equity and fixed income markets across the globe. It invests in growth and value stocks of small-cap, mid-cap, and large-cap companies. The firm makes its fixed income investments in ultra-short, short-term, and intermediate-term mortgage-backed, U.S. Government, U.S. corporate, high yield, and municipal securities. It employs both fundamental and quantitative analysis to make its equity investments. Federated Hermes, Inc. was founded in 1955 and is based in Pittsburgh, Pennsylvania with additional offices in New York City; Chicago, Illinois and London, United Kingdom.",
+  "targetMeanPrice": 59.42857,
+  "targetLowPrice": 54.0,
+  "targetHighPrice": 63.0,
+  "numberOfAnalystOpinions": 7,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.875,
+  "forwardPE": 9.695131,
+  "forwardEps": 5.82973,
+  "trailingEps": 5.37,
+  "earningsGrowth": 0.193,
+  "revenueGrowth": 0.183
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 2229337000.0,
+    "official": 2229337000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1196948000.0,
+    "official": 1196948000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 403299000.0,
+    "official": 403299000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1800663000.0,
+    "official": 1800663000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:43:53+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -189,7 +231,10 @@
    "goodwill_and_intangibles": 1209538000.0,
    "retained_earnings": 1015589000.0,
    "total_debt": 347581000.0,
-   "shares_out": 89284935.0
+   "shares_out": 89284935.0,
+   "unusual_items": -63789000.0,
+   "normalized_ebitda": 409169000.0,
+   "normalized_income": 288358374.0
   },
   {
    "fy_end": "2023-12-31",
@@ -222,7 +267,10 @@
    "goodwill_and_intangibles": 1216605000.0,
    "retained_earnings": 1194561000.0,
    "total_debt": 347843000.0,
-   "shares_out": 84849989.0
+   "shares_out": 84849989.0,
+   "unusual_items": 21870000.0,
+   "normalized_ebitda": 428816000.0,
+   "normalized_income": 282775181.337703
   },
   {
    "fy_end": "2024-12-31",
@@ -255,7 +303,10 @@
    "goodwill_and_intangibles": 1132699000.0,
    "retained_earnings": 1256603000.0,
    "total_debt": 348106000.0,
-   "shares_out": 81768679.0
+   "shares_out": 81768679.0,
+   "unusual_items": -46693000.0,
+   "normalized_ebitda": 463396000.0,
+   "normalized_income": 301158618.418329
   },
   {
    "fy_end": "2025-12-31",
@@ -288,7 +339,10 @@
    "goodwill_and_intangibles": 1183612000.0,
    "retained_earnings": 1531076000.0,
    "total_debt": 348369000.0,
-   "shares_out": 76395966.0
+   "shares_out": 76395966.0,
+   "unusual_items": 32681000.0,
+   "normalized_ebitda": 549837000.0,
+   "normalized_income": 378592164.0
   }
  ]
 }

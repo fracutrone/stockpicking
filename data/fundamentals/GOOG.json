@@ -1,6 +1,6 @@
 {
  "ticker": "GOOG",
- "fetched_at": "2026-10-10T12:47:00+00:00",
+ "fetched_at": "2026-10-10T15:45:26+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 198933,
   "website": "https://abc.xyz",
-  "longBusinessSummary": "Alphabet Inc. offers various products and platforms in the United States, Europe, the Middle East, Africa, the Asia-Pacific, Canada, and Latin America. It operates through Google Services, Google Cloud, and Other Bets segments. The Google Services segment provides products and services, including ads, Android, Chrome, devices, Gmail, Google Drive, Google Maps, Google Photos, Google Play, Search, and YouTube. It is also involved in the sale of apps and in-app purchases and digital content in Google Play and YouTube; and devices, as well as the provision of YouTube consumer subscription services, such as YouTube TV, YouTube Music and Premium, NFL Sunday Ticket, and Google One. The Google Cloud segment offers consumption-based fees and subscriptions for AI solutions, including AI infrastructure, Vertex AI platform, and Gemini enterprise. It also provides cybersecurity, and data and analytics services; Google Workspace that include cloud-based communication and collaboration tools for enterprises, such as Calendar, Gmail, Docs, Drive, and Meet; and other enterprise services. The Other Bets segment sells transportation and internet services. Alphabet Inc. was incorporated in 1998 and is headquartered in Mountain View, California."
+  "longBusinessSummary": "Alphabet Inc. offers various products and platforms in the United States, Europe, the Middle East, Africa, the Asia-Pacific, Canada, and Latin America. It operates through Google Services, Google Cloud, and Other Bets segments. The Google Services segment provides products and services, including ads, Android, Chrome, devices, Gmail, Google Drive, Google Maps, Google Photos, Google Play, Search, and YouTube. It is also involved in the sale of apps and in-app purchases and digital content in Google Play and YouTube; and devices, as well as the provision of YouTube consumer subscription services, such as YouTube TV, YouTube Music and Premium, NFL Sunday Ticket, and Google One. The Google Cloud segment offers consumption-based fees and subscriptions for AI solutions, including AI infrastructure, Vertex AI platform, and Gemini enterprise. It also provides cybersecurity, and data and analytics services; Google Workspace that include cloud-based communication and collaboration tools for enterprises, such as Calendar, Gmail, Docs, Drive, and Meet; and other enterprise services. The Other Bets segment sells transportation and internet services. Alphabet Inc. was incorporated in 1998 and is headquartered in Mountain View, California.",
+  "targetMeanPrice": 420.36,
+  "targetLowPrice": 340.0,
+  "targetHighPrice": 485.0,
+  "numberOfAnalystOpinions": 14,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.37097,
+  "forwardPE": 23.080587,
+  "forwardEps": 15.07154,
+  "trailingEps": 19.93,
+  "earningsGrowth": 2.94,
+  "revenueGrowth": 0.242
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "total_liabilities": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 595281000000.0,
+    "official": 595281000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 415265000000.0,
+    "official": 415265000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 132170000000.0,
+    "official": 132170000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 402836000000.0,
+    "official": 402836000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:45:26+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -197,7 +239,10 @@
    "goodwill_and_intangibles": 28960000000.0,
    "retained_earnings": 195563000000.0,
    "total_debt": 15312000000.0,
-   "shares_out": 12849000000.0
+   "shares_out": 12849000000.0,
+   "unusual_items": -6173000000.0,
+   "normalized_ebitda": 91333000000.0,
+   "normalized_income": 65163493000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -230,7 +275,10 @@
    "goodwill_and_intangibles": 29198000000.0,
    "retained_earnings": 211247000000.0,
    "total_debt": 13000000000.0,
-   "shares_out": 12460000000.0
+   "shares_out": 12460000000.0,
+   "unusual_items": -2061000000.0,
+   "normalized_ebitda": 100032000000.0,
+   "normalized_income": 75569521000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -263,7 +311,10 @@
    "goodwill_and_intangibles": 31885000000.0,
    "retained_earnings": 245084000000.0,
    "total_debt": 14300000000.0,
-   "shares_out": 12211000000.0
+   "shares_out": 12211000000.0,
+   "unusual_items": 2262000000.0,
+   "normalized_ebitda": 133132000000.0,
+   "normalized_income": 98226968000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -296,7 +347,10 @@
    "goodwill_and_intangibles": 33380000000.0,
    "retained_earnings": 324055000000.0,
    "total_debt": 49085000000.0,
-   "shares_out": 12088000000.0
+   "shares_out": 12088000000.0,
+   "unusual_items": 24238000000.0,
+   "normalized_ebitda": 156460000000.0,
+   "normalized_income": 112003984000.0
   }
  ]
 }

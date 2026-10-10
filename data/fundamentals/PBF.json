@@ -1,6 +1,6 @@
 {
  "ticker": "PBF",
- "fetched_at": "2026-10-10T12:55:00+00:00",
+ "fetched_at": "2026-10-10T15:52:45+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 3678,
   "website": "https://www.pbfenergy.com",
-  "longBusinessSummary": "PBF Energy Inc., through its subsidiaries, engages in the refining and supplying of petroleum products. It operates through two segments, Refining and Logistics. The company produces gasoline, ultra-low-sulfur diesel, heating oil, jet fuel, lubricants, petrochemicals, and asphalt; diesel fuel; and unbranded transportation fuels, petrochemical feedstocks, blending components, and other petroleum products. It sells its products in the Northeast, Midwest, Gulf Coast, and West Coast of the United States, as well as in other regions of the United States, Canada, Mexico, and internationally. The company is also involved in the provision of various rail, truck, and marine terminaling services; and pipeline transportation and storage services. PBF Energy Inc. was founded in 2008 and is based in Parsippany, New Jersey."
+  "longBusinessSummary": "PBF Energy Inc., through its subsidiaries, engages in the refining and supplying of petroleum products. It operates through two segments, Refining and Logistics. The company produces gasoline, ultra-low-sulfur diesel, heating oil, jet fuel, lubricants, petrochemicals, and asphalt; diesel fuel; and unbranded transportation fuels, petrochemical feedstocks, blending components, and other petroleum products. It sells its products in the Northeast, Midwest, Gulf Coast, and West Coast of the United States, as well as in other regions of the United States, Canada, Mexico, and internationally. The company is also involved in the provision of various rail, truck, and marine terminaling services; and pipeline transportation and storage services. PBF Energy Inc. was founded in 2008 and is based in Parsippany, New Jersey.",
+  "targetMeanPrice": 79.61538,
+  "targetLowPrice": 55.0,
+  "targetHighPrice": 99.0,
+  "numberOfAnalystOpinions": 13,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.35714,
+  "forwardPE": 4.718045,
+  "forwardEps": 17.86121,
+  "trailingEps": 11.36,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.562
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 13019900000.0,
+    "official": 13019900000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 5319500000.0,
+    "official": 5319500000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -158500000.0,
+    "official": -158500000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 29332300000.0,
+    "official": 29332300000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:52:45+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -193,7 +235,10 @@
    "intangibles": 9100000.0,
    "retained_earnings": 2056000000.0,
    "total_debt": 1959100000.0,
-   "shares_out": 129639307.0
+   "shares_out": 129639307.0,
+   "unusual_items": -115300000.0,
+   "normalized_ebitda": 4473400000.0,
+   "normalized_income": 2972614300.0
   },
   {
    "fy_end": "2023-12-31",
@@ -225,7 +270,10 @@
    "intangibles": 8600000.0,
    "retained_earnings": 4089900000.0,
    "total_debt": 1245900000.0,
-   "shares_out": 120440620.0
+   "shares_out": 120440620.0,
+   "unusual_items": -3900000.0,
+   "normalized_ebitda": 3620100000.0,
+   "normalized_income": 2143413300.0
   },
   {
    "fy_end": "2024-12-31",
@@ -257,7 +305,10 @@
    "intangibles": 8100000.0,
    "retained_earnings": 3436200000.0,
    "total_debt": 1457300000.0,
-   "shares_out": 115311992.0
+   "shares_out": 115311992.0,
+   "unusual_items": -44500000.0,
+   "normalized_ebitda": 42100000.0,
+   "normalized_income": -502650000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -288,7 +339,10 @@
    "ppe_net": 5517800000.0,
    "retained_earnings": 3149900000.0,
    "total_debt": 2148300000.0,
-   "shares_out": 116937076.0
+   "shares_out": 116937076.0,
+   "unusual_items": 863400000.0,
+   "normalized_ebitda": -229300000.0,
+   "normalized_income": -746475400.0
   }
  ]
 }

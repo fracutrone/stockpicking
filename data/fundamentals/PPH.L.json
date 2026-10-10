@@ -1,6 +1,6 @@
 {
  "ticker": "PPH.L",
- "fetched_at": "2026-10-10T12:14:56+00:00",
+ "fetched_at": "2026-10-10T15:12:23+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": "https://www.pphe.com",
-  "longBusinessSummary": "PPHE Hotel Group Limited owns, co-owns, develops, leases, operates, and franchises hospitality real estate in the Netherlands, the United Kingdom, Germany, Croatia, Austria, Hungary, Italy, and Serbia. The company focuses on full-service upscale, upper upscale, and lifestyle hotels in cities and regional, as well as resort and campsite properties in select resort destinations. It owns and operates hotels and resorts under the Park Plaza, the art'otel, Holmes, Radisson Collection, and the Arena Campsites brands, as well as the Arena Hotels & Apartments. The company operates restaurants and bars; and licensed outlets, including Italian coffee bar espressamente illy and the Balinese Mandara Spa. The company was formerly known as Park Plaza Hotels Limited and changed its name to PPHE Hotel Group Limited in March 2012. PPHE Hotel Group Limited was founded in 1986 and is headquartered in Amsterdam, the Netherlands."
+  "longBusinessSummary": "PPHE Hotel Group Limited owns, co-owns, develops, leases, operates, and franchises hospitality real estate in the Netherlands, the United Kingdom, Germany, Croatia, Austria, Hungary, Italy, and Serbia. The company focuses on full-service upscale, upper upscale, and lifestyle hotels in cities and regional, as well as resort and campsite properties in select resort destinations. It owns and operates hotels and resorts under the Park Plaza, the art'otel, Holmes, Radisson Collection, and the Arena Campsites brands, as well as the Arena Hotels & Apartments. The company operates restaurants and bars; and licensed outlets, including Italian coffee bar espressamente illy and the Balinese Mandara Spa. The company was formerly known as Park Plaza Hotels Limited and changed its name to PPHE Hotel Group Limited in March 2012. PPHE Hotel Group Limited was founded in 1986 and is headquartered in Amsterdam, the Netherlands.",
+  "targetMeanPrice": 1942.25,
+  "targetLowPrice": 1750.0,
+  "targetHighPrice": 2209.0,
+  "numberOfAnalystOpinions": 4,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.66667,
+  "forwardPE": 11.201249,
+  "forwardEps": 1.282,
+  "trailingEps": 3.68,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.047
  },
  "governance": {
   "ceo": {
@@ -70,8 +81,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 1921849000.0,
+    "official": 1921849000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 321435000.0,
+    "official": 321435000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 13185000.0,
+    "official": 13185000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 466403000.0,
+    "official": 466403000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:12:23+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -104,7 +147,10 @@
    "goodwill_and_intangibles": 12805000.0,
    "retained_earnings": 156364000.0,
    "total_debt": 1131783000.0,
-   "shares_out": 42438368.0
+   "shares_out": 42438368.0,
+   "unusual_items": 8223000.0,
+   "normalized_ebitda": 77791000.0,
+   "normalized_income": 3498370.0
   },
   {
    "fy_end": "2023-12-31",
@@ -137,7 +183,10 @@
    "goodwill_and_intangibles": 10665000.0,
    "retained_earnings": 166281000.0,
    "total_debt": 1170399000.0,
-   "shares_out": 42363300.0
+   "shares_out": 42363300.0,
+   "unusual_items": -5928000.0,
+   "normalized_ebitda": 115463000.0,
+   "normalized_income": 27998080.979807
   },
   {
    "fy_end": "2024-12-31",
@@ -170,7 +219,10 @@
    "goodwill_and_intangibles": 7632000.0,
    "retained_earnings": 177874000.0,
    "total_debt": 1167309000.0,
-   "shares_out": 41789324.0
+   "shares_out": 41789324.0,
+   "unusual_items": -556000.0,
+   "normalized_ebitda": 118894000.0,
+   "normalized_income": 28709674.648025
   },
   {
    "fy_end": "2025-12-31",
@@ -203,7 +255,10 @@
    "goodwill_and_intangibles": 6622000.0,
    "retained_earnings": 179127000.0,
    "total_debt": 1195115000.0,
-   "shares_out": 41856324.0
+   "shares_out": 41856324.0,
+   "unusual_items": -3921000.0,
+   "normalized_ebitda": 125657000.0,
+   "normalized_income": 16125750.0
   }
  ]
 }

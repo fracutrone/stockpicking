@@ -1,6 +1,6 @@
 {
  "ticker": "AXTA",
- "fetched_at": "2026-10-10T12:38:27+00:00",
+ "fetched_at": "2026-10-10T15:35:38+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 12200,
   "website": "https://www.axalta.com",
-  "longBusinessSummary": "Axalta Coating Systems Ltd., through its subsidiaries, manufactures, markets, and distributes high-performance coatings systems in North America, Europe, the Middle East, Africa, the Asia Pacific, and Latin America. The company operates through two segments, Performance Coatings and Mobility Coatings. It also offers water and solvent-borne products and systems to repair damaged vehicles for independent body shops, multi-shop operators, and original equipment manufacturers (OEM) dealership body shops. In addition, the company provides functional and decorative liquid, and powder coatings for building materials, cabinet, wood and luxury vinyl flooring, and furniture applications under the Imron Industrial, Tufcote Industrial, Corlar Industrial, Strenex Industrial, PercoTop, Voltatex, AquaEC, Durapon, Hydropon, UNRIVALED, Ceranamel, Alesta, Teodur, Nap-Gard, Abcite, and Plascoat brands. Further, it develops and supplies electrocoat, primer, the basecoat, and clearcoat products for OEMs of light and commercial vehicles; and coatings systems for various commercial applications, including HDT, MDT, bus, rail, motorcycles, marine and aviation, trailers, recreational vehicles, and personal sport vehicles under the Imron, Imron Elite, Centari, Rival, Corlar epoxy undercoats, and AquaEC brands. The company also offers products under the Audurra, Abcite, Alesta, AquaEC, Axalta Irus Mix, Axalta Irus Scan, Axalta NextJet, Axalta Nimbus, Centari, Ceranamel, Challenger, Chemophan, ColorNet, Cromax, Cromax Mosaic, Durapon 70, Duxone, Harmonized Coating Technologies, Hydropon, Imron ExcelPro, Imron Elite, Imron, Lutophen, Nap-Gard, Nason, Spies Hecker, Standox, Stollaquid, Syntopal, Syrox, Raptor, Rival, U-POL, and Vermeera brands. The company was formerly known as Axalta Coating Systems Bermuda Co., Ltd. and changed its name to Axalta Coating Systems Ltd. in August 2014. Axalta Coating Systems Ltd. was founded in 1866 and is headquartered in Philadelphia, Pennsylvania."
+  "longBusinessSummary": "Axalta Coating Systems Ltd., through its subsidiaries, manufactures, markets, and distributes high-performance coatings systems in North America, Europe, the Middle East, Africa, the Asia Pacific, and Latin America. The company operates through two segments, Performance Coatings and Mobility Coatings. It also offers water and solvent-borne products and systems to repair damaged vehicles for independent body shops, multi-shop operators, and original equipment manufacturers (OEM) dealership body shops. In addition, the company provides functional and decorative liquid, and powder coatings for building materials, cabinet, wood and luxury vinyl flooring, and furniture applications under the Imron Industrial, Tufcote Industrial, Corlar Industrial, Strenex Industrial, PercoTop, Voltatex, AquaEC, Durapon, Hydropon, UNRIVALED, Ceranamel, Alesta, Teodur, Nap-Gard, Abcite, and Plascoat brands. Further, it develops and supplies electrocoat, primer, the basecoat, and clearcoat products for OEMs of light and commercial vehicles; and coatings systems for various commercial applications, including HDT, MDT, bus, rail, motorcycles, marine and aviation, trailers, recreational vehicles, and personal sport vehicles under the Imron, Imron Elite, Centari, Rival, Corlar epoxy undercoats, and AquaEC brands. The company also offers products under the Audurra, Abcite, Alesta, AquaEC, Axalta Irus Mix, Axalta Irus Scan, Axalta NextJet, Axalta Nimbus, Centari, Ceranamel, Challenger, Chemophan, ColorNet, Cromax, Cromax Mosaic, Durapon 70, Duxone, Harmonized Coating Technologies, Hydropon, Imron ExcelPro, Imron Elite, Imron, Lutophen, Nap-Gard, Nason, Spies Hecker, Standox, Stollaquid, Syntopal, Syrox, Raptor, Rival, U-POL, and Vermeera brands. The company was formerly known as Axalta Coating Systems Bermuda Co., Ltd. and changed its name to Axalta Coating Systems Ltd. in August 2014. Axalta Coating Systems Ltd. was founded in 1866 and is headquartered in Philadelphia, Pennsylvania.",
+  "targetMeanPrice": 39.26667,
+  "targetLowPrice": 33.0,
+  "targetHighPrice": 47.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.1875,
+  "forwardPE": 11.397335,
+  "forwardEps": 2.86295,
+  "trailingEps": 1.63,
+  "earningsGrowth": -0.18,
+  "revenueGrowth": 0.031
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 7599000000.0,
+    "official": 7599000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2346000000.0,
+    "official": 2346000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 378000000.0,
+    "official": 378000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 5117000000.0,
+    "official": 5117000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:35:38+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -202,7 +244,10 @@
    "goodwill_and_intangibles": 2610300000.0,
    "retained_earnings": 1018800000.0,
    "total_debt": 3689300000.0,
-   "shares_out": 220600000.0
+   "shares_out": 220600000.0,
+   "unusual_items": -30000000.0,
+   "normalized_ebitda": 730000000.0,
+   "normalized_income": 214412451.361868
   },
   {
    "fy_end": "2023-12-31",
@@ -236,7 +281,10 @@
    "goodwill_and_intangibles": 2721000000.0,
    "retained_earnings": 1286000000.0,
    "total_debt": 3485000000.0,
-   "shares_out": 220083039.0
+   "shares_out": 220083039.0,
+   "unusual_items": -33000000.0,
+   "normalized_ebitda": 877000000.0,
+   "normalized_income": 292005633.802817
   },
   {
    "fy_end": "2024-12-31",
@@ -270,7 +318,10 @@
    "goodwill_and_intangibles": 2789000000.0,
    "retained_earnings": 1677000000.0,
    "total_debt": 3404000000.0,
-   "shares_out": 218063244.0
+   "shares_out": 218063244.0,
+   "unusual_items": -16000000.0,
+   "normalized_ebitda": 997000000.0,
+   "normalized_income": 403624000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -304,7 +355,10 @@
    "goodwill_and_intangibles": 2942000000.0,
    "retained_earnings": 2055000000.0,
    "total_debt": 3182000000.0,
-   "shares_out": 213415840.0
+   "shares_out": 213415840.0,
+   "unusual_items": -17000000.0,
+   "normalized_ebitda": 1034000000.0,
+   "normalized_income": 389815000.0
   }
  ]
 }

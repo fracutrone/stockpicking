@@ -1,6 +1,6 @@
 {
  "ticker": "CB",
- "fetched_at": "2026-10-10T12:39:59+00:00",
+ "fetched_at": "2026-10-10T15:38:52+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 45000,
   "website": "https://www.chubb.com",
-  "longBusinessSummary": "Chubb Limited provides insurance and reinsurance products worldwide. It operates in six segments: North America Commercial Property and Casualty (P&C) Insurance, North America Personal P&C Insurance, North America Agricultural Insurance, Overseas General Insurance, Global Reinsurance, and Life Insurance. The company offers property and general liability, workers' compensation, and umbrella; professional and management liability; environmental, health, and international coverages; and claims and risk management products and services, loss control, and engineering and complex claims management. It also provides homeowners, automobile and collector cars, valuable articles, and personal and excess liability insurance. In addition, the company offers multiple peril crop insurance and crop-hail insurance for farm, ranch, specialty (P&C), and commercial agriculture products; product and employer liability, business interruption, and specialty risk; property insurance products, including traditional commercial fire coverage, energy industry-related, marine, construction, and other technical coverages; personal accident and supplemental medical coverages, such as accidental death, business/holiday travel, specified disease, disability, medical and hospital indemnity, and income protection; and directors and officers, professional indemnity, cyber, surety, aviation, political risk, and specialty personal lines products. Further, it provides property catastrophe reinsurance; traditional and specialty P&C reinsurance; and protection and savings products, which includes individual and group term life, dental, critical illness, dementia, hospital cash, credit life, group employee benefits, whole life, universal life, unit linked contracts, endowment plans, and annuities. The company was formerly known as ACE Limited and changed its name to Chubb Limited in January 2016. Chubb Limited was incorporated in 1985 and is headquartered in Zurich, Switzerland."
+  "longBusinessSummary": "Chubb Limited provides insurance and reinsurance products worldwide. It operates in six segments: North America Commercial Property and Casualty (P&C) Insurance, North America Personal P&C Insurance, North America Agricultural Insurance, Overseas General Insurance, Global Reinsurance, and Life Insurance. The company offers property and general liability, workers' compensation, and umbrella; professional and management liability; environmental, health, and international coverages; and claims and risk management products and services, loss control, and engineering and complex claims management. It also provides homeowners, automobile and collector cars, valuable articles, and personal and excess liability insurance. In addition, the company offers multiple peril crop insurance and crop-hail insurance for farm, ranch, specialty (P&C), and commercial agriculture products; product and employer liability, business interruption, and specialty risk; property insurance products, including traditional commercial fire coverage, energy industry-related, marine, construction, and other technical coverages; personal accident and supplemental medical coverages, such as accidental death, business/holiday travel, specified disease, disability, medical and hospital indemnity, and income protection; and directors and officers, professional indemnity, cyber, surety, aviation, political risk, and specialty personal lines products. Further, it provides property catastrophe reinsurance; traditional and specialty P&C reinsurance; and protection and savings products, which includes individual and group term life, dental, critical illness, dementia, hospital cash, credit life, group employee benefits, whole life, universal life, unit linked contracts, endowment plans, and annuities. The company was formerly known as ACE Limited and changed its name to Chubb Limited in January 2016. Chubb Limited was incorporated in 1985 and is headquartered in Zurich, Switzerland.",
+  "targetMeanPrice": 366.86957,
+  "targetLowPrice": 307.0,
+  "targetHighPrice": 425.0,
+  "numberOfAnalystOpinions": 23,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.44,
+  "forwardPE": 11.669059,
+  "forwardEps": 29.23972,
+  "trailingEps": 28.23,
+  "earningsGrowth": -0.007,
+  "revenueGrowth": 0.061
  },
  "governance": {
   "ceo": {
@@ -76,8 +87,38 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "ppe_net": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 272327000000.0,
+    "official": 272327000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 73757000000.0,
+    "official": 73757000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 10310000000.0,
+    "official": 10310000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 59783000000.0,
+    "official": 59402000000.0,
+    "diff": 0.006414
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:38:52+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -163,7 +204,9 @@
    "goodwill_and_intangibles": 25371000000.0,
    "retained_earnings": 48305000000.0,
    "total_debt": 14877000000.0,
-   "shares_out": 414594856.0
+   "shares_out": 414594856.0,
+   "unusual_items": -48000000.0,
+   "normalized_income": 5284832000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -189,7 +232,9 @@
    "goodwill_and_intangibles": 30135000000.0,
    "retained_earnings": 54810000000.0,
    "total_debt": 14495000000.0,
-   "shares_out": 405269637.0
+   "shares_out": 405269637.0,
+   "unusual_items": -69000000.0,
+   "normalized_income": 9093274000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -215,7 +260,9 @@
    "goodwill_and_intangibles": 29179000000.0,
    "retained_earnings": 61561000000.0,
    "total_debt": 15179000000.0,
-   "shares_out": 400703663.0
+   "shares_out": 400703663.0,
+   "unusual_items": -39000000.0,
+   "normalized_income": 9304838000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -241,7 +288,9 @@
    "goodwill_and_intangibles": 29423000000.0,
    "retained_earnings": 69950000000.0,
    "total_debt": 17227000000.0,
-   "shares_out": 391101227.0
+   "shares_out": 391101227.0,
+   "unusual_items": -79000000.0,
+   "normalized_income": 10374306000.0
   }
  ]
 }

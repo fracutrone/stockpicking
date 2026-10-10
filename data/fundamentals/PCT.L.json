@@ -1,6 +1,6 @@
 {
  "ticker": "PCT.L",
- "fetched_at": "2026-10-10T12:13:34+00:00",
+ "fetched_at": "2026-10-10T15:11:03+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.0,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -49,8 +60,15 @@
   "equity": "yahoo",
   "receivables": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T15:11:03+00:00",
  "years": [
   {
    "fy_end": "2023-04-30",
@@ -70,7 +88,8 @@
    "equity": 2828141000.0,
    "receivables": 18352000.0,
    "total_debt": 50845000.0,
-   "shares_out": 1262855440.0
+   "shares_out": 1262855440.0,
+   "normalized_income": -105182000.0
   },
   {
    "fy_end": "2024-04-30",
@@ -90,7 +109,8 @@
    "equity": 3804533000.0,
    "receivables": 34612000.0,
    "total_debt": 48473000.0,
-   "shares_out": 1206215690.0
+   "shares_out": 1206215690.0,
+   "normalized_income": 1115437000.0
   },
   {
    "fy_end": "2025-04-30",
@@ -110,7 +130,8 @@
    "equity": 3804889000.0,
    "receivables": 38356000.0,
    "total_debt": 79776000.0,
-   "shares_out": 1170007019.0
+   "shares_out": 1170007019.0,
+   "normalized_income": 118355000.0
   },
   {
    "fy_end": "2026-04-30",
@@ -130,7 +151,8 @@
    "equity": 7324872000.0,
    "receivables": 53767000.0,
    "total_debt": 70443000.0,
-   "shares_out": 1114203196.0
+   "shares_out": 1114203196.0,
+   "normalized_income": 3752471000.0
   }
  ]
 }

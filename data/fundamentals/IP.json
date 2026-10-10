@@ -1,6 +1,6 @@
 {
  "ticker": "IP",
- "fetched_at": "2026-10-10T12:48:55+00:00",
+ "fetched_at": "2026-10-10T15:47:16+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 62602,
   "website": "https://www.internationalpaper.com",
-  "longBusinessSummary": "International Paper Company produces and sells renewable fiber-based packaging in North America, Latin America, Europe, South America, and North Africa. It operates through two segments, Packaging Solutions North America and Packaging Solutions EMEA. The company offers linerboard, medium, whitetop, and saturating kraft; and converts containerboard into corrugated boxes, bulk bins, shipping containers and specialty packaging through its converting facilities. Its products support customers in various industries, such as food and beverage, agriculture, industrial manufacturing, personal care pharmaceuticals and consumer goods. The company was founded in 1898 and is headquartered in Memphis, Tennessee."
+  "longBusinessSummary": "International Paper Company produces and sells renewable fiber-based packaging in North America, Latin America, Europe, South America, and North Africa. It operates through two segments, Packaging Solutions North America and Packaging Solutions EMEA. The company offers linerboard, medium, whitetop, and saturating kraft; and converts containerboard into corrugated boxes, bulk bins, shipping containers and specialty packaging through its converting facilities. Its products support customers in various industries, such as food and beverage, agriculture, industrial manufacturing, personal care pharmaceuticals and consumer goods. The company was founded in 1898 and is headquartered in Memphis, Tennessee.",
+  "targetMeanPrice": 46.36364,
+  "targetLowPrice": 35.0,
+  "targetHighPrice": 62.0,
+  "numberOfAnalystOpinions": 11,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.58333,
+  "forwardPE": 10.60073,
+  "forwardEps": 3.02998,
+  "trailingEps": -5.17,
+  "earningsGrowth": null,
+  "revenueGrowth": -0.022
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 37964000000.0,
+    "official": 37964000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 14827000000.0,
+    "official": 14827000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -3516000000.0,
+    "official": -3516000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 23634000000.0,
+    "official": 23634000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:47:16+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -200,7 +242,10 @@
    "goodwill_and_intangibles": 3261000000.0,
    "retained_earnings": 9855000000.0,
    "total_debt": 4816000000.0,
-   "shares_out": 350300000.0
+   "shares_out": 350300000.0,
+   "unusual_items": -110000000.0,
+   "normalized_ebitda": 3064000000.0,
+   "normalized_income": 1822609000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -234,7 +279,10 @@
    "goodwill_and_intangibles": 3224000000.0,
    "retained_earnings": 9491000000.0,
    "total_debt": 5455000000.0,
-   "shares_out": 346037241.0
+   "shares_out": 346037241.0,
+   "unusual_items": -65000000.0,
+   "normalized_ebitda": 2317000000.0,
+   "normalized_income": 366950000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -268,7 +316,10 @@
    "goodwill_and_intangibles": 3110000000.0,
    "retained_earnings": 9393000000.0,
    "total_debt": 5362000000.0,
-   "shares_out": 347417000.0
+   "shares_out": 347417000.0,
+   "unusual_items": -44000000.0,
+   "normalized_ebitda": 2150000000.0,
+   "normalized_income": 757722800.0
   },
   {
    "fy_end": "2025-12-31",
@@ -302,7 +353,10 @@
    "goodwill_and_intangibles": 9369000000.0,
    "retained_earnings": 4885000000.0,
    "total_debt": 8839000000.0,
-   "shares_out": 528000000.0
+   "shares_out": 528000000.0,
+   "unusual_items": -2998000000.0,
+   "normalized_ebitda": 3063000000.0,
+   "normalized_income": -319680000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "LSCC",
- "fetched_at": "2026-10-10T12:50:49+00:00",
+ "fetched_at": "2026-10-10T15:49:03+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 1174,
   "website": "https://www.latticesemi.com",
-  "longBusinessSummary": "Lattice Semiconductor Corporation, together with its subsidiaries, develops and sells semiconductor, silicon-based and silicon-enabling, evaluation boards, and development hardware products in Asia, Europe, and the Americas. It offers field programmable gate arrays (FPGA), which are regular arrays of logic that can be custom-configured by the user through software. The company's products include small FPGA platforms, including Lattice Nexus and Lattice Nexus 2; Lattice Avant, a mid-range FPGA platform; general purpose FPGA, such as Lattice Avant-G, Certus-NX, CertusPro, and Certus-N2; and specialized FPGAs, which includes Lattice Avant-E, Avant-X, SCP, MachXO, iCE, CrossLink,and CrossLinkPlus. It also provides design software that includes Lattice Radiant to deliver tools that enable predictable design convergence; Lattice Propel for creating embedded processor-based designs; develops Lattice Automate for industrial automation and robotics; Lattice mVision forlow power embedded vision; Lattice ORAN for control data security, fronthaul synchronization, and low power hardware acceleration; Lattice sensAI for Edge AI applications; Lattice Sentry for hardware security implementation; and Lattice Drive for automotive system designs and applications. In addition, the company offers Glance, an edge AI application software that allows users to control the AI and computer vision experiences for various edge applications, including client computing, industrial, and automotive applications; and sells video connectivity application specific standard products. Further, it provides standard IP and IP core licensing, patent monetization, and IP services. The company serves communications and computing, industrial and automotive, and consumer markets. Lattice Semiconductor Corporation was incorporated in 1983 and is headquartered in Hillsboro, Oregon."
+  "longBusinessSummary": "Lattice Semiconductor Corporation, together with its subsidiaries, develops and sells semiconductor, silicon-based and silicon-enabling, evaluation boards, and development hardware products in Asia, Europe, and the Americas. It offers field programmable gate arrays (FPGA), which are regular arrays of logic that can be custom-configured by the user through software. The company's products include small FPGA platforms, including Lattice Nexus and Lattice Nexus 2; Lattice Avant, a mid-range FPGA platform; general purpose FPGA, such as Lattice Avant-G, Certus-NX, CertusPro, and Certus-N2; and specialized FPGAs, which includes Lattice Avant-E, Avant-X, SCP, MachXO, iCE, CrossLink,and CrossLinkPlus. It also provides design software that includes Lattice Radiant to deliver tools that enable predictable design convergence; Lattice Propel for creating embedded processor-based designs; develops Lattice Automate for industrial automation and robotics; Lattice mVision forlow power embedded vision; Lattice ORAN for control data security, fronthaul synchronization, and low power hardware acceleration; Lattice sensAI for Edge AI applications; Lattice Sentry for hardware security implementation; and Lattice Drive for automotive system designs and applications. In addition, the company offers Glance, an edge AI application software that allows users to control the AI and computer vision experiences for various edge applications, including client computing, industrial, and automotive applications; and sells video connectivity application specific standard products. Further, it provides standard IP and IP core licensing, patent monetization, and IP services. The company serves communications and computing, industrial and automotive, and consumer markets. Lattice Semiconductor Corporation was incorporated in 1983 and is headquartered in Hillsboro, Oregon.",
+  "targetMeanPrice": 164.2143,
+  "targetLowPrice": 125.0,
+  "targetHighPrice": 180.0,
+  "numberOfAnalystOpinions": 14,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.42857,
+  "forwardPE": 39.209404,
+  "forwardEps": 3.21479,
+  "trailingEps": 0.25,
+  "earningsGrowth": 6.0,
+  "revenueGrowth": 0.622
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "retained_earnings": "sec",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 883120000.0,
+    "official": 883120000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 714054000.0,
+    "official": 714054000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 3084000.0,
+    "official": 3084000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 523262000.0,
+    "official": 523262000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:49:04+00:00",
  "years": [
   {
    "fy_end": "2019-12-28",
@@ -206,7 +248,10 @@
    "goodwill_and_intangibles": 340428000.0,
    "retained_earnings": -111094000.0,
    "total_debt": 148824000.0,
-   "shares_out": 137099000.0
+   "shares_out": 137099000.0,
+   "unusual_items": -3062000.0,
+   "normalized_ebitda": 229326000.0,
+   "normalized_income": 181882760.0
   },
   {
    "fy_end": "2023-12-30",
@@ -240,7 +285,10 @@
    "goodwill_and_intangibles": 336332000.0,
    "retained_earnings": 147967000.0,
    "total_debt": 16310000.0,
-   "shares_out": 137340000.0
+   "shares_out": 137340000.0,
+   "unusual_items": -1908000.0,
+   "normalized_ebitda": 257282000.0,
+   "normalized_income": 260477308.4
   },
   {
    "fy_end": "2024-12-28",
@@ -274,7 +322,10 @@
    "goodwill_and_intangibles": 319945000.0,
    "retained_earnings": 209098000.0,
    "total_debt": 15251000.0,
-   "shares_out": 137704000.0
+   "shares_out": 137704000.0,
+   "unusual_items": -26220000.0,
+   "normalized_ebitda": 133164000.0,
+   "normalized_income": 80630814.0
   },
   {
    "fy_end": "2026-01-03",
@@ -308,7 +359,10 @@
    "goodwill_and_intangibles": 319501000.0,
    "retained_earnings": 212182000.0,
    "total_debt": 42107000.0,
-   "shares_out": 136771000.0
+   "shares_out": 136771000.0,
+   "unusual_items": -4044000.0,
+   "normalized_ebitda": 61635000.0,
+   "normalized_income": 5510400.0
   }
  ]
 }

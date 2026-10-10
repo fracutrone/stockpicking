@@ -1,6 +1,6 @@
 {
  "ticker": "APH",
- "fetched_at": "2026-10-10T12:37:46+00:00",
+ "fetched_at": "2026-10-10T15:34:45+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 170000,
   "website": "https://www.amphenol.com",
-  "longBusinessSummary": "Amphenol Corporation, together with its subsidiaries, designs, manufactures, and markets electrical, electronic, and fiber optic connectors in the United States, China, and internationally. It operates through three segments: Communications Solutions, Harsh Environment Solutions, and Interconnect and Sensor Systems. The company offers connectors and connector systems, including high speed, radio frequency, power, fiber optic and other interconnect products; busbars and power distribution systems; power interconnect products; and other products. It also provides value-add products, such as backplane interconnect systems, cable assemblies and harnesses, and cable management products; and other products comprising flexible and rigid printed circuit boards, hinges, other mechanical, and production related products. In addition, the company offers consumer device, network infrastructure, and other antennas; coaxial, power, and specialty cables; and sensors and sensor-based products. It sells its products through its sales force, independent representatives, and a network of electronics distributors to original equipment manufacturers, electronic manufacturing services companies, original design manufacturers, and service providers in the automotive, commercial aerospace, communications networks, defense, industrial, information technology and data communications, mobile devices markets. Additionally, the company provides telecommunication and IT networking solutions. The company was founded in 1932 and is headquartered in Wallingford, Connecticut."
+  "longBusinessSummary": "Amphenol Corporation, together with its subsidiaries, designs, manufactures, and markets electrical, electronic, and fiber optic connectors in the United States, China, and internationally. It operates through three segments: Communications Solutions, Harsh Environment Solutions, and Interconnect and Sensor Systems. The company offers connectors and connector systems, including high speed, radio frequency, power, fiber optic and other interconnect products; busbars and power distribution systems; power interconnect products; and other products. It also provides value-add products, such as backplane interconnect systems, cable assemblies and harnesses, and cable management products; and other products comprising flexible and rigid printed circuit boards, hinges, other mechanical, and production related products. In addition, the company offers consumer device, network infrastructure, and other antennas; coaxial, power, and specialty cables; and sensors and sensor-based products. It sells its products through its sales force, independent representatives, and a network of electronics distributors to original equipment manufacturers, electronic manufacturing services companies, original design manufacturers, and service providers in the automotive, commercial aerospace, communications networks, defense, industrial, information technology and data communications, mobile devices markets. Additionally, the company provides telecommunication and IT networking solutions. The company was founded in 1932 and is headquartered in Wallingford, Connecticut.",
+  "targetMeanPrice": 101.65789,
+  "targetLowPrice": 85.0,
+  "targetHighPrice": 116.0,
+  "numberOfAnalystOpinions": 19,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.42105,
+  "forwardPE": 26.194736,
+  "forwardEps": 3.33044,
+  "trailingEps": 2.0,
+  "earningsGrowth": 0.593,
+  "revenueGrowth": 0.55
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 36236900000.0,
+    "official": 36236900000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 13413100000.0,
+    "official": 13413100000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 4270300000.0,
+    "official": 4270300000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 23094700000.0,
+    "official": 23094700000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:34:45+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -210,7 +252,10 @@
    "goodwill_and_intangibles": 7180200000.0,
    "retained_earnings": 4979400000.0,
    "total_debt": 4575000000.0,
-   "shares_out": 2379200000.0
+   "shares_out": 2379200000.0,
+   "unusual_items": -21500000.0,
+   "normalized_ebitda": 3010200000.0,
+   "normalized_income": 1919005500.0
   },
   {
    "fy_end": "2023-12-31",
@@ -245,7 +290,10 @@
    "goodwill_and_intangibles": 7927200000.0,
    "retained_earnings": 5921100000.0,
    "total_debt": 3983500000.0,
-   "shares_out": 2395600000.0
+   "shares_out": 2395600000.0,
+   "unusual_items": -29200000.0,
+   "normalized_ebitda": 3029900000.0,
+   "normalized_income": 1951155600.0
   },
   {
    "fy_end": "2024-12-31",
@@ -280,7 +328,10 @@
    "goodwill_and_intangibles": 9461300000.0,
    "retained_earnings": 7105000000.0,
    "total_debt": 6484400000.0,
-   "shares_out": 2418600000.0
+   "shares_out": 2418600000.0,
+   "unusual_items": -127400000.0,
+   "normalized_ebitda": 3928800000.0,
+   "normalized_income": 2527276948.105847
   },
   {
    "fy_end": "2025-12-31",
@@ -315,7 +366,10 @@
    "goodwill_and_intangibles": 12816800000.0,
    "retained_earnings": 9854300000.0,
    "total_debt": 14564800000.0,
-   "shares_out": 2453200000.0
+   "shares_out": 2453200000.0,
+   "unusual_items": -103400000.0,
+   "normalized_ebitda": 6994300000.0,
+   "normalized_income": 4349784353.741497
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "FSV.L",
- "fetched_at": "2026-10-10T11:59:04+00:00",
+ "fetched_at": "2026-10-10T14:49:42+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 0.140625,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -48,8 +59,15 @@
   "cash": "yahoo",
   "equity": "yahoo",
   "receivables": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T14:49:42+00:00",
  "years": [
   {
    "fy_end": "2022-08-31",
@@ -68,7 +86,8 @@
    "cash": 80450000.0,
    "equity": 922599000.0,
    "receivables": 10940000.0,
-   "shares_out": 324098920.0
+   "shares_out": 324098920.0,
+   "normalized_income": -43431000.0
   },
   {
    "fy_end": "2023-08-31",
@@ -87,7 +106,8 @@
    "cash": 59460000.0,
    "equity": 951049000.0,
    "receivables": 8937000.0,
-   "shares_out": 324098920.0
+   "shares_out": 324098920.0,
+   "normalized_income": 54313000.0
   },
   {
    "fy_end": "2024-08-31",
@@ -106,7 +126,8 @@
    "cash": 11749000.0,
    "equity": 1143541000.0,
    "receivables": 8200000.0,
-   "shares_out": 324098920.0
+   "shares_out": 324098920.0,
+   "normalized_income": 223314000.0
   },
   {
    "fy_end": "2025-08-31",
@@ -125,7 +146,8 @@
    "cash": 94109000.0,
    "equity": 1267188000.0,
    "receivables": 10672000.0,
-   "shares_out": 323048920.0
+   "shares_out": 323048920.0,
+   "normalized_income": 158388000.0
   }
  ]
 }

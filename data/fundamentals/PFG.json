@@ -1,6 +1,6 @@
 {
  "ticker": "PFG",
- "fetched_at": "2026-10-10T12:55:15+00:00",
+ "fetched_at": "2026-10-10T15:52:59+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 19700,
   "website": "https://www.principal.com",
-  "longBusinessSummary": "Principal Financial Group, Inc. provides retirement, asset management, and insurance products and services to businesses, individuals, and institutional clients worldwide. The company operates through Retirement and Income Solutions, Principal Asset Management, and Benefits and Protection segments. The Retirement and Income Solutions segment provides retirement, and related financial products and services. This segment offers products and services for defined contribution plans, including 401(k) and 403(b) plans, defined benefit plans, nonqualified executive benefit plans, employee stock ownership plans, equity compensation, and pension risk transfer services; individual retirement accounts; investment only products; and mutual funds, individual variable annuities, registered index-linked annuities, and bank products, as well as trust and custody services. The Principal Asset Management segment provides equity, fixed income, real estate, and other alternative investments, as well as fund offerings. This segment also offers pension accumulation products and services, mutual funds, asset management, income annuities, and life insurance accumulation products, as well as voluntary savings plans. The Benefits and Protection segment provides specialty benefits, such as specialty benefits group dental and vision insurance, group life and other insurance, and group and individual disability insurance, as well as administers group dental, disability, and vision benefits; and individual life insurance products comprising universal, variable universal, indexed universal, and term life insurance products. This segment serves insurance solutions for small and medium-sized businesses and their owners, as well as employees. The company was founded in 1879 and is based in Des Moines, Iowa."
+  "longBusinessSummary": "Principal Financial Group, Inc. provides retirement, asset management, and insurance products and services to businesses, individuals, and institutional clients worldwide. The company operates through Retirement and Income Solutions, Principal Asset Management, and Benefits and Protection segments. The Retirement and Income Solutions segment provides retirement, and related financial products and services. This segment offers products and services for defined contribution plans, including 401(k) and 403(b) plans, defined benefit plans, nonqualified executive benefit plans, employee stock ownership plans, equity compensation, and pension risk transfer services; individual retirement accounts; investment only products; and mutual funds, individual variable annuities, registered index-linked annuities, and bank products, as well as trust and custody services. The Principal Asset Management segment provides equity, fixed income, real estate, and other alternative investments, as well as fund offerings. This segment also offers pension accumulation products and services, mutual funds, asset management, income annuities, and life insurance accumulation products, as well as voluntary savings plans. The Benefits and Protection segment provides specialty benefits, such as specialty benefits group dental and vision insurance, group life and other insurance, and group and individual disability insurance, as well as administers group dental, disability, and vision benefits; and individual life insurance products comprising universal, variable universal, indexed universal, and term life insurance products. This segment serves insurance solutions for small and medium-sized businesses and their owners, as well as employees. The company was founded in 1879 and is based in Des Moines, Iowa.",
+  "targetMeanPrice": 111.41667,
+  "targetLowPrice": 86.0,
+  "targetHighPrice": 128.0,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.0,
+  "forwardPE": 10.461347,
+  "forwardEps": 10.25107,
+  "trailingEps": 7.02,
+  "earningsGrowth": 0.028,
+  "revenueGrowth": 0.064
  },
  "governance": {
   "ceo": {
@@ -74,8 +85,37 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 341376500000.0,
+    "official": 341376500000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 11883900000.0,
+    "official": 11883900000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1185100000.0,
+    "official": 1185100000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 15625500000.0,
+    "official": 15625500000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:53:00+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -150,7 +190,8 @@
    "goodwill_and_intangibles": 3131500000.0,
    "retained_earnings": 16697300000.0,
    "total_debt": 4077700000.0,
-   "shares_out": 243500000.0
+   "shares_out": 243500000.0,
+   "normalized_income": 4756900000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -174,7 +215,8 @@
    "goodwill_and_intangibles": 3078300000.0,
    "retained_earnings": 16683500000.0,
    "total_debt": 3992000000.0,
-   "shares_out": 236438294.0
+   "shares_out": 236438294.0,
+   "normalized_income": 623200000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -198,7 +240,8 @@
    "goodwill_and_intangibles": 2939600000.0,
    "retained_earnings": 17583500000.0,
    "total_debt": 4108000000.0,
-   "shares_out": 226225161.0
+   "shares_out": 226225161.0,
+   "normalized_income": 1571000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -222,7 +265,8 @@
    "goodwill_and_intangibles": 2867500000.0,
    "retained_earnings": 18071300000.0,
    "total_debt": 3954000000.0,
-   "shares_out": 217380912.0
+   "shares_out": 217380912.0,
+   "normalized_income": 1185100000.0
   }
  ]
 }

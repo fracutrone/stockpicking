@@ -1,6 +1,6 @@
 {
  "ticker": "G",
- "fetched_at": "2026-10-10T12:46:17+00:00",
+ "fetched_at": "2026-10-10T15:44:36+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 141000,
   "website": "https://www.genpact.com",
-  "longBusinessSummary": "Genpact Limited, an agentic and advanced technology solutions company, provides digital transformation, business process management, technology, data, analytics, and artificial intelligence (AI) services to enterprises in India, the rest of Asia, North and Latin America, and Europe. Its Financial Services segment offers customer onboarding, customer service, collections, retail and commercial loan operations, payment operations, mortgage origination and servicing, compliance, wealth management, capital market operations support, financial crime and risk management, proprietary insurance policy suite, underwriting support, new business processing, policy administration, customer, claims management, catastrophe and exposure/risk modeling, actuarial services, end-to-end third-party administration for property and casualty claims, and technology services. The company's Consumer and Healthcare segment provides demand generation, sensing and planning, supply chain planning and management, pricing and trade promotion management, deduction recovery management, order management, digital commerce, customer experience, lifecycle management, regulatory operations, chemistry manufacturing control compliance, regulatory information management, claims processing and adjudication, claims recovery and payment integrity, revenue cycle management, health equity analytics, and care services. Its High Tech and Manufacturing segment offers solutions for trust and safety, advertising sales support, customer and user experience, customer care support, supply chain management, direct and indirect procurement, logistics, field, aftermarket support, and engineering services. It offers digital operations, data-tech-AI, advisory, agent technology; and finance and accounting, human resources, sales and commercial operations, marketing, and global business solutions. The company has strategic alliance with Google Cloud. The company was founded in 1997 and is based in Hamilton, Bermuda."
+  "longBusinessSummary": "Genpact Limited, an agentic and advanced technology solutions company, provides digital transformation, business process management, technology, data, analytics, and artificial intelligence (AI) services to enterprises in India, the rest of Asia, North and Latin America, and Europe. Its Financial Services segment offers customer onboarding, customer service, collections, retail and commercial loan operations, payment operations, mortgage origination and servicing, compliance, wealth management, capital market operations support, financial crime and risk management, proprietary insurance policy suite, underwriting support, new business processing, policy administration, customer, claims management, catastrophe and exposure/risk modeling, actuarial services, end-to-end third-party administration for property and casualty claims, and technology services. The company's Consumer and Healthcare segment provides demand generation, sensing and planning, supply chain planning and management, pricing and trade promotion management, deduction recovery management, order management, digital commerce, customer experience, lifecycle management, regulatory operations, chemistry manufacturing control compliance, regulatory information management, claims processing and adjudication, claims recovery and payment integrity, revenue cycle management, health equity analytics, and care services. Its High Tech and Manufacturing segment offers solutions for trust and safety, advertising sales support, customer and user experience, customer care support, supply chain management, direct and indirect procurement, logistics, field, aftermarket support, and engineering services. It offers digital operations, data-tech-AI, advisory, agent technology; and finance and accounting, human resources, sales and commercial operations, marketing, and global business solutions. The company has strategic alliance with Google Cloud. The company was founded in 1997 and is based in Hamilton, Bermuda.",
+  "targetMeanPrice": 42.18182,
+  "targetLowPrice": 31.0,
+  "targetHighPrice": 58.0,
+  "numberOfAnalystOpinions": 11,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.25,
+  "forwardPE": 7.620635,
+  "forwardEps": 4.51406,
+  "trailingEps": 3.36,
+  "earningsGrowth": 0.147,
+  "revenueGrowth": 0.071
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "intangibles": "sec",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 5843267000.0,
+    "official": 5843267000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2549401000.0,
+    "official": 2549401000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 552494000.0,
+    "official": 552494000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 5079879000.0,
+    "official": 5079879000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:44:36+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -200,7 +242,10 @@
    "intangibles": 89715000.0,
    "retained_earnings": 780007000.0,
    "total_debt": 1426289000.0,
-   "shares_out": 182924416.0
+   "shares_out": 182924416.0,
+   "unusual_items": -38415000.0,
+   "normalized_ebitda": 691270000.0,
+   "normalized_income": 382584920.350102
   },
   {
    "fy_end": "2023-12-31",
@@ -233,7 +278,10 @@
    "intangibles": 53028000.0,
    "retained_earnings": 1085209000.0,
    "total_debt": 1266962000.0,
-   "shares_out": 179494132.0
+   "shares_out": 179494132.0,
+   "unusual_items": 8464000.0,
+   "normalized_ebitda": 764061000.0,
+   "normalized_income": 625330200.0
   },
   {
    "fy_end": "2024-12-31",
@@ -266,7 +314,10 @@
    "intangibles": 26950000.0,
    "retained_earnings": 1236696000.0,
    "total_debt": 1221440000.0,
-   "shares_out": 174661943.0
+   "shares_out": 174661943.0,
+   "unusual_items": 2937000.0,
+   "normalized_ebitda": 849644000.0,
+   "normalized_income": 511440817.0
   },
   {
    "fy_end": "2025-12-31",
@@ -299,7 +350,10 @@
    "intangibles": 67040000.0,
    "retained_earnings": 1390164000.0,
    "total_debt": 1542301000.0,
-   "shares_out": 170341479.0
+   "shares_out": 170341479.0,
+   "unusual_items": -2690000.0,
+   "normalized_ebitda": 901312000.0,
+   "normalized_income": 554530330.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "CNM",
- "fetched_at": "2026-10-10T12:41:21+00:00",
+ "fetched_at": "2026-10-10T15:40:01+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 5600,
   "website": "https://www.coreandmain.com",
-  "longBusinessSummary": "Core & Main, Inc. engages in the distribution of water, wastewater, storm drainage, and fire protection products and related services in the United States. The company's products portfolio include pipes, valves, hydrants, fittings, and other products and services used for service, repair and replacement of underground water infrastructure; storm drainage products, such as corrugated HDPE and metal piping systems, retention basins, inline drains, manholes, grates, geosynthetics, erosion control, and other related products; fire protection products, including fire protection pipes, valves, fittings, sprinkler heads and other accessories, as well as fabrication and kitting services; smart meter products; and smart metering solutions which include meter accessories, meter installation, network infrastructure and software installation, training, and long-term services, as well as engineered treatment plant products. Its specialty products and services are used in the maintenance, repair, replacement, and construction of water, wastewater, storm drainage, and fire protection infrastructure. The company serves municipalities, private water companies, and professional contractors in the municipal, non-residential, and residential end markets. Core & Main, Inc. was founded in 1874 and is headquartered in Saint Louis, Missouri."
+  "longBusinessSummary": "Core & Main, Inc. engages in the distribution of water, wastewater, storm drainage, and fire protection products and related services in the United States. The company's products portfolio include pipes, valves, hydrants, fittings, and other products and services used for service, repair and replacement of underground water infrastructure; storm drainage products, such as corrugated HDPE and metal piping systems, retention basins, inline drains, manholes, grates, geosynthetics, erosion control, and other related products; fire protection products, including fire protection pipes, valves, fittings, sprinkler heads and other accessories, as well as fabrication and kitting services; smart meter products; and smart metering solutions which include meter accessories, meter installation, network infrastructure and software installation, training, and long-term services, as well as engineered treatment plant products. Its specialty products and services are used in the maintenance, repair, replacement, and construction of water, wastewater, storm drainage, and fire protection infrastructure. The company serves municipalities, private water companies, and professional contractors in the municipal, non-residential, and residential end markets. Core & Main, Inc. was founded in 1874 and is headquartered in Saint Louis, Missouri.",
+  "targetMeanPrice": 54.53846,
+  "targetLowPrice": 40.0,
+  "targetHighPrice": 75.0,
+  "numberOfAnalystOpinions": 13,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.21429,
+  "forwardPE": 11.522382,
+  "forwardEps": 3.50188,
+  "trailingEps": 2.43,
+  "earningsGrowth": 0.092,
+  "revenueGrowth": 0.025
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-01-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 6085000000.0,
+    "official": 6085000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1997000000.0,
+    "official": 1997000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 441000000.0,
+    "official": 441000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 7647000000.0,
+    "official": 7647000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:40:01+00:00",
  "years": [
   {
    "fy_end": "2020-02-02",
@@ -157,7 +199,8 @@
    "goodwill": 1515000000.0,
    "intangibles": 871000000.0,
    "retained_earnings": 92000000.0,
-   "total_debt": 1471000000.0
+   "total_debt": 1471000000.0,
+   "unusual_items": -51000000.0
   },
   {
    "fy_end": "2023-01-29",
@@ -191,7 +234,10 @@
    "goodwill_and_intangibles": 2330000000.0,
    "retained_earnings": 458000000.0,
    "total_debt": 1459000000.0,
-   "shares_out": 172765161.0
+   "shares_out": 172765161.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 923000000.0,
+   "normalized_income": 366000000.0
   },
   {
    "fy_end": "2024-01-28",
@@ -225,7 +271,10 @@
    "goodwill_and_intangibles": 2345000000.0,
    "retained_earnings": 189000000.0,
    "total_debt": 1878000000.0,
-   "shares_out": 191663608.0
+   "shares_out": 191663608.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 894000000.0,
+   "normalized_income": 371000000.0
   },
   {
    "fy_end": "2025-02-02",
@@ -259,7 +308,9 @@
    "goodwill_and_intangibles": 2833000000.0,
    "retained_earnings": 449000000.0,
    "total_debt": 2261000000.0,
-   "shares_out": 189815899.0
+   "shares_out": 189815899.0,
+   "normalized_ebitda": 913000000.0,
+   "normalized_income": 411000000.0
   },
   {
    "fy_end": "2026-02-01",
@@ -293,7 +344,9 @@
    "goodwill_and_intangibles": 2743000000.0,
    "retained_earnings": 755000000.0,
    "total_debt": 2148000000.0,
-   "shares_out": 188770435.0
+   "shares_out": 188770435.0,
+   "normalized_ebitda": 919000000.0,
+   "normalized_income": 441000000.0
   }
  ]
 }

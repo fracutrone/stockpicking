@@ -1,6 +1,6 @@
 {
  "ticker": "LVS",
- "fetched_at": "2026-10-10T12:50:55+00:00",
+ "fetched_at": "2026-10-10T15:49:10+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 41000,
   "website": "https://www.sands.com",
-  "longBusinessSummary": "Las Vegas Sands Corp., together with its subsidiaries, owns, develops, and operates integrated resorts in Macao and Singapore. It owns and operates The Venetian Macao Resort Hotel, The Londoner Macao, The Parisian Macao, The Plaza Macao and Four Seasons Hotel Macao, and The Sands Macao in Macao, the People's Republic of China; and Marina Bay Sands in Singapore. The company's integrated resorts feature accommodations, gaming, entertainment and retail malls, convention and exhibition facilities, celebrity chef restaurants, and other amenities. The company was founded in 1988 and is based in Las Vegas, Nevada."
+  "longBusinessSummary": "Las Vegas Sands Corp., together with its subsidiaries, owns, develops, and operates integrated resorts in Macao and Singapore. It owns and operates The Venetian Macao Resort Hotel, The Londoner Macao, The Parisian Macao, The Plaza Macao and Four Seasons Hotel Macao, and The Sands Macao in Macao, the People's Republic of China; and Marina Bay Sands in Singapore. The company's integrated resorts feature accommodations, gaming, entertainment and retail malls, convention and exhibition facilities, celebrity chef restaurants, and other amenities. The company was founded in 1988 and is based in Las Vegas, Nevada.",
+  "targetMeanPrice": 58.64737,
+  "targetLowPrice": 47.0,
+  "targetHighPrice": 71.5,
+  "numberOfAnalystOpinions": 19,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.80952,
+  "forwardPE": 10.337741,
+  "forwardEps": 3.49883,
+  "trailingEps": 2.57,
+  "earningsGrowth": -0.198,
+  "revenueGrowth": -0.007
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 21920000000.0,
+    "official": 21920000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1590000000.0,
+    "official": 1590000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1627000000.0,
+    "official": 1627000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 13017000000.0,
+    "official": 13017000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:49:10+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -197,7 +239,10 @@
    "goodwill_and_intangibles": 64000000.0,
    "retained_earnings": 1684000000.0,
    "total_debt": 13947000000.0,
-   "shares_out": 764000000.0
+   "shares_out": 764000000.0,
+   "unusual_items": -22000000.0,
+   "normalized_ebitda": 428000000.0,
+   "normalized_income": -1048620000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -231,7 +276,10 @@
    "goodwill_and_intangibles": 598000000.0,
    "retained_earnings": 2600000000.0,
    "total_debt": 12129000000.0,
-   "shares_out": 753000000.0
+   "shares_out": 753000000.0,
+   "unusual_items": -42000000.0,
+   "normalized_ebitda": 3901000000.0,
+   "normalized_income": 1254852000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -265,7 +313,10 @@
    "goodwill_and_intangibles": 545000000.0,
    "retained_earnings": 3455000000.0,
    "total_debt": 10592000000.0,
-   "shares_out": 716299901.0
+   "shares_out": 716299901.0,
+   "unusual_items": -64000000.0,
+   "normalized_ebitda": 4119000000.0,
+   "normalized_income": 1503216000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -299,7 +350,10 @@
    "goodwill_and_intangibles": 573000000.0,
    "retained_earnings": 4387000000.0,
    "total_debt": 14656000000.0,
-   "shares_out": 674914434.0
+   "shares_out": 674914434.0,
+   "unusual_items": -276000000.0,
+   "normalized_ebitda": 4775000000.0,
+   "normalized_income": 1859668000.0
   }
  ]
 }

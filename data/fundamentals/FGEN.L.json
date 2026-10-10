@@ -1,6 +1,6 @@
 {
  "ticker": "FGEN.L",
- "fetched_at": "2026-10-10T11:57:58+00:00",
+ "fetched_at": "2026-10-10T14:48:14+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": "https://www.fgen.com/",
-  "longBusinessSummary": "John Laing Environmental Assets Group Limited is a fund of John Laing Capital Management Limited."
+  "longBusinessSummary": "John Laing Environmental Assets Group Limited is a fund of John Laing Capital Management Limited.",
+  "targetMeanPrice": 84.5,
+  "targetLowPrice": 72.0,
+  "targetHighPrice": 97.0,
+  "numberOfAnalystOpinions": 2,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 10.848101,
+  "forwardEps": 0.079,
+  "trailingEps": 0.06,
+  "earningsGrowth": null,
+  "revenueGrowth": 16.828
  },
  "governance": {
   "insider_6m": {
@@ -48,8 +59,15 @@
   "equity": "yahoo",
   "receivables": "yahoo",
   "retained_earnings": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T14:48:14+00:00",
  "years": [
   {
    "fy_end": "2023-03-31",
@@ -67,7 +85,8 @@
    "cash": 143000.0,
    "equity": 814568000.0,
    "retained_earnings": 150167000.0,
-   "shares_out": 661531229.0
+   "shares_out": 661531229.0,
+   "normalized_income": 98300000.0
   },
   {
    "fy_end": "2024-03-31",
@@ -86,7 +105,8 @@
    "equity": 751214000.0,
    "receivables": 0.0,
    "retained_earnings": 86813000.0,
-   "shares_out": 661531229.0
+   "shares_out": 661531229.0,
+   "normalized_income": -13937000.0
   },
   {
    "fy_end": "2025-03-31",
@@ -105,7 +125,8 @@
    "equity": 678701000.0,
    "receivables": 2000.0,
    "retained_earnings": 33456000.0,
-   "shares_out": 637072211.0
+   "shares_out": 637072211.0,
+   "normalized_income": -2835000.0
   },
   {
    "fy_end": "2026-03-31",
@@ -124,7 +145,8 @@
    "equity": 655452000.0,
    "receivables": 7000.0,
    "retained_earnings": 21052000.0,
-   "shares_out": 623338335.0
+   "shares_out": 623338335.0,
+   "normalized_income": 37163000.0
   }
  ]
 }

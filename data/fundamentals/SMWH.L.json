@@ -1,6 +1,6 @@
 {
  "ticker": "SMWH.L",
- "fetched_at": "2026-10-10T12:19:39+00:00",
+ "fetched_at": "2026-10-10T15:20:45+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 9290,
   "website": "https://www.whsmithplc.co.uk",
-  "longBusinessSummary": "WH Smith PLC operates as a travel retailer in the United Kingdom, North America, Australia, Ireland, Spain, and internationally. It offers news, books, and convenience for travelling customers. It operates stores in airports, hospitals, railway stations, and motorway service areas. The company is also involved in International Travel Retail, UK Travel Retail, and North America. The company was formerly known as New WH Smith PLC. WH Smith PLC was founded in 1792 and is based in Swindon, the United Kingdom."
+  "longBusinessSummary": "WH Smith PLC operates as a travel retailer in the United Kingdom, North America, Australia, Ireland, Spain, and internationally. It offers news, books, and convenience for travelling customers. It operates stores in airports, hospitals, railway stations, and motorway service areas. The company is also involved in International Travel Retail, UK Travel Retail, and North America. The company was formerly known as New WH Smith PLC. WH Smith PLC was founded in 1792 and is based in Swindon, the United Kingdom.",
+  "targetMeanPrice": 439.909,
+  "targetLowPrice": 350.0,
+  "targetHighPrice": 550.0,
+  "numberOfAnalystOpinions": 11,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.54545,
+  "forwardPE": 10.115154,
+  "forwardEps": 0.36994,
+  "trailingEps": -0.11,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.045
  },
  "governance": {
   "ceo": {
@@ -70,8 +81,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-08-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 1460000000.0,
+    "official": 1460000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 158000000.0,
+    "official": 158000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -144000000.0,
+    "official": -144000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1553000000.0,
+    "official": 1553000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-08-31"
+ },
+ "info_at": "2026-10-10T15:20:45+00:00",
  "years": [
   {
    "fy_end": "2022-08-31",
@@ -105,7 +148,10 @@
    "goodwill_and_intangibles": 543000000.0,
    "retained_earnings": 138000000.0,
    "total_debt": 1001000000.0,
-   "shares_out": 131000000.0
+   "shares_out": 131000000.0,
+   "unusual_items": -19000000.0,
+   "normalized_ebitda": 247000000.0,
+   "normalized_income": 62770000.0
   },
   {
    "fy_end": "2023-08-31",
@@ -139,7 +185,10 @@
    "goodwill_and_intangibles": 505000000.0,
    "retained_earnings": 202000000.0,
    "total_debt": 951000000.0,
-   "shares_out": 129880510.0
+   "shares_out": 129880510.0,
+   "unusual_items": -24000000.0,
+   "normalized_ebitda": 338000000.0,
+   "normalized_income": 98440000.0
   },
   {
    "fy_end": "2024-08-31",
@@ -173,7 +222,10 @@
    "goodwill_and_intangibles": 490000000.0,
    "retained_earnings": 315000000.0,
    "total_debt": 1053000000.0,
-   "shares_out": 129019483.0
+   "shares_out": 129019483.0,
+   "unusual_items": -38000000.0,
+   "normalized_ebitda": 278000000.0,
+   "normalized_income": 62138461.538462
   },
   {
    "fy_end": "2025-08-31",
@@ -207,7 +259,10 @@
    "goodwill_and_intangibles": 447000000.0,
    "retained_earnings": 69000000.0,
    "total_debt": 945000000.0,
-   "shares_out": 124694826.0
+   "shares_out": 124694826.0,
+   "unusual_items": -96000000.0,
+   "normalized_ebitda": 278000000.0,
+   "normalized_income": 41000000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "CDE",
- "fetched_at": "2026-10-10T12:40:13+00:00",
+ "fetched_at": "2026-10-10T15:39:05+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 2620,
   "website": "https://www.coeur.com",
-  "longBusinessSummary": "Coeur Mining, Inc. operates as a gold and silver producer in the United States, Canada, and Mexico. The company operates through Palmarejo, Rochester, Kensington, Wharf, Silvertip, and Las Chispas segments. It explores for gold, silver, zinc, lead, and other related metals. It markets and sells its concentrates to third-party customers, including refiners and smelters, under off-take agreements. The company was formerly known as Coeur d'Alene Mines Corporation and changed its name to Coeur Mining, Inc. in May 2013. Coeur Mining, Inc. was incorporated in 1928 and is headquartered in Chicago, Illinois."
+  "longBusinessSummary": "Coeur Mining, Inc. operates as a gold and silver producer in the United States, Canada, and Mexico. The company operates through Palmarejo, Rochester, Kensington, Wharf, Silvertip, and Las Chispas segments. It explores for gold, silver, zinc, lead, and other related metals. It markets and sells its concentrates to third-party customers, including refiners and smelters, under off-take agreements. The company was formerly known as Coeur d'Alene Mines Corporation and changed its name to Coeur Mining, Inc. in May 2013. Coeur Mining, Inc. was incorporated in 1928 and is headquartered in Chicago, Illinois.",
+  "targetMeanPrice": 23.95455,
+  "targetLowPrice": 18.0,
+  "targetHighPrice": 35.0,
+  "numberOfAnalystOpinions": 11,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.72727,
+  "forwardPE": 8.628375,
+  "forwardEps": 1.98531,
+  "trailingEps": 1.17,
+  "earningsGrowth": 0.076,
+  "revenueGrowth": 1.259
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 4695682000.0,
+    "official": 4695682000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3313051000.0,
+    "official": 3313051000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 585872000.0,
+    "official": 585872000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2070126000.0,
+    "official": 2070126000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:39:05+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -177,7 +219,10 @@
    "ppe_net": 1389755000.0,
    "retained_earnings": -3017549000.0,
    "total_debt": 527493000.0,
-   "shares_out": 295697624.0
+   "shares_out": 295697624.0,
+   "unusual_items": -41237000.0,
+   "normalized_ebitda": 111223000.0,
+   "normalized_income": -45529770.0
   },
   {
    "fy_end": "2023-12-31",
@@ -209,7 +254,10 @@
    "ppe_net": 1688288000.0,
    "retained_earnings": -3121161000.0,
    "total_debt": 555285000.0,
-   "shares_out": 386282957.0
+   "shares_out": 386282957.0,
+   "unusual_items": -60592000.0,
+   "normalized_ebitda": 118348000.0,
+   "normalized_income": -55744320.0
   },
   {
    "fy_end": "2024-12-31",
@@ -242,7 +290,10 @@
    "goodwill_and_intangibles": 0.0,
    "retained_earnings": -3062261000.0,
    "total_debt": 601656000.0,
-   "shares_out": 399235632.0
+   "shares_out": 399235632.0,
+   "unusual_items": -46103000.0,
+   "normalized_ebitda": 346343000.0,
+   "normalized_income": 95321370.0
   },
   {
    "fy_end": "2025-12-31",
@@ -275,7 +326,10 @@
    "goodwill_and_intangibles": 625812000.0,
    "retained_earnings": -2476389000.0,
    "total_debt": 352495000.0,
-   "shares_out": 642092761.0
+   "shares_out": 642092761.0,
+   "unusual_items": -68472000.0,
+   "normalized_ebitda": 1030727000.0,
+   "normalized_income": 644620976.0
   }
  ]
 }

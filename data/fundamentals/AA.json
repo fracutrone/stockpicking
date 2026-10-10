@@ -1,6 +1,6 @@
 {
  "ticker": "AA",
- "fetched_at": "2026-10-10T12:36:00+00:00",
+ "fetched_at": "2026-10-10T15:33:12+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 14900,
   "website": "https://www.alcoa.com",
-  "longBusinessSummary": "Alcoa Corporation, together with its subsidiaries, engages in the bauxite mining, alumina refining, aluminum production, and energy generation business in Australia, Brazil, Canada, Iceland, Norway, Spain, the United States, and internationally. The company operates through two segments: Alumina and Aluminum. It operates bauxite and other aluminous ores mining and processes bauxite into alumina for sale to aluminum smelter customers and customers who process it into industrial chemical products through supply contracts to third parties, as well as aluminum smelting and casting businesses. The company also offers aluminium powder and scrap and primary aluminum in the form of commodity grade ingot and value-add ingot to customers that produce products for transportation, building and construction, packaging, wire, and other industrial markets. In addition, it provides energy that generates and sells electricity in the wholesale market to traders, large industrial consumers, distribution companies, and other generation companies. The company was formerly known as Alcoa Upstream Corporation and changed its name to Alcoa Corporation in May 2016. The company was founded in 1886 and is headquartered in Pittsburgh, Pennsylvania."
+  "longBusinessSummary": "Alcoa Corporation, together with its subsidiaries, engages in the bauxite mining, alumina refining, aluminum production, and energy generation business in Australia, Brazil, Canada, Iceland, Norway, Spain, the United States, and internationally. The company operates through two segments: Alumina and Aluminum. It operates bauxite and other aluminous ores mining and processes bauxite into alumina for sale to aluminum smelter customers and customers who process it into industrial chemical products through supply contracts to third parties, as well as aluminum smelting and casting businesses. The company also offers aluminium powder and scrap and primary aluminum in the form of commodity grade ingot and value-add ingot to customers that produce products for transportation, building and construction, packaging, wire, and other industrial markets. In addition, it provides energy that generates and sells electricity in the wholesale market to traders, large industrial consumers, distribution companies, and other generation companies. The company was formerly known as Alcoa Upstream Corporation and changed its name to Alcoa Corporation in May 2016. The company was founded in 1886 and is headquartered in Pittsburgh, Pennsylvania.",
+  "targetMeanPrice": 62.55833,
+  "targetLowPrice": 48.0,
+  "targetHighPrice": 87.0,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.76923,
+  "forwardPE": 7.306954,
+  "forwardEps": 5.77532,
+  "trailingEps": 4.74,
+  "earningsGrowth": 1.468,
+  "revenueGrowth": 0.314
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 16129000000.0,
+    "official": 16129000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 6118000000.0,
+    "official": 6118000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1157000000.0,
+    "official": 1157000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 12831000000.0,
+    "official": 12831000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:33:12+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -197,7 +239,10 @@
    "goodwill_and_intangibles": 174000000.0,
    "retained_earnings": -570000000.0,
    "total_debt": 1807000000.0,
-   "shares_out": 176969091.0
+   "shares_out": 176969091.0,
+   "unusual_items": -486000000.0,
+   "normalized_ebitda": 1911000000.0,
+   "normalized_income": 260940000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -231,7 +276,10 @@
    "goodwill_and_intangibles": 183000000.0,
    "retained_earnings": -1293000000.0,
    "total_debt": 1867000000.0,
-   "shares_out": 178472464.0
+   "shares_out": 178472464.0,
+   "unusual_items": -71000000.0,
+   "normalized_ebitda": 226000000.0,
+   "normalized_income": -594910000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -265,7 +313,10 @@
    "goodwill_and_intangibles": 178000000.0,
    "retained_earnings": -1323000000.0,
    "total_debt": 2595000000.0,
-   "shares_out": 258360908.0
+   "shares_out": 258360908.0,
+   "unusual_items": -397000000.0,
+   "normalized_ebitda": 1484000000.0,
+   "normalized_income": 373630000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -299,7 +350,10 @@
    "goodwill_and_intangibles": 34000000.0,
    "retained_earnings": -271000000.0,
    "total_debt": 2448000000.0,
-   "shares_out": 263102406.0
+   "shares_out": 263102406.0,
+   "unusual_items": 469000000.0,
+   "normalized_ebitda": 1376000000.0,
+   "normalized_income": 786490000.0
   }
  ]
 }

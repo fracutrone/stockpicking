@@ -1,6 +1,6 @@
 {
  "ticker": "TRY.L",
- "fetched_at": "2026-10-10T12:22:58+00:00",
+ "fetched_at": "2026-10-10T15:25:59+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -50,8 +61,15 @@
   "receivables": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T15:25:59+00:00",
  "years": [
   {
    "fy_end": "2023-03-31",
@@ -72,7 +90,8 @@
    "receivables": 4587000.0,
    "retained_earnings": -99771000.0,
    "total_debt": 68933000.0,
-   "shares_out": 317350980.0
+   "shares_out": 317350980.0,
+   "normalized_income": -547266000.0
   },
   {
    "fy_end": "2024-03-31",
@@ -93,7 +112,8 @@
    "receivables": 4122000.0,
    "retained_earnings": 949032000.0,
    "total_debt": 57748000.0,
-   "shares_out": 317350980.0
+   "shares_out": 317350980.0,
+   "normalized_income": 196347000.0
   },
   {
    "fy_end": "2025-03-31",
@@ -114,7 +134,8 @@
    "receivables": 272000.0,
    "retained_earnings": 871766000.0,
    "total_debt": 123791000.0,
-   "shares_out": 317350980.0
+   "shares_out": 317350980.0,
+   "normalized_income": -27441000.0
   },
   {
    "fy_end": "2026-03-31",
@@ -135,7 +156,8 @@
    "receivables": 6870000.0,
    "retained_earnings": 891835000.0,
    "total_debt": 123344000.0,
-   "shares_out": 317350980.0
+   "shares_out": 317350980.0,
+   "normalized_income": 70845000.0
   }
  ]
 }

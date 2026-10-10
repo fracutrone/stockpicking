@@ -1,6 +1,6 @@
 {
  "ticker": "BTRW.L",
- "fetched_at": "2026-10-10T11:49:05+00:00",
+ "fetched_at": "2026-10-10T14:37:32+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.05557,
   "heldPercentInstitutions": 0.58963,
   "shortPercentOfFloat": null,
-  "averageVolume": 7215130,
+  "averageVolume": 7203104,
   "quoteType": "EQUITY",
   "exchange": "LSE",
   "fullTimeEmployees": 7717,
   "website": "https://www.barrattredrow.co.uk",
-  "longBusinessSummary": "Barratt Redrow plc engages in the housebuilding business in the United Kingdom. It also engages in the commercial development business, which includes offices, retail, leisure, industrial, and distribution properties under the Wilson Bowden Developments brand; and land development activities. In addition, the company manufactures timber frames under the Oregon Timber Frame brand; and furniture under the BD Living brand. It offers its homes under the Barratt Homes, David Wilson Homes, Redrow, and Barratt London brand names. The company was formerly known as Barratt Developments plc and changed its name to Barratt Redrow plc in October 2024. Barratt Redrow plc was founded in 1953 and is headquartered in Coalville, the United Kingdom."
+  "longBusinessSummary": "Barratt Redrow plc engages in the housebuilding business in the United Kingdom. It also engages in the commercial development business, which includes offices, retail, leisure, industrial, and distribution properties under the Wilson Bowden Developments brand; and land development activities. In addition, the company manufactures timber frames under the Oregon Timber Frame brand; and furniture under the BD Living brand. It offers its homes under the Barratt Homes, David Wilson Homes, Redrow, and Barratt London brand names. The company was formerly known as Barratt Developments plc and changed its name to Barratt Redrow plc in October 2024. Barratt Redrow plc was founded in 1953 and is headquartered in Coalville, the United Kingdom.",
+  "targetMeanPrice": 335.947,
+  "targetLowPrice": 255.0,
+  "targetHighPrice": 410.0,
+  "numberOfAnalystOpinions": 19,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.89474,
+  "forwardPE": 10.17056,
+  "forwardEps": 0.28553,
+  "trailingEps": 0.17,
+  "earningsGrowth": 0.263,
+  "revenueGrowth": 0.038
  },
  "governance": {
   "top_institutions": [
@@ -69,8 +80,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2024-06-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 7875200000.0,
+    "official": 7875200000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 5439000000.0,
+    "official": 5439000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 114100000.0,
+    "official": 114100000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 4168200000.0,
+    "official": 4168200000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-06-30"
+ },
+ "info_at": "2026-10-10T14:37:33+00:00",
  "years": [
   {
    "fy_end": "2022-06-30",
@@ -104,7 +146,9 @@
    "goodwill_and_intangibles": 1058300000.0,
    "retained_earnings": 4165900000.0,
    "total_debt": 254400000.0,
-   "shares_out": 1022562819.0
+   "shares_out": 1022562819.0,
+   "normalized_ebitda": 691900000.0,
+   "normalized_income": 515100000.0
   },
   {
    "fy_end": "2023-06-30",
@@ -138,7 +182,9 @@
    "goodwill_and_intangibles": 1047800000.0,
    "retained_earnings": 4133600000.0,
    "total_debt": 249600000.0,
-   "shares_out": 974584613.0
+   "shares_out": 974584613.0,
+   "normalized_ebitda": 767000000.0,
+   "normalized_income": 530300000.0
   },
   {
    "fy_end": "2024-06-30",
@@ -172,7 +218,9 @@
    "goodwill_and_intangibles": 1037400000.0,
    "retained_earnings": 3981800000.0,
    "total_debt": 242800000.0,
-   "shares_out": 966528514.0
+   "shares_out": 966528514.0,
+   "normalized_ebitda": 255700000.0,
+   "normalized_income": 114100000.0
   },
   {
    "fy_end": "2025-06-30",
@@ -206,7 +254,9 @@
    "goodwill_and_intangibles": 1583200000.0,
    "retained_earnings": 3873500000.0,
    "total_debt": 255200000.0,
-   "shares_out": 1425716027.0
+   "shares_out": 1425716027.0,
+   "normalized_ebitda": 379000000.0,
+   "normalized_income": 186400000.0
   }
  ]
 }

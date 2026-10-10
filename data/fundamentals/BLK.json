@@ -1,6 +1,6 @@
 {
  "ticker": "BLK",
- "fetched_at": "2026-10-10T12:39:10+00:00",
+ "fetched_at": "2026-10-10T15:37:56+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 26200,
   "website": "https://www.blackrock.com",
-  "longBusinessSummary": "BlackRock, Inc. is a publicly owned investment manager. The firm primarily provides its services to institutional, intermediary, and individual investors including corporate, public, union, and industry pension plans, insurance companies, third-party mutual funds, endowments, public institutions, governments, foundations, charities, sovereign wealth funds, corporations, official institutions, and banks. It also provides global risk management and advisory services. The firm manages separate client-focused equity, fixed income, and balanced portfolios. It also launches and manages open-end and closed-end mutual funds, offshore funds, unit trusts, and alternative investment vehicles including structured funds. The firm launches equity, fixed income, balanced, and real estate mutual funds. It also launches equity, fixed income, balanced, currency, commodity, and multi-asset exchange traded funds. The firm also launches and manages hedge funds. It invests in the public equity, fixed income, real estate, currency, commodity, and alternative markets across the globe. The firm primarily invests in growth and value stocks of small-cap, mid-cap, SMID-cap, large-cap, and multi-cap companies. It also invests in dividend-paying equity securities. The firm invests in investment grade municipal securities, government securities including securities issued or guaranteed by a government or a government agency or instrumentality, corporate bonds, and asset-backed and mortgage-backed securities. It employs fundamental and quantitative analysis with a focus on bottom-up and top-down approach to make its investments. The firm employs liquidity, asset allocation, balanced, real estate, and alternative strategies to make its investments. In real estate sector, it seeks to invest in Poland and Germany. The firm benchmarks the performance of its portfolios against various S&P, Russell, Barclays, MSCI, Citigroup, and Merrill Lynch indices. BlackRock, Inc. was founded in 1988 and is based in New York, New York with additional offices in Atlanta, Georgia; Boston, Massachusetts; Chicago, Illinois; Dallas, Texas; Denver, Colorado; Greenwich, Connecticut; Houston, Texas; Miami, Florida; Newport Beach, California; Palo Alto, California; Philadelphia, Pennsylvania; Princeton, New Jersey; San Francisco, California; Santa Monica, California; Seattle, Washington; Washington, DC; West Palm Beach, Florida; Wilmington, Delaware; Mexico; Canada; South Africa; Netherlands; Greece; Serbia; Belgium; Hungary; Denmark; Ireland; Scotland; Germany; Switzerland; England; Luxembourg; Spain; Italy; France; Sweden; Austria; India; China; Australia; Hong Kong; South Korea; Singapore; Taiwan; Japan; Colombia; Argentina; Peru; Chile; Brazil; UAE; Saudi Arabia; Israel."
+  "longBusinessSummary": "BlackRock, Inc. is a publicly owned investment manager. The firm primarily provides its services to institutional, intermediary, and individual investors including corporate, public, union, and industry pension plans, insurance companies, third-party mutual funds, endowments, public institutions, governments, foundations, charities, sovereign wealth funds, corporations, official institutions, and banks. It also provides global risk management and advisory services. The firm manages separate client-focused equity, fixed income, and balanced portfolios. It also launches and manages open-end and closed-end mutual funds, offshore funds, unit trusts, and alternative investment vehicles including structured funds. The firm launches equity, fixed income, balanced, and real estate mutual funds. It also launches equity, fixed income, balanced, currency, commodity, and multi-asset exchange traded funds. The firm also launches and manages hedge funds. It invests in the public equity, fixed income, real estate, currency, commodity, and alternative markets across the globe. The firm primarily invests in growth and value stocks of small-cap, mid-cap, SMID-cap, large-cap, and multi-cap companies. It also invests in dividend-paying equity securities. The firm invests in investment grade municipal securities, government securities including securities issued or guaranteed by a government or a government agency or instrumentality, corporate bonds, and asset-backed and mortgage-backed securities. It employs fundamental and quantitative analysis with a focus on bottom-up and top-down approach to make its investments. The firm employs liquidity, asset allocation, balanced, real estate, and alternative strategies to make its investments. In real estate sector, it seeks to invest in Poland and Germany. The firm benchmarks the performance of its portfolios against various S&P, Russell, Barclays, MSCI, Citigroup, and Merrill Lynch indices. BlackRock, Inc. was founded in 1988 and is based in New York, New York with additional offices in Atlanta, Georgia; Boston, Massachusetts; Chicago, Illinois; Dallas, Texas; Denver, Colorado; Greenwich, Connecticut; Houston, Texas; Miami, Florida; Newport Beach, California; Palo Alto, California; Philadelphia, Pennsylvania; Princeton, New Jersey; San Francisco, California; Santa Monica, California; Seattle, Washington; Washington, DC; West Palm Beach, Florida; Wilmington, Delaware; Mexico; Canada; South Africa; Netherlands; Greece; Serbia; Belgium; Hungary; Denmark; Ireland; Scotland; Germany; Switzerland; England; Luxembourg; Spain; Italy; France; Sweden; Austria; India; China; Australia; Hong Kong; South Korea; Singapore; Taiwan; Japan; Colombia; Argentina; Peru; Chile; Brazil; UAE; Saudi Arabia; Israel.",
+  "targetMeanPrice": 1312.8823,
+  "targetLowPrice": 1190.0,
+  "targetHighPrice": 1479.0,
+  "numberOfAnalystOpinions": 17,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.44444,
+  "forwardPE": 16.881147,
+  "forwardEps": 64.11827,
+  "trailingEps": 41.78,
+  "earningsGrowth": 0.196,
+  "revenueGrowth": 0.306
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 169998000000.0,
+    "official": 169998000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 55888000000.0,
+    "official": 55888000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 5553000000.0,
+    "official": 5553000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 24216000000.0,
+    "official": 24216000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:37:57+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -119,7 +161,10 @@
    "goodwill_and_intangibles": 33643000000.0,
    "retained_earnings": 29876000000.0,
    "total_debt": 8489000000.0,
-   "shares_out": 149756492.0
+   "shares_out": 149756492.0,
+   "unusual_items": -126000000.0,
+   "normalized_ebitda": 7046000000.0,
+   "normalized_income": 5278800000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -153,7 +198,10 @@
    "goodwill_and_intangibles": 33782000000.0,
    "retained_earnings": 32343000000.0,
    "total_debt": 9702000000.0,
-   "shares_out": 148500074.0
+   "shares_out": 148500074.0,
+   "unusual_items": 635000000.0,
+   "normalized_ebitda": 7239000000.0,
+   "normalized_income": 5001620000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -187,7 +235,10 @@
    "goodwill_and_intangibles": 46692000000.0,
    "retained_earnings": 35611000000.0,
    "total_debt": 14222000000.0,
-   "shares_out": 154947813.0
+   "shares_out": 154947813.0,
+   "unusual_items": 528000000.0,
+   "normalized_ebitda": 8834000000.0,
+   "normalized_income": 5954492947.55877
   },
   {
    "fy_end": "2025-12-31",
@@ -221,7 +272,10 @@
    "goodwill_and_intangibles": 63251000000.0,
    "retained_earnings": 37899000000.0,
    "total_debt": 14996000000.0,
-   "shares_out": 155069171.0
+   "shares_out": 155069171.0,
+   "unusual_items": -121000000.0,
+   "normalized_ebitda": 9480000000.0,
+   "normalized_income": 5647366977.293608
   }
  ]
 }

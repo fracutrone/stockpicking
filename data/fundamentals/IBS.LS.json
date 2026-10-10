@@ -1,6 +1,6 @@
 {
  "ticker": "IBS.LS",
- "fetched_at": "2026-10-10T12:03:03+00:00",
+ "fetched_at": "2026-10-10T14:56:53+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LIS",
   "fullTimeEmployees": 7584,
   "website": "https://www.ibersol.pt",
-  "longBusinessSummary": "Ibersol, S.G.P.S., S.A., through its subsidiaries, operates a network of restaurants in Portugal, Spain, and Angola. The company operates through Restaurants; Counters; Concessions, Travel, and Catering; and Other segments. It operates restaurants under the Pizza Hut, Pasta Caffé, Pans & Company, Ribs, FrescCo, Dehesa SantaMaría, Kentucky Fried Chicken, Burger King, Pans Café, Pizza Móvil, Miit, Taco Bell, Sol, PRET, eat out, Goto Café, Pret A Manger, and other brands. The company also provides catering services under the Silva Carvalho Catering and Palace Catering brands. Ibersol, S.G.P.S., S.A. was incorporated in 1985 and is headquartered in Porto, Portugal. Ibersol, S.G.P.S., S.A. is a subsidiary of ATPS-SGPS, SA."
+  "longBusinessSummary": "Ibersol, S.G.P.S., S.A., through its subsidiaries, operates a network of restaurants in Portugal, Spain, and Angola. The company operates through Restaurants; Counters; Concessions, Travel, and Catering; and Other segments. It operates restaurants under the Pizza Hut, Pasta Caffé, Pans & Company, Ribs, FrescCo, Dehesa SantaMaría, Kentucky Fried Chicken, Burger King, Pans Café, Pizza Móvil, Miit, Taco Bell, Sol, PRET, eat out, Goto Café, Pret A Manger, and other brands. The company also provides catering services under the Silva Carvalho Catering and Palace Catering brands. Ibersol, S.G.P.S., S.A. was incorporated in 1985 and is headquartered in Porto, Portugal. Ibersol, S.G.P.S., S.A. is a subsidiary of ATPS-SGPS, SA.",
+  "targetMeanPrice": 14.2,
+  "targetLowPrice": 12.9,
+  "targetHighPrice": 15.0,
+  "numberOfAnalystOpinions": 3,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 20.087284,
+  "forwardEps": 0.49036,
+  "trailingEps": 0.33,
+  "earningsGrowth": -0.527,
+  "revenueGrowth": 0.06
  },
  "governance": {
   "ceo": {
@@ -69,8 +80,35 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF PT",
+  "fy_end": "2022-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 652641989.0,
+    "official": 652641989.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 383775279.0,
+    "official": 383775279.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 159875149.0,
+    "official": 159873193.0,
+    "diff": 1.2e-05
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2022-12-31"
+ },
+ "info_at": "2026-10-10T14:56:54+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -103,7 +141,10 @@
    "goodwill_and_intangibles": 81254558.0,
    "retained_earnings": 327397087.0,
    "total_debt": 160955595.0,
-   "shares_out": 38229350.0
+   "shares_out": 38229350.0,
+   "unusual_items": -238293.0,
+   "normalized_ebitda": 60952087.0,
+   "normalized_income": 16884941.47
   },
   {
    "fy_end": "2023-12-31",
@@ -136,7 +177,10 @@
    "goodwill_and_intangibles": 80896707.0,
    "retained_earnings": 303134530.0,
    "total_debt": 257462012.0,
-   "shares_out": 41046850.0
+   "shares_out": 41046850.0,
+   "unusual_items": -377263.0,
+   "normalized_ebitda": 77044333.0,
+   "normalized_income": 15030017.77
   },
   {
    "fy_end": "2024-12-31",
@@ -169,7 +213,10 @@
    "goodwill_and_intangibles": 99515041.0,
    "retained_earnings": 289512594.0,
    "total_debt": 318446977.0,
-   "shares_out": 41138935.0
+   "shares_out": 41138935.0,
+   "unusual_items": -235808.0,
+   "normalized_ebitda": 99649212.0,
+   "normalized_income": 11246900.083383
   },
   {
    "fy_end": "2025-12-31",
@@ -202,7 +249,10 @@
    "goodwill_and_intangibles": 96293723.0,
    "retained_earnings": 270224710.0,
    "total_debt": 288395298.0,
-   "shares_out": 40020861.0
+   "shares_out": 40020861.0,
+   "unusual_items": -514590.0,
+   "normalized_ebitda": 135088874.0,
+   "normalized_income": 15618124.0
   }
  ]
 }

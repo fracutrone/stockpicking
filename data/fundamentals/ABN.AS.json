@@ -1,6 +1,6 @@
 {
  "ticker": "ABN.AS",
- "fetched_at": "2026-10-10T12:28:05+00:00",
+ "fetched_at": "2026-10-10T15:32:11+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "AMS",
   "fullTimeEmployees": 22905,
   "website": "https://www.abnamro.com",
-  "longBusinessSummary": "ABN AMRO Bank N.V. provides various banking products and financial services to retail, private, and corporate banking clients in the Netherlands, rest of Europe, the United States, Asia, and internationally. It operates through three segments: Personal & Business Banking, Wealth Management, and Corporate Banking. The company offers fixed deposits; home improvement; mortgage products; investment products; and car, home travel, and legal expenses insurances. It also provides pension savings; asset-based solutions, including working capital solutions, equipment leases, equipment loans and vendor lease services, clearing services, equity brokerage services, payment and credit cards services; and internet and online banking. The company was incorporated in 2009 and is headquartered in Amsterdam, the Netherlands. ABN AMRO Bank N.V. operates as a subsidiary of Stichting Administratiekantoor Continuïteit Abn Amro Bank."
+  "longBusinessSummary": "ABN AMRO Bank N.V. provides various banking products and financial services to retail, private, and corporate banking clients in the Netherlands, rest of Europe, the United States, Asia, and internationally. It operates through three segments: Personal & Business Banking, Wealth Management, and Corporate Banking. The company offers fixed deposits; home improvement; mortgage products; investment products; and car, home travel, and legal expenses insurances. It also provides pension savings; asset-based solutions, including working capital solutions, equipment leases, equipment loans and vendor lease services, clearing services, equity brokerage services, payment and credit cards services; and internet and online banking. The company was incorporated in 2009 and is headquartered in Amsterdam, the Netherlands. ABN AMRO Bank N.V. operates as a subsidiary of Stichting Administratiekantoor Continuïteit Abn Amro Bank.",
+  "targetMeanPrice": 45.02632,
+  "targetLowPrice": 29.0,
+  "targetHighPrice": 54.0,
+  "numberOfAnalystOpinions": 19,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.8,
+  "forwardPE": 10.726939,
+  "forwardEps": 3.77088,
+  "trailingEps": 2.78,
+  "earningsGrowth": 0.323,
+  "revenueGrowth": 0.118
  },
  "governance": {
   "ceo": {
@@ -73,8 +84,34 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF NL",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 413210000000.0,
+    "official": 413210000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 27040000000.0,
+    "official": 27040000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2252000000.0,
+    "official": 2252000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:32:12+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -101,7 +138,9 @@
    "goodwill_and_intangibles": 108000000.0,
    "retained_earnings": 1985000000.0,
    "total_debt": 63962000000.0,
-   "shares_out": 897521916.0
+   "shares_out": 897521916.0,
+   "unusual_items": 40000000.0,
+   "normalized_income": 1835560000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -128,7 +167,9 @@
    "goodwill_and_intangibles": 99000000.0,
    "retained_earnings": 2697000000.0,
    "total_debt": 72225000000.0,
-   "shares_out": 865575379.0
+   "shares_out": 865575379.0,
+   "unusual_items": -89000000.0,
+   "normalized_income": 2843729000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -155,7 +196,9 @@
    "goodwill_and_intangibles": 253000000.0,
    "retained_earnings": 2403000000.0,
    "total_debt": 81538000000.0,
-   "shares_out": 833048566.0
+   "shares_out": 833048566.0,
+   "unusual_items": -134000000.0,
+   "normalized_income": 2497251244.509517
   },
   {
    "fy_end": "2025-12-31",
@@ -182,7 +225,9 @@
    "goodwill_and_intangibles": 356000000.0,
    "retained_earnings": 2252000000.0,
    "total_debt": 79423000000.0,
-   "shares_out": 823201264.0
+   "shares_out": 823201264.0,
+   "unusual_items": -170000000.0,
+   "normalized_income": 2376100000.0
   }
  ]
 }

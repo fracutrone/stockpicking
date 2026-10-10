@@ -1,6 +1,6 @@
 {
  "ticker": "HUBB",
- "fetched_at": "2026-10-10T12:48:13+00:00",
+ "fetched_at": "2026-10-10T15:46:38+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 19400,
   "website": "https://www.hubbell.com",
-  "longBusinessSummary": "Hubbell Incorporated, together with its subsidiaries, manufactures and sells electrical and utility solutions in the United States and internationally. It operates through two segments, Electrical Solutions and Utility Solutions. The Utility Solution segment offers critical components that allow the grid to transmit and distribute energy, as well as the communications and controls technologies, including  utility transmission and distribution components, such as arresters, insulators, connectors, anchors, bushings, enclosures, cutouts, and switches; and solutions that serve the edge of the utility infrastructure comprising smart meters, communications systems, and protection and control devices. It sells its products under various brands and/or trademarks to the electrical distribution, substation and transmission markets, as well as markets for grid protection and controls, utility meters and advanced metering infrastructure and telcom and gas distribution markets. The Electrical Solution segment offers standard and special application wiring device products, rough-in electrical products, connector and grounding products, and other electrical equipment for use in industrial, commercial, and institutional facilities by electrical contractors, maintenance personnel, electricians, utilities, and telecommunications companies. It also designs and manufactures various industrial controls, and communication systems for use in the non-residential and industrial markets, as well as in the oil and gas, and mining industries. This segment sells its products through electrical and industrial distributors, home centers, retail and hardware outlets, and residential product-oriented internet sites; and special application products primarily through wholesale distributors to contractors, industrial customers, and original equipment manufacturers. The company was founded in 1888 and is headquartered in Shelton, Connecticut."
+  "longBusinessSummary": "Hubbell Incorporated, together with its subsidiaries, manufactures and sells electrical and utility solutions in the United States and internationally. It operates through two segments, Electrical Solutions and Utility Solutions. The Utility Solution segment offers critical components that allow the grid to transmit and distribute energy, as well as the communications and controls technologies, including  utility transmission and distribution components, such as arresters, insulators, connectors, anchors, bushings, enclosures, cutouts, and switches; and solutions that serve the edge of the utility infrastructure comprising smart meters, communications systems, and protection and control devices. It sells its products under various brands and/or trademarks to the electrical distribution, substation and transmission markets, as well as markets for grid protection and controls, utility meters and advanced metering infrastructure and telcom and gas distribution markets. The Electrical Solution segment offers standard and special application wiring device products, rough-in electrical products, connector and grounding products, and other electrical equipment for use in industrial, commercial, and institutional facilities by electrical contractors, maintenance personnel, electricians, utilities, and telecommunications companies. It also designs and manufactures various industrial controls, and communication systems for use in the non-residential and industrial markets, as well as in the oil and gas, and mining industries. This segment sells its products through electrical and industrial distributors, home centers, retail and hardware outlets, and residential product-oriented internet sites; and special application products primarily through wholesale distributors to contractors, industrial customers, and original equipment manufacturers. The company was founded in 1888 and is headquartered in Shelton, Connecticut.",
+  "targetMeanPrice": 560.5833,
+  "targetLowPrice": 502.0,
+  "targetHighPrice": 630.0,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": 20.645487,
+  "forwardEps": 22.96434,
+  "trailingEps": 16.89,
+  "earningsGrowth": -0.009,
+  "revenueGrowth": 0.153
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 8228800000.0,
+    "official": 8228800000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3847900000.0,
+    "official": 3847900000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 887100000.0,
+    "official": 887100000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 5844600000.0,
+    "official": 5844600000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:46:38+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -208,7 +250,10 @@
    "goodwill_and_intangibles": 2640400000.0,
    "retained_earnings": 2705500000.0,
    "total_debt": 1437900000.0,
-   "shares_out": 53689539.0
+   "shares_out": 53689539.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 855100000.0,
+   "normalized_income": 511300000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -243,7 +288,10 @@
    "goodwill_and_intangibles": 3729400000.0,
    "retained_earnings": 3182700000.0,
    "total_debt": 2138200000.0,
-   "shares_out": 53730566.0
+   "shares_out": 53730566.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 1158600000.0,
+   "normalized_income": 751400000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -278,7 +326,10 @@
    "goodwill_and_intangibles": 3580800000.0,
    "retained_earnings": 3779500000.0,
    "total_debt": 1565700000.0,
-   "shares_out": 53759976.0
+   "shares_out": 53759976.0,
+   "unusual_items": -5300000.0,
+   "normalized_ebitda": 1298000000.0,
+   "normalized_income": 783128700.0
   },
   {
    "fy_end": "2025-12-31",
@@ -313,7 +364,10 @@
    "goodwill_and_intangibles": 4455100000.0,
    "retained_earnings": 4155700000.0,
    "total_debt": 2323300000.0,
-   "shares_out": 53253805.0
+   "shares_out": 53253805.0,
+   "unusual_items": -400000.0,
+   "normalized_ebitda": 1389700000.0,
+   "normalized_income": 887418800.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "MIDD",
- "fetched_at": "2026-10-10T12:51:31+00:00",
+ "fetched_at": "2026-10-10T15:49:43+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 8826,
   "website": "https://www.middleby.com",
-  "longBusinessSummary": "The Middleby Corporation operates in the foodservice industry worldwide. The company develops and manufactures a line of solutions used in commercial foodservice and food processing. It offers conveyor, combi, convection, baking, proofing, deck, speed cooking, and hydrovection ovens; ranges, fryers, and rethermalizers; steam cooking, food warming, catering, induction, and countertop cooking equipment; heated cabinets, charbroilers, ventless cooking systems, kitchen ventilation, toasters, griddles, charcoal grills, professional mixers and refrigerators, stainless steel fabrication, custom millwork, blast chillers, coldrooms, ice machines, and frozen dessert equipment; soft serve ice cream, coffee and beverage dispensing, home and professional craft brewing equipment; and fry dispenser, bottle filling and canning equipment, IoT solutions, and controls development and manufacturing. The company was formerly known as Middleby Marshall Oven Company and changed its name to The Middleby Corporation in 1985. The Middleby Corporation was founded in 1888 and is based in Elgin, Illinois."
+  "longBusinessSummary": "The Middleby Corporation operates in the foodservice industry worldwide. The company develops and manufactures a line of solutions used in commercial foodservice and food processing. It offers conveyor, combi, convection, baking, proofing, deck, speed cooking, and hydrovection ovens; ranges, fryers, and rethermalizers; steam cooking, food warming, catering, induction, and countertop cooking equipment; heated cabinets, charbroilers, ventless cooking systems, kitchen ventilation, toasters, griddles, charcoal grills, professional mixers and refrigerators, stainless steel fabrication, custom millwork, blast chillers, coldrooms, ice machines, and frozen dessert equipment; soft serve ice cream, coffee and beverage dispensing, home and professional craft brewing equipment; and fry dispenser, bottle filling and canning equipment, IoT solutions, and controls development and manufacturing. The company was formerly known as Middleby Marshall Oven Company and changed its name to The Middleby Corporation in 1985. The Middleby Corporation was founded in 1888 and is based in Elgin, Illinois.",
+  "targetMeanPrice": 155.66667,
+  "targetLowPrice": 145.0,
+  "targetHighPrice": 169.0,
+  "numberOfAnalystOpinions": 9,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.54545,
+  "forwardPE": 13.58917,
+  "forwardEps": 7.79665,
+  "trailingEps": -5.42,
+  "earningsGrowth": -0.393,
+  "revenueGrowth": 0.099
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 6315166000.0,
+    "official": 6315166000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2776229000.0,
+    "official": 2776229000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -277731000.0,
+    "official": -277731000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3201202000.0,
+    "official": 3201202000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:49:43+00:00",
  "years": [
   {
    "fy_end": "2019-12-28",
@@ -203,7 +245,10 @@
    "goodwill_and_intangibles": 4206066000.0,
    "retained_earnings": 3498872000.0,
    "total_debt": 2722324000.0,
-   "shares_out": 53694375.0
+   "shares_out": 53694375.0,
+   "unusual_items": -9716000.0,
+   "normalized_ebitda": 801169000.0,
+   "normalized_income": 444079468.0
   },
   {
    "fy_end": "2023-12-30",
@@ -237,7 +282,10 @@
    "goodwill_and_intangibles": 4179386000.0,
    "retained_earnings": 3899754000.0,
    "total_debt": 2425195000.0,
-   "shares_out": 53603418.0
+   "shares_out": 53603418.0,
+   "unusual_items": -6718000.0,
+   "normalized_ebitda": 773844000.0,
+   "normalized_income": 418176860.0
   },
   {
    "fy_end": "2024-12-28",
@@ -271,7 +319,10 @@
    "goodwill_and_intangibles": 2844062000.0,
    "retained_earnings": 4328187000.0,
    "total_debt": 2395067000.0,
-   "shares_out": 53690209.0
+   "shares_out": 53690209.0,
+   "unusual_items": -17581000.0,
+   "normalized_ebitda": 781147000.0,
+   "normalized_income": 434058264.0
   },
   {
    "fy_end": "2026-01-03",
@@ -305,7 +356,10 @@
    "goodwill_and_intangibles": 2860841000.0,
    "retained_earnings": 4050456000.0,
    "total_debt": 2173002000.0,
-   "shares_out": 48922596.0
+   "shares_out": 48922596.0,
+   "unusual_items": -13868000.0,
+   "normalized_ebitda": 695276000.0,
+   "normalized_income": 377834416.0
   }
  ]
 }

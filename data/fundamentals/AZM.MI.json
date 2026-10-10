@@ -1,6 +1,6 @@
 {
  "ticker": "AZM.MI",
- "fetched_at": "2026-10-10T11:46:56+00:00",
+ "fetched_at": "2026-10-10T14:32:49+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "MIL",
   "fullTimeEmployees": 1090,
   "website": "https://www.azimut-group.com",
-  "longBusinessSummary": "Azimut Holding S.p.A. provides asset management and advisory solutions in Italy, Europe, the Middle East, the Americas, and the Asia-Pacific. It offers public and private markets, discretionary portfolio management, and token and digital asset solutions; advisory services; corporate investment banking and fintech solutions; mutual funds harmonized with the UCITS directive; alternative investment funds and open pension funds; and individual management of investment portfolios on behalf of third parties. The company also provides private insurance, unit linked insurance plans, and optional coverage; and pensions for individuals and companies. Azimut Holding S.p.A. was incorporated in 1990 and is headquartered in Milan, Italy."
+  "longBusinessSummary": "Azimut Holding S.p.A. provides asset management and advisory solutions in Italy, Europe, the Middle East, the Americas, and the Asia-Pacific. It offers public and private markets, discretionary portfolio management, and token and digital asset solutions; advisory services; corporate investment banking and fintech solutions; mutual funds harmonized with the UCITS directive; alternative investment funds and open pension funds; and individual management of investment portfolios on behalf of third parties. The company also provides private insurance, unit linked insurance plans, and optional coverage; and pensions for individuals and companies. Azimut Holding S.p.A. was incorporated in 1990 and is headquartered in Milan, Italy.",
+  "targetMeanPrice": 41.82857,
+  "targetLowPrice": 35.1,
+  "targetHighPrice": 50.0,
+  "numberOfAnalystOpinions": 7,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": 10.2248,
+  "forwardEps": 3.59518,
+  "trailingEps": 3.72,
+  "earningsGrowth": -0.069,
+  "revenueGrowth": 0.17
  },
  "governance": {
   "ceo": {
@@ -69,8 +80,30 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF IT",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 10653746000.0,
+    "official": 10653746000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 525666000.0,
+    "official": 525666000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:32:49+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -103,7 +136,10 @@
    "goodwill_and_intangibles": 878246000.0,
    "retained_earnings": 406461000.0,
    "total_debt": 539379000.0,
-   "shares_out": 138385510.0
+   "shares_out": 138385510.0,
+   "unusual_items": -35169000.0,
+   "normalized_ebitda": 609086000.0,
+   "normalized_income": 433291655.131382
   },
   {
    "fy_end": "2023-12-31",
@@ -136,7 +172,10 @@
    "goodwill_and_intangibles": 892744000.0,
    "retained_earnings": 434567000.0,
    "total_debt": 537224000.0,
-   "shares_out": 138454284.0
+   "shares_out": 138454284.0,
+   "unusual_items": 9139000.0,
+   "normalized_ebitda": 612200000.0,
+   "normalized_income": 419010983.610045
   },
   {
    "fy_end": "2024-12-31",
@@ -169,7 +208,10 @@
    "goodwill_and_intangibles": 581060000.0,
    "retained_earnings": 576165000.0,
    "total_debt": 27671000.0,
-   "shares_out": 141597896.0
+   "shares_out": 141597896.0,
+   "unusual_items": -1116000.0,
+   "normalized_ebitda": 814849000.0,
+   "normalized_income": 563728240.091496
   },
   {
    "fy_end": "2025-12-31",
@@ -202,7 +244,10 @@
    "goodwill_and_intangibles": 683221000.0,
    "retained_earnings": 525666000.0,
    "total_debt": 29912000.0,
-   "shares_out": 141227704.0
+   "shares_out": 141227704.0,
+   "unusual_items": 41801000.0,
+   "normalized_ebitda": 666323000.0,
+   "normalized_income": 491189902.692413
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "SSD",
- "fetched_at": "2026-10-10T12:58:45+00:00",
+ "fetched_at": "2026-10-10T15:56:28+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 5545,
   "website": "https://www.simpsonmfg.com",
-  "longBusinessSummary": "Simpson Manufacturing Co., Inc., together with its subsidiaries, designs, engineers, manufactures, and sells structural solutions for wood, concrete, and steel connections in the North America, Europe, and the Asia Pacific. The company provides structural products for wood construction, such as connectors, fasteners, and lateral-force resisting systems; anchor, repair, protection and strengthening products including coatings, sealers, mortars, fiberglass and fiber-reinforced polymer systems and asphalt products. In addition, the company offers engineering and design services, as well as software solutions. It markets its products to the residential construction, industrial, commercial and infrastructure construction, remodeling and do-it-yourself markets. It offers engineering and design services. It serves its products to dealers, home centers, wood component manufacturers, OEM-relationships, distributors, and contractors industries. The company was founded in 1956 and is headquartered in Pleasanton, California."
+  "longBusinessSummary": "Simpson Manufacturing Co., Inc., together with its subsidiaries, designs, engineers, manufactures, and sells structural solutions for wood, concrete, and steel connections in the North America, Europe, and the Asia Pacific. The company provides structural products for wood construction, such as connectors, fasteners, and lateral-force resisting systems; anchor, repair, protection and strengthening products including coatings, sealers, mortars, fiberglass and fiber-reinforced polymer systems and asphalt products. In addition, the company offers engineering and design services, as well as software solutions. It markets its products to the residential construction, industrial, commercial and infrastructure construction, remodeling and do-it-yourself markets. It offers engineering and design services. It serves its products to dealers, home centers, wood component manufacturers, OEM-relationships, distributors, and contractors industries. The company was founded in 1956 and is headquartered in Pleasanton, California.",
+  "targetMeanPrice": 219.0,
+  "targetLowPrice": 212.0,
+  "targetHighPrice": 230.0,
+  "numberOfAnalystOpinions": 5,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": 17.623068,
+  "forwardEps": 9.71,
+  "trailingEps": 9.15,
+  "earningsGrowth": 0.251,
+  "revenueGrowth": 0.063
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3073626000.0,
+    "official": 3073626000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2035477000.0,
+    "official": 2029762000.0,
+    "diff": 0.002816
+   },
+   "net_income": {
+    "yahoo": 345083000.0,
+    "official": 345083000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2332808000.0,
+    "official": 2332808000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:56:28+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -199,7 +241,10 @@
    "goodwill_and_intangibles": 858589000.0,
    "retained_earnings": 1118030000.0,
    "total_debt": 433125000.0,
-   "shares_out": 42560000.0
+   "shares_out": 42560000.0,
+   "unusual_items": -19434000.0,
+   "normalized_ebitda": 555417000.0,
+   "normalized_income": 348473330.0
   },
   {
    "fy_end": "2023-12-31",
@@ -233,7 +278,10 @@
    "goodwill_and_intangibles": 867889000.0,
    "retained_earnings": 1426554000.0,
    "total_debt": 410625000.0,
-   "shares_out": 42323000.0
+   "shares_out": 42323000.0,
+   "unusual_items": -6349000.0,
+   "normalized_ebitda": 560561000.0,
+   "normalized_income": 358704307.0
   },
   {
    "fy_end": "2024-12-31",
@@ -267,7 +315,10 @@
    "goodwill_and_intangibles": 887496000.0,
    "retained_earnings": 1646568000.0,
    "total_debt": 388125000.0,
-   "shares_out": 41878000.0
+   "shares_out": 41878000.0,
+   "unusual_items": -6575000.0,
+   "normalized_ebitda": 527315000.0,
+   "normalized_income": 327102650.0
   },
   {
    "fy_end": "2025-12-31",
@@ -301,7 +352,10 @@
    "goodwill_and_intangibles": 946248000.0,
    "retained_earnings": 1843289000.0,
    "total_debt": 300000000.0,
-   "shares_out": 41255000.0
+   "shares_out": 41255000.0,
+   "unusual_items": 11508000.0,
+   "normalized_ebitda": 521071000.0,
+   "normalized_income": 336498032.0
   }
  ]
 }

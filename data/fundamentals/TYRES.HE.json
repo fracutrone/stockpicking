@@ -1,6 +1,6 @@
 {
  "ticker": "TYRES.HE",
- "fetched_at": "2026-10-10T12:23:32+00:00",
+ "fetched_at": "2026-10-10T15:26:32+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "HEL",
   "fullTimeEmployees": 3936,
   "website": "https://www.nokiantyres.com",
-  "longBusinessSummary": "Nokian Renkaat Oyj develops and manufactures tires for passenger cars, trucks, and heavy machineries in Nordics, Central Europe, North America, and internationally. It operates through Passenger Car Tyres; Heavy Tyres; and Vianor segments. The company develops and produces winter, summer, and all-season tires for passenger cars, SUVs, and vans; tires for forestry machinery; tires for ports and terminals, mining, agriculture, trucks and buses, earthmoving, and road maintenance. It also sells car, truck, buse, and van tires under the Nokian Tyres and other tire brands; other automotive products and services; provide car maintenance and tire service; and operates Vianor service centers. The company distributes its products through Vianor chain, Vianor Partner chain, Nokian Tyres Authorized Dealers network, as well as through tire dealers, car dealerships, and vehicle manufacturers, and online stores. Nokian Renkaat Oyj was founded in 1898 and is headquartered in Nokia, Finland."
+  "longBusinessSummary": "Nokian Renkaat Oyj develops and manufactures tires for passenger cars, trucks, and heavy machineries in Nordics, Central Europe, North America, and internationally. It operates through Passenger Car Tyres; Heavy Tyres; and Vianor segments. The company develops and produces winter, summer, and all-season tires for passenger cars, SUVs, and vans; tires for forestry machinery; tires for ports and terminals, mining, agriculture, trucks and buses, earthmoving, and road maintenance. It also sells car, truck, buse, and van tires under the Nokian Tyres and other tire brands; other automotive products and services; provide car maintenance and tire service; and operates Vianor service centers. The company distributes its products through Vianor chain, Vianor Partner chain, Nokian Tyres Authorized Dealers network, as well as through tire dealers, car dealerships, and vehicle manufacturers, and online stores. Nokian Renkaat Oyj was founded in 1898 and is headquartered in Nokia, Finland.",
+  "targetMeanPrice": 13.33333,
+  "targetLowPrice": 10.0,
+  "targetHighPrice": 16.5,
+  "numberOfAnalystOpinions": 9,
+  "recommendationKey": "underperform",
+  "recommendationMean": 3.66667,
+  "forwardPE": 17.777777,
+  "forwardEps": 0.81,
+  "trailingEps": 0.14,
+  "earningsGrowth": 31.177,
+  "revenueGrowth": 0.105
  },
  "governance": {
   "ceo": {
@@ -76,8 +87,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF FI",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 2313800000.0,
+    "official": 2313800000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1164200000.0,
+    "official": 1164200000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -15000000.0,
+    "official": -15000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1373600000.0,
+    "official": 1373600000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:26:32+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -111,7 +154,10 @@
    "goodwill_and_intangibles": 79000000.0,
    "retained_earnings": 1343600000.0,
    "total_debt": 399900000.0,
-   "shares_out": 138251324.0
+   "shares_out": 138251324.0,
+   "unusual_items": -24600000.0,
+   "normalized_ebitda": 197900000.0,
+   "normalized_income": 34980000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -144,7 +190,10 @@
    "goodwill_and_intangibles": 76100000.0,
    "retained_earnings": 934300000.0,
    "total_debt": 638400000.0,
-   "shares_out": 137867243.0
+   "shares_out": 137867243.0,
+   "unusual_items": 4100000.0,
+   "normalized_ebitda": 150300000.0,
+   "normalized_income": 8890845.070423
   },
   {
    "fy_end": "2024-12-31",
@@ -177,7 +226,10 @@
    "goodwill_and_intangibles": 78200000.0,
    "retained_earnings": 832900000.0,
    "total_debt": 789200000.0,
-   "shares_out": 137869508.0
+   "shares_out": 137869508.0,
+   "unusual_items": 2800000.0,
+   "normalized_ebitda": 127400000.0,
+   "normalized_income": -24826666.666667
   },
   {
    "fy_end": "2025-12-31",
@@ -210,7 +262,10 @@
    "goodwill_and_intangibles": 85300000.0,
    "retained_earnings": 784600000.0,
    "total_debt": 810900000.0,
-   "shares_out": 137875243.0
+   "shares_out": 137875243.0,
+   "unusual_items": -2900000.0,
+   "normalized_ebitda": 166800000.0,
+   "normalized_income": -12264150.943396
   }
  ]
 }

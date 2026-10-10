@@ -1,6 +1,6 @@
 {
  "ticker": "BRSC.L",
- "fetched_at": "2026-10-10T11:48:57+00:00",
+ "fetched_at": "2026-10-10T14:37:21+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": null,
   "heldPercentInstitutions": null,
   "shortPercentOfFloat": null,
-  "averageVolume": 844713,
+  "averageVolume": 842452,
   "quoteType": "EQUITY",
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -49,8 +60,15 @@
   "equity": "yahoo",
   "receivables": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T14:37:21+00:00",
  "years": [
   {
    "fy_end": "2023-02-28",
@@ -70,7 +88,8 @@
    "equity": 758529000.0,
    "receivables": 5648000.0,
    "total_debt": 69504000.0,
-   "shares_out": 244148960.0
+   "shares_out": 244148960.0,
+   "normalized_income": -140726000.0
   },
   {
    "fy_end": "2024-02-29",
@@ -90,7 +109,8 @@
    "equity": 686206000.0,
    "receivables": 3577000.0,
    "total_debt": 77414000.0,
-   "shares_out": 236598960.0
+   "shares_out": 236598960.0,
+   "normalized_income": -32701000.0
   },
   {
    "fy_end": "2025-02-28",
@@ -110,7 +130,8 @@
    "equity": 614779000.0,
    "receivables": 8870000.0,
    "total_debt": 78773000.0,
-   "shares_out": 219023960.0
+   "shares_out": 219023960.0,
+   "normalized_income": -4268000.0
   },
   {
    "fy_end": "2026-02-28",
@@ -130,7 +151,8 @@
    "equity": 603842000.0,
    "receivables": 6553000.0,
    "total_debt": 69833000.0,
-   "shares_out": 199063960.0
+   "shares_out": 199063960.0,
+   "normalized_income": 60205000.0
   }
  ]
 }

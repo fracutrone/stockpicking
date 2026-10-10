@@ -1,6 +1,6 @@
 {
  "ticker": "ADYEN.AS",
- "fetched_at": "2026-10-10T11:43:51+00:00",
+ "fetched_at": "2026-10-10T14:28:11+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.13136,
   "heldPercentInstitutions": 0.80741,
   "shortPercentOfFloat": null,
-  "averageVolume": 133071,
+  "averageVolume": 133195,
   "quoteType": "EQUITY",
   "exchange": "AMS",
   "fullTimeEmployees": 5020,
   "website": "https://www.adyen.com",
-  "longBusinessSummary": "Adyen N.V. operates a payments platform in Europe, the Middle East, Africa, North America, the Asia Pacific, and Latin America. Its platform integrates payments stack, including gateway, risk management, processing, acquiring, and settlement services. The company offers a back-end infrastructure for authorizing. It accepts payment through online, in-person payments, cross channel, and Adyen for Platforms. The company also provides optimization services, including Adyen Uplift, protect, authenticate and tokenize. In addition, it offers financial products, such as accounts, capital, issuing, and payouts. It serves digital, mobility, SaaS platforms, retail, food and beverages, subscription, and travel and hospitality businesses. The company was incorporated in 2006 and is based in Amsterdam, the Netherlands."
+  "longBusinessSummary": "Adyen N.V. operates a payments platform in Europe, the Middle East, Africa, North America, the Asia Pacific, and Latin America. Its platform integrates payments stack, including gateway, risk management, processing, acquiring, and settlement services. The company offers a back-end infrastructure for authorizing. It accepts payment through online, in-person payments, cross channel, and Adyen for Platforms. The company also provides optimization services, including Adyen Uplift, protect, authenticate and tokenize. In addition, it offers financial products, such as accounts, capital, issuing, and payouts. It serves digital, mobility, SaaS platforms, retail, food and beverages, subscription, and travel and hospitality businesses. The company was incorporated in 2006 and is based in Amsterdam, the Netherlands.",
+  "targetMeanPrice": 1378.3143,
+  "targetLowPrice": 887.0,
+  "targetHighPrice": 1900.0,
+  "numberOfAnalystOpinions": 35,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.6,
+  "forwardPE": 18.965206,
+  "forwardEps": 46.7224,
+  "trailingEps": 35.58,
+  "earningsGrowth": 0.129,
+  "revenueGrowth": 0.189
  },
  "governance": {
   "ceo": {
@@ -80,8 +91,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF NL",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 12256849000.0,
+    "official": 12256849000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 5285427000.0,
+    "official": 5285427000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1062526000.0,
+    "official": 1062526000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2646897000.0,
+    "official": 2646897000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:28:11+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -114,7 +157,10 @@
    "goodwill_and_intangibles": 8140000.0,
    "retained_earnings": 1906795000.0,
    "total_debt": 203073000.0,
-   "shares_out": 30986299.0
+   "shares_out": 30986299.0,
+   "unusual_items": 46547000.0,
+   "normalized_ebitda": 748968000.0,
+   "normalized_income": 527664770.8
   },
   {
    "fy_end": "2023-12-31",
@@ -147,7 +193,10 @@
    "goodwill_and_intangibles": 8757000.0,
    "retained_earnings": 2601282000.0,
    "total_debt": 223063000.0,
-   "shares_out": 31033098.0
+   "shares_out": 31033098.0,
+   "unusual_items": 36810000.0,
+   "normalized_ebitda": 996035000.0,
+   "normalized_income": 671053152.0
   },
   {
    "fy_end": "2024-12-31",
@@ -181,7 +230,10 @@
    "goodwill_and_intangibles": 8500000.0,
    "retained_earnings": 3509120000.0,
    "total_debt": 228256000.0,
-   "shares_out": 31485187.0
+   "shares_out": 31485187.0,
+   "unusual_items": 2867000.0,
+   "normalized_ebitda": 1355066000.0,
+   "normalized_income": 923000708.6
   },
   {
    "fy_end": "2025-12-31",
@@ -215,7 +267,10 @@
    "goodwill_and_intangibles": 7501000.0,
    "retained_earnings": 4577091000.0,
    "total_debt": 252366000.0,
-   "shares_out": 31536692.0
+   "shares_out": 31536692.0,
+   "unusual_items": 1346000.0,
+   "normalized_ebitda": 1548185000.0,
+   "normalized_income": 1061500078.8
   }
  ]
 }

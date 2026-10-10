@@ -1,6 +1,6 @@
 {
  "ticker": "FRT",
- "fetched_at": "2026-10-10T12:46:09+00:00",
+ "fetched_at": "2026-10-10T15:44:27+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 314,
   "website": "https://www.federalrealty.com",
-  "longBusinessSummary": "Federal Realty Investment Trust is a recognized leader in the ownership, operation and redevelopment of high-quality retail-based properties located primarily in major coastal markets and select underserved regions with strong economic and demographic fundamentals. Federal Realty's mission is to deliver long-term, sustainable growth through investing in communities where retail demand exceeds supply. This includes a portfolio of open-air shopping centers and mixed-use destinationssuch as Santana Row, Pike & Rose, and Assembly Row, which together reflect the company's ability to create distinctive, high-performing environments that serve as vibrant destinations for their communities. Federal Realty's 103 properties include approximately 3,700 tenants in 28.8 million commercial square feet, and approximately 2,700 residential units. Federal Realty has increased its quarterly dividends to its shareholders for 59 consecutive years, the longest record in the REIT industry. Federal Realty Investment Trust is based in North Bethesda, Maryland. Federal Realty Investment Trust was incorporated in 1962 in Maryland."
+  "longBusinessSummary": "Federal Realty Investment Trust is a recognized leader in the ownership, operation and redevelopment of high-quality retail-based properties located primarily in major coastal markets and select underserved regions with strong economic and demographic fundamentals. Federal Realty's mission is to deliver long-term, sustainable growth through investing in communities where retail demand exceeds supply. This includes a portfolio of open-air shopping centers and mixed-use destinationssuch as Santana Row, Pike & Rose, and Assembly Row, which together reflect the company's ability to create distinctive, high-performing environments that serve as vibrant destinations for their communities. Federal Realty's 103 properties include approximately 3,700 tenants in 28.8 million commercial square feet, and approximately 2,700 residential units. Federal Realty has increased its quarterly dividends to its shareholders for 59 consecutive years, the longest record in the REIT industry. Federal Realty Investment Trust is based in North Bethesda, Maryland. Federal Realty Investment Trust was incorporated in 1962 in Maryland.",
+  "targetMeanPrice": 130.10526,
+  "targetLowPrice": 115.0,
+  "targetHighPrice": 149.0,
+  "numberOfAnalystOpinions": 19,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.89474,
+  "forwardPE": 32.906914,
+  "forwardEps": 3.22607,
+  "trailingEps": 4.95,
+  "earningsGrowth": -0.456,
+  "revenueGrowth": 0.072
  },
  "governance": {
   "ceo": {
@@ -80,8 +91,39 @@
   "retained_earnings": "yahoo",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "intangibles": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 9130460000.0,
+    "official": 9130460000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3248731000.0,
+    "official": 3248731000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 411077000.0,
+    "official": 411077000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1278975000.0,
+    "official": 1278975000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:44:27+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -155,7 +197,10 @@
    "ppe_net": 140036000.0,
    "retained_earnings": -1034186000.0,
    "total_debt": 4344474000.0,
-   "shares_out": 81342959.0
+   "shares_out": 81342959.0,
+   "unusual_items": 163857000.0,
+   "normalized_ebitda": 671202000.0,
+   "normalized_income": 256043970.0
   },
   {
    "fy_end": "2023-12-31",
@@ -184,7 +229,10 @@
    "ppe_net": 93843000.0,
    "retained_earnings": -1160474000.0,
    "total_debt": 4615731000.0,
-   "shares_out": 82775286.0
+   "shares_out": 82775286.0,
+   "unusual_items": 9881000.0,
+   "normalized_ebitda": 726908000.0,
+   "normalized_income": 229179010.0
   },
   {
    "fy_end": "2024-12-31",
@@ -213,7 +261,10 @@
    "ppe_net": 92436000.0,
    "retained_earnings": -1242654000.0,
    "total_debt": 4496724000.0,
-   "shares_out": 85666220.0
+   "shares_out": 85666220.0,
+   "unusual_items": 54040000.0,
+   "normalized_ebitda": 768368000.0,
+   "normalized_income": 252516400.0
   },
   {
    "fy_end": "2025-12-31",
@@ -242,7 +293,10 @@
    "ppe_net": 89530000.0,
    "retained_earnings": -1224372000.0,
    "total_debt": 4963602000.0,
-   "shares_out": 86266009.0
+   "shares_out": 86266009.0,
+   "unusual_items": 142686000.0,
+   "normalized_ebitda": 832418000.0,
+   "normalized_income": 298355060.0
   }
  ]
 }

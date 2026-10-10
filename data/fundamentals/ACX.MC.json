@@ -1,6 +1,6 @@
 {
  "ticker": "ACX.MC",
- "fetched_at": "2026-10-10T12:28:24+00:00",
+ "fetched_at": "2026-10-10T15:32:48+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "MCE",
   "fullTimeEmployees": 9164,
   "website": "https://www.acerinox.com",
-  "longBusinessSummary": "Acerinox, S.A., together with its subsidiaries, manufactures and distributes stainless steel and high-performance alloys in Spain, the United States, Africa, Asia, rest of Europe, and internationally. It operates through Stainless Steel and High-Performance Alloys segments. The company offers flat products, including slab, billet, black coil, plate, engraved coil/sheet, cold rolled coil and sheet, hot rolled coil and sheet, and circles; and stainless steel grades comprising austenitic, ferritic, duplex, and martensitic, as well as wire stainless steels for welding. It also provides long stainless steel products, such as wire, colour coated wire, reinforcement wire, wire rod, hexagonal wire rod, bar, hot rolled and cold rolled reinforcement bar, peeled bar, black bar, profiles, hot rolled reinforcement coil, and angles. In addition, the company offers high performance alloys, including nickel and nickel alloys, cobalt alloys, zirconium, special stainless steels, aluminum and copper, powder for 3D printing, and welding consumables. Its products are used for transport, industrial equipment and engineering, construction and infrastructure, food industry, household appliances and kitchenware, and energy and environmental technology applications. Acerinox, S.A. was incorporated in 1970 and is headquartered in Madrid, Spain."
+  "longBusinessSummary": "Acerinox, S.A., together with its subsidiaries, manufactures and distributes stainless steel and high-performance alloys in Spain, the United States, Africa, Asia, rest of Europe, and internationally. It operates through Stainless Steel and High-Performance Alloys segments. The company offers flat products, including slab, billet, black coil, plate, engraved coil/sheet, cold rolled coil and sheet, hot rolled coil and sheet, and circles; and stainless steel grades comprising austenitic, ferritic, duplex, and martensitic, as well as wire stainless steels for welding. It also provides long stainless steel products, such as wire, colour coated wire, reinforcement wire, wire rod, hexagonal wire rod, bar, hot rolled and cold rolled reinforcement bar, peeled bar, black bar, profiles, hot rolled reinforcement coil, and angles. In addition, the company offers high performance alloys, including nickel and nickel alloys, cobalt alloys, zirconium, special stainless steels, aluminum and copper, powder for 3D printing, and welding consumables. Its products are used for transport, industrial equipment and engineering, construction and infrastructure, food industry, household appliances and kitchenware, and energy and environmental technology applications. Acerinox, S.A. was incorporated in 1970 and is headquartered in Madrid, Spain.",
+  "targetMeanPrice": 19.07333,
+  "targetLowPrice": 14.5,
+  "targetHighPrice": 23.7,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.86667,
+  "forwardPE": 10.999764,
+  "forwardEps": 1.56367,
+  "trailingEps": 0.32,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.052
  },
  "governance": {
   "ceo": {
@@ -71,8 +82,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF ES",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 6467183000.0,
+    "official": 6469319000.0,
+    "diff": 0.00033
+   },
+   "equity": {
+    "yahoo": 2527317000.0,
+    "official": 2527317000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 224946000.0,
+    "official": 224946000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 5413128000.0,
+    "official": 5413128000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T15:32:48+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -107,7 +150,10 @@
    "goodwill_and_intangibles": 94501000.0,
    "retained_earnings": 556054000.0,
    "total_debt": 1988524000.0,
-   "shares_out": 249331518.0
+   "shares_out": 249331518.0,
+   "unusual_items": -196927000.0,
+   "normalized_ebitda": 1283936000.0,
+   "normalized_income": 691177038.491474
   },
   {
    "fy_end": "2023-12-31",
@@ -142,7 +188,10 @@
    "goodwill_and_intangibles": 92403000.0,
    "retained_earnings": 228128000.0,
    "total_debt": 2134887000.0,
-   "shares_out": 249228581.0
+   "shares_out": 249228581.0,
+   "unusual_items": -179284000.0,
+   "normalized_ebitda": 806803000.0,
+   "normalized_income": 337595451.71031
   },
   {
    "fy_end": "2024-12-31",
@@ -177,7 +226,10 @@
    "goodwill_and_intangibles": 315779000.0,
    "retained_earnings": 224946000.0,
    "total_debt": 2383051000.0,
-   "shares_out": 249228581.0
+   "shares_out": 249228581.0,
+   "unusual_items": 151453000.0,
+   "normalized_ebitda": 458173000.0,
+   "normalized_income": 129779894.148746
   },
   {
    "fy_end": "2025-12-31",
@@ -212,7 +264,10 @@
    "goodwill_and_intangibles": 282449000.0,
    "retained_earnings": -40074000.0,
    "total_debt": 2158489000.0,
-   "shares_out": 249328371.0
+   "shares_out": 249328371.0,
+   "unusual_items": -5728000.0,
+   "normalized_ebitda": 384428000.0,
+   "normalized_income": -35778000.0
   }
  ]
 }

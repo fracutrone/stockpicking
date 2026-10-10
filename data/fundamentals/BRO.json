@@ -1,6 +1,6 @@
 {
  "ticker": "BRO",
- "fetched_at": "2026-10-10T12:39:25+00:00",
+ "fetched_at": "2026-10-10T15:38:14+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 22888,
   "website": "https://www.bbrown.com",
-  "longBusinessSummary": "Brown & Brown, Inc. markets and sells insurance products and services in the United States, the United Kingdom, and internationally. It operates through Retail and Specialty Distribution segments. The Retail segment provides property and casualty insurance products, employee benefits insurance products, personal insurance products, specialties insurance products, risk management strategies, loss control surveys and analysis, consulting, and claims processing services. This segment also offers non-insurance services and products through automobile and recreational vehicle dealer services businesses. It serves commercial, public and quasi-public entities, professionals, and individual customers. The Specialty Distribution segment comprises wholesale brokerage and specialty businesses. This segment offers professional liability and related package insurance products for dentistry, legal, eyecare, financial services, physicians, and real estate title professionals, as well as supplementary insurance products related to weddings, events, medical facilities, and cyber liabilities. This segment also provides public entity-related and specialty programs through a network of independent agents, as well as program management services for insurance carrier partners. In addition, the company's wholesale brokerage businesses underwrite and place excess and surplus commercial and personal lines insurance through independent agents and brokers. Its program businesses operate under the Arrowhead Programs name. The company was formerly known as Poe & Brown, Inc. and changed its name to Brown & Brown, Inc. in April 1999. Brown & Brown, Inc. was founded in 1939 and is headquartered in Daytona Beach, Florida."
+  "longBusinessSummary": "Brown & Brown, Inc. markets and sells insurance products and services in the United States, the United Kingdom, and internationally. It operates through Retail and Specialty Distribution segments. The Retail segment provides property and casualty insurance products, employee benefits insurance products, personal insurance products, specialties insurance products, risk management strategies, loss control surveys and analysis, consulting, and claims processing services. This segment also offers non-insurance services and products through automobile and recreational vehicle dealer services businesses. It serves commercial, public and quasi-public entities, professionals, and individual customers. The Specialty Distribution segment comprises wholesale brokerage and specialty businesses. This segment offers professional liability and related package insurance products for dentistry, legal, eyecare, financial services, physicians, and real estate title professionals, as well as supplementary insurance products related to weddings, events, medical facilities, and cyber liabilities. This segment also provides public entity-related and specialty programs through a network of independent agents, as well as program management services for insurance carrier partners. In addition, the company's wholesale brokerage businesses underwrite and place excess and surplus commercial and personal lines insurance through independent agents and brokers. Its program businesses operate under the Arrowhead Programs name. The company was formerly known as Poe & Brown, Inc. and changed its name to Brown & Brown, Inc. in April 1999. Brown & Brown, Inc. was founded in 1939 and is headquartered in Daytona Beach, Florida.",
+  "targetMeanPrice": 74.64706,
+  "targetLowPrice": 55.0,
+  "targetHighPrice": 90.0,
+  "numberOfAnalystOpinions": 17,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.7,
+  "forwardPE": 13.028074,
+  "forwardEps": 4.8265,
+  "trailingEps": 3.17,
+  "earningsGrowth": 0.071,
+  "revenueGrowth": 0.324
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 29991000000.0,
+    "official": 29991000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 12547000000.0,
+    "official": 12573000000.0,
+    "diff": 0.002068
+   },
+   "net_income": {
+    "yahoo": 1054000000.0,
+    "official": 1054000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 5763000000.0,
+    "official": 5902000000.0,
+    "diff": 0.023551
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:38:15+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -186,7 +228,10 @@
    "goodwill_and_intangibles": 8269400000.0,
    "retained_earnings": 4553000000.0,
    "total_debt": 3942100000.0,
-   "shares_out": 283200000.0
+   "shares_out": 283200000.0,
+   "unusual_items": 58000000.0,
+   "normalized_ebitda": 1152000000.0,
+   "normalized_income": 627514000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -219,7 +264,10 @@
    "goodwill_and_intangibles": 8962000000.0,
    "retained_earnings": 5289000000.0,
    "total_debt": 3796000000.0,
-   "shares_out": 284600000.0
+   "shares_out": 284600000.0,
+   "unusual_items": 180000000.0,
+   "normalized_ebitda": 1362000000.0,
+   "normalized_income": 734380000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -252,7 +300,10 @@
    "goodwill_and_intangibles": 9784000000.0,
    "retained_earnings": 6128000000.0,
    "total_debt": 3824000000.0,
-   "shares_out": 285958390.0
+   "shares_out": 285958390.0,
+   "unusual_items": 137000000.0,
+   "normalized_ebitda": 1589000000.0,
+   "normalized_income": 887647000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -284,7 +335,10 @@
    "goodwill_and_intangibles": 19993000000.0,
    "retained_earnings": 6989000000.0,
    "total_debt": 7613000000.0,
-   "shares_out": 336000000.0
+   "shares_out": 336000000.0,
+   "unusual_items": 121000000.0,
+   "normalized_ebitda": 1923000000.0,
+   "normalized_income": 959741000.0
   }
  ]
 }

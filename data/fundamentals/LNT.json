@@ -1,6 +1,6 @@
 {
  "ticker": "LNT",
- "fetched_at": "2026-10-10T12:50:39+00:00",
+ "fetched_at": "2026-10-10T15:48:54+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 2948,
   "website": "https://www.alliantenergy.com",
-  "longBusinessSummary": "Alliant Energy Corporation operates as a utility holding company that provides regulated electric and natural gas services in the United States. It operates through IPL and WPL segments. The company's IPL segment engages primarily in the generation and distribution of electricity and the distribution and transportation of natural gas to retail customers in select markets in Iowa. This segment also sells electricity to wholesale customers in Minnesota, Illinois and Iowa; and generates and distributes steam for two customers in Cedar Rapids, Iowa. Its WPL segment generates and distributes electricity, and distributes and transports natural gas to retail customers in select markets in Wisconsin; and sells electricity to wholesale customers in Wisconsin. It serves retail customers in the farming, agriculture, industrial manufacturing, chemical, packaging, and food industries, as well as wholesale customers comprising municipalities and rural electric cooperatives. In addition, the company owns and operates a short-line rail freight service in Iowa; a Mississippi River barge, rail, and truck freight terminal in Illinois; freight brokerage services; wind turbine blade recycling services; and a rail-served warehouse in Iowa. Further, it holds interests in a natural gas-fired electric generating unit near Sheboygan Falls, Wisconsin; and a wind farm located in Oklahoma. The company was formerly known as Interstate Energy Corp. and changed its name to Alliant Energy Corporation in May 1999. Alliant Energy Corporation is headquartered in Madison, Wisconsin."
+  "longBusinessSummary": "Alliant Energy Corporation operates as a utility holding company that provides regulated electric and natural gas services in the United States. It operates through IPL and WPL segments. The company's IPL segment engages primarily in the generation and distribution of electricity and the distribution and transportation of natural gas to retail customers in select markets in Iowa. This segment also sells electricity to wholesale customers in Minnesota, Illinois and Iowa; and generates and distributes steam for two customers in Cedar Rapids, Iowa. Its WPL segment generates and distributes electricity, and distributes and transports natural gas to retail customers in select markets in Wisconsin; and sells electricity to wholesale customers in Wisconsin. It serves retail customers in the farming, agriculture, industrial manufacturing, chemical, packaging, and food industries, as well as wholesale customers comprising municipalities and rural electric cooperatives. In addition, the company owns and operates a short-line rail freight service in Iowa; a Mississippi River barge, rail, and truck freight terminal in Illinois; freight brokerage services; wind turbine blade recycling services; and a rail-served warehouse in Iowa. Further, it holds interests in a natural gas-fired electric generating unit near Sheboygan Falls, Wisconsin; and a wind farm located in Oklahoma. The company was formerly known as Interstate Energy Corp. and changed its name to Alliant Energy Corporation in May 1999. Alliant Energy Corporation is headquartered in Madison, Wisconsin.",
+  "targetMeanPrice": 77.375,
+  "targetLowPrice": 66.0,
+  "targetHighPrice": 83.0,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.92308,
+  "forwardPE": 17.858934,
+  "forwardEps": 3.68723,
+  "trailingEps": 3.16,
+  "earningsGrowth": -0.04,
+  "revenueGrowth": 0.01
  },
  "governance": {
   "ceo": {
@@ -80,8 +91,39 @@
   "ppe_net": "sec",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 24991000000.0,
+    "official": 24991000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 7334000000.0,
+    "official": 7334000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 810000000.0,
+    "official": 810000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 4362000000.0,
+    "official": 4362000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:48:55+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -177,7 +219,10 @@
    "ppe_net": 16247000000.0,
    "retained_earnings": 3509000000.0,
    "total_debt": 8718000000.0,
-   "shares_out": 251134966.0
+   "shares_out": 251134966.0,
+   "unusual_items": 44000000.0,
+   "normalized_ebitda": 1660000000.0,
+   "normalized_income": 643320000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -207,7 +252,10 @@
    "ppe_net": 17157000000.0,
    "retained_earnings": 3756000000.0,
    "total_debt": 9509000000.0,
-   "shares_out": 256096848.0
+   "shares_out": 256096848.0,
+   "unusual_items": 74000000.0,
+   "normalized_ebitda": 1677000000.0,
+   "normalized_income": 629740000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -237,7 +285,10 @@
    "ppe_net": 18701000000.0,
    "retained_earnings": 3954000000.0,
    "total_debt": 10406000000.0,
-   "shares_out": 256690222.0
+   "shares_out": 256690222.0,
+   "unusual_items": 54000000.0,
+   "normalized_ebitda": 1722000000.0,
+   "normalized_income": 647340000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -266,7 +317,10 @@
    "ppe_net": 20344000000.0,
    "retained_earnings": 4243000000.0,
    "total_debt": 12116000000.0,
-   "shares_out": 257137261.0
+   "shares_out": 257137261.0,
+   "unusual_items": 63000000.0,
+   "normalized_ebitda": 1930000000.0,
+   "normalized_income": 760230000.0
   }
  ]
 }

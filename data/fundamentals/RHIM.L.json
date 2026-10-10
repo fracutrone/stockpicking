@@ -1,6 +1,6 @@
 {
  "ticker": "RHIM.L",
- "fetched_at": "2026-10-10T12:16:24+00:00",
+ "fetched_at": "2026-10-10T15:15:19+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 20000,
   "website": "https://www.rhimagnesita.com",
-  "longBusinessSummary": "RHI Magnesita N.V., together with its subsidiaries, develops, produces, sells, installs, and maintains refractory products and systems used in industrial high-temperature processes worldwide. The company offers magnesite and dolomite, and refractory bricks, as well as mixes, mortars and castables, and functional specialized refractory products. It also provides refractory engineering solutions, such as drawings or design of a linings concept, installation, supervision, maintenance, and recycling. In addition, the company offers systems, sensors, machinery, and digital products; and sells internally produced raw materials, such as magnesite ore, dead-burned magnesia, and fused magnesia. Additionally, it offers raw magnesite, caustic magnesia, sintered magnesia, dolomite and sintered dolomite, magnesia products, slag conditioners, magnesium oxide, spinels, agalmatolite, chromite, grogs, and commodities. The company serves customers in steel, cement, metals, lime, non-ferrous metals, glass, energy, environmental, and chemicals industries. RHI Magnesita N.V. was founded in 1834 and is headquartered in Vienna, Austria."
+  "longBusinessSummary": "RHI Magnesita N.V., together with its subsidiaries, develops, produces, sells, installs, and maintains refractory products and systems used in industrial high-temperature processes worldwide. The company offers magnesite and dolomite, and refractory bricks, as well as mixes, mortars and castables, and functional specialized refractory products. It also provides refractory engineering solutions, such as drawings or design of a linings concept, installation, supervision, maintenance, and recycling. In addition, the company offers systems, sensors, machinery, and digital products; and sells internally produced raw materials, such as magnesite ore, dead-burned magnesia, and fused magnesia. Additionally, it offers raw magnesite, caustic magnesia, sintered magnesia, dolomite and sintered dolomite, magnesia products, slag conditioners, magnesium oxide, spinels, agalmatolite, chromite, grogs, and commodities. The company serves customers in steel, cement, metals, lime, non-ferrous metals, glass, energy, environmental, and chemicals industries. RHI Magnesita N.V. was founded in 1834 and is headquartered in Vienna, Austria.",
+  "targetMeanPrice": 3359.2969,
+  "targetLowPrice": 2282.211,
+  "targetHighPrice": 4306.9536,
+  "numberOfAnalystOpinions": 5,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": 6.754917,
+  "forwardEps": 4.248757,
+  "trailingEps": 1.98,
+  "earningsGrowth": 3.643,
+  "revenueGrowth": -0.049
  },
  "governance": {
   "ceo": {
@@ -71,8 +82,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF AT",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 4348000000.0,
+    "official": 4348000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1025000000.0,
+    "official": 1025000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 86000000.0,
+    "official": 86000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3366000000.0,
+    "official": 3366000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:15:19+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -106,7 +149,10 @@
    "goodwill_and_intangibles": 453500000.0,
    "retained_earnings": 620200000.0,
    "total_debt": 1674900000.0,
-   "shares_out": 47017695.0
+   "shares_out": 47017695.0,
+   "unusual_items": -3000000.0,
+   "normalized_ebitda": 480800000.0,
+   "normalized_income": 157548000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -141,7 +187,10 @@
    "goodwill_and_intangibles": 809000000.0,
    "retained_earnings": 871400000.0,
    "total_debt": 1931000000.0,
-   "shares_out": 47130338.0
+   "shares_out": 47130338.0,
+   "unusual_items": -5000000.0,
+   "normalized_ebitda": 513000000.0,
+   "normalized_income": 168665000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -176,7 +225,10 @@
    "goodwill_and_intangibles": 759000000.0,
    "retained_earnings": 938000000.0,
    "total_debt": 1816000000.0,
-   "shares_out": 47195936.0
+   "shares_out": 47195936.0,
+   "unusual_items": -55000000.0,
+   "normalized_ebitda": 527000000.0,
+   "normalized_income": 184350000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -210,7 +262,10 @@
    "goodwill_and_intangibles": 943000000.0,
    "retained_earnings": 932000000.0,
    "total_debt": 1845000000.0,
-   "shares_out": 47304527.0
+   "shares_out": 47304527.0,
+   "unusual_items": -17000000.0,
+   "normalized_ebitda": 432000000.0,
+   "normalized_income": 98484375.0
   }
  ]
 }

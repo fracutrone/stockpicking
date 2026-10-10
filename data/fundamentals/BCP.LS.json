@@ -1,6 +1,6 @@
 {
  "ticker": "BCP.LS",
- "fetched_at": "2026-10-10T11:47:35+00:00",
+ "fetched_at": "2026-10-10T14:34:44+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LIS",
   "fullTimeEmployees": 15613,
   "website": "https://www.millenniumbcp.pt",
-  "longBusinessSummary": "Banco Comercial Português, S.A. engages in the provision of various banking and financial products and services in Portugal and internationally. The company operates through Retail Banking; Companies and Corporate; Private Banking; International Business, and Other segments. It offers a range of financial products and services, including current accounts, payment systems, savings and investment products, private banking, asset management, and investment banking services, such as mortgage loans, personal loans, commercial banking, leasing, factoring, insurance, and other products. The company is also involved in the provision of investment fund and real estate management, e-commerce, web portal, leasing, consulting, brokerage, marketing, and real estate investment fund management services; and internet, telephone, and mobile banking services as well as buying and selling real estate. In addition, it offers credit, debit, and prepaid cards; personal, mortgage, car loan, and salary loan; health, car, life, travel, personal accident, home, pet, work accident, payment protection, and transportation and repatriation insurance; retirement services; structured products, discretionary management, investment funds, and other technology and services. Further, the company provides short, medium, and long term financing solutions; internacional operations financing; and treasury services. Banco Comercial Português, S.A. was incorporated in 1985 and is based in Porto, Portugal."
+  "longBusinessSummary": "Banco Comercial Português, S.A. engages in the provision of various banking and financial products and services in Portugal and internationally. The company operates through Retail Banking; Companies and Corporate; Private Banking; International Business, and Other segments. It offers a range of financial products and services, including current accounts, payment systems, savings and investment products, private banking, asset management, and investment banking services, such as mortgage loans, personal loans, commercial banking, leasing, factoring, insurance, and other products. The company is also involved in the provision of investment fund and real estate management, e-commerce, web portal, leasing, consulting, brokerage, marketing, and real estate investment fund management services; and internet, telephone, and mobile banking services as well as buying and selling real estate. In addition, it offers credit, debit, and prepaid cards; personal, mortgage, car loan, and salary loan; health, car, life, travel, personal accident, home, pet, work accident, payment protection, and transportation and repatriation insurance; retirement services; structured products, discretionary management, investment funds, and other technology and services. Further, the company provides short, medium, and long term financing solutions; internacional operations financing; and treasury services. Banco Comercial Português, S.A. was incorporated in 1985 and is based in Porto, Portugal.",
+  "targetMeanPrice": 1.18,
+  "targetLowPrice": 0.9,
+  "targetHighPrice": 1.34,
+  "numberOfAnalystOpinions": 18,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.11111,
+  "forwardPE": 11.513847,
+  "forwardEps": 0.09532,
+  "trailingEps": 0.11,
+  "earningsGrowth": 0.022,
+  "revenueGrowth": 0.002
  },
  "governance": {
   "ceo": {
@@ -67,8 +78,34 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF PT",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 102143602000.0,
+    "official": 102143602000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 7094843000.0,
+    "official": 8192557000.0,
+    "diff": 0.133989
+   },
+   "net_income": {
+    "yahoo": 906378000.0,
+    "official": 1000161000.0,
+    "diff": 0.093768
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T14:34:44+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -93,7 +130,9 @@
    "goodwill_and_intangibles": 182687000.0,
    "retained_earnings": 197386000.0,
    "total_debt": 4540119000.0,
-   "shares_out": 15113989952.0
+   "shares_out": 15113989952.0,
+   "unusual_items": -185433000.0,
+   "normalized_income": 441111070.0
   },
   {
    "fy_end": "2023-12-31",
@@ -118,7 +157,9 @@
    "goodwill_and_intangibles": 223105000.0,
    "retained_earnings": 856050000.0,
    "total_debt": 5643711000.0,
-   "shares_out": 15113989952.0
+   "shares_out": 15113989952.0,
+   "unusual_items": -39223000.0,
+   "normalized_income": 883965497.0
   },
   {
    "fy_end": "2024-12-31",
@@ -143,7 +184,9 @@
    "goodwill_and_intangibles": 275970000.0,
    "retained_earnings": 906378000.0,
    "total_debt": 6240621000.0,
-   "shares_out": 15113989952.0
+   "shares_out": 15113989952.0,
+   "unusual_items": -34629000.0,
+   "normalized_income": 931875491.154843
   },
   {
    "fy_end": "2025-12-31",
@@ -168,7 +211,9 @@
    "goodwill_and_intangibles": 322683000.0,
    "retained_earnings": 1018647000.0,
    "total_debt": 6847068000.0,
-   "shares_out": 14804627089.0
+   "shares_out": 14804627089.0,
+   "unusual_items": 4639000.0,
+   "normalized_income": 1015214140.0
   }
  ]
 }

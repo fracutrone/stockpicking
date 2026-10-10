@@ -1,6 +1,6 @@
 {
  "ticker": "ACI",
- "fetched_at": "2026-10-10T12:36:14+00:00",
+ "fetched_at": "2026-10-10T15:33:23+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 275000,
   "website": "https://www.albertsonscompanies.com",
-  "longBusinessSummary": "Albertsons Companies, Inc., through its subsidiaries, operates in the food and drug retail industry in the United States. The company's food and drug retail stores offer grocery products, general merchandise, health and beauty care products, pharmacy, vaccines, fuel, and other items and services. It also operates stores under various banners, including Albertsons, Safeway, Vons, Pavilions, Randalls, Tom Thumb, Carrs, Jewel-Osco, ACME, Shaw's, Star Market, United Supermarkets, Market Street, Haggen, Kings Food Markets, and Balducci's Food Lovers Market; and in-store pharmacies and branded coffee shops, fuel centers, distribution centers, and manufacturing facilities, as well as various digital platforms. Albertsons Companies, Inc. was founded in 1860 and is headquartered in Boise, Idaho."
+  "longBusinessSummary": "Albertsons Companies, Inc., through its subsidiaries, operates in the food and drug retail industry in the United States. The company's food and drug retail stores offer grocery products, general merchandise, health and beauty care products, pharmacy, vaccines, fuel, and other items and services. It also operates stores under various banners, including Albertsons, Safeway, Vons, Pavilions, Randalls, Tom Thumb, Carrs, Jewel-Osco, ACME, Shaw's, Star Market, United Supermarkets, Market Street, Haggen, Kings Food Markets, and Balducci's Food Lovers Market; and in-store pharmacies and branded coffee shops, fuel centers, distribution centers, and manufacturing facilities, as well as various digital platforms. Albertsons Companies, Inc. was founded in 1860 and is headquartered in Boise, Idaho.",
+  "targetMeanPrice": 14.1875,
+  "targetLowPrice": 10.0,
+  "targetHighPrice": 24.0,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.63158,
+  "forwardPE": 6.590471,
+  "forwardEps": 1.84964,
+  "trailingEps": 0.17,
+  "earningsGrowth": -0.585,
+  "revenueGrowth": 0.002
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-02-28",
+  "items": {
+   "total_assets": {
+    "yahoo": 26765900000.0,
+    "official": 26765900000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1836200000.0,
+    "official": 1836200000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 217400000.0,
+    "official": 217400000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 83172500000.0,
+    "official": 83172500000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:33:23+00:00",
  "years": [
   {
    "fy_end": "2020-02-29",
@@ -202,7 +244,10 @@
    "goodwill_and_intangibles": 3666400000.0,
    "retained_earnings": -185000000.0,
    "total_debt": 7834400000.0,
-   "shares_out": 569667655.0
+   "shares_out": 569667655.0,
+   "unusual_items": 147500000.0,
+   "normalized_ebitda": 4704100000.0,
+   "normalized_income": 1398159648.669594
   },
   {
    "fy_end": "2024-02-24",
@@ -236,7 +281,10 @@
    "goodwill_and_intangibles": 3635500000.0,
    "retained_earnings": 828200000.0,
    "total_debt": 7783400000.0,
-   "shares_out": 576047523.0
+   "shares_out": 576047523.0,
+   "unusual_items": -43900000.0,
+   "normalized_ebitda": 4569500000.0,
+   "normalized_income": 1331805160.478288
   },
   {
    "fy_end": "2025-02-22",
@@ -270,7 +318,10 @@
    "goodwill_and_intangibles": 3519000000.0,
    "retained_earnings": 1487900000.0,
    "total_debt": 7762500000.0,
-   "shares_out": 575441992.0
+   "shares_out": 575441992.0,
+   "unusual_items": -95800000.0,
+   "normalized_ebitda": 4178200000.0,
+   "normalized_income": 1039890501.90316
   },
   {
    "fy_end": "2026-02-28",
@@ -304,7 +355,10 @@
    "goodwill_and_intangibles": 3357100000.0,
    "retained_earnings": 1378100000.0,
    "total_debt": 8412600000.0,
-   "shares_out": 499542902.0
+   "shares_out": 499542902.0,
+   "unusual_items": 12200000.0,
+   "normalized_ebitda": 3385500000.0,
+   "normalized_income": 207493600.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "SUBC.OL",
- "fetched_at": "2026-10-10T12:20:59+00:00",
+ "fetched_at": "2026-10-10T15:23:05+00:00",
  "region": "Europa",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "OSL",
   "fullTimeEmployees": 13513,
   "website": "https://www.subsea7.com",
-  "longBusinessSummary": "Subsea 7 S.A. delivers offshore projects and services for the energy industry worldwide. The company offers subsea field development products and services, including project management, design and engineering, procurement, fabrication, survey, installation, and commissioning of production facilities on the seabed and the tie-back of its facilities to fixed or floating platforms or to the shore. It also provides remotely operated vehicles and tooling services to support exploration and production activities and to deliver full life-of-field services; procurement and installation of offshore wind turbine foundations and inter-array cables, as well as heavy lifting operations for renewables structures and heavy transportation services; and engineering and advisory services to clients in the oil and gas, renewables, and utilities industries. In addition, the company offers engineering, procurement, installation, and commissioning of subsea oil and gas systems in deep waters; fabrication, installation, extension, and refurbishment of fixed and floating platforms and associated pipelines in shallow water environments; inspection, and repair and maintenance services, management of subsea infrastructure, and remote intervention support; and carbon capture, utilization, and storage services. The company was incorporated in 1993 and is based in Luxembourg, Luxembourg."
+  "longBusinessSummary": "Subsea 7 S.A. delivers offshore projects and services for the energy industry worldwide. The company offers subsea field development products and services, including project management, design and engineering, procurement, fabrication, survey, installation, and commissioning of production facilities on the seabed and the tie-back of its facilities to fixed or floating platforms or to the shore. It also provides remotely operated vehicles and tooling services to support exploration and production activities and to deliver full life-of-field services; procurement and installation of offshore wind turbine foundations and inter-array cables, as well as heavy lifting operations for renewables structures and heavy transportation services; and engineering and advisory services to clients in the oil and gas, renewables, and utilities industries. In addition, the company offers engineering, procurement, installation, and commissioning of subsea oil and gas systems in deep waters; fabrication, installation, extension, and refurbishment of fixed and floating platforms and associated pipelines in shallow water environments; inspection, and repair and maintenance services, management of subsea infrastructure, and remote intervention support; and carbon capture, utilization, and storage services. The company was incorporated in 1993 and is based in Luxembourg, Luxembourg.",
+  "targetMeanPrice": 362.3288,
+  "targetLowPrice": 240.09149,
+  "targetHighPrice": 451.65027,
+  "numberOfAnalystOpinions": 17,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.41176,
+  "forwardPE": 13.123927,
+  "forwardEps": 25.800205,
+  "trailingEps": 19.38,
+  "earningsGrowth": 0.889,
+  "revenueGrowth": 0.098
  },
  "governance": {
   "ceo": {
@@ -76,8 +87,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF LU",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 7680400000.0,
+    "official": 7680400000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4250400000.0,
+    "official": 4250400000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 201400000.0,
+    "official": 201400000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 6837000000.0,
+    "official": 6837000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T15:23:05+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -111,7 +154,10 @@
    "goodwill_and_intangibles": 222400000.0,
    "retained_earnings": 1739800000.0,
    "total_debt": 613000000.0,
-   "shares_out": 290205733.0
+   "shares_out": 290205733.0,
+   "unusual_items": 10700000.0,
+   "normalized_ebitda": 617500000.0,
+   "normalized_income": 48754000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -145,7 +191,10 @@
    "goodwill_and_intangibles": 250700000.0,
    "retained_earnings": 1780300000.0,
    "total_debt": 1303200000.0,
-   "shares_out": 300454468.0
+   "shares_out": 300454468.0,
+   "unusual_items": 700000.0,
+   "normalized_ebitda": 688500000.0,
+   "normalized_income": 14854000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -179,7 +228,10 @@
    "goodwill_and_intangibles": 271300000.0,
    "retained_earnings": 1824600000.0,
    "total_debt": 1176900000.0,
-   "shares_out": 295613936.0
+   "shares_out": 295613936.0,
+   "unusual_items": -500000.0,
+   "normalized_ebitda": 1090400000.0,
+   "normalized_income": 201790000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -213,7 +265,10 @@
    "goodwill_and_intangibles": 268700000.0,
    "retained_earnings": 1857600000.0,
    "total_debt": 933500000.0,
-   "shares_out": 296136177.0
+   "shares_out": 296136177.0,
+   "unusual_items": -800000.0,
+   "normalized_ebitda": 1377000000.0,
+   "normalized_income": 411920000.0
   }
  ]
 }

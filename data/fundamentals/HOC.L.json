@@ -1,6 +1,6 @@
 {
  "ticker": "HOC.L",
- "fetched_at": "2026-10-10T12:02:02+00:00",
+ "fetched_at": "2026-10-10T14:55:25+00:00",
  "region": "Europa",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 3199,
   "website": "https://www.hochschildmining.com",
-  "longBusinessSummary": "Hochschild Mining plc, a precious metals company, engages in the exploration, mining, processing, and sale of gold and silver deposits. The company's flagship asset includes the 100% owned Inmaculada gold and silver underground mine consisting of 40 mining concessions covering an area of approximately 20,000 hectare located in the Ayacucho Department, southern Peru. It is also involved in the power generation and transmission activities. It serves in Switzerland, Canada, South Korea, Germany, Chile, Finland, the United States, Luxembourg, Bulgaria, Peru, Brazil, and the United Kingdom. The company was founded in 1911 and is based in London, the United Kingdom."
+  "longBusinessSummary": "Hochschild Mining plc, a precious metals company, engages in the exploration, mining, processing, and sale of gold and silver deposits. The company's flagship asset includes the 100% owned Inmaculada gold and silver underground mine consisting of 40 mining concessions covering an area of approximately 20,000 hectare located in the Ayacucho Department, southern Peru. It is also involved in the power generation and transmission activities. It serves in Switzerland, Canada, South Korea, Germany, Chile, Finland, the United States, Luxembourg, Bulgaria, Peru, Brazil, and the United Kingdom. The company was founded in 1911 and is based in London, the United Kingdom.",
+  "targetMeanPrice": 740.88837,
+  "targetLowPrice": 548.88104,
+  "targetHighPrice": 862.5441,
+  "numberOfAnalystOpinions": 11,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.54545,
+  "forwardPE": 8.463075,
+  "forwardEps": 0.616206,
+  "trailingEps": 0.43,
+  "earningsGrowth": 1.056,
+  "revenueGrowth": 0.624
  },
  "governance": {
   "ceo": {
@@ -70,8 +81,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 2159768000.0,
+    "official": 2159768000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 721586000.0,
+    "official": 721586000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 201900000.0,
+    "official": 201900000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1182148000.0,
+    "official": 1182148000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:55:25+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -104,7 +147,10 @@
    "goodwill_and_intangibles": 19328000.0,
    "retained_earnings": 886980000.0,
    "total_debt": 321865000.0,
-   "shares_out": 513875563.0
+   "shares_out": 513875563.0,
+   "unusual_items": 2129000.0,
+   "normalized_ebitda": 175606000.0,
+   "normalized_income": 1236510.0
   },
   {
    "fy_end": "2023-12-31",
@@ -138,7 +184,10 @@
    "goodwill_and_intangibles": 29983000.0,
    "retained_earnings": 834231000.0,
    "total_debt": 351156000.0,
-   "shares_out": 514458432.0
+   "shares_out": 514458432.0,
+   "unusual_items": -91113000.0,
+   "normalized_ebitda": 208495000.0,
+   "normalized_income": 1392947.0
   },
   {
    "fy_end": "2024-12-31",
@@ -172,7 +221,10 @@
    "goodwill_and_intangibles": 49632000.0,
    "retained_earnings": 931236000.0,
    "total_debt": 319305000.0,
-   "shares_out": 514458432.0
+   "shares_out": 514458432.0,
+   "unusual_items": -16134000.0,
+   "normalized_ebitda": 375237000.0,
+   "normalized_income": 107360814.430895
   },
   {
    "fy_end": "2025-12-31",
@@ -206,7 +258,10 @@
    "goodwill_and_intangibles": 66134000.0,
    "retained_earnings": 1127834000.0,
    "total_debt": 348630000.0,
-   "shares_out": 514458432.0
+   "shares_out": 514458432.0,
+   "unusual_items": 36479000.0,
+   "normalized_ebitda": 534721000.0,
+   "normalized_income": 177692927.606592
   }
  ]
 }

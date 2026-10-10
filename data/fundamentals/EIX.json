@@ -1,6 +1,6 @@
 {
  "ticker": "EIX",
- "fetched_at": "2026-10-10T12:44:07+00:00",
+ "fetched_at": "2026-10-10T15:42:32+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 13725,
   "website": "https://www.edison.com",
-  "longBusinessSummary": "Edison International, through its subsidiaries, engages in the generation and distribution of electric power. The company supplies and delivers through its electrical infrastructure to an approximately 50,000 square-mile area of southern, central, and coastal California. It serves residential, commercial, industrial, public authorities, agricultural, street lighting, and other sectors. The company's distribution network consists of approximately 13,000 circuit-miles of lines ranging from 55 kV to 500 kV and approximately 80 transmission substations; and approximately 38,000 circuit-miles of overhead lines, approximately 32,000 circuit-miles of underground lines, and approximately 730 distribution substations. Edison International was founded in 1886 and is based in Rosemead, California."
+  "longBusinessSummary": "Edison International, through its subsidiaries, engages in the generation and distribution of electric power. The company supplies and delivers through its electrical infrastructure to an approximately 50,000 square-mile area of southern, central, and coastal California. It serves residential, commercial, industrial, public authorities, agricultural, street lighting, and other sectors. The company's distribution network consists of approximately 13,000 circuit-miles of lines ranging from 55 kV to 500 kV and approximately 80 transmission substations; and approximately 38,000 circuit-miles of overhead lines, approximately 32,000 circuit-miles of underground lines, and approximately 730 distribution substations. Edison International was founded in 1886 and is based in Rosemead, California.",
+  "targetMeanPrice": 63.85714,
+  "targetLowPrice": 42.0,
+  "targetHighPrice": 86.0,
+  "numberOfAnalystOpinions": 14,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.11765,
+  "forwardPE": 8.503963,
+  "forwardEps": 6.50285,
+  "trailingEps": 9.7,
+  "earningsGrowth": 0.551,
+  "revenueGrowth": -0.041
  },
  "governance": {
   "ceo": {
@@ -82,8 +93,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 94026000000.0,
+    "official": 94026000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 17579000000.0,
+    "official": 17579000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 4701000000.0,
+    "official": 4459000000.0,
+    "diff": 0.054272
+   },
+   "revenue": {
+    "yahoo": 19317000000.0,
+    "official": 19317000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:42:32+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -186,7 +228,10 @@
    "ppe_net": 53486000000.0,
    "retained_earnings": 7454000000.0,
    "total_debt": 31654000000.0,
-   "shares_out": 382208498.0
+   "shares_out": 382208498.0,
+   "unusual_items": 89000000.0,
+   "normalized_ebitda": 4375000000.0,
+   "normalized_income": 753690000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -217,7 +262,10 @@
    "ppe_net": 56084000000.0,
    "retained_earnings": 7499000000.0,
    "total_debt": 34090000000.0,
-   "shares_out": 383924912.0
+   "shares_out": 383924912.0,
+   "unusual_items": 153000000.0,
+   "normalized_ebitda": 5609000000.0,
+   "normalized_income": 1264863000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -248,7 +296,10 @@
    "ppe_net": 59254000000.0,
    "retained_earnings": 7567000000.0,
    "total_debt": 36581000000.0,
-   "shares_out": 384784719.0
+   "shares_out": 384784719.0,
+   "unusual_items": 187000000.0,
+   "normalized_ebitda": 6111000000.0,
+   "normalized_income": 1361057000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -279,7 +330,10 @@
    "ppe_net": 63328000000.0,
    "retained_earnings": 10714000000.0,
    "total_debt": 40388000000.0,
-   "shares_out": 384787056.0
+   "shares_out": 384787056.0,
+   "unusual_items": 2030000000.0,
+   "normalized_ebitda": 8738000000.0,
+   "normalized_income": 3107450000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "PPC",
- "fetched_at": "2026-10-10T12:55:53+00:00",
+ "fetched_at": "2026-10-10T15:53:34+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 63000,
   "website": "https://www.pilgrims.com",
-  "longBusinessSummary": "Pilgrim's Pride Corporation produces, processes, markets, and distributes fresh, frozen, and value-added chicken and pork products to retailers, distributors, and foodservice operators in the United States, Europe, and Mexico. The company offers fresh products, including refrigerated whole or cut-up chicken, selected chicken parts that are either marinated or non-marinated, primary pork cuts, added value pork, pork ribs, and lamb products; and prepared products, which include fully cooked, ready-to-cook and individually frozen chicken parts, strips, nuggets and patties, processed sausages, bacon, smoked meat, gammon joints, pre-packed meats, sandwich and deli counter meats, and meat balls and coated foods. It also provides plant-based protein, ready-to-eat meals, multi-protein frozen food, vegetarian food, and desserts. In addition, its exported products include whole chickens and chicken parts for distributors in the U.S. or frozen for distribution to export markets and primary pork cuts, hog heads, and trotters frozen for distribution. The company offers its products under the Pilgrim's, Just BARE, Gold'n Pump, Gold Kist, County Pride, Pierce Chicken, Pilgrim's Mexico, To-Ricos, Del Dia, Moy Park, Matteson's, Richmond, Fridge Raiders, and Denny brands. It serves chain restaurants, food processors, broad-line distributors, and other institutions; and retail market, such as grocery store chains, wholesale clubs, and other retail distributors. The company was founded in 1946 and is headquartered in Greeley, Colorado. Pilgrim's Pride Corporation operates as a subsidiary of JBS N.V."
+  "longBusinessSummary": "Pilgrim's Pride Corporation produces, processes, markets, and distributes fresh, frozen, and value-added chicken and pork products to retailers, distributors, and foodservice operators in the United States, Europe, and Mexico. The company offers fresh products, including refrigerated whole or cut-up chicken, selected chicken parts that are either marinated or non-marinated, primary pork cuts, added value pork, pork ribs, and lamb products; and prepared products, which include fully cooked, ready-to-cook and individually frozen chicken parts, strips, nuggets and patties, processed sausages, bacon, smoked meat, gammon joints, pre-packed meats, sandwich and deli counter meats, and meat balls and coated foods. It also provides plant-based protein, ready-to-eat meals, multi-protein frozen food, vegetarian food, and desserts. In addition, its exported products include whole chickens and chicken parts for distributors in the U.S. or frozen for distribution to export markets and primary pork cuts, hog heads, and trotters frozen for distribution. The company offers its products under the Pilgrim's, Just BARE, Gold'n Pump, Gold Kist, County Pride, Pierce Chicken, Pilgrim's Mexico, To-Ricos, Del Dia, Moy Park, Matteson's, Richmond, Fridge Raiders, and Denny brands. It serves chain restaurants, food processors, broad-line distributors, and other institutions; and retail market, such as grocery store chains, wholesale clubs, and other retail distributors. The company was founded in 1946 and is headquartered in Greeley, Colorado. Pilgrim's Pride Corporation operates as a subsidiary of JBS N.V.",
+  "targetMeanPrice": 33.28571,
+  "targetLowPrice": 28.0,
+  "targetHighPrice": 42.0,
+  "numberOfAnalystOpinions": 7,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 10.437159,
+  "forwardEps": 2.745,
+  "trailingEps": 2.29,
+  "earningsGrowth": -0.962,
+  "revenueGrowth": -0.028
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 10343530000.0,
+    "official": 10343530000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3680050000.0,
+    "official": 3680050000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1082359000.0,
+    "official": 1082359000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 18497553000.0,
+    "official": 18497553000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:53:34+00:00",
  "years": [
   {
    "fy_end": "2019-12-29",
@@ -201,7 +243,10 @@
    "goodwill_and_intangibles": 2073964000.0,
    "retained_earnings": 1749499000.0,
    "total_debt": 3166432000.0,
-   "shares_out": 236469365.0
+   "shares_out": 236469365.0,
+   "unusual_items": -61283000.0,
+   "normalized_ebitda": 1642538000.0,
+   "normalized_income": 790544024.0
   },
   {
    "fy_end": "2023-12-31",
@@ -236,7 +281,10 @@
    "goodwill_and_intangibles": 2140244000.0,
    "retained_earnings": 2071073000.0,
    "total_debt": 3340841000.0,
-   "shares_out": 236789927.0
+   "shares_out": 236789927.0,
+   "unusual_items": -64915000.0,
+   "normalized_ebitda": 1052309000.0,
+   "normalized_income": 378893945.0
   },
   {
    "fy_end": "2024-12-29",
@@ -271,7 +319,10 @@
    "goodwill_and_intangibles": 2045307000.0,
    "retained_earnings": 3157511000.0,
    "total_debt": 3206113000.0,
-   "shares_out": 237122205.0
+   "shares_out": 237122205.0,
+   "unusual_items": -83363000.0,
+   "normalized_ebitda": 2090429000.0,
+   "normalized_income": 1150627510.0
   },
   {
    "fy_end": "2025-12-28",
@@ -306,7 +357,10 @@
    "goodwill_and_intangibles": 2170950000.0,
    "retained_earnings": 2245523000.0,
    "total_debt": 3093113000.0,
-   "shares_out": 237547447.0
+   "shares_out": 237547447.0,
+   "unusual_items": -38131000.0,
+   "normalized_ebitda": 2157814000.0,
+   "normalized_income": 1109813320.0
   }
  ]
 }

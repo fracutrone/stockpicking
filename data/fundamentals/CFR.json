@@ -1,6 +1,6 @@
 {
  "ticker": "CFR",
- "fetched_at": "2026-10-10T12:40:27+00:00",
+ "fetched_at": "2026-10-10T15:39:19+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 6008,
   "website": "https://www.frostbank.com",
-  "longBusinessSummary": "Cullen/Frost Bankers, Inc. operates as the bank holding company for Frost Bank that provides commercial and consumer banking services in Texas. The company offers commercial banking services to corporations, including financing for industrial and commercial properties, interim construction related to industrial and commercial properties, equipment, inventories and accounts receivables, and acquisitions; and treasury management services. It also provides consumer banking services, such as checking accounts, automated-teller machines (ATMs), overdraft facilities, installment and real estate loans, first mortgage loans, home equity loans and lines of credit, drive-in and night deposit services, safe deposit facilities, and brokerage services. In addition, the company offers international banking services comprising deposits, loans, letters of credit, foreign collections, funds transmitting, and foreign exchange services; correspondent banking activities, including check clearing, transfer of funds, fixed income security services, and securities custody and clearance services. Further, it offers trust, investment, agency, and custodial services for individual and corporate clients; capital market services that include sales and trading, new issue underwriting, money market trading, advisory, and securities safekeeping and clearance; and support for international business activities, including foreign exchange, letters of credit, export-import financing, and other related activities. Additionally, the company offers insurance and securities brokerage services; holding of securities for investment purposes; and investment management services for mutual funds, institutions, and individuals. It serves energy, manufacturing, services, construction, retail, telecommunications, healthcare, military, and transportation industries. Cullen/Frost Bankers, Inc. was founded in 1868 and is headquartered in San Antonio, Texas."
+  "longBusinessSummary": "Cullen/Frost Bankers, Inc. operates as the bank holding company for Frost Bank that provides commercial and consumer banking services in Texas. The company offers commercial banking services to corporations, including financing for industrial and commercial properties, interim construction related to industrial and commercial properties, equipment, inventories and accounts receivables, and acquisitions; and treasury management services. It also provides consumer banking services, such as checking accounts, automated-teller machines (ATMs), overdraft facilities, installment and real estate loans, first mortgage loans, home equity loans and lines of credit, drive-in and night deposit services, safe deposit facilities, and brokerage services. In addition, the company offers international banking services comprising deposits, loans, letters of credit, foreign collections, funds transmitting, and foreign exchange services; correspondent banking activities, including check clearing, transfer of funds, fixed income security services, and securities custody and clearance services. Further, it offers trust, investment, agency, and custodial services for individual and corporate clients; capital market services that include sales and trading, new issue underwriting, money market trading, advisory, and securities safekeeping and clearance; and support for international business activities, including foreign exchange, letters of credit, export-import financing, and other related activities. Additionally, the company offers insurance and securities brokerage services; holding of securities for investment purposes; and investment management services for mutual funds, institutions, and individuals. It serves energy, manufacturing, services, construction, retail, telecommunications, healthcare, military, and transportation industries. Cullen/Frost Bankers, Inc. was founded in 1868 and is headquartered in San Antonio, Texas.",
+  "targetMeanPrice": 173.2857,
+  "targetLowPrice": 145.0,
+  "targetHighPrice": 201.0,
+  "numberOfAnalystOpinions": 14,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.53333,
+  "forwardPE": 12.545971,
+  "forwardEps": 11.97516,
+  "trailingEps": 10.58,
+  "earningsGrowth": 0.128,
+  "revenueGrowth": 0.061
  },
  "governance": {
   "ceo": {
@@ -78,8 +89,37 @@
   "retained_earnings": "sec",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "normalized_income": "yahoo",
   "noninterest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 53041424000.0,
+    "official": 53041424000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4573036000.0,
+    "official": 4573036000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 648557000.0,
+    "official": 648557000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2235244000.0,
+    "official": 2235244000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:39:19+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -172,7 +212,8 @@
    "goodwill_and_intangibles": 655338000.0,
    "retained_earnings": 3309671000.0,
    "total_debt": 222404000.0,
-   "shares_out": 64354695.0
+   "shares_out": 64354695.0,
+   "normalized_income": 579150000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -196,7 +237,8 @@
    "ppe_net": 1190033000.0,
    "retained_earnings": 3657688000.0,
    "total_debt": 222618000.0,
-   "shares_out": 64185287.0
+   "shares_out": 64185287.0,
+   "normalized_income": 597973000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -220,7 +262,8 @@
    "ppe_net": 1245377000.0,
    "retained_earnings": 3951482000.0,
    "total_debt": 222832000.0,
-   "shares_out": 64197432.0
+   "shares_out": 64197432.0,
+   "normalized_income": 582542000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -244,7 +287,8 @@
    "ppe_net": 1313225000.0,
    "retained_earnings": 4309171000.0,
    "total_debt": 223046000.0,
-   "shares_out": 63287188.0
+   "shares_out": 63287188.0,
+   "normalized_income": 648557000.0
   }
  ]
 }

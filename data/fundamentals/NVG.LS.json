@@ -1,6 +1,6 @@
 {
  "ticker": "NVG.LS",
- "fetched_at": "2026-10-10T12:11:51+00:00",
+ "fetched_at": "2026-10-10T15:09:23+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LIS",
   "fullTimeEmployees": 3932,
   "website": "https://www.thenavigatorcompany.com",
-  "longBusinessSummary": "The Navigator Company, S.A. engages in the production of forestry, pulp, paper, tissue, and packaging solutions worldwide. The company operates through Market Folder, UWF Paper, Tissue Paper, and Energy segments. It is involved in the production of pulp, printing, and writing papers under the Navigator, Pioneer, and Inacopia brands; production of tissue under the Amoos brand; provision of packaging solutions under the gKraft brand; research, acquisition, and sale of wood; production of bleached eucalyptus pulp; and production and commercialization of thermal and electrical energy. The company was formerly known as Portucel, S.A. and changed its name to The Navigator Company, S.A. in February 2016. The company was founded in 1953 and is headquartered in Setúbal, Portugal. The Navigator Company, S.A. operates as a subsidiary of Semapa - Sociedade de Investimento e Gestão, SGPS, S.A."
+  "longBusinessSummary": "The Navigator Company, S.A. engages in the production of forestry, pulp, paper, tissue, and packaging solutions worldwide. The company operates through Market Folder, UWF Paper, Tissue Paper, and Energy segments. It is involved in the production of pulp, printing, and writing papers under the Navigator, Pioneer, and Inacopia brands; production of tissue under the Amoos brand; provision of packaging solutions under the gKraft brand; research, acquisition, and sale of wood; production of bleached eucalyptus pulp; and production and commercialization of thermal and electrical energy. The company was formerly known as Portucel, S.A. and changed its name to The Navigator Company, S.A. in February 2016. The company was founded in 1953 and is headquartered in Setúbal, Portugal. The Navigator Company, S.A. operates as a subsidiary of Semapa - Sociedade de Investimento e Gestão, SGPS, S.A.",
+  "targetMeanPrice": 3.85,
+  "targetLowPrice": 3.5,
+  "targetHighPrice": 4.2,
+  "numberOfAnalystOpinions": 4,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.25,
+  "forwardPE": 10.70316,
+  "forwardEps": 0.28571,
+  "trailingEps": 0.15,
+  "earningsGrowth": -0.136,
+  "revenueGrowth": -0.106
  },
  "governance": {
   "ceo": {
@@ -68,8 +79,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF PT",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3353183064.0,
+    "official": 3353183064.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1355728837.0,
+    "official": 1355728837.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 286948195.0,
+    "official": 286948195.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2088276553.0,
+    "official": 2088276553.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T15:09:23+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -101,7 +144,10 @@
    "goodwill_and_intangibles": 422595593.0,
    "retained_earnings": 616586989.0,
    "total_debt": 786942771.0,
-   "shares_out": 711183069.0
+   "shares_out": 711183069.0,
+   "unusual_items": -19169490.0,
+   "normalized_ebitda": 713751069.0,
+   "normalized_income": 407105882.4
   },
   {
    "fy_end": "2023-12-31",
@@ -133,7 +179,10 @@
    "goodwill_and_intangibles": 427786849.0,
    "retained_earnings": 693557011.0,
    "total_debt": 729341284.0,
-   "shares_out": 711183069.0
+   "shares_out": 711183069.0,
+   "unusual_items": 9005413.0,
+   "normalized_ebitda": 504519117.0,
+   "normalized_income": 267791532.904
   },
   {
    "fy_end": "2024-12-31",
@@ -165,7 +214,10 @@
    "goodwill_and_intangibles": 542235251.0,
    "retained_earnings": 835848263.0,
    "total_debt": 1015714652.0,
-   "shares_out": 711183069.0
+   "shares_out": 711183069.0,
+   "unusual_items": 6948557.0,
+   "normalized_ebitda": 542669270.0,
+   "normalized_income": 281299596.103018
   },
   {
    "fy_end": "2025-12-31",
@@ -197,7 +249,10 @@
    "goodwill_and_intangibles": 528218508.0,
    "retained_earnings": 812059373.0,
    "total_debt": 966388007.0,
-   "shares_out": 711183069.0
+   "shares_out": 711183069.0,
+   "unusual_items": 8644837.0,
+   "normalized_ebitda": 372988852.0,
+   "normalized_income": 137552734.149
   }
  ]
 }

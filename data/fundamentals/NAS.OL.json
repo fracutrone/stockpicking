@@ -1,6 +1,6 @@
 {
  "ticker": "NAS.OL",
- "fetched_at": "2026-10-10T12:10:26+00:00",
+ "fetched_at": "2026-10-10T15:07:13+00:00",
  "region": "Europa",
  "statement_currency": "NOK",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "OSL",
   "fullTimeEmployees": 6352,
   "website": "https://www.norwegian.com",
-  "longBusinessSummary": "Norwegian Air Shuttle ASA, together with its subsidiaries, provides air travel services in Norway and internationally. It is also involved in aircraft financing, leasing, and ownership, as well as cargo and other activities. The company was founded in 1993 and is headquartered in Fornebu, Norway."
+  "longBusinessSummary": "Norwegian Air Shuttle ASA, together with its subsidiaries, provides air travel services in Norway and internationally. It is also involved in aircraft financing, leasing, and ownership, as well as cargo and other activities. The company was founded in 1993 and is headquartered in Fornebu, Norway.",
+  "targetMeanPrice": 14.33333,
+  "targetLowPrice": 11.5,
+  "targetHighPrice": 18.0,
+  "numberOfAnalystOpinions": 6,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.83333,
+  "forwardPE": 5.796403,
+  "forwardEps": 1.90808,
+  "trailingEps": 1.52,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.012
  },
  "governance": {
   "ceo": {
@@ -71,8 +82,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF NO",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 37600000000.0,
+    "official": 37600100000.0,
+    "diff": 3e-06
+   },
+   "equity": {
+    "yahoo": 7241000000.0,
+    "official": 7240700000.0,
+    "diff": 4.1e-05
+   },
+   "net_income": {
+    "yahoo": 1355000000.0,
+    "official": 1355100000.0,
+    "diff": 7.4e-05
+   },
+   "revenue": {
+    "yahoo": 35316000000.0,
+    "official": 35316800000.0,
+    "diff": 2.3e-05
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T15:07:13+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -106,7 +149,10 @@
    "goodwill_and_intangibles": 189100000.0,
    "retained_earnings": -24117100000.0,
    "total_debt": 10085100000.0,
-   "shares_out": 929852147.0
+   "shares_out": 929852147.0,
+   "unusual_items": 2164900000.0,
+   "normalized_ebitda": 2043200000.0,
+   "normalized_income": -1074968900.0
   },
   {
    "fy_end": "2023-12-31",
@@ -140,7 +186,10 @@
    "goodwill_and_intangibles": 261000000.0,
    "retained_earnings": -22526900000.0,
    "total_debt": 14027400000.0,
-   "shares_out": 961769221.0
+   "shares_out": 961769221.0,
+   "unusual_items": 7100000.0,
+   "normalized_ebitda": 6178600000.0,
+   "normalized_income": 1730062700.0
   },
   {
    "fy_end": "2024-12-31",
@@ -175,7 +224,10 @@
    "goodwill_and_intangibles": 587000000.0,
    "retained_earnings": -21359000000.0,
    "total_debt": 16077000000.0,
-   "shares_out": 963878777.0
+   "shares_out": 963878777.0,
+   "unusual_items": 2000000.0,
+   "normalized_ebitda": 7295000000.0,
+   "normalized_income": 1353000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -210,7 +262,10 @@
    "goodwill_and_intangibles": 566000000.0,
    "retained_earnings": -18892000000.0,
    "total_debt": 19551000000.0,
-   "shares_out": 1052237234.0
+   "shares_out": 1052237234.0,
+   "unusual_items": 21000000.0,
+   "normalized_ebitda": 8497000000.0,
+   "normalized_income": 2689142000.0
   }
  ]
 }

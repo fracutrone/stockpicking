@@ -1,6 +1,6 @@
 {
  "ticker": "LITE",
- "fetched_at": "2026-10-10T12:50:33+00:00",
+ "fetched_at": "2026-10-10T15:48:48+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 13757,
   "website": "https://www.lumentum.com",
-  "longBusinessSummary": "Lumentum Holdings Inc. manufactures and sells optical and photonic products in the Americas, the Asia-Pacific, Europe, the Middle East, and Africa. It offers component products, including semiconductor laser chips, laser sub-assemblies, line subsystems, and wavelength management systems. The company also offers system products, such as optical modules, optical circuit switches, and industrial lasers, including short-pulse solid-state lasers and kilowatt-class fiber lasers. Its products and solutions are used in cloud, artificial intelligence and machine learning (AI/ML), telecommunications, consumer, and industrial end-market applications. The company was incorporated in 2015 and is headquartered in San Jose, California."
+  "longBusinessSummary": "Lumentum Holdings Inc. manufactures and sells optical and photonic products in the Americas, the Asia-Pacific, Europe, the Middle East, and Africa. It offers component products, including semiconductor laser chips, laser sub-assemblies, line subsystems, and wavelength management systems. The company also offers system products, such as optical modules, optical circuit switches, and industrial lasers, including short-pulse solid-state lasers and kilowatt-class fiber lasers. Its products and solutions are used in cloud, artificial intelligence and machine learning (AI/ML), telecommunications, consumer, and industrial end-market applications. The company was incorporated in 2015 and is headquartered in San Jose, California.",
+  "targetMeanPrice": 1161.9557,
+  "targetLowPrice": 820.0,
+  "targetHighPrice": 1400.0,
+  "numberOfAnalystOpinions": 26,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.5,
+  "forwardPE": 31.022667,
+  "forwardEps": 35.56593,
+  "trailingEps": -92.96,
+  "earningsGrowth": null,
+  "revenueGrowth": 1.093
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-06-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 7307500000.0,
+    "official": 7307500000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4643900000.0,
+    "official": 4643900000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -6935100000.0,
+    "official": -6935100000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3014000000.0,
+    "official": 3014000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:48:48+00:00",
  "years": [
   {
    "fy_end": "2020-06-27",
@@ -198,7 +240,10 @@
    "intangibles": 459200000.0,
    "goodwill_and_intangibles": 1154300000.0,
    "retained_earnings": -340600000.0,
-   "shares_out": 66400000.0
+   "shares_out": 66400000.0,
+   "unusual_items": -21100000.0,
+   "normalized_ebitda": 209800000.0,
+   "normalized_income": -114931000.0
   },
   {
    "fy_end": "2024-06-29",
@@ -233,7 +278,10 @@
    "goodwill_and_intangibles": 1673300000.0,
    "retained_earnings": -887100000.0,
    "total_debt": 2503200000.0,
-   "shares_out": 67900000.0
+   "shares_out": 67900000.0,
+   "unusual_items": -71800000.0,
+   "normalized_ebitda": -9800000.0,
+   "normalized_income": -489778000.0
   },
   {
    "fy_end": "2025-06-28",
@@ -268,7 +316,10 @@
    "goodwill_and_intangibles": 1526000000.0,
    "retained_earnings": -861200000.0,
    "total_debt": 2583800000.0,
-   "shares_out": 69800000.0
+   "shares_out": 69800000.0,
+   "unusual_items": 7900000.0,
+   "normalized_ebitda": 98900000.0,
+   "normalized_income": 19659000.0
   },
   {
    "fy_end": "2026-06-27",
@@ -303,7 +354,10 @@
    "goodwill_and_intangibles": 1396200000.0,
    "retained_earnings": -7796300000.0,
    "total_debt": 3234300000.0,
-   "shares_out": 88600000.0
+   "shares_out": 88600000.0,
+   "unusual_items": -7741000000.0,
+   "normalized_ebitda": 857000000.0,
+   "normalized_income": 558188000.0
   }
  ]
 }

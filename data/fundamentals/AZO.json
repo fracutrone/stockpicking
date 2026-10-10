@@ -1,6 +1,6 @@
 {
  "ticker": "AZO",
- "fetched_at": "2026-10-10T12:38:30+00:00",
+ "fetched_at": "2026-10-10T15:35:55+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": null,
   "website": "https://www.autozone.com",
-  "longBusinessSummary": "AutoZone, Inc. operates as a retailer and distributor of automotive replacement parts and accessories in the United States, Mexico, and Brazil. The company offers a product line for cars, sport utility vehicles, vans, and light duty trucks, including new and remanufactured automotive hard parts, maintenance items, accessories, and non-automotive products. It also provides A/C compressors, batteries and accessories, bearings, belts and hoses, calipers, chassis, clutches, CV axles, engines, fuel pumps, fuses, ignition and lighting products, mufflers, radiators, starters and alternators, thermostats, and water pumps, as well as tire repairs. In addition, the company provides maintenance products, such as antifreeze and windshield washer fluids; brake drums, rotors, shoes, and pads; brake and power steering fluids, and oil and fuel additives; oil and transmission fluids; oil, cabin, air, fuel, and transmission filters; oxygen sensors; paints and accessories; refrigerants and accessories; shock absorbers and struts; spark plugs and wires; and windshield wipers. Further, it offers air fresheners, cell phone accessories, drinks and snacks, floor mats and seat covers, interior and exterior accessories, mirrors, performance products, protectants and cleaners, sealants and adhesives, steering wheel covers, tools, vehicle entertainment systems, and wash and wax products, as well as towing services. Additionally, the company provides a sales program that offers commercial credit and delivery of parts and other products; sells automotive diagnostic, repair, collision, and shop management information software under the ALLDATA brand through alldata.com; Duralast branded products through duralastparts.com; and automotive hard parts, maintenance items, accessories, and non-automotive products through autozone.com. AutoZone, Inc. was founded in 1979 and is headquartered in Memphis, Tennessee."
+  "longBusinessSummary": "AutoZone, Inc. operates as a retailer and distributor of automotive replacement parts and accessories in the United States, Mexico, and Brazil. The company offers a product line for cars, sport utility vehicles, vans, and light duty trucks, including new and remanufactured automotive hard parts, maintenance items, accessories, and non-automotive products. It also provides A/C compressors, batteries and accessories, bearings, belts and hoses, calipers, chassis, clutches, CV axles, engines, fuel pumps, fuses, ignition and lighting products, mufflers, radiators, starters and alternators, thermostats, and water pumps, as well as tire repairs. In addition, the company provides maintenance products, such as antifreeze and windshield washer fluids; brake drums, rotors, shoes, and pads; brake and power steering fluids, and oil and fuel additives; oil and transmission fluids; oil, cabin, air, fuel, and transmission filters; oxygen sensors; paints and accessories; refrigerants and accessories; shock absorbers and struts; spark plugs and wires; and windshield wipers. Further, it offers air fresheners, cell phone accessories, drinks and snacks, floor mats and seat covers, interior and exterior accessories, mirrors, performance products, protectants and cleaners, sealants and adhesives, steering wheel covers, tools, vehicle entertainment systems, and wash and wax products, as well as towing services. Additionally, the company provides a sales program that offers commercial credit and delivery of parts and other products; sells automotive diagnostic, repair, collision, and shop management information software under the ALLDATA brand through alldata.com; Duralast branded products through duralastparts.com; and automotive hard parts, maintenance items, accessories, and non-automotive products through autozone.com. AutoZone, Inc. was founded in 1979 and is headquartered in Memphis, Tennessee.",
+  "targetMeanPrice": 3719.9565,
+  "targetLowPrice": 3000.0,
+  "targetHighPrice": 4800.0,
+  "numberOfAnalystOpinions": 23,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.48148,
+  "forwardPE": 15.282175,
+  "forwardEps": 192.37119,
+  "trailingEps": 152.55,
+  "earningsGrowth": 0.15,
+  "revenueGrowth": 0.056
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,38 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "intangibles": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-08-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 19355324000.0,
+    "official": 19355324000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": -3414313000.0,
+    "official": -3414313000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2498247000.0,
+    "official": 2498247000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 18938717000.0,
+    "official": 18938717000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:35:55+00:00",
  "years": [
   {
    "fy_end": "2019-08-31",
@@ -198,7 +239,9 @@
    "goodwill_and_intangibles": 302645000.0,
    "retained_earnings": -1330067000.0,
    "total_debt": 6122092000.0,
-   "shares_out": 19126000.0
+   "shares_out": 19126000.0,
+   "normalized_ebitda": 3719000000.0,
+   "normalized_income": 2429604000.0
   },
   {
    "fy_end": "2023-08-26",
@@ -231,7 +274,9 @@
    "goodwill_and_intangibles": 302645000.0,
    "retained_earnings": -2959278000.0,
    "total_debt": 7668549000.0,
-   "shares_out": 17857000.0
+   "shares_out": 17857000.0,
+   "normalized_ebitda": 3983617000.0,
+   "normalized_income": 2528426000.0
   },
   {
    "fy_end": "2024-08-31",
@@ -264,7 +309,9 @@
    "goodwill_and_intangibles": 302645000.0,
    "retained_earnings": -4424982000.0,
    "total_debt": 9024381000.0,
-   "shares_out": 16926000.0
+   "shares_out": 16926000.0,
+   "normalized_ebitda": 4349775000.0,
+   "normalized_income": 2662427000.0
   },
   {
    "fy_end": "2025-08-30",
@@ -297,7 +344,9 @@
    "goodwill_and_intangibles": 302645000.0,
    "retained_earnings": -3975852000.0,
    "total_debt": 8799775000.0,
-   "shares_out": 16665000.0
+   "shares_out": 16665000.0,
+   "normalized_ebitda": 4234327000.0,
+   "normalized_income": 2498247000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "BDC",
- "fetched_at": "2026-10-10T12:38:47+00:00",
+ "fetched_at": "2026-10-10T15:37:25+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 8000,
   "website": "https://www.belden.com",
-  "longBusinessSummary": "Belden Inc. provides connection solutions to bring data infrastructure into alignment to unlock new possibilities for its customers. The company provides copper cable and connectivity solutions, fiber cable and connectivity solutions, interconnect panels, racks and enclosures, and signal extension and matrix switching systems for use in local area networks, data centers, access control, 5G, fiber to the home, and building automation applications. It also provides power, cooling, and airflow management products for mission-critical data center operations; and end-to-end fiber and copper network systems. It also serves commercial real estate, education, financial institutions, stadiums and venues, military installations, and broadband and wireless service providers, as well as data centers, government, healthcare, and hospitality sectors. In addition, the company offers network digitization and automation solutions; and products and solutions covering various aspects of data handling, including acquisition, transmission, orchestration, and management for applications in discrete automation, process automation, energy, and mass transit. It sells its products to distributors, end-users, installers, and original equipment manufacturers (OEMs). It operates in the Americas, Europe, the Middle East, Africa, and the Asia-Pacific. The company was formerly known as Belden CDT Inc. and changed its name to Belden Inc. in May 2007. Belden Inc. was founded in 1902 and is headquartered in Saint Louis, Missouri."
+  "longBusinessSummary": "Belden Inc. provides connection solutions to bring data infrastructure into alignment to unlock new possibilities for its customers. The company provides copper cable and connectivity solutions, fiber cable and connectivity solutions, interconnect panels, racks and enclosures, and signal extension and matrix switching systems for use in local area networks, data centers, access control, 5G, fiber to the home, and building automation applications. It also provides power, cooling, and airflow management products for mission-critical data center operations; and end-to-end fiber and copper network systems. It also serves commercial real estate, education, financial institutions, stadiums and venues, military installations, and broadband and wireless service providers, as well as data centers, government, healthcare, and hospitality sectors. In addition, the company offers network digitization and automation solutions; and products and solutions covering various aspects of data handling, including acquisition, transmission, orchestration, and management for applications in discrete automation, process automation, energy, and mass transit. It sells its products to distributors, end-users, installers, and original equipment manufacturers (OEMs). It operates in the Americas, Europe, the Middle East, Africa, and the Asia-Pacific. The company was formerly known as Belden CDT Inc. and changed its name to Belden Inc. in May 2007. Belden Inc. was founded in 1902 and is headquartered in Saint Louis, Missouri.",
+  "targetMeanPrice": 153.2,
+  "targetLowPrice": 140.0,
+  "targetHighPrice": 170.0,
+  "numberOfAnalystOpinions": 5,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 10.877018,
+  "forwardEps": 10.03492,
+  "trailingEps": 6.15,
+  "earningsGrowth": 0.137,
+  "revenueGrowth": 0.116
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3543621000.0,
+    "official": 3543621000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1264424000.0,
+    "official": 1264424000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 237522000.0,
+    "official": 237522000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2715194000.0,
+    "official": 2715194000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:37:25+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -200,7 +242,10 @@
    "goodwill_and_intangibles": 1109083000.0,
    "retained_earnings": 751522000.0,
    "total_debt": 1161176000.0,
-   "shares_out": 42833000.0
+   "shares_out": 42833000.0,
+   "unusual_items": 31499000.0,
+   "normalized_ebitda": 418186000.0,
+   "normalized_income": 241003844.0
   },
   {
    "fy_end": "2023-12-31",
@@ -234,7 +279,10 @@
    "goodwill_and_intangibles": 1176475000.0,
    "retained_earnings": 985807000.0,
    "total_debt": 1204211000.0,
-   "shares_out": 41127000.0
+   "shares_out": 41127000.0,
+   "unusual_items": 12056000.0,
+   "normalized_ebitda": 406771000.0,
+   "normalized_income": 232523456.0
   },
   {
    "fy_end": "2024-12-31",
@@ -268,7 +316,10 @@
    "goodwill_and_intangibles": 1437751000.0,
    "retained_earnings": 1176036000.0,
    "total_debt": 1130101000.0,
-   "shares_out": 40211000.0
+   "shares_out": 40211000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 381986000.0,
+   "normalized_income": 198433000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -302,7 +353,10 @@
    "goodwill_and_intangibles": 1436620000.0,
    "retained_earnings": 1405572000.0,
    "total_debt": 1285666000.0,
-   "shares_out": 38947000.0
+   "shares_out": 38947000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 442654000.0,
+   "normalized_income": 237522000.0
   }
  ]
 }

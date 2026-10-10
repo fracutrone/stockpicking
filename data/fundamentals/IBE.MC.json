@@ -1,6 +1,6 @@
 {
  "ticker": "IBE.MC",
- "fetched_at": "2026-10-10T12:02:57+00:00",
+ "fetched_at": "2026-10-10T14:56:45+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.0024,
   "heldPercentInstitutions": 0.44868,
   "shortPercentOfFloat": null,
-  "averageVolume": 7768172,
+  "averageVolume": 7815070,
   "quoteType": "EQUITY",
   "exchange": "MCE",
   "fullTimeEmployees": 44573,
   "website": "https://www.iberdrola.com",
-  "longBusinessSummary": "Iberdrola, S.A. engages in the generation, production, transmission, distribution, and supply of electricity in Spain, the United Kingdom, the United States, Mexico, Brazil, Germany, France, and Australia. It generates electricity from renewable sources, such as onshore and offshore wind, photovoltaic, hydro, other energy sources, conventional nuclear, and combined cycle plants, as well as through batteries. The company is involved in the purchase and sale of electricity and gas on wholesale markets; energy retail supply activities, such as gas and electricity, and other products and services, including hydrogen, as well as non-renewable generation; and production of green hydrogen. It has a total installed capacity of 46,177 MW. In addition, the company offers heat pumps, self-consumption, solar, electric mobility, solar, etc. services to residential customers; and management of energy facilities, as well as supplies green H2, industrial heat, etc. to industrial customers. Iberdrola, S.A. was founded in 1840 and is headquartered in Bilbao, Spain."
+  "longBusinessSummary": "Iberdrola, S.A. engages in the generation, production, transmission, distribution, and supply of electricity in Spain, the United Kingdom, the United States, Mexico, Brazil, Germany, France, and Australia. It generates electricity from renewable sources, such as onshore and offshore wind, photovoltaic, hydro, other energy sources, conventional nuclear, and combined cycle plants, as well as through batteries. The company is involved in the purchase and sale of electricity and gas on wholesale markets; energy retail supply activities, such as gas and electricity, and other products and services, including hydrogen, as well as non-renewable generation; and production of green hydrogen. It has a total installed capacity of 46,177 MW. In addition, the company offers heat pumps, self-consumption, solar, electric mobility, solar, etc. services to residential customers; and management of energy facilities, as well as supplies green H2, industrial heat, etc. to industrial customers. Iberdrola, S.A. was founded in 1840 and is headquartered in Bilbao, Spain.",
+  "targetMeanPrice": 21.03,
+  "targetLowPrice": 18.0,
+  "targetHighPrice": 25.0,
+  "numberOfAnalystOpinions": 23,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.52174,
+  "forwardPE": 19.282923,
+  "forwardEps": 1.10253,
+  "trailingEps": 0.76,
+  "earningsGrowth": 0.683,
+  "revenueGrowth": 0.098
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF ES",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 158293000000.0,
+    "official": 158293000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 47125000000.0,
+    "official": 47125000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 5612000000.0,
+    "official": 5612000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 42988000000.0,
+    "official": 44739000000.0,
+    "diff": 0.039138
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T14:56:45+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -121,7 +164,10 @@
    "goodwill_and_intangibles": 20118000000.0,
    "retained_earnings": 24649000000.0,
    "total_debt": 50418000000.0,
-   "shares_out": 6182381442.0
+   "shares_out": 6182381442.0,
+   "unusual_items": -696000000.0,
+   "normalized_ebitda": 14178000000.0,
+   "normalized_income": 4977574062.301335
   },
   {
    "fy_end": "2023-12-31",
@@ -156,7 +202,10 @@
    "goodwill_and_intangibles": 20255000000.0,
    "retained_earnings": 25964000000.0,
    "total_debt": 61646000000.0,
-   "shares_out": 6219353930.0
+   "shares_out": 6219353930.0,
+   "unusual_items": -842000000.0,
+   "normalized_ebitda": 15748000000.0,
+   "normalized_income": 5480254800.0
   },
   {
    "fy_end": "2024-12-31",
@@ -190,7 +239,10 @@
    "goodwill_and_intangibles": 20255000000.0,
    "retained_earnings": 28687000000.0,
    "total_debt": 57731000000.0,
-   "shares_out": 6273874902.0
+   "shares_out": 6273874902.0,
+   "unusual_items": -2061000000.0,
+   "normalized_ebitda": 17253000000.0,
+   "normalized_income": 5680811000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -224,7 +276,10 @@
    "goodwill_and_intangibles": 22240000000.0,
    "retained_earnings": 31782000000.0,
    "total_debt": 57231000000.0,
-   "shares_out": 6597551694.0
+   "shares_out": 6597551694.0,
+   "unusual_items": -547000000.0,
+   "normalized_ebitda": 17310000000.0,
+   "normalized_income": 6334969600.0
   }
  ]
 }

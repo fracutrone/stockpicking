@@ -1,6 +1,6 @@
 {
  "ticker": "NAIT.L",
- "fetched_at": "2026-10-10T12:10:23+00:00",
+ "fetched_at": "2026-10-10T15:07:06+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -49,8 +60,15 @@
   "equity": "yahoo",
   "receivables": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T15:07:06+00:00",
  "years": [
   {
    "fy_end": "2023-01-31",
@@ -70,7 +88,8 @@
    "equity": 472891000.0,
    "receivables": 1891000.0,
    "total_debt": 40543000.0,
-   "shares_out": 140234749.0
+   "shares_out": 140234749.0,
+   "normalized_income": 41818000.0
   },
   {
    "fy_end": "2024-01-31",
@@ -90,7 +109,8 @@
    "equity": 436479000.0,
    "receivables": 105000.0,
    "total_debt": 39198000.0,
-   "shares_out": 137352347.0
+   "shares_out": 137352347.0,
+   "normalized_income": -9173000.0
   },
   {
    "fy_end": "2025-01-31",
@@ -110,7 +130,8 @@
    "equity": 467835000.0,
    "receivables": 2975000.0,
    "total_debt": 40184000.0,
-   "shares_out": 123361687.0
+   "shares_out": 123361687.0,
+   "normalized_income": 90744000.0
   },
   {
    "fy_end": "2026-01-31",
@@ -130,7 +151,8 @@
    "equity": 458335000.0,
    "receivables": 6000000.0,
    "total_debt": 36386000.0,
-   "shares_out": 114734371.0
+   "shares_out": 114734371.0,
+   "normalized_income": 34763000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "DSFIR.AS",
- "fetched_at": "2026-10-10T11:54:48+00:00",
+ "fetched_at": "2026-10-10T14:43:38+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "AMS",
   "fullTimeEmployees": 20786,
   "website": "https://www.dsm-firmenich.com",
-  "longBusinessSummary": "DSM-Firmenich AG provides nutrition, health, and beauty solutions in Switzerland, the Netherlands, rest of Europe, the Middle East and Africa, North America, Latin America, China, and rest of Asia. The company operates through Perfumery & Beauty; Taste, Texture & Health; and Health, Nutrition & Care segments. The Perfumery & Beauty creates scents using natural, synthetic, and biotech ingredients. The Taste, Texture & Health segment provides food and beverages solutions, including flavors, natural extracts, and sugar reduction; and food enzymes, hydrocolloids, cultures, natural colorants, nutritional ingredients, and plant-based proteins. The Health, Nutrition & Care segment provides solutions for the early life nutrition, dietary supplement, pharmaceutical, medical nutrition, biomedical materials, and nutrition improvement markets. This segment also offers vitamins, nutritional lipids, minerals, carotenoids, botanical nutraceuticals, digestive enzymes, postbiotics, probiotics and prebiotics, and active pharmaceutical ingredients; biomedical solutions; and premix, market-ready, and personalized nutrition solutions, as well as expert services in regulatory affairs and nutrition. DSM-Firmenich AG was founded in 1902 and is based in Kaiseraugst, Switzerland."
+  "longBusinessSummary": "DSM-Firmenich AG provides nutrition, health, and beauty solutions in Switzerland, the Netherlands, rest of Europe, the Middle East and Africa, North America, Latin America, China, and rest of Asia. The company operates through Perfumery & Beauty; Taste, Texture & Health; and Health, Nutrition & Care segments. The Perfumery & Beauty creates scents using natural, synthetic, and biotech ingredients. The Taste, Texture & Health segment provides food and beverages solutions, including flavors, natural extracts, and sugar reduction; and food enzymes, hydrocolloids, cultures, natural colorants, nutritional ingredients, and plant-based proteins. The Health, Nutrition & Care segment provides solutions for the early life nutrition, dietary supplement, pharmaceutical, medical nutrition, biomedical materials, and nutrition improvement markets. This segment also offers vitamins, nutritional lipids, minerals, carotenoids, botanical nutraceuticals, digestive enzymes, postbiotics, probiotics and prebiotics, and active pharmaceutical ingredients; biomedical solutions; and premix, market-ready, and personalized nutrition solutions, as well as expert services in regulatory affairs and nutrition. DSM-Firmenich AG was founded in 1902 and is based in Kaiseraugst, Switzerland.",
+  "targetMeanPrice": 96.02,
+  "targetLowPrice": 68.0,
+  "targetHighPrice": 117.0,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.1,
+  "forwardPE": 24.319937,
+  "forwardEps": 4.13858,
+  "trailingEps": -5.36,
+  "earningsGrowth": -0.562,
+  "revenueGrowth": 0.005
  },
  "governance": {
   "ceo": {
@@ -81,8 +92,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF NL",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 33747000000.0,
+    "official": 33747000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 22511000000.0,
+    "official": 22511000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 250000000.0,
+    "official": 280000000.0,
+    "diff": 0.107143
+   },
+   "revenue": {
+    "yahoo": 9054000000.0,
+    "official": 12799000000.0,
+    "diff": 0.292601
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T14:43:38+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -117,7 +160,10 @@
    "goodwill_and_intangibles": 5147000000.0,
    "retained_earnings": 9777000000.0,
    "total_debt": 3064000000.0,
-   "shares_out": 150742711.0
+   "shares_out": 150742711.0,
+   "unusual_items": 68000000.0,
+   "normalized_ebitda": 1308000000.0,
+   "normalized_income": 406280000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -152,7 +198,10 @@
    "goodwill_and_intangibles": 18738000000.0,
    "retained_earnings": 10744000000.0,
    "total_debt": 4830000000.0,
-   "shares_out": 265283816.0
+   "shares_out": 265283816.0,
+   "unusual_items": 14000000.0,
+   "normalized_ebitda": 487000000.0,
+   "normalized_income": -665608000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -187,7 +236,10 @@
    "goodwill_and_intangibles": 18078000000.0,
    "retained_earnings": 10632000000.0,
    "total_debt": 5280000000.0,
-   "shares_out": 265272203.0
+   "shares_out": 265272203.0,
+   "unusual_items": 19000000.0,
+   "normalized_ebitda": 1755000000.0,
+   "normalized_income": 312874704.491726
   },
   {
    "fy_end": "2025-12-31",
@@ -222,7 +274,10 @@
    "goodwill_and_intangibles": 15384000000.0,
    "retained_earnings": 8406000000.0,
    "total_debt": 5277000000.0,
-   "shares_out": 251530397.0
+   "shares_out": 251530397.0,
+   "unusual_items": 91000000.0,
+   "normalized_ebitda": 3758000000.0,
+   "normalized_income": 227928000.0
   }
  ]
 }

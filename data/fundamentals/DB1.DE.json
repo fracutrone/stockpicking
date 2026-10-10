@@ -1,6 +1,6 @@
 {
  "ticker": "DB1.DE",
- "fetched_at": "2026-10-10T11:53:41+00:00",
+ "fetched_at": "2026-10-10T14:41:57+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "GER",
   "fullTimeEmployees": 17120,
   "website": "https://deutsche-boerse.com/dbg-de/",
-  "longBusinessSummary": "Deutsche Börse AG operates as an international exchange organization in Germany, rest of Europe, the United States, and the Asia-Pacific. The company operates through four segments: Investment Management Solutions, Trading & Clearing, Fund Services, and Securities Services. The Investment Management Solutions segment offers financial data, analytics, and software-as-a-service solutions including research, data collection, data analysis, and the provision of indices, analytics and investment management software to institutional investors, banks, and corporate clients. The Trading & Clearing segment engages in the development and operation of markets and trading systems for securities, derivatives, commodities, currencies, digital assets, and other asset classes. This segment handles settlement of transactions through clearing houses. Its Fund Services segment provides infrastructure and services for fund processing, including order routing, settlement, custody, data and distribution support for investment funds. The Securities Services segment offers various services for securities issuance, settlement, custody as well as collateral, securities lending, and liquidity management. The company was founded in 1585 and is headquartered in Eschborn, Germany."
+  "longBusinessSummary": "Deutsche Börse AG operates as an international exchange organization in Germany, rest of Europe, the United States, and the Asia-Pacific. The company operates through four segments: Investment Management Solutions, Trading & Clearing, Fund Services, and Securities Services. The Investment Management Solutions segment offers financial data, analytics, and software-as-a-service solutions including research, data collection, data analysis, and the provision of indices, analytics and investment management software to institutional investors, banks, and corporate clients. The Trading & Clearing segment engages in the development and operation of markets and trading systems for securities, derivatives, commodities, currencies, digital assets, and other asset classes. This segment handles settlement of transactions through clearing houses. Its Fund Services segment provides infrastructure and services for fund processing, including order routing, settlement, custody, data and distribution support for investment funds. The Securities Services segment offers various services for securities issuance, settlement, custody as well as collateral, securities lending, and liquidity management. The company was founded in 1585 and is headquartered in Eschborn, Germany.",
+  "targetMeanPrice": 302.92856,
+  "targetLowPrice": 252.0,
+  "targetHighPrice": 345.0,
+  "numberOfAnalystOpinions": 14,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.85714,
+  "forwardPE": 21.7319,
+  "forwardEps": 13.62053,
+  "trailingEps": 11.75,
+  "earningsGrowth": 0.137,
+  "revenueGrowth": 0.117
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,17 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T14:41:57+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -119,7 +139,10 @@
    "goodwill_and_intangibles": 8610100000.0,
    "retained_earnings": 6944000000.0,
    "total_debt": 5357400000.0,
-   "shares_out": 183738945.0
+   "shares_out": 183738945.0,
+   "unusual_items": 11200000.0,
+   "normalized_ebitda": 2534600000.0,
+   "normalized_income": 1486089600.0
   },
   {
    "fy_end": "2023-12-31",
@@ -153,7 +176,10 @@
    "goodwill_and_intangibles": 12478500000.0,
    "retained_earnings": 7892000000.0,
    "total_debt": 8724000000.0,
-   "shares_out": 185112460.0
+   "shares_out": 185112460.0,
+   "unusual_items": -10300000.0,
+   "normalized_ebitda": 2994200000.0,
+   "normalized_income": 1731548768.251897
   },
   {
    "fy_end": "2024-12-31",
@@ -187,7 +213,10 @@
    "goodwill_and_intangibles": 12642000000.0,
    "retained_earnings": 8925000000.0,
    "total_debt": 9583000000.0,
-   "shares_out": 183778379.0
+   "shares_out": 183778379.0,
+   "unusual_items": 19000000.0,
+   "normalized_ebitda": 3405000000.0,
+   "normalized_income": 1933838251.36612
   },
   {
    "fy_end": "2025-12-31",
@@ -221,7 +250,10 @@
    "goodwill_and_intangibles": 12311000000.0,
    "retained_earnings": 10207000000.0,
    "total_debt": 8136000000.0,
-   "shares_out": 182105935.0
+   "shares_out": 182105935.0,
+   "unusual_items": 19000000.0,
+   "normalized_ebitda": 3531000000.0,
+   "normalized_income": 1981016000.0
   }
  ]
 }

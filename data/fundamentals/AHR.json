@@ -1,6 +1,6 @@
 {
  "ticker": "AHR",
- "fetched_at": "2026-10-10T12:36:46+00:00",
+ "fetched_at": "2026-10-10T15:33:50+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 121,
   "website": "https://www.americanhealthcarereit.com",
-  "longBusinessSummary": "American Healthcare REIT, Inc., a Maryland-based self-managed REIT, owns and operates a diversified portfolio of clinical healthcare real estate across the U.S., U.K., and the Isle of Man. Its focus includes senior housing, skilled nursing facilities (SNFs), outpatient medical (OM) buildings, and other healthcare-related properties. The company utilizes a fully integrated management platform and operates senior housing under the RIDEA structure. In addition to owning and operating properties, it has originated and acquired secured loans and may pursue other real estate-related investments opportunistically. The REIT seeks income-generating assets and selectively develops healthcare properties. It has elected to be taxed as a REIT under the U.S. Internal Revenue Code and intends to maintain compliance with REIT requirements. American Healthcare REIT, Inc. is based in Irvine, United States."
+  "longBusinessSummary": "American Healthcare REIT, Inc., a Maryland-based self-managed REIT, owns and operates a diversified portfolio of clinical healthcare real estate across the U.S., U.K., and the Isle of Man. Its focus includes senior housing, skilled nursing facilities (SNFs), outpatient medical (OM) buildings, and other healthcare-related properties. The company utilizes a fully integrated management platform and operates senior housing under the RIDEA structure. In addition to owning and operating properties, it has originated and acquired secured loans and may pursue other real estate-related investments opportunistically. The REIT seeks income-generating assets and selectively develops healthcare properties. It has elected to be taxed as a REIT under the U.S. Internal Revenue Code and intends to maintain compliance with REIT requirements. American Healthcare REIT, Inc. is based in Irvine, United States.",
+  "targetMeanPrice": 64.4,
+  "targetLowPrice": 55.0,
+  "targetHighPrice": 74.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.4,
+  "forwardPE": 51.31313,
+  "forwardEps": 0.99,
+  "trailingEps": 0.67,
+  "earningsGrowth": 1.575,
+  "revenueGrowth": 0.247
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 5426226000.0,
+    "official": 5426226000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3320638000.0,
+    "official": 3320638000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 69806000.0,
+    "official": 69806000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2260123000.0,
+    "official": 2260123000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:33:50+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -180,7 +222,10 @@
    "goodwill_and_intangibles": 467894000.0,
    "retained_earnings": -1138304000.0,
    "total_debt": 2833122000.0,
-   "shares_out": 66210308.0
+   "shares_out": 66210308.0,
+   "unusual_items": -81469000.0,
+   "normalized_ebitda": 315228000.0,
+   "normalized_income": -20860148.9
   },
   {
    "fy_end": "2023-12-31",
@@ -214,7 +259,10 @@
    "goodwill_and_intangibles": 415412000.0,
    "retained_earnings": -1276222000.0,
    "total_debt": 2793621000.0,
-   "shares_out": 66226176.0
+   "shares_out": 66226176.0,
+   "unusual_items": 3639000.0,
+   "normalized_ebitda": 320624000.0,
+   "normalized_income": -74170229.7
   },
   {
    "fy_end": "2024-12-31",
@@ -248,7 +296,10 @@
    "goodwill_and_intangibles": 396415000.0,
    "retained_earnings": -1458089000.0,
    "total_debt": 1870714000.0,
-   "shares_out": 157446697.0
+   "shares_out": 157446697.0,
+   "unusual_items": -47427000.0,
+   "normalized_ebitda": 362907000.0,
+   "normalized_income": -2540540.1
   },
   {
    "fy_end": "2025-12-31",
@@ -282,7 +333,10 @@
    "goodwill_and_intangibles": 488178000.0,
    "retained_earnings": -1559279000.0,
    "total_debt": 1686191000.0,
-   "shares_out": 185911442.0
+   "shares_out": 185911442.0,
+   "unusual_items": -55862000.0,
+   "normalized_ebitda": 415483000.0,
+   "normalized_income": 111384086.6
   }
  ]
 }

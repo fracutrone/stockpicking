@@ -1,6 +1,6 @@
 {
  "ticker": "NUE",
- "fetched_at": "2026-10-10T12:53:20+00:00",
+ "fetched_at": "2026-10-10T15:51:24+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 33000,
   "website": "https://nucor.com",
-  "longBusinessSummary": "Nucor Corporation engages in the manufacture and sale of steel and steel products. The company operates in three segments: Steel Mills, Steel Products, and Raw Materials. The Steel Mills segment produces hot-rolled, cold-rolled, and galvanized sheet steel products; plate steel products; wide-flange beams, beam blanks, and H-piling and sheet piling structural steel products; and bar steel products, such as blooms, billets, concrete reinforcing and merchant bars, and engineered special bar quality products. This segment sells its products to steel service centers, fabricators, and manufacturers in the United States, Canada, and Mexico, as well as engages in the steel trading and rebar distribution businesses. The Steel Products segment offers steel joists and joist girders, steel decks, and galvanized torque tubes for use in solar arrays, hollow structural section steel tubing, electrical conduit, fabricated concrete reinforcing steel, cold finished steel, steel fasteners, steel grating and expanded metal, wire and wire mesh, metal building systems, insulated metal panels, steel racking, overhead doors, and utility towers and structures for communications and energy transmission. This segment is also involved in the piling distribution business. The Raw Materials segment produces direct reduced iron (DRI); brokers ferrous and nonferrous metals, pig iron, hot briquetted iron, and DRI; supplies ferro-alloys; processes ferrous and nonferrous scrap metal; and engages in the natural gas production and industrial gas business. This segment sells its ferrous scrap to electric arc furnace steel mills and foundries for manufacturing process; and nonferrous scrap metal to aluminum can producers, secondary aluminum smelters, steel mills and other processors, and consumers of various nonferrous metals. Nucor Corporation was founded in 1905 and is based in Charlotte, North Carolina."
+  "longBusinessSummary": "Nucor Corporation engages in the manufacture and sale of steel and steel products. The company operates in three segments: Steel Mills, Steel Products, and Raw Materials. The Steel Mills segment produces hot-rolled, cold-rolled, and galvanized sheet steel products; plate steel products; wide-flange beams, beam blanks, and H-piling and sheet piling structural steel products; and bar steel products, such as blooms, billets, concrete reinforcing and merchant bars, and engineered special bar quality products. This segment sells its products to steel service centers, fabricators, and manufacturers in the United States, Canada, and Mexico, as well as engages in the steel trading and rebar distribution businesses. The Steel Products segment offers steel joists and joist girders, steel decks, and galvanized torque tubes for use in solar arrays, hollow structural section steel tubing, electrical conduit, fabricated concrete reinforcing steel, cold finished steel, steel fasteners, steel grating and expanded metal, wire and wire mesh, metal building systems, insulated metal panels, steel racking, overhead doors, and utility towers and structures for communications and energy transmission. This segment is also involved in the piling distribution business. The Raw Materials segment produces direct reduced iron (DRI); brokers ferrous and nonferrous metals, pig iron, hot briquetted iron, and DRI; supplies ferro-alloys; processes ferrous and nonferrous scrap metal; and engages in the natural gas production and industrial gas business. This segment sells its ferrous scrap to electric arc furnace steel mills and foundries for manufacturing process; and nonferrous scrap metal to aluminum can producers, secondary aluminum smelters, steel mills and other processors, and consumers of various nonferrous metals. Nucor Corporation was founded in 1905 and is based in Charlotte, North Carolina.",
+  "targetMeanPrice": 284.3125,
+  "targetLowPrice": 226.0,
+  "targetHighPrice": 310.0,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.76471,
+  "forwardPE": 12.433846,
+  "forwardEps": 20.13295,
+  "trailingEps": 12.75,
+  "earningsGrowth": 0.938,
+  "revenueGrowth": 0.23
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 35104000000.0,
+    "official": 35104000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 20936000000.0,
+    "official": 20936000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1744000000.0,
+    "official": 1744000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 32494000000.0,
+    "official": 32494000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:51:24+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -205,7 +247,10 @@
    "goodwill_and_intangibles": 7242325000.0,
    "retained_earnings": 24754873000.0,
    "total_debt": 6662768000.0,
-   "shares_out": 253493000.0
+   "shares_out": 253493000.0,
+   "unusual_items": -102000000.0,
+   "normalized_ebitda": 11670000000.0,
+   "normalized_income": 7687447400.0
   },
   {
    "fy_end": "2023-12-31",
@@ -240,7 +285,10 @@
    "goodwill_and_intangibles": 7077000000.0,
    "retained_earnings": 28762000000.0,
    "total_debt": 6768000000.0,
-   "shares_out": 244902000.0
+   "shares_out": 244902000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 7688000000.0,
+   "normalized_income": 4525000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -275,7 +323,10 @@
    "goodwill_and_intangibles": 7422000000.0,
    "retained_earnings": 30271000000.0,
    "total_debt": 5908000000.0,
-   "shares_out": 232800000.0
+   "shares_out": 232800000.0,
+   "unusual_items": -137000000.0,
+   "normalized_ebitda": 4623000000.0,
+   "normalized_income": 2136476700.0
   },
   {
    "fy_end": "2025-12-31",
@@ -310,7 +361,10 @@
    "goodwill_and_intangibles": 7177000000.0,
    "retained_earnings": 31504000000.0,
    "total_debt": 7031000000.0,
-   "shares_out": 228335447.0
+   "shares_out": 228335447.0,
+   "unusual_items": -67000000.0,
+   "normalized_ebitda": 4285000000.0,
+   "normalized_income": 1797171200.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "WMB",
- "fetched_at": "2026-10-10T13:02:28+00:00",
+ "fetched_at": "2026-10-10T15:59:52+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 5987,
   "website": "https://www.williams.com",
-  "longBusinessSummary": "The Williams Companies, Inc., together with its subsidiaries, operates as an energy infrastructure company primarily in the United States. It operates through Transmission, Power & Gulf, Northeast G&P, West, and Gas & NGL Marketing Services segments. The Transmission, Power & Gulf segment comprises Transco, NWP, and Mountain West interstate natural gas pipelines, and their related natural gas storage facilities, as well as natural gas gathering and processing; and crude oil production handling and transportation assets in the Gulf Coast region. The Northeast G&P segment engages in the midstream gathering, processing, and fractionation activities in the Marcellus Shale region primarily in Pennsylvania and New York, and the Utica Shale region of eastern Ohio. The West segment consists of gas gathering, processing, and treating operations in the Rocky Mountain region of Colorado and Wyoming, the Barnett Shale region of north-central Texas, the Eagle Ford Shale region of South Texas, the Haynesville Shale region of northwest Louisiana, the Mid-Continent region that includes the Anadarko and Permian basins, and the DJ Basin of Colorado; and operates natural gas liquid (NGL) fractionation and storage assets in central Kansas near Conway. The Gas & NGL Marketing Services segment provides wholesale marketing, trading, storage, and transportation of natural gas for natural gas utilities, municipalities, power generators, and producers; asset management services; and transports and markets NGLs. The company owns and operates approximately 32,000 miles of pipelines. The Williams Companies, Inc. was founded in 1908 and is headquartered in Tulsa, Oklahoma."
+  "longBusinessSummary": "The Williams Companies, Inc., together with its subsidiaries, operates as an energy infrastructure company primarily in the United States. It operates through Transmission, Power & Gulf, Northeast G&P, West, and Gas & NGL Marketing Services segments. The Transmission, Power & Gulf segment comprises Transco, NWP, and Mountain West interstate natural gas pipelines, and their related natural gas storage facilities, as well as natural gas gathering and processing; and crude oil production handling and transportation assets in the Gulf Coast region. The Northeast G&P segment engages in the midstream gathering, processing, and fractionation activities in the Marcellus Shale region primarily in Pennsylvania and New York, and the Utica Shale region of eastern Ohio. The West segment consists of gas gathering, processing, and treating operations in the Rocky Mountain region of Colorado and Wyoming, the Barnett Shale region of north-central Texas, the Eagle Ford Shale region of South Texas, the Haynesville Shale region of northwest Louisiana, the Mid-Continent region that includes the Anadarko and Permian basins, and the DJ Basin of Colorado; and operates natural gas liquid (NGL) fractionation and storage assets in central Kansas near Conway. The Gas & NGL Marketing Services segment provides wholesale marketing, trading, storage, and transportation of natural gas for natural gas utilities, municipalities, power generators, and producers; asset management services; and transports and markets NGLs. The company owns and operates approximately 32,000 miles of pipelines. The Williams Companies, Inc. was founded in 1908 and is headquartered in Tulsa, Oklahoma.",
+  "targetMeanPrice": 85.45833,
+  "targetLowPrice": 69.0,
+  "targetHighPrice": 103.0,
+  "numberOfAnalystOpinions": 24,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.4,
+  "forwardPE": 27.456625,
+  "forwardEps": 2.64672,
+  "trailingEps": 2.51,
+  "earningsGrowth": 0.512,
+  "revenueGrowth": 0.078
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 58573000000.0,
+    "official": 58573000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 12807000000.0,
+    "official": 12807000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2618000000.0,
+    "official": 2618000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 11950000000.0,
+    "official": 11950000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:59:52+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -190,7 +232,10 @@
    "goodwill_and_intangibles": 7363000000.0,
    "retained_earnings": -13271000000.0,
    "total_debt": 22277000000.0,
-   "shares_out": 1218000000.0
+   "shares_out": 1218000000.0,
+   "unusual_items": 1000000.0,
+   "normalized_ebitda": 5697000000.0,
+   "normalized_income": 2048167191.188041
   },
   {
    "fy_end": "2023-12-31",
@@ -224,7 +269,10 @@
    "goodwill_and_intangibles": 7593000000.0,
    "retained_earnings": -12287000000.0,
    "total_debt": 24101000000.0,
-   "shares_out": 1216498672.0
+   "shares_out": 1216498672.0,
+   "unusual_items": 682000000.0,
+   "normalized_ebitda": 7030000000.0,
+   "normalized_income": 2750178000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -258,7 +306,10 @@
    "goodwill_and_intangibles": 7209000000.0,
    "retained_earnings": -12396000000.0,
    "total_debt": 25191000000.0,
-   "shares_out": 1219011798.0
+   "shares_out": 1219011798.0,
+   "unusual_items": 276000000.0,
+   "normalized_ebitda": 6293000000.0,
+   "normalized_income": 2008064000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -292,7 +343,10 @@
    "goodwill_and_intangibles": 6763000000.0,
    "retained_earnings": -12237000000.0,
    "total_debt": 28016000000.0,
-   "shares_out": 1222000000.0
+   "shares_out": 1222000000.0,
+   "unusual_items": -210000000.0,
+   "normalized_ebitda": 7624000000.0,
+   "normalized_income": 2778230000.0
   }
  ]
 }

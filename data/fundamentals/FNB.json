@@ -1,6 +1,6 @@
 {
  "ticker": "FNB",
- "fetched_at": "2026-10-10T12:45:55+00:00",
+ "fetched_at": "2026-10-10T15:44:14+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 4128,
   "website": "https://www.fnb-online.com",
-  "longBusinessSummary": "F.N.B. Corporation, a bank and financial holding company, provides a range of financial products and services primarily to consumers, corporations, governments, and small- to medium-sized businesses in the United States. The company operates through three segments: Community Banking, Wealth Management, and Insurance. The Community Banking segment offers commercial and consumer banking services, including small business banking, investment real estate financing, business credit, capital market, and capital market and equipment financing services. It provides consumer banking products and services, such as deposit products, mortgage and consumer lending services, and mobile and online banking services. The Wealth Management segment provides personal and corporate fiduciary services comprising administration of decedent and trust estates; and securities brokerage and investment advisory services, mutual funds, and annuities. The Insurance segment comprises commercial and personal insurance, and reinsurance products, as well as mezzanine financing options for small- to medium-sized businesses. The company operates community banking branches in Pennsylvania, Ohio, Maryland, West Virginia, North Carolina, South Carolina, Washington, D.C., and Virginia. F.N.B. Corporation was founded in 1864 and is headquartered in Pittsburgh, Pennsylvania."
+  "longBusinessSummary": "F.N.B. Corporation, a bank and financial holding company, provides a range of financial products and services primarily to consumers, corporations, governments, and small- to medium-sized businesses in the United States. The company operates through three segments: Community Banking, Wealth Management, and Insurance. The Community Banking segment offers commercial and consumer banking services, including small business banking, investment real estate financing, business credit, capital market, and capital market and equipment financing services. It provides consumer banking products and services, such as deposit products, mortgage and consumer lending services, and mobile and online banking services. The Wealth Management segment provides personal and corporate fiduciary services comprising administration of decedent and trust estates; and securities brokerage and investment advisory services, mutual funds, and annuities. The Insurance segment comprises commercial and personal insurance, and reinsurance products, as well as mezzanine financing options for small- to medium-sized businesses. The company operates community banking branches in Pennsylvania, Ohio, Maryland, West Virginia, North Carolina, South Carolina, Washington, D.C., and Virginia. F.N.B. Corporation was founded in 1864 and is headquartered in Pittsburgh, Pennsylvania.",
+  "targetMeanPrice": 20.55556,
+  "targetLowPrice": 19.0,
+  "targetHighPrice": 22.0,
+  "numberOfAnalystOpinions": 9,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.77778,
+  "forwardPE": 9.02999,
+  "forwardEps": 1.88926,
+  "trailingEps": 1.66,
+  "earningsGrowth": 0.162,
+  "revenueGrowth": 0.068
  },
  "governance": {
   "ceo": {
@@ -78,8 +89,33 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "noninterest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 50229000000.0,
+    "official": 50229000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 6759000000.0,
+    "official": 6759000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 565000000.0,
+    "official": 565000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:44:14+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -107,7 +143,9 @@
    "goodwill_and_intangibles": 2566000000.0,
    "retained_earnings": 1370000000.0,
    "total_debt": 2465000000.0,
-   "shares_out": 360470110.0
+   "shares_out": 360470110.0,
+   "unusual_items": -45000000.0,
+   "normalized_income": 439000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -135,7 +173,9 @@
    "goodwill_and_intangibles": 2546000000.0,
    "retained_earnings": 1669000000.0,
    "total_debt": 4477000000.0,
-   "shares_out": 358829417.0
+   "shares_out": 358829417.0,
+   "unusual_items": -2000000.0,
+   "normalized_income": 485000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -163,7 +203,8 @@
    "goodwill_and_intangibles": 2529000000.0,
    "retained_earnings": 1952000000.0,
    "total_debt": 4268000000.0,
-   "shares_out": 359615657.0
+   "shares_out": 359615657.0,
+   "normalized_income": 465000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -191,7 +232,8 @@
    "goodwill_and_intangibles": 2516000000.0,
    "retained_earnings": 2343000000.0,
    "total_debt": 3918000000.0,
-   "shares_out": 357303315.0
+   "shares_out": 357303315.0,
+   "normalized_income": 565000000.0
   }
  ]
 }

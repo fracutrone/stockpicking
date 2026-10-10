@@ -1,6 +1,6 @@
 {
  "ticker": "DXCM",
- "fetched_at": "2026-10-10T12:43:45+00:00",
+ "fetched_at": "2026-10-10T15:42:11+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 11000,
   "website": "https://www.dexcom.com",
-  "longBusinessSummary": "DexCom, Inc., a medical device company, focuses on the design, development, and commercialization of continuous glucose monitoring (CGM) systems for the management of diabetes and metabolic health in the United States and internationally. The company offers Dexcom G7 and G7 15 Day, an integrated continuous glucose monitoring system; Dexcom G6, a CGM system; Dexcom ONE+ to replace fingerstick blood glucose testing for diabetes treatment decisions; Stelo, a biosensor designed for adults with prediabetes and Type 2 diabetes who do not use insulin; Dexcom Share, a remote monitoring system; and Dexcom Follow application. It markets its products directly to endocrinologists, physicians, and diabetes educators. The company was incorporated in 1999 and is headquartered in San Diego, California."
+  "longBusinessSummary": "DexCom, Inc., a medical device company, focuses on the design, development, and commercialization of continuous glucose monitoring (CGM) systems for the management of diabetes and metabolic health in the United States and internationally. The company offers Dexcom G7 and G7 15 Day, an integrated continuous glucose monitoring system; Dexcom G6, a CGM system; Dexcom ONE+ to replace fingerstick blood glucose testing for diabetes treatment decisions; Stelo, a biosensor designed for adults with prediabetes and Type 2 diabetes who do not use insulin; Dexcom Share, a remote monitoring system; and Dexcom Follow application. It markets its products directly to endocrinologists, physicians, and diabetes educators. The company was incorporated in 1999 and is headquartered in San Diego, California.",
+  "targetMeanPrice": 96.23077,
+  "targetLowPrice": 79.0,
+  "targetHighPrice": 115.0,
+  "numberOfAnalystOpinions": 26,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.34483,
+  "forwardPE": 26.898846,
+  "forwardEps": 3.1269,
+  "trailingEps": 2.52,
+  "earningsGrowth": 0.436,
+  "revenueGrowth": 0.131
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 6339900000.0,
+    "official": 6339900000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2746000000.0,
+    "official": 2746000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 836300000.0,
+    "official": 836300000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 4662000000.0,
+    "official": 4662000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:42:11+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -165,7 +207,8 @@
    "inventory": 357300000.0,
    "goodwill": 26500000.0,
    "intangibles": 31500000.0,
-   "retained_earnings": 138700000.0
+   "retained_earnings": 138700000.0,
+   "unusual_items": -100000.0
   },
   {
    "fy_end": "2022-12-31",
@@ -200,7 +243,10 @@
    "goodwill_and_intangibles": 199000000.0,
    "retained_earnings": 479900000.0,
    "total_debt": 2145000000.0,
-   "shares_out": 386300000.0
+   "shares_out": 386300000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 565300000.0,
+   "normalized_income": 341200000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -235,7 +281,10 @@
    "goodwill_and_intangibles": 159700000.0,
    "retained_earnings": 1021400000.0,
    "total_debt": 2594000000.0,
-   "shares_out": 385400000.0
+   "shares_out": 385400000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 916700000.0,
+   "normalized_income": 541500000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -270,7 +319,9 @@
    "goodwill_and_intangibles": 126200000.0,
    "retained_earnings": 1597600000.0,
    "total_debt": 2587400000.0,
-   "shares_out": 390700000.0
+   "shares_out": 390700000.0,
+   "normalized_ebitda": 945700000.0,
+   "normalized_income": 576200000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -305,7 +356,9 @@
    "goodwill_and_intangibles": 95000000.0,
    "retained_earnings": 2433900000.0,
    "total_debt": 1389700000.0,
-   "shares_out": 384800000.0
+   "shares_out": 384800000.0,
+   "normalized_ebitda": 1358500000.0,
+   "normalized_income": 836300000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "FRES.L",
- "fetched_at": "2026-10-10T11:58:57+00:00",
+ "fetched_at": "2026-10-10T14:49:26+00:00",
  "region": "Europa",
  "statement_currency": "USD",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.74994,
   "heldPercentInstitutions": 0.1472,
   "shortPercentOfFloat": null,
-  "averageVolume": 1064187,
+  "averageVolume": 1059942,
   "quoteType": "EQUITY",
   "exchange": "LSE",
   "fullTimeEmployees": 7348,
   "website": "https://www.fresnilloplc.com",
-  "longBusinessSummary": "Fresnillo plc mines, develops, and produces non-ferrous minerals in Mexico. It operates through seven segments: Fresnillo, Saucito, Ciénega, Herradura, Noche Buena, San Julián, and Juanicipio. The company primarily explores for silver, gold, lead, and zinc concentrates. Its projects include the Fresnillo silver mine located in the state of Zacatecas; Saucito mine situated in the state of Zacatecas; Ciénega mine located in the state of Durango; Herradura mine located in the state of Sonora; Noche Buena mine located in the state of Sonora; San Julián mine situated on the border of Chihuahua/Durango states; and Juanicipio mine located in the state of Zacatecas. The company also leases mining equipment; produces lead, silver and zinc concentrates and silver precipitates; produces gold/silver doré bars; mines projects; and provides exploration and administrative services. Fresnillo plc was founded in 1887 and is headquartered in Mexico City, Mexico. Fresnillo plc is a subsidiary of Industrias Peñoles, S.A.B. de C.V."
+  "longBusinessSummary": "Fresnillo plc mines, develops, and produces non-ferrous minerals in Mexico. It operates through seven segments: Fresnillo, Saucito, Ciénega, Herradura, Noche Buena, San Julián, and Juanicipio. The company primarily explores for silver, gold, lead, and zinc concentrates. Its projects include the Fresnillo silver mine located in the state of Zacatecas; Saucito mine situated in the state of Zacatecas; Ciénega mine located in the state of Durango; Herradura mine located in the state of Sonora; Noche Buena mine located in the state of Sonora; San Julián mine situated on the border of Chihuahua/Durango states; and Juanicipio mine located in the state of Zacatecas. The company also leases mining equipment; produces lead, silver and zinc concentrates and silver precipitates; produces gold/silver doré bars; mines projects; and provides exploration and administrative services. Fresnillo plc was founded in 1887 and is headquartered in Mexico City, Mexico. Fresnillo plc is a subsidiary of Industrias Peñoles, S.A.B. de C.V.",
+  "targetMeanPrice": 3296.8672,
+  "targetLowPrice": 2498.8628,
+  "targetHighPrice": 4847.1284,
+  "numberOfAnalystOpinions": 14,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.92857,
+  "forwardPE": 12.434922,
+  "forwardEps": 2.216339,
+  "trailingEps": 2.31,
+  "earningsGrowth": 2.276,
+  "revenueGrowth": 0.747
  },
  "governance": {
   "ceo": {
@@ -74,8 +85,40 @@
   "ppe_net": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 7279268000.0,
+    "official": 7279268000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4632894000.0,
+    "official": 4632894000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1383988000.0,
+    "official": 1383988000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 4561231000.0,
+    "official": 4561231000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:49:27+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -106,7 +149,10 @@
    "ppe_net": 2862564000.0,
    "retained_earnings": 2612469000.0,
    "total_debt": 1278648000.0,
-   "shares_out": 736893589.0
+   "shares_out": 736893589.0,
+   "unusual_items": 7470000.0,
+   "normalized_ebitda": 821747000.0,
+   "normalized_income": 266451370.0
   },
   {
    "fy_end": "2023-12-31",
@@ -137,7 +183,10 @@
    "ppe_net": 2860916000.0,
    "retained_earnings": 2737962000.0,
    "total_debt": 948952000.0,
-   "shares_out": 736893589.0
+   "shares_out": 736893589.0,
+   "unusual_items": -15167000.0,
+   "normalized_ebitda": 712193000.0,
+   "normalized_income": 244525900.0
   },
   {
    "fy_end": "2024-12-31",
@@ -169,7 +218,10 @@
    "ppe_net": 2538665000.0,
    "retained_earnings": 2800956000.0,
    "total_debt": 853455000.0,
-   "shares_out": 736893589.0
+   "shares_out": 736893589.0,
+   "unusual_items": -152525000.0,
+   "normalized_ebitda": 1587710000.0,
+   "normalized_income": 247687500.0
   },
   {
    "fy_end": "2025-12-31",
@@ -201,7 +253,10 @@
    "ppe_net": 2466034000.0,
    "retained_earnings": 3619311000.0,
    "total_debt": 850973000.0,
-   "shares_out": 736893589.0
+   "shares_out": 736893589.0,
+   "unusual_items": -191664000.0,
+   "normalized_ebitda": 2828348000.0,
+   "normalized_income": 1528872231.20661
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "TJX",
- "fetched_at": "2026-10-10T12:59:42+00:00",
+ "fetched_at": "2026-10-10T15:57:22+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 377000,
   "website": "https://www.tjx.com",
-  "longBusinessSummary": "The TJX Companies, Inc., together with its subsidiaries, operates as an off-price apparel and home fashions retailer worldwide. It operates through four segments: Marmaxx, HomeGoods, TJX Canada, and TJX International. The company provides family apparel comprising footwear; accessories, such as beauty and jewelry; home fashion products, including home basics, decorative accessories and giftware, as well as furniture, rugs, lighting, soft home, decorative accessories, tabletop, and cookware; pet and gourmet food; and other merchandise. It also offers home decor, furniture, and seasonal home merchandise. The company sells its products through stores and e-commerce sites. The TJX Companies, Inc. was incorporated in 1962 and is headquartered in Framingham, Massachusetts."
+  "longBusinessSummary": "The TJX Companies, Inc., together with its subsidiaries, operates as an off-price apparel and home fashions retailer worldwide. It operates through four segments: Marmaxx, HomeGoods, TJX Canada, and TJX International. The company provides family apparel comprising footwear; accessories, such as beauty and jewelry; home fashion products, including home basics, decorative accessories and giftware, as well as furniture, rugs, lighting, soft home, decorative accessories, tabletop, and cookware; pet and gourmet food; and other merchandise. It also offers home decor, furniture, and seasonal home merchandise. The company sells its products through stores and e-commerce sites. The TJX Companies, Inc. was incorporated in 1962 and is headquartered in Framingham, Massachusetts.",
+  "targetMeanPrice": 169.8,
+  "targetLowPrice": 136.0,
+  "targetHighPrice": 198.0,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 24.033865,
+  "forwardEps": 5.77352,
+  "trailingEps": 5.4,
+  "earningsGrowth": 0.236,
+  "revenueGrowth": 0.054
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-01-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 35767000000.0,
+    "official": 35767000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 10190000000.0,
+    "official": 10190000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 5494000000.0,
+    "official": 5494000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 60372000000.0,
+    "official": 60372000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:57:22+00:00",
  "years": [
   {
    "fy_end": "2020-02-01",
@@ -160,7 +202,8 @@
    "ppe_net": 5271000000.0,
    "goodwill": 97000000.0,
    "retained_earnings": 5509000000.0,
-   "total_debt": 3355000000.0
+   "total_debt": 3355000000.0,
+   "unusual_items": -242000000.0
   },
   {
    "fy_end": "2023-01-28",
@@ -193,7 +236,10 @@
    "goodwill_and_intangibles": 97000000.0,
    "retained_earnings": 5815000000.0,
    "total_debt": 3359000000.0,
-   "shares_out": 1155437908.0
+   "shares_out": 1155437908.0,
+   "unusual_items": -218000000.0,
+   "normalized_ebitda": 5825000000.0,
+   "normalized_income": 3662590000.0
   },
   {
    "fy_end": "2024-02-03",
@@ -226,7 +272,10 @@
    "goodwill_and_intangibles": 95000000.0,
    "retained_earnings": 6700000000.0,
    "total_debt": 2862000000.0,
-   "shares_out": 1133586545.0
+   "shares_out": 1133586545.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 7010000000.0,
+   "normalized_income": 4474000000.0
   },
   {
    "fy_end": "2025-02-01",
@@ -259,7 +308,10 @@
    "goodwill_and_intangibles": 94000000.0,
    "retained_earnings": 7883000000.0,
    "total_debt": 2866000000.0,
-   "shares_out": 1119333622.0
+   "shares_out": 1119333622.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 7663000000.0,
+   "normalized_income": 4864000000.0
   },
   {
    "fy_end": "2026-01-31",
@@ -292,7 +344,9 @@
    "goodwill_and_intangibles": 96000000.0,
    "retained_earnings": 9434000000.0,
    "total_debt": 2869000000.0,
-   "shares_out": 1107087991.0
+   "shares_out": 1107087991.0,
+   "normalized_ebitda": 8620000000.0,
+   "normalized_income": 5494000000.0
   }
  ]
 }

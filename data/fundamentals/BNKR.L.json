@@ -1,6 +1,6 @@
 {
  "ticker": "BNKR.L",
- "fetched_at": "2026-10-10T11:48:27+00:00",
+ "fetched_at": "2026-10-10T14:36:08+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -11,18 +11,29 @@
   "country": null,
   "currency": "GBp",
   "financialCurrency": "GBP",
-  "marketCap": 1405307904,
-  "sharesOutstanding": 905482009,
+  "marketCap": 1404687104,
+  "sharesOutstanding": 905082009,
   "floatShares": null,
   "heldPercentInsiders": null,
   "heldPercentInstitutions": null,
   "shortPercentOfFloat": null,
-  "averageVolume": 1141073,
+  "averageVolume": 1145098,
   "quoteType": "EQUITY",
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -49,8 +60,15 @@
   "equity": "yahoo",
   "receivables": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T14:36:08+00:00",
  "years": [
   {
    "fy_end": "2022-10-31",
@@ -70,7 +88,8 @@
    "equity": 1360666000.0,
    "receivables": 54000.0,
    "total_debt": 139280000.0,
-   "shares_out": 1294851206.0
+   "shares_out": 1294851206.0,
+   "normalized_income": -179171000.0
   },
   {
    "fy_end": "2023-10-31",
@@ -90,7 +109,8 @@
    "equity": 1333523000.0,
    "receivables": 13671000.0,
    "total_debt": 124900000.0,
-   "shares_out": 1234232277.0
+   "shares_out": 1234232277.0,
+   "normalized_income": 64557000.0
   },
   {
    "fy_end": "2024-10-31",
@@ -110,7 +130,8 @@
    "equity": 1434146000.0,
    "receivables": 80000.0,
    "total_debt": 123756000.0,
-   "shares_out": 1145890870.0
+   "shares_out": 1145890870.0,
+   "normalized_income": 229950000.0
   },
   {
    "fy_end": "2025-10-31",
@@ -130,7 +151,8 @@
    "equity": 1435686000.0,
    "receivables": 192000.0,
    "total_debt": 125272000.0,
-   "shares_out": 992334481.0
+   "shares_out": 992334481.0,
+   "normalized_income": 216691000.0
   }
  ]
 }

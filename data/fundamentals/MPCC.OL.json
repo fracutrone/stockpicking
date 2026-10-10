@@ -1,6 +1,6 @@
 {
  "ticker": "MPCC.OL",
- "fetched_at": "2026-10-10T12:09:21+00:00",
+ "fetched_at": "2026-10-10T15:05:54+00:00",
  "region": "Europa",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "OSL",
   "fullTimeEmployees": 40,
   "website": "https://www.mpc-container.com",
-  "longBusinessSummary": "MPC Container Ships ASA, together with its subsidiaries, owns and operates a portfolio of container vessels in Intra-Asia, South America, Europe, the Middle East, Africa, and internationally. The company invests in maritime assets; and charters out small- to mid-size vessels through time-charter agreements to global liner shipping companies and regional carriers serving intra-regional trade lanes, as well as operates and sells vessels. It serves charterers and port calls. As of December 31, 2025, the company operated a fleet of 51 vessels with an aggregate capacity of approximately 129,192 twenty-foot equivalent units. MPC Container Ships ASA was incorporated in 2017 and is headquartered in Oslo, Norway."
+  "longBusinessSummary": "MPC Container Ships ASA, together with its subsidiaries, owns and operates a portfolio of container vessels in Intra-Asia, South America, Europe, the Middle East, Africa, and internationally. The company invests in maritime assets; and charters out small- to mid-size vessels through time-charter agreements to global liner shipping companies and regional carriers serving intra-regional trade lanes, as well as operates and sells vessels. It serves charterers and port calls. As of December 31, 2025, the company operated a fleet of 51 vessels with an aggregate capacity of approximately 129,192 twenty-foot equivalent units. MPC Container Ships ASA was incorporated in 2017 and is headquartered in Oslo, Norway.",
+  "targetMeanPrice": 29.13472,
+  "targetLowPrice": 20.429659,
+  "targetHighPrice": 33.84558,
+  "numberOfAnalystOpinions": 3,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 8.627766,
+  "forwardEps": 3.354287,
+  "trailingEps": 4.63,
+  "earningsGrowth": -0.11,
+  "revenueGrowth": -0.152
  },
  "governance": {
   "ceo": {
@@ -74,8 +85,40 @@
   "ppe_net": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF NO",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 1231374000.0,
+    "official": 1231374000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 813096000.0,
+    "official": 817620000.0,
+    "diff": 0.005533
+   },
+   "net_income": {
+    "yahoo": 266683000.0,
+    "official": 266683000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 540860000.0,
+    "official": 540860000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T15:05:54+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -107,7 +150,10 @@
    "ppe_net": 778909000.0,
    "retained_earnings": 517044000.0,
    "total_debt": 153688000.0,
-   "shares_out": 443700279.0
+   "shares_out": 443700279.0,
+   "unusual_items": 48742000.0,
+   "normalized_ebitda": 473686000.0,
+   "normalized_income": 386209698.526546
   },
   {
    "fy_end": "2023-12-31",
@@ -139,7 +185,10 @@
    "ppe_net": 770355000.0,
    "retained_earnings": 700021000.0,
    "total_debt": 126515000.0,
-   "shares_out": 443700279.0
+   "shares_out": 443700279.0,
+   "unusual_items": -80586000.0,
+   "normalized_ebitda": 523694000.0,
+   "normalized_income": 405389169.64949
   },
   {
    "fy_end": "2024-12-31",
@@ -171,7 +220,10 @@
    "ppe_net": 1048068000.0,
    "retained_earnings": 762602000.0,
    "total_debt": 343353000.0,
-   "shares_out": 443700279.0
+   "shares_out": 443700279.0,
+   "unusual_items": 21145000.0,
+   "normalized_ebitda": 332730000.0,
+   "normalized_income": 250189900.0
   },
   {
    "fy_end": "2025-12-31",
@@ -203,7 +255,10 @@
    "ppe_net": 1033108000.0,
    "retained_earnings": 879974000.0,
    "total_debt": 503948000.0,
-   "shares_out": 443700279.0
+   "shares_out": 443700279.0,
+   "unusual_items": 40079000.0,
+   "normalized_ebitda": 316384000.0,
+   "normalized_income": 197127100.368289
   }
  ]
 }

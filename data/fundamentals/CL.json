@@ -1,6 +1,6 @@
 {
  "ticker": "CL",
- "fetched_at": "2026-10-10T12:40:58+00:00",
+ "fetched_at": "2026-10-10T15:39:42+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 33600,
   "website": "https://www.colgatepalmolive.com",
-  "longBusinessSummary": "Colgate-Palmolive Company, together with its subsidiaries, manufactures and sells consumer products in the United States and internationally. It operates through two segments: Oral, Personal and Home Care; and Pet Nutrition. The Oral, Personal and Home Care segment offers toothpaste, toothbrushes, mouthwash, bar and liquid hand soaps, shower gels, shampoos, conditioners, deodorants and antiperspirants, skin health products, dishwashing detergents, fabric conditioners, household cleaners, and other related items. This segment markets and sells its products under the Colgate, Palmolive, Darlie, elmex, hello, meridol, Sorriso, Tom's of Maine, EltaMD, Filorga, Irish Spring, Lady Speed Stick, PCA SKIN, Protex, Sanex, Softsoap, Speed Stick, Ajax, Axion, Fabuloso, Murphy, Soupline, and Suavitel brands to a range of traditional and eCommerce retailers, wholesalers, and distributors, as well as dentists and skin health professionals. It also offers pharmaceutical products for dentists and other oral health professionals. The Pet Nutrition segment offers pet nutrition products for everyday nutritional needs under the Hill's Science Diet brand; and a range of therapeutic pet products to help nutritionally support dogs and cats in different stages of health under the Hill's Prescription Diet brand; and a fresh pet food sold to pet specialty and other retailers in Australia under Prime100 brand. This segment markets and sells its products through pet supply retailers, veterinarians, and eCommerce retailers. Colgate-Palmolive Company was founded in 1806 and is headquartered in New York, New York."
+  "longBusinessSummary": "Colgate-Palmolive Company, together with its subsidiaries, manufactures and sells consumer products in the United States and internationally. It operates through two segments: Oral, Personal and Home Care; and Pet Nutrition. The Oral, Personal and Home Care segment offers toothpaste, toothbrushes, mouthwash, bar and liquid hand soaps, shower gels, shampoos, conditioners, deodorants and antiperspirants, skin health products, dishwashing detergents, fabric conditioners, household cleaners, and other related items. This segment markets and sells its products under the Colgate, Palmolive, Darlie, elmex, hello, meridol, Sorriso, Tom's of Maine, EltaMD, Filorga, Irish Spring, Lady Speed Stick, PCA SKIN, Protex, Sanex, Softsoap, Speed Stick, Ajax, Axion, Fabuloso, Murphy, Soupline, and Suavitel brands to a range of traditional and eCommerce retailers, wholesalers, and distributors, as well as dentists and skin health professionals. It also offers pharmaceutical products for dentists and other oral health professionals. The Pet Nutrition segment offers pet nutrition products for everyday nutritional needs under the Hill's Science Diet brand; and a range of therapeutic pet products to help nutritionally support dogs and cats in different stages of health under the Hill's Prescription Diet brand; and a fresh pet food sold to pet specialty and other retailers in Australia under Prime100 brand. This segment markets and sells its products through pet supply retailers, veterinarians, and eCommerce retailers. Colgate-Palmolive Company was founded in 1806 and is headquartered in New York, New York.",
+  "targetMeanPrice": 98.25,
+  "targetLowPrice": 87.0,
+  "targetHighPrice": 110.0,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.04762,
+  "forwardPE": 21.552818,
+  "forwardEps": 4.09552,
+  "trailingEps": 2.54,
+  "earningsGrowth": -0.055,
+  "revenueGrowth": 0.049
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 16330000000.0,
+    "official": 16330000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 54000000.0,
+    "official": 54000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2132000000.0,
+    "official": 2132000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 20382000000.0,
+    "official": 20382000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:39:42+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -207,7 +249,10 @@
    "goodwill_and_intangibles": 5272000000.0,
    "retained_earnings": 24573000000.0,
    "total_debt": 8755000000.0,
-   "shares_out": 830212606.0
+   "shares_out": 830212606.0,
+   "unusual_items": -671000000.0,
+   "normalized_ebitda": 4043000000.0,
+   "normalized_income": 2280869000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -242,7 +287,10 @@
    "goodwill_and_intangibles": 5297000000.0,
    "retained_earnings": 25289000000.0,
    "total_debt": 8239000000.0,
-   "shares_out": 821412769.0
+   "shares_out": 821412769.0,
+   "unusual_items": -36000000.0,
+   "normalized_ebitda": 4282000000.0,
+   "normalized_income": 2326064000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -277,7 +325,10 @@
    "goodwill_and_intangibles": 5028000000.0,
    "retained_earnings": 26145000000.0,
    "total_debt": 7005000000.0,
-   "shares_out": 812574698.0
+   "shares_out": 812574698.0,
+   "unusual_items": -6000000.0,
+   "normalized_ebitda": 4859000000.0,
+   "normalized_income": 2893624368.048534
   },
   {
    "fy_end": "2025-12-31",
@@ -312,7 +363,10 @@
    "goodwill_and_intangibles": 4658000000.0,
    "retained_earnings": 26595000000.0,
    "total_debt": 7839000000.0,
-   "shares_out": 801239524.0
+   "shares_out": 801239524.0,
+   "unusual_items": -929000000.0,
+   "normalized_ebitda": 4885000000.0,
+   "normalized_income": 2818652173.913043
   }
  ]
 }

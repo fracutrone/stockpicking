@@ -1,6 +1,6 @@
 {
  "ticker": "JMAT.L",
- "fetched_at": "2026-10-10T12:04:51+00:00",
+ "fetched_at": "2026-10-10T14:59:48+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 10037,
   "website": "https://matthey.com",
-  "longBusinessSummary": "Johnson Matthey Plc engages in the clean air, catalyst and hydrogen technology, and platinum group metals (PGM) service businesses in the United Kingdom, Germany, rest of Europe, the United States, rest of North America, China, rest of Asia, and internationally. It operates through Clean Air, PGM Services, and Hydrogen Technologies segments. The Clean Air segment provides catalysts for emission control after-treatment systems to reduce harmful emissions from cars, other light duty vehicles, trucks, buses, and non-road equipment powered by internal combustion engines. The PGM Services segment enables the energy transition that offers circular solutions as demand for critical materials. This segment also offers PGM refining and recycling services; engages in PGM trading activities; other precious metal products; and PGM chemicals, industrial products, and catalysts. The Hydrogen Technologies segment offers components across the value chain for fuel cells and electrolysers, including catalyst coated membranes and membrane electrode assemblies. The company was formerly known as Johnson & Cock and changed its name to Johnson Matthey Plc in 1851. Johnson Matthey Plc was founded in 1817 and is headquartered in London, the United Kingdom."
+  "longBusinessSummary": "Johnson Matthey Plc engages in the clean air, catalyst and hydrogen technology, and platinum group metals (PGM) service businesses in the United Kingdom, Germany, rest of Europe, the United States, rest of North America, China, rest of Asia, and internationally. It operates through Clean Air, PGM Services, and Hydrogen Technologies segments. The Clean Air segment provides catalysts for emission control after-treatment systems to reduce harmful emissions from cars, other light duty vehicles, trucks, buses, and non-road equipment powered by internal combustion engines. The PGM Services segment enables the energy transition that offers circular solutions as demand for critical materials. This segment also offers PGM refining and recycling services; engages in PGM trading activities; other precious metal products; and PGM chemicals, industrial products, and catalysts. The Hydrogen Technologies segment offers components across the value chain for fuel cells and electrolysers, including catalyst coated membranes and membrane electrode assemblies. The company was formerly known as Johnson & Cock and changed its name to Johnson Matthey Plc in 1851. Johnson Matthey Plc was founded in 1817 and is headquartered in London, the United Kingdom.",
+  "targetMeanPrice": 2631.138,
+  "targetLowPrice": 2192.44,
+  "targetHighPrice": 3066.667,
+  "numberOfAnalystOpinions": 8,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": 10.338601,
+  "forwardEps": 2.38717,
+  "trailingEps": -0.72,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.264
  },
  "governance": {
   "ceo": {
@@ -77,8 +88,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2026-03-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 5974000000.0,
+    "official": 5974000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2016000000.0,
+    "official": 2016000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -96000000.0,
+    "official": -96000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 12573000000.0,
+    "official": 12573000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2026-03-31"
+ },
+ "info_at": "2026-10-10T14:59:48+00:00",
  "years": [
   {
    "fy_end": "2023-03-31",
@@ -112,7 +155,10 @@
    "goodwill_and_intangibles": 651000000.0,
    "retained_earnings": 2077000000.0,
    "total_debt": 1668000000.0,
-   "shares_out": 183453417.0
+   "shares_out": 183453417.0,
+   "unusual_items": -61000000.0,
+   "normalized_ebitda": 682000000.0,
+   "normalized_income": 317883720.930233
   },
   {
    "fy_end": "2024-03-31",
@@ -146,7 +192,10 @@
    "goodwill_and_intangibles": 654000000.0,
    "retained_earnings": 1998000000.0,
    "total_debt": 1490000000.0,
-   "shares_out": 183428348.0
+   "shares_out": 183428348.0,
+   "unusual_items": -159000000.0,
+   "normalized_ebitda": 647000000.0,
+   "normalized_income": 222658536.585366
   },
   {
    "fy_end": "2025-03-31",
@@ -180,7 +229,10 @@
    "goodwill_and_intangibles": 635000000.0,
    "retained_earnings": 2011000000.0,
    "total_debt": 1704000000.0,
-   "shares_out": 167544473.0
+   "shares_out": 167544473.0,
+   "unusual_items": 145000000.0,
+   "normalized_ebitda": 542000000.0,
+   "normalized_income": 198461538.461538
   },
   {
    "fy_end": "2026-03-31",
@@ -215,7 +267,10 @@
    "goodwill_and_intangibles": 292000000.0,
    "retained_earnings": 1777000000.0,
    "total_debt": 1405000000.0,
-   "shares_out": 167885349.0
+   "shares_out": 167885349.0,
+   "unusual_items": -191000000.0,
+   "normalized_ebitda": 596000000.0,
+   "normalized_income": 23600000.0
   }
  ]
 }

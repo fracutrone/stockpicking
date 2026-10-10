@@ -1,6 +1,6 @@
 {
  "ticker": "SSE.L",
- "fetched_at": "2026-10-10T12:20:25+00:00",
+ "fetched_at": "2026-10-10T15:21:58+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 15197,
   "website": "https://www.sse.com",
-  "longBusinessSummary": "SSE plc engages in the generation, transmission, distribution, and supply of electricity. The company distributes electricity to approximately 4 million homes and businesses in southern central England and the north of Scotland; and owns, develops, and operates the high voltage electricity transmission system in the north of Scotland and other areas. Its diversified portfolio includes onshore and offshore wind farms, hydro-electric power, and batteries, flexible thermal generation, and electricity transmission and distribution networks. In addition, the company provides energy products and services; and invests in, develops, builds, and operates electricity infrastructure and businesses. The company was formerly known as Scottish and Southern Energy plc and changed its name to SSE plc in September 2011. SSE plc was incorporated in 1989 and is based in Perth, the United Kingdom."
+  "longBusinessSummary": "SSE plc engages in the generation, transmission, distribution, and supply of electricity. The company distributes electricity to approximately 4 million homes and businesses in southern central England and the north of Scotland; and owns, develops, and operates the high voltage electricity transmission system in the north of Scotland and other areas. Its diversified portfolio includes onshore and offshore wind farms, hydro-electric power, and batteries, flexible thermal generation, and electricity transmission and distribution networks. In addition, the company provides energy products and services; and invests in, develops, builds, and operates electricity infrastructure and businesses. The company was formerly known as Scottish and Southern Energy plc and changed its name to SSE plc in September 2011. SSE plc was incorporated in 1989 and is based in Perth, the United Kingdom.",
+  "targetMeanPrice": 2755.875,
+  "targetLowPrice": 2036.0,
+  "targetHighPrice": 3060.0,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.9375,
+  "forwardPE": 11.615192,
+  "forwardEps": 2.11275,
+  "trailingEps": 1.05,
+  "earningsGrowth": 0.278,
+  "revenueGrowth": -0.021
  },
  "governance": {
   "ceo": {
@@ -75,8 +86,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2026-03-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 35353600000.0,
+    "official": 35353600000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 15649700000.0,
+    "official": 16401300000.0,
+    "diff": 0.045826
+   },
+   "net_income": {
+    "yahoo": 1208700000.0,
+    "official": 1411600000.0,
+    "diff": 0.143738
+   },
+   "revenue": {
+    "yahoo": 10186500000.0,
+    "official": 10186500000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2026-03-31"
+ },
+ "info_at": "2026-10-10T15:21:58+00:00",
  "years": [
   {
    "fy_end": "2023-03-31",
@@ -109,7 +152,10 @@
    "goodwill_and_intangibles": 1960300000.0,
    "retained_earnings": 6657600000.0,
    "total_debt": 8905300000.0,
-   "shares_out": 1090300000.0
+   "shares_out": 1090300000.0,
+   "unusual_items": 274100000.0,
+   "normalized_ebitda": 557700000.0,
+   "normalized_income": -397289300.0
   },
   {
    "fy_end": "2024-03-31",
@@ -142,7 +188,10 @@
    "goodwill_and_intangibles": 2324600000.0,
    "retained_earnings": 7540000000.0,
    "total_debt": 9139600000.0,
-   "shares_out": 1086531961.0
+   "shares_out": 1086531961.0,
+   "unusual_items": -342900000.0,
+   "normalized_ebitda": 4015300000.0,
+   "normalized_income": 1965617600.0
   },
   {
    "fy_end": "2025-03-31",
@@ -175,7 +224,10 @@
    "goodwill_and_intangibles": 2170500000.0,
    "retained_earnings": 8336700000.0,
    "total_debt": 10604400000.0,
-   "shares_out": 1099601596.0
+   "shares_out": 1099601596.0,
+   "unusual_items": -365100000.0,
+   "normalized_ebitda": 3592100000.0,
+   "normalized_income": 1452321708.358096
   },
   {
    "fy_end": "2026-03-31",
@@ -208,7 +260,10 @@
    "goodwill_and_intangibles": 2249100000.0,
    "retained_earnings": 8898700000.0,
    "total_debt": 10121200000.0,
-   "shares_out": 1206080070.0
+   "shares_out": 1206080070.0,
+   "unusual_items": -190200000.0,
+   "normalized_ebitda": 3312500000.0,
+   "normalized_income": 1352681400.0
   }
  ]
 }

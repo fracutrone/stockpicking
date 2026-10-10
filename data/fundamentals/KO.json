@@ -1,6 +1,6 @@
 {
  "ticker": "KO",
- "fetched_at": "2026-10-10T12:49:58+00:00",
+ "fetched_at": "2026-10-10T15:48:17+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 65900,
   "website": "https://www.coca-colacompany.com",
-  "longBusinessSummary": "The Coca-Cola Company, a beverage company, manufactures and sells various nonalcoholic beverages in the United States and internationally. The company provides Trademark Coca-Cola, sparkling soft drinks and flavors; water, sports, coffee, and tea; juice, value-added dairy, and plant-based beverages; and emerging beverages. It also offers beverage concentrates and syrups, as well as fountain syrups to fountain retailers comprising restaurants and convenience stores. The company sells its products under the Coca-Cola, Diet Coke/Coca-Cola Light, Coca-Cola Zero Sugar, caffeine free Diet Coke, Cherry Coke, Fanta, Sprite, Simply, Fanta Orange, Fanta Zero Orange, Fanta Zero Sugar, Fanta Apple, Sprite Zero Sugar, Simply Orange, Simply Apple, Simply Grapefruit, Fresca, Schweppes, Thums Up, Aquarius, Ayataka, BODYARMOR, Ciel, Costa, Crystal, Dasani, Fuze Tea, Georgia, glacéau smartwater, glacéau vitaminwater, Gold Peak, I LOHAS, Powerade, Topo Chico, Core Power, Del Valle, fairlife, innocent, Maaza, Minute Maid, Minute Maid Pulpy, Santa Clara, and dogadan brands. It operates through a network of independent bottling partners, distributors, wholesalers, and retailers, as well as through bottling and distribution operators. The Coca-Cola Company was founded in 1886 and is headquartered in Atlanta, Georgia."
+  "longBusinessSummary": "The Coca-Cola Company, a beverage company, manufactures and sells various nonalcoholic beverages in the United States and internationally. The company provides Trademark Coca-Cola, sparkling soft drinks and flavors; water, sports, coffee, and tea; juice, value-added dairy, and plant-based beverages; and emerging beverages. It also offers beverage concentrates and syrups, as well as fountain syrups to fountain retailers comprising restaurants and convenience stores. The company sells its products under the Coca-Cola, Diet Coke/Coca-Cola Light, Coca-Cola Zero Sugar, caffeine free Diet Coke, Cherry Coke, Fanta, Sprite, Simply, Fanta Orange, Fanta Zero Orange, Fanta Zero Sugar, Fanta Apple, Sprite Zero Sugar, Simply Orange, Simply Apple, Simply Grapefruit, Fresca, Schweppes, Thums Up, Aquarius, Ayataka, BODYARMOR, Ciel, Costa, Crystal, Dasani, Fuze Tea, Georgia, glacéau smartwater, glacéau vitaminwater, Gold Peak, I LOHAS, Powerade, Topo Chico, Core Power, Del Valle, fairlife, innocent, Maaza, Minute Maid, Minute Maid Pulpy, Santa Clara, and dogadan brands. It operates through a network of independent bottling partners, distributors, wholesalers, and retailers, as well as through bottling and distribution operators. The Coca-Cola Company was founded in 1886 and is headquartered in Atlanta, Georgia.",
+  "targetMeanPrice": 94.43478,
+  "targetLowPrice": 75.0,
+  "targetHighPrice": 104.0,
+  "numberOfAnalystOpinions": 23,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.75,
+  "forwardPE": 24.980639,
+  "forwardEps": 3.52473,
+  "trailingEps": 3.33,
+  "earningsGrowth": 0.169,
+  "revenueGrowth": 0.067
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 104816000000.0,
+    "official": 104816000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 32169000000.0,
+    "official": 32169000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 13107000000.0,
+    "official": 13107000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 47941000000.0,
+    "official": 47941000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:48:17+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -202,7 +244,10 @@
    "goodwill_and_intangibles": 33631000000.0,
    "retained_earnings": 71019000000.0,
    "total_debt": 39149000000.0,
-   "shares_out": 4328000000.0
+   "shares_out": 4328000000.0,
+   "unusual_items": -1133000000.0,
+   "normalized_ebitda": 14961000000.0,
+   "normalized_income": 10469927000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -237,7 +282,10 @@
    "goodwill_and_intangibles": 32707000000.0,
    "retained_earnings": 73782000000.0,
    "total_debt": 41716000000.0,
-   "shares_out": 4308000000.0
+   "shares_out": 4308000000.0,
+   "unusual_items": -1787000000.0,
+   "normalized_ebitda": 17394000000.0,
+   "normalized_income": 12190062000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -272,7 +320,10 @@
    "goodwill_and_intangibles": 31440000000.0,
    "retained_earnings": 76054000000.0,
    "total_debt": 43514000000.0,
-   "shares_out": 4302000000.0
+   "shares_out": 4302000000.0,
+   "unusual_items": -1986000000.0,
+   "normalized_ebitda": 17803000000.0,
+   "normalized_income": 12264237276.47868
   },
   {
    "fy_end": "2025-12-31",
@@ -307,7 +358,10 @@
    "goodwill_and_intangibles": 28022000000.0,
    "retained_earnings": 80382000000.0,
    "total_debt": 43614000000.0,
-   "shares_out": 4301608845.0
+   "shares_out": 4301608845.0,
+   "unusual_items": 19000000.0,
+   "normalized_ebitda": 18683000000.0,
+   "normalized_income": 13091397862.232779
   }
  ]
 }

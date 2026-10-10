@@ -1,6 +1,6 @@
 {
  "ticker": "SMTC",
- "fetched_at": "2026-10-10T12:58:18+00:00",
+ "fetched_at": "2026-10-10T15:55:52+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 1920,
   "website": "https://www.semtech.com",
-  "longBusinessSummary": "Semtech Corporation provides semiconductor, Internet of Things systems, and cloud connectivity service solutions in the Asia- Pacific, North America, and Europe. The company operates in three segments: Signal Integrity, Analog Mixed Signal and Wireless, and IoT Systems and Connectivity. It provides signal integrity products, including a portfolio of optical and copper data communications and video transport products used in various infrastructure, and industrial applications; a portfolio of integrated circuits for data centers, enterprise networks, passive optical networks, wireless base station optical transceivers, and interface applications; and video products for broadcast applications, as well as video-over-IP technology for professional audio video applications. The company also offers analog mixed signal and wireless products; protection devices, such as filter and termination devices which protect electronic systems from voltage spikes; and designs, develops, manufactures, and markets radio frequency products used in industrial, medical, and communications applications, as well as specialized sensing products. In addition, it provides switching voltage regulators, combination switching and linear regulators, smart regulators, isolated switches, and wireless charging related products. Further, the company offers a portfolio of IoT systems and connectivity solutions, such as modules, gateways, routers, and connected services, including wireless connectivity and cloud-based services for industrial, medical, and communications applications. It serves original equipment manufacturers, solution providers, commercial applications, infrastructure, high-end consumer, and industrial end markets. The company sells its products through direct sales personnel, independent sales representative firms, and independent distributors. Semtech Corporation was incorporated in 1960 and is headquartered in Camarillo, California."
+  "longBusinessSummary": "Semtech Corporation provides semiconductor, Internet of Things systems, and cloud connectivity service solutions in the Asia- Pacific, North America, and Europe. The company operates in three segments: Signal Integrity, Analog Mixed Signal and Wireless, and IoT Systems and Connectivity. It provides signal integrity products, including a portfolio of optical and copper data communications and video transport products used in various infrastructure, and industrial applications; a portfolio of integrated circuits for data centers, enterprise networks, passive optical networks, wireless base station optical transceivers, and interface applications; and video products for broadcast applications, as well as video-over-IP technology for professional audio video applications. The company also offers analog mixed signal and wireless products; protection devices, such as filter and termination devices which protect electronic systems from voltage spikes; and designs, develops, manufactures, and markets radio frequency products used in industrial, medical, and communications applications, as well as specialized sensing products. In addition, it provides switching voltage regulators, combination switching and linear regulators, smart regulators, isolated switches, and wireless charging related products. Further, the company offers a portfolio of IoT systems and connectivity solutions, such as modules, gateways, routers, and connected services, including wireless connectivity and cloud-based services for industrial, medical, and communications applications. It serves original equipment manufacturers, solution providers, commercial applications, infrastructure, high-end consumer, and industrial end markets. The company sells its products through direct sales personnel, independent sales representative firms, and independent distributors. Semtech Corporation was incorporated in 1960 and is headquartered in Camarillo, California.",
+  "targetMeanPrice": 214.64285,
+  "targetLowPrice": 155.0,
+  "targetHighPrice": 300.0,
+  "numberOfAnalystOpinions": 14,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.3125,
+  "forwardPE": 31.977573,
+  "forwardEps": 5.85723,
+  "trailingEps": 1.51,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.327
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-01-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 1410337000.0,
+    "official": 1410337000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 549718000.0,
+    "official": 549718000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -40376000.0,
+    "official": -40376000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1049975000.0,
+    "official": 1049975000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:55:52+00:00",
  "years": [
   {
    "fy_end": "2020-01-26",
@@ -204,7 +246,10 @@
    "goodwill_and_intangibles": 1496805000.0,
    "retained_earnings": 858240000.0,
    "total_debt": 1340070000.0,
-   "shares_out": 63870581.0
+   "shares_out": 63870581.0,
+   "unusual_items": 628000.0,
+   "normalized_ebitda": 125919000.0,
+   "normalized_income": 60890810.353397
   },
   {
    "fy_end": "2024-01-28",
@@ -239,7 +284,10 @@
    "goodwill_and_intangibles": 576793000.0,
    "retained_earnings": -233790000.0,
    "total_debt": 1371039000.0,
-   "shares_out": 64415861.0
+   "shares_out": 64415861.0,
+   "unusual_items": -812732000.0,
+   "normalized_ebitda": -50138000.0,
+   "normalized_income": -449971720.0
   },
   {
    "fy_end": "2025-01-26",
@@ -274,7 +322,10 @@
    "goodwill_and_intangibles": 566202000.0,
    "retained_earnings": -395686000.0,
    "total_debt": 551527000.0,
-   "shares_out": 86272439.0
+   "shares_out": 86272439.0,
+   "unusual_items": -145425000.0,
+   "normalized_ebitda": 92788000.0,
+   "normalized_income": -33928884.173843
   },
   {
    "fy_end": "2026-01-25",
@@ -309,7 +360,10 @@
    "goodwill_and_intangibles": 497940000.0,
    "retained_earnings": -436062000.0,
    "total_debt": 491234000.0,
-   "shares_out": 92668555.0
+   "shares_out": 92668555.0,
+   "unusual_items": -120232000.0,
+   "normalized_ebitda": 159726000.0,
+   "normalized_income": 31763200.0
   }
  ]
 }

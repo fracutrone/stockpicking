@@ -1,6 +1,6 @@
 {
  "ticker": "USA.L",
- "fetched_at": "2026-10-10T12:24:20+00:00",
+ "fetched_at": "2026-10-10T15:27:39+00:00",
  "region": "Europa",
  "statement_currency": "GBp",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -49,8 +60,15 @@
   "equity": "yahoo",
   "receivables": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T15:27:39+00:00",
  "years": [
   {
    "fy_end": "2023-05-31",
@@ -70,7 +88,8 @@
    "equity": 568599000.0,
    "receivables": 657000.0,
    "total_debt": 40342000.0,
-   "shares_out": 305153700.0
+   "shares_out": 305153700.0,
+   "normalized_income": -15587000.0
   },
   {
    "fy_end": "2024-05-31",
@@ -90,7 +109,8 @@
    "equity": 643933000.0,
    "receivables": 605000.0,
    "total_debt": 39271000.0,
-   "shares_out": 297228700.0
+   "shares_out": 297228700.0,
+   "normalized_income": 89884000.0
   },
   {
    "fy_end": "2025-05-31",
@@ -110,7 +130,8 @@
    "equity": 743790000.0,
    "receivables": 754000.0,
    "total_debt": 37078000.0,
-   "shares_out": 281228700.0
+   "shares_out": 281228700.0,
+   "normalized_income": 135361000.0
   },
   {
    "fy_end": "2026-05-31",
@@ -130,7 +151,8 @@
    "equity": 958431000.0,
    "receivables": 5894000.0,
    "total_debt": 37095000.0,
-   "shares_out": 276723700.0
+   "shares_out": 276723700.0,
+   "normalized_income": 226562000.0
   }
  ]
 }

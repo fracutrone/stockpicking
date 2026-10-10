@@ -1,6 +1,6 @@
 {
  "ticker": "FDR.MC",
- "fetched_at": "2026-10-10T11:57:41+00:00",
+ "fetched_at": "2026-10-10T14:47:52+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "MCE",
   "fullTimeEmployees": 7336,
   "website": "https://www.fluidra.com",
-  "longBusinessSummary": "Fluidra, S.A., together with its subsidiaries, designs, manufactures, distributes, and markets accessories and machinery for swimming-pools, irrigation and water treatment, and residential and commercial pool purification market worldwide. It offers basic equipment, which includes pumps, valves, filters, heaters, ladders, showers, grates, lights, and cleaning accessories; specialized equipment, such as robotic cleaners, pool covers, fire and water features, slides, diving boards, and connected products; spare parts; and above-ground pools and ponds. The company also provides products and services for public-use aquatic facilities, including hotel and resort swimming pools, water parks, municipal swimming pools, competition pools, fountains, lagoons, and aquariums; and wellness products comprising saunas, steam baths, sensory showers, and Nordic baths. In addition, it offers systems for maintaining water quality in residential pools, such as disinfection systems comprising salt chlorinators and UV equipment, pH regulators, and pumps and other accessories; and chemical products. Further, the company provides fluid handling and control systems and components, such as pipes, valves, and thermoplastic made accessories designed to carry fluids. Additionally, it offers irrigation accessories for landscaping around pools, and fluid handling and flow control products for industrial use. It sells its products under the AstralPool, Zodiac, Jandy, Polaris, Gre, Cepex, CtxPro, S.R. Smith, CMP, Piscine Laghetto, AquaForte, Certikin, BARACUDA, Cover-Pools, BAC pool systems, taylor, and Grand Effects brand names. The company was formerly known as Aquaria de Inv. Corp., S.L. and changed its name to Fluidra, S.A. in September 2007. Fluidra, S.A. was founded in 1969 and is headquartered in Sant Cugat del Vallès, Spain."
+  "longBusinessSummary": "Fluidra, S.A., together with its subsidiaries, designs, manufactures, distributes, and markets accessories and machinery for swimming-pools, irrigation and water treatment, and residential and commercial pool purification market worldwide. It offers basic equipment, which includes pumps, valves, filters, heaters, ladders, showers, grates, lights, and cleaning accessories; specialized equipment, such as robotic cleaners, pool covers, fire and water features, slides, diving boards, and connected products; spare parts; and above-ground pools and ponds. The company also provides products and services for public-use aquatic facilities, including hotel and resort swimming pools, water parks, municipal swimming pools, competition pools, fountains, lagoons, and aquariums; and wellness products comprising saunas, steam baths, sensory showers, and Nordic baths. In addition, it offers systems for maintaining water quality in residential pools, such as disinfection systems comprising salt chlorinators and UV equipment, pH regulators, and pumps and other accessories; and chemical products. Further, the company provides fluid handling and control systems and components, such as pipes, valves, and thermoplastic made accessories designed to carry fluids. Additionally, it offers irrigation accessories for landscaping around pools, and fluid handling and flow control products for industrial use. It sells its products under the AstralPool, Zodiac, Jandy, Polaris, Gre, Cepex, CtxPro, S.R. Smith, CMP, Piscine Laghetto, AquaForte, Certikin, BARACUDA, Cover-Pools, BAC pool systems, taylor, and Grand Effects brand names. The company was formerly known as Aquaria de Inv. Corp., S.L. and changed its name to Fluidra, S.A. in September 2007. Fluidra, S.A. was founded in 1969 and is headquartered in Sant Cugat del Vallès, Spain.",
+  "targetMeanPrice": 26.03067,
+  "targetLowPrice": 19.0,
+  "targetHighPrice": 31.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.6,
+  "forwardPE": 10.996832,
+  "forwardEps": 1.55954,
+  "trailingEps": 0.88,
+  "earningsGrowth": -0.093,
+  "revenueGrowth": 0.043
  },
  "governance": {
   "ceo": {
@@ -77,8 +88,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF ES",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3637307000.0,
+    "official": 3637079000.0,
+    "diff": 6.3e-05
+   },
+   "equity": {
+    "yahoo": 1647183000.0,
+    "official": 1647183000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 138068000.0,
+    "official": 138068000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2136402000.0,
+    "official": 2160542000.0,
+    "diff": 0.011173
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T14:47:52+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -113,7 +156,10 @@
    "goodwill_and_intangibles": 2253251000.0,
    "retained_earnings": 296490000.0,
    "total_debt": 1460070000.0,
-   "shares_out": 186336412.0
+   "shares_out": 186336412.0,
+   "unusual_items": 4583000.0,
+   "normalized_ebitda": 439966000.0,
+   "normalized_income": 156583974.510579
   },
   {
    "fy_end": "2023-12-31",
@@ -147,7 +193,10 @@
    "goodwill_and_intangibles": 2173593000.0,
    "retained_earnings": 180296000.0,
    "total_debt": 1326479000.0,
-   "shares_out": 189820305.0
+   "shares_out": 189820305.0,
+   "unusual_items": -10898000.0,
+   "normalized_ebitda": 394415000.0,
+   "normalized_income": 121879421.830737
   },
   {
    "fy_end": "2024-12-31",
@@ -181,7 +230,10 @@
    "goodwill_and_intangibles": 2214495000.0,
    "retained_earnings": 228388000.0,
    "total_debt": 1319930000.0,
-   "shares_out": 189843458.0
+   "shares_out": 189843458.0,
+   "unusual_items": -1539000.0,
+   "normalized_ebitda": 419155000.0,
+   "normalized_income": 139200253.639513
   },
   {
    "fy_end": "2025-12-31",
@@ -215,7 +267,10 @@
    "goodwill_and_intangibles": 2006651000.0,
    "retained_earnings": 293860000.0,
    "total_debt": 1224108000.0,
-   "shares_out": 189890896.0
+   "shares_out": 189890896.0,
+   "unusual_items": 3316000.0,
+   "normalized_ebitda": 460137000.0,
+   "normalized_income": 173584367.615817
   }
  ]
 }

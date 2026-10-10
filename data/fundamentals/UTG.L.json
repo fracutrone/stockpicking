@@ -1,6 +1,6 @@
 {
  "ticker": "UTG.L",
- "fetched_at": "2026-10-10T12:24:26+00:00",
+ "fetched_at": "2026-10-10T15:27:49+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 1917,
   "website": "https://www.unitegroup.com",
-  "longBusinessSummary": "Unite Group PLC is the UK's largest owner, manager and developer of purpose-built student accommodation (PBSA) serving the country's world-leading higher education sector. Its property portfolio includes the Unite Students and Hello Student brands. Together, the Group provides homes for 72,000 students across 207 properties in 29 leading university towns and cities. The firm currently partners with over 60 universities across the UK. The people are driven by a shared purpose, (to provide a home for success for the students who live with us). The firm's accommodation is safe, secure, high quality and affordable, with students living predominantly in en-suite study bedrooms. Rents are all inclusive, covering bills, insurance, 24 hour security and high speed Wi Fi. Unite Group are committed to raising standards across the student accommodation sector for their customers, investors and employees. Their Sustainability Strategy includes a commitment to become net zero carbon across our operations and developments by 2030. Unite Group PLC was incorporated in 1991 in United Kingdom."
+  "longBusinessSummary": "Unite Group PLC is the UK's largest owner, manager and developer of purpose-built student accommodation (PBSA) serving the country's world-leading higher education sector. Its property portfolio includes the Unite Students and Hello Student brands. Together, the Group provides homes for 72,000 students across 207 properties in 29 leading university towns and cities. The firm currently partners with over 60 universities across the UK. The people are driven by a shared purpose, (to provide a home for success for the students who live with us). The firm's accommodation is safe, secure, high quality and affordable, with students living predominantly in en-suite study bedrooms. Rents are all inclusive, covering bills, insurance, 24 hour security and high speed Wi Fi. Unite Group are committed to raising standards across the student accommodation sector for their customers, investors and employees. Their Sustainability Strategy includes a commitment to become net zero carbon across our operations and developments by 2030. Unite Group PLC was incorporated in 1991 in United Kingdom.",
+  "targetMeanPrice": 555.067,
+  "targetLowPrice": 430.00003,
+  "targetHighPrice": 640.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.33333,
+  "forwardPE": 10.10651,
+  "forwardEps": 0.41874,
+  "trailingEps": -0.98,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.124
  },
  "governance": {
   "ceo": {
@@ -68,8 +79,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 6300700000.0,
+    "official": 6300700000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4733800000.0,
+    "official": 4733800000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 97600000.0,
+    "official": 97600000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 332800000.0,
+    "official": 332800000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:27:49+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -101,7 +144,10 @@
    "goodwill_and_intangibles": 12200000.0,
    "retained_earnings": 1479000000.0,
    "total_debt": 1358200000.0,
-   "shares_out": 400317225.0
+   "shares_out": 400317225.0,
+   "unusual_items": 70700000.0,
+   "normalized_ebitda": 330700000.0,
+   "normalized_income": 279820090.934925
   },
   {
    "fy_end": "2023-12-31",
@@ -133,7 +179,10 @@
    "goodwill_and_intangibles": 9300000.0,
    "retained_earnings": 1466000000.0,
    "total_debt": 1165400000.0,
-   "shares_out": 435644588.0
+   "shares_out": 435644588.0,
+   "unusual_items": -17200000.0,
+   "normalized_ebitda": 157800000.0,
+   "normalized_income": 116432000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -165,7 +214,10 @@
    "goodwill_and_intangibles": 10400000.0,
    "retained_earnings": 1770800000.0,
    "total_debt": 1346600000.0,
-   "shares_out": 488588176.0
+   "shares_out": 488588176.0,
+   "unusual_items": -3500000.0,
+   "normalized_ebitda": 485500000.0,
+   "normalized_income": 445382657.657658
   },
   {
    "fy_end": "2025-12-31",
@@ -197,7 +249,10 @@
    "goodwill_and_intangibles": 12800000.0,
    "retained_earnings": 1693800000.0,
    "total_debt": 1330500000.0,
-   "shares_out": 489852896.0
+   "shares_out": 489852896.0,
+   "unusual_items": -34500000.0,
+   "normalized_ebitda": 162000000.0,
+   "normalized_income": 132064687.819857
   }
  ]
 }

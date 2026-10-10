@@ -1,6 +1,6 @@
 {
  "ticker": "DHR",
- "fetched_at": "2026-10-10T12:43:09+00:00",
+ "fetched_at": "2026-10-10T15:41:36+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 58000,
   "website": "https://www.danaher.com",
-  "longBusinessSummary": "Danaher Corporation designs, manufactures, and markets professional, medical, research, and industrial products and services in the United States, China, and internationally. The company operates through Biotechnology, Life Sciences, and Diagnostics segments. The Biotechnology segment provides technologies, consumables, services, and solutions that advance, accelerate, and integrate the development and manufacture of therapeutics; cell line and cell culture media development services; cell culture media, process liquids and buffers for manufacturing, chromatography resins, filtration technologies, and aseptic fill finish; single-use hardware, consumables, and services, such as the design and installation of full manufacturing suites; lab filtration, separation, and purification; lab-scale protein purification and analytical tools; reagents, membranes, and services for diagnostic and assay development; and healthcare filtration solutions. The Life Sciences segment provides mass spectrometers; bioanalytical measurement systems; flow cytometry, genomics, lab automation, centrifugation, liquid handling automation instruments, antibodies and reagents, and particle counting and characterization; genome sample preparation; microscopes; protein consumables; filtration products; and genomic medicines, such as custom nucleic acid products, and plasmid DNA, RNA, and proteins under the ABCAM, ALDEVRON, BECKMAN COULTER, GENEDATA, IDT, LEICA MICROSYSTEMS, MOLECULAR DEVICES, PALL, PHENOMENEX, and SCIEX brands. The Diagnostics segment offers clinical instruments, consumables, software, and services that hospitals, physicians' offices, reference laboratories and other critical care settings use to diagnose disease and make treatment decisions. The company was formerly known as Diversified Mortgage Investors, Inc. and changed its name to Danaher Corporation in 1984. Danaher Corporation was incorporated in 1969 and is headquartered in Washington, the District Of Columbia."
+  "longBusinessSummary": "Danaher Corporation designs, manufactures, and markets professional, medical, research, and industrial products and services in the United States, China, and internationally. The company operates through Biotechnology, Life Sciences, and Diagnostics segments. The Biotechnology segment provides technologies, consumables, services, and solutions that advance, accelerate, and integrate the development and manufacture of therapeutics; cell line and cell culture media development services; cell culture media, process liquids and buffers for manufacturing, chromatography resins, filtration technologies, and aseptic fill finish; single-use hardware, consumables, and services, such as the design and installation of full manufacturing suites; lab filtration, separation, and purification; lab-scale protein purification and analytical tools; reagents, membranes, and services for diagnostic and assay development; and healthcare filtration solutions. The Life Sciences segment provides mass spectrometers; bioanalytical measurement systems; flow cytometry, genomics, lab automation, centrifugation, liquid handling automation instruments, antibodies and reagents, and particle counting and characterization; genome sample preparation; microscopes; protein consumables; filtration products; and genomic medicines, such as custom nucleic acid products, and plasmid DNA, RNA, and proteins under the ABCAM, ALDEVRON, BECKMAN COULTER, GENEDATA, IDT, LEICA MICROSYSTEMS, MOLECULAR DEVICES, PALL, PHENOMENEX, and SCIEX brands. The Diagnostics segment offers clinical instruments, consumables, software, and services that hospitals, physicians' offices, reference laboratories and other critical care settings use to diagnose disease and make treatment decisions. The company was formerly known as Diversified Mortgage Investors, Inc. and changed its name to Danaher Corporation in 1984. Danaher Corporation was incorporated in 1969 and is headquartered in Washington, the District Of Columbia.",
+  "targetMeanPrice": 241.0,
+  "targetLowPrice": 200.0,
+  "targetHighPrice": 310.0,
+  "numberOfAnalystOpinions": 22,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.44,
+  "forwardPE": 23.636066,
+  "forwardEps": 9.29977,
+  "trailingEps": 5.61,
+  "earningsGrowth": 0.597,
+  "revenueGrowth": 0.055
  },
  "governance": {
   "top_institutions": [
@@ -77,8 +88,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 83464000000.0,
+    "official": 83464000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 52534000000.0,
+    "official": 52534000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 3614000000.0,
+    "official": 3614000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 24568000000.0,
+    "official": 24568000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:41:36+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -196,7 +238,10 @@
    "goodwill_and_intangibles": 57097000000.0,
    "retained_earnings": 39205000000.0,
    "total_debt": 19677000000.0,
-   "shares_out": 728300000.0
+   "shares_out": 728300000.0,
+   "unusual_items": -271000000.0,
+   "normalized_ebitda": 9753000000.0,
+   "normalized_income": 6568106000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -230,7 +275,10 @@
    "goodwill_and_intangibles": 62354000000.0,
    "retained_earnings": 41074000000.0,
    "total_debt": 18402000000.0,
-   "shares_out": 739200000.0
+   "shares_out": 739200000.0,
+   "unusual_items": -182000000.0,
+   "normalized_ebitda": 7678000000.0,
+   "normalized_income": 4373334000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -264,7 +312,10 @@
    "goodwill_and_intangibles": 59065000000.0,
    "retained_earnings": 44188000000.0,
    "total_debt": 16005000000.0,
-   "shares_out": 719100000.0
+   "shares_out": 719100000.0,
+   "unusual_items": -57000000.0,
+   "normalized_ebitda": 7333000000.0,
+   "normalized_income": 3946823000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -298,7 +349,10 @@
    "goodwill_and_intangibles": 60968000000.0,
    "retained_earnings": 46891000000.0,
    "total_debt": 18418000000.0,
-   "shares_out": 706900000.0
+   "shares_out": 706900000.0,
+   "unusual_items": -228000000.0,
+   "normalized_ebitda": 7173000000.0,
+   "normalized_income": 3793800000.0
   }
  ]
 }

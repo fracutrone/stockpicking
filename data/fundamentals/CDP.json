@@ -1,6 +1,6 @@
 {
  "ticker": "CDP",
- "fetched_at": "2026-10-10T12:40:16+00:00",
+ "fetched_at": "2026-10-10T15:39:09+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 430,
   "website": "https://www.copt.com",
-  "longBusinessSummary": "COPT Defense Properties, an S&P MidCap 400 Company, is a self-managed REIT focused on owning, operating and developing properties in locations proximate to, or sometimes containing, key U.S. Government defense installations and missions (referred to as its Defense/IT Portfolio). The Company's tenants include the USG and their defense contractors, who are primarily engaged in priority national security activities, and who generally require mission-critical and high security property enhancements. As of June 30, 2026, the Company's Defense/IT Portfolio of 202 properties, including 24 owned through unconsolidated joint ventures, encompassed 23.3 million square feet and was 96.4% leased. COPT Defense Properties was incorporated in 1988 and is based in Columbia, United States."
+  "longBusinessSummary": "COPT Defense Properties, an S&P MidCap 400 Company, is a self-managed REIT focused on owning, operating and developing properties in locations proximate to, or sometimes containing, key U.S. Government defense installations and missions (referred to as its Defense/IT Portfolio). The Company's tenants include the USG and their defense contractors, who are primarily engaged in priority national security activities, and who generally require mission-critical and high security property enhancements. As of June 30, 2026, the Company's Defense/IT Portfolio of 202 properties, including 24 owned through unconsolidated joint ventures, encompassed 23.3 million square feet and was 96.4% leased. COPT Defense Properties was incorporated in 1988 and is based in Columbia, United States.",
+  "targetMeanPrice": 40.375,
+  "targetLowPrice": 38.0,
+  "targetHighPrice": 44.0,
+  "numberOfAnalystOpinions": 8,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.75,
+  "forwardPE": 22.931505,
+  "forwardEps": 1.46,
+  "trailingEps": 1.44,
+  "earningsGrowth": 0.192,
+  "revenueGrowth": 0.039
  },
  "governance": {
   "ceo": {
@@ -82,8 +93,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 4701790000.0,
+    "official": 4701790000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1514775000.0,
+    "official": 1514775000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 152315000.0,
+    "official": 159534000.0,
+    "diff": 0.045251
+   },
+   "revenue": {
+    "yahoo": 763923000.0,
+    "official": 763923000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:39:09+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -170,7 +212,10 @@
    "goodwill_and_intangibles": 9959000.0,
    "retained_earnings": -807508000.0,
    "total_debt": 2231794000.0,
-   "shares_out": 112423893.0
+   "shares_out": 112423893.0,
+   "unusual_items": 18641000.0,
+   "normalized_ebitda": 335822000.0,
+   "normalized_income": 124870662.990327
   },
   {
    "fy_end": "2023-12-31",
@@ -201,7 +246,10 @@
    "intangibles": 6852000.0,
    "retained_earnings": -1009318000.0,
    "total_debt": 2416287000.0,
-   "shares_out": 112555352.0
+   "shares_out": 112555352.0,
+   "unusual_items": -203405000.0,
+   "normalized_ebitda": 352183000.0,
+   "normalized_income": 87220950.0
   },
   {
    "fy_end": "2024-12-31",
@@ -232,7 +280,10 @@
    "intangibles": 10698000.0,
    "retained_earnings": -1003401000.0,
    "total_debt": 2391755000.0,
-   "shares_out": 112703460.0
+   "shares_out": 112703460.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 384018000.0,
+   "normalized_income": 138929000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -263,7 +314,10 @@
    "intangibles": 19773000.0,
    "retained_earnings": -988957000.0,
    "total_debt": 2767834000.0,
-   "shares_out": 113210642.0
+   "shares_out": 113210642.0,
+   "unusual_items": 3284000.0,
+   "normalized_ebitda": 406137000.0,
+   "normalized_income": 149050378.91713
   }
  ]
 }

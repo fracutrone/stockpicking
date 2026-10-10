@@ -1,6 +1,6 @@
 {
  "ticker": "GNC.L",
- "fetched_at": "2026-10-10T12:00:21+00:00",
+ "fetched_at": "2026-10-10T14:52:00+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 28000,
   "website": "https://www.greencore.com",
-  "longBusinessSummary": "Greencore Group plc, together with its subsidiaries, manufactures and sells convenience food products in the United Kingdom and Ireland. The company offers sandwiches, salads, sushi, chilled snacking, chilled ready meals, chilled soups and sauces, chilled quiche, ambient sauces and pickles, and frozen Yorkshire Puddings. It is also involved in the finance activities; pension funding; food processor; and property business. The company supplies its products to supermarkets, convenience and travel retail outlets, discounters, coffee shops, foodservice, and other retailers. Greencore Group plc was incorporated in 1991 and is headquartered in Dublin, Ireland."
+  "longBusinessSummary": "Greencore Group plc, together with its subsidiaries, manufactures and sells convenience food products in the United Kingdom and Ireland. The company offers sandwiches, salads, sushi, chilled snacking, chilled ready meals, chilled soups and sauces, chilled quiche, ambient sauces and pickles, and frozen Yorkshire Puddings. It is also involved in the finance activities; pension funding; food processor; and property business. The company supplies its products to supermarkets, convenience and travel retail outlets, discounters, coffee shops, foodservice, and other retailers. Greencore Group plc was incorporated in 1991 and is headquartered in Dublin, Ireland.",
+  "targetMeanPrice": 325.125,
+  "targetLowPrice": 265.0,
+  "targetHighPrice": 360.0,
+  "numberOfAnalystOpinions": 8,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.55556,
+  "forwardPE": 10.845471,
+  "forwardEps": 0.23549,
+  "trailingEps": 0.02,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.43
  },
  "governance": {
   "ceo": {
@@ -70,8 +81,25 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2024-09-30",
+  "items": {
+   "net_income": {
+    "yahoo": 46300000.0,
+    "official": 46300000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-09-30"
+ },
+ "info_at": "2026-10-10T14:52:00+00:00",
  "years": [
   {
    "fy_end": "2022-09-30",
@@ -105,7 +133,10 @@
    "goodwill_and_intangibles": 468100000.0,
    "retained_earnings": 242900000.0,
    "total_debt": 327600000.0,
-   "shares_out": 516836560.0
+   "shares_out": 516836560.0,
+   "unusual_items": -16700000.0,
+   "normalized_ebitda": 129400000.0,
+   "normalized_income": 45827000.0
   },
   {
    "fy_end": "2023-09-30",
@@ -139,7 +170,10 @@
    "goodwill_and_intangibles": 461100000.0,
    "retained_earnings": 244500000.0,
    "total_debt": 315500000.0,
-   "shares_out": 483453842.0
+   "shares_out": 483453842.0,
+   "unusual_items": -12200000.0,
+   "normalized_ebitda": 137600000.0,
+   "normalized_income": 45538000.0
   },
   {
    "fy_end": "2024-09-30",
@@ -173,7 +207,10 @@
    "goodwill_and_intangibles": 456100000.0,
    "retained_earnings": 238900000.0,
    "total_debt": 250300000.0,
-   "shares_out": 449314268.0
+   "shares_out": 449314268.0,
+   "unusual_items": -14400000.0,
+   "normalized_ebitda": 162200000.0,
+   "normalized_income": 57140975.609756
   },
   {
    "fy_end": "2025-09-30",
@@ -207,7 +244,10 @@
    "goodwill_and_intangibles": 452800000.0,
    "retained_earnings": 282700000.0,
    "total_debt": 207700000.0,
-   "shares_out": 431991232.0
+   "shares_out": 431991232.0,
+   "unusual_items": -29900000.0,
+   "normalized_ebitda": 188600000.0,
+   "normalized_income": 79263396.226415
   }
  ]
 }

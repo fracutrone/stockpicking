@@ -1,6 +1,6 @@
 {
  "ticker": "TBCG.L",
- "fetched_at": "2026-10-10T12:21:31+00:00",
+ "fetched_at": "2026-10-10T15:23:50+00:00",
  "region": "Europa",
  "statement_currency": "GEL",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 14000,
   "website": "https://www.tbcbankgroup.com",
-  "longBusinessSummary": "TBC Bank Group PLC, through its subsidiaries, provides banking, leasing, insurance, brokerage, and card processing services to corporate and individual customers in Georgia, Azerbaijan, and Uzbekistan. The company operates through Georgian Financial Services; Uzbekistan Operations; and Other Operations segments. It offers banking business solutions, such as deposit and loans; and other financial services, including non-health insurance and leasing services; asset finance solutions; advisory services; and financial leasing, operating leasing, and sale and leasebacks. The company also offers digital banking services comprising cash loans, deposits, debit cards, remittances, gamification, installment/POS loans, daily banking, credit cards, MSME, and buy now, pay later (BNPL). In addition, it provides payment solutions, such as P2P transfers, utility and government payments, PFM, and QR payments, as well as Payme travel, goals, tickets, and subscription. Further, the company offers brokerage and research solutions, leasing, payment processing, asset management, healthcare e-commerce, retail trade and leasing, PR and marketing, education, data analytics, computer programming, investment vehicle, ecosystem, and digital banking platform, as well as investment banking, financial, customer experience servicing, software services, and postal services. TBC Bank Group PLC was founded in 1992 and is based in London, the United Kingdom."
+  "longBusinessSummary": "TBC Bank Group PLC, through its subsidiaries, provides banking, leasing, insurance, brokerage, and card processing services to corporate and individual customers in Georgia, Azerbaijan, and Uzbekistan. The company operates through Georgian Financial Services; Uzbekistan Operations; and Other Operations segments. It offers banking business solutions, such as deposit and loans; and other financial services, including non-health insurance and leasing services; asset finance solutions; advisory services; and financial leasing, operating leasing, and sale and leasebacks. The company also offers digital banking services comprising cash loans, deposits, debit cards, remittances, gamification, installment/POS loans, daily banking, credit cards, MSME, and buy now, pay later (BNPL). In addition, it provides payment solutions, such as P2P transfers, utility and government payments, PFM, and QR payments, as well as Payme travel, goals, tickets, and subscription. Further, the company offers brokerage and research solutions, leasing, payment processing, asset management, healthcare e-commerce, retail trade and leasing, PR and marketing, education, data analytics, computer programming, investment vehicle, ecosystem, and digital banking platform, as well as investment banking, financial, customer experience servicing, software services, and postal services. TBC Bank Group PLC was founded in 1992 and is based in London, the United Kingdom.",
+  "targetMeanPrice": 5948.6016,
+  "targetLowPrice": 5705.243,
+  "targetHighPrice": 6187.8276,
+  "numberOfAnalystOpinions": 5,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 1.818387,
+  "forwardEps": 26.65,
+  "trailingEps": 7.26,
+  "earningsGrowth": 0.128,
+  "revenueGrowth": 0.108
  },
  "governance": {
   "ceo": {
@@ -62,8 +73,34 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 43940489000.0,
+    "official": 43940489000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 6175465000.0,
+    "official": 6175465000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1397337000.0,
+    "official": 1397337000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:23:50+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -89,7 +126,9 @@
    "goodwill_and_intangibles": 443162000.0,
    "retained_earnings": 3745191000.0,
    "total_debt": 2036491000.0,
-   "shares_out": 54668490.0
+   "shares_out": 54668490.0,
+   "unusual_items": -2361000.0,
+   "normalized_income": 997106360.820797
   },
   {
    "fy_end": "2023-12-31",
@@ -115,7 +154,9 @@
    "goodwill_and_intangibles": 531347000.0,
    "retained_earnings": 4433496000.0,
    "total_debt": 4800081000.0,
-   "shares_out": 54260620.0
+   "shares_out": 54260620.0,
+   "unusual_items": -3231000.0,
+   "normalized_income": 1126941409.58051
   },
   {
    "fy_end": "2024-12-31",
@@ -141,7 +182,9 @@
    "goodwill_and_intangibles": 649031000.0,
    "retained_earnings": 5286738000.0,
    "total_debt": 6135063000.0,
-   "shares_out": 55419665.0
+   "shares_out": 55419665.0,
+   "unusual_items": -18141000.0,
+   "normalized_income": 1299413971.579285
   },
   {
    "fy_end": "2025-12-31",
@@ -167,7 +210,9 @@
    "goodwill_and_intangibles": 839786000.0,
    "retained_earnings": 6077089000.0,
    "total_debt": 7054530000.0,
-   "shares_out": 54932350.0
+   "shares_out": 54932350.0,
+   "unusual_items": -15531000.0,
+   "normalized_income": 1410520205.215371
   }
  ]
 }

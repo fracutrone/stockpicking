@@ -1,6 +1,6 @@
 {
  "ticker": "ITV.L",
- "fetched_at": "2026-10-10T12:04:15+00:00",
+ "fetched_at": "2026-10-10T14:58:58+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 6866,
   "website": "https://www.itvplc.com",
-  "longBusinessSummary": "ITV plc, a vertically integrated production, broadcasting, and streaming company, which creates, owns, and distributes content on various platforms worldwide. It operates through ITV Studios and Media & Entertainment segments. The ITV Studios segment creates and produces original scripted and unscripted content for a diverse customer base of global streamers, major networks, and cable channels, as well as local free to air and pay TV broadcasters, and operators across its production bases. The Media & Entertainment segment broadcasts and streams various contents on its family of free-to-air TV channels, as well as through ITVX and third-party partners; and offers television advertising services, online advertising, and advertising around its content on YouTube. ITV plc was founded in 1955 and is based in London, the United Kingdom."
+  "longBusinessSummary": "ITV plc, a vertically integrated production, broadcasting, and streaming company, which creates, owns, and distributes content on various platforms worldwide. It operates through ITV Studios and Media & Entertainment segments. The ITV Studios segment creates and produces original scripted and unscripted content for a diverse customer base of global streamers, major networks, and cable channels, as well as local free to air and pay TV broadcasters, and operators across its production bases. The Media & Entertainment segment broadcasts and streams various contents on its family of free-to-air TV channels, as well as through ITVX and third-party partners; and offers television advertising services, online advertising, and advertising around its content on YouTube. ITV plc was founded in 1955 and is based in London, the United Kingdom.",
+  "targetMeanPrice": 79.0,
+  "targetLowPrice": 64.0,
+  "targetHighPrice": 90.0,
+  "numberOfAnalystOpinions": 6,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.83333,
+  "forwardPE": 7.965715,
+  "forwardEps": 0.08342,
+  "trailingEps": 0.06,
+  "earningsGrowth": 0.267,
+  "revenueGrowth": 0.011
  },
  "governance": {
   "ceo": {
@@ -67,8 +78,35 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "equity": {
+    "yahoo": 1798000000.0,
+    "official": 1798000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 220000000.0,
+    "official": 220000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3511000000.0,
+    "official": 3511000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:58:58+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -99,7 +137,10 @@
    "goodwill_and_intangibles": 1626000000.0,
    "retained_earnings": 928000000.0,
    "total_debt": 962000000.0,
-   "shares_out": 4010821815.0
+   "shares_out": 4010821815.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 656000000.0,
+   "normalized_income": 428000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -130,7 +171,10 @@
    "goodwill_and_intangibles": 1556000000.0,
    "retained_earnings": 919000000.0,
    "total_debt": 878000000.0,
-   "shares_out": 4023894028.0
+   "shares_out": 4023894028.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 344000000.0,
+   "normalized_income": 210000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -161,7 +205,10 @@
    "goodwill_and_intangibles": 1533000000.0,
    "retained_earnings": 923000000.0,
    "total_debt": 838000000.0,
-   "shares_out": 3766295698.0
+   "shares_out": 3766295698.0,
+   "unusual_items": 212000000.0,
+   "normalized_ebitda": 522000000.0,
+   "normalized_income": 242794625.71977
   },
   {
    "fy_end": "2025-12-31",
@@ -191,7 +238,10 @@
    "goodwill_and_intangibles": 1531000000.0,
    "retained_earnings": 943000000.0,
    "total_debt": 876000000.0,
-   "shares_out": 3739962358.0
+   "shares_out": 3739962358.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 473000000.0,
+   "normalized_income": 220000000.0
   }
  ]
 }

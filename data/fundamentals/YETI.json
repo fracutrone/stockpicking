@@ -1,6 +1,6 @@
 {
  "ticker": "YETI",
- "fetched_at": "2026-10-10T13:03:12+00:00",
+ "fetched_at": "2026-10-10T16:00:30+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 1390,
   "website": "https://www.yeti.com",
-  "longBusinessSummary": "YETI Holdings, Inc. designs, retails, and distributes outdoor products under the YETI brand name in the United States, Canada, Australia, New Zealand, Europe, and Japan. It offers hard coolers, including the YETI Tundra, YETI Roadie, YETI V Series hard coolers, YETI TANK ice bucket, and YETI Silo 6G water cooler, as well as related accessories comprising locks, dry baskets, beverage holders, and dividers. The company also provides soft cooler bags, such as under the Hopper collection and Daytrip collection; duffel bags, backpacks, luggage, and packing cubes comprising the Panga collection, Crossroads collection, Camino Caryall, SideKick Dry gear case, Cayo collection, and Ranchero collection; cargo and storage solutions that include the LoadOut GoBox, LoadOut bucket, and LoadOut swivel seat names; and outdoor living products, which consist of Trailhead camp chair, Lowlands blanket, Boomer dog bowls, Hondo beach chair, can crusher, and the YETI Fire Pit. In addition, it offers bottles and jugs under the Rambler, Yonder, and Silo collections; cups, mugs, and tumblers under the Rambler collection; Rambler products, including tableware, coffeeware, barware, and containers, as well as insulated bowls and food jars, ceramic-lined mugs and stackable cups, French presses, pitchers, wine chillers, wine tumblers, the beverage bucket, colsters, and cocktail shakers; and cookware. Further, the company provides apparel, such as hats, shirts, and sweatshirts, as well as ice substitutes and other YETI branded products. It sells its products through its direct-to-consumer channel, including websites, corporate sales programs, and retail stores, as well as through its wholesale channel. YETI Holdings, Inc. was founded in 2006 and is headquartered in Austin, Texas."
+  "longBusinessSummary": "YETI Holdings, Inc. designs, retails, and distributes outdoor products under the YETI brand name in the United States, Canada, Australia, New Zealand, Europe, and Japan. It offers hard coolers, including the YETI Tundra, YETI Roadie, YETI V Series hard coolers, YETI TANK ice bucket, and YETI Silo 6G water cooler, as well as related accessories comprising locks, dry baskets, beverage holders, and dividers. The company also provides soft cooler bags, such as under the Hopper collection and Daytrip collection; duffel bags, backpacks, luggage, and packing cubes comprising the Panga collection, Crossroads collection, Camino Caryall, SideKick Dry gear case, Cayo collection, and Ranchero collection; cargo and storage solutions that include the LoadOut GoBox, LoadOut bucket, and LoadOut swivel seat names; and outdoor living products, which consist of Trailhead camp chair, Lowlands blanket, Boomer dog bowls, Hondo beach chair, can crusher, and the YETI Fire Pit. In addition, it offers bottles and jugs under the Rambler, Yonder, and Silo collections; cups, mugs, and tumblers under the Rambler collection; Rambler products, including tableware, coffeeware, barware, and containers, as well as insulated bowls and food jars, ceramic-lined mugs and stackable cups, French presses, pitchers, wine chillers, wine tumblers, the beverage bucket, colsters, and cocktail shakers; and cookware. Further, the company provides apparel, such as hats, shirts, and sweatshirts, as well as ice substitutes and other YETI branded products. It sells its products through its direct-to-consumer channel, including websites, corporate sales programs, and retail stores, as well as through its wholesale channel. YETI Holdings, Inc. was founded in 2006 and is headquartered in Austin, Texas.",
+  "targetMeanPrice": 54.93333,
+  "targetLowPrice": 43.0,
+  "targetHighPrice": 80.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.75,
+  "forwardPE": 11.873926,
+  "forwardEps": 3.35104,
+  "trailingEps": 2.29,
+  "earningsGrowth": 0.541,
+  "revenueGrowth": 0.085
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,38 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 1235418000.0,
+    "official": 1235418000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 650276000.0,
+    "official": 650276000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 165387000.0,
+    "official": 165387000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1868494000.0,
+    "official": 1868494000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T16:00:30+00:00",
  "years": [
   {
    "fy_end": "2019-12-28",
@@ -201,7 +242,9 @@
    "goodwill_and_intangibles": 153722000.0,
    "retained_earnings": 268551000.0,
    "total_debt": 90000000.0,
-   "shares_out": 86431000.0
+   "shares_out": 86431000.0,
+   "normalized_ebitda": 160490000.0,
+   "normalized_income": 89693000.0
   },
   {
    "fy_end": "2023-12-30",
@@ -235,7 +278,9 @@
    "goodwill_and_intangibles": 171922000.0,
    "retained_earnings": 438436000.0,
    "total_debt": 82266000.0,
-   "shares_out": 86916210.0
+   "shares_out": 86916210.0,
+   "normalized_ebitda": 273322000.0,
+   "normalized_income": 169885000.0
   },
   {
    "fy_end": "2024-12-28",
@@ -268,7 +313,9 @@
    "goodwill_and_intangibles": 244580000.0,
    "retained_earnings": 614125000.0,
    "total_debt": 78047000.0,
-   "shares_out": 82939467.0
+   "shares_out": 82939467.0,
+   "normalized_ebitda": 293508000.0,
+   "normalized_income": 175689000.0
   },
   {
    "fy_end": "2026-01-03",
@@ -302,7 +349,9 @@
    "goodwill_and_intangibles": 292099000.0,
    "retained_earnings": 779512000.0,
    "total_debt": 73828000.0,
-   "shares_out": 74992260.0
+   "shares_out": 74992260.0,
+   "normalized_ebitda": 274956000.0,
+   "normalized_income": 165387000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "SIRI",
- "fetched_at": "2026-10-10T12:57:59+00:00",
+ "fetched_at": "2026-10-10T15:55:35+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 5119,
   "website": "https://www.siriusxm.com",
-  "longBusinessSummary": "Sirius XM Holdings Inc. operates as an audio entertainment company in North America. It operates through two segments, Sirius XM, and Pandora and Off-platform. The Sirius XM segment provides music, sports, entertainment, comedy, and talk and news channels, as well as podcast and infotainment services on subscription fee basis; and live, curated, and exclusive and on demand programming services through satellite radio systems and streamed through applications for mobile and home devices, and other consumer electronic equipment. This segment also distributes satellite radios through automakers and retailers, as well as its website; offers advertising other ancillary services; sells radios and accessories; and offers location-based services through two-way wireless connectivity, including safety, security, convenience, maintenance and data, remote vehicles diagnostic, and stolen or parked vehicle locator services, as well as data services related to graphical weather and fuel prices. In addition, this segment provides music channels on the DISH Network satellite television service as a programming package; Travel Link, a suite of data services that include graphical weather, fuel prices, sports schedule and scores, and movie listings; graphic information related to road closings, traffic flow, and incident data for consumers with in-vehicle navigation systems; real-time weather services in vehicles, boats, and planes; music programming and commercial-free music services for office, restaurants, and other business; and wireless communications service. The Pandora and Off-platform segment operates music, comedy, and podcast streaming platform, which offers personalized experience for listener through mobile devices, vehicle speakers, and connected devices; and provides advertising services. The company was incorporated in 2013 and is headquartered in New York."
+  "longBusinessSummary": "Sirius XM Holdings Inc. operates as an audio entertainment company in North America. It operates through two segments, Sirius XM, and Pandora and Off-platform. The Sirius XM segment provides music, sports, entertainment, comedy, and talk and news channels, as well as podcast and infotainment services on subscription fee basis; and live, curated, and exclusive and on demand programming services through satellite radio systems and streamed through applications for mobile and home devices, and other consumer electronic equipment. This segment also distributes satellite radios through automakers and retailers, as well as its website; offers advertising other ancillary services; sells radios and accessories; and offers location-based services through two-way wireless connectivity, including safety, security, convenience, maintenance and data, remote vehicles diagnostic, and stolen or parked vehicle locator services, as well as data services related to graphical weather and fuel prices. In addition, this segment provides music channels on the DISH Network satellite television service as a programming package; Travel Link, a suite of data services that include graphical weather, fuel prices, sports schedule and scores, and movie listings; graphic information related to road closings, traffic flow, and incident data for consumers with in-vehicle navigation systems; real-time weather services in vehicles, boats, and planes; music programming and commercial-free music services for office, restaurants, and other business; and wireless communications service. The Pandora and Off-platform segment operates music, comedy, and podcast streaming platform, which offers personalized experience for listener through mobile devices, vehicle speakers, and connected devices; and provides advertising services. The company was incorporated in 2013 and is headquartered in New York.",
+  "targetMeanPrice": 33.23077,
+  "targetLowPrice": 24.0,
+  "targetHighPrice": 46.0,
+  "numberOfAnalystOpinions": 13,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.64286,
+  "forwardPE": 7.948859,
+  "forwardEps": 3.33507,
+  "trailingEps": 2.5,
+  "earningsGrowth": 0.237,
+  "revenueGrowth": 0.01
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "inventory": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 27237000000.0,
+    "official": 27237000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 11563000000.0,
+    "official": 11563000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 805000000.0,
+    "official": 805000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 8558000000.0,
+    "official": 8558000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:55:35+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -198,7 +240,10 @@
    "goodwill_and_intangibles": 6299000000.0,
    "retained_earnings": -3351000000.0,
    "total_debt": 9256000000.0,
-   "shares_out": 389100000.0
+   "shares_out": 389100000.0,
+   "unusual_items": -68000000.0,
+   "normalized_ebitda": 2717000000.0,
+   "normalized_income": 959136000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -231,7 +276,10 @@
    "goodwill_and_intangibles": 25519000000.0,
    "retained_earnings": 15353000000.0,
    "total_debt": 10073000000.0,
-   "shares_out": 384300000.0
+   "shares_out": 384300000.0,
+   "unusual_items": -92000000.0,
+   "normalized_ebitda": 2505000000.0,
+   "normalized_income": 861164000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -264,7 +312,10 @@
    "goodwill_and_intangibles": 22579000000.0,
    "retained_earnings": 11121000000.0,
    "total_debt": 10314000000.0,
-   "shares_out": 339176065.0
+   "shares_out": 339176065.0,
+   "unusual_items": -3441000000.0,
+   "normalized_ebitda": 2694000000.0,
+   "normalized_income": 1053390000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -297,7 +348,10 @@
    "goodwill_and_intangibles": 22455000000.0,
    "retained_earnings": 11614000000.0,
    "total_debt": 8648000000.0,
-   "shares_out": 334955000.0
+   "shares_out": 334955000.0,
+   "unusual_items": -436000000.0,
+   "normalized_ebitda": 2540000000.0,
+   "normalized_income": 1137232000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "KRG",
- "fetched_at": "2026-10-10T12:50:04+00:00",
+ "fetched_at": "2026-10-10T15:48:22+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 228,
   "website": "https://www.kiterealty.com",
-  "longBusinessSummary": "Kite Realty Group Trust is a real estate investment trust (REIT) that owns and operates a high-quality portfolio of open-air shopping centers and mixed-use destinations. The Company's portfolio is concentrated in high-growth Sun Belt and select strategic gateway markets. Publicly listed since 2004, KRG has more than six decades of experience in developing, operating, and investing in real estate, using a disciplined, hands-on approach to enhance portfolio quality and maximize long-term value for all stakeholders. As of June 30, 2026, the Company owned interests in 165 U.S. open-air shopping centers and mixed-use assets, comprising approximately 26.4 million square feet of gross leasable space. Kite Realty Group Trust was incorporated in 1971 in Maryland and based in Indianapolis."
+  "longBusinessSummary": "Kite Realty Group Trust is a real estate investment trust (REIT) that owns and operates a high-quality portfolio of open-air shopping centers and mixed-use destinations. The Company's portfolio is concentrated in high-growth Sun Belt and select strategic gateway markets. Publicly listed since 2004, KRG has more than six decades of experience in developing, operating, and investing in real estate, using a disciplined, hands-on approach to enhance portfolio quality and maximize long-term value for all stakeholders. As of June 30, 2026, the Company owned interests in 165 U.S. open-air shopping centers and mixed-use assets, comprising approximately 26.4 million square feet of gross leasable space. Kite Realty Group Trust was incorporated in 1971 in Maryland and based in Indianapolis.",
+  "targetMeanPrice": 30.0,
+  "targetLowPrice": 26.0,
+  "targetHighPrice": 34.0,
+  "numberOfAnalystOpinions": 10,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.58333,
+  "forwardPE": 70.323524,
+  "forwardEps": 0.34,
+  "trailingEps": 1.59,
+  "earningsGrowth": 0.58,
+  "revenueGrowth": -0.08
  },
  "governance": {
   "ceo": {
@@ -82,8 +93,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 6664497000.0,
+    "official": 6664497000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3073609000.0,
+    "official": 3073609000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 298663000.0,
+    "official": 298663000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 844365000.0,
+    "official": 844365000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:48:22+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -168,7 +210,10 @@
    "goodwill_and_intangibles": 342986000.0,
    "retained_earnings": -1207757000.0,
    "total_debt": 3010299000.0,
-   "shares_out": 219185658.0
+   "shares_out": 219185658.0,
+   "unusual_items": 26144000.0,
+   "normalized_ebitda": 538990000.0,
+   "normalized_income": -33289760.0
   },
   {
    "fy_end": "2023-12-31",
@@ -200,7 +245,10 @@
    "goodwill_and_intangibles": 304171000.0,
    "retained_earnings": -1373083000.0,
    "total_debt": 2829202000.0,
-   "shares_out": 219448429.0
+   "shares_out": 219448429.0,
+   "unusual_items": 23786000.0,
+   "normalized_ebitda": 560449000.0,
+   "normalized_income": 23971177.733257
   },
   {
    "fy_end": "2024-12-31",
@@ -232,7 +280,10 @@
    "goodwill_and_intangibles": 238213000.0,
    "retained_earnings": -1595253000.0,
    "total_debt": 3226930000.0,
-   "shares_out": 219667067.0
+   "shares_out": 219667067.0,
+   "unusual_items": -60557000.0,
+   "normalized_ebitda": 588788000.0,
+   "normalized_income": 62780047.639956
   },
   {
    "fy_end": "2025-12-31",
@@ -264,7 +315,10 @@
    "goodwill_and_intangibles": 348570000.0,
    "retained_earnings": -1563840000.0,
    "total_debt": 3025478000.0,
-   "shares_out": 208979900.0
+   "shares_out": 208979900.0,
+   "unusual_items": 246209000.0,
+   "normalized_ebitda": 572518000.0,
+   "normalized_income": 52829756.476413
   }
  ]
 }

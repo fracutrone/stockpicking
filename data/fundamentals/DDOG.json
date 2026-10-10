@@ -1,6 +1,6 @@
 {
  "ticker": "DDOG",
- "fetched_at": "2026-10-10T12:42:57+00:00",
+ "fetched_at": "2026-10-10T15:41:24+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 8100,
   "website": "https://www.datadoghq.com",
-  "longBusinessSummary": "Datadog, Inc. operates an observability and security platform for cloud applications in the United States and internationally. The company's products comprise infrastructure and application performance monitoring, log management, observability pipelines, synthetics, real user monitoring, product analytics, continuous profiler, database monitoring, data observability, LLM observability, error tracking, network monitoring, incident response, workflow automation and App builder, event management, bits AI SRE, cloud cost management, cloud security, code security, cloud SIEM, threat management, sensitive data scanner, and CI visibility. Datadog, Inc. was incorporated in 2010 and is headquartered in New York, New York."
+  "longBusinessSummary": "Datadog, Inc. operates an observability and security platform for cloud applications in the United States and internationally. The company's products comprise infrastructure and application performance monitoring, log management, observability pipelines, synthetics, real user monitoring, product analytics, continuous profiler, database monitoring, data observability, LLM observability, error tracking, network monitoring, incident response, workflow automation and App builder, event management, bits AI SRE, cloud cost management, cloud security, code security, cloud SIEM, threat management, sensitive data scanner, and CI visibility. Datadog, Inc. was incorporated in 2010 and is headquartered in New York, New York.",
+  "targetMeanPrice": 287.82596,
+  "targetLowPrice": 158.0,
+  "targetHighPrice": 340.0,
+  "numberOfAnalystOpinions": 47,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.47917,
+  "forwardPE": 98.59269,
+  "forwardEps": 2.97446,
+  "trailingEps": 0.5,
+  "earningsGrowth": 14.985,
+  "revenueGrowth": 0.356
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,38 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 6643844000.0,
+    "official": 6643844000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3732206000.0,
+    "official": 3732206000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 107741000.0,
+    "official": 107741000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3427158000.0,
+    "official": 3427158000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:41:24+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -197,7 +238,9 @@
    "goodwill_and_intangibles": 364642000.0,
    "retained_earnings": -202266000.0,
    "total_debt": 837521000.0,
-   "shares_out": 319189843.0
+   "shares_out": 319189843.0,
+   "normalized_ebitda": 13094000.0,
+   "normalized_income": -50160000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -231,7 +274,9 @@
    "goodwill_and_intangibles": 362311000.0,
    "retained_earnings": -153698000.0,
    "total_debt": 902337000.0,
-   "shares_out": 331079746.0
+   "shares_out": 331079746.0,
+   "normalized_ebitda": 111002000.0,
+   "normalized_income": 48568000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -265,7 +310,9 @@
    "goodwill_and_intangibles": 364092000.0,
    "retained_earnings": 30048000.0,
    "total_debt": 1842180000.0,
-   "shares_out": 342118782.0
+   "shares_out": 342118782.0,
+   "normalized_ebitda": 265941000.0,
+   "normalized_income": 183746000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -299,7 +346,9 @@
    "goodwill_and_intangibles": 545536000.0,
    "retained_earnings": 137789000.0,
    "total_debt": 1279005000.0,
-   "shares_out": 352525971.0
+   "shares_out": 352525971.0,
+   "normalized_ebitda": 193836000.0,
+   "normalized_income": 107741000.0
   }
  ]
 }

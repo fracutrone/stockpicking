@@ -1,6 +1,6 @@
 {
  "ticker": "ANE.MC",
- "fetched_at": "2026-10-10T11:45:27+00:00",
+ "fetched_at": "2026-10-10T14:31:03+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.91161,
   "heldPercentInstitutions": 0.04807,
   "shortPercentOfFloat": null,
-  "averageVolume": 207523,
+  "averageVolume": 207901,
   "quoteType": "EQUITY",
   "exchange": "MCE",
   "fullTimeEmployees": 2933,
   "website": "https://www.acciona-energia.com",
-  "longBusinessSummary": "Corporación Acciona Energías Renovables, S.A. engages in the promotion, construction, operation, maintenance, and development of renewable energy projects in Spain and internationally. The company operates onshore wind, photovoltaic solar, solar thermal, biomass, hydraulic, and energy storage renewable technology projects. It is also involved in renewable energy supply, green hydrogen, energy efficiency, electric mobility, and self-consumption decarbonization solutions. In addition, the company engages in fuel imports and exports; and sales and co-generation services, including engineering, consulting, and auditing of sites and projects, as well as drafting plans. The company was incorporated in 2008 and is headquartered in Madrid, Spain. Corporación Acciona Energías Renovables, S.A. operates as a subsidiary of Acciona, S.A."
+  "longBusinessSummary": "Corporación Acciona Energías Renovables, S.A. engages in the promotion, construction, operation, maintenance, and development of renewable energy projects in Spain and internationally. The company operates onshore wind, photovoltaic solar, solar thermal, biomass, hydraulic, and energy storage renewable technology projects. It is also involved in renewable energy supply, green hydrogen, energy efficiency, electric mobility, and self-consumption decarbonization solutions. In addition, the company engages in fuel imports and exports; and sales and co-generation services, including engineering, consulting, and auditing of sites and projects, as well as drafting plans. The company was incorporated in 2008 and is headquartered in Madrid, Spain. Corporación Acciona Energías Renovables, S.A. operates as a subsidiary of Acciona, S.A.",
+  "targetMeanPrice": 23.22,
+  "targetLowPrice": 17.0,
+  "targetHighPrice": 28.3,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.9,
+  "forwardPE": 29.000956,
+  "forwardEps": 0.7317,
+  "trailingEps": 0.57,
+  "earningsGrowth": null,
+  "revenueGrowth": -0.344
  },
  "governance": {
   "ceo": {
@@ -77,8 +88,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF ES",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 16244000000.0,
+    "official": 16244000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 5843000000.0,
+    "official": 5843000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 357000000.0,
+    "official": 357000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3048000000.0,
+    "official": 3048000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T14:31:03+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -112,7 +155,10 @@
    "goodwill_and_intangibles": 229000000.0,
    "retained_earnings": 759000000.0,
    "total_debt": 3142000000.0,
-   "shares_out": 329119638.0
+   "shares_out": 329119638.0,
+   "unusual_items": -76000000.0,
+   "normalized_ebitda": 1677000000.0,
+   "normalized_income": 816161778.618732
   },
   {
    "fy_end": "2023-12-31",
@@ -147,7 +193,10 @@
    "goodwill_and_intangibles": 232000000.0,
    "retained_earnings": 524000000.0,
    "total_debt": 5114000000.0,
-   "shares_out": 326607842.0
+   "shares_out": 326607842.0,
+   "unusual_items": -1000000.0,
+   "normalized_ebitda": 1408000000.0,
+   "normalized_income": 524730670.103093
   },
   {
    "fy_end": "2024-12-31",
@@ -182,7 +231,10 @@
    "goodwill_and_intangibles": 206000000.0,
    "retained_earnings": 357000000.0,
    "total_debt": 5442000000.0,
-   "shares_out": 324139249.0
+   "shares_out": 324139249.0,
+   "unusual_items": 132000000.0,
+   "normalized_ebitda": 1051000000.0,
+   "normalized_income": 251016597.510373
   },
   {
    "fy_end": "2025-12-31",
@@ -217,7 +269,10 @@
    "goodwill_and_intangibles": 172000000.0,
    "retained_earnings": 655000000.0,
    "total_debt": 5164000000.0,
-   "shares_out": 324613262.0
+   "shares_out": 324613262.0,
+   "unusual_items": -69000000.0,
+   "normalized_ebitda": 1553000000.0,
+   "normalized_income": 719963265.306122
   }
  ]
 }

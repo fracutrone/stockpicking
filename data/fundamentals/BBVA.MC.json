@@ -1,6 +1,6 @@
 {
  "ticker": "BBVA.MC",
- "fetched_at": "2026-10-10T11:47:21+00:00",
+ "fetched_at": "2026-10-10T14:34:11+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.00105,
   "heldPercentInstitutions": 0.45595,
   "shortPercentOfFloat": null,
-  "averageVolume": 7066456,
+  "averageVolume": 7103918,
   "quoteType": "EQUITY",
   "exchange": "MCE",
   "fullTimeEmployees": 126994,
   "website": "https://www.bbva.com",
-  "longBusinessSummary": "Banco Bilbao Vizcaya Argentaria, S.A., together with its subsidiaries, provides various financial services in Spain, Mexico, Turkey, South America, Europe, the United States, and Asia. The company offers traditional retail, wholesale, investment, and transaction banking. It also engages in financial, insurance, asset management, and capital markets businesses, as well as digital banking. The company was formerly known as Banco Bilbao Vizcaya, S.A. and changed its name to Banco Bilbao Vizcaya Argentaria, S.A. in January 2000. Banco Bilbao Vizcaya Argentaria, S.A. was founded in 1857 and is headquartered in Bilbao, Spain."
+  "longBusinessSummary": "Banco Bilbao Vizcaya Argentaria, S.A., together with its subsidiaries, provides various financial services in Spain, Mexico, Turkey, South America, Europe, the United States, and Asia. The company offers traditional retail, wholesale, investment, and transaction banking. It also engages in financial, insurance, asset management, and capital markets businesses, as well as digital banking. The company was formerly known as Banco Bilbao Vizcaya, S.A. and changed its name to Banco Bilbao Vizcaya Argentaria, S.A. in January 2000. Banco Bilbao Vizcaya Argentaria, S.A. was founded in 1857 and is headquartered in Bilbao, Spain.",
+  "targetMeanPrice": 23.94773,
+  "targetLowPrice": 11.7,
+  "targetHighPrice": 28.4,
+  "numberOfAnalystOpinions": 22,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.73913,
+  "forwardPE": 9.860813,
+  "forwardEps": 2.34362,
+  "trailingEps": 1.88,
+  "earningsGrowth": 0.152,
+  "revenueGrowth": 0.202
  },
  "governance": {
   "ceo": {
@@ -73,8 +84,34 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF ES",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 772402000000.0,
+    "official": 772402000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 55654000000.0,
+    "official": 60014000000.0,
+    "diff": 0.07265
+   },
+   "net_income": {
+    "yahoo": 10054000000.0,
+    "official": 10054000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T14:34:11+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -101,7 +138,9 @@
    "goodwill_and_intangibles": 2156000000.0,
    "retained_earnings": 39069000000.0,
    "total_debt": 60116000000.0,
-   "shares_out": 6024631150.0
+   "shares_out": 6024631150.0,
+   "unusual_items": -2146000000.0,
+   "normalized_income": 7771459096.22127
   },
   {
    "fy_end": "2023-12-31",
@@ -128,7 +167,9 @@
    "goodwill_and_intangibles": 2363000000.0,
    "retained_earnings": 44256000000.0,
    "total_debt": 74192000000.0,
-   "shares_out": 5837940380.0
+   "shares_out": 5837940380.0,
+   "unusual_items": -2342000000.0,
+   "normalized_income": 9606876000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -155,7 +196,9 @@
    "goodwill_and_intangibles": 2490000000.0,
    "retained_earnings": 50747000000.0,
    "total_debt": 75930000000.0,
-   "shares_out": 5756618609.0
+   "shares_out": 5756618609.0,
+   "unusual_items": -2070000000.0,
+   "normalized_income": 11474020000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -181,7 +224,9 @@
    "goodwill_and_intangibles": 2855000000.0,
    "retained_earnings": 56857000000.0,
    "total_debt": 89302000000.0,
-   "shares_out": 5691360192.0
+   "shares_out": 5691360192.0,
+   "unusual_items": -1030000000.0,
+   "normalized_income": 11217580000.0
   }
  ]
 }

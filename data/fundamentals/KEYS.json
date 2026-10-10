@@ -1,6 +1,6 @@
 {
  "ticker": "KEYS",
- "fetched_at": "2026-10-10T12:49:42+00:00",
+ "fetched_at": "2026-10-10T15:48:01+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 16600,
   "website": "https://www.keysight.com",
-  "longBusinessSummary": "Keysight Technologies, Inc. provides electronic design and test solutions worldwide. The company operates through Communications Solutions Group and Electronic Industrial Solutions Group segments. It offers electronic design and test software, instrumentation, systems, and related services used in the design, simulation, validation, manufacturing, installation, and optimization of communication systems in wireless, data center ecosystem, enterprise, and aerospace, defense, and government end markets. The company also develops and deploys communications products and services; and operates communications networks. In addition, it provides electronic design, test and simulation software, instrumentation, systems, computer-aided engineering solutions, and related services used in the design, simulation, validation, manufacturing, installation, and optimization of electronic equipment in the automotive and energy, semiconductor solutions, and general electronics industries. Further, the company offers product support; technical and application support for hardware, software, and solutions; and professional services, such as installation, training, engineering, optimization of equipment and solution adoption, utilization, and integration services. Additionally, it provides oscilloscopes; generators, sources and power supplies; software products; analyzers; wireless products; network test and security; modular instruments; meters; network visibility; and other products, as well as KeysightCare support plans, calibration, repair, technology refresh, test as a service, network/security, consulting, financial alternatives, education, software testing, support, managed, device vulnerability analysis, support portal, and used equipment services. Keysight Technologies, Inc. was founded in 1939 and is headquartered in Santa Rosa, California."
+  "longBusinessSummary": "Keysight Technologies, Inc. provides electronic design and test solutions worldwide. The company operates through Communications Solutions Group and Electronic Industrial Solutions Group segments. It offers electronic design and test software, instrumentation, systems, and related services used in the design, simulation, validation, manufacturing, installation, and optimization of communication systems in wireless, data center ecosystem, enterprise, and aerospace, defense, and government end markets. The company also develops and deploys communications products and services; and operates communications networks. In addition, it provides electronic design, test and simulation software, instrumentation, systems, computer-aided engineering solutions, and related services used in the design, simulation, validation, manufacturing, installation, and optimization of electronic equipment in the automotive and energy, semiconductor solutions, and general electronics industries. Further, the company offers product support; technical and application support for hardware, software, and solutions; and professional services, such as installation, training, engineering, optimization of equipment and solution adoption, utilization, and integration services. Additionally, it provides oscilloscopes; generators, sources and power supplies; software products; analyzers; wireless products; network test and security; modular instruments; meters; network visibility; and other products, as well as KeysightCare support plans, calibration, repair, technology refresh, test as a service, network/security, consulting, financial alternatives, education, software testing, support, managed, device vulnerability analysis, support portal, and used equipment services. Keysight Technologies, Inc. was founded in 1939 and is headquartered in Santa Rosa, California.",
+  "targetMeanPrice": 418.0,
+  "targetLowPrice": 350.0,
+  "targetHighPrice": 487.0,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.58333,
+  "forwardPE": 27.592407,
+  "forwardEps": 13.87157,
+  "trailingEps": 7.39,
+  "earningsGrowth": 1.091,
+  "revenueGrowth": 0.365
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,38 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-10-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 11301000000.0,
+    "official": 11301000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 5881000000.0,
+    "official": 5881000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 850000000.0,
+    "official": 850000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 5375000000.0,
+    "official": 5375000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:48:01+00:00",
  "years": [
   {
    "fy_end": "2019-10-31",
@@ -203,7 +244,9 @@
    "goodwill_and_intangibles": 1771000000.0,
    "retained_earnings": 4554000000.0,
    "total_debt": 1793000000.0,
-   "shares_out": 178500000.0
+   "shares_out": 178500000.0,
+   "normalized_ebitda": 1587000000.0,
+   "normalized_income": 1124000000.0
   },
   {
    "fy_end": "2023-10-31",
@@ -237,7 +280,9 @@
    "goodwill_and_intangibles": 1795000000.0,
    "retained_earnings": 5611000000.0,
    "total_debt": 1794000000.0,
-   "shares_out": 174600000.0
+   "shares_out": 174600000.0,
+   "normalized_ebitda": 1647000000.0,
+   "normalized_income": 1057000000.0
   },
   {
    "fy_end": "2024-10-31",
@@ -271,7 +316,9 @@
    "goodwill_and_intangibles": 2995000000.0,
    "retained_earnings": 6225000000.0,
    "total_debt": 1790000000.0,
-   "shares_out": 172584000.0
+   "shares_out": 172584000.0,
+   "normalized_ebitda": 1219000000.0,
+   "normalized_income": 614000000.0
   },
   {
    "fy_end": "2025-10-31",
@@ -305,7 +352,9 @@
    "goodwill_and_intangibles": 4728000000.0,
    "retained_earnings": 7075000000.0,
    "total_debt": 2534000000.0,
-   "shares_out": 171267000.0
+   "shares_out": 171267000.0,
+   "normalized_ebitda": 1454000000.0,
+   "normalized_income": 869000000.0
   }
  ]
 }

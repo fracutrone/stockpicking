@@ -1,6 +1,6 @@
 {
  "ticker": "VNT",
- "fetched_at": "2026-10-10T13:01:37+00:00",
+ "fetched_at": "2026-10-10T15:59:06+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 7800,
   "website": "https://www.vontier.com",
-  "longBusinessSummary": "Vontier Corporation provides mobility ecosystem solutions worldwide. It operates through three segments: Mobility Technologies, Repair Solutions, and Environmental and Fueling Solutions. The Mobility Technologies segment provides digitally enabled equipment and operating software solutions for mobility ecosystem, such as convenience retail operating platform, point-of-sale and payment solutions, remote diagnostics and site-management tools, workflow automation solutions, data analytics, operating software platform for electric vehicle charging networks, integrated solutions for alternative fuel dispensing, and IoT-based fleet telematics. Its Repair Solutions segment manufactures and distributes aftermarket vehicle repair tools, toolboxes, automotive diagnostic equipment and software through mobile franchise network. The Environmental and Fueling Solutions segment offers environmental monitoring and leak detection systems, forecourt controllers, vapor recovery equipment, and fuel dispenser systems for petroleum under the Gilbarco and Veeder-Root brands. The company markets its products and services to retail and commercial fueling, convenience store, and car wash operators; commercial vehicle repair businesses, fleet owners/operators and electric vehicle charging network operators, as well as direct sales personnel and independent distributors. It serves customers in North America, the Asia Pacific, Europe, and Latin America. Vontier Corporation was incorporated in 2019 and is headquartered in Raleigh, North Carolina."
+  "longBusinessSummary": "Vontier Corporation provides mobility ecosystem solutions worldwide. It operates through three segments: Mobility Technologies, Repair Solutions, and Environmental and Fueling Solutions. The Mobility Technologies segment provides digitally enabled equipment and operating software solutions for mobility ecosystem, such as convenience retail operating platform, point-of-sale and payment solutions, remote diagnostics and site-management tools, workflow automation solutions, data analytics, operating software platform for electric vehicle charging networks, integrated solutions for alternative fuel dispensing, and IoT-based fleet telematics. Its Repair Solutions segment manufactures and distributes aftermarket vehicle repair tools, toolboxes, automotive diagnostic equipment and software through mobile franchise network. The Environmental and Fueling Solutions segment offers environmental monitoring and leak detection systems, forecourt controllers, vapor recovery equipment, and fuel dispenser systems for petroleum under the Gilbarco and Veeder-Root brands. The company markets its products and services to retail and commercial fueling, convenience store, and car wash operators; commercial vehicle repair businesses, fleet owners/operators and electric vehicle charging network operators, as well as direct sales personnel and independent distributors. It serves customers in North America, the Asia Pacific, Europe, and Latin America. Vontier Corporation was incorporated in 2019 and is headquartered in Raleigh, North Carolina.",
+  "targetMeanPrice": 40.849,
+  "targetLowPrice": 35.0,
+  "targetHighPrice": 48.0,
+  "numberOfAnalystOpinions": 10,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": 8.527228,
+  "forwardEps": 3.78083,
+  "trailingEps": 2.42,
+  "earningsGrowth": -0.683,
+  "revenueGrowth": -0.022
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 4368800000.0,
+    "official": 4368800000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1244200000.0,
+    "official": 1244200000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 406100000.0,
+    "official": 406100000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3075600000.0,
+    "official": 3075600000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:59:06+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -198,7 +240,10 @@
    "goodwill_and_intangibles": 2388400000.0,
    "retained_earnings": 770800000.0,
    "total_debt": 2590300000.0,
-   "shares_out": 156000000.0
+   "shares_out": 156000000.0,
+   "unusual_items": -8700000.0,
+   "normalized_ebitda": 724600000.0,
+   "normalized_income": 407920700.0
   },
   {
    "fy_end": "2023-12-31",
@@ -233,7 +278,10 @@
    "goodwill_and_intangibles": 2310700000.0,
    "retained_earnings": 1132100000.0,
    "total_debt": 2289000000.0,
-   "shares_out": 154300000.0
+   "shares_out": 154300000.0,
+   "unusual_items": 34400000.0,
+   "normalized_ebitda": 667800000.0,
+   "normalized_income": 350068000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -267,7 +315,10 @@
    "goodwill_and_intangibles": 2212500000.0,
    "retained_earnings": 1539100000.0,
    "total_debt": 2142000000.0,
-   "shares_out": 149300000.0
+   "shares_out": 149300000.0,
+   "unusual_items": 37200000.0,
+   "normalized_ebitda": 662200000.0,
+   "normalized_income": 390654400.0
   },
   {
    "fy_end": "2025-12-31",
@@ -301,7 +352,10 @@
    "goodwill_and_intangibles": 2170000000.0,
    "retained_earnings": 1930500000.0,
    "total_debt": 2094000000.0,
-   "shares_out": 142200000.0
+   "shares_out": 142200000.0,
+   "unusual_items": 3500000.0,
+   "normalized_ebitda": 689700000.0,
+   "normalized_income": 403303500.0
   }
  ]
 }

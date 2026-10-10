@@ -1,6 +1,6 @@
 {
  "ticker": "USB",
- "fetched_at": "2026-10-10T13:01:02+00:00",
+ "fetched_at": "2026-10-10T15:58:35+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 70000,
   "website": "https://www.usbank.com",
-  "longBusinessSummary": "U.S. Bancorp, a financial services holding company, provides various financial services to individuals, businesses, institutional organizations, governmental entities, and other financial institutions in the United States. The company operates through Wealth, Corporate, Commercial and Institutional Banking; Consumer and Business Banking; Payment Services; and Treasury and Corporate Support segments. It offers depository services, including checking accounts, savings accounts, and time certificate contracts; and lending services, such as traditional credit products and credit card services, lease financing and import/export trade, agricultural finance, asset-backed lending, and other products. The company also provides cash management, capital markets, and trust and investment management services; and ancillary services comprising capital markets, treasury management, and receivable lock-box collection services to corporate and governmental entity customers. In addition, it offers asset management and fiduciary services for individuals, estates, foundations, business corporations, and charitable organizations; and investment and insurance products to its customers principally within its domestic markets, as well as fund administration services to mutual and other funds. Further, the company provides corporate and purchasing card, and corporate trust services; and credit card services, merchant and ATM processing, mortgage banking, insurance, brokerage and leasing services. U.S. Bancorp was founded in 1863 and is headquartered in Minneapolis, Minnesota."
+  "longBusinessSummary": "U.S. Bancorp, a financial services holding company, provides various financial services to individuals, businesses, institutional organizations, governmental entities, and other financial institutions in the United States. The company operates through Wealth, Corporate, Commercial and Institutional Banking; Consumer and Business Banking; Payment Services; and Treasury and Corporate Support segments. It offers depository services, including checking accounts, savings accounts, and time certificate contracts; and lending services, such as traditional credit products and credit card services, lease financing and import/export trade, agricultural finance, asset-backed lending, and other products. The company also provides cash management, capital markets, and trust and investment management services; and ancillary services comprising capital markets, treasury management, and receivable lock-box collection services to corporate and governmental entity customers. In addition, it offers asset management and fiduciary services for individuals, estates, foundations, business corporations, and charitable organizations; and investment and insurance products to its customers principally within its domestic markets, as well as fund administration services to mutual and other funds. Further, the company provides corporate and purchasing card, and corporate trust services; and credit card services, merchant and ATM processing, mortgage banking, insurance, brokerage and leasing services. U.S. Bancorp was founded in 1863 and is headquartered in Minneapolis, Minnesota.",
+  "targetMeanPrice": 69.0,
+  "targetLowPrice": 64.0,
+  "targetHighPrice": 76.0,
+  "numberOfAnalystOpinions": 22,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.79167,
+  "forwardPE": 9.832717,
+  "forwardEps": 5.80511,
+  "trailingEps": 5.01,
+  "earningsGrowth": 0.216,
+  "revenueGrowth": 0.104
  },
  "governance": {
   "ceo": {
@@ -77,8 +88,38 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "noninterest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 692345000000.0,
+    "official": 692345000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 65193000000.0,
+    "official": 65193000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 7570000000.0,
+    "official": 7570000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 28540000000.0,
+    "official": 28656000000.0,
+    "diff": 0.004048
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:58:35+00:00",
  "years": [
   {
    "fy_end": "2016-12-31",
@@ -159,7 +200,9 @@
    "goodwill_and_intangibles": 19528000000.0,
    "retained_earnings": 71901000000.0,
    "total_debt": 71045000000.0,
-   "shares_out": 1530978258.0
+   "shares_out": 1530978258.0,
+   "unusual_items": -329000000.0,
+   "normalized_income": 6088073825.503356
   },
   {
    "fy_end": "2023-12-31",
@@ -186,7 +229,9 @@
    "goodwill_and_intangibles": 18573000000.0,
    "retained_earnings": 74026000000.0,
    "total_debt": 15279000000.0,
-   "shares_out": 1557993055.0
+   "shares_out": 1557993055.0,
+   "unusual_items": -1009000000.0,
+   "normalized_income": 6231155000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -213,7 +258,9 @@
    "goodwill_and_intangibles": 18083000000.0,
    "retained_earnings": 76863000000.0,
    "total_debt": 15518000000.0,
-   "shares_out": 1559796088.0
+   "shares_out": 1559796088.0,
+   "unusual_items": -400000000.0,
+   "normalized_income": 6619000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -240,7 +287,9 @@
    "goodwill_and_intangibles": 17539000000.0,
    "retained_earnings": 80906000000.0,
    "total_debt": 17162000000.0,
-   "shares_out": 1555397637.0
+   "shares_out": 1555397637.0,
+   "unusual_items": 0.0,
+   "normalized_income": 7570000000.0
   }
  ]
 }

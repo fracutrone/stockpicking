@@ -1,6 +1,6 @@
 {
  "ticker": "IAD.L",
- "fetched_at": "2026-10-10T12:02:53+00:00",
+ "fetched_at": "2026-10-10T14:56:29+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -48,8 +59,15 @@
   "equity": "yahoo",
   "receivables": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T14:56:29+00:00",
  "years": [
   {
    "fy_end": "2023-04-30",
@@ -68,7 +86,8 @@
    "equity": 245004000.0,
    "receivables": 0.0,
    "total_debt": 14333000.0,
-   "shares_out": 66853287.0
+   "shares_out": 66853287.0,
+   "normalized_income": 2722000.0
   },
   {
    "fy_end": "2024-04-30",
@@ -87,7 +106,8 @@
    "equity": 238266000.0,
    "receivables": 0.0,
    "total_debt": 12676000.0,
-   "shares_out": 65908287.0
+   "shares_out": 65908287.0,
+   "normalized_income": 5564000.0
   },
   {
    "fy_end": "2025-04-30",
@@ -106,7 +126,8 @@
    "equity": 729912000.0,
    "receivables": 0.0,
    "total_debt": 43923000.0,
-   "shares_out": 204853151.0
+   "shares_out": 204853151.0,
+   "normalized_income": -24764000.0
   },
   {
    "fy_end": "2026-04-30",
@@ -124,7 +145,8 @@
    "equity": 965665000.0,
    "receivables": 0.0,
    "total_debt": 35538000.0,
-   "shares_out": 201320151.0
+   "shares_out": 201320151.0,
+   "normalized_income": 282297000.0
   }
  ]
 }

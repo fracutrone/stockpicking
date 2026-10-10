@@ -1,6 +1,6 @@
 {
  "ticker": "WPC",
- "fetched_at": "2026-10-10T13:02:36+00:00",
+ "fetched_at": "2026-10-10T15:59:58+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 199,
   "website": "https://www.wpcarey.com",
-  "longBusinessSummary": "W. P. Carey Inc. ranks among the largest net lease REITs with a well-diversified portfolio of high-quality, operationally critical commercial real estate. It includes 1,748 net lease properties covering approximately 188 million square feet as of June 30, 2026. With offices in New York, London, Amsterdam and Dallas, the company remains focused on investing primarily in single-tenant, industrial, warehouse and retail properties located in the U.S. and Europe, under long-term net leases with built-in rent escalations. W. P. Carey Inc. was incorporated in 1973 in Maryland, USA."
+  "longBusinessSummary": "W. P. Carey Inc. ranks among the largest net lease REITs with a well-diversified portfolio of high-quality, operationally critical commercial real estate. It includes 1,748 net lease properties covering approximately 188 million square feet as of June 30, 2026. With offices in New York, London, Amsterdam and Dallas, the company remains focused on investing primarily in single-tenant, industrial, warehouse and retail properties located in the U.S. and Europe, under long-term net leases with built-in rent escalations. W. P. Carey Inc. was incorporated in 1973 in Maryland, USA.",
+  "targetMeanPrice": 78.14286,
+  "targetLowPrice": 67.0,
+  "targetHighPrice": 88.0,
+  "numberOfAnalystOpinions": 14,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.2,
+  "forwardPE": 20.1273,
+  "forwardEps": 3.14846,
+  "trailingEps": 2.92,
+  "earningsGrowth": 2.565,
+  "revenueGrowth": 0.184
  },
  "governance": {
   "ceo": {
@@ -81,8 +92,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 17990232000.0,
+    "official": 17990232000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 8118257000.0,
+    "official": 8118257000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 466359000.0,
+    "official": 466359000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1716485000.0,
+    "official": 1716485000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:59:59+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -166,7 +208,10 @@
    "goodwill_and_intangibles": 1037412000.0,
    "retained_earnings": -2486633000.0,
    "total_debt": 7877748000.0,
-   "shares_out": 210620949.0
+   "shares_out": 210620949.0,
+   "unusual_items": -10433000.0,
+   "normalized_ebitda": 1418789000.0,
+   "normalized_income": 609110100.094857
   },
   {
    "fy_end": "2023-12-31",
@@ -196,7 +241,10 @@
    "goodwill_and_intangibles": 978289000.0,
    "retained_earnings": -2891424000.0,
    "total_debt": 8144182000.0,
-   "shares_out": 218671874.0
+   "shares_out": 218671874.0,
+   "unusual_items": 224619000.0,
+   "normalized_ebitda": 1447673000.0,
+   "normalized_income": 496867606.335636
   },
   {
    "fy_end": "2024-12-31",
@@ -225,7 +273,10 @@
    "goodwill_and_intangibles": 967843000.0,
    "retained_earnings": -3203974000.0,
    "total_debt": 8039002000.0,
-   "shares_out": 218848844.0
+   "shares_out": 218848844.0,
+   "unusual_items": 58619000.0,
+   "normalized_ebitda": 1242665000.0,
+   "normalized_income": 405995345.587085
   },
   {
    "fy_end": "2025-12-31",
@@ -254,7 +305,10 @@
    "goodwill_and_intangibles": 987071000.0,
    "retained_earnings": -3539592000.0,
    "total_debt": 8722690000.0,
-   "shares_out": 219145876.0
+   "shares_out": 219145876.0,
+   "unusual_items": 121179000.0,
+   "normalized_ebitda": 1218531000.0,
+   "normalized_income": 352814277.0
   }
  ]
 }

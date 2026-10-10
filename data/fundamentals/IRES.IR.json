@@ -1,6 +1,6 @@
 {
  "ticker": "IRES.IR",
- "fetched_at": "2026-10-10T12:03:59+00:00",
+ "fetched_at": "2026-10-10T14:58:39+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "ISE",
   "fullTimeEmployees": 97,
   "website": "https://www.iresreit.ie",
-  "longBusinessSummary": "Irish Residential Properties REIT plc is a Real Estate Investment Trust providing quality professionally managed homes in sustainable communities in Ireland. I-RES aims to be the provider of choice for the Irish living sector, known for excellent service and for operating responsibly, minimising its environmental impact and maximising its contribution to the community. The Company's shares are listed on Euronext Dublin. Irish Residential Properties REIT plc was established in 2013 and was incorporated in Ireland."
+  "longBusinessSummary": "Irish Residential Properties REIT plc is a Real Estate Investment Trust providing quality professionally managed homes in sustainable communities in Ireland. I-RES aims to be the provider of choice for the Irish living sector, known for excellent service and for operating responsibly, minimising its environmental impact and maximising its contribution to the community. The Company's shares are listed on Euronext Dublin. Irish Residential Properties REIT plc was established in 2013 and was incorporated in Ireland.",
+  "targetMeanPrice": 1.5,
+  "targetLowPrice": 1.4,
+  "targetHighPrice": 1.6,
+  "numberOfAnalystOpinions": 3,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.0,
+  "forwardPE": 19.907694,
+  "forwardEps": 0.065,
+  "trailingEps": 0.16,
+  "earningsGrowth": 1.94,
+  "revenueGrowth": 0.011
  },
  "governance": {
   "ceo": {
@@ -72,8 +83,17 @@
   "ppe_net": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T14:58:40+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -103,7 +123,10 @@
    "ppe_net": 8718000.0,
    "retained_earnings": 282978000.0,
    "total_debt": 660659000.0,
-   "shares_out": 529578946.0
+   "shares_out": 529578946.0,
+   "unusual_items": -5713000.0,
+   "normalized_ebitda": 12435000.0,
+   "normalized_income": -6128187.79501
   },
   {
    "fy_end": "2023-12-31",
@@ -133,7 +156,10 @@
    "ppe_net": 8208000.0,
    "retained_earnings": 139108000.0,
    "total_debt": 575748000.0,
-   "shares_out": 529578946.0
+   "shares_out": 529578946.0,
+   "unusual_items": -853000.0,
+   "normalized_ebitda": -83473000.0,
+   "normalized_income": -115267625.0
   },
   {
    "fy_end": "2024-12-31",
@@ -163,7 +189,10 @@
    "ppe_net": 9854000.0,
    "retained_earnings": 111884000.0,
    "total_debt": 566186000.0,
-   "shares_out": 529578946.0
+   "shares_out": 529578946.0,
+   "unusual_items": -3515000.0,
+   "normalized_ebitda": 25074000.0,
+   "normalized_income": -3173068.219137
   },
   {
    "fy_end": "2025-12-31",
@@ -193,7 +222,10 @@
    "ppe_net": 9203000.0,
    "retained_earnings": 132609000.0,
    "total_debt": 548693000.0,
-   "shares_out": 524442218.0
+   "shares_out": 524442218.0,
+   "unusual_items": -36000.0,
+   "normalized_ebitda": 73721000.0,
+   "normalized_income": 49783500.0
   }
  ]
 }

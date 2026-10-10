@@ -1,6 +1,6 @@
 {
  "ticker": "DHI",
- "fetched_at": "2026-10-10T12:43:08+00:00",
+ "fetched_at": "2026-10-10T15:41:34+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 14341,
   "website": "https://www.drhorton.com",
-  "longBusinessSummary": "D.R. Horton, Inc. operates as a homebuilding company in East, North, Southeast, South Central, Southwest, and Northwest regions in the United States. It engages in the acquisition and development of land; and construction and sale of residential homes in 126 markets across 36 states under the names of D.R. Horton. The company also constructs and sells single-family detached homes; and attached homes, such as townhomes and duplexes. In addition, it provides mortgage financing and title agency services; and engages in the residential lot development business. Further, the company develops, constructs, owns, leases, and sells multi-family and single-family rental properties; conducts insurance-related operations; and owns water rights and other water-related assets, as well as non-residential real estate, including ranch land and improvements. It primarily serves homebuyers. D.R. Horton, Inc. was founded in 1978 and is headquartered in Arlington, Texas."
+  "longBusinessSummary": "D.R. Horton, Inc. operates as a homebuilding company in East, North, Southeast, South Central, Southwest, and Northwest regions in the United States. It engages in the acquisition and development of land; and construction and sale of residential homes in 126 markets across 36 states under the names of D.R. Horton. The company also constructs and sells single-family detached homes; and attached homes, such as townhomes and duplexes. In addition, it provides mortgage financing and title agency services; and engages in the residential lot development business. Further, the company develops, constructs, owns, leases, and sells multi-family and single-family rental properties; conducts insurance-related operations; and owns water rights and other water-related assets, as well as non-residential real estate, including ranch land and improvements. It primarily serves homebuyers. D.R. Horton, Inc. was founded in 1978 and is headquartered in Arlington, Texas.",
+  "targetMeanPrice": 155.0,
+  "targetLowPrice": 125.0,
+  "targetHighPrice": 206.0,
+  "numberOfAnalystOpinions": 14,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.75,
+  "forwardPE": 11.72422,
+  "forwardEps": 11.50439,
+  "trailingEps": 10.42,
+  "earningsGrowth": -0.048,
+  "revenueGrowth": 0.0
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "retained_earnings": "sec",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "interest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-09-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 35471200000.0,
+    "official": 35471200000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 24190400000.0,
+    "official": 24190400000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 3585200000.0,
+    "official": 3585200000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 34250400000.0,
+    "official": 34250400000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:41:34+00:00",
  "years": [
   {
    "fy_end": "2019-09-30",
@@ -176,7 +218,10 @@
    "goodwill_and_intangibles": 174100000.0,
    "retained_earnings": 19185300000.0,
    "total_debt": 6114800000.0,
-   "shares_out": 343953023.0
+   "shares_out": 343953023.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 7651800000.0,
+   "normalized_income": 5857500000.0
   },
   {
    "fy_end": "2023-09-30",
@@ -208,7 +253,10 @@
    "goodwill_and_intangibles": 174600000.0,
    "retained_earnings": 23589800000.0,
    "total_debt": 5142600000.0,
-   "shares_out": 334848565.0
+   "shares_out": 334848565.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 6193200000.0,
+   "normalized_income": 4745700000.0
   },
   {
    "fy_end": "2024-09-30",
@@ -240,7 +288,9 @@
    "goodwill_and_intangibles": 169400000.0,
    "retained_earnings": 27951000000.0,
    "total_debt": 5971000000.0,
-   "shares_out": 324027360.0
+   "shares_out": 324027360.0,
+   "normalized_ebitda": 6023000000.0,
+   "normalized_income": 4756400000.0
   },
   {
    "fy_end": "2025-09-30",
@@ -272,7 +322,9 @@
    "goodwill_and_intangibles": 190600000.0,
    "retained_earnings": 31041400000.0,
    "total_debt": 6031100000.0,
-   "shares_out": 294475153.0
+   "shares_out": 294475153.0,
+   "normalized_ebitda": 4525500000.0,
+   "normalized_income": 3585200000.0
   }
  ]
 }

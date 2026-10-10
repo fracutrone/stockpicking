@@ -1,6 +1,6 @@
 {
  "ticker": "HIK.L",
- "fetched_at": "2026-10-10T12:01:41+00:00",
+ "fetched_at": "2026-10-10T14:54:31+00:00",
  "region": "Europa",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 9500,
   "website": "https://www.hikma.com",
-  "longBusinessSummary": "Hikma Pharmaceuticals PLC develops, manufactures, markets, and sells a range of generic, specialty, and branded pharmaceutical products. The company operates through three segments: Injectables, Hikma Rx, and Branded. The Injectables segment provides generic and specialty injectable products primarily for use in hospitals. The Branded segment offers branded generics and in-licensed products to retail and hospital markets. The Hikma Rx segment offers oral, respiratory, and other generic and specialty products for the retail market. It provides its products in various therapeutic areas, including respiratory, oncology, and pain management. The company also offers its products in solid, semi-solid, liquid, and injectable dosage forms. It operates in the United Kingdom, Europe, North America, the Middle East, North Africa, and internationally. Hikma Pharmaceuticals PLC was founded in 1978 and is headquartered in London, United Kingdom."
+  "longBusinessSummary": "Hikma Pharmaceuticals PLC develops, manufactures, markets, and sells a range of generic, specialty, and branded pharmaceutical products. The company operates through three segments: Injectables, Hikma Rx, and Branded. The Injectables segment provides generic and specialty injectable products primarily for use in hospitals. The Branded segment offers branded generics and in-licensed products to retail and hospital markets. The Hikma Rx segment offers oral, respiratory, and other generic and specialty products for the retail market. It provides its products in various therapeutic areas, including respiratory, oncology, and pain management. The company also offers its products in solid, semi-solid, liquid, and injectable dosage forms. It operates in the United Kingdom, Europe, North America, the Middle East, North Africa, and internationally. Hikma Pharmaceuticals PLC was founded in 1978 and is headquartered in London, United Kingdom.",
+  "targetMeanPrice": 2042.7789,
+  "targetLowPrice": 1739.7855,
+  "targetHighPrice": 2621.9468,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 8.552601,
+  "forwardEps": 1.884807,
+  "trailingEps": 1.31,
+  "earningsGrowth": -0.047,
+  "revenueGrowth": 0.042
  },
  "governance": {
   "ceo": {
@@ -77,8 +88,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 5671000000.0,
+    "official": 5671000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2593000000.0,
+    "official": 2593000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 402000000.0,
+    "official": 402000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3349000000.0,
+    "official": 3349000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:54:31+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -113,7 +156,10 @@
    "goodwill_and_intangibles": 1124000000.0,
    "retained_earnings": 2092000000.0,
    "total_debt": 1283000000.0,
-   "shares_out": 220235852.0
+   "shares_out": 220235852.0,
+   "unusual_items": -155000000.0,
+   "normalized_ebitda": 640000000.0,
+   "normalized_income": 309985000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -148,7 +194,10 @@
    "goodwill_and_intangibles": 1100000000.0,
    "retained_earnings": 2158000000.0,
    "total_debt": 1191000000.0,
-   "shares_out": 221081371.0
+   "shares_out": 221081371.0,
+   "unusual_items": -240000000.0,
+   "normalized_ebitda": 792000000.0,
+   "normalized_income": 353920000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -182,7 +231,10 @@
    "goodwill_and_intangibles": 1156000000.0,
    "retained_earnings": 2362000000.0,
    "total_debt": 1306000000.0,
-   "shares_out": 220431263.0
+   "shares_out": 220431263.0,
+   "unusual_items": -57000000.0,
+   "normalized_ebitda": 755000000.0,
+   "normalized_income": 404349450.549451
   },
   {
    "fy_end": "2025-12-31",
@@ -217,7 +269,10 @@
    "goodwill_and_intangibles": 1170000000.0,
    "retained_earnings": 2556000000.0,
    "total_debt": 1604000000.0,
-   "shares_out": 220106915.0
+   "shares_out": 220106915.0,
+   "unusual_items": -12000000.0,
+   "normalized_ebitda": 857000000.0,
+   "normalized_income": 411410404.624277
   }
  ]
 }

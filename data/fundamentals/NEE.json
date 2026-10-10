@@ -1,6 +1,6 @@
 {
  "ticker": "NEE",
- "fetched_at": "2026-10-10T12:52:45+00:00",
+ "fetched_at": "2026-10-10T15:50:46+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 17400,
   "website": "https://www.nexteraenergy.com",
-  "longBusinessSummary": "NextEra Energy, Inc., through its subsidiaries, generates, stores, transmits, distributes, and sells electric power to retail and wholesale customers in North America. It operates through Florida Power & Light Company (FPL) and NEER segments. The company generates electricity from wind, solar, nuclear, natural gas, and other clean energy assets. It also invests in generation, storage, transmission, and distribution facilities; owns, develops, constructs, manages, and operates generation facilities, including renewables, nuclear and natural gas, and battery storage facilities in the wholesale energy market in the United States and Canada, as well as electric and gas transmission assets, and natural gas pipelines; provides full energy and capacity requirement services; markets and trades in energy-related commodities; and participates in the production of natural gas, natural gas liquids, and oil. As of December 31, 2025, the company had approximately 35,963 megawatts of net generating capacity; approximately 93,000 circuit miles of transmission and distribution lines; and 932 substations. It serves approximately 12 million people through approximately 6 million customer accounts on the east and lower west coasts of Florida. The company was formerly known as FPL Group, Inc. and changed its name to NextEra Energy, Inc. in 2010. NextEra Energy, Inc. was founded in 1925 and is headquartered in Juno Beach, Florida."
+  "longBusinessSummary": "NextEra Energy, Inc., through its subsidiaries, generates, stores, transmits, distributes, and sells electric power to retail and wholesale customers in North America. It operates through Florida Power & Light Company (FPL) and NEER segments. The company generates electricity from wind, solar, nuclear, natural gas, and other clean energy assets. It also invests in generation, storage, transmission, and distribution facilities; owns, develops, constructs, manages, and operates generation facilities, including renewables, nuclear and natural gas, and battery storage facilities in the wholesale energy market in the United States and Canada, as well as electric and gas transmission assets, and natural gas pipelines; provides full energy and capacity requirement services; markets and trades in energy-related commodities; and participates in the production of natural gas, natural gas liquids, and oil. As of December 31, 2025, the company had approximately 35,963 megawatts of net generating capacity; approximately 93,000 circuit miles of transmission and distribution lines; and 932 substations. It serves approximately 12 million people through approximately 6 million customer accounts on the east and lower west coasts of Florida. The company was formerly known as FPL Group, Inc. and changed its name to NextEra Energy, Inc. in 2010. NextEra Energy, Inc. was founded in 1925 and is headquartered in Juno Beach, Florida.",
+  "targetMeanPrice": 97.05263,
+  "targetLowPrice": 56.0,
+  "targetHighPrice": 114.0,
+  "numberOfAnalystOpinions": 19,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.90476,
+  "forwardPE": 17.68144,
+  "forwardEps": 4.37634,
+  "trailingEps": 4.45,
+  "earningsGrowth": 0.531,
+  "revenueGrowth": 0.124
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 212721000000.0,
+    "official": 212721000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 54608000000.0,
+    "official": 54608000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 6835000000.0,
+    "official": 6835000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 27412000000.0,
+    "official": 25800000000.0,
+    "diff": 0.062481
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:50:47+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -189,7 +231,10 @@
    "goodwill_and_intangibles": 5613000000.0,
    "retained_earnings": 26707000000.0,
    "total_debt": 63598000000.0,
-   "shares_out": 1987000000.0
+   "shares_out": 1987000000.0,
+   "unusual_items": 141000000.0,
+   "normalized_ebitda": 9066000000.0,
+   "normalized_income": 4027573000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -222,7 +267,10 @@
    "goodwill_and_intangibles": 6783000000.0,
    "retained_earnings": 30235000000.0,
    "total_debt": 72956000000.0,
-   "shares_out": 2052000000.0
+   "shares_out": 2052000000.0,
+   "unusual_items": 689000000.0,
+   "normalized_ebitda": 16074000000.0,
+   "normalized_income": 6716082000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -255,7 +303,10 @@
    "goodwill_and_intangibles": 6581000000.0,
    "retained_earnings": 32946000000.0,
    "total_debt": 82116000000.0,
-   "shares_out": 2057000000.0
+   "shares_out": 2057000000.0,
+   "unusual_items": 622000000.0,
+   "normalized_ebitda": 13411000000.0,
+   "normalized_income": 6358832000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -288,7 +339,10 @@
    "goodwill_and_intangibles": 6616000000.0,
    "retained_earnings": 35102000000.0,
    "total_debt": 95011000000.0,
-   "shares_out": 2083000000.0
+   "shares_out": 2083000000.0,
+   "unusual_items": 546000000.0,
+   "normalized_ebitda": 15497000000.0,
+   "normalized_income": 6428612200.0
   }
  ]
 }

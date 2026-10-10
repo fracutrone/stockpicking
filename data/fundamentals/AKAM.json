@@ -1,6 +1,6 @@
 {
  "ticker": "AKAM",
- "fetched_at": "2026-10-10T12:36:55+00:00",
+ "fetched_at": "2026-10-10T15:33:58+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 11000,
   "website": "https://www.akamai.com",
-  "longBusinessSummary": "Akamai Technologies, Inc. engages in the provision of security, delivery, and cloud computing solutions in the United States and internationally. It offers security solutions that include web application and application programming interfaces (API) protection solutions, which protect web, API, and mobile app traffic from attacks; Bot & Abuse portfolio, which provides solutions to help customers protect against threats; full account lifecycle protections including the ability to defend against account takeover and opening abuse, adversarial bot protection, protection against credential stuffing, inventory scalping, and hoarding; and solutions designed to stop persistent scrapers from stealing content; API security, which discovers, audits, and monitors API; and microservice and application component protection that analyzes and protects application traffic that moves between application components. The company also offers cloud computing services, which include compute, storage, and cloud native and networking services; and Akamai App Platform, provides ready-to-run templates that address challenges in deploying, managing and scaling Kubernetes clusters at scale. In addition, it offers delivery solutions that include web and mobile performance solutions, which enables dynamic websites and applications, as well as global traffic management, site acceleration, application load balancing, large-scale load testing, and real-user monitoring; and media delivery solutions, including video streaming and video player services, game and software delivery, broadcast operations, authoritative domain name system, resolution, and data and analytics. The company has a strategic alliance with Deloitte Canada to help organizations achieve platform-based resilience against AI-accelerated cyberthreats. Akamai Technologies, Inc. was incorporated in 1998 and is headquartered in Cambridge, Massachusetts."
+  "longBusinessSummary": "Akamai Technologies, Inc. engages in the provision of security, delivery, and cloud computing solutions in the United States and internationally. It offers security solutions that include web application and application programming interfaces (API) protection solutions, which protect web, API, and mobile app traffic from attacks; Bot & Abuse portfolio, which provides solutions to help customers protect against threats; full account lifecycle protections including the ability to defend against account takeover and opening abuse, adversarial bot protection, protection against credential stuffing, inventory scalping, and hoarding; and solutions designed to stop persistent scrapers from stealing content; API security, which discovers, audits, and monitors API; and microservice and application component protection that analyzes and protects application traffic that moves between application components. The company also offers cloud computing services, which include compute, storage, and cloud native and networking services; and Akamai App Platform, provides ready-to-run templates that address challenges in deploying, managing and scaling Kubernetes clusters at scale. In addition, it offers delivery solutions that include web and mobile performance solutions, which enables dynamic websites and applications, as well as global traffic management, site acceleration, application load balancing, large-scale load testing, and real-user monitoring; and media delivery solutions, including video streaming and video player services, game and software delivery, broadcast operations, authoritative domain name system, resolution, and data and analytics. The company has a strategic alliance with Deloitte Canada to help organizations achieve platform-based resilience against AI-accelerated cyberthreats. Akamai Technologies, Inc. was incorporated in 1998 and is headquartered in Cambridge, Massachusetts.",
+  "targetMeanPrice": 158.87318,
+  "targetLowPrice": 93.0,
+  "targetHighPrice": 225.0,
+  "numberOfAnalystOpinions": 22,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.04167,
+  "forwardPE": 15.617743,
+  "forwardEps": 6.84798,
+  "trailingEps": 2.76,
+  "earningsGrowth": -0.268,
+  "revenueGrowth": 0.054
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 11479643000.0,
+    "official": 11479643000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4977371000.0,
+    "official": 4977371000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 452031000.0,
+    "official": 452031000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 4208175000.0,
+    "official": 4208175000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:33:58+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -197,7 +239,10 @@
    "goodwill_and_intangibles": 3205554000.0,
    "retained_earnings": 1920351000.0,
    "total_debt": 3174617000.0,
-   "shares_out": 156494816.0
+   "shares_out": 156494816.0,
+   "unusual_items": -34766000.0,
+   "normalized_ebitda": 1296619000.0,
+   "normalized_income": 551728162.0
   },
   {
    "fy_end": "2023-12-31",
@@ -231,7 +276,10 @@
    "goodwill_and_intangibles": 3386613000.0,
    "retained_earnings": 2467980000.0,
    "total_debt": 4535979000.0,
-   "shares_out": 151232908.0
+   "shares_out": 151232908.0,
+   "unusual_items": -66080000.0,
+   "normalized_ebitda": 1307092000.0,
+   "normalized_income": 602937960.0
   },
   {
    "fy_end": "2024-12-31",
@@ -265,7 +313,10 @@
    "goodwill_and_intangibles": 3878662000.0,
    "retained_earnings": 2972898000.0,
    "total_debt": 4634605000.0,
-   "shares_out": 150025096.0
+   "shares_out": 150025096.0,
+   "unusual_items": -102943000.0,
+   "normalized_ebitda": 1365483000.0,
+   "normalized_income": 593448980.0
   },
   {
    "fy_end": "2025-12-31",
@@ -299,7 +350,10 @@
    "goodwill_and_intangibles": 3821067000.0,
    "retained_earnings": 3424929000.0,
    "total_debt": 5675388000.0,
-   "shares_out": 144711094.0
+   "shares_out": 144711094.0,
+   "unusual_items": -61298000.0,
+   "normalized_ebitda": 1403073000.0,
+   "normalized_income": 498004500.0
   }
  ]
 }

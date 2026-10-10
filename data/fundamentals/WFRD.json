@@ -1,6 +1,6 @@
 {
  "ticker": "WFRD",
- "fetched_at": "2026-10-10T13:02:17+00:00",
+ "fetched_at": "2026-10-10T15:59:43+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 16700,
   "website": "https://www.weatherford.com",
-  "longBusinessSummary": "Weatherford International plc, an energy services company, provides equipment and services for the drilling, evaluation, completion, production, and intervention of oil, geothermal, and natural gas wells worldwide. The company operates through three segments: Drilling and Evaluation; Well Construction and Completions; and Production and Intervention. It offers managed pressure drilling; directional drilling services, and logging and measurement services while drilling; services related to rotary-steerable systems, high temperature and high pressure sensors, drilling reamers, and circulation subs; open-hole and cased-hole logging services; wireline and drilling fluids; and intervention and remediation services. The company also provides tubular handling, management, and connection services; cementing products, including plugs, float and stage equipment, and torque-and-drag reduction technology for zonal isolation; completion tools, such as safety valves, production packers, downhole reservoir monitoring, flow control, isolation packers, multistage fracturing systems and sand-control technologies; liner hangers to suspend a casing string in high-temperature and high-pressure wells; and well Services. In addition, it offers re-entry, fishing, and well abandonment services, as well as patented downhole tools, tubular-handling equipment, pressure-control equipment, and drill pipe and tubulars; artificial lift systems, including reciprocating rod, progressing cavity pumping, and related automation and control systems, as well as gas, hydraulic, plunger, and hybrid lift systems, as well as related automation and control systems; and software, automation and flow measurement solutions. Further, it provides electrical and hydraulic power transmission to subsea equipment; and pressure pumping and reservoir stimulation services, such as acidizing, fracturing, cementing, and coiled-tubing intervention. The company was incorporated in 1972 and is based in Houston, Texas."
+  "longBusinessSummary": "Weatherford International plc, an energy services company, provides equipment and services for the drilling, evaluation, completion, production, and intervention of oil, geothermal, and natural gas wells worldwide. The company operates through three segments: Drilling and Evaluation; Well Construction and Completions; and Production and Intervention. It offers managed pressure drilling; directional drilling services, and logging and measurement services while drilling; services related to rotary-steerable systems, high temperature and high pressure sensors, drilling reamers, and circulation subs; open-hole and cased-hole logging services; wireline and drilling fluids; and intervention and remediation services. The company also provides tubular handling, management, and connection services; cementing products, including plugs, float and stage equipment, and torque-and-drag reduction technology for zonal isolation; completion tools, such as safety valves, production packers, downhole reservoir monitoring, flow control, isolation packers, multistage fracturing systems and sand-control technologies; liner hangers to suspend a casing string in high-temperature and high-pressure wells; and well Services. In addition, it offers re-entry, fishing, and well abandonment services, as well as patented downhole tools, tubular-handling equipment, pressure-control equipment, and drill pipe and tubulars; artificial lift systems, including reciprocating rod, progressing cavity pumping, and related automation and control systems, as well as gas, hydraulic, plunger, and hybrid lift systems, as well as related automation and control systems; and software, automation and flow measurement solutions. Further, it provides electrical and hydraulic power transmission to subsea equipment; and pressure pumping and reservoir stimulation services, such as acidizing, fracturing, cementing, and coiled-tubing intervention. The company was incorporated in 1972 and is based in Houston, Texas.",
+  "targetMeanPrice": 117.08333,
+  "targetLowPrice": 93.0,
+  "targetHighPrice": 151.0,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.66667,
+  "forwardPE": 11.008603,
+  "forwardEps": 7.0781,
+  "trailingEps": 5.07,
+  "earningsGrowth": -0.71,
+  "revenueGrowth": -0.082
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "goodwill": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 5197000000.0,
+    "official": 5197000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1699000000.0,
+    "official": 1699000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 431000000.0,
+    "official": 431000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 4918000000.0,
+    "official": 4918000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:59:43+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -192,7 +234,10 @@
    "goodwill_and_intangibles": 506000000.0,
    "retained_earnings": -2371000000.0,
    "total_debt": 2203000000.0,
-   "shares_out": 71000000.0
+   "shares_out": 71000000.0,
+   "unusual_items": -27000000.0,
+   "normalized_ebitda": 697000000.0,
+   "normalized_income": 26000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -225,7 +270,10 @@
    "goodwill_and_intangibles": 370000000.0,
    "retained_earnings": -1954000000.0,
    "total_debt": 1830000000.0,
-   "shares_out": 72000000.0
+   "shares_out": 72000000.0,
+   "unusual_items": -76000000.0,
+   "normalized_ebitda": 1091000000.0,
+   "normalized_income": 484438735.177866
   },
   {
    "fy_end": "2024-12-31",
@@ -258,7 +306,10 @@
    "goodwill_and_intangibles": 325000000.0,
    "retained_earnings": -1486000000.0,
    "total_debt": 1586000000.0,
-   "shares_out": 72100000.0
+   "shares_out": 72100000.0,
+   "unusual_items": -61000000.0,
+   "normalized_ebitda": 1301000000.0,
+   "normalized_income": 551140000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -291,7 +342,10 @@
    "goodwill_and_intangibles": 285000000.0,
    "retained_earnings": -1129000000.0,
    "total_debt": 1415000000.0,
-   "shares_out": 71600000.0
+   "shares_out": 71600000.0,
+   "unusual_items": -29000000.0,
+   "normalized_ebitda": 987000000.0,
+   "normalized_income": 454780000.0
   }
  ]
 }

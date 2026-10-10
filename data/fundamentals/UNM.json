@@ -1,6 +1,6 @@
 {
  "ticker": "UNM",
- "fetched_at": "2026-10-10T13:00:55+00:00",
+ "fetched_at": "2026-10-10T15:58:29+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 10684,
   "website": "https://www.unum.com",
-  "longBusinessSummary": "Unum Group, together with its subsidiaries, provides financial protection benefit solutions in the United States, the United Kingdom, and Poland. It operates through Unum US, Unum International, Colonial Life, and Closed Block segments. The company offers group long-term and short-term disability, group life, and accidental death and dismemberment products; supplemental and voluntary products, such as voluntary benefits, individual disability, and dental and vision products; and accident, sickness, disability, life, and cancer and critical illness products. It also provides group pensions, individual life and corporate-owned life insurance, reinsurance pools and management operations, and other miscellaneous products. The company sells its products to employers for the benefit of employees. It sells its products through field sales personnel, independent brokers, consultants, and independent contractor agent sales force and brokers. Unum Group was formerly known as UnumProvident Corporation and changed its name to Unum Group in March 2007. The company was founded in 1848 and is based in Chattanooga, Tennessee."
+  "longBusinessSummary": "Unum Group, together with its subsidiaries, provides financial protection benefit solutions in the United States, the United Kingdom, and Poland. It operates through Unum US, Unum International, Colonial Life, and Closed Block segments. The company offers group long-term and short-term disability, group life, and accidental death and dismemberment products; supplemental and voluntary products, such as voluntary benefits, individual disability, and dental and vision products; and accident, sickness, disability, life, and cancer and critical illness products. It also provides group pensions, individual life and corporate-owned life insurance, reinsurance pools and management operations, and other miscellaneous products. The company sells its products to employers for the benefit of employees. It sells its products through field sales personnel, independent brokers, consultants, and independent contractor agent sales force and brokers. Unum Group was formerly known as UnumProvident Corporation and changed its name to Unum Group in March 2007. The company was founded in 1848 and is based in Chattanooga, Tennessee.",
+  "targetMeanPrice": 101.69231,
+  "targetLowPrice": 88.0,
+  "targetHighPrice": 122.0,
+  "numberOfAnalystOpinions": 13,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.76923,
+  "forwardPE": 9.722052,
+  "forwardEps": 9.42908,
+  "trailingEps": 4.28,
+  "earningsGrowth": -0.162,
+  "revenueGrowth": 0.003
  },
  "governance": {
   "ceo": {
@@ -78,8 +89,38 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "operating_income": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 63519400000.0,
+    "official": 63519400000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 11119100000.0,
+    "official": 11119100000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 738500000.0,
+    "official": 738500000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 12984100000.0,
+    "official": 13075500000.0,
+    "diff": 0.00699
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:58:29+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -139,7 +180,8 @@
    "ppe_net": 462700000.0,
    "goodwill": 352200000.0,
    "retained_earnings": 11989400000.0,
-   "total_debt": 3442200000.0
+   "total_debt": 3442200000.0,
+   "unusual_items": -67300000.0
   },
   {
    "fy_end": "2022-12-31",
@@ -166,7 +208,9 @@
    "goodwill_and_intangibles": 410500000.0,
    "retained_earnings": 13141300000.0,
    "total_debt": 3429800000.0,
-   "shares_out": 197754513.0
+   "shares_out": 197754513.0,
+   "unusual_items": -4200000.0,
+   "normalized_income": 1410576800.0
   },
   {
    "fy_end": "2023-12-31",
@@ -193,7 +237,9 @@
    "goodwill_and_intangibles": 413800000.0,
    "retained_earnings": 11431500000.0,
    "total_debt": 3430400000.0,
-   "shares_out": 193372097.0
+   "shares_out": 193372097.0,
+   "unusual_items": 0.0,
+   "normalized_income": 1283800000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -220,7 +266,9 @@
    "goodwill_and_intangibles": 404200000.0,
    "retained_earnings": 12914000000.0,
    "total_debt": 3739800000.0,
-   "shares_out": 178588971.0
+   "shares_out": 178588971.0,
+   "unusual_items": 0.0,
+   "normalized_income": 1779100000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -247,7 +295,8 @@
    "goodwill_and_intangibles": 410800000.0,
    "retained_earnings": 13345300000.0,
    "total_debt": 3767600000.0,
-   "shares_out": 165694417.0
+   "shares_out": 165694417.0,
+   "normalized_income": 738500000.0
   }
  ]
 }

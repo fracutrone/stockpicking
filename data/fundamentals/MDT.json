@@ -1,6 +1,6 @@
 {
  "ticker": "MDT",
- "fetched_at": "2026-10-10T12:51:21+00:00",
+ "fetched_at": "2026-10-10T15:49:35+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 95000,
   "website": "https://www.medtronic.com",
-  "longBusinessSummary": "Medtronic plc develops, manufactures, and sells device-based medical therapies to healthcare systems, physicians, clinicians, and patients in the United States, Ireland, and internationally. It operates through three segments: The Cardiovascular Portfolio, Neuroscience Portfolio, and Medical Surgical Portfolio. The Cardiovascular Portfolio segment offers implantable cardiac pacemakers, cardioverter defibrillators, and cardiac resynchronization therapy devices; cardiac ablation products; insertable cardiac monitor systems; TYRX products; and remote monitoring and patient-centered software. It also provides aortic valves, surgical valve replacement and repair products, endovascular stent grafts and accessories, and transcatheter pulmonary valves, left atrial appendage exclusion systems, extracorporeal membrane oxygenation (ECMO) systems and percutaneous coronary intervention products, percutaneous angioplasty balloons, and endovenous products. The Neuroscience Portfolio segment offers medical devices and implants, biologic solutions, spinal cord stimulation and brain modulation systems, implantable drug infusion systems, and interventional products, as well as nerve ablation system under the Accurian name. This segment offers its products for spinal surgeons, neurosurgeons, neurologists, pain management specialists, anesthesiologists, orthopedic surgeons, urologists, urogynecologists, and interventional radiologists, as well as ear, nose, and throat specialists, and energy surgical instruments. The Medical Surgical Portfolio segment offers surgical stapling devices, vessel sealing instruments, wound closure and electrosurgery products, AI-powered surgical video and analytics platform, robotic-assisted surgery products, hernia mechanical devices, mesh implants, gynecology products, gastrointestinal and hepatologic diagnostics and therapies, and therapies to treat diseases and conditions, and patient monitoring and airway management products, as well as insulin pumps and consumables, continuous glucose monitoring systems, and sensors. Medtronic plc was founded in 1949 and is headquartered in Galway, Ireland."
+  "longBusinessSummary": "Medtronic plc develops, manufactures, and sells device-based medical therapies to healthcare systems, physicians, clinicians, and patients in the United States, Ireland, and internationally. It operates through three segments: The Cardiovascular Portfolio, Neuroscience Portfolio, and Medical Surgical Portfolio. The Cardiovascular Portfolio segment offers implantable cardiac pacemakers, cardioverter defibrillators, and cardiac resynchronization therapy devices; cardiac ablation products; insertable cardiac monitor systems; TYRX products; and remote monitoring and patient-centered software. It also provides aortic valves, surgical valve replacement and repair products, endovascular stent grafts and accessories, and transcatheter pulmonary valves, left atrial appendage exclusion systems, extracorporeal membrane oxygenation (ECMO) systems and percutaneous coronary intervention products, percutaneous angioplasty balloons, and endovenous products. The Neuroscience Portfolio segment offers medical devices and implants, biologic solutions, spinal cord stimulation and brain modulation systems, implantable drug infusion systems, and interventional products, as well as nerve ablation system under the Accurian name. This segment offers its products for spinal surgeons, neurosurgeons, neurologists, pain management specialists, anesthesiologists, orthopedic surgeons, urologists, urogynecologists, and interventional radiologists, as well as ear, nose, and throat specialists, and energy surgical instruments. The Medical Surgical Portfolio segment offers surgical stapling devices, vessel sealing instruments, wound closure and electrosurgery products, AI-powered surgical video and analytics platform, robotic-assisted surgery products, hernia mechanical devices, mesh implants, gynecology products, gastrointestinal and hepatologic diagnostics and therapies, and therapies to treat diseases and conditions, and patient monitoring and airway management products, as well as insulin pumps and consumables, continuous glucose monitoring systems, and sensors. Medtronic plc was founded in 1949 and is headquartered in Galway, Ireland.",
+  "targetMeanPrice": 104.44,
+  "targetLowPrice": 85.0,
+  "targetHighPrice": 121.0,
+  "numberOfAnalystOpinions": 25,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.7931,
+  "forwardPE": 13.793642,
+  "forwardEps": 6.41455,
+  "trailingEps": 4.1,
+  "earningsGrowth": 0.407,
+  "revenueGrowth": 0.137
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-04-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 93028000000.0,
+    "official": 93028000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 49463000000.0,
+    "official": 49463000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 4801000000.0,
+    "official": 4801000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 36364000000.0,
+    "official": 36364000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:49:35+00:00",
  "years": [
   {
    "fy_end": "2020-04-24",
@@ -209,7 +251,10 @@
    "goodwill_and_intangibles": 56269000000.0,
    "retained_earnings": 30392000000.0,
    "total_debt": 24344000000.0,
-   "shares_out": 1330809036.0
+   "shares_out": 1330809036.0,
+   "unusual_items": -345000000.0,
+   "normalized_ebitda": 9042000000.0,
+   "normalized_income": 4001225000.0
   },
   {
    "fy_end": "2024-04-26",
@@ -244,7 +289,10 @@
    "goodwill_and_intangibles": 54211000000.0,
    "retained_earnings": 30403000000.0,
    "total_debt": 25005000000.0,
-   "shares_out": 1311337531.0
+   "shares_out": 1311337531.0,
+   "unusual_items": -375000000.0,
+   "normalized_ebitda": 8578000000.0,
+   "normalized_income": 3963250000.0
   },
   {
    "fy_end": "2025-04-25",
@@ -279,7 +327,10 @@
    "goodwill_and_intangibles": 53404000000.0,
    "retained_earnings": 31476000000.0,
    "total_debt": 25642000000.0,
-   "shares_out": 1281934628.0
+   "shares_out": 1281934628.0,
+   "unusual_items": -584000000.0,
+   "normalized_ebitda": 9802000000.0,
+   "normalized_income": 5148874200.426439
   },
   {
    "fy_end": "2026-04-24",
@@ -314,7 +365,10 @@
    "goodwill_and_intangibles": 52733000000.0,
    "retained_earnings": 32638000000.0,
    "total_debt": 26173000000.0,
-   "shares_out": 1280177293.0
+   "shares_out": 1280177293.0,
+   "unusual_items": -362000000.0,
+   "normalized_ebitda": 10171000000.0,
+   "normalized_income": 5086364080.83442
   }
  ]
 }

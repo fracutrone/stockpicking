@@ -1,6 +1,6 @@
 {
  "ticker": "SHC",
- "fetched_at": "2026-10-10T12:57:54+00:00",
+ "fetched_at": "2026-10-10T15:55:30+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 3000,
   "website": "https://soterahealth.com",
-  "longBusinessSummary": "Sotera Health Company provides sterilization solutions, lab testing, and advisory services for the healthcare industry in the United States, Canada, Europe, and internationally. The company operates through three segments: Sterigenics, Nordion, and Nelson Labs. The Sterigenics segment offers outsourced terminal sterilization and irradiation services using gamma irradiation, ethylene oxide processing, and electron beam irradiation technologies for medical devices, pharmaceutical, and food safety and advanced applications markets. The Nordion segment provides Cobalt-60 used in the sterilization and irradiation processes for the medical device, pharmaceutical, food safety, and high-performance materials industries, as well as in the treatment of cancer. It also offers gamma irradiation systems. The Nelson Labs segment provides outsourced microbiological and analytical chemistry testing and advisory services for the medical device and pharmaceutical industries. The company was formerly known as Sotera Health Topco, Inc. and changed its name to Sotera Health Company in October 2020. Sotera Health Company was incorporated in 2015 and is headquartered in Broadview Heights, Ohio."
+  "longBusinessSummary": "Sotera Health Company provides sterilization solutions, lab testing, and advisory services for the healthcare industry in the United States, Canada, Europe, and internationally. The company operates through three segments: Sterigenics, Nordion, and Nelson Labs. The Sterigenics segment offers outsourced terminal sterilization and irradiation services using gamma irradiation, ethylene oxide processing, and electron beam irradiation technologies for medical devices, pharmaceutical, and food safety and advanced applications markets. The Nordion segment provides Cobalt-60 used in the sterilization and irradiation processes for the medical device, pharmaceutical, food safety, and high-performance materials industries, as well as in the treatment of cancer. It also offers gamma irradiation systems. The Nelson Labs segment provides outsourced microbiological and analytical chemistry testing and advisory services for the medical device and pharmaceutical industries. The company was formerly known as Sotera Health Topco, Inc. and changed its name to Sotera Health Company in October 2020. Sotera Health Company was incorporated in 2015 and is headquartered in Broadview Heights, Ohio.",
+  "targetMeanPrice": 22.72222,
+  "targetLowPrice": 18.0,
+  "targetHighPrice": 25.0,
+  "numberOfAnalystOpinions": 9,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.7,
+  "forwardPE": 16.784853,
+  "forwardEps": 1.07597,
+  "trailingEps": 0.57,
+  "earningsGrowth": 5.695,
+  "revenueGrowth": 0.092
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3263190000.0,
+    "official": 3263190000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 606035000.0,
+    "official": 606035000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 77949000.0,
+    "official": 77949000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1163617000.0,
+    "official": 1163617000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:55:30+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -188,7 +230,10 @@
    "goodwill_and_intangibles": 1593033000.0,
    "retained_earnings": -705816000.0,
    "total_debt": 1944234000.0,
-   "shares_out": 282421000.0
+   "shares_out": 282421000.0,
+   "unusual_items": -417758000.0,
+   "normalized_ebitda": 400345000.0,
+   "normalized_income": 167792900.321252
   },
   {
    "fy_end": "2023-12-31",
@@ -222,7 +267,10 @@
    "goodwill_and_intangibles": 1527508000.0,
    "retained_earnings": -654440000.0,
    "total_debt": 2228471000.0,
-   "shares_out": 282830000.0
+   "shares_out": 282830000.0,
+   "unusual_items": -35159000.0,
+   "normalized_ebitda": 441989000.0,
+   "normalized_income": 79151610.0
   },
   {
    "fy_end": "2024-12-31",
@@ -256,7 +304,10 @@
    "goodwill_and_intangibles": 1398726000.0,
    "retained_earnings": -610042000.0,
    "total_debt": 2222903000.0,
-   "shares_out": 283466029.0
+   "shares_out": 283466029.0,
+   "unusual_items": -24367000.0,
+   "normalized_ebitda": 466569000.0,
+   "normalized_income": 63647930.0
   },
   {
    "fy_end": "2025-12-31",
@@ -290,7 +341,10 @@
    "goodwill_and_intangibles": 1391459000.0,
    "retained_earnings": -532093000.0,
    "total_debt": 2140697000.0,
-   "shares_out": 284371152.0
+   "shares_out": 284371152.0,
+   "unusual_items": -67352000.0,
+   "normalized_ebitda": 507286000.0,
+   "normalized_income": 131157080.0
   }
  ]
 }

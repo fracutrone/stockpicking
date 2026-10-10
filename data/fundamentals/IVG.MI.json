@@ -1,6 +1,6 @@
 {
  "ticker": "IVG.MI",
- "fetched_at": "2026-10-10T12:04:19+00:00",
+ "fetched_at": "2026-10-10T14:59:02+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "MIL",
   "fullTimeEmployees": 33000,
   "website": "https://www.ivecogroup.com",
-  "longBusinessSummary": "Iveco Group N.V. engages in the design, production, marketing, sale, servicing, and financing of trucks, commercial vehicles, buses, specialty vehicles, combustion engines, alternative propulsion systems, transmissions, axles, and engines in Europe, South America, North America, and internationally. It operates in four segments: Truck, Bus, Powertrain, and Financial Services. The company offers light, medium, and heavy vehicles for the transportation and distribution of goods under the IVECO brand; and minibuses, city buses, intercity buses, and coaches for tour and intercity bus service operators, and transport authorities under the IVECO BUS and HEULIEZ brands. It also designs, manufactures, and distributes combustion engines, alternative propulsion systems, transmission systems, and axles for on- and off-road applications, agricultural and construction equipment, and marine and power generation applications under the FPT Industrial brand. In addition, the company offers financial products and services to dealers and customers; retail financing services to customers for the purchase or lease of new and used vehicles sold by brand dealers and distributors; wholesale financing consisting primarily of floor plan financing, which allows dealers to purchase and maintain a representative inventory of products; and discounts on non-dealer trade receivables. Further, it provides ePropulsion products, including eAxles, central drives, and electric drive units; energy storage systems, battery packs, and battery management systems; fuel-cell electric solutions and hybrid vehicle solutions, such as electric assist systems; and fuel cell electric vehicles. Iveco Group N.V. was founded in 1864 and is headquartered in Turin, Italy."
+  "longBusinessSummary": "Iveco Group N.V. engages in the design, production, marketing, sale, servicing, and financing of trucks, commercial vehicles, buses, specialty vehicles, combustion engines, alternative propulsion systems, transmissions, axles, and engines in Europe, South America, North America, and internationally. It operates in four segments: Truck, Bus, Powertrain, and Financial Services. The company offers light, medium, and heavy vehicles for the transportation and distribution of goods under the IVECO brand; and minibuses, city buses, intercity buses, and coaches for tour and intercity bus service operators, and transport authorities under the IVECO BUS and HEULIEZ brands. It also designs, manufactures, and distributes combustion engines, alternative propulsion systems, transmission systems, and axles for on- and off-road applications, agricultural and construction equipment, and marine and power generation applications under the FPT Industrial brand. In addition, the company offers financial products and services to dealers and customers; retail financing services to customers for the purchase or lease of new and used vehicles sold by brand dealers and distributors; wholesale financing consisting primarily of floor plan financing, which allows dealers to purchase and maintain a representative inventory of products; and discounts on non-dealer trade receivables. Further, it provides ePropulsion products, including eAxles, central drives, and electric drive units; energy storage systems, battery packs, and battery management systems; fuel-cell electric solutions and hybrid vehicle solutions, such as electric assist systems; and fuel cell electric vehicles. Iveco Group N.V. was founded in 1864 and is headquartered in Turin, Italy.",
+  "targetMeanPrice": 17.125,
+  "targetLowPrice": 14.1,
+  "targetHighPrice": 20.4,
+  "numberOfAnalystOpinions": 4,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.0,
+  "forwardPE": 7.034994,
+  "forwardEps": 2.04691,
+  "trailingEps": 0.23,
+  "earningsGrowth": -0.642,
+  "revenueGrowth": 0.073
  },
  "governance": {
   "ceo": {
@@ -76,8 +87,40 @@
   "intangibles": "yahoo",
   "goodwill_and_intangibles": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF NL",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 18863000000.0,
+    "official": 18863000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2760000000.0,
+    "official": 2760000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 289000000.0,
+    "official": 289000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 13428000000.0,
+    "official": 13428000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:59:02+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -111,7 +154,10 @@
    "intangibles": 1442000000.0,
    "goodwill_and_intangibles": 1511000000.0,
    "total_debt": 4433000000.0,
-   "shares_out": 271215400.0
+   "shares_out": 271215400.0,
+   "unusual_items": -31000000.0,
+   "normalized_ebitda": 1023000000.0,
+   "normalized_income": 165972000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -145,7 +191,10 @@
    "intangibles": 1755000000.0,
    "goodwill_and_intangibles": 1841000000.0,
    "total_debt": 6128000000.0,
-   "shares_out": 265213685.0
+   "shares_out": 265213685.0,
+   "unusual_items": -31000000.0,
+   "normalized_ebitda": 1318000000.0,
+   "normalized_income": 271654000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -179,7 +228,10 @@
    "intangibles": 1956000000.0,
    "goodwill_and_intangibles": 2039000000.0,
    "total_debt": 6306000000.0,
-   "shares_out": 264333778.0
+   "shares_out": 264333778.0,
+   "unusual_items": -130000000.0,
+   "normalized_ebitda": 1541000000.0,
+   "normalized_income": 604430000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -213,7 +265,10 @@
    "intangibles": 2023000000.0,
    "goodwill_and_intangibles": 2087000000.0,
    "total_debt": 6061000000.0,
-   "shares_out": 266346803.0
+   "shares_out": 266346803.0,
+   "unusual_items": 27000000.0,
+   "normalized_ebitda": 1254000000.0,
+   "normalized_income": 213993000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "ENSG",
- "fetched_at": "2026-10-10T12:44:24+00:00",
+ "fetched_at": "2026-10-10T15:42:47+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 46000,
   "website": "https://ensigngroup.net",
-  "longBusinessSummary": "The Ensign Group, Inc. provides skilled nursing, senior living, and rehabilitative services. It operates through two segments: Skilled Services and Standard Bearer. The Skilled Services segment provides short and long-term nursing care services for patients with chronic conditions, prolonged illness, and the elderly; specialty care, such as on-site dialysis, ventilator care, cardiac, and pulmonary management; and standard services, such as room and board, special nutritional programs, social services, recreational activities, entertainment, and other services. The Standard Bearer segment leases post-acute care properties to healthcare operators. In addition, the company operates senior living units; and provides ancillary services consisting of digital x-ray, ultrasound, electrocardiograms, sub-acute services, dialysis, respiratory, and long-term care pharmacy and patient transportation to people in their homes or at long-term care facilities, as well as mobile diagnostics. The company operates healthcare facilities in Alabama, Alaska, Arizona, Colorado, Idaho, Iowa, Kansas, Oregon, Nebraska, Nevada, South Carolina, Tennessee, Texas, Utah, Washington, and Wisconsin. The company was incorporated in 1999 and is based in San Juan Capistrano, California."
+  "longBusinessSummary": "The Ensign Group, Inc. provides skilled nursing, senior living, and rehabilitative services. It operates through two segments: Skilled Services and Standard Bearer. The Skilled Services segment provides short and long-term nursing care services for patients with chronic conditions, prolonged illness, and the elderly; specialty care, such as on-site dialysis, ventilator care, cardiac, and pulmonary management; and standard services, such as room and board, special nutritional programs, social services, recreational activities, entertainment, and other services. The Standard Bearer segment leases post-acute care properties to healthcare operators. In addition, the company operates senior living units; and provides ancillary services consisting of digital x-ray, ultrasound, electrocardiograms, sub-acute services, dialysis, respiratory, and long-term care pharmacy and patient transportation to people in their homes or at long-term care facilities, as well as mobile diagnostics. The company operates healthcare facilities in Alabama, Alaska, Arizona, Colorado, Idaho, Iowa, Kansas, Oregon, Nebraska, Nevada, South Carolina, Tennessee, Texas, Utah, Washington, and Wisconsin. The company was incorporated in 1999 and is based in San Juan Capistrano, California.",
+  "targetMeanPrice": 220.0,
+  "targetLowPrice": 207.0,
+  "targetHighPrice": 230.0,
+  "numberOfAnalystOpinions": 5,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.6,
+  "forwardPE": 20.073423,
+  "forwardEps": 8.55858,
+  "trailingEps": 6.38,
+  "earningsGrowth": 0.167,
+  "revenueGrowth": 0.173
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,38 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 5462970000.0,
+    "official": 5462970000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2231725000.0,
+    "official": 2231725000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 343971000.0,
+    "official": 343971000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 5057841000.0,
+    "official": 5057841000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:42:47+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -197,7 +238,9 @@
    "goodwill_and_intangibles": 83306000.0,
    "retained_earnings": 946339000.0,
    "total_debt": 156271000.0,
-   "shares_out": 55661000.0
+   "shares_out": 55661000.0,
+   "normalized_ebitda": 360375000.0,
+   "normalized_income": 224681000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -231,7 +274,9 @@
    "goodwill_and_intangibles": 83394000.0,
    "retained_earnings": 1142653000.0,
    "total_debt": 152388000.0,
-   "shares_out": 56597000.0
+   "shares_out": 56597000.0,
+   "normalized_ebitda": 353236000.0,
+   "normalized_income": 209399000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -265,7 +310,9 @@
    "goodwill_and_intangibles": 105273000.0,
    "retained_earnings": 1426762000.0,
    "total_debt": 148438000.0,
-   "shares_out": 57438000.0
+   "shares_out": 57438000.0,
+   "normalized_ebitda": 478518000.0,
+   "normalized_income": 297973000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -299,7 +346,9 @@
    "goodwill_and_intangibles": 104362000.0,
    "retained_earnings": 1756137000.0,
    "total_debt": 144352000.0,
-   "shares_out": 58085000.0
+   "shares_out": 58085000.0,
+   "normalized_ebitda": 567937000.0,
+   "normalized_income": 343971000.0
   }
  ]
 }

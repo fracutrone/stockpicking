@@ -1,6 +1,6 @@
 {
  "ticker": "TMO",
- "fetched_at": "2026-10-10T12:59:49+00:00",
+ "fetched_at": "2026-10-10T15:57:29+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 125000,
   "website": "https://www.thermofisher.com",
-  "longBusinessSummary": "Thermo Fisher Scientific Inc. provides life sciences solutions, analytical instruments, specialty diagnostics, and laboratory products and biopharma services internationally. It operates through four segments: Life Sciences Solutions, Analytical Instruments, Specialty Diagnostics, and Laboratory Products and Biopharma Services. The Life Sciences Solutions segment includes reagents, instruments, and consumables for biological and medical research; discovery and production of drugs and vaccines; and diagnosis of infections and diseases. Its Analytical Instruments segment provides instruments, consumables, software, and services for pharmaceutical, biotechnology, academic, government, environmental, and other research and industrial markets, as well as clinical laboratories. The Specialty Diagnostics segment offers clinical diagnostics products, such as liquid ready-to-use and lyophilized immunodiagnostic reagent kits, calibrators, controls, protein detection assays, and instruments; immunodiagnostic offerings comprising developing, manufacturing, and marketing of complete blood-test systems for the clinical diagnosis and monitoring of allergy, asthma and autoimmune diseases; microbiology offerings, such as dehydrated and prepared culture media, collection and transport systems, instrumentation and consumables to detect pathogens in blood, diagnostic and rapid direct specimen tests, quality-control products, and associated products; transplant diagnostics products, including human leukocyte antigen typing and testing for the organ transplant market; and healthcare market channel offerings. Its Laboratory Products and Biopharma Services segment provides laboratory products, research and safety market channel, and pharma services and clinical research. Thermo Fisher Scientific Inc. was founded in 1956 and is headquartered in Waltham, Massachusetts."
+  "longBusinessSummary": "Thermo Fisher Scientific Inc. provides life sciences solutions, analytical instruments, specialty diagnostics, and laboratory products and biopharma services internationally. It operates through four segments: Life Sciences Solutions, Analytical Instruments, Specialty Diagnostics, and Laboratory Products and Biopharma Services. The Life Sciences Solutions segment includes reagents, instruments, and consumables for biological and medical research; discovery and production of drugs and vaccines; and diagnosis of infections and diseases. Its Analytical Instruments segment provides instruments, consumables, software, and services for pharmaceutical, biotechnology, academic, government, environmental, and other research and industrial markets, as well as clinical laboratories. The Specialty Diagnostics segment offers clinical diagnostics products, such as liquid ready-to-use and lyophilized immunodiagnostic reagent kits, calibrators, controls, protein detection assays, and instruments; immunodiagnostic offerings comprising developing, manufacturing, and marketing of complete blood-test systems for the clinical diagnosis and monitoring of allergy, asthma and autoimmune diseases; microbiology offerings, such as dehydrated and prepared culture media, collection and transport systems, instrumentation and consumables to detect pathogens in blood, diagnostic and rapid direct specimen tests, quality-control products, and associated products; transplant diagnostics products, including human leukocyte antigen typing and testing for the organ transplant market; and healthcare market channel offerings. Its Laboratory Products and Biopharma Services segment provides laboratory products, research and safety market channel, and pharma services and clinical research. Thermo Fisher Scientific Inc. was founded in 1956 and is headquartered in Waltham, Massachusetts.",
+  "targetMeanPrice": 677.24,
+  "targetLowPrice": 560.0,
+  "targetHighPrice": 800.0,
+  "numberOfAnalystOpinions": 25,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.48148,
+  "forwardPE": 23.862082,
+  "forwardEps": 27.57597,
+  "trailingEps": 18.58,
+  "earningsGrowth": 0.094,
+  "revenueGrowth": 0.105
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 110343000000.0,
+    "official": 110343000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 53407000000.0,
+    "official": 53407000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 6704000000.0,
+    "official": 6704000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 44557000000.0,
+    "official": 44556000000.0,
+    "diff": 2.2e-05
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:57:29+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -198,7 +240,10 @@
    "goodwill_and_intangibles": 58638000000.0,
    "retained_earnings": 41910000000.0,
    "total_debt": 34278000000.0,
-   "shares_out": 390510837.0
+   "shares_out": 390510837.0,
+   "unusual_items": -275000000.0,
+   "normalized_ebitda": 12217000000.0,
+   "normalized_income": 7200250000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -233,7 +278,10 @@
    "goodwill_and_intangibles": 60690000000.0,
    "retained_earnings": 47364000000.0,
    "total_debt": 34727000000.0,
-   "shares_out": 386647344.0
+   "shares_out": 386647344.0,
+   "unusual_items": -505000000.0,
+   "normalized_ebitda": 11584000000.0,
+   "normalized_income": 6477227691.330581
   },
   {
    "fy_end": "2024-12-31",
@@ -268,7 +316,10 @@
    "goodwill_and_intangibles": 61386000000.0,
    "retained_earnings": 53102000000.0,
    "total_debt": 31072000000.0,
-   "shares_out": 380774334.0
+   "shares_out": 380774334.0,
+   "unusual_items": -358000000.0,
+   "normalized_ebitda": 11893000000.0,
+   "normalized_income": 6659706000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -303,7 +354,10 @@
    "goodwill_and_intangibles": 65200000000.0,
    "retained_earnings": 59156000000.0,
    "total_debt": 39172000000.0,
-   "shares_out": 376221470.0
+   "shares_out": 376221470.0,
+   "unusual_items": -349000000.0,
+   "normalized_ebitda": 11856000000.0,
+   "normalized_income": 7026825000.0
   }
  ]
 }

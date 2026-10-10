@@ -1,6 +1,6 @@
 {
  "ticker": "ULTA",
- "fetched_at": "2026-10-10T13:00:50+00:00",
+ "fetched_at": "2026-10-10T15:58:24+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 21382,
   "website": "https://www.ulta.com",
-  "longBusinessSummary": "Ulta Beauty, Inc. operates as a specialty beauty retailer in the United States, Mexico, and Kuwait. The company offers branded and private label beauty products, including cosmetics, fragrance, haircare, skincare, bath and body products, professional hair products, and salon styling tools through its Ulta Beauty stores, shop-in-shops, Ulta.com website, and its mobile applications. It also provides wellness products. The company was formerly known as ULTA Salon, Cosmetics & Fragrance, Inc. and changed its name to Ulta Beauty, Inc. in January 2017. Ulta Beauty, Inc. was incorporated in 1990 and is based in Bolingbrook, Illinois."
+  "longBusinessSummary": "Ulta Beauty, Inc. operates as a specialty beauty retailer in the United States, Mexico, and Kuwait. The company offers branded and private label beauty products, including cosmetics, fragrance, haircare, skincare, bath and body products, professional hair products, and salon styling tools through its Ulta Beauty stores, shop-in-shops, Ulta.com website, and its mobile applications. It also provides wellness products. The company was formerly known as ULTA Salon, Cosmetics & Fragrance, Inc. and changed its name to Ulta Beauty, Inc. in January 2017. Ulta Beauty, Inc. was incorporated in 1990 and is based in Bolingbrook, Illinois.",
+  "targetMeanPrice": 631.44,
+  "targetLowPrice": 500.0,
+  "targetHighPrice": 731.0,
+  "numberOfAnalystOpinions": 25,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.78571,
+  "forwardPE": 17.775614,
+  "forwardEps": 32.08722,
+  "trailingEps": 27.44,
+  "earningsGrowth": 0.133,
+  "revenueGrowth": 0.089
  },
  "governance": {
   "ceo": {
@@ -84,9 +95,40 @@
   "retained_earnings": "sec",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "gross_profit": "sec",
   "interest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-01-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 6999294000.0,
+    "official": 6999294000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2803451000.0,
+    "official": 2803451000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1153479000.0,
+    "official": 1153479000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 12392820000.0,
+    "official": 12392820000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:58:24+00:00",
  "years": [
   {
    "fy_end": "2020-02-01",
@@ -195,7 +237,10 @@
    "goodwill_and_intangibles": 12182000.0,
    "retained_earnings": 995773000.0,
    "total_debt": 1903176000.0,
-   "shares_out": 50364000.0
+   "shares_out": 50364000.0,
+   "unusual_items": -10601000.0,
+   "normalized_ebitda": 1901184000.0,
+   "normalized_income": 1250422356.0
   },
   {
    "fy_end": "2024-02-03",
@@ -228,7 +273,10 @@
    "goodwill_and_intangibles": 11380000.0,
    "retained_earnings": 1286765000.0,
    "total_debt": 1911092000.0,
-   "shares_out": 48324000.0
+   "shares_out": 48324000.0,
+   "unusual_items": -8510000.0,
+   "normalized_ebitda": 1938889000.0,
+   "normalized_income": 1297481110.0
   },
   {
    "fy_end": "2025-02-01",
@@ -261,7 +309,10 @@
    "goodwill_and_intangibles": 11074000.0,
    "retained_earnings": 1473909000.0,
    "total_debt": 1923234000.0,
-   "shares_out": 45965000.0
+   "shares_out": 45965000.0,
+   "unusual_items": -13689000.0,
+   "normalized_ebitda": 1859392000.0,
+   "normalized_income": 1211521640.0
   },
   {
    "fy_end": "2026-01-31",
@@ -295,7 +346,10 @@
    "goodwill_and_intangibles": 429709000.0,
    "retained_earnings": 1736929000.0,
    "total_debt": 2182061000.0,
-   "shares_out": 44166000.0
+   "shares_out": 44166000.0,
+   "unusual_items": -15821000.0,
+   "normalized_ebitda": 1865406000.0,
+   "normalized_income": 1165423855.0
   }
  ]
 }

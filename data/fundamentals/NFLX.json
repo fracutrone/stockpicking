@@ -1,6 +1,6 @@
 {
  "ticker": "NFLX",
- "fetched_at": "2026-10-10T12:52:52+00:00",
+ "fetched_at": "2026-10-10T15:50:53+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 16000,
   "website": "https://www.netflix.com",
-  "longBusinessSummary": "Netflix, Inc. provides entertainment services worldwide. The company offers television (TV) series, documentaries, feature films, games, and live programming across various genres and languages. It also provides members the ability to receive streaming content through a host of internet-connected devices, including TVs, digital video players, TV set-top boxes, and mobile devices. Netflix, Inc. was incorporated in 1997 and is headquartered in Los Gatos, California."
+  "longBusinessSummary": "Netflix, Inc. provides entertainment services worldwide. The company offers television (TV) series, documentaries, feature films, games, and live programming across various genres and languages. It also provides members the ability to receive streaming content through a host of internet-connected devices, including TVs, digital video players, TV set-top boxes, and mobile devices. Netflix, Inc. was incorporated in 1997 and is headquartered in Los Gatos, California.",
+  "targetMeanPrice": 92.54889,
+  "targetLowPrice": 57.0,
+  "targetHighPrice": 135.0,
+  "numberOfAnalystOpinions": 45,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.80392,
+  "forwardPE": 18.467829,
+  "forwardEps": 3.80662,
+  "trailingEps": 3.18,
+  "earningsGrowth": 0.111,
+  "revenueGrowth": 0.134
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,38 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 55596993000.0,
+    "official": 55596993000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 26615488000.0,
+    "official": 26615488000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 10981201000.0,
+    "official": 10981201000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 45183036000.0,
+    "official": 45183036000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:50:53+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -187,7 +228,9 @@
    "goodwill_and_intangibles": 32736713000.0,
    "retained_earnings": 17181296000.0,
    "total_debt": 14353076000.0,
-   "shares_out": 4453467760.0
+   "shares_out": 4453467760.0,
+   "normalized_ebitda": 20332955000.0,
+   "normalized_income": 4491924000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -220,7 +263,9 @@
    "goodwill_and_intangibles": 31658056000.0,
    "retained_earnings": 22589286000.0,
    "total_debt": 14543261000.0,
-   "shares_out": 4327595840.0
+   "shares_out": 4327595840.0,
+   "normalized_ebitda": 21508387000.0,
+   "normalized_income": 5407990000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -253,7 +298,9 @@
    "goodwill_and_intangibles": 32452462000.0,
    "retained_earnings": 31300917000.0,
    "total_debt": 15582804000.0,
-   "shares_out": 4277571000.0
+   "shares_out": 4277571000.0,
+   "normalized_ebitda": 26314821000.0,
+   "normalized_income": 8711631000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -286,7 +333,9 @@
    "goodwill_and_intangibles": 32778392000.0,
    "retained_earnings": 42282118000.0,
    "total_debt": 14462836000.0,
-   "shares_out": 4222162150.0
+   "shares_out": 4222162150.0,
+   "normalized_ebitda": 30254617000.0,
+   "normalized_income": 10981201000.0
   }
  ]
 }

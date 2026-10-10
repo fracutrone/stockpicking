@@ -1,6 +1,6 @@
 {
  "ticker": "DPZ",
- "fetched_at": "2026-10-10T12:43:30+00:00",
+ "fetched_at": "2026-10-10T15:41:56+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 6200,
   "website": "https://biz.dominos.com",
-  "longBusinessSummary": "Domino's Pizza, Inc. operates as a pizza company worldwide. The company operates through three segments: U.S. Stores, International Franchise, and Supply Chain. It offers pizzas under the Domino's brand name through company-owned and franchised stores. The company also provides bread products, wings, boneless chicken, pastas, oven-baked sandwiches, soft drink products and desserts. In addition, it offers parmesan stuffed crust pizza; spicy chicken bacon ranch specialty pizza; and garlic, and cinnamon bread bites, as well as croissant, chocolate volcano, and chicken burst pizzas. Domino's Pizza, Inc. was founded in 1960 and is based in Ann Arbor, Michigan."
+  "longBusinessSummary": "Domino's Pizza, Inc. operates as a pizza company worldwide. The company operates through three segments: U.S. Stores, International Franchise, and Supply Chain. It offers pizzas under the Domino's brand name through company-owned and franchised stores. The company also provides bread products, wings, boneless chicken, pastas, oven-baked sandwiches, soft drink products and desserts. In addition, it offers parmesan stuffed crust pizza; spicy chicken bacon ranch specialty pizza; and garlic, and cinnamon bread bites, as well as croissant, chocolate volcano, and chicken burst pizzas. Domino's Pizza, Inc. was founded in 1960 and is based in Ann Arbor, Michigan.",
+  "targetMeanPrice": 373.14816,
+  "targetLowPrice": 260.0,
+  "targetHighPrice": 455.0,
+  "numberOfAnalystOpinions": 27,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.13333,
+  "forwardPE": 14.819747,
+  "forwardEps": 20.87485,
+  "trailingEps": 17.64,
+  "earningsGrowth": 0.068,
+  "revenueGrowth": 0.043
  },
  "governance": {
   "top_institutions": [
@@ -77,8 +88,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 1716459000.0,
+    "official": 1716459000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": -3901142000.0,
+    "official": -3901142000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 601704000.0,
+    "official": 601704000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 4939994000.0,
+    "official": 4939994000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:41:56+00:00",
  "years": [
   {
    "fy_end": "2019-12-29",
@@ -193,7 +235,10 @@
    "goodwill_and_intangibles": 120117000.0,
    "retained_earnings": -4194418000.0,
    "total_debt": 4967420000.0,
-   "shares_out": 35419718.0
+   "shares_out": 35419718.0,
+   "unusual_items": 21173000.0,
+   "normalized_ebitda": 830165000.0,
+   "normalized_income": 435536330.0
   },
   {
    "fy_end": "2023-12-31",
@@ -227,7 +272,10 @@
    "goodwill_and_intangibles": 145793000.0,
    "retained_earnings": -4069648000.0,
    "total_debt": 4934062000.0,
-   "shares_out": 34726182.0
+   "shares_out": 34726182.0,
+   "unusual_items": -149000.0,
+   "normalized_ebitda": 929704000.0,
+   "normalized_income": 519236552.789529
   },
   {
    "fy_end": "2024-12-29",
@@ -261,7 +309,10 @@
    "goodwill_and_intangibles": 181103000.0,
    "retained_earnings": -3956474000.0,
    "total_debt": 14700000.0,
-   "shares_out": 34281927.0
+   "shares_out": 34281927.0,
+   "unusual_items": -158000.0,
+   "normalized_ebitda": 1005975000.0,
+   "normalized_income": 584297822.0
   },
   {
    "fy_end": "2025-12-28",
@@ -295,7 +346,10 @@
    "goodwill_and_intangibles": 186182000.0,
    "retained_earnings": -3898622000.0,
    "total_debt": 14600000.0,
-   "shares_out": 33627992.0
+   "shares_out": 33627992.0,
+   "unusual_items": 4028000.0,
+   "normalized_ebitda": 1051109000.0,
+   "normalized_income": 598558132.0
   }
  ]
 }

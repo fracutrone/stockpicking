@@ -1,6 +1,6 @@
 {
  "ticker": "ESS",
- "fetched_at": "2026-10-10T12:44:42+00:00",
+ "fetched_at": "2026-10-10T15:43:04+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 1686,
   "website": "https://www.essexapartmenthomes.com",
-  "longBusinessSummary": "Essex Property Trust, Inc., an S&P 500 company, is a fully integrated real estate investment trust. The firm acquires, develops, redevelops, and manages multifamily residential properties in selected West Coast markets. Essex currently has ownership interests in 258 apartment communities comprising over 62,000 apartment homes with an additional property in active development. Essex Property Trust, Inc. was incorporated in 1971 in Maryland and is based in San Mateo, United States."
+  "longBusinessSummary": "Essex Property Trust, Inc., an S&P 500 company, is a fully integrated real estate investment trust. The firm acquires, develops, redevelops, and manages multifamily residential properties in selected West Coast markets. Essex currently has ownership interests in 258 apartment communities comprising over 62,000 apartment homes with an additional property in active development. Essex Property Trust, Inc. was incorporated in 1971 in Maryland and is based in San Mateo, United States.",
+  "targetMeanPrice": 304.07,
+  "targetLowPrice": 239.0,
+  "targetHighPrice": 352.0,
+  "numberOfAnalystOpinions": 25,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.57692,
+  "forwardPE": 43.108814,
+  "forwardEps": 6.29964,
+  "trailingEps": 6.43,
+  "earningsGrowth": -0.718,
+  "revenueGrowth": 0.031
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "intangibles": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 13159009000.0,
+    "official": 13159009000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 5541372000.0,
+    "official": 5541372000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 669666000.0,
+    "official": 702773000.0,
+    "diff": 0.047109
+   },
+   "revenue": {
+    "yahoo": 1887345000.0,
+    "official": 1887345000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:43:04+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -163,7 +205,10 @@
    "intangibles": 7400000.0,
    "retained_earnings": -1080176000.0,
    "total_debt": 6026880000.0,
-   "shares_out": 64604603.0
+   "shares_out": 64604603.0,
+   "unusual_items": 143642000.0,
+   "normalized_ebitda": 1052500000.0,
+   "normalized_income": 294837820.0
   },
   {
    "fy_end": "2023-12-31",
@@ -194,7 +239,10 @@
    "intangibles": 6100000.0,
    "retained_earnings": -1267536000.0,
    "total_debt": 6270826000.0,
-   "shares_out": 64203497.0
+   "shares_out": 64203497.0,
+   "unusual_items": 71919000.0,
+   "normalized_ebitda": 1120132000.0,
+   "normalized_income": 349008990.0
   },
   {
    "fy_end": "2024-12-31",
@@ -225,7 +273,10 @@
    "intangibles": 7700000.0,
    "retained_earnings": -1155662000.0,
    "total_debt": 6654090000.0,
-   "shares_out": 64280466.0
+   "shares_out": 64280466.0,
+   "unusual_items": 437371000.0,
+   "normalized_ebitda": 1189684000.0,
+   "normalized_income": 395998910.0
   },
   {
    "fy_end": "2025-12-31",
@@ -256,7 +307,10 @@
    "intangibles": 7500000.0,
    "retained_earnings": -1148195000.0,
    "total_debt": 6851756000.0,
-   "shares_out": 64442290.0
+   "shares_out": 64442290.0,
+   "unusual_items": 339260000.0,
+   "normalized_ebitda": 1229459000.0,
+   "normalized_income": 401650600.0
   }
  ]
 }

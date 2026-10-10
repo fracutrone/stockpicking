@@ -1,6 +1,6 @@
 {
  "ticker": "IPGP",
- "fetched_at": "2026-10-10T12:48:57+00:00",
+ "fetched_at": "2026-10-10T15:47:18+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 4840,
   "website": "https://www.ipgphotonics.com",
-  "longBusinessSummary": "IPG Photonics Corporation develops, manufactures, and sells fiber lasers, fiber amplifiers, diode lasers, and laser-based systems used in materials processing, medical, and advanced applications. The company offers laser products, including hybrid fiber-solid state lasers with green and ultraviolet wavelengths; fiber pigtailed packaged diodes and fiber coupled direct diode laser systems; and high-energy pulsed lasers, multi-wavelength and tunable lasers, and single-polarization and single-frequency lasers, as well as other versions. It also provides complementary products, such as optical fiber delivery cables, fiber couplers, beam switches, optical processing heads, process measuring and monitoring technologies, and in-line sensors and chillers. In addition, the company offers LightWELD, a handheld laser welding system; 2D compact flat sheet cutter systems; high precision laser systems for medical technology industry; multi axis Cartesian systems for fine welding, cutting, and drilling applications; laser and non-laser robotic welding and automation solutions; and related accessories for specific medical applications. The company sells and markets its products to original equipment manufacturers, system integrators, and end users through direct sales force, as well as through agreements with independent sales representatives and distributors. It serves general manufacturing, automotive, consumer goods, medical devices, energy/renewable energy, micro electronics, original equipment manufacturers instrument manufacturing, scientific, as well as aerospace and defense, rail, and shipbuilding markets. IPG Photonics Corporation was founded in 1990 and is headquartered in Marlborough, Massachusetts."
+  "longBusinessSummary": "IPG Photonics Corporation develops, manufactures, and sells fiber lasers, fiber amplifiers, diode lasers, and laser-based systems used in materials processing, medical, and advanced applications. The company offers laser products, including hybrid fiber-solid state lasers with green and ultraviolet wavelengths; fiber pigtailed packaged diodes and fiber coupled direct diode laser systems; and high-energy pulsed lasers, multi-wavelength and tunable lasers, and single-polarization and single-frequency lasers, as well as other versions. It also provides complementary products, such as optical fiber delivery cables, fiber couplers, beam switches, optical processing heads, process measuring and monitoring technologies, and in-line sensors and chillers. In addition, the company offers LightWELD, a handheld laser welding system; 2D compact flat sheet cutter systems; high precision laser systems for medical technology industry; multi axis Cartesian systems for fine welding, cutting, and drilling applications; laser and non-laser robotic welding and automation solutions; and related accessories for specific medical applications. The company sells and markets its products to original equipment manufacturers, system integrators, and end users through direct sales force, as well as through agreements with independent sales representatives and distributors. It serves general manufacturing, automotive, consumer goods, medical devices, energy/renewable energy, micro electronics, original equipment manufacturers instrument manufacturing, scientific, as well as aerospace and defense, rail, and shipbuilding markets. IPG Photonics Corporation was founded in 1990 and is headquartered in Marlborough, Massachusetts.",
+  "targetMeanPrice": 124.14286,
+  "targetLowPrice": 78.0,
+  "targetHighPrice": 152.0,
+  "numberOfAnalystOpinions": 7,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 33.925117,
+  "forwardEps": 2.30714,
+  "trailingEps": 0.65,
+  "earningsGrowth": -0.228,
+  "revenueGrowth": 0.111
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "retained_earnings": "sec",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "interest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 2424280000.0,
+    "official": 2424280000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2128130000.0,
+    "official": 2128130000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 31096000.0,
+    "official": 31096000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1003777000.0,
+    "official": 1003777000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:47:18+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -201,7 +243,10 @@
    "goodwill_and_intangibles": 72445000.0,
    "retained_earnings": 2576516000.0,
    "total_debt": 38052000.0,
-   "shares_out": 48138257.0
+   "shares_out": 48138257.0,
+   "unusual_items": -61903000.0,
+   "normalized_ebitda": 383870000.0,
+   "normalized_income": 147304487.812993
   },
   {
    "fy_end": "2023-12-31",
@@ -235,7 +280,10 @@
    "goodwill_and_intangibles": 64774000.0,
    "retained_earnings": 2795394000.0,
    "total_debt": 18261000.0,
-   "shares_out": 46320671.0
+   "shares_out": 46320671.0,
+   "unusual_items": 407000.0,
+   "normalized_ebitda": 300780000.0,
+   "normalized_income": 218553913.24784
   },
   {
    "fy_end": "2024-12-31",
@@ -269,7 +317,10 @@
    "goodwill_and_intangibles": 122617000.0,
    "retained_earnings": 2613868000.0,
    "total_debt": 17959000.0,
-   "shares_out": 42548561.0
+   "shares_out": 42548561.0,
+   "unusual_items": -222731000.0,
+   "normalized_ebitda": 298651000.0,
+   "normalized_income": -5568510.0
   },
   {
    "fy_end": "2025-12-31",
@@ -303,7 +354,10 @@
    "goodwill_and_intangibles": 121668000.0,
    "retained_earnings": 2644964000.0,
    "total_debt": 17250000.0,
-   "shares_out": 42127067.0
+   "shares_out": 42127067.0,
+   "unusual_items": -9955000.0,
+   "normalized_ebitda": 99868000.0,
+   "normalized_income": 37964950.0
   }
  ]
 }

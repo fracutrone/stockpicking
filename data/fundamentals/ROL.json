@@ -1,6 +1,6 @@
 {
  "ticker": "ROL",
- "fetched_at": "2026-10-10T12:57:04+00:00",
+ "fetched_at": "2026-10-10T15:54:46+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 22000,
   "website": "https://www.rollins.com",
-  "longBusinessSummary": "Rollins, Inc., through its subsidiaries, provides pest and wildlife control services and protection to residential and commercial customers in the United States and internationally. The company offers pest control services to residential properties protecting from common pests, including rodents, insects, and wildlife. It also provides workplace pest control solutions for customers across various end markets, such as healthcare, food service, and logistics. In addition, the company offers termite protection and ancillary services for both residential and commercial customers. It serves clients directly, as well as through franchisee operations. The company was formerly known as Rollins Broadcasting, Inc and changed its name to Rollins, Inc. in 1965. Rollins, Inc. was founded in 1901 and is headquartered in Atlanta, Georgia."
+  "longBusinessSummary": "Rollins, Inc., through its subsidiaries, provides pest and wildlife control services and protection to residential and commercial customers in the United States and internationally. The company offers pest control services to residential properties protecting from common pests, including rodents, insects, and wildlife. It also provides workplace pest control solutions for customers across various end markets, such as healthcare, food service, and logistics. In addition, the company offers termite protection and ancillary services for both residential and commercial customers. It serves clients directly, as well as through franchisee operations. The company was formerly known as Rollins Broadcasting, Inc and changed its name to Rollins, Inc. in 1965. Rollins, Inc. was founded in 1901 and is headquartered in Atlanta, Georgia.",
+  "targetMeanPrice": 42.41176,
+  "targetLowPrice": 27.0,
+  "targetHighPrice": 66.0,
+  "numberOfAnalystOpinions": 17,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.52632,
+  "forwardPE": 24.801655,
+  "forwardEps": 1.28943,
+  "trailingEps": 1.1,
+  "earningsGrowth": 0.031,
+  "revenueGrowth": 0.079
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3140523000.0,
+    "official": 3140523000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1374321000.0,
+    "official": 1374321000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 526705000.0,
+    "official": 526705000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3761050000.0,
+    "official": 3761050000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:54:46+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -191,7 +233,10 @@
    "goodwill_and_intangibles": 1265452000.0,
    "retained_earnings": 687069000.0,
    "total_debt": 336329000.0,
-   "shares_out": 492447997.0
+   "shares_out": 492447997.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 592881000.0,
+   "normalized_income": 368599000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -225,7 +270,10 @@
    "goodwill_and_intangibles": 1616044000.0,
    "retained_earnings": 566402000.0,
    "total_debt": 816348000.0,
-   "shares_out": 484080014.0
+   "shares_out": 484080014.0,
+   "unusual_items": -5196000.0,
+   "normalized_ebitda": 710260000.0,
+   "normalized_income": 438812027.01375
   },
   {
    "fy_end": "2024-12-31",
@@ -259,7 +307,10 @@
    "goodwill_and_intangibles": 1702674000.0,
    "retained_earnings": 734650000.0,
    "total_debt": 812528000.0,
-   "shares_out": 484372303.0
+   "shares_out": 484372303.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 771127000.0,
+   "normalized_income": 466379000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -293,7 +344,10 @@
    "goodwill_and_intangibles": 1957048000.0,
    "retained_earnings": 738915000.0,
    "total_debt": 1038005000.0,
-   "shares_out": 481193751.0
+   "shares_out": 481193751.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 854228000.0,
+   "normalized_income": 526705000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "DVA",
- "fetched_at": "2026-10-10T12:43:42+00:00",
+ "fetched_at": "2026-10-10T15:42:08+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 78000,
   "website": "https://www.davita.com",
-  "longBusinessSummary": "DaVita Inc. provides kidney dialysis services for patients suffering from chronic kidney failure in the United States. The company operates kidney dialysis centers and provides related lab services in outpatient dialysis centers. It also offers outpatient, hospital inpatient, and home-based hemodialysis dialysis services; operates clinical laboratories that provide routine laboratory tests for dialysis and other physician-prescribed laboratory tests for ESRD patients; and management and administrative services to outpatient dialysis centers. In addition, the company offers integrated care and disease management services to patients in risk-based and other integrated care arrangements; clinical research programs; physician services; and comprehensive kidney care services. Further, it engages in the transplant software business. The company was formerly known as DaVita HealthCare Partners Inc. and changed its name to DaVita Inc. in September 2016. DaVita Inc. was incorporated in 1994 and is headquartered in Denver, Colorado."
+  "longBusinessSummary": "DaVita Inc. provides kidney dialysis services for patients suffering from chronic kidney failure in the United States. The company operates kidney dialysis centers and provides related lab services in outpatient dialysis centers. It also offers outpatient, hospital inpatient, and home-based hemodialysis dialysis services; operates clinical laboratories that provide routine laboratory tests for dialysis and other physician-prescribed laboratory tests for ESRD patients; and management and administrative services to outpatient dialysis centers. In addition, the company offers integrated care and disease management services to patients in risk-based and other integrated care arrangements; clinical research programs; physician services; and comprehensive kidney care services. Further, it engages in the transplant software business. The company was formerly known as DaVita HealthCare Partners Inc. and changed its name to DaVita Inc. in September 2016. DaVita Inc. was incorporated in 1994 and is headquartered in Denver, Colorado.",
+  "targetMeanPrice": 219.85715,
+  "targetLowPrice": 165.0,
+  "targetHighPrice": 270.0,
+  "numberOfAnalystOpinions": 7,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.375,
+  "forwardPE": 10.45581,
+  "forwardEps": 17.14358,
+  "trailingEps": 11.84,
+  "earningsGrowth": 0.558,
+  "revenueGrowth": 0.052
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 17480103000.0,
+    "official": 17480103000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": -651082000.0,
+    "official": -651082000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 746803000.0,
+    "official": 746803000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 13643069000.0,
+    "official": 13643069000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:42:08+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -202,7 +244,10 @@
    "goodwill_and_intangibles": 7259296000.0,
    "retained_earnings": 174487000.0,
    "total_debt": 8692617000.0,
-   "shares_out": 90411000.0
+   "shares_out": 90411000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 2055899000.0,
+   "normalized_income": 546948000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -237,7 +282,10 @@
    "goodwill_and_intangibles": 7315784000.0,
    "retained_earnings": 598288000.0,
    "total_debt": 8268334000.0,
-   "shares_out": 88824000.0
+   "shares_out": 88824000.0,
+   "unusual_items": -34045000.0,
+   "normalized_ebitda": 2355133000.0,
+   "normalized_income": 717307065.0
   },
   {
    "fy_end": "2024-12-31",
@@ -272,7 +320,10 @@
    "goodwill_and_intangibles": 7572647000.0,
    "retained_earnings": 1534630000.0,
    "total_debt": 9175903000.0,
-   "shares_out": 80536000.0
+   "shares_out": 80536000.0,
+   "unusual_items": 89653000.0,
+   "normalized_ebitda": 2635069000.0,
+   "normalized_income": 863071719.581179
   },
   {
    "fy_end": "2025-12-31",
@@ -307,7 +358,10 @@
    "goodwill_and_intangibles": 7767220000.0,
    "retained_earnings": -328428000.0,
    "total_debt": 10163988000.0,
-   "shares_out": 68549000.0
+   "shares_out": 68549000.0,
+   "unusual_items": -14178000.0,
+   "normalized_ebitda": 2656275000.0,
+   "normalized_income": 732895463.856052
   }
  ]
 }

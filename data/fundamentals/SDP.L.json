@@ -1,6 +1,6 @@
 {
  "ticker": "SDP.L",
- "fetched_at": "2026-10-10T12:18:38+00:00",
+ "fetched_at": "2026-10-10T15:18:46+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -48,8 +59,15 @@
   "equity": "yahoo",
   "receivables": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T15:18:46+00:00",
  "years": [
   {
    "fy_end": "2022-09-30",
@@ -68,7 +86,8 @@
    "equity": 878187000.0,
    "receivables": 7920000.0,
    "total_debt": 13521000.0,
-   "shares_out": 160800716.0
+   "shares_out": 160800716.0,
+   "normalized_income": -142179000.0
   },
   {
    "fy_end": "2023-09-30",
@@ -87,7 +106,8 @@
    "equity": 851285000.0,
    "receivables": 2812000.0,
    "total_debt": 24579000.0,
-   "shares_out": 153465716.0
+   "shares_out": 153465716.0,
+   "normalized_income": 21903000.0
   },
   {
    "fy_end": "2024-09-30",
@@ -106,7 +126,8 @@
    "equity": 919159000.0,
    "receivables": 2315000.0,
    "total_debt": 29821000.0,
-   "shares_out": 146591216.0
+   "shares_out": 146591216.0,
+   "normalized_income": 127739000.0
   },
   {
    "fy_end": "2025-09-30",
@@ -125,7 +146,8 @@
    "equity": 952650000.0,
    "receivables": 2190000.0,
    "total_debt": 37140000.0,
-   "shares_out": 133985233.0
+   "shares_out": 133985233.0,
+   "normalized_income": 121777000.0
   }
  ]
 }

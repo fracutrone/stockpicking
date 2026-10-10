@@ -1,6 +1,6 @@
 {
  "ticker": "KIM",
- "fetched_at": "2026-10-10T12:49:45+00:00",
+ "fetched_at": "2026-10-10T15:48:04+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 710,
   "website": "https://www.kimcorealty.com",
-  "longBusinessSummary": "Kimco Realty is a real estate investment trust (REIT) and leading owner and operator of high-quality, open-air, grocery-anchored shopping centers and mixed-use properties in the United States. The company's portfolio is strategically concentrated in the first-ring suburbs of the top major metropolitan markets, including high-barrier-to-entry coastal markets and Sun Belt cities. Its tenant mix is focused on essential, necessity-based goods and services that drive multiple shopping trips per week. Publicly traded on the NYSE since 1991 and included in the S&P 500 Index, the company has specialized in shopping center ownership, management, acquisitions, and value-enhancing redevelopment activities for more than 65 years. With a proven commitment to corporate responsibility, Kimco Realty is a recognized industry leader in this area. As of June 30, 2026, the company owned interests in 564 U.S. shopping centers and mixed-use assets comprising 100 million square feet of gross leasable space. Kimco Realty Corporation was incorporated in 1958 in Maryland and is based in Jericho, New York."
+  "longBusinessSummary": "Kimco Realty is a real estate investment trust (REIT) and leading owner and operator of high-quality, open-air, grocery-anchored shopping centers and mixed-use properties in the United States. The company's portfolio is strategically concentrated in the first-ring suburbs of the top major metropolitan markets, including high-barrier-to-entry coastal markets and Sun Belt cities. Its tenant mix is focused on essential, necessity-based goods and services that drive multiple shopping trips per week. Publicly traded on the NYSE since 1991 and included in the S&P 500 Index, the company has specialized in shopping center ownership, management, acquisitions, and value-enhancing redevelopment activities for more than 65 years. With a proven commitment to corporate responsibility, Kimco Realty is a recognized industry leader in this area. As of June 30, 2026, the company owned interests in 564 U.S. shopping centers and mixed-use assets comprising 100 million square feet of gross leasable space. Kimco Realty Corporation was incorporated in 1958 in Maryland and is based in Jericho, New York.",
+  "targetMeanPrice": 26.5119,
+  "targetLowPrice": 23.0,
+  "targetHighPrice": 31.0,
+  "numberOfAnalystOpinions": 21,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.34783,
+  "forwardPE": 24.622223,
+  "forwardEps": 0.9,
+  "trailingEps": 0.85,
+  "earningsGrowth": -0.058,
+  "revenueGrowth": 0.049
  },
  "governance": {
   "ceo": {
@@ -80,10 +91,41 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "tax": "sec",
   "capex": "sec",
   "intangibles": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 19688250000.0,
+    "official": 19688250000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 10391836000.0,
+    "official": 10391836000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 584741000.0,
+    "official": 584741000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2140116000.0,
+    "official": 2140116000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:48:04+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -166,7 +208,10 @@
    "ppe_net": 133733000.0,
    "retained_earnings": -119548000.0,
    "total_debt": 6781000000.0,
-   "shares_out": 618483565.0
+   "shares_out": 618483565.0,
+   "unusual_items": -329945000.0,
+   "normalized_ebitda": 1106072000.0,
+   "normalized_income": 386632550.0
   },
   {
    "fy_end": "2023-12-31",
@@ -196,7 +241,10 @@
    "ppe_net": 128258000.0,
    "retained_earnings": -122576000.0,
    "total_debt": 7262900000.0,
-   "shares_out": 619871237.0
+   "shares_out": 619871237.0,
+   "unusual_items": 271545000.0,
+   "normalized_ebitda": 1129835000.0,
+   "normalized_income": 408432070.481462
   },
   {
    "fy_end": "2024-12-31",
@@ -227,7 +275,10 @@
    "intangibles": 1247081000.0,
    "retained_earnings": -398792000.0,
    "total_debt": 7964700000.0,
-   "shares_out": 679493522.0
+   "shares_out": 679493522.0,
+   "unusual_items": -56127000.0,
+   "normalized_ebitda": 1318826000.0,
+   "normalized_income": 462850076.698139
   },
   {
    "fy_end": "2025-12-31",
@@ -258,7 +309,10 @@
    "intangibles": 1227199000.0,
    "retained_earnings": -528730000.0,
    "total_debt": 7718700000.0,
-   "shares_out": 674093047.0
+   "shares_out": 674093047.0,
+   "unusual_items": 53149000.0,
+   "normalized_ebitda": 1397772000.0,
+   "normalized_income": 531704621.378144
   }
  ]
 }

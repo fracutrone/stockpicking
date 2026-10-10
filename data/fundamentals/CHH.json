@@ -1,6 +1,6 @@
 {
  "ticker": "CHH",
- "fetched_at": "2026-10-10T12:40:40+00:00",
+ "fetched_at": "2026-10-10T15:39:29+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 1754,
   "website": "https://www.choicehotels.com",
-  "longBusinessSummary": "Choice Hotels International, Inc., together with its subsidiaries, operates as a hotel franchisor in the United States and internationally. It operates through Hotel Franchising & Management and Corporate & Other segments. The company franchises lodging properties under the Comfort Inn, Comfort Suites, Quality, Clarion, Clarion Pointe, Sleep Inn, Ascend Collection, Econo Lodge, Rodeway Inn, MainStay Suites, Suburban Studios, WoodSpring Suites, Everhome Suites, Cambria Hotels, Radisson Blu, Radisson RED, Radisson, Park Plaza, Country Inn & Suites by Radisson, Radisson Inn & Suites, Park Inn by Radisson, Radisson Individuals, and Radisson Collection brand names. The company was founded in 1939 and is headquartered in North Bethesda, Maryland."
+  "longBusinessSummary": "Choice Hotels International, Inc., together with its subsidiaries, operates as a hotel franchisor in the United States and internationally. It operates through Hotel Franchising & Management and Corporate & Other segments. The company franchises lodging properties under the Comfort Inn, Comfort Suites, Quality, Clarion, Clarion Pointe, Sleep Inn, Ascend Collection, Econo Lodge, Rodeway Inn, MainStay Suites, Suburban Studios, WoodSpring Suites, Everhome Suites, Cambria Hotels, Radisson Blu, Radisson RED, Radisson, Park Plaza, Country Inn & Suites by Radisson, Radisson Inn & Suites, Park Inn by Radisson, Radisson Individuals, and Radisson Collection brand names. The company was founded in 1939 and is headquartered in North Bethesda, Maryland.",
+  "targetMeanPrice": 114.6,
+  "targetLowPrice": 91.0,
+  "targetHighPrice": 131.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.0625,
+  "forwardPE": 13.942101,
+  "forwardEps": 7.57705,
+  "trailingEps": 7.08,
+  "earningsGrowth": -0.194,
+  "revenueGrowth": 0.071
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 2918203000.0,
+    "official": 2918203000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 181229000.0,
+    "official": 181229000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 369946000.0,
+    "official": 369946000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1596793000.0,
+    "official": 1596793000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:39:29+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -192,7 +234,10 @@
    "goodwill_and_intangibles": 960843000.0,
    "retained_earnings": 1555724000.0,
    "total_debt": 1203523000.0,
-   "shares_out": 52200903.0
+   "shares_out": 52200903.0,
+   "unusual_items": -23329000.0,
+   "normalized_ebitda": 567845000.0,
+   "normalized_income": 349891623.558284
   },
   {
    "fy_end": "2023-12-31",
@@ -225,7 +270,10 @@
    "goodwill_and_intangibles": 1031262000.0,
    "retained_earnings": 1756359000.0,
    "total_debt": 1568019000.0,
-   "shares_out": 49526245.0
+   "shares_out": 49526245.0,
+   "unusual_items": -55098000.0,
+   "normalized_ebitda": 531569000.0,
+   "normalized_income": 300767166.0
   },
   {
    "fy_end": "2024-12-31",
@@ -258,7 +306,10 @@
    "goodwill_and_intangibles": 1104200000.0,
    "retained_earnings": 2001297000.0,
    "total_debt": 1768526000.0,
-   "shares_out": 46856567.0
+   "shares_out": 46856567.0,
+   "unusual_items": -17564000.0,
+   "normalized_ebitda": 571200000.0,
+   "normalized_income": 312960948.0
   },
   {
    "fy_end": "2025-12-31",
@@ -291,7 +342,10 @@
    "goodwill_and_intangibles": 1388244000.0,
    "retained_earnings": 2318031000.0,
    "total_debt": 1906122000.0,
-   "shares_out": 45996087.0
+   "shares_out": 45996087.0,
+   "unusual_items": 96037000.0,
+   "normalized_ebitda": 531271000.0,
+   "normalized_income": 292156030.0
   }
  ]
 }

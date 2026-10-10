@@ -1,6 +1,6 @@
 {
  "ticker": "ACKB.BR",
- "fetched_at": "2026-10-10T12:28:18+00:00",
+ "fetched_at": "2026-10-10T15:32:30+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "BRU",
   "fullTimeEmployees": 24931,
   "website": "https://www.avh.be",
-  "longBusinessSummary": "Ackermans & Van Haaren NV engages in marine engineering and contracting, private banking, real estate, energy and resources, and growth capital businesses worldwide. The Marine Engineering & Contracting segment engages in the marine construction activities, including dredging and civil works on water, as well as offshore activities in the areas of renewable energy, oil and gas, soil and sludge remediation, and aggregate and mineral extraction; real estate development, multitechnics, and construction and renovation activities; and development of port projects and related industrial zones, as well as offshore wind farms. The Private Banking segment offers discretionary asset management services for private clients; and specialized advisory banking services for entrepreneurs and liberal professionals, as well as financing and financial leasing services for cars, equipment, charging stations, and bicycles. The Real Estate segment develops mixed real estate projects, including redevelopment of iconic buildings and new constructions and residential, retail, and office properties. The Energy & Resources segment produces crude palm oil and bananas; offers hybrid palm oil seeds; and manufactures cement. The AvH & Growth Capital segment provides engineering and solutions in production process automation; validation and compliance services; compact biogas installation; specialty chemicals; and logistics services for rail, port and road transport, and intermodal transport, and warehousing. It also offers crop and food protection products and deals and leases commercial vehicles, as well as distributes aftermarket products. The company also develops medical devices and medicines for the treatment of cancer and genetic diseases. Ackermans & Van Haaren NV was founded in 1876 and is based in Antwerp, Belgium."
+  "longBusinessSummary": "Ackermans & Van Haaren NV engages in marine engineering and contracting, private banking, real estate, energy and resources, and growth capital businesses worldwide. The Marine Engineering & Contracting segment engages in the marine construction activities, including dredging and civil works on water, as well as offshore activities in the areas of renewable energy, oil and gas, soil and sludge remediation, and aggregate and mineral extraction; real estate development, multitechnics, and construction and renovation activities; and development of port projects and related industrial zones, as well as offshore wind farms. The Private Banking segment offers discretionary asset management services for private clients; and specialized advisory banking services for entrepreneurs and liberal professionals, as well as financing and financial leasing services for cars, equipment, charging stations, and bicycles. The Real Estate segment develops mixed real estate projects, including redevelopment of iconic buildings and new constructions and residential, retail, and office properties. The Energy & Resources segment produces crude palm oil and bananas; offers hybrid palm oil seeds; and manufactures cement. The AvH & Growth Capital segment provides engineering and solutions in production process automation; validation and compliance services; compact biogas installation; specialty chemicals; and logistics services for rail, port and road transport, and intermodal transport, and warehousing. It also offers crop and food protection products and deals and leases commercial vehicles, as well as distributes aftermarket products. The company also develops medical devices and medicines for the treatment of cancer and genetic diseases. Ackermans & Van Haaren NV was founded in 1876 and is based in Antwerp, Belgium.",
+  "targetMeanPrice": 315.7143,
+  "targetLowPrice": 269.0,
+  "targetHighPrice": 360.0,
+  "numberOfAnalystOpinions": 7,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.57143,
+  "forwardPE": 12.998877,
+  "forwardEps": 20.0325,
+  "trailingEps": 20.11,
+  "earningsGrowth": 0.241,
+  "revenueGrowth": -0.001
  },
  "governance": {
   "ceo": {
@@ -75,8 +86,40 @@
   "intangibles": "yahoo",
   "goodwill_and_intangibles": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF BE",
+  "fy_end": "2023-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 19020526000.0,
+    "official": 19020522000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4913948000.0,
+    "official": 4913951000.0,
+    "diff": 1e-06
+   },
+   "net_income": {
+    "yahoo": 399194000.0,
+    "official": 399194000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 5221554000.0,
+    "official": 5221553000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2023-12-31"
+ },
+ "info_at": "2026-10-10T15:32:30+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -108,7 +151,10 @@
    "intangibles": 117650000.0,
    "goodwill_and_intangibles": 437603000.0,
    "total_debt": 8958864000.0,
-   "shares_out": 33179804.0
+   "shares_out": 33179804.0,
+   "unusual_items": 372798000.0,
+   "normalized_ebitda": 913742000.0,
+   "normalized_income": 380189625.8
   },
   {
    "fy_end": "2023-12-31",
@@ -140,7 +186,10 @@
    "intangibles": 118806000.0,
    "goodwill_and_intangibles": 438929000.0,
    "total_debt": 9668246000.0,
-   "shares_out": 32705538.0
+   "shares_out": 32705538.0,
+   "unusual_items": 5462000.0,
+   "normalized_ebitda": 1047953000.0,
+   "normalized_income": 394650267.585324
   },
   {
    "fy_end": "2024-12-31",
@@ -172,7 +221,10 @@
    "intangibles": 116115000.0,
    "goodwill_and_intangibles": 438523000.0,
    "total_debt": 9953790000.0,
-   "shares_out": 32665602.0
+   "shares_out": 32665602.0,
+   "unusual_items": -47394000.0,
+   "normalized_ebitda": 1295479000.0,
+   "normalized_income": 498284517.768939
   },
   {
    "fy_end": "2025-12-31",
@@ -203,7 +255,10 @@
    "intangibles": 109756000.0,
    "goodwill_and_intangibles": 432713000.0,
    "total_debt": 10444792000.0,
-   "shares_out": 32679560.0
+   "shares_out": 32679560.0,
+   "unusual_items": 35266000.0,
+   "normalized_ebitda": 1505106000.0,
+   "normalized_income": 566673335.8
   }
  ]
 }

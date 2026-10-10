@@ -1,6 +1,6 @@
 {
  "ticker": "NTGY.MC",
- "fetched_at": "2026-10-10T12:11:43+00:00",
+ "fetched_at": "2026-10-10T15:09:18+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "MCE",
   "fullTimeEmployees": 6786,
   "website": "https://www.naturgy.com",
-  "longBusinessSummary": "Naturgy Energy Group, S.A., together with its subsidiaries, engages in the supply, liquefaction, regasification, transport, storage, distribution, and sale of gas. It operates through Distribution Networks and Energy Markets segments. The company is involved in the regulated gas and electricity distribution; management of transport infrastructure; trade and shipping of liquefied natural gas; supply, procurement, and management of other gas infrastructure; and management of gas pipeline. It also manages conventional thermal generation facilities; facilities and generation projects using wind energy, mini hydro, solar and cogeneration, as well as hydroelectric power; photovoltaic generation projects; and renewable electricity generation projects. In addition, the company is involved in renewable gas projects, such as biomethane and green hydrogen; supply of gas, electricity and services to end customers. It operates in Spain, Australia, the United States, Argentina, Brazil, Chile, Mexico, Panama, the rest of Latin America, and the rest of Europe. The company was formerly known as Gas Natural SDG, S.A. and changed its name to Naturgy Energy Group, S.A. in June 2018. Naturgy Energy Group, S.A. was incorporated in 1843 and is based in Madrid, Spain."
+  "longBusinessSummary": "Naturgy Energy Group, S.A., together with its subsidiaries, engages in the supply, liquefaction, regasification, transport, storage, distribution, and sale of gas. It operates through Distribution Networks and Energy Markets segments. The company is involved in the regulated gas and electricity distribution; management of transport infrastructure; trade and shipping of liquefied natural gas; supply, procurement, and management of other gas infrastructure; and management of gas pipeline. It also manages conventional thermal generation facilities; facilities and generation projects using wind energy, mini hydro, solar and cogeneration, as well as hydroelectric power; photovoltaic generation projects; and renewable electricity generation projects. In addition, the company is involved in renewable gas projects, such as biomethane and green hydrogen; supply of gas, electricity and services to end customers. It operates in Spain, Australia, the United States, Argentina, Brazil, Chile, Mexico, Panama, the rest of Latin America, and the rest of Europe. The company was formerly known as Gas Natural SDG, S.A. and changed its name to Naturgy Energy Group, S.A. in June 2018. Naturgy Energy Group, S.A. was incorporated in 1843 and is based in Madrid, Spain.",
+  "targetMeanPrice": 30.68176,
+  "targetLowPrice": 24.3,
+  "targetHighPrice": 35.0,
+  "numberOfAnalystOpinions": 17,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.47059,
+  "forwardPE": 14.171876,
+  "forwardEps": 2.0957,
+  "trailingEps": 2.17,
+  "earningsGrowth": 0.106,
+  "revenueGrowth": 0.115
  },
  "governance": {
   "ceo": {
@@ -71,8 +82,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF ES",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 40836000000.0,
+    "official": 40836000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 9478000000.0,
+    "official": 9478000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1901000000.0,
+    "official": 1901000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 19267000000.0,
+    "official": 19267000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T15:09:18+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -107,7 +150,10 @@
    "goodwill_and_intangibles": 5972000000.0,
    "retained_earnings": 1649000000.0,
    "total_debt": 16260000000.0,
-   "shares_out": 960918308.0
+   "shares_out": 960918308.0,
+   "unusual_items": -379000000.0,
+   "normalized_ebitda": 4890000000.0,
+   "normalized_income": 1947154000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -142,7 +188,10 @@
    "goodwill_and_intangibles": 5969000000.0,
    "retained_earnings": 1986000000.0,
    "total_debt": 15955000000.0,
-   "shares_out": 960734206.0
+   "shares_out": 960734206.0,
+   "unusual_items": -510000000.0,
+   "normalized_ebitda": 5702000000.0,
+   "normalized_income": 2367480000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -177,7 +226,10 @@
    "goodwill_and_intangibles": 5980000000.0,
    "retained_earnings": 1901000000.0,
    "total_debt": 17978000000.0,
-   "shares_out": 960734206.0
+   "shares_out": 960734206.0,
+   "unusual_items": -131000000.0,
+   "normalized_ebitda": 5602000000.0,
+   "normalized_income": 2019809000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -212,7 +264,10 @@
    "goodwill_and_intangibles": 5963000000.0,
    "retained_earnings": 2023000000.0,
    "total_debt": 16747000000.0,
-   "shares_out": 926393571.0
+   "shares_out": 926393571.0,
+   "unusual_items": -222000000.0,
+   "normalized_ebitda": 5765000000.0,
+   "normalized_income": 2187502000.0
   }
  ]
 }

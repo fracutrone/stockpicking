@@ -1,6 +1,6 @@
 {
  "ticker": "HWC",
- "fetched_at": "2026-10-10T12:48:18+00:00",
+ "fetched_at": "2026-10-10T15:46:43+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 3674,
   "website": "https://www.hancockwhitney.com",
-  "longBusinessSummary": "Hancock Whitney Corporation operates as the financial holding company for Hancock Whitney Bank that provides traditional and online banking services to commercial, small business, and retail customers in the United States. The company offers various transaction and savings deposit products, such as brokered deposits, time deposits, and money market accounts; treasury management services; secured and unsecured loan products, including revolving credit facilities; letters of credit and similar financial guarantees; trust and investment management services to retirement plans, corporations, and individuals; and investment advisory and brokerage products. It also provides commercial and industrial loans, such as commercial non-real estate and real estate loans; construction and land development loans; residential mortgages; and consumer loans comprising second lien mortgage home loans, home equity lines of credit, and nonresidential consumer purpose loans, automobiles, recreational vehicles and boats, other personal purposes, deposit account secured loans, and small portfolio of credit card receivables. In addition, the company offers commercial finance products to middle market and corporate clients comprising leases and related structures; invests in new market tax credit activities and holds certain foreclosed assets; fixed annuity and life insurance products, investment management and advisory, and other services; and underwrites transactions primarily for banking clients, as well as debt and mortgage-related securities. The company was founded in 1899 and is headquartered in Gulfport, Mississippi."
+  "longBusinessSummary": "Hancock Whitney Corporation operates as the financial holding company for Hancock Whitney Bank that provides traditional and online banking services to commercial, small business, and retail customers in the United States. The company offers various transaction and savings deposit products, such as brokered deposits, time deposits, and money market accounts; treasury management services; secured and unsecured loan products, including revolving credit facilities; letters of credit and similar financial guarantees; trust and investment management services to retirement plans, corporations, and individuals; and investment advisory and brokerage products. It also provides commercial and industrial loans, such as commercial non-real estate and real estate loans; construction and land development loans; residential mortgages; and consumer loans comprising second lien mortgage home loans, home equity lines of credit, and nonresidential consumer purpose loans, automobiles, recreational vehicles and boats, other personal purposes, deposit account secured loans, and small portfolio of credit card receivables. In addition, the company offers commercial finance products to middle market and corporate clients comprising leases and related structures; invests in new market tax credit activities and holds certain foreclosed assets; fixed annuity and life insurance products, investment management and advisory, and other services; and underwrites transactions primarily for banking clients, as well as debt and mortgage-related securities. The company was founded in 1899 and is headquartered in Gulfport, Mississippi.",
+  "targetMeanPrice": 84.525,
+  "targetLowPrice": 79.0,
+  "targetHighPrice": 91.0,
+  "numberOfAnalystOpinions": 10,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.8,
+  "forwardPE": 9.879738,
+  "forwardEps": 7.32813,
+  "trailingEps": 5.11,
+  "earningsGrowth": 0.174,
+  "revenueGrowth": 0.076
  },
  "governance": {
   "ceo": {
@@ -78,8 +89,33 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "noninterest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 35472762000.0,
+    "official": 35472762000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4460117000.0,
+    "official": 4460117000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 486073000.0,
+    "official": 486073000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:46:43+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -106,7 +142,9 @@
    "goodwill_and_intangibles": 911646000.0,
    "retained_earnings": 2088413000.0,
    "total_debt": 2113348000.0,
-   "shares_out": 85941000.0
+   "shares_out": 85941000.0,
+   "unusual_items": 3096000.0,
+   "normalized_income": 521627680.0
   },
   {
    "fy_end": "2023-12-31",
@@ -134,7 +172,9 @@
    "goodwill_and_intangibles": 900090000.0,
    "retained_earnings": 2375604000.0,
    "total_debt": 1391146000.0,
-   "shares_out": 86345000.0
+   "shares_out": 86345000.0,
+   "unusual_items": 19388000.0,
+   "normalized_income": 377071837.315966
   },
   {
    "fy_end": "2024-12-31",
@@ -162,7 +202,9 @@
    "goodwill_and_intangibles": 890677000.0,
    "retained_earnings": 2704606000.0,
    "total_debt": 849559000.0,
-   "shares_out": 86124000.0
+   "shares_out": 86124000.0,
+   "unusual_items": 7820000.0,
+   "normalized_income": 454536702.414574
   },
   {
    "fy_end": "2025-12-31",
@@ -190,7 +232,9 @@
    "goodwill_and_intangibles": 992475000.0,
    "retained_earnings": 3035636000.0,
    "total_debt": 1216699000.0,
-   "shares_out": 82259000.0
+   "shares_out": 82259000.0,
+   "unusual_items": 6119000.0,
+   "normalized_income": 481214514.0
   }
  ]
 }

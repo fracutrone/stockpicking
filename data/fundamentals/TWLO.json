@@ -1,6 +1,6 @@
 {
  "ticker": "TWLO",
- "fetched_at": "2026-10-10T13:00:25+00:00",
+ "fetched_at": "2026-10-10T15:58:01+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 5492,
   "website": "https://www.twilio.com",
-  "longBusinessSummary": "Twilio Inc., together with its subsidiaries, provides customer engagement platform solutions in the United States and internationally. The company provides various application programming interfaces and software solutions for communications between customers and end users, including messaging, voice, email, video interactions, digital engagement centers, marketing campaigns, and user authentication and identity solutions. It also offers software products to build direct and personalized relationships with their end users, such as Segment, a platform that provides tools to harness the power of contextual data by unifying real-time information collected throughout each customer's journey into a unique profile. Twilio Inc. was incorporated in 2008 and is headquartered in San Francisco, California."
+  "longBusinessSummary": "Twilio Inc., together with its subsidiaries, provides customer engagement platform solutions in the United States and internationally. The company provides various application programming interfaces and software solutions for communications between customers and end users, including messaging, voice, email, video interactions, digital engagement centers, marketing campaigns, and user authentication and identity solutions. It also offers software products to build direct and personalized relationships with their end users, such as Segment, a platform that provides tools to harness the power of contextual data by unifying real-time information collected throughout each customer's journey into a unique profile. Twilio Inc. was incorporated in 2008 and is headquartered in San Francisco, California.",
+  "targetMeanPrice": 265.7143,
+  "targetLowPrice": 165.0,
+  "targetHighPrice": 335.0,
+  "numberOfAnalystOpinions": 28,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.63333,
+  "forwardPE": 42.575504,
+  "forwardEps": 6.79898,
+  "trailingEps": 7.59,
+  "earningsGrowth": 46.715,
+  "revenueGrowth": 0.22
  },
  "governance": {
   "ceo": {
@@ -82,8 +93,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 9770890000.0,
+    "official": 9770890000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 7821546000.0,
+    "official": 7821546000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 33834000.0,
+    "official": 33834000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 5067220000.0,
+    "official": 5067220000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:58:01+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -186,7 +228,10 @@
    "goodwill_and_intangibles": 6134088000.0,
    "retained_earnings": -3375836000.0,
    "total_debt": 987382000.0,
-   "shares_out": 185975709.0
+   "shares_out": 185975709.0,
+   "unusual_items": -174358000.0,
+   "normalized_ebitda": -577465000.0,
+   "normalized_income": -1118402180.0
   },
   {
    "fy_end": "2023-12-31",
@@ -218,7 +263,10 @@
    "goodwill_and_intangibles": 5402838000.0,
    "retained_earnings": -5065972000.0,
    "total_debt": 988953000.0,
-   "shares_out": 181945771.0
+   "shares_out": 181945771.0,
+   "unusual_items": -532391000.0,
+   "normalized_ebitda": 426500000.0,
+   "normalized_income": -594852110.0
   },
   {
    "fy_end": "2024-12-31",
@@ -250,7 +298,10 @@
    "goodwill_and_intangibles": 5242843000.0,
    "retained_earnings": -7522010000.0,
    "total_debt": 990587000.0,
-   "shares_out": 152610697.0
+   "shares_out": 152610697.0,
+   "unusual_items": -21493000.0,
+   "normalized_ebitda": 187042000.0,
+   "normalized_income": -92423530.0
   },
   {
    "fy_end": "2025-12-31",
@@ -282,7 +333,10 @@
    "goodwill_and_intangibles": 5139910000.0,
    "retained_earnings": -8342464000.0,
    "total_debt": 992287000.0,
-   "shares_out": 152411346.0
+   "shares_out": 152411346.0,
+   "unusual_items": -97508000.0,
+   "normalized_ebitda": 467633000.0,
+   "normalized_income": 93313880.0
   }
  ]
 }

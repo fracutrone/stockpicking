@@ -1,6 +1,6 @@
 {
  "ticker": "CMCSA",
- "fetched_at": "2026-10-10T12:41:07+00:00",
+ "fetched_at": "2026-10-10T15:39:50+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 179000,
   "website": "https://corporate.comcast.com",
-  "longBusinessSummary": "Comcast Corporation operates as a media and technology company worldwide. The company operates through Residential Connectivity & Platforms, Business Services Connectivity, Media, Studios, and Theme Parks segments. Its Residential Connectivity & Platforms segment provides residential broadband and wireless connectivity services, residential and business video services, sky-branded entertainment television networks, and advertising. The Business Services Connectivity segment offers connectivity services for small business locations, which include broadband, wireline voice, and wireless services; and ethernet network services for medium-sized customers and larger enterprises. Its Media segment operates NBCUniversal's national and regional cable networks; the NBC and Telemundo broadcast networks and owned local broadcast television stations; and Peacock, a direct-to-consumer streaming services. The company also operates international television networks comprising the Sky Sports networks, as well as other digital properties. Its Studios segment operates NBCUniversal and Sky film and television studio production and distribution operations. The Theme Parks segment operates Universal theme parks in Orlando, Florida; Hollywood, California; Osaka, Japan; and Beijing, China. It also offers a consolidated streaming platforms under the Philadelphia Flyers and the Xfinity Mobile Arena in Philadelphia, Pennsylvania; and Xumo. Comcast Corporation was founded in 1963 and is headquartered in Philadelphia, Pennsylvania."
+  "longBusinessSummary": "Comcast Corporation operates as a media and technology company worldwide. The company operates through Residential Connectivity & Platforms, Business Services Connectivity, Media, Studios, and Theme Parks segments. Its Residential Connectivity & Platforms segment provides residential broadband and wireless connectivity services, residential and business video services, sky-branded entertainment television networks, and advertising. The Business Services Connectivity segment offers connectivity services for small business locations, which include broadband, wireline voice, and wireless services; and ethernet network services for medium-sized customers and larger enterprises. Its Media segment operates NBCUniversal's national and regional cable networks; the NBC and Telemundo broadcast networks and owned local broadcast television stations; and Peacock, a direct-to-consumer streaming services. The company also operates international television networks comprising the Sky Sports networks, as well as other digital properties. Its Studios segment operates NBCUniversal and Sky film and television studio production and distribution operations. The Theme Parks segment operates Universal theme parks in Orlando, Florida; Hollywood, California; Osaka, Japan; and Beijing, China. It also offers a consolidated streaming platforms under the Philadelphia Flyers and the Xfinity Mobile Arena in Philadelphia, Pennsylvania; and Xumo. Comcast Corporation was founded in 1963 and is headquartered in Philadelphia, Pennsylvania.",
+  "targetMeanPrice": 28.85409,
+  "targetLowPrice": 17.0,
+  "targetHighPrice": 44.0,
+  "numberOfAnalystOpinions": 22,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.62963,
+  "forwardPE": 5.754827,
+  "forwardEps": 3.59003,
+  "trailingEps": 3.1,
+  "earningsGrowth": -0.668,
+  "revenueGrowth": -0.012
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 272631000000.0,
+    "official": 272631000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 96903000000.0,
+    "official": 96903000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 19998000000.0,
+    "official": 19998000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 123707000000.0,
+    "official": 123707000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:39:50+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -191,7 +233,10 @@
    "goodwill_and_intangibles": 159725000000.0,
    "retained_earnings": 51609000000.0,
    "total_debt": 93068000000.0,
-   "shares_out": 4220119392.0
+   "shares_out": 4220119392.0,
+   "unusual_items": -8903000000.0,
+   "normalized_ebitda": 35904000000.0,
+   "normalized_income": 12403370000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -225,7 +270,10 @@
    "goodwill_and_intangibles": 159385000000.0,
    "retained_earnings": 52892000000.0,
    "total_debt": 95021000000.0,
-   "shares_out": 3978762306.0
+   "shares_out": 3978762306.0,
+   "unusual_items": -130000000.0,
+   "normalized_ebitda": 39031000000.0,
+   "normalized_income": 15483940000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -259,7 +307,10 @@
    "goodwill_and_intangibles": 155706000000.0,
    "retained_earnings": 56972000000.0,
    "total_debt": 94186000000.0,
-   "shares_out": 3787746392.0
+   "shares_out": 3787746392.0,
+   "unusual_items": -313000000.0,
+   "normalized_ebitda": 37922000000.0,
+   "normalized_income": 16458050000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -293,7 +344,10 @@
    "goodwill_and_intangibles": 155579000000.0,
    "retained_earnings": 66675000000.0,
    "total_debt": 92979000000.0,
-   "shares_out": 3604212627.0
+   "shares_out": 3604212627.0,
+   "unusual_items": 10094000000.0,
+   "normalized_ebitda": 36292000000.0,
+   "normalized_income": 12296278000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "TTMI",
- "fetched_at": "2026-10-10T13:00:22+00:00",
+ "fetched_at": "2026-10-10T15:57:58+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 18200,
   "website": "https://www.ttm.com",
-  "longBusinessSummary": "TTM Technologies, Inc. manufactures and sells mission systems, radio frequency (RF) components, RF microwave/microelectronic assemblies, and printed circuit boards (PCBs) and substrates in the United States, Taiwan, and internationally. It operates in three segments, A&D, Commercial, and RF&S Components. The company offers various engineered systems and RF and microwave assemblies; PCBs and IC substrates, custom assemblies and integrated systems, passive and advanced ceramic RF components, hi-reliability multi-chip modules, and beamforming and switching networks; and design-for-manufacturability, PCB layout design, simulation and testing, quick turnaround (QTA) production, and specialized RF assembly and testing. It also provides multi-mode surveillance and weather avoidance radar systems for fixed- and rotary-wing aircraft, Unmanned Aerial Vehicles, and shipboard platforms; AN/APS-153 multi-mode radar; communications suite within the MH-60R/S multi-mission helicopters; and supports maritime surveillance, counter UAS, and advanced air mobility end markets under MOSAIC brand. In addition, the company offers identification friend; monopulse secondary surveillance radars, and air traffic control systems; wired and wireless communication systems; designs, produces, and tests specialized multi-chip RF modules and components; and manufactures off-the-shelf surface mount microwave components. Further, it provides thick-film ceramic substrates, custom designed application specific integrated circuits, and conventional PCBs; custom electronic assemblies; QTA services; and thermal management. The company serves original equipment manufacturers, electronic manufacturing services providers, original design manufacturers, distributors, and government agencies; and aerospace and defense, data center computing, automotive, medical, industrial, instrumentation, and networking markets. TTM Technologies, Inc. was incorporated in 1978 and is headquartered in Santa Ana, California."
+  "longBusinessSummary": "TTM Technologies, Inc. manufactures and sells mission systems, radio frequency (RF) components, RF microwave/microelectronic assemblies, and printed circuit boards (PCBs) and substrates in the United States, Taiwan, and internationally. It operates in three segments, A&D, Commercial, and RF&S Components. The company offers various engineered systems and RF and microwave assemblies; PCBs and IC substrates, custom assemblies and integrated systems, passive and advanced ceramic RF components, hi-reliability multi-chip modules, and beamforming and switching networks; and design-for-manufacturability, PCB layout design, simulation and testing, quick turnaround (QTA) production, and specialized RF assembly and testing. It also provides multi-mode surveillance and weather avoidance radar systems for fixed- and rotary-wing aircraft, Unmanned Aerial Vehicles, and shipboard platforms; AN/APS-153 multi-mode radar; communications suite within the MH-60R/S multi-mission helicopters; and supports maritime surveillance, counter UAS, and advanced air mobility end markets under MOSAIC brand. In addition, the company offers identification friend; monopulse secondary surveillance radars, and air traffic control systems; wired and wireless communication systems; designs, produces, and tests specialized multi-chip RF modules and components; and manufactures off-the-shelf surface mount microwave components. Further, it provides thick-film ceramic substrates, custom designed application specific integrated circuits, and conventional PCBs; custom electronic assemblies; QTA services; and thermal management. The company serves original equipment manufacturers, electronic manufacturing services providers, original design manufacturers, distributors, and government agencies; and aerospace and defense, data center computing, automotive, medical, industrial, instrumentation, and networking markets. TTM Technologies, Inc. was incorporated in 1978 and is headquartered in Santa Ana, California.",
+  "targetMeanPrice": 209.6,
+  "targetLowPrice": 175.0,
+  "targetHighPrice": 236.0,
+  "numberOfAnalystOpinions": 5,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.2,
+  "forwardPE": 17.24772,
+  "forwardEps": 7.016,
+  "trailingEps": 2.21,
+  "earningsGrowth": 0.925,
+  "revenueGrowth": 0.374
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3840331000.0,
+    "official": 3840331000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1762253000.0,
+    "official": 1762253000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 177448000.0,
+    "official": 177448000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2906345000.0,
+    "official": 2906345000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:57:58+00:00",
  "years": [
   {
    "fy_end": "2019-12-30",
@@ -200,7 +242,10 @@
    "goodwill_and_intangibles": 1048474000.0,
    "retained_earnings": 800841000.0,
    "total_debt": 879407000.0,
-   "shares_out": 102228000.0
+   "shares_out": 102228000.0,
+   "unusual_items": 47710000.0,
+   "normalized_ebitda": 314577000.0,
+   "normalized_income": 56892100.0
   },
   {
    "fy_end": "2024-01-01",
@@ -234,7 +279,10 @@
    "goodwill_and_intangibles": 939446000.0,
    "retained_earnings": 782123000.0,
    "total_debt": 914336000.0,
-   "shares_out": 102108000.0
+   "shares_out": 102108000.0,
+   "unusual_items": -68336000.0,
+   "normalized_ebitda": 277488000.0,
+   "normalized_income": 35267440.0
   },
   {
    "fy_end": "2024-12-30",
@@ -268,7 +316,10 @@
    "goodwill_and_intangibles": 861954000.0,
    "retained_earnings": 838422000.0,
    "total_debt": 918154000.0,
-   "shares_out": 101997000.0
+   "shares_out": 101997000.0,
+   "unusual_items": -43800000.0,
+   "normalized_ebitda": 325389000.0,
+   "normalized_income": 85672741.200014
   },
   {
    "fy_end": "2025-12-29",
@@ -302,7 +353,10 @@
    "goodwill_and_intangibles": 825057000.0,
    "retained_earnings": 1015870000.0,
    "total_debt": 916151000.0,
-   "shares_out": 103379000.0
+   "shares_out": 103379000.0,
+   "unusual_items": -2847000.0,
+   "normalized_ebitda": 405689000.0,
+   "normalized_income": 179849833.514788
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "EOG",
- "fetched_at": "2026-10-10T12:44:27+00:00",
+ "fetched_at": "2026-10-10T15:42:50+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 3400,
   "website": "https://www.eogresources.com",
-  "longBusinessSummary": "EOG Resources, Inc., together with its subsidiaries, explores for, develops, produces, and markets crude oil, natural gas liquids, and natural gas in producing basins in the United States, the Republic of Trinidad and Tobago, and internationally. The company also offers crude oil and condensate, and gathering, processing and marketing. The company was formerly known as Enron Oil & Gas Company. EOG Resources, Inc. was incorporated in 1985 and is headquartered in Houston, Texas."
+  "longBusinessSummary": "EOG Resources, Inc., together with its subsidiaries, explores for, develops, produces, and markets crude oil, natural gas liquids, and natural gas in producing basins in the United States, the Republic of Trinidad and Tobago, and internationally. The company also offers crude oil and condensate, and gathering, processing and marketing. The company was formerly known as Enron Oil & Gas Company. EOG Resources, Inc. was incorporated in 1985 and is headquartered in Houston, Texas.",
+  "targetMeanPrice": 164.2143,
+  "targetLowPrice": 138.0,
+  "targetHighPrice": 193.0,
+  "numberOfAnalystOpinions": 28,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.34375,
+  "forwardPE": 9.612278,
+  "forwardEps": 15.41362,
+  "trailingEps": 12.85,
+  "earningsGrowth": 1.094,
+  "revenueGrowth": 0.587
  },
  "governance": {
   "ceo": {
@@ -81,8 +92,39 @@
   "ppe_net": "sec",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 51799000000.0,
+    "official": 51799000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 29833000000.0,
+    "official": 29833000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 4980000000.0,
+    "official": 4980000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 22582000000.0,
+    "official": 22632000000.0,
+    "diff": 0.002209
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:42:50+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -179,7 +221,10 @@
    "ppe_net": 29429000000.0,
    "retained_earnings": 18472000000.0,
    "total_debt": 5078000000.0,
-   "shares_out": 587696476.0
+   "shares_out": 587696476.0,
+   "unusual_items": -4290000000.0,
+   "normalized_ebitda": 17912000000.0,
+   "normalized_income": 11105200000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -210,7 +255,10 @@
    "ppe_net": 32297000000.0,
    "retained_earnings": 22634000000.0,
    "total_debt": 3799000000.0,
-   "shares_out": 580860368.0
+   "shares_out": 580860368.0,
+   "unusual_items": 711000000.0,
+   "normalized_ebitda": 12618000000.0,
+   "normalized_income": 7036735679.636701
   },
   {
    "fy_end": "2024-12-31",
@@ -241,7 +289,10 @@
    "ppe_net": 34212000000.0,
    "retained_earnings": 26941000000.0,
    "total_debt": 4752000000.0,
-   "shares_out": 557208477.0
+   "shares_out": 557208477.0,
+   "unusual_items": -171000000.0,
+   "normalized_ebitda": 12635000000.0,
+   "normalized_income": 6536380000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -272,7 +323,10 @@
    "ppe_net": 42341000000.0,
    "retained_earnings": 29765000000.0,
    "total_debt": 7936000000.0,
-   "shares_out": 537670216.0
+   "shares_out": 537670216.0,
+   "unusual_items": -865000000.0,
+   "normalized_ebitda": 11923000000.0,
+   "normalized_income": 5654700000.0
   }
  ]
 }

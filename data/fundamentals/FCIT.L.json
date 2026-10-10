@@ -1,6 +1,6 @@
 {
  "ticker": "FCIT.L",
- "fetched_at": "2026-10-10T11:57:34+00:00",
+ "fetched_at": "2026-10-10T14:47:40+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -49,8 +60,15 @@
   "equity": "yahoo",
   "receivables": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T14:47:40+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -70,7 +88,8 @@
    "equity": 4649825000.0,
    "receivables": 1162000.0,
    "total_debt": 581839000.0,
-   "shares_out": 2073647424.0
+   "shares_out": 2073647424.0,
+   "normalized_income": -491377000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -90,7 +109,8 @@
    "equity": 5034487000.0,
    "receivables": 1178000.0,
    "total_debt": 580969000.0,
-   "shares_out": 2039172216.0
+   "shares_out": 2039172216.0,
+   "normalized_income": 532844000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -110,7 +130,8 @@
    "equity": 5678522000.0,
    "receivables": 5207000.0,
    "total_debt": 579301000.0,
-   "shares_out": 1930130192.0
+   "shares_out": 1930130192.0,
+   "normalized_income": 999759000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -129,7 +150,8 @@
    "equity": 6171045000.0,
    "receivables": 1020000.0,
    "total_debt": 581248000.0,
-   "shares_out": 1897874084.0
+   "shares_out": 1897874084.0,
+   "normalized_income": 664860000.0
   }
  ]
 }

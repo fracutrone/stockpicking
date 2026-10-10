@@ -1,6 +1,6 @@
 {
  "ticker": "NSC",
- "fetched_at": "2026-10-10T12:53:12+00:00",
+ "fetched_at": "2026-10-10T15:51:12+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 19300,
   "website": "https://www.norfolksouthern.com",
-  "longBusinessSummary": "Norfolk Southern Corporation, together with its subsidiaries, engages in the rail transportation of raw materials, intermediate products, and finished goods in the United States. The company transports agriculture, forest, and consumer products comprising soybeans, wheat, corn, fertilizers, livestock and poultry feed, food products, food oils, flour, sweeteners, ethanol, lumber and wood products, pulp board and paper products, wood fibers, wood pulp, beverages, and canned goods; chemicals, including sulfur and related chemicals, petroleum products comprising crude oil, chlorine and bleaching compounds, plastics, rubber, industrial chemicals, chemical wastes, sand, and natural gas liquids; metals and construction materials, such as steel, aluminum products, machinery, scrap metals, cement, aggregates, minerals, clay, transportation equipment, and military-related products; and automotive, including finished motor vehicles and automotive parts, as well as coal. It also transports overseas freight through various Atlantic and Gulf Coast ports; and operates an intermodal network. Norfolk Southern Corporation was incorporated in 1980 and is headquartered in Atlanta, Georgia."
+  "longBusinessSummary": "Norfolk Southern Corporation, together with its subsidiaries, engages in the rail transportation of raw materials, intermediate products, and finished goods in the United States. The company transports agriculture, forest, and consumer products comprising soybeans, wheat, corn, fertilizers, livestock and poultry feed, food products, food oils, flour, sweeteners, ethanol, lumber and wood products, pulp board and paper products, wood fibers, wood pulp, beverages, and canned goods; chemicals, including sulfur and related chemicals, petroleum products comprising crude oil, chlorine and bleaching compounds, plastics, rubber, industrial chemicals, chemical wastes, sand, and natural gas liquids; metals and construction materials, such as steel, aluminum products, machinery, scrap metals, cement, aggregates, minerals, clay, transportation equipment, and military-related products; and automotive, including finished motor vehicles and automotive parts, as well as coal. It also transports overseas freight through various Atlantic and Gulf Coast ports; and operates an intermodal network. Norfolk Southern Corporation was incorporated in 1980 and is headquartered in Atlanta, Georgia.",
+  "targetMeanPrice": 356.1111,
+  "targetLowPrice": 297.0,
+  "targetHighPrice": 400.0,
+  "numberOfAnalystOpinions": 18,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.57143,
+  "forwardPE": 22.203264,
+  "forwardEps": 14.31276,
+  "trailingEps": 11.72,
+  "earningsGrowth": -0.044,
+  "revenueGrowth": 0.114
  },
  "governance": {
   "ceo": {
@@ -82,8 +93,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 45236000000.0,
+    "official": 45236000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 15547000000.0,
+    "official": 15547000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2873000000.0,
+    "official": 2873000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 12180000000.0,
+    "official": 12180000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:51:13+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -183,7 +225,10 @@
    "ppe_net": 32156000000.0,
    "retained_earnings": 10697000000.0,
    "total_debt": 14579000000.0,
-   "shares_out": 228076415.0
+   "shares_out": 228076415.0,
+   "unusual_items": -347000000.0,
+   "normalized_ebitda": 6390000000.0,
+   "normalized_income": 3544824000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -214,7 +259,10 @@
    "ppe_net": 33326000000.0,
    "retained_earnings": 10695000000.0,
    "total_debt": 17175000000.0,
-   "shares_out": 225681254.0
+   "shares_out": 225681254.0,
+   "unusual_items": -1293000000.0,
+   "normalized_ebitda": 5633000000.0,
+   "normalized_income": 2844591000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -245,7 +293,10 @@
    "ppe_net": 35831000000.0,
    "retained_earnings": 12093000000.0,
    "total_debt": 16651000000.0,
-   "shares_out": 226320894.0
+   "shares_out": 226320894.0,
+   "unusual_items": -728000000.0,
+   "normalized_ebitda": 6217000000.0,
+   "normalized_income": 3195664000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -276,7 +327,10 @@
    "ppe_net": 36479000000.0,
    "retained_earnings": 13235000000.0,
    "total_debt": 16480000000.0,
-   "shares_out": 224420699.0
+   "shares_out": 224420699.0,
+   "unusual_items": -109000000.0,
+   "normalized_ebitda": 5959000000.0,
+   "normalized_income": 2958456000.0
   }
  ]
 }

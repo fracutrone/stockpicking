@@ -1,6 +1,6 @@
 {
  "ticker": "LH",
- "fetched_at": "2026-10-10T12:50:27+00:00",
+ "fetched_at": "2026-10-10T15:48:41+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 71000,
   "website": "https://www.labcorp.com",
-  "longBusinessSummary": "Labcorp Holdings Inc. provides laboratory services. It operates in Diagnostics Laboratories and Biopharma Laboratory Services segments. The company offers various tests, such as blood chemistry analyses, urinalyses, blood cell counts, thyroid tests, PAP tests, hemoglobin A1C, PSA, tests for sexually transmitted diseases, vitamin D testing, microbiology cultures and procedures, and alcohol and other substance abuse tests. It also provides specialty testing services comprising gene-based and esoteric testing; advanced tests target specific diseases; services related to anatomic pathology/oncology, cardiovascular disease, coagulation, diagnostic genetics, endocrinology, infectious disease, women's health, pharmacogenetics, parentage and donor testing, occupational testing service, medical drug monitoring services, chronic disease programs, and kidney stone prevention tests; and health and wellness services to employers and managed care organizations. In addition, it offers digital pathology solutions, a pathology platforms that support the digitization, centralized review, and sharing of pathology slides; provider and payer digital platforms, an online applications for providers, MCOs, and ACOs; online and mobile applications that enable patients to check offerings, schedule PSC visits, check-in upon PSC arrival, complete documentation, access tests and test results, and manage their accounts; and Generative AI enabled Test Selection, a generative AI enabled tool. It serves clients, third party, medicare/medicaid, patients, pharmaceutical, biotechnology, medical device, diagnostic companies, and CROs. It has a strategic collaboration with the Children's Hospital of Philadelphia to accelerate the discovery, development, and availability of pediatric diagnostics; a strategic alliance with the National Association of Community Health Centers to support current and emerging clinical leaders through the NACHC Leadership Exchange for Chief Medical Officers; and Alliance for Clinical Trials in Oncology to advance national clinical trial for patients diagnosed with colorectal cancer. The company was founded in 1995 and is headquartered in Burlington, North Carolina."
+  "longBusinessSummary": "Labcorp Holdings Inc. provides laboratory services. It operates in Diagnostics Laboratories and Biopharma Laboratory Services segments. The company offers various tests, such as blood chemistry analyses, urinalyses, blood cell counts, thyroid tests, PAP tests, hemoglobin A1C, PSA, tests for sexually transmitted diseases, vitamin D testing, microbiology cultures and procedures, and alcohol and other substance abuse tests. It also provides specialty testing services comprising gene-based and esoteric testing; advanced tests target specific diseases; services related to anatomic pathology/oncology, cardiovascular disease, coagulation, diagnostic genetics, endocrinology, infectious disease, women's health, pharmacogenetics, parentage and donor testing, occupational testing service, medical drug monitoring services, chronic disease programs, and kidney stone prevention tests; and health and wellness services to employers and managed care organizations. In addition, it offers digital pathology solutions, a pathology platforms that support the digitization, centralized review, and sharing of pathology slides; provider and payer digital platforms, an online applications for providers, MCOs, and ACOs; online and mobile applications that enable patients to check offerings, schedule PSC visits, check-in upon PSC arrival, complete documentation, access tests and test results, and manage their accounts; and Generative AI enabled Test Selection, a generative AI enabled tool. It serves clients, third party, medicare/medicaid, patients, pharmaceutical, biotechnology, medical device, diagnostic companies, and CROs. It has a strategic collaboration with the Children's Hospital of Philadelphia to accelerate the discovery, development, and availability of pediatric diagnostics; a strategic alliance with the National Association of Community Health Centers to support current and emerging clinical leaders through the NACHC Leadership Exchange for Chief Medical Officers; and Alliance for Clinical Trials in Oncology to advance national clinical trial for patients diagnosed with colorectal cancer. The company was founded in 1995 and is headquartered in Burlington, North Carolina.",
+  "targetMeanPrice": 345.125,
+  "targetLowPrice": 293.0,
+  "targetHighPrice": 385.0,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.72222,
+  "forwardPE": 15.78489,
+  "forwardEps": 19.77524,
+  "trailingEps": 12.01,
+  "earningsGrowth": 0.282,
+  "revenueGrowth": 0.058
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 18392700000.0,
+    "official": 18392700000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 8619800000.0,
+    "official": 8619800000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 876500000.0,
+    "official": 876500000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 13951700000.0,
+    "official": 13951700000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:48:41+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -203,7 +245,10 @@
    "goodwill_and_intangibles": 9246600000.0,
    "retained_earnings": 10581700000.0,
    "total_debt": 5038800000.0,
-   "shares_out": 88200000.0
+   "shares_out": 88200000.0,
+   "unusual_items": -308200000.0,
+   "normalized_ebitda": 2262600000.0,
+   "normalized_income": 1251942379.182156
   },
   {
    "fy_end": "2023-12-31",
@@ -237,7 +282,10 @@
    "goodwill_and_intangibles": 9484500000.0,
    "retained_earnings": 7888200000.0,
    "total_debt": 4054700000.0,
-   "shares_out": 83900000.0
+   "shares_out": 83900000.0,
+   "unusual_items": -369300000.0,
+   "normalized_ebitda": 1715100000.0,
+   "normalized_income": 626261700.0
   },
   {
    "fy_end": "2024-12-31",
@@ -271,7 +319,10 @@
    "goodwill_and_intangibles": 9858600000.0,
    "retained_earnings": 8303400000.0,
    "total_debt": 6331500000.0,
-   "shares_out": 83400000.0
+   "shares_out": 83400000.0,
+   "unusual_items": -29000000.0,
+   "normalized_ebitda": 1840300000.0,
+   "normalized_income": 768591000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -305,7 +356,10 @@
    "goodwill_and_intangibles": 10385500000.0,
    "retained_earnings": 8639900000.0,
    "total_debt": 5584700000.0,
-   "shares_out": 82200000.0
+   "shares_out": 82200000.0,
+   "unusual_items": -116300000.0,
+   "normalized_ebitda": 2129000000.0,
+   "normalized_income": 968725900.0
   }
  ]
 }

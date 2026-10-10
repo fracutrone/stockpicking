@@ -1,6 +1,6 @@
 {
  "ticker": "FRO.OL",
- "fetched_at": "2026-10-10T11:58:58+00:00",
+ "fetched_at": "2026-10-10T14:49:32+00:00",
  "region": "Europa",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "OSL",
   "fullTimeEmployees": 85,
   "website": "https://www.frontlineplc.cy",
-  "longBusinessSummary": "Frontline plc, a shipping company, engages in the ownership and operation of oil and product tankers worldwide. The company owns and operates oil and product tankers, such as very large crude carriers (VLCCs), Suezmax tankers, and LR2/Aframax tankers. As of December 31, 2025, it operated a fleet of 80 vessels, including 41 VLCCs, 21 Suezmax tankers, and 18 LR2/Aframax tankers. The company is also involved in the charter, purchase, and sale of vessels. Frontline plc was founded in 1985 and is based in Limassol, Cyprus."
+  "longBusinessSummary": "Frontline plc, a shipping company, engages in the ownership and operation of oil and product tankers worldwide. The company owns and operates oil and product tankers, such as very large crude carriers (VLCCs), Suezmax tankers, and LR2/Aframax tankers. As of December 31, 2025, it operated a fleet of 80 vessels, including 41 VLCCs, 21 Suezmax tankers, and 18 LR2/Aframax tankers. The company is also involved in the charter, purchase, and sale of vessels. Frontline plc was founded in 1985 and is based in Limassol, Cyprus.",
+  "targetMeanPrice": 433.98785,
+  "targetLowPrice": 372.05295,
+  "targetHighPrice": 485.78253,
+  "numberOfAnalystOpinions": 5,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 11.010743,
+  "forwardEps": 49.36996,
+  "trailingEps": 65.68,
+  "earningsGrowth": 7.501,
+  "revenueGrowth": 0.965
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF NO",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 6220807000.0,
+    "official": 6220807000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2340653000.0,
+    "official": 2340653000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 495583000.0,
+    "official": 495583000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2050385000.0,
+    "official": 2050385000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T14:49:32+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -119,7 +162,10 @@
    "goodwill_and_intangibles": 112452000.0,
    "retained_earnings": 428513000.0,
    "total_debt": 2393710000.0,
-   "shares_out": 222622889.0
+   "shares_out": 222622889.0,
+   "unusual_items": 121740000.0,
+   "normalized_ebitda": 618091000.0,
+   "normalized_income": 353902382.887662
   },
   {
    "fy_end": "2023-12-31",
@@ -153,7 +199,10 @@
    "goodwill_and_intangibles": 112452000.0,
    "retained_earnings": 445999000.0,
    "total_debt": 3458997000.0,
-   "shares_out": 222622889.0
+   "shares_out": 222622889.0,
+   "unusual_items": 91470000.0,
+   "normalized_ebitda": 974589000.0,
+   "normalized_income": 564972557.42828
   },
   {
    "fy_end": "2024-12-31",
@@ -187,7 +236,10 @@
    "goodwill_and_intangibles": 112452000.0,
    "retained_earnings": 507467000.0,
    "total_debt": 3745992000.0,
-   "shares_out": 222622889.0
+   "shares_out": 222622889.0,
+   "unusual_items": 120705000.0,
+   "normalized_ebitda": 1023903000.0,
+   "normalized_income": 376717882.156923
   },
   {
    "fy_end": "2025-12-31",
@@ -221,7 +273,10 @@
    "goodwill_and_intangibles": 112452000.0,
    "retained_earnings": 679509000.0,
    "total_debt": 3067745000.0,
-   "shares_out": 222622889.0
+   "shares_out": 222622889.0,
+   "unusual_items": 7781000.0,
+   "normalized_ebitda": 936836000.0,
+   "normalized_income": 371421654.525295
   }
  ]
 }

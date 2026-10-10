@@ -1,6 +1,6 @@
 {
  "ticker": "CTEC.L",
- "fetched_at": "2026-10-10T11:52:58+00:00",
+ "fetched_at": "2026-10-10T14:41:15+00:00",
  "region": "Europa",
  "statement_currency": "USD",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.00197,
   "heldPercentInstitutions": 0.86126,
   "shortPercentOfFloat": null,
-  "averageVolume": 7258836,
+  "averageVolume": 7226645,
   "quoteType": "EQUITY",
   "exchange": "LSE",
   "fullTimeEmployees": 10000,
   "website": "https://www.convatecgroup.com",
-  "longBusinessSummary": "Convatec Group PLC engages in the development, manufacturing, and sale of medical products, services and technologies for the management of chronic conditions in Europe, North America, and internationally. The company offers advanced wound care products for the management of acute and chronic wounds resulting from various conditions, such as diabetes, and acute conditions resulting from traumatic injury and burns. It also provides ostomy care solutions, including devices, accessories, and services for people with a stoma resulting from colorectal cancer, bladder cancer, inflammatory bowel disease, and trauma. In addition, the company offers continence care products and services for people with urinary continence issues related to spinal cord injuries, neurological disease, prostate enlargement or other causes. Further, it provides infusion care solutions comprising disposable infusion sets for diabetes insulin pumps, or for use in continuous infusion treatments for conditions such as Parkinson's disease. The company sells its products to pharmacies, hospitals, and other acute and post-acute healthcare service providers directly or through distributors and wholesalers. It serves a range of customers, including healthcare providers, patients, and manufacturers. Convatec Group PLC was founded in 1978 and is headquartered in London, the United Kingdom."
+  "longBusinessSummary": "Convatec Group PLC engages in the development, manufacturing, and sale of medical products, services and technologies for the management of chronic conditions in Europe, North America, and internationally. The company offers advanced wound care products for the management of acute and chronic wounds resulting from various conditions, such as diabetes, and acute conditions resulting from traumatic injury and burns. It also provides ostomy care solutions, including devices, accessories, and services for people with a stoma resulting from colorectal cancer, bladder cancer, inflammatory bowel disease, and trauma. In addition, the company offers continence care products and services for people with urinary continence issues related to spinal cord injuries, neurological disease, prostate enlargement or other causes. Further, it provides infusion care solutions comprising disposable infusion sets for diabetes insulin pumps, or for use in continuous infusion treatments for conditions such as Parkinson's disease. The company sells its products to pharmacies, hospitals, and other acute and post-acute healthcare service providers directly or through distributors and wholesalers. It serves a range of customers, including healthcare providers, patients, and manufacturers. Convatec Group PLC was founded in 1978 and is headquartered in London, the United Kingdom.",
+  "targetMeanPrice": 304.64307,
+  "targetLowPrice": 230.39462,
+  "targetHighPrice": 374.79742,
+  "numberOfAnalystOpinions": 19,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.42105,
+  "forwardPE": 12.696117,
+  "forwardEps": 0.173281,
+  "trailingEps": 0.05,
+  "earningsGrowth": -0.471,
+  "revenueGrowth": 0.044
  },
  "governance": {
   "ceo": {
@@ -76,8 +87,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3781000000.0,
+    "official": 3781000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1518000000.0,
+    "official": 1518000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 175000000.0,
+    "official": 175000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2439000000.0,
+    "official": 2439000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:41:15+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -111,7 +154,10 @@
    "goodwill_and_intangibles": 2149500000.0,
    "retained_earnings": -892200000.0,
    "total_debt": 1300200000.0,
-   "shares_out": 2043872048.0
+   "shares_out": 2043872048.0,
+   "unusual_items": -61600000.0,
+   "normalized_ebitda": 401800000.0,
+   "normalized_income": 110208800.0
   },
   {
    "fy_end": "2023-12-31",
@@ -145,7 +191,10 @@
    "goodwill_and_intangibles": 2234100000.0,
    "retained_earnings": -888700000.0,
    "total_debt": 1312400000.0,
-   "shares_out": 2045802962.0
+   "shares_out": 2045802962.0,
+   "unusual_items": -26700000.0,
+   "normalized_ebitda": 482200000.0,
+   "normalized_income": 151082616.487455
   },
   {
    "fy_end": "2024-12-31",
@@ -179,7 +228,10 @@
    "goodwill_and_intangibles": 2096000000.0,
    "retained_earnings": -828000000.0,
    "total_debt": 1202000000.0,
-   "shares_out": 2044344893.0
+   "shares_out": 2044344893.0,
+   "unusual_items": 10000000.0,
+   "normalized_ebitda": 531000000.0,
+   "normalized_income": 183235772.357724
   },
   {
    "fy_end": "2025-12-31",
@@ -213,7 +265,10 @@
    "goodwill_and_intangibles": 1996000000.0,
    "retained_earnings": -793000000.0,
    "total_debt": 1518000000.0,
-   "shares_out": 1954454579.0
+   "shares_out": 1954454579.0,
+   "unusual_items": -120000000.0,
+   "normalized_ebitda": 636000000.0,
+   "normalized_income": 266304347.826087
   }
  ]
 }

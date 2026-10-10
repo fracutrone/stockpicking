@@ -1,6 +1,6 @@
 {
  "ticker": "ATR",
- "fetched_at": "2026-10-10T12:38:11+00:00",
+ "fetched_at": "2026-10-10T15:35:10+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 14000,
   "website": "https://www.aptar.com",
-  "longBusinessSummary": "AptarGroup, Inc. designs and manufactures drug delivery, consumer product dispensing, and active material science solutions and services for the pharmaceutical, fragrance, facial skincare, color cosmetics, personal care, home care, and food and beverage markets. The company operates through three segments: Pharma, Beauty, and Closures. It provides dispensing pumps used to dispense sprays, liquids, or lotions from non-pressurized containers; fine-mist pumps for pharmaceutical and fragrance applications; and lotion pumps for viscous formulations, as well as closures, such as dispensing and non-dispensing solutions that enable product delivery without removal of the cap and used across various consumer end markets. The company also offers aerosol valves used in pressurized containers and continuous spray and metered-dose valves for pharmaceutical, personal care, and household applications; elastomeric primary packaging components; active material science solutions; and digital health solutions. The company primarily sells its products and services in Asia, Europe, Latin America, and North America. AptarGroup, Inc. was incorporated in 1992 and is headquartered in Crystal Lake, Illinois."
+  "longBusinessSummary": "AptarGroup, Inc. designs and manufactures drug delivery, consumer product dispensing, and active material science solutions and services for the pharmaceutical, fragrance, facial skincare, color cosmetics, personal care, home care, and food and beverage markets. The company operates through three segments: Pharma, Beauty, and Closures. It provides dispensing pumps used to dispense sprays, liquids, or lotions from non-pressurized containers; fine-mist pumps for pharmaceutical and fragrance applications; and lotion pumps for viscous formulations, as well as closures, such as dispensing and non-dispensing solutions that enable product delivery without removal of the cap and used across various consumer end markets. The company also offers aerosol valves used in pressurized containers and continuous spray and metered-dose valves for pharmaceutical, personal care, and household applications; elastomeric primary packaging components; active material science solutions; and digital health solutions. The company primarily sells its products and services in Asia, Europe, Latin America, and North America. AptarGroup, Inc. was incorporated in 1992 and is headquartered in Crystal Lake, Illinois.",
+  "targetMeanPrice": 162.0,
+  "targetLowPrice": 135.0,
+  "targetHighPrice": 220.0,
+  "numberOfAnalystOpinions": 9,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.6,
+  "forwardPE": 19.327719,
+  "forwardEps": 6.22836,
+  "trailingEps": 5.48,
+  "earningsGrowth": -0.186,
+  "revenueGrowth": 0.063
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 5252719000.0,
+    "official": 5252719000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2668096000.0,
+    "official": 2668096000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 392789000.0,
+    "official": 392789000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3777181000.0,
+    "official": 3777181000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:35:10+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -196,7 +238,10 @@
    "goodwill_and_intangibles": 1261376000.0,
    "retained_earnings": 1929240000.0,
    "total_debt": 1056407000.0,
-   "shares_out": 65200000.0
+   "shares_out": 65200000.0,
+   "unusual_items": -8707000.0,
+   "normalized_ebitda": 617944000.0,
+   "normalized_income": 245522212.0
   },
   {
    "fy_end": "2023-12-31",
@@ -231,7 +276,10 @@
    "goodwill_and_intangibles": 1246629000.0,
    "retained_earnings": 2109816000.0,
    "total_debt": 762982000.0,
-   "shares_out": 65900000.0
+   "shares_out": 65900000.0,
+   "unusual_items": -43591000.0,
+   "normalized_ebitda": 707427000.0,
+   "normalized_income": 317528978.0
   },
   {
    "fy_end": "2024-12-31",
@@ -266,7 +314,10 @@
    "goodwill_and_intangibles": 1191025000.0,
    "retained_earnings": 2370537000.0,
    "total_debt": 864101000.0,
-   "shares_out": 66500000.0
+   "shares_out": 66500000.0,
+   "unusual_items": -11289000.0,
+   "normalized_ebitda": 788736000.0,
+   "normalized_income": 383532933.077177
   },
   {
    "fy_end": "2025-12-31",
@@ -301,7 +352,10 @@
    "goodwill_and_intangibles": 1333237000.0,
    "retained_earnings": 2642552000.0,
    "total_debt": 1323380000.0,
-   "shares_out": 64212769.0
+   "shares_out": 64212769.0,
+   "unusual_items": -10320000.0,
+   "normalized_ebitda": 841798000.0,
+   "normalized_income": 401032285.291568
   }
  ]
 }

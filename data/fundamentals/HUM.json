@@ -1,6 +1,6 @@
 {
  "ticker": "HUM",
- "fetched_at": "2026-10-10T12:48:17+00:00",
+ "fetched_at": "2026-10-10T15:46:41+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 67060,
   "website": "https://www.humana.com",
-  "longBusinessSummary": "Humana Inc. provides medical and specialty insurance products in the United States. It operates in two segments, Insurance and CenterWell. The Insurance segment offers individual Medicare Advantage products, including health insurance benefits, including wellness programs, chronic care management, and care coordination; individual Medicare stand-alone prescription drug products (PDP); group Medicare advantage and Medicare stand-alone PDP; Medicare supplements; specialty and ancillary insurance comprising dental, vision, life and disability; and administrative services to arrange health care services for active-duty and retired military personnel and dependents, as well as pharmacy benefit managers. Its CenterWell segment operates full-service, value-based senior focused primary care centers under the Conviva Senior Primary Care and CenterWell Senior Primary Care brands; a management services organization; CenterWell Home Health, a home health provider; and OneHome, which manages post-acute patient needs, as well as provides pharmacy and hospice solutions. The company was formerly known as Extendicare Inc. and changed its name to Humana Inc. in April 1974. Humana Inc. was founded in 1961 and is headquartered in Louisville, Kentucky."
+  "longBusinessSummary": "Humana Inc. provides medical and specialty insurance products in the United States. It operates in two segments, Insurance and CenterWell. The Insurance segment offers individual Medicare Advantage products, including health insurance benefits, including wellness programs, chronic care management, and care coordination; individual Medicare stand-alone prescription drug products (PDP); group Medicare advantage and Medicare stand-alone PDP; Medicare supplements; specialty and ancillary insurance comprising dental, vision, life and disability; and administrative services to arrange health care services for active-duty and retired military personnel and dependents, as well as pharmacy benefit managers. Its CenterWell segment operates full-service, value-based senior focused primary care centers under the Conviva Senior Primary Care and CenterWell Senior Primary Care brands; a management services organization; CenterWell Home Health, a home health provider; and OneHome, which manages post-acute patient needs, as well as provides pharmacy and hospice solutions. The company was formerly known as Extendicare Inc. and changed its name to Humana Inc. in April 1974. Humana Inc. was founded in 1961 and is headquartered in Louisville, Kentucky.",
+  "targetMeanPrice": 452.86957,
+  "targetLowPrice": 280.0,
+  "targetHighPrice": 596.0,
+  "numberOfAnalystOpinions": 23,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": 25.455551,
+  "forwardEps": 16.96565,
+  "trailingEps": 10.58,
+  "earningsGrowth": 0.271,
+  "revenueGrowth": 0.262
  },
  "governance": {
   "ceo": {
@@ -77,11 +88,41 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "operating_income": "sec",
   "sga": "sec",
   "current_assets": "sec",
   "current_liabilities": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 48909000000.0,
+    "official": 48909000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 17657000000.0,
+    "official": 17657000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1188000000.0,
+    "official": 1188000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 129664000000.0,
+    "official": 129664000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:46:42+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -192,7 +233,9 @@
    "goodwill_and_intangibles": 10907000000.0,
    "retained_earnings": 25492000000.0,
    "total_debt": 9034000000.0,
-   "shares_out": 124974643.0
+   "shares_out": 124974643.0,
+   "unusual_items": 237000000.0,
+   "normalized_income": 2619614910.313901
   },
   {
    "fy_end": "2023-12-31",
@@ -222,7 +265,9 @@
    "goodwill_and_intangibles": 11243000000.0,
    "retained_earnings": 27540000000.0,
    "total_debt": 10213000000.0,
-   "shares_out": 122224220.0
+   "shares_out": 122224220.0,
+   "unusual_items": 0.0,
+   "normalized_income": 2489000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -252,7 +297,9 @@
    "goodwill_and_intangibles": 11073000000.0,
    "retained_earnings": 28317000000.0,
    "total_debt": 11144000000.0,
-   "shares_out": 120641615.0
+   "shares_out": 120641615.0,
+   "unusual_items": 0.0,
+   "normalized_income": 1207000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -282,7 +329,9 @@
    "goodwill_and_intangibles": 10814000000.0,
    "retained_earnings": 29075000000.0,
    "total_debt": 12369000000.0,
-   "shares_out": 120591312.0
+   "shares_out": 120591312.0,
+   "unusual_items": -67000000.0,
+   "normalized_income": 1243342000.0
   }
  ]
 }

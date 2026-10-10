@@ -1,6 +1,6 @@
 {
  "ticker": "JKHY",
- "fetched_at": "2026-10-10T12:49:25+00:00",
+ "fetched_at": "2026-10-10T15:47:45+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 7300,
   "website": "https://www.jackhenry.com",
-  "longBusinessSummary": "Jack Henry & Associates, Inc. operates as a financial technology company that connects people and financial institutions through technology solutions and payment processing services in the United States. It operates through four segments: Core, Payments, Complementary, and Corporate Services. The Core segment provides core information processing platforms to banks and credit unions, which consists of integrated applications required to process deposit, loan, general ledger transactions, and maintain centralized accountholder information. The Payments segment offers secure payment processing tools and services, including ATM, money movement and embedded payment capabilities, remote deposit capture processing, and risk management products and services, as well as debit and credit card processing services, and online and mobile bill pay solutions. The Complementary segment provides software, and hosted processing platforms and services comprising digital/mobile banking, treasury, online account opening, fraud/anti-money laundering, and lending/deposit solutions. The Corporate Services segment offers hardware and other products. It offers specialized financial performance, imaging and payment, information security and risk management, retail delivery, and online and mobile solutions to financial services organizations and corporate entities. The company also provides SilverLake system, a system primarily designed for commercial-focused banks; CIF 20/20, a parameter-driven system for banks; and Core Director, a system with point-and-click operation for banks; and Symitar, a system designed for credit unions. It provides digital products and services under the Banno Digital Platform, and electronic payment solutions; hardware systems; implementation, training, and support and services; and data and transaction processing, and software licensing and related services, as well as professional services. The company was founded in 1976 and is headquartered in Monett, Missouri."
+  "longBusinessSummary": "Jack Henry & Associates, Inc. operates as a financial technology company that connects people and financial institutions through technology solutions and payment processing services in the United States. It operates through four segments: Core, Payments, Complementary, and Corporate Services. The Core segment provides core information processing platforms to banks and credit unions, which consists of integrated applications required to process deposit, loan, general ledger transactions, and maintain centralized accountholder information. The Payments segment offers secure payment processing tools and services, including ATM, money movement and embedded payment capabilities, remote deposit capture processing, and risk management products and services, as well as debit and credit card processing services, and online and mobile bill pay solutions. The Complementary segment provides software, and hosted processing platforms and services comprising digital/mobile banking, treasury, online account opening, fraud/anti-money laundering, and lending/deposit solutions. The Corporate Services segment offers hardware and other products. It offers specialized financial performance, imaging and payment, information security and risk management, retail delivery, and online and mobile solutions to financial services organizations and corporate entities. The company also provides SilverLake system, a system primarily designed for commercial-focused banks; CIF 20/20, a parameter-driven system for banks; and Core Director, a system with point-and-click operation for banks; and Symitar, a system designed for credit unions. It provides digital products and services under the Banno Digital Platform, and electronic payment solutions; hardware systems; implementation, training, and support and services; and data and transaction processing, and software licensing and related services, as well as professional services. The company was founded in 1976 and is headquartered in Monett, Missouri.",
+  "targetMeanPrice": 189.72221,
+  "targetLowPrice": 158.0,
+  "targetHighPrice": 209.0,
+  "numberOfAnalystOpinions": 18,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.75,
+  "forwardPE": 18.890793,
+  "forwardEps": 7.90385,
+  "trailingEps": 6.98,
+  "earningsGrowth": -0.104,
+  "revenueGrowth": 0.047
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,38 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-06-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 3145711000.0,
+    "official": 3145711000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2051949000.0,
+    "official": 2051949000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 502776000.0,
+    "official": 502776000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2544339000.0,
+    "official": 2544339000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:47:45+00:00",
  "years": [
   {
    "fy_end": "2020-06-30",
@@ -195,7 +236,9 @@
    "goodwill_and_intangibles": 1456037000.0,
    "retained_earnings": 2855751000.0,
    "total_debt": 275000000.0,
-   "shares_out": 72894433.0
+   "shares_out": 72894433.0,
+   "normalized_ebitda": 680373000.0,
+   "normalized_income": 366646000.0
   },
   {
    "fy_end": "2024-06-30",
@@ -228,7 +271,9 @@
    "goodwill_and_intangibles": 1476466000.0,
    "retained_earnings": 3081690000.0,
    "total_debt": 60000000.0,
-   "shares_out": 72872130.0
+   "shares_out": 72872130.0,
+   "normalized_ebitda": 714307000.0,
+   "normalized_income": 381816000.0
   },
   {
    "fy_end": "2025-06-30",
@@ -261,7 +306,9 @@
    "goodwill_and_intangibles": 1490057000.0,
    "retained_earnings": 3372794000.0,
    "total_debt": 0,
-   "shares_out": 72836391.0
+   "shares_out": 72836391.0,
+   "normalized_ebitda": 801225000.0,
+   "normalized_income": 455748000.0
   },
   {
    "fy_end": "2026-06-30",
@@ -294,7 +341,9 @@
    "goodwill_and_intangibles": 1544409000.0,
    "retained_earnings": 3705165000.0,
    "total_debt": 40000000.0,
-   "shares_out": 70070759.0
+   "shares_out": 70070759.0,
+   "normalized_ebitda": 871418000.0,
+   "normalized_income": 502776000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "CART",
- "fetched_at": "2026-10-10T12:39:52+00:00",
+ "fetched_at": "2026-10-10T15:38:44+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 3600,
   "website": "https://www.instacart.com",
-  "longBusinessSummary": "Maplebear Inc., doing business as Instacart, operates as a technology and enablement partner for the grocery industry in the United States and internationally. The company offers Instacart Marketplace which helps retailers serve customers' needs by supporting fulfillment options, shopping occasions, and categories; Instacart Enterprise platform, an end-to-end technology solution for retailers across all aspects of business; and Instacart Ads, enables brands to learn more about general consumer behavior from discovery to purchase, offering insights about how to optimize advertising spend. It also provides advertising solutions, including sponsored product ads, display ads, coupons, and brand pages; and software-as-a-service. The company's services can be provided through company's mobile application or website. Maplebear Inc., was incorporated in 2012 and is headquartered in San Francisco, California."
+  "longBusinessSummary": "Maplebear Inc., doing business as Instacart, operates as a technology and enablement partner for the grocery industry in the United States and internationally. The company offers Instacart Marketplace which helps retailers serve customers' needs by supporting fulfillment options, shopping occasions, and categories; Instacart Enterprise platform, an end-to-end technology solution for retailers across all aspects of business; and Instacart Ads, enables brands to learn more about general consumer behavior from discovery to purchase, offering insights about how to optimize advertising spend. It also provides advertising solutions, including sponsored product ads, display ads, coupons, and brand pages; and software-as-a-service. The company's services can be provided through company's mobile application or website. Maplebear Inc., was incorporated in 2012 and is headquartered in San Francisco, California.",
+  "targetMeanPrice": 58.21429,
+  "targetLowPrice": 45.0,
+  "targetHighPrice": 77.0,
+  "numberOfAnalystOpinions": 28,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.03125,
+  "forwardPE": 9.75293,
+  "forwardEps": 4.89699,
+  "trailingEps": 1.89,
+  "earningsGrowth": 0.081,
+  "revenueGrowth": 0.141
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,38 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3687000000.0,
+    "official": 3687000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2518000000.0,
+    "official": 2518000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 447000000.0,
+    "official": 447000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3742000000.0,
+    "official": 3742000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:38:44+00:00",
  "years": [
   {
    "fy_end": "2021-12-31",
@@ -134,7 +175,9 @@
    "goodwill_and_intangibles": 420000000.0,
    "retained_earnings": -977000000.0,
    "total_debt": 49000000.0,
-   "shares_out": 280087000.0
+   "shares_out": 280087000.0,
+   "normalized_ebitda": 109000000.0,
+   "normalized_income": 428000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -167,7 +210,9 @@
    "goodwill_and_intangibles": 395000000.0,
    "retained_earnings": -2635000000.0,
    "total_debt": 40000000.0,
-   "shares_out": 279046000.0
+   "shares_out": 279046000.0,
+   "normalized_ebitda": -2085000000.0,
+   "normalized_income": -1622000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -200,7 +245,9 @@
    "goodwill_and_intangibles": 369000000.0,
    "retained_earnings": -3585000000.0,
    "total_debt": 26000000.0,
-   "shares_out": 260964000.0
+   "shares_out": 260964000.0,
+   "normalized_ebitda": 556000000.0,
+   "normalized_income": 457000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -233,7 +280,9 @@
    "goodwill_and_intangibles": 464000000.0,
    "retained_earnings": -4486000000.0,
    "total_debt": 36000000.0,
-   "shares_out": 242867000.0
+   "shares_out": 242867000.0,
+   "normalized_ebitda": 597000000.0,
+   "normalized_income": 447000000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "FIVE",
- "fetched_at": "2026-10-10T12:45:43+00:00",
+ "fetched_at": "2026-10-10T15:44:02+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 7800,
   "website": "https://www.fivebelow.com",
-  "longBusinessSummary": "Five Below, Inc. operates as a specialty value retailer in the United States. It offers assortment of classic and novelty candy bars, movie-size box candy, seasonal-related candy, gum, and snack food products, as well as sells chilled drinks through coolers; socks, jewelry, hair accessories, cozy loungewear, and t-shirts; personal care essentials, skincare, fragrance, and branded cosmetics; and party goods, decorations, gag gifts, greeting cards, and every day and special occasion merchandise products. The company also provides personalized living space products, such as lamps, posters, frames, fleece blankets, plush items, pillows, candles, incense, lighting, novelty décor, accent furniture, and related items, as well as provides storage options; assortment of craft activity kits with various arts and crafts supplies, such as markers, paint, canvas, compounds, slime, beads, and stickers; and supplies craft activities and school products. In addition, it offers cell phone cables and chargers, power banks, phone cases and accessories, screen protectors, auto phone accessories, and computer and tablet accessories, as well as earbuds, headphones, and speakers. Further, the company provides assortment of sport balls, sports accessories and fitness products, including hand weights and yoga mats; toys, including brand name board games, puzzles, action figures, construction sets, remote control, collectibles, novelty toys, and plush products; and outdoor toys for the pool and beach. Additionally, it offers seasonally relevant items to use for the occasions and milestones, such as Holiday, Easter, Halloween, Summer, and Back to School. The company was formerly known as Cheap Holdings, Inc. and changed its name to Five Below, Inc. in August 2002. Five Below, Inc. was incorporated in 2002 and is headquartered in Philadelphia, Pennsylvania."
+  "longBusinessSummary": "Five Below, Inc. operates as a specialty value retailer in the United States. It offers assortment of classic and novelty candy bars, movie-size box candy, seasonal-related candy, gum, and snack food products, as well as sells chilled drinks through coolers; socks, jewelry, hair accessories, cozy loungewear, and t-shirts; personal care essentials, skincare, fragrance, and branded cosmetics; and party goods, decorations, gag gifts, greeting cards, and every day and special occasion merchandise products. The company also provides personalized living space products, such as lamps, posters, frames, fleece blankets, plush items, pillows, candles, incense, lighting, novelty décor, accent furniture, and related items, as well as provides storage options; assortment of craft activity kits with various arts and crafts supplies, such as markers, paint, canvas, compounds, slime, beads, and stickers; and supplies craft activities and school products. In addition, it offers cell phone cables and chargers, power banks, phone cases and accessories, screen protectors, auto phone accessories, and computer and tablet accessories, as well as earbuds, headphones, and speakers. Further, the company provides assortment of sport balls, sports accessories and fitness products, including hand weights and yoga mats; toys, including brand name board games, puzzles, action figures, construction sets, remote control, collectibles, novelty toys, and plush products; and outdoor toys for the pool and beach. Additionally, it offers seasonally relevant items to use for the occasions and milestones, such as Holiday, Easter, Halloween, Summer, and Back to School. The company was formerly known as Cheap Holdings, Inc. and changed its name to Five Below, Inc. in August 2002. Five Below, Inc. was incorporated in 2002 and is headquartered in Philadelphia, Pennsylvania.",
+  "targetMeanPrice": 310.4762,
+  "targetLowPrice": 250.0,
+  "targetHighPrice": 420.0,
+  "numberOfAnalystOpinions": 21,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.72,
+  "forwardPE": 19.409744,
+  "forwardEps": 11.063,
+  "trailingEps": 11.16,
+  "earningsGrowth": 4.182,
+  "revenueGrowth": 0.229
  },
  "governance": {
   "ceo": {
@@ -82,8 +93,38 @@
   "ppe_net": "sec",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-01-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 4937019000.0,
+    "official": 4937019000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2193290000.0,
+    "official": 2193290000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 358641000.0,
+    "official": 358641000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 4764147000.0,
+    "official": 4764147000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:44:02+00:00",
  "years": [
   {
    "fy_end": "2020-02-01",
@@ -187,7 +228,9 @@
    "ppe_net": 925530000.0,
    "retained_earnings": 1100590000.0,
    "total_debt": 1496751000.0,
-   "shares_out": 55537221.0
+   "shares_out": 55537221.0,
+   "normalized_ebitda": 450660000.0,
+   "normalized_income": 261528000.0
   },
   {
    "fy_end": "2024-02-03",
@@ -218,7 +261,9 @@
    "ppe_net": 1134312000.0,
    "retained_earnings": 1401696000.0,
    "total_debt": 1738550000.0,
-   "shares_out": 55197875.0
+   "shares_out": 55197875.0,
+   "normalized_ebitda": 516318000.0,
+   "normalized_income": 301106000.0
   },
   {
    "fy_end": "2025-02-01",
@@ -249,7 +294,9 @@
    "ppe_net": 1261728000.0,
    "retained_earnings": 1655307000.0,
    "total_debt": 1981567000.0,
-   "shares_out": 55028682.0
+   "shares_out": 55028682.0,
+   "normalized_ebitda": 491264000.0,
+   "normalized_income": 253611000.0
   },
   {
    "fy_end": "2026-01-31",
@@ -280,7 +327,9 @@
    "ppe_net": 1234331000.0,
    "retained_earnings": 2013948000.0,
    "total_debt": 2032189000.0,
-   "shares_out": 55228735.0
+   "shares_out": 55228735.0,
+   "normalized_ebitda": 649522000.0,
+   "normalized_income": 358641000.0
   }
  ]
 }

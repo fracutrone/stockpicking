@@ -1,6 +1,6 @@
 {
  "ticker": "EBAY",
- "fetched_at": "2026-10-10T12:43:50+00:00",
+ "fetched_at": "2026-10-10T15:42:17+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 12300,
   "website": "https://www.ebayinc.com",
-  "longBusinessSummary": "eBay Inc., together with its subsidiaries, operates marketplace platforms that connect buyers and sellers in the United States, the United Kingdom, China, Germany, and internationally. Its marketplace platform includes its online marketplace at ebay.com, off-platform businesses, and the eBay suite of mobile apps. The company's platforms enable users to list, sell, buy, and pay various products. The company was founded in 1995 and is headquartered in San Jose, California."
+  "longBusinessSummary": "eBay Inc., together with its subsidiaries, operates marketplace platforms that connect buyers and sellers in the United States, the United Kingdom, China, Germany, and internationally. Its marketplace platform includes its online marketplace at ebay.com, off-platform businesses, and the eBay suite of mobile apps. The company's platforms enable users to list, sell, buy, and pay various products. The company was founded in 1995 and is headquartered in San Jose, California.",
+  "targetMeanPrice": 116.11111,
+  "targetLowPrice": 71.0,
+  "targetHighPrice": 145.0,
+  "numberOfAnalystOpinions": 27,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.53125,
+  "forwardPE": 16.713444,
+  "forwardEps": 6.71256,
+  "trailingEps": 4.75,
+  "earningsGrowth": 0.55,
+  "revenueGrowth": 0.148
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 17610000000.0,
+    "official": 17610000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4615000000.0,
+    "official": 4615000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2031000000.0,
+    "official": 2031000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 11100000000.0,
+    "official": 11100000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:42:17+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -200,7 +242,10 @@
    "goodwill_and_intangibles": 4262000000.0,
    "retained_earnings": 34315000000.0,
    "total_debt": 8871000000.0,
-   "shares_out": 539000000.0
+   "shares_out": 539000000.0,
+   "unusual_items": -3789000000.0,
+   "normalized_ebitda": 2865000000.0,
+   "normalized_income": 1742044000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -234,7 +279,10 @@
    "goodwill_and_intangibles": 4267000000.0,
    "retained_earnings": 36531000000.0,
    "total_debt": 7723000000.0,
-   "shares_out": 517000000.0
+   "shares_out": 517000000.0,
+   "unusual_items": 1825000000.0,
+   "normalized_ebitda": 2548000000.0,
+   "normalized_income": 1408075000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -268,7 +316,10 @@
    "goodwill_and_intangibles": 4269000000.0,
    "retained_earnings": 37951000000.0,
    "total_debt": 5752000000.0,
-   "shares_out": 471000000.0
+   "shares_out": 471000000.0,
+   "unusual_items": -53000000.0,
+   "normalized_ebitda": 2914000000.0,
+   "normalized_income": 2027089991.220369
   },
   {
    "fy_end": "2025-12-31",
@@ -301,7 +352,10 @@
    "goodwill_and_intangibles": 4467000000.0,
    "retained_earnings": 39428000000.0,
    "total_debt": 5996000000.0,
-   "shares_out": 449000000.0
+   "shares_out": 449000000.0,
+   "unusual_items": 11000000.0,
+   "normalized_ebitda": 2949000000.0,
+   "normalized_income": 1986482878.196792
   }
  ]
 }

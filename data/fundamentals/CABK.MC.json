@@ -1,6 +1,6 @@
 {
  "ticker": "CABK.MC",
- "fetched_at": "2026-10-10T11:49:30+00:00",
+ "fetched_at": "2026-10-10T14:38:36+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -11,8 +11,8 @@
   "country": "Spain",
   "currency": "EUR",
   "financialCurrency": "EUR",
-  "marketCap": 82295562240,
-  "sharesOutstanding": 6944772922,
+  "marketCap": 82285658112,
+  "sharesOutstanding": 6943937029,
   "floatShares": 3492086905,
   "heldPercentInsiders": 0.49363,
   "heldPercentInstitutions": 0.25343,
@@ -22,7 +22,18 @@
   "exchange": "MCE",
   "fullTimeEmployees": 47580,
   "website": "https://www.caixabank.com",
-  "longBusinessSummary": "CaixaBank, S.A., together with its subsidiaries, provides various banking products and services for individuals and businesses in Spain, Portugal, and internationally. It operates through four segments: Retail Banking, Business Banking, Private Banking, and CIB segments. The company offers retail, private, business, institutional, corporate and investment, premier, InTouch, and international banking; payment methods; savings and investment products; financing; life, life-risk, and non-life insurance; traditional financial and independent advice, and broker services; ATMs; pension fund management; asset and wealth management; securitisation fund management; consumer finance; IT services; and back-office administration services. It also engages in the management of collective investment institutions; holding of property assets; venture capital company; promotion of business and entrepreneurial initiatives; development of digital projects; vehicle and equipment leasing; project management, maintenance, logistics, and procurement; marketing of products and cashless platforms; mortgage loan management; digital business; hotels; private security of goods and people; shopping center real estate; administration, management, development, and operation of real estate; and reinsurance activities. The company was formerly known as Criteria CaixaCorp, S.A. and changed its name to CaixaBank, S.A. in July 2011. CaixaBank, S.A. was founded in 1904 and is based in Valencia, Spain."
+  "longBusinessSummary": "CaixaBank, S.A., together with its subsidiaries, provides various banking products and services for individuals and businesses in Spain, Portugal, and internationally. It operates through four segments: Retail Banking, Business Banking, Private Banking, and CIB segments. The company offers retail, private, business, institutional, corporate and investment, premier, InTouch, and international banking; payment methods; savings and investment products; financing; life, life-risk, and non-life insurance; traditional financial and independent advice, and broker services; ATMs; pension fund management; asset and wealth management; securitisation fund management; consumer finance; IT services; and back-office administration services. It also engages in the management of collective investment institutions; holding of property assets; venture capital company; promotion of business and entrepreneurial initiatives; development of digital projects; vehicle and equipment leasing; project management, maintenance, logistics, and procurement; marketing of products and cashless platforms; mortgage loan management; digital business; hotels; private security of goods and people; shopping center real estate; administration, management, development, and operation of real estate; and reinsurance activities. The company was formerly known as Criteria CaixaCorp, S.A. and changed its name to CaixaBank, S.A. in July 2011. CaixaBank, S.A. was founded in 1904 and is based in Valencia, Spain.",
+  "targetMeanPrice": 13.15571,
+  "targetLowPrice": 6.8,
+  "targetHighPrice": 15.3,
+  "numberOfAnalystOpinions": 21,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.33333,
+  "forwardPE": 10.824291,
+  "forwardEps": 1.09476,
+  "trailingEps": 0.86,
+  "earningsGrowth": 0.116,
+  "revenueGrowth": 0.126
  },
  "governance": {
   "ceo": {
@@ -77,8 +88,34 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF ES",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 631003000000.0,
+    "official": 631003000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 36831000000.0,
+    "official": 37425000000.0,
+    "diff": 0.015872
+   },
+   "net_income": {
+    "yahoo": 5787000000.0,
+    "official": 5787000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T14:38:36+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -105,7 +142,9 @@
    "goodwill_and_intangibles": 5024000000.0,
    "retained_earnings": 16781000000.0,
    "total_debt": 50090000000.0,
-   "shares_out": 7494455343.0
+   "shares_out": 7494455343.0,
+   "unusual_items": -286000000.0,
+   "normalized_income": 3326914000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -132,7 +171,9 @@
    "goodwill_and_intangibles": 5073000000.0,
    "retained_earnings": 21573000000.0,
    "total_debt": 54419000000.0,
-   "shares_out": 7117815242.0
+   "shares_out": 7117815242.0,
+   "unusual_items": -250000000.0,
+   "normalized_income": 5957250000.0
   }
  ]
 }

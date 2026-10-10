@@ -1,6 +1,6 @@
 {
  "ticker": "ALW.L",
- "fetched_at": "2026-10-10T11:44:58+00:00",
+ "fetched_at": "2026-10-10T14:30:13+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": null,
   "heldPercentInstitutions": null,
   "shortPercentOfFloat": null,
-  "averageVolume": 901953,
+  "averageVolume": 906306,
   "quoteType": "EQUITY",
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -51,8 +62,15 @@
   "receivables": "yahoo",
   "ppe_net": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T14:30:13+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -74,7 +92,8 @@
    "receivables": 9648000.0,
    "ppe_net": 54000.0,
    "total_debt": 206695000.0,
-   "shares_out": 292579600.0
+   "shares_out": 292579600.0,
+   "normalized_income": -242645000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -96,7 +115,8 @@
    "receivables": 9321000.0,
    "ppe_net": 0.0,
    "total_debt": 230144000.0,
-   "shares_out": 283964600.0
+   "shares_out": 283964600.0,
+   "normalized_income": 599669000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -116,7 +136,8 @@
    "equity": 5221953000.0,
    "receivables": 11282000.0,
    "total_debt": 359521000.0,
-   "shares_out": 400191982.0
+   "shares_out": 400191982.0,
+   "normalized_income": 490703000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -136,7 +157,8 @@
    "equity": 5112743000.0,
    "receivables": 10106000.0,
    "total_debt": 369998000.0,
-   "shares_out": 382354144.0
+   "shares_out": 382354144.0,
+   "normalized_income": 224464000.0
   }
  ]
 }

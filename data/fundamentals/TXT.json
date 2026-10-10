@@ -1,6 +1,6 @@
 {
  "ticker": "TXT",
- "fetched_at": "2026-10-10T13:00:32+00:00",
+ "fetched_at": "2026-10-10T15:58:08+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 34000,
   "website": "https://www.textron.com",
-  "longBusinessSummary": "Textron Inc. operates in the aircraft, defense, industrial, and finance businesses worldwide. It operates in six segments: Textron Aviation, Bell, Textron Systems, Industrial, Textron eAviation, and Finance. The Textron Aviation segment manufactures, sells, and services business jets, turboprop and piston engine aircraft, and military trainer and defense aircraft, as well as offers maintenance, inspection, and repair services; commercial parts; and advanced flight training devices. The Bell segment supplies military and commercial helicopters, tiltrotor aircraft, and related spare parts and services. The Textron Systems segment offers unmanned aircraft systems, electronic systems and solutions, advanced marine crafts, piston aircraft engines, live military air-to-air and air-to-ship training, weapons and related components, and armored and specialty vehicles. The Industrial segment offers blow-molded solutions, including conventional plastic fuel tanks and pressurized fuel tanks; plastic tanks for catalytic reduction systems and other fuel system components; lightweight and composite pentatonic battery systems for use in electric vehicles primarily to automobile original equipment manufacturers; and golf cars, off-road utility vehicles, powersports products, light transportation vehicles, aviation ground support equipment, professional turf-maintenance equipment, and turf-care vehicles to golf courses and resorts, government agencies and municipalities, consumers, outdoor enthusiasts, and commercial and industrial users. The Textron eAviation segment manufactures and sells light aircraft and gliders with electric and combustion engines; and provides other research and development initiatives related to sustainable aviation solutions. The Finance segment offers financing services to purchase new and pre-owned aviation aircraft and Bell helicopters. Textron Inc. was founded in 1923 and is headquartered in Providence, Rhode Island."
+  "longBusinessSummary": "Textron Inc. operates in the aircraft, defense, industrial, and finance businesses worldwide. It operates in six segments: Textron Aviation, Bell, Textron Systems, Industrial, Textron eAviation, and Finance. The Textron Aviation segment manufactures, sells, and services business jets, turboprop and piston engine aircraft, and military trainer and defense aircraft, as well as offers maintenance, inspection, and repair services; commercial parts; and advanced flight training devices. The Bell segment supplies military and commercial helicopters, tiltrotor aircraft, and related spare parts and services. The Textron Systems segment offers unmanned aircraft systems, electronic systems and solutions, advanced marine crafts, piston aircraft engines, live military air-to-air and air-to-ship training, weapons and related components, and armored and specialty vehicles. The Industrial segment offers blow-molded solutions, including conventional plastic fuel tanks and pressurized fuel tanks; plastic tanks for catalytic reduction systems and other fuel system components; lightweight and composite pentatonic battery systems for use in electric vehicles primarily to automobile original equipment manufacturers; and golf cars, off-road utility vehicles, powersports products, light transportation vehicles, aviation ground support equipment, professional turf-maintenance equipment, and turf-care vehicles to golf courses and resorts, government agencies and municipalities, consumers, outdoor enthusiasts, and commercial and industrial users. The Textron eAviation segment manufactures and sells light aircraft and gliders with electric and combustion engines; and provides other research and development initiatives related to sustainable aviation solutions. The Finance segment offers financing services to purchase new and pre-owned aviation aircraft and Bell helicopters. Textron Inc. was founded in 1923 and is headquartered in Providence, Rhode Island.",
+  "targetMeanPrice": 100.26667,
+  "targetLowPrice": 86.0,
+  "targetHighPrice": 115.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.1875,
+  "forwardPE": 10.266321,
+  "forwardEps": 7.22362,
+  "trailingEps": 5.31,
+  "earningsGrowth": 0.052,
+  "revenueGrowth": 0.03
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "retained_earnings": "sec",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "intangibles": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 18129000000.0,
+    "official": 18129000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 7875000000.0,
+    "official": 7875000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 921000000.0,
+    "official": 921000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 14799000000.0,
+    "official": 14799000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:58:08+00:00",
  "years": [
   {
    "fy_end": "2020-01-04",
@@ -178,7 +220,10 @@
    "goodwill_and_intangibles": 2283000000.0,
    "retained_earnings": 5903000000.0,
    "total_debt": 3557000000.0,
-   "shares_out": 206200000.0
+   "shares_out": 206200000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 1520000000.0,
+   "normalized_income": 862000000.0
   },
   {
    "fy_end": "2023-12-30",
@@ -212,7 +257,10 @@
    "goodwill_and_intangibles": 2295000000.0,
    "retained_earnings": 5862000000.0,
    "total_debt": 3874000000.0,
-   "shares_out": 192898000.0
+   "shares_out": 192898000.0,
+   "unusual_items": -126000000.0,
+   "normalized_ebitda": 1685000000.0,
+   "normalized_income": 1028848000.0
   },
   {
    "fy_end": "2024-12-28",
@@ -246,7 +294,10 @@
    "goodwill_and_intangibles": 2288000000.0,
    "retained_earnings": 5607000000.0,
    "total_debt": 3588000000.0,
-   "shares_out": 182964000.0
+   "shares_out": 182964000.0,
+   "unusual_items": -78000000.0,
+   "normalized_ebitda": 1500000000.0,
+   "normalized_income": 893250000.0
   },
   {
    "fy_end": "2026-01-03",
@@ -280,7 +331,10 @@
    "goodwill_and_intangibles": 2321000000.0,
    "retained_earnings": 5784000000.0,
    "total_debt": 3878000000.0,
-   "shares_out": 174310000.0
+   "shares_out": 174310000.0,
+   "unusual_items": -4000000.0,
+   "normalized_ebitda": 1668000000.0,
+   "normalized_income": 926248000.0
   }
  ]
 }

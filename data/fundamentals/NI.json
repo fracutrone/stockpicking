@@ -1,6 +1,6 @@
 {
  "ticker": "NI",
- "fetched_at": "2026-10-10T12:52:54+00:00",
+ "fetched_at": "2026-10-10T15:50:55+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 7668,
   "website": "https://www.nisource.com",
-  "longBusinessSummary": "NiSource Inc., an energy holding company, operates as a regulated natural gas and electric utility company in the United States. It operates in two segments, Columbia Operations and NIPSCO Operations. The company provides natural gas to residential, commercial, and industrial customers through approximately 37,300 miles of distribution main pipeline and the associated individual customer service lines; and 310 miles of transmission main pipeline in Ohio, Pennsylvania, Virginia, Kentucky, and Maryland. It also generates, transmits, and distributes electricity to approximately 0.5 million customers in various counties in the northern part of Indiana, as well as engages in wholesale electric and transmission transactions. It owns and operates steam coal generating stations in Wheatfield and Michigan City; combined cycle gas turbine in West Terre Haute; natural gas generating units in Wheatfield; hydro generating plants in Carroll County and White County; wind generating units in White County; and solar generating units in Sullivan County, Gibson County, Jasper County, and White County. The company was formerly known as NIPSCO Industries, Inc. and changed its name to NiSource Inc. in April 1999. NiSource Inc. was founded in 1847 and is headquartered in Merrillville, Indiana."
+  "longBusinessSummary": "NiSource Inc., an energy holding company, operates as a regulated natural gas and electric utility company in the United States. It operates in two segments, Columbia Operations and NIPSCO Operations. The company provides natural gas to residential, commercial, and industrial customers through approximately 37,300 miles of distribution main pipeline and the associated individual customer service lines; and 310 miles of transmission main pipeline in Ohio, Pennsylvania, Virginia, Kentucky, and Maryland. It also generates, transmits, and distributes electricity to approximately 0.5 million customers in various counties in the northern part of Indiana, as well as engages in wholesale electric and transmission transactions. It owns and operates steam coal generating stations in Wheatfield and Michigan City; combined cycle gas turbine in West Terre Haute; natural gas generating units in Wheatfield; hydro generating plants in Carroll County and White County; wind generating units in White County; and solar generating units in Sullivan County, Gibson County, Jasper County, and White County. The company was formerly known as NIPSCO Industries, Inc. and changed its name to NiSource Inc. in April 1999. NiSource Inc. was founded in 1847 and is headquartered in Merrillville, Indiana.",
+  "targetMeanPrice": 49.13333,
+  "targetLowPrice": 43.0,
+  "targetHighPrice": 55.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.625,
+  "forwardPE": 18.106863,
+  "forwardEps": 2.25108,
+  "trailingEps": 1.89,
+  "earningsGrowth": -0.584,
+  "revenueGrowth": 0.046
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "intangibles": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 35858700000.0,
+    "official": 35858700000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 9450100000.0,
+    "official": 9450100000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 929500000.0,
+    "official": 929500000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 6642200000.0,
+    "official": 6522800000.0,
+    "diff": 0.018305
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:50:55+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -188,7 +230,10 @@
    "goodwill_and_intangibles": 1485900000.0,
    "retained_earnings": -1213600000.0,
    "total_debt": 11285500000.0,
-   "shares_out": 412142602.0
+   "shares_out": 412142602.0,
+   "unusual_items": 129300000.0,
+   "normalized_ebitda": 2020100000.0,
+   "normalized_income": 697039600.0
   },
   {
    "fy_end": "2023-12-31",
@@ -221,7 +266,10 @@
    "goodwill_and_intangibles": 1485900000.0,
    "retained_earnings": -967000000.0,
    "total_debt": 14104100000.0,
-   "shares_out": 447381671.0
+   "shares_out": 447381671.0,
+   "unusual_items": 22300000.0,
+   "normalized_ebitda": 2201000000.0,
+   "normalized_income": 695813300.0
   },
   {
    "fy_end": "2024-12-31",
@@ -254,7 +302,10 @@
    "goodwill_and_intangibles": 1485900000.0,
    "retained_earnings": -711700000.0,
    "total_debt": 12679100000.0,
-   "shares_out": 465859472.0
+   "shares_out": 465859472.0,
+   "unusual_items": 66100000.0,
+   "normalized_ebitda": 2503000000.0,
+   "normalized_income": 704743800.0
   },
   {
    "fy_end": "2025-12-31",
@@ -286,7 +337,10 @@
    "goodwill_and_intangibles": 1485900000.0,
    "retained_earnings": -315200000.0,
    "total_debt": 16193800000.0,
-   "shares_out": 478432058.0
+   "shares_out": 478432058.0,
+   "unusual_items": 32100000.0,
+   "normalized_ebitda": 3013800000.0,
+   "normalized_income": 902792800.0
   }
  ]
 }

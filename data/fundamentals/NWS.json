@@ -1,6 +1,6 @@
 {
  "ticker": "NWS",
- "fetched_at": "2026-10-10T12:53:30+00:00",
+ "fetched_at": "2026-10-10T15:51:39+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 21700,
   "website": "https://newscorp.com",
-  "longBusinessSummary": "News Corporation, a media and information services company, creates and distributes authoritative and engaging content, and other products and services for consumers and businesses in the United States, Canada, Europe, Australasia, and internationally. It operates through five segments: Dow Jones, Digital Real Estate Services, Book Publishing, News Media, and Other. The company distributes news, data, and business information under The Wall Street Journal, Barron's, MarketWatch, Investor's Business Daily, Dow Jones Risk & Compliance, Dow Jones Energy, Factiva, and Dow Jones Newswires brands through various media channels, including websites, mobile apps, newspapers, newswires, newsletters, magazines, proprietary databases, live journalism, video, and podcasts. It also provides property and property-related services on its websites and mobile apps, such as realestate.com.au, realcommercial.com.au, Flatmates.com.au, and property portals, as well as residential, commercial, and share property websites; mortgage broking offering and property-related data services to the financial sector; and Realtor.com, RealPRO Select, Connections Plus, Listing Toolkit products, RealChoice Selling, and Realtor.com +. In addition, the company publishes and distributes consumer books comprising general fiction, nonfiction, and children and religious publishing through print and digital formats under the Harper, William Morrow, Mariner, HarperCollins Children's Books, Avon, Harlequin and Christian publishers, Zondervan, and Thomas Nelson; provides news and information under the The Australian, The Weekend Australian, The Daily Telegraph and The Sunday Telegraph, Herald Sun, Sunday Herald Sun, The Courier Mail, The Sunday Mail, The Advertiser, and Sunday Mail names; and operates talkSPORT, a sports radio network. News Corporation was founded in 2012 and is headquartered in New York, New York."
+  "longBusinessSummary": "News Corporation, a media and information services company, creates and distributes authoritative and engaging content, and other products and services for consumers and businesses in the United States, Canada, Europe, Australasia, and internationally. It operates through five segments: Dow Jones, Digital Real Estate Services, Book Publishing, News Media, and Other. The company distributes news, data, and business information under The Wall Street Journal, Barron's, MarketWatch, Investor's Business Daily, Dow Jones Risk & Compliance, Dow Jones Energy, Factiva, and Dow Jones Newswires brands through various media channels, including websites, mobile apps, newspapers, newswires, newsletters, magazines, proprietary databases, live journalism, video, and podcasts. It also provides property and property-related services on its websites and mobile apps, such as realestate.com.au, realcommercial.com.au, Flatmates.com.au, and property portals, as well as residential, commercial, and share property websites; mortgage broking offering and property-related data services to the financial sector; and Realtor.com, RealPRO Select, Connections Plus, Listing Toolkit products, RealChoice Selling, and Realtor.com +. In addition, the company publishes and distributes consumer books comprising general fiction, nonfiction, and children and religious publishing through print and digital formats under the Harper, William Morrow, Mariner, HarperCollins Children's Books, Avon, Harlequin and Christian publishers, Zondervan, and Thomas Nelson; provides news and information under the The Australian, The Weekend Australian, The Daily Telegraph and The Sunday Telegraph, Herald Sun, Sunday Herald Sun, The Courier Mail, The Sunday Mail, The Advertiser, and Sunday Mail names; and operates talkSPORT, a sports radio network. News Corporation was founded in 2012 and is headquartered in New York, New York.",
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 21.174557,
+  "forwardEps": 1.51172,
+  "trailingEps": 1.03,
+  "earningsGrowth": -0.749,
+  "revenueGrowth": 0.108
  },
  "governance": {
   "ceo": {
@@ -82,8 +93,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-06-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 15544000000.0,
+    "official": 15544000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 8526000000.0,
+    "official": 8526000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 573000000.0,
+    "official": 573000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 9028000000.0,
+    "official": 9028000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:51:39+00:00",
  "years": [
   {
    "fy_end": "2020-06-30",
@@ -188,7 +230,10 @@
    "goodwill_and_intangibles": 7629000000.0,
    "retained_earnings": -2144000000.0,
    "total_debt": 2967000000.0,
-   "shares_out": 571959816.0
+   "shares_out": 571959816.0,
+   "unusual_items": -130000000.0,
+   "normalized_ebitda": 1219000000.0,
+   "normalized_income": 268000000.0
   },
   {
    "fy_end": "2024-06-30",
@@ -220,7 +265,10 @@
    "goodwill_and_intangibles": 6284000000.0,
    "retained_earnings": -1889000000.0,
    "total_debt": 2102000000.0,
-   "shares_out": 569093921.0
+   "shares_out": 569093921.0,
+   "unusual_items": -146000000.0,
+   "normalized_ebitda": 1387000000.0,
+   "normalized_income": 385900000.0
   },
   {
    "fy_end": "2025-06-30",
@@ -251,7 +299,10 @@
    "goodwill_and_intangibles": 6303000000.0,
    "retained_earnings": -747000000.0,
    "total_debt": 1962000000.0,
-   "shares_out": 565385686.0
+   "shares_out": 565385686.0,
+   "unusual_items": -24000000.0,
+   "normalized_ebitda": 1439000000.0,
+   "normalized_income": 504800000.0
   },
   {
    "fy_end": "2026-06-30",
@@ -282,7 +333,10 @@
    "goodwill_and_intangibles": 6379000000.0,
    "retained_earnings": -312000000.0,
    "total_debt": 1989000000.0,
-   "shares_out": 543331412.0
+   "shares_out": 543331412.0,
+   "unusual_items": -133000000.0,
+   "normalized_ebitda": 1760000000.0,
+   "normalized_income": 667563000.0
   }
  ]
 }

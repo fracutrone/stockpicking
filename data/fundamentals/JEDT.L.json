@@ -1,6 +1,6 @@
 {
  "ticker": "JEDT.L",
- "fetched_at": "2026-10-10T12:04:38+00:00",
+ "fetched_at": "2026-10-10T14:59:25+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -49,8 +60,15 @@
   "equity": "yahoo",
   "receivables": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T14:59:25+00:00",
  "years": [
   {
    "fy_end": "2023-03-31",
@@ -70,7 +88,8 @@
    "equity": 785062000.0,
    "receivables": 16100000.0,
    "total_debt": 109836000.0,
-   "shares_out": 157474931.0
+   "shares_out": 157474931.0,
+   "normalized_income": -33852000.0
   },
   {
    "fy_end": "2024-03-31",
@@ -90,7 +109,8 @@
    "equity": 769046000.0,
    "receivables": 6815000.0,
    "total_debt": 73064000.0,
-   "shares_out": 147692459.0
+   "shares_out": 147692459.0,
+   "normalized_income": 39580000.0
   },
   {
    "fy_end": "2025-03-31",
@@ -110,7 +130,8 @@
    "equity": 586250000.0,
    "receivables": 7728000.0,
    "total_debt": 58581000.0,
-   "shares_out": 111872243.0
+   "shares_out": 111872243.0,
+   "normalized_income": 6543000.0
   },
   {
    "fy_end": "2026-03-31",
@@ -128,7 +149,8 @@
    "cash": 779000.0,
    "equity": 584149000.0,
    "receivables": 8412000.0,
-   "shares_out": 92414031.0
+   "shares_out": 92414031.0,
+   "normalized_income": 112129000.0
   }
  ]
 }

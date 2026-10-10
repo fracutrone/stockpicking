@@ -1,6 +1,6 @@
 {
  "ticker": "SKYD",
- "fetched_at": "2026-10-10T12:58:04+00:00",
+ "fetched_at": "2026-10-10T15:55:40+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 17600,
   "website": "https://www.skydance.com",
-  "longBusinessSummary": "Skydance Corporation operates as a media and entertainment company worldwide. It operates in three segments: Studios, Direct-to-Consumer, and TV Media. The company operates CBS Television Network, a domestic broadcast television network; CBS Stations, a television station; international free-to-air networks comprising Network 10, Channel 5, Telefe, and Chilevisión; and domestic premium and basic cable networks, such as Nickelodeon, MTV, CMT, Comedy Central, BET, Paramount+ with SHOWTIME, Paramount Network, The Smithsonian Channel, BET Media Group, CBS Sports Network, and international extensions of these brands. It also provides domestic and international television studio operations, including CBS Studios, Paramount Television Studios, and Showtime; CBS Media Ventures, which produces and distributes first-run syndicated programming; and digital properties consist of CBS News and CBS Sports HQ. In addition, the company offers a portfolio of domestic and international pay and free streaming services, including Paramount+, Pluto TV, and BET+. Further, it produces and acquires films, series, and short-form content for release and licensing worldwide, including in theaters, on streaming services, on television, through home entertainment, and DVDs, Blu-ray; and operates a portfolio consisting of Paramount Pictures, Paramount Players, Paramount Animation, Nickelodeon Studio, and Miramax. It provides production, distribution, and advertising solutions. The company was formerly known as Paramount Skydance Corporation and changed its name to Skydance Corporation in October 2026. The company was founded in 1914 and is headquartered in New York, New York."
+  "longBusinessSummary": "Skydance Corporation operates as a media and entertainment company worldwide. It operates in three segments: Studios, Direct-to-Consumer, and TV Media. The company operates CBS Television Network, a domestic broadcast television network; CBS Stations, a television station; international free-to-air networks comprising Network 10, Channel 5, Telefe, and Chilevisión; and domestic premium and basic cable networks, such as Nickelodeon, MTV, CMT, Comedy Central, BET, Paramount+ with SHOWTIME, Paramount Network, The Smithsonian Channel, BET Media Group, CBS Sports Network, and international extensions of these brands. It also provides domestic and international television studio operations, including CBS Studios, Paramount Television Studios, and Showtime; CBS Media Ventures, which produces and distributes first-run syndicated programming; and digital properties consist of CBS News and CBS Sports HQ. In addition, the company offers a portfolio of domestic and international pay and free streaming services, including Paramount+, Pluto TV, and BET+. Further, it produces and acquires films, series, and short-form content for release and licensing worldwide, including in theaters, on streaming services, on television, through home entertainment, and DVDs, Blu-ray; and operates a portfolio consisting of Paramount Pictures, Paramount Players, Paramount Animation, Nickelodeon Studio, and Miramax. It provides production, distribution, and advertising solutions. The company was formerly known as Paramount Skydance Corporation and changed its name to Skydance Corporation in October 2026. The company was founded in 1914 and is headquartered in New York, New York.",
+  "targetMeanPrice": 9.73438,
+  "targetLowPrice": 2.0,
+  "targetHighPrice": 16.0,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.45455,
+  "forwardPE": 15.266665,
+  "forwardEps": 0.6,
+  "trailingEps": -0.02,
+  "earningsGrowth": -0.541,
+  "revenueGrowth": 0.009
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,29 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 43342000000.0,
+    "official": 43342000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 11693000000.0,
+    "official": 11693000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:55:40+00:00",
  "years": [
   {
    "fy_end": "2021-12-31",
@@ -104,7 +136,10 @@
    "noninterest_expense": 6788000000.0,
    "shares_diluted": 655000000.0,
    "cfo": 953000000.0,
-   "capex": 354000000.0
+   "capex": 354000000.0,
+   "unusual_items": 2136000000.0,
+   "normalized_ebitda": 4446000000.0,
+   "normalized_income": 2510051094.890511
   },
   {
    "fy_end": "2022-12-31",
@@ -137,7 +172,10 @@
    "goodwill_and_intangibles": 19193000000.0,
    "retained_earnings": 14737000000.0,
    "total_debt": 17274000000.0,
-   "shares_out": 649704664.0
+   "shares_out": 649704664.0,
+   "unusual_items": -743000000.0,
+   "normalized_ebitda": 3318000000.0,
+   "normalized_income": 1334776461.295419
   },
   {
    "fy_end": "2023-12-31",
@@ -171,7 +209,10 @@
    "goodwill_and_intangibles": 19105000000.0,
    "retained_earnings": 13829000000.0,
    "total_debt": 15858000000.0,
-   "shares_out": 652702875.0
+   "shares_out": 652702875.0,
+   "unusual_items": 79000000.0,
+   "normalized_ebitda": 6000000.0,
+   "normalized_income": -1340248000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -205,7 +246,10 @@
    "goodwill_and_intangibles": 12914000000.0,
    "retained_earnings": 7487000000.0,
    "total_debt": 15549000000.0,
-   "shares_out": 670702683.0
+   "shares_out": 670702683.0,
+   "unusual_items": -6941000000.0,
+   "normalized_ebitda": 2016000000.0,
+   "normalized_income": 394276185.850737
   }
  ]
 }

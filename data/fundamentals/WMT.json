@@ -1,6 +1,6 @@
 {
  "ticker": "WMT",
- "fetched_at": "2026-10-10T13:02:34+00:00",
+ "fetched_at": "2026-10-10T15:59:57+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 2100000,
   "website": "https://www.stock.walmart.com",
-  "longBusinessSummary": "Walmart Inc. engages in the operation of retail and wholesale stores and clubs, ecommerce websites, and mobile applications worldwide. The company operates through three segments: Walmart U.S., Walmart International, and Sam's Club U.S. It operates supercenters, supermarkets, warehouse clubs, cash and carry stores, and discount stores under Walmart and Walmart Neighborhood Market brands; membership-only warehouse clubs; and ecommerce websites, such as walmart.com.mx, walmart.ca, flipkart.com, PhonePe and other sites. It offers grocery items, including dry grocery, snacks, dairy, meat, produce, deli and bakery, frozen foods, alcoholic and nonalcoholic beverages, as well as consumables, such as health and beauty aids, pet supplies, household chemicals, paper goods, and baby products; and fuel and other categories. In addition, it is involved in the provision of health and wellness products covering pharmacy, optical and hearing services, over-the-counter drugs, and protein and nutrition products; and home, hardlines, and seasonal items, including home improvement, outdoor living, gardening, furniture, apparel, jewelry, tools and power equipment, housewares, toys, and mattresses. Further, the company offers consumer electronics and accessories, software, video games, office supplies, appliances, and third-party gift cards. Additionally, it operates digital payment platforms; offers financial services and related products, including money transfers, bill payments, money orders, check cashing, prepaid access, co-branded credit cards, installment lending, and earned wage access; and markets lines of merchandise under private and licensed brands. The company was formerly known as Wal-Mart Stores, Inc. and changed its name to Walmart Inc. in February 2018. Walmart Inc. was founded in 1945 and is based in Bentonville, Arkansas."
+  "longBusinessSummary": "Walmart Inc. engages in the operation of retail and wholesale stores and clubs, ecommerce websites, and mobile applications worldwide. The company operates through three segments: Walmart U.S., Walmart International, and Sam's Club U.S. It operates supercenters, supermarkets, warehouse clubs, cash and carry stores, and discount stores under Walmart and Walmart Neighborhood Market brands; membership-only warehouse clubs; and ecommerce websites, such as walmart.com.mx, walmart.ca, flipkart.com, PhonePe and other sites. It offers grocery items, including dry grocery, snacks, dairy, meat, produce, deli and bakery, frozen foods, alcoholic and nonalcoholic beverages, as well as consumables, such as health and beauty aids, pet supplies, household chemicals, paper goods, and baby products; and fuel and other categories. In addition, it is involved in the provision of health and wellness products covering pharmacy, optical and hearing services, over-the-counter drugs, and protein and nutrition products; and home, hardlines, and seasonal items, including home improvement, outdoor living, gardening, furniture, apparel, jewelry, tools and power equipment, housewares, toys, and mattresses. Further, the company offers consumer electronics and accessories, software, video games, office supplies, appliances, and third-party gift cards. Additionally, it operates digital payment platforms; offers financial services and related products, including money transfers, bill payments, money orders, check cashing, prepaid access, co-branded credit cards, installment lending, and earned wage access; and markets lines of merchandise under private and licensed brands. The company was formerly known as Wal-Mart Stores, Inc. and changed its name to Walmart Inc. in February 2018. Walmart Inc. was founded in 1945 and is based in Bentonville, Arkansas.",
+  "targetMeanPrice": 126.775,
+  "targetLowPrice": 81.0,
+  "targetHighPrice": 155.0,
+  "numberOfAnalystOpinions": 40,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.53488,
+  "forwardPE": 34.54277,
+  "forwardEps": 3.22354,
+  "trailingEps": 2.78,
+  "earningsGrowth": -0.091,
+  "revenueGrowth": 0.059
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-01-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 284668000000.0,
+    "official": 284668000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 99617000000.0,
+    "official": 99617000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 21893000000.0,
+    "official": 21893000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 713163000000.0,
+    "official": 713163000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:59:57+00:00",
  "years": [
   {
    "fy_end": "2020-01-31",
@@ -162,7 +204,8 @@
    "ppe_net": 94515000000.0,
    "goodwill": 29014000000.0,
    "retained_earnings": 86904000000.0,
-   "total_debt": 38077000000.0
+   "total_debt": 38077000000.0,
+   "unusual_items": -2410000000.0
   },
   {
    "fy_end": "2023-01-31",
@@ -195,7 +238,10 @@
    "goodwill_and_intangibles": 28174000000.0,
    "retained_earnings": 83135000000.0,
    "total_debt": 39212000000.0,
-   "shares_out": 8100000000.0
+   "shares_out": 8100000000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 30089000000.0,
+   "normalized_income": 11680000000.0
   },
   {
    "fy_end": "2024-01-31",
@@ -228,7 +274,10 @@
    "goodwill_and_intangibles": 28113000000.0,
    "retained_earnings": 89814000000.0,
    "total_debt": 40457000000.0,
-   "shares_out": 8054000001.0
+   "shares_out": 8054000001.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 36384000000.0,
+   "normalized_income": 15511000000.0
   },
   {
    "fy_end": "2025-01-31",
@@ -261,7 +310,9 @@
    "goodwill_and_intangibles": 28792000000.0,
    "retained_earnings": 98313000000.0,
    "total_debt": 39067000000.0,
-   "shares_out": 8024000000.0
+   "shares_out": 8024000000.0,
+   "normalized_ebitda": 42010000000.0,
+   "normalized_income": 19436000000.0
   },
   {
    "fy_end": "2026-01-31",
@@ -294,7 +345,9 @@
    "goodwill_and_intangibles": 28735000000.0,
    "retained_earnings": 104774000000.0,
    "total_debt": 44762000000.0,
-   "shares_out": 7969000000.0
+   "shares_out": 7969000000.0,
+   "normalized_ebitda": 46471000000.0,
+   "normalized_income": 21893000000.0
   }
  ]
 }

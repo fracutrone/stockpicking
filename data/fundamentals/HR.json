@@ -1,6 +1,6 @@
 {
  "ticker": "HR",
- "fetched_at": "2026-10-10T12:48:03+00:00",
+ "fetched_at": "2026-10-10T15:46:28+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 539,
   "website": "https://www.healthcarerealty.com",
-  "longBusinessSummary": "Healthcare Realty Trust Incorporated is a real estate investment trust (REIT) that owns and operates medical outpatient buildings primarily located around market-leading hospital campuses. The Company selectively grows its portfolio through property acquisition and development. As of September 30, 2025, the Company was invested in 579 real estate properties in 28 states totaling 33.6 million square feet and had an enterprise value of approximately 11.1 billion dollars, defined as equity market capitalization plus the principal amount of debt less cash. Healthcare Realty Trust Incorporated was incorporated in 1992 and is based in Nashville, United States."
+  "longBusinessSummary": "Healthcare Realty Trust Incorporated is a real estate investment trust (REIT) that owns and operates medical outpatient buildings primarily located around market-leading hospital campuses. The Company selectively grows its portfolio through property acquisition and development. As of September 30, 2025, the Company was invested in 579 real estate properties in 28 states totaling 33.6 million square feet and had an enterprise value of approximately 11.1 billion dollars, defined as equity market capitalization plus the principal amount of debt less cash. Healthcare Realty Trust Incorporated was incorporated in 1992 and is based in Nashville, United States.",
+  "targetMeanPrice": 21.41667,
+  "targetLowPrice": 18.0,
+  "targetHighPrice": 24.0,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.53846,
+  "forwardPE": 381.11108,
+  "forwardEps": 0.045,
+  "trailingEps": -0.26,
+  "earningsGrowth": null,
+  "revenueGrowth": -0.043
  },
  "governance": {
   "ceo": {
@@ -82,8 +93,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 9210861000.0,
+    "official": 9210861000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4616893000.0,
+    "official": 4616893000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -246071000.0,
+    "official": -246071000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1152331000.0,
+    "official": 1180546000.0,
+    "diff": 0.0239
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:46:28+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -158,7 +200,10 @@
    "goodwill_and_intangibles": 305042000.0,
    "retained_earnings": 1307055000.0,
    "total_debt": 5351827000.0,
-   "shares_out": 380589894.0
+   "shares_out": 380589894.0,
+   "unusual_items": 106834000.0,
+   "normalized_ebitda": 559873000.0,
+   "normalized_income": -43501860.0
   },
   {
    "fy_end": "2023-12-31",
@@ -190,7 +235,10 @@
    "goodwill_and_intangibles": 318261000.0,
    "retained_earnings": 1028794000.0,
    "total_debt": 4994859000.0,
-   "shares_out": 380964000.0
+   "shares_out": 380964000.0,
+   "unusual_items": -77378000.0,
+   "normalized_ebitda": 829769000.0,
+   "normalized_income": -200883000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -222,7 +270,10 @@
    "goodwill_and_intangibles": 33241000.0,
    "retained_earnings": 374309000.0,
    "total_debt": 4662771000.0,
-   "shares_out": 350532006.0
+   "shares_out": 350532006.0,
+   "unusual_items": -458465000.0,
+   "normalized_ebitda": 754012000.0,
+   "normalized_income": -196020000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -253,7 +304,10 @@
    "goodwill_and_intangibles": 20421000.0,
    "retained_earnings": 128238000.0,
    "total_debt": 3911423000.0,
-   "shares_out": 351603138.0
+   "shares_out": 351603138.0,
+   "unusual_items": -132169000.0,
+   "normalized_ebitda": 701155000.0,
+   "normalized_income": -113902000.0
   }
  ]
 }

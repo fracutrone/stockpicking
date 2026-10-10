@@ -1,6 +1,6 @@
 {
  "ticker": "NN.AS",
- "fetched_at": "2026-10-10T12:11:12+00:00",
+ "fetched_at": "2026-10-10T15:08:34+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "AMS",
   "fullTimeEmployees": 13393,
   "website": "https://www.nn-group.com",
-  "longBusinessSummary": "NN Group N.V., a financial services company, provides life and non-life insurance products in the Netherlands and internationally. It operates through the Netherlands Life, the Netherlands Non-Life, Insurance Europe, Japan Life, and NN Bank segments. The company provides insured defined benefit, defined contribution, pensions under the Nationale-Nederlanden brand name; premium pension institution services under the BeFrank brand name; and general pension fund administration and advisory services under AZL brand name, as well as non-life insurance products, including motor, fire, liability, transport, travel, health, and disability and accident insurance products. It also provides long-term protection to cover a variety of risks including disability, critical illness and health; and protection, savings and retirement solutions. In addition, the company offers financial services, such as savings, investments, bancassurance and mortgages under the Woonnu brand name. The company offers its products to individuals, small and medium-sized enterprises, and corporate customers directly through tied agents, advisors, brokers, and direct channels. The company was formerly known as ING Insurance Topholding N.V. and changed its name to NN Group N.V. in March 2014. NN Group N.V. was founded in 1845 and is headquartered in The Hague, the Netherlands."
+  "longBusinessSummary": "NN Group N.V., a financial services company, provides life and non-life insurance products in the Netherlands and internationally. It operates through the Netherlands Life, the Netherlands Non-Life, Insurance Europe, Japan Life, and NN Bank segments. The company provides insured defined benefit, defined contribution, pensions under the Nationale-Nederlanden brand name; premium pension institution services under the BeFrank brand name; and general pension fund administration and advisory services under AZL brand name, as well as non-life insurance products, including motor, fire, liability, transport, travel, health, and disability and accident insurance products. It also provides long-term protection to cover a variety of risks including disability, critical illness and health; and protection, savings and retirement solutions. In addition, the company offers financial services, such as savings, investments, bancassurance and mortgages under the Woonnu brand name. The company offers its products to individuals, small and medium-sized enterprises, and corporate customers directly through tied agents, advisors, brokers, and direct channels. The company was formerly known as ING Insurance Topholding N.V. and changed its name to NN Group N.V. in March 2014. NN Group N.V. was founded in 1845 and is headquartered in The Hague, the Netherlands.",
+  "targetMeanPrice": 82.42231,
+  "targetLowPrice": 72.0,
+  "targetHighPrice": 97.5,
+  "numberOfAnalystOpinions": 13,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.30769,
+  "forwardPE": 8.48292,
+  "forwardEps": 8.88845,
+  "trailingEps": 6.78,
+  "earningsGrowth": 1.997,
+  "revenueGrowth": -0.045
  },
  "governance": {
   "ceo": {
@@ -69,8 +80,34 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF NL",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 204912000000.0,
+    "official": 204912000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 21062000000.0,
+    "official": 19078000000.0,
+    "diff": 0.103994
+   },
+   "net_income": {
+    "yahoo": 1188000000.0,
+    "official": 1188000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:08:34+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -97,7 +134,9 @@
    "goodwill_and_intangibles": 1280000000.0,
    "retained_earnings": 5877000000.0,
    "total_debt": 15401000000.0,
-   "shares_out": 281391616.0
+   "shares_out": 281391616.0,
+   "unusual_items": -78000000.0,
+   "normalized_income": 610052000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -120,7 +159,9 @@
    "intangibles": 378000000.0,
    "goodwill_and_intangibles": 1270000000.0,
    "total_debt": 14100000000.0,
-   "shares_out": 273861500.0
+   "shares_out": 273861500.0,
+   "unusual_items": -462000000.0,
+   "normalized_income": 1529054830.287206
   },
   {
    "fy_end": "2024-12-31",
@@ -141,7 +182,9 @@
    "intangibles": 1229000000.0,
    "goodwill_and_intangibles": 1229000000.0,
    "total_debt": 11529000000.0,
-   "shares_out": 267425797.0
+   "shares_out": 267425797.0,
+   "unusual_items": -89000000.0,
+   "normalized_income": 1572242768.595041
   },
   {
    "fy_end": "2025-12-31",
@@ -164,7 +207,9 @@
    "intangibles": 314000000.0,
    "goodwill_and_intangibles": 1189000000.0,
    "total_debt": 13689000000.0,
-   "shares_out": 262188873.0
+   "shares_out": 262188873.0,
+   "unusual_items": -123000000.0,
+   "normalized_income": 1285568588.469185
   }
  ]
 }

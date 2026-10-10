@@ -1,6 +1,6 @@
 {
  "ticker": "DEMANT.CO",
- "fetched_at": "2026-10-10T11:53:56+00:00",
+ "fetched_at": "2026-10-10T14:42:12+00:00",
  "region": "Europa",
  "statement_currency": "DKK",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.60003,
   "heldPercentInstitutions": 0.18048,
   "shortPercentOfFloat": null,
-  "averageVolume": 283467,
+  "averageVolume": 289561,
   "quoteType": "EQUITY",
   "exchange": "CPH",
   "fullTimeEmployees": 26616,
   "website": "https://www.demant.com",
-  "longBusinessSummary": "Demant A/S operates as a hearing healthcare company in Europe, North America, Asia, Pacific region, and internationally. It engages in the development, manufacture, and wholesale of hearing aids; owning and operating hearing care clinics; and offers hearing and balance assessment solutions used by audiologists, ENT doctors, and balance clinics. The company was formerly known as William Demant Holding A/S and changed its name to Demant A/S in March 2019. Demant A/S was founded in 1904 and is headquartered in Smørum, Denmark."
+  "longBusinessSummary": "Demant A/S operates as a hearing healthcare company in Europe, North America, Asia, Pacific region, and internationally. It engages in the development, manufacture, and wholesale of hearing aids; owning and operating hearing care clinics; and offers hearing and balance assessment solutions used by audiologists, ENT doctors, and balance clinics. The company was formerly known as William Demant Holding A/S and changed its name to Demant A/S in March 2019. Demant A/S was founded in 1904 and is headquartered in Smørum, Denmark.",
+  "targetMeanPrice": 315.7,
+  "targetLowPrice": 220.0,
+  "targetHighPrice": 399.0,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.15,
+  "forwardPE": 21.182756,
+  "forwardEps": 16.10744,
+  "trailingEps": 11.48,
+  "earningsGrowth": 0.064,
+  "revenueGrowth": 0.148
  },
  "governance": {
   "ceo": {
@@ -70,8 +81,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF DK",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 39074000000.0,
+    "official": 39074000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 9842000000.0,
+    "official": 9842000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1545000000.0,
+    "official": 1545000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 22971000000.0,
+    "official": 22971000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:42:12+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -105,7 +148,9 @@
    "goodwill_and_intangibles": 12582000000.0,
    "retained_earnings": 8371000000.0,
    "total_debt": 15076000000.0,
-   "shares_out": 223184957.0
+   "shares_out": 223184957.0,
+   "normalized_ebitda": 4294000000.0,
+   "normalized_income": 2274000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -139,7 +184,10 @@
    "goodwill_and_intangibles": 13540000000.0,
    "retained_earnings": 9292000000.0,
    "total_debt": 14454000000.0,
-   "shares_out": 220552501.0
+   "shares_out": 220552501.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 5569000000.0,
+   "normalized_income": 2820000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -173,7 +221,10 @@
    "goodwill_and_intangibles": 15066000000.0,
    "retained_earnings": 9410000000.0,
    "total_debt": 15681000000.0,
-   "shares_out": 213014319.0
+   "shares_out": 213014319.0,
+   "unusual_items": 124000000.0,
+   "normalized_ebitda": 5679000000.0,
+   "normalized_income": 2794528000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -205,7 +256,10 @@
    "intangibles": 1345000000.0,
    "goodwill_and_intangibles": 20379000000.0,
    "total_debt": 20988000000.0,
-   "shares_out": 210898609.0
+   "shares_out": 210898609.0,
+   "unusual_items": -128000000.0,
+   "normalized_ebitda": 5301000000.0,
+   "normalized_income": 2465664000.0
   }
  ]
 }

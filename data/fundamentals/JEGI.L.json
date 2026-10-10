@@ -1,6 +1,6 @@
 {
  "ticker": "JEGI.L",
- "fetched_at": "2026-10-10T12:04:42+00:00",
+ "fetched_at": "2026-10-10T14:59:28+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -49,8 +60,15 @@
   "equity": "yahoo",
   "receivables": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T14:59:28+00:00",
  "years": [
   {
    "fy_end": "2023-03-31",
@@ -70,7 +88,8 @@
    "equity": 455246000.0,
    "receivables": 4782000.0,
    "total_debt": 43779000.0,
-   "shares_out": 434437846.0
+   "shares_out": 434437846.0,
+   "normalized_income": 40598000.0
   },
   {
    "fy_end": "2024-03-31",
@@ -90,7 +109,8 @@
    "equity": 510691000.0,
    "receivables": 5541000.0,
    "total_debt": 42608000.0,
-   "shares_out": 429169449.0
+   "shares_out": 429169449.0,
+   "normalized_income": 73977000.0
   },
   {
    "fy_end": "2025-03-31",
@@ -110,7 +130,8 @@
    "equity": 498579000.0,
    "receivables": 5254000.0,
    "total_debt": 41720000.0,
-   "shares_out": 422016188.0
+   "shares_out": 422016188.0,
+   "normalized_income": 15017000.0
   },
   {
    "fy_end": "2026-03-31",
@@ -130,7 +151,8 @@
    "equity": 570862000.0,
    "receivables": 4607000.0,
    "total_debt": 43563000.0,
-   "shares_out": 422366188.0
+   "shares_out": 422366188.0,
+   "normalized_income": 97882000.0
   }
  ]
 }

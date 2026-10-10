@@ -1,6 +1,6 @@
 {
  "ticker": "UGI",
- "fetched_at": "2026-10-10T13:00:45+00:00",
+ "fetched_at": "2026-10-10T15:58:19+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 9400,
   "website": "https://www.ugicorp.com",
-  "longBusinessSummary": "UGI Corporation, together with its subsidiaries, engages in the distribution, storage, transportation, and marketing of energy products and related services in the United States and internationally. The company operates through four segments: Utilities, Midstream & Marketing, UGI International, and AmeriGas Propane. It distributes approximately 801 million gallons of propane to residential, commercial/industrial, motor fuel, agricultural, and wholesale customers. The company distributes liquefied petroleum gases (LPG) to residential, commercial, industrial, agricultural, wholesale and automobile fuel customers; and provides logistics, storage, and other services to third-party LPG distributors. In addition, it engages in the retail sale of natural gas, liquid fuels, and electricity to approximately 10,800 residential, commercial, and industrial customers. Further, the company distributes natural gas to approximately 694,000 customers in eastern and central Pennsylvania counties through its distribution system of approximately 12,700 miles of gas mains; and supplies electricity to approximately 62,900 customers in northeastern Pennsylvania through 2,700 miles of lines and 14 substations. Additionally, it operates electric generation facilities; natural gas liquefaction, storage, and vaporization facility; propane storage and propane-air mixing stations; and rail transshipment terminals. It manages natural gas pipeline and storage contracts; develops, owns, and operates pipelines, gathering infrastructure, and gas storage facilities. UGI Corporation was incorporated in 1882 and is headquartered in King of Prussia, Pennsylvania."
+  "longBusinessSummary": "UGI Corporation, together with its subsidiaries, engages in the distribution, storage, transportation, and marketing of energy products and related services in the United States and internationally. The company operates through four segments: Utilities, Midstream & Marketing, UGI International, and AmeriGas Propane. It distributes approximately 801 million gallons of propane to residential, commercial/industrial, motor fuel, agricultural, and wholesale customers. The company distributes liquefied petroleum gases (LPG) to residential, commercial, industrial, agricultural, wholesale and automobile fuel customers; and provides logistics, storage, and other services to third-party LPG distributors. In addition, it engages in the retail sale of natural gas, liquid fuels, and electricity to approximately 10,800 residential, commercial, and industrial customers. Further, the company distributes natural gas to approximately 694,000 customers in eastern and central Pennsylvania counties through its distribution system of approximately 12,700 miles of gas mains; and supplies electricity to approximately 62,900 customers in northeastern Pennsylvania through 2,700 miles of lines and 14 substations. Additionally, it operates electric generation facilities; natural gas liquefaction, storage, and vaporization facility; propane storage and propane-air mixing stations; and rail transshipment terminals. It manages natural gas pipeline and storage contracts; develops, owns, and operates pipelines, gathering infrastructure, and gas storage facilities. UGI Corporation was incorporated in 1882 and is headquartered in King of Prussia, Pennsylvania.",
+  "targetMeanPrice": 43.25,
+  "targetLowPrice": 42.0,
+  "targetHighPrice": 46.0,
+  "numberOfAnalystOpinions": 4,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.25,
+  "forwardPE": 11.52795,
+  "forwardEps": 3.22,
+  "trailingEps": 3.01,
+  "earningsGrowth": null,
+  "revenueGrowth": -0.045
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-09-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 15462000000.0,
+    "official": 15462000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4777000000.0,
+    "official": 4777000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 678000000.0,
+    "official": 678000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 7287000000.0,
+    "official": 7287000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:58:19+00:00",
  "years": [
   {
    "fy_end": "2019-09-30",
@@ -197,7 +239,10 @@
    "goodwill_and_intangibles": 4112000000.0,
    "retained_earnings": 4841000000.0,
    "total_debt": 6632000000.0,
-   "shares_out": 209582212.0
+   "shares_out": 209582212.0,
+   "unusual_items": 87000000.0,
+   "normalized_ebitda": 2147000000.0,
+   "normalized_income": 1005662000.0
   },
   {
    "fy_end": "2023-09-30",
@@ -231,7 +276,10 @@
    "goodwill_and_intangibles": 3470000000.0,
    "retained_earnings": 3027000000.0,
    "total_debt": 6600000000.0,
-   "shares_out": 209495083.0
+   "shares_out": 209495083.0,
+   "unusual_items": -834000000.0,
+   "normalized_ebitda": -92000000.0,
+   "normalized_income": -819788000.0
   },
   {
    "fy_end": "2024-09-30",
@@ -265,7 +313,10 @@
    "goodwill_and_intangibles": 3262000000.0,
    "retained_earnings": 2978000000.0,
    "total_debt": 6678000000.0,
-   "shares_out": 214685612.0
+   "shares_out": 214685612.0,
+   "unusual_items": -289000000.0,
+   "normalized_ebitda": 1574000000.0,
+   "normalized_income": 497599000.0
   },
   {
    "fy_end": "2025-09-30",
@@ -299,7 +350,10 @@
    "goodwill_and_intangibles": 3180000000.0,
    "retained_earnings": 3334000000.0,
    "total_debt": 6648000000.0,
-   "shares_out": 214476045.0
+   "shares_out": 214476045.0,
+   "unusual_items": -23000000.0,
+   "normalized_ebitda": 1691000000.0,
+   "normalized_income": 700402000.0
   }
  ]
 }

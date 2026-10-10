@@ -1,6 +1,6 @@
 {
  "ticker": "PINS",
- "fetched_at": "2026-10-10T12:55:28+00:00",
+ "fetched_at": "2026-10-10T15:53:11+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 5116,
   "website": "https://www.pinterest.com",
-  "longBusinessSummary": "Pinterest, Inc. operates as a visual search and discovery platform in the United States, Canada, Europe, and internationally. The company's platform allows people to find ideas, such as recipes, home and style inspiration, and others; and to search, save, and shop the ideas. It also provides various advertising products to help advertisers meet users; and ad auction that allows to serve ads to users at relevant moments while optimizing business outcomes for advertisers. The company was formerly known as Cold Brew Labs Inc. and changed its name to Pinterest, Inc. in April 2012. Pinterest, Inc. was incorporated in 2008 and is headquartered in San Francisco, California."
+  "longBusinessSummary": "Pinterest, Inc. operates as a visual search and discovery platform in the United States, Canada, Europe, and internationally. The company's platform allows people to find ideas, such as recipes, home and style inspiration, and others; and to search, save, and shop the ideas. It also provides various advertising products to help advertisers meet users; and ad auction that allows to serve ads to users at relevant moments while optimizing business outcomes for advertisers. The company was formerly known as Cold Brew Labs Inc. and changed its name to Pinterest, Inc. in April 2012. Pinterest, Inc. was incorporated in 2008 and is headquartered in San Francisco, California.",
+  "targetMeanPrice": 29.05029,
+  "targetLowPrice": 22.0,
+  "targetHighPrice": 42.36,
+  "numberOfAnalystOpinions": 35,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.05263,
+  "forwardPE": 8.909243,
+  "forwardEps": 2.402,
+  "trailingEps": 0.34,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.182
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,38 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 5492132000.0,
+    "official": 5492132000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4745238000.0,
+    "official": 4745238000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 416855000.0,
+    "official": 416855000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 4221767000.0,
+    "official": 4221767000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:53:11+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -189,7 +230,9 @@
    "goodwill_and_intangibles": 124822000.0,
    "retained_earnings": -2114658000.0,
    "total_debt": 228968000.0,
-   "shares_out": 683202000.0
+   "shares_out": 683202000.0,
+   "normalized_ebitda": -55188000.0,
+   "normalized_income": -96047000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -222,7 +265,9 @@
    "goodwill_and_intangibles": 117462000.0,
    "retained_earnings": -2150268000.0,
    "total_debt": 196282000.0,
-   "shares_out": 678018000.0
+   "shares_out": 678018000.0,
+   "normalized_ebitda": -104169000.0,
+   "normalized_income": -35610000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -255,7 +300,9 @@
    "goodwill_and_intangibles": 110103000.0,
    "retained_earnings": -288162000.0,
    "total_debt": 185789000.0,
-   "shares_out": 675933000.0
+   "shares_out": 675933000.0,
+   "normalized_ebitda": 201083000.0,
+   "normalized_income": 1862106000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -288,7 +335,9 @@
    "goodwill_and_intangibles": 106310000.0,
    "retained_earnings": 128693000.0,
    "total_debt": 262018000.0,
-   "shares_out": 664546000.0
+   "shares_out": 664546000.0,
+   "normalized_ebitda": 345034000.0,
+   "normalized_income": 416855000.0
   }
  ]
 }

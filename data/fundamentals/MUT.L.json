@@ -1,6 +1,6 @@
 {
  "ticker": "MUT.L",
- "fetched_at": "2026-10-10T12:10:15+00:00",
+ "fetched_at": "2026-10-10T15:06:51+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -49,8 +60,15 @@
   "equity": "yahoo",
   "receivables": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T15:06:51+00:00",
  "years": [
   {
    "fy_end": "2023-06-30",
@@ -70,7 +88,8 @@
    "equity": 999184000.0,
    "receivables": 3080000.0,
    "total_debt": 115519000.0,
-   "shares_out": 111720001.0
+   "shares_out": 111720001.0,
+   "normalized_income": 73486000.0
   },
   {
    "fy_end": "2024-06-30",
@@ -90,7 +109,8 @@
    "equity": 990282000.0,
    "receivables": 7258000.0,
    "total_debt": 113856000.0,
-   "shares_out": 104685001.0
+   "shares_out": 104685001.0,
+   "normalized_income": 94779000.0
   },
   {
    "fy_end": "2025-06-30",
@@ -110,7 +130,8 @@
    "equity": 916738000.0,
    "receivables": 6957000.0,
    "total_debt": 112147000.0,
-   "shares_out": 97912184.0
+   "shares_out": 97912184.0,
+   "normalized_income": 22880000.0
   },
   {
    "fy_end": "2026-06-30",
@@ -130,7 +151,8 @@
    "equity": 969210000.0,
    "receivables": 4392000.0,
    "total_debt": 104439000.0,
-   "shares_out": 93313684.0
+   "shares_out": 93313684.0,
+   "normalized_income": 132650000.0
   }
  ]
 }

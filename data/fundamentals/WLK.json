@@ -1,6 +1,6 @@
 {
  "ticker": "WLK",
- "fetched_at": "2026-10-10T13:02:24+00:00",
+ "fetched_at": "2026-10-10T15:59:49+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 14600,
   "website": "https://www.westlake.com",
-  "longBusinessSummary": "Westlake Corporation manufactures and markets performance and essential materials, and housing and infrastructure products in the United States, Canada, Germany, China, Mexico, Brazil, France, Italy, and internationally. It operates through two segments, Performance and Essential Materials and The Housing and Infrastructure Products. The Performance and Essential Materials segment offers ethylene, polyethylene, chlor-alkali, chlorinated derivative products, ethylene dichloride, vinyl chloride monomer, polyvinyl chloride (PVC), epoxy specialty resins, and base epoxy resins and intermediaries. The Housing and Infrastructure Products segment provides residential PVC sidings; PVC trim and mouldings; architectural stone veneers; windows; PVC decking; polymer composite and cement roof tiles; PVC pipes and fittings for various water, sewer, electrical, and industrial applications; and PVC compounds for various housing, medical, and automobile products. This segment also offers consumer and commercial products, such as landscape edging; industrial, home, and office matting; marine dock edging; and masonry joint controls. It offers its products to chemical processors; plastics fabricators; small construction contractors; municipalities; and supply warehouses for use in various consumer and industrial markets, including residential construction, flexible and rigid packaging, automotive products, healthcare products, water treatment, wind turbines, and coatings, as well as other durable and non-durable goods. The company was formerly known as Westlake Chemical Corporation and changed its name to Westlake Corporation in February 2022. Westlake Corporation was founded in 1986 and is headquartered in Houston, Texas. Westlake Corporation is a subsidiary of TTWF LP."
+  "longBusinessSummary": "Westlake Corporation manufactures and markets performance and essential materials, and housing and infrastructure products in the United States, Canada, Germany, China, Mexico, Brazil, France, Italy, and internationally. It operates through two segments, Performance and Essential Materials and The Housing and Infrastructure Products. The Performance and Essential Materials segment offers ethylene, polyethylene, chlor-alkali, chlorinated derivative products, ethylene dichloride, vinyl chloride monomer, polyvinyl chloride (PVC), epoxy specialty resins, and base epoxy resins and intermediaries. The Housing and Infrastructure Products segment provides residential PVC sidings; PVC trim and mouldings; architectural stone veneers; windows; PVC decking; polymer composite and cement roof tiles; PVC pipes and fittings for various water, sewer, electrical, and industrial applications; and PVC compounds for various housing, medical, and automobile products. This segment also offers consumer and commercial products, such as landscape edging; industrial, home, and office matting; marine dock edging; and masonry joint controls. It offers its products to chemical processors; plastics fabricators; small construction contractors; municipalities; and supply warehouses for use in various consumer and industrial markets, including residential construction, flexible and rigid packaging, automotive products, healthcare products, water treatment, wind turbines, and coatings, as well as other durable and non-durable goods. The company was formerly known as Westlake Chemical Corporation and changed its name to Westlake Corporation in February 2022. Westlake Corporation was founded in 1986 and is headquartered in Houston, Texas. Westlake Corporation is a subsidiary of TTWF LP.",
+  "targetMeanPrice": 85.625,
+  "targetLowPrice": 67.0,
+  "targetHighPrice": 114.0,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.375,
+  "forwardPE": 21.024529,
+  "forwardEps": 2.96273,
+  "trailingEps": -9.58,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.108
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 19961000000.0,
+    "official": 19961000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 8792000000.0,
+    "official": 8792000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -1508000000.0,
+    "official": -1508000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 11170000000.0,
+    "official": 11170000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:59:49+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -206,7 +248,10 @@
    "goodwill_and_intangibles": 3726000000.0,
    "retained_earnings": 9885000000.0,
    "total_debt": 4879000000.0,
-   "shares_out": 127372729.0
+   "shares_out": 127372729.0,
+   "unusual_items": -33000000.0,
+   "normalized_ebitda": 4212000000.0,
+   "normalized_income": 2272730142.566191
   },
   {
    "fy_end": "2023-12-31",
@@ -240,7 +285,10 @@
    "goodwill_and_intangibles": 3444000000.0,
    "retained_earnings": 10143000000.0,
    "total_debt": 4906000000.0,
-   "shares_out": 128212091.0
+   "shares_out": 128212091.0,
+   "unusual_items": -475000000.0,
+   "normalized_ebitda": 2437000000.0,
+   "normalized_income": 833214285.714286
   },
   {
    "fy_end": "2024-12-31",
@@ -275,7 +323,10 @@
    "goodwill_and_intangibles": 3313000000.0,
    "retained_earnings": 10481000000.0,
    "total_debt": 4562000000.0,
-   "shares_out": 128227014.0
+   "shares_out": 128227014.0,
+   "unusual_items": -91000000.0,
+   "normalized_ebitda": 2302000000.0,
+   "normalized_income": 664790000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -310,7 +361,10 @@
    "goodwill_and_intangibles": 2496000000.0,
    "retained_earnings": 8701000000.0,
    "total_debt": 5584000000.0,
-   "shares_out": 127911148.0
+   "shares_out": 127911148.0,
+   "unusual_items": -1367000000.0,
+   "normalized_ebitda": 1119000000.0,
+   "normalized_income": -248993000.0
   }
  ]
 }

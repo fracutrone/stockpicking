@@ -1,6 +1,6 @@
 {
  "ticker": "MOG-A",
- "fetched_at": "2026-10-10T12:51:47+00:00",
+ "fetched_at": "2026-10-10T15:49:57+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 13500,
   "website": "https://www.moog.com",
-  "longBusinessSummary": "Moog Inc. designs, manufactures, and integrates precision motion and fluid controls and controls systems for original equipment manufacturers and end users in the aerospace, defense, and industrial markets in the United States, Germany, and internationally. The company operates through four segments: Space and Defense, Military Aircraft, Commercial Aircraft, and Industrial. Its Space and Defense segment provides critical defense components and motion-control systems used in defense vehicle platforms, missile systems, naval ships and submarines; high-performance components and systems used for space launch vehicles, satellites and spacecraft vehicles. The Military Aircraft segment designs, manufacture and integrate primary and secondary flight controls, mission-critical actuation systems, and products for various military fixed-wing aircraft and rotorcraft for both original equipment manufacturers and aftermarket customers. The Commercial Aircraft segment designs, manufactures, and integrates flight-critical control systems and products for various commercial aircraft including widebody, narrowbody, business jets and regional jets. The company's Industrial segment provides customized and high-performance motion control components and systems for industrial automation, medical, simulation, and test and energy applications, including precision components used in heavy machinery, medical devices and components, power generation products, as well as simulation platforms for flight training and material testing applications. The company was formerly known as Moog Valve Company. Moog Inc. was incorporated in 1951 and is headquartered in East Aurora, New York."
+  "longBusinessSummary": "Moog Inc. designs, manufactures, and integrates precision motion and fluid controls and controls systems for original equipment manufacturers and end users in the aerospace, defense, and industrial markets in the United States, Germany, and internationally. The company operates through four segments: Space and Defense, Military Aircraft, Commercial Aircraft, and Industrial. Its Space and Defense segment provides critical defense components and motion-control systems used in defense vehicle platforms, missile systems, naval ships and submarines; high-performance components and systems used for space launch vehicles, satellites and spacecraft vehicles. The Military Aircraft segment designs, manufacture and integrate primary and secondary flight controls, mission-critical actuation systems, and products for various military fixed-wing aircraft and rotorcraft for both original equipment manufacturers and aftermarket customers. The Commercial Aircraft segment designs, manufactures, and integrates flight-critical control systems and products for various commercial aircraft including widebody, narrowbody, business jets and regional jets. The company's Industrial segment provides customized and high-performance motion control components and systems for industrial automation, medical, simulation, and test and energy applications, including precision components used in heavy machinery, medical devices and components, power generation products, as well as simulation platforms for flight training and material testing applications. The company was formerly known as Moog Valve Company. Moog Inc. was incorporated in 1951 and is headquartered in East Aurora, New York.",
+  "targetMeanPrice": 444.4,
+  "targetLowPrice": 405.0,
+  "targetHighPrice": 520.0,
+  "numberOfAnalystOpinions": 5,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": 30.227222,
+  "forwardEps": 12.01202,
+  "trailingEps": 11.84,
+  "earningsGrowth": 1.59,
+  "revenueGrowth": 0.152
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-09-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 4426055000.0,
+    "official": 4426055000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1992555000.0,
+    "official": 1992555000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 235028000.0,
+    "official": 235028000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3860624000.0,
+    "official": 3860624000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:49:57+00:00",
  "years": [
   {
    "fy_end": "2019-09-28",
@@ -203,7 +245,10 @@
    "goodwill_and_intangibles": 890730000.0,
    "retained_earnings": 2360055000.0,
    "total_debt": 837788000.0,
-   "shares_out": 31781718.0
+   "shares_out": 31781718.0,
+   "unusual_items": -21833000.0,
+   "normalized_ebitda": 349958000.0,
+   "normalized_income": 171857412.0
   },
   {
    "fy_end": "2023-09-30",
@@ -237,7 +282,10 @@
    "goodwill_and_intangibles": 892938000.0,
    "retained_earnings": 2462640000.0,
    "total_debt": 863092000.0,
-   "shares_out": 31881525.0
+   "shares_out": 31881525.0,
+   "unusual_items": -13495000.0,
+   "normalized_ebitda": 384157000.0,
+   "normalized_income": 185830545.0
   },
   {
    "fy_end": "2024-09-28",
@@ -271,7 +319,10 @@
    "goodwill_and_intangibles": 897243000.0,
    "retained_earnings": 2635950000.0,
    "total_debt": 874139000.0,
-   "shares_out": 31985711.0
+   "shares_out": 31985711.0,
+   "unusual_items": -44958000.0,
+   "normalized_ebitda": 477061000.0,
+   "normalized_income": 243583924.669875
   },
   {
    "fy_end": "2025-09-27",
@@ -305,7 +356,10 @@
    "goodwill_and_intangibles": 908414000.0,
    "retained_earnings": 2834548000.0,
    "total_debt": 945686000.0,
-   "shares_out": 31662305.0
+   "shares_out": 31662305.0,
+   "unusual_items": -15389000.0,
+   "normalized_ebitda": 503840000.0,
+   "normalized_income": 246596428.046877
   }
  ]
 }

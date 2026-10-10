@@ -1,6 +1,6 @@
 {
  "ticker": "SHELL.AS",
- "fetched_at": "2026-10-10T12:19:04+00:00",
+ "fetched_at": "2026-10-10T15:19:48+00:00",
  "region": "Europa",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "AMS",
   "fullTimeEmployees": 84000,
   "website": "https://www.shell.com",
-  "longBusinessSummary": "Shell plc operates as an energy and petrochemical company in Europe, Asia, Oceania, Africa, the United States, and other parts of the Americas. It operates through the following segments: Integrated Gas, Upstream, Marketing, Chemicals and Products, and Renewables and Energy Solutions. The company explores for and extracts natural gas to produce liquefied natural gas or convert it into gas-to-liquids (GTL) fuels and other products; explores for and extracts crude oil, natural gas, and natural gas liquids; and operates marketing and transportation of oil, gas, and liquids, supported by the infrastructure required to deliver them to market or to process them within Shell's chemical manufacturing plants and refineries. It is also involved in marketing, which includes mobility, lubricants, and sectors focused on decarbonization; operates a retail network, including electric vehicle charging, convenience retail, and the wholesale commercial fuels business for transport and industry; sells products for road transport and machinery in manufacturing, mining, power generation, agriculture, and construction; and provides low-carbon energy solutions, such as biofuels, to a broad range of commercial customers, including those in the aviation, marine, and agriculture sectors. In addition, the company offers chemicals and products, including chemicals manufacturing plants with their own marketing network, and refineries that turn crude oil and other feedstocks into a range of oil products, which are moved and marketed around the world for domestic, industrial, and transport use; and operates a pipeline business, trading, and optimization of crude oil, oil products, and petrochemicals. The company was formerly known as Royal Dutch Shell plc and changed its name to Shell plc in January 2022. Shell plc was founded in 1897 and is headquartered in London, United Kingdom."
+  "longBusinessSummary": "Shell plc operates as an energy and petrochemical company in Europe, Asia, Oceania, Africa, the United States, and other parts of the Americas. It operates through the following segments: Integrated Gas, Upstream, Marketing, Chemicals and Products, and Renewables and Energy Solutions. The company explores for and extracts natural gas to produce liquefied natural gas or convert it into gas-to-liquids (GTL) fuels and other products; explores for and extracts crude oil, natural gas, and natural gas liquids; and operates marketing and transportation of oil, gas, and liquids, supported by the infrastructure required to deliver them to market or to process them within Shell's chemical manufacturing plants and refineries. It is also involved in marketing, which includes mobility, lubricants, and sectors focused on decarbonization; operates a retail network, including electric vehicle charging, convenience retail, and the wholesale commercial fuels business for transport and industry; sells products for road transport and machinery in manufacturing, mining, power generation, agriculture, and construction; and provides low-carbon energy solutions, such as biofuels, to a broad range of commercial customers, including those in the aviation, marine, and agriculture sectors. In addition, the company offers chemicals and products, including chemicals manufacturing plants with their own marketing network, and refineries that turn crude oil and other feedstocks into a range of oil products, which are moved and marketed around the world for domestic, industrial, and transport use; and operates a pipeline business, trading, and optimization of crude oil, oil products, and petrochemicals. The company was formerly known as Royal Dutch Shell plc and changed its name to Shell plc in January 2022. Shell plc was founded in 1897 and is headquartered in London, United Kingdom.",
+  "targetMeanPrice": 44.86018,
+  "targetLowPrice": 37.71461,
+  "targetHighPrice": 52.934494,
+  "numberOfAnalystOpinions": 7,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.14286,
+  "forwardPE": 9.864121,
+  "forwardEps": 4.565536,
+  "trailingEps": 3.88,
+  "earningsGrowth": 2.2,
+  "revenueGrowth": 0.447
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF NL",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 370350000000.0,
+    "official": 370350000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 174392000000.0,
+    "official": 174392000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 17837000000.0,
+    "official": 17837000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 266886000000.0,
+    "official": 266886000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:19:48+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -119,7 +162,10 @@
    "goodwill_and_intangibles": 25701000000.0,
    "retained_earnings": 169482000000.0,
    "total_debt": 83795000000.0,
-   "shares_out": 7003503393.0
+   "shares_out": 7003503393.0,
+   "unusual_items": 1839000000.0,
+   "normalized_ebitda": 90715000000.0,
+   "normalized_income": 41092533348.76186
   },
   {
    "fy_end": "2023-12-31",
@@ -153,7 +199,10 @@
    "goodwill_and_intangibles": 26913000000.0,
    "retained_earnings": 165915000000.0,
    "total_debt": 81541000000.0,
-   "shares_out": 6524109049.0
+   "shares_out": 6524109049.0,
+   "unusual_items": 212000000.0,
+   "normalized_ebitda": 60149000000.0,
+   "normalized_income": 19231411438.379257
   },
   {
    "fy_end": "2024-12-31",
@@ -187,7 +236,10 @@
    "goodwill_and_intangibles": 25512000000.0,
    "retained_earnings": 158834000000.0,
    "total_debt": 77078000000.0,
-   "shares_out": 6084231158.0
+   "shares_out": 6084231158.0,
+   "unusual_items": -217000000.0,
+   "normalized_ebitda": 57700000000.0,
+   "normalized_income": 16256750000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -221,7 +273,10 @@
    "goodwill_and_intangibles": 26672000000.0,
    "retained_earnings": 153528000000.0,
    "total_debt": 75643000000.0,
-   "shares_out": 5689891670.0
+   "shares_out": 5689891670.0,
+   "unusual_items": 3260000000.0,
+   "normalized_ebitda": 53404000000.0,
+   "normalized_income": 15848400000.0
   }
  ]
 }

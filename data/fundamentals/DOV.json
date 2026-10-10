@@ -1,6 +1,6 @@
 {
  "ticker": "DOV",
- "fetched_at": "2026-10-10T12:43:27+00:00",
+ "fetched_at": "2026-10-10T15:41:53+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 24000,
   "website": "https://www.dovercorporation.com",
-  "longBusinessSummary": "Dover Corporation provides equipment and components, consumable supplies, aftermarket parts, software and digital solutions, and support services worldwide. The company's Engineered Products segment provides various equipment, component, software, solution, and services that are used in vehicle aftermarket, aerospace and defense, industrial winch and hoist, and fluid dispensing end-market. This segment offers software solutions and services used in light and heavy-duty vehicle lifts, wheel service equipment, vehicle diagnostics, and vehicle collision repair solutions; winches, hoists, bearings, drives, and electric monitoring system; and radio frequency and microwave filters and switches, and signal intelligence solutions, as well as soldering and fluid dispensing solutions. Its Clean Energy & Fueling segment offers component, equipment, and software and service solution enabling safe storage and transport of fuel, cryogenic gases, and hazardous fluids, as well as operation of retail fueling and vehicle wash establishment. The company's Imaging & Identification segment provides precision marking and coding, product traceability equipment, brand protection, and digital textile printing equipment and solution, as well as consumable, software, and service to packaged and consumer goods, pharmaceutical, industrial manufacturing, textile, and other end-market. Its Pumps & Process Solutions segment manufactures specialty pump, connector, flow meter, fluid connecting solution, plastics and polymer processing equipment, and engineered components for rotating and reciprocating machines. The company's Climate & Sustainability Technologies segment manufactures refrigeration system, refrigeration display case, commercial glass refrigerator and freezer door, and brazed plate heat exchanger for industrial heating and cooling, and residential climate control applications. Dover Corporation was incorporated in 1947 and is headquartered in Downers Grove, Illinois."
+  "longBusinessSummary": "Dover Corporation provides equipment and components, consumable supplies, aftermarket parts, software and digital solutions, and support services worldwide. The company's Engineered Products segment provides various equipment, component, software, solution, and services that are used in vehicle aftermarket, aerospace and defense, industrial winch and hoist, and fluid dispensing end-market. This segment offers software solutions and services used in light and heavy-duty vehicle lifts, wheel service equipment, vehicle diagnostics, and vehicle collision repair solutions; winches, hoists, bearings, drives, and electric monitoring system; and radio frequency and microwave filters and switches, and signal intelligence solutions, as well as soldering and fluid dispensing solutions. Its Clean Energy & Fueling segment offers component, equipment, and software and service solution enabling safe storage and transport of fuel, cryogenic gases, and hazardous fluids, as well as operation of retail fueling and vehicle wash establishment. The company's Imaging & Identification segment provides precision marking and coding, product traceability equipment, brand protection, and digital textile printing equipment and solution, as well as consumable, software, and service to packaged and consumer goods, pharmaceutical, industrial manufacturing, textile, and other end-market. Its Pumps & Process Solutions segment manufactures specialty pump, connector, flow meter, fluid connecting solution, plastics and polymer processing equipment, and engineered components for rotating and reciprocating machines. The company's Climate & Sustainability Technologies segment manufactures refrigeration system, refrigeration display case, commercial glass refrigerator and freezer door, and brazed plate heat exchanger for industrial heating and cooling, and residential climate control applications. Dover Corporation was incorporated in 1947 and is headquartered in Downers Grove, Illinois.",
+  "targetMeanPrice": 240.10526,
+  "targetLowPrice": 168.0,
+  "targetHighPrice": 288.0,
+  "numberOfAnalystOpinions": 19,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.57895,
+  "forwardPE": 16.231321,
+  "forwardEps": 11.63368,
+  "trailingEps": 8.26,
+  "earningsGrowth": 0.141,
+  "revenueGrowth": 0.069
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 13422423000.0,
+    "official": 13422423000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 7405206000.0,
+    "official": 7405206000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1093956000.0,
+    "official": 1093956000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 8092571000.0,
+    "official": 8092571000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:41:53+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -204,7 +246,10 @@
    "goodwill_and_intangibles": 6003229000.0,
    "retained_earnings": 10223070000.0,
    "total_debt": 3678285000.0,
-   "shares_out": 139698485.0
+   "shares_out": 139698485.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 1602319000.0,
+   "normalized_income": 989912000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -238,7 +283,10 @@
    "goodwill_and_intangibles": 6082768000.0,
    "retained_earnings": 10995624000.0,
    "total_debt": 3460041000.0,
-   "shares_out": 139896263.0
+   "shares_out": 139896263.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 1559350000.0,
+   "normalized_income": 943864000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -272,7 +320,10 @@
    "goodwill_and_intangibles": 6486556000.0,
    "retained_earnings": 13409633000.0,
    "total_debt": 3328813000.0,
-   "shares_out": 137216447.0
+   "shares_out": 137216447.0,
+   "unusual_items": 597798000.0,
+   "normalized_ebitda": 1628231000.0,
+   "normalized_income": 923650157.439659
   },
   {
    "fy_end": "2025-12-31",
@@ -306,7 +357,10 @@
    "goodwill_and_intangibles": 7189654000.0,
    "retained_earnings": 14220582000.0,
    "total_debt": 4034649000.0,
-   "shares_out": 134846325.0
+   "shares_out": 134846325.0,
+   "unusual_items": 4644000.0,
+   "normalized_ebitda": 1858957000.0,
+   "normalized_income": 1093720465.993137
   }
  ]
 }

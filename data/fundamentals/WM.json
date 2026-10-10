@@ -1,6 +1,6 @@
 {
  "ticker": "WM",
- "fetched_at": "2026-10-10T13:02:26+00:00",
+ "fetched_at": "2026-10-10T15:59:50+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 60500,
   "website": "https://www.wm.com",
-  "longBusinessSummary": "Waste Management, Inc., through its subsidiaries, provides environmental solutions to residential, commercial, industrial, and municipal customers in the United States, Canada, Western Europe, and internationally. It offers collection services, including picking up and transporting waste and recyclable materials from where it was generated to a transfer station, recovery facility, or disposal site; owns and operates transfer stations; and owns, develops, and operates landfill gas-to-energy facilities that produce renewable electricity and renewable natural gas. It also operates materials processing and commodities recycling services, including cardboard, paper, glass, metals, plastics, construction and demolition materials, and other recycling commodities are recovered for resale or redirected for other purposes; markets and resells recycling commodities; recycling brokerage services, such as managing the marketing of recyclable materials for third parties; and other strategic business solutions. In addition, the company collects recyclable food and yard waste, as well as markets and sells mulch, compost, soil amendments, and renewable energy; offers remediation and construction, and industrial waste services; and manages and markets fly ash. Further, it provides Regulated Waste and Compliance Services (RWCS), which offers compliance programs, as well as collection, processing, and disposal of regulated and specialized waste, including medical, pharmaceutical, and hazardous waste; and Secure Information Destruction (SID) services that include the collection of personal and confidential information for secure destruction and recycling of sorted office paper. The company was formerly known as USA Waste Services, Inc. and changed its name to Waste Management, Inc. in 1998. Waste Management, Inc. was founded in 1968 and is based in Houston, Texas."
+  "longBusinessSummary": "Waste Management, Inc., through its subsidiaries, provides environmental solutions to residential, commercial, industrial, and municipal customers in the United States, Canada, Western Europe, and internationally. It offers collection services, including picking up and transporting waste and recyclable materials from where it was generated to a transfer station, recovery facility, or disposal site; owns and operates transfer stations; and owns, develops, and operates landfill gas-to-energy facilities that produce renewable electricity and renewable natural gas. It also operates materials processing and commodities recycling services, including cardboard, paper, glass, metals, plastics, construction and demolition materials, and other recycling commodities are recovered for resale or redirected for other purposes; markets and resells recycling commodities; recycling brokerage services, such as managing the marketing of recyclable materials for third parties; and other strategic business solutions. In addition, the company collects recyclable food and yard waste, as well as markets and sells mulch, compost, soil amendments, and renewable energy; offers remediation and construction, and industrial waste services; and manages and markets fly ash. Further, it provides Regulated Waste and Compliance Services (RWCS), which offers compliance programs, as well as collection, processing, and disposal of regulated and specialized waste, including medical, pharmaceutical, and hazardous waste; and Secure Information Destruction (SID) services that include the collection of personal and confidential information for secure destruction and recycling of sorted office paper. The company was formerly known as USA Waste Services, Inc. and changed its name to Waste Management, Inc. in 1998. Waste Management, Inc. was founded in 1968 and is based in Houston, Texas.",
+  "targetMeanPrice": 255.56,
+  "targetLowPrice": 220.0,
+  "targetHighPrice": 277.0,
+  "numberOfAnalystOpinions": 25,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.75,
+  "forwardPE": 22.988012,
+  "forwardEps": 9.0843,
+  "trailingEps": 7.06,
+  "earningsGrowth": 0.083,
+  "revenueGrowth": 0.04
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 45835000000.0,
+    "official": 45835000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 9990000000.0,
+    "official": 9990000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2708000000.0,
+    "official": 2708000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 25204000000.0,
+    "official": 25204000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:59:50+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -195,7 +237,10 @@
    "goodwill_and_intangibles": 10150000000.0,
    "retained_earnings": 13167000000.0,
    "total_debt": 14570000000.0,
-   "shares_out": 407886295.0
+   "shares_out": 407886295.0,
+   "unusual_items": -63000000.0,
+   "normalized_ebitda": 5397000000.0,
+   "normalized_income": 2286358800.0
   },
   {
    "fy_end": "2023-12-31",
@@ -229,7 +274,10 @@
    "goodwill_and_intangibles": 10032000000.0,
    "retained_earnings": 14334000000.0,
    "total_debt": 15895000000.0,
-   "shares_out": 401455243.0
+   "shares_out": 401455243.0,
+   "unusual_items": -248000000.0,
+   "normalized_ebitda": 5840000000.0,
+   "normalized_income": 2490744000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -263,7 +311,10 @@
    "goodwill_and_intangibles": 17626000000.0,
    "retained_earnings": 15858000000.0,
    "total_debt": 22541000000.0,
-   "shares_out": 401494177.0
+   "shares_out": 401494177.0,
+   "unusual_items": -86000000.0,
+   "normalized_ebitda": 6409000000.0,
+   "normalized_income": 2814284000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -297,7 +348,10 @@
    "goodwill_and_intangibles": 17647000000.0,
    "retained_earnings": 17232000000.0,
    "total_debt": 22196000000.0,
-   "shares_out": 402941704.0
+   "shares_out": 402941704.0,
+   "unusual_items": -299000000.0,
+   "normalized_ebitda": 7500000000.0,
+   "normalized_income": 2944509000.0
   }
  ]
 }

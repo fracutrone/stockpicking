@@ -1,6 +1,6 @@
 {
  "ticker": "FLEX",
- "fetched_at": "2026-10-10T12:45:47+00:00",
+ "fetched_at": "2026-10-10T15:44:05+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 149686,
   "website": "https://www.flex.com",
-  "longBusinessSummary": "Flex Ltd. provides technology innovation, supply chain, and manufacturing solutions to data center, communications, enterprise, consumer, automotive, healthcare, industrial, and power industries in the Americas, Asia, and Europe. The company operates through three segments: Integrated Technology Solutions (ITS), Regulated Manufacturing Solutions (RMS), and Cloud and Power Infrastructure (CPI). The ITS segment offers flexible supply and manufacturing solutions for communications, including high speed networking, enterprise, and satellite communications systems, as well as lifestyle solutions comprising products across commercial, home, and personal product categories. Its RMS segment includes industrial products, such as mission critical automation, energy, and industrial infrastructure; automotive products, including compute and power electronics platforms and integrated systems; and healthcare products comprising regulated manufacturing for medical devices, drug delivery, and equipment. The CPI segment provides cloud and cooling products, such as integrated compute systems supporting power dense digital infrastructure deployments and advanced liquid cooling solutions supporting higher density, power intensive rack architectures; and power products that include utility and facility level electrical infrastructure enabling power delivery and high density rack and board level power systems. The company was formerly known as Flextronics International Ltd. and changed its name to Flex Ltd. in September 2016. Flex Ltd. was founded in 1969 and is headquartered in Austin, Texas."
+  "longBusinessSummary": "Flex Ltd. provides technology innovation, supply chain, and manufacturing solutions to data center, communications, enterprise, consumer, automotive, healthcare, industrial, and power industries in the Americas, Asia, and Europe. The company operates through three segments: Integrated Technology Solutions (ITS), Regulated Manufacturing Solutions (RMS), and Cloud and Power Infrastructure (CPI). The ITS segment offers flexible supply and manufacturing solutions for communications, including high speed networking, enterprise, and satellite communications systems, as well as lifestyle solutions comprising products across commercial, home, and personal product categories. Its RMS segment includes industrial products, such as mission critical automation, energy, and industrial infrastructure; automotive products, including compute and power electronics platforms and integrated systems; and healthcare products comprising regulated manufacturing for medical devices, drug delivery, and equipment. The CPI segment provides cloud and cooling products, such as integrated compute systems supporting power dense digital infrastructure deployments and advanced liquid cooling solutions supporting higher density, power intensive rack architectures; and power products that include utility and facility level electrical infrastructure enabling power delivery and high density rack and board level power systems. The company was formerly known as Flextronics International Ltd. and changed its name to Flex Ltd. in September 2016. Flex Ltd. was founded in 1969 and is headquartered in Austin, Texas.",
+  "targetMeanPrice": 160.5,
+  "targetLowPrice": 142.0,
+  "targetHighPrice": 180.0,
+  "numberOfAnalystOpinions": 10,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.27273,
+  "forwardPE": 16.979149,
+  "forwardEps": 7.05748,
+  "trailingEps": 2.59,
+  "earningsGrowth": 0.52,
+  "revenueGrowth": 0.206
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-03-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 22060000000.0,
+    "official": 22060000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 5144000000.0,
+    "official": 5144000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 880000000.0,
+    "official": 880000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 27914000000.0,
+    "official": 27914000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:44:05+00:00",
  "years": [
   {
    "fy_end": "2020-03-31",
@@ -205,7 +247,10 @@
    "goodwill_and_intangibles": 1454000000.0,
    "retained_earnings": -560000000.0,
    "total_debt": 3694000000.0,
-   "shares_out": 450122691.0
+   "shares_out": 450122691.0,
+   "unusual_items": -4000000.0,
+   "normalized_ebitda": 1542000000.0,
+   "normalized_income": 446385377.942999
   },
   {
    "fy_end": "2024-03-31",
@@ -239,7 +284,10 @@
    "goodwill_and_intangibles": 1380000000.0,
    "retained_earnings": 446000000.0,
    "total_debt": 3261000000.0,
-   "shares_out": 408101772.0
+   "shares_out": 408101772.0,
+   "unusual_items": -20000000.0,
+   "normalized_ebitda": 1430000000.0,
+   "normalized_income": 647000000.0
   },
   {
    "fy_end": "2025-03-31",
@@ -273,7 +321,10 @@
    "goodwill_and_intangibles": 1684000000.0,
    "retained_earnings": 1284000000.0,
    "total_debt": 3692000000.0,
-   "shares_out": 377817433.0
+   "shares_out": 377817433.0,
+   "unusual_items": -16000000.0,
+   "normalized_ebitda": 1796000000.0,
+   "normalized_income": 851106549.364614
   },
   {
    "fy_end": "2026-03-31",
@@ -307,7 +358,10 @@
    "goodwill_and_intangibles": 1652000000.0,
    "retained_earnings": 2164000000.0,
    "total_debt": 3751000000.0,
-   "shares_out": 365690291.0
+   "shares_out": 365690291.0,
+   "unusual_items": -79000000.0,
+   "normalized_ebitda": 2000000000.0,
+   "normalized_income": 940830000.0
   }
  ]
 }

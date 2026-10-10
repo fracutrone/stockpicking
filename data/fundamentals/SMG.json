@@ -1,6 +1,6 @@
 {
  "ticker": "SMG",
- "fetched_at": "2026-10-10T12:58:16+00:00",
+ "fetched_at": "2026-10-10T15:55:50+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 5200,
   "website": "https://scottsmiraclegro.com",
-  "longBusinessSummary": "The Scotts Miracle-Gro Company, together with its subsidiaries, engages in the manufacture, marketing, and sale of products for lawn, garden care, and indoor and hydroponic gardening in the United States and internationally. The company provides lawn care products, comprising lawn fertilizers, clover and grass seed products, spreaders, and other durable products, as well as lawn-related weed, pest, and disease control products; and gardening and landscape products, which include water-soluble and continuous-release plant foods, potting mixes, garden soils, mulches and ground cover products, plant-related pest and disease control products, organic garden products, and live goods and seeding solutions. It also offers hydroponic products that help users to grow plants, flowers, and vegetables using little or no soil; lighting systems and components; insect, rodent, and weed control products for home areas; and non-selective weed killer products. The company sells its products under the Scotts, Turf Builder, Grower's Edge, EZ Seed, PatchMaster, Thick'R Lawn, GrubEx, EdgeGuard, Whirl, Wizz, Miracle-Gro, LiquaFeed, Shake N Feed, Hyponex, Earthgro, Miracle-Gro Organic, CAN-FAN, CAN-FILTERS, EcoPlus, Bug B Gon, Nature Scapes, Ortho, Miracle-Gro Performance Organics, Miracle-Gro Organic Choice, Whitney Farms, Ortho Max, Home Defense, Mother Earth, Botanicare, General Hydroponics, CYCO, Gavita, Agrolux, HydroLogic Purification System, Gro Pro, AeroGarden, Titan, Tomcat, Ortho Weed B Gon, Roundup, Groundclear, and Alchemist brands. It serves home centers, mass merchandisers, warehouse clubs, large hardware chains, independent hardware stores, nurseries, garden centers, e-commerce platforms, and food and drug stores, as well as indoor gardening and hydroponic distributors, retailers, and growers. The company was formerly known as The Scotts Company. The Scotts Miracle-Gro Company was founded in 1868 and is headquartered in Marysville, Ohio."
+  "longBusinessSummary": "The Scotts Miracle-Gro Company, together with its subsidiaries, engages in the manufacture, marketing, and sale of products for lawn, garden care, and indoor and hydroponic gardening in the United States and internationally. The company provides lawn care products, comprising lawn fertilizers, clover and grass seed products, spreaders, and other durable products, as well as lawn-related weed, pest, and disease control products; and gardening and landscape products, which include water-soluble and continuous-release plant foods, potting mixes, garden soils, mulches and ground cover products, plant-related pest and disease control products, organic garden products, and live goods and seeding solutions. It also offers hydroponic products that help users to grow plants, flowers, and vegetables using little or no soil; lighting systems and components; insect, rodent, and weed control products for home areas; and non-selective weed killer products. The company sells its products under the Scotts, Turf Builder, Grower's Edge, EZ Seed, PatchMaster, Thick'R Lawn, GrubEx, EdgeGuard, Whirl, Wizz, Miracle-Gro, LiquaFeed, Shake N Feed, Hyponex, Earthgro, Miracle-Gro Organic, CAN-FAN, CAN-FILTERS, EcoPlus, Bug B Gon, Nature Scapes, Ortho, Miracle-Gro Performance Organics, Miracle-Gro Organic Choice, Whitney Farms, Ortho Max, Home Defense, Mother Earth, Botanicare, General Hydroponics, CYCO, Gavita, Agrolux, HydroLogic Purification System, Gro Pro, AeroGarden, Titan, Tomcat, Ortho Weed B Gon, Roundup, Groundclear, and Alchemist brands. It serves home centers, mass merchandisers, warehouse clubs, large hardware chains, independent hardware stores, nurseries, garden centers, e-commerce platforms, and food and drug stores, as well as indoor gardening and hydroponic distributors, retailers, and growers. The company was formerly known as The Scotts Company. The Scotts Miracle-Gro Company was founded in 1868 and is headquartered in Marysville, Ohio.",
+  "targetMeanPrice": 74.16667,
+  "targetLowPrice": 60.0,
+  "targetHighPrice": 82.0,
+  "numberOfAnalystOpinions": 6,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.875,
+  "forwardPE": 10.603412,
+  "forwardEps": 4.70226,
+  "trailingEps": 2.8,
+  "earningsGrowth": -0.255,
+  "revenueGrowth": 0.011
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-09-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 2742000000.0,
+    "official": 2742000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": -357500000.0,
+    "official": -357500000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 145200000.0,
+    "official": 145200000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3413100000.0,
+    "official": 3413100000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:55:50+00:00",
  "years": [
   {
    "fy_end": "2019-09-30",
@@ -205,7 +247,10 @@
    "goodwill_and_intangibles": 834200000.0,
    "retained_earnings": 1020100000.0,
    "total_debt": 2963200000.0,
-   "shares_out": 55500000.0
+   "shares_out": 55500000.0,
+   "unusual_items": -693000000.0,
+   "normalized_ebitda": 358200000.0,
+   "normalized_income": 105812000.0
   },
   {
    "fy_end": "2023-09-30",
@@ -239,7 +284,10 @@
    "goodwill_and_intangibles": 680600000.0,
    "retained_earnings": 490900000.0,
    "total_debt": 2613700000.0,
-   "shares_out": 56500000.0
+   "shares_out": 56500000.0,
+   "unusual_items": -280400000.0,
+   "normalized_ebitda": 97700000.0,
+   "normalized_income": -145124800.0
   },
   {
    "fy_end": "2024-09-30",
@@ -273,7 +321,10 @@
    "goodwill_and_intangibles": 662700000.0,
    "retained_earnings": 303800000.0,
    "total_debt": 2225000000.0,
-   "shares_out": 57100000.0
+   "shares_out": 57100000.0,
+   "unusual_items": -62800000.0,
+   "normalized_ebitda": 278600000.0,
+   "normalized_income": 14712000.0
   },
   {
    "fy_end": "2025-09-30",
@@ -307,7 +358,10 @@
    "goodwill_and_intangibles": 645700000.0,
    "retained_earnings": 294700000.0,
    "total_debt": 2105200000.0,
-   "shares_out": 57800000.0
+   "shares_out": 57800000.0,
+   "unusual_items": -63500000.0,
+   "normalized_ebitda": 489000000.0,
+   "normalized_income": 186792500.0
   }
  ]
 }

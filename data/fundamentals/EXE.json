@@ -1,6 +1,6 @@
 {
  "ticker": "EXE",
- "fetched_at": "2026-10-10T12:44:56+00:00",
+ "fetched_at": "2026-10-10T15:43:16+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 1600,
   "website": "https://www.expandenergy.com",
-  "longBusinessSummary": "Expand Energy Corporation operates as an independent natural gas production company in the United States. The company engages in acquisition, exploration, and development of properties to produce oil, natural gas, and natural gas liquids. It holds interests in the Marcellus Shale in the northern Appalachian Basin in Pennsylvania; the Marcellus and Utica Shales in Ohio and West Virginia; and the Haynesville and Bossier Shales in Louisiana and Texas. Expand Energy Corporation was formerly known as Chesapeake Energy Corporation and changed its name to Expand Energy Corporation in October 2024. The company was founded in 1989 and is based in Spring, Texas."
+  "longBusinessSummary": "Expand Energy Corporation operates as an independent natural gas production company in the United States. The company engages in acquisition, exploration, and development of properties to produce oil, natural gas, and natural gas liquids. It holds interests in the Marcellus Shale in the northern Appalachian Basin in Pennsylvania; the Marcellus and Utica Shales in Ohio and West Virginia; and the Haynesville and Bossier Shales in Louisiana and Texas. Expand Energy Corporation was formerly known as Chesapeake Energy Corporation and changed its name to Expand Energy Corporation in October 2024. The company was founded in 1989 and is based in Spring, Texas.",
+  "targetMeanPrice": 123.22222,
+  "targetLowPrice": 93.0,
+  "targetHighPrice": 156.0,
+  "numberOfAnalystOpinions": 27,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.53571,
+  "forwardPE": 8.734653,
+  "forwardEps": 10.1,
+  "trailingEps": 11.6,
+  "earningsGrowth": -0.455,
+  "revenueGrowth": -0.106
  },
  "governance": {
   "ceo": {
@@ -81,10 +92,41 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec",
   "inventory": "sec",
   "goodwill": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 28287000000.0,
+    "official": 28287000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 18578000000.0,
+    "official": 18578000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1819000000.0,
+    "official": 1819000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 12189000000.0,
+    "official": 12124000000.0,
+    "diff": 0.005361
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:43:16+00:00",
  "years": [
   {
    "fy_end": "2018-12-31",
@@ -180,7 +222,10 @@
    "ppe_net": 11187000000.0,
    "retained_earnings": 3399000000.0,
    "total_debt": 3000000000.0,
-   "shares_out": 134715094.0
+   "shares_out": 134715094.0,
+   "unusual_items": 48000000.0,
+   "normalized_ebitda": 5516000000.0,
+   "normalized_income": 4898080000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -210,7 +255,10 @@
    "ppe_net": 10097000000.0,
    "retained_earnings": 4974000000.0,
    "total_debt": 2028000000.0,
-   "shares_out": 130789936.0
+   "shares_out": 130789936.0,
+   "unusual_items": 774000000.0,
+   "normalized_ebitda": 3974000000.0,
+   "normalized_income": 1818376000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -240,7 +288,10 @@
    "ppe_net": 24282000000.0,
    "retained_earnings": 3876000000.0,
    "total_debt": 5680000000.0,
-   "shares_out": 231769886.0
+   "shares_out": 231769886.0,
+   "unusual_items": -107000000.0,
+   "normalized_ebitda": 1125000000.0,
+   "normalized_income": -623157000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -270,7 +321,10 @@
    "ppe_net": 24355000000.0,
    "retained_earnings": 4830000000.0,
    "total_debt": 5009000000.0,
-   "shares_out": 239249874.0
+   "shares_out": 239249874.0,
+   "unusual_items": -296000000.0,
+   "normalized_ebitda": 5793000000.0,
+   "normalized_income": 2054912000.0
   }
  ]
 }

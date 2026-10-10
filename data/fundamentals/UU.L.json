@@ -1,6 +1,6 @@
 {
  "ticker": "UU.L",
- "fetched_at": "2026-10-10T12:24:30+00:00",
+ "fetched_at": "2026-10-10T15:27:53+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 7360,
   "website": "https://www.unitedutilities.com",
-  "longBusinessSummary": "United Utilities Group PLC provides water and wastewater services in the United Kingdom. It is also involved in the energy generation, corporate trustee, financing, and property management activities. The company operates approximately 122,000 kilometers of water and wastewater pipes. United Utilities Group PLC was incorporated in 2008 and is based in Warrington, the United Kingdom."
+  "longBusinessSummary": "United Utilities Group PLC provides water and wastewater services in the United Kingdom. It is also involved in the energy generation, corporate trustee, financing, and property management activities. The company operates approximately 122,000 kilometers of water and wastewater pipes. United Utilities Group PLC was incorporated in 2008 and is based in Warrington, the United Kingdom.",
+  "targetMeanPrice": 1511.6431,
+  "targetLowPrice": 1340.0,
+  "targetHighPrice": 1650.0,
+  "numberOfAnalystOpinions": 14,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.35714,
+  "forwardPE": 13.036029,
+  "forwardEps": 1.09159,
+  "trailingEps": 0.86,
+  "earningsGrowth": 1.149,
+  "revenueGrowth": 0.229
  },
  "governance": {
   "ceo": {
@@ -69,8 +80,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2026-03-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 18127000000.0,
+    "official": 18127000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2241400000.0,
+    "official": 2241400000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 586800000.0,
+    "official": 586800000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2616300000.0,
+    "official": 2616300000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2026-03-31"
+ },
+ "info_at": "2026-10-10T15:27:53+00:00",
  "years": [
   {
    "fy_end": "2023-03-31",
@@ -103,7 +146,10 @@
    "goodwill_and_intangibles": 142300000.0,
    "retained_earnings": 1652600000.0,
    "total_debt": 8422900000.0,
-   "shares_out": 681888418.0
+   "shares_out": 681888418.0,
+   "unusual_items": 260800000.0,
+   "normalized_ebitda": 916800000.0,
+   "normalized_income": -3740000.0
   },
   {
    "fy_end": "2024-03-31",
@@ -136,7 +182,10 @@
    "goodwill_and_intangibles": 124500000.0,
    "retained_earnings": 1242300000.0,
    "total_debt": 9981400000.0,
-   "shares_out": 681888418.0
+   "shares_out": 681888418.0,
+   "unusual_items": -17600000.0,
+   "normalized_ebitda": 1006200000.0,
+   "normalized_income": 140029600.0
   },
   {
    "fy_end": "2025-03-31",
@@ -169,7 +218,10 @@
    "goodwill_and_intangibles": 105800000.0,
    "retained_earnings": 1178000000.0,
    "total_debt": 10785000000.0,
-   "shares_out": 681888418.0
+   "shares_out": 681888418.0,
+   "unusual_items": -3800000.0,
+   "normalized_ebitda": 1196000000.0,
+   "normalized_income": 267533408.450704
   },
   {
    "fy_end": "2026-03-31",
@@ -202,7 +254,10 @@
    "goodwill_and_intangibles": 119900000.0,
    "retained_earnings": 1398200000.0,
    "total_debt": 11481000000.0,
-   "shares_out": 681888418.0
+   "shares_out": 681888418.0,
+   "unusual_items": -22700000.0,
+   "normalized_ebitda": 1696100000.0,
+   "normalized_income": 603893100.0
   }
  ]
 }

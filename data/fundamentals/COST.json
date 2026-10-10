@@ -1,6 +1,6 @@
 {
  "ticker": "COST",
- "fetched_at": "2026-10-10T12:41:51+00:00",
+ "fetched_at": "2026-10-10T15:40:23+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 355000,
   "website": "https://www.costco.com",
-  "longBusinessSummary": "Costco Wholesale Corporation, together with its subsidiaries, engages in the operation of membership warehouses in the United States, Puerto Rico, Canada, Mexico, Japan, the United Kingdom, Korea, Australia, Taiwan, China, Spain, France, Sweden, Iceland, and New Zealand. It offers merchandise, including sundries, dry groceries, candies, coolers, freezers, liquor, and tobacco; non-food merchandise comprising consumer electronics, appliances, small electrics, health and beauty aids, hardware, lawn and garden, sporting goods, tires, toys and seasonal, automotive, stamps, tickets, apparel, furniture, domestics, housewares, special order kiosks, and jewelry; and fresh food, such as meat, produce, deli, and bakery products. The company is also involved in warehouse ancillary operations, which include gasoline, pharmacies, food courts, optical, hearing aids, and tire installation centers. In addition, it engages in e-commerce, business centers, travel, and other businesses. Further, the company operates e-commerce sites; and offers branded and private-label products in various categories. The company was formerly known as Costco Companies, Inc. and changed its name to Costco Wholesale Corporation in August 1999. Costco Wholesale Corporation was founded in 1976 and is based in Issaquah, Washington."
+  "longBusinessSummary": "Costco Wholesale Corporation, together with its subsidiaries, engages in the operation of membership warehouses in the United States, Puerto Rico, Canada, Mexico, Japan, the United Kingdom, Korea, Australia, Taiwan, China, Spain, France, Sweden, Iceland, and New Zealand. It offers merchandise, including sundries, dry groceries, candies, coolers, freezers, liquor, and tobacco; non-food merchandise comprising consumer electronics, appliances, small electrics, health and beauty aids, hardware, lawn and garden, sporting goods, tires, toys and seasonal, automotive, stamps, tickets, apparel, furniture, domestics, housewares, special order kiosks, and jewelry; and fresh food, such as meat, produce, deli, and bakery products. The company is also involved in warehouse ancillary operations, which include gasoline, pharmacies, food courts, optical, hearing aids, and tire installation centers. In addition, it engages in e-commerce, business centers, travel, and other businesses. Further, the company operates e-commerce sites; and offers branded and private-label products in various categories. The company was formerly known as Costco Companies, Inc. and changed its name to Costco Wholesale Corporation in August 1999. Costco Wholesale Corporation was founded in 1976 and is based in Issaquah, Washington.",
+  "targetMeanPrice": 1057.9429,
+  "targetLowPrice": 770.0,
+  "targetHighPrice": 1315.0,
+  "numberOfAnalystOpinions": 35,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.94872,
+  "forwardPE": 37.87568,
+  "forwardEps": 25.00074,
+  "trailingEps": 20.76,
+  "earningsGrowth": 0.15,
+  "revenueGrowth": 0.111
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "goodwill": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-08-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 77099000000.0,
+    "official": 77099000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 29164000000.0,
+    "official": 29164000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 8099000000.0,
+    "official": 8099000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 275235000000.0,
+    "official": 275235000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:40:23+00:00",
  "years": [
   {
    "fy_end": "2020-08-30",
@@ -173,7 +215,10 @@
    "goodwill": 993000000.0,
    "retained_earnings": 15585000000.0,
    "total_debt": 6557000000.0,
-   "shares_out": 442664000.0
+   "shares_out": 442664000.0,
+   "unusual_items": 106000000.0,
+   "normalized_ebitda": 9792000000.0,
+   "normalized_income": 5764076000.0
   },
   {
    "fy_end": "2023-09-03",
@@ -206,7 +251,10 @@
    "goodwill": 994000000.0,
    "retained_earnings": 19521000000.0,
    "total_debt": 6458000000.0,
-   "shares_out": 442793000.0
+   "shares_out": 442793000.0,
+   "unusual_items": 29000000.0,
+   "normalized_ebitda": 10695000000.0,
+   "normalized_income": 6270511000.0
   },
   {
    "fy_end": "2024-09-01",
@@ -239,7 +287,10 @@
    "goodwill": 994000000.0,
    "retained_earnings": 17619000000.0,
    "total_debt": 5897000000.0,
-   "shares_out": 443126000.0
+   "shares_out": 443126000.0,
+   "unusual_items": 26000000.0,
+   "normalized_ebitda": 12120000000.0,
+   "normalized_income": 7347344000.0
   },
   {
    "fy_end": "2025-08-31",
@@ -272,7 +323,10 @@
    "goodwill": 994000000.0,
    "retained_earnings": 22650000000.0,
    "total_debt": 5788000000.0,
-   "shares_out": 443237000.0
+   "shares_out": 443237000.0,
+   "unusual_items": 84000000.0,
+   "normalized_ebitda": 13314000000.0,
+   "normalized_income": 8036084000.0
   },
   {
    "fy_end": "2026-08-30",

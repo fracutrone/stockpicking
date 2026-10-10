@@ -1,6 +1,6 @@
 {
  "ticker": "WFC",
- "fetched_at": "2026-10-10T13:02:15+00:00",
+ "fetched_at": "2026-10-10T15:59:41+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 197466,
   "website": "https://www.wellsfargo.com",
-  "longBusinessSummary": "Wells Fargo & Company, a financial services company, provides diversified banking, investment, mortgage, and consumer and commercial finance products and services in the United States and internationally. It operates through four segments: Consumer Banking and Lending; Commercial Banking; Corporate and Investment Banking; and Wealth and Investment Management. The company's financial products and services includes checking and savings accounts, and credit and debit cards, as well as home, auto, personal, and small business lending services. It also provides personalized wealth management, brokerage, financial planning, lending, private banking, trust and fiduciary products and services; and financial solutions to private, family owned and public companies through products and services including banking and credit products across multiple industry sectors and municipalities, secured lending and lease products, and treasury management. In addition, it offers a suite of capital markets, banking, and financial products and services, such as corporate banking, investment banking, treasury management, commercial real estate lending and servicing, equity, and fixed income solutions, as well as sales, trading, and research capabilities services to corporate, commercial real estate, government, and institutional clients. Wells Fargo & Company was founded in 1852 and is headquartered in San Francisco, California."
+  "longBusinessSummary": "Wells Fargo & Company, a financial services company, provides diversified banking, investment, mortgage, and consumer and commercial finance products and services in the United States and internationally. It operates through four segments: Consumer Banking and Lending; Commercial Banking; Corporate and Investment Banking; and Wealth and Investment Management. The company's financial products and services includes checking and savings accounts, and credit and debit cards, as well as home, auto, personal, and small business lending services. It also provides personalized wealth management, brokerage, financial planning, lending, private banking, trust and fiduciary products and services; and financial solutions to private, family owned and public companies through products and services including banking and credit products across multiple industry sectors and municipalities, secured lending and lease products, and treasury management. In addition, it offers a suite of capital markets, banking, and financial products and services, such as corporate banking, investment banking, treasury management, commercial real estate lending and servicing, equity, and fixed income solutions, as well as sales, trading, and research capabilities services to corporate, commercial real estate, government, and institutional clients. Wells Fargo & Company was founded in 1852 and is headquartered in San Francisco, California.",
+  "targetMeanPrice": 98.72917,
+  "targetLowPrice": 90.0,
+  "targetHighPrice": 115.0,
+  "numberOfAnalystOpinions": 24,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.77778,
+  "forwardPE": 10.404849,
+  "forwardEps": 8.02991,
+  "trailingEps": 7.01,
+  "earningsGrowth": 0.25,
+  "revenueGrowth": 0.095
  },
  "governance": {
   "ceo": {
@@ -77,8 +88,38 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "noninterest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 2148631000000.0,
+    "official": 2148631000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 181117000000.0,
+    "official": 181117000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 21338000000.0,
+    "official": 21338000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 83699000000.0,
+    "official": 83699000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:59:41+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -135,7 +176,8 @@
    "equity": 187606000000.0,
    "goodwill": 25180000000.0,
    "retained_earnings": 180322000000.0,
-   "total_debt": 195098000000.0
+   "total_debt": 195098000000.0,
+   "unusual_items": -76000000.0
   },
   {
    "fy_end": "2022-12-31",
@@ -162,7 +204,9 @@
    "goodwill_and_intangibles": 35653000000.0,
    "retained_earnings": 187968000000.0,
    "total_debt": 226015000000.0,
-   "shares_out": 3833804452.0
+   "shares_out": 3833804452.0,
+   "unusual_items": -5000000.0,
+   "normalized_income": 13677000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -189,7 +233,8 @@
    "goodwill_and_intangibles": 33683000000.0,
    "retained_earnings": 201136000000.0,
    "total_debt": 297147000000.0,
-   "shares_out": 3598862582.0
+   "shares_out": 3598862582.0,
+   "normalized_income": 19142000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -216,7 +261,8 @@
    "goodwill_and_intangibles": 32946000000.0,
    "retained_earnings": 214198000000.0,
    "total_debt": 175782000000.0,
-   "shares_out": 3288943829.0
+   "shares_out": 3288943829.0,
+   "normalized_income": 19722000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -243,7 +289,8 @@
    "goodwill_and_intangibles": 31294000000.0,
    "retained_earnings": 228873000000.0,
    "total_debt": 193035000000.0,
-   "shares_out": 3092618850.0
+   "shares_out": 3092618850.0,
+   "normalized_income": 21338000000.0
   }
  ]
 }

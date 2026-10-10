@@ -1,6 +1,6 @@
 {
  "ticker": "FCSS.L",
- "fetched_at": "2026-10-10T11:57:37+00:00",
+ "fetched_at": "2026-10-10T14:47:43+00:00",
  "region": "Europa",
  "statement_currency": "GBp",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -48,8 +59,15 @@
   "equity": "yahoo",
   "receivables": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T14:47:43+00:00",
  "years": [
   {
    "fy_end": "2023-03-31",
@@ -68,7 +86,8 @@
    "equity": 1338421000.0,
    "receivables": 11939000.0,
    "total_debt": 80857000.0,
-   "shares_out": 488325628.0
+   "shares_out": 488325628.0,
+   "normalized_income": 23289000.0
   },
   {
    "fy_end": "2024-03-31",
@@ -87,7 +106,8 @@
    "equity": 1176014000.0,
    "receivables": 10066000.0,
    "total_debt": 12758000.0,
-   "shares_out": 525681434.0
+   "shares_out": 525681434.0,
+   "normalized_income": -213464000.0
   },
   {
    "fy_end": "2025-03-31",
@@ -105,7 +125,8 @@
    "cash": 49691000.0,
    "equity": 1413802000.0,
    "receivables": 7295000.0,
-   "shares_out": 494840250.0
+   "shares_out": 494840250.0,
+   "normalized_income": 338012000.0
   },
   {
    "fy_end": "2026-03-31",
@@ -123,7 +144,8 @@
    "cash": 48087000.0,
    "equity": 1412761000.0,
    "receivables": 11160000.0,
-   "shares_out": 461503322.0
+   "shares_out": 461503322.0,
+   "normalized_income": 143867000.0
   }
  ]
 }

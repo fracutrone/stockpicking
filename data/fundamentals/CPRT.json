@@ -1,6 +1,6 @@
 {
  "ticker": "CPRT",
- "fetched_at": "2026-10-10T12:41:55+00:00",
+ "fetched_at": "2026-10-10T15:40:26+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 21000,
   "website": "https://www.copart.com",
-  "longBusinessSummary": "Copart, Inc. provides online auctions and vehicle remarketing services in the United States, the United Kingdom, Germany, Brazil, Canada, the United Arab Emirates, Spain, Finland, Oman, the Republic of Ireland, and Bahrain. It offers a range of services to process and sell vehicles over the internet through its virtual bidding third generation internet auction-style sales technology. The company's services include online seller access, salvage estimation, estimating, end-of-life vehicle processing, transportation, vehicle inspection stations, on-demand reporting, title processing and express, loan payoff, flexible vehicle processing programs, buy it now, sales process, and dealer services. Its services also comprise services to sell vehicles through BluCar, CashForCars.com, CashForCars.ca, CashForCars.de, CashForCars.co.uk, and Cash-for-cars.ie; Copart Recycling service, which allows the public to purchase parts from salvaged and end-of-life vehicles; and copart 360, a proprietary technology that captures clear 360-degree views of interiors and exteriors of cars, trucks, and vans. In addition, it provides IntelliSeller, an automated tool leveraging its vehicle and sales data to assist its sellers in making vital auction decisions; Purple Wave Inc., that offers wholesale construction, agriculture, and fleet remarketing services through no-reserve online auctions; wholesale powersport vehicle remarketing services through live and online auction platforms. The company sells its products to licensed vehicle dismantlers, rebuilders, repair licensees, used vehicle dealers, and exporters, as well as to the public. Copart, Inc. was incorporated in 1982 and is headquartered in Dallas, Texas"
+  "longBusinessSummary": "Copart, Inc. provides online auctions and vehicle remarketing services in the United States, the United Kingdom, Germany, Brazil, Canada, the United Arab Emirates, Spain, Finland, Oman, the Republic of Ireland, and Bahrain. It offers a range of services to process and sell vehicles over the internet through its virtual bidding third generation internet auction-style sales technology. The company's services include online seller access, salvage estimation, estimating, end-of-life vehicle processing, transportation, vehicle inspection stations, on-demand reporting, title processing and express, loan payoff, flexible vehicle processing programs, buy it now, sales process, and dealer services. Its services also comprise services to sell vehicles through BluCar, CashForCars.com, CashForCars.ca, CashForCars.de, CashForCars.co.uk, and Cash-for-cars.ie; Copart Recycling service, which allows the public to purchase parts from salvaged and end-of-life vehicles; and copart 360, a proprietary technology that captures clear 360-degree views of interiors and exteriors of cars, trucks, and vans. In addition, it provides IntelliSeller, an automated tool leveraging its vehicle and sales data to assist its sellers in making vital auction decisions; Purple Wave Inc., that offers wholesale construction, agriculture, and fleet remarketing services through no-reserve online auctions; wholesale powersport vehicle remarketing services through live and online auction platforms. The company sells its products to licensed vehicle dismantlers, rebuilders, repair licensees, used vehicle dealers, and exporters, as well as to the public. Copart, Inc. was incorporated in 1982 and is headquartered in Dallas, Texas",
+  "targetMeanPrice": 39.0,
+  "targetLowPrice": 25.0,
+  "targetHighPrice": 55.0,
+  "numberOfAnalystOpinions": 10,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.25,
+  "forwardPE": 15.6059,
+  "forwardEps": 1.75062,
+  "trailingEps": 1.55,
+  "earningsGrowth": -0.15,
+  "revenueGrowth": 0.024
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-07-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 10090902000.0,
+    "official": 10090902000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 9187033000.0,
+    "official": 9187033000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1552449000.0,
+    "official": 1552449000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 4646958000.0,
+    "official": 4646958000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:40:26+00:00",
  "years": [
   {
    "fy_end": "2020-07-31",
@@ -169,7 +211,10 @@
    "goodwill_and_intangibles": 456634000.0,
    "retained_earnings": 3956408000.0,
    "total_debt": 119473000.0,
-   "shares_out": 952163896.0
+   "shares_out": 952163896.0,
+   "unusual_items": -16759000.0,
+   "normalized_ebitda": 1530361000.0,
+   "normalized_income": 1103755067.0
   },
   {
    "fy_end": "2023-07-31",
@@ -203,7 +248,10 @@
    "goodwill_and_intangibles": 456991000.0,
    "retained_earnings": 5189440000.0,
    "total_debt": 120453000.0,
-   "shares_out": 957344162.0
+   "shares_out": 957344162.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 1646253000.0,
+   "normalized_income": 1237741000.0
   },
   {
    "fy_end": "2024-07-31",
@@ -237,7 +285,10 @@
    "goodwill_and_intangibles": 587997000.0,
    "retained_earnings": 6545902000.0,
    "total_debt": 118733000.0,
-   "shares_out": 962967011.0
+   "shares_out": 962967011.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 1762279000.0,
+   "normalized_income": 1363020000.0
   },
   {
    "fy_end": "2025-07-31",
@@ -271,7 +322,9 @@
    "goodwill_and_intangibles": 580611000.0,
    "retained_earnings": 8093069000.0,
    "total_debt": 103739000.0,
-   "shares_out": 967478690.0
+   "shares_out": 967478690.0,
+   "normalized_ebitda": 1914498000.0,
+   "normalized_income": 1552449000.0
   },
   {
    "fy_end": "2026-07-31",

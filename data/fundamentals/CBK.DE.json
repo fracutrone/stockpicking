@@ -1,6 +1,6 @@
 {
  "ticker": "CBK.DE",
- "fetched_at": "2026-10-10T11:49:49+00:00",
+ "fetched_at": "2026-10-10T14:39:05+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.44324,
   "heldPercentInstitutions": 0.29122,
   "shortPercentOfFloat": null,
-  "averageVolume": 2412814,
+  "averageVolume": 2404869,
   "quoteType": "EQUITY",
   "exchange": "GER",
   "fullTimeEmployees": 40110,
   "website": "https://www.commerzbank.de",
-  "longBusinessSummary": "Commerzbank AG provides banking and capital market products and services to private and small business customers, corporate, financial service providers, and institutional clients in Germany, rest of Europe, the Americas, and Asia. It operates through two segments, Private and Small-Business Customers, and Corporate Clients. The company offers current, money market, checking, business accounts; insurance products; credit and debit cards; pension scheme; card payment terminal; and various loans. It also offers installment loans; renovation loans, debt structuring, car loan, overdraft facility; real estate financing; term deposits; and online banking services, as well as trades securities, such as shares, funds, ETFs, certificates, options and futures, and bonds. In addition, the company provides wealth management services. Commerzbank AG was founded in 1870 and is headquartered in Frankfurt am Main, Germany."
+  "longBusinessSummary": "Commerzbank AG provides banking and capital market products and services to private and small business customers, corporate, financial service providers, and institutional clients in Germany, rest of Europe, the Americas, and Asia. It operates through two segments, Private and Small-Business Customers, and Corporate Clients. The company offers current, money market, checking, business accounts; insurance products; credit and debit cards; pension scheme; card payment terminal; and various loans. It also offers installment loans; renovation loans, debt structuring, car loan, overdraft facility; real estate financing; term deposits; and online banking services, as well as trades securities, such as shares, funds, ETFs, certificates, options and futures, and bonds. In addition, the company provides wealth management services. Commerzbank AG was founded in 1870 and is headquartered in Frankfurt am Main, Germany.",
+  "targetMeanPrice": 41.18462,
+  "targetLowPrice": 31.6,
+  "targetHighPrice": 45.0,
+  "numberOfAnalystOpinions": 13,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.46154,
+  "forwardPE": 9.669971,
+  "forwardEps": 3.91935,
+  "trailingEps": 2.55,
+  "earningsGrowth": 3.254,
+  "revenueGrowth": 0.101
  },
  "governance": {
   "ceo": {
@@ -72,8 +83,16 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T14:39:05+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -98,7 +117,9 @@
    "goodwill_and_intangibles": 1289000000.0,
    "retained_earnings": 16495000000.0,
    "total_debt": 43765000000.0,
-   "shares_out": 1252357634.0
+   "shares_out": 1252357634.0,
+   "unusual_items": -221000000.0,
+   "normalized_income": 1588595000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -124,7 +145,9 @@
    "goodwill_and_intangibles": 1394000000.0,
    "retained_earnings": 18026000000.0,
    "total_debt": 48254000000.0,
-   "shares_out": 1240223329.0
+   "shares_out": 1240223329.0,
+   "unusual_items": -319000000.0,
+   "normalized_income": 2431669000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -150,7 +173,9 @@
    "goodwill_and_intangibles": 1785000000.0,
    "retained_earnings": 18994000000.0,
    "total_debt": 54886000000.0,
-   "shares_out": 1153590942.0
+   "shares_out": 1153590942.0,
+   "unusual_items": -537000000.0,
+   "normalized_income": 3075454000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -176,7 +201,9 @@
    "goodwill_and_intangibles": 1859000000.0,
    "retained_earnings": 19276000000.0,
    "total_debt": 72543000000.0,
-   "shares_out": 1096523505.0
+   "shares_out": 1096523505.0,
+   "unusual_items": -902000000.0,
+   "normalized_income": 3278048000.0
   }
  ]
 }

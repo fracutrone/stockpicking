@@ -1,6 +1,6 @@
 {
  "ticker": "DBX",
- "fetched_at": "2026-10-10T12:42:52+00:00",
+ "fetched_at": "2026-10-10T15:41:20+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 2113,
   "website": "https://www.dropbox.com",
-  "longBusinessSummary": "Dropbox, Inc. provides a content collaboration platform in the United States and internationally. The company's platform enables individuals, families, teams, and organizations to collaborate for free through its website or app, or through a paid subscription plan for premium features. Its platform consists of various elements, such as unified home for content, global sharing network, and product experiences and integrations. The company serves customers in the professional services, technology, media, education, industrial, consumer and retail, and financial services industries. The company was formerly known as Evenflow, Inc. and changed its name to Dropbox, Inc. in October 2009. Dropbox, Inc. was incorporated in 2007 and is headquartered in San Francisco, California."
+  "longBusinessSummary": "Dropbox, Inc. provides a content collaboration platform in the United States and internationally. The company's platform enables individuals, families, teams, and organizations to collaborate for free through its website or app, or through a paid subscription plan for premium features. Its platform consists of various elements, such as unified home for content, global sharing network, and product experiences and integrations. The company serves customers in the professional services, technology, media, education, industrial, consumer and retail, and financial services industries. The company was formerly known as Evenflow, Inc. and changed its name to Dropbox, Inc. in October 2009. Dropbox, Inc. was incorporated in 2007 and is headquartered in San Francisco, California.",
+  "targetMeanPrice": 31.8,
+  "targetLowPrice": 23.0,
+  "targetHighPrice": 42.0,
+  "numberOfAnalystOpinions": 5,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 10.400681,
+  "forwardEps": 3.30363,
+  "trailingEps": 1.81,
+  "earningsGrowth": -0.067,
+  "revenueGrowth": 0.009
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 2844900000.0,
+    "official": 2844900000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": -1797200000.0,
+    "official": -1797200000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 508400000.0,
+    "official": 508400000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2521000000.0,
+    "official": 2521000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:41:20+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -193,7 +235,10 @@
    "goodwill_and_intangibles": 491600000.0,
    "retained_earnings": -2772100000.0,
    "total_debt": 2294600000.0,
-   "shares_out": 349400000.0
+   "shares_out": 349400000.0,
+   "unusual_items": -175200000.0,
+   "normalized_ebitda": 688800000.0,
+   "normalized_income": 691608000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -226,7 +271,10 @@
    "goodwill_and_intangibles": 460300000.0,
    "retained_earnings": -2742300000.0,
    "total_debt": 2030600000.0,
-   "shares_out": 336700000.0
+   "shares_out": 336700000.0,
+   "unusual_items": 155200000.0,
+   "normalized_ebitda": 398300000.0,
+   "normalized_income": 326646400.0
   },
   {
    "fy_end": "2024-12-31",
@@ -259,7 +307,10 @@
    "goodwill_and_intangibles": 497700000.0,
    "retained_earnings": -3146500000.0,
    "total_debt": 2996600000.0,
-   "shares_out": 295900000.0
+   "shares_out": 295900000.0,
+   "unusual_items": -100000.0,
+   "normalized_ebitda": 623700000.0,
+   "normalized_income": 452388700.0
   },
   {
    "fy_end": "2025-12-31",
@@ -293,7 +344,10 @@
    "goodwill_and_intangibles": 488600000.0,
    "retained_earnings": -3815100000.0,
    "total_debt": 3587000000.0,
-   "shares_out": 242900000.0
+   "shares_out": 242900000.0,
+   "unusual_items": 1300000.0,
+   "normalized_ebitda": 852300000.0,
+   "normalized_income": 507330100.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "APTV",
- "fetched_at": "2026-10-10T12:37:53+00:00",
+ "fetched_at": "2026-10-10T15:34:51+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 140000,
   "website": "https://www.aptiv.com",
-  "longBusinessSummary": "Aptiv PLC, an industrial technology company, provides hardware and software solutions to support automotive and other industries in North America, Europe, the Middle East, Africa, the Asia Pacific, and South America. It operates through three segments: Advanced Safety and User Experience, Engineered Components, and Electrical Distribution Systems. The company offers active safety, user experience and smart vehicle compute, and software products for vehicle safety and security, including intelligent sensors, compute platforms, and software tools and services. It also provides connection systems, interconnects, and cable management and protection solutions for the distribution of power, signal, and data. Aptiv PLC was incorporated in 2011 and is based in Schaffhausen, Switzerland."
+  "longBusinessSummary": "Aptiv PLC, an industrial technology company, provides hardware and software solutions to support automotive and other industries in North America, Europe, the Middle East, Africa, the Asia Pacific, and South America. It operates through three segments: Advanced Safety and User Experience, Engineered Components, and Electrical Distribution Systems. The company offers active safety, user experience and smart vehicle compute, and software products for vehicle safety and security, including intelligent sensors, compute platforms, and software tools and services. It also provides connection systems, interconnects, and cable management and protection solutions for the distribution of power, signal, and data. Aptiv PLC was incorporated in 2011 and is based in Schaffhausen, Switzerland.",
+  "targetMeanPrice": 65.44444,
+  "targetLowPrice": 55.0,
+  "targetHighPrice": 77.0,
+  "numberOfAnalystOpinions": 18,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.65,
+  "forwardPE": 6.752392,
+  "forwardEps": 6.48659,
+  "trailingEps": 1.01,
+  "earningsGrowth": -0.353,
+  "revenueGrowth": 0.023
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 23413000000.0,
+    "official": 23413000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 9207000000.0,
+    "official": 9207000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 165000000.0,
+    "official": 165000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 20398000000.0,
+    "official": 20398000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:34:51+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -203,7 +245,10 @@
    "goodwill_and_intangibles": 7691000000.0,
    "retained_earnings": 5608000000.0,
    "total_debt": 6612000000.0,
-   "shares_out": 270949579.0
+   "shares_out": 270949579.0,
+   "unusual_items": -198000000.0,
+   "normalized_ebitda": 2169000000.0,
+   "normalized_income": 768240000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -237,7 +282,10 @@
    "goodwill_and_intangibles": 7550000000.0,
    "retained_earnings": 8162000000.0,
    "total_debt": 6305000000.0,
-   "shares_out": 279033365.0
+   "shares_out": 279033365.0,
+   "unusual_items": -240000000.0,
+   "normalized_ebitda": 2774000000.0,
+   "normalized_income": 3127600000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -271,7 +319,10 @@
    "goodwill_and_intangibles": 7164000000.0,
    "retained_earnings": 7002000000.0,
    "total_debt": 8974000000.0,
-   "shares_out": 235035739.0
+   "shares_out": 235035739.0,
+   "unusual_items": -211000000.0,
+   "normalized_ebitda": 3663000000.0,
+   "normalized_income": 1976900000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -305,7 +356,10 @@
    "goodwill_and_intangibles": 6600000000.0,
    "retained_earnings": 6227000000.0,
    "total_debt": 7734000000.0,
-   "shares_out": 212746899.0
+   "shares_out": 212746899.0,
+   "unusual_items": -833000000.0,
+   "normalized_ebitda": 3104000000.0,
+   "normalized_income": 823070000.0
   }
  ]
 }

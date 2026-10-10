@@ -1,6 +1,6 @@
 {
  "ticker": "MRNA",
- "fetched_at": "2026-10-10T12:52:02+00:00",
+ "fetched_at": "2026-10-10T15:50:08+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 4700,
   "website": "https://www.modernatx.com",
-  "longBusinessSummary": "Moderna, Inc., a biotechnology company, provides messenger RNA medicines in the United States, Europe, and internationally. The company's respiratory vaccines include spikevax, mNEXSPIKE, mRESVIA, COVID, RSV, seasonal influenza, combination, and pandemic influenza vaccine; latent vaccines comprise cytomegalovirus, epstein-barr virus, and human immunodeficiency virus vaccines; enteric viruses include norovirus; public health vaccines consist of Zika, Nipah, and Mpox vaccines; and bacterial diseases vaccines, such as lyme vaccines. It also provides oncology therapeutics, such as intismeran autogene, cancer antigen therapy, t-cell engager, and cell therapy enhancer; and rare disease products, including propionic and methylmalonic acidemia, and cystic fibrosis. It has strategic alliances and collaborations with Merck & Co., Inc; Vertex Pharmaceuticals Incorporated; Vertex Pharmaceuticals (Europe) Limited; immatics N.V.; Defense Advanced Research Projects Agency; Biomedical Advanced Research and Development Authority; Institute for Life Changing Medicines; The Bill & Melinda Gates Foundation; and OpenAI. The company was formerly known as Moderna Therapeutics, Inc. and changed its name to Moderna, Inc. in August 2018. Moderna, Inc. was founded in 2010 and is headquartered in Cambridge, Massachusetts."
+  "longBusinessSummary": "Moderna, Inc., a biotechnology company, provides messenger RNA medicines in the United States, Europe, and internationally. The company's respiratory vaccines include spikevax, mNEXSPIKE, mRESVIA, COVID, RSV, seasonal influenza, combination, and pandemic influenza vaccine; latent vaccines comprise cytomegalovirus, epstein-barr virus, and human immunodeficiency virus vaccines; enteric viruses include norovirus; public health vaccines consist of Zika, Nipah, and Mpox vaccines; and bacterial diseases vaccines, such as lyme vaccines. It also provides oncology therapeutics, such as intismeran autogene, cancer antigen therapy, t-cell engager, and cell therapy enhancer; and rare disease products, including propionic and methylmalonic acidemia, and cystic fibrosis. It has strategic alliances and collaborations with Merck & Co., Inc; Vertex Pharmaceuticals Incorporated; Vertex Pharmaceuticals (Europe) Limited; immatics N.V.; Defense Advanced Research Projects Agency; Biomedical Advanced Research and Development Authority; Institute for Life Changing Medicines; The Bill & Melinda Gates Foundation; and OpenAI. The company was formerly known as Moderna Therapeutics, Inc. and changed its name to Moderna, Inc. in August 2018. Moderna, Inc. was founded in 2010 and is headquartered in Cambridge, Massachusetts.",
+  "targetMeanPrice": 122.66667,
+  "targetLowPrice": 45.0,
+  "targetHighPrice": 200.0,
+  "numberOfAnalystOpinions": 18,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.82609,
+  "forwardPE": -50.70297,
+  "forwardEps": -4.43761,
+  "trailingEps": -7.98,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.021
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 12338000000.0,
+    "official": 12338000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 8650000000.0,
+    "official": 8650000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -2822000000.0,
+    "official": -2822000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1922000000.0,
+    "official": 1944000000.0,
+    "diff": 0.011317
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:50:08+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -187,7 +229,10 @@
    "goodwill_and_intangibles": 0.0,
    "retained_earnings": 18320000000.0,
    "total_debt": 1200000000.0,
-   "shares_out": 385000000.0
+   "shares_out": 385000000.0,
+   "unusual_items": -20000000.0,
+   "normalized_ebitda": 9768000000.0,
+   "normalized_income": 8362000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -222,7 +267,10 @@
    "goodwill_and_intangibles": 96000000.0,
    "retained_earnings": 13606000000.0,
    "total_debt": 1243000000.0,
-   "shares_out": 382000000.0
+   "shares_out": 382000000.0,
+   "unusual_items": -72000000.0,
+   "normalized_ebitda": -3618000000.0,
+   "normalized_income": -4714000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -257,7 +305,10 @@
    "goodwill_and_intangibles": 92000000.0,
    "retained_earnings": 10045000000.0,
    "total_debt": 747000000.0,
-   "shares_out": 386000000.0
+   "shares_out": 386000000.0,
+   "unusual_items": -56000000.0,
+   "normalized_ebitda": -3338000000.0,
+   "normalized_income": -3505714166.897699
   },
   {
    "fy_end": "2025-12-31",
@@ -292,7 +343,10 @@
    "goodwill_and_intangibles": 97000000.0,
    "retained_earnings": 7223000000.0,
    "total_debt": 1305000000.0,
-   "shares_out": 394000000.0
+   "shares_out": 394000000.0,
+   "unusual_items": -5000000.0,
+   "normalized_ebitda": -2538000000.0,
+   "normalized_income": -2818050000.0
   }
  ]
 }

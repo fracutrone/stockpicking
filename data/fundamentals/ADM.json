@@ -1,6 +1,6 @@
 {
  "ticker": "ADM",
- "fetched_at": "2026-10-10T12:36:27+00:00",
+ "fetched_at": "2026-10-10T15:33:33+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 40798,
   "website": "https://www.adm.com",
-  "longBusinessSummary": "Archer-Daniels-Midland Company provides human and animal nutrition ingredients and solutions in the United States, Switzerland, the Cayman Islands, Brazil, Mexico, Canada, the United Kingdom, and internationally. It operates in three segments: Ag Services and Oilseeds; Carbohydrate Solutions; and Nutrition. The company engages in the origination, merchandising, transportation, and storage of agricultural raw materials, as well as the crushing and processing of oilseeds, including soybeans and soft seeds, such as cottonseed, sunflower seed, canola, rapeseed, and flaxseed; produces and markets vegetable oils and oilseed protein meals used by food, feed, energy, and industrial customers; sale of crude and partially refined vegetable oils; supplies peanuts and peanut-derived ingredients; and manufactures cotton cellulose pulp. It is also involved in the grain sourcing, handling, and multimodal transportation network supporting import, export, and distribution activities; structured trade finance activities; corn and wheat wet and dry milling and related processing activities; production of distillers' grains, corn gluten feed, and corn gluten meal for use as animal feed ingredients; and carbon capture and sequestration and other emissions-reduction initiatives. In addition, the company engages in the creation, manufacturing, sale, and distribution of an array of ingredients and solutions comprising plant-based proteins, flavors and colors derived from nature, flavor systems, emulsifiers, soluble fiber, polyols, hydrocolloids, probiotics, prebiotics, postbiotics, enzymes, botanical extracts, and other specialty food and feed ingredients and systems. Further, it is involved in the derivatives and commodity exchanges and clearing houses; and insurance coverage for certain property, casualty, marine, medical, and other miscellaneous risks. The company was founded in 1902 and is based in Chicago, Illinois."
+  "longBusinessSummary": "Archer-Daniels-Midland Company provides human and animal nutrition ingredients and solutions in the United States, Switzerland, the Cayman Islands, Brazil, Mexico, Canada, the United Kingdom, and internationally. It operates in three segments: Ag Services and Oilseeds; Carbohydrate Solutions; and Nutrition. The company engages in the origination, merchandising, transportation, and storage of agricultural raw materials, as well as the crushing and processing of oilseeds, including soybeans and soft seeds, such as cottonseed, sunflower seed, canola, rapeseed, and flaxseed; produces and markets vegetable oils and oilseed protein meals used by food, feed, energy, and industrial customers; sale of crude and partially refined vegetable oils; supplies peanuts and peanut-derived ingredients; and manufactures cotton cellulose pulp. It is also involved in the grain sourcing, handling, and multimodal transportation network supporting import, export, and distribution activities; structured trade finance activities; corn and wheat wet and dry milling and related processing activities; production of distillers' grains, corn gluten feed, and corn gluten meal for use as animal feed ingredients; and carbon capture and sequestration and other emissions-reduction initiatives. In addition, the company engages in the creation, manufacturing, sale, and distribution of an array of ingredients and solutions comprising plant-based proteins, flavors and colors derived from nature, flavor systems, emulsifiers, soluble fiber, polyols, hydrocolloids, probiotics, prebiotics, postbiotics, enzymes, botanical extracts, and other specialty food and feed ingredients and systems. Further, it is involved in the derivatives and commodity exchanges and clearing houses; and insurance coverage for certain property, casualty, marine, medical, and other miscellaneous risks. The company was founded in 1902 and is based in Chicago, Illinois.",
+  "targetMeanPrice": 80.4,
+  "targetLowPrice": 60.0,
+  "targetHighPrice": 95.0,
+  "numberOfAnalystOpinions": 10,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.0,
+  "forwardPE": 13.999849,
+  "forwardEps": 5.70649,
+  "trailingEps": 3.65,
+  "earningsGrowth": 3.156,
+  "revenueGrowth": 0.072
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 52389000000.0,
+    "official": 52389000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 22733000000.0,
+    "official": 22740000000.0,
+    "diff": 0.000308
+   },
+   "net_income": {
+    "yahoo": 1078000000.0,
+    "official": 1078000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 80269000000.0,
+    "official": 80269000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:33:33+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -201,7 +243,10 @@
    "goodwill_and_intangibles": 6544000000.0,
    "retained_earnings": 23646000000.0,
    "total_debt": 9180000000.0,
-   "shares_out": 547000000.0
+   "shares_out": 547000000.0,
+   "unusual_items": 12000000.0,
+   "normalized_ebitda": 6645000000.0,
+   "normalized_income": 4329992000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -236,7 +281,10 @@
    "goodwill_and_intangibles": 6341000000.0,
    "retained_earnings": 23465000000.0,
    "total_debt": 8365000000.0,
-   "shares_out": 513000000.0
+   "shares_out": 513000000.0,
+   "unusual_items": -304000000.0,
+   "normalized_ebitda": 6304000000.0,
+   "normalized_income": 3728380530.973451
   },
   {
    "fy_end": "2024-12-31",
@@ -271,7 +319,10 @@
    "goodwill_and_intangibles": 6769000000.0,
    "retained_earnings": 21933000000.0,
    "total_debt": 10157000000.0,
-   "shares_out": 478000000.0
+   "shares_out": 478000000.0,
+   "unusual_items": -518000000.0,
+   "normalized_ebitda": 4620000000.0,
+   "normalized_income": 2208702000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -306,7 +357,10 @@
    "goodwill_and_intangibles": 6745000000.0,
    "retained_earnings": 21983000000.0,
    "total_debt": 8410000000.0,
-   "shares_out": 480000000.0
+   "shares_out": 480000000.0,
+   "unusual_items": -396000000.0,
+   "normalized_ebitda": 3444000000.0,
+   "normalized_income": 1416580000.0
   }
  ]
 }

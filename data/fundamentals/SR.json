@@ -1,6 +1,6 @@
 {
  "ticker": "SR",
- "fetched_at": "2026-10-10T12:58:39+00:00",
+ "fetched_at": "2026-10-10T15:56:20+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 3497,
   "website": "https://www.spireenergy.com",
-  "longBusinessSummary": "Spire Inc., together with its subsidiaries, engages in the purchase, retail distribution, and sale of natural gas to residential, commercial, industrial, and other end-users of natural gas in the United States. The company operates through three segments: Gas Utility, Gas Marketing, and Midstream. It is also involved in the marketing of natural gas and related services; and transportation and storage of natural gas. In addition, the company engages in the operation of propane through its propane pipeline, risk management, and other activities. Spire Inc. was formerly known as The Laclede Group, Inc. and changed its name to Spire Inc. in April 2016. Spire Inc. was founded in 1857 and is based in Saint Louis, Missouri."
+  "longBusinessSummary": "Spire Inc., together with its subsidiaries, engages in the purchase, retail distribution, and sale of natural gas to residential, commercial, industrial, and other end-users of natural gas in the United States. The company operates through three segments: Gas Utility, Gas Marketing, and Midstream. It is also involved in the marketing of natural gas and related services; and transportation and storage of natural gas. In addition, the company engages in the operation of propane through its propane pipeline, risk management, and other activities. Spire Inc. was formerly known as The Laclede Group, Inc. and changed its name to Spire Inc. in April 2016. Spire Inc. was founded in 1857 and is based in Saint Louis, Missouri.",
+  "targetMeanPrice": 91.4,
+  "targetLowPrice": 79.0,
+  "targetHighPrice": 102.0,
+  "numberOfAnalystOpinions": 10,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": 14.29363,
+  "forwardEps": 5.48636,
+  "trailingEps": 3.47,
+  "earningsGrowth": 11.382,
+  "revenueGrowth": 0.192
  },
  "governance": {
   "ceo": {
@@ -82,8 +93,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-09-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 11575300000.0,
+    "official": 11575300000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3389400000.0,
+    "official": 3389400000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 271700000.0,
+    "official": 271700000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2476400000.0,
+    "official": 2476400000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:56:21+00:00",
  "years": [
   {
    "fy_end": "2019-09-30",
@@ -181,7 +223,10 @@
    "goodwill_and_intangibles": 1171600000.0,
    "retained_earnings": 905500000.0,
    "total_debt": 3239700000.0,
-   "shares_out": 52494543.0
+   "shares_out": 52494543.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 636800000.0,
+   "normalized_income": 220800000.0
   },
   {
    "fy_end": "2023-09-30",
@@ -213,7 +258,9 @@
    "goodwill_and_intangibles": 1171600000.0,
    "retained_earnings": 958000000.0,
    "total_debt": 4666100000.0,
-   "shares_out": 53200000.0
+   "shares_out": 53200000.0,
+   "normalized_ebitda": 696800000.0,
+   "normalized_income": 217500000.0
   },
   {
    "fy_end": "2024-09-30",
@@ -245,7 +292,9 @@
    "goodwill_and_intangibles": 1171600000.0,
    "retained_earnings": 1018700000.0,
    "total_debt": 4693400000.0,
-   "shares_out": 57749667.0
+   "shares_out": 57749667.0,
+   "normalized_ebitda": 789100000.0,
+   "normalized_income": 250900000.0
   },
   {
    "fy_end": "2025-09-30",
@@ -277,7 +326,9 @@
    "goodwill_and_intangibles": 1171600000.0,
    "retained_earnings": 1087600000.0,
    "total_debt": 5173900000.0,
-   "shares_out": 59025961.0
+   "shares_out": 59025961.0,
+   "normalized_ebitda": 833700000.0,
+   "normalized_income": 271700000.0
   }
  ]
 }

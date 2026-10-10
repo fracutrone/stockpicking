@@ -1,6 +1,6 @@
 {
  "ticker": "WPP.L",
- "fetched_at": "2026-10-10T12:26:38+00:00",
+ "fetched_at": "2026-10-10T15:30:02+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 97388,
   "website": "https://www.wpp.com",
-  "longBusinessSummary": "WPP plc, a creative transformation company, provides communications, experience, commerce, and technology services in North America, the United Kingdom, Western Continental Europe, the Asia Pacific, Latin America, Africa, the Middle East, and Central and Eastern Europe. The company operates through three segments: Global Integrated Agencies, Public Relations, and Specialist Agencies. It offers marketing strategy, creative ideation, production, commerce, influencer marketing, social media management, and technology implementation services; media strategy, planning, buying and activation, commerce media, data analytics, and consulting services; and media management, public affairs, reputation, risk and crisis management, social media management, and strategic advisory services. The company also provides brand consulting, brand identity, product and service design, and corporate and brand publication services. WPP plc was founded in 1985 and is based in London, the United Kingdom."
+  "longBusinessSummary": "WPP plc, a creative transformation company, provides communications, experience, commerce, and technology services in North America, the United Kingdom, Western Continental Europe, the Asia Pacific, Latin America, Africa, the Middle East, and Central and Eastern Europe. The company operates through three segments: Global Integrated Agencies, Public Relations, and Specialist Agencies. It offers marketing strategy, creative ideation, production, commerce, influencer marketing, social media management, and technology implementation services; media strategy, planning, buying and activation, commerce media, data analytics, and consulting services; and media management, public affairs, reputation, risk and crisis management, social media management, and strategic advisory services. The company also provides brand consulting, brand identity, product and service design, and corporate and brand publication services. WPP plc was founded in 1985 and is based in London, the United Kingdom.",
+  "targetMeanPrice": 387.333,
+  "targetLowPrice": 250.0,
+  "targetHighPrice": 555.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.06667,
+  "forwardPE": 6.961808,
+  "forwardEps": 0.55431,
+  "trailingEps": -0.22,
+  "earningsGrowth": -0.575,
+  "revenueGrowth": -0.044
  },
  "governance": {
   "ceo": {
@@ -75,8 +86,35 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "equity": {
+    "yahoo": 2540000000.0,
+    "official": 2540000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -215000000.0,
+    "official": -215000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 13550000000.0,
+    "official": 13550000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:30:02+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -109,7 +147,10 @@
    "goodwill_and_intangibles": 9905300000.0,
    "retained_earnings": 3759700000.0,
    "total_debt": 7181400000.0,
-   "shares_out": 1069725369.0
+   "shares_out": 1069725369.0,
+   "unusual_items": 220000000.0,
+   "normalized_ebitda": 1812000000.0,
+   "normalized_income": 535820000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -142,7 +183,10 @@
    "goodwill_and_intangibles": 9239000000.0,
    "retained_earnings": 3488000000.0,
    "total_debt": 6875000000.0,
-   "shares_out": 1074347053.0
+   "shares_out": 1074347053.0,
+   "unusual_items": 150000000.0,
+   "normalized_ebitda": 1760000000.0,
+   "normalized_income": -1345000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -175,7 +219,10 @@
    "goodwill_and_intangibles": 8347000000.0,
    "retained_earnings": 2827000000.0,
    "total_debt": 6348000000.0,
-   "shares_out": 1078762589.0
+   "shares_out": 1078762589.0,
+   "unusual_items": 68000000.0,
+   "normalized_ebitda": 1874000000.0,
+   "normalized_income": 500514064.015519
   },
   {
    "fy_end": "2025-12-31",
@@ -208,7 +255,10 @@
    "goodwill_and_intangibles": 7680000000.0,
    "retained_earnings": 2052000000.0,
    "total_debt": 6832000000.0,
-   "shares_out": 1078524533.0
+   "shares_out": 1078524533.0,
+   "unusual_items": 95000000.0,
+   "normalized_ebitda": 835000000.0,
+   "normalized_income": -285708500.0
   }
  ]
 }

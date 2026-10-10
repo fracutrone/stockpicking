@@ -1,6 +1,6 @@
 {
  "ticker": "PM",
- "fetched_at": "2026-10-10T12:55:39+00:00",
+ "fetched_at": "2026-10-10T15:53:20+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 84900,
   "website": "https://www.pmi.com",
-  "longBusinessSummary": "Philip Morris International Inc. operates as a tobacco company. The company offers cigarettes and smoke-free products, including heat-not-burn, e-vapor, and oral nicotine products under the IQOS, VEEV, and ZYN brands; and consumer accessories, such as lighters and matches. It also offers wellness products. The company was incorporated in 1987 and is headquartered in Stamford, Connecticut."
+  "longBusinessSummary": "Philip Morris International Inc. operates as a tobacco company. The company offers cigarettes and smoke-free products, including heat-not-burn, e-vapor, and oral nicotine products under the IQOS, VEEV, and ZYN brands; and consumer accessories, such as lighters and matches. It also offers wellness products. The company was incorporated in 1987 and is headquartered in Stamford, Connecticut.",
+  "targetMeanPrice": 208.13333,
+  "targetLowPrice": 175.0,
+  "targetHighPrice": 230.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.6875,
+  "forwardPE": 21.911945,
+  "forwardEps": 9.18175,
+  "trailingEps": 6.96,
+  "earningsGrowth": -0.075,
+  "revenueGrowth": 0.104
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 69185000000.0,
+    "official": 69185000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": -9994000000.0,
+    "official": -9994000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 11348000000.0,
+    "official": 11348000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 40648000000.0,
+    "official": 40648000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:53:20+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -200,7 +242,10 @@
    "goodwill_and_intangibles": 26387000000.0,
    "retained_earnings": 34289000000.0,
    "total_debt": 40512000000.0,
-   "shares_out": 1550217711.0
+   "shares_out": 1550217711.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 13479000000.0,
+   "normalized_income": 9048000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -234,7 +279,10 @@
    "goodwill_and_intangibles": 26643000000.0,
    "retained_earnings": 34090000000.0,
    "total_debt": 43211000000.0,
-   "shares_out": 1552424531.0
+   "shares_out": 1552424531.0,
+   "unusual_items": -665000000.0,
+   "normalized_ebitda": 14039000000.0,
+   "normalized_income": 8329154545.454545
   },
   {
    "fy_end": "2024-12-31",
@@ -268,7 +316,10 @@
    "goodwill_and_intangibles": 27927000000.0,
    "retained_earnings": 32869000000.0,
    "total_debt": 42303000000.0,
-   "shares_out": 1554845600.0
+   "shares_out": 1554845600.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 15749000000.0,
+   "normalized_income": 9373000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -302,7 +353,10 @@
    "goodwill_and_intangibles": 28148000000.0,
    "retained_earnings": 35400000000.0,
    "total_debt": 45302000000.0,
-   "shares_out": 1556656689.0
+   "shares_out": 1556656689.0,
+   "unusual_items": -41000000.0,
+   "normalized_ebitda": 17504000000.0,
+   "normalized_income": 11380923000.0
   }
  ]
 }

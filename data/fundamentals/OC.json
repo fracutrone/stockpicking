@@ -1,6 +1,6 @@
 {
  "ticker": "OC",
- "fetched_at": "2026-10-10T12:53:42+00:00",
+ "fetched_at": "2026-10-10T15:51:53+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 25000,
   "website": "https://www.owenscorning.com",
-  "longBusinessSummary": "Owens Corning provides residential and commercial building products in the United States, Europe, the Asia Pacific, and internationally. It operates through three segments: Roofing, Insulation, and Doors. The company offers laminate and strip asphalt roofing shingles, roofing components, and oxidized asphalt. It also provides high, mid, and low temperature products; thermal and acoustical batts, loosefill insulation, spray foam insulation, wet use chopped strand, foam sheathing and accessories under the Owens Corning PINK, Next Gen, and FIBERGLAS Insulation brands; and glass fiber pipe insulation, energy efficient flexible duct media, bonded and granulated stone wool insulation, and cellular glass insulation and foam insulation under the FOAMULAR, FOAMGLAS, and Paroc brand names. In addition, the company offers residential interior and exterior doors; glass, fiberglass and metal, and door components such as frames, sills, weather-stripping, hinges and locks. Further, it manufactures, fabricates, and sells glass reinforcements in the form of fiber and mats. The company distributes its products to distributors, home centers and lumberyards, installers, retailers, homebuilders, contractors, dealers, building products retailers, and remodeling contractors. Owens Corning was incorporated in 1938 and is headquartered in Toledo, Ohio."
+  "longBusinessSummary": "Owens Corning provides residential and commercial building products in the United States, Europe, the Asia Pacific, and internationally. It operates through three segments: Roofing, Insulation, and Doors. The company offers laminate and strip asphalt roofing shingles, roofing components, and oxidized asphalt. It also provides high, mid, and low temperature products; thermal and acoustical batts, loosefill insulation, spray foam insulation, wet use chopped strand, foam sheathing and accessories under the Owens Corning PINK, Next Gen, and FIBERGLAS Insulation brands; and glass fiber pipe insulation, energy efficient flexible duct media, bonded and granulated stone wool insulation, and cellular glass insulation and foam insulation under the FOAMULAR, FOAMGLAS, and Paroc brand names. In addition, the company offers residential interior and exterior doors; glass, fiberglass and metal, and door components such as frames, sills, weather-stripping, hinges and locks. Further, it manufactures, fabricates, and sells glass reinforcements in the form of fiber and mats. The company distributes its products to distributors, home centers and lumberyards, installers, retailers, homebuilders, contractors, dealers, building products retailers, and remodeling contractors. Owens Corning was incorporated in 1938 and is headquartered in Toledo, Ohio.",
+  "targetMeanPrice": 154.5,
+  "targetLowPrice": 106.0,
+  "targetHighPrice": 198.0,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.05556,
+  "forwardPE": 10.055492,
+  "forwardEps": 11.353,
+  "trailingEps": -4.94,
+  "earningsGrowth": -0.342,
+  "revenueGrowth": 0.003
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 12980000000.0,
+    "official": 12980000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3853000000.0,
+    "official": 3853000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -522000000.0,
+    "official": -522000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 10103000000.0,
+    "official": 10103000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:51:53+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -200,7 +242,10 @@
    "goodwill_and_intangibles": 2985000000.0,
    "retained_earnings": 3794000000.0,
    "total_debt": 3021000000.0,
-   "shares_out": 91900000.0
+   "shares_out": 91900000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 2254000000.0,
+   "normalized_income": 1241000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -234,7 +279,10 @@
    "goodwill_and_intangibles": 2920000000.0,
    "retained_earnings": 4794000000.0,
    "total_debt": 3047000000.0,
-   "shares_out": 87200000.0
+   "shares_out": 87200000.0,
+   "unusual_items": 189000000.0,
+   "normalized_ebitda": 1916000000.0,
+   "normalized_income": 924140000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -268,7 +316,10 @@
    "goodwill_and_intangibles": 5425000000.0,
    "retained_earnings": 5224000000.0,
    "total_debt": 5100000000.0,
-   "shares_out": 85384321.0
+   "shares_out": 85384321.0,
+   "unusual_items": -91000000.0,
+   "normalized_ebitda": 2251000000.0,
+   "normalized_income": 1014340000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -302,7 +353,10 @@
    "goodwill_and_intangibles": 4214000000.0,
    "retained_earnings": 4463000000.0,
    "total_debt": 5172000000.0,
-   "shares_out": 80200000.0
+   "shares_out": 80200000.0,
+   "unusual_items": -1204000000.0,
+   "normalized_ebitda": 2258000000.0,
+   "normalized_income": 708137200.0
   }
  ]
 }

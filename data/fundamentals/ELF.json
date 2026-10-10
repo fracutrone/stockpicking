@@ -1,6 +1,6 @@
 {
  "ticker": "ELF",
- "fetched_at": "2026-10-10T12:44:14+00:00",
+ "fetched_at": "2026-10-10T15:42:37+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 849,
   "website": "https://www.elfbeauty.com",
-  "longBusinessSummary": "e.l.f. Beauty, Inc., a beauty company, provides cosmetics and skin care products worldwide. The company offers eye, lip, face, and skin care products. It offers products under the e.l.f. Cosmetics, e.l.f. Skin, Well People, Naturium, and Rhode brand names. The company sells its products through national and international retailers and direct-to-consumer through its e-commerce channel. The company was formerly known as J.A. Cosmetics Holdings, Inc. and changed its name to e.l.f. Beauty, Inc. in April 2016. e.l.f. Beauty, Inc. was founded in 2004 and is headquartered in Oakland, California."
+  "longBusinessSummary": "e.l.f. Beauty, Inc., a beauty company, provides cosmetics and skin care products worldwide. The company offers eye, lip, face, and skin care products. It offers products under the e.l.f. Cosmetics, e.l.f. Skin, Well People, Naturium, and Rhode brand names. The company sells its products through national and international retailers and direct-to-consumer through its e-commerce channel. The company was formerly known as J.A. Cosmetics Holdings, Inc. and changed its name to e.l.f. Beauty, Inc. in April 2016. e.l.f. Beauty, Inc. was founded in 2004 and is headquartered in Oakland, California.",
+  "targetMeanPrice": 105.0,
+  "targetLowPrice": 65.0,
+  "targetHighPrice": 127.0,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.72222,
+  "forwardPE": 28.255325,
+  "forwardEps": 3.86582,
+  "trailingEps": 0.98,
+  "earningsGrowth": 0.931,
+  "revenueGrowth": 0.355
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-03-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 2394158000.0,
+    "official": 2394158000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1130530000.0,
+    "official": 1130530000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 26318000.0,
+    "official": 26318000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1636472000.0,
+    "official": 1636472000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:42:37+00:00",
  "years": [
   {
    "fy_end": "2020-03-31",
@@ -203,7 +245,10 @@
    "goodwill_and_intangibles": 249661000.0,
    "retained_earnings": -421999000.0,
    "total_debt": 60881000.0,
-   "shares_out": 53770482.0
+   "shares_out": 53770482.0,
+   "unusual_items": -176000.0,
+   "normalized_ebitda": 85490000.0,
+   "normalized_income": 61699012.079783
   },
   {
    "fy_end": "2024-03-31",
@@ -237,7 +282,10 @@
    "goodwill_and_intangibles": 565694000.0,
    "retained_earnings": -294336000.0,
    "total_debt": 161819000.0,
-   "shares_out": 55583660.0
+   "shares_out": 55583660.0,
+   "unusual_items": -2875000.0,
+   "normalized_ebitda": 185442000.0,
+   "normalized_income": 130264875.0
   },
   {
    "fy_end": "2025-03-31",
@@ -271,7 +319,10 @@
    "goodwill_and_intangibles": 548280000.0,
    "retained_earnings": -182247000.0,
    "total_debt": 256676000.0,
-   "shares_out": 55730037.0
+   "shares_out": 55730037.0,
+   "unusual_items": -13000.0,
+   "normalized_ebitda": 206261000.0,
+   "normalized_income": 112099010.0
   },
   {
    "fy_end": "2026-03-31",
@@ -305,7 +356,10 @@
    "goodwill_and_intangibles": 1406585000.0,
    "retained_earnings": -155929000.0,
    "total_debt": 841676000.0,
-   "shares_out": 59089708.0
+   "shares_out": 59089708.0,
+   "unusual_items": -58323000.0,
+   "normalized_ebitda": 218924000.0,
+   "normalized_income": 64286273.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "RJF",
- "fetched_at": "2026-10-10T12:56:47+00:00",
+ "fetched_at": "2026-10-10T15:54:29+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 19500,
   "website": "https://www.raymondjames.com",
-  "longBusinessSummary": "Raymond James Financial, Inc., a diversified financial services company, provides private client group, capital markets, asset management, banking, and other services to individuals, corporations, and municipalities in the United States, Canada, and Europe. The Private Client Group segment offers financial planning, investment advisory, securities transaction, investment services, portfolio management services, insurance and annuity products, and mutual funds; support to third-party mutual fund and annuity companies, including sales and marketing support, as well as distribution and accounting, and administrative services; margin loans; securities borrowing and lending services; and custodial, trade execution, research, and other support and services. The Capital Markets segment provides investment banking services, such as equity and debt underwriting, and merger and acquisition advisory; and fixed income and equity brokerage services. This segment also offers institutional sales, securities trading, equity research, and the syndication and management of investments in low-income housing funds and funds of a similar nature. The Asset Management segment provides asset management, portfolio management, and related administrative services to retail and institutional clients; and administrative support services, such as record-keeping. The Bank segment offers various types of loans, including securities-based, corporate, commercial and industrial, commercial real estate and construction, real estate investment trust, residential mortgage, and tax-exempt loans; Federal Deposit Insurance Corporation-insured deposit accounts; retail and corporate deposit; and liquidity management products and services. The Other segment engages in the private equity investments comprising investments in third-party funds. The company offers corporate, retail banking and trust services. Raymond James Financial, Inc. was founded in 1962 and is headquartered in Saint Petersburg, Florida."
+  "longBusinessSummary": "Raymond James Financial, Inc., a diversified financial services company, provides private client group, capital markets, asset management, banking, and other services to individuals, corporations, and municipalities in the United States, Canada, and Europe. The Private Client Group segment offers financial planning, investment advisory, securities transaction, investment services, portfolio management services, insurance and annuity products, and mutual funds; support to third-party mutual fund and annuity companies, including sales and marketing support, as well as distribution and accounting, and administrative services; margin loans; securities borrowing and lending services; and custodial, trade execution, research, and other support and services. The Capital Markets segment provides investment banking services, such as equity and debt underwriting, and merger and acquisition advisory; and fixed income and equity brokerage services. This segment also offers institutional sales, securities trading, equity research, and the syndication and management of investments in low-income housing funds and funds of a similar nature. The Asset Management segment provides asset management, portfolio management, and related administrative services to retail and institutional clients; and administrative support services, such as record-keeping. The Bank segment offers various types of loans, including securities-based, corporate, commercial and industrial, commercial real estate and construction, real estate investment trust, residential mortgage, and tax-exempt loans; Federal Deposit Insurance Corporation-insured deposit accounts; retail and corporate deposit; and liquidity management products and services. The Other segment engages in the private equity investments comprising investments in third-party funds. The company offers corporate, retail banking and trust services. Raymond James Financial, Inc. was founded in 1962 and is headquartered in Saint Petersburg, Florida.",
+  "targetMeanPrice": 185.42857,
+  "targetLowPrice": 160.0,
+  "targetHighPrice": 209.0,
+  "numberOfAnalystOpinions": 14,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.4375,
+  "forwardPE": 11.118959,
+  "forwardEps": 14.24414,
+  "trailingEps": 11.47,
+  "earningsGrowth": 0.42,
+  "revenueGrowth": 0.151
  },
  "governance": {
   "ceo": {
@@ -78,8 +89,38 @@
   "retained_earnings": "sec",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "noninterest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-09-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 88230000000.0,
+    "official": 88230000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 12503000000.0,
+    "official": 12503000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2135000000.0,
+    "official": 2135000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 13842000000.0,
+    "official": 15912000000.0,
+    "diff": 0.13009
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:54:29+00:00",
  "years": [
   {
    "fy_end": "2019-09-30",
@@ -167,7 +208,9 @@
    "goodwill_and_intangibles": 1931000000.0,
    "retained_earnings": 8843000000.0,
    "total_debt": 3329000000.0,
-   "shares_out": 215122523.0
+   "shares_out": 215122523.0,
+   "unusual_items": 0.0,
+   "normalized_income": 1509000000.0
   },
   {
    "fy_end": "2023-09-30",
@@ -195,7 +238,9 @@
    "goodwill_and_intangibles": 1907000000.0,
    "retained_earnings": 10213000000.0,
    "total_debt": 3139000000.0,
-   "shares_out": 208769095.0
+   "shares_out": 208769095.0,
+   "unusual_items": 0.0,
+   "normalized_income": 1739000000.0
   },
   {
    "fy_end": "2024-09-30",
@@ -223,7 +268,8 @@
    "goodwill_and_intangibles": 1886000000.0,
    "retained_earnings": 11894000000.0,
    "total_debt": 3089000000.0,
-   "shares_out": 203291449.0
+   "shares_out": 203291449.0,
+   "normalized_income": 2068000000.0
   },
   {
    "fy_end": "2025-09-30",
@@ -251,7 +297,8 @@
    "goodwill_and_intangibles": 1847000000.0,
    "retained_earnings": 13604000000.0,
    "total_debt": 4220000000.0,
-   "shares_out": 198139594.0
+   "shares_out": 198139594.0,
+   "normalized_income": 2135000000.0
   }
  ]
 }

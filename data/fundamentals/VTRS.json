@@ -1,6 +1,6 @@
 {
  "ticker": "VTRS",
- "fetched_at": "2026-10-10T13:01:51+00:00",
+ "fetched_at": "2026-10-10T15:59:19+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 30000,
   "website": "https://www.viatris.com",
-  "longBusinessSummary": "Viatris Inc., together with its subsidiaries, operates as a healthcare company in North America, Europe, China, Taiwan, Hong Kong, Japan, Australia, New Zealand, rest of Asia, Africa, Latin America, and the Middle East. It operates in four segments: Developed Markets, Greater China, JANZ, and Emerging Markets. The company offers prescription brand drugs, generic drugs, complex generic drugs, and biosimilars. It also provides drugs in various therapeutic areas covering various noncommunicable and infectious diseases, including cardiovascular, CNS and anesthesia, dermatology, diabetes and metabolism, eye care, gastroenterology, immunology, oncology, and respiratory and allergy, as well as support services, such as diagnostic clinics, educational seminars, and digital tools to help patients better manage their health. In addition, the company offers medicines in the form of oral solid doses, injectables, and complex dosage forms to retail and pharmacy establishments, wholesalers and distributors, payers, insurers and governments, and institutions. It distributes its products through pharmaceutical wholesalers/distributors, pharmaceutical retailers, institutional pharmacies, mail-order and e-commerce pharmacies, and specialty pharmacies under the Lyrica, Lipitor, Celebrex, Viagra, Creon, Influvac, Wixela Inhub, EpiPen Auto-Injector, Fraxiparine, Yupelri, Norvasc, Amitiza, Effexor, Lipacreon, Zoloft, Xalabrands, Dymista, Xanax, and Breyna brands. The company has collaboration agreements with Mapi Pharma Ltd. to develop and commercialize long-acting glatiramer acetate depot products and additional products; Revance Therapeutics, Inc. to develop, manufacture, and commercialize a biosimilar to the branded biologic product, BOTOX; and Theravance Biopharma, Inc. to develop and commercialize revefenacin. Viatris Inc. was founded in 1961 and is headquartered in Canonsburg, Pennsylvania."
+  "longBusinessSummary": "Viatris Inc., together with its subsidiaries, operates as a healthcare company in North America, Europe, China, Taiwan, Hong Kong, Japan, Australia, New Zealand, rest of Asia, Africa, Latin America, and the Middle East. It operates in four segments: Developed Markets, Greater China, JANZ, and Emerging Markets. The company offers prescription brand drugs, generic drugs, complex generic drugs, and biosimilars. It also provides drugs in various therapeutic areas covering various noncommunicable and infectious diseases, including cardiovascular, CNS and anesthesia, dermatology, diabetes and metabolism, eye care, gastroenterology, immunology, oncology, and respiratory and allergy, as well as support services, such as diagnostic clinics, educational seminars, and digital tools to help patients better manage their health. In addition, the company offers medicines in the form of oral solid doses, injectables, and complex dosage forms to retail and pharmacy establishments, wholesalers and distributors, payers, insurers and governments, and institutions. It distributes its products through pharmaceutical wholesalers/distributors, pharmaceutical retailers, institutional pharmacies, mail-order and e-commerce pharmacies, and specialty pharmacies under the Lyrica, Lipitor, Celebrex, Viagra, Creon, Influvac, Wixela Inhub, EpiPen Auto-Injector, Fraxiparine, Yupelri, Norvasc, Amitiza, Effexor, Lipacreon, Zoloft, Xalabrands, Dymista, Xanax, and Breyna brands. The company has collaboration agreements with Mapi Pharma Ltd. to develop and commercialize long-acting glatiramer acetate depot products and additional products; Revance Therapeutics, Inc. to develop, manufacture, and commercialize a biosimilar to the branded biologic product, BOTOX; and Theravance Biopharma, Inc. to develop and commercialize revefenacin. Viatris Inc. was founded in 1961 and is headquartered in Canonsburg, Pennsylvania.",
+  "targetMeanPrice": 19.7,
+  "targetLowPrice": 13.0,
+  "targetHighPrice": 26.0,
+  "numberOfAnalystOpinions": 10,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": 6.595305,
+  "forwardEps": 2.67463,
+  "trailingEps": -0.36,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.049
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 37193100000.0,
+    "official": 37193100000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 14711300000.0,
+    "official": 14711300000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -3514900000.0,
+    "official": -3514900000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 14299900000.0,
+    "official": 14299900000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:59:19+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -205,7 +247,10 @@
    "goodwill_and_intangibles": 33032900000.0,
    "retained_earnings": 5175600000.0,
    "total_debt": 19274300000.0,
-   "shares_out": 1213793231.0
+   "shares_out": 1213793231.0,
+   "unusual_items": -40800000.0,
+   "normalized_ebitda": 6474000000.0,
+   "normalized_income": 2108751200.0
   },
   {
    "fy_end": "2023-12-31",
@@ -240,7 +285,10 @@
    "goodwill_and_intangibles": 29048200000.0,
    "retained_earnings": 4639700000.0,
    "total_debt": 18131500000.0,
-   "shares_out": 1200754970.0
+   "shares_out": 1200754970.0,
+   "unusual_items": -797200000.0,
+   "normalized_ebitda": 4313700000.0,
+   "normalized_income": 684488000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -275,7 +323,10 @@
    "goodwill_and_intangibles": 26204200000.0,
    "retained_earnings": 3418800000.0,
    "total_debt": 14047200000.0,
-   "shares_out": 1193647828.0
+   "shares_out": 1193647828.0,
+   "unusual_items": -700200000.0,
+   "normalized_ebitda": 3520200000.0,
+   "normalized_income": -81042000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -310,7 +361,10 @@
    "goodwill_and_intangibles": 21856800000.0,
    "retained_earnings": -388300000.0,
    "total_debt": 14413900000.0,
-   "shares_out": 1151215081.0
+   "shares_out": 1151215081.0,
+   "unusual_items": -2916600000.0,
+   "normalized_ebitda": 2521200000.0,
+   "normalized_income": -717880600.0
   }
  ]
 }

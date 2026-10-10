@@ -1,6 +1,6 @@
 {
  "ticker": "CLNX.MC",
- "fetched_at": "2026-10-10T11:51:30+00:00",
+ "fetched_at": "2026-10-10T14:39:50+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "MCE",
   "fullTimeEmployees": 2474,
   "website": "https://www.cellnex.com",
-  "longBusinessSummary": "Cellnex Telecom, S.A. engages in the management of terrestrial telecommunications infrastructures in France, Italy, the United Kingdom, Spain, Poland, the Netherlands, Portugal, Switzerland, Denmark, Sweden, Ireland, and Austria. It operates through four segments: Towers; DAS, Small Cells, and RAN as a Service; Fiber, Connectivity, and Housing Services; and Broadcast. The Towers segment provides integrated network passive infrastructure services; other wireless telecommunications; and broadband network operators services, as well as colocation and engineering services. The DAS, Small Cells, and RAN as a Service segment offers services, such as RAN as a Service, which entails the emission and transmission active services; PPDR services comprising active infrastructure management for public administrations, including TETRA and 4G/LTE mission critical service networks; operation and maintenance; infrastructure support services; and other services that include smart cities/Internet of Things. The Fiber, Connectivity, and Housing Services segment provides data transport through fiber, including fibre-to-the-tower (FTTT), connectivity, backhaul transmission, and hosting services in edge data centers infrastructure. The broadcast segment engages in the distribution and transmission of television and radio signals; operation and maintenance of broadcasting networks; provision of connectivity for media content and over-the-top (OTT) broadcasting services; and other services, as well as offers coverage of the digital terrestrial television (DTT) services. The company also offers fixed and mobile telecommunication services; and provision of telecommunications equipment. In addition, it constructs and operates optic fiber telecommunications. The company was formerly known as Abertis Telecom Terrestre, S.A.U. and changed its name to Cellnex Telecom, S.A. in April 2015. Cellnex Telecom, S.A. was incorporated in 2008 and is headquartered in Madrid, Spain."
+  "longBusinessSummary": "Cellnex Telecom, S.A. engages in the management of terrestrial telecommunications infrastructures in France, Italy, the United Kingdom, Spain, Poland, the Netherlands, Portugal, Switzerland, Denmark, Sweden, Ireland, and Austria. It operates through four segments: Towers; DAS, Small Cells, and RAN as a Service; Fiber, Connectivity, and Housing Services; and Broadcast. The Towers segment provides integrated network passive infrastructure services; other wireless telecommunications; and broadband network operators services, as well as colocation and engineering services. The DAS, Small Cells, and RAN as a Service segment offers services, such as RAN as a Service, which entails the emission and transmission active services; PPDR services comprising active infrastructure management for public administrations, including TETRA and 4G/LTE mission critical service networks; operation and maintenance; infrastructure support services; and other services that include smart cities/Internet of Things. The Fiber, Connectivity, and Housing Services segment provides data transport through fiber, including fibre-to-the-tower (FTTT), connectivity, backhaul transmission, and hosting services in edge data centers infrastructure. The broadcast segment engages in the distribution and transmission of television and radio signals; operation and maintenance of broadcasting networks; provision of connectivity for media content and over-the-top (OTT) broadcasting services; and other services, as well as offers coverage of the digital terrestrial television (DTT) services. The company also offers fixed and mobile telecommunication services; and provision of telecommunications equipment. In addition, it constructs and operates optic fiber telecommunications. The company was formerly known as Abertis Telecom Terrestre, S.A.U. and changed its name to Cellnex Telecom, S.A. in April 2015. Cellnex Telecom, S.A. was incorporated in 2008 and is headquartered in Madrid, Spain.",
+  "targetMeanPrice": 34.52609,
+  "targetLowPrice": 21.0,
+  "targetHighPrice": 45.8,
+  "numberOfAnalystOpinions": 23,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.91304,
+  "forwardPE": -356.65277,
+  "forwardEps": -0.06704,
+  "trailingEps": -0.52,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.155
  },
  "governance": {
   "ceo": {
@@ -73,8 +84,35 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF ES",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 43668415000.0,
+    "official": 43668415000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 14157978000.0,
+    "official": 14157978000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -28043000.0,
+    "official": -28043000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T14:39:50+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -105,7 +143,10 @@
    "goodwill_and_intangibles": 26652269000.0,
    "retained_earnings": -297058000.0,
    "total_debt": 20869443000.0,
-   "shares_out": 705356368.0
+   "shares_out": 705356368.0,
+   "unusual_items": -745000.0,
+   "normalized_ebitda": 2460851000.0,
+   "normalized_income": -296594397.564439
   },
   {
    "fy_end": "2023-12-31",
@@ -136,7 +177,10 @@
    "goodwill_and_intangibles": 24699687000.0,
    "retained_earnings": -297220000.0,
    "total_debt": 21509928000.0,
-   "shares_out": 705524687.0
+   "shares_out": 705524687.0,
+   "unusual_items": 73155000.0,
+   "normalized_ebitda": 2867708000.0,
+   "normalized_income": -350160871.389879
   },
   {
    "fy_end": "2024-12-31",
@@ -167,7 +211,10 @@
    "goodwill_and_intangibles": 22916028000.0,
    "retained_earnings": -28043000.0,
    "total_debt": 21439802000.0,
-   "shares_out": 705571553.0
+   "shares_out": 705571553.0,
+   "unusual_items": -413937000.0,
+   "normalized_ebitda": 3137803000.0,
+   "normalized_income": 282409750.0
   },
   {
    "fy_end": "2025-12-31",
@@ -198,7 +245,10 @@
    "goodwill_and_intangibles": 21663667000.0,
    "retained_earnings": -360776000.0,
    "total_debt": 21889472000.0,
-   "shares_out": 673839490.0
+   "shares_out": 673839490.0,
+   "unusual_items": -150290000.0,
+   "normalized_ebitda": 3138368000.0,
+   "normalized_income": -243455311.127933
   }
  ]
 }

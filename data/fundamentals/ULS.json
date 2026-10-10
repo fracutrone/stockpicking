@@ -1,6 +1,6 @@
 {
  "ticker": "ULS",
- "fetched_at": "2026-10-10T13:00:48+00:00",
+ "fetched_at": "2026-10-10T15:58:22+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 14587,
   "website": "https://www.ul.com",
-  "longBusinessSummary": "UL Solutions Inc., together with its subsidiaries, provides testing, inspection and certification services and related software and advisory services worldwide. It operates through three segments: Industrial, Consumer, and Software and Advisory. The Industrial segment provides testing, inspection, and certification services across various end markets, including energy, industrial automation, engineered materials, and built environment, as well as stakeholders, such as manufacturers, building and asset owners, end users, and regulators. The Consumer segment offers safety certification testing, ongoing certification, global market access, testing for connectivity, performance and quality, and critical systems advisory and training services, as well as product market acceptance and risk mitigation services for customers in the consumer products end markets comprising consumer electronics, medical devices, information technologies, appliances, HVAC, lighting, and retail, as well as consumer applications, such as new mobility, smart products, and 5G. The Software and Advisory segment provide software and technical advisory services that enable customers to manage regulatory requirements, deliver supply chain transparency, and operationalize sustainability. It offers ULTRUS, a software that helps customers meet regulatory, supply chain, and sustainability challenges. UL Solutions Inc. was formerly known as UL Inc. and changed its name to UL Solutions Inc. in December 2021. The company was founded in 1894 and is headquartered in Northbrook, Illinois. UL Solutions Inc. operates as a subsidiary of ULSE Inc."
+  "longBusinessSummary": "UL Solutions Inc., together with its subsidiaries, provides testing, inspection and certification services and related software and advisory services worldwide. It operates through three segments: Industrial, Consumer, and Software and Advisory. The Industrial segment provides testing, inspection, and certification services across various end markets, including energy, industrial automation, engineered materials, and built environment, as well as stakeholders, such as manufacturers, building and asset owners, end users, and regulators. The Consumer segment offers safety certification testing, ongoing certification, global market access, testing for connectivity, performance and quality, and critical systems advisory and training services, as well as product market acceptance and risk mitigation services for customers in the consumer products end markets comprising consumer electronics, medical devices, information technologies, appliances, HVAC, lighting, and retail, as well as consumer applications, such as new mobility, smart products, and 5G. The Software and Advisory segment provide software and technical advisory services that enable customers to manage regulatory requirements, deliver supply chain transparency, and operationalize sustainability. It offers ULTRUS, a software that helps customers meet regulatory, supply chain, and sustainability challenges. UL Solutions Inc. was formerly known as UL Inc. and changed its name to UL Solutions Inc. in December 2021. The company was founded in 1894 and is headquartered in Northbrook, Illinois. UL Solutions Inc. operates as a subsidiary of ULSE Inc.",
+  "targetMeanPrice": 96.48333,
+  "targetLowPrice": 79.0,
+  "targetHighPrice": 120.0,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.84615,
+  "forwardPE": 26.90464,
+  "forwardEps": 2.60141,
+  "trailingEps": 2.48,
+  "earningsGrowth": 1.689,
+  "revenueGrowth": 0.052
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 2921000000.0,
+    "official": 2921000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1262000000.0,
+    "official": 1262000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 325000000.0,
+    "official": 325000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3053000000.0,
+    "official": 3053000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:58:22+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -119,7 +161,10 @@
    "goodwill_and_intangibles": 847000000.0,
    "retained_earnings": 211000000.0,
    "total_debt": 660000000.0,
-   "shares_out": 200000000.0
+   "shares_out": 200000000.0,
+   "unusual_items": 11000000.0,
+   "normalized_ebitda": 524000000.0,
+   "normalized_income": 284123000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -153,7 +198,10 @@
    "goodwill_and_intangibles": 834000000.0,
    "retained_earnings": 24000000.0,
    "total_debt": 1063000000.0,
-   "shares_out": 200000000.0
+   "shares_out": 200000000.0,
+   "unusual_items": -34000000.0,
+   "normalized_ebitda": 569000000.0,
+   "normalized_income": 287132000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -186,7 +234,10 @@
    "goodwill_and_intangibles": 818000000.0,
    "retained_earnings": 250000000.0,
    "total_debt": 935000000.0,
-   "shares_out": 200174493.0
+   "shares_out": 200174493.0,
+   "unusual_items": 14000000.0,
+   "normalized_ebitda": 628000000.0,
+   "normalized_income": 314366000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -219,7 +270,10 @@
    "goodwill_and_intangibles": 809000000.0,
    "retained_earnings": 470000000.0,
    "total_debt": 683000000.0,
-   "shares_out": 201025964.0
+   "shares_out": 201025964.0,
+   "unusual_items": -45000000.0,
+   "normalized_ebitda": 744000000.0,
+   "normalized_income": 358030000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "SCHW",
- "fetched_at": "2026-10-10T12:57:42+00:00",
+ "fetched_at": "2026-10-10T15:55:19+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 33700,
   "website": "https://www.aboutschwab.com",
-  "longBusinessSummary": "The Charles Schwab Corporation, together with its subsidiaries, operates as a savings and loan holding company that provides wealth management, securities brokerage, banking, asset management, custody, and financial advisory services in the United States and internationally. The company operates in two segments, Investor Services and Advisor Services. It offers brokerage accounts with equity and fixed income trading, margin lending, options trading, futures and forex trading, and cash management capabilities, including money market funds, and certificates of deposit; third-party mutual funds through the Mutual Fund Marketplace and Mutual Fund OneSource service, as well as mutual fund trading and clearing services to broker-dealers; exchange-traded funds; advisory solutions for managed portfolios, separately managed accounts, customized personal advice for tailored portfolios, specialized planning, and full-time portfolio management; banking products comprising checking and savings accounts, first lien residential real estate mortgage loans, home equity lines of credit, and pledged asset lines; and trust custody services, personal trust reporting services, and administrative trustee services. It provides digital and software based trading platforms; research tools, and multichannel support, real-time market data, options trading; equity compensation plan sponsors full-service recordkeeping for stock plans, stock options, restricted stock, performance shares, and stock appreciation rights; retirement plan services; mutual fund clearing services; and advisor services, including interactive tools and educational content. The Company operates through branch offices. The Charles Schwab Corporation was founded in 1971 and is headquartered in Westlake, Texas."
+  "longBusinessSummary": "The Charles Schwab Corporation, together with its subsidiaries, operates as a savings and loan holding company that provides wealth management, securities brokerage, banking, asset management, custody, and financial advisory services in the United States and internationally. The company operates in two segments, Investor Services and Advisor Services. It offers brokerage accounts with equity and fixed income trading, margin lending, options trading, futures and forex trading, and cash management capabilities, including money market funds, and certificates of deposit; third-party mutual funds through the Mutual Fund Marketplace and Mutual Fund OneSource service, as well as mutual fund trading and clearing services to broker-dealers; exchange-traded funds; advisory solutions for managed portfolios, separately managed accounts, customized personal advice for tailored portfolios, specialized planning, and full-time portfolio management; banking products comprising checking and savings accounts, first lien residential real estate mortgage loans, home equity lines of credit, and pledged asset lines; and trust custody services, personal trust reporting services, and administrative trustee services. It provides digital and software based trading platforms; research tools, and multichannel support, real-time market data, options trading; equity compensation plan sponsors full-service recordkeeping for stock plans, stock options, restricted stock, performance shares, and stock appreciation rights; retirement plan services; mutual fund clearing services; and advisor services, including interactive tools and educational content. The Company operates through branch offices. The Charles Schwab Corporation was founded in 1971 and is headquartered in Westlake, Texas.",
+  "targetMeanPrice": 123.0,
+  "targetLowPrice": 95.0,
+  "targetHighPrice": 150.0,
+  "numberOfAnalystOpinions": 21,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.78261,
+  "forwardPE": 12.202616,
+  "forwardEps": 7.92453,
+  "trailingEps": 5.49,
+  "earningsGrowth": 0.426,
+  "revenueGrowth": 0.209
  },
  "governance": {
   "ceo": {
@@ -78,8 +89,37 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "normalized_income": "yahoo",
   "noninterest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 490995000000.0,
+    "official": 490995000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 49425000000.0,
+    "official": 49425000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 8852000000.0,
+    "official": 8852000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 23921000000.0,
+    "official": 23921000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:55:19+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -167,7 +207,8 @@
    "goodwill_and_intangibles": 20740000000.0,
    "retained_earnings": 31066000000.0,
    "total_debt": 37878000000.0,
-   "shares_out": 1853155833.0
+   "shares_out": 1853155833.0,
+   "normalized_income": 7183000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -195,7 +236,8 @@
    "goodwill_and_intangibles": 20211000000.0,
    "retained_earnings": 33901000000.0,
    "total_debt": 26128000000.0,
-   "shares_out": 1823510423.0
+   "shares_out": 1823510423.0,
+   "normalized_income": 5067000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -223,7 +265,8 @@
    "goodwill_and_intangibles": 19694000000.0,
    "retained_earnings": 37568000000.0,
    "total_debt": 22428000000.0,
-   "shares_out": 1831211681.0
+   "shares_out": 1831211681.0,
+   "normalized_income": 5942000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -251,7 +294,8 @@
    "goodwill_and_intangibles": 19184000000.0,
    "retained_earnings": 44065000000.0,
    "total_debt": 24099000000.0,
-   "shares_out": 1758325075.0
+   "shares_out": 1758325075.0,
+   "normalized_income": 8852000000.0
   }
  ]
 }

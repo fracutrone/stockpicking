@@ -1,6 +1,6 @@
 {
  "ticker": "AIR.PA",
- "fetched_at": "2026-10-10T11:44:21+00:00",
+ "fetched_at": "2026-10-10T14:29:04+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.25706,
   "heldPercentInstitutions": 0.37735,
   "shortPercentOfFloat": null,
-  "averageVolume": 965496,
+  "averageVolume": 965397,
   "quoteType": "EQUITY",
   "exchange": "PAR",
   "fullTimeEmployees": 168754,
   "website": "https://www.airbus.com",
-  "longBusinessSummary": "Airbus SE, together with its subsidiaries, engages in the design, manufacture, and delivery of aeronautics and aerospace products, services, and solutions worldwide. It operates through three segments: Airbus, Airbus Helicopters, and Airbus Defence and Space. The Airbus segment develops, manufactures, markets, and sells commercial jet passenger aircraft, freighter aircraft, regional turboprop aircraft, and aircraft components, as well as provides aircraft conversion and related services. The Airbus Helicopters segment develops, manufactures, markets, and sells civil and military helicopters; and provides uncrewed aerial systems and their related services. The Airbus Defence and Space segment designs, develops, delivers, and supports crewed and uncrewed military air systems and related services. This segment also offers civil and defence space systems for telecommunications, earth observations, navigation, and science and orbital systems; and services around data processing from platforms, secure communication, and cyber security. The company was formerly known as Airbus Group SE and changed its name to Airbus SE in April 2017. The company was incorporated in 1998 and is headquartered in Leiden, the Netherlands."
+  "longBusinessSummary": "Airbus SE, together with its subsidiaries, engages in the design, manufacture, and delivery of aeronautics and aerospace products, services, and solutions worldwide. It operates through three segments: Airbus, Airbus Helicopters, and Airbus Defence and Space. The Airbus segment develops, manufactures, markets, and sells commercial jet passenger aircraft, freighter aircraft, regional turboprop aircraft, and aircraft components, as well as provides aircraft conversion and related services. The Airbus Helicopters segment develops, manufactures, markets, and sells civil and military helicopters; and provides uncrewed aerial systems and their related services. The Airbus Defence and Space segment designs, develops, delivers, and supports crewed and uncrewed military air systems and related services. This segment also offers civil and defence space systems for telecommunications, earth observations, navigation, and science and orbital systems; and services around data processing from platforms, secure communication, and cyber security. The company was formerly known as Airbus Group SE and changed its name to Airbus SE in April 2017. The company was incorporated in 1998 and is headquartered in Leiden, the Netherlands.",
+  "targetMeanPrice": 230.95651,
+  "targetLowPrice": 183.0,
+  "targetHighPrice": 260.0,
+  "numberOfAnalystOpinions": 23,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.79167,
+  "forwardPE": 21.585787,
+  "forwardEps": 8.70017,
+  "trailingEps": 7.51,
+  "earningsGrowth": 1.258,
+  "revenueGrowth": 0.277
  },
  "governance": {
   "insider_6m": {
@@ -64,8 +75,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF NL",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 134939000000.0,
+    "official": 134939000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 26104000000.0,
+    "official": 26104000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 5221000000.0,
+    "official": 5221000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 73420000000.0,
+    "official": 73420000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:29:04+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -100,7 +142,9 @@
    "goodwill_and_intangibles": 16768000000.0,
    "retained_earnings": 13408000000.0,
    "total_debt": 10983000000.0,
-   "shares_out": 787557508.0
+   "shares_out": 787557508.0,
+   "unusual_items": -346000000.0,
+   "normalized_income": 4527260000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -135,7 +179,9 @@
    "goodwill_and_intangibles": 16929000000.0,
    "retained_earnings": 15616000000.0,
    "total_debt": 11322000000.0,
-   "shares_out": 787421967.0
+   "shares_out": 787421967.0,
+   "unusual_items": 39000000.0,
+   "normalized_income": 3759453554.204236
   },
   {
    "fy_end": "2024-12-31",
@@ -170,7 +216,9 @@
    "goodwill_and_intangibles": 17179000000.0,
    "retained_earnings": 18687000000.0,
    "total_debt": 11275000000.0,
-   "shares_out": 787956251.0
+   "shares_out": 787956251.0,
+   "unusual_items": -190000000.0,
+   "normalized_income": 4374823963.133641
   },
   {
    "fy_end": "2025-12-31",
@@ -205,7 +253,9 @@
    "goodwill_and_intangibles": 16847000000.0,
    "retained_earnings": 22334000000.0,
    "total_debt": 11023000000.0,
-   "shares_out": 787227745.0
+   "shares_out": 787227745.0,
+   "unusual_items": 235000000.0,
+   "normalized_income": 5037465000.0
   }
  ]
 }

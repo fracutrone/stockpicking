@@ -1,6 +1,6 @@
 {
  "ticker": "DUOL",
- "fetched_at": "2026-10-10T12:43:40+00:00",
+ "fetched_at": "2026-10-10T15:42:06+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 900,
   "website": "https://www.duolingo.com",
-  "longBusinessSummary": "Duolingo, Inc. operates as a mobile learning platform in the United States, the United Kingdom, and internationally. The company offers 250 language courses, including Spanish, English, French, German, Italian, Portuguese, Japanese, and Chinese through its Duolingo app. It also provides a digital English language proficiency assessment exam. The company was incorporated in 2011 and is headquartered in Pittsburgh, Pennsylvania."
+  "longBusinessSummary": "Duolingo, Inc. operates as a mobile learning platform in the United States, the United Kingdom, and internationally. The company offers 250 language courses, including Spanish, English, French, German, Italian, Portuguese, Japanese, and Chinese through its Duolingo app. It also provides a digital English language proficiency assessment exam. The company was incorporated in 2011 and is headquartered in Pittsburgh, Pennsylvania.",
+  "targetMeanPrice": 135.12444,
+  "targetLowPrice": 80.0,
+  "targetHighPrice": 210.0,
+  "numberOfAnalystOpinions": 18,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.70833,
+  "forwardPE": 19.62671,
+  "forwardEps": 7.63857,
+  "trailingEps": 8.42,
+  "earningsGrowth": -0.275,
+  "revenueGrowth": 0.183
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,38 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 1992182000.0,
+    "official": 1992182000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1347006000.0,
+    "official": 1347006000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 414065000.0,
+    "official": 414065000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1037589000.0,
+    "official": 1037589000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:42:06+00:00",
  "years": [
   {
    "fy_end": "2020-12-31",
@@ -164,7 +205,9 @@
    "goodwill_and_intangibles": 12547000.0,
    "retained_earnings": -230488000.0,
    "total_debt": 28406000.0,
-   "shares_out": 40361000.0
+   "shares_out": 40361000.0,
+   "normalized_ebitda": -60325000.0,
+   "normalized_income": -59574000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -197,7 +240,9 @@
    "goodwill_and_intangibles": 20045000.0,
    "retained_earnings": -214421000.0,
    "total_debt": 21094000.0,
-   "shares_out": 42526000.0
+   "shares_out": 42526000.0,
+   "normalized_ebitda": -6164000.0,
+   "normalized_income": 16067000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -230,7 +275,9 @@
    "goodwill_and_intangibles": 30437000.0,
    "retained_earnings": -125847000.0,
    "total_debt": 54656000.0,
-   "shares_out": 44936000.0
+   "shares_out": 44936000.0,
+   "normalized_ebitda": 73449000.0,
+   "normalized_income": 88574000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -263,7 +310,9 @@
    "goodwill_and_intangibles": 63644000.0,
    "retained_earnings": 288218000.0,
    "total_debt": 93779000.0,
-   "shares_out": 46628000.0
+   "shares_out": 46628000.0,
+   "normalized_ebitda": 149961000.0,
+   "normalized_income": 414065000.0
   }
  ]
 }

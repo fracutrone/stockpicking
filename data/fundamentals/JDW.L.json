@@ -1,6 +1,6 @@
 {
  "ticker": "JDW.L",
- "fetched_at": "2026-10-10T12:04:37+00:00",
+ "fetched_at": "2026-10-10T14:59:22+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 43502,
   "website": "https://www.jdwetherspoon.com",
-  "longBusinessSummary": "J D Wetherspoon plc owns and operates pubs and hotels in the United Kingdom and the Republic of Ireland. It also offers food and drinks; and slot/fruit machines and other products, as well as operates bar. The company was founded in 1979 and is based in Watford, the United Kingdom."
+  "longBusinessSummary": "J D Wetherspoon plc owns and operates pubs and hotels in the United Kingdom and the Republic of Ireland. It also offers food and drinks; and slot/fruit machines and other products, as well as operates bar. The company was founded in 1979 and is based in Watford, the United Kingdom.",
+  "targetMeanPrice": 766.25,
+  "targetLowPrice": 540.0,
+  "targetHighPrice": 950.0,
+  "numberOfAnalystOpinions": 8,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.11111,
+  "forwardPE": 17.113743,
+  "forwardEps": 0.5741,
+  "trailingEps": 0.56,
+  "earningsGrowth": 0.286,
+  "revenueGrowth": 0.048
  },
  "governance": {
   "ceo": {
@@ -68,8 +79,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2022-07-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 2049371000.0,
+    "official": 2049371000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 321885000.0,
+    "official": 321885000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 19267000.0,
+    "official": 19267000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1740477000.0,
+    "official": 1740477000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2022-07-31"
+ },
+ "info_at": "2026-10-10T14:59:22+00:00",
  "years": [
   {
    "fy_end": "2022-07-31",
@@ -101,7 +144,10 @@
    "goodwill_and_intangibles": 5409000.0,
    "retained_earnings": -74373000.0,
    "total_debt": 1405595000.0,
-   "shares_out": 124334150.0
+   "shares_out": 124334150.0,
+   "unusual_items": 29475000.0,
+   "normalized_ebitda": 170497000.0,
+   "normalized_income": -2351440.937988
   },
   {
    "fy_end": "2023-07-31",
@@ -130,7 +176,10 @@
    "goodwill_and_intangibles": 6505000.0,
    "retained_earnings": -3532000.0,
    "total_debt": 1175123000.0,
-   "shares_out": 122389790.0
+   "shares_out": 122389790.0,
+   "unusual_items": 50129000.0,
+   "normalized_ebitda": 216962000.0,
+   "normalized_income": 26585080.642132
   },
   {
    "fy_end": "2024-07-31",
@@ -159,7 +208,10 @@
    "goodwill_and_intangibles": 5933000.0,
    "retained_earnings": 44571000.0,
    "total_debt": 1137376000.0,
-   "shares_out": 115984731.0
+   "shares_out": 115984731.0,
+   "unusual_items": -17397000.0,
+   "normalized_ebitda": 247619000.0,
+   "normalized_income": 62785538.518641
   }
  ]
 }

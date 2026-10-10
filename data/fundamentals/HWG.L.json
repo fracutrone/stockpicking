@@ -1,6 +1,6 @@
 {
  "ticker": "HWG.L",
- "fetched_at": "2026-10-10T12:02:48+00:00",
+ "fetched_at": "2026-10-10T14:56:26+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 146,
   "website": "https://www.harworthgroup.com",
-  "longBusinessSummary": "Harworth Group plc operates as a regeneration, strategic land, and development businesses. It operates through two segments, Income Generation and Capital Growth. The Income Generation segment is involved in generating rental returns from the investment portfolio; rental returns and royalties from energy generation, environmental technologies, and the agricultural portfolio; and provision of recycled aggregates products. The Capital Growth segment engages in the planning and development, value engineering, proactive asset management, and strategic land acquisition activities. Its property portfolio includes commercial, industrial and logistics, and residential properties. The company was formerly known as Coalfield Resources plc and changed its name to Harworth Group plc in March 2015. Harworth Group plc was incorporated in 1991 and is headquartered in Rotherham, the United Kingdom."
+  "longBusinessSummary": "Harworth Group plc operates as a regeneration, strategic land, and development businesses. It operates through two segments, Income Generation and Capital Growth. The Income Generation segment is involved in generating rental returns from the investment portfolio; rental returns and royalties from energy generation, environmental technologies, and the agricultural portfolio; and provision of recycled aggregates products. The Capital Growth segment engages in the planning and development, value engineering, proactive asset management, and strategic land acquisition activities. Its property portfolio includes commercial, industrial and logistics, and residential properties. The company was formerly known as Coalfield Resources plc and changed its name to Harworth Group plc in March 2015. Harworth Group plc was incorporated in 1991 and is headquartered in Rotherham, the United Kingdom.",
+  "targetMeanPrice": 194.25,
+  "targetLowPrice": 180.0,
+  "targetHighPrice": 209.99998,
+  "numberOfAnalystOpinions": 4,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.33333,
+  "forwardPE": 11.0,
+  "forwardEps": 0.17,
+  "trailingEps": -0.08,
+  "earningsGrowth": null,
+  "revenueGrowth": -0.131
  },
  "governance": {
   "insider_6m": {
@@ -62,8 +73,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 1042243000.0,
+    "official": 1042243000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 698979000.0,
+    "official": 698979000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 9472000.0,
+    "official": 9472000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 129749000.0,
+    "official": 129749000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:56:26+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -94,7 +137,10 @@
    "ppe_net": 854000.0,
    "retained_earnings": 325277000.0,
    "total_debt": 60232000.0,
-   "shares_out": 322612685.0
+   "shares_out": 322612685.0,
+   "unusual_items": 1872000.0,
+   "normalized_ebitda": 32431000.0,
+   "normalized_income": 26149262.970284
   },
   {
    "fy_end": "2023-12-31",
@@ -125,7 +171,10 @@
    "ppe_net": 2182000.0,
    "retained_earnings": 309278000.0,
    "total_debt": 64129000.0,
-   "shares_out": 323154373.0
+   "shares_out": 323154373.0,
+   "unusual_items": -1412000.0,
+   "normalized_ebitda": 55727000.0,
+   "normalized_income": 39032030.919349
   },
   {
    "fy_end": "2024-12-31",
@@ -157,7 +206,10 @@
    "goodwill_and_intangibles": 0.0,
    "retained_earnings": 371523000.0,
    "total_debt": 165592000.0,
-   "shares_out": 323640852.0
+   "shares_out": 323640852.0,
+   "unusual_items": -352000.0,
+   "normalized_ebitda": 78083000.0,
+   "normalized_income": 57527363.093951
   },
   {
    "fy_end": "2025-12-31",
@@ -190,7 +242,10 @@
    "goodwill_and_intangibles": 450000.0,
    "retained_earnings": 341180000.0,
    "total_debt": 174222000.0,
-   "shares_out": 324141060.0
+   "shares_out": 324141060.0,
+   "unusual_items": 114000.0,
+   "normalized_ebitda": 31320000.0,
+   "normalized_income": 9386500.0
   }
  ]
 }

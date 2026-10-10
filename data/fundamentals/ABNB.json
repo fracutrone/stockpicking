@@ -1,6 +1,6 @@
 {
  "ticker": "ABNB",
- "fetched_at": "2026-10-10T12:36:09+00:00",
+ "fetched_at": "2026-10-10T15:33:18+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 8200,
   "website": "https://www.airbnb.com",
-  "longBusinessSummary": "Airbnb, Inc., together with its subsidiaries, operates a platform for stays, experiences, and services worldwide. The company's marketplace connects hosts and guests online or through mobile devices to book spaces, experiences, and services. It also offers gift cards. The company was formerly known as AirBed & Breakfast, Inc. and changed its name to Airbnb, Inc. in November 2010. Airbnb, Inc. was founded in 2007 and is headquartered in San Francisco, California."
+  "longBusinessSummary": "Airbnb, Inc., together with its subsidiaries, operates a platform for stays, experiences, and services worldwide. The company's marketplace connects hosts and guests online or through mobile devices to book spaces, experiences, and services. It also offers gift cards. The company was formerly known as AirBed & Breakfast, Inc. and changed its name to Airbnb, Inc. in November 2010. Airbnb, Inc. was founded in 2007 and is headquartered in San Francisco, California.",
+  "targetMeanPrice": 183.5641,
+  "targetLowPrice": 135.0,
+  "targetHighPrice": 220.0,
+  "numberOfAnalystOpinions": 39,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": 26.807878,
+  "forwardEps": 6.18736,
+  "trailingEps": 4.39,
+  "earningsGrowth": 0.334,
+  "revenueGrowth": 0.165
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 22208000000.0,
+    "official": 22208000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 8199000000.0,
+    "official": 8199000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2511000000.0,
+    "official": 2511000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 12241000000.0,
+    "official": 12241000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:33:18+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -152,7 +194,8 @@
    "goodwill": 653000000.0,
    "intangibles": 52000000.0,
    "retained_earnings": -6358000000.0,
-   "total_debt": 2000000000.0
+   "total_debt": 2000000000.0,
+   "unusual_items": -113000000.0
   },
   {
    "fy_end": "2022-12-31",
@@ -186,7 +229,10 @@
    "goodwill_and_intangibles": 684000000.0,
    "retained_earnings": -5965000000.0,
    "total_debt": 1987000000.0,
-   "shares_out": 631000000.0
+   "shares_out": 631000000.0,
+   "unusual_items": -89000000.0,
+   "normalized_ebitda": 2061000000.0,
+   "normalized_income": 1977728000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -219,7 +265,10 @@
    "goodwill_and_intangibles": 792000000.0,
    "retained_earnings": -3425000000.0,
    "total_debt": 1991000000.0,
-   "shares_out": 638000000.0
+   "shares_out": 638000000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 1518000000.0,
+   "normalized_income": 4792000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -251,7 +300,10 @@
    "goodwill_and_intangibles": 777000000.0,
    "retained_earnings": -4225000000.0,
    "total_debt": 1995000000.0,
-   "shares_out": 623000000.0
+   "shares_out": 623000000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 2553000000.0,
+   "normalized_income": 2648000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -283,7 +335,9 @@
    "goodwill_and_intangibles": 770000000.0,
    "retained_earnings": -5502000000.0,
    "total_debt": 1999000000.0,
-   "shares_out": 602000000.0
+   "shares_out": 602000000.0,
+   "normalized_ebitda": 2544000000.0,
+   "normalized_income": 2511000000.0
   }
  ]
 }

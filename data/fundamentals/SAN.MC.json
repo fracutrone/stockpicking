@@ -1,6 +1,6 @@
 {
  "ticker": "SAN.MC",
- "fetched_at": "2026-10-10T12:18:12+00:00",
+ "fetched_at": "2026-10-10T15:18:01+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "MCE",
   "fullTimeEmployees": 185279,
   "website": "https://www.santander.com",
-  "longBusinessSummary": "Banco Santander, S.A. provides various financial products and services to individuals, small and medium-sized enterprises, large corporations, and public entities worldwide. The company operates through five segments: Retail & Commercial Banking, Digital Consumer Bank, Corporate & Investment Banking, Wealth Management & Insurance, and Payments. It offers demand and time deposits, mutual funds, and current and savings accounts; mortgages, consumer finance, loans, and various financing solutions; and project finance, debt capital markets, global transaction banking, and corporate finance services. The company also provides credit and debit cards, real estate loans, microfinance, and auto loans; corporate and investment banking services; advice on mergers and acquisitions; wealth, asset, and risk management services; and digital payments and technology solutions. In addition, it is involved in the securitization, leasing, management of portfolios, e-commerce, air transport, aircraft rental, software, consulting, fund and investment management, renewable energy, vehicle rental, insurance, advertising, marketing, telemarketing, automotive, agricultural, factoring, securities brokerage and investment, pension fund management, trade intermediary, venture capital fund, renting, restaurant, electricity production, IT, internet, and financial advisory and other activities; management, and other real estate activities; and purchase and sale of vehicles. Further, the company offers mobile and online banking services. Banco Santander, S.A. was formerly known as Banco Santander Central Hispano SA and changed its name to Banco Santander, S.A. in February 2007. The company was incorporated in 1856 and is headquartered in Madrid, Spain."
+  "longBusinessSummary": "Banco Santander, S.A. provides various financial products and services to individuals, small and medium-sized enterprises, large corporations, and public entities worldwide. The company operates through five segments: Retail & Commercial Banking, Digital Consumer Bank, Corporate & Investment Banking, Wealth Management & Insurance, and Payments. It offers demand and time deposits, mutual funds, and current and savings accounts; mortgages, consumer finance, loans, and various financing solutions; and project finance, debt capital markets, global transaction banking, and corporate finance services. The company also provides credit and debit cards, real estate loans, microfinance, and auto loans; corporate and investment banking services; advice on mergers and acquisitions; wealth, asset, and risk management services; and digital payments and technology solutions. In addition, it is involved in the securitization, leasing, management of portfolios, e-commerce, air transport, aircraft rental, software, consulting, fund and investment management, renewable energy, vehicle rental, insurance, advertising, marketing, telemarketing, automotive, agricultural, factoring, securities brokerage and investment, pension fund management, trade intermediary, venture capital fund, renting, restaurant, electricity production, IT, internet, and financial advisory and other activities; management, and other real estate activities; and purchase and sale of vehicles. Further, the company offers mobile and online banking services. Banco Santander, S.A. was formerly known as Banco Santander Central Hispano SA and changed its name to Banco Santander, S.A. in February 2007. The company was incorporated in 1856 and is headquartered in Madrid, Spain.",
+  "targetMeanPrice": 13.55667,
+  "targetLowPrice": 11.3,
+  "targetHighPrice": 15.3,
+  "numberOfAnalystOpinions": 21,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.66667,
+  "forwardPE": 9.571283,
+  "forwardEps": 1.25584,
+  "trailingEps": 0.88,
+  "earningsGrowth": 0.087,
+  "revenueGrowth": 0.102
  },
  "governance": {
   "ceo": {
@@ -77,8 +88,34 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 1867515000000.0,
+    "official": 1867515000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 103170000000.0,
+    "official": 112748000000.0,
+    "diff": 0.084951
+   },
+   "net_income": {
+    "yahoo": 14101000000.0,
+    "official": 14101000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:18:01+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -105,7 +142,9 @@
    "goodwill_and_intangibles": 18645000000.0,
    "retained_earnings": 76307000000.0,
    "total_debt": 282961000000.0,
-   "shares_out": 16794401584.0
+   "shares_out": 16794401584.0,
+   "unusual_items": -225000000.0,
+   "normalized_income": 9763805000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -132,7 +171,9 @@
    "goodwill_and_intangibles": 19871000000.0,
    "retained_earnings": 85190000000.0,
    "total_debt": 310979000000.0,
-   "shares_out": 15886330386.0
+   "shares_out": 15886330386.0,
+   "unusual_items": -191000000.0,
+   "normalized_income": 10159378200.0
   },
   {
    "fy_end": "2024-12-31",
@@ -159,7 +200,9 @@
    "goodwill_and_intangibles": 19259000000.0,
    "retained_earnings": 94900000000.0,
    "total_debt": 327723000000.0,
-   "shares_out": 15136962863.0
+   "shares_out": 15136962863.0,
+   "unusual_items": -639000000.0,
+   "normalized_income": 11794549700.0
   },
   {
    "fy_end": "2025-12-31",
@@ -186,7 +229,9 @@
    "goodwill_and_intangibles": 17308000000.0,
    "retained_earnings": 106060000000.0,
    "total_debt": 326212000000.0,
-   "shares_out": 14678242211.0
+   "shares_out": 14678242211.0,
+   "unusual_items": 21000000.0,
+   "normalized_income": 12543222700.0
   }
  ]
 }

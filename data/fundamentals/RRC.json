@@ -1,6 +1,6 @@
 {
  "ticker": "RRC",
- "fetched_at": "2026-10-10T12:57:11+00:00",
+ "fetched_at": "2026-10-10T15:54:55+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 564,
   "website": "https://www.rangeresources.com",
-  "longBusinessSummary": "Range Resources Corporation operates as an independent natural gas, natural gas liquids (NGLs), and oil company in the United States. The company engages in the exploration, development, and acquisition of natural gas, NGLs, and oil properties located in the Appalachian region. It sells natural gas to utilities, marketing and midstream companies, and industrial users; NGLs to petrochemical end users, refiners, marketers/traders, and natural gas processors; and oil to crude oil processors, transporters, and refining and marketing companies. The company was formerly known as Lomak Petroleum Inc. and changed its name to Range Resources Corporation in July 1992. Range Resources Corporation was founded in 1976 and is headquartered in Fort Worth, Texas."
+  "longBusinessSummary": "Range Resources Corporation operates as an independent natural gas, natural gas liquids (NGLs), and oil company in the United States. The company engages in the exploration, development, and acquisition of natural gas, NGLs, and oil properties located in the Appalachian region. It sells natural gas to utilities, marketing and midstream companies, and industrial users; NGLs to petrochemical end users, refiners, marketers/traders, and natural gas processors; and oil to crude oil processors, transporters, and refining and marketing companies. The company was formerly known as Lomak Petroleum Inc. and changed its name to Range Resources Corporation in July 1992. Range Resources Corporation was founded in 1976 and is headquartered in Fort Worth, Texas.",
+  "targetMeanPrice": 45.56522,
+  "targetLowPrice": 36.0,
+  "targetHighPrice": 57.0,
+  "numberOfAnalystOpinions": 23,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.58333,
+  "forwardPE": 10.368882,
+  "forwardEps": 3.94353,
+  "trailingEps": 3.62,
+  "earningsGrowth": -0.164,
+  "revenueGrowth": 0.086
  },
  "governance": {
   "ceo": {
@@ -81,9 +92,40 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "inventory": "sec",
   "goodwill": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 7421948000.0,
+    "official": 7421948000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4318681000.0,
+    "official": 4318681000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 658024000.0,
+    "official": 658024000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2988164000.0,
+    "official": 3115515000.0,
+    "diff": 0.040876
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:54:55+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -176,7 +218,10 @@
    "ppe_net": 2434000.0,
    "retained_earnings": -2462401000.0,
    "total_debt": 1841960000.0,
-   "shares_out": 238885730.0
+   "shares_out": 238885730.0,
+   "unusual_items": -1356944000.0,
+   "normalized_ebitda": 3289339000.0,
+   "normalized_income": 2319132128.0
   },
   {
    "fy_end": "2023-12-31",
@@ -206,7 +251,10 @@
    "ppe_net": 1696000.0,
    "retained_earnings": -1668778000.0,
    "total_debt": 1774229000.0,
-   "shares_out": 241040304.0
+   "shares_out": 241040304.0,
+   "unusual_items": 675293000.0,
+   "normalized_ebitda": 899219000.0,
+   "normalized_income": 336309944.0
   },
   {
    "fy_end": "2024-12-31",
@@ -236,7 +284,10 @@
    "ppe_net": 2465000.0,
    "retained_earnings": -1480580000.0,
    "total_debt": 1697883000.0,
-   "shares_out": 240669354.0
+   "shares_out": 240669354.0,
+   "unusual_items": 11663000.0,
+   "normalized_ebitda": 716056000.0,
+   "normalized_income": 257126230.0
   },
   {
    "fy_end": "2025-12-31",
@@ -266,7 +317,10 @@
    "ppe_net": 4935000.0,
    "retained_earnings": -909201000.0,
    "total_debt": 1198334000.0,
-   "shares_out": 235458212.0
+   "shares_out": 235458212.0,
+   "unusual_items": 67117000.0,
+   "normalized_ebitda": 1239932000.0,
+   "normalized_income": 604934453.0
   }
  ]
 }

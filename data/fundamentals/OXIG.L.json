@@ -1,6 +1,6 @@
 {
  "ticker": "OXIG.L",
- "fetched_at": "2026-10-10T12:13:08+00:00",
+ "fetched_at": "2026-10-10T15:10:38+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -11,8 +11,8 @@
   "country": "United Kingdom",
   "currency": "GBp",
   "financialCurrency": "GBP",
-  "marketCap": 1620479488,
-  "sharesOutstanding": 54782944,
+  "marketCap": 1619598848,
+  "sharesOutstanding": 54753171,
   "floatShares": 57842355,
   "heldPercentInsiders": 0.0351,
   "heldPercentInstitutions": 0.71153,
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 1760,
   "website": "https://www.oxinst.com",
-  "longBusinessSummary": "Oxford Instruments plc provides scientific technology products and services for academic and commercial organizations in the United Kingdom, North America, China, Japan, Germany, Rest of Europe, Rest of Asia, and internationally. It operates through two segments: Imaging and Analysis and Advanced Technologies. The company offers atomic force microscopy; electron microscopy, such as BEX, EBSD, and EDS; light microscopy, including widefield microscopes, confocal microscopes, super resolution microscopes, and 3d/4d visualization software; nanoindentation; modular optical spectroscopy; nuclear magnetic resonance, such as benchtop NMR spectroscopy, and time domain NMR; confocal RAMAN microscopes, such as witec360  RAMAN imaging microscope, rise  RAMAN-SEM microscopes, and RAMAN-based particle analysis; and scientific imaging cameras. It also offers deposition tools, such as plasma enhanced chemical vapour deposition (PECVD), inductively coupled plasma chemical vapour deposition (ICPCVD), atomic layer deposition (ALD), and Ion beam deposition (IBD); etch tools, including inductively coupled plasma etching (ICP RIE), reactive ion etching (RIE), deep silicon etching (DSiE), atomic layer etching (ALE), and ion beam etching (IBE); and dilution fridges & low temperature solutions, such as x-ray, x-ray sources, and x-ray cameras. Its products are used in various industries, such as advanced manufacturing, agriculture and food, astronomy, automotive and aerospace, bio imaging and life science, chemical and catalysis, energy generation and storage, forensics and environment, geology, petrology, mining, metal, alloys, composites, ceramics, pharma, photonics, polymers, quantum technologies, semiconductors, microelectronics, and data storage. In addition, it offers contracts and agreements, spares, upgrades, training, application and product support, and live assist services. Oxford Instruments plc was founded in 1959 and is headquartered in High Wycombe, the United Kingdom."
+  "longBusinessSummary": "Oxford Instruments plc provides scientific technology products and services for academic and commercial organizations in the United Kingdom, North America, China, Japan, Germany, Rest of Europe, Rest of Asia, and internationally. It operates through two segments: Imaging and Analysis and Advanced Technologies. The company offers atomic force microscopy; electron microscopy, such as BEX, EBSD, and EDS; light microscopy, including widefield microscopes, confocal microscopes, super resolution microscopes, and 3d/4d visualization software; nanoindentation; modular optical spectroscopy; nuclear magnetic resonance, such as benchtop NMR spectroscopy, and time domain NMR; confocal RAMAN microscopes, such as witec360  RAMAN imaging microscope, rise  RAMAN-SEM microscopes, and RAMAN-based particle analysis; and scientific imaging cameras. It also offers deposition tools, such as plasma enhanced chemical vapour deposition (PECVD), inductively coupled plasma chemical vapour deposition (ICPCVD), atomic layer deposition (ALD), and Ion beam deposition (IBD); etch tools, including inductively coupled plasma etching (ICP RIE), reactive ion etching (RIE), deep silicon etching (DSiE), atomic layer etching (ALE), and ion beam etching (IBE); and dilution fridges & low temperature solutions, such as x-ray, x-ray sources, and x-ray cameras. Its products are used in various industries, such as advanced manufacturing, agriculture and food, astronomy, automotive and aerospace, bio imaging and life science, chemical and catalysis, energy generation and storage, forensics and environment, geology, petrology, mining, metal, alloys, composites, ceramics, pharma, photonics, polymers, quantum technologies, semiconductors, microelectronics, and data storage. In addition, it offers contracts and agreements, spares, upgrades, training, application and product support, and live assist services. Oxford Instruments plc was founded in 1959 and is headquartered in High Wycombe, the United Kingdom.",
+  "targetMeanPrice": 3235.7139,
+  "targetLowPrice": 3000.0,
+  "targetHighPrice": 3500.0,
+  "numberOfAnalystOpinions": 7,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.375,
+  "forwardPE": 23.367882,
+  "forwardEps": 1.26584,
+  "trailingEps": 0.77,
+  "earningsGrowth": 19.058,
+  "revenueGrowth": -0.006
  },
  "governance": {
   "ceo": {
@@ -70,8 +81,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2026-03-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 552100000.0,
+    "official": 552100000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 340200000.0,
+    "official": 340200000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 48200000.0,
+    "official": 48200000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 423200000.0,
+    "official": 423200000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2026-03-31"
+ },
+ "info_at": "2026-10-10T15:10:38+00:00",
  "years": [
   {
    "fy_end": "2023-03-31",
@@ -105,7 +148,10 @@
    "goodwill_and_intangibles": 132100000.0,
    "retained_earnings": 265400000.0,
    "total_debt": 43900000.0,
-   "shares_out": 57712508.0
+   "shares_out": 57712508.0,
+   "unusual_items": 1200000.0,
+   "normalized_ebitda": 94000000.0,
+   "normalized_income": 57643600.0
   },
   {
    "fy_end": "2024-03-31",
@@ -139,7 +185,10 @@
    "goodwill_and_intangibles": 138200000.0,
    "retained_earnings": 292600000.0,
    "total_debt": 47400000.0,
-   "shares_out": 57913792.0
+   "shares_out": 57913792.0,
+   "unusual_items": -2500000.0,
+   "normalized_ebitda": 95600000.0,
+   "normalized_income": 52477500.0
   },
   {
    "fy_end": "2025-03-31",
@@ -173,7 +222,10 @@
    "goodwill_and_intangibles": 121800000.0,
    "retained_earnings": 305000000.0,
    "total_debt": 40900000.0,
-   "shares_out": 58134773.0
+   "shares_out": 58134773.0,
+   "unusual_items": -6700000.0,
+   "normalized_ebitda": 68000000.0,
+   "normalized_income": 72086910.994764
   },
   {
    "fy_end": "2026-03-31",
@@ -207,7 +259,10 @@
    "goodwill_and_intangibles": 112700000.0,
    "retained_earnings": 266300000.0,
    "total_debt": 44500000.0,
-   "shares_out": 55401506.0
+   "shares_out": 55401506.0,
+   "unusual_items": -7500000.0,
+   "normalized_ebitda": 88300000.0,
+   "normalized_income": 50207500.0
   }
  ]
 }

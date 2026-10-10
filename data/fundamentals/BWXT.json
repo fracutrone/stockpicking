@@ -1,6 +1,6 @@
 {
  "ticker": "BWXT",
- "fetched_at": "2026-10-10T12:39:37+00:00",
+ "fetched_at": "2026-10-10T15:38:29+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 11000,
   "website": "https://www.bwxt.com",
-  "longBusinessSummary": "BWX Technologies, Inc. manufactures and sells nuclear components in the United States, Canada, and internationally. The company operates through two segments, Government Operations and Commercial Operations. It manufactures precision naval nuclear components, reactors, and nuclear fuel; close-tolerance and high-quality equipment for nuclear applications; critical nuclear components, fuels and assemblies for government and limited other uses; down blend government stockpiles of uranium; and fabricate fuel-bearing precision components. The company also supplies proprietary and sole-source valves, manifolds, and fittings to naval and commercial shipping customers; research reactor fuel elements for colleges, universities, and national laboratories; and components for defense applications. In addition, it manufactures commercial nuclear steam generators, nuclear fuel, fuel handling systems, pressure vessels, reactor components, heat exchangers, tooling delivery systems; and containers for the storage of nuclear fuel and other high-level nuclear waste. Further, the company supplies nuclear fuel, fuel handling systems, tooling delivery systems, nuclear-grade materials and precisely machined components; and manufactures medical radioisotopes, radiopharmaceuticals, and medical devices. Additionally, it provides specialized engineering services that include structural component design, 3-D thermal-hydraulic engineering analysis, weld and robotic process development, electrical and controls engineering and metallurgy and materials engineering; in-plant inspection, maintenance and modification services; and non-destructive examination and tooling/repair solutions. It also offers nuclear power plant lifecycle support and management services. The company was formerly known as The Babcock & Wilcox Company and changed its name to BWX Technologies, Inc. in June 2015. BWX Technologies, Inc. was founded in 1867 and is headquartered in Lynchburg, Virginia."
+  "longBusinessSummary": "BWX Technologies, Inc. manufactures and sells nuclear components in the United States, Canada, and internationally. The company operates through two segments, Government Operations and Commercial Operations. It manufactures precision naval nuclear components, reactors, and nuclear fuel; close-tolerance and high-quality equipment for nuclear applications; critical nuclear components, fuels and assemblies for government and limited other uses; down blend government stockpiles of uranium; and fabricate fuel-bearing precision components. The company also supplies proprietary and sole-source valves, manifolds, and fittings to naval and commercial shipping customers; research reactor fuel elements for colleges, universities, and national laboratories; and components for defense applications. In addition, it manufactures commercial nuclear steam generators, nuclear fuel, fuel handling systems, pressure vessels, reactor components, heat exchangers, tooling delivery systems; and containers for the storage of nuclear fuel and other high-level nuclear waste. Further, the company supplies nuclear fuel, fuel handling systems, tooling delivery systems, nuclear-grade materials and precisely machined components; and manufactures medical radioisotopes, radiopharmaceuticals, and medical devices. Additionally, it provides specialized engineering services that include structural component design, 3-D thermal-hydraulic engineering analysis, weld and robotic process development, electrical and controls engineering and metallurgy and materials engineering; in-plant inspection, maintenance and modification services; and non-destructive examination and tooling/repair solutions. It also offers nuclear power plant lifecycle support and management services. The company was formerly known as The Babcock & Wilcox Company and changed its name to BWX Technologies, Inc. in June 2015. BWX Technologies, Inc. was founded in 1867 and is headquartered in Lynchburg, Virginia.",
+  "targetMeanPrice": 215.50688,
+  "targetLowPrice": 150.0,
+  "targetHighPrice": 290.0,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.61111,
+  "forwardPE": 27.50027,
+  "forwardEps": 5.23013,
+  "trailingEps": 3.86,
+  "earningsGrowth": 0.141,
+  "revenueGrowth": 0.18
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 4271495000.0,
+    "official": 4271495000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1232487000.0,
+    "official": 1232487000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 328945000.0,
+    "official": 328945000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3198425000.0,
+    "official": 3198425000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:38:29+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -205,7 +247,10 @@
    "goodwill_and_intangibles": 486777000.0,
    "retained_earnings": 1932970000.0,
    "total_debt": 1288874000.0,
-   "shares_out": 91254276.0
+   "shares_out": 91254276.0,
+   "unusual_items": -5520000.0,
+   "normalized_ebitda": 430149000.0,
+   "normalized_income": 242380817.957421
   },
   {
    "fy_end": "2023-12-31",
@@ -240,7 +285,10 @@
    "goodwill_and_intangibles": 482530000.0,
    "retained_earnings": 2093917000.0,
    "total_debt": 1209672000.0,
-   "shares_out": 91527826.0
+   "shares_out": 91527826.0,
+   "unusual_items": -1034000.0,
+   "normalized_ebitda": 448036000.0,
+   "normalized_income": 246641044.0
   },
   {
    "fy_end": "2024-12-31",
@@ -274,7 +322,10 @@
    "goodwill_and_intangibles": 452687000.0,
    "retained_earnings": 2287151000.0,
    "total_debt": 1055470000.0,
-   "shares_out": 91450797.0
+   "shares_out": 91450797.0,
+   "unusual_items": -4390000.0,
+   "normalized_ebitda": 478447000.0,
+   "normalized_income": 285494820.314292
   },
   {
    "fy_end": "2025-12-31",
@@ -308,7 +359,10 @@
    "goodwill_and_intangibles": 830719000.0,
    "retained_earnings": 2523631000.0,
    "total_debt": 2015983000.0,
-   "shares_out": 91431237.0
+   "shares_out": 91431237.0,
+   "unusual_items": 4972000.0,
+   "normalized_ebitda": 546541000.0,
+   "normalized_income": 324825465.960012
   }
  ]
 }

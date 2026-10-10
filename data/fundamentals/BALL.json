@@ -1,6 +1,6 @@
 {
  "ticker": "BALL",
- "fetched_at": "2026-10-10T12:38:37+00:00",
+ "fetched_at": "2026-10-10T15:36:08+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 16000,
   "website": "https://www.ball.com",
-  "longBusinessSummary": "Ball Corporation supplies aluminum packaging products for the beverage, personal care, and household products industries in the United States, Brazil, and internationally. The company manufactures and sells aluminum beverage containers to fillers of carbonated soft drinks, beer, energy drinks, and other beverages. It manufactures and sells extruded aluminum aerosol containers, recloseable aluminum bottles, aluminum cups, and aluminum slugs. The company was founded in 1880 and is headquartered in Westminster, Colorado."
+  "longBusinessSummary": "Ball Corporation supplies aluminum packaging products for the beverage, personal care, and household products industries in the United States, Brazil, and internationally. The company manufactures and sells aluminum beverage containers to fillers of carbonated soft drinks, beer, energy drinks, and other beverages. It manufactures and sells extruded aluminum aerosol containers, recloseable aluminum bottles, aluminum cups, and aluminum slugs. The company was founded in 1880 and is headquartered in Westminster, Colorado.",
+  "targetMeanPrice": 71.85714,
+  "targetLowPrice": 63.0,
+  "targetHighPrice": 79.0,
+  "numberOfAnalystOpinions": 14,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.6,
+  "forwardPE": 12.926335,
+  "forwardEps": 4.52255,
+  "trailingEps": 3.51,
+  "earningsGrowth": 0.092,
+  "revenueGrowth": 0.197
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 19524000000.0,
+    "official": 19524000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 5421000000.0,
+    "official": 5421000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 912000000.0,
+    "official": 915000000.0,
+    "diff": 0.003279
+   },
+   "revenue": {
+    "yahoo": 13161000000.0,
+    "official": 13161000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:36:08+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -194,7 +236,10 @@
    "goodwill_and_intangibles": 5652000000.0,
    "retained_earnings": 7309000000.0,
    "total_debt": 7540000000.0,
-   "shares_out": 314108039.0
+   "shares_out": 314108039.0,
+   "unusual_items": -89000000.0,
+   "normalized_ebitda": 1787000000.0,
+   "normalized_income": 641980000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -228,7 +273,10 @@
    "goodwill_and_intangibles": 5498000000.0,
    "retained_earnings": 7763000000.0,
    "total_debt": 7504000000.0,
-   "shares_out": 315690035.0
+   "shares_out": 315690035.0,
+   "unusual_items": -133000000.0,
+   "normalized_ebitda": 1893000000.0,
+   "normalized_income": 585346000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -262,7 +310,10 @@
    "goodwill_and_intangibles": 5252000000.0,
    "retained_earnings": 11527000000.0,
    "total_debt": 5312000000.0,
-   "shares_out": 289377890.0
+   "shares_out": 289377890.0,
+   "unusual_items": -423000000.0,
+   "normalized_ebitda": 1871000000.0,
+   "normalized_income": 741673000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -296,7 +347,10 @@
    "goodwill_and_intangibles": 5361000000.0,
    "retained_earnings": 12219000000.0,
    "total_debt": 6991000000.0,
-   "shares_out": 265374186.0
+   "shares_out": 265374186.0,
+   "unusual_items": 22000000.0,
+   "normalized_ebitda": 2042000000.0,
+   "normalized_income": 894686000.0
   }
  ]
 }

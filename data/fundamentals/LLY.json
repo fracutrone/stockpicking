@@ -1,6 +1,6 @@
 {
  "ticker": "LLY",
- "fetched_at": "2026-10-10T12:50:36+00:00",
+ "fetched_at": "2026-10-10T15:48:52+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 50000,
   "website": "https://www.lilly.com",
-  "longBusinessSummary": "Eli Lilly and Company discovers, develops, manufactures, and markets human pharmaceutical products in the United States, Europe, China, Japan, and internationally. The company offers cardiometabolic health products, including Basaglar, Humalog, Humalog Mix 75/25, Humalog U-100, Humalog U-200, Humalog Mix 50/50, insulin lispro, insulin lispro protamine, insulin lispro mix 75/25, Humulin, Humulin 70/30, Humulin N, Humulin R, Humulin U-500 for diabetes; Jardiance, Mounjaro, and Trulicity for type 2 diabetes; and Zepbound for obesity. It also provides oncology products, such as Cyramza for the second-line treatment of gastric cancer or gastro-esophageal junction adenocarcinoma; Erbitux for colorectal cancers and head and neck cancers; Inluriyo for breast cancer; Jaypirca for chronic lymphocytic leukemia or small lymphocytic lymphoma; Retevmo for the treatment of metastatic NSCLC; TYVYT for classic hodgkin's lymphoma; and Verzenio for breast cancer. In addition, the company offers immunology products, which include Ebglyss; Olumiant; Omvoh; and Taltz. Further, it provides Emgality for migraine prevention and episodic cluster headache; and Kisubla for symptomatic Alzheimer's disease. The company has collaborations with Boehringer Ingelheim Pharmaceuticals, Inc. for the Jardiance product family; and F. Hoffmann-La Roche Ltd and Genentech, Inc. for lebrikizumab, as well as license agreements with Almirall, S.A. for Ebglyss; and Chugai Pharmaceutical Co., Ltd for orforglipron; strategic collaboration with Ascidian Therapeutics for development of therapies for undisclosed monogenic kidney diseases; BioArctic AB (publ) for new treatment; QurCan Therapeutics Inc for development of PLNP-enabled genetic medicine therapeutics for the treatment of central nervous system and peripheral nervous system; and Abbisko Therapeutics for discovery and development of medicines across multiple targets. Eli Lilly and Company was founded in 1876 and is headquartered in Indianapolis, Indiana."
+  "longBusinessSummary": "Eli Lilly and Company discovers, develops, manufactures, and markets human pharmaceutical products in the United States, Europe, China, Japan, and internationally. The company offers cardiometabolic health products, including Basaglar, Humalog, Humalog Mix 75/25, Humalog U-100, Humalog U-200, Humalog Mix 50/50, insulin lispro, insulin lispro protamine, insulin lispro mix 75/25, Humulin, Humulin 70/30, Humulin N, Humulin R, Humulin U-500 for diabetes; Jardiance, Mounjaro, and Trulicity for type 2 diabetes; and Zepbound for obesity. It also provides oncology products, such as Cyramza for the second-line treatment of gastric cancer or gastro-esophageal junction adenocarcinoma; Erbitux for colorectal cancers and head and neck cancers; Inluriyo for breast cancer; Jaypirca for chronic lymphocytic leukemia or small lymphocytic lymphoma; Retevmo for the treatment of metastatic NSCLC; TYVYT for classic hodgkin's lymphoma; and Verzenio for breast cancer. In addition, the company offers immunology products, which include Ebglyss; Olumiant; Omvoh; and Taltz. Further, it provides Emgality for migraine prevention and episodic cluster headache; and Kisubla for symptomatic Alzheimer's disease. The company has collaborations with Boehringer Ingelheim Pharmaceuticals, Inc. for the Jardiance product family; and F. Hoffmann-La Roche Ltd and Genentech, Inc. for lebrikizumab, as well as license agreements with Almirall, S.A. for Ebglyss; and Chugai Pharmaceutical Co., Ltd for orforglipron; strategic collaboration with Ascidian Therapeutics for development of therapies for undisclosed monogenic kidney diseases; BioArctic AB (publ) for new treatment; QurCan Therapeutics Inc for development of PLNP-enabled genetic medicine therapeutics for the treatment of central nervous system and peripheral nervous system; and Abbisko Therapeutics for discovery and development of medicines across multiple targets. Eli Lilly and Company was founded in 1876 and is headquartered in Indianapolis, Indiana.",
+  "targetMeanPrice": 1330.1442,
+  "targetLowPrice": 930.0,
+  "targetHighPrice": 1600.0,
+  "numberOfAnalystOpinions": 29,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.63333,
+  "forwardPE": 24.754045,
+  "forwardEps": 47.63949,
+  "trailingEps": 29.79,
+  "earningsGrowth": 0.262,
+  "revenueGrowth": 0.477
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 112476000000.0,
+    "official": 112476000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 26535000000.0,
+    "official": 26535000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 20640000000.0,
+    "official": 20640000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 65179000000.0,
+    "official": 65179000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:48:52+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -200,7 +242,10 @@
    "goodwill_and_intangibles": 11279600000.0,
    "retained_earnings": 10042600000.0,
    "total_debt": 16313300000.0,
-   "shares_out": 950182000.0
+   "shares_out": 950182000.0,
+   "unusual_items": -1563800000.0,
+   "normalized_ebitda": 10224300000.0,
+   "normalized_income": 7678804600.0
   },
   {
    "fy_end": "2023-12-31",
@@ -235,7 +280,10 @@
    "goodwill_and_intangibles": 11846300000.0,
    "retained_earnings": 10312300000.0,
    "total_debt": 25294000000.0,
-   "shares_out": 899379000.0
+   "shares_out": 899379000.0,
+   "unusual_items": -3868000000.0,
+   "normalized_ebitda": 15720000000.0,
+   "normalized_income": 8330532000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -270,7 +318,10 @@
    "goodwill_and_intangibles": 11936000000.0,
    "retained_earnings": 13545000000.0,
    "total_debt": 33812000000.0,
-   "shares_out": 897538000.0
+   "shares_out": 897538000.0,
+   "unusual_items": -4141000000.0,
+   "normalized_ebitda": 22948000000.0,
+   "normalized_income": 14048453470.031546
   },
   {
    "fy_end": "2025-12-31",
@@ -303,7 +354,10 @@
    "goodwill_and_intangibles": 12420000000.0,
    "retained_earnings": 24470000000.0,
    "total_debt": 40868000000.0,
-   "shares_out": 894800000.0
+   "shares_out": 894800000.0,
+   "unusual_items": -3394000000.0,
+   "normalized_ebitda": 35087000000.0,
+   "normalized_income": 23362481053.98158
   }
  ]
 }

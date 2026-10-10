@@ -1,6 +1,6 @@
 {
  "ticker": "GXO",
- "fetched_at": "2026-10-10T12:47:20+00:00",
+ "fetched_at": "2026-10-10T15:45:43+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 150000,
   "website": "https://www.gxo.com",
-  "longBusinessSummary": "GXO Logistics, Inc., together with its subsidiaries, provides logistics services worldwide. It provides warehousing and distribution, order fulfilment, e-commerce, reverse logistics, and other supply chain services. As of December 31, 2025, it operated in 1,043 facilities. The company serves a range of customers in the e-commerce, omnichannel retail, technology and consumer electronics, food and beverage, industrial and manufacturing, consumer packaged goods, and other industries. GXO Logistics, Inc. was incorporated in 2021 and is headquartered in Greenwich, Connecticut."
+  "longBusinessSummary": "GXO Logistics, Inc., together with its subsidiaries, provides logistics services worldwide. It provides warehousing and distribution, order fulfilment, e-commerce, reverse logistics, and other supply chain services. As of December 31, 2025, it operated in 1,043 facilities. The company serves a range of customers in the e-commerce, omnichannel retail, technology and consumer electronics, food and beverage, industrial and manufacturing, consumer packaged goods, and other industries. GXO Logistics, Inc. was incorporated in 2021 and is headquartered in Greenwich, Connecticut.",
+  "targetMeanPrice": 68.58824,
+  "targetLowPrice": 55.0,
+  "targetHighPrice": 90.0,
+  "numberOfAnalystOpinions": 17,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.35294,
+  "forwardPE": 13.165597,
+  "forwardEps": 3.53649,
+  "trailingEps": 1.13,
+  "earningsGrowth": -0.04,
+  "revenueGrowth": 0.043
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 12262000000.0,
+    "official": 12262000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2983000000.0,
+    "official": 2983000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 32000000.0,
+    "official": 32000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 13178000000.0,
+    "official": 13178000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:45:43+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -182,7 +224,10 @@
    "goodwill_and_intangibles": 3298000000.0,
    "retained_earnings": 323000000.0,
    "total_debt": 1739000000.0,
-   "shares_out": 118728000.0
+   "shares_out": 118728000.0,
+   "unusual_items": -93000000.0,
+   "normalized_ebitda": 715000000.0,
+   "normalized_income": 267494000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -215,7 +260,10 @@
    "goodwill_and_intangibles": 3458000000.0,
    "retained_earnings": 552000000.0,
    "total_debt": 1620000000.0,
-   "shares_out": 119057000.0
+   "shares_out": 119057000.0,
+   "unusual_items": -66000000.0,
+   "normalized_ebitda": 746000000.0,
+   "normalized_income": 286812030.075188
   },
   {
    "fy_end": "2024-12-31",
@@ -248,7 +296,10 @@
    "goodwill_and_intangibles": 4535000000.0,
    "retained_earnings": 686000000.0,
    "total_debt": 2521000000.0,
-   "shares_out": 119496000.0
+   "shares_out": 119496000.0,
+   "unusual_items": -159000000.0,
+   "normalized_ebitda": 823000000.0,
+   "normalized_income": 284096000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -281,7 +332,10 @@
    "goodwill_and_intangibles": 4690000000.0,
    "retained_earnings": 718000000.0,
    "total_debt": 2619000000.0,
-   "shares_out": 114512000.0
+   "shares_out": 114512000.0,
+   "unusual_items": -203000000.0,
+   "normalized_ebitda": 897000000.0,
+   "normalized_income": 192370000.0
   }
  ]
 }

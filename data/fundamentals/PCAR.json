@@ -1,6 +1,6 @@
 {
  "ticker": "PCAR",
- "fetched_at": "2026-10-10T12:55:01+00:00",
+ "fetched_at": "2026-10-10T15:52:47+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 25900,
   "website": "https://www.paccar.com",
-  "longBusinessSummary": "PACCAR Inc designs, manufactures, and distributes light, medium, and heavy-duty commercial trucks in the United States, Canada, Australia, Mexico, Europe, Central and South America, and internationally. It operates through three segments: Truck, Parts, and Financial Services. The Truck segment designs, manufactures, and distributes trucks for the over-the-road and off-highway hauling of commercial and consumer goods; and diesel engine products. It sells its trucks through a network of independent dealers under the Kenworth, Peterbilt, and DAF nameplates. The Parts segment distributes aftermarket parts for trucks and related commercial vehicles. The Financial Services segment conducts full-service leasing operations under the PacLease trade name, as well as provides finance and leasing products and services to customers and dealers. This segment offers equipment financing and administrative support services for its franchisees; retail loan and leasing services for small, medium, and large commercial trucking companies, as well as independent owners/operators and other businesses; and truck inventory financing services to independent dealers. In addition, this segment offers loans and leases directly to customers for the acquisition of trucks and related equipment; and operates its own full-service lease outlets. The company manufactures and markets industrial winches under the Braden, Carco, and Gearmatic nameplates. PACCAR Inc was founded in 1905 and is headquartered in Bellevue, Washington."
+  "longBusinessSummary": "PACCAR Inc designs, manufactures, and distributes light, medium, and heavy-duty commercial trucks in the United States, Canada, Australia, Mexico, Europe, Central and South America, and internationally. It operates through three segments: Truck, Parts, and Financial Services. The Truck segment designs, manufactures, and distributes trucks for the over-the-road and off-highway hauling of commercial and consumer goods; and diesel engine products. It sells its trucks through a network of independent dealers under the Kenworth, Peterbilt, and DAF nameplates. The Parts segment distributes aftermarket parts for trucks and related commercial vehicles. The Financial Services segment conducts full-service leasing operations under the PacLease trade name, as well as provides finance and leasing products and services to customers and dealers. This segment offers equipment financing and administrative support services for its franchisees; retail loan and leasing services for small, medium, and large commercial trucking companies, as well as independent owners/operators and other businesses; and truck inventory financing services to independent dealers. In addition, this segment offers loans and leases directly to customers for the acquisition of trucks and related equipment; and operates its own full-service lease outlets. The company manufactures and markets industrial winches under the Braden, Carco, and Gearmatic nameplates. PACCAR Inc was founded in 1905 and is headquartered in Bellevue, Washington.",
+  "targetMeanPrice": 140.0625,
+  "targetLowPrice": 107.0,
+  "targetHighPrice": 162.0,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.21053,
+  "forwardPE": 15.08435,
+  "forwardEps": 7.16239,
+  "trailingEps": 4.75,
+  "earningsGrowth": 0.042,
+  "revenueGrowth": 0.005
  },
  "governance": {
   "ceo": {
@@ -82,9 +93,40 @@
   "retained_earnings": "sec",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "interest_expense": "sec",
   "goodwill": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 44336200000.0,
+    "official": 44336200000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 19264000000.0,
+    "official": 19264000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2375800000.0,
+    "official": 2375800000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 28444800000.0,
+    "official": 28444800000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:52:47+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -164,7 +206,10 @@
    "goodwill": 104100000.0,
    "retained_earnings": 13402400000.0,
    "total_debt": 11471600000.0,
-   "shares_out": 522000000.0
+   "shares_out": 522000000.0,
+   "unusual_items": 61000000.0,
+   "normalized_ebitda": 4407800000.0,
+   "normalized_income": 2963898000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -196,7 +241,10 @@
    "goodwill": 107400000.0,
    "retained_earnings": 15780300000.0,
    "total_debt": 14234500000.0,
-   "shares_out": 523300000.0
+   "shares_out": 523300000.0,
+   "unusual_items": 292200000.0,
+   "normalized_ebitda": 6578100000.0,
+   "normalized_income": 4365579000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -228,7 +276,10 @@
    "goodwill": 100700000.0,
    "retained_earnings": 17751000000.0,
    "total_debt": 15895000000.0,
-   "shares_out": 524400000.0
+   "shares_out": 524400000.0,
+   "unusual_items": 394700000.0,
+   "normalized_ebitda": 5414600000.0,
+   "normalized_income": 3857686300.0
   },
   {
    "fy_end": "2025-12-31",
@@ -260,7 +311,10 @@
    "goodwill": 114200000.0,
    "retained_earnings": 18696100000.0,
    "total_debt": 15636300000.0,
-   "shares_out": 525400000.0
+   "shares_out": 525400000.0,
+   "unusual_items": 346100000.0,
+   "normalized_ebitda": 3443000000.0,
+   "normalized_income": 2103765400.0
   }
  ]
 }

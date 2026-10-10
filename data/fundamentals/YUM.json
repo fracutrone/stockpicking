@@ -1,6 +1,6 @@
 {
  "ticker": "YUM",
- "fetched_at": "2026-10-10T13:03:14+00:00",
+ "fetched_at": "2026-10-10T16:00:32+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 49000,
   "website": "https://www.yum.com",
-  "longBusinessSummary": "Yum! Brands, Inc., together with its subsidiaries, develops, operates, and franchises traditional and non-traditional quick service restaurants in the United States, China, and internationally. The company operates in four segments: KFC Division, Taco Bell Division, Pizza Hut Division, and Habit Burger & Grill Division. It also operates restaurants under the KFC, Pizza Hut, Taco Bell, and Habit Burger & Grill brands, which specialize in chicken, Mexican-style food and pizza categories, made-to-order chargrilled burgers, sandwiches, and other products. The company was formerly known as TRICON Global Restaurants, Inc. and changed its name to Yum! Brands, Inc. in May 2002. Yum! Brands, Inc. was incorporated in 1997 and is headquartered in Louisville, Kentucky."
+  "longBusinessSummary": "Yum! Brands, Inc., together with its subsidiaries, develops, operates, and franchises traditional and non-traditional quick service restaurants in the United States, China, and internationally. The company operates in four segments: KFC Division, Taco Bell Division, Pizza Hut Division, and Habit Burger & Grill Division. It also operates restaurants under the KFC, Pizza Hut, Taco Bell, and Habit Burger & Grill brands, which specialize in chicken, Mexican-style food and pizza categories, made-to-order chargrilled burgers, sandwiches, and other products. The company was formerly known as TRICON Global Restaurants, Inc. and changed its name to Yum! Brands, Inc. in May 2002. Yum! Brands, Inc. was incorporated in 1997 and is headquartered in Louisville, Kentucky.",
+  "targetMeanPrice": 171.06364,
+  "targetLowPrice": 147.0,
+  "targetHighPrice": 200.0,
+  "numberOfAnalystOpinions": 22,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.11538,
+  "forwardPE": 20.908289,
+  "forwardEps": 6.92644,
+  "trailingEps": 8.04,
+  "earningsGrowth": 1.316,
+  "revenueGrowth": 0.122
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "inventory": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 8197000000.0,
+    "official": 8197000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": -7325000000.0,
+    "official": -7325000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1559000000.0,
+    "official": 1559000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 8214000000.0,
+    "official": 8214000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T16:00:32+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -197,7 +239,10 @@
    "goodwill_and_intangibles": 992000000.0,
    "retained_earnings": -8507000000.0,
    "total_debt": 11851000000.0,
-   "shares_out": 280000000.0
+   "shares_out": 280000000.0,
+   "unusual_items": 39000000.0,
+   "normalized_ebitda": 2296000000.0,
+   "normalized_income": 1293917000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -231,7 +276,10 @@
    "goodwill_and_intangibles": 1019000000.0,
    "retained_earnings": -7616000000.0,
    "total_debt": 11195000000.0,
-   "shares_out": 281000000.0
+   "shares_out": 281000000.0,
+   "unusual_items": 19000000.0,
+   "normalized_ebitda": 2465000000.0,
+   "normalized_income": 1580299000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -265,7 +313,10 @@
    "goodwill_and_intangibles": 1152000000.0,
    "retained_earnings": -7256000000.0,
    "total_debt": 11333000000.0,
-   "shares_out": 279071854.0
+   "shares_out": 279071854.0,
+   "unusual_items": -6000000.0,
+   "normalized_ebitda": 2570000000.0,
+   "normalized_income": 1490692631.578947
   },
   {
    "fy_end": "2025-12-31",
@@ -299,7 +350,10 @@
    "goodwill_and_intangibles": 1878000000.0,
    "retained_earnings": -7014000000.0,
    "total_debt": 11910000000.0,
-   "shares_out": 276569492.0
+   "shares_out": 276569492.0,
+   "unusual_items": 38000000.0,
+   "normalized_ebitda": 2746000000.0,
+   "normalized_income": 1530477130.476649
   }
  ]
 }

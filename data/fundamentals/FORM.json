@@ -1,6 +1,6 @@
 {
  "ticker": "FORM",
- "fetched_at": "2026-10-10T12:46:00+00:00",
+ "fetched_at": "2026-10-10T15:44:19+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 2153,
   "website": "https://www.formfactor.com",
-  "longBusinessSummary": "FormFactor, Inc. designs, manufactures, and sells probe cards, analytical probes, probe stations, thermal systems, cryogenic systems, and related services in the United States, South Korea, Taiwan, China, Japan, Singapore, Europe, Malaysia, and internationally. The company operates in two segments: Probe Cards and Systems segments. The company provides probe cards to test various semiconductor device types, including systems- on-chip products, such as graphics, central, digital processing units, and other custom application-specific processing units; mobile application processors, microprocessors, and microcontrollers; network devices, which include switches and network processing units; dynamic random-access memory; radio-frequency amplifiers and filters; antenna-in-package devices; analog and mixed-signal integrated circuits; image sensors; co-packaged optical integrated circuits; NAND flash memory; NOR flash memory; and quantum computer processor devices. It also offers analytical probes, which are used for device characterization, electrical simulation model development, failure analysis, and prototype design debugging; probe stations, a critical tool for the development of new generations of semiconductor and electro-optical processes and designs; and thermal subsystems, which include thermal chucks and other test systems used in probe stations and other applications for precise temperature management. In addition, the company provides cryogenic systems, which includes the manufacture of precision cryogenic instruments and semiconductor test and measurement systems; and services and support, including installation services. Further, it offers on-site probe card maintenance and service training, seminars, and telephone support services. It markets and sells its products through direct sales force, manufacturers' representatives, and distributors. The company was incorporated in 1993 and is headquartered in Livermore, California."
+  "longBusinessSummary": "FormFactor, Inc. designs, manufactures, and sells probe cards, analytical probes, probe stations, thermal systems, cryogenic systems, and related services in the United States, South Korea, Taiwan, China, Japan, Singapore, Europe, Malaysia, and internationally. The company operates in two segments: Probe Cards and Systems segments. The company provides probe cards to test various semiconductor device types, including systems- on-chip products, such as graphics, central, digital processing units, and other custom application-specific processing units; mobile application processors, microprocessors, and microcontrollers; network devices, which include switches and network processing units; dynamic random-access memory; radio-frequency amplifiers and filters; antenna-in-package devices; analog and mixed-signal integrated circuits; image sensors; co-packaged optical integrated circuits; NAND flash memory; NOR flash memory; and quantum computer processor devices. It also offers analytical probes, which are used for device characterization, electrical simulation model development, failure analysis, and prototype design debugging; probe stations, a critical tool for the development of new generations of semiconductor and electro-optical processes and designs; and thermal subsystems, which include thermal chucks and other test systems used in probe stations and other applications for precise temperature management. In addition, the company provides cryogenic systems, which includes the manufacture of precision cryogenic instruments and semiconductor test and measurement systems; and services and support, including installation services. Further, it offers on-site probe card maintenance and service training, seminars, and telephone support services. It markets and sells its products through direct sales force, manufacturers' representatives, and distributors. The company was incorporated in 1993 and is headquartered in Livermore, California.",
+  "targetMeanPrice": 153.88889,
+  "targetLowPrice": 100.0,
+  "targetHighPrice": 200.0,
+  "numberOfAnalystOpinions": 9,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.90909,
+  "forwardPE": 36.88241,
+  "forwardEps": 3.7869,
+  "trailingEps": 1.45,
+  "earningsGrowth": 5.025,
+  "revenueGrowth": 0.319
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 1224362000.0,
+    "official": 1224362000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1035403000.0,
+    "official": 1035403000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 54361000.0,
+    "official": 54361000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 784993000.0,
+    "official": 784993000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:44:19+00:00",
  "years": [
   {
    "fy_end": "2019-12-28",
@@ -208,7 +250,10 @@
    "goodwill_and_intangibles": 238195000.0,
    "retained_earnings": -31056000.0,
    "total_debt": 15434000.0,
-   "shares_out": 76914590.0
+   "shares_out": 76914590.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 96486000.0,
+   "normalized_income": 50738000.0
   },
   {
    "fy_end": "2023-12-30",
@@ -243,7 +288,10 @@
    "goodwill_and_intangibles": 214028000.0,
    "retained_earnings": 51331000.0,
    "total_debt": 14389000.0,
-   "shares_out": 77376903.0
+   "shares_out": 77376903.0,
+   "unusual_items": 72953000.0,
+   "normalized_ebitda": 54188000.0,
+   "normalized_income": 15051381.0
   },
   {
    "fy_end": "2024-12-28",
@@ -278,7 +326,10 @@
    "goodwill_and_intangibles": 209526000.0,
    "retained_earnings": 120945000.0,
    "total_debt": 13314000.0,
-   "shares_out": 77114633.0
+   "shares_out": 77114633.0,
+   "unusual_items": 20581000.0,
+   "normalized_ebitda": 92152000.0,
+   "normalized_income": 51564463.0
   },
   {
    "fy_end": "2025-12-27",
@@ -313,7 +364,10 @@
    "goodwill_and_intangibles": 232331000.0,
    "retained_earnings": 175306000.0,
    "total_debt": 12208000.0,
-   "shares_out": 77647935.0
+   "shares_out": 77647935.0,
+   "unusual_items": -3025000.0,
+   "normalized_ebitda": 110526000.0,
+   "normalized_income": 56820325.0
   }
  ]
 }

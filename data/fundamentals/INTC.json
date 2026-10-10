@@ -1,6 +1,6 @@
 {
  "ticker": "INTC",
- "fetched_at": "2026-10-10T12:48:49+00:00",
+ "fetched_at": "2026-10-10T15:47:10+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 85100,
   "website": "https://www.intel.com",
-  "longBusinessSummary": "Intel Corporation designs, develops, manufactures, markets, sells, and services computing and related end products and services in the United States, Ireland, Israel, and internationally. It operates through three segments: CCG, DCAI, and Intel Foundry. The company offers client computing group products, including client and commercial CPUs, discrete client GPUs, edge computing, and connectivity products; data center and AI products, such as server CPUs, discrete GPUs, and networking products; and semiconductors comprising wafer fabrication, substrates, and other related products and services. It also provides driving assistance and self-driving solutions; and develops and manufactures multi-beam mask writing tools. The company sells its products through sales organizations, distributors, resellers, retailers, and OEM partners. It serves original equipment manufacturers, original design manufacturers, cloud service providers, and other manufacturers and service providers. Intel Corporation has a strategic collaboration with Infosys Limited to develop a multi-layer AI fabric that unifies infrastructure, models, data, applications, and workflows into a composable and agent-ready ecosystem. The company was incorporated in 1968 and is headquartered in Santa Clara, California."
+  "longBusinessSummary": "Intel Corporation designs, develops, manufactures, markets, sells, and services computing and related end products and services in the United States, Ireland, Israel, and internationally. It operates through three segments: CCG, DCAI, and Intel Foundry. The company offers client computing group products, including client and commercial CPUs, discrete client GPUs, edge computing, and connectivity products; data center and AI products, such as server CPUs, discrete GPUs, and networking products; and semiconductors comprising wafer fabrication, substrates, and other related products and services. It also provides driving assistance and self-driving solutions; and develops and manufactures multi-beam mask writing tools. The company sells its products through sales organizations, distributors, resellers, retailers, and OEM partners. It serves original equipment manufacturers, original design manufacturers, cloud service providers, and other manufacturers and service providers. Intel Corporation has a strategic collaboration with Infosys Limited to develop a multi-layer AI fabric that unifies infrastructure, models, data, applications, and workflows into a composable and agent-ready ecosystem. The company was incorporated in 1968 and is headquartered in Santa Clara, California.",
+  "targetMeanPrice": 118.04651,
+  "targetLowPrice": 80.0,
+  "targetHighPrice": 200.0,
+  "numberOfAnalystOpinions": 43,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.46939,
+  "forwardPE": 50.272007,
+  "forwardEps": 2.08267,
+  "trailingEps": -2.12,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.254
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 211429000000.0,
+    "official": 211429000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 114281000000.0,
+    "official": 114281000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -267000000.0,
+    "official": -267000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 52853000000.0,
+    "official": 52853000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:47:10+00:00",
  "years": [
   {
    "fy_end": "2019-12-28",
@@ -202,7 +244,10 @@
    "goodwill_and_intangibles": 33609000000.0,
    "retained_earnings": 70405000000.0,
    "total_debt": 42007000000.0,
-   "shares_out": 4137000000.0
+   "shares_out": 4137000000.0,
+   "unusual_items": 5266000000.0,
+   "normalized_ebitda": 16033000000.0,
+   "normalized_income": 3853860000.0
   },
   {
    "fy_end": "2023-12-30",
@@ -237,7 +282,10 @@
    "goodwill_and_intangibles": 32180000000.0,
    "retained_earnings": 69156000000.0,
    "total_debt": 49266000000.0,
-   "shares_out": 4228000000.0
+   "shares_out": 4228000000.0,
+   "unusual_items": 102000000.0,
+   "normalized_ebitda": 11140000000.0,
+   "normalized_income": 1608420000.0
   },
   {
    "fy_end": "2024-12-28",
@@ -272,7 +320,10 @@
    "goodwill_and_intangibles": 28384000000.0,
    "retained_earnings": 49032000000.0,
    "total_debt": 50011000000.0,
-   "shares_out": 4330000000.0
+   "shares_out": 4330000000.0,
+   "unusual_items": -7483000000.0,
+   "normalized_ebitda": 8686000000.0,
+   "normalized_income": -12844430000.0
   },
   {
    "fy_end": "2025-12-27",
@@ -307,7 +358,10 @@
    "goodwill_and_intangibles": 26684000000.0,
    "retained_earnings": 48983000000.0,
    "total_debt": 46585000000.0,
-   "shares_out": 4994000000.0
+   "shares_out": 4994000000.0,
+   "unusual_items": 1851000000.0,
+   "normalized_ebitda": 12503000000.0,
+   "normalized_income": -1729290000.0
   }
  ]
 }

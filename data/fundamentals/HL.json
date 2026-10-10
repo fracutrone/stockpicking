@@ -1,6 +1,6 @@
 {
  "ticker": "HL",
- "fetched_at": "2026-10-10T12:47:43+00:00",
+ "fetched_at": "2026-10-10T15:46:07+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 1865,
   "website": "https://www.hecla.com",
-  "longBusinessSummary": "Hecla Mining Company, together with its subsidiaries, provides precious and base metals in the United States, Canada, Japan, Korea, China, and internationally. The company mines for silver, gold, lead, and zinc concentrates, as well as carbon material containing silver and gold for custom smelters, metal traders, and third-party processors; and unrefined doré containing silver and gold. The company was incorporated in 1891 and is headquartered in Coeur d'Alene, Idaho."
+  "longBusinessSummary": "Hecla Mining Company, together with its subsidiaries, provides precious and base metals in the United States, Canada, Japan, Korea, China, and internationally. The company mines for silver, gold, lead, and zinc concentrates, as well as carbon material containing silver and gold for custom smelters, metal traders, and third-party processors; and unrefined doré containing silver and gold. The company was incorporated in 1891 and is headquartered in Coeur d'Alene, Idaho.",
+  "targetMeanPrice": 22.775,
+  "targetLowPrice": 17.0,
+  "targetHighPrice": 32.0,
+  "numberOfAnalystOpinions": 10,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.3,
+  "forwardPE": 16.532686,
+  "forwardEps": 1.0325,
+  "trailingEps": 0.79,
+  "earningsGrowth": 0.929,
+  "revenueGrowth": 0.524
  },
  "governance": {
   "ceo": {
@@ -82,8 +93,39 @@
   "ppe_net": "sec",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3560645000.0,
+    "official": 3560645000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2591646000.0,
+    "official": 2591646000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 321712000.0,
+    "official": 321712000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1423019000.0,
+    "official": 1423019000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:46:07+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -188,7 +230,10 @@
    "ppe_net": 2569790000.0,
    "retained_earnings": -403931000.0,
    "total_debt": 527225000.0,
-   "shares_out": 599486942.0
+   "shares_out": 599486942.0,
+   "unusual_items": -30419000.0,
+   "normalized_ebitda": 173445000.0,
+   "normalized_income": -12100230.0
   },
   {
    "fy_end": "2023-12-31",
@@ -219,7 +264,10 @@
    "ppe_net": 2666250000.0,
    "retained_earnings": -503861000.0,
    "total_debt": 662815000.0,
-   "shares_out": 616112218.0
+   "shares_out": 616112218.0,
+   "unusual_items": -84712000.0,
+   "normalized_ebitda": 208708000.0,
+   "normalized_income": -17294520.0
   },
   {
    "fy_end": "2024-12-31",
@@ -251,7 +299,10 @@
    "ppe_net": 2694119000.0,
    "retained_earnings": -493529000.0,
    "total_debt": 550713000.0,
-   "shares_out": 631734791.0
+   "shares_out": 631734791.0,
+   "unusual_items": -59376000.0,
+   "normalized_ebitda": 365897000.0,
+   "normalized_income": 82709040.0
   },
   {
    "fy_end": "2025-12-31",
@@ -283,7 +334,10 @@
    "ppe_net": 2840827000.0,
    "retained_earnings": -182143000.0,
    "total_debt": 275800000.0,
-   "shares_out": 670300060.0
+   "shares_out": 670300060.0,
+   "unusual_items": -15181000.0,
+   "normalized_ebitda": 701511000.0,
+   "normalized_income": 331883270.0
   }
  ]
 }

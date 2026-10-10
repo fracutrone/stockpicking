@@ -1,6 +1,6 @@
 {
  "ticker": "LHX",
- "fetched_at": "2026-10-10T12:50:28+00:00",
+ "fetched_at": "2026-10-10T15:48:43+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 45000,
   "website": "https://www.l3harris.com",
-  "longBusinessSummary": "L3Harris Technologies, Inc. provides mission-critical solutions for government and commercial customers worldwide. It operates through three segments: Space & Mission Systems (SMS), Communications & Spectrum Dominance (CSD), and Missile Solutions (MSL). The SMS segment integrates satellite and payload capabilities, including missile warning and defense, with maritime, air special missions, and other global defense and civil government programs. Its MSL segment unites propulsion, hypersonic, and other advanced missile technologies. The CSD segment provides tactical radios, software, waveforms, satellite terminals, and end-to-end battlefield systems for the U.S. Department of Defense, international, federal, and state agency customers; broadband communications; integrated vision solutions, such as helmet-mounted integrated night vision goggles with image intensifier tubes and weapon-mounted sights, aiming lasers, and range finders; and public safety radios and system applications and equipment. The company was formerly known as Harris Corporation and changed its name to L3Harris Technologies, Inc. in June 2019. L3Harris Technologies, Inc. was founded in 1895 and is headquartered in Melbourne, Florida."
+  "longBusinessSummary": "L3Harris Technologies, Inc. provides mission-critical solutions for government and commercial customers worldwide. It operates through three segments: Space & Mission Systems (SMS), Communications & Spectrum Dominance (CSD), and Missile Solutions (MSL). The SMS segment integrates satellite and payload capabilities, including missile warning and defense, with maritime, air special missions, and other global defense and civil government programs. Its MSL segment unites propulsion, hypersonic, and other advanced missile technologies. The CSD segment provides tactical radios, software, waveforms, satellite terminals, and end-to-end battlefield systems for the U.S. Department of Defense, international, federal, and state agency customers; broadband communications; integrated vision solutions, such as helmet-mounted integrated night vision goggles with image intensifier tubes and weapon-mounted sights, aiming lasers, and range finders; and public safety radios and system applications and equipment. The company was formerly known as Harris Corporation and changed its name to L3Harris Technologies, Inc. in June 2019. L3Harris Technologies, Inc. was founded in 1895 and is headquartered in Melbourne, Florida.",
+  "targetMeanPrice": 325.17648,
+  "targetLowPrice": 260.0,
+  "targetHighPrice": 405.0,
+  "numberOfAnalystOpinions": 17,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.85,
+  "forwardPE": 17.483477,
+  "forwardEps": 13.55394,
+  "trailingEps": 9.92,
+  "earningsGrowth": 0.283,
+  "revenueGrowth": 0.084
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,34 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 41195000000.0,
+    "official": 41195000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 19635000000.0,
+    "official": 19635000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1606000000.0,
+    "official": 1606000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:48:43+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -119,7 +156,10 @@
    "goodwill_and_intangibles": 23284000000.0,
    "retained_earnings": 2943000000.0,
    "total_debt": 6227000000.0,
-   "shares_out": 190611458.0
+   "shares_out": 190611458.0,
+   "unusual_items": -802000000.0,
+   "normalized_ebitda": 3292000000.0,
+   "normalized_income": 1730066000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -153,7 +193,10 @@
    "goodwill_and_intangibles": 28519000000.0,
    "retained_earnings": 3220000000.0,
    "total_debt": 12762000000.0,
-   "shares_out": 189808581.0
+   "shares_out": 189808581.0,
+   "unusual_items": -374000000.0,
+   "normalized_ebitda": 3304000000.0,
+   "normalized_income": 1593894000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -187,7 +230,10 @@
    "goodwill_and_intangibles": 27964000000.0,
    "retained_earnings": 3739000000.0,
    "total_debt": 11596000000.0,
-   "shares_out": 189794911.0
+   "shares_out": 189794911.0,
+   "unusual_items": -97000000.0,
+   "normalized_ebitda": 3658000000.0,
+   "normalized_income": 1593837194.740138
   },
   {
    "fy_end": "2025-12-31",
@@ -221,7 +267,10 @@
    "goodwill_and_intangibles": 26519000000.0,
    "retained_earnings": 4212000000.0,
    "total_debt": 10443000000.0,
-   "shares_out": 186844093.0
+   "shares_out": 186844093.0,
+   "unusual_items": -40000000.0,
+   "normalized_ebitda": 3793000000.0,
+   "normalized_income": 1639250517.598344
   }
  ]
 }

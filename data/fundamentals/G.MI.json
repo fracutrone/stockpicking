@@ -1,6 +1,6 @@
 {
  "ticker": "G.MI",
- "fetched_at": "2026-10-10T11:59:13+00:00",
+ "fetched_at": "2026-10-10T14:49:49+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "MIL",
   "fullTimeEmployees": 88255,
   "website": "https://www.generali.com",
-  "longBusinessSummary": "Assicurazioni Generali S.p.A. provides various insurance solutions under the Generali brand in the Americas, Italy, rest of Europe, Africa, the Middle East, Asia, and the Oceania. The company operates through Life, Property & Casualty, and Asset & Wealth Management segments. It offers savings, individual and family protection, and unit linked products, as well as motor third-party liability, home, property and casualty, accident, health, and commercial and industrial risks insurance products; and insurance plans for multinational companies. It also provides equity and fixed-income funds, and alternative products. The company was formerly known as Assicurazioni Generali Austro-Italiche and changed its name to Assicurazioni Generali S.p.A. in 1848. Assicurazioni Generali S.p.A. was founded in 1831 and is headquartered in Trieste, Italy."
+  "longBusinessSummary": "Assicurazioni Generali S.p.A. provides various insurance solutions under the Generali brand in the Americas, Italy, rest of Europe, Africa, the Middle East, Asia, and the Oceania. The company operates through Life, Property & Casualty, and Asset & Wealth Management segments. It offers savings, individual and family protection, and unit linked products, as well as motor third-party liability, home, property and casualty, accident, health, and commercial and industrial risks insurance products; and insurance plans for multinational companies. It also provides equity and fixed-income funds, and alternative products. The company was formerly known as Assicurazioni Generali Austro-Italiche and changed its name to Assicurazioni Generali S.p.A. in 1848. Assicurazioni Generali S.p.A. was founded in 1831 and is headquartered in Trieste, Italy.",
+  "targetMeanPrice": 43.14737,
+  "targetLowPrice": 30.0,
+  "targetHighPrice": 73.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.0,
+  "forwardPE": 12.225657,
+  "forwardEps": 3.40268,
+  "trailingEps": 2.95,
+  "earningsGrowth": 0.171,
+  "revenueGrowth": 0.054
  },
  "governance": {
   "ceo": {
@@ -68,8 +79,34 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF IT",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 558529000000.0,
+    "official": 558529000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 32064000000.0,
+    "official": 32064000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 4172000000.0,
+    "official": 4172000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:49:49+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -95,7 +132,9 @@
    "goodwill_and_intangibles": 10031000000.0,
    "retained_earnings": 2235000000.0,
    "total_debt": 36224000000.0,
-   "shares_out": 1547295904.0
+   "shares_out": 1547295904.0,
+   "unusual_items": -464000000.0,
+   "normalized_income": 2822600000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -121,7 +160,9 @@
    "goodwill_and_intangibles": 9990000000.0,
    "retained_earnings": 3747000000.0,
    "total_debt": 35345000000.0,
-   "shares_out": 1542345040.0
+   "shares_out": 1542345040.0,
+   "unusual_items": -342000000.0,
+   "normalized_income": 3954608000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -147,7 +188,9 @@
    "goodwill_and_intangibles": 11861000000.0,
    "retained_earnings": 3724000000.0,
    "total_debt": 37543000000.0,
-   "shares_out": 1521548502.0
+   "shares_out": 1521548502.0,
+   "unusual_items": -490000000.0,
+   "normalized_income": 4141509849.362688
   },
   {
    "fy_end": "2025-12-31",
@@ -172,7 +215,9 @@
    "goodwill_and_intangibles": 12200000000.0,
    "retained_earnings": 4172000000.0,
    "total_debt": 39571000000.0,
-   "shares_out": 1503178000.0
+   "shares_out": 1503178000.0,
+   "unusual_items": -476000000.0,
+   "normalized_income": 4502480000.0
   }
  ]
 }

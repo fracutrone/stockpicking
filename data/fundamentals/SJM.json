@@ -1,6 +1,6 @@
 {
  "ticker": "SJM",
- "fetched_at": "2026-10-10T12:58:03+00:00",
+ "fetched_at": "2026-10-10T15:55:39+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": null,
   "website": "https://www.jmsmucker.com",
-  "longBusinessSummary": "The J. M. Smucker Company manufactures and markets branded food and beverage products worldwide. The company operates through five segments: U.S. Retail Coffee, U.S. Retail Frozen Handheld and Spreads, U.S. Retail Pet Foods, Sweet Baked Snacks, and Away From Home. It offers coffee, sweet baked goods, pet snacks, frozen handheld products, peanut butter, cat and dog food, fruit and specialty spreads, cookies, frozen sandwiches and snacks, hot beverages, portion control products, toppings and syrups, baking mixes and ingredients, and flour. The company provides its products under the Folgers, Café Bustelo, Dunkin', Jif, Smucker's, Uncrustables, Meow Mix, Milk-Bone, Pup-Peroni, Canine Carry Outs, Hostess, and 1850 brand names. It sells its products through direct sales and brokers to food retailers, club stores, discount and dollar stores, online retailers, pet specialty stores, distributors, drug stores, military commissaries, mass merchandisers, supermarket chains, national mass retailers, convenience stores, vending channels, and foodservice distributors and operators. The J. M. Smucker Company was founded in 1897 and is headquartered in Orrville, Ohio."
+  "longBusinessSummary": "The J. M. Smucker Company manufactures and markets branded food and beverage products worldwide. The company operates through five segments: U.S. Retail Coffee, U.S. Retail Frozen Handheld and Spreads, U.S. Retail Pet Foods, Sweet Baked Snacks, and Away From Home. It offers coffee, sweet baked goods, pet snacks, frozen handheld products, peanut butter, cat and dog food, fruit and specialty spreads, cookies, frozen sandwiches and snacks, hot beverages, portion control products, toppings and syrups, baking mixes and ingredients, and flour. The company provides its products under the Folgers, Café Bustelo, Dunkin', Jif, Smucker's, Uncrustables, Meow Mix, Milk-Bone, Pup-Peroni, Canine Carry Outs, Hostess, and 1850 brand names. It sells its products through direct sales and brokers to food retailers, club stores, discount and dollar stores, online retailers, pet specialty stores, distributors, drug stores, military commissaries, mass merchandisers, supermarket chains, national mass retailers, convenience stores, vending channels, and foodservice distributors and operators. The J. M. Smucker Company was founded in 1897 and is headquartered in Orrville, Ohio.",
+  "targetMeanPrice": 142.125,
+  "targetLowPrice": 120.0,
+  "targetHighPrice": 157.0,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.10526,
+  "forwardPE": 10.971655,
+  "forwardEps": 10.92178,
+  "trailingEps": 2.14,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.05
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-04-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 16219400000.0,
+    "official": 16219400000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 5543800000.0,
+    "official": 5543800000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -138700000.0,
+    "official": -138700000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 9050900000.0,
+    "official": 9050900000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:55:39+00:00",
  "years": [
   {
    "fy_end": "2020-04-30",
@@ -203,7 +245,10 @@
    "goodwill_and_intangibles": 9646200000.0,
    "retained_earnings": 2132100000.0,
    "total_debt": 4314200000.0,
-   "shares_out": 104398618.0
+   "shares_out": 104398618.0,
+   "unusual_items": -1023200000.0,
+   "normalized_ebitda": 1597000000.0,
+   "normalized_income": 717028000.0
   },
   {
    "fy_end": "2024-04-30",
@@ -238,7 +283,10 @@
    "goodwill_and_intangibles": 14905300000.0,
    "retained_earnings": 2188100000.0,
    "total_debt": 8364000000.0,
-   "shares_out": 106194281.0
+   "shares_out": 106194281.0,
+   "unusual_items": -162600000.0,
+   "normalized_ebitda": 1854100000.0,
+   "normalized_income": 865462200.0
   },
   {
    "fy_end": "2025-04-30",
@@ -272,7 +320,10 @@
    "goodwill_and_intangibles": 12056900000.0,
    "retained_earnings": 501800000.0,
    "total_debt": 7677600000.0,
-   "shares_out": 106425081.0
+   "shares_out": 106425081.0,
+   "unusual_items": -2298200000.0,
+   "normalized_ebitda": 2142600000.0,
+   "normalized_income": 584778000.0
   },
   {
    "fy_end": "2026-04-30",
@@ -306,7 +357,10 @@
    "goodwill_and_intangibles": 10888700000.0,
    "retained_earnings": -101300000.0,
    "total_debt": 6963700000.0,
-   "shares_out": 106661858.0
+   "shares_out": 106661858.0,
+   "unusual_items": -982800000.0,
+   "normalized_ebitda": 1858600000.0,
+   "normalized_income": 450980000.0
   }
  ]
 }

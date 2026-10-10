@@ -1,6 +1,6 @@
 {
  "ticker": "IBKR",
- "fetched_at": "2026-10-10T12:48:23+00:00",
+ "fetched_at": "2026-10-10T15:46:48+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 3265,
   "website": "https://www.interactivebrokers.com",
-  "longBusinessSummary": "Interactive Brokers Group, Inc. operates as an automated electronic broker in the United States and internationally. The company engages in the execution, clearance, and settlement of trades in stocks, options, futures, foreign exchange instruments, bonds, precious metals, and cryptocurrencies; and the company provides custody, prime brokerage, securities, and margin lending services. It also offers custody and service accounts for hedge and mutual funds, ETFs, registered investment advisors, proprietary trading groups, introducing brokers, and individual investors. In addition, the company provides trading platforms, including IBKR Trader Workstation, IBKR Desktop, IBKR Mobile, and IBKR Client Portal platform, as well as IBKR GlobalTrader mobile application, and IBKR APIs, builds custom trading applications and automates any part of the trading process. Further, it offers IBKR Pro, IBKR Lite, IBKR Universal Account, insured bank deposit sweep program, investors' marketplace, mutual fund marketplace, bond marketplace, forecast and event contracts, fractional trading, no transaction fee program for exchange-traded funds, overnight trading hours, and karta visa infinite charge card. It serves institutional and individual customers through electronic exchanges and market centers. Interactive Brokers Group, Inc. was founded in 1977 and is headquartered in Greenwich, Connecticut."
+  "longBusinessSummary": "Interactive Brokers Group, Inc. operates as an automated electronic broker in the United States and internationally. The company engages in the execution, clearance, and settlement of trades in stocks, options, futures, foreign exchange instruments, bonds, precious metals, and cryptocurrencies; and the company provides custody, prime brokerage, securities, and margin lending services. It also offers custody and service accounts for hedge and mutual funds, ETFs, registered investment advisors, proprietary trading groups, introducing brokers, and individual investors. In addition, the company provides trading platforms, including IBKR Trader Workstation, IBKR Desktop, IBKR Mobile, and IBKR Client Portal platform, as well as IBKR GlobalTrader mobile application, and IBKR APIs, builds custom trading applications and automates any part of the trading process. Further, it offers IBKR Pro, IBKR Lite, IBKR Universal Account, insured bank deposit sweep program, investors' marketplace, mutual fund marketplace, bond marketplace, forecast and event contracts, fractional trading, no transaction fee program for exchange-traded funds, overnight trading hours, and karta visa infinite charge card. It serves institutional and individual customers through electronic exchanges and market centers. Interactive Brokers Group, Inc. was founded in 1977 and is headquartered in Greenwich, Connecticut.",
+  "targetMeanPrice": 105.18571,
+  "targetLowPrice": 70.0,
+  "targetHighPrice": 121.0,
+  "numberOfAnalystOpinions": 14,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.86667,
+  "forwardPE": 26.990833,
+  "forwardEps": 3.25555,
+  "trailingEps": 2.52,
+  "earningsGrowth": 0.353,
+  "revenueGrowth": 0.263
  },
  "governance": {
   "ceo": {
@@ -80,9 +91,40 @@
   "retained_earnings": "sec",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "ppe_net": "sec",
   "intangibles": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 203240000000.0,
+    "official": 203240000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 5363000000.0,
+    "official": 5363000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 984000000.0,
+    "official": 4357000000.0,
+    "diff": 0.774157
+   },
+   "revenue": {
+    "yahoo": 10222000000.0,
+    "official": 2440000000.0,
+    "diff": 3.189344
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:46:48+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -170,7 +212,10 @@
    "intangibles": 48000000.0,
    "retained_earnings": 1294000000.0,
    "total_debt": 18000000.0,
-   "shares_out": 411551312.0
+   "shares_out": 411551312.0,
+   "unusual_items": -103000000.0,
+   "normalized_ebitda": 3209000000.0,
+   "normalized_income": 474966000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -201,7 +246,10 @@
    "intangibles": 43000000.0,
    "retained_earnings": 1852000000.0,
    "total_debt": 17000000.0,
-   "shares_out": 428183976.0
+   "shares_out": 428183976.0,
+   "unusual_items": -87000000.0,
+   "normalized_ebitda": 6691000000.0,
+   "normalized_income": 679692000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -232,7 +280,10 @@
    "intangibles": 48000000.0,
    "retained_earnings": 2515000000.0,
    "total_debt": 14000000.0,
-   "shares_out": 435618852.0
+   "shares_out": 435618852.0,
+   "unusual_items": -30000000.0,
+   "normalized_ebitda": 8017000000.0,
+   "normalized_income": 782660000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -263,7 +314,10 @@
    "intangibles": 52000000.0,
    "retained_earnings": 3365000000.0,
    "total_debt": 19000000.0,
-   "shares_out": 445414116.0
+   "shares_out": 445414116.0,
+   "unusual_items": -5000000.0,
+   "normalized_ebitda": 9092000000.0,
+   "normalized_income": 988565000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "FRAS.L",
- "fetched_at": "2026-10-10T11:58:54+00:00",
+ "fetched_at": "2026-10-10T14:49:15+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 33000,
   "website": "https://www.frasers.group",
-  "longBusinessSummary": "Frasers Group Plc, together with its subsidiaries, engages in the retail of sports and leisure clothing, footwear and equipment, and premium and luxury apparel through department stores, shops, and online. It operates through five segments: UK Sports, Premium Lifestyle, International, Property, and Financial Services. The company is involved in wholesale distribution and sale of sports and leisure clothing, footwear and equipment, and premium and luxury apparel; operation of gyms; property investment and management activities; and provision of flexible repayment solutions. It also engages in the production of apparel under group-owned or licensed brands; and licensing of group brands. The company offers its products under its own and third-party brands comprising 18montrose, Agent Provocateur, Amara, Antigua, Campri, carlton, Cruise, Donnay, Evans Cycles, Everlast, Everlast Gyms, Firetrap, Flannels, Frasers, gelert, Gieves & Hawkes, Gul, House of Fraser, I Saw It First, Jack Wills, karrimor, LA Gear, lovell sports, Lillywhites, Lonsdale, Muddyfox, Nevica, No Fear, scotts, Slazenger, sofa.com, Sondico, Soulcal & Co, Sports Direct, sportsmaster, studio, Tessuti, USA PRO, USC, and Van Mildert. It operates in the United Kingdom, Europe, the United States, Asia, and Africa. The company was formerly known as Sports Direct International plc and changed its name to Frasers Group Plc in December 2019. The company was founded in 1982 and is headquartered in Shirebrook, the United Kingdom. Frasers Group Plc operates as a subsidiary of Mash Beta Ltd."
+  "longBusinessSummary": "Frasers Group Plc, together with its subsidiaries, engages in the retail of sports and leisure clothing, footwear and equipment, and premium and luxury apparel through department stores, shops, and online. It operates through five segments: UK Sports, Premium Lifestyle, International, Property, and Financial Services. The company is involved in wholesale distribution and sale of sports and leisure clothing, footwear and equipment, and premium and luxury apparel; operation of gyms; property investment and management activities; and provision of flexible repayment solutions. It also engages in the production of apparel under group-owned or licensed brands; and licensing of group brands. The company offers its products under its own and third-party brands comprising 18montrose, Agent Provocateur, Amara, Antigua, Campri, carlton, Cruise, Donnay, Evans Cycles, Everlast, Everlast Gyms, Firetrap, Flannels, Frasers, gelert, Gieves & Hawkes, Gul, House of Fraser, I Saw It First, Jack Wills, karrimor, LA Gear, lovell sports, Lillywhites, Lonsdale, Muddyfox, Nevica, No Fear, scotts, Slazenger, sofa.com, Sondico, Soulcal & Co, Sports Direct, sportsmaster, studio, Tessuti, USA PRO, USC, and Van Mildert. It operates in the United Kingdom, Europe, the United States, Asia, and Africa. The company was formerly known as Sports Direct International plc and changed its name to Frasers Group Plc in December 2019. The company was founded in 1982 and is headquartered in Shirebrook, the United Kingdom. Frasers Group Plc operates as a subsidiary of Mash Beta Ltd.",
+  "targetMeanPrice": 808.333,
+  "targetLowPrice": 720.0,
+  "targetHighPrice": 1100.0,
+  "numberOfAnalystOpinions": 6,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 7.970532,
+  "forwardEps": 1.052,
+  "trailingEps": 0.79,
+  "earningsGrowth": -0.677,
+  "revenueGrowth": 0.124
  },
  "governance": {
   "ceo": {
@@ -70,8 +81,35 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2023-04-30",
+  "items": {
+   "equity": {
+    "yahoo": 1628200000.0,
+    "official": 1618200000.0,
+    "diff": 0.00618
+   },
+   "net_income": {
+    "yahoo": 491700000.0,
+    "official": 488000000.0,
+    "diff": 0.007582
+   },
+   "revenue": {
+    "yahoo": 5586000000.0,
+    "official": 5449800000.0,
+    "diff": 0.024992
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2023-04-30"
+ },
+ "info_at": "2026-10-10T14:49:15+00:00",
  "years": [
   {
    "fy_end": "2023-04-30",
@@ -105,7 +143,10 @@
    "goodwill_and_intangibles": 24100000.0,
    "retained_earnings": 2285500000.0,
    "total_debt": 1429600000.0,
-   "shares_out": 467475344.0
+   "shares_out": 467475344.0,
+   "unusual_items": 152600000.0,
+   "normalized_ebitda": 823600000.0,
+   "normalized_income": 349424000.0
   },
   {
    "fy_end": "2024-04-30",
@@ -139,7 +180,10 @@
    "goodwill_and_intangibles": 42200000.0,
    "retained_earnings": 2623000000.0,
    "total_debt": 1452500000.0,
-   "shares_out": 432929122.0
+   "shares_out": 432929122.0,
+   "unusual_items": 45300000.0,
+   "normalized_ebitda": 831800000.0,
+   "normalized_income": 351756227.54491
   },
   {
    "fy_end": "2025-04-30",
@@ -173,7 +217,10 @@
    "goodwill_and_intangibles": 58500000.0,
    "retained_earnings": 2747400000.0,
    "total_debt": 1861000000.0,
-   "shares_out": 432929122.0
+   "shares_out": 432929122.0,
+   "unusual_items": -68500000.0,
+   "normalized_ebitda": 847700000.0,
+   "normalized_income": 338085206.633325
   },
   {
    "fy_end": "2026-04-30",
@@ -207,7 +254,10 @@
    "goodwill_and_intangibles": 99400000.0,
    "retained_earnings": 3240500000.0,
    "total_debt": 2529900000.0,
-   "shares_out": 430533585.0
+   "shares_out": 430533585.0,
+   "unusual_items": 223700000.0,
+   "normalized_ebitda": 802600000.0,
+   "normalized_income": 192273600.0
   }
  ]
 }

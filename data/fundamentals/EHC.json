@@ -1,6 +1,6 @@
 {
  "ticker": "EHC",
- "fetched_at": "2026-10-10T12:44:04+00:00",
+ "fetched_at": "2026-10-10T15:42:30+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 29699,
   "website": "https://www.encompasshealth.com",
-  "longBusinessSummary": "Encompass Health Corporation operates inpatient rehabilitation hospitals in the United States and Puerto Rico. The company offers specialized rehabilitative treatment, using technology and therapy, on an inpatient basis for patients recovering from a major injury or illness and seeking to regain functional ability, independence, and quality of life; medical, nursing, therapy, and ancillary services; and rehabilitative care to patients who are recovering from conditions, such as stroke and other neurological disorders, cardiac and pulmonary conditions, brain and spinal cord injuries, complex orthopedic conditions, and amputations. It offers services through the Medicare program to the federal government, managed care plans and private insurers, state governments, and other patients. The company was formerly known as HealthSouth Corporation and changed its name to Encompass Health Corporation in January 2018. Encompass Health Corporation was incorporated in 1984 and is based in Birmingham, Alabama."
+  "longBusinessSummary": "Encompass Health Corporation operates inpatient rehabilitation hospitals in the United States and Puerto Rico. The company offers specialized rehabilitative treatment, using technology and therapy, on an inpatient basis for patients recovering from a major injury or illness and seeking to regain functional ability, independence, and quality of life; medical, nursing, therapy, and ancillary services; and rehabilitative care to patients who are recovering from conditions, such as stroke and other neurological disorders, cardiac and pulmonary conditions, brain and spinal cord injuries, complex orthopedic conditions, and amputations. It offers services through the Medicare program to the federal government, managed care plans and private insurers, state governments, and other patients. The company was formerly known as HealthSouth Corporation and changed its name to Encompass Health Corporation in January 2018. Encompass Health Corporation was incorporated in 1984 and is based in Birmingham, Alabama.",
+  "targetMeanPrice": 148.16667,
+  "targetLowPrice": 140.0,
+  "targetHighPrice": 155.0,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.07692,
+  "forwardPE": 18.468105,
+  "forwardEps": 6.678,
+  "trailingEps": 6.02,
+  "earningsGrowth": 0.108,
+  "revenueGrowth": 0.096
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 7089700000.0,
+    "official": 7089700000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2438200000.0,
+    "official": 2438200000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 566200000.0,
+    "official": 566200000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 5935200000.0,
+    "official": 5935200000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:42:30+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -186,7 +228,10 @@
    "goodwill_and_intangibles": 1545500000.0,
    "retained_earnings": 115700000.0,
    "total_debt": 2741800000.0,
-   "shares_out": 99782931.0
+   "shares_out": 99782931.0,
+   "unusual_items": -1400000.0,
+   "normalized_ebitda": 871500000.0,
+   "normalized_income": 256889200.0
   },
   {
    "fy_end": "2023-12-31",
@@ -219,7 +264,10 @@
    "goodwill_and_intangibles": 1559500000.0,
    "retained_earnings": 406500000.0,
    "total_debt": 2687800000.0,
-   "shares_out": 100252767.0
+   "shares_out": 100252767.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 1024600000.0,
+   "normalized_income": 364000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -252,7 +300,10 @@
    "goodwill_and_intangibles": 1582800000.0,
    "retained_earnings": 796700000.0,
    "total_debt": 2359200000.0,
-   "shares_out": 100775364.0
+   "shares_out": 100775364.0,
+   "unusual_items": -600000.0,
+   "normalized_ebitda": 1187200000.0,
+   "normalized_income": 458980000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -285,7 +336,10 @@
    "goodwill_and_intangibles": 1625900000.0,
    "retained_earnings": 1289400000.0,
    "total_debt": 2447200000.0,
-   "shares_out": 99996852.0
+   "shares_out": 99996852.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 1404100000.0,
+   "normalized_income": 567200000.0
   }
  ]
 }

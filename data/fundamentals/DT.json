@@ -1,6 +1,6 @@
 {
  "ticker": "DT",
- "fetched_at": "2026-10-10T12:43:33+00:00",
+ "fetched_at": "2026-10-10T15:42:00+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 5600,
   "website": "https://www.dynatrace.com",
-  "longBusinessSummary": "Dynatrace, Inc. engages in the advancement of observability for digital businesses, which transforms the complexity of modern digital ecosystems in North America, Europe, the Middle East, Africa, the Asia Pacific, and Latin America. The company operates Dynatrace, an AI-powered observability platform, which provides solutions, including infrastructure, application, threat, and AI observability; digital experience; log analytics; application security; software delivery; and business analytics. It also offers implementation, consulting, and training services. The company markets its products through a combination of global direct sales team and a network of partners, including global system integrators (GSIs), cloud providers, resellers and technology alliance partners. It serves customers in various industries, including banking, financial services, government, insurance, retail and wholesale, transportation, and software. Dynatrace, Inc. was founded in 2005 and is headquartered in Boston, Massachusetts."
+  "longBusinessSummary": "Dynatrace, Inc. engages in the advancement of observability for digital businesses, which transforms the complexity of modern digital ecosystems in North America, Europe, the Middle East, Africa, the Asia Pacific, and Latin America. The company operates Dynatrace, an AI-powered observability platform, which provides solutions, including infrastructure, application, threat, and AI observability; digital experience; log analytics; application security; software delivery; and business analytics. It also offers implementation, consulting, and training services. The company markets its products through a combination of global direct sales team and a network of partners, including global system integrators (GSIs), cloud providers, resellers and technology alliance partners. It serves customers in various industries, including banking, financial services, government, insurance, retail and wholesale, transportation, and software. Dynatrace, Inc. was founded in 2005 and is headquartered in Boston, Massachusetts.",
+  "targetMeanPrice": 60.70588,
+  "targetLowPrice": 42.0,
+  "targetHighPrice": 75.0,
+  "numberOfAnalystOpinions": 34,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.7027,
+  "forwardPE": 29.285616,
+  "forwardEps": 2.1683,
+  "trailingEps": 0.5,
+  "earningsGrowth": -0.249,
+  "revenueGrowth": 0.162
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-03-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 4415725000.0,
+    "official": 4415725000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2611390000.0,
+    "official": 2611390000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 162669000.0,
+    "official": 162669000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2018387000.0,
+    "official": 2018387000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:42:00+00:00",
  "years": [
   {
    "fy_end": "2020-03-31",
@@ -197,7 +239,10 @@
    "goodwill_and_intangibles": 1345411000.0,
    "retained_earnings": -353389000.0,
    "total_debt": 75172000.0,
-   "shares_out": 290411108.0
+   "shares_out": 290411108.0,
+   "unusual_items": -141000.0,
+   "normalized_ebitda": 147422000.0,
+   "normalized_income": 107959000.0
   },
   {
    "fy_end": "2024-03-31",
@@ -231,7 +276,10 @@
    "goodwill_and_intangibles": 1386489000.0,
    "retained_earnings": -198757000.0,
    "total_debt": 69526000.0,
-   "shares_out": 296962547.0
+   "shares_out": 296962547.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 183340000.0,
+   "normalized_income": 154632000.0
   },
   {
    "fy_end": "2025-03-31",
@@ -265,7 +313,10 @@
    "goodwill_and_intangibles": 1361969000.0,
    "retained_earnings": 284927000.0,
    "total_debt": 75363000.0,
-   "shares_out": 299813048.0
+   "shares_out": 299813048.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 227537000.0,
+   "normalized_income": 483684000.0
   },
   {
    "fy_end": "2026-03-31",
@@ -299,7 +350,10 @@
    "goodwill_and_intangibles": 1373106000.0,
    "retained_earnings": 447596000.0,
    "total_debt": 164324000.0,
-   "shares_out": 294652951.0
+   "shares_out": 294652951.0,
+   "unusual_items": -18525000.0,
+   "normalized_ebitda": 306496000.0,
+   "normalized_income": 173784000.0
   }
  ]
 }

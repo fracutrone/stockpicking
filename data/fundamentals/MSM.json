@@ -1,6 +1,6 @@
 {
  "ticker": "MSM",
- "fetched_at": "2026-10-10T12:52:15+00:00",
+ "fetched_at": "2026-10-10T15:50:21+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 7077,
   "website": "https://www.mscdirect.com",
-  "longBusinessSummary": "MSC Industrial Direct Co., Inc., together with its subsidiaries, engages in the distribution of metalworking and maintenance, repair, and operations (MRO) products and services in the United States, Canada, Mexico, the United Kingdom, and internationally. The company's metalworking and MRO products include cutting tools, abrasives, machining fluids, measuring instruments, metalworking products, machinery and accessories, tooling components, fasteners, flat stock products, raw materials, machinery hand and power tools, safety and janitorial supplies, plumbing supplies, materials handling products, power transmission components, and electrical supplies. It also offers stock-keeping units through its catalogs and brochures; e-commerce channels, including its website; inventory management solutions; and customer care centers, customer fulfillment centers, regional inventory centers and warehouses. In addition, the company serves individual machine shops, manufacturing companies, and government agencies. MSC Industrial Direct Co., Inc. was founded in 1941 and is headquartered in Melville, New York."
+  "longBusinessSummary": "MSC Industrial Direct Co., Inc., together with its subsidiaries, engages in the distribution of metalworking and maintenance, repair, and operations (MRO) products and services in the United States, Canada, Mexico, the United Kingdom, and internationally. The company's metalworking and MRO products include cutting tools, abrasives, machining fluids, measuring instruments, metalworking products, machinery and accessories, tooling components, fasteners, flat stock products, raw materials, machinery hand and power tools, safety and janitorial supplies, plumbing supplies, materials handling products, power transmission components, and electrical supplies. It also offers stock-keeping units through its catalogs and brochures; e-commerce channels, including its website; inventory management solutions; and customer care centers, customer fulfillment centers, regional inventory centers and warehouses. In addition, the company serves individual machine shops, manufacturing companies, and government agencies. MSC Industrial Direct Co., Inc. was founded in 1941 and is headquartered in Melville, New York.",
+  "targetMeanPrice": 131.0,
+  "targetLowPrice": 67.0,
+  "targetHighPrice": 155.0,
+  "numberOfAnalystOpinions": 7,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.6,
+  "forwardPE": 23.777306,
+  "forwardEps": 5.44679,
+  "trailingEps": 4.14,
+  "earningsGrowth": 0.411,
+  "revenueGrowth": 0.078
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-08-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 2462064000.0,
+    "official": 2462064000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1388210000.0,
+    "official": 1388210000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 199328000.0,
+    "official": 199328000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3769521000.0,
+    "official": 3769521000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:50:22+00:00",
  "years": [
   {
    "fy_end": "2019-08-31",
@@ -201,7 +243,10 @@
    "goodwill_and_intangibles": 824458000.0,
    "retained_earnings": 681292000.0,
    "total_debt": 793412000.0,
-   "shares_out": 55872922.0
+   "shares_out": 55872922.0,
+   "unusual_items": -5673000.0,
+   "normalized_ebitda": 545042000.0,
+   "normalized_income": 344069115.0
   },
   {
    "fy_end": "2023-09-02",
@@ -234,7 +279,10 @@
    "goodwill_and_intangibles": 828815000.0,
    "retained_earnings": 755007000.0,
    "total_debt": 453851000.0,
-   "shares_out": 55498150.0
+   "shares_out": 55498150.0,
+   "unusual_items": -7937000.0,
+   "normalized_ebitda": 562957000.0,
+   "normalized_income": 349201624.0
   },
   {
    "fy_end": "2024-08-31",
@@ -267,7 +315,10 @@
    "goodwill_and_intangibles": 825041000.0,
    "retained_earnings": 456850000.0,
    "total_debt": 508110000.0,
-   "shares_out": 55902379.0
+   "shares_out": 55902379.0,
+   "unusual_items": -14526000.0,
+   "normalized_ebitda": 465919000.0,
+   "normalized_income": 269444922.0
   },
   {
    "fy_end": "2025-08-30",
@@ -300,7 +351,10 @@
    "goodwill_and_intangibles": 809157000.0,
    "retained_earnings": 432622000.0,
    "total_debt": 485249000.0,
-   "shares_out": 55789752.0
+   "shares_out": 55789752.0,
+   "unusual_items": -10999000.0,
+   "normalized_ebitda": 391057000.0,
+   "normalized_income": 207588249.0
   }
  ]
 }

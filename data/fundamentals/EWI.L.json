@@ -1,6 +1,6 @@
 {
  "ticker": "EWI.L",
- "fetched_at": "2026-10-10T11:56:57+00:00",
+ "fetched_at": "2026-10-10T14:47:11+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "top_institutions": [
@@ -55,8 +66,15 @@
   "equity": "yahoo",
   "receivables": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T14:47:11+00:00",
  "years": [
   {
    "fy_end": "2022-10-31",
@@ -76,7 +94,8 @@
    "equity": 775566000.0,
    "receivables": 4882000.0,
    "total_debt": 103827000.0,
-   "shares_out": 392285023.0
+   "shares_out": 392285023.0,
+   "normalized_income": -542181000.0
   },
   {
    "fy_end": "2023-10-31",
@@ -96,7 +115,8 @@
    "equity": 584737000.0,
    "receivables": 324000.0,
    "total_debt": 103249000.0,
-   "shares_out": 387094641.0
+   "shares_out": 387094641.0,
+   "normalized_income": -182566000.0
   },
   {
    "fy_end": "2024-10-31",
@@ -116,7 +136,8 @@
    "equity": 634603000.0,
    "receivables": 1172000.0,
    "total_debt": 91744000.0,
-   "shares_out": 372426908.0
+   "shares_out": 372426908.0,
+   "normalized_income": 71681000.0
   },
   {
    "fy_end": "2025-10-31",
@@ -136,7 +157,8 @@
    "equity": 768957000.0,
    "receivables": 1218000.0,
    "total_debt": 78091000.0,
-   "shares_out": 347984292.0
+   "shares_out": 347984292.0,
+   "normalized_income": 177003000.0
   }
  ]
 }

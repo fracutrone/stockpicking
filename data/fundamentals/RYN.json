@@ -1,6 +1,6 @@
 {
  "ticker": "RYN",
- "fetched_at": "2026-10-10T12:57:25+00:00",
+ "fetched_at": "2026-10-10T15:55:07+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 285,
   "website": "https://www.rayonier.com",
-  "longBusinessSummary": "Rayonier Inc. is a land resources real estate investment trust (REIT) with a portfolio comprising over four million acres in the U.S. South and U.S. Northwest. The company is focused on managing its timberlands on a sustainable basis while optimizing its overall portfolio value by delivering land to its highest and best use. Rayonier also operates six sawmills, an industrial-grade plywood mill, residential and commercial real estate developments, and a rural land sales program. Rayonier is committed to corporate responsibility, third-party forest certification, and supporting climate change mitigation through its land-based solutions business. Rayonier Inc. was established in 1926 and was incorporated in North Carolina."
+  "longBusinessSummary": "Rayonier Inc. is a land resources real estate investment trust (REIT) with a portfolio comprising over four million acres in the U.S. South and U.S. Northwest. The company is focused on managing its timberlands on a sustainable basis while optimizing its overall portfolio value by delivering land to its highest and best use. Rayonier also operates six sawmills, an industrial-grade plywood mill, residential and commercial real estate developments, and a rural land sales program. Rayonier is committed to corporate responsibility, third-party forest certification, and supporting climate change mitigation through its land-based solutions business. Rayonier Inc. was established in 1926 and was incorporated in North Carolina.",
+  "targetMeanPrice": 25.0,
+  "targetLowPrice": 19.0,
+  "targetHighPrice": 30.0,
+  "numberOfAnalystOpinions": 6,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.33333,
+  "forwardPE": 30.251833,
+  "forwardEps": 0.6274,
+  "trailingEps": 0.46,
+  "earningsGrowth": -0.976,
+  "revenueGrowth": 2.721
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3404653000.0,
+    "official": 3404653000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2209735000.0,
+    "official": 2209735000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 474380000.0,
+    "official": 474380000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 484485000.0,
+    "official": 484485000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:55:07+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -191,7 +233,10 @@
    "goodwill_and_intangibles": 13658000.0,
    "retained_earnings": 366637000.0,
    "total_debt": 1514721000.0,
-   "shares_out": 147282631.0
+   "shares_out": 147282631.0,
+   "unusual_items": -5211000.0,
+   "normalized_ebitda": 320937000.0,
+   "normalized_income": 111918019.0
   },
   {
    "fy_end": "2023-12-31",
@@ -225,7 +270,10 @@
    "goodwill_and_intangibles": 13249000.0,
    "retained_earnings": 338244000.0,
    "total_debt": 1365773000.0,
-   "shares_out": 148299117.0
+   "shares_out": 148299117.0,
+   "unusual_items": 37000.0,
+   "normalized_ebitda": 341279000.0,
+   "normalized_income": 154275074.0
   },
   {
    "fy_end": "2024-12-31",
@@ -259,7 +307,10 @@
    "goodwill_and_intangibles": 4494000.0,
    "retained_earnings": 257254000.0,
    "total_debt": 1044410000.0,
-   "shares_out": 148536643.0
+   "shares_out": 148536643.0,
+   "unusual_items": -1975000.0,
+   "normalized_ebitda": 489423000.0,
+   "normalized_income": 332584250.0
   },
   {
    "fy_end": "2025-12-31",
@@ -292,7 +343,10 @@
    "goodwill_and_intangibles": 3256000.0,
    "retained_earnings": 280873000.0,
    "total_debt": 1045317000.0,
-   "shares_out": 161425616.0
+   "shares_out": 161425616.0,
+   "unusual_items": -7464000.0,
+   "normalized_ebitda": 214863000.0,
+   "normalized_income": 75445752.0
   }
  ]
 }

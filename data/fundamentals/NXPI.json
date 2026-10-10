@@ -1,6 +1,6 @@
 {
  "ticker": "NXPI",
- "fetched_at": "2026-10-10T12:53:33+00:00",
+ "fetched_at": "2026-10-10T15:51:42+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 32169,
   "website": "https://www.nxp.com",
-  "longBusinessSummary": "NXP Semiconductors N.V. provides semiconductor products in the United States, Germany, Japan, South Korea, Taiwan, Singapore, the Netherlands, Mainland China, Hong Kong, and internationally. The company's product portfolio includes microcontrollers; application processors; communication processors; wireless connectivity solutions, such as near field communications, ultra-wideband, Bluetooth low-energy, Zigbee, Thread, and Wi-Fi and Wi-Fi/Bluetooth integrated SoCs; analog and interface products; radio frequency devices, and security controllers, as well as semiconductor-based environmental and inertial sensors, including pressure, inertial, magnetic, and gyroscopic sensors. Its products are used in various applications, including automotive, industrial and Internet of Things, mobile, and communication infrastructure. The company markets its products to direct sales offices and independent distributors. NXP Semiconductors N.V. was incorporated in 2006 and is headquartered in Eindhoven, the Netherlands."
+  "longBusinessSummary": "NXP Semiconductors N.V. provides semiconductor products in the United States, Germany, Japan, South Korea, Taiwan, Singapore, the Netherlands, Mainland China, Hong Kong, and internationally. The company's product portfolio includes microcontrollers; application processors; communication processors; wireless connectivity solutions, such as near field communications, ultra-wideband, Bluetooth low-energy, Zigbee, Thread, and Wi-Fi and Wi-Fi/Bluetooth integrated SoCs; analog and interface products; radio frequency devices, and security controllers, as well as semiconductor-based environmental and inertial sensors, including pressure, inertial, magnetic, and gyroscopic sensors. Its products are used in various applications, including automotive, industrial and Internet of Things, mobile, and communication infrastructure. The company markets its products to direct sales offices and independent distributors. NXP Semiconductors N.V. was incorporated in 2006 and is headquartered in Eindhoven, the Netherlands.",
+  "targetMeanPrice": 306.72415,
+  "targetLowPrice": 190.0,
+  "targetHighPrice": 400.0,
+  "numberOfAnalystOpinions": 29,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.86667,
+  "forwardPE": 12.545968,
+  "forwardEps": 18.13491,
+  "trailingEps": 11.71,
+  "earningsGrowth": 0.726,
+  "revenueGrowth": 0.195
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 26560000000.0,
+    "official": 26560000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 10056000000.0,
+    "official": 10056000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2021000000.0,
+    "official": 2021000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 12269000000.0,
+    "official": 12269000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:51:43+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -205,7 +247,10 @@
    "goodwill_and_intangibles": 11254000000.0,
    "retained_earnings": -3975000000.0,
    "total_debt": 11250000000.0,
-   "shares_out": 259463406.0
+   "shares_out": 259463406.0,
+   "unusual_items": -16000000.0,
+   "normalized_ebitda": 5056000000.0,
+   "normalized_income": 2800488000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -240,7 +285,10 @@
    "goodwill_and_intangibles": 10877000000.0,
    "retained_earnings": -2793000000.0,
    "total_debt": 11250000000.0,
-   "shares_out": 257190053.0
+   "shares_out": 257190053.0,
+   "unusual_items": -11000000.0,
+   "normalized_ebitda": 4907000000.0,
+   "normalized_income": 2806284000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -275,7 +323,10 @@
    "goodwill_and_intangibles": 10766000000.0,
    "retained_earnings": -1814000000.0,
    "total_debt": 12420000000.0,
-   "shares_out": 254324627.0
+   "shares_out": 254324627.0,
+   "unusual_items": -10000000.0,
+   "normalized_ebitda": 4432000000.0,
+   "normalized_income": 2518240000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -309,7 +360,10 @@
    "goodwill_and_intangibles": 11846000000.0,
    "retained_earnings": -1354000000.0,
    "total_debt": 13040000000.0,
-   "shares_out": 252854704.0
+   "shares_out": 252854704.0,
+   "unusual_items": -9000000.0,
+   "normalized_ebitda": 3970000000.0,
+   "normalized_income": 2028227000.0
   }
  ]
 }

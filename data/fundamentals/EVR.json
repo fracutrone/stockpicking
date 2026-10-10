@@ -1,6 +1,6 @@
 {
  "ticker": "EVR",
- "fetched_at": "2026-10-10T12:44:47+00:00",
+ "fetched_at": "2026-10-10T15:43:09+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 2715,
   "website": "https://www.evercore.com",
-  "longBusinessSummary": "Evercore Inc., together with its subsidiaries, operates as an independent investment banking firm in the Americas, Europe, Middle East, Africa, and Asia-Pacific. The company operates through two segments, Investment Banking & Equities, and Investment Management. The Investment Banking & Equities segment offers strategic advisory services, such as mergers, and acquisitions, strategic, defense, and shareholder advisory, special committee assignments, and real estate strategic advisory; private capital advisory and fundraising, market risk management and hedging, private capital markets and debt advisory, liability management and restructuring, and equity capital markets execution and advisory services; and research, sales, and trading professionals services on a content-led platform to its institutional investor clients. The Investment Management segment provides wealth management services to high-net-worth individuals, foundations, and endowments. The company was formerly known as Evercore Partners Inc. and changed its name to Evercore Inc. in August 2017. Evercore Inc. was founded in 1995 and is headquartered in New York, New York."
+  "longBusinessSummary": "Evercore Inc., together with its subsidiaries, operates as an independent investment banking firm in the Americas, Europe, Middle East, Africa, and Asia-Pacific. The company operates through two segments, Investment Banking & Equities, and Investment Management. The Investment Banking & Equities segment offers strategic advisory services, such as mergers, and acquisitions, strategic, defense, and shareholder advisory, special committee assignments, and real estate strategic advisory; private capital advisory and fundraising, market risk management and hedging, private capital markets and debt advisory, liability management and restructuring, and equity capital markets execution and advisory services; and research, sales, and trading professionals services on a content-led platform to its institutional investor clients. The Investment Management segment provides wealth management services to high-net-worth individuals, foundations, and endowments. The company was formerly known as Evercore Partners Inc. and changed its name to Evercore Inc. in August 2017. Evercore Inc. was founded in 1995 and is headquartered in New York, New York.",
+  "targetMeanPrice": 336.0,
+  "targetLowPrice": 285.0,
+  "targetHighPrice": 391.0,
+  "numberOfAnalystOpinions": 10,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": 12.688642,
+  "forwardEps": 21.42546,
+  "trailingEps": 18.1,
+  "earningsGrowth": -0.017,
+  "revenueGrowth": 0.188
  },
  "governance": {
   "ceo": {
@@ -77,10 +88,40 @@
   "retained_earnings": "sec",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "current_assets": "sec",
   "current_liabilities": "sec",
   "st_investments": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 5358097000.0,
+    "official": 5358097000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2031576000.0,
+    "official": 2031576000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 591922000.0,
+    "official": 591922000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3855820000.0,
+    "official": 3880084000.0,
+    "diff": 0.006253
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:43:09+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -178,7 +219,9 @@
    "goodwill_and_intangibles": 123285000.0,
    "retained_earnings": 1768098000.0,
    "total_debt": 687820000.0,
-   "shares_out": 38347262.0
+   "shares_out": 38347262.0,
+   "unusual_items": 0.0,
+   "normalized_income": 476520000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -206,7 +249,9 @@
    "goodwill_and_intangibles": 125493000.0,
    "retained_earnings": 1892656000.0,
    "total_debt": 844391000.0,
-   "shares_out": 37773613.0
+   "shares_out": 37773613.0,
+   "unusual_items": 0.0,
+   "normalized_income": 255479000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -235,7 +280,9 @@
    "goodwill_and_intangibles": 124452000.0,
    "retained_earnings": 2133919000.0,
    "total_debt": 923317000.0,
-   "shares_out": 38116350.0
+   "shares_out": 38116350.0,
+   "unusual_items": 0.0,
+   "normalized_income": 378279000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -264,7 +311,9 @@
    "goodwill_and_intangibles": 260873000.0,
    "retained_earnings": 2581815000.0,
    "total_debt": 1155081000.0,
-   "shares_out": 38522790.0
+   "shares_out": 38522790.0,
+   "unusual_items": -9858000.0,
+   "normalized_income": 599878636.700789
   }
  ]
 }

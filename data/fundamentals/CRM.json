@@ -1,6 +1,6 @@
 {
  "ticker": "CRM",
- "fetched_at": "2026-10-10T12:42:05+00:00",
+ "fetched_at": "2026-10-10T15:40:36+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 83334,
   "website": "https://www.salesforce.com",
-  "longBusinessSummary": "Salesforce, Inc. provides customer relationship management technology services that connect companies and customers together in the United States, Europe, and the Asia Pacific. The company offers Agentforce, which enables customers to build, deploy, and manage enterprise-grade, autonomous AI agents at scale, enabling humans and agents to work together; Agentforce Sales, an integrated platform that brings together the power of humans with AI agents to help sales teams for selling, managing, and automating entire sales processes; Agentforce Service, which enables companies in every industry to bring all of their customer, employee, IT, and field service needs onto one integrated AI-powered platform; Data 360, a data engine that gives AI agents their context and serves as the foundation for how customers unify service offerings, making their data actionable for both humans and agents; Informatica, an AI-powered data management platform that enables customers to discover, integrate, govern, and deliver trusted data at scale across hybrid and multi-cloud environments; and Slack, a conversational interface for the agentic enterprise where people and agents work together, connecting knowledge, actions, and data in real time. It also provides marketing platforms; commerce services, which empower shopping experiences across various customer touchpoints; integration and analytics solutions; Salesforce Starter, a suite for small and medium-sized businesses that brings sales, service, marketing, and commerce together; and a field service solution that enables companies to connect service agents, dispatchers, and mobile employees through one centralized platform to schedule and dispatch work, as well as track and manage jobs. It serves financial services, healthcare and life sciences, manufacturing, automotive, and government sectors. Salesforce, Inc. was incorporated in 1999 and is headquartered in San Francisco, California."
+  "longBusinessSummary": "Salesforce, Inc. provides customer relationship management technology services that connect companies and customers together in the United States, Europe, and the Asia Pacific. The company offers Agentforce, which enables customers to build, deploy, and manage enterprise-grade, autonomous AI agents at scale, enabling humans and agents to work together; Agentforce Sales, an integrated platform that brings together the power of humans with AI agents to help sales teams for selling, managing, and automating entire sales processes; Agentforce Service, which enables companies in every industry to bring all of their customer, employee, IT, and field service needs onto one integrated AI-powered platform; Data 360, a data engine that gives AI agents their context and serves as the foundation for how customers unify service offerings, making their data actionable for both humans and agents; Informatica, an AI-powered data management platform that enables customers to discover, integrate, govern, and deliver trusted data at scale across hybrid and multi-cloud environments; and Slack, a conversational interface for the agentic enterprise where people and agents work together, connecting knowledge, actions, and data in real time. It also provides marketing platforms; commerce services, which empower shopping experiences across various customer touchpoints; integration and analytics solutions; Salesforce Starter, a suite for small and medium-sized businesses that brings sales, service, marketing, and commerce together; and a field service solution that enables companies to connect service agents, dispatchers, and mobile employees through one centralized platform to schedule and dispatch work, as well as track and manage jobs. It serves financial services, healthcare and life sciences, manufacturing, automotive, and government sectors. Salesforce, Inc. was incorporated in 1999 and is headquartered in San Francisco, California.",
+  "targetMeanPrice": 283.36075,
+  "targetLowPrice": 160.0,
+  "targetHighPrice": 475.0,
+  "numberOfAnalystOpinions": 54,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.75,
+  "forwardPE": 14.302121,
+  "forwardEps": 16.0207,
+  "trailingEps": 10.93,
+  "earningsGrowth": 1.189,
+  "revenueGrowth": 0.108
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "interest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-01-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 112305000000.0,
+    "official": 112305000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 59142000000.0,
+    "official": 59142000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 7457000000.0,
+    "official": 7457000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 41525000000.0,
+    "official": 41525000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:40:36+00:00",
  "years": [
   {
    "fy_end": "2020-01-31",
@@ -195,7 +237,10 @@
    "goodwill_and_intangibles": 55693000000.0,
    "retained_earnings": 7585000000.0,
    "total_debt": 10601000000.0,
-   "shares_out": 981000000.0
+   "shares_out": 981000000.0,
+   "unusual_items": -1067000000.0,
+   "normalized_ebitda": 6711000000.0,
+   "normalized_income": 1050930000.0
   },
   {
    "fy_end": "2024-01-31",
@@ -228,7 +273,10 @@
    "goodwill_and_intangibles": 53898000000.0,
    "retained_earnings": 11721000000.0,
    "total_debt": 9426000000.0,
-   "shares_out": 971000000.0
+   "shares_out": 971000000.0,
+   "unusual_items": -1265000000.0,
+   "normalized_ebitda": 11223000000.0,
+   "normalized_income": 5193540000.0
   },
   {
    "fy_end": "2025-01-31",
@@ -261,7 +309,10 @@
    "goodwill_and_intangibles": 55711000000.0,
    "retained_earnings": 16369000000.0,
    "total_debt": 8433000000.0,
-   "shares_out": 962000000.0
+   "shares_out": 962000000.0,
+   "unusual_items": -582000000.0,
+   "normalized_ebitda": 11725000000.0,
+   "normalized_income": 6681806000.0
   },
   {
    "fy_end": "2026-01-31",
@@ -294,7 +345,10 @@
    "goodwill_and_intangibles": 64756000000.0,
    "retained_earnings": 22221000000.0,
    "total_debt": 14439000000.0,
-   "shares_out": 929000000.0
+   "shares_out": 929000000.0,
+   "unusual_items": 431000000.0,
+   "normalized_ebitda": 12117000000.0,
+   "normalized_income": 7118665000.0
   }
  ]
 }

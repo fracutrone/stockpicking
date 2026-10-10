@@ -1,6 +1,6 @@
 {
  "ticker": "SLM",
- "fetched_at": "2026-10-10T12:58:12+00:00",
+ "fetched_at": "2026-10-10T15:55:47+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 1788,
   "website": "https://www.salliemae.com",
-  "longBusinessSummary": "SLM Corporation, through its subsidiaries, originates and services private education loans to students and their families to finance the cost of their education in the United States. It provides retail deposit accounts, including high-yield savings accounts, money market accounts, and certificates of deposit; and interest-bearing omnibus accounts. The company was formerly known as New BLC Corporation and changed its name to SLM Corporation in December 2013. SLM Corporation was founded in 1972 and is headquartered in Newark, Delaware."
+  "longBusinessSummary": "SLM Corporation, through its subsidiaries, originates and services private education loans to students and their families to finance the cost of their education in the United States. It provides retail deposit accounts, including high-yield savings accounts, money market accounts, and certificates of deposit; and interest-bearing omnibus accounts. The company was formerly known as New BLC Corporation and changed its name to SLM Corporation in December 2013. SLM Corporation was founded in 1972 and is headquartered in Newark, Delaware.",
+  "targetMeanPrice": 28.45455,
+  "targetLowPrice": 23.0,
+  "targetHighPrice": 35.0,
+  "numberOfAnalystOpinions": 11,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.09091,
+  "forwardPE": 6.686818,
+  "forwardEps": 3.36782,
+  "trailingEps": 3.59,
+  "earningsGrowth": -0.094,
+  "revenueGrowth": 0.081
  },
  "governance": {
   "ceo": {
@@ -75,10 +86,35 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "noninterest_expense": "sec",
   "goodwill": "sec",
   "intangibles": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 29746295000.0,
+    "official": 29746295000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2451358000.0,
+    "official": 2451358000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 744847000.0,
+    "official": 744847000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:55:47+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -105,7 +141,9 @@
    "goodwill_and_intangibles": 118273000.0,
    "retained_earnings": 3163640000.0,
    "total_debt": 5235114000.0,
-   "shares_out": 240675444.0
+   "shares_out": 240675444.0,
+   "unusual_items": -2603000.0,
+   "normalized_income": 470950632.0
   },
   {
    "fy_end": "2023-12-31",
@@ -132,7 +170,9 @@
    "goodwill_and_intangibles": 68711000.0,
    "retained_earnings": 3624859000.0,
    "total_debt": 5227512000.0,
-   "shares_out": 220343884.0
+   "shares_out": 220343884.0,
+   "unusual_items": -56952000.0,
+   "normalized_income": 623934144.0
   },
   {
    "fy_end": "2024-12-31",
@@ -159,7 +199,9 @@
    "goodwill_and_intangibles": 63532000.0,
    "retained_earnings": 4114446000.0,
    "total_debt": 6440345000.0,
-   "shares_out": 210382294.0
+   "shares_out": 210382294.0,
+   "unusual_items": 0.0,
+   "normalized_income": 608325000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -185,7 +227,9 @@
    "goodwill_and_intangibles": 59974000.0,
    "retained_earnings": 4734313000.0,
    "total_debt": 5860909000.0,
-   "shares_out": 199268318.0
+   "shares_out": 199268318.0,
+   "unusual_items": 0.0,
+   "normalized_income": 744847000.0
   }
  ]
 }

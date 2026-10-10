@@ -1,6 +1,6 @@
 {
  "ticker": "GPC",
- "fetched_at": "2026-10-10T12:47:04+00:00",
+ "fetched_at": "2026-10-10T15:45:29+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 65000,
   "website": "https://www.genpt.com",
-  "longBusinessSummary": "Genuine Parts Company distributes automotive and industrial replacement parts. The company operates in three segments: North America Automotive Parts Group, International Automotive Parts Group, and Industrial Parts Group. It distributes automotive replacement parts, accessories, tools, equipment, and related solutions for hybrid and electric vehicles, trucks, buses, motorcycles, farm equipment, and heavy-duty equipment. The company also offers replacement parts, including brakes, batteries, filters, engine components, and fluids; specialized services, such as paint mixing, hydraulic hose assembly, battery testing, and key cutting; and accessories and specialty equipment for automotive and heavy-duty vehicles, as well as tools and diagnostic devices for repair and maintenance. In addition, it provides independent repair shops and auto care centers under the NAPA brand, and offers technical expertise and training programs to customers. Further, the company provides bearings, seals, and gaskets; hose, fittings, hydraulics, and pneumatics components; abrasives, adhesives, sealants, and tape; pumps and power transmission; tools and testing equipment; electrical supplies and safety products; and chemicals and janitorial supplies. Additionally, it offers inventory management; vendor-managed inventory; asset repair and tracking, including radio frequency identification; and specialized repair services for gearboxes, fluid power systems, pumps, drive shafts, electrical panels, and hoses and gaskets. The company was incorporated in 1928 and is headquartered in Atlanta, Georgia."
+  "longBusinessSummary": "Genuine Parts Company distributes automotive and industrial replacement parts. The company operates in three segments: North America Automotive Parts Group, International Automotive Parts Group, and Industrial Parts Group. It distributes automotive replacement parts, accessories, tools, equipment, and related solutions for hybrid and electric vehicles, trucks, buses, motorcycles, farm equipment, and heavy-duty equipment. The company also offers replacement parts, including brakes, batteries, filters, engine components, and fluids; specialized services, such as paint mixing, hydraulic hose assembly, battery testing, and key cutting; and accessories and specialty equipment for automotive and heavy-duty vehicles, as well as tools and diagnostic devices for repair and maintenance. In addition, it provides independent repair shops and auto care centers under the NAPA brand, and offers technical expertise and training programs to customers. Further, the company provides bearings, seals, and gaskets; hose, fittings, hydraulics, and pneumatics components; abrasives, adhesives, sealants, and tape; pumps and power transmission; tools and testing equipment; electrical supplies and safety products; and chemicals and janitorial supplies. Additionally, it offers inventory management; vendor-managed inventory; asset repair and tracking, including radio frequency identification; and specialized repair services for gearboxes, fluid power systems, pumps, drive shafts, electrical panels, and hoses and gaskets. The company was incorporated in 1928 and is headquartered in Atlanta, Georgia.",
+  "targetMeanPrice": 139.22221,
+  "targetLowPrice": 122.0,
+  "targetHighPrice": 170.0,
+  "numberOfAnalystOpinions": 9,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.18182,
+  "forwardPE": 15.277954,
+  "forwardEps": 8.31394,
+  "trailingEps": 0.25,
+  "earningsGrowth": -0.098,
+  "revenueGrowth": 0.06
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 20795540000.0,
+    "official": 20795540000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4422991000.0,
+    "official": 4422991000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 65945000.0,
+    "official": 65945000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 24300141000.0,
+    "official": 24300141000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:45:29+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -197,7 +239,10 @@
    "goodwill_and_intangibles": 4400623000.0,
    "retained_earnings": 4541640000.0,
    "total_debt": 3328823000.0,
-   "shares_out": 140941649.0
+   "shares_out": 140941649.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 1994308000.0,
+   "normalized_income": 1182701000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -231,7 +276,10 @@
    "goodwill_and_intangibles": 4527594000.0,
    "retained_earnings": 5065327000.0,
    "total_debt": 3906228000.0,
-   "shares_out": 139567071.0
+   "shares_out": 139567071.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 2157346000.0,
+   "normalized_income": 1316524000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -265,7 +313,10 @@
    "goodwill_and_intangibles": 4696302000.0,
    "retained_earnings": 5263838000.0,
    "total_debt": 4326050000.0,
-   "shares_out": 138779664.0
+   "shares_out": 138779664.0,
+   "unusual_items": -213520000.0,
+   "normalized_ebitda": 1894293000.0,
+   "normalized_income": 1068230176.0
   },
   {
    "fy_end": "2025-12-31",
@@ -299,7 +350,10 @@
    "goodwill_and_intangibles": 5044529000.0,
    "retained_earnings": 4568769000.0,
    "total_debt": 5739291000.0,
-   "shares_out": 137617832.0
+   "shares_out": 137617832.0,
+   "unusual_items": -253961000.0,
+   "normalized_ebitda": 1007658000.0,
+   "normalized_income": 266574190.0
   }
  ]
 }

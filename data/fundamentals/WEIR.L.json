@@ -1,6 +1,6 @@
 {
  "ticker": "WEIR.L",
- "fetched_at": "2026-10-10T12:26:03+00:00",
+ "fetched_at": "2026-10-10T15:29:31+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 12069,
   "website": "https://www.global.weir",
-  "longBusinessSummary": "Weir PLC, together with its subsidiaries, produces and sells highly engineered original equipment worldwide. The company operates in two segments, Minerals and ESCO. The Minerals segment offers engineering, manufacturing, and service processing technology for the use in abrasive and high-wear mining applications; and differentiated technology for the use in infrastructure and general industrial markets. This segment provides cloud-based artificial intelligence solutions to the mining industry. The ESCO segment provides ground engaging tools for mining machines. In addition, the company offers aftermarket products, wear parts, equipment attachments, and processing equipment. Further, it provides field services comprising commissioning and ongoing support services; rebuild and repair services; digital services; and process optimization services. The company offers its products and services under the Cavex, Enduron, ESCO, GEHO, Linatex, Motion Metrics, Next, Warman, Accumin, All-Cast, Arterra, Aspir, Bucyrus Blades, Carbide Plus, Delta Industrial, GeoVor, HYDRAU-FLO, Infinity, Isogate, Kwik-Lok, Lewis, Linacure, Linagard, Linard, Loadmaster, MaxTemp, Multiflo, Nemisys, Nexsys, Posilok, Production Master, ProFill, Sandmaster, Super V, SV2, TopLock, Trio, UltraEdge, Ultrlok, Uni-Lok, Vertasys, Vulco, and Whisler Plus brands. The company was formerly known as The Weir Group PLC and changed its name to Weir PLC in August 2026. The Weir Group PLC was founded in 1871 and is headquartered in Glasgow, United Kingdom."
+  "longBusinessSummary": "Weir PLC, together with its subsidiaries, produces and sells highly engineered original equipment worldwide. The company operates in two segments, Minerals and ESCO. The Minerals segment offers engineering, manufacturing, and service processing technology for the use in abrasive and high-wear mining applications; and differentiated technology for the use in infrastructure and general industrial markets. This segment provides cloud-based artificial intelligence solutions to the mining industry. The ESCO segment provides ground engaging tools for mining machines. In addition, the company offers aftermarket products, wear parts, equipment attachments, and processing equipment. Further, it provides field services comprising commissioning and ongoing support services; rebuild and repair services; digital services; and process optimization services. The company offers its products and services under the Cavex, Enduron, ESCO, GEHO, Linatex, Motion Metrics, Next, Warman, Accumin, All-Cast, Arterra, Aspir, Bucyrus Blades, Carbide Plus, Delta Industrial, GeoVor, HYDRAU-FLO, Infinity, Isogate, Kwik-Lok, Lewis, Linacure, Linagard, Linard, Loadmaster, MaxTemp, Multiflo, Nemisys, Nexsys, Posilok, Production Master, ProFill, Sandmaster, Super V, SV2, TopLock, Trio, UltraEdge, Ultrlok, Uni-Lok, Vertasys, Vulco, and Whisler Plus brands. The company was formerly known as The Weir Group PLC and changed its name to Weir PLC in August 2026. The Weir Group PLC was founded in 1871 and is headquartered in Glasgow, United Kingdom.",
+  "targetMeanPrice": 3287.7498,
+  "targetLowPrice": 2500.0,
+  "targetHighPrice": 4000.0,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.8,
+  "forwardPE": 18.034006,
+  "forwardEps": 1.46501,
+  "trailingEps": 1.01,
+  "earningsGrowth": 0.156,
+  "revenueGrowth": 0.062
  },
  "governance": {
   "ceo": {
@@ -76,8 +87,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 4539500000.0,
+    "official": 4539500000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1905300000.0,
+    "official": 1905300000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 246900000.0,
+    "official": 246900000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2564500000.0,
+    "official": 2564500000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:29:31+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -111,7 +154,10 @@
    "goodwill_and_intangibles": 1409900000.0,
    "retained_earnings": 899500000.0,
    "total_debt": 1488400000.0,
-   "shares_out": 259612052.0
+   "shares_out": 259612052.0,
+   "unusual_items": -51900000.0,
+   "normalized_ebitda": 474700000.0,
+   "normalized_income": 254861800.0
   },
   {
    "fy_end": "2023-12-31",
@@ -145,7 +191,10 @@
    "goodwill_and_intangibles": 1316000000.0,
    "retained_earnings": 1008200000.0,
    "total_debt": 1397300000.0,
-   "shares_out": 259612052.0
+   "shares_out": 259612052.0,
+   "unusual_items": -65000000.0,
+   "normalized_ebitda": 554500000.0,
+   "normalized_income": 275675000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -179,7 +228,10 @@
    "goodwill_and_intangibles": 1270300000.0,
    "retained_earnings": 1230700000.0,
    "total_debt": 1091000000.0,
-   "shares_out": 259612052.0
+   "shares_out": 259612052.0,
+   "unusual_items": -300000.0,
+   "normalized_ebitda": 519300000.0,
+   "normalized_income": 315372601.555748
   },
   {
    "fy_end": "2025-12-31",
@@ -213,7 +265,10 @@
    "goodwill_and_intangibles": 1977900000.0,
    "retained_earnings": 1367500000.0,
    "total_debt": 1782600000.0,
-   "shares_out": 259612052.0
+   "shares_out": 259612052.0,
+   "unusual_items": 19800000.0,
+   "normalized_ebitda": 540800000.0,
+   "normalized_income": 233490590.809628
   }
  ]
 }

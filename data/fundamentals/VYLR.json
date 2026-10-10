@@ -1,6 +1,6 @@
 {
  "ticker": "VYLR",
- "fetched_at": "2026-10-10T13:01:54+00:00",
+ "fetched_at": "2026-10-10T15:59:22+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 21500,
   "website": "https://www.vylor.com",
-  "longBusinessSummary": "Vylor Inc. operates as a seed and genetics company. It delivers a pipeline in the industry's elite germplasm and transformative sciences, such as biotechnology and gene editing. The company was founded in 1802 and is based in Johnston, Iowa."
+  "longBusinessSummary": "Vylor Inc. operates as a seed and genetics company. It delivers a pipeline in the industry's elite germplasm and transformative sciences, such as biotechnology and gene editing. The company was founded in 1802 and is based in Johnston, Iowa.",
+  "targetMeanPrice": 50.66323,
+  "targetLowPrice": 13.65291,
+  "targetHighPrice": 85.0,
+  "numberOfAnalystOpinions": 4,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": 18.035677,
+  "forwardEps": 4.05585,
+  "trailingEps": 0.7,
+  "earningsGrowth": -0.099,
+  "revenueGrowth": -0.012
  },
  "governance": {
   "insider_6m": {
@@ -61,8 +72,17 @@
   "goodwill": "yahoo",
   "intangibles": "yahoo",
   "goodwill_and_intangibles": "yahoo",
-  "total_debt": "yahoo"
+  "total_debt": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T15:59:22+00:00",
  "years": [
   {
    "fy_end": "2023-12-31",
@@ -80,7 +100,10 @@
    "nii": -1000000.0,
    "noninterest_expense": 3257000000.0,
    "cfo": 732000000.0,
-   "capex": 303000000.0
+   "capex": 303000000.0,
+   "unusual_items": -98000000.0,
+   "normalized_ebitda": 1882000000.0,
+   "normalized_income": 719394321.766562
   },
   {
    "fy_end": "2024-12-31",
@@ -112,7 +135,10 @@
    "goodwill": 5326000000.0,
    "intangibles": 7719000000.0,
    "goodwill_and_intangibles": 13045000000.0,
-   "total_debt": 15000000.0
+   "total_debt": 15000000.0,
+   "unusual_items": -70000000.0,
+   "normalized_ebitda": 2017000000.0,
+   "normalized_income": 820548387.096774
   },
   {
    "fy_end": "2025-12-31",
@@ -144,7 +170,10 @@
    "goodwill": 5312000000.0,
    "intangibles": 7265000000.0,
    "goodwill_and_intangibles": 12577000000.0,
-   "total_debt": 112000000.0
+   "total_debt": 112000000.0,
+   "unusual_items": -308000000.0,
+   "normalized_ebitda": 1785000000.0,
+   "normalized_income": 605244400.0
   }
  ]
 }

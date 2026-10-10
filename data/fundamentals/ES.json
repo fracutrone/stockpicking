@@ -1,6 +1,6 @@
 {
  "ticker": "ES",
- "fetched_at": "2026-10-10T12:44:37+00:00",
+ "fetched_at": "2026-10-10T15:43:00+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 10731,
   "website": "https://www.eversource.com",
-  "longBusinessSummary": "Eversource Energy, a public utility holding company, engages in the energy delivery business. The company operates through Electric Distribution, Electric Transmission, Natural Gas Distribution, and Water Distribution segments. It is involved in the transmission and distribution of electricity; solar power facilities; and distribution of natural gas. The company also operates regulated water utilities that provides water services to residential, commercial, industrial, municipal and fire protection, and other customers in Connecticut, Massachusetts, and New Hampshire. The company was formerly known as Northeast Utilities and changed its name to Eversource Energy in April 2015. Eversource Energy was incorporated in 1927 and is headquartered in Springfield, Massachusetts."
+  "longBusinessSummary": "Eversource Energy, a public utility holding company, engages in the energy delivery business. The company operates through Electric Distribution, Electric Transmission, Natural Gas Distribution, and Water Distribution segments. It is involved in the transmission and distribution of electricity; solar power facilities; and distribution of natural gas. The company also operates regulated water utilities that provides water services to residential, commercial, industrial, municipal and fire protection, and other customers in Connecticut, Massachusetts, and New Hampshire. The company was formerly known as Northeast Utilities and changed its name to Eversource Energy in April 2015. Eversource Energy was incorporated in 1927 and is headquartered in Springfield, Massachusetts.",
+  "targetMeanPrice": 73.33333,
+  "targetLowPrice": 52.0,
+  "targetHighPrice": 85.0,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.6875,
+  "forwardPE": 13.329007,
+  "forwardEps": 4.93135,
+  "trailingEps": 3.86,
+  "earningsGrowth": -0.854,
+  "revenueGrowth": 0.023
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 63786711000.0,
+    "official": 63786711000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 16197271000.0,
+    "official": 16197271000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1692372000.0,
+    "official": 1699891000.0,
+    "diff": 0.004423
+   },
+   "revenue": {
+    "yahoo": 13547244000.0,
+    "official": 13547244000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:43:00+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -182,7 +224,10 @@
    "goodwill_and_intangibles": 4522632000.0,
    "retained_earnings": 5527153000.0,
    "total_debt": 21044123000.0,
-   "shares_out": 348443855.0
+   "shares_out": 348443855.0,
+   "unusual_items": 49200000.0,
+   "normalized_ebitda": 4138180000.0,
+   "normalized_income": 1367630600.0
   },
   {
    "fy_end": "2023-12-31",
@@ -215,7 +260,10 @@
    "goodwill_and_intangibles": 4532100000.0,
    "retained_earnings": 4142515000.0,
    "total_debt": 24413463000.0,
-   "shares_out": 349540266.0
+   "shares_out": 349540266.0,
+   "unusual_items": -2093800000.0,
+   "normalized_ebitda": 3489927000.0,
+   "normalized_income": 1111987740.0
   },
   {
    "fy_end": "2024-12-31",
@@ -247,7 +295,10 @@
    "goodwill_and_intangibles": 3571333000.0,
    "retained_earnings": 3929141000.0,
    "total_debt": 26704777000.0,
-   "shares_out": 366608052.0
+   "shares_out": 366608052.0,
+   "unusual_items": -662619000.0,
+   "normalized_ebitda": 4794158000.0,
+   "normalized_income": 1248044076.852575
   },
   {
    "fy_end": "2025-12-31",
@@ -279,7 +330,10 @@
    "goodwill_and_intangibles": 4233767000.0,
    "retained_earnings": 4504983000.0,
    "total_debt": 28265381000.0,
-   "shares_out": 375416880.0
+   "shares_out": 375416880.0,
+   "unusual_items": -190400000.0,
+   "normalized_ebitda": 5678330000.0,
+   "normalized_income": 1868301600.0
   }
  ]
 }

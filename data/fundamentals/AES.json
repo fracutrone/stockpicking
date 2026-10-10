@@ -1,6 +1,6 @@
 {
  "ticker": "AES",
- "fetched_at": "2026-10-10T12:36:37+00:00",
+ "fetched_at": "2026-10-10T15:33:43+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 8336,
   "website": "https://www.aes.com",
-  "longBusinessSummary": "The AES Corporation, together with its subsidiaries, operates as a power generation and utility company. It operates through four segments: Renewables, Utilities, Energy Infrastructure, and New Energy Technologies. The company owns and/or operates power plants to generate and sell power to customers, such as utilities, industrial users, and other intermediaries; owns and/or operates utilities to generate or purchase, distribute, transmit, and sell electricity to end-user customers in the residential, commercial, industrial, and governmental sectors; and generates and sells electricity on the wholesale market, as well as investments in technologies to support leading-edge greener energy solutions. It uses various fuels and technologies to generate electricity, such as solar, hydro, wind, coal, and gas, as well as renewables comprising energy storage and landfill gas. The company owns and/or operates a generation portfolio of approximately 34,740 megawatts and distributes power to 2.7 million customers. The company operates in the United States, Chile, Dominican Republic, El Salvador, Mexico, Bulgaria, Panama, Colombia, Argentina, Vietnam, Jordan, Puerto Rico, and internationally. The company was formerly known as Applied Energy Services, Inc. and changed its name to The AES Corporation in April 2000. The AES Corporation was incorporated in 1981 and is based in Arlington, Virginia."
+  "longBusinessSummary": "The AES Corporation, together with its subsidiaries, operates as a power generation and utility company. It operates through four segments: Renewables, Utilities, Energy Infrastructure, and New Energy Technologies. The company owns and/or operates power plants to generate and sell power to customers, such as utilities, industrial users, and other intermediaries; owns and/or operates utilities to generate or purchase, distribute, transmit, and sell electricity to end-user customers in the residential, commercial, industrial, and governmental sectors; and generates and sells electricity on the wholesale market, as well as investments in technologies to support leading-edge greener energy solutions. It uses various fuels and technologies to generate electricity, such as solar, hydro, wind, coal, and gas, as well as renewables comprising energy storage and landfill gas. The company owns and/or operates a generation portfolio of approximately 34,740 megawatts and distributes power to 2.7 million customers. The company operates in the United States, Chile, Dominican Republic, El Salvador, Mexico, Bulgaria, Panama, Colombia, Argentina, Vietnam, Jordan, Puerto Rico, and internationally. The company was formerly known as Applied Energy Services, Inc. and changed its name to The AES Corporation in April 2000. The AES Corporation was incorporated in 1981 and is based in Arlington, Virginia.",
+  "targetMeanPrice": 15.0,
+  "targetLowPrice": 15.0,
+  "targetHighPrice": 15.0,
+  "numberOfAnalystOpinions": 8,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.0,
+  "forwardPE": 6.302335,
+  "forwardEps": 2.37055,
+  "trailingEps": 2.67,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.199
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 51768000000.0,
+    "official": 51768000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4063000000.0,
+    "official": 4063000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 910000000.0,
+    "official": 910000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 12233000000.0,
+    "official": 12233000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:33:43+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -199,7 +241,10 @@
    "goodwill_and_intangibles": 2203000000.0,
    "retained_earnings": -1635000000.0,
    "total_debt": 23498000000.0,
-   "shares_out": 668743464.0
+   "shares_out": 668743464.0,
+   "unusual_items": -1616000000.0,
+   "normalized_ebitda": 3636000000.0,
+   "normalized_income": 730640000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -234,7 +279,10 @@
    "goodwill_and_intangibles": 2591000000.0,
    "retained_earnings": -1386000000.0,
    "total_debt": 26878000000.0,
-   "shares_out": 669693234.0
+   "shares_out": 669693234.0,
+   "unusual_items": -1353000000.0,
+   "normalized_ebitda": 3923000000.0,
+   "normalized_income": 1310870000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -269,7 +317,10 @@
    "goodwill_and_intangibles": 2292000000.0,
    "retained_earnings": 293000000.0,
    "total_debt": 29018000000.0,
-   "shares_out": 711074269.0
+   "shares_out": 711074269.0,
+   "unusual_items": 29000000.0,
+   "normalized_ebitda": 3614000000.0,
+   "normalized_income": 1659030000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -304,7 +355,10 @@
    "goodwill_and_intangibles": 2382000000.0,
    "retained_earnings": 641000000.0,
    "total_debt": 29897000000.0,
-   "shares_out": 712201777.0
+   "shares_out": 712201777.0,
+   "unusual_items": -418000000.0,
+   "normalized_ebitda": 3357000000.0,
+   "normalized_income": 1279220000.0
   }
  ]
 }

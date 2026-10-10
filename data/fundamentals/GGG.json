@@ -1,6 +1,6 @@
 {
  "ticker": "GGG",
- "fetched_at": "2026-10-10T12:46:35+00:00",
+ "fetched_at": "2026-10-10T15:45:04+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 4400,
   "website": "https://www.graco.com",
-  "longBusinessSummary": "Graco Inc. designs, manufactures, and markets systems and equipment used to move, measure, mix, control, dispense, and spray fluid and powder materials in the Americas, Europe, the Middle East, Africa, and the Asia Pacific. It operates through three segments: Contractor, Industrial and Expansion Markets. The Contractor segment provides sprayers to apply paint to walls and other structures; two-component proportioning systems to spray polyurethane foam and polyurea coatings; viscous coatings to roofs, markings on roads, parking lots, athletic fields, and floors; and high-performance volumetric and gravimetric dispense, mixing, and shaking equipment. The Industrial segment designs and manufactures liquid finishing and advanced fluid dispensing equipment; pumps to move chemicals, petroleum, food, and other fluids; and systems, components, and accessories for the automatic lubrication of bearings, gears, and generators; supplies equipment for equipment maintenance and vehicle servicing applications, as well as make powder finishing products and complete powder finishing systems. The Expansion Markets segment manufactures pumps for use in the semiconductor industry; high pressure and ultra-high-pressure valves used in the oil and natural gas industry; and environmental monitoring and remediation equipment that is used to conduct ground water sampling, ground water remediation, and for landfill liquid and gas management. Graco Inc. was incorporated in 1926 and is headquartered in Minneapolis, Minnesota."
+  "longBusinessSummary": "Graco Inc. designs, manufactures, and markets systems and equipment used to move, measure, mix, control, dispense, and spray fluid and powder materials in the Americas, Europe, the Middle East, Africa, and the Asia Pacific. It operates through three segments: Contractor, Industrial and Expansion Markets. The Contractor segment provides sprayers to apply paint to walls and other structures; two-component proportioning systems to spray polyurethane foam and polyurea coatings; viscous coatings to roofs, markings on roads, parking lots, athletic fields, and floors; and high-performance volumetric and gravimetric dispense, mixing, and shaking equipment. The Industrial segment designs and manufactures liquid finishing and advanced fluid dispensing equipment; pumps to move chemicals, petroleum, food, and other fluids; and systems, components, and accessories for the automatic lubrication of bearings, gears, and generators; supplies equipment for equipment maintenance and vehicle servicing applications, as well as make powder finishing products and complete powder finishing systems. The Expansion Markets segment manufactures pumps for use in the semiconductor industry; high pressure and ultra-high-pressure valves used in the oil and natural gas industry; and environmental monitoring and remediation equipment that is used to conduct ground water sampling, ground water remediation, and for landfill liquid and gas management. Graco Inc. was incorporated in 1926 and is headquartered in Minneapolis, Minnesota.",
+  "targetMeanPrice": 91.28571,
+  "targetLowPrice": 84.0,
+  "targetHighPrice": 100.0,
+  "numberOfAnalystOpinions": 7,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.6,
+  "forwardPE": 22.374098,
+  "forwardEps": 3.49556,
+  "trailingEps": 3.18,
+  "earningsGrowth": 0.145,
+  "revenueGrowth": 0.033
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3274270000.0,
+    "official": 3274270000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2653931000.0,
+    "official": 2653931000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 521839000.0,
+    "official": 521839000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2236604000.0,
+    "official": 2236604000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:45:04+00:00",
  "years": [
   {
    "fy_end": "2019-12-27",
@@ -197,7 +239,10 @@
    "goodwill_and_intangibles": 507867000.0,
    "retained_earnings": 976851000.0,
    "total_debt": 126586000.0,
-   "shares_out": 167702130.0
+   "shares_out": 167702130.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 641618000.0,
+   "normalized_income": 460645000.0
   },
   {
    "fy_end": "2023-12-29",
@@ -231,7 +276,10 @@
    "goodwill_and_intangibles": 499088000.0,
    "retained_earnings": 1227938000.0,
    "total_debt": 50063000.0,
-   "shares_out": 167946063.0
+   "shares_out": 167946063.0,
+   "unusual_items": 800000.0,
+   "normalized_ebitda": 687514000.0,
+   "normalized_income": 505845400.0
   },
   {
    "fy_end": "2024-12-27",
@@ -265,7 +313,10 @@
    "goodwill_and_intangibles": 723627000.0,
    "retained_earnings": 1509264000.0,
    "total_debt": 48653000.0,
-   "shares_out": 169393735.0
+   "shares_out": 169393735.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 678860000.0,
+   "normalized_income": 486084000.0
   },
   {
    "fy_end": "2025-12-26",
@@ -299,7 +350,10 @@
    "goodwill_and_intangibles": 892943000.0,
    "retained_earnings": 1456710000.0,
    "total_debt": 51596000.0,
-   "shares_out": 165150142.0
+   "shares_out": 165150142.0,
+   "unusual_items": 14061000.0,
+   "normalized_ebitda": 737465000.0,
+   "normalized_income": 510395490.675296
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "CXT",
- "fetched_at": "2026-10-10T12:42:42+00:00",
+ "fetched_at": "2026-10-10T15:41:09+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 4800,
   "website": "https://www.cranenxt.com",
-  "longBusinessSummary": "Crane NXT, Co. operates as an industrial technology company that provides technology solutions to secure, detect, and authenticate customers' important assets. The company operates through Crane Payment Innovations; and Security and Authentication Technologies segments. The Crane Payment Innovations segment offers electronic equipment and associated software, as well as advanced automation solutions, processing systems, field service solutions, remote diagnostics, and productivity software solutions. The Security and Authentication Technologies segment provides advanced security solutions based on proprietary technology for securing physical products, including banknotes, consumer goods, and industrial products. This segment also offers brand protection, authentication solutions, and digital content protection across online marketplaces, social media platforms, and websites; and serves various brands, as well as government agencies and financial institutions. Crane NXT, Co. was incorporated in 2021 and is based in Waltham, Massachusetts."
+  "longBusinessSummary": "Crane NXT, Co. operates as an industrial technology company that provides technology solutions to secure, detect, and authenticate customers' important assets. The company operates through Crane Payment Innovations; and Security and Authentication Technologies segments. The Crane Payment Innovations segment offers electronic equipment and associated software, as well as advanced automation solutions, processing systems, field service solutions, remote diagnostics, and productivity software solutions. The Security and Authentication Technologies segment provides advanced security solutions based on proprietary technology for securing physical products, including banknotes, consumer goods, and industrial products. This segment also offers brand protection, authentication solutions, and digital content protection across online marketplaces, social media platforms, and websites; and serves various brands, as well as government agencies and financial institutions. Crane NXT, Co. was incorporated in 2021 and is based in Waltham, Massachusetts.",
+  "targetMeanPrice": 68.71429,
+  "targetLowPrice": 56.0,
+  "targetHighPrice": 85.0,
+  "numberOfAnalystOpinions": 7,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.42857,
+  "forwardPE": 10.676797,
+  "forwardEps": 4.7252,
+  "trailingEps": 2.41,
+  "earningsGrowth": 0.419,
+  "revenueGrowth": 0.22
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3116400000.0,
+    "official": 3116400000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1253000000.0,
+    "official": 1253000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 145100000.0,
+    "official": 145100000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1656700000.0,
+    "official": 1656700000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:41:10+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -197,7 +239,10 @@
    "goodwill_and_intangibles": 1181500000.0,
    "retained_earnings": 0.0,
    "total_debt": 844800000.0,
-   "shares_out": 56725307.0
+   "shares_out": 56725307.0,
+   "unusual_items": -6200000.0,
+   "normalized_ebitda": 389500000.0,
+   "normalized_income": 210015000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -231,7 +276,10 @@
    "goodwill_and_intangibles": 1150100000.0,
    "retained_earnings": 120900000.0,
    "total_debt": 644900000.0,
-   "shares_out": 56897457.0
+   "shares_out": 56897457.0,
+   "unusual_items": -500000.0,
+   "normalized_ebitda": 368500000.0,
+   "normalized_income": 188692618.849041
   },
   {
    "fy_end": "2024-12-31",
@@ -265,7 +313,10 @@
    "goodwill_and_intangibles": 1375900000.0,
    "retained_earnings": 268400000.0,
    "total_debt": 750600000.0,
-   "shares_out": 57197147.0
+   "shares_out": 57197147.0,
+   "unusual_items": -10100000.0,
+   "normalized_ebitda": 371100000.0,
+   "normalized_income": 192312941.696113
   },
   {
    "fy_end": "2025-12-31",
@@ -299,7 +350,10 @@
    "goodwill_and_intangibles": 1721200000.0,
    "retained_earnings": 374500000.0,
    "total_debt": 1139500000.0,
-   "shares_out": 57441541.0
+   "shares_out": 57441541.0,
+   "unusual_items": -16800000.0,
+   "normalized_ebitda": 364700000.0,
+   "normalized_income": 158573600.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "BRK-B",
- "fetched_at": "2026-10-10T12:39:21+00:00",
+ "fetched_at": "2026-10-10T15:38:10+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 387800,
   "website": "https://www.berkshirehathaway.com",
-  "longBusinessSummary": "Berkshire Hathaway Inc., together with its subsidiaries, engages in the insurance, freight rail transportation, and utility businesses. The company provides property, casualty, life, accident, and health insurance and reinsurance; operates railroad systems in North America; generates, transmits, stores, and distributes electricity from natural gas, coal, wind, solar, hydroelectric, nuclear, and geothermal sources; operates natural gas distribution and storage facilities, interstate pipelines, liquefied natural gas facilities, and compressor and meter stations; and holds interest in coal mining assets. It manufactures boxed chocolates and other confectionery products; specialty chemicals, metal cutting tools, and components for aerospace and power generation applications; prefabricated and site-built residential homes, flooring products; insulation, roofing, and engineered products; building and engineered components; paints and coatings; and bricks and masonry products, as well as offers manufactured and site-built home construction, and related lending and financial services. In addition, the company provides recreational vehicles, apparel, footwear, toys, jewelry, custom picture framing products, alkaline batteries, logistics services, and professional aviation training and shared aircraft ownership programs; castings, forgings, fasteners/fastener systems, aerostructures, and precision components; and cobalt, nickel, and titanium alloys. Further, it distributes televisions and information, and grocery and non-food consumer products; franchises and services quick service restaurants; and distributes electronic components. Additionally, it retails automobiles; furniture, bedding, and accessories; household appliances, electronics, and floor coverings; watches, home decor and repair services; sells kitchenware; and motorcycle clothing and equipment. The company was incorporated in 1998 and is headquartered in Omaha, Nebraska."
+  "longBusinessSummary": "Berkshire Hathaway Inc., together with its subsidiaries, engages in the insurance, freight rail transportation, and utility businesses. The company provides property, casualty, life, accident, and health insurance and reinsurance; operates railroad systems in North America; generates, transmits, stores, and distributes electricity from natural gas, coal, wind, solar, hydroelectric, nuclear, and geothermal sources; operates natural gas distribution and storage facilities, interstate pipelines, liquefied natural gas facilities, and compressor and meter stations; and holds interest in coal mining assets. It manufactures boxed chocolates and other confectionery products; specialty chemicals, metal cutting tools, and components for aerospace and power generation applications; prefabricated and site-built residential homes, flooring products; insulation, roofing, and engineered products; building and engineered components; paints and coatings; and bricks and masonry products, as well as offers manufactured and site-built home construction, and related lending and financial services. In addition, the company provides recreational vehicles, apparel, footwear, toys, jewelry, custom picture framing products, alkaline batteries, logistics services, and professional aviation training and shared aircraft ownership programs; castings, forgings, fasteners/fastener systems, aerostructures, and precision components; and cobalt, nickel, and titanium alloys. Further, it distributes televisions and information, and grocery and non-food consumer products; franchises and services quick service restaurants; and distributes electronic components. Additionally, it retails automobiles; furniture, bedding, and accessories; household appliances, electronics, and floor coverings; watches, home decor and repair services; sells kitchenware; and motorcycle clothing and equipment. The company was incorporated in 1998 and is headquartered in Omaha, Nebraska.",
+  "targetMeanPrice": 547.6667,
+  "targetLowPrice": 510.0,
+  "targetHighPrice": 604.0,
+  "numberOfAnalystOpinions": 3,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": 23.803083,
+  "forwardEps": 21.6619,
+  "trailingEps": 39.76,
+  "earningsGrowth": 1.078,
+  "revenueGrowth": 0.1
  },
  "governance": {
   "ceo": {
@@ -78,9 +89,39 @@
   "retained_earnings": "sec",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "operating_income": "sec",
   "inventory": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 1222176000000.0,
+    "official": 1222176000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 717419000000.0,
+    "official": 717419000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 66968000000.0,
+    "official": 66968000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 410522000000.0,
+    "official": 371444000000.0,
+    "diff": 0.105206
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:38:10+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -133,7 +174,8 @@
    "equity": 506199000000.0,
    "inventory": 20954000000.0,
    "goodwill": 73875000000.0,
-   "retained_earnings": 534421000000.0
+   "retained_earnings": 534421000000.0,
+   "unusual_items": 0.0
   },
   {
    "fy_end": "2022-12-31",
@@ -161,7 +203,9 @@
    "goodwill_and_intangibles": 107306000000.0,
    "retained_earnings": 511127000000.0,
    "total_debt": 122744000000.0,
-   "shares_out": 1459733.0
+   "shares_out": 1459733.0,
+   "unusual_items": 0.0,
+   "normalized_income": -22759000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -189,7 +233,8 @@
    "goodwill_and_intangibles": 120510000000.0,
    "retained_earnings": 607350000000.0,
    "total_debt": 128271000000.0,
-   "shares_out": 1441483.0
+   "shares_out": 1441483.0,
+   "normalized_income": 96223000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -217,7 +262,8 @@
    "goodwill_and_intangibles": 118518000000.0,
    "retained_earnings": 696218000000.0,
    "total_debt": 124762000000.0,
-   "shares_out": 1438223.0
+   "shares_out": 1438223.0,
+   "normalized_income": 88995000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -245,7 +291,8 @@
    "goodwill_and_intangibles": 116876000000.0,
    "retained_earnings": 763186000000.0,
    "total_debt": 129081000000.0,
-   "shares_out": 1438223.0
+   "shares_out": 1438223.0,
+   "normalized_income": 66968000000.0
   }
  ]
 }

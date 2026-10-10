@@ -1,6 +1,6 @@
 {
  "ticker": "LAD",
- "fetched_at": "2026-10-10T12:50:13+00:00",
+ "fetched_at": "2026-10-10T15:48:30+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 30000,
   "website": "https://www.lithia.com",
-  "longBusinessSummary": "Lithia Motors, Inc. operates as an automotive retailer in the United States, the United Kingdom, and Canada. The company operates in two segments, Vehicle Operations and Financing Operations. It offers a range of products and services fulfilling the entire vehicle ownership lifecycle, including new and used vehicles, financing and insurance products, and aftersales automotive repair and maintenance services. The company provides its products and services through a network of physical locations, e-commerce platforms, captive finance solutions, fleet management offerings, and other synergistic adjacencies. Lithia Motors, Inc. was founded in 1946 and is headquartered in Medford, Oregon."
+  "longBusinessSummary": "Lithia Motors, Inc. operates as an automotive retailer in the United States, the United Kingdom, and Canada. The company operates in two segments, Vehicle Operations and Financing Operations. It offers a range of products and services fulfilling the entire vehicle ownership lifecycle, including new and used vehicles, financing and insurance products, and aftersales automotive repair and maintenance services. The company provides its products and services through a network of physical locations, e-commerce platforms, captive finance solutions, fleet management offerings, and other synergistic adjacencies. Lithia Motors, Inc. was founded in 1946 and is headquartered in Medford, Oregon.",
+  "targetMeanPrice": 429.26666,
+  "targetLowPrice": 310.0,
+  "targetHighPrice": 525.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.8,
+  "forwardPE": 6.809082,
+  "forwardEps": 42.62542,
+  "trailingEps": 30.19,
+  "earningsGrowth": 0.169,
+  "revenueGrowth": 0.022
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 25107200000.0,
+    "official": 25107200000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 6603200000.0,
+    "official": 6603200000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 819600000.0,
+    "official": 819600000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 37634900000.0,
+    "official": 37634900000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:48:30+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -200,7 +242,10 @@
    "goodwill_and_intangibles": 3316900000.0,
    "retained_earnings": 4065300000.0,
    "total_debt": 5510500000.0,
-   "shares_out": 27300000.0
+   "shares_out": 27300000.0,
+   "unusual_items": 66000000.0,
+   "normalized_ebitda": 2187700000.0,
+   "normalized_income": 1251000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -234,7 +279,10 @@
    "goodwill_and_intangibles": 4332800000.0,
    "retained_earnings": 5013300000.0,
    "total_debt": 7155400000.0,
-   "shares_out": 27400000.0
+   "shares_out": 27400000.0,
+   "unusual_items": 6800000.0,
+   "normalized_ebitda": 2151100000.0,
+   "normalized_income": 995747600.0
   },
   {
    "fy_end": "2024-12-31",
@@ -268,7 +316,10 @@
    "goodwill_and_intangibles": 4665800000.0,
    "retained_earnings": 5753500000.0,
    "total_debt": 8170500000.0,
-   "shares_out": 26400000.0
+   "shares_out": 26400000.0,
+   "unusual_items": 15200000.0,
+   "normalized_ebitda": 2238300000.0,
+   "normalized_income": 785118034.1641
   },
   {
    "fy_end": "2025-12-31",
@@ -302,7 +353,10 @@
    "goodwill_and_intangibles": 5254100000.0,
    "retained_earnings": 6517800000.0,
    "total_debt": 9679100000.0,
-   "shares_out": 23500000.0
+   "shares_out": 23500000.0,
+   "unusual_items": -15200000.0,
+   "normalized_ebitda": 2317800000.0,
+   "normalized_income": 830925947.31144
   }
  ]
 }

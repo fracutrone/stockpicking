@@ -1,6 +1,6 @@
 {
  "ticker": "HIG",
- "fetched_at": "2026-10-10T12:47:38+00:00",
+ "fetched_at": "2026-10-10T15:46:00+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 19200,
   "website": "https://www.thehartford.com",
-  "longBusinessSummary": "The Hartford Insurance Group, Inc., together with its subsidiaries, provides insurance and financial services to individual and business customers in the United States, the United Kingdom, and internationally. It operates through Business Insurance, Personal Insurance, Property & Casualty Other Operations, Employee Benefits and Hartford Funds. The company offers insurance coverage, including workers' compensation, property, automobile, general and professional liability, package business, umbrella, fidelity and surety, marine, livestock, accident, health, and reinsurance through regional offices, branches, sales and policyholder service centers, independent retail agents and brokers, wholesale agents, and reinsurance brokers. The company also provides automobiles, homeowners, and personal umbrella coverages. The Property & Casualty Other Operations segment offers coverage for asbestos and environmental exposures. In addition, it provides group life, disability, and other group coverages to members of employer groups, associations, and affinity groups through direct insurance policies; reinsurance to other insurance companies; employer paid and voluntary product coverages; disability underwriting, administration, and claims processing to self-funded employer plans; leave management solution; distributes its group insurance products and services through brokers, consultants, third-party administrators, trade associations, and private exchanges. Further, the company offers managed mutual funds across various asset classes; and exchange-traded funds through broker-dealer organizations, independent financial advisers, defined contribution plans, financial consultants, bank trust, and registered investment advisers, as well as investment management, distribution, and administrative services, such as product design, implementation, and oversight. The company was founded in 1810 and is headquartered in Hartford, Connecticut."
+  "longBusinessSummary": "The Hartford Insurance Group, Inc., together with its subsidiaries, provides insurance and financial services to individual and business customers in the United States, the United Kingdom, and internationally. It operates through Business Insurance, Personal Insurance, Property & Casualty Other Operations, Employee Benefits and Hartford Funds. The company offers insurance coverage, including workers' compensation, property, automobile, general and professional liability, package business, umbrella, fidelity and surety, marine, livestock, accident, health, and reinsurance through regional offices, branches, sales and policyholder service centers, independent retail agents and brokers, wholesale agents, and reinsurance brokers. The company also provides automobiles, homeowners, and personal umbrella coverages. The Property & Casualty Other Operations segment offers coverage for asbestos and environmental exposures. In addition, it provides group life, disability, and other group coverages to members of employer groups, associations, and affinity groups through direct insurance policies; reinsurance to other insurance companies; employer paid and voluntary product coverages; disability underwriting, administration, and claims processing to self-funded employer plans; leave management solution; distributes its group insurance products and services through brokers, consultants, third-party administrators, trade associations, and private exchanges. Further, the company offers managed mutual funds across various asset classes; and exchange-traded funds through broker-dealer organizations, independent financial advisers, defined contribution plans, financial consultants, bank trust, and registered investment advisers, as well as investment management, distribution, and administrative services, such as product design, implementation, and oversight. The company was founded in 1810 and is headquartered in Hartford, Connecticut.",
+  "targetMeanPrice": 148.0,
+  "targetLowPrice": 135.0,
+  "targetHighPrice": 164.0,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.3913,
+  "forwardPE": 9.404449,
+  "forwardEps": 13.72861,
+  "trailingEps": 14.09,
+  "earningsGrowth": 0.361,
+  "revenueGrowth": 0.081
  },
  "governance": {
   "ceo": {
@@ -77,9 +88,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "operating_income": "sec",
   "sga": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 85997000000.0,
+    "official": 85997000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 18979000000.0,
+    "official": 18979000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 3836000000.0,
+    "official": 3836000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 28071000000.0,
+    "official": 28368000000.0,
+    "diff": 0.01047
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:46:01+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -172,7 +213,9 @@
    "goodwill_and_intangibles": 2689000000.0,
    "retained_earnings": 17058000000.0,
    "total_debt": 4357000000.0,
-   "shares_out": 315111248.0
+   "shares_out": 315111248.0,
+   "unusual_items": -13000000.0,
+   "normalized_income": 1829454022.988506
   },
   {
    "fy_end": "2023-12-31",
@@ -199,7 +242,9 @@
    "goodwill_and_intangibles": 2618000000.0,
    "retained_earnings": 19007000000.0,
    "total_debt": 4362000000.0,
-   "shares_out": 298472098.0
+   "shares_out": 298472098.0,
+   "unusual_items": -6000000.0,
+   "normalized_income": 2508860000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -226,7 +271,9 @@
    "goodwill_and_intangibles": 2548000000.0,
    "retained_earnings": 21531000000.0,
    "total_debt": 4366000000.0,
-   "shares_out": 287556225.0
+   "shares_out": 287556225.0,
+   "unusual_items": -2000000.0,
+   "normalized_income": 3112620000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -253,7 +300,9 @@
    "goodwill_and_intangibles": 2477000000.0,
    "retained_earnings": 24739000000.0,
    "total_debt": 4371000000.0,
-   "shares_out": 276923402.0
+   "shares_out": 276923402.0,
+   "unusual_items": 0.0,
+   "normalized_income": 3836000000.0
   }
  ]
 }

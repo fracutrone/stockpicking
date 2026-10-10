@@ -1,6 +1,6 @@
 {
  "ticker": "EGP",
- "fetched_at": "2026-10-10T12:44:03+00:00",
+ "fetched_at": "2026-10-10T15:42:28+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 103,
   "website": "https://www.eastgroup.net",
-  "longBusinessSummary": "EastGroup Properties, Inc. a member of the S&P Mid-Cap 400 and Russell 2000 Indexes. It is a self-administered equity real estate investment trust focused on the development, acquisition and operation of industrial properties in high-growth markets throughout the United States with an emphasis in the states of Texas, Florida, California, Arizona and North Carolina. The Company's goal is to maximize shareholder value by being a leading provider in its markets of functional, flexible and quality business distribution space for location sensitive customers (primarily in the 20,000 to 100,000 square foot range). The Company's strategy for growth is based on ownership of premier distribution facilities generally clustered near major transportation features in supply-constrained submarkets. East Groups portfolio, including development projects and value-add acquisitions in lease-up and under construction, currently includes approximately 66.5 million square feet. EastGroup Properties, Inc. was incorporated in 1969 and is based in Ridgeland, United States."
+  "longBusinessSummary": "EastGroup Properties, Inc. a member of the S&P Mid-Cap 400 and Russell 2000 Indexes. It is a self-administered equity real estate investment trust focused on the development, acquisition and operation of industrial properties in high-growth markets throughout the United States with an emphasis in the states of Texas, Florida, California, Arizona and North Carolina. The Company's goal is to maximize shareholder value by being a leading provider in its markets of functional, flexible and quality business distribution space for location sensitive customers (primarily in the 20,000 to 100,000 square foot range). The Company's strategy for growth is based on ownership of premier distribution facilities generally clustered near major transportation features in supply-constrained submarkets. East Groups portfolio, including development projects and value-add acquisitions in lease-up and under construction, currently includes approximately 66.5 million square feet. EastGroup Properties, Inc. was incorporated in 1969 and is based in Ridgeland, United States.",
+  "targetMeanPrice": 227.85,
+  "targetLowPrice": 185.0,
+  "targetHighPrice": 268.0,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.75,
+  "forwardPE": 35.259235,
+  "forwardEps": 5.55826,
+  "trailingEps": 5.73,
+  "earningsGrowth": 0.167,
+  "revenueGrowth": 0.091
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 5431807000.0,
+    "official": 5431807000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3496201000.0,
+    "official": 3496201000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 257402000.0,
+    "official": 257458000.0,
+    "diff": 0.000218
+   },
+   "revenue": {
+    "yahoo": 721336000.0,
+    "official": 721336000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:42:28+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -128,7 +170,8 @@
    "cash": 4393000.0,
    "equity": 1570070000.0,
    "inventory": 5695000.0,
-   "goodwill": 990000.0
+   "goodwill": 990000.0,
+   "unusual_items": 38859000.0
   },
   {
    "fy_end": "2022-12-31",
@@ -160,7 +203,10 @@
    "goodwill_and_intangibles": 22140000.0,
    "retained_earnings": -334898000.0,
    "total_debt": 1883789000.0,
-   "shares_out": 43575539.0
+   "shares_out": 43575539.0,
+   "unusual_items": 40999000.0,
+   "normalized_ebitda": 337412000.0,
+   "normalized_income": 155764841.9
   },
   {
    "fy_end": "2023-12-31",
@@ -191,7 +237,10 @@
    "goodwill_and_intangibles": 21359000.0,
    "retained_earnings": -366473000.0,
    "total_debt": 1696467000.0,
-   "shares_out": 47700432.0
+   "shares_out": 47700432.0,
+   "unusual_items": 17965000.0,
+   "normalized_ebitda": 401657000.0,
+   "normalized_income": 187155580.5
   },
   {
    "fy_end": "2024-12-31",
@@ -222,7 +271,10 @@
    "goodwill_and_intangibles": 39836000.0,
    "retained_earnings": -403172000.0,
    "total_debt": 1545218000.0,
-   "shares_out": 51825798.0
+   "shares_out": 51825798.0,
+   "unusual_items": 8751000.0,
+   "normalized_ebitda": 444497000.0,
+   "normalized_income": 221242881.3
   },
   {
    "fy_end": "2025-12-31",
@@ -253,7 +305,9 @@
    "goodwill_and_intangibles": 37751000.0,
    "retained_earnings": -458953000.0,
    "total_debt": 1666035000.0,
-   "shares_out": 53348800.0
+   "shares_out": 53348800.0,
+   "normalized_ebitda": 503478000.0,
+   "normalized_income": 257402000.0
   }
  ]
 }

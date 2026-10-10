@@ -1,6 +1,6 @@
 {
  "ticker": "PVH",
- "fetched_at": "2026-10-10T12:56:11+00:00",
+ "fetched_at": "2026-10-10T15:53:51+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 15000,
   "website": "https://www.pvh.com",
-  "longBusinessSummary": "PVH Corp., together with its subsidiaries, operates as an apparel company in the United States and internationally. The company operates through Tommy Hilfiger North America, Tommy Hilfiger International, Calvin Klein North America, Calvin Klein International, and Heritage Brands Wholesale segments. It designs and markets men's, women's, and children's branded apparel, footwear and accessories, underwear, home furnishings, luggage, dresses, suits and swimwear, activewear, sportswear, socks and accessories, outerwear, golf products, watches and jewelry, eyeglasses and non-ophthalmic sunglasses, jeans wear, performance apparel, intimate apparel, dress shirts, handbags, fragrance, small leather goods, and other related products. The company offers its products under its own brands, such as TOMMY HILFIGER, TOMMY JEANS, Calvin Klein, Calvin Klein Jeans, Calvin Klein Underwear, Calvin Klein collection, and Calvin Klein sport, as well as various other owned, licensed, and private label brands. It distributes its products at wholesale in department, chain, and specialty stores; through warehouse clubs, mass market, and off-price and independent retailers; and through company-operated full-price, outlet stores, and concession locations; and through digital commerce sites. PVH Corp. was formerly known as Phillips-Van Heusen Corporation and changed its name to PVH Corp. in June 2011. The company was founded in 1881 and is based in New York, New York."
+  "longBusinessSummary": "PVH Corp., together with its subsidiaries, operates as an apparel company in the United States and internationally. The company operates through Tommy Hilfiger North America, Tommy Hilfiger International, Calvin Klein North America, Calvin Klein International, and Heritage Brands Wholesale segments. It designs and markets men's, women's, and children's branded apparel, footwear and accessories, underwear, home furnishings, luggage, dresses, suits and swimwear, activewear, sportswear, socks and accessories, outerwear, golf products, watches and jewelry, eyeglasses and non-ophthalmic sunglasses, jeans wear, performance apparel, intimate apparel, dress shirts, handbags, fragrance, small leather goods, and other related products. The company offers its products under its own brands, such as TOMMY HILFIGER, TOMMY JEANS, Calvin Klein, Calvin Klein Jeans, Calvin Klein Underwear, Calvin Klein collection, and Calvin Klein sport, as well as various other owned, licensed, and private label brands. It distributes its products at wholesale in department, chain, and specialty stores; through warehouse clubs, mass market, and off-price and independent retailers; and through company-operated full-price, outlet stores, and concession locations; and through digital commerce sites. PVH Corp. was formerly known as Phillips-Van Heusen Corporation and changed its name to PVH Corp. in June 2011. The company was founded in 1881 and is based in New York, New York.",
+  "targetMeanPrice": 90.83333,
+  "targetLowPrice": 70.0,
+  "targetHighPrice": 128.0,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.38462,
+  "forwardPE": 6.510808,
+  "forwardEps": 12.49461,
+  "trailingEps": -3.46,
+  "earningsGrowth": null,
+  "revenueGrowth": -0.032
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-01-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 11681000000.0,
+    "official": 11681000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4792300000.0,
+    "official": 4792300000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 25300000.0,
+    "official": 25300000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 8950200000.0,
+    "official": 8950200000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:53:51+00:00",
  "years": [
   {
    "fy_end": "2020-02-02",
@@ -203,7 +245,10 @@
    "goodwill_and_intangibles": 5608900000.0,
    "retained_earnings": 4753100000.0,
    "total_debt": 2335100000.0,
-   "shares_out": 62709237.0
+   "shares_out": 62709237.0,
+   "unusual_items": -417100000.0,
+   "normalized_ebitda": 1196400000.0,
+   "normalized_income": 510013330.0
   },
   {
    "fy_end": "2024-02-04",
@@ -237,7 +282,10 @@
    "goodwill_and_intangibles": 5419500000.0,
    "retained_earnings": 5407300000.0,
    "total_debt": 2169200000.0,
-   "shares_out": 57632688.0
+   "shares_out": 57632688.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 1238900000.0,
+   "normalized_income": 663600000.0
   },
   {
    "fy_end": "2025-02-02",
@@ -271,7 +319,10 @@
    "goodwill_and_intangibles": 5281000000.0,
    "retained_earnings": 5997200000.0,
    "total_debt": 2090700000.0,
-   "shares_out": 53249133.0
+   "shares_out": 53249133.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 1077700000.0,
+   "normalized_income": 598500000.0
   },
   {
    "fy_end": "2026-02-01",
@@ -305,7 +356,10 @@
    "goodwill_and_intangibles": 5118100000.0,
    "retained_earnings": 6015000000.0,
    "total_debt": 2304500000.0,
-   "shares_out": 45807213.0
+   "shares_out": 45807213.0,
+   "unusual_items": -479500000.0,
+   "normalized_ebitda": 997300000.0,
+   "normalized_income": 313000000.0
   }
  ]
 }

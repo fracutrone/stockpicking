@@ -1,6 +1,6 @@
 {
  "ticker": "MRC.L",
- "fetched_at": "2026-10-10T12:09:23+00:00",
+ "fetched_at": "2026-10-10T15:05:57+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -49,8 +60,15 @@
   "equity": "yahoo",
   "receivables": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T15:05:57+00:00",
  "years": [
   {
    "fy_end": "2023-01-31",
@@ -70,7 +88,8 @@
    "equity": 1865676000.0,
    "receivables": 2737000.0,
    "total_debt": 327826000.0,
-   "shares_out": 790080662.0
+   "shares_out": 790080662.0,
+   "normalized_income": -275345000.0
   },
   {
    "fy_end": "2024-01-31",
@@ -90,7 +109,8 @@
    "equity": 1865619000.0,
    "receivables": 7557000.0,
    "total_debt": 327934000.0,
-   "shares_out": 782056565.0
+   "shares_out": 782056565.0,
+   "normalized_income": 75208000.0
   },
   {
    "fy_end": "2025-01-31",
@@ -110,7 +130,8 @@
    "equity": 1965468000.0,
    "receivables": 4100000.0,
    "total_debt": 328044000.0,
-   "shares_out": 746668191.0
+   "shares_out": 746668191.0,
+   "normalized_income": 241378000.0
   },
   {
    "fy_end": "2026-01-31",
@@ -130,7 +151,8 @@
    "equity": 1967793000.0,
    "receivables": 3019000.0,
    "total_debt": 328153000.0,
-   "shares_out": 682868483.0
+   "shares_out": 682868483.0,
+   "normalized_income": 207853000.0
   }
  ]
 }

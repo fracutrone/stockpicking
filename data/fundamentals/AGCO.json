@@ -1,6 +1,6 @@
 {
  "ticker": "AGCO",
- "fetched_at": "2026-10-10T12:36:43+00:00",
+ "fetched_at": "2026-10-10T15:33:47+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 22000,
   "website": "https://www.agcocorp.com",
-  "longBusinessSummary": "AGCO Corporation manufactures and distributes agricultural equipment and replacement parts worldwide. It offers horsepower tractors for row crop production, soil cultivation, planting, land leveling, seeding, and commercial hay operations; utility tractors for small- and medium-sized farms, as well as for dairy, livestock, orchards, and vineyards; and compact tractors for small farms, specialty agricultural industries, landscaping, equestrian, and residential uses. The company also provides grain storage bins and related drying and handling equipment systems; seed-processing systems; swine and poultry feed storage and delivery systems; ventilation and watering systems; and egg production systems and broiler production equipment. In addition, it offers round and rectangular balers, loader wagons, self-propelled windrowers, forage harvesters, disc mowers, spreaders, rakes, tedders, and mower conditioners for harvesting and packaging vegetative feeds used in cattle, dairy, horse, and renewable fuel industries. Further, the company provides implements, including disc harrows leveling seed beds and mixing chemicals with the soils; heavy tillage to break up soil and mix crop residue into topsoil; field cultivators that prepare smooth seed bed and destroy weeds; drills for small grain seeding; planters and other planting equipment; and loaders. Additionally, it offers combines for harvesting grain crops, such as corn, wheat, soybeans, and rice; and application equipment, including self-propelled, three- and four-wheeled vehicles, and related equipment for liquid and dry fertilizers and crop protection chemicals, and for after crops emerge from the ground, as well as produces diesel engines, gears, and generating sets. The company markets its products under the Fendt, Massey Ferguson, PTx, and Valtra brands through a network of independent dealers and distributors. AGCO Corporation was founded in 1990 and is headquartered in Duluth, Georgia."
+  "longBusinessSummary": "AGCO Corporation manufactures and distributes agricultural equipment and replacement parts worldwide. It offers horsepower tractors for row crop production, soil cultivation, planting, land leveling, seeding, and commercial hay operations; utility tractors for small- and medium-sized farms, as well as for dairy, livestock, orchards, and vineyards; and compact tractors for small farms, specialty agricultural industries, landscaping, equestrian, and residential uses. The company also provides grain storage bins and related drying and handling equipment systems; seed-processing systems; swine and poultry feed storage and delivery systems; ventilation and watering systems; and egg production systems and broiler production equipment. In addition, it offers round and rectangular balers, loader wagons, self-propelled windrowers, forage harvesters, disc mowers, spreaders, rakes, tedders, and mower conditioners for harvesting and packaging vegetative feeds used in cattle, dairy, horse, and renewable fuel industries. Further, the company provides implements, including disc harrows leveling seed beds and mixing chemicals with the soils; heavy tillage to break up soil and mix crop residue into topsoil; field cultivators that prepare smooth seed bed and destroy weeds; drills for small grain seeding; planters and other planting equipment; and loaders. Additionally, it offers combines for harvesting grain crops, such as corn, wheat, soybeans, and rice; and application equipment, including self-propelled, three- and four-wheeled vehicles, and related equipment for liquid and dry fertilizers and crop protection chemicals, and for after crops emerge from the ground, as well as produces diesel engines, gears, and generating sets. The company markets its products under the Fendt, Massey Ferguson, PTx, and Valtra brands through a network of independent dealers and distributors. AGCO Corporation was founded in 1990 and is headquartered in Duluth, Georgia.",
+  "targetMeanPrice": 125.86667,
+  "targetLowPrice": 98.0,
+  "targetHighPrice": 151.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.4375,
+  "forwardPE": 13.855313,
+  "forwardEps": 7.45418,
+  "trailingEps": 7.23,
+  "earningsGrowth": -0.744,
+  "revenueGrowth": -0.01
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 11927800000.0,
+    "official": 11927800000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4273500000.0,
+    "official": 4273500000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 726500000.0,
+    "official": 726500000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 10082000000.0,
+    "official": 10082000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:33:47+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -200,7 +242,10 @@
    "goodwill_and_intangibles": 1675200000.0,
    "retained_earnings": 5654600000.0,
    "total_debt": 1460800000.0,
-   "shares_out": 74600815.0
+   "shares_out": 74600815.0,
+   "unusual_items": -42100000.0,
+   "normalized_ebitda": 1464900000.0,
+   "normalized_income": 920422127.890173
   },
   {
    "fy_end": "2023-12-31",
@@ -234,7 +279,10 @@
    "goodwill_and_intangibles": 1642200000.0,
    "retained_earnings": 6360000000.0,
    "total_debt": 1379500000.0,
-   "shares_out": 74517973.0
+   "shares_out": 74517973.0,
+   "unusual_items": -16000000.0,
+   "normalized_ebitda": 1706400000.0,
+   "normalized_income": 1184635545.556805
   },
   {
    "fy_end": "2024-12-31",
@@ -268,7 +316,10 @@
    "goodwill_and_intangibles": 2549300000.0,
    "retained_earnings": 5645000000.0,
    "total_debt": 2558100000.0,
-   "shares_out": 74420952.0
+   "shares_out": 74420952.0,
+   "unusual_items": -1049500000.0,
+   "normalized_ebitda": 1107400000.0,
+   "normalized_income": 404305000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -302,7 +353,10 @@
    "goodwill_and_intangibles": 2571800000.0,
    "retained_earnings": 6047200000.0,
    "total_debt": 2384700000.0,
-   "shares_out": 72629310.0
+   "shares_out": 72629310.0,
+   "unusual_items": -103000000.0,
+   "normalized_ebitda": 1155600000.0,
+   "normalized_income": 807870000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "MET",
- "fetched_at": "2026-10-10T12:51:25+00:00",
+ "fetched_at": "2026-10-10T15:49:38+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 46000,
   "website": "https://www.metlife.com",
-  "longBusinessSummary": "MetLife, Inc., a financial services company, provides insurance, annuities, employee benefits, and asset management services worldwide. It operates in six segments: Group Benefits; Retirement and Income Solutions; Asia; Latin America; Europe, the Middle East and Africa; and MetLife Holdings. The company offers life, dental, group short-and long-term disability, paid family and medical leave, individual disability, accidental death and dismemberment, accident and health, vision, and pet insurance, as well as prepaid legal plans; administrative services-only arrangements to employers; and general and separate account, and synthetic guaranteed interest contracts, as well as private floating rate funding agreements. It also provides pension risk transfers, institutional income annuities, structured settlements, and capital markets investment products; and other products and services, such as life insurance products and funding agreements for funding postretirement benefits, as well as company, bank, or trust-owned life insurance used to finance nonqualified benefit programs for executives. In addition, it offers fixed, indexed-linked, and variable annuities; pension products; regular savings products; whole and term life, endowments, universal and variable life, and group life products; longevity and funded reinsurance solutions; credit insurance products; accident & health products covering hospitalization, cancer, critical illness, income protection, and scheduled medical reimbursement plans; and protection against long-term health care services. The company was incorporated in 1999 and is based in New York, New York."
+  "longBusinessSummary": "MetLife, Inc., a financial services company, provides insurance, annuities, employee benefits, and asset management services worldwide. It operates in six segments: Group Benefits; Retirement and Income Solutions; Asia; Latin America; Europe, the Middle East and Africa; and MetLife Holdings. The company offers life, dental, group short-and long-term disability, paid family and medical leave, individual disability, accidental death and dismemberment, accident and health, vision, and pet insurance, as well as prepaid legal plans; administrative services-only arrangements to employers; and general and separate account, and synthetic guaranteed interest contracts, as well as private floating rate funding agreements. It also provides pension risk transfers, institutional income annuities, structured settlements, and capital markets investment products; and other products and services, such as life insurance products and funding agreements for funding postretirement benefits, as well as company, bank, or trust-owned life insurance used to finance nonqualified benefit programs for executives. In addition, it offers fixed, indexed-linked, and variable annuities; pension products; regular savings products; whole and term life, endowments, universal and variable life, and group life products; longevity and funded reinsurance solutions; credit insurance products; accident & health products covering hospitalization, cancer, critical illness, income protection, and scheduled medical reimbursement plans; and protection against long-term health care services. The company was incorporated in 1999 and is based in New York, New York.",
+  "targetMeanPrice": 107.1875,
+  "targetLowPrice": 84.0,
+  "targetHighPrice": 119.0,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.88889,
+  "forwardPE": 8.816319,
+  "forwardEps": 11.15318,
+  "trailingEps": 5.22,
+  "earningsGrowth": 0.058,
+  "revenueGrowth": 0.105
  },
  "governance": {
   "ceo": {
@@ -76,9 +87,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "operating_income": "sec",
   "intangibles": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 745166000000.0,
+    "official": 745166000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 28398000000.0,
+    "official": 28398000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 3379000000.0,
+    "official": 3379000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 75654000000.0,
+    "official": 77084000000.0,
+    "diff": 0.018551
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:49:38+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -138,7 +179,8 @@
    "goodwill": 9535000000.0,
    "intangibles": 972000000.0,
    "retained_earnings": 41197000000.0,
-   "total_debt": 341000000.0
+   "total_debt": 341000000.0,
+   "unusual_items": 34000000.0
   },
   {
    "fy_end": "2022-12-31",
@@ -165,7 +207,9 @@
    "goodwill_and_intangibles": 9297000000.0,
    "retained_earnings": 40332000000.0,
    "total_debt": 175000000.0,
-   "shares_out": 779098414.0
+   "shares_out": 779098414.0,
+   "unusual_items": 41000000.0,
+   "normalized_income": 5284000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -192,7 +236,8 @@
    "goodwill_and_intangibles": 9236000000.0,
    "retained_earnings": 40146000000.0,
    "total_debt": 119000000.0,
-   "shares_out": 730821111.0
+   "shares_out": 730821111.0,
+   "normalized_income": 1578000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -219,7 +264,8 @@
    "goodwill_and_intangibles": 8901000000.0,
    "retained_earnings": 42626000000.0,
    "total_debt": 465000000.0,
-   "shares_out": 689211065.0
+   "shares_out": 689211065.0,
+   "normalized_income": 4426000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -246,7 +292,8 @@
    "goodwill_and_intangibles": 9613000000.0,
    "retained_earnings": 44290000000.0,
    "total_debt": 355000000.0,
-   "shares_out": 655333773.0
+   "shares_out": 655333773.0,
+   "normalized_income": 3379000000.0
   }
  ]
 }

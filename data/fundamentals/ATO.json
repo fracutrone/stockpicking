@@ -1,6 +1,6 @@
 {
  "ticker": "ATO",
- "fetched_at": "2026-10-10T12:38:09+00:00",
+ "fetched_at": "2026-10-10T15:35:08+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 5487,
   "website": "https://www.atmosenergy.com",
-  "longBusinessSummary": "Atmos Energy Corporation, together with its subsidiaries, engages in the regulated natural gas distribution, and pipeline and storage businesses in the United States. It operates through two segments, Distribution, and Pipeline and Storage. The Distribution segment is involved in the regulated natural gas distribution and related sales operations in eight states. This segment distributes natural gas to approximately 3.4 million residential, commercial, public authority, and industrial customers; and owned 76,000 miles of underground distribution and transmission mains. The Pipeline and Storage segment engages in the pipeline and storage operations. This segment transports natural gas for third parties and manages five underground storage facilities in Texas; provides ancillary services customary to the pipeline industry, including parking arrangements, lending, and inventory sales; and owned 5,700 miles of gas transmission lines. Atmos Energy Corporation was founded in 1906 and is based in Dallas, Texas."
+  "longBusinessSummary": "Atmos Energy Corporation, together with its subsidiaries, engages in the regulated natural gas distribution, and pipeline and storage businesses in the United States. It operates through two segments, Distribution, and Pipeline and Storage. The Distribution segment is involved in the regulated natural gas distribution and related sales operations in eight states. This segment distributes natural gas to approximately 3.4 million residential, commercial, public authority, and industrial customers; and owned 76,000 miles of underground distribution and transmission mains. The Pipeline and Storage segment engages in the pipeline and storage operations. This segment transports natural gas for third parties and manages five underground storage facilities in Texas; provides ancillary services customary to the pipeline industry, including parking arrangements, lending, and inventory sales; and owned 5,700 miles of gas transmission lines. Atmos Energy Corporation was founded in 1906 and is based in Dallas, Texas.",
+  "targetMeanPrice": 185.0,
+  "targetLowPrice": 167.0,
+  "targetHighPrice": 206.0,
+  "numberOfAnalystOpinions": 11,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.71429,
+  "forwardPE": 17.90128,
+  "forwardEps": 9.03064,
+  "trailingEps": 8.39,
+  "earningsGrowth": 0.233,
+  "revenueGrowth": 0.048
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-09-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 28249522000.0,
+    "official": 28249522000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 13558890000.0,
+    "official": 13558890000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1198754000.0,
+    "official": 1198754000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 4702755000.0,
+    "official": 4702755000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:35:08+00:00",
  "years": [
   {
    "fy_end": "2019-09-30",
@@ -183,7 +225,10 @@
    "goodwill_and_intangibles": 731257000.0,
    "retained_earnings": 3211157000.0,
    "total_debt": 5945614000.0,
-   "shares_out": 140896598.0
+   "shares_out": 140896598.0,
+   "unusual_items": 37768000.0,
+   "normalized_ebitda": 1452606000.0,
+   "normalized_income": 740066283.824075
   },
   {
    "fy_end": "2023-09-30",
@@ -216,7 +261,10 @@
    "goodwill_and_intangibles": 823459000.0,
    "retained_earnings": 3666674000.0,
    "total_debt": 6796066000.0,
-   "shares_out": 148492783.0
+   "shares_out": 148492783.0,
+   "unusual_items": 65425000.0,
+   "normalized_ebitda": 1675824000.0,
+   "normalized_income": 827895450.0
   },
   {
    "fy_end": "2024-09-30",
@@ -249,7 +297,10 @@
    "goodwill_and_intangibles": 814101000.0,
    "retained_earnings": 4216619000.0,
    "total_debt": 7783646000.0,
-   "shares_out": 155258845.0
+   "shares_out": 155258845.0,
+   "unusual_items": 61796000.0,
+   "normalized_ebitda": 2034584000.0,
+   "normalized_income": 990739176.0
   },
   {
    "fy_end": "2025-09-30",
@@ -282,7 +333,10 @@
    "goodwill_and_intangibles": 806384000.0,
    "retained_earnings": 4861612000.0,
    "total_debt": 8907169000.0,
-   "shares_out": 161568384.0
+   "shares_out": 161568384.0,
+   "unusual_items": 75599000.0,
+   "normalized_ebitda": 2308858000.0,
+   "normalized_income": 1137443211.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "AGT.L",
- "fetched_at": "2026-10-10T11:44:13+00:00",
+ "fetched_at": "2026-10-10T14:28:45+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": null,
   "heldPercentInstitutions": null,
   "shortPercentOfFloat": null,
-  "averageVolume": 736323,
+  "averageVolume": 737849,
   "quoteType": "EQUITY",
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -49,8 +60,15 @@
   "equity": "yahoo",
   "receivables": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T14:28:46+00:00",
  "years": [
   {
    "fy_end": "2022-09-30",
@@ -70,7 +88,8 @@
    "equity": 969508000.0,
    "receivables": 22948000.0,
    "total_debt": 122893000.0,
-   "shares_out": 491451568.0
+   "shares_out": 491451568.0,
+   "normalized_income": -111026000.0
   },
   {
    "fy_end": "2023-09-30",
@@ -90,7 +109,8 @@
    "equity": 1031018000.0,
    "receivables": 42596000.0,
    "total_debt": 141549000.0,
-   "shares_out": 462173682.0
+   "shares_out": 462173682.0,
+   "normalized_income": 134137000.0
   },
   {
    "fy_end": "2024-09-30",
@@ -110,7 +130,8 @@
    "equity": 1112725000.0,
    "receivables": 23113000.0,
    "total_debt": 162371000.0,
-   "shares_out": 442061671.0
+   "shares_out": 442061671.0,
+   "normalized_income": 142657000.0
   },
   {
    "fy_end": "2025-09-30",
@@ -130,7 +151,8 @@
    "equity": 1145692000.0,
    "receivables": 4444000.0,
    "total_debt": 161259000.0,
-   "shares_out": 413411671.0
+   "shares_out": 413411671.0,
+   "normalized_income": 120148000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "GLW",
- "fetched_at": "2026-10-10T12:46:46+00:00",
+ "fetched_at": "2026-10-10T15:45:15+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 67200,
   "website": "https://www.corning.com",
-  "longBusinessSummary": "Corning Incorporated operates in optical communications, display, specialty materials, automotive, and life sciences businesses in the United States, Canada, Mexico, Japan, Taiwan, China, South Korea, Germany, and internationally. The company provides optical fibers and cables; and hardware and equipment products, such as cable assemblies, fiber optic hardware and connectors, optical components and couplers, closures, network interface devices, and other accessories for the telecommunications industry, businesses, governments, and individuals. It also offers glass substrates for flat panel displays, including liquid crystal displays and organic light-emitting diodes that are used in televisions, notebook computers, desktop monitors, tablets, and handheld devices. In addition, it manufactures products that offer material formulations for glass, glass ceramics, crystals, precision metrology instruments, and software, as well as glass wafers and substrates, tinted sunglasses, and radiation shielding products for markets, such as mobile consumer electronics, semiconductor equipment optics and consumables, aerospace and defense optics, radiation shielding products, sunglasses, and telecommunications components. Further, the company provides ceramic substrates and filter products for emissions control in mobile, gasoline, and diesel applications, as well as technical glass and optic products and solutions for the interior and exterior of vehicles. Additionally, it offers laboratory products, including plastic vessels, liquid handling plastics, specialty surfaces, cell culture media, and serum, as well as general labware, and glassware and equipment under the Corning, Falcon, PYREX, and Axygen brands. It also offers polysilicon products and pharmaceutical glass tubing and vials. The company was formerly known as Corning Glass Works and changed its name to Corning Incorporated in April 1989. Corning Incorporated was founded in 1851 and is headquartered in Corning, New York."
+  "longBusinessSummary": "Corning Incorporated operates in optical communications, display, specialty materials, automotive, and life sciences businesses in the United States, Canada, Mexico, Japan, Taiwan, China, South Korea, Germany, and internationally. The company provides optical fibers and cables; and hardware and equipment products, such as cable assemblies, fiber optic hardware and connectors, optical components and couplers, closures, network interface devices, and other accessories for the telecommunications industry, businesses, governments, and individuals. It also offers glass substrates for flat panel displays, including liquid crystal displays and organic light-emitting diodes that are used in televisions, notebook computers, desktop monitors, tablets, and handheld devices. In addition, it manufactures products that offer material formulations for glass, glass ceramics, crystals, precision metrology instruments, and software, as well as glass wafers and substrates, tinted sunglasses, and radiation shielding products for markets, such as mobile consumer electronics, semiconductor equipment optics and consumables, aerospace and defense optics, radiation shielding products, sunglasses, and telecommunications components. Further, the company provides ceramic substrates and filter products for emissions control in mobile, gasoline, and diesel applications, as well as technical glass and optic products and solutions for the interior and exterior of vehicles. Additionally, it offers laboratory products, including plastic vessels, liquid handling plastics, specialty surfaces, cell culture media, and serum, as well as general labware, and glassware and equipment under the Corning, Falcon, PYREX, and Axygen brands. It also offers polysilicon products and pharmaceutical glass tubing and vials. The company was formerly known as Corning Glass Works and changed its name to Corning Incorporated in April 1989. Corning Incorporated was founded in 1851 and is headquartered in Corning, New York.",
+  "targetMeanPrice": 187.70589,
+  "targetLowPrice": 129.0,
+  "targetHighPrice": 238.0,
+  "numberOfAnalystOpinions": 17,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.55556,
+  "forwardPE": 35.840588,
+  "forwardEps": 4.37158,
+  "trailingEps": 2.18,
+  "earningsGrowth": 0.185,
+  "revenueGrowth": 0.166
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 30976000000.0,
+    "official": 30976000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 11807000000.0,
+    "official": 11807000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1596000000.0,
+    "official": 1596000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 15629000000.0,
+    "official": 15629000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:45:16+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -203,7 +245,10 @@
    "goodwill_and_intangibles": 3423000000.0,
    "retained_earnings": 16778000000.0,
    "total_debt": 6687000000.0,
-   "shares_out": 823000000.0
+   "shares_out": 823000000.0,
+   "unusual_items": 351000000.0,
+   "normalized_ebitda": 3190000000.0,
+   "normalized_income": 1045278797.996661
   },
   {
    "fy_end": "2023-12-31",
@@ -237,7 +282,10 @@
    "goodwill_and_intangibles": 3285000000.0,
    "retained_earnings": 16391000000.0,
    "total_debt": 7206000000.0,
-   "shares_out": 853174879.0
+   "shares_out": 853174879.0,
+   "unusual_items": 161000000.0,
+   "normalized_ebitda": 2353000000.0,
+   "normalized_income": 453166000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -271,7 +319,10 @@
    "goodwill_and_intangibles": 3115000000.0,
    "retained_earnings": 15926000000.0,
    "total_debt": 6885000000.0,
-   "shares_out": 854000000.0
+   "shares_out": 854000000.0,
+   "unusual_items": 83000000.0,
+   "normalized_ebitda": 2409000000.0,
+   "normalized_income": 445562115.621156
   },
   {
    "fy_end": "2025-12-31",
@@ -305,7 +356,10 @@
    "goodwill_and_intangibles": 3146000000.0,
    "retained_earnings": 16551000000.0,
    "total_debt": 7630000000.0,
-   "shares_out": 857360396.0
+   "shares_out": 857360396.0,
+   "unusual_items": 150000000.0,
+   "normalized_ebitda": 3585000000.0,
+   "normalized_income": 1468660818.71345
   }
  ]
 }

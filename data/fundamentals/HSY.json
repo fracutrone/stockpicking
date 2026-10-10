@@ -1,6 +1,6 @@
 {
  "ticker": "HSY",
- "fetched_at": "2026-10-10T12:48:11+00:00",
+ "fetched_at": "2026-10-10T15:46:36+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 17550,
   "website": "https://www.thehersheycompany.com",
-  "longBusinessSummary": "The Hershey Company, together with its subsidiaries, engages in the manufacture and sale of confectionery products and pantry items in the United States and internationally. It operates through three segments: North America Confectionery, North America Salty Snacks, and International. The company offers chocolate and non-chocolate confectionery products; gum and mint refreshment products, including mints, chewing gums, and bubble gums; protein bars; pantry items, such as baking ingredients, toppings, beverages, and sundae syrups; and snack items comprising spreads, bars, snack bites, mixes, popcorn, and pretzels. It provides its products primarily under the Hershey's, Reese's, Kisses, Jolly Rancher, Almond Joy, Brookside, barkTHINS, Cadbury, Good & Plenty, Heath, Kit Kat, Payday, Rolo, Twizzlers, Sour Strips, Whoppers, York, Ice Breakers, Breath Savers, Bubble Yum, Lily's, SkinnyPop, Pirates Booty, Dot's Homestyle Pretzels, and ONE Bar brands, as well as under the Pelon Pelo Rico, IO-IO, and Sofit brands. The company markets and sells its products to wholesale distributors, chain grocery stores, mass merchandisers, chain drug stores, vending companies, wholesale clubs, convenience stores, dollar stores, concessionaires, and department stores. It exports its products in approximately 65 countries worldwide. The Hershey Company was founded in 1894 and is based in Hershey, Pennsylvania."
+  "longBusinessSummary": "The Hershey Company, together with its subsidiaries, engages in the manufacture and sale of confectionery products and pantry items in the United States and internationally. It operates through three segments: North America Confectionery, North America Salty Snacks, and International. The company offers chocolate and non-chocolate confectionery products; gum and mint refreshment products, including mints, chewing gums, and bubble gums; protein bars; pantry items, such as baking ingredients, toppings, beverages, and sundae syrups; and snack items comprising spreads, bars, snack bites, mixes, popcorn, and pretzels. It provides its products primarily under the Hershey's, Reese's, Kisses, Jolly Rancher, Almond Joy, Brookside, barkTHINS, Cadbury, Good & Plenty, Heath, Kit Kat, Payday, Rolo, Twizzlers, Sour Strips, Whoppers, York, Ice Breakers, Breath Savers, Bubble Yum, Lily's, SkinnyPop, Pirates Booty, Dot's Homestyle Pretzels, and ONE Bar brands, as well as under the Pelon Pelo Rico, IO-IO, and Sofit brands. The company markets and sells its products to wholesale distributors, chain grocery stores, mass merchandisers, chain drug stores, vending companies, wholesale clubs, convenience stores, dollar stores, concessionaires, and department stores. It exports its products in approximately 65 countries worldwide. The Hershey Company was founded in 1894 and is based in Hershey, Pennsylvania.",
+  "targetMeanPrice": 202.19048,
+  "targetLowPrice": 170.0,
+  "targetHighPrice": 250.0,
+  "numberOfAnalystOpinions": 21,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.47826,
+  "forwardPE": 16.507298,
+  "forwardEps": 9.85867,
+  "trailingEps": 7.32,
+  "earningsGrowth": 6.31,
+  "revenueGrowth": 0.066
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 13741297000.0,
+    "official": 13741297000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4636750000.0,
+    "official": 4636750000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 883259000.0,
+    "official": 883259000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 11692576000.0,
+    "official": 11692576000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:46:36+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -201,7 +243,10 @@
    "goodwill_and_intangibles": 4893259000.0,
    "retained_earnings": 3589781000.0,
    "total_debt": 4037767000.0,
-   "shares_out": 204964717.0
+   "shares_out": 204964717.0,
+   "unusual_items": -190275000.0,
+   "normalized_ebitda": 2626400000.0,
+   "normalized_income": 1808072950.0
   },
   {
    "fy_end": "2023-12-31",
@@ -235,7 +280,10 @@
    "goodwill_and_intangibles": 4935484000.0,
    "retained_earnings": 4562263000.0,
    "total_debt": 4508971000.0,
-   "shares_out": 204392926.0
+   "shares_out": 204392926.0,
+   "unusual_items": -210925000.0,
+   "normalized_ebitda": 2964115000.0,
+   "normalized_income": 2042549725.0
   },
   {
    "fy_end": "2024-12-31",
@@ -269,7 +317,10 @@
    "goodwill_and_intangibles": 4946706000.0,
    "retained_earnings": 5698316000.0,
    "total_debt": 4497186000.0,
-   "shares_out": 202383069.0
+   "shares_out": 202383069.0,
+   "unusual_items": -272346000.0,
+   "normalized_ebitda": 3375854000.0,
+   "normalized_income": 2465766569.304137
   },
   {
    "fy_end": "2025-12-31",
@@ -303,7 +354,10 @@
    "goodwill_and_intangibles": 5822988000.0,
    "retained_earnings": 5495449000.0,
    "total_debt": 4899740000.0,
-   "shares_out": 202839656.0
+   "shares_out": 202839656.0,
+   "unusual_items": -45077000.0,
+   "normalized_ebitda": 1987792000.0,
+   "normalized_income": 916049647.025057
   }
  ]
 }

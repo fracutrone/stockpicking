@@ -1,6 +1,6 @@
 {
  "ticker": "SRE",
- "fetched_at": "2026-10-10T12:58:41+00:00",
+ "fetched_at": "2026-10-10T15:56:22+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 15938,
   "website": "https://www.sempra.com",
-  "longBusinessSummary": "Sempra engages in the regulated utilities business in the United States and Mexico. It operates through three segments: Sempra California, Sempra Texas Utilities, and Sempra Infrastructure. It also invests in and operates electric and gas utilities and other energy infrastructure that provides energy services to customers. The Sempra California segment provides natural gas and electric services to Southern California and part of central California. As of December 31, 2025, it offered electric services to approximately 3.6 million population and natural gas services to approximately 3.3 million population that covers 4,100 square miles. This segment owns and operates a natural gas distribution, transmission, and storage system that supplies natural gas. As of December 31, 2025, it served a population of 21.3 million covering an area of 24,000 square miles. The Sempra Texas Utilities segment engages in the regulated electricity transmission and distribution utility business. As of December 31, 2025, transmission system included approximately 18,418 circuit miles of transmission lines; 1,333 transmission and distribution substations; interconnection to 230 third-party generation facilities totaling 63,670 MW; and distribution system included more than 4.1 million points of delivery and consisted of 127,398 circuit miles of overhead and underground lines. The Sempra Infrastructure segment develops, constructs, operates, and invests in energy infrastructure to help enable the access to cleaner energy in markets in the United States, Mexico, and internationally. The company was formerly known as Sempra Energy and changed its name to Sempra in May 2023. Sempra was incorporated in 1996 and is headquartered in San Diego, California."
+  "longBusinessSummary": "Sempra engages in the regulated utilities business in the United States and Mexico. It operates through three segments: Sempra California, Sempra Texas Utilities, and Sempra Infrastructure. It also invests in and operates electric and gas utilities and other energy infrastructure that provides energy services to customers. The Sempra California segment provides natural gas and electric services to Southern California and part of central California. As of December 31, 2025, it offered electric services to approximately 3.6 million population and natural gas services to approximately 3.3 million population that covers 4,100 square miles. This segment owns and operates a natural gas distribution, transmission, and storage system that supplies natural gas. As of December 31, 2025, it served a population of 21.3 million covering an area of 24,000 square miles. The Sempra Texas Utilities segment engages in the regulated electricity transmission and distribution utility business. As of December 31, 2025, transmission system included approximately 18,418 circuit miles of transmission lines; 1,333 transmission and distribution substations; interconnection to 230 third-party generation facilities totaling 63,670 MW; and distribution system included more than 4.1 million points of delivery and consisted of 127,398 circuit miles of overhead and underground lines. The Sempra Infrastructure segment develops, constructs, operates, and invests in energy infrastructure to help enable the access to cleaner energy in markets in the United States, Mexico, and internationally. The company was formerly known as Sempra Energy and changed its name to Sempra in May 2023. Sempra was incorporated in 1996 and is headquartered in San Diego, California.",
+  "targetMeanPrice": 99.91667,
+  "targetLowPrice": 83.0,
+  "targetHighPrice": 118.0,
+  "numberOfAnalystOpinions": 18,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.6,
+  "forwardPE": 14.682839,
+  "forwardEps": 5.5398,
+  "trailingEps": 3.46,
+  "earningsGrowth": 0.713,
+  "revenueGrowth": -0.001
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 110878000000.0,
+    "official": 110878000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 31614000000.0,
+    "official": 31594000000.0,
+    "diff": 0.000633
+   },
+   "net_income": {
+    "yahoo": 1837000000.0,
+    "official": 1837000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 13702000000.0,
+    "official": 13702000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:56:22+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -186,7 +228,10 @@
    "goodwill_and_intangibles": 1946000000.0,
    "retained_earnings": 14201000000.0,
    "total_debt": 27900000000.0,
-   "shares_out": 628000000.0
+   "shares_out": 628000000.0,
+   "unusual_items": -171000000.0,
+   "normalized_ebitda": 4587000000.0,
+   "normalized_income": 2274090000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -219,7 +264,10 @@
    "goodwill_and_intangibles": 1920000000.0,
    "retained_earnings": 15732000000.0,
    "total_debt": 30101000000.0,
-   "shares_out": 631431732.0
+   "shares_out": 631431732.0,
+   "unusual_items": 174000000.0,
+   "normalized_ebitda": 5989000000.0,
+   "normalized_income": 2933455272.173582
   },
   {
    "fy_end": "2024-12-31",
@@ -252,7 +300,10 @@
    "goodwill_and_intangibles": 1894000000.0,
    "retained_earnings": 16979000000.0,
    "total_debt": 33574000000.0,
-   "shares_out": 650629876.0
+   "shares_out": 650629876.0,
+   "unusual_items": 172000000.0,
+   "normalized_ebitda": 5424000000.0,
+   "normalized_income": 2703760000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -285,7 +336,10 @@
    "goodwill_and_intangibles": 0.0,
    "retained_earnings": 17092000000.0,
    "total_debt": 33145000000.0,
-   "shares_out": 652731668.0
+   "shares_out": 652731668.0,
+   "unusual_items": -414000000.0,
+   "normalized_ebitda": 5678000000.0,
+   "normalized_income": 2089540000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "MPWR",
- "fetched_at": "2026-10-10T12:51:58+00:00",
+ "fetched_at": "2026-10-10T15:50:06+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 4501,
   "website": "https://www.monolithicpower.com",
-  "longBusinessSummary": "Monolithic Power Systems, Inc. provides semiconductor-based power electronics solutions in China, Taiwan, South Korea, Southeast Asia, Europe, the United States, Japan, and internationally. The company offers direct current (DC) to DC solutions to convert and control voltages within a range of electronic systems, such as cloud-based and on-premises CPU servers and workstations, AI systems, memory, storage solutions, notebooks, infotainment, power sources, home appliances, network infrastructure, and satellite communications. It also provides alternating current (AC) to DC; driver metal-oxide-semiconductor field-effect transistors; power management integrated circuits (ICs); and current limit switch and lighting control products. The company serves storage and computing, enterprise data, automotive, communications, consumer, and industrial end markets through third-party distributors and value-added resellers. Monolithic Power Systems, Inc. was incorporated in 1997 and is based in West Palm Beach, Florida."
+  "longBusinessSummary": "Monolithic Power Systems, Inc. provides semiconductor-based power electronics solutions in China, Taiwan, South Korea, Southeast Asia, Europe, the United States, Japan, and internationally. The company offers direct current (DC) to DC solutions to convert and control voltages within a range of electronic systems, such as cloud-based and on-premises CPU servers and workstations, AI systems, memory, storage solutions, notebooks, infotainment, power sources, home appliances, network infrastructure, and satellite communications. It also provides alternating current (AC) to DC; driver metal-oxide-semiconductor field-effect transistors; power management integrated circuits (ICs); and current limit switch and lighting control products. The company serves storage and computing, enterprise data, automotive, communications, consumer, and industrial end markets through third-party distributors and value-added resellers. Monolithic Power Systems, Inc. was incorporated in 1997 and is based in West Palm Beach, Florida.",
+  "targetMeanPrice": 1839.8,
+  "targetLowPrice": 1575.0,
+  "targetHighPrice": 2100.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.35294,
+  "forwardPE": 39.63619,
+  "forwardEps": 34.97536,
+  "trailingEps": 16.44,
+  "earningsGrowth": 0.858,
+  "revenueGrowth": 0.476
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 4194199000.0,
+    "official": 4194199000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3531497000.0,
+    "official": 3531497000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 621483000.0,
+    "official": 621483000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2790459000.0,
+    "official": 2790459000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:50:06+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -199,7 +241,10 @@
    "goodwill_and_intangibles": 6571000.0,
    "retained_earnings": 716403000.0,
    "total_debt": 1664000.0,
-   "shares_out": 47107000.0
+   "shares_out": 47107000.0,
+   "unusual_items": -6600000.0,
+   "normalized_ebitda": 570499000.0,
+   "normalized_income": 443176400.0
   },
   {
    "fy_end": "2023-12-31",
@@ -233,7 +278,10 @@
    "goodwill_and_intangibles": 6571000.0,
    "retained_earnings": 947064000.0,
    "total_debt": 5565000.0,
-   "shares_out": 48028000.0
+   "shares_out": 48028000.0,
+   "unusual_items": 8505000.0,
+   "normalized_ebitda": 513399000.0,
+   "normalized_income": 420187275.0
   },
   {
    "fy_end": "2024-12-31",
@@ -267,7 +315,10 @@
    "goodwill_and_intangibles": 35882000.0,
    "retained_earnings": 2292819000.0,
    "total_debt": 12974000.0,
-   "shares_out": 47823000.0
+   "shares_out": 47823000.0,
+   "unusual_items": 9400000.0,
+   "normalized_ebitda": 566388000.0,
+   "normalized_income": 1585067220.0
   },
   {
    "fy_end": "2025-12-31",
@@ -301,7 +352,10 @@
    "goodwill_and_intangibles": 34734000.0,
    "retained_earnings": 2609651000.0,
    "total_debt": 19972000.0,
-   "shares_out": 48709000.0
+   "shares_out": 48709000.0,
+   "unusual_items": 10033000.0,
+   "normalized_ebitda": 771116000.0,
+   "normalized_income": 613346237.0
   }
  ]
 }

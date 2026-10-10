@@ -1,6 +1,6 @@
 {
  "ticker": "LAMR",
- "fetched_at": "2026-10-10T12:50:15+00:00",
+ "fetched_at": "2026-10-10T15:48:31+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 3500,
   "website": "https://www.lamar.com",
-  "longBusinessSummary": "Lamar Advertising Company is one of the largest outdoor advertising companies in North America, with over 362,000 displays across the United States and Canada. Lamar offers advertisers a variety of billboards, interstate logo, transit and airport advertising formats, helping both local businesses and national brands reach broad audiences every day. In addition to its more traditional out-of-home inventory, Lamar is proud to offer its customers the largest network of digital billboards in the United States with over 5,400 displays. Lamar Advertising Company was founded and incorporated in 1902 in Delaware and is based in Baton Rouge, United States."
+  "longBusinessSummary": "Lamar Advertising Company is one of the largest outdoor advertising companies in North America, with over 362,000 displays across the United States and Canada. Lamar offers advertisers a variety of billboards, interstate logo, transit and airport advertising formats, helping both local businesses and national brands reach broad audiences every day. In addition to its more traditional out-of-home inventory, Lamar is proud to offer its customers the largest network of digital billboards in the United States with over 5,400 displays. Lamar Advertising Company was founded and incorporated in 1902 in Delaware and is based in Baton Rouge, United States.",
+  "targetMeanPrice": 162.2,
+  "targetLowPrice": 151.0,
+  "targetHighPrice": 170.0,
+  "numberOfAnalystOpinions": 5,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.66667,
+  "forwardPE": 22.603395,
+  "forwardEps": 6.48,
+  "trailingEps": 5.51,
+  "earningsGrowth": 0.039,
+  "revenueGrowth": 0.065
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 6931954000.0,
+    "official": 6931954000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1011586000.0,
+    "official": 1024779000.0,
+    "diff": 0.012874
+   },
+   "net_income": {
+    "yahoo": 587152000.0,
+    "official": 587152000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2266214000.0,
+    "official": 2266214000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:48:31+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -195,7 +237,10 @@
    "goodwill_and_intangibles": 3241894000.0,
    "retained_earnings": -804382000.0,
    "total_debt": 3312805000.0,
-   "shares_out": 101747317.0
+   "shares_out": 101747317.0,
+   "unusual_items": 15721000.0,
+   "normalized_ebitda": 917337000.0,
+   "normalized_income": 423527542.410749
   },
   {
    "fy_end": "2023-12-31",
@@ -228,7 +273,10 @@
    "goodwill_and_intangibles": 3206705000.0,
    "retained_earnings": -819235000.0,
    "total_debt": 3341127000.0,
-   "shares_out": 102065645.0
+   "shares_out": 102065645.0,
+   "unusual_items": 5359000.0,
+   "normalized_ebitda": 969194000.0,
+   "normalized_income": 490507473.895519
   },
   {
    "fy_end": "2024-12-31",
@@ -261,7 +309,10 @@
    "goodwill_and_intangibles": 3097683000.0,
    "retained_earnings": -1036582000.0,
    "total_debt": 3210864000.0,
-   "shares_out": 102397008.0
+   "shares_out": 102397008.0,
+   "unusual_items": 5787000.0,
+   "normalized_ebitda": 996359000.0,
+   "normalized_income": 356151355.204506
   },
   {
    "fy_end": "2025-12-31",
@@ -294,7 +345,10 @@
    "goodwill_and_intangibles": 3225086000.0,
    "retained_earnings": -1105651000.0,
    "total_debt": 3418907000.0,
-   "shares_out": 101330627.0
+   "shares_out": 101330627.0,
+   "unusual_items": 73929000.0,
+   "normalized_ebitda": 1027240000.0,
+   "normalized_income": 515788336.3
   }
  ]
 }

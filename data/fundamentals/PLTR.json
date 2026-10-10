@@ -1,6 +1,6 @@
 {
  "ticker": "PLTR",
- "fetched_at": "2026-10-10T12:55:37+00:00",
+ "fetched_at": "2026-10-10T15:53:18+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 4401,
   "website": "https://www.palantir.com",
-  "longBusinessSummary": "Palantir Technologies Inc. builds and deploys software platforms for the intelligence community to assist in counterterrorism investigations and operations in the United States, the United Kingdom, and internationally. It provides Palantir Gotham integrates with other platforms for defense offerings which enables users to see, understand, and act in the modern battlespace; operations centers to the tactical edge; integrating data from domains and sensors in near real-time; and situational awareness and accelerating operational decision-making, as well as facilitates the hand-off between analysts and operational users, helping operators plan and execute real-world responses to threats that have been identified within the platform. It also offers Palantir Foundry, a platform that helps organizations operate by creating a central operating system for their data; and allows individual users to integrate and analyze the data they need in one place. In addition, it provides Palantir Apollo, a software that delivers software and updates across the business, as well as enables customers to deploy their software virtually in any environment; and Palantir Artificial Intelligence Platform that provides unified access to open-source, self-hosted, and commercial large language models (LLMs) that can transform structured and unstructured data into LLM-understandable objects and can turn organizations' actions and processes into tools for humans and LLM-driven agents. The company also has a strategic partnership with Ondas Inc. to develop and deploy AI-enabled operational capabilities to scale stratospheric, aerial, and land-based ISR missions. The company has a strategic collaboration with NVIDIA to deliver an intelligent engine for running NVIDIA AI and Nemotron open models in sovereign environments and with PwC to transform critical business operations and deliver measurable enterprise value. The company was incorporated in 2003 and is headquartered in Aventura, Florida."
+  "longBusinessSummary": "Palantir Technologies Inc. builds and deploys software platforms for the intelligence community to assist in counterterrorism investigations and operations in the United States, the United Kingdom, and internationally. It provides Palantir Gotham integrates with other platforms for defense offerings which enables users to see, understand, and act in the modern battlespace; operations centers to the tactical edge; integrating data from domains and sensors in near real-time; and situational awareness and accelerating operational decision-making, as well as facilitates the hand-off between analysts and operational users, helping operators plan and execute real-world responses to threats that have been identified within the platform. It also offers Palantir Foundry, a platform that helps organizations operate by creating a central operating system for their data; and allows individual users to integrate and analyze the data they need in one place. In addition, it provides Palantir Apollo, a software that delivers software and updates across the business, as well as enables customers to deploy their software virtually in any environment; and Palantir Artificial Intelligence Platform that provides unified access to open-source, self-hosted, and commercial large language models (LLMs) that can transform structured and unstructured data into LLM-understandable objects and can turn organizations' actions and processes into tools for humans and LLM-driven agents. The company also has a strategic partnership with Ondas Inc. to develop and deploy AI-enabled operational capabilities to scale stratospheric, aerial, and land-based ISR missions. The company has a strategic collaboration with NVIDIA to deliver an intelligent engine for running NVIDIA AI and Nemotron open models in sovereign environments and with PwC to transform critical business operations and deliver measurable enterprise value. The company was incorporated in 2003 and is headquartered in Aventura, Florida.",
+  "targetMeanPrice": 203.35,
+  "targetLowPrice": 80.0,
+  "targetHighPrice": 265.0,
+  "numberOfAnalystOpinions": 26,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.8125,
+  "forwardPE": 88.899185,
+  "forwardEps": 2.35154,
+  "trailingEps": 1.16,
+  "earningsGrowth": 2.154,
+  "revenueGrowth": 0.928
  },
  "governance": {
   "ceo": {
@@ -82,9 +93,39 @@
   "retained_earnings": "sec",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "goodwill": "sec",
   "intangibles": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 8900392000.0,
+    "official": 8900392000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 7387268000.0,
+    "official": 7387268000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1625033000.0,
+    "official": 1625033000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 4475446000.0,
+    "official": 4475446000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:53:19+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -192,7 +233,9 @@
    "intangibles": 35539000.0,
    "retained_earnings": -5859438000.0,
    "total_debt": 249404000.0,
-   "shares_out": 2099075000.0
+   "shares_out": 2099075000.0,
+   "normalized_ebitda": -138679000.0,
+   "normalized_income": -373705000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -224,7 +267,9 @@
    "intangibles": 25902000.0,
    "retained_earnings": -5649613000.0,
    "total_debt": 229392000.0,
-   "shares_out": 2200127714.0
+   "shares_out": 2200127714.0,
+   "normalized_ebitda": 153320000.0,
+   "normalized_income": 209825000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -255,7 +300,9 @@
    "intangibles": 18058000.0,
    "retained_earnings": -5187423000.0,
    "total_debt": 239219000.0,
-   "shares_out": 2338795190.0
+   "shares_out": 2338795190.0,
+   "normalized_ebitda": 341990000.0,
+   "normalized_income": 462190000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -285,7 +332,9 @@
    "ppe_net": 51960000.0,
    "retained_earnings": -3562390000.0,
    "total_debt": 229338000.0,
-   "shares_out": 2391192000.0
+   "shares_out": 2391192000.0,
+   "normalized_ebitda": 1440160000.0,
+   "normalized_income": 1625033000.0
   }
  ]
 }

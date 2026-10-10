@@ -1,6 +1,6 @@
 {
  "ticker": "KD",
- "fetched_at": "2026-10-10T12:49:35+00:00",
+ "fetched_at": "2026-10-10T15:47:54+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 72000,
   "website": "https://www.kyndryl.com",
-  "longBusinessSummary": "Kyndryl Holdings, Inc. operates as a technology services company and IT infrastructure services provider in the United States, Japan, and internationally. It offers cloud services; core enterprise services; application, data, and artificial intelligence services; digital workplace services; security and resiliency services; and network services and edge services. The company serves financial, healthcare, public, technology, media and telecom, retail, travel and logistics, and automotive manufacturer industries. Kyndryl Holdings, Inc. was incorporated in 2020 and is headquartered in New York, New York."
+  "longBusinessSummary": "Kyndryl Holdings, Inc. operates as a technology services company and IT infrastructure services provider in the United States, Japan, and internationally. It offers cloud services; core enterprise services; application, data, and artificial intelligence services; digital workplace services; security and resiliency services; and network services and edge services. The company serves financial, healthcare, public, technology, media and telecom, retail, travel and logistics, and automotive manufacturer industries. Kyndryl Holdings, Inc. was incorporated in 2020 and is headquartered in New York, New York.",
+  "targetMeanPrice": 14.2,
+  "targetLowPrice": 13.0,
+  "targetHighPrice": 16.0,
+  "numberOfAnalystOpinions": 5,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 4.716924,
+  "forwardEps": 2.49103,
+  "trailingEps": 0.37,
+  "earningsGrowth": null,
+  "revenueGrowth": -0.033
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-03-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 12551000000.0,
+    "official": 12551000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1175000000.0,
+    "official": 1175000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 198000000.0,
+    "official": 198000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 15092000000.0,
+    "official": 15092000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:47:54+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -185,7 +227,10 @@
    "goodwill_and_intangibles": 983000000.0,
    "retained_earnings": -1978000000.0,
    "total_debt": 3221000000.0,
-   "shares_out": 227700000.0
+   "shares_out": 227700000.0,
+   "unusual_items": -335000000.0,
+   "normalized_ebitda": 952000000.0,
+   "normalized_income": -1109350000.0
   },
   {
    "fy_end": "2024-03-31",
@@ -218,7 +263,10 @@
    "goodwill_and_intangibles": 993000000.0,
    "retained_earnings": -2319000000.0,
    "total_debt": 3238000000.0,
-   "shares_out": 230400000.0
+   "shares_out": 230400000.0,
+   "unusual_items": -92000000.0,
+   "normalized_ebitda": 1229000000.0,
+   "normalized_income": -267320000.0
   },
   {
    "fy_end": "2025-03-31",
@@ -251,7 +299,10 @@
    "goodwill_and_intangibles": 1007000000.0,
    "retained_earnings": -2067000000.0,
    "total_debt": 3171000000.0,
-   "shares_out": 230700000.0
+   "shares_out": 230700000.0,
+   "unusual_items": 11000000.0,
+   "normalized_ebitda": 1541000000.0,
+   "normalized_income": 243310000.0
   },
   {
    "fy_end": "2026-03-31",
@@ -284,7 +335,10 @@
    "goodwill_and_intangibles": 951000000.0,
    "retained_earnings": -1869000000.0,
    "total_debt": 4089000000.0,
-   "shares_out": 222700000.0
+   "shares_out": 222700000.0,
+   "unusual_items": -101000000.0,
+   "normalized_ebitda": 1682000000.0,
+   "normalized_income": 258600000.0
   }
  ]
 }

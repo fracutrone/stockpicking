@@ -1,6 +1,6 @@
 {
  "ticker": "KMR.IR",
- "fetched_at": "2026-10-10T12:05:44+00:00",
+ "fetched_at": "2026-10-10T15:01:22+00:00",
  "region": "Europa",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "ISE",
   "fullTimeEmployees": 1740,
   "website": "https://www.kenmareresources.com",
-  "longBusinessSummary": "Kenmare Resources plc, together with its subsidiaries, engages in the production and sale of mineral sand products in China, Europe, rest of Asia, Saudi Arabia, the United States, and internationally. The company operates the Moma Titanium Minerals Mine located on the northeast coast of Mozambique. Its products include ilmenite, rutile, and zircon; monazite; and concentrates, including secondary zircon, mineral sand concentrates, and ZrTi. The company was formerly known as Kenmare Oil Exploration plc and changed its name to Kenmare Resources plc in 1987. Kenmare Resources plc was incorporated in 1972 and is headquartered in Dublin, Ireland."
+  "longBusinessSummary": "Kenmare Resources plc, together with its subsidiaries, engages in the production and sale of mineral sand products in China, Europe, rest of Asia, Saudi Arabia, the United States, and internationally. The company operates the Moma Titanium Minerals Mine located on the northeast coast of Mozambique. Its products include ilmenite, rutile, and zircon; monazite; and concentrates, including secondary zircon, mineral sand concentrates, and ZrTi. The company was formerly known as Kenmare Oil Exploration plc and changed its name to Kenmare Resources plc in 1987. Kenmare Resources plc was incorporated in 1972 and is headquartered in Dublin, Ireland.",
+  "targetMeanPrice": 2.714681,
+  "targetLowPrice": 2.714681,
+  "targetHighPrice": 2.714681,
+  "numberOfAnalystOpinions": 1,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.0,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": -2.54,
+  "earningsGrowth": null,
+  "revenueGrowth": -0.111
  },
  "governance": {
   "insider_6m": {
@@ -60,8 +71,40 @@
   "ppe_net": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 1108358000.0,
+    "official": 1108358000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 814773000.0,
+    "official": 814773000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -325048000.0,
+    "official": -325048000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 328573000.0,
+    "official": 328573000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:01:22+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -92,7 +135,9 @@
    "ppe_net": 932367000.0,
    "retained_earnings": 324721000.0,
    "total_debt": 80363000.0,
-   "shares_out": 94829551.0
+   "shares_out": 94829551.0,
+   "normalized_ebitda": 296423000.0,
+   "normalized_income": 206034000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -123,7 +168,9 @@
    "ppe_net": 937216000.0,
    "retained_earnings": 367504000.0,
    "total_debt": 49393000.0,
-   "shares_out": 89228161.0
+   "shares_out": 89228161.0,
+   "normalized_ebitda": 223755000.0,
+   "normalized_income": 130982000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -154,7 +201,10 @@
    "ppe_net": 1019068000.0,
    "retained_earnings": 385763000.0,
    "total_debt": 79247000.0,
-   "shares_out": 88433446.0
+   "shares_out": 88433446.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 154748000.0,
+   "normalized_income": 64891000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -185,7 +235,10 @@
    "ppe_net": 876689000.0,
    "retained_earnings": 37351000.0,
    "total_debt": 205629000.0,
-   "shares_out": 88648620.0
+   "shares_out": 88648620.0,
+   "unusual_items": -301341000.0,
+   "normalized_ebitda": 56353000.0,
+   "normalized_income": -99042250.0
   }
  ]
 }

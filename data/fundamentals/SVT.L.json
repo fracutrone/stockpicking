@@ -1,6 +1,6 @@
 {
  "ticker": "SVT.L",
- "fetched_at": "2026-10-10T12:21:05+00:00",
+ "fetched_at": "2026-10-10T15:23:17+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 11544,
   "website": "https://www.severntrent.com",
-  "longBusinessSummary": "Severn Trent PLC provides water and wastewater services in the United Kingdom. It operates in two segments, Regulated Water and Wastewater, and Infrastructure Services. It offers water and wastewater services. The company also generates renewable energy through solar, wind, hydro, and crop digestion, as well as through anaerobic digestion of sewage sludge and food waste. In addition, it engages in property development and the management of the sale of surplus land. The company was founded in 1974 and is headquartered in Coventry, the United Kingdom."
+  "longBusinessSummary": "Severn Trent PLC provides water and wastewater services in the United Kingdom. It operates in two segments, Regulated Water and Wastewater, and Infrastructure Services. It offers water and wastewater services. The company also generates renewable energy through solar, wind, hydro, and crop digestion, as well as through anaerobic digestion of sewage sludge and food waste. In addition, it engages in property development and the management of the sale of surplus land. The company was founded in 1974 and is headquartered in Coventry, the United Kingdom.",
+  "targetMeanPrice": 3256.615,
+  "targetLowPrice": 2875.0,
+  "targetHighPrice": 3620.0,
+  "numberOfAnalystOpinions": 13,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.84615,
+  "forwardPE": 12.261089,
+  "forwardEps": 2.52343,
+  "trailingEps": 1.23,
+  "earningsGrowth": 0.629,
+  "revenueGrowth": 0.153
  },
  "governance": {
   "ceo": {
@@ -69,8 +80,18 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "status": "non verificabile",
+  "items": {},
+  "official_period_end": "2026-03-31"
+ },
+ "info_at": "2026-10-10T15:23:17+00:00",
  "years": [
   {
    "fy_end": "2022-03-31",
@@ -102,7 +123,10 @@
    "goodwill_and_intangibles": 271000000.0,
    "retained_earnings": 473000000.0,
    "total_debt": 6731100000.0,
-   "shares_out": 250293495.0
+   "shares_out": 250293495.0,
+   "unusual_items": 50300000.0,
+   "normalized_ebitda": 947100000.0,
+   "normalized_income": -125226800.0
   },
   {
    "fy_end": "2023-03-31",
@@ -135,7 +159,10 @@
    "goodwill_and_intangibles": 278600000.0,
    "retained_earnings": 162500000.0,
    "total_debt": 7303600000.0,
-   "shares_out": 251561925.0
+   "shares_out": 251561925.0,
+   "unusual_items": 30100000.0,
+   "normalized_ebitda": 1000500000.0,
+   "normalized_income": 108511300.0
   },
   {
    "fy_end": "2024-03-31",
@@ -168,7 +195,10 @@
    "goodwill_and_intangibles": 299300000.0,
    "retained_earnings": 7900000.0,
    "total_debt": 8263200000.0,
-   "shares_out": 299096985.0
+   "shares_out": 299096985.0,
+   "unusual_items": -22900000.0,
+   "normalized_ebitda": 1056200000.0,
+   "normalized_income": 156138400.0
   },
   {
    "fy_end": "2025-03-31",
@@ -201,7 +231,10 @@
    "goodwill_and_intangibles": 323800000.0,
    "retained_earnings": -78100000.0,
    "total_debt": 9697100000.0,
-   "shares_out": 300212579.0
+   "shares_out": 300212579.0,
+   "unusual_items": -36800000.0,
+   "normalized_ebitda": 1193700000.0,
+   "normalized_income": 255785600.0
   }
  ]
 }

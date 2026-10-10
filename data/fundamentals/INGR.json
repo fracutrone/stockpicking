@@ -1,6 +1,6 @@
 {
  "ticker": "INGR",
- "fetched_at": "2026-10-10T12:48:48+00:00",
+ "fetched_at": "2026-10-10T15:47:09+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 11000,
   "website": "https://www.ingredion.com",
-  "longBusinessSummary": "Ingredion Incorporated, together with its subsidiaries, engages in the manufacture and sale of sweeteners, starches, nutrition ingredients, and biomaterial solutions derived from wet milling and processing corn, and other starch-based materials to a range of industries worldwide. The company operates in Texture & Healthful Solutions; Food & Industrial IngredientsLATAM; and Food & Industrial IngredientsU.S./CANADA segments. It offers starch products for use in a range of processed foods; cornstarch; specialty paper starches for enhanced drainage, fiber retention, oil and grease resistance, improved printability, and biochemical oxygen demand control; starches and specialty starches for textile industry; industrial starches are used in the production of construction materials, textiles, adhesives, pharmaceuticals, and cosmetics, as well as in mining and water filtration; and specialty industrial starches for use in biomaterial applications, including biodegradable plastics, fabric softeners and detergents, hair and skin care applications, dusting powders for surgical gloves, and in the production of glass fiber and insulation. The company provides sweetener products comprising glucose syrups, high maltose syrup, high fructose corn syrup, dextrose, polyols, maltodextrin, glucose syrup solids, and non-genetically modified organism syrups for applications in food and beverage products, such as baked goods, snack foods, canned fruits, condiments, candy and other sweets, dairy products, ice cream, jams and jellies, prepared mixes, table syrups, and beverages. In addition, the company sells refined corn oil, corn gluten feed, and corn gluten meal; and other products. The company was formerly known as Corn Products International, Inc. and changed its name to Ingredion Incorporated in June 2012. Ingredion Incorporated was founded in 1906 and is headquartered in Westchester, Illinois."
+  "longBusinessSummary": "Ingredion Incorporated, together with its subsidiaries, engages in the manufacture and sale of sweeteners, starches, nutrition ingredients, and biomaterial solutions derived from wet milling and processing corn, and other starch-based materials to a range of industries worldwide. The company operates in Texture & Healthful Solutions; Food & Industrial IngredientsLATAM; and Food & Industrial IngredientsU.S./CANADA segments. It offers starch products for use in a range of processed foods; cornstarch; specialty paper starches for enhanced drainage, fiber retention, oil and grease resistance, improved printability, and biochemical oxygen demand control; starches and specialty starches for textile industry; industrial starches are used in the production of construction materials, textiles, adhesives, pharmaceuticals, and cosmetics, as well as in mining and water filtration; and specialty industrial starches for use in biomaterial applications, including biodegradable plastics, fabric softeners and detergents, hair and skin care applications, dusting powders for surgical gloves, and in the production of glass fiber and insulation. The company provides sweetener products comprising glucose syrups, high maltose syrup, high fructose corn syrup, dextrose, polyols, maltodextrin, glucose syrup solids, and non-genetically modified organism syrups for applications in food and beverage products, such as baked goods, snack foods, canned fruits, condiments, candy and other sweets, dairy products, ice cream, jams and jellies, prepared mixes, table syrups, and beverages. In addition, the company sells refined corn oil, corn gluten feed, and corn gluten meal; and other products. The company was formerly known as Corn Products International, Inc. and changed its name to Ingredion Incorporated in June 2012. Ingredion Incorporated was founded in 1906 and is headquartered in Westchester, Illinois.",
+  "targetMeanPrice": 120.83333,
+  "targetLowPrice": 104.0,
+  "targetHighPrice": 150.0,
+  "numberOfAnalystOpinions": 6,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.57143,
+  "forwardPE": 8.442838,
+  "forwardEps": 11.2628,
+  "trailingEps": 9.19,
+  "earningsGrowth": -0.405,
+  "revenueGrowth": 0.009
  },
  "governance": {
   "ceo": {
@@ -84,9 +95,40 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "tax": "sec",
   "sga": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 7897000000.0,
+    "official": 7897000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4338000000.0,
+    "official": 4274000000.0,
+    "diff": 0.014974
+   },
+   "net_income": {
+    "yahoo": 729000000.0,
+    "official": 729000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 7219000000.0,
+    "official": 7219000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:47:09+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -201,7 +243,10 @@
    "goodwill_and_intangibles": 1301000000.0,
    "retained_earnings": 4210000000.0,
    "total_debt": 1940000000.0,
-   "shares_out": 65693955.0
+   "shares_out": 65693955.0,
+   "unusual_items": -4000000.0,
+   "normalized_ebitda": 986000000.0,
+   "normalized_income": 495004000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -235,7 +280,10 @@
    "goodwill_and_intangibles": 1303000000.0,
    "retained_earnings": 4654000000.0,
    "total_debt": 1740000000.0,
-   "shares_out": 65239000.0
+   "shares_out": 65239000.0,
+   "unusual_items": -11000000.0,
+   "normalized_ebitda": 1183000000.0,
+   "normalized_income": 651536000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -269,7 +317,10 @@
    "goodwill_and_intangibles": 1264000000.0,
    "retained_earnings": 5092000000.0,
    "total_debt": 1787000000.0,
-   "shares_out": 64500000.0
+   "shares_out": 64500000.0,
+   "unusual_items": -37000000.0,
+   "normalized_ebitda": 1221000000.0,
+   "normalized_income": 672974000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -303,7 +354,10 @@
    "goodwill_and_intangibles": 1269000000.0,
    "retained_earnings": 5610000000.0,
    "total_debt": 1742000000.0,
-   "shares_out": 63000000.0
+   "shares_out": 63000000.0,
+   "unusual_items": -21000000.0,
+   "normalized_ebitda": 1254000000.0,
+   "normalized_income": 744876000.0
   }
  ]
 }

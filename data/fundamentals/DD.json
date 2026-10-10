@@ -1,6 +1,6 @@
 {
  "ticker": "DD",
- "fetched_at": "2026-10-10T12:42:55+00:00",
+ "fetched_at": "2026-10-10T15:41:23+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 15000,
   "website": "https://www.dupont.com",
-  "longBusinessSummary": "DuPont de Nemours, Inc. provides technology-based materials and solutions in the United States, Canada, the Asia Pacific, Latin America, Europe, the Middle East, and Africa. It operates through two segments, Healthcare & Water Technologies and Diversified Industrials. The company offers specialty components for medical devices, packaging and garments, and protective suits under the brand TYVEK; provides water filtration and separation solutions, including elements, modules, and systems serving primarily industrial wastewater and energy markets, municipal and desalination applications, and life sciences and specialty sectors. It also offers AMBERLITE ion exchange resins, FILMTEC reverse osmosis and nanofiltration elements, and INGE and ITEGRATEC ultrafiltration modules. In addition, the company offers engineered products and integrated solutions for the non-residential, residential, and repair-and-remodel construction markets, includes TYVEK house wrap, STYROFOAM insulation, and CORIAN solid surface. Further, it engages in the design and production of engineered components, systems, and process solutions used in OEM and operational applications, such as automotive, aerospace, printing, and packaging. Additionally, the company offers Vespel shapes and parts, MOLYKOTE specialty lubricants, BETAFORCE and BETASEAL structural adhesives, and Cyrel flexographic printing plates. The company was formerly known as DowDuPont Inc. and changed its name to DuPont de Nemours, Inc. in June 2019. DuPont de Nemours, Inc. was incorporated in 2015 and is headquartered in Wilmington, Delaware."
+  "longBusinessSummary": "DuPont de Nemours, Inc. provides technology-based materials and solutions in the United States, Canada, the Asia Pacific, Latin America, Europe, the Middle East, and Africa. It operates through two segments, Healthcare & Water Technologies and Diversified Industrials. The company offers specialty components for medical devices, packaging and garments, and protective suits under the brand TYVEK; provides water filtration and separation solutions, including elements, modules, and systems serving primarily industrial wastewater and energy markets, municipal and desalination applications, and life sciences and specialty sectors. It also offers AMBERLITE ion exchange resins, FILMTEC reverse osmosis and nanofiltration elements, and INGE and ITEGRATEC ultrafiltration modules. In addition, the company offers engineered products and integrated solutions for the non-residential, residential, and repair-and-remodel construction markets, includes TYVEK house wrap, STYROFOAM insulation, and CORIAN solid surface. Further, it engages in the design and production of engineered components, systems, and process solutions used in OEM and operational applications, such as automotive, aerospace, printing, and packaging. Additionally, the company offers Vespel shapes and parts, MOLYKOTE specialty lubricants, BETAFORCE and BETASEAL structural adhesives, and Cyrel flexographic printing plates. The company was formerly known as DowDuPont Inc. and changed its name to DuPont de Nemours, Inc. in June 2019. DuPont de Nemours, Inc. was incorporated in 2015 and is headquartered in Wilmington, Delaware.",
+  "targetMeanPrice": 167.0625,
+  "targetLowPrice": 145.0,
+  "targetHighPrice": 186.0,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.58824,
+  "forwardPE": 16.303905,
+  "forwardEps": 7.97355,
+  "trailingEps": 3.65,
+  "earningsGrowth": 1.496,
+  "revenueGrowth": 0.04
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 21575000000.0,
+    "official": 21575000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 13919000000.0,
+    "official": 13919000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -779000000.0,
+    "official": -779000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 6849000000.0,
+    "official": 6849000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:41:23+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -201,7 +243,10 @@
    "goodwill_and_intangibles": 22158000000.0,
    "retained_earnings": -21065000000.0,
    "total_debt": 8145000000.0,
-   "shares_out": 152708087.0
+   "shares_out": 152708087.0,
+   "unusual_items": -255000000.0,
+   "normalized_ebitda": 3330000000.0,
+   "normalized_income": 1198915000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -236,7 +281,10 @@
    "goodwill_and_intangibles": 22534000000.0,
    "retained_earnings": -22874000000.0,
    "total_debt": 7859000000.0,
-   "shares_out": 143370046.0
+   "shares_out": 143370046.0,
+   "unusual_items": -852000000.0,
+   "normalized_ebitda": 1549000000.0,
+   "normalized_income": 531439600.0
   },
   {
    "fy_end": "2024-12-31",
@@ -270,7 +318,10 @@
    "goodwill_and_intangibles": 10739000000.0,
    "retained_earnings": -23076000000.0,
    "total_debt": 5323000000.0,
-   "shares_out": 139331447.0
+   "shares_out": 139331447.0,
+   "unusual_items": -358000000.0,
+   "normalized_ebitda": 1476000000.0,
+   "normalized_income": 135244600.0
   },
   {
    "fy_end": "2025-12-31",
@@ -304,7 +355,10 @@
    "goodwill_and_intangibles": 10851000000.0,
    "retained_earnings": -24278000000.0,
    "total_debt": 3194000000.0,
-   "shares_out": 136398481.0
+   "shares_out": 136398481.0,
+   "unusual_items": -468000000.0,
+   "normalized_ebitda": 1628000000.0,
+   "normalized_income": 405332400.0
   }
  ]
 }

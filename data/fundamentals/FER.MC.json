@@ -1,6 +1,6 @@
 {
  "ticker": "FER.MC",
- "fetched_at": "2026-10-10T11:57:51+00:00",
+ "fetched_at": "2026-10-10T14:48:06+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "MCE",
   "fullTimeEmployees": 22359,
   "website": "https://www.ferrovial.com",
-  "longBusinessSummary": "Ferrovial N.V., together with its subsidiaries, engages in the development, construction, and operation of highways and airports in the United States, Poland, Spain, the United Kingdom, Canada, and internationally. It operates through four segments: Construction, Highways, Airports, and Energy. The company is involved in the development, financing, and operation of toll road infrastructure and construction activities, including the design and construction of public and private works; construction of public infrastructures; and development, financing, investing, and operation of airports. It engages in the development and construction of energy transmission and renewable generation energy infrastructure, as well as rendering of services regarding energy efficiency; and operation of waste management plants. The company was founded in 1952 and is based in Amsterdam, the Netherlands."
+  "longBusinessSummary": "Ferrovial N.V., together with its subsidiaries, engages in the development, construction, and operation of highways and airports in the United States, Poland, Spain, the United Kingdom, Canada, and internationally. It operates through four segments: Construction, Highways, Airports, and Energy. The company is involved in the development, financing, and operation of toll road infrastructure and construction activities, including the design and construction of public and private works; construction of public infrastructures; and development, financing, investing, and operation of airports. It engages in the development and construction of energy transmission and renewable generation energy infrastructure, as well as rendering of services regarding energy efficiency; and operation of waste management plants. The company was founded in 1952 and is based in Amsterdam, the Netherlands.",
+  "targetMeanPrice": 60.095,
+  "targetLowPrice": 45.0,
+  "targetHighPrice": 80.0,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.35,
+  "forwardPE": 38.904396,
+  "forwardEps": 1.1464,
+  "trailingEps": 1.56,
+  "earningsGrowth": -0.52,
+  "revenueGrowth": 0.052
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF ES",
+  "fy_end": "2022-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 26344000000.0,
+    "official": 26284000000.0,
+    "diff": 0.002283
+   },
+   "equity": {
+    "yahoo": 4113000000.0,
+    "official": 4113000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 188000000.0,
+    "official": 186000000.0,
+    "diff": 0.010753
+   },
+   "revenue": {
+    "yahoo": 7551000000.0,
+    "official": 7551000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2022-12-31"
+ },
+ "info_at": "2026-10-10T14:48:06+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -121,7 +164,10 @@
    "goodwill_and_intangibles": 618000000.0,
    "retained_earnings": 4263000000.0,
    "total_debt": 11837000000.0,
-   "shares_out": 726274971.0
+   "shares_out": 726274971.0,
+   "unusual_items": -64000000.0,
+   "normalized_ebitda": 988000000.0,
+   "normalized_income": 180768000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -156,7 +202,10 @@
    "goodwill_and_intangibles": 596000000.0,
    "retained_earnings": 370000000.0,
    "total_debt": 11565000000.0,
-   "shares_out": 736109055.0
+   "shares_out": 736109055.0,
+   "unusual_items": 59000000.0,
+   "normalized_ebitda": 1419000000.0,
+   "normalized_income": 277092000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -191,7 +240,10 @@
    "goodwill_and_intangibles": 628000000.0,
    "retained_earnings": 2536000000.0,
    "total_debt": 11533000000.0,
-   "shares_out": 721806552.0
+   "shares_out": 721806552.0,
+   "unusual_items": 2791000000.0,
+   "normalized_ebitda": 1748000000.0,
+   "normalized_income": 545763325.048329
   },
   {
    "fy_end": "2025-12-31",
@@ -225,7 +277,10 @@
    "goodwill_and_intangibles": 539000000.0,
    "retained_earnings": 2785000000.0,
    "total_debt": 10732000000.0,
-   "shares_out": 720626181.0
+   "shares_out": 720626181.0,
+   "unusual_items": 300000000.0,
+   "normalized_ebitda": 1698000000.0,
+   "normalized_income": 645400000.0
   }
  ]
 }

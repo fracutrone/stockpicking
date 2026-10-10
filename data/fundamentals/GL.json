@@ -1,6 +1,6 @@
 {
  "ticker": "GL",
- "fetched_at": "2026-10-10T12:46:42+00:00",
+ "fetched_at": "2026-10-10T15:45:12+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 3695,
   "website": "https://home.globelifeinsurance.com",
-  "longBusinessSummary": "Globe Life Inc., through its subsidiaries, provides various life and supplemental health insurance products to lower middle- and middle-income families in the United States. It operates in three segments: Life Insurance, Supplemental Health Insurance, and Investments. The company offers whole, term, and other life insurance products, as well as life insurance for children; Medicare supplement and limited-benefit supplemental health insurance products, such as accident, cancer, critical illness, heart, intensive care, and other health products; and final expense, accidental death, mortgage protection, and hospital insurance products. It sells its products through direct-to-consumer channels, exclusive independent agents, general agency independent agents, and brokers. The company was formerly known as Torchmark Corporation and changed its name to Globe Life Inc. in August 2019. Globe Life Inc. was founded in 1900 and is headquartered in McKinney, Texas."
+  "longBusinessSummary": "Globe Life Inc., through its subsidiaries, provides various life and supplemental health insurance products to lower middle- and middle-income families in the United States. It operates in three segments: Life Insurance, Supplemental Health Insurance, and Investments. The company offers whole, term, and other life insurance products, as well as life insurance for children; Medicare supplement and limited-benefit supplemental health insurance products, such as accident, cancer, critical illness, heart, intensive care, and other health products; and final expense, accidental death, mortgage protection, and hospital insurance products. It sells its products through direct-to-consumer channels, exclusive independent agents, general agency independent agents, and brokers. The company was formerly known as Torchmark Corporation and changed its name to Globe Life Inc. in August 2019. Globe Life Inc. was founded in 1900 and is headquartered in McKinney, Texas.",
+  "targetMeanPrice": 192.90909,
+  "targetLowPrice": 166.0,
+  "targetHighPrice": 225.0,
+  "numberOfAnalystOpinions": 11,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.90909,
+  "forwardPE": 9.950759,
+  "forwardEps": 16.49824,
+  "trailingEps": 14.9,
+  "earningsGrowth": 0.197,
+  "revenueGrowth": 0.08
  },
  "governance": {
   "ceo": {
@@ -76,10 +87,40 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "gross_profit": "sec",
   "operating_income": "sec",
   "da": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 30813692000.0,
+    "official": 30813692000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 5974579000.0,
+    "official": 5974579000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1161238000.0,
+    "official": 1161238000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 5994318000.0,
+    "official": 5994318000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:45:12+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -173,7 +214,9 @@
    "goodwill_and_intangibles": 481791000.0,
    "retained_earnings": 6894535000.0,
    "total_debt": 2242555000.0,
-   "shares_out": 96739895.0
+   "shares_out": 96739895.0,
+   "unusual_items": -2496000.0,
+   "normalized_income": 896412752.0
   },
   {
    "fy_end": "2023-12-31",
@@ -201,7 +244,9 @@
    "goodwill_and_intangibles": 481791000.0,
    "retained_earnings": 7478813000.0,
    "total_debt": 2115672000.0,
-   "shares_out": 93791329.0
+   "shares_out": 93791329.0,
+   "unusual_items": -900000.0,
+   "normalized_income": 971486700.0
   },
   {
    "fy_end": "2024-12-31",
@@ -227,7 +272,9 @@
    "goodwill_and_intangibles": 490446000.0,
    "retained_earnings": 8002521000.0,
    "total_debt": 2739652000.0,
-   "shares_out": 83977567.0
+   "shares_out": 83977567.0,
+   "unusual_items": -21575000.0,
+   "normalized_income": 1088173025.0
   },
   {
    "fy_end": "2025-12-31",
@@ -253,7 +300,9 @@
    "goodwill_and_intangibles": 490446000.0,
    "retained_earnings": 8546807000.0,
    "total_debt": 2625449000.0,
-   "shares_out": 79093101.0
+   "shares_out": 79093101.0,
+   "unusual_items": -17053000.0,
+   "normalized_income": 1175033877.0
   }
  ]
 }

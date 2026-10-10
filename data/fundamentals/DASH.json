@@ -1,6 +1,6 @@
 {
  "ticker": "DASH",
- "fetched_at": "2026-10-10T12:42:51+00:00",
+ "fetched_at": "2026-10-10T15:41:18+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 31400,
   "website": "https://www.doordash.com",
-  "longBusinessSummary": "DoorDash, Inc., together with its subsidiaries, operates a commerce platform that connects merchants, consumers, and dashers in the United States and internationally. The company operates DoorDash Marketplace, Wolt Marketplace, and Deliveroo Marketplace, which provide various services, such as customer acquisition, demand generation, order fulfillment, merchandising, payment processing, and customer support. It also offers consumer membership programs, DashPass, Wolt+, and Deliveroo Plus; advertising as a value-added service through its marketplaces; and white-label delivery fulfillment services, as well as services that help merchants establish online ordering, build branded mobile apps, manage reservations and in-store dining, manage consumer relationships, enable tableside order and pay, and improve customer support. The company was formerly known as Palo Alto Delivery Inc. and changed its name to DoorDash, Inc. in 2015. DoorDash, Inc. was founded in 2013 and is headquartered in San Francisco, California."
+  "longBusinessSummary": "DoorDash, Inc., together with its subsidiaries, operates a commerce platform that connects merchants, consumers, and dashers in the United States and internationally. The company operates DoorDash Marketplace, Wolt Marketplace, and Deliveroo Marketplace, which provide various services, such as customer acquisition, demand generation, order fulfillment, merchandising, payment processing, and customer support. It also offers consumer membership programs, DashPass, Wolt+, and Deliveroo Plus; advertising as a value-added service through its marketplaces; and white-label delivery fulfillment services, as well as services that help merchants establish online ordering, build branded mobile apps, manage reservations and in-store dining, manage consumer relationships, enable tableside order and pay, and improve customer support. The company was formerly known as Palo Alto Delivery Inc. and changed its name to DoorDash, Inc. in 2015. DoorDash, Inc. was founded in 2013 and is headquartered in San Francisco, California.",
+  "targetMeanPrice": 257.72287,
+  "targetLowPrice": 172.0,
+  "targetHighPrice": 350.0,
+  "numberOfAnalystOpinions": 42,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.6,
+  "forwardPE": 23.813477,
+  "forwardEps": 8.25163,
+  "trailingEps": 1.9,
+  "earningsGrowth": -0.3,
+  "revenueGrowth": 0.356
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 19659000000.0,
+    "official": 19659000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 10033000000.0,
+    "official": 10033000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 935000000.0,
+    "official": 935000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 13717000000.0,
+    "official": 13717000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:41:18+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -188,7 +230,10 @@
    "goodwill_and_intangibles": 3135000000.0,
    "retained_earnings": -3846000000.0,
    "total_debt": 511000000.0,
-   "shares_out": 391471000.0
+   "shares_out": 391471000.0,
+   "unusual_items": -92000000.0,
+   "normalized_ebitda": -571000000.0,
+   "normalized_income": -1275038598.999285
   },
   {
    "fy_end": "2023-12-31",
@@ -221,7 +266,10 @@
    "goodwill_and_intangibles": 3091000000.0,
    "retained_earnings": -5154000000.0,
    "total_debt": 522000000.0,
-   "shares_out": 403228000.0
+   "shares_out": 403228000.0,
+   "unusual_items": -2000000.0,
+   "normalized_ebitda": -66000000.0,
+   "normalized_income": -556515400.0
   },
   {
    "fy_end": "2024-12-31",
@@ -254,7 +302,10 @@
    "goodwill_and_intangibles": 2825000000.0,
    "retained_earnings": -5255000000.0,
    "total_debt": 536000000.0,
-   "shares_out": 419677000.0
+   "shares_out": 419677000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 523000000.0,
+   "normalized_income": 123000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -287,7 +338,10 @@
    "goodwill_and_intangibles": 7779000000.0,
    "retained_earnings": -4320000000.0,
    "total_debt": 3290000000.0,
-   "shares_out": 434247000.0
+   "shares_out": 434247000.0,
+   "unusual_items": -2000000.0,
+   "normalized_ebitda": 1474000000.0,
+   "normalized_income": 936985090.521832
   }
  ]
 }

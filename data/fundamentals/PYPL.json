@@ -1,6 +1,6 @@
 {
  "ticker": "PYPL",
- "fetched_at": "2026-10-10T12:56:14+00:00",
+ "fetched_at": "2026-10-10T15:53:57+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 23800,
   "website": "https://www.paypal.com",
-  "longBusinessSummary": "PayPal Holdings, Inc. operates a technology platform that enables digital payments for merchants and consumers worldwide. The company operates a two-sided network at scale that connects merchants and consumers that enables its customers to connect, transact, and send and receive payments through online and in person, as well as transfer and withdraw funds using various funding sources, such as bank accounts, PayPal or Venmo account balance, consumer credit and debit products, credit and debit cards, and cryptocurrencies, as well as other stored value products, including gift cards and eligible rewards. It provides payment solutions under the PayPal, PayPal Credit, Braintree, Venmo, Xoom, Hyperwallet, Honey, and Paidy names. The company was founded in 1998 and is headquartered in San Jose, California."
+  "longBusinessSummary": "PayPal Holdings, Inc. operates a technology platform that enables digital payments for merchants and consumers worldwide. The company operates a two-sided network at scale that connects merchants and consumers that enables its customers to connect, transact, and send and receive payments through online and in person, as well as transfer and withdraw funds using various funding sources, such as bank accounts, PayPal or Venmo account balance, consumer credit and debit products, credit and debit cards, and cryptocurrencies, as well as other stored value products, including gift cards and eligible rewards. It provides payment solutions under the PayPal, PayPal Credit, Braintree, Venmo, Xoom, Hyperwallet, Honey, and Paidy names. The company was founded in 1998 and is headquartered in San Jose, California.",
+  "targetMeanPrice": 56.88594,
+  "targetLowPrice": 36.0,
+  "targetHighPrice": 80.0,
+  "numberOfAnalystOpinions": 32,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.88372,
+  "forwardPE": 9.608197,
+  "forwardEps": 5.77944,
+  "trailingEps": 5.34,
+  "earningsGrowth": -0.031,
+  "revenueGrowth": 0.048
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 80173000000.0,
+    "official": 80173000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 20256000000.0,
+    "official": 20256000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 5233000000.0,
+    "official": 5233000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 33172000000.0,
+    "official": 33172000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:53:57+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -194,7 +236,10 @@
    "goodwill_and_intangibles": 11997000000.0,
    "retained_earnings": 18954000000.0,
    "total_debt": 10417000000.0,
-   "shares_out": 1136000000.0
+   "shares_out": 1136000000.0,
+   "unusual_items": -511000000.0,
+   "normalized_ebitda": 5498000000.0,
+   "normalized_income": 2786409000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -228,7 +273,10 @@
    "goodwill_and_intangibles": 11563000000.0,
    "retained_earnings": 23200000000.0,
    "total_debt": 9676000000.0,
-   "shares_out": 1072000000.0
+   "shares_out": 1072000000.0,
+   "unusual_items": 285000000.0,
+   "normalized_ebitda": 6545000000.0,
+   "normalized_income": 4022275000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -262,7 +310,10 @@
    "goodwill_and_intangibles": 11163000000.0,
    "retained_earnings": 27347000000.0,
    "total_debt": 9879000000.0,
-   "shares_out": 993000000.0
+   "shares_out": 993000000.0,
+   "unusual_items": -723000000.0,
+   "normalized_ebitda": 7466000000.0,
+   "normalized_income": 4709634828.297992
   },
   {
    "fy_end": "2025-12-31",
@@ -296,7 +347,10 @@
    "goodwill_and_intangibles": 11072000000.0,
    "retained_earnings": 32470000000.0,
    "total_debt": 9987000000.0,
-   "shares_out": 920000000.0
+   "shares_out": 920000000.0,
+   "unusual_items": -169000000.0,
+   "normalized_ebitda": 7865000000.0,
+   "normalized_income": 5373555785.123967
   }
  ]
 }

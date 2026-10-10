@@ -1,6 +1,6 @@
 {
  "ticker": "MU",
- "fetched_at": "2026-10-10T12:52:30+00:00",
+ "fetched_at": "2026-10-10T15:50:34+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": null,
   "website": "https://www.micron.com",
-  "longBusinessSummary": "Micron Technology, Inc. designs, develops, manufactures, and sells memory and storage products in the United States, Taiwan, Japan, Mainland China, Hong Kong, Europe, and internationally. It operates through the Cloud Memory Business Unit; Core Data Center Business Unit; Mobile and Client Business Unit; and Automotive and Embedded Business Unit segments. The company provides memory products, including dynamic random access memory components and modules, CXL-based memory, LPDDR components and modules, graphics memory, high-bandwidth memory, and data center memory products; multichip packages (MCP) comprising embedded multimedia card-based, universal flash storage-based, and NAND-based MCPs; and technology leadership products that include 1y DRAM and G9 NAND technologies. It also offers storage products, such as data center solid-state drives (SSD), client SSD storage, and auto and industrial SSD storage; managed NAND; NAND flash; NOR flash; and memory cards. In addition, the company provides design tools, including FBGA and part decoders; DRAM power calculators; NAND power calculators; simulation models; chipset compatibility guides; serial presence-detection tools; cross-reference tools; UFSparm; SSD firmware; software and drivers; storage executive software; and obsolete part catalogs. It markets its semiconductor memory and storage products under the Micron and Crucial brands. The company serves the data center, PC, graphics, networking, automotive, industrial, and consumer embedded markets, as well as the smartphone and other mobile-device markets. It sells its products through its direct sales force, independent sales representatives, distributors, and retailers; web-based customer direct sales channel; and channel and distribution partners. Micron Technology, Inc. was founded in 1978 and is headquartered in Boise, Idaho."
+  "longBusinessSummary": "Micron Technology, Inc. designs, develops, manufactures, and sells memory and storage products in the United States, Taiwan, Japan, Mainland China, Hong Kong, Europe, and internationally. It operates through the Cloud Memory Business Unit; Core Data Center Business Unit; Mobile and Client Business Unit; and Automotive and Embedded Business Unit segments. The company provides memory products, including dynamic random access memory components and modules, CXL-based memory, LPDDR components and modules, graphics memory, high-bandwidth memory, and data center memory products; multichip packages (MCP) comprising embedded multimedia card-based, universal flash storage-based, and NAND-based MCPs; and technology leadership products that include 1y DRAM and G9 NAND technologies. It also offers storage products, such as data center solid-state drives (SSD), client SSD storage, and auto and industrial SSD storage; managed NAND; NAND flash; NOR flash; and memory cards. In addition, the company provides design tools, including FBGA and part decoders; DRAM power calculators; NAND power calculators; simulation models; chipset compatibility guides; serial presence-detection tools; cross-reference tools; UFSparm; SSD firmware; software and drivers; storage executive software; and obsolete part catalogs. It markets its semiconductor memory and storage products under the Micron and Crucial brands. The company serves the data center, PC, graphics, networking, automotive, industrial, and consumer embedded markets, as well as the smartphone and other mobile-device markets. It sells its products through its direct sales force, independent sales representatives, distributors, and retailers; web-based customer direct sales channel; and channel and distribution partners. Micron Technology, Inc. was founded in 1978 and is headquartered in Boise, Idaho.",
+  "targetMeanPrice": 1555.1304,
+  "targetLowPrice": 361.0,
+  "targetHighPrice": 3000.0,
+  "numberOfAnalystOpinions": 46,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.36735,
+  "forwardPE": 4.987098,
+  "forwardEps": 206.33243,
+  "trailingEps": 74.33,
+  "earningsGrowth": 10.601,
+  "revenueGrowth": 3.793
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-08-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 82798000000.0,
+    "official": 82798000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 54165000000.0,
+    "official": 54165000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 8539000000.0,
+    "official": 8539000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 37378000000.0,
+    "official": 37378000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:50:34+00:00",
  "years": [
   {
    "fy_end": "2020-09-03",
@@ -177,7 +219,10 @@
    "goodwill_and_intangibles": 1649000000.0,
    "retained_earnings": 47274000000.0,
    "total_debt": 6020000000.0,
-   "shares_out": 1094000000.0
+   "shares_out": 1094000000.0,
+   "unusual_items": -64000000.0,
+   "normalized_ebitda": 16940000000.0,
+   "normalized_income": 8745048000.0
   },
   {
    "fy_end": "2023-08-31",
@@ -212,7 +257,10 @@
    "goodwill_and_intangibles": 1554000000.0,
    "retained_earnings": 40824000000.0,
    "total_debt": 12049000000.0,
-   "shares_out": 1098000000.0
+   "shares_out": 1098000000.0,
+   "unusual_items": -330000000.0,
+   "normalized_ebitda": 2816000000.0,
+   "normalized_income": -5572300000.0
   },
   {
    "fy_end": "2024-08-29",
@@ -247,7 +295,10 @@
    "goodwill_and_intangibles": 1566000000.0,
    "retained_earnings": 40877000000.0,
    "total_debt": 11343000000.0,
-   "shares_out": 1108841326.0
+   "shares_out": 1108841326.0,
+   "unusual_items": -15000000.0,
+   "normalized_ebitda": 9597000000.0,
+   "normalized_income": 787540000.0
   },
   {
    "fy_end": "2025-08-28",
@@ -282,7 +333,10 @@
    "goodwill_and_intangibles": 1603000000.0,
    "retained_earnings": 48583000000.0,
    "total_debt": 11533000000.0,
-   "shares_out": 1122000000.0
+   "shares_out": 1122000000.0,
+   "unusual_items": -170000000.0,
+   "normalized_ebitda": 18653000000.0,
+   "normalized_income": 8689280000.0
   },
   {
    "fy_end": "2026-09-03",

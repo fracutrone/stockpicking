@@ -1,6 +1,6 @@
 {
  "ticker": "DTE",
- "fetched_at": "2026-10-10T12:43:35+00:00",
+ "fetched_at": "2026-10-10T15:42:02+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 9592,
   "website": "https://www.dteenergy.com",
-  "longBusinessSummary": "DTE Energy Company engages in energy-related businesses and services. The company operates through four segments: Electric, Gas, DTE Vantage, and Energy Trading.The company's Electric segment generates, purchases, distributes, and sells electricity to approximately 2.3 million residential, commercial, and industrial customers in southeastern Michigan. It generates electricity through coal-fired plants, natural gas plant, hydroelectric pumped storage, and nuclear plants, as well as wind and solar assets. This segment owns and operates 702 distribution substations with a capacity of approximately 37,870,000 kilovolt-amperes (kVA) and approximately 4,56,900 line transformers with a capacity of approximately 33,770,000 kVA. The company's Gas segment purchases, stores, transports, distributes, and sells natural gas to approximately 1.4 million residential, commercial, and industrial customers throughout Michigan; and sells storage and transportation capacity. This segment has approximately 21,000 miles of distribution mains; 1,242,000 service pipelines; and 1,361,000 active meters, as well as owns approximately 2,000 miles of transmission pipelines. Its DTE Vantage segment offers metallurgical and petroleum coke to steel and other industries; and power generation, steam production, chilled water production, and wastewater treatment services, as well as compressed air supply to industrial customers. This segment also owns and operates 2 renewable generating plants with a capacity of 70 MWs; and 22 gas recovery sites. Its Energy Trading segment engages in power, natural gas, and environmental marketing and trading; structured transactions; and the optimization of contracted natural gas pipeline transportation and storage positions. The company was founded in 1849 and is based in Detroit, Michigan."
+  "longBusinessSummary": "DTE Energy Company engages in energy-related businesses and services. The company operates through four segments: Electric, Gas, DTE Vantage, and Energy Trading.The company's Electric segment generates, purchases, distributes, and sells electricity to approximately 2.3 million residential, commercial, and industrial customers in southeastern Michigan. It generates electricity through coal-fired plants, natural gas plant, hydroelectric pumped storage, and nuclear plants, as well as wind and solar assets. This segment owns and operates 702 distribution substations with a capacity of approximately 37,870,000 kilovolt-amperes (kVA) and approximately 4,56,900 line transformers with a capacity of approximately 33,770,000 kVA. The company's Gas segment purchases, stores, transports, distributes, and sells natural gas to approximately 1.4 million residential, commercial, and industrial customers throughout Michigan; and sells storage and transportation capacity. This segment has approximately 21,000 miles of distribution mains; 1,242,000 service pipelines; and 1,361,000 active meters, as well as owns approximately 2,000 miles of transmission pipelines. Its DTE Vantage segment offers metallurgical and petroleum coke to steel and other industries; and power generation, steam production, chilled water production, and wastewater treatment services, as well as compressed air supply to industrial customers. This segment also owns and operates 2 renewable generating plants with a capacity of 70 MWs; and 22 gas recovery sites. Its Energy Trading segment engages in power, natural gas, and environmental marketing and trading; structured transactions; and the optimization of contracted natural gas pipeline transportation and storage positions. The company was founded in 1849 and is based in Detroit, Michigan.",
+  "targetMeanPrice": 152.67857,
+  "targetLowPrice": 134.0,
+  "targetHighPrice": 168.0,
+  "numberOfAnalystOpinions": 14,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.88235,
+  "forwardPE": 15.171041,
+  "forwardEps": 8.36462,
+  "trailingEps": 6.31,
+  "earningsGrowth": 0.224,
+  "revenueGrowth": -0.015
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,34 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 54066000000.0,
+    "official": 54066000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 12303000000.0,
+    "official": 12303000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1462000000.0,
+    "official": 1462000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:42:02+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -119,7 +156,10 @@
    "goodwill_and_intangibles": 2159000000.0,
    "retained_earnings": 3808000000.0,
    "total_debt": 19289000000.0,
-   "shares_out": 205632393.0
+   "shares_out": 205632393.0,
+   "unusual_items": 8000000.0,
+   "normalized_ebitda": 3247000000.0,
+   "normalized_income": 1075208000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -153,7 +193,10 @@
    "goodwill_and_intangibles": 2149000000.0,
    "retained_earnings": 4404000000.0,
    "total_debt": 20990000000.0,
-   "shares_out": 206357070.0
+   "shares_out": 206357070.0,
+   "unusual_items": 1000000.0,
+   "normalized_ebitda": 3962000000.0,
+   "normalized_income": 1396108000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -186,7 +229,10 @@
    "goodwill_and_intangibles": 2137000000.0,
    "retained_earnings": 4946000000.0,
    "total_debt": 23205000000.0,
-   "shares_out": 207171582.0
+   "shares_out": 207171582.0,
+   "unusual_items": -11000000.0,
+   "normalized_ebitda": 4064000000.0,
+   "normalized_income": 1412690000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -219,7 +265,10 @@
    "goodwill_and_intangibles": 2181000000.0,
    "retained_earnings": 5484000000.0,
    "total_debt": 26188000000.0,
-   "shares_out": 207745154.0
+   "shares_out": 207745154.0,
+   "unusual_items": -32000000.0,
+   "normalized_ebitda": 4479000000.0,
+   "normalized_income": 1492176000.0
   }
  ]
 }

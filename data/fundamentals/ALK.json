@@ -1,6 +1,6 @@
 {
  "ticker": "ALK",
- "fetched_at": "2026-10-10T12:37:02+00:00",
+ "fetched_at": "2026-10-10T15:34:05+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 31596,
   "website": "https://www.alaskaair.com",
-  "longBusinessSummary": "Alaska Air Group, Inc., through its subsidiaries, operates airlines. It operates through three segments: Alaska Airlines, Hawaiian Airlines, and Regional. The company offers scheduled air transportation services on Boeing jet aircraft for passengers and cargo; and Horizon's and other third-party carriers scheduled air transportation services. It operates in the United States, Canada, Mexico, Costa Rica, Guatemala, Belize, the Bahamas, the South Pacific, Australia, New Zealand, and Asia. Alaska Air Group, Inc. was founded in 1932 and is based in Seattle, Washington."
+  "longBusinessSummary": "Alaska Air Group, Inc., through its subsidiaries, operates airlines. It operates through three segments: Alaska Airlines, Hawaiian Airlines, and Regional. The company offers scheduled air transportation services on Boeing jet aircraft for passengers and cargo; and Horizon's and other third-party carriers scheduled air transportation services. It operates in the United States, Canada, Mexico, Costa Rica, Guatemala, Belize, the Bahamas, the South Pacific, Australia, New Zealand, and Asia. Alaska Air Group, Inc. was founded in 1932 and is based in Seattle, Washington.",
+  "targetMeanPrice": 55.25,
+  "targetLowPrice": 37.0,
+  "targetHighPrice": 92.0,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.5,
+  "forwardPE": 11.936424,
+  "forwardEps": 3.29747,
+  "trailingEps": -1.59,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.097
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 20361000000.0,
+    "official": 20361000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4118000000.0,
+    "official": 4118000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 100000000.0,
+    "official": 100000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 14239000000.0,
+    "official": 14239000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:34:05+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -191,7 +233,10 @@
    "goodwill_and_intangibles": 2038000000.0,
    "retained_earnings": 4300000000.0,
    "total_debt": 2159000000.0,
-   "shares_out": 127533098.0
+   "shares_out": 127533098.0,
+   "unusual_items": -580000000.0,
+   "normalized_ebitda": 1168000000.0,
+   "normalized_income": 486040000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -226,7 +271,10 @@
    "goodwill_and_intangibles": 2033000000.0,
    "retained_earnings": 4535000000.0,
    "total_debt": 2471000000.0,
-   "shares_out": 126090353.0
+   "shares_out": 126090353.0,
+   "unusual_items": -461000000.0,
+   "normalized_ebitda": 1329000000.0,
+   "normalized_income": 571069000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -261,7 +309,10 @@
    "goodwill_and_intangibles": 3597000000.0,
    "retained_earnings": 4930000000.0,
    "total_debt": 4933000000.0,
-   "shares_out": 123119199.0
+   "shares_out": 123119199.0,
+   "unusual_items": -329000000.0,
+   "normalized_ebitda": 1599000000.0,
+   "normalized_income": 633525000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -296,7 +347,10 @@
    "goodwill_and_intangibles": 3538000000.0,
    "retained_earnings": 5030000000.0,
    "total_debt": 5309000000.0,
-   "shares_out": 115530889.0
+   "shares_out": 115530889.0,
+   "unusual_items": -250000000.0,
+   "normalized_ebitda": 1426000000.0,
+   "normalized_income": 271500000.0
   }
  ]
 }

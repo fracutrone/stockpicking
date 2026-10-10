@@ -1,6 +1,6 @@
 {
  "ticker": "GME",
- "fetched_at": "2026-10-10T12:46:50+00:00",
+ "fetched_at": "2026-10-10T15:45:19+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 4000,
   "website": "https://www.gamestop.com",
-  "longBusinessSummary": "GameStop Corp., a specialty retailer, provides games, collectibles, and entertainment products through its stores and e-commerce platforms in United States, Australia and Europe. The company sells new and pre-owned gaming platforms; accessories, such as controllers, gaming headsets, and other peripheral devices; new and pre-owned gaming software; and in-game digital currency, digital downloadable content, and full-game downloads. It also sells collectibles comprising apparel, toys, trading cards, gadgets, and other retail products for pop culture and technology enthusiasts. The company operates stores and e-commerce sites under the GameStop, EB Games, and Micromania brands; and pop culture themed stores that sell collectibles, apparel, gadgets, electronics, toys, and other retail products under the Zing Pop Culture brand. The company was formerly known as GSC Holdings Corp. GameStop Corp. was founded in 1996 and is based in Grapevine, Texas."
+  "longBusinessSummary": "GameStop Corp., a specialty retailer, provides games, collectibles, and entertainment products through its stores and e-commerce platforms in United States, Australia and Europe. The company sells new and pre-owned gaming platforms; accessories, such as controllers, gaming headsets, and other peripheral devices; new and pre-owned gaming software; and in-game digital currency, digital downloadable content, and full-game downloads. It also sells collectibles comprising apparel, toys, trading cards, gadgets, and other retail products for pop culture and technology enthusiasts. The company operates stores and e-commerce sites under the GameStop, EB Games, and Micromania brands; and pop culture themed stores that sell collectibles, apparel, gadgets, electronics, toys, and other retail products under the Zing Pop Culture brand. The company was formerly known as GSC Holdings Corp. GameStop Corp. was founded in 1996 and is based in Grapevine, Texas.",
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 14.27957,
+  "forwardEps": 1.86,
+  "trailingEps": 1.52,
+  "earningsGrowth": 0.645,
+  "revenueGrowth": -0.187
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "goodwill": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-01-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 10388400000.0,
+    "official": 10388400000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 5444400000.0,
+    "official": 5444400000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 418400000.0,
+    "official": 418400000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3629900000.0,
+    "official": 3629900000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:45:19+00:00",
  "years": [
   {
    "fy_end": "2020-02-01",
@@ -205,7 +247,10 @@
    "ppe_net": 136500000.0,
    "retained_earnings": -219500000.0,
    "total_debt": 39500000.0,
-   "shares_out": 304600000.0
+   "shares_out": 304600000.0,
+   "unusual_items": -2700000.0,
+   "normalized_ebitda": -244500000.0,
+   "normalized_income": -311095790.0
   },
   {
    "fy_end": "2024-02-03",
@@ -236,7 +281,10 @@
    "ppe_net": 94900000.0,
    "retained_earnings": -212800000.0,
    "total_debt": 28500000.0,
-   "shares_out": 305700000.0
+   "shares_out": 305700000.0,
+   "unusual_items": -4800000.0,
+   "normalized_ebitda": 31300000.0,
+   "normalized_income": 10269760.0
   },
   {
    "fy_end": "2025-02-01",
@@ -267,7 +315,10 @@
    "ppe_net": 68200000.0,
    "retained_earnings": -81500000.0,
    "total_debt": 16900000.0,
-   "shares_out": 446800365.0
+   "shares_out": 446800365.0,
+   "unusual_items": -9700000.0,
+   "normalized_ebitda": 32100000.0,
+   "normalized_income": 140582871.720117
   },
   {
    "fy_end": "2026-01-31",
@@ -298,7 +349,10 @@
    "ppe_net": 48300000.0,
    "retained_earnings": 205200000.0,
    "total_debt": 4164300000.0,
-   "shares_out": 448300000.0
+   "shares_out": 448300000.0,
+   "unusual_items": -185400000.0,
+   "normalized_ebitda": 485900000.0,
+   "normalized_income": 529640000.0
   }
  ]
 }

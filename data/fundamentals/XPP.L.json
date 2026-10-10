@@ -1,6 +1,6 @@
 {
  "ticker": "XPP.L",
- "fetched_at": "2026-10-10T12:27:12+00:00",
+ "fetched_at": "2026-10-10T15:30:18+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 2100,
   "website": "https://www.xppower.com",
-  "longBusinessSummary": "XP Power Limited, an investment holding company, designs, manufactures, and sells power supply solutions in Europe, North America, and Asia. It offers AC-DC power supplies, DC-DC converters, high voltage AC-DC power supplies, RF power systems, and EMI filters. The company also provides custom power solutions, such as mechanical and electrical design; PCB design and software programming; and safety compliance, quality, and testing. It serves semiconductor equipment manufacturing, industrial technology, healthcare, and custom power industries. XP Power Limited was founded in 1988 and is based in Singapore."
+  "longBusinessSummary": "XP Power Limited, an investment holding company, designs, manufactures, and sells power supply solutions in Europe, North America, and Asia. It offers AC-DC power supplies, DC-DC converters, high voltage AC-DC power supplies, RF power systems, and EMI filters. The company also provides custom power solutions, such as mechanical and electrical design; PCB design and software programming; and safety compliance, quality, and testing. It serves semiconductor equipment manufacturing, industrial technology, healthcare, and custom power industries. XP Power Limited was founded in 1988 and is based in Singapore.",
+  "targetMeanPrice": 2168.571,
+  "targetLowPrice": 1400.0,
+  "targetHighPrice": 3200.0,
+  "numberOfAnalystOpinions": 7,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 25.501532,
+  "forwardEps": 0.76466,
+  "trailingEps": -0.31,
+  "earningsGrowth": null,
+  "revenueGrowth": -0.016
  },
  "governance": {
   "ceo": {
@@ -76,8 +87,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 423700000.0,
+    "official": 423700000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 172100000.0,
+    "official": 172100000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -11400000.0,
+    "official": -11400000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 230100000.0,
+    "official": 230100000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:30:18+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -111,7 +154,10 @@
    "goodwill_and_intangibles": 147400000.0,
    "retained_earnings": 98400000.0,
    "total_debt": 225700000.0,
-   "shares_out": 19742296.0
+   "shares_out": 19742296.0,
+   "unusual_items": -1000000.0,
+   "normalized_ebitda": -6400000.0,
+   "normalized_income": -19350993.377483
   },
   {
    "fy_end": "2023-12-31",
@@ -145,7 +191,10 @@
    "goodwill_and_intangibles": 138700000.0,
    "retained_earnings": 74400000.0,
    "total_debt": 180800000.0,
-   "shares_out": 23681754.0
+   "shares_out": 23681754.0,
+   "unusual_items": 600000.0,
+   "normalized_ebitda": 46100000.0,
+   "normalized_income": -9674000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -179,7 +228,10 @@
    "goodwill_and_intangibles": 136700000.0,
    "retained_earnings": 64800000.0,
    "total_debt": 163200000.0,
-   "shares_out": 23668672.0
+   "shares_out": 23668672.0,
+   "unusual_items": -100000.0,
+   "normalized_ebitda": 24100000.0,
+   "normalized_income": -9521000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -213,7 +265,10 @@
    "goodwill_and_intangibles": 127000000.0,
    "retained_earnings": 53300000.0,
    "total_debt": 128400000.0,
-   "shares_out": 28032178.0
+   "shares_out": 28032178.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 21100000.0,
+   "normalized_income": -11400000.0
   }
  ]
 }

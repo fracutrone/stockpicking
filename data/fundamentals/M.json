@@ -1,6 +1,6 @@
 {
  "ticker": "M",
- "fetched_at": "2026-10-10T12:51:00+00:00",
+ "fetched_at": "2026-10-10T15:49:15+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 90134,
   "website": "https://www.macysinc.com",
-  "longBusinessSummary": "Macy's, Inc., an omni-channel retail organization, operates stores, websites, and mobile applications in the United States. The company sells various merchandise, such as apparel and accessories for men, women, and kids; cosmetics; home furnishings; and other consumer goods under the Macy's, Bloomingdale's, and Bluemercury brands. It also operates in Dubai, the United Arab Emirates, and Al Zahra, Kuwait under the license agreements. The company was formerly known as Federated Department Stores, Inc. and changed its name to Macy's, Inc. in June 2007. Macy's, Inc. was founded in 1830 and is based in New York, New York."
+  "longBusinessSummary": "Macy's, Inc., an omni-channel retail organization, operates stores, websites, and mobile applications in the United States. The company sells various merchandise, such as apparel and accessories for men, women, and kids; cosmetics; home furnishings; and other consumer goods under the Macy's, Bloomingdale's, and Bluemercury brands. It also operates in Dubai, the United Arab Emirates, and Al Zahra, Kuwait under the license agreements. The company was formerly known as Federated Department Stores, Inc. and changed its name to Macy's, Inc. in June 2007. Macy's, Inc. was founded in 1830 and is based in New York, New York.",
+  "targetMeanPrice": 23.36364,
+  "targetLowPrice": 10.0,
+  "targetHighPrice": 30.0,
+  "numberOfAnalystOpinions": 11,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.92308,
+  "forwardPE": 9.480833,
+  "forwardEps": 2.39114,
+  "trailingEps": 2.73,
+  "earningsGrowth": 1.0,
+  "revenueGrowth": 0.012
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-01-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 16238000000.0,
+    "official": 16238000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4860000000.0,
+    "official": 4860000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 642000000.0,
+    "official": 642000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 22621000000.0,
+    "official": 22621000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:49:15+00:00",
  "years": [
   {
    "fy_end": "2020-02-01",
@@ -197,7 +239,10 @@
    "goodwill_and_intangibles": 1260000000.0,
    "retained_earnings": 6268000000.0,
    "total_debt": 2996000000.0,
-   "shares_out": 271300000.0
+   "shares_out": 271300000.0,
+   "unusual_items": 17000000.0,
+   "normalized_ebitda": 2479000000.0,
+   "normalized_income": 1132809749.492214
   },
   {
    "fy_end": "2024-02-03",
@@ -231,7 +276,10 @@
    "goodwill_and_intangibles": 1258000000.0,
    "retained_earnings": 6088000000.0,
    "total_debt": 2998000000.0,
-   "shares_out": 274200000.0
+   "shares_out": 274200000.0,
+   "unusual_items": -966000000.0,
+   "normalized_ebitda": 2041000000.0,
+   "normalized_income": 763414200.0
   },
   {
    "fy_end": "2025-02-01",
@@ -265,7 +313,10 @@
    "goodwill_and_intangibles": 1253000000.0,
    "retained_earnings": 6499000000.0,
    "total_debt": 2773000000.0,
-   "shares_out": 277700000.0
+   "shares_out": 277700000.0,
+   "unusual_items": -28000000.0,
+   "normalized_ebitda": 1787000000.0,
+   "normalized_income": 603357798.165138
   },
   {
    "fy_end": "2026-01-31",
@@ -299,7 +350,10 @@
    "goodwill_and_intangibles": 1248000000.0,
    "retained_earnings": 6941000000.0,
    "total_debt": 2432000000.0,
-   "shares_out": 263000000.0
+   "shares_out": 263000000.0,
+   "unusual_items": -215000000.0,
+   "normalized_ebitda": 2055000000.0,
+   "normalized_income": 804579505.300353
   }
  ]
 }

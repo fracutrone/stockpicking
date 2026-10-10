@@ -1,6 +1,6 @@
 {
  "ticker": "MRVL",
- "fetched_at": "2026-10-10T12:52:05+00:00",
+ "fetched_at": "2026-10-10T15:50:11+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 7480,
   "website": "https://www.marvell.com",
-  "longBusinessSummary": "Marvell Technology, Inc., together with its subsidiaries, provides data infrastructure semiconductor solutions and spanning the data center core to network edge in the United States, Argentina, China, India, Israel, Japan, Singapore, South Korea, Taiwan, Vietnam, and internationally. The company develops and scales system-on-a-chip architectures, integrating analog, mixed-signal, and digital signal processing functionality. It offers a portfolio of ethernet solutions, including spanning controllers, network adapters, physical transceivers, and switches; single or multiple core processors; and custom application specific integrated circuits, interconnects, fibre channel adapters, and processors. The company also provides interconnect products, including pulse amplitude modulation, coherent and coherent-lite digital signal processors (DSPs), laser drivers, trans-impedance amplifiers, silicon photonics, co-packaged optics, linear pluggable optics chipsets, data center interconnect, active electrical cable DSPs and peripheral component interconnect express retimer solutions; fibre channel products comprising host bus adapters and controllers for server and storage system connectivity; storage controllers for hard disk drives and solid-state-drives; host system interfaces, including serial advanced technology attachment and serial attached SCSI, peripheral component interconnect express, compute express link switches, non-volatile memory express (NVMe), and NVMe over fabrics; and develops ultra accelerator linkTM switches and ethernet for scale-up networking switches. The company serves data centers, communications, and other markets. It offers its products through direct customers and distributors. Marvell Technology, Inc. was incorporated in 1995 and is headquartered in Wilmington, Delaware."
+  "longBusinessSummary": "Marvell Technology, Inc., together with its subsidiaries, provides data infrastructure semiconductor solutions and spanning the data center core to network edge in the United States, Argentina, China, India, Israel, Japan, Singapore, South Korea, Taiwan, Vietnam, and internationally. The company develops and scales system-on-a-chip architectures, integrating analog, mixed-signal, and digital signal processing functionality. It offers a portfolio of ethernet solutions, including spanning controllers, network adapters, physical transceivers, and switches; single or multiple core processors; and custom application specific integrated circuits, interconnects, fibre channel adapters, and processors. The company also provides interconnect products, including pulse amplitude modulation, coherent and coherent-lite digital signal processors (DSPs), laser drivers, trans-impedance amplifiers, silicon photonics, co-packaged optics, linear pluggable optics chipsets, data center interconnect, active electrical cable DSPs and peripheral component interconnect express retimer solutions; fibre channel products comprising host bus adapters and controllers for server and storage system connectivity; storage controllers for hard disk drives and solid-state-drives; host system interfaces, including serial advanced technology attachment and serial attached SCSI, peripheral component interconnect express, compute express link switches, non-volatile memory express (NVMe), and NVMe over fabrics; and develops ultra accelerator linkTM switches and ethernet for scale-up networking switches. The company serves data centers, communications, and other markets. It offers its products through direct customers and distributors. Marvell Technology, Inc. was incorporated in 1995 and is headquartered in Wilmington, Delaware.",
+  "targetMeanPrice": 337.9938,
+  "targetLowPrice": 210.0,
+  "targetHighPrice": 450.0,
+  "numberOfAnalystOpinions": 44,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.36957,
+  "forwardPE": 37.798805,
+  "forwardEps": 7.28277,
+  "trailingEps": 3.05,
+  "earningsGrowth": 0.5,
+  "revenueGrowth": 0.365
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-01-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 22285300000.0,
+    "official": 22285300000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 14308400000.0,
+    "official": 14308400000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2670100000.0,
+    "official": 2670100000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 8194600000.0,
+    "official": 8194600000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:50:11+00:00",
  "years": [
   {
    "fy_end": "2020-02-01",
@@ -193,7 +235,10 @@
    "goodwill_and_intangibles": 17128400000.0,
    "retained_earnings": 1123500000.0,
    "total_debt": 5076500000.0,
-   "shares_out": 856100000.0
+   "shares_out": 856100000.0,
+   "unusual_items": -121600000.0,
+   "normalized_ebitda": 1769600000.0,
+   "normalized_income": -67436000.0
   },
   {
    "fy_end": "2024-02-03",
@@ -227,7 +272,10 @@
    "goodwill_and_intangibles": 15941600000.0,
    "retained_earnings": -16700000.0,
    "total_debt": 4273200000.0,
-   "shares_out": 865539796.0
+   "shares_out": 865539796.0,
+   "unusual_items": -131100000.0,
+   "normalized_ebitda": 981800000.0,
+   "normalized_income": -829831000.0
   },
   {
    "fy_end": "2025-02-01",
@@ -261,7 +309,10 @@
    "goodwill_and_intangibles": 14698800000.0,
    "retained_earnings": -1109200000.0,
    "total_debt": 4193300000.0,
-   "shares_out": 866000000.0
+   "shares_out": 866000000.0,
+   "unusual_items": -353900000.0,
+   "normalized_ebitda": 1005500000.0,
+   "normalized_income": -534936850.340896
   },
   {
    "fy_end": "2026-01-31",
@@ -295,7 +346,10 @@
    "goodwill_and_intangibles": 13113200000.0,
    "retained_earnings": 1355800000.0,
    "total_debt": 4970400000.0,
-   "shares_out": 847259927.0
+   "shares_out": 847259927.0,
+   "unusual_items": -15500000.0,
+   "normalized_ebitda": 4555300000.0,
+   "normalized_income": 2683678000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "HOMB",
- "fetched_at": "2026-10-10T12:47:52+00:00",
+ "fetched_at": "2026-10-10T15:46:16+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 2543,
   "website": "https://www.homebancshares.com",
-  "longBusinessSummary": "Home BancShares, Inc. operates as the bank holding company for Centennial Bank that provides commercial and retail banking, and related financial services to businesses, real estate developers and investors, individuals, and municipalities in the United States. The company offers deposit services, including checking, savings, and money market accounts, as well as certificates of deposit. It also provides loans comprising non-farm/non-residential real estate, construction/land development, residential mortgage, consumer, agricultural, and commercial and industrial loans. In addition, the company offers other banking services, such as internet and mobile banking, voice response information, cash management, overdraft protection, direct deposit, and automatic account transfer services, as well as safe deposit boxes and the United States savings bonds. Further, it provides trust, wealth management, and custodial services, as well as trustee services, escrow, and paying agent services. Additionally, the company writes policies for commercial and personal lines of business, including insurance for property, casualty, life, health, and employee benefits. It operates its branches in Arkansas, Florida, Texas, South Alabama, and New York City. Home BancShares, Inc. was founded in 1903 and is headquartered in Conway, Arkansas."
+  "longBusinessSummary": "Home BancShares, Inc. operates as the bank holding company for Centennial Bank that provides commercial and retail banking, and related financial services to businesses, real estate developers and investors, individuals, and municipalities in the United States. The company offers deposit services, including checking, savings, and money market accounts, as well as certificates of deposit. It also provides loans comprising non-farm/non-residential real estate, construction/land development, residential mortgage, consumer, agricultural, and commercial and industrial loans. In addition, the company offers other banking services, such as internet and mobile banking, voice response information, cash management, overdraft protection, direct deposit, and automatic account transfer services, as well as safe deposit boxes and the United States savings bonds. Further, it provides trust, wealth management, and custodial services, as well as trustee services, escrow, and paying agent services. Additionally, the company writes policies for commercial and personal lines of business, including insurance for property, casualty, life, health, and employee benefits. It operates its branches in Arkansas, Florida, Texas, South Alabama, and New York City. Home BancShares, Inc. was founded in 1903 and is headquartered in Conway, Arkansas.",
+  "targetMeanPrice": 33.25,
+  "targetLowPrice": 31.0,
+  "targetHighPrice": 36.0,
+  "numberOfAnalystOpinions": 8,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.3,
+  "forwardPE": 10.86058,
+  "forwardEps": 2.60115,
+  "trailingEps": 2.42,
+  "earningsGrowth": -0.016,
+  "revenueGrowth": 0.086
  },
  "governance": {
   "ceo": {
@@ -78,8 +89,33 @@
   "retained_earnings": "sec",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "noninterest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 22881879000.0,
+    "official": 22881879000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4296871000.0,
+    "official": 4296871000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 475441000.0,
+    "official": 475441000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:46:16+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -106,7 +142,9 @@
    "goodwill_and_intangibles": 1456708000.0,
    "retained_earnings": 1443087000.0,
    "total_debt": 1090420000.0,
-   "shares_out": 203433690.0
+   "shares_out": 203433690.0,
+   "unusual_items": -49255000.0,
+   "normalized_income": 343365668.0
   },
   {
    "fy_end": "2023-12-31",
@@ -134,7 +172,9 @@
    "goodwill_and_intangibles": 1447023000.0,
    "retained_earnings": 1690112000.0,
    "total_debt": 1741134000.0,
-   "shares_out": 201526494.0
+   "shares_out": 201526494.0,
+   "unusual_items": 1839000.0,
+   "normalized_income": 391517383.6
   },
   {
    "fy_end": "2024-12-31",
@@ -162,7 +202,9 @@
    "goodwill_and_intangibles": 1438580000.0,
    "retained_earnings": 1942350000.0,
    "total_debt": 1039996000.0,
-   "shares_out": 198882402.0
+   "shares_out": 198882402.0,
+   "unusual_items": -170000.0,
+   "normalized_income": 402371917.0
   },
   {
    "fy_end": "2025-12-31",
@@ -190,7 +232,9 @@
    "goodwill_and_intangibles": 1430546000.0,
    "retained_earnings": 2258871000.0,
    "total_debt": 779515000.0,
-   "shares_out": 196357167.0
+   "shares_out": 196357167.0,
+   "unusual_items": 13000.0,
+   "normalized_income": 475430897.7
   }
  ]
 }

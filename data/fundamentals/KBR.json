@@ -1,6 +1,6 @@
 {
  "ticker": "KBR",
- "fetched_at": "2026-10-10T12:49:33+00:00",
+ "fetched_at": "2026-10-10T15:47:53+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 37000,
   "website": "https://www.kbr.com",
-  "longBusinessSummary": "KBR, Inc. provides scientific, technology, and engineering solutions to governments and commercial customers worldwide. The company operates through Government Solutions and Sustainable Technology Solutions segments. It offers research and development, advanced prototyping, acquisition support, systems engineering, cyber analytics, space domain awareness, test and evaluation, data analytics and integration, systems integration and program management, global supply chain management, operations readiness and support, and professional advisory services, as well as command, control, communications, computers, intelligence, surveillance, and reconnaissance services to defense, intelligence, space, aviation, and other programs and missions for military and other government agencies. The company also operates portfolio of various proprietary process technologies for ammonia/syngas, chemical/petrochemicals, clean refining, and circular process/circular economy solutions. In addition, it provides synergistic services, including energy security, broad-based energy transition and net-zero carbon emission solutions, high-end engineering, design and program management centered around decarbonization, energy efficiency, and environmental impact and asset optimization, as well as digitally-enabled operating and monitoring solutions. KBR, Inc. was founded in 1901 and is headquartered in Houston, Texas."
+  "longBusinessSummary": "KBR, Inc. provides scientific, technology, and engineering solutions to governments and commercial customers worldwide. The company operates through Government Solutions and Sustainable Technology Solutions segments. It offers research and development, advanced prototyping, acquisition support, systems engineering, cyber analytics, space domain awareness, test and evaluation, data analytics and integration, systems integration and program management, global supply chain management, operations readiness and support, and professional advisory services, as well as command, control, communications, computers, intelligence, surveillance, and reconnaissance services to defense, intelligence, space, aviation, and other programs and missions for military and other government agencies. The company also operates portfolio of various proprietary process technologies for ammonia/syngas, chemical/petrochemicals, clean refining, and circular process/circular economy solutions. In addition, it provides synergistic services, including energy security, broad-based energy transition and net-zero carbon emission solutions, high-end engineering, design and program management centered around decarbonization, energy efficiency, and environmental impact and asset optimization, as well as digitally-enabled operating and monitoring solutions. KBR, Inc. was founded in 1901 and is headquartered in Houston, Texas.",
+  "targetMeanPrice": 44.28571,
+  "targetLowPrice": 35.0,
+  "targetHighPrice": 50.0,
+  "numberOfAnalystOpinions": 7,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": 8.694005,
+  "forwardEps": 4.06487,
+  "trailingEps": 3.33,
+  "earningsGrowth": 0.331,
+  "revenueGrowth": 0.016
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 6584000000.0,
+    "official": 6584000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1503000000.0,
+    "official": 1503000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 415000000.0,
+    "official": 415000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 7786000000.0,
+    "official": 7786000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:47:53+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -195,7 +237,10 @@
    "goodwill_and_intangibles": 2732000000.0,
    "retained_earnings": 1410000000.0,
    "total_debt": 1740000000.0,
-   "shares_out": 136505145.0
+   "shares_out": 136505145.0,
+   "unusual_items": 35000000.0,
+   "normalized_ebitda": 473000000.0,
+   "normalized_income": 166200000.0
   },
   {
    "fy_end": "2023-12-29",
@@ -228,7 +273,10 @@
    "goodwill_and_intangibles": 2727000000.0,
    "retained_earnings": 1072000000.0,
    "total_debt": 1832000000.0,
-   "shares_out": 135067562.0
+   "shares_out": 135067562.0,
+   "unusual_items": -144000000.0,
+   "normalized_ebitda": 235000000.0,
+   "normalized_income": -150240000.0
   },
   {
    "fy_end": "2025-01-03",
@@ -261,7 +309,10 @@
    "goodwill_and_intangibles": 3393000000.0,
    "retained_earnings": 1367000000.0,
    "total_debt": 2569000000.0,
-   "shares_out": 132435609.0
+   "shares_out": 132435609.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 808000000.0,
+   "normalized_income": 373000000.0
   },
   {
    "fy_end": "2026-01-02",
@@ -294,7 +345,10 @@
    "goodwill_and_intangibles": 3404000000.0,
    "retained_earnings": 1697000000.0,
    "total_debt": 2596000000.0,
-   "shares_out": 126454289.0
+   "shares_out": 126454289.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 941000000.0,
+   "normalized_income": 470000000.0
   }
  ]
 }

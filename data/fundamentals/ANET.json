@@ -1,6 +1,6 @@
 {
  "ticker": "ANET",
- "fetched_at": "2026-10-10T12:37:34+00:00",
+ "fetched_at": "2026-10-10T15:34:34+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 5115,
   "website": "https://www.arista.com",
-  "longBusinessSummary": "Arista Networks, Inc. engages in the development, marketing, and sale of data-driven, client to cloud networking solutions for AI, data center, campus, and routing environments in the Americas, Europe, the Middle East, Africa, and the Asia-Pacific. Its cloud networking solutions consist of Extensible Operating System (EOS), a publish-subscribe state-sharing networking operating system offered in combination with a set of network applications. The company offers data center, cloud and AI networking, cognitive adjacencies, and cognitive network software and services. It also provides post contract customer support services, such as technical support, hardware repair and replacement parts beyond standard warranty, bug fixes, patches, and upgrade services. The company serves a range of industries comprising internet companies, cloud service providers, financial services organizations, government agencies, media and entertainment, healthcare, oil and gas, education, manufacturing, industrial, and others. It markets and sells its products through distributors, system integrators, value-added resellers, and original equipment manufacturer partners, as well as through its direct sales force. Arista Networks, Inc. was formerly known as Arastra, Inc. and changed its name to Arista Networks, Inc. in October 2008. The company was incorporated in 2004 and is headquartered in Santa Clara, California."
+  "longBusinessSummary": "Arista Networks, Inc. engages in the development, marketing, and sale of data-driven, client to cloud networking solutions for AI, data center, campus, and routing environments in the Americas, Europe, the Middle East, Africa, and the Asia-Pacific. Its cloud networking solutions consist of Extensible Operating System (EOS), a publish-subscribe state-sharing networking operating system offered in combination with a set of network applications. The company offers data center, cloud and AI networking, cognitive adjacencies, and cognitive network software and services. It also provides post contract customer support services, such as technical support, hardware repair and replacement parts beyond standard warranty, bug fixes, patches, and upgrade services. The company serves a range of industries comprising internet companies, cloud service providers, financial services organizations, government agencies, media and entertainment, healthcare, oil and gas, education, manufacturing, industrial, and others. It markets and sells its products through distributors, system integrators, value-added resellers, and original equipment manufacturer partners, as well as through its direct sales force. Arista Networks, Inc. was formerly known as Arastra, Inc. and changed its name to Arista Networks, Inc. in October 2008. The company was incorporated in 2004 and is headquartered in Santa Clara, California.",
+  "targetMeanPrice": 243.69,
+  "targetLowPrice": 190.0,
+  "targetHighPrice": 289.0,
+  "numberOfAnalystOpinions": 29,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.28125,
+  "forwardPE": 41.546066,
+  "forwardEps": 5.21686,
+  "trailingEps": 3.17,
+  "earningsGrowth": 0.357,
+  "revenueGrowth": 0.377
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "retained_earnings": "sec",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "interest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 19448600000.0,
+    "official": 19448600000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 12370500000.0,
+    "official": 12370500000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 3511400000.0,
+    "official": 3511400000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 9005700000.0,
+    "official": 9005700000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:34:34+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -199,7 +241,10 @@
    "goodwill_and_intangibles": 388129000.0,
    "retained_earnings": 3138983000.0,
    "total_debt": 43964000.0,
-   "shares_out": 1227560000.0
+   "shares_out": 1227560000.0,
+   "unusual_items": 27479000.0,
+   "normalized_ebitda": 1589806000.0,
+   "normalized_income": 1352446000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -232,7 +277,10 @@
    "intangibles": 88768000.0,
    "goodwill_and_intangibles": 357299000.0,
    "retained_earnings": 5114025000.0,
-   "shares_out": 1248980000.0
+   "shares_out": 1248980000.0,
+   "unusual_items": 18699000.0,
+   "normalized_ebitda": 2327900000.0,
+   "normalized_income": 2087300000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -265,7 +313,9 @@
    "intangibles": 62000000.0,
    "goodwill_and_intangibles": 268500000.0,
    "retained_earnings": 7542500000.0,
-   "shares_out": 1261334000.0
+   "shares_out": 1261334000.0,
+   "normalized_ebitda": 3006600000.0,
+   "normalized_income": 2852100000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -298,7 +348,9 @@
    "intangibles": 288800000.0,
    "goodwill_and_intangibles": 416100000.0,
    "retained_earnings": 9446600000.0,
-   "shares_out": 1256500000.0
+   "shares_out": 1256500000.0,
+   "normalized_ebitda": 3928700000.0,
+   "normalized_income": 3511400000.0
   }
  ]
 }

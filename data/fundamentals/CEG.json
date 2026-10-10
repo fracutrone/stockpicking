@@ -1,6 +1,6 @@
 {
  "ticker": "CEG",
- "fetched_at": "2026-10-10T12:40:19+00:00",
+ "fetched_at": "2026-10-10T15:39:12+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 15291,
   "website": "https://www.constellationenergy.com",
-  "longBusinessSummary": "Constellation Energy Corporation produces and sells energy products and services in the United States. The company operates through five segments: Mid-Atlantic, Midwest, New York, ERCOT, and Other Power Regions. It offers electricity, natural gas, energy-related products, and sustainable solutions. The company has approximately 31,676 megawatts of generating capacity consisting of nuclear, wind, solar, natural gas, and hydroelectric assets. It serves distribution utilities, municipalities, cooperatives, and commercial, industrial, public sector, and residential customers. The company was incorporated in 2021 and is headquartered in Baltimore, Maryland."
+  "longBusinessSummary": "Constellation Energy Corporation produces and sells energy products and services in the United States. The company operates through five segments: Mid-Atlantic, Midwest, New York, ERCOT, and Other Power Regions. It offers electricity, natural gas, energy-related products, and sustainable solutions. The company has approximately 31,676 megawatts of generating capacity consisting of nuclear, wind, solar, natural gas, and hydroelectric assets. It serves distribution utilities, municipalities, cooperatives, and commercial, industrial, public sector, and residential customers. The company was incorporated in 2021 and is headquartered in Baltimore, Maryland.",
+  "targetMeanPrice": 341.532,
+  "targetLowPrice": 290.0,
+  "targetHighPrice": 395.0,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.54545,
+  "forwardPE": 22.37736,
+  "forwardEps": 13.32016,
+  "trailingEps": 10.7,
+  "earningsGrowth": -0.468,
+  "revenueGrowth": 0.23
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "intangibles": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 57249000000.0,
+    "official": 57249000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 14517000000.0,
+    "official": 14517000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2319000000.0,
+    "official": 2319000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 25533000000.0,
+    "official": 25533000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:39:12+00:00",
  "years": [
   {
    "fy_end": "2020-12-31",
@@ -159,7 +201,10 @@
    "goodwill_and_intangibles": 47000000.0,
    "retained_earnings": -496000000.0,
    "total_debt": 5809000000.0,
-   "shares_out": 327000000.0
+   "shares_out": 327000000.0,
+   "unusual_items": -12000000.0,
+   "normalized_ebitda": 1570000000.0,
+   "normalized_income": -150520000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -193,7 +238,10 @@
    "goodwill_and_intangibles": 425000000.0,
    "retained_earnings": 761000000.0,
    "total_debt": 9321000000.0,
-   "shares_out": 317000000.0
+   "shares_out": 317000000.0,
+   "unusual_items": 334000000.0,
+   "normalized_ebitda": 4427000000.0,
+   "normalized_income": 1406234000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -226,7 +274,10 @@
    "goodwill_and_intangibles": 420000000.0,
    "retained_earnings": 4066000000.0,
    "total_debt": 8474000000.0,
-   "shares_out": 312838000.0
+   "shares_out": 312838000.0,
+   "unusual_items": 82000000.0,
+   "normalized_ebitda": 6947000000.0,
+   "normalized_income": 3681022000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -259,7 +310,10 @@
    "goodwill_and_intangibles": 420000000.0,
    "retained_earnings": 5899000000.0,
    "total_debt": 9053000000.0,
-   "shares_out": 312290080.0
+   "shares_out": 312290080.0,
+   "unusual_items": -304000000.0,
+   "normalized_ebitda": 6263000000.0,
+   "normalized_income": 2520248000.0
   }
  ]
 }

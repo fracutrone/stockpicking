@@ -1,6 +1,6 @@
 {
  "ticker": "AON",
- "fetched_at": "2026-10-10T12:37:37+00:00",
+ "fetched_at": "2026-10-10T15:34:37+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 60000,
   "website": "https://www.aon.com",
-  "longBusinessSummary": "Aon plc operates as a professional services firm in the United States, rest of the Americas, the United Kingdom, Ireland, rest of Europe, the Middle East, Africa, and the Asia Pacific. It operates through Risk Capital and Human Capital segments. The company offers commercial risk solutions comprising retail and insurance brokerage, specialty solutions, global risk consulting, captives management, and affinity programs; health solutions, such as consulting and brokerage, consumer benefits, and talent advisory services; and wealth solutions, including retirement consulting and investments. It also provides treaty and facultative reinsurance; strategy and technology group solutions; insurance-linked securities, capital raising, strategic advice, restructuring, and merger and acquisition services; and risk management products and solutions, capital market solutions, and corporate finance advisory services. In addition, the company offers strategic design advice and actuarial services; pension risk transfer and integrated pension administration; and investment advisory services on developing and maintaining investment programs across various plan types, including defined benefit plans, defined contribution plans, master trusts, and pooled employer plans for corporations, public pensions, endowments, and foundations. Aon plc was incorporated in 1979 and is headquartered in Dublin, Ireland."
+  "longBusinessSummary": "Aon plc operates as a professional services firm in the United States, rest of the Americas, the United Kingdom, Ireland, rest of Europe, the Middle East, Africa, and the Asia Pacific. It operates through Risk Capital and Human Capital segments. The company offers commercial risk solutions comprising retail and insurance brokerage, specialty solutions, global risk consulting, captives management, and affinity programs; health solutions, such as consulting and brokerage, consumer benefits, and talent advisory services; and wealth solutions, including retirement consulting and investments. It also provides treaty and facultative reinsurance; strategy and technology group solutions; insurance-linked securities, capital raising, strategic advice, restructuring, and merger and acquisition services; and risk management products and solutions, capital market solutions, and corporate finance advisory services. In addition, the company offers strategic design advice and actuarial services; pension risk transfer and integrated pension administration; and investment advisory services on developing and maintaining investment programs across various plan types, including defined benefit plans, defined contribution plans, master trusts, and pooled employer plans for corporations, public pensions, endowments, and foundations. Aon plc was incorporated in 1979 and is headquartered in Dublin, Ireland.",
+  "targetMeanPrice": 362.21054,
+  "targetLowPrice": 229.0,
+  "targetHighPrice": 435.0,
+  "numberOfAnalystOpinions": 19,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.14286,
+  "forwardPE": 13.514976,
+  "forwardEps": 20.23459,
+  "trailingEps": 18.14,
+  "earningsGrowth": -0.03,
+  "revenueGrowth": 0.022
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 50784000000.0,
+    "official": 50784000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 9352000000.0,
+    "official": 9352000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 3695000000.0,
+    "official": 3695000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 17181000000.0,
+    "official": 17181000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:34:37+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -197,7 +239,10 @@
    "goodwill_and_intangibles": 8739000000.0,
    "retained_earnings": -2772000000.0,
    "total_debt": 10770000000.0,
-   "shares_out": 205400000.0
+   "shares_out": 205400000.0,
+   "unusual_items": 44000000.0,
+   "normalized_ebitda": 3782000000.0,
+   "normalized_income": 2552110266.159696
   },
   {
    "fy_end": "2023-12-31",
@@ -231,7 +276,10 @@
    "goodwill_and_intangibles": 8648000000.0,
    "retained_earnings": -3399000000.0,
    "total_debt": 11199000000.0,
-   "shares_out": 198600000.0
+   "shares_out": 198600000.0,
+   "unusual_items": -205000000.0,
+   "normalized_ebitda": 4114000000.0,
+   "normalized_income": 2733945000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -265,7 +313,10 @@
    "goodwill_and_intangibles": 21977000000.0,
    "retained_earnings": -2309000000.0,
    "total_debt": 17016000000.0,
-   "shares_out": 216000000.0
+   "shares_out": 216000000.0,
+   "unusual_items": -3000000.0,
+   "normalized_ebitda": 4939000000.0,
+   "normalized_income": 2656357019.064125
   },
   {
    "fy_end": "2025-12-31",
@@ -299,7 +350,10 @@
    "goodwill_and_intangibles": 21524000000.0,
    "retained_earnings": -245000000.0,
    "total_debt": 15249000000.0,
-   "shares_out": 214500000.0
+   "shares_out": 214500000.0,
+   "unusual_items": 923000000.0,
+   "normalized_ebitda": 5617000000.0,
+   "normalized_income": 2967693843.244379
   }
  ]
 }

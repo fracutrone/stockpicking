@@ -1,6 +1,6 @@
 {
  "ticker": "POR",
- "fetched_at": "2026-10-10T12:55:49+00:00",
+ "fetched_at": "2026-10-10T15:53:31+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 2877,
   "website": "https://www.portlandgeneral.com",
-  "longBusinessSummary": "Portland General Electric Company, an integrated electric utility company, engages in the generation, wholesale purchase, transmission, distribution, and retail sale of electricity in the state of Oregon. It operates six thermal plants, four wind farms, and seven hydroelectric facilities. As of December 31, 2025, the company owned an electric transmission system consisting of 1,744 circuit miles, including 287 circuit miles of 500 kilovolt line, 414 circuit miles of 230 kilovolt line, and 577 miles of 115 kilovolt line; 466 miles of 57 kilovolt line; and served 960 thousand retail customers in 51 cities. It also has 29,251 circuit miles of distribution lines. Portland General Electric Company was founded in 1889 and is headquartered in Portland, Oregon."
+  "longBusinessSummary": "Portland General Electric Company, an integrated electric utility company, engages in the generation, wholesale purchase, transmission, distribution, and retail sale of electricity in the state of Oregon. It operates six thermal plants, four wind farms, and seven hydroelectric facilities. As of December 31, 2025, the company owned an electric transmission system consisting of 1,744 circuit miles, including 287 circuit miles of 500 kilovolt line, 414 circuit miles of 230 kilovolt line, and 577 miles of 115 kilovolt line; 466 miles of 57 kilovolt line; and served 960 thousand retail customers in 51 cities. It also has 29,251 circuit miles of distribution lines. Portland General Electric Company was founded in 1889 and is headquartered in Portland, Oregon.",
+  "targetMeanPrice": 52.09091,
+  "targetLowPrice": 44.0,
+  "targetHighPrice": 62.0,
+  "numberOfAnalystOpinions": 11,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.53846,
+  "forwardPE": 12.648211,
+  "forwardEps": 3.58865,
+  "trailingEps": 2.26,
+  "earningsGrowth": 0.049,
+  "revenueGrowth": 0.009
  },
  "governance": {
   "ceo": {
@@ -81,8 +92,39 @@
   "ppe_net": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 13230000000.0,
+    "official": 13230000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4133000000.0,
+    "official": 4133000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 306000000.0,
+    "official": 306000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3576000000.0,
+    "official": 3576000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:53:31+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -179,7 +221,10 @@
    "ppe_net": 8465000000.0,
    "retained_earnings": 1534000000.0,
    "total_debt": 3659000000.0,
-   "shares_out": 89283353.0
+   "shares_out": 89283353.0,
+   "unusual_items": 14000000.0,
+   "normalized_ebitda": 831000000.0,
+   "normalized_income": 221002000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -210,7 +255,10 @@
    "ppe_net": 9546000000.0,
    "retained_earnings": 1574000000.0,
    "total_debt": 4145000000.0,
-   "shares_out": 101159609.0
+   "shares_out": 101159609.0,
+   "unusual_items": 19000000.0,
+   "normalized_ebitda": 885000000.0,
+   "normalized_income": 212116000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -241,7 +289,10 @@
    "ppe_net": 10345000000.0,
    "retained_earnings": 1680000000.0,
    "total_debt": 4539000000.0,
-   "shares_out": 109342251.0
+   "shares_out": 109342251.0,
+   "unusual_items": 23000000.0,
+   "normalized_ebitda": 1034000000.0,
+   "normalized_income": 292461000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -272,7 +323,10 @@
    "ppe_net": 10993000000.0,
    "retained_earnings": 1755000000.0,
    "total_debt": 4679000000.0,
-   "shares_out": 115559079.0
+   "shares_out": 115559079.0,
+   "unusual_items": 18000000.0,
+   "normalized_ebitda": 1151000000.0,
+   "normalized_income": 290664000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "JMT.LS",
- "fetched_at": "2026-10-10T12:04:54+00:00",
+ "fetched_at": "2026-10-10T14:59:58+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LIS",
   "fullTimeEmployees": 124800,
   "website": "https://www.jeronimomartins.com",
-  "longBusinessSummary": "Jerónimo Martins, SGPS, S.A. operates in the food distribution sector in Portugal, Poland, Colombia, Slovakia, and internationally. The company operates through Portugal Retail, Portugal Cash & Carry, Poland Retail, Poland Health and Beauty, and Colombia Retail segments. It engages in the operation of chain of food stores under the Biedronka brand; online sales offerings, such as deliveries under the Biek brand, alternative ordering and delivery solutions with e-commerce players, and non-food products through a website; supermarket chains under the Pingo Doce brand; cash and carry stores under the Recheio brand; Bem-Estar parapharmacies and petrol stations; and coffee shops and kiosks under the Jeronymo brand. The company is also involved in the provision of specialized retail of health and beauty products, as well as in-store consultation services under the Hebe brand; operation of a chain of proximity food stores under the Ara brand; and production of dairy, livestock farming, aquaculture, and fruit and vegetables. In addition, it engages in the real estate purchase and sale; sea passenger water transport; renting of air transport equipment; growing of crops and animal farming; saline brackish waters aquaculture; and retail management, consultancy, and logistics. The company was founded in 1792 and is headquartered in Lisbon, Portugal. Jerónimo Martins, SGPS, S.A. operates as a subsidiary of Sociedade Francisco Manuel Dos Santos B.V."
+  "longBusinessSummary": "Jerónimo Martins, SGPS, S.A. operates in the food distribution sector in Portugal, Poland, Colombia, Slovakia, and internationally. The company operates through Portugal Retail, Portugal Cash & Carry, Poland Retail, Poland Health and Beauty, and Colombia Retail segments. It engages in the operation of chain of food stores under the Biedronka brand; online sales offerings, such as deliveries under the Biek brand, alternative ordering and delivery solutions with e-commerce players, and non-food products through a website; supermarket chains under the Pingo Doce brand; cash and carry stores under the Recheio brand; Bem-Estar parapharmacies and petrol stations; and coffee shops and kiosks under the Jeronymo brand. The company is also involved in the provision of specialized retail of health and beauty products, as well as in-store consultation services under the Hebe brand; operation of a chain of proximity food stores under the Ara brand; and production of dairy, livestock farming, aquaculture, and fruit and vegetables. In addition, it engages in the real estate purchase and sale; sea passenger water transport; renting of air transport equipment; growing of crops and animal farming; saline brackish waters aquaculture; and retail management, consultancy, and logistics. The company was founded in 1792 and is headquartered in Lisbon, Portugal. Jerónimo Martins, SGPS, S.A. operates as a subsidiary of Sociedade Francisco Manuel Dos Santos B.V.",
+  "targetMeanPrice": 22.50909,
+  "targetLowPrice": 15.1,
+  "targetHighPrice": 29.0,
+  "numberOfAnalystOpinions": 22,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.5,
+  "forwardPE": 13.18108,
+  "forwardEps": 1.29959,
+  "trailingEps": 1.01,
+  "earningsGrowth": -0.005,
+  "revenueGrowth": 0.04
  },
  "governance": {
   "ceo": {
@@ -81,8 +92,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF PT",
+  "fy_end": "2022-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 11845000000.0,
+    "official": 11845000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2331000000.0,
+    "official": 2331000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 590000000.0,
+    "official": 590000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 25385000000.0,
+    "official": 25385000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2022-12-31"
+ },
+ "info_at": "2026-10-10T14:59:58+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -117,7 +160,10 @@
    "goodwill_and_intangibles": 755000000.0,
    "retained_earnings": 1869000000.0,
    "total_debt": 3148000000.0,
-   "shares_out": 628434220.0
+   "shares_out": 628434220.0,
+   "unusual_items": -25000000.0,
+   "normalized_ebitda": 1786000000.0,
+   "normalized_income": 608625000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -152,7 +198,10 @@
    "goodwill_and_intangibles": 790000000.0,
    "retained_earnings": 2278000000.0,
    "total_debt": 4148000000.0,
-   "shares_out": 628434220.0
+   "shares_out": 628434220.0,
+   "unusual_items": -31000000.0,
+   "normalized_ebitda": 2182000000.0,
+   "normalized_income": 779684000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -187,7 +236,10 @@
    "goodwill_and_intangibles": 795000000.0,
    "retained_earnings": 2460000000.0,
    "total_debt": 4932000000.0,
-   "shares_out": 628434220.0
+   "shares_out": 628434220.0,
+   "unusual_items": -44000000.0,
+   "normalized_ebitda": 2204000000.0,
+   "normalized_income": 632264000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -221,7 +273,10 @@
    "goodwill_and_intangibles": 813000000.0,
    "retained_earnings": 2734000000.0,
    "total_debt": 5572000000.0,
-   "shares_out": 628434220.0
+   "shares_out": 628434220.0,
+   "unusual_items": -23000000.0,
+   "normalized_ebitda": 2413000000.0,
+   "normalized_income": 663135000.0
   }
  ]
 }

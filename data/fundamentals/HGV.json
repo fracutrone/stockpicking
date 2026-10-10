@@ -1,6 +1,6 @@
 {
  "ticker": "HGV",
- "fetched_at": "2026-10-10T12:47:37+00:00",
+ "fetched_at": "2026-10-10T15:45:58+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 22300,
   "website": "https://www.hiltongrandvacations.com",
-  "longBusinessSummary": "Hilton Grand Vacations Inc. develops, markets, sells, manages, and operates the resorts, timeshare plans, and ancillary reservation services under the Hilton Grand Vacations brand in the United States, Japan, and Europe. The company operates through two segments: Real Estate Sales and Financing, and Resort Operations and Club Management segments. The Real Estate Sales and Financing segment market and sells the VOIs, and source VOIs through fee-for-service agreements; and provides consumer financing and services loans. The Resort Operations and Club Management segment manages and operates the clubs which provides exchange, leisure travel, and reservation services, as well as engages in the rental of inventory made available due to ownership exchanges through its club programs, and provides ancillary services including food and beverage, retail and spa at timeshare properties. Hilton Grand Vacations Inc. was founded in 1992 and is headquartered in Orlando, Florida."
+  "longBusinessSummary": "Hilton Grand Vacations Inc. develops, markets, sells, manages, and operates the resorts, timeshare plans, and ancillary reservation services under the Hilton Grand Vacations brand in the United States, Japan, and Europe. The company operates through two segments: Real Estate Sales and Financing, and Resort Operations and Club Management segments. The Real Estate Sales and Financing segment market and sells the VOIs, and source VOIs through fee-for-service agreements; and provides consumer financing and services loans. The Resort Operations and Club Management segment manages and operates the clubs which provides exchange, leisure travel, and reservation services, as well as engages in the rental of inventory made available due to ownership exchanges through its club programs, and provides ancillary services including food and beverage, retail and spa at timeshare properties. Hilton Grand Vacations Inc. was founded in 1992 and is headquartered in Orlando, Florida.",
+  "targetMeanPrice": 54.36364,
+  "targetLowPrice": 39.0,
+  "targetHighPrice": 74.0,
+  "numberOfAnalystOpinions": 11,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.36364,
+  "forwardPE": 6.513288,
+  "forwardEps": 5.30147,
+  "trailingEps": 1.76,
+  "earningsGrowth": -0.4,
+  "revenueGrowth": 0.062
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 11537000000.0,
+    "official": 11537000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1289000000.0,
+    "official": 1289000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 81000000.0,
+    "official": 81000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 5047000000.0,
+    "official": 5047000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:45:58+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -184,7 +226,10 @@
    "goodwill_and_intangibles": 2693000000.0,
    "retained_earnings": 529000000.0,
    "total_debt": 2651000000.0,
-   "shares_out": 113628706.0
+   "shares_out": 113628706.0,
+   "unusual_items": -84000000.0,
+   "normalized_ebitda": 951000000.0,
+   "normalized_income": 413471933.471933
   },
   {
    "fy_end": "2023-12-31",
@@ -218,7 +263,10 @@
    "goodwill_and_intangibles": 2576000000.0,
    "retained_earnings": 593000000.0,
    "total_debt": 3049000000.0,
-   "shares_out": 105961160.0
+   "shares_out": 105961160.0,
+   "unusual_items": -71000000.0,
+   "normalized_ebitda": 911000000.0,
+   "normalized_income": 362494432.071269
   },
   {
    "fy_end": "2024-12-31",
@@ -252,7 +300,10 @@
    "goodwill_and_intangibles": 3772000000.0,
    "retained_earnings": 352000000.0,
    "total_debt": 4601000000.0,
-   "shares_out": 96720179.0
+   "shares_out": 96720179.0,
+   "unusual_items": -239000000.0,
+   "normalized_ebitda": 972000000.0,
+   "normalized_income": 235810000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -286,7 +337,10 @@
    "goodwill_and_intangibles": 3655000000.0,
    "retained_earnings": 34000000.0,
    "total_debt": 4545000000.0,
-   "shares_out": 83133678.0
+   "shares_out": 83133678.0,
+   "unusual_items": -101000000.0,
+   "normalized_ebitda": 860000000.0,
+   "normalized_income": 160790000.0
   }
  ]
 }

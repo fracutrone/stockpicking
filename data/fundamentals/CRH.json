@@ -1,6 +1,6 @@
 {
  "ticker": "CRH",
- "fetched_at": "2026-10-10T12:42:02+00:00",
+ "fetched_at": "2026-10-10T15:40:33+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 83032,
   "website": "https://www.crh.com",
-  "longBusinessSummary": "CRH plc, together with its subsidiaries, provides building materials solutions in Ireland, the United States, the United Kingdom, rest of Europe, and internationally. It operates through three segments: Americas Materials Solutions, Americas Building Solutions, and International Solutions. The company offers building materials for the construction and maintenance of public infrastructure, and commercial and residential buildings, as well as construction and renovation of transportation infrastructure, critical utility networks, commercial and residential buildings, and outdoor living spaces; paving and construction services; and produces and sells aggregates, cementitious materials, ready mixed concrete and mortars, and asphalt. It also manufactures, supplies, and delivers building products for the built environment in communities in North America; and provides building and infrastructure solutions for complex critical utility infrastructure, such as water, energy, transportation, and telecommunications projects, and outdoor living solutions for private and public spaces. In addition, the company produces and supplies precast and pre-stressed concrete products comprising vaults, pipes, and manholes; and concrete and polymer-based products, such as underground vaults, drainage systems, enclosures, and modular precast structures for applications in transportation, water, energy, and telecommunications markets. Further, it provides crushed stone, sand, and gravel; granite, limestone, and sandstone; fly ash, pozzolans, synthetic gypsum, calcined clay, and ground granulated blast-furnace slags; fencing and railing systems, lawn and garden products, and packaged concrete mixes; and concrete masonry, hardscape and related products, including pavers, blocks and curbs, retaining walls, and slabs. CRH plc was founded in 1936 and is based in Dublin, Ireland."
+  "longBusinessSummary": "CRH plc, together with its subsidiaries, provides building materials solutions in Ireland, the United States, the United Kingdom, rest of Europe, and internationally. It operates through three segments: Americas Materials Solutions, Americas Building Solutions, and International Solutions. The company offers building materials for the construction and maintenance of public infrastructure, and commercial and residential buildings, as well as construction and renovation of transportation infrastructure, critical utility networks, commercial and residential buildings, and outdoor living spaces; paving and construction services; and produces and sells aggregates, cementitious materials, ready mixed concrete and mortars, and asphalt. It also manufactures, supplies, and delivers building products for the built environment in communities in North America; and provides building and infrastructure solutions for complex critical utility infrastructure, such as water, energy, transportation, and telecommunications projects, and outdoor living solutions for private and public spaces. In addition, the company produces and supplies precast and pre-stressed concrete products comprising vaults, pipes, and manholes; and concrete and polymer-based products, such as underground vaults, drainage systems, enclosures, and modular precast structures for applications in transportation, water, energy, and telecommunications markets. Further, it provides crushed stone, sand, and gravel; granite, limestone, and sandstone; fly ash, pozzolans, synthetic gypsum, calcined clay, and ground granulated blast-furnace slags; fencing and railing systems, lawn and garden products, and packaged concrete mixes; and concrete masonry, hardscape and related products, including pavers, blocks and curbs, retaining walls, and slabs. CRH plc was founded in 1936 and is based in Dublin, Ireland.",
+  "targetMeanPrice": 127.00217,
+  "targetLowPrice": 96.0,
+  "targetHighPrice": 160.0,
+  "numberOfAnalystOpinions": 23,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.31818,
+  "forwardPE": 12.724381,
+  "forwardEps": 6.40817,
+  "trailingEps": 5.66,
+  "earningsGrowth": 0.139,
+  "revenueGrowth": 0.056
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 58329000000.0,
+    "official": 58329000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 24004000000.0,
+    "official": 24004000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 3730000000.0,
+    "official": 3753000000.0,
+    "diff": 0.006128
+   },
+   "revenue": {
+    "yahoo": 37447000000.0,
+    "official": 37447000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:40:33+00:00",
  "years": [
   {
    "fy_end": "2021-12-31",
@@ -139,7 +181,10 @@
    "goodwill_and_intangibles": 10287000000.0,
    "retained_earnings": 22495000000.0,
    "total_debt": 9636000000.0,
-   "shares_out": 744741888.0
+   "shares_out": 744741888.0,
+   "unusual_items": 50000000.0,
+   "normalized_ebitda": 5332000000.0,
+   "normalized_income": 2633000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -173,7 +218,10 @@
    "goodwill_and_intangibles": 10199000000.0,
    "retained_earnings": 22918000000.0,
    "total_debt": 11642000000.0,
-   "shares_out": 692100317.0
+   "shares_out": 692100317.0,
+   "unusual_items": -301000000.0,
+   "normalized_ebitda": 6324000000.0,
+   "normalized_income": 3385770000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -208,7 +256,10 @@
    "goodwill_and_intangibles": 12272000000.0,
    "retained_earnings": 24036000000.0,
    "total_debt": 13968000000.0,
-   "shares_out": 677291893.0
+   "shares_out": 677291893.0,
+   "unusual_items": 3000000.0,
+   "normalized_ebitda": 7121000000.0,
+   "normalized_income": 3455690000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -242,7 +293,10 @@
    "goodwill_and_intangibles": 15147000000.0,
    "retained_earnings": 25593000000.0,
    "total_debt": 17653000000.0,
-   "shares_out": 668630350.0
+   "shares_out": 668630350.0,
+   "unusual_items": 117000000.0,
+   "normalized_ebitda": 7654000000.0,
+   "normalized_income": 3638740000.0
   }
  ]
 }

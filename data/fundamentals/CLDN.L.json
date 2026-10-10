@@ -1,6 +1,6 @@
 {
  "ticker": "CLDN.L",
- "fetched_at": "2026-10-10T11:51:24+00:00",
+ "fetched_at": "2026-10-10T14:39:44+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": 419.99997,
+  "targetLowPrice": 419.99997,
+  "targetHighPrice": 419.99997,
+  "numberOfAnalystOpinions": 1,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -51,8 +62,16 @@
   "ppe_net": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T14:39:44+00:00",
  "years": [
   {
    "fy_end": "2023-03-31",
@@ -74,7 +93,9 @@
    "ppe_net": 27900000.0,
    "retained_earnings": 247400000.0,
    "total_debt": 266000000.0,
-   "shares_out": 54325700.0
+   "shares_out": 54325700.0,
+   "unusual_items": -1400000.0,
+   "normalized_income": 142900000.0
   },
   {
    "fy_end": "2024-03-31",
@@ -95,7 +116,9 @@
    "receivables": 7300000.0,
    "ppe_net": 25200000.0,
    "retained_earnings": 250200000.0,
-   "shares_out": 54388093.0
+   "shares_out": 54388093.0,
+   "unusual_items": -3900000.0,
+   "normalized_income": 203800000.0
   },
   {
    "fy_end": "2025-03-31",
@@ -116,7 +139,8 @@
    "receivables": 10300000.0,
    "ppe_net": 25300000.0,
    "retained_earnings": 240400000.0,
-   "shares_out": 52749673.0
+   "shares_out": 52749673.0,
+   "normalized_income": 66100000.0
   },
   {
    "fy_end": "2026-03-31",
@@ -137,7 +161,8 @@
    "receivables": 8700000.0,
    "ppe_net": 24700000.0,
    "retained_earnings": 229800000.0,
-   "shares_out": 517823750.0
+   "shares_out": 517823750.0,
+   "normalized_income": 135200000.0
   }
  ]
 }

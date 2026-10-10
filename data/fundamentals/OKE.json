@@ -1,6 +1,6 @@
 {
  "ticker": "OKE",
- "fetched_at": "2026-10-10T12:53:53+00:00",
+ "fetched_at": "2026-10-10T15:52:03+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 6326,
   "website": "https://www.oneok.com",
-  "longBusinessSummary": "ONEOK, Inc. operates as a midstream service provider of gathering, processing, fractionation, transportation, storage, and marine export services in the United States. It operates in four segments: Natural Gas Gathering and Processing; Natural Gas Liquids; Natural Gas Pipelines; and Refined Products and Crude. The company owns natural gas gathering pipelines and processing plants in the Mid-Continent, Permian Basin, North Texas, Gulf Coast region, and Rocky Mountain regions; and provides midstream services to producers of NGLs. It also owns NGL gathering and distribution pipelines, fractionation, terminal and storage facilities; and transports refined products, including gasoline, diesel fuel, aviation fuel, kerosene, and heating oil. In addition, the company transports and stores natural gas through regulated interstate and intrastate natural gas transmission pipelines, and natural gas storage facilities; it owns and operates a parking garage in downtown Tulsa, Oklahoma; and leases buildings, warehouses, office space, land, and equipment, including pipeline equipment, pipeline capacity, rail cars, and information technology equipment. Further, the company transports, stores, and distributes refined products, purity NGLs, and crude oil, as well as conducts commodity-related activities, including liquids blending and marketing activities. It serves integrated and independent exploration and production companies; other NGL and natural gas gathering and processing companies; crude oil and natural gas production companies; utilities; industrial companies; natural gasoline distributors; propane distributors; municipalities; ethanol producers; petrochemical, refining, and marketing companies; and diluent users, refineries, and exporters. ONEOK, Inc. was founded in 1906 and is headquartered in Tulsa, Oklahoma."
+  "longBusinessSummary": "ONEOK, Inc. operates as a midstream service provider of gathering, processing, fractionation, transportation, storage, and marine export services in the United States. It operates in four segments: Natural Gas Gathering and Processing; Natural Gas Liquids; Natural Gas Pipelines; and Refined Products and Crude. The company owns natural gas gathering pipelines and processing plants in the Mid-Continent, Permian Basin, North Texas, Gulf Coast region, and Rocky Mountain regions; and provides midstream services to producers of NGLs. It also owns NGL gathering and distribution pipelines, fractionation, terminal and storage facilities; and transports refined products, including gasoline, diesel fuel, aviation fuel, kerosene, and heating oil. In addition, the company transports and stores natural gas through regulated interstate and intrastate natural gas transmission pipelines, and natural gas storage facilities; it owns and operates a parking garage in downtown Tulsa, Oklahoma; and leases buildings, warehouses, office space, land, and equipment, including pipeline equipment, pipeline capacity, rail cars, and information technology equipment. Further, the company transports, stores, and distributes refined products, purity NGLs, and crude oil, as well as conducts commodity-related activities, including liquids blending and marketing activities. It serves integrated and independent exploration and production companies; other NGL and natural gas gathering and processing companies; crude oil and natural gas production companies; utilities; industrial companies; natural gasoline distributors; propane distributors; municipalities; ethanol producers; petrochemical, refining, and marketing companies; and diluent users, refineries, and exporters. ONEOK, Inc. was founded in 1906 and is headquartered in Tulsa, Oklahoma.",
+  "targetMeanPrice": 100.95,
+  "targetLowPrice": 89.0,
+  "targetHighPrice": 112.0,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.27273,
+  "forwardPE": 14.394509,
+  "forwardEps": 6.23849,
+  "trailingEps": 5.76,
+  "earningsGrowth": 0.142,
+  "revenueGrowth": 0.528
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 66641000000.0,
+    "official": 66641000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 22485000000.0,
+    "official": 22485000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 3393000000.0,
+    "official": 3393000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 33629000000.0,
+    "official": 33629000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:52:03+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -195,7 +237,10 @@
    "goodwill_and_intangibles": 753000000.0,
    "retained_earnings": 50000000.0,
    "total_debt": 13600000000.0,
-   "shares_out": 447157771.0
+   "shares_out": 447157771.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 3552000000.0,
+   "normalized_income": 1722000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -228,7 +273,10 @@
    "goodwill_and_intangibles": 6268000000.0,
    "retained_earnings": 868000000.0,
    "total_debt": 21700000000.0,
-   "shares_out": 583093100.0
+   "shares_out": 583093100.0,
+   "unusual_items": -158000000.0,
+   "normalized_ebitda": 5290000000.0,
+   "normalized_income": 2779137832.427795
   },
   {
    "fy_end": "2024-12-31",
@@ -261,7 +309,10 @@
    "goodwill_and_intangibles": 11130000000.0,
    "retained_earnings": 1579000000.0,
    "total_debt": 32100000000.0,
-   "shares_out": 583110633.0
+   "shares_out": 583110633.0,
+   "unusual_items": -73000000.0,
+   "normalized_ebitda": 6688000000.0,
+   "normalized_income": 3090261000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -294,7 +345,10 @@
    "goodwill_and_intangibles": 10959000000.0,
    "retained_earnings": 2373000000.0,
    "total_debt": 32816000000.0,
-   "shares_out": 629707691.0
+   "shares_out": 629707691.0,
+   "unusual_items": -81000000.0,
+   "normalized_ebitda": 7868000000.0,
+   "normalized_income": 3455451000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "COHR",
- "fetched_at": "2026-10-10T12:41:35+00:00",
+ "fetched_at": "2026-10-10T15:40:09+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 51478,
   "website": "https://www.coherent.com",
-  "longBusinessSummary": "Coherent Corp. develops, manufactures, and markets lasers, transceivers, other optical and optoelectronic devices, modules, and systems worldwide. Its products include critical components consisting of detectors, passive optics, thermal solutions, and PICS; silicon photonics and other advanced optical technologies; and coherent transmission components, transport products, optical amplifiers, passive optical components, optical line systems, and multi-rail platform. The company's Datacenter and Communications segment offers transceivers, co-packaged optics, and optical circuit switches, as well as other systems, such as subsystems, modules, and semiconductor devices for datacenter and communications applications; and VCSELS, EELS, pump lasers, and other components, optics, and ICs for datacenter and communication applications. Its Industrial segment offers excimer lasers, solid-state lasers, and CO2 lasers; laser systems for various industrial applications, including semiconductor capital equipment, display manufacturing, precision manufacturing, and scientific research; and laser systems and subsystems comprising high-power lasers for materials processing. This segment also provides engineered materials, laser optics, thermoelectric components, and advanced ceramic and metal-matrix composite materials and products. It markets its products and services through a direct sales force, representatives, and distributors. The company was formerly known as II-VI Incorporated and changed its name to Coherent Corp. in September 2022. Coherent Corp. was incorporated in 1971 and is headquartered in Saxonburg, Pennsylvania."
+  "longBusinessSummary": "Coherent Corp. develops, manufactures, and markets lasers, transceivers, other optical and optoelectronic devices, modules, and systems worldwide. Its products include critical components consisting of detectors, passive optics, thermal solutions, and PICS; silicon photonics and other advanced optical technologies; and coherent transmission components, transport products, optical amplifiers, passive optical components, optical line systems, and multi-rail platform. The company's Datacenter and Communications segment offers transceivers, co-packaged optics, and optical circuit switches, as well as other systems, such as subsystems, modules, and semiconductor devices for datacenter and communications applications; and VCSELS, EELS, pump lasers, and other components, optics, and ICs for datacenter and communication applications. Its Industrial segment offers excimer lasers, solid-state lasers, and CO2 lasers; laser systems for various industrial applications, including semiconductor capital equipment, display manufacturing, precision manufacturing, and scientific research; and laser systems and subsystems comprising high-power lasers for materials processing. This segment also provides engineered materials, laser optics, thermoelectric components, and advanced ceramic and metal-matrix composite materials and products. It markets its products and services through a direct sales force, representatives, and distributors. The company was formerly known as II-VI Incorporated and changed its name to Coherent Corp. in September 2022. Coherent Corp. was incorporated in 1971 and is headquartered in Saxonburg, Pennsylvania.",
+  "targetMeanPrice": 412.52014,
+  "targetLowPrice": 280.0,
+  "targetHighPrice": 500.0,
+  "numberOfAnalystOpinions": 23,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.58333,
+  "forwardPE": 22.257582,
+  "forwardEps": 14.04555,
+  "trailingEps": 4.12,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.337
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-06-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 18299852000.0,
+    "official": 18299852000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 10903495000.0,
+    "official": 10903495000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 804998000.0,
+    "official": 804998000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 7118181000.0,
+    "official": 7118181000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:40:09+00:00",
  "years": [
   {
    "fy_end": "2020-06-30",
@@ -194,7 +236,10 @@
    "goodwill_and_intangibles": 8327384000.0,
    "retained_earnings": 944416000.0,
    "total_debt": 4309798000.0,
-   "shares_out": 139583702.0
+   "shares_out": 139583702.0,
+   "unusual_items": -119101000.0,
+   "normalized_ebitda": 732102000.0,
+   "normalized_income": -172514270.0
   },
   {
    "fy_end": "2024-06-30",
@@ -227,7 +272,10 @@
    "goodwill_and_intangibles": 7967576000.0,
    "retained_earnings": 664940000.0,
    "total_debt": 4100218000.0,
-   "shares_out": 152779583.0
+   "shares_out": 152779583.0,
+   "unusual_items": -27054000.0,
+   "normalized_ebitda": 727643000.0,
+   "normalized_income": -134781340.0
   },
   {
    "fy_end": "2025-06-30",
@@ -262,7 +310,10 @@
    "goodwill_and_intangibles": 7675831000.0,
    "retained_earnings": 584374000.0,
    "total_debt": 3686921000.0,
-   "shares_out": 155555206.0
+   "shares_out": 155555206.0,
+   "unusual_items": -245069000.0,
+   "normalized_ebitda": 1136099000.0,
+   "normalized_income": 242968510.0
   },
   {
    "fy_end": "2026-06-30",
@@ -297,7 +348,10 @@
    "goodwill_and_intangibles": 7260071000.0,
    "retained_earnings": 1354270000.0,
    "total_debt": 3222224000.0,
-   "shares_out": 195752792.0
+   "shares_out": 195752792.0,
+   "unusual_items": -3661000.0,
+   "normalized_ebitda": 1563556000.0,
+   "normalized_income": 808402730.0
   }
  ]
 }

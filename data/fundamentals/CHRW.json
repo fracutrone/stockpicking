@@ -1,6 +1,6 @@
 {
  "ticker": "CHRW",
- "fetched_at": "2026-10-10T12:40:47+00:00",
+ "fetched_at": "2026-10-10T15:39:32+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 11599,
   "website": "https://www.chrobinson.com",
-  "longBusinessSummary": "C.H. Robinson Worldwide, Inc., together with its subsidiaries, provides freight transportation and related logistics and supply chain services in the United States and internationally. It operates in two segments, North American Surface Transportation and Global Forwarding. The company offers transportation and logistics services, such as truckload; less than truckload transportation brokerage services, which include the shipment of single or multiple pallets of freight; intermodal transportation that comprises the shipment service of freight in containers or trailers by a combination of truck and rail; and non-vessel operating common carrier and freight forwarding services, as well as organizes indirect air carrier and freight forwarder providing door-to-door services. It also provides customs brokerage services; and other logistics services, such as fee-based managed, warehousing, supply chain consulting and optimization services, and other services. In addition, the company is involved in the buying, selling, and/or marketing of fresh fruits, vegetables, and other value-added perishable items under the Robinson Fresh trade name. Further, the company offers transportation management and other surface transportation services. It provides fresh produce to grocery retailers, restaurants, produce wholesalers. C.H. Robinson Worldwide, Inc. was founded in 1905 and is headquartered in Eden Prairie, Minnesota."
+  "longBusinessSummary": "C.H. Robinson Worldwide, Inc., together with its subsidiaries, provides freight transportation and related logistics and supply chain services in the United States and internationally. It operates in two segments, North American Surface Transportation and Global Forwarding. The company offers transportation and logistics services, such as truckload; less than truckload transportation brokerage services, which include the shipment of single or multiple pallets of freight; intermodal transportation that comprises the shipment service of freight in containers or trailers by a combination of truck and rail; and non-vessel operating common carrier and freight forwarding services, as well as organizes indirect air carrier and freight forwarder providing door-to-door services. It also provides customs brokerage services; and other logistics services, such as fee-based managed, warehousing, supply chain consulting and optimization services, and other services. In addition, the company is involved in the buying, selling, and/or marketing of fresh fruits, vegetables, and other value-added perishable items under the Robinson Fresh trade name. Further, the company offers transportation management and other surface transportation services. It provides fresh produce to grocery retailers, restaurants, produce wholesalers. C.H. Robinson Worldwide, Inc. was founded in 1905 and is headquartered in Eden Prairie, Minnesota.",
+  "targetMeanPrice": 197.47826,
+  "targetLowPrice": 135.0,
+  "targetHighPrice": 235.0,
+  "numberOfAnalystOpinions": 23,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.52174,
+  "forwardPE": 19.016197,
+  "forwardEps": 7.48362,
+  "trailingEps": 5.24,
+  "earningsGrowth": 0.238,
+  "revenueGrowth": 0.193
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,38 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 5058381000.0,
+    "official": 5058381000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1845647000.0,
+    "official": 1845647000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 587081000.0,
+    "official": 587081000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 16232763000.0,
+    "official": 16232763000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:39:32+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -189,7 +230,9 @@
    "goodwill_and_intangibles": 1623639000.0,
    "retained_earnings": 5590440000.0,
    "total_debt": 1973704000.0,
-   "shares_out": 116323000.0
+   "shares_out": 116323000.0,
+   "normalized_ebitda": 1359558000.0,
+   "normalized_income": 940524000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -222,7 +265,9 @@
    "goodwill_and_intangibles": 1619791000.0,
    "retained_earnings": 5620790000.0,
    "total_debt": 1580487000.0,
-   "shares_out": 116768000.0
+   "shares_out": 116768000.0,
+   "normalized_ebitda": 613592000.0,
+   "normalized_income": 325129000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -255,7 +300,9 @@
    "goodwill_and_intangibles": 1559264000.0,
    "retained_earnings": 5786337000.0,
    "total_debt": 1377649000.0,
-   "shares_out": 118664000.0
+   "shares_out": 118664000.0,
+   "normalized_ebitda": 766301000.0,
+   "normalized_income": 465690000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -288,7 +335,9 @@
    "goodwill_and_intangibles": 1566445000.0,
    "retained_earnings": 6071118000.0,
    "total_debt": 1089438000.0,
-   "shares_out": 118429000.0
+   "shares_out": 118429000.0,
+   "normalized_ebitda": 897779000.0,
+   "normalized_income": 587081000.0
   }
  ]
 }

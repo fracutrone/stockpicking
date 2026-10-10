@@ -1,6 +1,6 @@
 {
  "ticker": "NNN",
- "fetched_at": "2026-10-10T12:53:02+00:00",
+ "fetched_at": "2026-10-10T15:51:02+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 85,
   "website": "https://www.nnnreit.com",
-  "longBusinessSummary": "NNN REIT, Inc. is a REIT that invests in high-quality properties subjected generally to long-term, net leases with minimal ongoing capital expenditures. As of June 30, 2026, the Company owned 3,774 properties across 50 states, the District of Columbia and Puerto Rico, encompassing approximately 40.4 million square feet of gross leasable area, with a weighted average remaining lease term of 10.1 years. NNN REIT, Inc. was incorporated in August 1984 in Maryland and is based in Orlando, Florida."
+  "longBusinessSummary": "NNN REIT, Inc. is a REIT that invests in high-quality properties subjected generally to long-term, net leases with minimal ongoing capital expenditures. As of June 30, 2026, the Company owned 3,774 properties across 50 states, the District of Columbia and Puerto Rico, encompassing approximately 40.4 million square feet of gross leasable area, with a weighted average remaining lease term of 10.1 years. NNN REIT, Inc. was incorporated in August 1984 in Maryland and is based in Orlando, Florida.",
+  "targetMeanPrice": 47.25,
+  "targetLowPrice": 42.0,
+  "targetHighPrice": 50.5,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.88889,
+  "forwardPE": 19.20828,
+  "forwardEps": 2.09493,
+  "trailingEps": 2.02,
+  "earningsGrowth": -0.037,
+  "revenueGrowth": 0.077
  },
  "governance": {
   "ceo": {
@@ -80,8 +91,39 @@
   "retained_earnings": "sec",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "tax": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 9379355000.0,
+    "official": 9379355000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4408302000.0,
+    "official": 4408302000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 389777000.0,
+    "official": 389777000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 926213000.0,
+    "official": 926213000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:51:02+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -157,7 +199,10 @@
    "goodwill_and_intangibles": 61652000.0,
    "retained_earnings": -793765000.0,
    "total_debt": 3916054000.0,
-   "shares_out": 181424670.0
+   "shares_out": 181424670.0,
+   "unusual_items": 9134000.0,
+   "normalized_ebitda": 697386000.0,
+   "normalized_income": 327849485.4
   },
   {
    "fy_end": "2023-12-31",
@@ -186,7 +231,10 @@
    "goodwill_and_intangibles": 52814000.0,
    "retained_earnings": -805883000.0,
    "total_debt": 4360544000.0,
-   "shares_out": 182474770.0
+   "shares_out": 182474770.0,
+   "unusual_items": 41495000.0,
+   "normalized_ebitda": 753368000.0,
+   "normalized_income": 361538261.5
   },
   {
    "fy_end": "2024-12-31",
@@ -215,7 +263,10 @@
    "goodwill_and_intangibles": 44325000.0,
    "retained_earnings": -829287000.0,
    "total_debt": 4373803000.0,
-   "shares_out": 187540929.0
+   "shares_out": 187540929.0,
+   "unusual_items": 35658000.0,
+   "normalized_ebitda": 794875000.0,
+   "normalized_income": 370316145.4
   },
   {
    "fy_end": "2025-12-31",
@@ -244,7 +295,10 @@
    "goodwill_and_intangibles": 47777000.0,
    "retained_earnings": -882712000.0,
    "total_debt": 4820424000.0,
-   "shares_out": 189937404.0
+   "shares_out": 189937404.0,
+   "unusual_items": 19618000.0,
+   "normalized_ebitda": 842553000.0,
+   "normalized_income": 375175322.6
   }
  ]
 }

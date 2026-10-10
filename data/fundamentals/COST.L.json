@@ -1,6 +1,6 @@
 {
  "ticker": "COST.L",
- "fetched_at": "2026-10-10T11:52:23+00:00",
+ "fetched_at": "2026-10-10T14:40:39+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.02012,
   "heldPercentInstitutions": 0.52995,
   "shortPercentOfFloat": null,
-  "averageVolume": 1476491,
+  "averageVolume": 1466054,
   "quoteType": "EQUITY",
   "exchange": "LSE",
   "fullTimeEmployees": 3266,
   "website": "https://www.costain.com",
-  "longBusinessSummary": "Costain Group PLC provides infrastructure solutions for the transportation, energy, water, and defense sectors in the United Kingdom. The company operates in two segments, Transportation and Natural Resources. It operates in the road, rail, and integrated transport markets, as well as in the water, energy, defense, and nuclear energy markets. The company also provides engineering, construction, maintenance, renewals, advisory, design, and consulting services, as well as solutions. Costain Group PLC was founded in 1865 and is headquartered in London, the United Kingdom."
+  "longBusinessSummary": "Costain Group PLC provides infrastructure solutions for the transportation, energy, water, and defense sectors in the United Kingdom. The company operates in two segments, Transportation and Natural Resources. It operates in the road, rail, and integrated transport markets, as well as in the water, energy, defense, and nuclear energy markets. The company also provides engineering, construction, maintenance, renewals, advisory, design, and consulting services, as well as solutions. Costain Group PLC was founded in 1865 and is headquartered in London, the United Kingdom.",
+  "targetMeanPrice": 257.0,
+  "targetLowPrice": 200.0,
+  "targetHighPrice": 297.0,
+  "numberOfAnalystOpinions": 6,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 13.802978,
+  "forwardEps": 0.1746,
+  "trailingEps": 0.14,
+  "earningsGrowth": 0.057,
+  "revenueGrowth": 0.034
  },
  "governance": {
   "ceo": {
@@ -70,8 +81,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 561900000.0,
+    "official": 561900000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 258200000.0,
+    "official": 258200000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 37300000.0,
+    "official": 37300000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1045700000.0,
+    "official": 1045700000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:40:40+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -105,7 +147,9 @@
    "goodwill_and_intangibles": 52200000.0,
    "retained_earnings": 56700000.0,
    "total_debt": 29500000.0,
-   "shares_out": 275084741.0
+   "shares_out": 275084741.0,
+   "normalized_ebitda": 48600000.0,
+   "normalized_income": 25900000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -139,7 +183,9 @@
    "goodwill_and_intangibles": 45700000.0,
    "retained_earnings": 66000000.0,
    "total_debt": 24300000.0,
-   "shares_out": 276718885.0
+   "shares_out": 276718885.0,
+   "normalized_ebitda": 50900000.0,
+   "normalized_income": 22100000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -172,7 +218,9 @@
    "goodwill_and_intangibles": 51200000.0,
    "retained_earnings": 80100000.0,
    "total_debt": 25800000.0,
-   "shares_out": 268766087.0
+   "shares_out": 268766087.0,
+   "normalized_ebitda": 52600000.0,
+   "normalized_income": 30600000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -205,7 +253,9 @@
    "goodwill_and_intangibles": 51100000.0,
    "retained_earnings": 103400000.0,
    "total_debt": 25000000.0,
-   "shares_out": 266714895.0
+   "shares_out": 266714895.0,
+   "normalized_ebitda": 65300000.0,
+   "normalized_income": 37300000.0
   }
  ]
 }

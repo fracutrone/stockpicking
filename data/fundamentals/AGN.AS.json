@@ -1,6 +1,6 @@
 {
  "ticker": "AGN.AS",
- "fetched_at": "2026-10-10T11:44:09+00:00",
+ "fetched_at": "2026-10-10T14:28:37+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.16875,
   "heldPercentInstitutions": 0.39801,
   "shortPercentOfFloat": null,
-  "averageVolume": 4228816,
+  "averageVolume": 4237045,
   "quoteType": "EQUITY",
   "exchange": "AMS",
   "fullTimeEmployees": 12100,
   "website": "https://www.aegon.com",
-  "longBusinessSummary": "Aegon Ltd. provides insurance services in the Americas, the Netherlands, the United Kingdom, and internationally. It offers retirement plans, mutual funds, and unit-linked products; and annuities, life, and health insurance. The company provides its products under the Transamerica and World Financial Group brands. Aegon Ltd. was founded in 1844 and is based in Schiphol, the Netherlands."
+  "longBusinessSummary": "Aegon Ltd. provides insurance services in the Americas, the Netherlands, the United Kingdom, and internationally. It offers retirement plans, mutual funds, and unit-linked products; and annuities, life, and health insurance. The company provides its products under the Transamerica and World Financial Group brands. Aegon Ltd. was founded in 1844 and is based in Schiphol, the Netherlands.",
+  "targetMeanPrice": 8.24,
+  "targetLowPrice": 7.0,
+  "targetHighPrice": 9.45,
+  "numberOfAnalystOpinions": 13,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.23077,
+  "forwardPE": 8.00242,
+  "forwardEps": 0.92522,
+  "trailingEps": 0.59,
+  "earningsGrowth": 0.079,
+  "revenueGrowth": -0.082
  },
  "governance": {
   "ceo": {
@@ -69,8 +80,34 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF NL",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 317233000000.0,
+    "official": 317233000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 9410000000.0,
+    "official": 9410000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 977000000.0,
+    "official": 977000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:28:37+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -97,7 +134,9 @@
    "goodwill_and_intangibles": 420000000.0,
    "retained_earnings": 7770000000.0,
    "total_debt": 6674000000.0,
-   "shares_out": 1975184223.0
+   "shares_out": 1975184223.0,
+   "unusual_items": -68000000.0,
+   "normalized_income": 726000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -124,7 +163,8 @@
    "goodwill_and_intangibles": 504000000.0,
    "retained_earnings": 5099000000.0,
    "total_debt": 4917000000.0,
-   "shares_out": 1751952368.0
+   "shares_out": 1751952368.0,
+   "normalized_income": -162000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -151,7 +191,8 @@
    "goodwill_and_intangibles": 575000000.0,
    "retained_earnings": 4347000000.0,
    "total_debt": 4995000000.0,
-   "shares_out": 1592499013.0
+   "shares_out": 1592499013.0,
+   "normalized_income": 688000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -178,7 +219,8 @@
    "goodwill_and_intangibles": 519000000.0,
    "retained_earnings": 4238000000.0,
    "total_debt": 3729000000.0,
-   "shares_out": 1512525453.0
+   "shares_out": 1512525453.0,
+   "normalized_income": 977000000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "ELE.MC",
- "fetched_at": "2026-10-10T11:55:40+00:00",
+ "fetched_at": "2026-10-10T14:44:48+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "MCE",
   "fullTimeEmployees": 8924,
   "website": "https://www.endesa.com",
-  "longBusinessSummary": "Endesa, S.A. engages in the generation, distribution, and sale of electricity in Spain, Portugal, France, Germany, the United Kingdom, Switzerland, Luxembourg, the Netherlands, Singapore, Italy, Morocco, and internationally. It generates electricity from various energy sources, such as hydroelectric, nuclear, thermal, wind, and solar. The company also offers advisory services and technology relating to energy, distributed generation, and energy demand management; deploys infrastructures for charging electric vehicles, vehicle-to-grid, and second-life services for batteries; develops integrated services for local administrations, such as public lighting, smart city development, energy services, and solutions for connectivity; and provides financial solutions for energy producers, as well as offers engineering and construction services for facilities related to the electricity business. As of December 31, 2025, it had an installed capacity of 22, 616 MW; operated 321,843 km of distribution networks and transmission grids; and distributed electricity to 9,590 thousand customers and gas to 1,699 thousand customers. The company was formerly known as Empresa Nacional de Electricidad, S.A. and changed its name to Endesa, S.A. in June 1997. The company was incorporated in 1944 and is headquartered in Madrid, Spain. Endesa, S.A. is a subsidiary of Enel Iberia Srl."
+  "longBusinessSummary": "Endesa, S.A. engages in the generation, distribution, and sale of electricity in Spain, Portugal, France, Germany, the United Kingdom, Switzerland, Luxembourg, the Netherlands, Singapore, Italy, Morocco, and internationally. It generates electricity from various energy sources, such as hydroelectric, nuclear, thermal, wind, and solar. The company also offers advisory services and technology relating to energy, distributed generation, and energy demand management; deploys infrastructures for charging electric vehicles, vehicle-to-grid, and second-life services for batteries; develops integrated services for local administrations, such as public lighting, smart city development, energy services, and solutions for connectivity; and provides financial solutions for energy producers, as well as offers engineering and construction services for facilities related to the electricity business. As of December 31, 2025, it had an installed capacity of 22, 616 MW; operated 321,843 km of distribution networks and transmission grids; and distributed electricity to 9,590 thousand customers and gas to 1,699 thousand customers. The company was formerly known as Empresa Nacional de Electricidad, S.A. and changed its name to Endesa, S.A. in June 1997. The company was incorporated in 1944 and is headquartered in Madrid, Spain. Endesa, S.A. is a subsidiary of Enel Iberia Srl.",
+  "targetMeanPrice": 35.96609,
+  "targetLowPrice": 27.4,
+  "targetHighPrice": 44.3,
+  "numberOfAnalystOpinions": 23,
+  "recommendationKey": "underperform",
+  "recommendationMean": 3.56522,
+  "forwardPE": 17.665962,
+  "forwardEps": 2.38368,
+  "trailingEps": 2.54,
+  "earningsGrowth": 0.678,
+  "revenueGrowth": 0.035
  },
  "governance": {
   "ceo": {
@@ -81,8 +92,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF ES",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 37345000000.0,
+    "official": 37345000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 8110000000.0,
+    "official": 8110000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1888000000.0,
+    "official": 1888000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 20927000000.0,
+    "official": 20935000000.0,
+    "diff": 0.000382
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T14:44:48+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -117,7 +160,10 @@
    "goodwill_and_intangibles": 2098000000.0,
    "retained_earnings": 6812000000.0,
    "total_debt": 18488000000.0,
-   "shares_out": 1058589659.0
+   "shares_out": 1058589659.0,
+   "unusual_items": -2157000000.0,
+   "normalized_ebitda": 7538000000.0,
+   "normalized_income": 4145808000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -152,7 +198,10 @@
    "goodwill_and_intangibles": 2108000000.0,
    "retained_earnings": 5876000000.0,
    "total_debt": 13727000000.0,
-   "shares_out": 1058517438.0
+   "shares_out": 1058517438.0,
+   "unusual_items": -3593000000.0,
+   "normalized_ebitda": 6917000000.0,
+   "normalized_income": 3310995000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -187,7 +236,10 @@
    "goodwill_and_intangibles": 1998000000.0,
    "retained_earnings": 6785000000.0,
    "total_debt": 10963000000.0,
-   "shares_out": 1058550281.0
+   "shares_out": 1058550281.0,
+   "unusual_items": -1226000000.0,
+   "normalized_ebitda": 6175000000.0,
+   "normalized_income": 2784206000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -222,7 +274,10 @@
    "goodwill_and_intangibles": 2031000000.0,
    "retained_earnings": 7583000000.0,
    "total_debt": 10895000000.0,
-   "shares_out": 1038804244.0
+   "shares_out": 1038804244.0,
+   "unusual_items": -311000000.0,
+   "normalized_ebitda": 5625000000.0,
+   "normalized_income": 2436226000.0
   }
  ]
 }

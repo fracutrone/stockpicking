@@ -1,6 +1,6 @@
 {
  "ticker": "INF.L",
- "fetched_at": "2026-10-10T12:03:36+00:00",
+ "fetched_at": "2026-10-10T14:58:03+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 14052,
   "website": "https://www.informa.com",
-  "longBusinessSummary": "Informa plc operates as an international events, digital services, and academic research company in the United Kingdom, Continental Europe, North America, China, and internationally. It operates through five segments: Informa Markets, Informa Connect, Informa Festivals, Taylor & Francis, and Infroma TechTarget. The Informa Markets segment enable buyers, sellers, and decision makers to meet, discover, and showcase new products in various specialist markets, as well as delivers live events, including annual business-to-business exhibitions, specialist content, and services that help buyers and suppliers connect digitally comprising lead and demand generation solutions. Its Informa Connect segment delivers digital content; and creates content-led live and on demand events and experiences for professionals in finance, life sciences, foodservice, and other specialist markets through in-person, live, and online platforms that enables businesses and professionals to meet, network, discuss, and learn. Informa Festivals segment engages in experience-led B2B events. The Informa TechTarget segment provides B2B data and market access services. Its Taylor & Francis segment curates and publishes applied academic research, learning, and championing communities of academics, researchers, experts, and knowledge makers in science, technology and medicine, and humanities and social sciences fields in pay-to-publish and pay-to-read, open research, and advanced learning formats. The company was formerly known as T&F Informa plc and changed its name to Informa plc in August 2005. Informa plc was founded in 1998 and is headquartered in London, the United Kingdom."
+  "longBusinessSummary": "Informa plc operates as an international events, digital services, and academic research company in the United Kingdom, Continental Europe, North America, China, and internationally. It operates through five segments: Informa Markets, Informa Connect, Informa Festivals, Taylor & Francis, and Infroma TechTarget. The Informa Markets segment enable buyers, sellers, and decision makers to meet, discover, and showcase new products in various specialist markets, as well as delivers live events, including annual business-to-business exhibitions, specialist content, and services that help buyers and suppliers connect digitally comprising lead and demand generation solutions. Its Informa Connect segment delivers digital content; and creates content-led live and on demand events and experiences for professionals in finance, life sciences, foodservice, and other specialist markets through in-person, live, and online platforms that enables businesses and professionals to meet, network, discuss, and learn. Informa Festivals segment engages in experience-led B2B events. The Informa TechTarget segment provides B2B data and market access services. Its Taylor & Francis segment curates and publishes applied academic research, learning, and championing communities of academics, researchers, experts, and knowledge makers in science, technology and medicine, and humanities and social sciences fields in pay-to-publish and pay-to-read, open research, and advanced learning formats. The company was formerly known as T&F Informa plc and changed its name to Informa plc in August 2005. Informa plc was founded in 1998 and is headquartered in London, the United Kingdom.",
+  "targetMeanPrice": 1110.357,
+  "targetLowPrice": 850.0,
+  "targetHighPrice": 1290.0,
+  "numberOfAnalystOpinions": 14,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.53333,
+  "forwardPE": 13.483077,
+  "forwardEps": 0.66424,
+  "trailingEps": 0.17,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.014
  },
  "governance": {
   "ceo": {
@@ -81,8 +92,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 12324800000.0,
+    "official": 12324800000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 5651200000.0,
+    "official": 5651200000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 11000000.0,
+    "official": 11000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 4041400000.0,
+    "official": 4041400000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:58:03+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -116,7 +159,10 @@
    "goodwill_and_intangibles": 8853000000.0,
    "retained_earnings": 3168400000.0,
    "total_debt": 2211200000.0,
-   "shares_out": 1414509719.0
+   "shares_out": 1414509719.0,
+   "unusual_items": -27000000.0,
+   "normalized_ebitda": 615600000.0,
+   "normalized_income": 160980000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -150,7 +196,10 @@
    "goodwill_and_intangibles": 9743600000.0,
    "retained_earnings": 2853500000.0,
    "total_debt": 1778300000.0,
-   "shares_out": 1365335888.0
+   "shares_out": 1365335888.0,
+   "unusual_items": -22300000.0,
+   "normalized_ebitda": 974800000.0,
+   "normalized_income": 439962000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -185,7 +234,10 @@
    "goodwill_and_intangibles": 11597900000.0,
    "retained_earnings": 2460500000.0,
    "total_debt": 3485700000.0,
-   "shares_out": 1320409146.0
+   "shares_out": 1320409146.0,
+   "unusual_items": -196600000.0,
+   "normalized_ebitda": 1096900000.0,
+   "normalized_income": 474557942.54849
   },
   {
    "fy_end": "2025-12-31",
@@ -219,7 +271,10 @@
    "goodwill_and_intangibles": 10419400000.0,
    "retained_earnings": 1872200000.0,
    "total_debt": 3479100000.0,
-   "shares_out": 1279760327.0
+   "shares_out": 1279760327.0,
+   "unusual_items": -236300000.0,
+   "normalized_ebitda": 775400000.0,
+   "normalized_income": 1035575000.0
   }
  ]
 }

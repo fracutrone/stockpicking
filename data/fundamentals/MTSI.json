@@ -1,6 +1,6 @@
 {
  "ticker": "MTSI",
- "fetched_at": "2026-10-10T12:52:26+00:00",
+ "fetched_at": "2026-10-10T15:50:31+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 2000,
   "website": "https://www.macom.com",
-  "longBusinessSummary": "MACOM Technology Solutions Holdings, Inc., together with its subsidiaries, provides analog semiconductor solutions for use in wireless and wireline applications across the radio frequency (RF), microwave, millimeter wave, and lightwave spectrum. The company offers a portfolio of standard and custom devices, including integrated circuits, multi-chip modules, diodes, amplifiers, switches and switch limiters, passive and active components, and subsystems. Its semiconductor products are electronic components that are incorporated in electronic systems, such as wireless base stations, optical networks, radar and medical systems, satellite networks, and test and measurement applications. The company serves carrier infrastructure, which comprise long-haul/metro, 5G and 6G infrastructure, satellite communications, and fiber-to-the-X/passive optical network; industrial and defense, including military and commercial radar, RF jammers, electronic countermeasures, and communication data links, as well as multi-market applications, such as industrial, medical, test and measurement, and scientific applications; and data centers. It sells its products through direct sales force, applications engineering staff, independent sales representatives, resellers, and distributors. The company operates in the United States, China, Japan, Singapore, South Korea, Taiwan, and internationally. MACOM Technology Solutions Holdings, Inc. was formerly known as M/A-Com Technology Solutions Holdings, Inc. and changed its name to MACOM Technology Solutions Holdings, Inc. in 2016. MACOM Technology Solutions Holdings, Inc. was founded in 1950 and is based in Lowell, Massachusetts."
+  "longBusinessSummary": "MACOM Technology Solutions Holdings, Inc., together with its subsidiaries, provides analog semiconductor solutions for use in wireless and wireline applications across the radio frequency (RF), microwave, millimeter wave, and lightwave spectrum. The company offers a portfolio of standard and custom devices, including integrated circuits, multi-chip modules, diodes, amplifiers, switches and switch limiters, passive and active components, and subsystems. Its semiconductor products are electronic components that are incorporated in electronic systems, such as wireless base stations, optical networks, radar and medical systems, satellite networks, and test and measurement applications. The company serves carrier infrastructure, which comprise long-haul/metro, 5G and 6G infrastructure, satellite communications, and fiber-to-the-X/passive optical network; industrial and defense, including military and commercial radar, RF jammers, electronic countermeasures, and communication data links, as well as multi-market applications, such as industrial, medical, test and measurement, and scientific applications; and data centers. It sells its products through direct sales force, applications engineering staff, independent sales representatives, resellers, and distributors. The company operates in the United States, China, Japan, Singapore, South Korea, Taiwan, and internationally. MACOM Technology Solutions Holdings, Inc. was formerly known as M/A-Com Technology Solutions Holdings, Inc. and changed its name to MACOM Technology Solutions Holdings, Inc. in 2016. MACOM Technology Solutions Holdings, Inc. was founded in 1950 and is based in Lowell, Massachusetts.",
+  "targetMeanPrice": 395.33334,
+  "targetLowPrice": 300.0,
+  "targetHighPrice": 475.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.5625,
+  "forwardPE": 38.87541,
+  "forwardEps": 8.4902,
+  "trailingEps": 3.14,
+  "earningsGrowth": 1.667,
+  "revenueGrowth": 0.358
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-09-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 2103360000.0,
+    "official": 2103360000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1327095000.0,
+    "official": 1327095000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -54210000.0,
+    "official": -54210000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 967258000.0,
+    "official": 967258000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:50:31+00:00",
  "years": [
   {
    "fy_end": "2019-09-27",
@@ -211,7 +253,10 @@
    "goodwill_and_intangibles": 362671000.0,
    "retained_earnings": -354286000.0,
    "total_debt": 565920000.0,
-   "shares_out": 69999000.0
+   "shares_out": 69999000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 308900000.0,
+   "normalized_income": 439955000.0
   },
   {
    "fy_end": "2023-09-29",
@@ -246,7 +291,10 @@
    "goodwill_and_intangibles": 390392000.0,
    "retained_earnings": -262709000.0,
    "total_debt": 447134000.0,
-   "shares_out": 70990000.0
+   "shares_out": 70990000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 179695000.0,
+   "normalized_income": 91577000.0
   },
   {
    "fy_end": "2024-09-27",
@@ -281,7 +329,10 @@
    "goodwill_and_intangibles": 408289000.0,
    "retained_earnings": -185850000.0,
    "total_debt": 448281000.0,
-   "shares_out": 72196000.0
+   "shares_out": 72196000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 163911000.0,
+   "normalized_income": 76859000.0
   },
   {
    "fy_end": "2025-10-03",
@@ -316,7 +367,10 @@
    "goodwill_and_intangibles": 414885000.0,
    "retained_earnings": -240060000.0,
    "total_debt": 500576000.0,
-   "shares_out": 74478000.0
+   "shares_out": 74478000.0,
+   "unusual_items": -193098000.0,
+   "normalized_ebitda": 232884000.0,
+   "normalized_income": 98337420.0
   }
  ]
 }

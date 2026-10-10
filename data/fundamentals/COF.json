@@ -1,6 +1,6 @@
 {
  "ticker": "COF",
- "fetched_at": "2026-10-10T12:41:31+00:00",
+ "fetched_at": "2026-10-10T15:40:08+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 78400,
   "website": "https://www.capitalone.com",
-  "longBusinessSummary": "Capital One Financial Corporation operates as the financial services holding company for the Capital One, National Association, which engages in the provision of various financial products and services in the United States, Canada, and the United Kingdom. It operates through three segments: Credit Card, Consumer Banking, and Commercial Banking. The company accepts checking accounts, money market deposits, negotiable order of withdrawals, savings deposits, time deposits, and sweep accounts. Its loan products include credit card and personal loans; auto and retail banking loans; and commercial and multifamily real estate, and commercial and industrial loans. The company offers credit and debit card products; bank lending; and provides advisory, capital markets, net interchange, treasury management, and depository services. It serves consumers, small businesses, and commercial clients through digital channels, branches, cafés, and other distribution channels located in New York, Louisiana, Texas, Maryland, Virginia, New Jersey, and the District of Columbia. Capital One Financial Corporation was founded in 1988 and is headquartered in McLean, Virginia."
+  "longBusinessSummary": "Capital One Financial Corporation operates as the financial services holding company for the Capital One, National Association, which engages in the provision of various financial products and services in the United States, Canada, and the United Kingdom. It operates through three segments: Credit Card, Consumer Banking, and Commercial Banking. The company accepts checking accounts, money market deposits, negotiable order of withdrawals, savings deposits, time deposits, and sweep accounts. Its loan products include credit card and personal loans; auto and retail banking loans; and commercial and multifamily real estate, and commercial and industrial loans. The company offers credit and debit card products; bank lending; and provides advisory, capital markets, net interchange, treasury management, and depository services. It serves consumers, small businesses, and commercial clients through digital channels, branches, cafés, and other distribution channels located in New York, Louisiana, Texas, Maryland, Virginia, New Jersey, and the District of Columbia. Capital One Financial Corporation was founded in 1988 and is headquartered in McLean, Virginia.",
+  "targetMeanPrice": 254.77274,
+  "targetLowPrice": 219.0,
+  "targetHighPrice": 290.0,
+  "numberOfAnalystOpinions": 22,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.625,
+  "forwardPE": 8.357394,
+  "forwardEps": 23.84236,
+  "trailingEps": 15.57,
+  "earningsGrowth": null,
+  "revenueGrowth": 11.11
  },
  "governance": {
   "ceo": {
@@ -78,8 +89,38 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "noninterest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 669009000000.0,
+    "official": 669009000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 113616000000.0,
+    "official": 113616000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2453000000.0,
+    "official": 2453000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 53434000000.0,
+    "official": 53434000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:40:08+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -173,7 +214,9 @@
    "goodwill_and_intangibles": 14777000000.0,
    "retained_earnings": 57184000000.0,
    "total_debt": 48715000000.0,
-   "shares_out": 381318702.0
+   "shares_out": 381318702.0,
+   "unusual_items": -72000000.0,
+   "normalized_income": 7417384000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -201,7 +244,9 @@
    "goodwill_and_intangibles": 15065000000.0,
    "retained_earnings": 60945000000.0,
    "total_debt": 49856000000.0,
-   "shares_out": 380389609.0
+   "shares_out": 380389609.0,
+   "unusual_items": 0.0,
+   "normalized_income": 4887000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -229,7 +274,9 @@
    "goodwill_and_intangibles": 15292000000.0,
    "retained_earnings": 64505000000.0,
    "total_debt": 45551000000.0,
-   "shares_out": 381230343.0
+   "shares_out": 381230343.0,
+   "unusual_items": -234000000.0,
+   "normalized_income": 4934952284.263959
   },
   {
    "fy_end": "2025-12-31",
@@ -257,7 +304,9 @@
    "goodwill_and_intangibles": 45087000000.0,
    "retained_earnings": 65192000000.0,
    "total_debt": 51000000000.0,
-   "shares_out": 625102271.0
+   "shares_out": 625102271.0,
+   "unusual_items": -1100000000.0,
+   "normalized_income": 3094926786.49715
   }
  ]
 }

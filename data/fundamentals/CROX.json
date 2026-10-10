@@ -1,6 +1,6 @@
 {
  "ticker": "CROX",
- "fetched_at": "2026-10-10T12:42:07+00:00",
+ "fetched_at": "2026-10-10T15:40:37+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 8010,
   "website": "https://www.crocs.com",
-  "longBusinessSummary": "Crocs, Inc. together with its subsidiaries, designs, develops, manufactures, markets, distributes, and sells casual lifestyle footwear and accessories for men, women, and kids under the Crocs and HEYDUDE Brands in the United States and internationally. The company offers various footwear products, including clogs, sandals, loafers, classics, fuzz, platforms, boots, sandals, slides, slippers, sneakers, flip flops, and flats, as well as totes, backpacks, belt bags, socks, bag charms, cases, attachments, cartoon characters products, and touchland and other accessories. It sells its products through wholesalers, retail stores, e-commerce sites, third-party marketplaces, outlet stores, and kiosks/store-in-store locations. Crocs, Inc. was founded in 1999 and is headquartered in Broomfield, Colorado."
+  "longBusinessSummary": "Crocs, Inc. together with its subsidiaries, designs, develops, manufactures, markets, distributes, and sells casual lifestyle footwear and accessories for men, women, and kids under the Crocs and HEYDUDE Brands in the United States and internationally. The company offers various footwear products, including clogs, sandals, loafers, classics, fuzz, platforms, boots, sandals, slides, slippers, sneakers, flip flops, and flats, as well as totes, backpacks, belt bags, socks, bag charms, cases, attachments, cartoon characters products, and touchland and other accessories. It sells its products through wholesalers, retail stores, e-commerce sites, third-party marketplaces, outlet stores, and kiosks/store-in-store locations. Crocs, Inc. was founded in 1999 and is headquartered in Broomfield, Colorado.",
+  "targetMeanPrice": 137.0,
+  "targetLowPrice": 95.0,
+  "targetHighPrice": 163.0,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.33333,
+  "forwardPE": 7.692653,
+  "forwardEps": 14.94673,
+  "trailingEps": 11.41,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.026
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 4174750000.0,
+    "official": 4174750000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1293283000.0,
+    "official": 1293283000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -81198000.0,
+    "official": -81198000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 4040647000.0,
+    "official": 4040647000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:40:37+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -206,7 +248,10 @@
    "goodwill_and_intangibles": 2514981000.0,
    "retained_earnings": 1819199000.0,
    "total_debt": 2322389000.0,
-   "shares_out": 61700000.0
+   "shares_out": 61700000.0,
+   "unusual_items": 3228000.0,
+   "normalized_ebitda": 890667000.0,
+   "normalized_income": 537731544.0
   },
   {
    "fy_end": "2023-12-31",
@@ -240,7 +285,10 @@
    "goodwill_and_intangibles": 2504150000.0,
    "retained_earnings": 2611765000.0,
    "total_debt": 1664324000.0,
-   "shares_out": 60500000.0
+   "shares_out": 60500000.0,
+   "unusual_items": -10527000.0,
+   "normalized_ebitda": 1102454000.0,
+   "normalized_income": 802082408.0
   },
   {
    "fy_end": "2024-12-31",
@@ -274,7 +322,10 @@
    "goodwill_and_intangibles": 2488571000.0,
    "retained_earnings": 3561836000.0,
    "total_debt": 1349339000.0,
-   "shares_out": 56500000.0
+   "shares_out": 56500000.0,
+   "unusual_items": -30859000.0,
+   "normalized_ebitda": 1120548000.0,
+   "normalized_income": 974449610.0
   },
   {
    "fy_end": "2025-12-31",
@@ -308,7 +359,10 @@
    "goodwill_and_intangibles": 1729369000.0,
    "retained_earnings": 3480638000.0,
    "total_debt": 1230885000.0,
-   "shares_out": 50200000.0
+   "shares_out": 50200000.0,
+   "unusual_items": -728272000.0,
+   "normalized_ebitda": 968819000.0,
+   "normalized_income": 494136880.0
   }
  ]
 }

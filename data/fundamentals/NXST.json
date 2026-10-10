@@ -1,6 +1,6 @@
 {
  "ticker": "NXST",
- "fetched_at": "2026-10-10T12:53:35+00:00",
+ "fetched_at": "2026-10-10T15:51:45+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": null,
   "website": "https://www.nexstar.tv",
-  "longBusinessSummary": "Nexstar Media Group, Inc. operates as a diversified media company that produces and distributes local and national news, sports, and entertainment contents on the television and digital platforms in the United States. It owns, operates, programs, or provides sales and other services to power television and radio stations; and provides television programming services. The company offers video and display advertising platforms through its own and various third party websites, mobile and over-the-top applications, digital media solutions to media publishers and advertisers, and a consumer product reviews platform. In addition, it owns NewsNation, a national cable news network; and WGN-AM, a Chicago radio station, as well as owns and operates digital multicast networks. Further, its digital assets include 125 local websites, 229 mobile applications, 110 connected television applications, television channels from The CW and The Hill, BestReviews, and advertising solutions. Additionally, the company engages in the digital business. Its stations are affiliates of ABC, NBC, FOX, CBS, The CW, MyNetworkTV, and other broadcast television networks. Nexstar Media Group, Inc. was formerly known as Nexstar Broadcasting Group, Inc. and changed its name to Nexstar Media Group, Inc. in January 2017. The company was founded in 1996 and is headquartered in Irving, Texas."
+  "longBusinessSummary": "Nexstar Media Group, Inc. operates as a diversified media company that produces and distributes local and national news, sports, and entertainment contents on the television and digital platforms in the United States. It owns, operates, programs, or provides sales and other services to power television and radio stations; and provides television programming services. The company offers video and display advertising platforms through its own and various third party websites, mobile and over-the-top applications, digital media solutions to media publishers and advertisers, and a consumer product reviews platform. In addition, it owns NewsNation, a national cable news network; and WGN-AM, a Chicago radio station, as well as owns and operates digital multicast networks. Further, its digital assets include 125 local websites, 229 mobile applications, 110 connected television applications, television channels from The CW and The Hill, BestReviews, and advertising solutions. Additionally, the company engages in the digital business. Its stations are affiliates of ABC, NBC, FOX, CBS, The CW, MyNetworkTV, and other broadcast television networks. Nexstar Media Group, Inc. was formerly known as Nexstar Broadcasting Group, Inc. and changed its name to Nexstar Media Group, Inc. in January 2017. The company was founded in 1996 and is headquartered in Irving, Texas.",
+  "targetMeanPrice": 246.75,
+  "targetLowPrice": 205.0,
+  "targetHighPrice": 290.0,
+  "numberOfAnalystOpinions": 8,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.25,
+  "forwardPE": 6.928066,
+  "forwardEps": 23.30376,
+  "trailingEps": 5.26,
+  "earningsGrowth": 0.18,
+  "revenueGrowth": 0.622
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 10846000000.0,
+    "official": 10846000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2064000000.0,
+    "official": 2064000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 109000000.0,
+    "official": 109000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 4949000000.0,
+    "official": 4949000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:51:45+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -192,7 +234,10 @@
    "goodwill_and_intangibles": 8305000000.0,
    "retained_earnings": 3033000000.0,
    "total_debt": 6951000000.0,
-   "shares_out": 36810186.0
+   "shares_out": 36810186.0,
+   "unusual_items": -77000000.0,
+   "normalized_ebitda": 2293000000.0,
+   "normalized_income": 1030663927.691044
   },
   {
    "fy_end": "2023-12-31",
@@ -225,7 +270,10 @@
    "goodwill_and_intangibles": 7999000000.0,
    "retained_earnings": 3188000000.0,
    "total_debt": 6837000000.0,
-   "shares_out": 33600926.0
+   "shares_out": 33600926.0,
+   "unusual_items": -35000000.0,
+   "normalized_ebitda": 1824000000.0,
+   "normalized_income": 369566084.78803
   },
   {
    "fy_end": "2024-12-31",
@@ -258,7 +306,10 @@
    "goodwill_and_intangibles": 7698000000.0,
    "retained_earnings": 3671000000.0,
    "total_debt": 6523000000.0,
-   "shares_out": 30621241.0
+   "shares_out": 30621241.0,
+   "unusual_items": 16000000.0,
+   "normalized_ebitda": 2195000000.0,
+   "normalized_income": 710608000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -291,7 +342,10 @@
    "goodwill_and_intangibles": 7446000000.0,
    "retained_earnings": 3537000000.0,
    "total_debt": 6333000000.0,
-   "shares_out": 30327669.0
+   "shares_out": 30327669.0,
+   "unusual_items": -395000000.0,
+   "normalized_ebitda": 1709000000.0,
+   "normalized_income": 421050000.0
   }
  ]
 }

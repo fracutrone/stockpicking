@@ -1,6 +1,6 @@
 {
  "ticker": "CHDN",
- "fetched_at": "2026-10-10T12:40:37+00:00",
+ "fetched_at": "2026-10-10T15:39:26+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 6600,
   "website": "https://www.churchilldownsincorporated.com",
-  "longBusinessSummary": "Churchill Downs Incorporated operates live and historical racing entertainment venues, online wagering businesses, and regional casino gaming properties in the United States. It operates through three segments: Live and Historical Racing, Wagering Services and Solutions, and Gaming. The Live and Historical Racing segment engages in live and historical pari-mutuel racing related activities at Churchill Downs Racetrack and its historical racing properties in Kentucky, Virginia, and New Hampshire; provides racing event-related services, including admissions, personal seat licenses, sponsorships, television rights, and other miscellaneous services, as well as food and beverages services. The Wagering Services and Solutions engages in pari-mutuel wagers through TwinSpires, which operates the online horse racing wagering business for TwinSpires.com, BetAmerica.com, and other white-label platforms; facilitates dollar wagering; provides the Bloodstock Research Information Services platform for horse racing statistical data; offers streaming video of live horse races, replays, and an assortment of racing and handicapping information; and provides technology services to third parties. This segment also operates retail and online sports betting businesses, United Tote, which manufactures and operates pari-mutuel wagering systems for racetracks, OTBs, and other pari-mutuel wagering businesses, and Exacta, which provides central determinant system technology in HRMs. The Gaming segment operates the casino properties and associated racetracks, which include slot machines, table games, video lottery terminals, video poker, HRMs, ancillary food and beverage services, hotel services, commission on pari-mutuel wagering, racing event-related services, and other miscellaneous operations. Churchill Downs Incorporated was founded in 1875 and is headquartered in Louisville, Kentucky."
+  "longBusinessSummary": "Churchill Downs Incorporated operates live and historical racing entertainment venues, online wagering businesses, and regional casino gaming properties in the United States. It operates through three segments: Live and Historical Racing, Wagering Services and Solutions, and Gaming. The Live and Historical Racing segment engages in live and historical pari-mutuel racing related activities at Churchill Downs Racetrack and its historical racing properties in Kentucky, Virginia, and New Hampshire; provides racing event-related services, including admissions, personal seat licenses, sponsorships, television rights, and other miscellaneous services, as well as food and beverages services. The Wagering Services and Solutions engages in pari-mutuel wagers through TwinSpires, which operates the online horse racing wagering business for TwinSpires.com, BetAmerica.com, and other white-label platforms; facilitates dollar wagering; provides the Bloodstock Research Information Services platform for horse racing statistical data; offers streaming video of live horse races, replays, and an assortment of racing and handicapping information; and provides technology services to third parties. This segment also operates retail and online sports betting businesses, United Tote, which manufactures and operates pari-mutuel wagering systems for racetracks, OTBs, and other pari-mutuel wagering businesses, and Exacta, which provides central determinant system technology in HRMs. The Gaming segment operates the casino properties and associated racetracks, which include slot machines, table games, video lottery terminals, video poker, HRMs, ancillary food and beverage services, hotel services, commission on pari-mutuel wagering, racing event-related services, and other miscellaneous operations. Churchill Downs Incorporated was founded in 1875 and is headquartered in Louisville, Kentucky.",
+  "targetMeanPrice": 128.16667,
+  "targetLowPrice": 100.0,
+  "targetHighPrice": 153.0,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.25,
+  "forwardPE": 10.829845,
+  "forwardEps": 7.3833,
+  "trailingEps": 6.15,
+  "earningsGrowth": 0.144,
+  "revenueGrowth": 0.049
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 7484500000.0,
+    "official": 7484500000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1009700000.0,
+    "official": 1009700000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 383000000.0,
+    "official": 383000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2925900000.0,
+    "official": 2925900000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:39:26+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -196,7 +238,10 @@
    "goodwill_and_intangibles": 3115600000.0,
    "retained_earnings": 552400000.0,
    "total_debt": 4605700000.0,
-   "shares_out": 74800000.0
+   "shares_out": 74800000.0,
+   "unusual_items": 194200000.0,
+   "normalized_ebitda": 680900000.0,
+   "normalized_income": 299236596.583443
   },
   {
    "fy_end": "2023-12-31",
@@ -230,7 +275,10 @@
    "goodwill_and_intangibles": 3318300000.0,
    "retained_earnings": 894500000.0,
    "total_debt": 4836300000.0,
-   "shares_out": 74500000.0
+   "shares_out": 74500000.0,
+   "unusual_items": 84600000.0,
+   "normalized_ebitda": 920800000.0,
+   "normalized_income": 354459878.960484
   },
   {
    "fy_end": "2024-12-31",
@@ -264,7 +312,10 @@
    "goodwill_and_intangibles": 3309200000.0,
    "retained_earnings": 1084600000.0,
    "total_debt": 4907200000.0,
-   "shares_out": 73496741.0
+   "shares_out": 73496741.0,
+   "unusual_items": 8200000.0,
+   "normalized_ebitda": 1059500000.0,
+   "normalized_income": 420658200.0
   },
   {
    "fy_end": "2025-12-31",
@@ -298,7 +349,10 @@
    "goodwill_and_intangibles": 3415500000.0,
    "retained_earnings": 1010700000.0,
    "total_debt": 5130200000.0,
-   "shares_out": 69600000.0
+   "shares_out": 69600000.0,
+   "unusual_items": -52600000.0,
+   "normalized_ebitda": 1122200000.0,
+   "normalized_income": 421082400.0
   }
  ]
 }

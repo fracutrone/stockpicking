@@ -1,6 +1,6 @@
 {
  "ticker": "FISV",
- "fetched_at": "2026-10-10T12:45:40+00:00",
+ "fetched_at": "2026-10-10T15:43:59+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": 59.04,
+  "targetLowPrice": 40.0,
+  "targetHighPrice": 106.0,
+  "numberOfAnalystOpinions": 25,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.8,
+  "forwardPE": 5.695826,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "top_institutions": [
@@ -76,8 +87,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 80133000000.0,
+    "official": 80133000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 25792000000.0,
+    "official": 25792000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 3480000000.0,
+    "official": 3480000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 21193000000.0,
+    "official": 21193000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:43:59+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -186,7 +228,10 @@
    "goodwill_and_intangibles": 49226000000.0,
    "retained_earnings": 17376000000.0,
    "total_debt": 20950000000.0,
-   "shares_out": 630000000.0
+   "shares_out": 630000000.0,
+   "unusual_items": 54000000.0,
+   "normalized_ebitda": 6774000000.0,
+   "normalized_income": 2486206000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -219,7 +264,10 @@
    "goodwill_and_intangibles": 48415000000.0,
    "retained_earnings": 20444000000.0,
    "total_debt": 22363000000.0,
-   "shares_out": 594000000.0
+   "shares_out": 594000000.0,
+   "unusual_items": 167000000.0,
+   "normalized_ebitda": 7856000000.0,
+   "normalized_income": 2933231000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -252,7 +300,10 @@
    "goodwill_and_intangibles": 46524000000.0,
    "retained_earnings": 23575000000.0,
    "total_debt": 23730000000.0,
-   "shares_out": 564000000.0
+   "shares_out": 564000000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 8839000000.0,
+   "normalized_income": 3131000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -285,7 +336,10 @@
    "goodwill_and_intangibles": 47864000000.0,
    "retained_earnings": 27055000000.0,
    "total_debt": 27758000000.0,
-   "shares_out": 534000000.0
+   "shares_out": 534000000.0,
+   "unusual_items": 120000000.0,
+   "normalized_ebitda": 8836000000.0,
+   "normalized_income": 3382800000.0
   }
  ]
 }

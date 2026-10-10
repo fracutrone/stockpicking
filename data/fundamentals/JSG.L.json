@@ -1,6 +1,6 @@
 {
  "ticker": "JSG.L",
- "fetched_at": "2026-10-10T12:04:59+00:00",
+ "fetched_at": "2026-10-10T15:00:03+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.01231,
   "heldPercentInstitutions": 0.84137,
   "shortPercentOfFloat": null,
-  "averageVolume": 1470374,
+  "averageVolume": 1461085,
   "quoteType": "EQUITY",
   "exchange": "LSE",
   "fullTimeEmployees": 6696,
   "website": "https://www.jsg.com",
-  "longBusinessSummary": "Johnson Service Group PLC, together with its subsidiaries, provides textile rental and related services in the United Kingdom and Ireland. The company provides workwear and protective wear rental; and workplace hygiene services under the Johnsons Workwear brands, as well as provides laundry services. It offers linen services through the Johnsons Hotel Linen; Johnsons Hotel, Restaurant and Catering Linen by Stalbridge; Johnsons Restaurant & Catering Linen by London Linen; Regency and Empire; Johnsons Belfast; and Celtic Linen brand names. The company engages in property holding activities. Johnson Service Group PLC was incorporated in 1953 and is headquartered in Preston Brook, the United Kingdom."
+  "longBusinessSummary": "Johnson Service Group PLC, together with its subsidiaries, provides textile rental and related services in the United Kingdom and Ireland. The company provides workwear and protective wear rental; and workplace hygiene services under the Johnsons Workwear brands, as well as provides laundry services. It offers linen services through the Johnsons Hotel Linen; Johnsons Hotel, Restaurant and Catering Linen by Stalbridge; Johnsons Restaurant & Catering Linen by London Linen; Regency and Empire; Johnsons Belfast; and Celtic Linen brand names. The company engages in property holding activities. Johnson Service Group PLC was incorporated in 1953 and is headquartered in Preston Brook, the United Kingdom.",
+  "targetMeanPrice": 185.286,
+  "targetLowPrice": 145.0,
+  "targetHighPrice": 209.99998,
+  "numberOfAnalystOpinions": 7,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 8.847115,
+  "forwardEps": 0.15587,
+  "trailingEps": 0.1,
+  "earningsGrowth": 0.101,
+  "revenueGrowth": 0.002
  },
  "governance": {
   "ceo": {
@@ -70,8 +81,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 579500000.0,
+    "official": 275100000.0,
+    "diff": 1.106507
+   },
+   "equity": {
+    "yahoo": 275100000.0,
+    "official": 275100000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 37100000.0,
+    "official": 37100000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 535400000.0,
+    "official": 535400000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:00:03+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -105,7 +148,10 @@
    "goodwill_and_intangibles": 144700000.0,
    "retained_earnings": 221600000.0,
    "total_debt": 54100000.0,
-   "shares_out": 439025388.0
+   "shares_out": 439025388.0,
+   "unusual_items": 800000.0,
+   "normalized_ebitda": 103200000.0,
+   "normalized_income": 30759200.0
   },
   {
    "fy_end": "2023-12-31",
@@ -139,7 +185,10 @@
    "goodwill_and_intangibles": 163500000.0,
    "retained_earnings": 216200000.0,
    "total_debt": 114500000.0,
-   "shares_out": 414406099.0
+   "shares_out": 414406099.0,
+   "unusual_items": -3300000.0,
+   "normalized_ebitda": 132900000.0,
+   "normalized_income": 29648600.0
   },
   {
    "fy_end": "2024-12-31",
@@ -170,7 +219,10 @@
    "goodwill_and_intangibles": 182600000.0,
    "retained_earnings": 243000000.0,
    "total_debt": 127100000.0,
-   "shares_out": 414945743.0
+   "shares_out": 414945743.0,
+   "unusual_items": -1600000.0,
+   "normalized_ebitda": 153400000.0,
+   "normalized_income": 36703389.830508
   },
   {
    "fy_end": "2025-12-31",
@@ -201,7 +253,10 @@
    "goodwill_and_intangibles": 178900000.0,
    "retained_earnings": 210900000.0,
    "total_debt": 170200000.0,
-   "shares_out": 378294719.0
+   "shares_out": 378294719.0,
+   "unusual_items": -7200000.0,
+   "normalized_ebitda": 167800000.0,
+   "normalized_income": 42244094.488189
   }
  ]
 }

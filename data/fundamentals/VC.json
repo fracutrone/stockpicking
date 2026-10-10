@@ -1,6 +1,6 @@
 {
  "ticker": "VC",
- "fetched_at": "2026-10-10T13:01:12+00:00",
+ "fetched_at": "2026-10-10T15:58:44+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 10500,
   "website": "https://www.visteon.com",
-  "longBusinessSummary": "Visteon Corporation, an automotive technology company, engages in the design, manufacture, and sale of automotive electronics and connected car solutions for vehicle manufacturers. It provides instrument clusters, including analog gauge clusters for 2-D and 3-D display-based devices; information displays that integrate a range of user interface technologies and graphics management capabilities, such as active privacy, TrueColor enhancement, local dimming, cameras, optics, haptic feedback, and light effects; and infotainment and connected car solutions, including scalable Android infotainment for seamless connectivity, as well as onboard artificial intelligence-based voice assistants with natural language understanding. It offers display audio and embedded infotainment platform that enables third-party developers to create apps through a software development kit and software simulation of the target hardware system; and wired and wireless battery management systems; and power electronics units. In addition, the company provides SmartCore, an automotive-grade, integrated domain controller; SmartCore Runtime, a middleware enabling communication between domains and apps to be shown on any display; and SmartCore Studio, a PC-based configuration tool to generate hypervisor configurations. Further, it offers CognitoAI, an in-house, automotive-grade A.I. software platform; Battery Management Systems, configurable battery management systems; High-Voltage Power Electronics, an integrated and scalable power electronics units; and engineering and software development services. It operates in the United States, Mexico, Portugal, Slovakia, Tunisia, rest of Europe, China, India, Japan, rest of the Asia Pacific, and South America. Visteon Corporation was incorporated in 2000 and is headquartered in Van Buren, Michigan."
+  "longBusinessSummary": "Visteon Corporation, an automotive technology company, engages in the design, manufacture, and sale of automotive electronics and connected car solutions for vehicle manufacturers. It provides instrument clusters, including analog gauge clusters for 2-D and 3-D display-based devices; information displays that integrate a range of user interface technologies and graphics management capabilities, such as active privacy, TrueColor enhancement, local dimming, cameras, optics, haptic feedback, and light effects; and infotainment and connected car solutions, including scalable Android infotainment for seamless connectivity, as well as onboard artificial intelligence-based voice assistants with natural language understanding. It offers display audio and embedded infotainment platform that enables third-party developers to create apps through a software development kit and software simulation of the target hardware system; and wired and wireless battery management systems; and power electronics units. In addition, the company provides SmartCore, an automotive-grade, integrated domain controller; SmartCore Runtime, a middleware enabling communication between domains and apps to be shown on any display; and SmartCore Studio, a PC-based configuration tool to generate hypervisor configurations. Further, it offers CognitoAI, an in-house, automotive-grade A.I. software platform; Battery Management Systems, configurable battery management systems; High-Voltage Power Electronics, an integrated and scalable power electronics units; and engineering and software development services. It operates in the United States, Mexico, Portugal, Slovakia, Tunisia, rest of Europe, China, India, Japan, rest of the Asia Pacific, and South America. Visteon Corporation was incorporated in 2000 and is headquartered in Van Buren, Michigan.",
+  "targetMeanPrice": 122.3,
+  "targetLowPrice": 104.0,
+  "targetHighPrice": 145.0,
+  "numberOfAnalystOpinions": 10,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": 8.242718,
+  "forwardEps": 10.3643,
+  "trailingEps": 5.47,
+  "earningsGrowth": -0.3,
+  "revenueGrowth": -0.009
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3386000000.0,
+    "official": 3386000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1568000000.0,
+    "official": 1568000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 201000000.0,
+    "official": 201000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3768000000.0,
+    "official": 3768000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:58:44+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -195,7 +237,10 @@
    "goodwill_and_intangibles": 99000000.0,
    "retained_earnings": 1788000000.0,
    "total_debt": 336000000.0,
-   "shares_out": 28200000.0
+   "shares_out": 28200000.0,
+   "unusual_items": -14000000.0,
+   "normalized_ebitda": 311000000.0,
+   "normalized_income": 134360000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -229,7 +274,10 @@
    "goodwill_and_intangibles": 90000000.0,
    "retained_earnings": 2274000000.0,
    "total_debt": 318000000.0,
-   "shares_out": 27700000.0
+   "shares_out": 27700000.0,
+   "unusual_items": -17000000.0,
+   "normalized_ebitda": 395000000.0,
+   "normalized_income": 581430000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -263,7 +311,10 @@
    "goodwill_and_intangibles": 152000000.0,
    "retained_earnings": 2652000000.0,
    "total_debt": 301000000.0,
-   "shares_out": 27200000.0
+   "shares_out": 27200000.0,
+   "unusual_items": -36000000.0,
+   "normalized_ebitda": 445000000.0,
+   "normalized_income": 324440000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -297,7 +348,10 @@
    "goodwill_and_intangibles": 222000000.0,
    "retained_earnings": 2838000000.0,
    "total_debt": 283000000.0,
-   "shares_out": 26800000.0
+   "shares_out": 26800000.0,
+   "unusual_items": -15000000.0,
+   "normalized_ebitda": 475000000.0,
+   "normalized_income": 210315000.0
   }
  ]
 }

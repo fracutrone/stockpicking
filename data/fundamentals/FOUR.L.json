@@ -1,6 +1,6 @@
 {
  "ticker": "FOUR.L",
- "fetched_at": "2026-10-10T11:58:46+00:00",
+ "fetched_at": "2026-10-10T14:48:54+00:00",
  "region": "Europa",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 1685,
   "website": "https://investors.4imprint.com",
-  "longBusinessSummary": "4imprint Group plc, together with its subsidiaries, operates as a direct marketer of promotional products in North America, the United Kingdom, and Ireland. The company markets apparel, bags, drinkware, writing, stationery, outdoors and leisure, auto, home, tools, wellness and safety technology, trade show and signage, and awards and office products under the Crossland, Refresh, Taskright, and mainsail brands. It serves customers in the commercial, governmental, educational, charitable, religious, and other markets. The company was formerly known as Bemrose Corporation Public Limited Company and changed its name to 4imprint Group plc in August 2000. 4imprint Group plc was incorporated in 1921 and is based in London, the United Kingdom."
+  "longBusinessSummary": "4imprint Group plc, together with its subsidiaries, operates as a direct marketer of promotional products in North America, the United Kingdom, and Ireland. The company markets apparel, bags, drinkware, writing, stationery, outdoors and leisure, auto, home, tools, wellness and safety technology, trade show and signage, and awards and office products under the Crossland, Refresh, Taskright, and mainsail brands. It serves customers in the commercial, governmental, educational, charitable, religious, and other markets. The company was formerly known as Bemrose Corporation Public Limited Company and changed its name to 4imprint Group plc in August 2000. 4imprint Group plc was incorporated in 1921 and is based in London, the United Kingdom.",
+  "targetMeanPrice": 5456.999,
+  "targetLowPrice": 4349.405,
+  "targetHighPrice": 5936.761,
+  "numberOfAnalystOpinions": 5,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 16.200874,
+  "forwardEps": 2.756641,
+  "trailingEps": 2.69,
+  "earningsGrowth": -0.214,
+  "revenueGrowth": 0.011
  },
  "governance": {
   "ceo": {
@@ -71,8 +82,35 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2022-12-31",
+  "items": {
+   "equity": {
+    "yahoo": 140200000.0,
+    "official": 140220000.0,
+    "diff": 0.000143
+   },
+   "net_income": {
+    "yahoo": 80100000.0,
+    "official": 80143000.0,
+    "diff": 0.000537
+   },
+   "revenue": {
+    "yahoo": 1140300000.0,
+    "official": 1140286000.0,
+    "diff": 1.2e-05
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2022-12-31"
+ },
+ "info_at": "2026-10-10T14:48:54+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -107,7 +145,10 @@
    "goodwill_and_intangibles": 2000000.0,
    "retained_earnings": 49400000.0,
    "total_debt": 13700000.0,
-   "shares_out": 28085530.0
+   "shares_out": 28085530.0,
+   "unusual_items": -4800000.0,
+   "normalized_ebitda": 114400000.0,
+   "normalized_income": 83796000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -141,7 +182,10 @@
    "goodwill_and_intangibles": 1500000.0,
    "retained_earnings": 40300000.0,
    "total_debt": 12300000.0,
-   "shares_out": 28147838.0
+   "shares_out": 28147838.0,
+   "unusual_items": -2500000.0,
+   "normalized_ebitda": 147500000.0,
+   "normalized_income": 106200000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -174,7 +218,9 @@
    "goodwill_and_intangibles": 1300000.0,
    "retained_earnings": 92700000.0,
    "total_debt": 5300000.0,
-   "shares_out": 28142514.0
+   "shares_out": 28142514.0,
+   "normalized_ebitda": 161600000.0,
+   "normalized_income": 117200000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -208,7 +254,9 @@
    "goodwill_and_intangibles": 1200000.0,
    "retained_earnings": 66600000.0,
    "total_debt": 3400000.0,
-   "shares_out": 28045027.0
+   "shares_out": 28045027.0,
+   "normalized_ebitda": 157900000.0,
+   "normalized_income": 113600000.0
   }
  ]
 }

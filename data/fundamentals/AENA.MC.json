@@ -1,6 +1,6 @@
 {
  "ticker": "AENA.MC",
- "fetched_at": "2026-10-10T11:43:57+00:00",
+ "fetched_at": "2026-10-10T14:28:20+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.51519,
   "heldPercentInstitutions": 0.29126,
   "shortPercentOfFloat": null,
-  "averageVolume": 1224495,
+  "averageVolume": 1222867,
   "quoteType": "EQUITY",
   "exchange": "MCE",
   "fullTimeEmployees": 10978,
   "website": "https://www.aena.es",
-  "longBusinessSummary": "Aena S.M.E., S.A., together with its subsidiaries, engages in the management of airports in Spain, Brazil, the United Kingdom, Mexico, and Colombia. The company operates through Airports, Real Estate Services, Región de Murcia International Airport, and International segments. It also manages commercial spaces in airport terminals, and a network of car parks; and leasing or transfer use of land, office buildings, warehouses, hangars, and cargo vessels to airlines, air cargo operators, handling agents and other airport service providers. In addition, the company is involved in the operation of duty-free shops, food and beverage, and specialty shops; rental of cars; advertising; baggage wrapping machines; other vending machines; regulated services, including pharmacies, tobacconists, lottery vendors, etc.; and provision of financial services, such as currency exchange, VAT refunds, and ATMs, as well as advisory services to international airports. Aena S.M.E., S.A. was formerly known as Aena, S.A. and changed its name to Aena S.M.E., S.A. in April 2017. The company was founded in 1991 and is headquartered in Madrid, Spain. Aena S.M.E., S.A. operates as a subsidiary of Entidad Pública Empresarial ENAIRE."
+  "longBusinessSummary": "Aena S.M.E., S.A., together with its subsidiaries, engages in the management of airports in Spain, Brazil, the United Kingdom, Mexico, and Colombia. The company operates through Airports, Real Estate Services, Región de Murcia International Airport, and International segments. It also manages commercial spaces in airport terminals, and a network of car parks; and leasing or transfer use of land, office buildings, warehouses, hangars, and cargo vessels to airlines, air cargo operators, handling agents and other airport service providers. In addition, the company is involved in the operation of duty-free shops, food and beverage, and specialty shops; rental of cars; advertising; baggage wrapping machines; other vending machines; regulated services, including pharmacies, tobacconists, lottery vendors, etc.; and provision of financial services, such as currency exchange, VAT refunds, and ATMs, as well as advisory services to international airports. Aena S.M.E., S.A. was formerly known as Aena, S.A. and changed its name to Aena S.M.E., S.A. in April 2017. The company was founded in 1991 and is headquartered in Madrid, Spain. Aena S.M.E., S.A. operates as a subsidiary of Entidad Pública Empresarial ENAIRE.",
+  "targetMeanPrice": 26.96136,
+  "targetLowPrice": 20.0,
+  "targetHighPrice": 30.8,
+  "numberOfAnalystOpinions": 22,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.40909,
+  "forwardPE": 15.225413,
+  "forwardEps": 1.63411,
+  "trailingEps": 6.07,
+  "earningsGrowth": 0.119,
+  "revenueGrowth": 0.092
  },
  "governance": {
   "ceo": {
@@ -77,8 +88,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF ES",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 17263370000.0,
+    "official": 16975364000.0,
+    "diff": 0.016966
+   },
+   "equity": {
+    "yahoo": 8564392000.0,
+    "official": 8208200000.0,
+    "diff": 0.043395
+   },
+   "net_income": {
+    "yahoo": 1934224000.0,
+    "official": 1934224000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 5784328000.0,
+    "official": 5763531000.0,
+    "diff": 0.003608
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T14:28:20+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -112,7 +155,10 @@
    "goodwill_and_intangibles": 806687000.0,
    "retained_earnings": 4190452000.0,
    "total_debt": 7620927000.0,
-   "shares_out": 1500000000.0
+   "shares_out": 1500000000.0,
+   "unusual_items": -81413000.0,
+   "normalized_ebitda": 2138301000.0,
+   "normalized_income": 964587185.644946
   },
   {
    "fy_end": "2023-12-31",
@@ -147,7 +193,10 @@
    "goodwill_and_intangibles": 1723126000.0,
    "retained_earnings": 5392346000.0,
    "total_debt": 8585560000.0,
-   "shares_out": 1500000000.0
+   "shares_out": 1500000000.0,
+   "unusual_items": 153547000.0,
+   "normalized_ebitda": 3072032000.0,
+   "normalized_income": 1514189697.868774
   },
   {
    "fy_end": "2024-12-31",
@@ -182,7 +231,10 @@
    "goodwill_and_intangibles": 1505853000.0,
    "retained_earnings": 6205752000.0,
    "total_debt": 7011662000.0,
-   "shares_out": 1500000000.0
+   "shares_out": 1500000000.0,
+   "unusual_items": 61288000.0,
+   "normalized_ebitda": 3624616000.0,
+   "normalized_income": 1886932612.946848
   },
   {
    "fy_end": "2025-12-31",
@@ -217,7 +269,10 @@
    "goodwill_and_intangibles": 1700294000.0,
    "retained_earnings": 6865440000.0,
    "total_debt": 7281272000.0,
-   "shares_out": 1500000000.0
+   "shares_out": 1500000000.0,
+   "unusual_items": 41922000.0,
+   "normalized_ebitda": 3867661000.0,
+   "normalized_income": 2104632542.926508
   }
  ]
 }

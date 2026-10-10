@@ -1,6 +1,6 @@
 {
  "ticker": "CCC.L",
- "fetched_at": "2026-10-10T11:49:57+00:00",
+ "fetched_at": "2026-10-10T14:39:09+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.60018,
   "heldPercentInstitutions": 0.38718,
   "shortPercentOfFloat": null,
-  "averageVolume": 351515,
+  "averageVolume": 348847,
   "quoteType": "EQUITY",
   "exchange": "LSE",
   "fullTimeEmployees": 21000,
   "website": "https://www.computacenter.com",
-  "longBusinessSummary": "Computacenter plc provides technology and services to corporate and public sector organizations in the United Kingdom, Germany, Western Europe, North America, and internationally. It offers procurement, specialist, software, logistical, technical, and circular technology sourcing services; IT strategy and advisory, integration, deployment, and support services; and managed services. The company also provides workplace solutions, including IT support, field and onsite support services, Productivity and Teamwork technology sourcing, modern endpoint, device lifecycle management, IT asset management, print solutions, and technology sourcing; cloud and applications solution, such as custom application, business automation, application platforms, data and AI platforms, and cloud services; infrastructure services, data center and edge platforms, relocation and migration, and operational resilience services; and software-defined (SD) wide area network service, proactive and reactive services, network automation, managed secure networking and implementation, SD campus networking, multi cloud connectivity, and data center networking and multi cloud network deployment. In addition, it offers security solutions, including service centers, integration centers, professional services hubs, and field and maintenance services. The company was founded in 1981 and is headquartered in Hatfield, the United Kingdom."
+  "longBusinessSummary": "Computacenter plc provides technology and services to corporate and public sector organizations in the United Kingdom, Germany, Western Europe, North America, and internationally. It offers procurement, specialist, software, logistical, technical, and circular technology sourcing services; IT strategy and advisory, integration, deployment, and support services; and managed services. The company also provides workplace solutions, including IT support, field and onsite support services, Productivity and Teamwork technology sourcing, modern endpoint, device lifecycle management, IT asset management, print solutions, and technology sourcing; cloud and applications solution, such as custom application, business automation, application platforms, data and AI platforms, and cloud services; infrastructure services, data center and edge platforms, relocation and migration, and operational resilience services; and software-defined (SD) wide area network service, proactive and reactive services, network automation, managed secure networking and implementation, SD campus networking, multi cloud connectivity, and data center networking and multi cloud network deployment. In addition, it offers security solutions, including service centers, integration centers, professional services hubs, and field and maintenance services. The company was founded in 1981 and is headquartered in Hatfield, the United Kingdom.",
+  "targetMeanPrice": 6237.364,
+  "targetLowPrice": 5250.0,
+  "targetHighPrice": 7000.0,
+  "numberOfAnalystOpinions": 11,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.72727,
+  "forwardPE": 19.884918,
+  "forwardEps": 2.79106,
+  "trailingEps": 1.94,
+  "earningsGrowth": 1.037,
+  "revenueGrowth": 0.716
  },
  "governance": {
   "ceo": {
@@ -69,8 +80,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 4063900000.0,
+    "official": 4063900000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 897900000.0,
+    "official": 897900000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 153700000.0,
+    "official": 153700000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 9193900000.0,
+    "official": 9193900000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:39:09+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -103,7 +146,10 @@
    "goodwill_and_intangibles": 342100000.0,
    "retained_earnings": 854400000.0,
    "total_debt": 147200000.0,
-   "shares_out": 114141109.0
+   "shares_out": 114141109.0,
+   "unusual_items": -2000000.0,
+   "normalized_ebitda": 349700000.0,
+   "normalized_income": 184280000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -136,7 +182,10 @@
    "goodwill_and_intangibles": 322400000.0,
    "retained_earnings": 1041600000.0,
    "total_debt": 127600000.0,
-   "shares_out": 112767982.0
+   "shares_out": 112767982.0,
+   "unusual_items": 4900000.0,
+   "normalized_ebitda": 354900000.0,
+   "normalized_income": 194008300.0
   },
   {
    "fy_end": "2024-12-31",
@@ -169,7 +218,10 @@
    "goodwill_and_intangibles": 317500000.0,
    "retained_earnings": 1033700000.0,
    "total_debt": 136900000.0,
-   "shares_out": 104878138.0
+   "shares_out": 104878138.0,
+   "unusual_items": 1200000.0,
+   "normalized_ebitda": 331900000.0,
+   "normalized_income": 169956663.941128
   },
   {
    "fy_end": "2025-12-31",
@@ -202,7 +254,10 @@
    "goodwill_and_intangibles": 285000000.0,
    "retained_earnings": 1123600000.0,
    "total_debt": 202300000.0,
-   "shares_out": 104948626.0
+   "shares_out": 104948626.0,
+   "unusual_items": -11500000.0,
+   "normalized_ebitda": 351700000.0,
+   "normalized_income": 181013584.90566
   }
  ]
 }

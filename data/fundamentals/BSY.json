@@ -1,6 +1,6 @@
 {
  "ticker": "BSY",
- "fetched_at": "2026-10-10T12:39:31+00:00",
+ "fetched_at": "2026-10-10T15:38:21+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 5800,
   "website": "https://www.bentley.com",
-  "longBusinessSummary": "Bentley Systems, Incorporated, together with its subsidiaries, provides infrastructure engineering software solutions in the Americas, Europe, the Middle East, Africa, and the Asia-Pacific. The company offers open modeling applications, such as MicroStation, OpenBridge, OpenBuildings, OpenFlows, OpenPlant, OpenRail, OpenRoads, OpenSite and OpenSite+, OpenTower, OpenTunnel, and OpenUtilities; and open simulation applications, including ADINA, AutoPIPE, LEGION, OpenPaths, Power Line Systems, RAM, SACS, SPIDA, and STAAD; and geoprofessional applications for modeling and simulation of near and deep subsurface conditions, including AGS, Central, GeoStudio, Imago, Leapfrog, MX Deposit, Oasis montaj, OpenGround, and PLAXIS. It also provides infrastructure cloud applications, such as ProjectWise, SYNCHRO, and AssetWise, as well as Cesium and iTwin platform that enables users to create and curate cloud native digital representations of physical infrastructure assets consisting of iTwin Capture, iTwin Engage, iTwin Experience, and iTwin IoT platforms. The company serves civil, structural, geotechnical, subsurface, process engineers, architects, geospatial professionals, city and regional planners, contractors, fabricators, and operations and maintenance engineers. Bentley Systems, Incorporated was incorporated in 1984 and is headquartered in Exton, Pennsylvania."
+  "longBusinessSummary": "Bentley Systems, Incorporated, together with its subsidiaries, provides infrastructure engineering software solutions in the Americas, Europe, the Middle East, Africa, and the Asia-Pacific. The company offers open modeling applications, such as MicroStation, OpenBridge, OpenBuildings, OpenFlows, OpenPlant, OpenRail, OpenRoads, OpenSite and OpenSite+, OpenTower, OpenTunnel, and OpenUtilities; and open simulation applications, including ADINA, AutoPIPE, LEGION, OpenPaths, Power Line Systems, RAM, SACS, SPIDA, and STAAD; and geoprofessional applications for modeling and simulation of near and deep subsurface conditions, including AGS, Central, GeoStudio, Imago, Leapfrog, MX Deposit, Oasis montaj, OpenGround, and PLAXIS. It also provides infrastructure cloud applications, such as ProjectWise, SYNCHRO, and AssetWise, as well as Cesium and iTwin platform that enables users to create and curate cloud native digital representations of physical infrastructure assets consisting of iTwin Capture, iTwin Engage, iTwin Experience, and iTwin IoT platforms. The company serves civil, structural, geotechnical, subsurface, process engineers, architects, geospatial professionals, city and regional planners, contractors, fabricators, and operations and maintenance engineers. Bentley Systems, Incorporated was incorporated in 1984 and is headquartered in Exton, Pennsylvania.",
+  "targetMeanPrice": 43.93333,
+  "targetLowPrice": 37.0,
+  "targetHighPrice": 59.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.64706,
+  "forwardPE": 22.148891,
+  "forwardEps": 1.57886,
+  "trailingEps": 0.91,
+  "earningsGrowth": 0.148,
+  "revenueGrowth": 0.128
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3555167000.0,
+    "official": 3555167000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1189413000.0,
+    "official": 1189413000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 277861000.0,
+    "official": 277861000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1501779000.0,
+    "official": 1501779000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:38:21+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -189,7 +231,10 @@
    "goodwill_and_intangibles": 2529455000.0,
    "retained_earnings": -370866000.0,
    "total_debt": 1780696000.0,
-   "shares_out": 289014487.0
+   "shares_out": 289014487.0,
+   "unusual_items": 22585000.0,
+   "normalized_ebitda": 282283000.0,
+   "normalized_income": 154611595.0
   },
   {
    "fy_end": "2023-12-31",
@@ -222,7 +267,10 @@
    "goodwill_and_intangibles": 2518123000.0,
    "retained_earnings": -161932000.0,
    "total_debt": 1528403000.0,
-   "shares_out": 296265837.0
+   "shares_out": 296265837.0,
+   "unusual_items": 6262000.0,
+   "normalized_ebitda": 290457000.0,
+   "normalized_income": 321840020.0
   },
   {
    "fy_end": "2024-12-31",
@@ -255,7 +303,10 @@
    "goodwill_and_intangibles": 2581138000.0,
    "retained_earnings": -75941000.0,
    "total_debt": 1388088000.0,
-   "shares_out": 301977330.0
+   "shares_out": 301977330.0,
+   "unusual_items": 10258000.0,
+   "normalized_ebitda": 372179000.0,
+   "normalized_income": 226580600.0
   },
   {
    "fy_end": "2025-12-31",
@@ -288,7 +339,10 @@
    "goodwill_and_intangibles": 2675172000.0,
    "retained_earnings": -40258000.0,
    "total_debt": 1248912000.0,
-   "shares_out": 302355097.0
+   "shares_out": 302355097.0,
+   "unusual_items": -270000.0,
+   "normalized_ebitda": 432205000.0,
+   "normalized_income": 278074840.0
   }
  ]
 }

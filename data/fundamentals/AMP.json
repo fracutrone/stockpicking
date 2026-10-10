@@ -1,6 +1,6 @@
 {
  "ticker": "AMP",
- "fetched_at": "2026-10-10T12:37:27+00:00",
+ "fetched_at": "2026-10-10T15:34:28+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 13600,
   "website": "https://www.ameriprise.com",
-  "longBusinessSummary": "Ameriprise Financial, Inc., together with its subsidiaries, operates as a diversified financial services company in the United States and internationally. The company offers financial planning and advice services to individual and institutional clients. It operates through Advice & Wealth Management, Asset Management, Retirement & Protection Solutions, Corporate & Other segments. The Advice & Wealth Management segment provides financial planning and advice; brokerage products and services for retail and institutional clients; discretionary and non-discretionary investment advisory accounts; mutual funds; insurance and annuities products; cash management and banking products; and face-amount certificates. The Asset Management segment offers investment management, advice, and products to retail, high net worth, and institutional clients through third-party financial institutions, advisor network, direct retail, and its institutional sales force under the Columbia Threadneedle Investments brand name. Its products include U.S. mutual funds and their non-U.S. equivalents, exchange-traded funds, variable product funds underlying insurance, and annuity separate accounts; and institutional asset management products, such as traditional asset classes, separately managed accounts, individually managed accounts, collateralized loan obligations, hedge funds, collective funds, and property and infrastructure funds. The Retirement & Protection Solutions segment provides variable annuity products, as well as life and disability income insurance products to retail clients. Ameriprise Financial, Inc. was formerly known as American Express Financial Corporation and changed its name to Ameriprise Financial, Inc. in September 2005. The company was founded in 1894 and is based in Minneapolis, Minnesota."
+  "longBusinessSummary": "Ameriprise Financial, Inc., together with its subsidiaries, operates as a diversified financial services company in the United States and internationally. The company offers financial planning and advice services to individual and institutional clients. It operates through Advice & Wealth Management, Asset Management, Retirement & Protection Solutions, Corporate & Other segments. The Advice & Wealth Management segment provides financial planning and advice; brokerage products and services for retail and institutional clients; discretionary and non-discretionary investment advisory accounts; mutual funds; insurance and annuities products; cash management and banking products; and face-amount certificates. The Asset Management segment offers investment management, advice, and products to retail, high net worth, and institutional clients through third-party financial institutions, advisor network, direct retail, and its institutional sales force under the Columbia Threadneedle Investments brand name. Its products include U.S. mutual funds and their non-U.S. equivalents, exchange-traded funds, variable product funds underlying insurance, and annuity separate accounts; and institutional asset management products, such as traditional asset classes, separately managed accounts, individually managed accounts, collateralized loan obligations, hedge funds, collective funds, and property and infrastructure funds. The Retirement & Protection Solutions segment provides variable annuity products, as well as life and disability income insurance products to retail clients. Ameriprise Financial, Inc. was formerly known as American Express Financial Corporation and changed its name to Ameriprise Financial, Inc. in September 2005. The company was founded in 1894 and is based in Minneapolis, Minnesota.",
+  "targetMeanPrice": 568.4545,
+  "targetLowPrice": 483.0,
+  "targetHighPrice": 645.0,
+  "numberOfAnalystOpinions": 11,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.5,
+  "forwardPE": 9.691714,
+  "forwardEps": 51.64308,
+  "trailingEps": 41.54,
+  "earningsGrowth": 0.117,
+  "revenueGrowth": 0.116
  },
  "governance": {
   "top_institutions": [
@@ -67,10 +78,40 @@
   "retained_earnings": "sec",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "ppe_net": "sec",
   "goodwill": "sec",
   "intangibles": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 190904000000.0,
+    "official": 190904000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 6549000000.0,
+    "official": 6549000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 3563000000.0,
+    "official": 3563000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 18480000000.0,
+    "official": 18911000000.0,
+    "diff": 0.022791
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:34:28+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -127,7 +168,8 @@
    "ppe_net": 590000000.0,
    "goodwill": 1458000000.0,
    "intangibles": 193000000.0,
-   "retained_earnings": 17322000000.0
+   "retained_earnings": 17322000000.0,
+   "unusual_items": 0.0
   },
   {
    "fy_end": "2022-12-31",
@@ -153,7 +195,8 @@
    "intangibles": 192000000.0,
    "retained_earnings": 19918000000.0,
    "total_debt": 5385000000.0,
-   "shares_out": 105278990.0
+   "shares_out": 105278990.0,
+   "normalized_income": 3149000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -179,7 +222,8 @@
    "intangibles": 298000000.0,
    "retained_earnings": 21905000000.0,
    "total_debt": 5755000000.0,
-   "shares_out": 100173212.0
+   "shares_out": 100173212.0,
+   "normalized_income": 2556000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -205,7 +249,8 @@
    "intangibles": 262000000.0,
    "retained_earnings": 24713000000.0,
    "total_debt": 5472000000.0,
-   "shares_out": 96166693.0
+   "shares_out": 96166693.0,
+   "normalized_income": 3401000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -231,7 +276,8 @@
    "intangibles": 356000000.0,
    "retained_earnings": 27662000000.0,
    "total_debt": 5862000000.0,
-   "shares_out": 91263880.0
+   "shares_out": 91263880.0,
+   "normalized_income": 3563000000.0
   }
  ]
 }

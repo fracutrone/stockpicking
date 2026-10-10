@@ -1,6 +1,6 @@
 {
  "ticker": "TSCO.L",
- "fetched_at": "2026-10-10T12:23:02+00:00",
+ "fetched_at": "2026-10-10T15:26:14+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 340000,
   "website": "https://www.tescoplc.com",
-  "longBusinessSummary": "Tesco PLC, together with its subsidiaries, operates as a grocery retailer in the United Kingdom, Republic of Ireland, the Czech Republic, Slovakia, and Hungary. The company offers grocery products through its stores, as well as online. It is also involved in the food and drink wholesaling activities. In addition, the company provides mobile virtual network operating services, as well as insurance products, such as for home, travel, pet, and car insurance products. Further, the company operates a network of convenience stores; and offers AI-enabled science, software, and trusted advice; and consultancy services. Tesco PLC was founded in 1919 and is based in Welwyn Garden City, the United Kingdom."
+  "longBusinessSummary": "Tesco PLC, together with its subsidiaries, operates as a grocery retailer in the United Kingdom, Republic of Ireland, the Czech Republic, Slovakia, and Hungary. The company offers grocery products through its stores, as well as online. It is also involved in the food and drink wholesaling activities. In addition, the company provides mobile virtual network operating services, as well as insurance products, such as for home, travel, pet, and car insurance products. Further, the company operates a network of convenience stores; and offers AI-enabled science, software, and trusted advice; and consultancy services. Tesco PLC was founded in 1919 and is based in Welwyn Garden City, the United Kingdom.",
+  "targetMeanPrice": 527.333,
+  "targetLowPrice": 480.00003,
+  "targetHighPrice": 580.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.93333,
+  "forwardPE": 14.659838,
+  "forwardEps": 0.34366,
+  "trailingEps": 0.3,
+  "earningsGrowth": 0.176,
+  "revenueGrowth": 0.037
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,35 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2026-02-28",
+  "items": {
+   "equity": {
+    "yahoo": 11463000000.0,
+    "official": 11463000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1787000000.0,
+    "official": 1787000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 73712000000.0,
+    "official": 73712000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2026-02-28"
+ },
+ "info_at": "2026-10-10T15:26:14+00:00",
  "years": [
   {
    "fy_end": "2023-02-28",
@@ -121,7 +159,10 @@
    "goodwill_and_intangibles": 5375000000.0,
    "retained_earnings": 3469000000.0,
    "total_debt": 15078000000.0,
-   "shares_out": 7261562872.0
+   "shares_out": 7261562872.0,
+   "unusual_items": -43000000.0,
+   "normalized_ebitda": 3270000000.0,
+   "normalized_income": 691078000.0
   },
   {
    "fy_end": "2024-02-29",
@@ -156,7 +197,10 @@
    "goodwill_and_intangibles": 5066000000.0,
    "retained_earnings": 2930000000.0,
    "total_debt": 14841000000.0,
-   "shares_out": 6968902378.0
+   "shares_out": 6968902378.0,
+   "unusual_items": 34000000.0,
+   "normalized_ebitda": 4791000000.0,
+   "normalized_income": 1733786000.0
   },
   {
    "fy_end": "2025-02-28",
@@ -191,7 +235,10 @@
    "goodwill_and_intangibles": 5087000000.0,
    "retained_earnings": 2935000000.0,
    "total_debt": 14666000000.0,
-   "shares_out": 6699699036.0
+   "shares_out": 6699699036.0,
+   "unusual_items": -22000000.0,
+   "normalized_ebitda": 4786000000.0,
+   "normalized_income": 1615931376.975169
   },
   {
    "fy_end": "2026-02-28",
@@ -226,7 +273,10 @@
    "goodwill_and_intangibles": 5092000000.0,
    "retained_earnings": 2726000000.0,
    "total_debt": 15080000000.0,
-   "shares_out": 6348782796.0
+   "shares_out": 6348782796.0,
+   "unusual_items": -144000000.0,
+   "normalized_ebitda": 5198000000.0,
+   "normalized_income": 1894086142.322097
   }
  ]
 }

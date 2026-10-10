@@ -1,6 +1,6 @@
 {
  "ticker": "FTI",
- "fetched_at": "2026-10-10T12:46:12+00:00",
+ "fetched_at": "2026-10-10T15:44:30+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 22000,
   "website": "https://www.technipfmc.com",
-  "longBusinessSummary": "TechnipFMC plc engages in the oil and natural gas projects, technologies, systems, and services businesses in Europe, Central Asia, North America, Latin America, the Asia Pacific, Africa, the Middle East, and internationally. It operates through two segments, Subsea and Surface Technologies. The Subsea segment engages in design, engineering, procurement, manufacturing, fabrication, installation, and life of field services for subsea systems, subsea field infrastructure, and subsea pipeline systems used in oil and natural gas production and transportation. It provides subsea production systems; subsea processing systems; subsea umbilicals, risers and flowlines; vessels; drilling, installation, and intervention and plug and abandonment; maintenance, asset integrity, and production management; robotics; and subsea studio digital platform. The Surface Technologies segment designs, manufactures, and services products and systems used in land and shallow water exploration and production of oil and natural gas. This segment offers drilling; surface wellheads and production trees systems; iComplete, a pressure control system; fracturing tree systems, fracturing valve greasing systems, hydraulic or electric control units, service-less valves, fracturing manifold systems, and rigid and flexible flowlines; flexible pipes; safety and integrity systems, multiphase meter modules, in-line separation and processing systems, compact ball valves for manifolds, and standard pumps; well control and integrity systems; and skid solutions. It also offers planning, testing and installation, commissioning, operations, replacement and upgrade, maintenance, storage, preservation, intervention, integrity, decommissioning, and abandonment; and supplies flowline products and services. TechnipFMC plc was founded in 1884 and is headquartered in Newcastle upon Tyne, the United Kingdom."
+  "longBusinessSummary": "TechnipFMC plc engages in the oil and natural gas projects, technologies, systems, and services businesses in Europe, Central Asia, North America, Latin America, the Asia Pacific, Africa, the Middle East, and internationally. It operates through two segments, Subsea and Surface Technologies. The Subsea segment engages in design, engineering, procurement, manufacturing, fabrication, installation, and life of field services for subsea systems, subsea field infrastructure, and subsea pipeline systems used in oil and natural gas production and transportation. It provides subsea production systems; subsea processing systems; subsea umbilicals, risers and flowlines; vessels; drilling, installation, and intervention and plug and abandonment; maintenance, asset integrity, and production management; robotics; and subsea studio digital platform. The Surface Technologies segment designs, manufactures, and services products and systems used in land and shallow water exploration and production of oil and natural gas. This segment offers drilling; surface wellheads and production trees systems; iComplete, a pressure control system; fracturing tree systems, fracturing valve greasing systems, hydraulic or electric control units, service-less valves, fracturing manifold systems, and rigid and flexible flowlines; flexible pipes; safety and integrity systems, multiphase meter modules, in-line separation and processing systems, compact ball valves for manifolds, and standard pumps; well control and integrity systems; and skid solutions. It also offers planning, testing and installation, commissioning, operations, replacement and upgrade, maintenance, storage, preservation, intervention, integrity, decommissioning, and abandonment; and supplies flowline products and services. TechnipFMC plc was founded in 1884 and is headquartered in Newcastle upon Tyne, the United Kingdom.",
+  "targetMeanPrice": 76.0,
+  "targetLowPrice": 45.0,
+  "targetHighPrice": 87.0,
+  "numberOfAnalystOpinions": 21,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.95238,
+  "forwardPE": 19.240023,
+  "forwardEps": 3.6159,
+  "trailingEps": 2.87,
+  "earningsGrowth": 0.406,
+  "revenueGrowth": 0.09
  },
  "governance": {
   "ceo": {
@@ -82,10 +93,41 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "capex": "sec",
   "current_liabilities": "sec",
   "goodwill": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 10118200000.0,
+    "official": 10118200000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3363800000.0,
+    "official": 3363800000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 963900000.0,
+    "official": 963900000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 9932600000.0,
+    "official": 9932600000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:44:30+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -195,7 +237,10 @@
    "goodwill_and_intangibles": 716000000.0,
    "retained_earnings": -5010000000.0,
    "total_debt": 1366600000.0,
-   "shares_out": 442200000.0
+   "shares_out": 442200000.0,
+   "unusual_items": -72700000.0,
+   "normalized_ebitda": 657500000.0,
+   "normalized_income": -4467000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -228,7 +273,10 @@
    "goodwill_and_intangibles": 601600000.0,
    "retained_earnings": -4993100000.0,
    "total_debt": 1067300000.0,
-   "shares_out": 432900000.0
+   "shares_out": 432900000.0,
+   "unusual_items": -20000000.0,
+   "normalized_ebitda": 726600000.0,
+   "normalized_income": 72000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -261,7 +309,10 @@
    "goodwill_and_intangibles": 508300000.0,
    "retained_earnings": -4309800000.0,
    "total_debt": 885200000.0,
-   "shares_out": 423100000.0
+   "shares_out": 423100000.0,
+   "unusual_items": 45500000.0,
+   "normalized_ebitda": 1385000000.0,
+   "normalized_income": 801495000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -294,7 +345,10 @@
    "goodwill_and_intangibles": 425700000.0,
    "retained_earnings": -3761400000.0,
    "total_debt": 430000000.0,
-   "shares_out": 400700000.0
+   "shares_out": 400700000.0,
+   "unusual_items": -72800000.0,
+   "normalized_ebitda": 1866000000.0,
+   "normalized_income": 1019300800.0
   }
  ]
 }

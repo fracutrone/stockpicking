@@ -1,6 +1,6 @@
 {
  "ticker": "KTOS",
- "fetched_at": "2026-10-10T12:50:08+00:00",
+ "fetched_at": "2026-10-10T15:48:25+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 4300,
   "website": "https://www.kratosdefense.com",
-  "longBusinessSummary": "Kratos Defense & Security Solutions, Inc., a technology company, provides technology, hardware, products, system, and software for the defense, national security, and commercial markets in the United States, other North America, the Asia Pacific, the Middle East, Europe, and Internationally. The company operates through Kratos Government Solutions and Unmanned Systems segments. It offers virtualized ground systems for satellites and space vehicles, including software for command and control, telemetry, and tracking and control; jet powered unmanned aerial drone systems and hypersonic vehicles and rocket systems; propulsion systems for drones, missiles, loitering munitions, supersonic systems, spacecraft and launch systems, command, control, communication, computing, combat, and intelligence surveillance and reconnaissance; and microwave electronic products for missile, radar, missile defense, space, and satellite; and counter unmanned aircraft systems, directed energy, communication and other systems, and virtual and augmented reality training systems for the warfighter. The company primarily serves national security-related agencies, the U.S. Department of Defense, intelligence and classified agencies, international government agencies, and domestic and international commercial customers. Kratos Defense & Security Solutions, Inc. was formerly known as Wireless Facilities, Inc. and changed its name to Kratos Defense & Security Solutions, Inc. in August 1999. Kratos Defense & Security Solutions, Inc. was incorporated in 1994 and is headquartered in San Diego, California."
+  "longBusinessSummary": "Kratos Defense & Security Solutions, Inc., a technology company, provides technology, hardware, products, system, and software for the defense, national security, and commercial markets in the United States, other North America, the Asia Pacific, the Middle East, Europe, and Internationally. The company operates through Kratos Government Solutions and Unmanned Systems segments. It offers virtualized ground systems for satellites and space vehicles, including software for command and control, telemetry, and tracking and control; jet powered unmanned aerial drone systems and hypersonic vehicles and rocket systems; propulsion systems for drones, missiles, loitering munitions, supersonic systems, spacecraft and launch systems, command, control, communication, computing, combat, and intelligence surveillance and reconnaissance; and microwave electronic products for missile, radar, missile defense, space, and satellite; and counter unmanned aircraft systems, directed energy, communication and other systems, and virtual and augmented reality training systems for the warfighter. The company primarily serves national security-related agencies, the U.S. Department of Defense, intelligence and classified agencies, international government agencies, and domestic and international commercial customers. Kratos Defense & Security Solutions, Inc. was formerly known as Wireless Facilities, Inc. and changed its name to Kratos Defense & Security Solutions, Inc. in August 1999. Kratos Defense & Security Solutions, Inc. was incorporated in 1994 and is headquartered in San Diego, California.",
+  "targetMeanPrice": 100.04348,
+  "targetLowPrice": 55.0,
+  "targetHighPrice": 150.0,
+  "numberOfAnalystOpinions": 23,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.34783,
+  "forwardPE": 37.96039,
+  "forwardEps": 1.1159,
+  "trailingEps": 0.17,
+  "earningsGrowth": 0.074,
+  "revenueGrowth": 0.305
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 2467200000.0,
+    "official": 2467200000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1996300000.0,
+    "official": 1996300000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 22000000.0,
+    "official": 22000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1346800000.0,
+    "official": 1346800000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:48:25+00:00",
  "years": [
   {
    "fy_end": "2019-12-29",
@@ -199,7 +241,10 @@
    "goodwill_and_intangibles": 613400000.0,
    "retained_earnings": -671300000.0,
    "total_debt": 250200000.0,
-   "shares_out": 125985306.0
+   "shares_out": 125985306.0,
+   "unusual_items": -20500000.0,
+   "normalized_ebitda": 46700000.0,
+   "normalized_income": -20705000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -233,7 +278,10 @@
    "goodwill_and_intangibles": 631500000.0,
    "retained_earnings": -680200000.0,
    "total_debt": 219300000.0,
-   "shares_out": 129286964.0
+   "shares_out": 129286964.0,
+   "unusual_items": -400000.0,
+   "normalized_ebitda": 77900000.0,
+   "normalized_income": -8584000.0
   },
   {
    "fy_end": "2024-12-29",
@@ -267,7 +315,10 @@
    "goodwill_and_intangibles": 622700000.0,
    "retained_earnings": -663900000.0,
    "total_debt": 174600000.0,
-   "shares_out": 151092292.0
+   "shares_out": 151092292.0,
+   "unusual_items": -700000.0,
+   "normalized_ebitda": 94300000.0,
+   "normalized_income": 16730566.037736
   },
   {
    "fy_end": "2025-12-28",
@@ -301,7 +352,10 @@
    "goodwill_and_intangibles": 649600000.0,
    "retained_earnings": -641900000.0,
    "total_debt": 0,
-   "shares_out": 168875032.0
+   "shares_out": 168875032.0,
+   "unusual_items": -2100000.0,
+   "normalized_ebitda": 105000000.0,
+   "normalized_income": 23360800.0
   }
  ]
 }

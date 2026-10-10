@@ -1,6 +1,6 @@
 {
  "ticker": "ASC.L",
- "fetched_at": "2026-10-10T11:46:07+00:00",
+ "fetched_at": "2026-10-10T14:31:28+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.52822,
   "heldPercentInstitutions": 0.34218,
   "shortPercentOfFloat": null,
-  "averageVolume": 473469,
+  "averageVolume": 475615,
   "quoteType": "EQUITY",
   "exchange": "LSE",
   "fullTimeEmployees": 2800,
   "website": "https://www.asosplc.com",
-  "longBusinessSummary": "ASOS Plc, together with its subsidiaries, operates as an online fashion retailer in the United Kingdom, the European Union, the United States, and internationally. The company sells fashion products under the ASOS Design, ASOS 4505, Collusion, ARRANGE, HIIT, Miss Selfridge, Topman, and Topshop brands. It also provides payment processing and brand management services; employs marketing and supply chain staff; and acts as a vehicle for issue of convertible bonds. The company was formerly known as asSeenonScreen Holdings PLC and changed its name to ASOS Plc in August 2003. ASOS Plc was incorporated in 2000 and is headquartered in London, the United Kingdom."
+  "longBusinessSummary": "ASOS Plc, together with its subsidiaries, operates as an online fashion retailer in the United Kingdom, the European Union, the United States, and internationally. The company sells fashion products under the ASOS Design, ASOS 4505, Collusion, ARRANGE, HIIT, Miss Selfridge, Topman, and Topshop brands. It also provides payment processing and brand management services; employs marketing and supply chain staff; and acts as a vehicle for issue of convertible bonds. The company was formerly known as asSeenonScreen Holdings PLC and changed its name to ASOS Plc in August 2003. ASOS Plc was incorporated in 2000 and is headquartered in London, the United Kingdom.",
+  "targetMeanPrice": 460.0,
+  "targetLowPrice": 250.0,
+  "targetHighPrice": 750.0,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.38462,
+  "forwardPE": -16.41712,
+  "forwardEps": -0.28385,
+  "trailingEps": -1.93,
+  "earningsGrowth": null,
+  "revenueGrowth": -0.141
  },
  "governance": {
   "ceo": {
@@ -76,8 +87,35 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-08-31",
+  "items": {
+   "equity": {
+    "yahoo": 212400000.0,
+    "official": 212400000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -298400000.0,
+    "official": -298400000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2477800000.0,
+    "official": 2477800000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-08-31"
+ },
+ "info_at": "2026-10-10T14:31:28+00:00",
  "years": [
   {
    "fy_end": "2022-08-31",
@@ -111,7 +149,10 @@
    "goodwill_and_intangibles": 683900000.0,
    "retained_earnings": 683300000.0,
    "total_debt": 856000000.0,
-   "shares_out": 99940235.0
+   "shares_out": 99940235.0,
+   "unusual_items": -43200000.0,
+   "normalized_ebitda": 184100000.0,
+   "normalized_income": 10931200.0
   },
   {
    "fy_end": "2023-08-31",
@@ -145,7 +186,10 @@
    "goodwill_and_intangibles": 700500000.0,
    "retained_earnings": 466800000.0,
    "total_debt": 1001800000.0,
-   "shares_out": 119236850.0
+   "shares_out": 119236850.0,
+   "unusual_items": -104400000.0,
+   "normalized_ebitda": -71000000.0,
+   "normalized_income": -223100000.0
   },
   {
    "fy_end": "2024-08-31",
@@ -179,7 +223,10 @@
    "goodwill_and_intangibles": 514000000.0,
    "retained_earnings": 132600000.0,
    "total_debt": 977700000.0,
-   "shares_out": 119161620.0
+   "shares_out": 119161620.0,
+   "unusual_items": -144900000.0,
+   "normalized_ebitda": -2700000.0,
+   "normalized_income": -209309992.090693
   },
   {
    "fy_end": "2025-08-31",
@@ -213,7 +260,10 @@
    "goodwill_and_intangibles": 473600000.0,
    "retained_earnings": -118000000.0,
    "total_debt": 728100000.0,
-   "shares_out": 119418137.0
+   "shares_out": 119418137.0,
+   "unusual_items": -177300000.0,
+   "normalized_ebitda": 136700000.0,
+   "normalized_income": -165425000.0
   }
  ]
 }

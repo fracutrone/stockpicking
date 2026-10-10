@@ -1,6 +1,6 @@
 {
  "ticker": "KBC.BR",
- "fetched_at": "2026-10-10T12:05:06+00:00",
+ "fetched_at": "2026-10-10T15:00:27+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "BRU",
   "fullTimeEmployees": 39803,
   "website": "https://www.kbc.com",
-  "longBusinessSummary": "KBC Group NV, together with its subsidiaries, provides banking, insurance, and asset management services in Belgium, Bulgaria, the Czech Republic, Hungary, and Slovakia. The company offers demand deposits, time deposits, and savings and current accounts; home and mortgage loans; home insurance; consumer finance and SME funding services, investment fund, and life and non-life insurance; cash management, payments, trade finance, leasing, corporate finance, money and capital market products; and other financial services, such as factoring and stockbroking services. It also provides digital and mobile banking services. In addition, the company engages in the credit institution, software, driving school/roadside assistance business. It primarily serves retail, private banking, small and medium sized enterprises, and mid-cap clients. The company was formerly known as KBC Bank and Insurance Holding Company NV and changed its name to KBC Group NV in March 2005. KBC Group NV was incorporated in 1935 and is headquartered in Brussels, Belgium."
+  "longBusinessSummary": "KBC Group NV, together with its subsidiaries, provides banking, insurance, and asset management services in Belgium, Bulgaria, the Czech Republic, Hungary, and Slovakia. The company offers demand deposits, time deposits, and savings and current accounts; home and mortgage loans; home insurance; consumer finance and SME funding services, investment fund, and life and non-life insurance; cash management, payments, trade finance, leasing, corporate finance, money and capital market products; and other financial services, such as factoring and stockbroking services. It also provides digital and mobile banking services. In addition, the company engages in the credit institution, software, driving school/roadside assistance business. It primarily serves retail, private banking, small and medium sized enterprises, and mid-cap clients. The company was formerly known as KBC Bank and Insurance Holding Company NV and changed its name to KBC Group NV in March 2005. KBC Group NV was incorporated in 1935 and is headquartered in Brussels, Belgium.",
+  "targetMeanPrice": 134.65,
+  "targetLowPrice": 88.0,
+  "targetHighPrice": 156.0,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.4,
+  "forwardPE": 10.693231,
+  "forwardEps": 11.39506,
+  "trailingEps": 9.03,
+  "earningsGrowth": 0.132,
+  "revenueGrowth": 0.066
  },
  "governance": {
   "ceo": {
@@ -77,8 +88,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF BE",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 397372000000.0,
+    "official": 397372000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 27905000000.0,
+    "official": 25404000000.0,
+    "diff": 0.098449
+   },
+   "net_income": {
+    "yahoo": 3568000000.0,
+    "official": 3568000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 12690000000.0,
+    "official": 12200000000.0,
+    "diff": 0.040164
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:00:27+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -105,7 +147,9 @@
    "goodwill_and_intangibles": 2331000000.0,
    "retained_earnings": 12626000000.0,
    "total_debt": 18981000000.0,
-   "shares_out": 417169412.0
+   "shares_out": 417169412.0,
+   "unusual_items": -209000000.0,
+   "normalized_income": 2991853784.40367
   },
   {
    "fy_end": "2023-12-31",
@@ -132,7 +176,9 @@
    "goodwill_and_intangibles": 2355000000.0,
    "retained_earnings": 14332000000.0,
    "total_debt": 26206000000.0,
-   "shares_out": 408504560.0
+   "shares_out": 408504560.0,
+   "unusual_items": 190000000.0,
+   "normalized_income": 3356372098.588179
   },
   {
    "fy_end": "2024-12-31",
@@ -159,7 +205,9 @@
    "goodwill_and_intangibles": 2475000000.0,
    "retained_earnings": 15724000000.0,
    "total_debt": 27963000000.0,
-   "shares_out": 396563326.0
+   "shares_out": 396563326.0,
+   "unusual_items": -77000000.0,
+   "normalized_income": 3481703374.777975
   },
   {
    "fy_end": "2025-12-31",
@@ -185,7 +233,9 @@
    "goodwill_and_intangibles": 2699000000.0,
    "retained_earnings": 17589000000.0,
    "total_debt": 27338000000.0,
-   "shares_out": 396681919.0
+   "shares_out": 396681919.0,
+   "unusual_items": -61000000.0,
+   "normalized_income": 3622548034.934498
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "CWR.L",
- "fetched_at": "2026-10-10T11:53:26+00:00",
+ "fetched_at": "2026-10-10T14:41:39+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.18228,
   "heldPercentInstitutions": 0.4817,
   "shortPercentOfFloat": null,
-  "averageVolume": 2379474,
+  "averageVolume": 2374868,
   "quoteType": "EQUITY",
   "exchange": "LSE",
   "fullTimeEmployees": 353,
   "website": "https://www.ceres.tech",
-  "longBusinessSummary": "Ceres Power Holdings plc engages in the development and commercialization of fuel cell and electrochemical technology in Europe, Asia, and North America. The company offers cell, stack, and factory; power system and power modules for data centers, commercial power, industrial power, and marine applications; and stack array module and electrolyser module for ammonia, refineries, green steel, and eFuels applications. It also provides a solid oxide electrolysis cell (SOEC) technology to produce green hydrogen; and a solid oxide fuel cell (SOFC) technology to generate electrical power from various fuel types, including natural gas, biofuels, hydrogen blends, and pure hydrogen. In addition, the company is involved in the provision of overseas license and royalty services; business development and technical support; development of flow battery technologies for energy storage systems; and administration of registered intellectual property. Ceres Power Holdings plc was incorporated in 2004 and is based in Horsham, the United Kingdom."
+  "longBusinessSummary": "Ceres Power Holdings plc engages in the development and commercialization of fuel cell and electrochemical technology in Europe, Asia, and North America. The company offers cell, stack, and factory; power system and power modules for data centers, commercial power, industrial power, and marine applications; and stack array module and electrolyser module for ammonia, refineries, green steel, and eFuels applications. It also provides a solid oxide electrolysis cell (SOEC) technology to produce green hydrogen; and a solid oxide fuel cell (SOFC) technology to generate electrical power from various fuel types, including natural gas, biofuels, hydrogen blends, and pure hydrogen. In addition, the company is involved in the provision of overseas license and royalty services; business development and technical support; development of flow battery technologies for energy storage systems; and administration of registered intellectual property. Ceres Power Holdings plc was incorporated in 2004 and is based in Horsham, the United Kingdom.",
+  "targetMeanPrice": 782.143,
+  "targetLowPrice": 200.0,
+  "targetHighPrice": 1000.0,
+  "numberOfAnalystOpinions": 7,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.57143,
+  "forwardPE": 8659.091,
+  "forwardEps": 0.00044,
+  "trailingEps": -0.23,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.079
  },
  "governance": {
   "ceo": {
@@ -76,8 +87,35 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "equity": {
+    "yahoo": 107646000.0,
+    "official": 107646000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -47546000.0,
+    "official": -47546000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 32643000.0,
+    "official": 32643000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:41:39+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -111,7 +149,9 @@
    "goodwill_and_intangibles": 13278000.0,
    "retained_earnings": -201817000.0,
    "total_debt": 3124000.0,
-   "shares_out": 192086775.0
+   "shares_out": 192086775.0,
+   "normalized_ebitda": -43944000.0,
+   "normalized_income": -47615000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -145,7 +185,9 @@
    "goodwill_and_intangibles": 19054000.0,
    "retained_earnings": -255758000.0,
    "total_debt": 2596000.0,
-   "shares_out": 192968096.0
+   "shares_out": 192968096.0,
+   "normalized_ebitda": -44047000.0,
+   "normalized_income": -54008000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -179,7 +221,10 @@
    "goodwill_and_intangibles": 19974000.0,
    "retained_earnings": -283099000.0,
    "total_debt": 2223000.0,
-   "shares_out": 193699380.0
+   "shares_out": 193699380.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": -16033000.0,
+   "normalized_income": -28305000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -213,7 +258,10 @@
    "goodwill_and_intangibles": 16203000.0,
    "retained_earnings": -329385000.0,
    "total_debt": 2409000.0,
-   "shares_out": 194694543.0
+   "shares_out": 194694543.0,
+   "unusual_items": -5578000.0,
+   "normalized_ebitda": -28680000.0,
+   "normalized_income": -43362500.0
   }
  ]
 }

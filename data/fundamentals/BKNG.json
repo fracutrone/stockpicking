@@ -1,6 +1,6 @@
 {
  "ticker": "BKNG",
- "fetched_at": "2026-10-10T12:39:06+00:00",
+ "fetched_at": "2026-10-10T15:37:51+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 25550,
   "website": "https://www.bookingholdings.com",
-  "longBusinessSummary": "Booking Holdings Inc., together with its subsidiaries, provides online and traditional travel and restaurant reservations and related services in the United States, the Netherlands, the United Kingdom, and internationally. The company operates Booking.com, which offers online accommodation reservations; and Priceline, which provides discount travel reservations services, as well as online accommodation, flight, rental car reservation services, vacation packages, cruises, activity, and affiliate programs. It also operates Agoda that offers online accommodation reservation, flight, ground transportation, and attractions. In addition, the company operates KAYAK, an online meta-search service that allows consumers to search and compare travel itineraries and prices; and OpenTable for booking online restaurant reservations, as well as reservation management services to restaurants. Further, it offers travel-related insurance products, payment facilitation, and restaurant management services to consumers, travel service providers, and restaurants; and advertising services. The company was formerly known as The Priceline Group Inc. and changed its name to Booking Holdings Inc. in February 2018. Booking Holdings Inc. was founded in 1997 and is headquartered in Norwalk, Connecticut."
+  "longBusinessSummary": "Booking Holdings Inc., together with its subsidiaries, provides online and traditional travel and restaurant reservations and related services in the United States, the Netherlands, the United Kingdom, and internationally. The company operates Booking.com, which offers online accommodation reservations; and Priceline, which provides discount travel reservations services, as well as online accommodation, flight, rental car reservation services, vacation packages, cruises, activity, and affiliate programs. It also operates Agoda that offers online accommodation reservation, flight, ground transportation, and attractions. In addition, the company operates KAYAK, an online meta-search service that allows consumers to search and compare travel itineraries and prices; and OpenTable for booking online restaurant reservations, as well as reservation management services to restaurants. Further, it offers travel-related insurance products, payment facilitation, and restaurant management services to consumers, travel service providers, and restaurants; and advertising services. The company was formerly known as The Priceline Group Inc. and changed its name to Booking Holdings Inc. in February 2018. Booking Holdings Inc. was founded in 1997 and is headquartered in Norwalk, Connecticut.",
+  "targetMeanPrice": 235.25714,
+  "targetLowPrice": 180.0,
+  "targetHighPrice": 301.0,
+  "numberOfAnalystOpinions": 35,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.54054,
+  "forwardPE": 12.953344,
+  "forwardEps": 12.37827,
+  "trailingEps": 9.02,
+  "earningsGrowth": 1.3,
+  "revenueGrowth": 0.081
  },
  "governance": {
   "ceo": {
@@ -83,9 +94,35 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "cogs": "sec",
   "gross_profit": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 29264000000.0,
+    "official": 29264000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": -5578000000.0,
+    "official": -5578000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 26917000000.0,
+    "official": 26917000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:37:51+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -189,7 +226,10 @@
    "goodwill_and_intangibles": 4636000000.0,
    "retained_earnings": 27541000000.0,
    "total_debt": 12485000000.0,
-   "shares_out": 946574250.0
+   "shares_out": 946574250.0,
+   "unusual_items": -1006000000.0,
+   "normalized_ebitda": 5927000000.0,
+   "normalized_income": 3842182513.382615
   },
   {
    "fy_end": "2023-12-31",
@@ -221,7 +261,10 @@
    "goodwill_and_intangibles": 4439000000.0,
    "retained_earnings": 31830000000.0,
    "total_debt": 14184000000.0,
-   "shares_out": 859941225.0
+   "shares_out": 859941225.0,
+   "unusual_items": -479000000.0,
+   "normalized_ebitda": 7522000000.0,
+   "normalized_income": 4663827768.655355
   },
   {
    "fy_end": "2024-12-31",
@@ -253,7 +296,10 @@
    "goodwill_and_intangibles": 4181000000.0,
    "retained_earnings": 36525000000.0,
    "total_debt": 16598000000.0,
-   "shares_out": 823671625.0
+   "shares_out": 823671625.0,
+   "unusual_items": -89000000.0,
+   "normalized_ebitda": 9427000000.0,
+   "normalized_income": 5953823000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -284,7 +330,10 @@
    "goodwill_and_intangibles": 3587000000.0,
    "retained_earnings": 40670000000.0,
    "total_debt": 18736000000.0,
-   "shares_out": 797352800.0
+   "shares_out": 797352800.0,
+   "unusual_items": -1739000000.0,
+   "normalized_ebitda": 10956000000.0,
+   "normalized_income": 6779549000.0
   }
  ]
 }

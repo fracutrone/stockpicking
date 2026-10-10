@@ -1,6 +1,6 @@
 {
  "ticker": "WKP.L",
- "fetched_at": "2026-10-10T12:26:22+00:00",
+ "fetched_at": "2026-10-10T15:29:48+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 283,
   "website": "https://www.workspace.co.uk",
-  "longBusinessSummary": "Workspace Group Plc is London's leading owner and operator of flexible workspace, currently managing 3.8 million sq. ft. of sustainable space at 50+ locations in London and the Southeast. They are home to nearly 4,000 of London's fastest growing and established brands from a diverse range of sectors. Their purpose, to give businesses the freedom to grow, is based on the belief that in the right space, teams can achieve more. That in environments they tailor themselves, free from constraint and compromise, teams are best able to collaborate, build their culture and realize their potential. The firm has a unique combination of a highly effective and scalable operating platform, a portfolio of distinctive properties, and an ownership model that allows us to offer true flexibility. They provide customers with space to create a home for their business, alongside leases that give them the freedom to easily scale up and down within our well-connected, extensive portfolio. We are inherently sustainable  the firm invest across the capital, breathing new life into old buildings and creating hubs of economic activity that help flatten London's working map. The firm work closely with their local communities to ensure to make a positive and lasting environmental and social impact, creating value over the long term. Workspace was established in July 10, 1987 and incorporated in United Kingdom."
+  "longBusinessSummary": "Workspace Group Plc is London's leading owner and operator of flexible workspace, currently managing 3.8 million sq. ft. of sustainable space at 50+ locations in London and the Southeast. They are home to nearly 4,000 of London's fastest growing and established brands from a diverse range of sectors. Their purpose, to give businesses the freedom to grow, is based on the belief that in the right space, teams can achieve more. That in environments they tailor themselves, free from constraint and compromise, teams are best able to collaborate, build their culture and realize their potential. The firm has a unique combination of a highly effective and scalable operating platform, a portfolio of distinctive properties, and an ownership model that allows us to offer true flexibility. They provide customers with space to create a home for their business, alongside leases that give them the freedom to easily scale up and down within our well-connected, extensive portfolio. We are inherently sustainable  the firm invest across the capital, breathing new life into old buildings and creating hubs of economic activity that help flatten London's working map. The firm work closely with their local communities to ensure to make a positive and lasting environmental and social impact, creating value over the long term. Workspace was established in July 10, 1987 and incorporated in United Kingdom.",
+  "targetMeanPrice": 394.111,
+  "targetLowPrice": 300.0,
+  "targetHighPrice": 500.0,
+  "numberOfAnalystOpinions": 9,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.33333,
+  "forwardPE": 16.613419,
+  "forwardEps": 0.21284,
+  "trailingEps": -0.63,
+  "earningsGrowth": null,
+  "revenueGrowth": -0.016
  },
  "governance": {
   "ceo": {
@@ -67,8 +78,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2026-03-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 2210100000.0,
+    "official": 2210100000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1328200000.0,
+    "official": 1328200000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -120300000.0,
+    "official": -120300000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 181400000.0,
+    "official": 181400000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2026-03-31"
+ },
+ "info_at": "2026-10-10T15:29:49+00:00",
  "years": [
   {
    "fy_end": "2023-03-31",
@@ -99,7 +142,10 @@
    "goodwill_and_intangibles": 2000000.0,
    "retained_earnings": 1219500000.0,
    "total_debt": 943600000.0,
-   "shares_out": 191638357.0
+   "shares_out": 191638357.0,
+   "unusual_items": -5700000.0,
+   "normalized_ebitda": 3100000.0,
+   "normalized_income": -32145600.0
   },
   {
    "fy_end": "2024-03-31",
@@ -130,7 +176,10 @@
    "goodwill_and_intangibles": 2200000.0,
    "retained_earnings": 977300000.0,
    "total_debt": 889500000.0,
-   "shares_out": 191770743.0
+   "shares_out": 191770743.0,
+   "unusual_items": -4100000.0,
+   "normalized_ebitda": -153000000.0,
+   "normalized_income": -189425000.0
   },
   {
    "fy_end": "2025-03-31",
@@ -161,7 +210,10 @@
    "goodwill_and_intangibles": 1100000.0,
    "retained_earnings": 943600000.0,
    "total_debt": 876000000.0,
-   "shares_out": 192085480.0
+   "shares_out": 192085480.0,
+   "unusual_items": -400000.0,
+   "normalized_ebitda": 38900000.0,
+   "normalized_income": 5800000.0
   },
   {
    "fy_end": "2026-03-31",
@@ -192,7 +244,10 @@
    "goodwill_and_intangibles": 0.0,
    "retained_earnings": 770600000.0,
    "total_debt": 793100000.0,
-   "shares_out": 192288652.0
+   "shares_out": 192288652.0,
+   "unusual_items": -8000000.0,
+   "normalized_ebitda": -78800000.0,
+   "normalized_income": -114300000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "NOW",
- "fetched_at": "2026-10-10T12:53:09+00:00",
+ "fetched_at": "2026-10-10T15:51:08+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 29187,
   "website": "https://www.servicenow.com",
-  "longBusinessSummary": "ServiceNow, Inc. provides cloud-based solution for digital workflows in the North America, Brazil, Europe, the Middle East and Africa, Asia Pacific, and internationally. The company provides asset management, integrated risk management, IT service management, Operational Technology management, Security Operations, strategic portfolio management, IT operations management products; customer service management product; field service management applications; and sales and order management services. It also offers human resources delivery; legal and contract operations; workplace service delivery products; app engine product; automation engine; platform privacy and security product; and source-to-pay operations. In addition, the company provides RaptorDB, a database built to manage workloads at scale; ServiceNow Impact that provides customers with software tools, guided plans, and AI-driven recommendations; customer support; and workflow data fabric. It serves government, financial services, healthcare and life science, manufacturing, Public Sector, retail, technology, and Telecom sectors through service providers and resale partners. The company has a strategic collaboration with Cohesity, Inc. to develop, operate, and safeguard autonomous AI agents and data with enterprise-grade reliability; and with ServiceNow to Advance Ai-Powered Solution for Mission-Critical Infrastructure Monitoring. The company was formerly known as Service-now.com and changed its name to ServiceNow, Inc. in May 2012. ServiceNow, Inc. has a strategic alliance with Accenture for integrated risk management and third-party risk management solutions, and with Tech Mahindra to validate and deliver production-ready, industry-specific enterprise AI and automation solutions at scale. ServiceNow, Inc. was founded in 2004 and is headquartered in Santa Clara, California."
+  "longBusinessSummary": "ServiceNow, Inc. provides cloud-based solution for digital workflows in the North America, Brazil, Europe, the Middle East and Africa, Asia Pacific, and internationally. The company provides asset management, integrated risk management, IT service management, Operational Technology management, Security Operations, strategic portfolio management, IT operations management products; customer service management product; field service management applications; and sales and order management services. It also offers human resources delivery; legal and contract operations; workplace service delivery products; app engine product; automation engine; platform privacy and security product; and source-to-pay operations. In addition, the company provides RaptorDB, a database built to manage workloads at scale; ServiceNow Impact that provides customers with software tools, guided plans, and AI-driven recommendations; customer support; and workflow data fabric. It serves government, financial services, healthcare and life science, manufacturing, Public Sector, retail, technology, and Telecom sectors through service providers and resale partners. The company has a strategic collaboration with Cohesity, Inc. to develop, operate, and safeguard autonomous AI agents and data with enterprise-grade reliability; and with ServiceNow to Advance Ai-Powered Solution for Mission-Critical Infrastructure Monitoring. The company was formerly known as Service-now.com and changed its name to ServiceNow, Inc. in May 2012. ServiceNow, Inc. has a strategic alliance with Accenture for integrated risk management and third-party risk management solutions, and with Tech Mahindra to validate and deliver production-ready, industry-specific enterprise AI and automation solutions at scale. ServiceNow, Inc. was founded in 2004 and is headquartered in Santa Clara, California.",
+  "targetMeanPrice": 146.73174,
+  "targetLowPrice": 72.0,
+  "targetHighPrice": 248.0,
+  "numberOfAnalystOpinions": 46,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.42857,
+  "forwardPE": 28.14099,
+  "forwardEps": 5.00551,
+  "trailingEps": 1.6,
+  "earningsGrowth": -0.219,
+  "revenueGrowth": 0.24
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 26038000000.0,
+    "official": 26038000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 12964000000.0,
+    "official": 12964000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1748000000.0,
+    "official": 1748000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 13278000000.0,
+    "official": 13278000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:51:08+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -160,7 +202,8 @@
    "ppe_net": 766000000.0,
    "goodwill": 777000000.0,
    "intangibles": 287000000.0,
-   "retained_earnings": -4000000.0
+   "retained_earnings": -4000000.0,
+   "unusual_items": -3000000.0
   },
   {
    "fy_end": "2022-12-31",
@@ -194,7 +237,9 @@
    "goodwill_and_intangibles": 1056000000.0,
    "retained_earnings": 338000000.0,
    "total_debt": 2232000000.0,
-   "shares_out": 1014410000.0
+   "shares_out": 1014410000.0,
+   "normalized_ebitda": 788000000.0,
+   "normalized_income": 325000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -228,7 +273,9 @@
    "goodwill_and_intangibles": 1455000000.0,
    "retained_earnings": 2069000000.0,
    "total_debt": 2284000000.0,
-   "shares_out": 1023620000.0
+   "shares_out": 1023620000.0,
+   "normalized_ebitda": 1324000000.0,
+   "normalized_income": 1731000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -262,7 +309,9 @@
    "goodwill_and_intangibles": 1482000000.0,
    "retained_earnings": 3494000000.0,
    "total_debt": 2278000000.0,
-   "shares_out": 1032435000.0
+   "shares_out": 1032435000.0,
+   "normalized_ebitda": 2325000000.0,
+   "normalized_income": 1425000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -296,7 +345,9 @@
    "goodwill_and_intangibles": 4699000000.0,
    "retained_earnings": 5242000000.0,
    "total_debt": 2403000000.0,
-   "shares_out": 1047278000.0
+   "shares_out": 1047278000.0,
+   "normalized_ebitda": 3022000000.0,
+   "normalized_income": 1748000000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "FDXF",
- "fetched_at": "2026-10-10T12:45:26+00:00",
+ "fetched_at": "2026-10-10T15:43:44+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 40000,
   "website": "https://www.fedexfreight.com",
-  "longBusinessSummary": "FedEx Freight Holding Company, Inc. provides less-than-truckload freight transportation services in the United States and internationally. The company offers FedEx Freight Priority services, including next-business-day service for shipments traveling up to 600 miles and second-business-day service for shipments traveling up to 1,600 miles and backed by a money-back service guarantee if published delivery commitments are not met; and FedEx Freight Economy. It also provides surface expedite and white glove services; and LTL Select, a cloud-based transportation management system. In addition, the company offers volume and custom critical services, FedEx Freight Direct, and Retail Flex. It provides its services under the FedEx and FedEx Freight names. The company was incorporated in 2025 and is headquartered in Memphis, Tennessee."
+  "longBusinessSummary": "FedEx Freight Holding Company, Inc. provides less-than-truckload freight transportation services in the United States and internationally. The company offers FedEx Freight Priority services, including next-business-day service for shipments traveling up to 600 miles and second-business-day service for shipments traveling up to 1,600 miles and backed by a money-back service guarantee if published delivery commitments are not met; and FedEx Freight Economy. It also provides surface expedite and white glove services; and LTL Select, a cloud-based transportation management system. In addition, the company offers volume and custom critical services, FedEx Freight Direct, and Retail Flex. It provides its services under the FedEx and FedEx Freight names. The company was incorporated in 2025 and is headquartered in Memphis, Tennessee.",
+  "targetMeanPrice": 147.57143,
+  "targetLowPrice": 108.0,
+  "targetHighPrice": 200.0,
+  "numberOfAnalystOpinions": 14,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.92857,
+  "forwardPE": 22.421358,
+  "forwardEps": 5.15,
+  "trailingEps": 4.38,
+  "earningsGrowth": -0.611,
+  "revenueGrowth": 0.048
  },
  "governance": {
   "ceo": {
@@ -82,8 +93,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-05-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 6884000000.0,
+    "official": 6884000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": -497000000.0,
+    "official": -497000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 655000000.0,
+    "official": 655000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 8795000000.0,
+    "official": 8795000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:43:45+00:00",
  "years": [
   {
    "fy_end": "2023-05-31",
@@ -101,7 +143,9 @@
    "shares_diluted": 149505248.0,
    "cfo": 1752000000.0,
    "capex": 558000000.0,
-   "equity": 1671000000.0
+   "equity": 1671000000.0,
+   "normalized_ebitda": 2281000000.0,
+   "normalized_income": 1581000000.0
   },
   {
    "fy_end": "2024-05-31",
@@ -133,7 +177,10 @@
    "goodwill_and_intangibles": 602000000.0,
    "retained_earnings": 2124000000.0,
    "total_debt": 1451000000.0,
-   "shares_out": 149505248.0
+   "shares_out": 149505248.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 2483000000.0,
+   "normalized_income": 1574000000.0
   },
   {
    "fy_end": "2025-05-31",
@@ -165,7 +212,10 @@
    "goodwill_and_intangibles": 602000000.0,
    "retained_earnings": 2393000000.0,
    "total_debt": 1433000000.0,
-   "shares_out": 149505248.0
+   "shares_out": 149505248.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 2218000000.0,
+   "normalized_income": 1346000000.0
   },
   {
    "fy_end": "2026-05-31",
@@ -196,7 +246,10 @@
    "goodwill_and_intangibles": 602000000.0,
    "retained_earnings": -512000000.0,
    "total_debt": 6365000000.0,
-   "shares_out": 149505248.0
+   "shares_out": 149505248.0,
+   "unusual_items": -492000000.0,
+   "normalized_ebitda": 1882000000.0,
+   "normalized_income": 1019572000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "HAS.L",
- "fetched_at": "2026-10-10T12:01:11+00:00",
+ "fetched_at": "2026-10-10T14:53:20+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 8125,
   "website": "https://www.haysplc.com",
-  "longBusinessSummary": "Hays plc engages in the provision of professional and skilled recruitment services in Germany, the United Kingdom, Ireland, Australia, New Zealand, and internationally. The company provides qualified, professional, and skilled recruitment; and temporary, contracting, and permanent recruitment and workforce solutions, as well as workforce services. Hays plc was founded in 1968 and is based in London, the United Kingdom."
+  "longBusinessSummary": "Hays plc engages in the provision of professional and skilled recruitment services in Germany, the United Kingdom, Ireland, Australia, New Zealand, and internationally. The company provides qualified, professional, and skilled recruitment; and temporary, contracting, and permanent recruitment and workforce solutions, as well as workforce services. Hays plc was founded in 1968 and is based in London, the United Kingdom.",
+  "targetMeanPrice": 73.7,
+  "targetLowPrice": 45.0,
+  "targetHighPrice": 100.0,
+  "numberOfAnalystOpinions": 10,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 19.618322,
+  "forwardEps": 0.03275,
+  "trailingEps": -0.04,
+  "earningsGrowth": null,
+  "revenueGrowth": -0.022
  },
  "governance": {
   "ceo": {
@@ -75,8 +86,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2026-06-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 1636100000.0,
+    "official": 1636100000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 403600000.0,
+    "official": 403600000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -58200000.0,
+    "official": -58200000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 6421200000.0,
+    "official": 6421200000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2026-06-30"
+ },
+ "info_at": "2026-10-10T14:53:20+00:00",
  "years": [
   {
    "fy_end": "2022-06-30",
@@ -139,7 +182,10 @@
    "goodwill_and_intangibles": 254000000.0,
    "retained_earnings": 155400000.0,
    "total_debt": 199800000.0,
-   "shares_out": 1589138484.0
+   "shares_out": 1589138484.0,
+   "unusual_items": -3000000.0,
+   "normalized_ebitda": 269900000.0,
+   "normalized_income": 140460000.0
   },
   {
    "fy_end": "2024-06-30",
@@ -172,7 +218,10 @@
    "goodwill_and_intangibles": 220600000.0,
    "retained_earnings": 62000000.0,
    "total_debt": 283400000.0,
-   "shares_out": 1584882417.0
+   "shares_out": 1584882417.0,
+   "unusual_items": -29200000.0,
+   "normalized_ebitda": 123700000.0,
+   "normalized_income": 43775000.0
   },
   {
    "fy_end": "2026-06-30",
@@ -205,7 +254,10 @@
    "goodwill_and_intangibles": 234300000.0,
    "retained_earnings": -54700000.0,
    "total_debt": 244900000.0,
-   "shares_out": 1570205100.0
+   "shares_out": 1570205100.0,
+   "unusual_items": -33300000.0,
+   "normalized_ebitda": 62500000.0,
+   "normalized_income": -21150000.0
   }
  ]
 }

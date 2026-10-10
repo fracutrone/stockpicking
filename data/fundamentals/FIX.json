@@ -1,6 +1,6 @@
 {
  "ticker": "FIX",
- "fetched_at": "2026-10-10T12:45:45+00:00",
+ "fetched_at": "2026-10-10T15:44:04+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 22700,
   "website": "https://comfortsystemsusa.com",
-  "longBusinessSummary": "Comfort Systems USA, Inc., together with its subsidiaries, provides mechanical and electrical installation, renovation, maintenance, repair, and replacement services for the mechanical and electrical services industry in the United States. The company operates through two segments: Mechanical and Electrical. It offers heating, ventilation, and air conditioning systems, as well as plumbing, electrical, piping and controls, off-site construction, monitoring, and fire protection. The company is also involved in the design, engineering, integration, installation, and start-up of mechanical, electrical, and plumbing (MEP) and related systems in new buildings; and renovation, expansion, maintenance, monitoring, repair, and replacement of systems in existing buildings. In addition, it provides remote monitoring of power usage, temperature, pressure, humidity and air flow for MEP and other building systems. The company serves building owners and developers, general contractors, architects, consulting engineers, and property managers in the commercial, industrial, and institutional markets. Comfort Systems USA, Inc. was founded in 1917 and is headquartered in Houston, Texas."
+  "longBusinessSummary": "Comfort Systems USA, Inc., together with its subsidiaries, provides mechanical and electrical installation, renovation, maintenance, repair, and replacement services for the mechanical and electrical services industry in the United States. The company operates through two segments: Mechanical and Electrical. It offers heating, ventilation, and air conditioning systems, as well as plumbing, electrical, piping and controls, off-site construction, monitoring, and fire protection. The company is also involved in the design, engineering, integration, installation, and start-up of mechanical, electrical, and plumbing (MEP) and related systems in new buildings; and renovation, expansion, maintenance, monitoring, repair, and replacement of systems in existing buildings. In addition, it provides remote monitoring of power usage, temperature, pressure, humidity and air flow for MEP and other building systems. The company serves building owners and developers, general contractors, architects, consulting engineers, and property managers in the commercial, industrial, and institutional markets. Comfort Systems USA, Inc. was founded in 1917 and is headquartered in Houston, Texas.",
+  "targetMeanPrice": 2197.0,
+  "targetLowPrice": 1910.0,
+  "targetHighPrice": 2500.0,
+  "numberOfAnalystOpinions": 8,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.2,
+  "forwardPE": 28.510025,
+  "forwardEps": 60.17848,
+  "trailingEps": 40.64,
+  "earningsGrowth": 0.919,
+  "revenueGrowth": 0.503
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 6441169000.0,
+    "official": 6441169000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2448774000.0,
+    "official": 2448774000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1022558000.0,
+    "official": 1022558000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 9101641000.0,
+    "official": 9101641000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:44:04+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -203,7 +245,10 @@
    "goodwill_and_intangibles": 885690000.0,
    "retained_earnings": 854644000.0,
    "total_debt": 247245000.0,
-   "shares_out": 35761141.0
+   "shares_out": 35761141.0,
+   "unusual_items": -3234000.0,
+   "normalized_ebitda": 332537000.0,
+   "normalized_income": 248501860.0
   },
   {
    "fy_end": "2023-12-31",
@@ -237,7 +282,10 @@
    "goodwill_and_intangibles": 947231000.0,
    "retained_earnings": 1147663000.0,
    "total_debt": 44212000.0,
-   "shares_out": 35684740.0
+   "shares_out": 35684740.0,
+   "unusual_items": -21305000.0,
+   "normalized_ebitda": 499937000.0,
+   "normalized_income": 341145065.0
   },
   {
    "fy_end": "2024-12-31",
@@ -271,7 +319,10 @@
    "goodwill_and_intangibles": 1309687000.0,
    "retained_earnings": 1627330000.0,
    "total_debt": 68335000.0,
-   "shares_out": 35560912.0
+   "shares_out": 35560912.0,
+   "unusual_items": -85116000.0,
+   "normalized_ebitda": 902212000.0,
+   "normalized_income": 589163944.0
   },
   {
    "fy_end": "2025-12-31",
@@ -305,7 +356,10 @@
    "goodwill_and_intangibles": 1510683000.0,
    "retained_earnings": 2581055000.0,
    "total_debt": 145226000.0,
-   "shares_out": 35177220.0
+   "shares_out": 35177220.0,
+   "unusual_items": -31499000.0,
+   "normalized_ebitda": 1473892000.0,
+   "normalized_income": 1047473709.0
   }
  ]
 }

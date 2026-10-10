@@ -1,6 +1,6 @@
 {
  "ticker": "MUSA",
- "fetched_at": "2026-10-10T12:52:34+00:00",
+ "fetched_at": "2026-10-10T15:50:37+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 5900,
   "website": "https://www.murphyusa.com",
-  "longBusinessSummary": "Murphy USA Inc., together with subsidiaries, engages in marketing of retail motor fuel products and convenience merchandise. The company operates retail stores under the Murphy USA, Murphy Express, and QuickChek brands, as well as operates non-fuel convenience stores. It operates retail gasoline stores principally in the Southeast, Southwest, and Midwest areas of the United States. Murphy USA Inc. was founded in 1996 and is headquartered in El Dorado, Arkansas."
+  "longBusinessSummary": "Murphy USA Inc., together with subsidiaries, engages in marketing of retail motor fuel products and convenience merchandise. The company operates retail stores under the Murphy USA, Murphy Express, and QuickChek brands, as well as operates non-fuel convenience stores. It operates retail gasoline stores principally in the Southeast, Southwest, and Midwest areas of the United States. Murphy USA Inc. was founded in 1996 and is headquartered in El Dorado, Arkansas.",
+  "targetMeanPrice": 617.8,
+  "targetLowPrice": 550.0,
+  "targetHighPrice": 680.0,
+  "numberOfAnalystOpinions": 10,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": 17.249878,
+  "forwardEps": 30.675,
+  "trailingEps": 32.76,
+  "earningsGrowth": 0.531,
+  "revenueGrowth": 0.408
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 4725800000.0,
+    "official": 4725800000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 623500000.0,
+    "official": 623500000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 470600000.0,
+    "official": 470600000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 19384000000.0,
+    "official": 19384000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:50:37+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -198,7 +240,10 @@
    "goodwill_and_intangibles": 468400000.0,
    "retained_earnings": 2755100000.0,
    "total_debt": 1791900000.0,
-   "shares_out": 21749840.0
+   "shares_out": 21749840.0,
+   "unusual_items": 3600000.0,
+   "normalized_ebitda": 1185900000.0,
+   "normalized_income": 670159063.136456
   },
   {
    "fy_end": "2023-12-31",
@@ -233,7 +278,10 @@
    "goodwill_and_intangibles": 467800000.0,
    "retained_earnings": 3278100000.0,
    "total_debt": 1784700000.0,
-   "shares_out": 20837328.0
+   "shares_out": 20837328.0,
+   "unusual_items": 6100000.0,
+   "normalized_ebitda": 1055500000.0,
+   "normalized_income": 552175163.398693
   },
   {
    "fy_end": "2024-12-31",
@@ -268,7 +316,10 @@
    "goodwill_and_intangibles": 467500000.0,
    "retained_earnings": 3743400000.0,
    "total_debt": 1832700000.0,
-   "shares_out": 20016318.0
+   "shares_out": 20016318.0,
+   "unusual_items": -6300000.0,
+   "normalized_ebitda": 1003000000.0,
+   "normalized_income": 507358425.414365
   },
   {
    "fy_end": "2025-12-31",
@@ -302,7 +353,10 @@
    "goodwill_and_intangibles": 467300000.0,
    "retained_earnings": 4172300000.0,
    "total_debt": 2163600000.0,
-   "shares_out": 18565583.0
+   "shares_out": 18565583.0,
+   "unusual_items": -20500000.0,
+   "normalized_ebitda": 1017400000.0,
+   "normalized_income": 486436014.445174
   }
  ]
 }

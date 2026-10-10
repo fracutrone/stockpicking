@@ -1,6 +1,6 @@
 {
  "ticker": "KBH",
- "fetched_at": "2026-10-10T12:49:31+00:00",
+ "fetched_at": "2026-10-10T15:47:50+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 2118,
   "website": "https://www.kbhome.com",
-  "longBusinessSummary": "KB Home operates as a homebuilding company in the United States. It builds and sells homes, including attached and detached single-family residential homes, townhomes, and condominiums primarily for first-time, first move-up, second move-up, and active adult homebuyers. The company also provides financial services, such as mortgage banking services, such as residential consumer mortgage loan originations to homebuyers; property and casualty insurance services, as well as earthquake, flood, and personal property insurance products to homebuyers; and title services. It conducts operations in Arizona, California, Colorado, Florida, Idaho, Nevada, North Carolina, Texas, and Washington. The company was formerly known as Kaufman and Broad Home Corporation and changed its name to KB Home in January 2001. KB Home was founded in 1957 and is based in Los Angeles, California."
+  "longBusinessSummary": "KB Home operates as a homebuilding company in the United States. It builds and sells homes, including attached and detached single-family residential homes, townhomes, and condominiums primarily for first-time, first move-up, second move-up, and active adult homebuyers. The company also provides financial services, such as mortgage banking services, such as residential consumer mortgage loan originations to homebuyers; property and casualty insurance services, as well as earthquake, flood, and personal property insurance products to homebuyers; and title services. It conducts operations in Arizona, California, Colorado, Florida, Idaho, Nevada, North Carolina, Texas, and Washington. The company was formerly known as Kaufman and Broad Home Corporation and changed its name to KB Home in January 2001. KB Home was founded in 1957 and is based in Los Angeles, California.",
+  "targetMeanPrice": 53.07143,
+  "targetLowPrice": 39.0,
+  "targetHighPrice": 70.0,
+  "numberOfAnalystOpinions": 14,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.25,
+  "forwardPE": 11.576099,
+  "forwardEps": 3.72578,
+  "trailingEps": 3.55,
+  "earningsGrowth": -0.347,
+  "revenueGrowth": -0.2
  },
  "governance": {
   "ceo": {
@@ -81,8 +92,39 @@
   "retained_earnings": "sec",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "interest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-11-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 6680252000.0,
+    "official": 6680252000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3900858000.0,
+    "official": 3900858000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 428789000.0,
+    "official": 428789000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 6236214000.0,
+    "official": 6236214000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:47:50+00:00",
  "years": [
   {
    "fy_end": "2019-11-30",
@@ -158,7 +200,10 @@
    "ppe_net": 89234000.0,
    "retained_earnings": 3143578000.0,
    "total_debt": 1866005000.0,
-   "shares_out": 83990399.0
+   "shares_out": 83990399.0,
+   "unusual_items": -3598000.0,
+   "normalized_ebitda": 1090943000.0,
+   "normalized_income": 819407676.0
   },
   {
    "fy_end": "2023-11-30",
@@ -188,7 +233,10 @@
    "ppe_net": 88309000.0,
    "retained_earnings": 3676924000.0,
    "total_debt": 1716429000.0,
-   "shares_out": 75867028.0
+   "shares_out": 75867028.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 778947000.0,
+   "normalized_income": 590177000.0
   },
   {
    "fy_end": "2024-11-30",
@@ -218,7 +266,10 @@
    "ppe_net": 90359000.0,
    "retained_earnings": 3269423000.0,
    "total_debt": 1712538000.0,
-   "shares_out": 72156821.0
+   "shares_out": 72156821.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 822894000.0,
+   "normalized_income": 655018000.0
   },
   {
    "fy_end": "2025-11-30",
@@ -248,7 +299,10 @@
    "ppe_net": 101457000.0,
    "retained_earnings": 3629638000.0,
    "total_debt": 1712752000.0,
-   "shares_out": 63173611.0
+   "shares_out": 63173611.0,
+   "unusual_items": -954000.0,
+   "normalized_ebitda": 563509000.0,
+   "normalized_income": 429527396.0
   }
  ]
 }

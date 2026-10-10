@@ -1,6 +1,6 @@
 {
  "ticker": "TXN",
- "fetched_at": "2026-10-10T13:00:27+00:00",
+ "fetched_at": "2026-10-10T15:58:03+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 33000,
   "website": "https://www.ti.com",
-  "longBusinessSummary": "Texas Instruments Incorporated designs, manufactures, and sells semiconductors to electronics designers and manufacturers in the United States, China, the rest of Asia, Europe, the Middle East, Africa, Japan, and internationally. It operates through Analog and Embedded Processing segments. The Analog segment offers power products to manage power requirements across various voltage levels, including battery-management solutions, DC/DC switching regulators, AC/DC and isolated controllers and converters, power switches, linear regulators, voltage references, multiphase controllers and power stages, and lighting products. This segment also provides signal chain products that sense, condition, and measure real-world signals and convert them into data to be transferred or converted for further processing and control, such as amplifiers, data converters, interface products, motor drives, clocks, and logic and sensing products. The Embedded Processing segment offers microcontrollers, processors, wireless connectivity, and radar products; and applications processors for specific computing activity. It also provides DLP products primarily for use in projecting high-definition images; calculators; and application-specific integrated circuits. Its products are used in various markets, such as industrial, automotive, personal electronics, communications equipment, enterprise systems, calculators, and others. The company markets and sells its semiconductor products through direct sales and distributors, as well as through its website. Texas Instruments Incorporated was founded in 1930 and is headquartered in Dallas, Texas."
+  "longBusinessSummary": "Texas Instruments Incorporated designs, manufactures, and sells semiconductors to electronics designers and manufacturers in the United States, China, the rest of Asia, Europe, the Middle East, Africa, Japan, and internationally. It operates through Analog and Embedded Processing segments. The Analog segment offers power products to manage power requirements across various voltage levels, including battery-management solutions, DC/DC switching regulators, AC/DC and isolated controllers and converters, power switches, linear regulators, voltage references, multiphase controllers and power stages, and lighting products. This segment also provides signal chain products that sense, condition, and measure real-world signals and convert them into data to be transferred or converted for further processing and control, such as amplifiers, data converters, interface products, motor drives, clocks, and logic and sensing products. The Embedded Processing segment offers microcontrollers, processors, wireless connectivity, and radar products; and applications processors for specific computing activity. It also provides DLP products primarily for use in projecting high-definition images; calculators; and application-specific integrated circuits. Its products are used in various markets, such as industrial, automotive, personal electronics, communications equipment, enterprise systems, calculators, and others. The company markets and sells its semiconductor products through direct sales and distributors, as well as through its website. Texas Instruments Incorporated was founded in 1930 and is headquartered in Dallas, Texas.",
+  "targetMeanPrice": 324.7097,
+  "targetLowPrice": 225.0,
+  "targetHighPrice": 400.0,
+  "numberOfAnalystOpinions": 31,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.11111,
+  "forwardPE": 26.655142,
+  "forwardEps": 10.64485,
+  "trailingEps": 6.57,
+  "earningsGrowth": 0.518,
+  "revenueGrowth": 0.228
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 34585000000.0,
+    "official": 34585000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 16273000000.0,
+    "official": 16273000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 5001000000.0,
+    "official": 5001000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 17682000000.0,
+    "official": 17682000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:58:03+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -208,7 +250,10 @@
    "goodwill_and_intangibles": 4514000000.0,
    "retained_earnings": 50353000000.0,
    "total_debt": 8735000000.0,
-   "shares_out": 906000000.0
+   "shares_out": 906000000.0,
+   "unusual_items": -257000000.0,
+   "normalized_ebitda": 11482000000.0,
+   "normalized_income": 8973104000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -243,7 +288,10 @@
    "goodwill_and_intangibles": 4585000000.0,
    "retained_earnings": 52283000000.0,
    "total_debt": 11223000000.0,
-   "shares_out": 909000000.0
+   "shares_out": 909000000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 9009000000.0,
+   "normalized_income": 6510000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -278,7 +326,10 @@
    "goodwill_and_intangibles": 4619000000.0,
    "retained_earnings": 52262000000.0,
    "total_debt": 13596000000.0,
-   "shares_out": 911216614.0
+   "shares_out": 911216614.0,
+   "unusual_items": 124000000.0,
+   "normalized_ebitda": 7417000000.0,
+   "normalized_income": 4689880000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -313,7 +364,10 @@
    "goodwill_and_intangibles": 4568000000.0,
    "retained_earnings": 52236000000.0,
    "total_debt": 14048000000.0,
-   "shares_out": 907000000.0
+   "shares_out": 907000000.0,
+   "unusual_items": -117000000.0,
+   "normalized_ebitda": 8369000000.0,
+   "normalized_income": 5103492000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "TRV",
- "fetched_at": "2026-10-10T13:00:10+00:00",
+ "fetched_at": "2026-10-10T15:57:47+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 34000,
   "website": "https://www.travelers.com",
-  "longBusinessSummary": "The Travelers Companies, Inc., through its subsidiaries, provides a range of commercial and personal property, and casualty insurance products and services to businesses, government units, associations, and individuals in the United States, Canada, and internationally. It operates through three segments: Business Insurance, Bond & Specialty Insurance, and Personal Insurance. The Business Insurance segment offers workers' compensation, commercial automobile and property, general liability, commercial multi-peril, employers' liability, public and product liability, professional indemnity, marine, aviation, commercial property and automobile, onshore and offshore energy, construction, terrorism, personal accident, and kidnap and ransom insurance products. This segment operates through select accounts, which serve small businesses; middle accounts that serve mid-sized businesses; national accounts, which serve large companies; and national property and others that serve large and mid-sized customers, commercial trucking industry, and agricultural businesses, as well as markets and distributes its products through brokers, wholesale agents, and program managers. The Bond & Specialty Insurance segment provides surety, fidelity, management and professional liability, and other property and casualty coverages and related risk management services through independent agencies and brokers. The Personal Insurance segment offers property and casualty insurance covering personal risks, primarily automobile and homeowners' insurance to individuals. The Travelers Companies, Inc. was founded in 1853 and is based in New York, New York."
+  "longBusinessSummary": "The Travelers Companies, Inc., through its subsidiaries, provides a range of commercial and personal property, and casualty insurance products and services to businesses, government units, associations, and individuals in the United States, Canada, and internationally. It operates through three segments: Business Insurance, Bond & Specialty Insurance, and Personal Insurance. The Business Insurance segment offers workers' compensation, commercial automobile and property, general liability, commercial multi-peril, employers' liability, public and product liability, professional indemnity, marine, aviation, commercial property and automobile, onshore and offshore energy, construction, terrorism, personal accident, and kidnap and ransom insurance products. This segment operates through select accounts, which serve small businesses; middle accounts that serve mid-sized businesses; national accounts, which serve large companies; and national property and others that serve large and mid-sized customers, commercial trucking industry, and agricultural businesses, as well as markets and distributes its products through brokers, wholesale agents, and program managers. The Bond & Specialty Insurance segment provides surety, fidelity, management and professional liability, and other property and casualty coverages and related risk management services through independent agencies and brokers. The Personal Insurance segment offers property and casualty insurance covering personal risks, primarily automobile and homeowners' insurance to individuals. The Travelers Companies, Inc. was founded in 1853 and is based in New York, New York.",
+  "targetMeanPrice": 360.54166,
+  "targetLowPrice": 262.0,
+  "targetHighPrice": 430.0,
+  "numberOfAnalystOpinions": 24,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.96552,
+  "forwardPE": 12.099736,
+  "forwardEps": 30.47587,
+  "trailingEps": 37.08,
+  "earningsGrowth": 0.571,
+  "revenueGrowth": 0.003
  },
  "governance": {
   "ceo": {
@@ -76,8 +87,38 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "operating_income": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 143708000000.0,
+    "official": 143708000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 32894000000.0,
+    "official": 32894000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 6288000000.0,
+    "official": 6288000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 48828000000.0,
+    "official": 48828000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:57:47+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -162,7 +203,9 @@
    "goodwill_and_intangibles": 4239000000.0,
    "retained_earnings": 43516000000.0,
    "total_debt": 100000000.0,
-   "shares_out": 232100000.0
+   "shares_out": 232100000.0,
+   "unusual_items": -12000000.0,
+   "normalized_income": 2852200000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -187,7 +230,9 @@
    "goodwill_and_intangibles": 4253000000.0,
    "retained_earnings": 45591000000.0,
    "total_debt": 100000000.0,
-   "shares_out": 228200000.0
+   "shares_out": 228200000.0,
+   "unusual_items": -9000000.0,
+   "normalized_income": 2999010000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -212,7 +257,9 @@
    "goodwill_and_intangibles": 4593000000.0,
    "retained_earnings": 49630000000.0,
    "total_debt": 100000000.0,
-   "shares_out": 226600000.0
+   "shares_out": 226600000.0,
+   "unusual_items": -5000000.0,
+   "normalized_income": 5003050000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -237,7 +284,9 @@
    "goodwill_and_intangibles": 4402000000.0,
    "retained_earnings": 54931000000.0,
    "total_debt": 100000000.0,
-   "shares_out": 217500000.0
+   "shares_out": 217500000.0,
+   "unusual_items": 0.0,
+   "normalized_income": 6288000000.0
   }
  ]
 }

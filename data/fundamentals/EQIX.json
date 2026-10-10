@@ -1,6 +1,6 @@
 {
  "ticker": "EQIX",
- "fetched_at": "2026-10-10T12:44:32+00:00",
+ "fetched_at": "2026-10-10T15:42:55+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 13716,
   "website": "https://www.equinix.com",
-  "longBusinessSummary": "Equinix, Inc. shortens the path to boundless connectivity anywhere in the world. Its digital infrastructure, data center footprint and interconnected ecosystems empower innovations that enhance our work, life and planet. Equinix connects economies, countries, organizations and communities, delivering seamless digital experiences and cutting-edge AI quickly, efficiently and everywhere. Equinix, Inc. was established on June 22, 1998 and is based in Redwood City, United States."
+  "longBusinessSummary": "Equinix, Inc. shortens the path to boundless connectivity anywhere in the world. Its digital infrastructure, data center footprint and interconnected ecosystems empower innovations that enhance our work, life and planet. Equinix connects economies, countries, organizations and communities, delivering seamless digital experiences and cutting-edge AI quickly, efficiently and everywhere. Equinix, Inc. was established on June 22, 1998 and is based in Redwood City, United States.",
+  "targetMeanPrice": 1234.1936,
+  "targetLowPrice": 1060.0,
+  "targetHighPrice": 1380.0,
+  "numberOfAnalystOpinions": 31,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.5,
+  "forwardPE": 55.380383,
+  "forwardEps": 18.5275,
+  "trailingEps": 15.54,
+  "earningsGrowth": 0.288,
+  "revenueGrowth": 0.167
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 40141000000.0,
+    "official": 40141000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 14156000000.0,
+    "official": 14156000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1350000000.0,
+    "official": 1350000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 9217000000.0,
+    "official": 9217000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:42:55+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -196,7 +238,10 @@
    "goodwill_and_intangibles": 7551866000.0,
    "retained_earnings": 2964838000.0,
    "total_debt": 16469554000.0,
-   "shares_out": 92620703.0
+   "shares_out": 92620703.0,
+   "unusual_items": -26000000.0,
+   "normalized_ebitda": 2948000000.0,
+   "normalized_income": 727110977.08082
   },
   {
    "fy_end": "2023-12-31",
@@ -230,7 +275,10 @@
    "goodwill_and_intangibles": 7442000000.0,
    "retained_earnings": 3934000000.0,
    "total_debt": 17454000000.0,
-   "shares_out": 94479277.0
+   "shares_out": 94479277.0,
+   "unusual_items": -8000000.0,
+   "normalized_ebitda": 3378000000.0,
+   "normalized_income": 975896797.153025
   },
   {
    "fy_end": "2024-12-31",
@@ -264,7 +312,10 @@
    "goodwill_and_intangibles": 6921000000.0,
    "retained_earnings": 4749000000.0,
    "total_debt": 18961000000.0,
-   "shares_out": 97287000.0
+   "shares_out": 97287000.0,
+   "unusual_items": -312000000.0,
+   "normalized_ebitda": 3755000000.0,
+   "normalized_income": 1075520000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -298,7 +349,10 @@
    "goodwill_and_intangibles": 7300000000.0,
    "retained_earnings": 6099000000.0,
    "total_debt": 22726000000.0,
-   "shares_out": 98226000.0
+   "shares_out": 98226000.0,
+   "unusual_items": -117000000.0,
+   "normalized_ebitda": 4218000000.0,
+   "normalized_income": 1454598000.0
   }
  ]
 }

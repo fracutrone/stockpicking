@@ -1,6 +1,6 @@
 {
  "ticker": "SGE.L",
- "fetched_at": "2026-10-10T12:18:51+00:00",
+ "fetched_at": "2026-10-10T15:19:16+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 11094,
   "website": "https://www.sage.com",
-  "longBusinessSummary": "The Sage Group plc, together with its subsidiaries, offers technology solutions and services for small and medium businesses in North America, Europe, the United Kingdom, Ireland, Africa and Asia-Pacific. It offers Sage Intacct, cloud accounting and financial management software for mid-sized and growing businesses; Sage People, an integrated HR and Payroll solution; Sage 200, a scalable management solution; Sage X3, a flexible, intuitive, and tailored business solution; Sage Accounting, a cloud software for managing invoicing, cash flow, tax, and more, from anywhere. Ideal for small businesses; Sage Payroll for start-ups and small businesses manage their payroll; and Sage HR for small and mid-sized businesses for record management, leave management, staff scheduling, and expenses services. The company also provides Sage 50 accounts, that manages accounting, inventory, and payments, as well as Sage 50 payroll. The Sage Group plc was formerly known as Ployfinal Public Limited Company and changed its name to The Sage Group plc in September 1988. The company was founded in 1981 and is based in Newcastle upon Tyne, United Kingdom."
+  "longBusinessSummary": "The Sage Group plc, together with its subsidiaries, offers technology solutions and services for small and medium businesses in North America, Europe, the United Kingdom, Ireland, Africa and Asia-Pacific. It offers Sage Intacct, cloud accounting and financial management software for mid-sized and growing businesses; Sage People, an integrated HR and Payroll solution; Sage 200, a scalable management solution; Sage X3, a flexible, intuitive, and tailored business solution; Sage Accounting, a cloud software for managing invoicing, cash flow, tax, and more, from anywhere. Ideal for small businesses; Sage Payroll for start-ups and small businesses manage their payroll; and Sage HR for small and mid-sized businesses for record management, leave management, staff scheduling, and expenses services. The company also provides Sage 50 accounts, that manages accounting, inventory, and payments, as well as Sage 50 payroll. The Sage Group plc was formerly known as Ployfinal Public Limited Company and changed its name to The Sage Group plc in September 1988. The company was founded in 1981 and is based in Newcastle upon Tyne, United Kingdom.",
+  "targetMeanPrice": 1139.947,
+  "targetLowPrice": 850.0,
+  "targetHighPrice": 1400.0,
+  "numberOfAnalystOpinions": 19,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.68421,
+  "forwardPE": 18.616974,
+  "forwardEps": 0.57555,
+  "trailingEps": 0.4,
+  "earningsGrowth": 0.143,
+  "revenueGrowth": 0.097
  },
  "governance": {
   "ceo": {
@@ -75,8 +86,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-09-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 3713000000.0,
+    "official": 3713000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 720000000.0,
+    "official": 720000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 369000000.0,
+    "official": 369000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2513000000.0,
+    "official": 2513000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-09-30"
+ },
+ "info_at": "2026-10-10T15:19:16+00:00",
  "years": [
   {
    "fy_end": "2022-09-30",
@@ -109,7 +152,10 @@
    "goodwill_and_intangibles": 2711000000.0,
    "retained_earnings": 570000000.0,
    "total_debt": 1222000000.0,
-   "shares_out": 1019620392.0
+   "shares_out": 1019620392.0,
+   "unusual_items": 34000000.0,
+   "normalized_ebitda": 430000000.0,
+   "normalized_income": 233820000.0
   },
   {
    "fy_end": "2023-09-30",
@@ -142,7 +188,10 @@
    "goodwill_and_intangibles": 2519000000.0,
    "retained_earnings": 658000000.0,
    "total_debt": 1257000000.0,
-   "shares_out": 1022463347.0
+   "shares_out": 1022463347.0,
+   "unusual_items": -87000000.0,
+   "normalized_ebitda": 456000000.0,
+   "normalized_income": 211000000.0
   },
   {
    "fy_end": "2024-09-30",
@@ -175,7 +224,10 @@
    "goodwill_and_intangibles": 2350000000.0,
    "retained_earnings": 963000000.0,
    "total_debt": 1246000000.0,
-   "shares_out": 996300708.0
+   "shares_out": 996300708.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 565000000.0,
+   "normalized_income": 323000000.0
   },
   {
    "fy_end": "2025-09-30",
@@ -208,7 +260,10 @@
    "goodwill_and_intangibles": 2425000000.0,
    "retained_earnings": 530000000.0,
    "total_debt": 1579000000.0,
-   "shares_out": 955355772.0
+   "shares_out": 955355772.0,
+   "unusual_items": -1000000.0,
+   "normalized_ebitda": 630000000.0,
+   "normalized_income": 369762396.694215
   }
  ]
 }

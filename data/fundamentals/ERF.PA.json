@@ -1,6 +1,6 @@
 {
  "ticker": "ERF.PA",
- "fetched_at": "2026-10-10T11:56:26+00:00",
+ "fetched_at": "2026-10-10T14:46:27+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "PAR",
   "fullTimeEmployees": 65000,
   "website": "https://www.eurofins.com",
-  "longBusinessSummary": "Eurofins Scientific SE, together with its subsidiaries, provides various analytical testing and laboratory services worldwide. It provides services, such as agroscience, including biological assessment, consumer and human, environmental safety, product chemistry, regulatory consultancy, and seed services; agro testing; assurance, including sustainability, audit, certification, quality inspection, QA-QC programme, and food and dietary supplement labelling services; biopharma, and clinical diagnostics. The company also offers consumer product testing, which include sustainability, testing, certifications and approvals, expert services and regulatory, inspections, audits, consumer research and sensory evaluation, and training courses; cosmetics and personal care; and electrical and electronics laboratories services. In addition, it provides environment testing, including maritime, water, air, soil, building material, pollution, waste, fuel/oil, microplastics, and radioactivity testing; and food and feed testing that include allergen, audit and certification, authenticity, carbohydrates, consulting, dioxins and POPs, food irradiation, GMO, heavy metal, melamine, microbiology, molecular biology, mycotoxin, nutritional analyses, organic contaminants, pesticide, veterinary drug, vitamin, and residual DNA testing. Further, the company provides forensic, genomic, maritime, materials and engineering, REACH, and sensory and consumer services, as well as in vitro diagnostics and PSS insourcing solutions. The company was founded in 1987 and is headquartered in Luxembourg, Luxembourg."
+  "longBusinessSummary": "Eurofins Scientific SE, together with its subsidiaries, provides various analytical testing and laboratory services worldwide. It provides services, such as agroscience, including biological assessment, consumer and human, environmental safety, product chemistry, regulatory consultancy, and seed services; agro testing; assurance, including sustainability, audit, certification, quality inspection, QA-QC programme, and food and dietary supplement labelling services; biopharma, and clinical diagnostics. The company also offers consumer product testing, which include sustainability, testing, certifications and approvals, expert services and regulatory, inspections, audits, consumer research and sensory evaluation, and training courses; cosmetics and personal care; and electrical and electronics laboratories services. In addition, it provides environment testing, including maritime, water, air, soil, building material, pollution, waste, fuel/oil, microplastics, and radioactivity testing; and food and feed testing that include allergen, audit and certification, authenticity, carbohydrates, consulting, dioxins and POPs, food irradiation, GMO, heavy metal, melamine, microbiology, molecular biology, mycotoxin, nutritional analyses, organic contaminants, pesticide, veterinary drug, vitamin, and residual DNA testing. Further, the company provides forensic, genomic, maritime, materials and engineering, REACH, and sensory and consumer services, as well as in vitro diagnostics and PSS insourcing solutions. The company was founded in 1987 and is headquartered in Luxembourg, Luxembourg.",
+  "targetMeanPrice": 72.29286,
+  "targetLowPrice": 58.0,
+  "targetHighPrice": 89.0,
+  "numberOfAnalystOpinions": 14,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.85714,
+  "forwardPE": 16.606731,
+  "forwardEps": 4.6439,
+  "trailingEps": 2.88,
+  "earningsGrowth": 0.284,
+  "revenueGrowth": 0.025
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF LU",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 10888400000.0,
+    "official": 10888400000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 5339000000.0,
+    "official": 5339000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 406400000.0,
+    "official": 405500000.0,
+    "diff": 0.002219
+   },
+   "revenue": {
+    "yahoo": 6951000000.0,
+    "official": 6951000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T14:46:27+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -117,7 +160,10 @@
    "goodwill_and_intangibles": 5443100000.0,
    "retained_earnings": 2333000000.0,
    "total_debt": 3325500000.0,
-   "shares_out": 192520023.0
+   "shares_out": 192520023.0,
+   "unusual_items": 132400000.0,
+   "normalized_ebitda": 1362100000.0,
+   "normalized_income": 507325200.0
   },
   {
    "fy_end": "2023-12-31",
@@ -150,7 +196,10 @@
    "goodwill_and_intangibles": 5347400000.0,
    "retained_earnings": 2393800000.0,
    "total_debt": 3926500000.0,
-   "shares_out": 192025325.0
+   "shares_out": 192025325.0,
+   "unusual_items": -17200000.0,
+   "normalized_ebitda": 1234200000.0,
+   "normalized_income": 322704400.0
   },
   {
    "fy_end": "2024-12-31",
@@ -183,7 +232,10 @@
    "goodwill_and_intangibles": 5628600000.0,
    "retained_earnings": 2692200000.0,
    "total_debt": 3610300000.0,
-   "shares_out": 186781812.0
+   "shares_out": 186781812.0,
+   "unusual_items": -48000000.0,
+   "normalized_ebitda": 1444800000.0,
+   "normalized_income": 437506700.0
   },
   {
    "fy_end": "2025-12-31",
@@ -216,7 +268,10 @@
    "goodwill_and_intangibles": 5347100000.0,
    "retained_earnings": 3023700000.0,
    "total_debt": 4432000000.0,
-   "shares_out": 176696324.0
+   "shares_out": 176696324.0,
+   "unusual_items": -43100000.0,
+   "normalized_ebitda": 1577200000.0,
+   "normalized_income": 504755200.0
   }
  ]
 }

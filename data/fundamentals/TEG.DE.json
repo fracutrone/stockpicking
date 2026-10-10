@@ -1,6 +1,6 @@
 {
  "ticker": "TEG.DE",
- "fetched_at": "2026-10-10T12:21:43+00:00",
+ "fetched_at": "2026-10-10T15:24:12+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "GER",
   "fullTimeEmployees": 1951,
   "website": "https://www.tag-ag.com",
-  "longBusinessSummary": "TAG Immobilien AG, a real estate company, engages in the development, management, and sale of residential property portfolio in Germany. It is also involved in the rental business. The company was formerly known as TAG Tegernsee Immobilien-und Beteiligungs-Aktiengesellschaft and changed its name to TAG Immobilien AG in September 2008. TAG Immobilien AG was founded in 1882 and is headquartered in Hamburg, Germany."
+  "longBusinessSummary": "TAG Immobilien AG, a real estate company, engages in the development, management, and sale of residential property portfolio in Germany. It is also involved in the rental business. The company was formerly known as TAG Tegernsee Immobilien-und Beteiligungs-Aktiengesellschaft and changed its name to TAG Immobilien AG in September 2008. TAG Immobilien AG was founded in 1882 and is headquartered in Hamburg, Germany.",
+  "targetMeanPrice": 17.27778,
+  "targetLowPrice": 14.0,
+  "targetHighPrice": 20.7,
+  "numberOfAnalystOpinions": 9,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.2,
+  "forwardPE": 8.192994,
+  "forwardEps": 1.25351,
+  "trailingEps": 0.17,
+  "earningsGrowth": -0.438,
+  "revenueGrowth": 0.032
  },
  "governance": {
   "ceo": {
@@ -69,8 +80,17 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T15:24:12+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -102,7 +122,10 @@
    "goodwill_and_intangibles": 266174000.0,
    "retained_earnings": 2364372000.0,
    "total_debt": 3823398000.0,
-   "shares_out": 175455030.0
+   "shares_out": 175455030.0,
+   "unusual_items": -17462000.0,
+   "normalized_ebitda": 225527000.0,
+   "normalized_income": 127292844.6
   },
   {
    "fy_end": "2023-12-31",
@@ -134,7 +157,10 @@
    "goodwill_and_intangibles": 285932000.0,
    "retained_earnings": 1967454000.0,
    "total_debt": 3322931000.0,
-   "shares_out": 175495983.0
+   "shares_out": 175495983.0,
+   "unusual_items": -8225000.0,
+   "normalized_ebitda": -411580000.0,
+   "normalized_income": -390199642.5
   },
   {
    "fy_end": "2024-12-31",
@@ -166,7 +192,10 @@
    "goodwill_and_intangibles": 289696000.0,
    "retained_earnings": 2088577000.0,
    "total_debt": 3764729000.0,
-   "shares_out": 175418038.0
+   "shares_out": 175418038.0,
+   "unusual_items": -7255000.0,
+   "normalized_ebitda": 206293000.0,
+   "normalized_income": 126197147.0
   },
   {
    "fy_end": "2025-12-31",
@@ -198,7 +227,10 @@
    "goodwill_and_intangibles": 293394000.0,
    "retained_earnings": 2111794000.0,
    "total_debt": 4333064000.0,
-   "shares_out": 188976252.0
+   "shares_out": 188976252.0,
+   "unusual_items": -5893000.0,
+   "normalized_ebitda": 549806000.0,
+   "normalized_income": 97500564.2
   }
  ]
 }

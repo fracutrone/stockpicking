@@ -1,6 +1,6 @@
 {
  "ticker": "ASM.AS",
- "fetched_at": "2026-10-10T11:46:13+00:00",
+ "fetched_at": "2026-10-10T14:31:43+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.04734,
   "heldPercentInstitutions": 0.65111,
   "shortPercentOfFloat": null,
-  "averageVolume": 163293,
+  "averageVolume": 162666,
   "quoteType": "EQUITY",
   "exchange": "AMS",
   "fullTimeEmployees": 4908,
   "website": "https://www.asm.com",
-  "longBusinessSummary": "ASM International NV, together with its subsidiaries, engages in the research, development, manufacturing, marketing, and servicing of equipment and materials used to produce semiconductor devices in the United States, Europe, and Asia. The company offers equipment used in wafer processing, which encompasses the fabrication steps in which silicon wafers are layered with semiconductor devices. It also provides wafer-processing deposition systems for surface modification, atomic layer deposition (ALD), such as plasma enhanced ALD (PEALD); epitaxy (Epi); plasma enhanced chemical vapor deposition (PECVD); and vertical furnace systems, including low pressure chemical vapor deposition (LPCVD), diffusion, oxidation, and cure. In addition, the company provides silicon carbide epitaxy (SiC Epi) tools for power and wafer applications; chemical mechanical polishing equipment for compound semiconductors and More-than-Moore manufacturing; and spare parts and support services. It sells its products to semiconductor manufacturers. The company was formerly known as Advanced Semiconductor Materials International NV. ASM International NV was incorporated in 1968 and is headquartered in Almere, the Netherlands."
+  "longBusinessSummary": "ASM International NV, together with its subsidiaries, engages in the research, development, manufacturing, marketing, and servicing of equipment and materials used to produce semiconductor devices in the United States, Europe, and Asia. The company offers equipment used in wafer processing, which encompasses the fabrication steps in which silicon wafers are layered with semiconductor devices. It also provides wafer-processing deposition systems for surface modification, atomic layer deposition (ALD), such as plasma enhanced ALD (PEALD); epitaxy (Epi); plasma enhanced chemical vapor deposition (PECVD); and vertical furnace systems, including low pressure chemical vapor deposition (LPCVD), diffusion, oxidation, and cure. In addition, the company provides silicon carbide epitaxy (SiC Epi) tools for power and wafer applications; chemical mechanical polishing equipment for compound semiconductors and More-than-Moore manufacturing; and spare parts and support services. It sells its products to semiconductor manufacturers. The company was formerly known as Advanced Semiconductor Materials International NV. ASM International NV was incorporated in 1968 and is headquartered in Almere, the Netherlands.",
+  "targetMeanPrice": 1142.7,
+  "targetLowPrice": 690.0,
+  "targetHighPrice": 1457.0,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.65,
+  "forwardPE": 28.072842,
+  "forwardEps": 31.47526,
+  "trailingEps": 21.86,
+  "earningsGrowth": 0.415,
+  "revenueGrowth": 0.2
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF NL",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 5337000000.0,
+    "official": 5337000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4005800000.0,
+    "official": 4005800000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 723700000.0,
+    "official": 723700000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3173200000.0,
+    "official": 3173200000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:31:43+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -119,7 +162,10 @@
    "goodwill_and_intangibles": 966922000.0,
    "retained_earnings": 2507949000.0,
    "total_debt": 28124000.0,
-   "shares_out": 49326319.0
+   "shares_out": 49326319.0,
+   "unusual_items": -217924000.0,
+   "normalized_ebitda": 846857000.0,
+   "normalized_income": 557132404.0
   },
   {
    "fy_end": "2023-12-31",
@@ -153,7 +199,10 @@
    "goodwill_and_intangibles": 1025789000.0,
    "retained_earnings": 3139245000.0,
    "total_debt": 33558000.0,
-   "shares_out": 49201746.0
+   "shares_out": 49201746.0,
+   "unusual_items": 205734000.0,
+   "normalized_ebitda": 845628000.0,
+   "normalized_income": 573495888.0
   },
   {
    "fy_end": "2024-12-31",
@@ -187,7 +236,10 @@
    "goodwill_and_intangibles": 1136800000.0,
    "retained_earnings": 3693000000.0,
    "total_debt": 11700000.0,
-   "shares_out": 49097817.0
+   "shares_out": 49097817.0,
+   "unusual_items": -8700000.0,
+   "normalized_ebitda": 1074300000.0,
+   "normalized_income": 692573591.427584
   },
   {
    "fy_end": "2025-12-31",
@@ -221,7 +273,10 @@
    "goodwill_and_intangibles": 1336600000.0,
    "retained_earnings": 4238900000.0,
    "total_debt": 13900000.0,
-   "shares_out": 48881549.0
+   "shares_out": 48881549.0,
+   "unusual_items": -6400000.0,
+   "normalized_ebitda": 1183200000.0,
+   "normalized_income": 728704800.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "GBLB.BR",
- "fetched_at": "2026-10-10T11:59:28+00:00",
+ "fetched_at": "2026-10-10T14:50:39+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.35704,
   "heldPercentInstitutions": 0.27446,
   "shortPercentOfFloat": null,
-  "averageVolume": 87347,
+  "averageVolume": 88057,
   "quoteType": "EQUITY",
   "exchange": "BRU",
   "fullTimeEmployees": null,
   "website": "https://www.gbl.be",
-  "longBusinessSummary": "Groupe Bruxelles Lambert SA invests in a portfolio of industrial, consumer goods, and business service companies in Belgium, other European countries, North America, and internationally. It operates through six segments: Holding, Imerys, Canyon, Affidea, Sanoptis, and GBL Capital and Sienna Investment Managers. The company was incorporated in 1902 and is headquartered in Brussels, Belgium."
+  "longBusinessSummary": "Groupe Bruxelles Lambert SA invests in a portfolio of industrial, consumer goods, and business service companies in Belgium, other European countries, North America, and internationally. It operates through six segments: Holding, Imerys, Canyon, Affidea, Sanoptis, and GBL Capital and Sienna Investment Managers. The company was incorporated in 1902 and is headquartered in Brussels, Belgium.",
+  "targetMeanPrice": 88.44286,
+  "targetLowPrice": 78.0,
+  "targetHighPrice": 93.0,
+  "numberOfAnalystOpinions": 7,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.71429,
+  "forwardPE": 24.293287,
+  "forwardEps": 2.83,
+  "trailingEps": -2.4,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "ceo": {
@@ -76,8 +87,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF BE",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 27448600000.0,
+    "official": 27469800000.0,
+    "diff": 0.000772
+   },
+   "equity": {
+    "yahoo": 14123800000.0,
+    "official": 16124600000.0,
+    "diff": 0.124084
+   },
+   "net_income": {
+    "yahoo": 132300000.0,
+    "official": 132300000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 5971000000.0,
+    "official": 6198000000.0,
+    "diff": 0.036625
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T14:50:39+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -111,7 +154,10 @@
    "goodwill_and_intangibles": 9094100000.0,
    "retained_earnings": 7325900000.0,
    "total_debt": 12183500000.0,
-   "shares_out": 140777130.0
+   "shares_out": 140777130.0,
+   "unusual_items": -229300000.0,
+   "normalized_ebitda": 1007100000.0,
+   "normalized_income": -120525000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -145,7 +191,10 @@
    "goodwill_and_intangibles": 6434000000.0,
    "retained_earnings": 8306700000.0,
    "total_debt": 8624000000.0,
-   "shares_out": 129768747.0
+   "shares_out": 129768747.0,
+   "unusual_items": -233700000.0,
+   "normalized_ebitda": 1709800000.0,
+   "normalized_income": 528712780.0
   },
   {
    "fy_end": "2024-12-31",
@@ -179,7 +228,10 @@
    "goodwill_and_intangibles": 6951500000.0,
    "retained_earnings": 8508500000.0,
    "total_debt": 8324300000.0,
-   "shares_out": 125509357.0
+   "shares_out": 125509357.0,
+   "unusual_items": -3200000.0,
+   "normalized_ebitda": 944900000.0,
+   "normalized_income": 1600000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -213,7 +265,10 @@
    "goodwill_and_intangibles": 6850000000.0,
    "retained_earnings": 6949500000.0,
    "total_debt": 8191800000.0,
-   "shares_out": 120855203.0
+   "shares_out": 120855203.0,
+   "unusual_items": -586200000.0,
+   "normalized_ebitda": 949900000.0,
+   "normalized_income": 118750000.0
   }
  ]
 }

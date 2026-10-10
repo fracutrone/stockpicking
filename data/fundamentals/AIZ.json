@@ -1,6 +1,6 @@
 {
  "ticker": "AIZ",
- "fetched_at": "2026-10-10T12:36:52+00:00",
+ "fetched_at": "2026-10-10T15:33:55+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 14800,
   "website": "https://www.assurant.com",
-  "longBusinessSummary": "Assurant, Inc. provides protection services to connected devices, homes, and automobiles in North America, Latin America, Europe, and the Asia Pacific. It operates through Global Lifestyle and Global Housing segments. The Global Lifestyle segment offers mobile device solutions, and extended service contracts and related services for consumer electronics and appliances, and credit and other insurance products; and vehicle protection, commercial equipment protection, and other related services. The Global Housing segment provides lender-placed homeowners, manufactured housing, and flood insurance; renters insurance and other products; and voluntary manufactured housing, and condominium and homeowners insurance products. The company was formerly known as Fortis, Inc. and changed its name to Assurant, Inc. in February 2004. Assurant, Inc. was founded in 1892 and is headquartered in Atlanta, Georgia."
+  "longBusinessSummary": "Assurant, Inc. provides protection services to connected devices, homes, and automobiles in North America, Latin America, Europe, and the Asia Pacific. It operates through Global Lifestyle and Global Housing segments. The Global Lifestyle segment offers mobile device solutions, and extended service contracts and related services for consumer electronics and appliances, and credit and other insurance products; and vehicle protection, commercial equipment protection, and other related services. The Global Housing segment provides lender-placed homeowners, manufactured housing, and flood insurance; renters insurance and other products; and voluntary manufactured housing, and condominium and homeowners insurance products. The company was formerly known as Fortis, Inc. and changed its name to Assurant, Inc. in February 2004. Assurant, Inc. was founded in 1892 and is headquartered in Atlanta, Georgia.",
+  "targetMeanPrice": 326.66666,
+  "targetLowPrice": 300.0,
+  "targetHighPrice": 355.0,
+  "numberOfAnalystOpinions": 6,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.42857,
+  "forwardPE": 11.3722,
+  "forwardEps": 23.43346,
+  "trailingEps": 20.89,
+  "earningsGrowth": 0.305,
+  "revenueGrowth": 0.094
  },
  "governance": {
   "ceo": {
@@ -77,8 +88,38 @@
   "retained_earnings": "sec",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "sga": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 36289600000.0,
+    "official": 36289600000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 5871600000.0,
+    "official": 5871600000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 872700000.0,
+    "official": 872700000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 12814300000.0,
+    "official": 12814300000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:33:55+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -167,7 +208,9 @@
    "goodwill_and_intangibles": 3504700000.0,
    "retained_earnings": 3699300000.0,
    "total_debt": 2129900000.0,
-   "shares_out": 52830381.0
+   "shares_out": 52830381.0,
+   "unusual_items": -8700000.0,
+   "normalized_income": 283481700.0
   },
   {
    "fy_end": "2023-12-31",
@@ -193,7 +236,9 @@
    "goodwill_and_intangibles": 3259800000.0,
    "retained_earnings": 4028200000.0,
    "total_debt": 2080400000.0,
-   "shares_out": 51955994.0
+   "shares_out": 51955994.0,
+   "unusual_items": 100000.0,
+   "normalized_income": 642420400.0
   },
   {
    "fy_end": "2024-12-31",
@@ -219,7 +264,9 @@
    "goodwill_and_intangibles": 3151600000.0,
    "retained_earnings": 4378300000.0,
    "total_debt": 2083100000.0,
-   "shares_out": 50833749.0
+   "shares_out": 50833749.0,
+   "unusual_items": 0.0,
+   "normalized_income": 760200000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -245,7 +292,9 @@
    "goodwill_and_intangibles": 3168300000.0,
    "retained_earnings": 4826300000.0,
    "total_debt": 2206900000.0,
-   "shares_out": 49792919.0
+   "shares_out": 49792919.0,
+   "unusual_items": -1300000.0,
+   "normalized_income": 873743900.0
   }
  ]
 }

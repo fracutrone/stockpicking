@@ -1,6 +1,6 @@
 {
  "ticker": "EW",
- "fetched_at": "2026-10-10T12:44:50+00:00",
+ "fetched_at": "2026-10-10T15:43:12+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 16000,
   "website": "https://www.edwards.com",
-  "longBusinessSummary": "Edwards Lifesciences Corporation provides products and technologies to treat advanced cardiovascular diseases in the United States, Europe, Japan, and internationally. It offers transcatheter heart valve replacement products for minimally invasive replacement of aortic heart valves under the Edwards SAPIEN family of valves system; and transcatheter heart valve repair and replacement products to treat mitral and tricuspid valve diseases under the PASCAL and EVOQUE brands. The company also provides surgical structural heart solutions, such as aortic surgical valve under the INSPIRIS brand name; INSPIRIS RESILIA aortic valve, which offers RESILIA tissue and VFit technology; KONECT RESILIA, a pre-assembled tissue valve conduit for complex combined procedures; and MITRIS RESILIA valve. It distributes its products through a direct sales force and independent distributors. Edwards Lifesciences Corporation was founded in 1958 and is headquartered in Irvine, California."
+  "longBusinessSummary": "Edwards Lifesciences Corporation provides products and technologies to treat advanced cardiovascular diseases in the United States, Europe, Japan, and internationally. It offers transcatheter heart valve replacement products for minimally invasive replacement of aortic heart valves under the Edwards SAPIEN family of valves system; and transcatheter heart valve repair and replacement products to treat mitral and tricuspid valve diseases under the PASCAL and EVOQUE brands. The company also provides surgical structural heart solutions, such as aortic surgical valve under the INSPIRIS brand name; INSPIRIS RESILIA aortic valve, which offers RESILIA tissue and VFit technology; KONECT RESILIA, a pre-assembled tissue valve conduit for complex combined procedures; and MITRIS RESILIA valve. It distributes its products through a direct sales force and independent distributors. Edwards Lifesciences Corporation was founded in 1958 and is headquartered in Irvine, California.",
+  "targetMeanPrice": 101.96154,
+  "targetLowPrice": 84.0,
+  "targetHighPrice": 110.0,
+  "numberOfAnalystOpinions": 26,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.58621,
+  "forwardPE": 25.1848,
+  "forwardEps": 3.38339,
+  "trailingEps": 1.68,
+  "earningsGrowth": -0.254,
+  "revenueGrowth": 0.136
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 13697200000.0,
+    "official": 13697200000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 10337600000.0,
+    "official": 10337600000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1073500000.0,
+    "official": 1073500000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 6067600000.0,
+    "official": 6067600000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:43:12+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -207,7 +249,10 @@
    "goodwill_and_intangibles": 1449500000.0,
    "retained_earnings": 7590000000.0,
    "total_debt": 596300000.0,
-   "shares_out": 608300000.0
+   "shares_out": 608300000.0,
+   "unusual_items": -37000000.0,
+   "normalized_ebitda": 1715300000.0,
+   "normalized_income": 1356239552.48437
   },
   {
    "fy_end": "2023-12-31",
@@ -242,7 +287,10 @@
    "goodwill_and_intangibles": 1544500000.0,
    "retained_earnings": 8992400000.0,
    "total_debt": 597000000.0,
-   "shares_out": 601100000.0
+   "shares_out": 601100000.0,
+   "unusual_items": -168000000.0,
+   "normalized_ebitda": 1702900000.0,
+   "normalized_income": 1372352000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -277,7 +325,10 @@
    "goodwill_and_intangibles": 2953300000.0,
    "retained_earnings": 13167000000.0,
    "total_debt": 597700000.0,
-   "shares_out": 588600000.0
+   "shares_out": 588600000.0,
+   "unusual_items": -39900000.0,
+   "normalized_ebitda": 1763000000.0,
+   "normalized_income": 1436879846.263161
   },
   {
    "fy_end": "2025-12-31",
@@ -312,7 +363,10 @@
    "goodwill_and_intangibles": 2896800000.0,
    "retained_earnings": 14240500000.0,
    "total_debt": 598300000.0,
-   "shares_out": 580700000.0
+   "shares_out": 580700000.0,
+   "unusual_items": -514900000.0,
+   "normalized_ebitda": 1964800000.0,
+   "normalized_income": 1487261913.740278
   }
  ]
 }

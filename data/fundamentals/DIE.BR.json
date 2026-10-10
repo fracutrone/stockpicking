@@ -1,6 +1,6 @@
 {
  "ticker": "DIE.BR",
- "fetched_at": "2026-10-10T11:54:11+00:00",
+ "fetched_at": "2026-10-10T14:42:53+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.4954,
   "heldPercentInstitutions": 0.15091,
   "shortPercentOfFloat": null,
-  "averageVolume": 50760,
+  "averageVolume": 51247,
   "quoteType": "EQUITY",
   "exchange": "BRU",
   "fullTimeEmployees": 13087,
   "website": "https://www.dieterengroup.com",
-  "longBusinessSummary": "D'Ieteren Group SA operates as an investment company in Belgium, France, rest of Europe, and internationally. The company operates through D'Ieteren Automotive, Belron, Moleskine, TVH, and PHE segments. It is involved in vehicle glass repair, replacement, and recalibration under Carglass, Safelite, and Autoglass brands; and manages vehicle glass and other insurance claims on behalf of insurance customers. The company also distributes Volkswagen, Audi, SEAT, koda, Bentley, Lamborghini, Bugatti, Cupra, Rimac, Microlino, Maserati and Porsche vehicles, as well as spare parts and accessories; markets used vehicles; and provides maintenance, financing, and leasing services. In addition, it manages real estate assets, such as offices, workshops, concessions, logistics centers, residential units, parking lots and landbanks; and offers real estate advice and a range of services to the tenants of the properties in the portfolio. Further, the company provides notebooks, planners, writing instruments, bags, reading accessories, and smart writing systems through wholesale, retail, e-commerce and strategic partnerships. Additionally, it distributes aftermarket parts for material handling, construction & industrial, and agricultural equipment. The company was founded in 1805 and is based in Brussels, Belgium."
+  "longBusinessSummary": "D'Ieteren Group SA operates as an investment company in Belgium, France, rest of Europe, and internationally. The company operates through D'Ieteren Automotive, Belron, Moleskine, TVH, and PHE segments. It is involved in vehicle glass repair, replacement, and recalibration under Carglass, Safelite, and Autoglass brands; and manages vehicle glass and other insurance claims on behalf of insurance customers. The company also distributes Volkswagen, Audi, SEAT, koda, Bentley, Lamborghini, Bugatti, Cupra, Rimac, Microlino, Maserati and Porsche vehicles, as well as spare parts and accessories; markets used vehicles; and provides maintenance, financing, and leasing services. In addition, it manages real estate assets, such as offices, workshops, concessions, logistics centers, residential units, parking lots and landbanks; and offers real estate advice and a range of services to the tenants of the properties in the portfolio. Further, the company provides notebooks, planners, writing instruments, bags, reading accessories, and smart writing systems through wholesale, retail, e-commerce and strategic partnerships. Additionally, it distributes aftermarket parts for material handling, construction & industrial, and agricultural equipment. The company was founded in 1805 and is based in Brussels, Belgium.",
+  "targetMeanPrice": 236.25,
+  "targetLowPrice": 210.0,
+  "targetHighPrice": 270.0,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.16667,
+  "forwardPE": 11.077321,
+  "forwardEps": 15.27445,
+  "trailingEps": 8.16,
+  "earningsGrowth": 0.064,
+  "revenueGrowth": -0.03
  },
  "governance": {
   "ceo": {
@@ -77,8 +88,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF BE",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 6202900000.0,
+    "official": 6202900000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 14300000.0,
+    "official": 14300000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 424500000.0,
+    "official": 424500000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 8033500000.0,
+    "official": 8033500000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:42:53+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -112,7 +155,10 @@
    "goodwill_and_intangibles": 1800000000.0,
    "retained_earnings": 2933900000.0,
    "total_debt": 1600600000.0,
-   "shares_out": 53111196.0
+   "shares_out": 53111196.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 519800000.0,
+   "normalized_income": 329800000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -146,7 +192,10 @@
    "goodwill_and_intangibles": 1828300000.0,
    "retained_earnings": 3212800000.0,
    "total_debt": 1626400000.0,
-   "shares_out": 52931776.0
+   "shares_out": 52931776.0,
+   "unusual_items": -30100000.0,
+   "normalized_ebitda": 929000000.0,
+   "normalized_income": 529773300.0
   },
   {
    "fy_end": "2024-12-31",
@@ -180,7 +229,10 @@
    "goodwill_and_intangibles": 1659400000.0,
    "retained_earnings": -569100000.0,
    "total_debt": 2652000000.0,
-   "shares_out": 53063318.0
+   "shares_out": 53063318.0,
+   "unusual_items": -27400000.0,
+   "normalized_ebitda": 799400000.0,
+   "normalized_income": 394047959.183673
   },
   {
    "fy_end": "2025-12-31",
@@ -213,7 +265,10 @@
    "goodwill_and_intangibles": 1573300000.0,
    "retained_earnings": -221800000.0,
    "total_debt": 2246800000.0,
-   "shares_out": 52586680.0
+   "shares_out": 52586680.0,
+   "unusual_items": -1000000.0,
+   "normalized_ebitda": 862400000.0,
+   "normalized_income": 425341229.444009
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "KRYS",
- "fetched_at": "2026-10-10T12:50:06+00:00",
+ "fetched_at": "2026-10-10T15:48:24+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 295,
   "website": "https://www.krystalbio.com",
-  "longBusinessSummary": "Krystal Biotech, Inc., a commercial-stage biotechnology company, discovers, develops, manufactures, and commercializes genetic medicines to treat diseases with high unmet medical needs in the United States. The company commercializes VYJUVEK (beremagene geperpavec-svdt, or B-VEC) for the treatment of dystrophic epidermolysis bullosa (DEB). It also develops KB803 for ocular complications of dystrophic epidermolysis bullosa; KB801 for neurotrophic keratitis; KB407, which is in Phase 1 clinical trials for treating cystic fibrosis; KB111 for Hailey-Hailey disease; KB707 for solid tumors; KB304 for dynamic wrinkles; KB707 that is in Phase 1/2 clinical trials for the treatment of anti-PD-1 relapsed/refractory; KB408, which is in Phase 1 clinical trials for treating Alpha-1 antitrypsin deficiency; and KB301 that is in Phase 2 clinical trials for treating aesthetic skin conditions, as well as in open label study with ophthalmic B-VEC for treating for ocular complications of deb. Krystal Biotech, Inc. was founded in 2016 and is headquartered in Pittsburgh, Pennsylvania."
+  "longBusinessSummary": "Krystal Biotech, Inc., a commercial-stage biotechnology company, discovers, develops, manufactures, and commercializes genetic medicines to treat diseases with high unmet medical needs in the United States. The company commercializes VYJUVEK (beremagene geperpavec-svdt, or B-VEC) for the treatment of dystrophic epidermolysis bullosa (DEB). It also develops KB803 for ocular complications of dystrophic epidermolysis bullosa; KB801 for neurotrophic keratitis; KB407, which is in Phase 1 clinical trials for treating cystic fibrosis; KB111 for Hailey-Hailey disease; KB707 for solid tumors; KB304 for dynamic wrinkles; KB707 that is in Phase 1/2 clinical trials for the treatment of anti-PD-1 relapsed/refractory; KB408, which is in Phase 1 clinical trials for treating Alpha-1 antitrypsin deficiency; and KB301 that is in Phase 2 clinical trials for treating aesthetic skin conditions, as well as in open label study with ophthalmic B-VEC for treating for ocular complications of deb. Krystal Biotech, Inc. was founded in 2016 and is headquartered in Pittsburgh, Pennsylvania.",
+  "targetMeanPrice": 392.1111,
+  "targetLowPrice": 284.0,
+  "targetHighPrice": 474.0,
+  "numberOfAnalystOpinions": 9,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.25,
+  "forwardPE": 35.78485,
+  "forwardEps": 9.26677,
+  "trailingEps": 7.98,
+  "earningsGrowth": 0.388,
+  "revenueGrowth": 0.241
  },
  "governance": {
   "ceo": {
@@ -82,8 +93,39 @@
   "ppe_net": "sec",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 1333794000.0,
+    "official": 1333794000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1219560000.0,
+    "official": 1219560000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 204831000.0,
+    "official": 204831000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 389130000.0,
+    "official": 389130000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:48:24+00:00",
  "years": [
   {
    "fy_end": "2021-12-31",
@@ -136,7 +178,10 @@
    "ppe_net": 161684000.0,
    "retained_earnings": -280759000.0,
    "total_debt": 8933000.0,
-   "shares_out": 25763743.0
+   "shares_out": 25763743.0,
+   "unusual_items": -25000000.0,
+   "normalized_ebitda": -91811000.0,
+   "normalized_income": -114975000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -168,7 +213,10 @@
    "ppe_net": 161202000.0,
    "retained_earnings": -269827000.0,
    "total_debt": 8094000.0,
-   "shares_out": 28236673.0
+   "shares_out": 28236673.0,
+   "unusual_items": 87500000.0,
+   "normalized_ebitda": -178706000.0,
+   "normalized_income": -63236411.258432
   },
   {
    "fy_end": "2024-12-31",
@@ -199,7 +247,10 @@
    "ppe_net": 155168000.0,
    "retained_earnings": -180668000.0,
    "total_debt": 7261000.0,
-   "shares_out": 28794000.0
+   "shares_out": 28794000.0,
+   "unusual_items": -37500000.0,
+   "normalized_ebitda": 147462000.0,
+   "normalized_income": 124221948.31998
   },
   {
    "fy_end": "2025-12-31",
@@ -230,7 +281,10 @@
    "ppe_net": 150776000.0,
    "retained_earnings": 24163000.0,
    "total_debt": 9339000.0,
-   "shares_out": 29192000.0
+   "shares_out": 29192000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 167846000.0,
+   "normalized_income": 204831000.0
   }
  ]
 }

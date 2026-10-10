@@ -1,6 +1,6 @@
 {
  "ticker": "SF",
- "fetched_at": "2026-10-10T12:57:49+00:00",
+ "fetched_at": "2026-10-10T15:55:25+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 8900,
   "website": "https://www.stifel.com",
-  "longBusinessSummary": "Stifel Financial Corp. operates as the bank holding company for Stifel, Nicolaus & Company, Incorporated that provides retail and institutional wealth management, and investment banking services to individual, corporations, municipalities, and institutions in the United States, the United Kingdom, Canada, and internationally. It operates in three segments: Global Wealth Management, Institutional Group, and Other. The company provides private client services, including securities transaction and financial planning services; securities brokerage services, such as the sale of equities, mutual funds, fixed income products, and insurance; institutional equity and fixed income sales, trading and research, and municipal finance services; investment banking services, such as mergers and acquisitions, public offerings, and private placements; and retail and commercial banking services comprising personal and commercial lending programs, as well as deposit accounts. It participates in and manages underwritings for corporate and public finance; and offers financial advisory and securities brokerage services. The company was founded in 1890 and is headquartered in Saint Louis, Missouri."
+  "longBusinessSummary": "Stifel Financial Corp. operates as the bank holding company for Stifel, Nicolaus & Company, Incorporated that provides retail and institutional wealth management, and investment banking services to individual, corporations, municipalities, and institutions in the United States, the United Kingdom, Canada, and internationally. It operates in three segments: Global Wealth Management, Institutional Group, and Other. The company provides private client services, including securities transaction and financial planning services; securities brokerage services, such as the sale of equities, mutual funds, fixed income products, and insurance; institutional equity and fixed income sales, trading and research, and municipal finance services; investment banking services, such as mergers and acquisitions, public offerings, and private placements; and retail and commercial banking services comprising personal and commercial lending programs, as well as deposit accounts. It participates in and manages underwritings for corporate and public finance; and offers financial advisory and securities brokerage services. The company was founded in 1890 and is headquartered in Saint Louis, Missouri.",
+  "targetMeanPrice": 85.25,
+  "targetLowPrice": 75.0,
+  "targetHighPrice": 103.0,
+  "numberOfAnalystOpinions": 8,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.375,
+  "forwardPE": 9.71449,
+  "forwardEps": 7.24073,
+  "trailingEps": 5.6,
+  "earningsGrowth": 0.506,
+  "revenueGrowth": 0.127
  },
  "governance": {
   "ceo": {
@@ -78,9 +89,38 @@
   "retained_earnings": "yahoo",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "normalized_income": "yahoo",
   "operating_income": "sec",
   "noninterest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 41270782000.0,
+    "official": 41270782000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 5977317000.0,
+    "official": 5977317000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 683779000.0,
+    "official": 683779000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 5463554000.0,
+    "official": 6347533000.0,
+    "diff": 0.139263
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:55:25+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -172,7 +212,8 @@
    "goodwill_and_intangibles": 1457137000.0,
    "retained_earnings": 3169095000.0,
    "total_debt": 1114554000.0,
-   "shares_out": 158022001.0
+   "shares_out": 158022001.0,
+   "normalized_income": 662155000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -201,7 +242,8 @@
    "goodwill_and_intangibles": 1521522000.0,
    "retained_earnings": 3398610000.0,
    "total_debt": 1115629000.0,
-   "shares_out": 151592292.0
+   "shares_out": 151592292.0,
+   "normalized_income": 522536000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -230,7 +272,8 @@
    "goodwill_and_intangibles": 1508792000.0,
    "retained_earnings": 3794609000.0,
    "total_debt": 616618000.0,
-   "shares_out": 153257050.0
+   "shares_out": 153257050.0,
+   "normalized_income": 731379000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -258,7 +301,8 @@
    "goodwill_and_intangibles": 1571903000.0,
    "retained_earnings": 4163363000.0,
    "total_debt": 617443000.0,
-   "shares_out": 152496649.0
+   "shares_out": 152496649.0,
+   "normalized_income": 683779000.0
   }
  ]
 }

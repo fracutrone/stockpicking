@@ -1,6 +1,6 @@
 {
  "ticker": "UDR",
- "fetched_at": "2026-10-10T13:00:41+00:00",
+ "fetched_at": "2026-10-10T15:58:16+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 1420,
   "website": "https://www.udr.com",
-  "longBusinessSummary": "UDR, Inc. is a S&P 500 company, is a leading multifamily real estate investment trust with a demonstrated performance history of delivering superior and dependable returns by successfully managing, buying, selling, developing and redeveloping attractive real estate properties in targeted U.S. markets. As of June 30, 2026, UDR owned or had an ownership position in 60,259 apartment homes, including 685 apartment homes under development. For over 54 years, UDR has delivered long-term value to shareholders, the best standard of service to residents and the highest quality experience for associates. UDR, Inc. was incorporated in 1972 in Maryland, and is based in Highlands Ranch, Colorado."
+  "longBusinessSummary": "UDR, Inc. is a S&P 500 company, is a leading multifamily real estate investment trust with a demonstrated performance history of delivering superior and dependable returns by successfully managing, buying, selling, developing and redeveloping attractive real estate properties in targeted U.S. markets. As of June 30, 2026, UDR owned or had an ownership position in 60,259 apartment homes, including 685 apartment homes under development. For over 54 years, UDR has delivered long-term value to shareholders, the best standard of service to residents and the highest quality experience for associates. UDR, Inc. was incorporated in 1972 in Maryland, and is based in Highlands Ranch, Colorado.",
+  "targetMeanPrice": 41.2619,
+  "targetLowPrice": 38.0,
+  "targetHighPrice": 46.0,
+  "numberOfAnalystOpinions": 21,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.36364,
+  "forwardPE": 60.92857,
+  "forwardEps": 0.56,
+  "trailingEps": 1.58,
+  "earningsGrowth": 0.909,
+  "revenueGrowth": -0.001
  },
  "governance": {
   "top_institutions": [
@@ -74,8 +85,39 @@
   "retained_earnings": "yahoo",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "intangibles": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 10605674000.0,
+    "official": 10605674000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3288462000.0,
+    "official": 3288462000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 377704000.0,
+    "official": 377704000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1712317000.0,
+    "official": 1712317000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:58:16+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -160,7 +202,10 @@
    "intangibles": 40307000.0,
    "retained_earnings": -3451587000.0,
    "total_debt": 5487303000.0,
-   "shares_out": 328993088.0
+   "shares_out": 328993088.0,
+   "unusual_items": 15761000.0,
+   "normalized_ebitda": 919572000.0,
+   "normalized_income": 71222191.944301
   },
   {
    "fy_end": "2023-12-31",
@@ -191,7 +236,10 @@
    "intangibles": 45874000.0,
    "retained_earnings": -3554892000.0,
    "total_debt": 5798709000.0,
-   "shares_out": 329014512.0
+   "shares_out": 329014512.0,
+   "unusual_items": 348055000.0,
+   "normalized_ebitda": 1001243000.0,
+   "normalized_income": 97836004.737785
   },
   {
    "fy_end": "2024-12-31",
@@ -222,7 +270,10 @@
    "intangibles": 31039000.0,
    "retained_earnings": -4179415000.0,
    "total_debt": 5826965000.0,
-   "shares_out": 330858719.0
+   "shares_out": 330858719.0,
+   "unusual_items": 1688000.0,
+   "normalized_ebitda": 998589000.0,
+   "normalized_income": 87912334.986978
   },
   {
    "fy_end": "2025-12-31",
@@ -253,7 +304,10 @@
    "intangibles": 21648000.0,
    "retained_earnings": -4240268000.0,
    "total_debt": 5821369000.0,
-   "shares_out": 328273044.0
+   "shares_out": 328273044.0,
+   "unusual_items": 231231000.0,
+   "normalized_ebitda": 1049973000.0,
+   "normalized_income": 146950265.813867
   }
  ]
 }

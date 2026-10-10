@@ -1,6 +1,6 @@
 {
  "ticker": "CINF",
- "fetched_at": "2026-10-10T12:40:56+00:00",
+ "fetched_at": "2026-10-10T15:39:40+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 5705,
   "website": "https://www.cinfin.com",
-  "longBusinessSummary": "Cincinnati Financial Corporation provides property casualty insurance products in the United States. The company operates through five segments: Commercial Lines Insurance, Personal Lines Insurance, Excess and Surplus Lines Insurance, Life Insurance, and Investments. The Commercial Lines Insurance segment offers coverage for commercial casualty and property, commercial auto, and workers' compensation. This segment also provides contract and commercial surety bonds, and fidelity bonds; management liability; and machinery and equipment insurance products. The Personal Lines Insurance segment offers personal auto; homeowner; and other personal lines insurance, such as dwelling fire, inland marine, personal umbrella liability, and watercraft coverages. The Excess and Surplus Lines Insurance segment offers commercial casualty insurance that covers businesses for third-party liability from accidents occurring on their premises or arising out of their operations, such as injuries sustained from products, as well as other coverages comprising miscellaneous errors and omissions, professional liability, and excess liability; and commercial property insurance, which insures buildings, inventory, equipment, and business income from loss or damage due to various causes, such as fire, wind, hail, water, theft, and vandalism. The Life Insurance segment provides term life insurance; universal life insurance; and worksite and whole life insurance products, as well as annuities. The Investments segment invests in fixed-maturity investments, including taxable and tax-exempt bonds, and redeemable preferred stocks; and equity investments comprising common and nonredeemable preferred stocks. The company also offers commercial leasing and financing services; and insurance brokerage services. The company was founded in 1950 and is headquartered in Fairfield, Ohio."
+  "longBusinessSummary": "Cincinnati Financial Corporation provides property casualty insurance products in the United States. The company operates through five segments: Commercial Lines Insurance, Personal Lines Insurance, Excess and Surplus Lines Insurance, Life Insurance, and Investments. The Commercial Lines Insurance segment offers coverage for commercial casualty and property, commercial auto, and workers' compensation. This segment also provides contract and commercial surety bonds, and fidelity bonds; management liability; and machinery and equipment insurance products. The Personal Lines Insurance segment offers personal auto; homeowner; and other personal lines insurance, such as dwelling fire, inland marine, personal umbrella liability, and watercraft coverages. The Excess and Surplus Lines Insurance segment offers commercial casualty insurance that covers businesses for third-party liability from accidents occurring on their premises or arising out of their operations, such as injuries sustained from products, as well as other coverages comprising miscellaneous errors and omissions, professional liability, and excess liability; and commercial property insurance, which insures buildings, inventory, equipment, and business income from loss or damage due to various causes, such as fire, wind, hail, water, theft, and vandalism. The Life Insurance segment provides term life insurance; universal life insurance; and worksite and whole life insurance products, as well as annuities. The Investments segment invests in fixed-maturity investments, including taxable and tax-exempt bonds, and redeemable preferred stocks; and equity investments comprising common and nonredeemable preferred stocks. The company also offers commercial leasing and financing services; and insurance brokerage services. The company was founded in 1950 and is headquartered in Fairfield, Ohio.",
+  "targetMeanPrice": 191.0,
+  "targetLowPrice": 177.0,
+  "targetHighPrice": 200.0,
+  "numberOfAnalystOpinions": 6,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.5,
+  "forwardPE": 18.034952,
+  "forwardEps": 9.05963,
+  "trailingEps": 21.18,
+  "earningsGrowth": 0.855,
+  "revenueGrowth": 0.316
  },
  "governance": {
   "ceo": {
@@ -73,8 +84,37 @@
   "ppe_net": "sec",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 41002000000.0,
+    "official": 41002000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 15911000000.0,
+    "official": 15911000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2393000000.0,
+    "official": 2393000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 12631000000.0,
+    "official": 12631000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:39:40+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -153,7 +193,8 @@
    "ppe_net": 202000000.0,
    "retained_earnings": 11711000000.0,
    "total_debt": 789000000.0,
-   "shares_out": 157100000.0
+   "shares_out": 157100000.0,
+   "normalized_income": -487000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -176,7 +217,8 @@
    "ppe_net": 208000000.0,
    "retained_earnings": 13084000000.0,
    "total_debt": 790000000.0,
-   "shares_out": 157000000.0
+   "shares_out": 157000000.0,
+   "normalized_income": 1843000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -199,7 +241,8 @@
    "ppe_net": 214000000.0,
    "retained_earnings": 14869000000.0,
    "total_debt": 790000000.0,
-   "shares_out": 156315102.0
+   "shares_out": 156315102.0,
+   "normalized_income": 2292000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -222,7 +265,8 @@
    "ppe_net": 219000000.0,
    "retained_earnings": 16719000000.0,
    "total_debt": 790000000.0,
-   "shares_out": 155418513.0
+   "shares_out": 155418513.0,
+   "normalized_income": 2393000000.0
   }
  ]
 }

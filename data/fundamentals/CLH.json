@@ -1,6 +1,6 @@
 {
  "ticker": "CLH",
- "fetched_at": "2026-10-10T12:41:02+00:00",
+ "fetched_at": "2026-10-10T15:39:45+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 22155,
   "website": "https://www.cleanharbors.com",
-  "longBusinessSummary": "Clean Harbors, Inc. provides environmental and industrial services in the United States and Canada. The company operates through two segments: Environmental Services and Safety-Kleen Sustainability Solutions. The Environmental Services segment collects, transports, treats, recycles, and disposes hazardous and non-hazardous waste, such as resource recovery, physical treatment, incineration, landfill disposal, wastewater treatment, lab chemicals disposal, and explosives management services; and offers CleanPack services, including collection, identification, categorization, specialized packaging, transportation, and disposal of laboratory chemicals and household hazardous waste. This segment also provides industrial maintenance and specialty industrial services; and utilizes specialty equipment and resources that perform field services. The Safety-Kleen Sustainability Solutions segment provides containerized waste, parts-washer, and vacuum services for automobile repair shops, car and truck dealers, metal fabricators, machine manufacturers, fleet maintenance shops, and other automotive, industrial, and retail customers; collects and transports for hazardous and non-hazardous containerized waste for recycling or disposal; machine cleaning and maintenance, and disposal and replenishment of clean solvent or aqueous fluids; and vacuum services to remove solids, residual oily water, and sludge and other fluids from customers' oil/water separators, sumps, and collection tanks, as well as removes and collects waste fluids found at large and small industrial locations, including metal fabricators, auto maintenance providers, and general manufacturers. This segment also manufactures, formulates, and packages lubricants and other products. Clean Harbors, Inc. was incorporated in 1980 and is headquartered in Norwell, Massachusetts."
+  "longBusinessSummary": "Clean Harbors, Inc. provides environmental and industrial services in the United States and Canada. The company operates through two segments: Environmental Services and Safety-Kleen Sustainability Solutions. The Environmental Services segment collects, transports, treats, recycles, and disposes hazardous and non-hazardous waste, such as resource recovery, physical treatment, incineration, landfill disposal, wastewater treatment, lab chemicals disposal, and explosives management services; and offers CleanPack services, including collection, identification, categorization, specialized packaging, transportation, and disposal of laboratory chemicals and household hazardous waste. This segment also provides industrial maintenance and specialty industrial services; and utilizes specialty equipment and resources that perform field services. The Safety-Kleen Sustainability Solutions segment provides containerized waste, parts-washer, and vacuum services for automobile repair shops, car and truck dealers, metal fabricators, machine manufacturers, fleet maintenance shops, and other automotive, industrial, and retail customers; collects and transports for hazardous and non-hazardous containerized waste for recycling or disposal; machine cleaning and maintenance, and disposal and replenishment of clean solvent or aqueous fluids; and vacuum services to remove solids, residual oily water, and sludge and other fluids from customers' oil/water separators, sumps, and collection tanks, as well as removes and collects waste fluids found at large and small industrial locations, including metal fabricators, auto maintenance providers, and general manufacturers. This segment also manufactures, formulates, and packages lubricants and other products. Clean Harbors, Inc. was incorporated in 1980 and is headquartered in Norwell, Massachusetts.",
+  "targetMeanPrice": 359.73334,
+  "targetLowPrice": 325.0,
+  "targetHighPrice": 390.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.58824,
+  "forwardPE": 31.710884,
+  "forwardEps": 9.99436,
+  "trailingEps": 8.25,
+  "earningsGrowth": 0.364,
+  "revenueGrowth": 0.119
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 7624056000.0,
+    "official": 7624056000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2745660000.0,
+    "official": 2745660000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 390974000.0,
+    "official": 390974000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 6030837000.0,
+    "official": 6030837000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:39:45+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -199,7 +241,10 @@
    "goodwill_and_intangibles": 1867660000.0,
    "retained_earnings": 1584722000.0,
    "total_debt": 2424828000.0,
-   "shares_out": 54064797.0
+   "shares_out": 54064797.0,
+   "unusual_items": 8442000.0,
+   "normalized_ebitda": 989420000.0,
+   "normalized_income": 405285870.0
   },
   {
    "fy_end": "2023-12-31",
@@ -234,7 +279,10 @@
    "goodwill_and_intangibles": 1890533000.0,
    "retained_earnings": 1962578000.0,
    "total_debt": 2301717000.0,
-   "shares_out": 53929703.0
+   "shares_out": 53929703.0,
+   "unusual_items": -2880000.0,
+   "normalized_ebitda": 992445000.0,
+   "normalized_income": 380018880.0
   },
   {
    "fy_end": "2024-12-31",
@@ -269,7 +317,10 @@
    "goodwill_and_intangibles": 2179186000.0,
    "retained_earnings": 2364877000.0,
    "total_debt": 2786219000.0,
-   "shares_out": 53832692.0
+   "shares_out": 53832692.0,
+   "unusual_items": -371000.0,
+   "normalized_ebitda": 1089137000.0,
+   "normalized_income": 402578734.0
   },
   {
    "fy_end": "2025-12-31",
@@ -304,7 +355,10 @@
    "goodwill_and_intangibles": 2132077000.0,
    "retained_earnings": 2755851000.0,
    "total_debt": 2776163000.0,
-   "shares_out": 52870599.0
+   "shares_out": 52870599.0,
+   "unusual_items": -7501000.0,
+   "normalized_ebitda": 1150327000.0,
+   "normalized_income": 396532241.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "CORT",
- "fetched_at": "2026-10-10T12:41:50+00:00",
+ "fetched_at": "2026-10-10T15:40:22+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NCM",
   "fullTimeEmployees": 730,
   "website": "https://www.corcept.com",
-  "longBusinessSummary": "Corcept Therapeutics Incorporated, a biopharmaceutical company, engages in the discovery and development of medications to treat severe endocrinologic, oncologic, metabolic, and neurologic disorders in the United States. The company offers Korlym, an oral medication for the treatment of hyperglycemia secondary to hypercortisolism in adult patients with endogenous Cushing's syndrome who have type 2 diabetes mellitus or glucose intolerance and have failed surgery or are not candidates for surgery. It also develops relacorilant, a selective cortisol modulator for patients with hypercortisolism; a selective cortisol modulator miricorilant, which is in Phase 1b trial for metabolic dysfunction-associated steatohepatitis; and a portfolio of proprietary selective cortisol modulators, such as relacorilant, nenocorilant, miricorilant, and dazucorilant for the treatment of Lou Gehrig's disease. The company was incorporated in 1998 and is headquartered in Redwood City, California."
+  "longBusinessSummary": "Corcept Therapeutics Incorporated, a biopharmaceutical company, engages in the discovery and development of medications to treat severe endocrinologic, oncologic, metabolic, and neurologic disorders in the United States. The company offers Korlym, an oral medication for the treatment of hyperglycemia secondary to hypercortisolism in adult patients with endogenous Cushing's syndrome who have type 2 diabetes mellitus or glucose intolerance and have failed surgery or are not candidates for surgery. It also develops relacorilant, a selective cortisol modulator for patients with hypercortisolism; a selective cortisol modulator miricorilant, which is in Phase 1b trial for metabolic dysfunction-associated steatohepatitis; and a portfolio of proprietary selective cortisol modulators, such as relacorilant, nenocorilant, miricorilant, and dazucorilant for the treatment of Lou Gehrig's disease. The company was incorporated in 1998 and is headquartered in Redwood City, California.",
+  "targetMeanPrice": 141.0,
+  "targetLowPrice": 50.0,
+  "targetHighPrice": 165.0,
+  "numberOfAnalystOpinions": 5,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": 27.52754,
+  "forwardEps": 4.4025,
+  "trailingEps": 0.45,
+  "earningsGrowth": 0.241,
+  "revenueGrowth": 0.317
  },
  "governance": {
   "ceo": {
@@ -82,8 +93,39 @@
   "retained_earnings": "sec",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "interest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 836651000.0,
+    "official": 836651000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 647805000.0,
+    "official": 647805000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 99652000.0,
+    "official": 99652000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 761407000.0,
+    "official": 761407000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:40:22+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -156,7 +198,8 @@
    "receivables": 27625000.0,
    "inventory": 4988000.0,
    "ppe_net": 1002000.0,
-   "retained_earnings": 194968000.0
+   "retained_earnings": 194968000.0,
+   "unusual_items": 0.0
   },
   {
    "fy_end": "2022-12-31",
@@ -187,7 +230,10 @@
    "ppe_net": 633000.0,
    "retained_earnings": 296386000.0,
    "total_debt": 1143000.0,
-   "shares_out": 107835000.0
+   "shares_out": 107835000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 116080000.0,
+   "normalized_income": 101418000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -217,7 +263,10 @@
    "ppe_net": 195000.0,
    "retained_earnings": 402526000.0,
    "total_debt": 151000.0,
-   "shares_out": 103405000.0
+   "shares_out": 103405000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 109644000.0,
+   "normalized_income": 106140000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -247,7 +296,10 @@
    "ppe_net": 2689000.0,
    "retained_earnings": 543735000.0,
    "total_debt": 6936000.0,
-   "shares_out": 105113000.0
+   "shares_out": 105113000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 138287000.0,
+   "normalized_income": 141209000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -277,7 +329,9 @@
    "ppe_net": 1890000.0,
    "retained_earnings": 643387000.0,
    "total_debt": 6107000.0,
-   "shares_out": 105966000.0
+   "shares_out": 105966000.0,
+   "normalized_ebitda": 46687000.0,
+   "normalized_income": 99652000.0
   }
  ]
 }

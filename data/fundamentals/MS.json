@@ -1,6 +1,6 @@
 {
  "ticker": "MS",
- "fetched_at": "2026-10-10T12:52:06+00:00",
+ "fetched_at": "2026-10-10T15:50:14+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 83000,
   "website": "https://www.morganstanley.com",
-  "longBusinessSummary": "Morgan Stanley, a financial holding company, provides various financial products and services to corporations, governments, financial institutions, and individuals in the Americas, Asia, Europe, the Middle East, and Africa. It operates through Institutional Securities, Wealth Management, and Investment Management segments. The company offers capital raising and financial advisory services, including services related to the underwriting of debt, equity securities, and other products, as well as advice on mergers and acquisitions, restructurings, and project finance. It also provides equity and fixed income products comprising sales, financing, prime brokerage, and market-making services; Asia wealth management; business-related investments services; originating corporate and commercial real estate loans, secured lending facilities, and extending securities-based and other financing; and research activities. In addition, the company offers financial advisor-led brokerage, investment advisory, custody, cash management, and administrative services; self-directed brokerage services; financial and wealth planning services; stock plan administration; securities-based lending, residential real estate loans, and other lending products; banking; and retirement plan services. Further, it provides equity, fixed income, alternatives and solutions, and liquidity and overlay services to benefit/defined contribution plans, foundations, endowments, government entities, sovereign wealth funds, insurance companies, third-party fund sponsors, corporations, and individuals. Morgan Stanley was founded in 1924 and is headquartered in New York, New York."
+  "longBusinessSummary": "Morgan Stanley, a financial holding company, provides various financial products and services to corporations, governments, financial institutions, and individuals in the Americas, Asia, Europe, the Middle East, and Africa. It operates through Institutional Securities, Wealth Management, and Investment Management segments. The company offers capital raising and financial advisory services, including services related to the underwriting of debt, equity securities, and other products, as well as advice on mergers and acquisitions, restructurings, and project finance. It also provides equity and fixed income products comprising sales, financing, prime brokerage, and market-making services; Asia wealth management; business-related investments services; originating corporate and commercial real estate loans, secured lending facilities, and extending securities-based and other financing; and research activities. In addition, the company offers financial advisor-led brokerage, investment advisory, custody, cash management, and administrative services; self-directed brokerage services; financial and wealth planning services; stock plan administration; securities-based lending, residential real estate loans, and other lending products; banking; and retirement plan services. Further, it provides equity, fixed income, alternatives and solutions, and liquidity and overlay services to benefit/defined contribution plans, foundations, endowments, government entities, sovereign wealth funds, insurance companies, third-party fund sponsors, corporations, and individuals. Morgan Stanley was founded in 1924 and is headquartered in New York, New York.",
+  "targetMeanPrice": 222.13635,
+  "targetLowPrice": 184.0,
+  "targetHighPrice": 262.0,
+  "numberOfAnalystOpinions": 22,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.30769,
+  "forwardPE": 14.003433,
+  "forwardEps": 13.56953,
+  "trailingEps": 12.38,
+  "earningsGrowth": 0.624,
+  "revenueGrowth": 0.28
  },
  "governance": {
   "ceo": {
@@ -78,8 +89,38 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "noninterest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 1420270000000.0,
+    "official": 1420270000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 111632000000.0,
+    "official": 111632000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 16861000000.0,
+    "official": 16861000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 65966000000.0,
+    "official": 70645000000.0,
+    "diff": 0.066233
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:50:14+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -139,7 +180,8 @@
    "goodwill": 16833000000.0,
    "intangibles": 8360000000.0,
    "retained_earnings": 89432000000.0,
-   "total_debt": 227363000000.0
+   "total_debt": 227363000000.0,
+   "unusual_items": -456000000.0
   },
   {
    "fy_end": "2022-12-31",
@@ -167,7 +209,9 @@
    "goodwill_and_intangibles": 24270000000.0,
    "retained_earnings": 94862000000.0,
    "total_debt": 233867000000.0,
-   "shares_out": 1675000000.0
+   "shares_out": 1675000000.0,
+   "unusual_items": -470000000.0,
+   "normalized_income": 11029000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -195,7 +239,9 @@
    "goodwill_and_intangibles": 23762000000.0,
    "retained_earnings": 97996000000.0,
    "total_debt": 260544000000.0,
-   "shares_out": 1626828437.0
+   "shares_out": 1626828437.0,
+   "unusual_items": -1181000000.0,
+   "normalized_income": 9087000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -223,7 +269,8 @@
    "goodwill_and_intangibles": 23159000000.0,
    "retained_earnings": 104989000000.0,
    "total_debt": 284307000000.0,
-   "shares_out": 1606653706.0
+   "shares_out": 1606653706.0,
+   "normalized_income": 13390000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -251,7 +298,9 @@
    "goodwill_and_intangibles": 22736000000.0,
    "retained_earnings": 115091000000.0,
    "total_debt": 341681000000.0,
-   "shares_out": 1582834137.0
+   "shares_out": 1582834137.0,
+   "unusual_items": -144000000.0,
+   "normalized_income": 16972669855.151682
   }
  ]
 }

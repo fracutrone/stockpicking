@@ -1,6 +1,6 @@
 {
  "ticker": "ISS.CO",
- "fetched_at": "2026-10-10T12:04:07+00:00",
+ "fetched_at": "2026-10-10T14:58:44+00:00",
  "region": "Europa",
  "statement_currency": "DKK",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "CPH",
   "fullTimeEmployees": 260728,
   "website": "https://www.issworld.com",
-  "longBusinessSummary": "ISS A/S operates as workplace experience and facility management company in the United Kingdom, Ireland, the United States, Canada, Switzerland, Germany, Australia, New Zealand, Türkiye, Spain, Denmark, and internationally. The company offers space office, space plus, and space production; transportation and infrastructure cleaning, food hygiene, and hospitality and cleaning services; and catering, fine dining and event catering; and micro-kitchens and vending services, as well as operates restaurants and pop-ups. It also provides security services comprising front of house, concierge and manned guarding, video surveillance, and technical services. In addition, the company offers support services, which include front desk and reception, meeting and conference management, switchboards and service desk, concierge, mail and courier, document, executive and administrative support, and experience curation and management services. Further, the company provides energy management, asset management, critical environments, and waste management services. Additionally, it designs and delivers workplace strategies and solutions, such as portfolio strategy, curated experience and workplace strategy, workplace and service design, relocation strategy, capital projects, and mental rebuild services. It serves financial and professional services, life science, and technology industries. ISS A/S was founded in 1901 and is headquartered in Søborg, Denmark."
+  "longBusinessSummary": "ISS A/S operates as workplace experience and facility management company in the United Kingdom, Ireland, the United States, Canada, Switzerland, Germany, Australia, New Zealand, Türkiye, Spain, Denmark, and internationally. The company offers space office, space plus, and space production; transportation and infrastructure cleaning, food hygiene, and hospitality and cleaning services; and catering, fine dining and event catering; and micro-kitchens and vending services, as well as operates restaurants and pop-ups. It also provides security services comprising front of house, concierge and manned guarding, video surveillance, and technical services. In addition, the company offers support services, which include front desk and reception, meeting and conference management, switchboards and service desk, concierge, mail and courier, document, executive and administrative support, and experience curation and management services. Further, the company provides energy management, asset management, critical environments, and waste management services. Additionally, it designs and delivers workplace strategies and solutions, such as portfolio strategy, curated experience and workplace strategy, workplace and service design, relocation strategy, capital projects, and mental rebuild services. It serves financial and professional services, life science, and technology industries. ISS A/S was founded in 1901 and is headquartered in Søborg, Denmark.",
+  "targetMeanPrice": 329.08334,
+  "targetLowPrice": 258.0,
+  "targetHighPrice": 370.0,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.58333,
+  "forwardPE": 12.442178,
+  "forwardEps": 23.21137,
+  "trailingEps": 17.0,
+  "earningsGrowth": 0.271,
+  "revenueGrowth": 0.074
  },
  "governance": {
   "ceo": {
@@ -70,8 +81,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF DK",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 45601000000.0,
+    "official": 45601000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 9776000000.0,
+    "official": 9776000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2603000000.0,
+    "official": 2603000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 84684000000.0,
+    "official": 84684000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:58:45+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -105,7 +148,10 @@
    "goodwill_and_intangibles": 23920000000.0,
    "retained_earnings": 10920000000.0,
    "total_debt": 16800000000.0,
-   "shares_out": 184729883.0
+   "shares_out": 184729883.0,
+   "unusual_items": 207000000.0,
+   "normalized_ebitda": 4246000000.0,
+   "normalized_income": 1863327000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -139,7 +185,10 @@
    "goodwill_and_intangibles": 23272000000.0,
    "retained_earnings": 11051000000.0,
    "total_debt": 16719000000.0,
-   "shares_out": 185336319.0
+   "shares_out": 185336319.0,
+   "unusual_items": 53000000.0,
+   "normalized_ebitda": 4536000000.0,
+   "normalized_income": 1889607000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -173,7 +222,10 @@
    "goodwill_and_intangibles": 24359000000.0,
    "retained_earnings": 13133000000.0,
    "total_debt": 18341000000.0,
-   "shares_out": 176448461.0
+   "shares_out": 176448461.0,
+   "unusual_items": 11000000.0,
+   "normalized_ebitda": 5612000000.0,
+   "normalized_income": 2624193998.181267
   },
   {
    "fy_end": "2025-12-31",
@@ -207,7 +259,10 @@
    "goodwill_and_intangibles": 24208000000.0,
    "retained_earnings": 13670000000.0,
    "total_debt": 15077000000.0,
-   "shares_out": 161432938.0
+   "shares_out": 161432938.0,
+   "unusual_items": 12000000.0,
+   "normalized_ebitda": 5704000000.0,
+   "normalized_income": 2593472000.0
   }
  ]
 }

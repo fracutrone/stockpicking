@@ -1,6 +1,6 @@
 {
  "ticker": "BIIB",
- "fetched_at": "2026-10-10T12:38:58+00:00",
+ "fetched_at": "2026-10-10T15:37:42+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 7500,
   "website": "https://www.biogen.com",
-  "longBusinessSummary": "Biogen Inc. discovers, develops, manufactures, and delivers therapies in the United States, Europe, Germany, Asia, and internationally. The company provides TECFIDERA, VUMERITY, AVONEX, PLEGRIDY, and TYSABRI for multiple sclerosis (MS); SPINRAZA for spinal muscular atrophy; SKYCLARYS to treat Friedreich's Ataxia; QALSODY for treating amyotrophic lateral sclerosis; FUMADERM to treat plaque psoriasis; BENEPALI, an etanercept biosimilar referencing ENBREL; IMRALDI, an adalimumab biosimilar referencing HUMIRA; FLIXABI, an infliximab biosimilar referencing REMICADE. It offers LEQEMBI for the treatment of Alzheimer's disease; ZURZUVAE for the treatment of postpartum depression; RITUXAN to treat non-Hodgkin's lymphoma, chronic lymphocytic leukemia (CLL), rheumatoid arthritis, two forms of ANCA-associated vasculitis, and pemphigus vulgaris; RITUXAN HYCELA for non-Hodgkin's lymphoma and CLL; GAZYVA to treat CLL and follicular lymphoma; OCREVUS for relapsing MS and primary progressive MS; LUNSUMIO to treat relapsed or refractory follicular lymphoma; glofitamab for aRelapsed or refractory diffuse large B-cell lymphoma; and other anti-CD20 therapies. Biogen Inc. has collaboration and license agreements with Merz Therapeutics; Alkermes Pharma Ireland Limited; Denali Therapeutics Inc.; UCB; Eisai Co., Ltd.; Genentech, Inc.; Neurimmune SubOne AG; Ionis Pharmaceuticals, Inc.; Samsung Bioepis; and Sage Therapeutics, Inc., as well as collaborations with Stoke Therapeutics, Inc. for the development and commercialization of zorevunersen, a disease modifying medicine for the treatment of Dravet syndrome; Dayra Therapeutics, Inc. to develop oral macrocyclic peptides; Vanqua Bio, Inc. for developing Vanqua's preclinical oral C5aR1 antagonist compound; City Therapeutics, Inc. to develop select novel RNAi therapies; and ALTEOGEN Inc. to develop subcutaneous (SC) formulations of biologics utilizing ALT-B4. The company was founded in 1978 and is headquartered in Cambridge, Massachusetts."
+  "longBusinessSummary": "Biogen Inc. discovers, develops, manufactures, and delivers therapies in the United States, Europe, Germany, Asia, and internationally. The company provides TECFIDERA, VUMERITY, AVONEX, PLEGRIDY, and TYSABRI for multiple sclerosis (MS); SPINRAZA for spinal muscular atrophy; SKYCLARYS to treat Friedreich's Ataxia; QALSODY for treating amyotrophic lateral sclerosis; FUMADERM to treat plaque psoriasis; BENEPALI, an etanercept biosimilar referencing ENBREL; IMRALDI, an adalimumab biosimilar referencing HUMIRA; FLIXABI, an infliximab biosimilar referencing REMICADE. It offers LEQEMBI for the treatment of Alzheimer's disease; ZURZUVAE for the treatment of postpartum depression; RITUXAN to treat non-Hodgkin's lymphoma, chronic lymphocytic leukemia (CLL), rheumatoid arthritis, two forms of ANCA-associated vasculitis, and pemphigus vulgaris; RITUXAN HYCELA for non-Hodgkin's lymphoma and CLL; GAZYVA to treat CLL and follicular lymphoma; OCREVUS for relapsing MS and primary progressive MS; LUNSUMIO to treat relapsed or refractory follicular lymphoma; glofitamab for aRelapsed or refractory diffuse large B-cell lymphoma; and other anti-CD20 therapies. Biogen Inc. has collaboration and license agreements with Merz Therapeutics; Alkermes Pharma Ireland Limited; Denali Therapeutics Inc.; UCB; Eisai Co., Ltd.; Genentech, Inc.; Neurimmune SubOne AG; Ionis Pharmaceuticals, Inc.; Samsung Bioepis; and Sage Therapeutics, Inc., as well as collaborations with Stoke Therapeutics, Inc. for the development and commercialization of zorevunersen, a disease modifying medicine for the treatment of Dravet syndrome; Dayra Therapeutics, Inc. to develop oral macrocyclic peptides; Vanqua Bio, Inc. for developing Vanqua's preclinical oral C5aR1 antagonist compound; City Therapeutics, Inc. to develop select novel RNAi therapies; and ALTEOGEN Inc. to develop subcutaneous (SC) formulations of biologics utilizing ALT-B4. The company was founded in 1978 and is headquartered in Cambridge, Massachusetts.",
+  "targetMeanPrice": 239.18195,
+  "targetLowPrice": 175.0,
+  "targetHighPrice": 300.0,
+  "numberOfAnalystOpinions": 31,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.88571,
+  "forwardPE": 13.646312,
+  "forwardEps": 16.54,
+  "trailingEps": 5.63,
+  "earningsGrowth": -0.848,
+  "revenueGrowth": 0.034
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 29439500000.0,
+    "official": 29439500000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 18256800000.0,
+    "official": 18256800000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1292900000.0,
+    "official": 1292900000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 9890600000.0,
+    "official": 9890600000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:37:42+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -202,7 +244,10 @@
    "goodwill_and_intangibles": 7599100000.0,
    "retained_earnings": 16466500000.0,
    "total_debt": 6281000000.0,
-   "shares_out": 144000000.0
+   "shares_out": 144000000.0,
+   "unusual_items": 857300000.0,
+   "normalized_ebitda": 3499500000.0,
+   "normalized_income": 2340484800.0
   },
   {
    "fy_end": "2023-12-31",
@@ -237,7 +282,10 @@
    "goodwill_and_intangibles": 14582200000.0,
    "retained_earnings": 17627600000.0,
    "total_debt": 6938200000.0,
-   "shares_out": 144900000.0
+   "shares_out": 144900000.0,
+   "unusual_items": -580900000.0,
+   "normalized_ebitda": 2619400000.0,
+   "normalized_income": 1681586400.0
   },
   {
    "fy_end": "2024-12-31",
@@ -272,7 +320,10 @@
    "goodwill_and_intangibles": 16170100000.0,
    "retained_earnings": 19259800000.0,
    "total_debt": 6295800000.0,
-   "shares_out": 145719340.0
+   "shares_out": 145719340.0,
+   "unusual_items": -277000000.0,
+   "normalized_ebitda": 3106500000.0,
+   "normalized_income": 1869408499.475341
   },
   {
    "fy_end": "2025-12-31",
@@ -307,7 +358,10 @@
    "goodwill_and_intangibles": 15669600000.0,
    "retained_earnings": 20552700000.0,
    "total_debt": 6286800000.0,
-   "shares_out": 146800000.0
+   "shares_out": 146800000.0,
+   "unusual_items": -794700000.0,
+   "normalized_ebitda": 3398600000.0,
+   "normalized_income": 1953014121.426277
   }
  ]
 }

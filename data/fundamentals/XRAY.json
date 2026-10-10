@@ -1,6 +1,6 @@
 {
  "ticker": "XRAY",
- "fetched_at": "2026-10-10T13:03:08+00:00",
+ "fetched_at": "2026-10-10T16:00:25+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 14000,
   "website": "https://www.dentsplysirona.com",
-  "longBusinessSummary": "DENTSPLY SIRONA Inc. develops, manufactures, and markets dental equipment supported by cloud-enabled solutions, dental products, and healthcare consumable products in urology and enterology worldwide. It operates through four segments: Connected Technology Solutions, Essential Dental Solutions, Orthodontic and Implant Solutions, and Wellspect Healthcare. The Connected Technology Solutions segment offers imaging equipment, motorized dental handpieces, treatment centers, and other instruments; and intraoral scanners, 3-D printers, and mills, as well as CEREC, a full-chairside economical restoration of esthetic ceramic dentistry offering. The Essential Dental Solutions segment provides motorized endodontic handpieces, files, sealers, irrigation needles, and other tools for root canal procedures; restorative products; curing light and dental diagnostic systems; ultrasonic scalers and polishers; and dental anesthetics, prophylaxis paste, dental sealants, and impression materials. The Orthodontic and Implant Solutions segment offers SureSmile, a clear aligner solution that includes whitening kits and retainers; VPro, a high frequency vibration technology device; SureSmile Simulator; DS Core platform, which creates 3D visualization of patient outcomes; dental implant products; digital dentures; crown and bridge porcelain products; bone regenerative and restorative solutions; treatment planning software; educational programs; custom abutments; tapered immediate load screws; regenerative bone growth factor; artificial teeth; and precious metal dental alloys. The Wellspect Healthcare segment offers medical devices, including catheters for urinary retention and advanced irrigation systems to help people suffering from chronic or severe constipation. The company was formerly known as DENTSPLY International Inc. and changed its name to DENTSPLY SIRONA Inc. in February 2016. DENTSPLY SIRONA Inc. was founded in 1877 and is headquartered in Charlotte, North Carolina."
+  "longBusinessSummary": "DENTSPLY SIRONA Inc. develops, manufactures, and markets dental equipment supported by cloud-enabled solutions, dental products, and healthcare consumable products in urology and enterology worldwide. It operates through four segments: Connected Technology Solutions, Essential Dental Solutions, Orthodontic and Implant Solutions, and Wellspect Healthcare. The Connected Technology Solutions segment offers imaging equipment, motorized dental handpieces, treatment centers, and other instruments; and intraoral scanners, 3-D printers, and mills, as well as CEREC, a full-chairside economical restoration of esthetic ceramic dentistry offering. The Essential Dental Solutions segment provides motorized endodontic handpieces, files, sealers, irrigation needles, and other tools for root canal procedures; restorative products; curing light and dental diagnostic systems; ultrasonic scalers and polishers; and dental anesthetics, prophylaxis paste, dental sealants, and impression materials. The Orthodontic and Implant Solutions segment offers SureSmile, a clear aligner solution that includes whitening kits and retainers; VPro, a high frequency vibration technology device; SureSmile Simulator; DS Core platform, which creates 3D visualization of patient outcomes; dental implant products; digital dentures; crown and bridge porcelain products; bone regenerative and restorative solutions; treatment planning software; educational programs; custom abutments; tapered immediate load screws; regenerative bone growth factor; artificial teeth; and precious metal dental alloys. The Wellspect Healthcare segment offers medical devices, including catheters for urinary retention and advanced irrigation systems to help people suffering from chronic or severe constipation. The company was formerly known as DENTSPLY International Inc. and changed its name to DENTSPLY SIRONA Inc. in February 2016. DENTSPLY SIRONA Inc. was founded in 1877 and is headquartered in Charlotte, North Carolina.",
+  "targetMeanPrice": 13.26667,
+  "targetLowPrice": 9.0,
+  "targetHighPrice": 17.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.70588,
+  "forwardPE": 5.903669,
+  "forwardEps": 1.49568,
+  "trailingEps": -2.73,
+  "earningsGrowth": null,
+  "revenueGrowth": -0.041
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 5429000000.0,
+    "official": 5429000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1339000000.0,
+    "official": 1339000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -598000000.0,
+    "official": -598000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3680000000.0,
+    "official": 3680000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T16:00:25+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -201,7 +243,10 @@
    "goodwill_and_intangibles": 4591000000.0,
    "retained_earnings": 456000000.0,
    "total_debt": 1871000000.0,
-   "shares_out": 215300000.0
+   "shares_out": 215300000.0,
+   "unusual_items": -1307000000.0,
+   "normalized_ebitda": 645000000.0,
+   "normalized_income": 227607000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -235,7 +280,10 @@
    "goodwill_and_intangibles": 4143000000.0,
    "retained_earnings": 205000000.0,
    "total_debt": 1909000000.0,
-   "shares_out": 207200000.0
+   "shares_out": 207200000.0,
+   "unusual_items": -371000000.0,
+   "normalized_ebitda": 620000000.0,
+   "normalized_income": 147840000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -269,7 +317,10 @@
    "goodwill_and_intangibles": 2804000000.0,
    "retained_earnings": -835000000.0,
    "total_debt": 1748000000.0,
-   "shares_out": 198800000.0
+   "shares_out": 198800000.0,
+   "unusual_items": -1046000000.0,
+   "normalized_ebitda": 528000000.0,
+   "normalized_income": 106712000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -303,7 +354,10 @@
    "goodwill_and_intangibles": 2122000000.0,
    "retained_earnings": -1564000000.0,
    "total_debt": 2276000000.0,
-   "shares_out": 199600000.0
+   "shares_out": 199600000.0,
+   "unusual_items": -642000000.0,
+   "normalized_ebitda": 596000000.0,
+   "normalized_income": -90820000.0
   }
  ]
 }

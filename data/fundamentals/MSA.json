@@ -1,6 +1,6 @@
 {
  "ticker": "MSA",
- "fetched_at": "2026-10-10T12:52:08+00:00",
+ "fetched_at": "2026-10-10T15:50:15+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 5300,
   "website": "https://www.msasafety.com",
-  "longBusinessSummary": "MSA Safety Incorporated develops, manufactures, and supplies safety products and technology solutions that protect workers and facility infrastructures worldwide. The company offers breathing apparatus products, including self-contained breathing apparatus; firefighter helmets and protective apparel; and fixed gas and flame detection systems, such as fixed gas detection monitoring systems, flame detectors and open-path infrared gas detectors, and refrigerant detection and identification solution, as well as hand-held portable gas detection instruments to detect the presence or absence of various gases in the air. It also provides industrial head protection and accessories; fall protection equipment, such as confined space equipment, harnesses, lanyards, and self-retracting lifelines, as well as engineered systems; and air-purifying respirators, eye and face protection products, ballistic helmets, and gas masks. The company serves fire service, energy, utility, construction, and industrial manufacturing applications, as well as heating, ventilation, air conditioning, and refrigeration industries through distributors and end-users through indirect and direct sales channels. It offers its products under the V-Gard, Cairns, and Gallet brand names. MSA Safety Incorporated was founded in 1914 and is based in Cranberry Township, Pennsylvania."
+  "longBusinessSummary": "MSA Safety Incorporated develops, manufactures, and supplies safety products and technology solutions that protect workers and facility infrastructures worldwide. The company offers breathing apparatus products, including self-contained breathing apparatus; firefighter helmets and protective apparel; and fixed gas and flame detection systems, such as fixed gas detection monitoring systems, flame detectors and open-path infrared gas detectors, and refrigerant detection and identification solution, as well as hand-held portable gas detection instruments to detect the presence or absence of various gases in the air. It also provides industrial head protection and accessories; fall protection equipment, such as confined space equipment, harnesses, lanyards, and self-retracting lifelines, as well as engineered systems; and air-purifying respirators, eye and face protection products, ballistic helmets, and gas masks. The company serves fire service, energy, utility, construction, and industrial manufacturing applications, as well as heating, ventilation, air conditioning, and refrigeration industries through distributors and end-users through indirect and direct sales channels. It offers its products under the V-Gard, Cairns, and Gallet brand names. MSA Safety Incorporated was founded in 1914 and is based in Cranberry Township, Pennsylvania.",
+  "targetMeanPrice": 209.14285,
+  "targetLowPrice": 190.0,
+  "targetHighPrice": 223.0,
+  "numberOfAnalystOpinions": 7,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 18.133707,
+  "forwardEps": 9.96542,
+  "trailingEps": 8.04,
+  "earningsGrowth": 0.403,
+  "revenueGrowth": 0.062
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 2554374000.0,
+    "official": 2554374000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1367012000.0,
+    "official": 1367012000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 278924000.0,
+    "official": 278924000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1874814000.0,
+    "official": 1874814000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:50:15+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -209,7 +251,10 @@
    "goodwill_and_intangibles": 902522000.0,
    "retained_earnings": 1158347000.0,
    "total_debt": 572832000.0,
-   "shares_out": 39213064.0
+   "shares_out": 39213064.0,
+   "unusual_items": -24510000.0,
+   "normalized_ebitda": 341020000.0,
+   "normalized_income": 198087535.435349
   },
   {
    "fy_end": "2023-12-31",
@@ -244,7 +289,10 @@
    "goodwill_and_intangibles": 893634000.0,
    "retained_earnings": 1143442000.0,
    "total_debt": 601692000.0,
-   "shares_out": 39317212.0
+   "shares_out": 39317212.0,
+   "unusual_items": -156355000.0,
+   "normalized_ebitda": 470549000.0,
+   "normalized_income": 182103450.0
   },
   {
    "fy_end": "2024-12-31",
@@ -278,7 +326,10 @@
    "goodwill_and_intangibles": 867295000.0,
    "retained_earnings": 1349650000.0,
    "total_debt": 508013000.0,
-   "shares_out": 39260080.0
+   "shares_out": 39260080.0,
+   "unusual_items": -10854000.0,
+   "normalized_ebitda": 487082000.0,
+   "normalized_income": 293216040.0
   },
   {
    "fy_end": "2025-12-31",
@@ -312,7 +363,10 @@
    "goodwill_and_intangibles": 1030692000.0,
    "retained_earnings": 1546230000.0,
    "total_debt": 580934000.0,
-   "shares_out": 38912629.0
+   "shares_out": 38912629.0,
+   "unusual_items": -21106000.0,
+   "normalized_ebitda": 490894000.0,
+   "normalized_income": 294985666.0
   }
  ]
 }

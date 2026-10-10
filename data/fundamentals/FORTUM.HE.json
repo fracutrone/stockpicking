@@ -1,6 +1,6 @@
 {
  "ticker": "FORTUM.HE",
- "fetched_at": "2026-10-10T11:58:43+00:00",
+ "fetched_at": "2026-10-10T14:48:50+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "HEL",
   "fullTimeEmployees": 4636,
   "website": "https://www.fortum.com",
-  "longBusinessSummary": "Fortum Oyj, together with its subsidiaries, engages in the generation and sale of electricity and heat to private and business customers in Finland, Sweden, Norway, Poland, and internationally. It operates through Generation, Consumer Solutions, and Other Operations segments. The Generation segment offers low-carbon hydro, nuclear, onshore wind, and solar power generation; district heating and cooling; and decarbonization services. The Consumer Solutions segment offers invoicing and customer services; electricity and related value-added products; and digital services for consumers, including small- and medium-sized enterprises. It is also involved in the electricity and gas retail business; power trading and energy supply services; industrial site development; and battery recycling activities. The company was formerly known as IVO-Neste Yhtymä Oyj and changed its name to Fortum Oyj in June 1998. The company has strategic partnership with Google for nuclear power purchase agreement. Fortum Oyj was incorporated in 1998 and is headquartered in Espoo, Finland."
+  "longBusinessSummary": "Fortum Oyj, together with its subsidiaries, engages in the generation and sale of electricity and heat to private and business customers in Finland, Sweden, Norway, Poland, and internationally. It operates through Generation, Consumer Solutions, and Other Operations segments. The Generation segment offers low-carbon hydro, nuclear, onshore wind, and solar power generation; district heating and cooling; and decarbonization services. The Consumer Solutions segment offers invoicing and customer services; electricity and related value-added products; and digital services for consumers, including small- and medium-sized enterprises. It is also involved in the electricity and gas retail business; power trading and energy supply services; industrial site development; and battery recycling activities. The company was formerly known as IVO-Neste Yhtymä Oyj and changed its name to Fortum Oyj in June 1998. The company has strategic partnership with Google for nuclear power purchase agreement. Fortum Oyj was incorporated in 1998 and is headquartered in Espoo, Finland.",
+  "targetMeanPrice": 22.57778,
+  "targetLowPrice": 14.9,
+  "targetHighPrice": 28.3,
+  "numberOfAnalystOpinions": 18,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.05556,
+  "forwardPE": 21.950693,
+  "forwardEps": 1.06557,
+  "trailingEps": 0.93,
+  "earningsGrowth": 0.048,
+  "revenueGrowth": 0.154
  },
  "governance": {
   "ceo": {
@@ -77,8 +88,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF FI",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 16444000000.0,
+    "official": 16444000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 8539000000.0,
+    "official": 8539000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 765000000.0,
+    "official": 763000000.0,
+    "diff": 0.002621
+   },
+   "revenue": {
+    "yahoo": 4989000000.0,
+    "official": 4989000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:48:50+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -113,7 +156,10 @@
    "goodwill_and_intangibles": 657000000.0,
    "retained_earnings": 6467000000.0,
    "total_debt": 7785000000.0,
-   "shares_out": 897264465.0
+   "shares_out": 897264465.0,
+   "unusual_items": 354000000.0,
+   "normalized_ebitda": 1890000000.0,
+   "normalized_income": 9674800000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -147,7 +193,10 @@
    "goodwill_and_intangibles": 643000000.0,
    "retained_earnings": 5592000000.0,
    "total_debt": 5911000000.0,
-   "shares_out": 897264465.0
+   "shares_out": 897264465.0,
+   "unusual_items": 115000000.0,
+   "normalized_ebitda": 2158000000.0,
+   "normalized_income": 1402945000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -182,7 +231,10 @@
    "goodwill_and_intangibles": 549000000.0,
    "retained_earnings": 5770000000.0,
    "total_debt": 4827000000.0,
-   "shares_out": 897264465.0
+   "shares_out": 897264465.0,
+   "unusual_items": 121000000.0,
+   "normalized_ebitda": 1921000000.0,
+   "normalized_income": 1063691000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -216,7 +268,10 @@
    "goodwill_and_intangibles": 558000000.0,
    "retained_earnings": 5333000000.0,
    "total_debt": 4746000000.0,
-   "shares_out": 897264465.0
+   "shares_out": 897264465.0,
+   "unusual_items": -5000000.0,
+   "normalized_ebitda": 1444000000.0,
+   "normalized_income": 769075000.0
   }
  ]
 }

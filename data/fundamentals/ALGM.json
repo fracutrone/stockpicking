@@ -1,6 +1,6 @@
 {
  "ticker": "ALGM",
- "fetched_at": "2026-10-10T12:36:58+00:00",
+ "fetched_at": "2026-10-10T15:34:01+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 4250,
   "website": "https://www.allegromicro.com",
-  "longBusinessSummary": "Allegro MicroSystems, Inc., together with its subsidiaries, designs, develops, manufactures, and markets sensor integrated circuits (ICs) and application-specific power ICs for sensing, motion control, and power management functions of complex electromechanical or power conversion systems. Its products include magnetic sensor ICs, such as position, speed, and electric current sensor ICs; and power ICs comprising motor driver ICs, such as regulator, power management ICs, and LED driver ICs, and isolated gate drivers. The company sells its products to original equipment manufacturers and distributors primarily in the automotive and industrial markets through its direct sales force, third party distributors, independent sales representatives, and consignment. The company serves automotive and industrial markets, including advanced industrial markets such as AI data centers, robotics, and energy infrastructure sectors. It operates in the United States, rest of the Americas, Europe, Japan, Greater China, South Korea, and other Asian markets. The company was founded in 1990 and is headquartered in Manchester, New Hampshire."
+  "longBusinessSummary": "Allegro MicroSystems, Inc., together with its subsidiaries, designs, develops, manufactures, and markets sensor integrated circuits (ICs) and application-specific power ICs for sensing, motion control, and power management functions of complex electromechanical or power conversion systems. Its products include magnetic sensor ICs, such as position, speed, and electric current sensor ICs; and power ICs comprising motor driver ICs, such as regulator, power management ICs, and LED driver ICs, and isolated gate drivers. The company sells its products to original equipment manufacturers and distributors primarily in the automotive and industrial markets through its direct sales force, third party distributors, independent sales representatives, and consignment. The company serves automotive and industrial markets, including advanced industrial markets such as AI data centers, robotics, and energy infrastructure sectors. It operates in the United States, rest of the Americas, Europe, Japan, Greater China, South Korea, and other Asian markets. The company was founded in 1990 and is headquartered in Manchester, New Hampshire.",
+  "targetMeanPrice": 54.41667,
+  "targetLowPrice": 48.0,
+  "targetHighPrice": 62.0,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.38462,
+  "forwardPE": 24.050034,
+  "forwardEps": 1.479,
+  "trailingEps": 0.06,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.275
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-03-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 1416175000.0,
+    "official": 1416175000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 954747000.0,
+    "official": 954747000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -14897000.0,
+    "official": -14897000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 890096000.0,
+    "official": 890096000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:34:01+00:00",
  "years": [
   {
    "fy_end": "2020-03-27",
@@ -205,7 +247,10 @@
    "goodwill_and_intangibles": 80069000.0,
    "retained_earnings": 310315000.0,
    "total_debt": 25000000.0,
-   "shares_out": 191754292.0
+   "shares_out": 191754292.0,
+   "unusual_items": 980000.0,
+   "normalized_ebitda": 263510000.0,
+   "normalized_income": 186487600.437198
   },
   {
    "fy_end": "2024-03-29",
@@ -239,7 +284,10 @@
    "goodwill_and_intangibles": 479279000.0,
    "retained_earnings": 463012000.0,
    "total_debt": 245102000.0,
-   "shares_out": 193164609.0
+   "shares_out": 193164609.0,
+   "unusual_items": -8154000.0,
+   "normalized_ebitda": 285096000.0,
+   "normalized_income": 159096732.809027
   },
   {
    "fy_end": "2025-03-28",
@@ -273,7 +321,10 @@
    "goodwill_and_intangibles": 464590000.0,
    "retained_earnings": -53591000.0,
    "total_debt": 338929000.0,
-   "shares_out": 184286567.0
+   "shares_out": 184286567.0,
+   "unusual_items": -36924000.0,
+   "normalized_ebitda": 46096000.0,
+   "normalized_income": -41658466.53286
   },
   {
    "fy_end": "2026-03-27",
@@ -307,7 +358,10 @@
    "goodwill_and_intangibles": 441966000.0,
    "retained_earnings": -68488000.0,
    "total_debt": 280884000.0,
-   "shares_out": 185357343.0
+   "shares_out": 185357343.0,
+   "unusual_items": -9799000.0,
+   "normalized_ebitda": 84626000.0,
+   "normalized_income": -5261086.504261
   }
  ]
 }

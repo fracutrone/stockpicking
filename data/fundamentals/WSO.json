@@ -1,6 +1,6 @@
 {
  "ticker": "WSO",
- "fetched_at": "2026-10-10T13:02:42+00:00",
+ "fetched_at": "2026-10-10T16:00:04+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 6950,
   "website": "https://www.watsco.com",
-  "longBusinessSummary": "Watsco, Inc., together with its subsidiaries, engages in the distribution of air conditioning, heating, and refrigeration equipment, and related parts and supplies in the United States, Canada, Latin America, and the Caribbean. It distributes equipment, including residential ducted and ductless air conditioners, such as gas, electric, and oil furnaces; commercial air conditioning and heating equipment systems; and other specialized equipment. The company also offers parts comprising replacement compressors, evaporator coils, motors, and other component parts; and supplies, such as thermostats, insulation materials, refrigerants, ductworks, grills, registers, sheet metals, tools, copper tubing, concrete pads, tapes, adhesives, and other ancillary supplies, as well as plumbing and bathroom remodeling supplies. It serves contractors and dealers that service the replacement and new construction markets for residential and light commercial central air conditioning, heating, and refrigeration systems. Watsco, Inc. was incorporated in 1956 and is headquartered in Miami, Florida."
+  "longBusinessSummary": "Watsco, Inc., together with its subsidiaries, engages in the distribution of air conditioning, heating, and refrigeration equipment, and related parts and supplies in the United States, Canada, Latin America, and the Caribbean. It distributes equipment, including residential ducted and ductless air conditioners, such as gas, electric, and oil furnaces; commercial air conditioning and heating equipment systems; and other specialized equipment. The company also offers parts comprising replacement compressors, evaporator coils, motors, and other component parts; and supplies, such as thermostats, insulation materials, refrigerants, ductworks, grills, registers, sheet metals, tools, copper tubing, concrete pads, tapes, adhesives, and other ancillary supplies, as well as plumbing and bathroom remodeling supplies. It serves contractors and dealers that service the replacement and new construction markets for residential and light commercial central air conditioning, heating, and refrigeration systems. Watsco, Inc. was incorporated in 1956 and is headquartered in Miami, Florida.",
+  "targetMeanPrice": 375.9,
+  "targetLowPrice": 330.0,
+  "targetHighPrice": 485.0,
+  "numberOfAnalystOpinions": 10,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.71429,
+  "forwardPE": 20.97803,
+  "forwardEps": 13.34253,
+  "trailingEps": 11.67,
+  "earningsGrowth": -0.117,
+  "revenueGrowth": 0.021
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,38 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 4414805000.0,
+    "official": 4414805000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2781376000.0,
+    "official": 2781376000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 496994000.0,
+    "official": 496994000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 7239290000.0,
+    "official": 7239290000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T16:00:04+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -204,7 +245,9 @@
    "goodwill_and_intangibles": 605902000.0,
    "retained_earnings": 1029516000.0,
    "total_debt": 243532000.0,
-   "shares_out": 38798150.0
+   "shares_out": 38798150.0,
+   "normalized_ebitda": 840590000.0,
+   "normalized_income": 601167000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -239,7 +282,9 @@
    "goodwill_and_intangibles": 675294000.0,
    "retained_earnings": 1183207000.0,
    "total_debt": 304527000.0,
-   "shares_out": 39489543.0
+   "shares_out": 39489543.0,
+   "normalized_ebitda": 803723000.0,
+   "normalized_income": 536337000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -273,7 +318,9 @@
    "goodwill_and_intangibles": 660330000.0,
    "retained_earnings": 1295972000.0,
    "total_debt": 337190000.0,
-   "shares_out": 40352263.0
+   "shares_out": 40352263.0,
+   "normalized_ebitda": 792096000.0,
+   "normalized_income": 536286000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -307,7 +354,9 @@
    "goodwill_and_intangibles": 672936000.0,
    "retained_earnings": 1319201000.0,
    "total_debt": 361635000.0,
-   "shares_out": 40575912.0
+   "shares_out": 40575912.0,
+   "normalized_ebitda": 736334000.0,
+   "normalized_income": 496994000.0
   }
  ]
 }

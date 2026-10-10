@@ -1,6 +1,6 @@
 {
  "ticker": "CTY.L",
- "fetched_at": "2026-10-10T11:53:04+00:00",
+ "fetched_at": "2026-10-10T14:41:24+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 0.102883,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -47,8 +58,15 @@
   "equity": "yahoo",
   "receivables": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T14:41:24+00:00",
  "years": [
   {
    "fy_end": "2023-06-30",
@@ -66,7 +84,8 @@
    "equity": 1915892000.0,
    "receivables": 0.0,
    "total_debt": 123271000.0,
-   "shares_out": 497354868.0
+   "shares_out": 497354868.0,
+   "normalized_income": 61409000.0
   },
   {
    "fy_end": "2024-06-30",
@@ -84,7 +103,8 @@
    "equity": 2097528000.0,
    "receivables": 641000.0,
    "total_debt": 155304000.0,
-   "shares_out": 494363001.0
+   "shares_out": 494363001.0,
+   "normalized_income": 297418000.0
   },
   {
    "fy_end": "2025-06-30",
@@ -102,7 +122,8 @@
    "equity": 2332039000.0,
    "receivables": 1960000.0,
    "total_debt": 131348000.0,
-   "shares_out": 493517106.0
+   "shares_out": 493517106.0,
+   "normalized_income": 342116000.0
   },
   {
    "fy_end": "2026-06-30",
@@ -119,7 +140,8 @@
    "equity": 2850493000.0,
    "receivables": 1871000.0,
    "total_debt": 145994000.0,
-   "shares_out": 515072106.0
+   "shares_out": 515072106.0,
+   "normalized_income": 513417000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "OHI",
- "fetched_at": "2026-10-10T12:53:51+00:00",
+ "fetched_at": "2026-10-10T15:52:01+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 69,
   "website": "https://www.omegahealthcare.com",
-  "longBusinessSummary": "Omega Healthcare Investors, Inc. is a real estate investment trust that invests in the long-term healthcare industry, primarily in skilled nursing and assisted living facilities. Its portfolio of assets is operated by a diverse group of healthcare companies, predominantly in a triple-net lease structure. The assets span all regions within the US, as well as in the UK and Canada. Omega Healthcare Investors, Inc. is based in Hunt Valley, United States. The firm is incorporated in Maryland."
+  "longBusinessSummary": "Omega Healthcare Investors, Inc. is a real estate investment trust that invests in the long-term healthcare industry, primarily in skilled nursing and assisted living facilities. Its portfolio of assets is operated by a diverse group of healthcare companies, predominantly in a triple-net lease structure. The assets span all regions within the US, as well as in the UK and Canada. Omega Healthcare Investors, Inc. is based in Hunt Valley, United States. The firm is incorporated in Maryland.",
+  "targetMeanPrice": 51.77778,
+  "targetLowPrice": 46.0,
+  "targetHighPrice": 61.0,
+  "numberOfAnalystOpinions": 18,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.4,
+  "forwardPE": 21.958406,
+  "forwardEps": 2.02246,
+  "trailingEps": 2.8,
+  "earningsGrowth": 1.613,
+  "revenueGrowth": 0.112
  },
  "governance": {
   "ceo": {
@@ -82,8 +93,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "intangibles": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 10049059000.0,
+    "official": 10049059000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 5181299000.0,
+    "official": 5181299000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 590185000.0,
+    "official": 590185000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1190099000.0,
+    "official": 1190099000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:52:01+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -172,7 +214,10 @@
    "goodwill_and_intangibles": 643151000.0,
    "retained_earnings": 3438401000.0,
    "total_debt": 5286834000.0,
-   "shares_out": 234252000.0
+   "shares_out": 234252000.0,
+   "unusual_items": 279105000.0,
+   "normalized_ebitda": 722687000.0,
+   "normalized_income": 150740776.049489
   },
   {
    "fy_end": "2023-12-31",
@@ -203,7 +248,10 @@
    "goodwill_and_intangibles": 643897000.0,
    "retained_earnings": 3680581000.0,
    "total_debt": 5067316000.0,
-   "shares_out": 245282000.0
+   "shares_out": 245282000.0,
+   "unusual_items": -18108000.0,
+   "normalized_ebitda": 828952000.0,
+   "normalized_income": 259844921.289505
   },
   {
    "fy_end": "2024-12-31",
@@ -234,7 +282,10 @@
    "goodwill_and_intangibles": 643664000.0,
    "retained_earnings": 4086907000.0,
    "total_debt": 4838859000.0,
-   "shares_out": 279129000.0
+   "shares_out": 279129000.0,
+   "unusual_items": -24027000.0,
+   "normalized_ebitda": 971137000.0,
+   "normalized_income": 429732946.176553
   },
   {
    "fy_end": "2025-12-31",
@@ -265,7 +316,10 @@
    "goodwill_and_intangibles": 644626000.0,
    "retained_earnings": 4677092000.0,
    "total_debt": 4256011000.0,
-   "shares_out": 295539000.0
+   "shares_out": 295539000.0,
+   "unusual_items": 45469000.0,
+   "normalized_ebitda": 1119246000.0,
+   "normalized_income": 545789897.138684
   }
  ]
 }

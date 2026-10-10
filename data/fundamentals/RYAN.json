@@ -1,6 +1,6 @@
 {
  "ticker": "RYAN",
- "fetched_at": "2026-10-10T12:57:23+00:00",
+ "fetched_at": "2026-10-10T15:55:05+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 6171,
   "website": "https://www.ryanspecialty.com",
-  "longBusinessSummary": "Ryan Specialty Holdings, Inc. operates as a service provider of specialty products and solutions for insurance brokers, agents, and carriers in the United States, Canada, the United Kingdom, rest of Europe, India, Singapore, and internationally. The company offers distribution, underwriting, product development, administration, and risk management services by acting as a wholesale broker and a managing underwriter or a program administrator with delegated authority from insurance carriers. It serves commercial, industrial, institutional, individual, and government sectors. The company was founded in 2010 and is headquartered in Chicago, Illinois."
+  "longBusinessSummary": "Ryan Specialty Holdings, Inc. operates as a service provider of specialty products and solutions for insurance brokers, agents, and carriers in the United States, Canada, the United Kingdom, rest of Europe, India, Singapore, and internationally. The company offers distribution, underwriting, product development, administration, and risk management services by acting as a wholesale broker and a managing underwriter or a program administrator with delegated authority from insurance carriers. It serves commercial, industrial, institutional, individual, and government sectors. The company was founded in 2010 and is headquartered in Chicago, Illinois.",
+  "targetMeanPrice": 49.84375,
+  "targetLowPrice": 38.0,
+  "targetHighPrice": 76.0,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.31579,
+  "forwardPE": 15.164987,
+  "forwardEps": 2.44049,
+  "trailingEps": 0.71,
+  "earningsGrowth": -0.143,
+  "revenueGrowth": 0.074
  },
  "governance": {
   "ceo": {
@@ -77,10 +88,40 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "operating_income": "sec",
   "current_assets": "sec",
   "current_liabilities": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 10564171000.0,
+    "official": 10564171000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 648073000.0,
+    "official": 648073000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 63399000.0,
+    "official": 63399000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3051126000.0,
+    "official": 3051126000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:55:05+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -166,7 +207,9 @@
    "goodwill_and_intangibles": 1801428000.0,
    "retained_earnings": 53988000.0,
    "total_debt": 1976769000.0,
-   "shares_out": 112437825.0
+   "shares_out": 112437825.0,
+   "unusual_items": -442000.0,
+   "normalized_income": 61454662.0
   },
   {
    "fy_end": "2023-12-31",
@@ -195,7 +238,9 @@
    "goodwill_and_intangibles": 2257152000.0,
    "retained_earnings": 114420000.0,
    "total_debt": 1970999000.0,
-   "shares_out": 118593062.0
+   "shares_out": 118593062.0,
+   "unusual_items": -5421000.0,
+   "normalized_income": 65471378.0
   },
   {
    "fy_end": "2024-12-31",
@@ -224,7 +269,9 @@
    "goodwill_and_intangibles": 4122398000.0,
    "retained_earnings": 122939000.0,
    "total_debt": 3276997000.0,
-   "shares_out": 125411089.0
+   "shares_out": 125411089.0,
+   "unusual_items": 22859000.0,
+   "normalized_income": 75394863.0
   },
   {
    "fy_end": "2025-12-31",
@@ -253,7 +300,9 @@
    "goodwill_and_intangibles": 4841527000.0,
    "retained_earnings": 120353000.0,
    "total_debt": 3346276000.0,
-   "shares_out": 129603426.0
+   "shares_out": 129603426.0,
+   "unusual_items": -13122000.0,
+   "normalized_income": 72978060.0
   }
  ]
 }

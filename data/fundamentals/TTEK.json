@@ -1,6 +1,6 @@
 {
  "ticker": "TTEK",
- "fetched_at": "2026-10-10T13:00:20+00:00",
+ "fetched_at": "2026-10-10T15:57:56+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 25000,
   "website": "https://www.tetratech.com",
-  "longBusinessSummary": "Tetra Tech, Inc. provides consulting and engineering services focusing on water, environment, and sustainable infrastructure in the United States and internationally. The company operates through two segments, Government Services Group (GSG) and Commercial/International Services Group (CIG). The GSG segment offers consulting and engineering services, including water resources analysis and water management, environmental monitoring, data analytics, government consulting, waste management, and civil infrastructure master planning and resilient engineering design for facilities, as well as transportation and local development projects primarily to government clients, including federal, state, and local, as well as international development agencies. It also offers sustainable solutions, such as energy management consulting, and greenhouse gas inventory assessment, certification, reduction, and management services. The CIG segment provides consulting and engineering services, including natural resources, energy, and utilities, as well as sustainable infrastructure master planning and engineering design for facilities; and transportation and local development projects to commercial and international clients, including the commercial and government sectors. The company offers early data collection and monitoring, data analysis and information management, science and engineering applied research, engineering design, project management, and operations and maintenance services; climate change consulting; greenhouse gas inventory assessment, certification, reduction, and management services; environmental remediation and reconstruction services, industrial water treatment and reuse services; and engineering services, such as data centers, advanced manufacturing, security systems, training and audiovisual facilities, clean rooms, laboratories, medical facilities, and disaster preparedness facilities. The company was founded in 1966 and is headquartered in Pasadena, California."
+  "longBusinessSummary": "Tetra Tech, Inc. provides consulting and engineering services focusing on water, environment, and sustainable infrastructure in the United States and internationally. The company operates through two segments, Government Services Group (GSG) and Commercial/International Services Group (CIG). The GSG segment offers consulting and engineering services, including water resources analysis and water management, environmental monitoring, data analytics, government consulting, waste management, and civil infrastructure master planning and resilient engineering design for facilities, as well as transportation and local development projects primarily to government clients, including federal, state, and local, as well as international development agencies. It also offers sustainable solutions, such as energy management consulting, and greenhouse gas inventory assessment, certification, reduction, and management services. The CIG segment provides consulting and engineering services, including natural resources, energy, and utilities, as well as sustainable infrastructure master planning and engineering design for facilities; and transportation and local development projects to commercial and international clients, including the commercial and government sectors. The company offers early data collection and monitoring, data analysis and information management, science and engineering applied research, engineering design, project management, and operations and maintenance services; climate change consulting; greenhouse gas inventory assessment, certification, reduction, and management services; environmental remediation and reconstruction services, industrial water treatment and reuse services; and engineering services, such as data centers, advanced manufacturing, security systems, training and audiovisual facilities, clean rooms, laboratories, medical facilities, and disaster preparedness facilities. The company was founded in 1966 and is headquartered in Pasadena, California.",
+  "targetMeanPrice": 40.33333,
+  "targetLowPrice": 36.0,
+  "targetHighPrice": 46.0,
+  "numberOfAnalystOpinions": 6,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 19.185177,
+  "forwardEps": 1.7378,
+  "trailingEps": 1.66,
+  "earningsGrowth": -0.023,
+  "revenueGrowth": -0.039
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-09-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 4282174000.0,
+    "official": 4282174000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1779785000.0,
+    "official": 1779785000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 247724000.0,
+    "official": 247949000.0,
+    "diff": 0.000907
+   },
+   "revenue": {
+    "yahoo": 5442590000.0,
+    "official": 5442590000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:57:57+00:00",
  "years": [
   {
    "fy_end": "2019-09-29",
@@ -192,7 +234,10 @@
    "goodwill_and_intangibles": 1139563000.0,
    "retained_earnings": 1390701000.0,
    "total_debt": 258754000.0,
-   "shares_out": 264905000.0
+   "shares_out": 264905000.0,
+   "unusual_items": -329000.0,
+   "normalized_ebitda": 389492000.0,
+   "normalized_income": 263373395.0
   },
   {
    "fy_end": "2023-10-01",
@@ -225,7 +270,10 @@
    "goodwill_and_intangibles": 2054136000.0,
    "retained_earnings": 1596066000.0,
    "total_debt": 879529000.0,
-   "shares_out": 266240000.0
+   "shares_out": 266240000.0,
+   "unusual_items": -61809000.0,
+   "normalized_ebitda": 576428000.0,
+   "normalized_income": 315573738.0
   },
   {
    "fy_end": "2024-09-29",
@@ -258,7 +306,10 @@
    "goodwill_and_intangibles": 2207185000.0,
    "retained_earnings": 1870620000.0,
    "total_debt": 812634000.0,
-   "shares_out": 267717000.0
+   "shares_out": 267717000.0,
+   "unusual_items": -9679000.0,
+   "normalized_ebitda": 591381000.0,
+   "normalized_income": 340341201.0
   },
   {
    "fy_end": "2025-09-28",
@@ -291,7 +342,10 @@
    "goodwill_and_intangibles": 2171060000.0,
    "retained_earnings": 1872948000.0,
    "total_debt": 763363000.0,
-   "shares_out": 261418000.0
+   "shares_out": 261418000.0,
+   "unusual_items": -195188000.0,
+   "normalized_ebitda": 671720000.0,
+   "normalized_income": 375962516.0
   }
  ]
 }

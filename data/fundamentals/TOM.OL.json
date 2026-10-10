@@ -1,6 +1,6 @@
 {
  "ticker": "TOM.OL",
- "fetched_at": "2026-10-10T12:22:34+00:00",
+ "fetched_at": "2026-10-10T15:25:32+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "OSL",
   "fullTimeEmployees": 5800,
   "website": "https://www.tomra.com",
-  "longBusinessSummary": "Tomra Systems ASA provides sensor-based solutions for optimal resource productivity worldwide. It operates through four segments: TOMRA Collection, TOMRA Recycling, TOMRA Food, and TOMRA Horizon. The company provides reverse vending machines and related data management systems; and provides pick-up, transportation, and processing services of empty beverage containers on behalf of beverage producers/fillers. It also develops, produces, sale, and service sorting and processing technology for waste management companies or plant builders; and provides sorting systems for waste and metal material streams, as well as ore sorting sensors for mining companies. In addition, the company provides post-harvest food solutions for fresh and processed food industries. The company was founded in 1972 and is headquartered in Asker, Norway."
+  "longBusinessSummary": "Tomra Systems ASA provides sensor-based solutions for optimal resource productivity worldwide. It operates through four segments: TOMRA Collection, TOMRA Recycling, TOMRA Food, and TOMRA Horizon. The company provides reverse vending machines and related data management systems; and provides pick-up, transportation, and processing services of empty beverage containers on behalf of beverage producers/fillers. It also develops, produces, sale, and service sorting and processing technology for waste management companies or plant builders; and provides sorting systems for waste and metal material streams, as well as ore sorting sensors for mining companies. In addition, the company provides post-harvest food solutions for fresh and processed food industries. The company was founded in 1972 and is headquartered in Asker, Norway.",
+  "targetMeanPrice": 131.75154,
+  "targetLowPrice": 102.3634,
+  "targetHighPrice": 172.73222,
+  "numberOfAnalystOpinions": 8,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.88889,
+  "forwardPE": 15.366596,
+  "forwardEps": 5.876383,
+  "trailingEps": 3.07,
+  "earningsGrowth": -0.004,
+  "revenueGrowth": 0.246
  },
  "governance": {
   "ceo": {
@@ -74,8 +85,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF NO",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 1661100000.0,
+    "official": 1661100000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 603300000.0,
+    "official": 636400000.0,
+    "diff": 0.052011
+   },
+   "net_income": {
+    "yahoo": 93800000.0,
+    "official": 93800000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1347600000.0,
+    "official": 1347600000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T15:25:32+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -107,7 +150,9 @@
    "goodwill_and_intangibles": 360159134.560444,
    "retained_earnings": 505587157.272876,
    "total_debt": 339265452.003918,
-   "shares_out": 295240156.0
+   "shares_out": 295240156.0,
+   "normalized_ebitda": 226985694.331075,
+   "normalized_income": 97884429.026202
   },
   {
    "fy_end": "2023-12-31",
@@ -139,7 +184,9 @@
    "goodwill_and_intangibles": 358400000.0,
    "retained_earnings": 390700000.0,
    "total_debt": 465300000.0,
-   "shares_out": 295526341.0
+   "shares_out": 295526341.0,
+   "normalized_ebitda": 197300000.0,
+   "normalized_income": 59500000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -171,7 +218,10 @@
    "goodwill_and_intangibles": 443300000.0,
    "retained_earnings": 403600000.0,
    "total_debt": 572500000.0,
-   "shares_out": 295788989.0
+   "shares_out": 295788989.0,
+   "unusual_items": -300000.0,
+   "normalized_ebitda": 252600000.0,
+   "normalized_income": 94027400.0
   },
   {
    "fy_end": "2025-12-31",
@@ -203,7 +253,10 @@
    "goodwill_and_intangibles": 491500000.0,
    "retained_earnings": 425500000.0,
    "total_debt": 681400000.0,
-   "shares_out": 295395838.0
+   "shares_out": 295395838.0,
+   "unusual_items": -2400000.0,
+   "normalized_ebitda": 275200000.0,
+   "normalized_income": 94819200.0
   }
  ]
 }

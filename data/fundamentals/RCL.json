@@ -1,6 +1,6 @@
 {
  "ticker": "RCL",
- "fetched_at": "2026-10-10T12:56:28+00:00",
+ "fetched_at": "2026-10-10T15:54:11+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 107950,
   "website": "https://www.rclinvestor.com",
-  "longBusinessSummary": "Royal Caribbean Cruises Ltd. operates as a cruise company worldwide. The company operates cruises under the Royal Caribbean International, Celebrity Cruises, and Silversea Cruises brands, which comprise a range of itineraries. As of December 31, 2025, it operated 69 ships. Royal Caribbean Cruises Ltd. was founded in 1968 and is headquartered in Miami, Florida."
+  "longBusinessSummary": "Royal Caribbean Cruises Ltd. operates as a cruise company worldwide. The company operates cruises under the Royal Caribbean International, Celebrity Cruises, and Silversea Cruises brands, which comprise a range of itineraries. As of December 31, 2025, it operated 69 ships. Royal Caribbean Cruises Ltd. was founded in 1968 and is headquartered in Miami, Florida.",
+  "targetMeanPrice": 351.25925,
+  "targetLowPrice": 262.0,
+  "targetHighPrice": 425.0,
+  "numberOfAnalystOpinions": 27,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.55172,
+  "forwardPE": 13.81658,
+  "forwardEps": 20.42908,
+  "trailingEps": 16.2,
+  "earningsGrowth": -0.046,
+  "revenueGrowth": 0.065
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 41619000000.0,
+    "official": 41619000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 10037000000.0,
+    "official": 10037000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 4268000000.0,
+    "official": 4268000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 17934000000.0,
+    "official": 17935000000.0,
+    "diff": 5.6e-05
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:54:11+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -164,7 +206,8 @@
    "goodwill": 809383000.0,
    "intangibles": 434556000.0,
    "retained_earnings": 302276000.0,
-   "total_debt": 18847209000.0
+   "total_debt": 18847209000.0,
+   "unusual_items": -82001000.0
   },
   {
    "fy_end": "2022-12-31",
@@ -198,7 +241,10 @@
    "goodwill_and_intangibles": 809000000.0,
    "retained_earnings": -1707000000.0,
    "total_debt": 21303000000.0,
-   "shares_out": 255238717.0
+   "shares_out": 255238717.0,
+   "unusual_items": -562000.0,
+   "normalized_ebitda": 615000000.0,
+   "normalized_income": -2156000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -232,7 +278,10 @@
    "goodwill_and_intangibles": 809000000.0,
    "retained_earnings": -10000000.0,
    "total_debt": 19732000000.0,
-   "shares_out": 256424261.0
+   "shares_out": 256424261.0,
+   "unusual_items": 200000000.0,
+   "normalized_ebitda": 4567000000.0,
+   "normalized_income": 1697000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -266,7 +315,9 @@
    "goodwill_and_intangibles": 808000000.0,
    "retained_earnings": 2612000000.0,
    "total_debt": 18473000000.0,
-   "shares_out": 268899805.0
+   "shares_out": 268899805.0,
+   "normalized_ebitda": 6133000000.0,
+   "normalized_income": 2877000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -300,7 +351,9 @@
    "goodwill_and_intangibles": 808000000.0,
    "retained_earnings": 5925000000.0,
    "total_debt": 18165000000.0,
-   "shares_out": 270423022.0
+   "shares_out": 270423022.0,
+   "normalized_ebitda": 7083000000.0,
+   "normalized_income": 4268000000.0
   }
  ]
 }

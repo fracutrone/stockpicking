@@ -1,6 +1,6 @@
 {
  "ticker": "PGR",
- "fetched_at": "2026-10-10T12:55:21+00:00",
+ "fetched_at": "2026-10-10T15:53:05+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 70053,
   "website": "https://www.progressive.com",
-  "longBusinessSummary": "The Progressive Corporation operates as an insurance company in the United States. It writes insurance for personal autos and special lines products, including motorcycles, RVs, and watercraft; and personal residential property insurance for homeowners and renters. The company also writes auto-related liability and physical damage insurance for comprising dump trucks, log trucks, garbage trucks, tractors, trailers, straight trucks, tow trucks and wreckers, vans, pick-up trucks, and autos; business-related general liability and commercial property insurance for small businesses; and workers' compensation insurance for the transportation industry. In addition, it offers other specialty property-casualty insurance and provides related services; personal property reinsurance products; and involved in investment activities. It sells its products through independent insurance agencies, as well as online and over the phone. The Progressive Corporation was founded in 1937 and is headquartered in Mayfield, Ohio."
+  "longBusinessSummary": "The Progressive Corporation operates as an insurance company in the United States. It writes insurance for personal autos and special lines products, including motorcycles, RVs, and watercraft; and personal residential property insurance for homeowners and renters. The company also writes auto-related liability and physical damage insurance for comprising dump trucks, log trucks, garbage trucks, tractors, trailers, straight trucks, tow trucks and wreckers, vans, pick-up trucks, and autos; business-related general liability and commercial property insurance for small businesses; and workers' compensation insurance for the transportation industry. In addition, it offers other specialty property-casualty insurance and provides related services; personal property reinsurance products; and involved in investment activities. It sells its products through independent insurance agencies, as well as online and over the phone. The Progressive Corporation was founded in 1937 and is headquartered in Mayfield, Ohio.",
+  "targetMeanPrice": 232.80952,
+  "targetLowPrice": 198.0,
+  "targetHighPrice": 314.0,
+  "numberOfAnalystOpinions": 21,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.6,
+  "forwardPE": 13.285575,
+  "forwardEps": 16.36587,
+  "trailingEps": 19.94,
+  "earningsGrowth": 0.05,
+  "revenueGrowth": 0.073
  },
  "governance": {
   "ceo": {
@@ -76,8 +87,38 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 123039000000.0,
+    "official": 123039000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 30323000000.0,
+    "official": 30323000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 11308000000.0,
+    "official": 11308000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 87637000000.0,
+    "official": 87671000000.0,
+    "diff": 0.000388
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:53:05+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -141,7 +182,8 @@
    "goodwill": 452700000.0,
    "intangibles": 117300000.0,
    "goodwill_and_intangibles": 570000000.0,
-   "retained_earnings": 15339700000.0
+   "retained_earnings": 15339700000.0,
+   "unusual_items": 0.0
   },
   {
    "fy_end": "2022-12-31",
@@ -167,7 +209,9 @@
    "goodwill_and_intangibles": 314200000.0,
    "retained_earnings": 15721200000.0,
    "total_debt": 6388300000.0,
-   "shares_out": 584900000.0
+   "shares_out": 584900000.0,
+   "unusual_items": -225000000.0,
+   "normalized_income": 897500000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -191,7 +235,9 @@
    "goodwill": 228000000.0,
    "retained_earnings": 18801000000.0,
    "total_debt": 6889000000.0,
-   "shares_out": 585300000.0
+   "shares_out": 585300000.0,
+   "unusual_items": 0.0,
+   "normalized_income": 3903000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -215,7 +261,9 @@
    "goodwill": 228000000.0,
    "retained_earnings": 24283000000.0,
    "total_debt": 6893000000.0,
-   "shares_out": 586000000.0
+   "shares_out": 586000000.0,
+   "unusual_items": 0.0,
+   "normalized_income": 8480000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -238,7 +286,8 @@
    "ppe_net": 783000000.0,
    "retained_earnings": 27327000000.0,
    "total_debt": 6897000000.0,
-   "shares_out": 586100000.0
+   "shares_out": 586100000.0,
+   "normalized_income": 11308000000.0
   }
  ]
 }

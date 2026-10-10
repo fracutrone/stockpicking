@@ -1,6 +1,6 @@
 {
  "ticker": "AVON.L",
- "fetched_at": "2026-10-10T11:46:39+00:00",
+ "fetched_at": "2026-10-10T14:32:38+00:00",
  "region": "Europa",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 982,
   "website": "https://www.avon-technologiesplc.com",
-  "longBusinessSummary": "Avon Technologies Plc, together with its subsidiaries, provides respiratory and head protection products for the military and first responder markets in Europe and the United States. It operates through Avon Protection and Team Wendy segments. The company offers respirators, escape hoods, thermal imaging cameras, powered and supplied air, rebreathers, and underwater systems; spares and accessories, such as replacement filters, outserts, and communication systems; chemical, biological, radiological, and nuclear protective wear. It also provides ballistic and bump protection helmets; and liner and retention systems. The company offers its products under the Avon Protection and Team Wendy brands. In addition, it is involved in investment and pension fund trustee activities. Avon Technologies Plc was formerly known as Avon Protection plc and changed its name to Avon Technologies Plc in July 2024. Avon Technologies Plc was incorporated in 1890 and is based in Melksham, the United Kingdom."
+  "longBusinessSummary": "Avon Technologies Plc, together with its subsidiaries, provides respiratory and head protection products for the military and first responder markets in Europe and the United States. It operates through Avon Protection and Team Wendy segments. The company offers respirators, escape hoods, thermal imaging cameras, powered and supplied air, rebreathers, and underwater systems; spares and accessories, such as replacement filters, outserts, and communication systems; chemical, biological, radiological, and nuclear protective wear. It also provides ballistic and bump protection helmets; and liner and retention systems. The company offers its products under the Avon Protection and Team Wendy brands. In addition, it is involved in investment and pension fund trustee activities. Avon Technologies Plc was formerly known as Avon Protection plc and changed its name to Avon Technologies Plc in July 2024. Avon Technologies Plc was incorporated in 1890 and is based in Melksham, the United Kingdom.",
+  "targetMeanPrice": 2420.8809,
+  "targetLowPrice": 2207.8303,
+  "targetHighPrice": 2499.8347,
+  "numberOfAnalystOpinions": 5,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.57143,
+  "forwardPE": 21.165302,
+  "forwardEps": 1.100858,
+  "trailingEps": 0.44,
+  "earningsGrowth": 3.364,
+  "revenueGrowth": 0.081
  },
  "governance": {
   "ceo": {
@@ -76,8 +87,34 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-09-30",
+  "items": {
+   "equity": {
+    "yahoo": 166700000.0,
+    "official": 166700000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 10300000.0,
+    "official": 10300000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 313900000.0,
+    "official": 313900000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-09-30"
+ },
+ "info_at": "2026-10-10T14:32:38+00:00",
  "years": [
   {
    "fy_end": "2022-09-30",
@@ -111,7 +148,9 @@
    "goodwill_and_intangibles": 171000000.0,
    "retained_earnings": 119700000.0,
    "total_debt": 77500000.0,
-   "shares_out": 29996480.0
+   "shares_out": 29996480.0,
+   "normalized_ebitda": 32300000.0,
+   "normalized_income": 5700000.0
   },
   {
    "fy_end": "2023-09-30",
@@ -145,7 +184,9 @@
    "goodwill_and_intangibles": 139200000.0,
    "retained_earnings": 67900000.0,
    "total_debt": 98600000.0,
-   "shares_out": 29996480.0
+   "shares_out": 29996480.0,
+   "normalized_ebitda": 8000000.0,
+   "normalized_income": -16400000.0
   },
   {
    "fy_end": "2024-09-30",
@@ -179,7 +220,9 @@
    "goodwill_and_intangibles": 126400000.0,
    "retained_earnings": 77600000.0,
    "total_debt": 79400000.0,
-   "shares_out": 29702989.0
+   "shares_out": 29702989.0,
+   "normalized_ebitda": 30900000.0,
+   "normalized_income": 3000000.0
   },
   {
    "fy_end": "2025-09-30",
@@ -213,7 +256,9 @@
    "goodwill_and_intangibles": 115400000.0,
    "retained_earnings": 77300000.0,
    "total_debt": 81400000.0,
-   "shares_out": 29313384.0
+   "shares_out": 29313384.0,
+   "normalized_ebitda": 40100000.0,
+   "normalized_income": 10300000.0
   }
  ]
 }

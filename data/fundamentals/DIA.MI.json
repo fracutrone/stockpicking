@@ -1,6 +1,6 @@
 {
  "ticker": "DIA.MI",
- "fetched_at": "2026-10-10T11:54:10+00:00",
+ "fetched_at": "2026-10-10T14:42:47+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.57557,
   "heldPercentInstitutions": 0.13874,
   "shortPercentOfFloat": null,
-  "averageVolume": 200083,
+  "averageVolume": 198836,
   "quoteType": "EQUITY",
   "exchange": "MIL",
   "fullTimeEmployees": 3260,
   "website": "https://int.diasorin.com",
-  "longBusinessSummary": "DiaSorin S.p.A. engages in research and development, manufacture, and distribution of immunodiagnostics and molecular diagnostics testing kits in Europe, North America, and internationally. It provides various immunodiagnostic in the areas, including infectious diseases, gastrointestinal diseases, hepatitis and retroviruses, endocrinology, metabolic disorders, tumor markers, and oncology under LIAISON XL and LIAISON XS name. The company also offers Simplexa, a congenital CMV direct kit, which detects cytomegalovirus DNA in saliva swab and urine specimens. In addition, it offers LIAISON PLEX Respiratory Flex Assay and the LIAISON PLEX Yeast Blood Culture Assay. Further, the company offers xMAP technology platform, including in vitro diagnostics. The company was founded in 1968 and is headquartered in Saluggia, Italy."
+  "longBusinessSummary": "DiaSorin S.p.A. engages in research and development, manufacture, and distribution of immunodiagnostics and molecular diagnostics testing kits in Europe, North America, and internationally. It provides various immunodiagnostic in the areas, including infectious diseases, gastrointestinal diseases, hepatitis and retroviruses, endocrinology, metabolic disorders, tumor markers, and oncology under LIAISON XL and LIAISON XS name. The company also offers Simplexa, a congenital CMV direct kit, which detects cytomegalovirus DNA in saliva swab and urine specimens. In addition, it offers LIAISON PLEX Respiratory Flex Assay and the LIAISON PLEX Yeast Blood Culture Assay. Further, the company offers xMAP technology platform, including in vitro diagnostics. The company was founded in 1968 and is headquartered in Saluggia, Italy.",
+  "targetMeanPrice": 73.30714,
+  "targetLowPrice": 55.0,
+  "targetHighPrice": 90.0,
+  "numberOfAnalystOpinions": 14,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.92857,
+  "forwardPE": 17.85352,
+  "forwardEps": 4.3364,
+  "trailingEps": 2.72,
+  "earningsGrowth": 0.066,
+  "revenueGrowth": 0.027
  },
  "governance": {
   "ceo": {
@@ -77,8 +88,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF IT",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 2873163000.0,
+    "official": 2873163000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1584493000.0,
+    "official": 1584493000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 155624000.0,
+    "official": 155624000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1195055000.0,
+    "official": 1195055000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:42:47+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -113,7 +156,10 @@
    "goodwill_and_intangibles": 1995066000.0,
    "retained_earnings": 1348969000.0,
    "total_debt": 1351985000.0,
-   "shares_out": 53510385.0
+   "shares_out": 53510385.0,
+   "unusual_items": -24062000.0,
+   "normalized_ebitda": 537880000.0,
+   "normalized_income": 258785066.0
   },
   {
    "fy_end": "2023-12-31",
@@ -148,7 +194,10 @@
    "goodwill_and_intangibles": 1924971000.0,
    "retained_earnings": 159849000.0,
    "total_debt": 1192654000.0,
-   "shares_out": 53359979.0
+   "shares_out": 53359979.0,
+   "unusual_items": -21586000.0,
+   "normalized_ebitda": 389022000.0,
+   "normalized_income": 176966698.0
   },
   {
    "fy_end": "2024-12-31",
@@ -183,7 +232,10 @@
    "goodwill_and_intangibles": 2028486000.0,
    "retained_earnings": 188105000.0,
    "total_debt": 1014189000.0,
-   "shares_out": 53891959.0
+   "shares_out": 53891959.0,
+   "unusual_items": -6720000.0,
+   "normalized_ebitda": 405764000.0,
+   "normalized_income": 193292840.0
   },
   {
    "fy_end": "2025-12-31",
@@ -218,7 +270,10 @@
    "goodwill_and_intangibles": 1789954000.0,
    "retained_earnings": 155624000.0,
    "total_debt": 791165000.0,
-   "shares_out": 53000667.0
+   "shares_out": 53000667.0,
+   "unusual_items": -41003000.0,
+   "normalized_ebitda": 405333000.0,
+   "normalized_income": 184695127.0
   }
  ]
 }

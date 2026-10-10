@@ -1,6 +1,6 @@
 {
  "ticker": "BPE.MI",
- "fetched_at": "2026-10-10T11:48:42+00:00",
+ "fetched_at": "2026-10-10T14:37:03+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.27168,
   "heldPercentInstitutions": 0.38931,
   "shortPercentOfFloat": null,
-  "averageVolume": 6275462,
+  "averageVolume": 6255644,
   "quoteType": "EQUITY",
   "exchange": "MIL",
   "fullTimeEmployees": 22100,
   "website": "https://www.bper.it",
-  "longBusinessSummary": "BPER Banca SpA engages in the provision of banking products and services for individuals, and businesses and professionals in Italy and internationally. It offers current and saving accounts, loans, mortgages, insurance and social security, and digital banking and related services; cards; and investments and savings products and services. The company also provides financing and leasing, collection and payment, import and export, liquidity and investment management, digital, and other services. In addition, it offers wealth management services comprising portfolio management, consultancy, financial advice, and wealth advisory services; insurance investment products; and funds and SICAVs. The company was founded in 1867 and is headquartered in Modena, Italy."
+  "longBusinessSummary": "BPER Banca SpA engages in the provision of banking products and services for individuals, and businesses and professionals in Italy and internationally. It offers current and saving accounts, loans, mortgages, insurance and social security, and digital banking and related services; cards; and investments and savings products and services. The company also provides financing and leasing, collection and payment, import and export, liquidity and investment management, digital, and other services. In addition, it offers wealth management services comprising portfolio management, consultancy, financial advice, and wealth advisory services; insurance investment products; and funds and SICAVs. The company was founded in 1867 and is headquartered in Modena, Italy.",
+  "targetMeanPrice": 15.36364,
+  "targetLowPrice": 14.3,
+  "targetHighPrice": 16.3,
+  "numberOfAnalystOpinions": 11,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.09091,
+  "forwardPE": 10.224895,
+  "forwardEps": 1.30016,
+  "trailingEps": 1.12,
+  "earningsGrowth": 0.15,
+  "revenueGrowth": 0.54
  },
  "governance": {
   "ceo": {
@@ -69,8 +80,29 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF IT",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 140591432000.0,
+    "official": 140591432000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1402649000.0,
+    "official": 1402649000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T14:37:03+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -97,7 +129,9 @@
    "goodwill_and_intangibles": 563502000.0,
    "retained_earnings": 1448975000.0,
    "total_debt": 10024342000.0,
-   "shares_out": 1414136014.0
+   "shares_out": 1414136014.0,
+   "unusual_items": 942757000.0,
+   "normalized_income": 732479680.0
   },
   {
    "fy_end": "2023-12-31",
@@ -124,7 +158,9 @@
    "goodwill_and_intangibles": 648981000.0,
    "retained_earnings": 1519496000.0,
    "total_debt": 17964077000.0,
-   "shares_out": 1415172121.0
+   "shares_out": 1415172121.0,
+   "unusual_items": -506689000.0,
+   "normalized_income": 2009769732.780059
   },
   {
    "fy_end": "2024-12-31",
@@ -151,7 +187,9 @@
    "goodwill_and_intangibles": 710763000.0,
    "retained_earnings": 1402649000.0,
    "total_debt": 19868569000.0,
-   "shares_out": 1415511825.0
+   "shares_out": 1415511825.0,
+   "unusual_items": -371287000.0,
+   "normalized_income": 1662680773.615128
   },
   {
    "fy_end": "2025-12-31",
@@ -178,7 +216,9 @@
    "goodwill_and_intangibles": 1608239000.0,
    "retained_earnings": 1818447000.0,
    "total_debt": 24870464000.0,
-   "shares_out": 1961998586.0
+   "shares_out": 1961998586.0,
+   "unusual_items": -591670000.0,
+   "normalized_income": 2227073250.301618
   }
  ]
 }

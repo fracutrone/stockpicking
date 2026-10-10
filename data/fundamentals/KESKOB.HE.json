@@ -1,6 +1,6 @@
 {
  "ticker": "KESKOB.HE",
- "fetched_at": "2026-10-10T12:05:20+00:00",
+ "fetched_at": "2026-10-10T15:00:56+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "HEL",
   "fullTimeEmployees": 19938,
   "website": "https://www.kesko.fi",
-  "longBusinessSummary": "Kesko Oyj engages in the chain operations in Finland, Sweden, Norway, Estonia, Latvia, Lithuania, Denmark, and Poland. The company operates through Grocery Trade, Building and Technical Trade, and Car Trade divisions. The Grocery Trade division is involved in the wholesale and B2B trade of groceries, and retail of home and specialty goods under the K-retailer brand; offer online grocery services; and operates as a foodservice provider and wholesaler, as well as store retail chains under the K-Citymarket, K-Supermarket, K-Market, and Kespro. The Building and Technical Trade division engages in the wholesale, retail, and B2B trade of building and home improvement, and HEPAC and electrical products and services; and operates retail stores chain under the K-Rauta, K-Bygg, Byggmakker, and Davidsen, as well as serves technical trade customers under Onninen brand names. The Car Trade division is involved in the import, market, and retail of Volkswagen, Audi, SEAT, CUPRA, Bentley, and Porsche passenger cars, as well as Volkswagen commercial vehicles under K-Auto brand name; purchase and retail of used cars; operation of leasing business for private and corporate customers; and other services, including repair and maintenance, as well as sale of spare parts and accessories; charging network for electric vehicles under the K- Lataus name; and sports trade comprising Intersport and budget sport chains. Kesko Oyj was founded in 1940 and is headquartered in Helsinki, Finland."
+  "longBusinessSummary": "Kesko Oyj engages in the chain operations in Finland, Sweden, Norway, Estonia, Latvia, Lithuania, Denmark, and Poland. The company operates through Grocery Trade, Building and Technical Trade, and Car Trade divisions. The Grocery Trade division is involved in the wholesale and B2B trade of groceries, and retail of home and specialty goods under the K-retailer brand; offer online grocery services; and operates as a foodservice provider and wholesaler, as well as store retail chains under the K-Citymarket, K-Supermarket, K-Market, and Kespro. The Building and Technical Trade division engages in the wholesale, retail, and B2B trade of building and home improvement, and HEPAC and electrical products and services; and operates retail stores chain under the K-Rauta, K-Bygg, Byggmakker, and Davidsen, as well as serves technical trade customers under Onninen brand names. The Car Trade division is involved in the import, market, and retail of Volkswagen, Audi, SEAT, CUPRA, Bentley, and Porsche passenger cars, as well as Volkswagen commercial vehicles under K-Auto brand name; purchase and retail of used cars; operation of leasing business for private and corporate customers; and other services, including repair and maintenance, as well as sale of spare parts and accessories; charging network for electric vehicles under the K- Lataus name; and sports trade comprising Intersport and budget sport chains. Kesko Oyj was founded in 1940 and is headquartered in Helsinki, Finland.",
+  "targetMeanPrice": 22.3,
+  "targetLowPrice": 19.5,
+  "targetHighPrice": 24.5,
+  "numberOfAnalystOpinions": 5,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.6,
+  "forwardPE": 17.675062,
+  "forwardEps": 1.3024,
+  "trailingEps": 1.05,
+  "earningsGrowth": 0.103,
+  "revenueGrowth": 0.06
  },
  "governance": {
   "ceo": {
@@ -77,8 +88,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF FI",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 8823100000.0,
+    "official": 8823100000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2797700000.0,
+    "official": 2797700000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 404200000.0,
+    "official": 404200000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 12474700000.0,
+    "official": 12474700000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:00:56+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -113,7 +156,10 @@
    "goodwill_and_intangibles": 779100000.0,
    "retained_earnings": 2097100000.0,
    "total_debt": 2418200000.0,
-   "shares_out": 397458647.0
+   "shares_out": 397458647.0,
+   "unusual_items": 1600000.0,
+   "normalized_ebitda": 1323000000.0,
+   "normalized_income": 608618400.0
   },
   {
    "fy_end": "2023-12-31",
@@ -148,7 +194,10 @@
    "goodwill_and_intangibles": 875100000.0,
    "retained_earnings": 2190600000.0,
    "total_debt": 2787000000.0,
-   "shares_out": 397769511.0
+   "shares_out": 397769511.0,
+   "unusual_items": 2300000.0,
+   "normalized_ebitda": 1246700000.0,
+   "normalized_income": 493741600.0
   },
   {
    "fy_end": "2024-12-31",
@@ -183,7 +232,10 @@
    "goodwill_and_intangibles": 877300000.0,
    "retained_earnings": 2189700000.0,
    "total_debt": 3396300000.0,
-   "shares_out": 397956408.0
+   "shares_out": 397956408.0,
+   "unusual_items": 13600000.0,
+   "normalized_ebitda": 1209000000.0,
+   "normalized_income": 368152000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -217,7 +269,10 @@
    "goodwill_and_intangibles": 934200000.0,
    "retained_earnings": 2237400000.0,
    "total_debt": 3572700000.0,
-   "shares_out": 398118827.0
+   "shares_out": 398118827.0,
+   "unusual_items": 8500000.0,
+   "normalized_ebitda": 1237500000.0,
+   "normalized_income": 397459500.0
   }
  ]
 }

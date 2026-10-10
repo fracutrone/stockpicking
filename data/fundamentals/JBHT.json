@@ -1,6 +1,6 @@
 {
  "ticker": "JBHT",
- "fetched_at": "2026-10-10T12:49:19+00:00",
+ "fetched_at": "2026-10-10T15:47:39+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 31750,
   "website": "https://www.jbhunt.com",
-  "longBusinessSummary": "J.B. Hunt Transport Services, Inc. provides surface transportation, delivery, and logistic services in the United States. It operates through five segments: Intermodal, Dedicated Contract Services, Integrated Capacity Solutions, Final Mile Services, and Truckload. The JBI segment offers intermodal freight solutions. It operates 124,838 pieces of company-owned trailing equipment; owns and maintains its chassis fleet of 104,474 units; and manages a fleet of 5,880 company-owned tractors, 308 independent contractor trucks, and 8,704 company drivers. The DCS segment designs, develops, and executes supply chain solutions that support various transportation networks. As of December 31, 2025, it operated 11,878 company-owned trucks, 761 customer-owned trucks, and a contractor trucks. It operates 26,767 owned pieces of trailing equipment and 5,218 customer-owned trailers. The ICS segment provides freight brokerage and transportation logistics solutions; flatbed, refrigerated, expedited, and less-than-truckload, as well as dry-van and intermodal solutions; online multimodal marketplace; and logistics management services for customers to outsource their transportation functions. The FMS segment delivers services through 1,085 company-owned trucks, 169 customer-owned trucks, and 39 independent contractor trucks; and 1,091 owned pieces of trailing equipment and 98 customer-owned trailers. The JBT segment provides dry-van freight services by utilizing tractors and trailers operating over roads and highways through two company-owned tractors and 12,658 company-owned trailers. It transports or arranges for the transportation of freight, such as general merchandise, specialty consumer items, appliances, home furnishings, forest, paper, rubber, plastic products, food, beverages, building materials, apparel, accessories, soaps, cosmetics, automotive parts, agricultural products, electronics, and chemicals. The company was incorporated in 1961 and is headquartered in Lowell, Arkansas."
+  "longBusinessSummary": "J.B. Hunt Transport Services, Inc. provides surface transportation, delivery, and logistic services in the United States. It operates through five segments: Intermodal, Dedicated Contract Services, Integrated Capacity Solutions, Final Mile Services, and Truckload. The JBI segment offers intermodal freight solutions. It operates 124,838 pieces of company-owned trailing equipment; owns and maintains its chassis fleet of 104,474 units; and manages a fleet of 5,880 company-owned tractors, 308 independent contractor trucks, and 8,704 company drivers. The DCS segment designs, develops, and executes supply chain solutions that support various transportation networks. As of December 31, 2025, it operated 11,878 company-owned trucks, 761 customer-owned trucks, and a contractor trucks. It operates 26,767 owned pieces of trailing equipment and 5,218 customer-owned trailers. The ICS segment provides freight brokerage and transportation logistics solutions; flatbed, refrigerated, expedited, and less-than-truckload, as well as dry-van and intermodal solutions; online multimodal marketplace; and logistics management services for customers to outsource their transportation functions. The FMS segment delivers services through 1,085 company-owned trucks, 169 customer-owned trucks, and 39 independent contractor trucks; and 1,091 owned pieces of trailing equipment and 98 customer-owned trailers. The JBT segment provides dry-van freight services by utilizing tractors and trailers operating over roads and highways through two company-owned tractors and 12,658 company-owned trailers. It transports or arranges for the transportation of freight, such as general merchandise, specialty consumer items, appliances, home furnishings, forest, paper, rubber, plastic products, food, beverages, building materials, apparel, accessories, soaps, cosmetics, automotive parts, agricultural products, electronics, and chemicals. The company was incorporated in 1961 and is headquartered in Lowell, Arkansas.",
+  "targetMeanPrice": 283.13043,
+  "targetLowPrice": 182.0,
+  "targetHighPrice": 330.0,
+  "numberOfAnalystOpinions": 23,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": 23.17094,
+  "forwardEps": 9.89429,
+  "trailingEps": 7.06,
+  "earningsGrowth": 0.458,
+  "revenueGrowth": 0.194
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,38 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 7927155000.0,
+    "official": 7927155000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3565085000.0,
+    "official": 3565085000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 598282000.0,
+    "official": 598282000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 11999096000.0,
+    "official": 11999096000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:47:39+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -196,7 +237,9 @@
    "goodwill_and_intangibles": 236349000.0,
    "retained_earnings": 6423730000.0,
    "total_debt": 1261700000.0,
-   "shares_out": 103743382.0
+   "shares_out": 103743382.0,
+   "normalized_ebitda": 1977142000.0,
+   "normalized_income": 969351000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -229,7 +272,9 @@
    "goodwill_and_intangibles": 267957000.0,
    "retained_earnings": 6978119000.0,
    "total_debt": 1326100000.0,
-   "shares_out": 103220027.0
+   "shares_out": 103220027.0,
+   "normalized_ebitda": 1738774000.0,
+   "normalized_income": 728287000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -263,7 +308,9 @@
    "goodwill_and_intangibles": 231057000.0,
    "retained_earnings": 7373462000.0,
    "total_debt": 977700000.0,
-   "shares_out": 100555126.0
+   "shares_out": 100555126.0,
+   "normalized_ebitda": 1599677000.0,
+   "normalized_income": 570886000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -297,7 +344,9 @@
    "goodwill_and_intangibles": 210357000.0,
    "retained_earnings": 7800696000.0,
    "total_debt": 1466797000.0,
-   "shares_out": 94594725.0
+   "shares_out": 94594725.0,
+   "normalized_ebitda": 1584103000.0,
+   "normalized_income": 598282000.0
   }
  ]
 }

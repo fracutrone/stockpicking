@@ -1,6 +1,6 @@
 {
  "ticker": "CPT",
- "fetched_at": "2026-10-10T12:41:57+00:00",
+ "fetched_at": "2026-10-10T15:40:28+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 1640,
   "website": "https://www.camdenliving.com",
-  "longBusinessSummary": "Camden Property Trust, an S&P 500 Company, is a real estate company primarily engaged in the ownership, management, development, redevelopment, acquisition, and construction of multifamily apartment communities. Camden owns and operates 173 properties containing 58,811 apartment homes across the United States. Upon completion of 3 properties currently under development, the Company's portfolio will increase to 59,973 apartment homes in 176 properties. Camden Property Trust was established on May 25, 1993, and incorporated in Texas. Camden Property Trust is based in Houston, United States."
+  "longBusinessSummary": "Camden Property Trust, an S&P 500 Company, is a real estate company primarily engaged in the ownership, management, development, redevelopment, acquisition, and construction of multifamily apartment communities. Camden owns and operates 173 properties containing 58,811 apartment homes across the United States. Upon completion of 3 properties currently under development, the Company's portfolio will increase to 59,973 apartment homes in 176 properties. Camden Property Trust was established on May 25, 1993, and incorporated in Texas. Camden Property Trust is based in Houston, United States.",
+  "targetMeanPrice": 115.42045,
+  "targetLowPrice": 102.0,
+  "targetHighPrice": 132.0,
+  "numberOfAnalystOpinions": 22,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.58333,
+  "forwardPE": 89.522934,
+  "forwardEps": 1.09,
+  "trailingEps": 3.03,
+  "earningsGrowth": -0.757,
+  "revenueGrowth": -0.008
  },
  "governance": {
   "ceo": {
@@ -80,9 +91,40 @@
   "retained_earnings": "yahoo",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec",
   "intangibles": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 9042989000.0,
+    "official": 9042989000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4362523000.0,
+    "official": 4362523000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 384462000.0,
+    "official": 384462000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1573544000.0,
+    "official": 12967000.0,
+    "diff": 120.349888
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:40:28+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -156,7 +198,10 @@
    "receivables": 13364000.0,
    "retained_earnings": -581532000.0,
    "total_debt": 3680900000.0,
-   "shares_out": 106500000.0
+   "shares_out": 106500000.0,
+   "unusual_items": 510518000.0,
+   "normalized_ebitda": 844400000.0,
+   "normalized_income": 145373789.520734
   },
   {
    "fy_end": "2023-12-31",
@@ -185,7 +230,10 @@
    "receivables": 11905000.0,
    "retained_earnings": -613651000.0,
    "total_debt": 3715400000.0,
-   "shares_out": 106800000.0
+   "shares_out": 106800000.0,
+   "unusual_items": 222903000.0,
+   "normalized_ebitda": 899508000.0,
+   "normalized_income": 182370244.464671
   },
   {
    "fy_end": "2024-12-31",
@@ -214,7 +262,10 @@
    "receivables": 8991000.0,
    "retained_earnings": -897931000.0,
    "total_debt": 3485600000.0,
-   "shares_out": 106688152.0
+   "shares_out": 106688152.0,
+   "unusual_items": 1897000.0,
+   "normalized_ebitda": 883698000.0,
+   "normalized_income": 161427943.084378
   },
   {
    "fy_end": "2025-12-31",
@@ -243,7 +294,10 @@
    "receivables": 8884000.0,
    "retained_earnings": -969240000.0,
    "total_debt": 3900800000.0,
-   "shares_out": 106364516.0
+   "shares_out": 106364516.0,
+   "unusual_items": 247994000.0,
+   "normalized_ebitda": 900187000.0,
+   "normalized_income": 138966484.361409
   }
  ]
 }

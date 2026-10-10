@@ -1,6 +1,6 @@
 {
  "ticker": "BWLPG.OL",
- "fetched_at": "2026-10-10T11:49:14+00:00",
+ "fetched_at": "2026-10-10T14:37:49+00:00",
  "region": "Europa",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "OSL",
   "fullTimeEmployees": 1444,
   "website": "https://www.bwlpg.com",
-  "longBusinessSummary": "BW LPG Limited, an investment holding company, engages in ship owning and chartering activities worldwide. It operates through Shipping and Product Services segments. The company engages in the transportation of liquefied petroleum gas (LPG); provision of integrated LPG delivery services, as well as management services; wholesale and trade of LPG; and investment in commercial enterprises. As of December 31, 2025, it owned and operated a fleet of 54 vessels, including 28 very large gas carriers, 7 large gas carriers time chartered in by product services, and 8 VLGCs owned by BW LPG India Pte. Ltd. BW LPG Limited was formerly known as BW Gas LPG Holding Limited and changed its name to BW LPG Limited in September 2013. The company was founded in 1935 and is headquartered in Singapore."
+  "longBusinessSummary": "BW LPG Limited, an investment holding company, engages in ship owning and chartering activities worldwide. It operates through Shipping and Product Services segments. The company engages in the transportation of liquefied petroleum gas (LPG); provision of integrated LPG delivery services, as well as management services; wholesale and trade of LPG; and investment in commercial enterprises. As of December 31, 2025, it owned and operated a fleet of 54 vessels, including 28 very large gas carriers, 7 large gas carriers time chartered in by product services, and 8 VLGCs owned by BW LPG India Pte. Ltd. BW LPG Limited was formerly known as BW Gas LPG Holding Limited and changed its name to BW LPG Limited in September 2013. The company was founded in 1935 and is headquartered in Singapore.",
+  "targetMeanPrice": 245.15591,
+  "targetLowPrice": 214.71208,
+  "targetHighPrice": 271.96863,
+  "numberOfAnalystOpinions": 4,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 13.241104,
+  "forwardEps": 19.061853,
+  "trailingEps": 28.95,
+  "earningsGrowth": 2.435,
+  "revenueGrowth": -0.031
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,35 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF NO",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3320420000.0,
+    "official": 3320420000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1805031000.0,
+    "official": 1805031000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 354296000.0,
+    "official": 354296000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T14:37:49+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -117,7 +155,10 @@
    "goodwill_and_intangibles": 1370000.0,
    "retained_earnings": 556996000.0,
    "total_debt": 705856000.0,
-   "shares_out": 133381375.0
+   "shares_out": 133381375.0,
+   "unusual_items": 21766000.0,
+   "normalized_ebitda": 407080000.0,
+   "normalized_income": 205727273.442716
   },
   {
    "fy_end": "2023-12-31",
@@ -150,7 +191,10 @@
    "goodwill_and_intangibles": 1242000.0,
    "retained_earnings": 609479000.0,
    "total_debt": 570188000.0,
-   "shares_out": 131073895.0
+   "shares_out": 131073895.0,
+   "unusual_items": 41068000.0,
+   "normalized_ebitda": 708083000.0,
+   "normalized_income": 429782537.276472
   },
   {
    "fy_end": "2024-12-31",
@@ -183,7 +227,10 @@
    "goodwill_and_intangibles": 636000.0,
    "retained_earnings": 565794000.0,
    "total_debt": 1173296000.0,
-   "shares_out": 151538443.0
+   "shares_out": 151538443.0,
+   "unusual_items": 20066000.0,
+   "normalized_ebitda": 626927000.0,
+   "normalized_income": 335651032.584013
   },
   {
    "fy_end": "2025-12-31",
@@ -216,7 +263,10 @@
    "goodwill_and_intangibles": 356000.0,
    "retained_earnings": 605203000.0,
    "total_debt": 990242000.0,
-   "shares_out": 151342653.0
+   "shares_out": 151342653.0,
+   "unusual_items": 56821000.0,
+   "normalized_ebitda": 556064000.0,
+   "normalized_income": 188146737.846731
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "CACI",
- "fetched_at": "2026-10-10T12:39:46+00:00",
+ "fetched_at": "2026-10-10T15:38:37+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 27000,
   "website": "https://www.caci.com",
-  "longBusinessSummary": "CACI International Inc, through its subsidiaries, provides expertise and technology solutions in the United States, the United Kingdom, continental Europe, and internationally. The company offers command, control, communications, and intelligence technology and networks; software-defined signals intelligence and electronic warfare solutions; and digital solutions, such as enterprise and agency-unique applications, enterprise infrastructure, and business processes. It also develops and deploys technologies to conduct offensive and defensive operations, defend critical infrastructure, and maintain information dominance against cyber threats; designs, implements, protects, and manages secure enterprise IT solutions for federal agencies; and designs and develops differentiated technology across the radio-frequency spectrum for intelligence, surveillance, reconnaissance, and electronic warfare, as well as build specialized photonics, waveforms, and technology to enable secure communications across the battlefield. In addition, the company provides mission and engineering support services, including platform integration, modernization and sustainment, system engineering, naval architecture, training and simulation services, and logistics engineering; and technology, people, and systems that sense, process, and deliver information to and from space along with the protection of these vital space assets using both offensive and defensive capabilities. Further, it offers various IT services, and proprietary data and software products for commercial and government customers. The company serves national security in the intelligence, defense, and federal civilian sectors. CACI International Inc was founded in 1962 and is headquartered in Reston, Virginia."
+  "longBusinessSummary": "CACI International Inc, through its subsidiaries, provides expertise and technology solutions in the United States, the United Kingdom, continental Europe, and internationally. The company offers command, control, communications, and intelligence technology and networks; software-defined signals intelligence and electronic warfare solutions; and digital solutions, such as enterprise and agency-unique applications, enterprise infrastructure, and business processes. It also develops and deploys technologies to conduct offensive and defensive operations, defend critical infrastructure, and maintain information dominance against cyber threats; designs, implements, protects, and manages secure enterprise IT solutions for federal agencies; and designs and develops differentiated technology across the radio-frequency spectrum for intelligence, surveillance, reconnaissance, and electronic warfare, as well as build specialized photonics, waveforms, and technology to enable secure communications across the battlefield. In addition, the company provides mission and engineering support services, including platform integration, modernization and sustainment, system engineering, naval architecture, training and simulation services, and logistics engineering; and technology, people, and systems that sense, process, and deliver information to and from space along with the protection of these vital space assets using both offensive and defensive capabilities. Further, it offers various IT services, and proprietary data and software products for commercial and government customers. The company serves national security in the intelligence, defense, and federal civilian sectors. CACI International Inc was founded in 1962 and is headquartered in Reston, Virginia.",
+  "targetMeanPrice": 730.2857,
+  "targetLowPrice": 540.0,
+  "targetHighPrice": 892.0,
+  "numberOfAnalystOpinions": 14,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.625,
+  "forwardPE": 16.22551,
+  "forwardEps": 37.63518,
+  "trailingEps": 24.16,
+  "earningsGrowth": -0.012,
+  "revenueGrowth": 0.176
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,38 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "sga": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-06-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 11819644000.0,
+    "official": 11819644000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4462697000.0,
+    "official": 4462697000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 535808000.0,
+    "official": 535808000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 9567779000.0,
+    "official": 9567779000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:38:37+00:00",
  "years": [
   {
    "fy_end": "2020-06-30",
@@ -198,7 +239,9 @@
    "goodwill_and_intangibles": 4592540000.0,
    "retained_earnings": 3940616000.0,
    "total_debt": 1696381000.0,
-   "shares_out": 22797000.0
+   "shares_out": 22797000.0,
+   "normalized_ebitda": 709064000.0,
+   "normalized_income": 384735000.0
   },
   {
    "fy_end": "2024-06-30",
@@ -231,7 +274,9 @@
    "goodwill_and_intangibles": 4629198000.0,
    "retained_earnings": 4360540000.0,
    "total_debt": 1542637000.0,
-   "shares_out": 22301000.0
+   "shares_out": 22301000.0,
+   "normalized_ebitda": 791853000.0,
+   "normalized_income": 419924000.0
   },
   {
    "fy_end": "2025-06-30",
@@ -264,7 +309,9 @@
    "goodwill_and_intangibles": 6113081000.0,
    "retained_earnings": 4860370000.0,
    "total_debt": 2917940000.0,
-   "shares_out": 21992000.0
+   "shares_out": 21992000.0,
+   "normalized_ebitda": 959310000.0,
+   "normalized_income": 499830000.0
   },
   {
    "fy_end": "2026-06-30",
@@ -297,7 +344,9 @@
    "goodwill_and_intangibles": 8557447000.0,
    "retained_earnings": 5396178000.0,
    "total_debt": 4901509000.0,
-   "shares_out": 22099000.0
+   "shares_out": 22099000.0,
+   "normalized_ebitda": 1165714000.0,
+   "normalized_income": 535808000.0
   }
  ]
 }

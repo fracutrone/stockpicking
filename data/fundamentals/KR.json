@@ -1,6 +1,6 @@
 {
  "ticker": "KR",
- "fetched_at": "2026-10-10T12:50:00+00:00",
+ "fetched_at": "2026-10-10T15:48:19+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 400000,
   "website": "https://www.thekrogerco.com",
-  "longBusinessSummary": "The Kroger Co. operates as a food and drug retailer in the United States. The company operates combination food and drug stores, multi-department stores, marketplace stores, and price impact warehouses. Its combination food and drug stores offer natural food and organic sections, pharmacies, general merchandise, pet centers, fresh seafood, and organic produce; and its multi-department stores provide apparel, home fashion and furnishings, outdoor living, electronics, automotive products, and toys. The company's marketplace stores offer full-service grocery, pharmacy, health and beauty care, and perishable goods, as well as general merchandise, including apparel, home goods, and toys; and its price impact warehouse stores provide grocery, and health and beauty care items, as well as meat, dairy, baked goods, and fresh produce items. It also manufactures and processes food products for sale in its supermarkets and online; and sells fuel through its fuel centers. The company sells its products through its stores, fuel centers, and online platforms. The Kroger Co. was founded in 1883 and is based in Cincinnati, Ohio."
+  "longBusinessSummary": "The Kroger Co. operates as a food and drug retailer in the United States. The company operates combination food and drug stores, multi-department stores, marketplace stores, and price impact warehouses. Its combination food and drug stores offer natural food and organic sections, pharmacies, general merchandise, pet centers, fresh seafood, and organic produce; and its multi-department stores provide apparel, home fashion and furnishings, outdoor living, electronics, automotive products, and toys. The company's marketplace stores offer full-service grocery, pharmacy, health and beauty care, and perishable goods, as well as general merchandise, including apparel, home goods, and toys; and its price impact warehouse stores provide grocery, and health and beauty care items, as well as meat, dairy, baked goods, and fresh produce items. It also manufactures and processes food products for sale in its supermarkets and online; and sells fuel through its fuel centers. The company sells its products through its stores, fuel centers, and online platforms. The Kroger Co. was founded in 1883 and is based in Cincinnati, Ohio.",
+  "targetMeanPrice": 68.31818,
+  "targetLowPrice": 57.0,
+  "targetHighPrice": 85.0,
+  "numberOfAnalystOpinions": 22,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.95833,
+  "forwardPE": 11.198843,
+  "forwardEps": 5.50414,
+  "trailingEps": 1.8,
+  "earningsGrowth": 0.153,
+  "revenueGrowth": 0.02
  },
  "governance": {
   "top_institutions": [
@@ -78,8 +89,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-01-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 49953000000.0,
+    "official": 49953000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 5927000000.0,
+    "official": 5927000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1016000000.0,
+    "official": 1016000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 147642000000.0,
+    "official": 147642000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:48:19+00:00",
  "years": [
   {
    "fy_end": "2020-02-01",
@@ -183,7 +225,10 @@
    "goodwill_and_intangibles": 3815000000.0,
    "retained_earnings": 25601000000.0,
    "total_debt": 11292000000.0,
-   "shares_out": 716000000.0
+   "shares_out": 716000000.0,
+   "unusual_items": -728000000.0,
+   "normalized_ebitda": 7744000000.0,
+   "normalized_income": 2808200000.0
   },
   {
    "fy_end": "2024-02-03",
@@ -218,7 +263,10 @@
    "goodwill_and_intangibles": 3815000000.0,
    "retained_earnings": 26946000000.0,
    "total_debt": 10187000000.0,
-   "shares_out": 720000000.0
+   "shares_out": 720000000.0,
+   "unusual_items": 151000000.0,
+   "normalized_ebitda": 6876000000.0,
+   "normalized_income": 2048485000.0
   },
   {
    "fy_end": "2025-02-01",
@@ -253,7 +301,10 @@
    "goodwill_and_intangibles": 3508000000.0,
    "retained_earnings": 28724000000.0,
    "total_debt": 15909000000.0,
-   "shares_out": 659600000.0
+   "shares_out": 659600000.0,
+   "unusual_items": -69000000.0,
+   "normalized_ebitda": 7710000000.0,
+   "normalized_income": 2720166965.888689
   },
   {
    "fy_end": "2026-01-31",
@@ -288,7 +339,10 @@
    "goodwill_and_intangibles": 3403000000.0,
    "retained_earnings": 28850000000.0,
    "total_debt": 15875000000.0,
-   "shares_out": 615000000.0
+   "shares_out": 615000000.0,
+   "unusual_items": -41000000.0,
+   "normalized_ebitda": 5800000000.0,
+   "normalized_income": 1050973000.0
   }
  ]
 }

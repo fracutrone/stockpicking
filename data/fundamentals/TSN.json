@@ -1,6 +1,6 @@
 {
  "ticker": "TSN",
- "fetched_at": "2026-10-10T13:00:15+00:00",
+ "fetched_at": "2026-10-10T15:57:52+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 133000,
   "website": "https://www.tysonfoods.com",
-  "longBusinessSummary": "Tyson Foods, Inc., together with its subsidiaries, operates as a food company worldwide. It operates through four segments: Beef, Pork, Chicken, and Prepared Foods. The company processes live fed cattle and hogs; fabricates dressed beef and pork carcasses into primal and sub-primal meat cuts, as well as case ready beef and pork, and fully cooked meats; raises and processes chickens into fresh, frozen, and value-added chicken products, including breaded chicken strips, nuggets, patties, and other ready-to-fix or fully cooked chicken parts; and supplies poultry breeding stock. It also manufactures and markets frozen and refrigerated food products, including ready-to-eat sandwiches, flame-grilled hamburgers, Philly steaks, pepperoni, bacon, breakfast sausage, turkey, lunchmeat, hot dogs, flour and corn tortilla products, appetizers, snacks, prepared meals, ethnic foods, side dishes, meat dishes, breadsticks, and processed meats under the Tyson, Jimmy Dean, Hillshire Farm, Ball Park, Wright, Aidells, Gallo Salame, ibp, and State Fair brands. The company sells its products through its sales staff to grocery retailers, grocery wholesalers, meat distributors, warehouse club stores, military commissaries, industrial food processing companies, chain restaurants or their distributors, live markets, international export companies, and domestic distributors who serve restaurants and food service operations, such as plant and school cafeterias, convenience stores, hospitals, and other vendors, as well as through independent brokers and trading companies. Tyson Foods, Inc. was founded in 1935 and is headquartered in Springdale, Arkansas."
+  "longBusinessSummary": "Tyson Foods, Inc., together with its subsidiaries, operates as a food company worldwide. It operates through four segments: Beef, Pork, Chicken, and Prepared Foods. The company processes live fed cattle and hogs; fabricates dressed beef and pork carcasses into primal and sub-primal meat cuts, as well as case ready beef and pork, and fully cooked meats; raises and processes chickens into fresh, frozen, and value-added chicken products, including breaded chicken strips, nuggets, patties, and other ready-to-fix or fully cooked chicken parts; and supplies poultry breeding stock. It also manufactures and markets frozen and refrigerated food products, including ready-to-eat sandwiches, flame-grilled hamburgers, Philly steaks, pepperoni, bacon, breakfast sausage, turkey, lunchmeat, hot dogs, flour and corn tortilla products, appetizers, snacks, prepared meals, ethnic foods, side dishes, meat dishes, breadsticks, and processed meats under the Tyson, Jimmy Dean, Hillshire Farm, Ball Park, Wright, Aidells, Gallo Salame, ibp, and State Fair brands. The company sells its products through its sales staff to grocery retailers, grocery wholesalers, meat distributors, warehouse club stores, military commissaries, industrial food processing companies, chain restaurants or their distributors, live markets, international export companies, and domestic distributors who serve restaurants and food service operations, such as plant and school cafeterias, convenience stores, hospitals, and other vendors, as well as through independent brokers and trading companies. Tyson Foods, Inc. was founded in 1935 and is headquartered in Springdale, Arkansas.",
+  "targetMeanPrice": 63.41667,
+  "targetLowPrice": 56.0,
+  "targetHighPrice": 75.0,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.53846,
+  "forwardPE": 13.137351,
+  "forwardEps": 4.06703,
+  "trailingEps": 1.62,
+  "earningsGrowth": 2.041,
+  "revenueGrowth": -0.001
  },
  "governance": {
   "top_institutions": [
@@ -77,8 +88,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-09-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 36658000000.0,
+    "official": 36658000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 18085000000.0,
+    "official": 18085000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 474000000.0,
+    "official": 474000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 54441000000.0,
+    "official": 54441000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:57:52+00:00",
  "years": [
   {
    "fy_end": "2019-09-28",
@@ -196,7 +238,10 @@
    "goodwill_and_intangibles": 16765000000.0,
    "retained_earnings": 20084000000.0,
    "total_debt": 7862000000.0,
-   "shares_out": 360000000.0
+   "shares_out": 360000000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 5716000000.0,
+   "normalized_income": 3238000000.0
   },
   {
    "fy_end": "2023-09-30",
@@ -230,7 +275,10 @@
    "goodwill_and_intangibles": 15976000000.0,
    "retained_earnings": 18760000000.0,
    "total_debt": 7611000000.0,
-   "shares_out": 356000000.0
+   "shares_out": 356000000.0,
+   "unusual_items": -781000000.0,
+   "normalized_ebitda": 1797000000.0,
+   "normalized_income": 99594395.280236
   },
   {
    "fy_end": "2024-09-28",
@@ -264,7 +312,10 @@
    "goodwill_and_intangibles": 15694000000.0,
    "retained_earnings": 18873000000.0,
    "total_debt": 9713000000.0,
-   "shares_out": 355829698.0
+   "shares_out": 355829698.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 2973000000.0,
+   "normalized_income": 800000000.0
   },
   {
    "fy_end": "2025-09-27",
@@ -298,7 +349,10 @@
    "goodwill_and_intangibles": 15093000000.0,
    "retained_earnings": 18647000000.0,
    "total_debt": 7921000000.0,
-   "shares_out": 353009005.0
+   "shares_out": 353009005.0,
+   "unusual_items": -343000000.0,
+   "normalized_ebitda": 2922000000.0,
+   "normalized_income": 700037000.0
   }
  ]
 }

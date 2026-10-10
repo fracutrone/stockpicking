@@ -1,6 +1,6 @@
 {
  "ticker": "CARL-B.CO",
- "fetched_at": "2026-10-10T11:49:37+00:00",
+ "fetched_at": "2026-10-10T14:38:47+00:00",
  "region": "Europa",
  "statement_currency": "DKK",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.06776,
   "heldPercentInstitutions": 0.54191,
   "shortPercentOfFloat": null,
-  "averageVolume": 199457,
+  "averageVolume": 198759,
   "quoteType": "EQUITY",
   "exchange": "CPH",
   "fullTimeEmployees": 36056,
   "website": "https://www.carlsberggroup.com",
-  "longBusinessSummary": "Carlsberg A/S produces and markets beer, soft drinks, and other beverage products in Western Europe, Asia, Central and Eastern Europe, India, and internationally. The company was founded in 1847 and is headquartered in Copenhagen, Denmark."
+  "longBusinessSummary": "Carlsberg A/S produces and markets beer, soft drinks, and other beverage products in Western Europe, Asia, Central and Eastern Europe, India, and internationally. The company was founded in 1847 and is headquartered in Copenhagen, Denmark.",
+  "targetMeanPrice": 1048.2727,
+  "targetLowPrice": 792.0,
+  "targetHighPrice": 1535.0,
+  "numberOfAnalystOpinions": 22,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.78261,
+  "forwardPE": 12.548986,
+  "forwardEps": 69.63112,
+  "trailingEps": 48.2,
+  "earningsGrowth": 0.13,
+  "revenueGrowth": 0.026
  },
  "governance": {
   "ceo": {
@@ -77,8 +88,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF DK",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 153955000000.0,
+    "official": 153955000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 27804000000.0,
+    "official": 27804000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 5955000000.0,
+    "official": 5955000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 89095000000.0,
+    "official": 89095000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:38:47+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -112,7 +155,10 @@
    "goodwill_and_intangibles": 49223000000.0,
    "retained_earnings": 70776000000.0,
    "total_debt": 28646000000.0,
-   "shares_out": 137341421.0
+   "shares_out": 137341421.0,
+   "unusual_items": -5000000.0,
+   "normalized_ebitda": 14851000000.0,
+   "normalized_income": 8290805000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -147,7 +193,10 @@
    "goodwill_and_intangibles": 49100000000.0,
    "retained_earnings": 23306000000.0,
    "total_debt": 39101000000.0,
-   "shares_out": 134114316.0
+   "shares_out": 134114316.0,
+   "unusual_items": -324000000.0,
+   "normalized_ebitda": 15343000000.0,
+   "normalized_income": 7222764000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -182,7 +231,10 @@
    "goodwill_and_intangibles": 53176000000.0,
    "retained_earnings": 25582000000.0,
    "total_debt": 38140000000.0,
-   "shares_out": 132078587.0
+   "shares_out": 132078587.0,
+   "unusual_items": -500000000.0,
+   "normalized_ebitda": 16297000000.0,
+   "normalized_income": 7258771002.302994
   },
   {
    "fy_end": "2025-12-31",
@@ -216,7 +268,10 @@
    "goodwill_and_intangibles": 83231000000.0,
    "retained_earnings": 28345000000.0,
    "total_debt": 70623000000.0,
-   "shares_out": 132172074.0
+   "shares_out": 132172074.0,
+   "unusual_items": -1659000000.0,
+   "normalized_ebitda": 19054000000.0,
+   "normalized_income": 7234089000.0
   }
  ]
 }

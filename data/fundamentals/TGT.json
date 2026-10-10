@@ -1,6 +1,6 @@
 {
  "ticker": "TGT",
- "fetched_at": "2026-10-10T12:59:35+00:00",
+ "fetched_at": "2026-10-10T15:57:16+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 400000,
   "website": "https://corporate.target.com",
-  "longBusinessSummary": "Target Corporation operates as a general merchandise retailer in the United States. It offers apparel for women, men, young adults, kids, toddlers, and babies, as well as jewelry, accessories, and shoes; and beauty products, such as skin and bath care, cosmetics, hair care, oral care, deodorant, and shaving products. The company also provides food and beverage products comprising dry and perishable grocery, including snacks, candy, beverages, deli, bakery, meat, produce, and food service; electronics which includes video games and consoles, toys, sporting goods, entertainment, and luggage; bed and bath, home décor, school/office supplies, storage, small appliances, kitchenware, greeting cards, party supplies, furniture, lighting, home improvement, and seasonal merchandise; and household essentials, such as household cleaning, paper products, over-the-counter healthcare, vitamins and supplements, baby gear, and pet supplies. In addition, it sells merchandise through periodic design and creative partnerships, and shop-in-shop experience; and in-store amenities. The company sells its products through its stores; and digital channels, including Target.com. Target Corporation was incorporated in 1902 and is headquartered in Minneapolis, Minnesota."
+  "longBusinessSummary": "Target Corporation operates as a general merchandise retailer in the United States. It offers apparel for women, men, young adults, kids, toddlers, and babies, as well as jewelry, accessories, and shoes; and beauty products, such as skin and bath care, cosmetics, hair care, oral care, deodorant, and shaving products. The company also provides food and beverage products comprising dry and perishable grocery, including snacks, candy, beverages, deli, bakery, meat, produce, and food service; electronics which includes video games and consoles, toys, sporting goods, entertainment, and luggage; bed and bath, home décor, school/office supplies, storage, small appliances, kitchenware, greeting cards, party supplies, furniture, lighting, home improvement, and seasonal merchandise; and household essentials, such as household cleaning, paper products, over-the-counter healthcare, vitamins and supplements, baby gear, and pet supplies. In addition, it sells merchandise through periodic design and creative partnerships, and shop-in-shop experience; and in-store amenities. The company sells its products through its stores; and digital channels, including Target.com. Target Corporation was incorporated in 1902 and is headquartered in Minneapolis, Minnesota.",
+  "targetMeanPrice": 164.67647,
+  "targetLowPrice": 128.0,
+  "targetHighPrice": 200.0,
+  "numberOfAnalystOpinions": 34,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.47368,
+  "forwardPE": 16.095964,
+  "forwardEps": 9.54525,
+  "trailingEps": 9.63,
+  "earningsGrowth": 1.005,
+  "revenueGrowth": 0.053
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,38 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-01-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 59490000000.0,
+    "official": 59490000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 16165000000.0,
+    "official": 16165000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 3705000000.0,
+    "official": 3705000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 104780000000.0,
+    "official": 104780000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:57:16+00:00",
  "years": [
   {
    "fy_end": "2020-02-01",
@@ -195,7 +236,9 @@
    "goodwill_and_intangibles": 645000000.0,
    "retained_earnings": 5005000000.0,
    "total_debt": 14141000000.0,
-   "shares_out": 460346947.0
+   "shares_out": 460346947.0,
+   "normalized_ebitda": 6596000000.0,
+   "normalized_income": 2780000000.0
   },
   {
    "fy_end": "2024-02-03",
@@ -229,7 +272,9 @@
    "goodwill_and_intangibles": 631000000.0,
    "retained_earnings": 7093000000.0,
    "total_debt": 14151000000.0,
-   "shares_out": 461675441.0
+   "shares_out": 461675441.0,
+   "normalized_ebitda": 8600000000.0,
+   "normalized_income": 4138000000.0
   },
   {
    "fy_end": "2025-02-01",
@@ -263,7 +308,9 @@
    "goodwill_and_intangibles": 631000000.0,
    "retained_earnings": 8090000000.0,
    "total_debt": 13904000000.0,
-   "shares_out": 455566995.0
+   "shares_out": 455566995.0,
+   "normalized_ebitda": 8653000000.0,
+   "normalized_income": 4091000000.0
   },
   {
    "fy_end": "2026-01-31",
@@ -297,7 +344,9 @@
    "goodwill_and_intangibles": 631000000.0,
    "retained_earnings": 9297000000.0,
    "total_debt": 14398000000.0,
-   "shares_out": 452840187.0
+   "shares_out": 452840187.0,
+   "normalized_ebitda": 8346000000.0,
+   "normalized_income": 3705000000.0
   }
  ]
 }

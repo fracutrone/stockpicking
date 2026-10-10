@@ -1,6 +1,6 @@
 {
  "ticker": "ASB",
- "fetched_at": "2026-10-10T12:38:05+00:00",
+ "fetched_at": "2026-10-10T15:35:03+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 4129,
   "website": "https://www.associatedbank.com",
-  "longBusinessSummary": "Associated Banc-Corp, a bank holding company, provides various banking and nonbanking products and services to individuals and businesses in Wisconsin, Illinois, Missouri, Texas, and Minnesota. It offers lending solutions, including commercial loans and lines of credit, commercial real estate financing, construction loans, letters of credit, leasing, asset-based lending and equipment finance, loan syndications products, residential mortgages, home equity loans and lines of credit, personal and installment loans, auto finance and business loans, and business lines of credit. The company also provides deposit and cash management solutions, such as commercial checking and interest-bearing deposit products, cash vault and night depository services, liquidity solutions, payables and receivables solutions, and information services; specialized financial services comprising interest rate risk management and foreign exchange solutions; fiduciary services consisting of administration of pension, profit-sharing and other employee benefit plans, fiduciary and corporate agency services, and institutional asset management services; and investable funds solutions, including savings, money market deposit accounts, IRA accounts, CDs, fixed and variable annuities, full-service, discount, and online investment brokerage; investment advisory services; and trust and investment management accounts. In addition, it offers deposit and transactional solutions, including checking, credit and debit cards, online banking and bill pay, and money transfer services. The company operates loan production offices in Indiana, Kansas, Michigan, New York, Ohio, and Texas. Associated Banc-Corp was founded in 1861 and is headquartered in Green Bay, Wisconsin."
+  "longBusinessSummary": "Associated Banc-Corp, a bank holding company, provides various banking and nonbanking products and services to individuals and businesses in Wisconsin, Illinois, Missouri, Texas, and Minnesota. It offers lending solutions, including commercial loans and lines of credit, commercial real estate financing, construction loans, letters of credit, leasing, asset-based lending and equipment finance, loan syndications products, residential mortgages, home equity loans and lines of credit, personal and installment loans, auto finance and business loans, and business lines of credit. The company also provides deposit and cash management solutions, such as commercial checking and interest-bearing deposit products, cash vault and night depository services, liquidity solutions, payables and receivables solutions, and information services; specialized financial services comprising interest rate risk management and foreign exchange solutions; fiduciary services consisting of administration of pension, profit-sharing and other employee benefit plans, fiduciary and corporate agency services, and institutional asset management services; and investable funds solutions, including savings, money market deposit accounts, IRA accounts, CDs, fixed and variable annuities, full-service, discount, and online investment brokerage; investment advisory services; and trust and investment management accounts. In addition, it offers deposit and transactional solutions, including checking, credit and debit cards, online banking and bill pay, and money transfer services. The company operates loan production offices in Indiana, Kansas, Michigan, New York, Ohio, and Texas. Associated Banc-Corp was founded in 1861 and is headquartered in Green Bay, Wisconsin.",
+  "targetMeanPrice": 34.2,
+  "targetLowPrice": 33.0,
+  "targetHighPrice": 36.0,
+  "numberOfAnalystOpinions": 10,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.4,
+  "forwardPE": 8.467313,
+  "forwardEps": 3.3836,
+  "trailingEps": 2.87,
+  "earningsGrowth": -0.031,
+  "revenueGrowth": 0.235
  },
  "governance": {
   "ceo": {
@@ -78,8 +89,33 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "noninterest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 45202596000.0,
+    "official": 45202596000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4975347000.0,
+    "official": 4975347000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 474777000.0,
+    "official": 474777000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:35:03+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -107,7 +143,9 @@
    "goodwill_and_intangibles": 1231625000.0,
    "retained_earnings": 2904882000.0,
    "total_debt": 2048869000.0,
-   "shares_out": 150444019.0
+   "shares_out": 150444019.0,
+   "unusual_items": 1338000.0,
+   "normalized_income": 365055614.0
   },
   {
    "fy_end": "2023-12-31",
@@ -135,7 +173,9 @@
    "goodwill_and_intangibles": 1229853000.0,
    "retained_earnings": 2946805000.0,
    "total_debt": 2068243000.0,
-   "shares_out": 151036674.0
+   "shares_out": 151036674.0,
+   "unusual_items": 454000.0,
+   "normalized_income": 182552893.4
   },
   {
    "fy_end": "2024-12-31",
@@ -163,7 +203,9 @@
    "goodwill_and_intangibles": 1224335000.0,
    "retained_earnings": 2919252000.0,
    "total_debt": 1911811000.0,
-   "shares_out": 166177658.0
+   "shares_out": 166177658.0,
+   "unusual_items": -15285000.0,
+   "normalized_income": 137143849.649335
   },
   {
    "fy_end": "2025-12-31",
@@ -191,7 +233,9 @@
    "goodwill_and_intangibles": 1214178000.0,
    "retained_earnings": 3226756000.0,
    "total_debt": 1314984000.0,
-   "shares_out": 165979940.0
+   "shares_out": 165979940.0,
+   "unusual_items": 1565000.0,
+   "normalized_income": 473491287.683203
   }
  ]
 }

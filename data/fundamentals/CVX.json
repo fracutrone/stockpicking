@@ -1,6 +1,6 @@
 {
  "ticker": "CVX",
- "fetched_at": "2026-10-10T12:42:38+00:00",
+ "fetched_at": "2026-10-10T15:41:06+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 43039,
   "website": "https://www.chevron.com",
-  "longBusinessSummary": "Chevron Corporation, through its subsidiaries, engages in the integrated energy and chemicals operations. It operates through Upstream and Downstream segments. The Upstream segment engages in the exploration for, development, production, and transportation of crude oil and natural gas; processing, liquefaction, transportation, and regasification of liquefied natural gas; transportation of crude oil through pipelines; transportation, storage, and marketing of natural gas; carbon capture and storage; and operation of a gas-to-liquids plant. The Downstream segment refines crude oil into petroleum products; markets crude oil, refined products, and lubricants; manufactures and markets renewable fuels; transports crude oil and refined products through pipeline, marine vessel, motor equipment, and rail car; and manufactures and markets commodity petrochemicals, plastics for industrial uses, and fuel and lubricant additives. The company operates in North America, South America, Europe, Africa, Asia, and Australia. The company was formerly known as ChevronTexaco Corporation and changed its name to Chevron Corporation in May 2005. Chevron Corporation was founded in 1879 and is headquartered in Houston, Texas."
+  "longBusinessSummary": "Chevron Corporation, through its subsidiaries, engages in the integrated energy and chemicals operations. It operates through Upstream and Downstream segments. The Upstream segment engages in the exploration for, development, production, and transportation of crude oil and natural gas; processing, liquefaction, transportation, and regasification of liquefied natural gas; transportation of crude oil through pipelines; transportation, storage, and marketing of natural gas; carbon capture and storage; and operation of a gas-to-liquids plant. The Downstream segment refines crude oil into petroleum products; markets crude oil, refined products, and lubricants; manufactures and markets renewable fuels; transports crude oil and refined products through pipeline, marine vessel, motor equipment, and rail car; and manufactures and markets commodity petrochemicals, plastics for industrial uses, and fuel and lubricant additives. The company operates in North America, South America, Europe, Africa, Asia, and Australia. The company was formerly known as ChevronTexaco Corporation and changed its name to Chevron Corporation in May 2005. Chevron Corporation was founded in 1879 and is headquartered in Houston, Texas.",
+  "targetMeanPrice": 226.04167,
+  "targetLowPrice": 175.0,
+  "targetHighPrice": 250.0,
+  "numberOfAnalystOpinions": 24,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.72,
+  "forwardPE": 14.476116,
+  "forwardEps": 14.64343,
+  "trailingEps": 10.39,
+  "earningsGrowth": 3.219,
+  "revenueGrowth": 0.535
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,38 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 324012000000.0,
+    "official": 324012000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 186450000000.0,
+    "official": 186450000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 12299000000.0,
+    "official": 12299000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 184432000000.0,
+    "official": 189031000000.0,
+    "diff": 0.024329
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:41:06+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -196,7 +237,9 @@
    "goodwill_and_intangibles": 4722000000.0,
    "retained_earnings": 190024000000.0,
    "total_debt": 23339000000.0,
-   "shares_out": 1901048343.0
+   "shares_out": 1901048343.0,
+   "normalized_ebitda": 65485000000.0,
+   "normalized_income": 35465000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -230,7 +273,9 @@
    "goodwill_and_intangibles": 4722000000.0,
    "retained_earnings": 200025000000.0,
    "total_debt": 20836000000.0,
-   "shares_out": 1851479804.0
+   "shares_out": 1851479804.0,
+   "normalized_ebitda": 47815000000.0,
+   "normalized_income": 21369000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -264,7 +309,9 @@
    "goodwill_and_intangibles": 4578000000.0,
    "retained_earnings": 205852000000.0,
    "total_debt": 24541000000.0,
-   "shares_out": 1769012274.0
+   "shares_out": 1769012274.0,
+   "normalized_ebitda": 45811000000.0,
+   "normalized_income": 17661000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -298,7 +345,9 @@
    "goodwill_and_intangibles": 4568000000.0,
    "retained_earnings": 205365000000.0,
    "total_debt": 40758000000.0,
-   "shares_out": 1980248122.0
+   "shares_out": 1980248122.0,
+   "normalized_ebitda": 41417000000.0,
+   "normalized_income": 12299000000.0
   }
  ]
 }

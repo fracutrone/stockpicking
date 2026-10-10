@@ -1,6 +1,6 @@
 {
  "ticker": "EAT",
- "fetched_at": "2026-10-10T12:43:48+00:00",
+ "fetched_at": "2026-10-10T15:42:15+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 20096,
   "website": "https://brinker.com",
-  "longBusinessSummary": "Brinker International, Inc., together with its subsidiaries, engages in the ownership, development, operation, and franchise of casual dining restaurants in the United States and internationally. It operates and franchises Chili's Grill & Bar and Maggiano's Little Italy restaurant brands. The company was founded in 1975 and is headquartered in Dallas, Texas."
+  "longBusinessSummary": "Brinker International, Inc., together with its subsidiaries, engages in the ownership, development, operation, and franchise of casual dining restaurants in the United States and internationally. It operates and franchises Chili's Grill & Bar and Maggiano's Little Italy restaurant brands. The company was founded in 1975 and is headquartered in Dallas, Texas.",
+  "targetMeanPrice": 262.5909,
+  "targetLowPrice": 151.0,
+  "targetHighPrice": 310.0,
+  "numberOfAnalystOpinions": 22,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.56522,
+  "forwardPE": 13.321432,
+  "forwardEps": 14.55324,
+  "trailingEps": 10.87,
+  "earningsGrowth": 0.294,
+  "revenueGrowth": 0.051
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-06-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 2815000000.0,
+    "official": 2815000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 443700000.0,
+    "official": 443700000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 487000000.0,
+    "official": 487000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 5807400000.0,
+    "official": 5807400000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:42:15+00:00",
  "years": [
   {
    "fy_end": "2020-06-24",
@@ -194,7 +236,10 @@
    "goodwill_and_intangibles": 218900000.0,
    "retained_earnings": -351900000.0,
    "total_debt": 912200000.0,
-   "shares_out": 44600000.0
+   "shares_out": 44600000.0,
+   "unusual_items": -23000000.0,
+   "normalized_ebitda": 337200000.0,
+   "normalized_income": 120770000.0
   },
   {
    "fy_end": "2024-06-26",
@@ -228,7 +273,10 @@
    "goodwill_and_intangibles": 214700000.0,
    "retained_earnings": -196600000.0,
    "total_debt": 786300000.0,
-   "shares_out": 45000000.0
+   "shares_out": 45000000.0,
+   "unusual_items": -27300000.0,
+   "normalized_ebitda": 400700000.0,
+   "normalized_income": 155300000.0
   },
   {
    "fy_end": "2025-06-25",
@@ -262,7 +310,10 @@
    "goodwill_and_intangibles": 212100000.0,
    "retained_earnings": 186500000.0,
    "total_debt": 426000000.0,
-   "shares_out": 44500000.0
+   "shares_out": 44500000.0,
+   "unusual_items": -24200000.0,
+   "normalized_ebitda": 743900000.0,
+   "normalized_income": 403254391.304348
   },
   {
    "fy_end": "2026-06-24",
@@ -296,7 +347,10 @@
    "goodwill_and_intangibles": 209800000.0,
    "retained_earnings": 673500000.0,
    "total_debt": 419700000.0,
-   "shares_out": 42200000.0
+   "shares_out": 42200000.0,
+   "unusual_items": -7600000.0,
+   "normalized_ebitda": 847700000.0,
+   "normalized_income": 493368800.0
   }
  ]
 }

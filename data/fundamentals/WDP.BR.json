@@ -1,6 +1,6 @@
 {
  "ticker": "WDP.BR",
- "fetched_at": "2026-10-10T12:26:00+00:00",
+ "fetched_at": "2026-10-10T15:29:27+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "BRU",
   "fullTimeEmployees": 145,
   "website": "https://www.wdp.eu",
-  "longBusinessSummary": "Warehouses De Pauw SA develops and invests in logistics real estate warehouses and offices. WDP's property portfolio comprises more than 9 million m. This international portfolio of semi-industrial and logistics buildings is spread over more than 350 sites at prime logistics locations for storage and distribution in Belgium, the Netherlands, France, Luxembourg, Germany and Romania. Warehouses De Pauw SA was incorporated in May 27th, 1977 in Belgium."
+  "longBusinessSummary": "Warehouses De Pauw SA develops and invests in logistics real estate warehouses and offices. WDP's property portfolio comprises more than 9 million m. This international portfolio of semi-industrial and logistics buildings is spread over more than 350 sites at prime logistics locations for storage and distribution in Belgium, the Netherlands, France, Luxembourg, Germany and Romania. Warehouses De Pauw SA was incorporated in May 27th, 1977 in Belgium.",
+  "targetMeanPrice": 26.32,
+  "targetLowPrice": 23.0,
+  "targetHighPrice": 29.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.5,
+  "forwardPE": 11.294808,
+  "forwardEps": 1.69724,
+  "trailingEps": 1.69,
+  "earningsGrowth": 0.227,
+  "revenueGrowth": 0.164
  },
  "governance": {
   "ceo": {
@@ -73,8 +84,35 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF BE",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 8203210000.0,
+    "official": 8203210000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4745912000.0,
+    "official": 4745912000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 435499000.0,
+    "official": 435499000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T15:29:27+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -105,7 +143,10 @@
    "goodwill_and_intangibles": 860000.0,
    "retained_earnings": 351711000.0,
    "total_debt": 2401902000.0,
-   "shares_out": 203980363.0
+   "shares_out": 203980363.0,
+   "unusual_items": 209488000.0,
+   "normalized_ebitda": 173459000.0,
+   "normalized_income": 194595000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -136,7 +177,10 @@
    "goodwill_and_intangibles": 1198000.0,
    "retained_earnings": 22299000.0,
    "total_debt": 2316676000.0,
-   "shares_out": 219433809.0
+   "shares_out": 219433809.0,
+   "unusual_items": -45415000.0,
+   "normalized_ebitda": 98369000.0,
+   "normalized_income": 56360250.0
   },
   {
    "fy_end": "2024-12-31",
@@ -167,7 +211,10 @@
    "goodwill_and_intangibles": 1599000.0,
    "retained_earnings": 435499000.0,
    "total_debt": 3063752000.0,
-   "shares_out": 225534676.0
+   "shares_out": 225534676.0,
+   "unusual_items": -13795000.0,
+   "normalized_ebitda": 546967000.0,
+   "normalized_income": 448613075.875836
   },
   {
    "fy_end": "2025-12-31",
@@ -198,7 +245,10 @@
    "goodwill_and_intangibles": 1408000.0,
    "retained_earnings": 353918000.0,
    "total_debt": 3504686000.0,
-   "shares_out": 235139589.0
+   "shares_out": 235139589.0,
+   "unusual_items": -9158000.0,
+   "normalized_ebitda": 519379000.0,
+   "normalized_income": 361634362.832111
   }
  ]
 }

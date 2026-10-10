@@ -1,6 +1,6 @@
 {
  "ticker": "EQH",
- "fetched_at": "2026-10-10T12:44:31+00:00",
+ "fetched_at": "2026-10-10T15:42:54+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 8000,
   "website": "https://ir.equitableholdings.com",
-  "longBusinessSummary": "Equitable Holdings, Inc., together with its consolidated subsidiaries, operates as a diversified financial services company worldwide. The company operates through six segments: Individual Retirement, Group Retirement, Asset Management, Protection Solutions, Wealth Management, and Legacy. The Individual Retirement variable annuity products, including structured capital strategies, retirement cornerstone, and investment edge primarily to affluent and high net worth individuals. The Group Retirement provides tax-deferred investment and retirement services or products to plans sponsored by educational entities, municipalities, and not-for-profit entities, as well as small and medium-sized businesses. It offers guaranteed and structured investment option, and personal income benefit variable annuity products and open architecture mutual fund platform. The Asset Management segment offers investment management and related services to various clients through institutions, retail, and private wealth management. The Protection Solutions segment provides life insurance products, such as VUL and COLI insurance, IUL insurance, and term life; and employee benefits business which includes group life, supplemental life, dental, vision, short-term disability, long-term disability, critical illness, accident and hospital indemnity insurance products to small and medium-sized businesses. The Wealth Management segment offers discretionary and non-discretionary investment advisory accounts, financial planning and advice, life insurance, and annuity products. The Legacy segment consists of the capital intensive fixed-rate GMxB business that includes ROP death benefits. The company was formerly known as AXA Equitable Holdings, Inc. and changed its name to Equitable Holdings, Inc. in January 2020. Equitable Holdings, Inc. was founded in 1859 and is based in New York, New York."
+  "longBusinessSummary": "Equitable Holdings, Inc., together with its consolidated subsidiaries, operates as a diversified financial services company worldwide. The company operates through six segments: Individual Retirement, Group Retirement, Asset Management, Protection Solutions, Wealth Management, and Legacy. The Individual Retirement variable annuity products, including structured capital strategies, retirement cornerstone, and investment edge primarily to affluent and high net worth individuals. The Group Retirement provides tax-deferred investment and retirement services or products to plans sponsored by educational entities, municipalities, and not-for-profit entities, as well as small and medium-sized businesses. It offers guaranteed and structured investment option, and personal income benefit variable annuity products and open architecture mutual fund platform. The Asset Management segment offers investment management and related services to various clients through institutions, retail, and private wealth management. The Protection Solutions segment provides life insurance products, such as VUL and COLI insurance, IUL insurance, and term life; and employee benefits business which includes group life, supplemental life, dental, vision, short-term disability, long-term disability, critical illness, accident and hospital indemnity insurance products to small and medium-sized businesses. The Wealth Management segment offers discretionary and non-discretionary investment advisory accounts, financial planning and advice, life insurance, and annuity products. The Legacy segment consists of the capital intensive fixed-rate GMxB business that includes ROP death benefits. The company was formerly known as AXA Equitable Holdings, Inc. and changed its name to Equitable Holdings, Inc. in January 2020. Equitable Holdings, Inc. was founded in 1859 and is based in New York, New York.",
+  "targetMeanPrice": 63.90909,
+  "targetLowPrice": 58.0,
+  "targetHighPrice": 68.0,
+  "numberOfAnalystOpinions": 11,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.33333,
+  "forwardPE": 5.917325,
+  "forwardEps": 8.94323,
+  "trailingEps": -3.33,
+  "earningsGrowth": null,
+  "revenueGrowth": -0.298
  },
  "governance": {
   "ceo": {
@@ -75,8 +86,37 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "normalized_income": "yahoo",
   "goodwill": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 317990000000.0,
+    "official": 317990000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": -74000000.0,
+    "official": -74000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -1380000000.0,
+    "official": -1380000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 11665000000.0,
+    "official": 11665000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:42:54+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -148,7 +188,8 @@
    "goodwill_and_intangibles": 5482000000.0,
    "retained_earnings": 9825000000.0,
    "total_debt": 4081000000.0,
-   "shares_out": 365081940.0
+   "shares_out": 365081940.0,
+   "normalized_income": 2153000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -172,7 +213,8 @@
    "goodwill_and_intangibles": 5433000000.0,
    "retained_earnings": 10250000000.0,
    "total_debt": 4074000000.0,
-   "shares_out": 333877990.0
+   "shares_out": 333877990.0,
+   "normalized_income": 1283000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -196,7 +238,8 @@
    "goodwill_and_intangibles": 5371000000.0,
    "retained_earnings": 10627000000.0,
    "total_debt": 3833000000.0,
-   "shares_out": 309900248.0
+   "shares_out": 309900248.0,
+   "normalized_income": 1280000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -220,7 +263,8 @@
    "goodwill_and_intangibles": 5309000000.0,
    "retained_earnings": 8366000000.0,
    "total_debt": 3860000000.0,
-   "shares_out": 283358187.0
+   "shares_out": 283358187.0,
+   "normalized_income": -1380000000.0
   }
  ]
 }

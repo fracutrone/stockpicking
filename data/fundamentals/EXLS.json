@@ -1,6 +1,6 @@
 {
  "ticker": "EXLS",
- "fetched_at": "2026-10-10T12:44:59+00:00",
+ "fetched_at": "2026-10-10T15:43:20+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 65000,
   "website": "https://www.exlservice.com",
-  "longBusinessSummary": "ExlService Holdings, Inc., operates as a data and artificial intelligence (AI) company in the North America, the United Kingdom, Europe, and internationally. The company operates through Insurance; Healthcare and Life Sciences; Banking, Capital Markets, and Diversified Industries; and International Growth Markets. It provides digital operations and solutions and analytics-driven services, such as claims management, premium and benefit administration, agency management, account reconciliation, actuarial and risk analytics, policy research, digital marketing, underwriting support, new business acquisition, policy servicing, audit, surveys, billing and collection, commercial and residential survey, and customer service; digital customer acquisition services using a software-as-a-service delivery model through LifePRO and Life Digital Suite platforms; and Subrosource software platform, an end-to-end subrogation platform. The company also offers health care services for care, utilization, and disease management; payment integrity; revenue optimization, customer engagement, and commercial analytics and regulatory support services; and digital operations and solutions. In addition, it provides financial planning and analysis, accounting, regulatory and statutory reporting, decision support, data management, and compliance services; consumer and commercial banking, credit card and payment services; fintech, wealth and retirement services; capital markets, utilities, retail and consumer packaged goods, communications, media and entertainment, travel and leisure, transportation and logistics, infrastructure, and other business services; property and casualty insurance, life insurance, disability insurance; and insurance brokers, reinsurers, annuity and retirement services. The company was founded in 1999 and is headquartered in New York, New York."
+  "longBusinessSummary": "ExlService Holdings, Inc., operates as a data and artificial intelligence (AI) company in the North America, the United Kingdom, Europe, and internationally. The company operates through Insurance; Healthcare and Life Sciences; Banking, Capital Markets, and Diversified Industries; and International Growth Markets. It provides digital operations and solutions and analytics-driven services, such as claims management, premium and benefit administration, agency management, account reconciliation, actuarial and risk analytics, policy research, digital marketing, underwriting support, new business acquisition, policy servicing, audit, surveys, billing and collection, commercial and residential survey, and customer service; digital customer acquisition services using a software-as-a-service delivery model through LifePRO and Life Digital Suite platforms; and Subrosource software platform, an end-to-end subrogation platform. The company also offers health care services for care, utilization, and disease management; payment integrity; revenue optimization, customer engagement, and commercial analytics and regulatory support services; and digital operations and solutions. In addition, it provides financial planning and analysis, accounting, regulatory and statutory reporting, decision support, data management, and compliance services; consumer and commercial banking, credit card and payment services; fintech, wealth and retirement services; capital markets, utilities, retail and consumer packaged goods, communications, media and entertainment, travel and leisure, transportation and logistics, infrastructure, and other business services; property and casualty insurance, life insurance, disability insurance; and insurance brokers, reinsurers, annuity and retirement services. The company was founded in 1999 and is headquartered in New York, New York.",
+  "targetMeanPrice": 44.625,
+  "targetLowPrice": 39.0,
+  "targetHighPrice": 48.0,
+  "numberOfAnalystOpinions": 8,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.33333,
+  "forwardPE": 14.166238,
+  "forwardEps": 2.59702,
+  "trailingEps": 1.58,
+  "earningsGrowth": 0.05,
+  "revenueGrowth": 0.156
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 1702235000.0,
+    "official": 1702235000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 912705000.0,
+    "official": 912705000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 251019000.0,
+    "official": 251019000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2087679000.0,
+    "official": 2087679000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:43:20+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -200,7 +242,10 @@
    "goodwill_and_intangibles": 470456000.0,
    "retained_earnings": 899105000.0,
    "total_debt": 250000000.0,
-   "shares_out": 166172220.0
+   "shares_out": 166172220.0,
+   "unusual_items": 2856000.0,
+   "normalized_ebitda": 273380000.0,
+   "normalized_income": 140826604.705969
   },
   {
    "fy_end": "2023-12-31",
@@ -234,7 +279,10 @@
    "goodwill_and_intangibles": 455803000.0,
    "retained_earnings": 1083663000.0,
    "total_debt": 200000000.0,
-   "shares_out": 165277880.0
+   "shares_out": 165277880.0,
+   "unusual_items": 4645000.0,
+   "normalized_ebitda": 316944000.0,
+   "normalized_income": 180855935.0
   },
   {
    "fy_end": "2024-12-31",
@@ -268,7 +316,10 @@
    "goodwill_and_intangibles": 469718000.0,
    "retained_earnings": 1281960000.0,
    "total_debt": 288484000.0,
-   "shares_out": 161801212.0
+   "shares_out": 161801212.0,
+   "unusual_items": 7142000.0,
+   "normalized_ebitda": 350446000.0,
+   "normalized_income": 192876222.0
   },
   {
    "fy_end": "2025-12-31",
@@ -302,7 +353,10 @@
    "goodwill_and_intangibles": 455858000.0,
    "retained_earnings": 1532979000.0,
    "total_debt": 298598000.0,
-   "shares_out": 156430028.0
+   "shares_out": 156430028.0,
+   "unusual_items": 8898000.0,
+   "normalized_ebitda": 407652000.0,
+   "normalized_income": 243927294.0
   }
  ]
 }

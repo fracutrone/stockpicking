@@ -1,6 +1,6 @@
 {
  "ticker": "SAFE.L",
- "fetched_at": "2026-10-10T12:18:02+00:00",
+ "fetched_at": "2026-10-10T15:17:38+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 850,
   "website": "https://www.safestore.com",
-  "longBusinessSummary": "Safestore is the UK's largest self-storage group with 210 stores on 31 July 2025; comprising 139 in the UK (including 78 in London and the South East with the remainder in key metropolitan areas such as Manchester, Birmingham, Glasgow, Edinburgh, Liverpool, Sheffield, Leeds, Newcastle, and Bristol), 32 in the Paris region, 16 in Spain, 16 in the Netherlands and seven in Belgium. In addition, the Group operates seven stores in Germany under a Joint Venture agreement with Carlyle and 12 stores in Italy under a Joint Venture agreement with Nuveen. Safestore was founded in the UK in 1998. It acquired the French business Une Piece en Plus (UPP) in 2004 which was founded in 1998 by the current Safestore Group CEO Frederic Vecchioli. Safestore has been listed on the London Stock Exchange since 2007. It entered the FTSE 250 index in October 2015. The Group provides storage to around 98,000 personal and business customers. As of 31 July 2025, Safestore had a maximum lettable area (MLA) of 9.18 million sq ft (excluding the expansion pipeline stores) of which 6.74 million sq ft was occupied. Safestore employs around 800 people across the Group. Safestore Holdings Plc was incorporated in 1998 in United Kingdom."
+  "longBusinessSummary": "Safestore is the UK's largest self-storage group with 210 stores on 31 July 2025; comprising 139 in the UK (including 78 in London and the South East with the remainder in key metropolitan areas such as Manchester, Birmingham, Glasgow, Edinburgh, Liverpool, Sheffield, Leeds, Newcastle, and Bristol), 32 in the Paris region, 16 in Spain, 16 in the Netherlands and seven in Belgium. In addition, the Group operates seven stores in Germany under a Joint Venture agreement with Carlyle and 12 stores in Italy under a Joint Venture agreement with Nuveen. Safestore was founded in the UK in 1998. It acquired the French business Une Piece en Plus (UPP) in 2004 which was founded in 1998 by the current Safestore Group CEO Frederic Vecchioli. Safestore has been listed on the London Stock Exchange since 2007. It entered the FTSE 250 index in October 2015. The Group provides storage to around 98,000 personal and business customers. As of 31 July 2025, Safestore had a maximum lettable area (MLA) of 9.18 million sq ft (excluding the expansion pipeline stores) of which 6.74 million sq ft was occupied. Safestore employs around 800 people across the Group. Safestore Holdings Plc was incorporated in 1998 in United Kingdom.",
+  "targetMeanPrice": 763.833,
+  "targetLowPrice": 600.0,
+  "targetHighPrice": 975.0,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.16667,
+  "forwardPE": 11.898746,
+  "forwardEps": 0.41954,
+  "trailingEps": 0.3,
+  "earningsGrowth": -0.579,
+  "revenueGrowth": 0.087
  },
  "governance": {
   "ceo": {
@@ -73,8 +84,40 @@
   "ppe_net": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-10-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3591000000.0,
+    "official": 3591000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2288400000.0,
+    "official": 2288400000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 111100000.0,
+    "official": 111100000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 234300000.0,
+    "official": 234300000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-10-31"
+ },
+ "info_at": "2026-10-10T15:17:38+00:00",
  "years": [
   {
    "fy_end": "2022-10-31",
@@ -105,7 +148,10 @@
    "ppe_net": 3400000.0,
    "retained_earnings": 1721000000.0,
    "total_debt": 719200000.0,
-   "shares_out": 211567702.0
+   "shares_out": 211567702.0,
+   "unusual_items": 12300000.0,
+   "normalized_ebitda": 504400000.0,
+   "normalized_income": 451485264.635124
   },
   {
    "fy_end": "2023-10-31",
@@ -136,7 +182,10 @@
    "ppe_net": 5200000.0,
    "retained_earnings": 1858200000.0,
    "total_debt": 827200000.0,
-   "shares_out": 217975056.0
+   "shares_out": 217975056.0,
+   "unusual_items": -1300000.0,
+   "normalized_ebitda": 230800000.0,
+   "normalized_income": 201452454.282964
   },
   {
    "fy_end": "2024-10-31",
@@ -167,7 +216,10 @@
    "ppe_net": 5700000.0,
    "retained_earnings": 2164300000.0,
    "total_debt": 924800000.0,
-   "shares_out": 218415103.0
+   "shares_out": 218415103.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 425800000.0,
+   "normalized_income": 372300000.0
   },
   {
    "fy_end": "2025-10-31",
@@ -198,7 +250,10 @@
    "ppe_net": 7200000.0,
    "retained_earnings": 2210800000.0,
    "total_debt": 1069600000.0,
-   "shares_out": 218425218.0
+   "shares_out": 218425218.0,
+   "unusual_items": -700000.0,
+   "normalized_ebitda": 160600000.0,
+   "normalized_income": 111711880.409127
   }
  ]
 }

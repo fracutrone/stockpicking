@@ -1,6 +1,6 @@
 {
  "ticker": "TMUS",
- "fetched_at": "2026-10-10T12:59:51+00:00",
+ "fetched_at": "2026-10-10T15:57:30+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 75000,
   "website": "https://www.t-mobile.com",
-  "longBusinessSummary": "T-Mobile US, Inc., together with its subsidiaries, provides wireless communications services in the United States, Puerto Rico, and the United States Virgin Islands. The company offers voice, messaging, and data services to postpaid, prepaid, and wholesale and other services customers. It also provides wireless devices, including smartphones, wearables, tablets, home broadband gateways, headsets, and other mobile communication devices, as well as accessories; financing through equipment installment plans; reinsurance for device insurance policies and extended warranty contracts. The company offers services under the T-Mobile, Metro by T-Mobile, and Mint Mobile brands through its owned and operated retail stores, customer care channels, national retailers, and its websites, as well as through T-Mobile, Metro by T-Mobile, and Mint Mobile apps. It also sells devices to dealers and other third-party distributors for resale through independent third-party retail outlets and various third-party websites. It has 700 MHz wireless spectrum licenses. The company was founded in 1994 and is headquartered in Bellevue, Washington. T-Mobile US, Inc. operates as a subsidiary of Deutsche Telekom AG."
+  "longBusinessSummary": "T-Mobile US, Inc., together with its subsidiaries, provides wireless communications services in the United States, Puerto Rico, and the United States Virgin Islands. The company offers voice, messaging, and data services to postpaid, prepaid, and wholesale and other services customers. It also provides wireless devices, including smartphones, wearables, tablets, home broadband gateways, headsets, and other mobile communication devices, as well as accessories; financing through equipment installment plans; reinsurance for device insurance policies and extended warranty contracts. The company offers services under the T-Mobile, Metro by T-Mobile, and Mint Mobile brands through its owned and operated retail stores, customer care channels, national retailers, and its websites, as well as through T-Mobile, Metro by T-Mobile, and Mint Mobile apps. It also sells devices to dealers and other third-party distributors for resale through independent third-party retail outlets and various third-party websites. It has 700 MHz wireless spectrum licenses. The company was founded in 1994 and is headquartered in Bellevue, Washington. T-Mobile US, Inc. operates as a subsidiary of Deutsche Telekom AG.",
+  "targetMeanPrice": 241.70833,
+  "targetLowPrice": 169.0,
+  "targetHighPrice": 296.0,
+  "numberOfAnalystOpinions": 24,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.66667,
+  "forwardPE": 10.291526,
+  "forwardEps": 14.43712,
+  "trailingEps": 9.57,
+  "earningsGrowth": 0.053,
+  "revenueGrowth": 0.079
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 219237000000.0,
+    "official": 219237000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 59203000000.0,
+    "official": 59203000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 10992000000.0,
+    "official": 10992000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 88309000000.0,
+    "official": 88309000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:57:31+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -195,7 +237,10 @@
    "goodwill_and_intangibles": 111540000000.0,
    "retained_earnings": -223000000.0,
    "total_debt": 77124000000.0,
-   "shares_out": 1233960078.0
+   "shares_out": 1233960078.0,
+   "unusual_items": -1564000000.0,
+   "normalized_ebitda": 21725000000.0,
+   "normalized_income": 3877172000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -229,7 +274,10 @@
    "goodwill_and_intangibles": 111559000000.0,
    "retained_earnings": 7347000000.0,
    "total_debt": 78637000000.0,
-   "shares_out": 1195807331.0
+   "shares_out": 1195807331.0,
+   "unusual_items": 25000000.0,
+   "normalized_ebitda": 27127000000.0,
+   "normalized_income": 8298100000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -263,7 +311,10 @@
    "goodwill_and_intangibles": 116075000000.0,
    "retained_earnings": 14384000000.0,
    "total_debt": 82333000000.0,
-   "shares_out": 1144579681.0
+   "shares_out": 1144579681.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 31042000000.0,
+   "normalized_income": 11339000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -297,7 +348,10 @@
    "goodwill_and_intangibles": 115553000000.0,
    "retained_earnings": 21136000000.0,
    "total_debt": 91417000000.0,
-   "shares_out": 1106930661.0
+   "shares_out": 1106930661.0,
+   "unusual_items": -278000000.0,
+   "normalized_ebitda": 31841000000.0,
+   "normalized_income": 11206060000.0
   }
  ]
 }

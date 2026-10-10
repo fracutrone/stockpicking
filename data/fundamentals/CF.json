@@ -1,6 +1,6 @@
 {
  "ticker": "CF",
- "fetched_at": "2026-10-10T12:40:23+00:00",
+ "fetched_at": "2026-10-10T15:39:16+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 2900,
   "website": "https://www.cfindustries.com",
-  "longBusinessSummary": "CF Industries Holdings, Inc., together with its subsidiaries, engages in the production of ammonia in North America, Europe, and internationally. It operates through Ammonia, Granular Urea, UAN, AN, and Other segments. The company offers ammonia products; nitrogen products, such as granular urea, urea ammonium nitrate solution, and ammonium nitrate; diesel exhaust fluid, urea liquor, and nitric acid products. It serves cooperatives, retailers, independent fertilizer distributors, traders, wholesalers, and industrial users. The company was founded in 1946 and is headquartered in Northbrook, Illinois."
+  "longBusinessSummary": "CF Industries Holdings, Inc., together with its subsidiaries, engages in the production of ammonia in North America, Europe, and internationally. It operates through Ammonia, Granular Urea, UAN, AN, and Other segments. The company offers ammonia products; nitrogen products, such as granular urea, urea ammonium nitrate solution, and ammonium nitrate; diesel exhaust fluid, urea liquor, and nitric acid products. It serves cooperatives, retailers, independent fertilizer distributors, traders, wholesalers, and industrial users. The company was founded in 1946 and is headquartered in Northbrook, Illinois.",
+  "targetMeanPrice": 127.686,
+  "targetLowPrice": 105.0,
+  "targetHighPrice": 195.72,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.81818,
+  "forwardPE": 10.069295,
+  "forwardEps": 11.07724,
+  "trailingEps": 13.48,
+  "earningsGrowth": 0.996,
+  "revenueGrowth": 0.176
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 14088000000.0,
+    "official": 14088000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4838000000.0,
+    "official": 4838000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1455000000.0,
+    "official": 1798000000.0,
+    "diff": 0.190768
+   },
+   "revenue": {
+    "yahoo": 7084000000.0,
+    "official": 7084000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:39:16+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -204,7 +246,10 @@
    "goodwill_and_intangibles": 2104000000.0,
    "retained_earnings": 3867000000.0,
    "total_debt": 2965000000.0,
-   "shares_out": 195604404.0
+   "shares_out": 195604404.0,
+   "unusual_items": -276000000.0,
+   "normalized_ebitda": 6557000000.0,
+   "normalized_income": 3559348000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -238,7 +283,10 @@
    "goodwill_and_intangibles": 3033000000.0,
    "retained_earnings": 4535000000.0,
    "total_debt": 2968000000.0,
-   "shares_out": 188188401.0
+   "shares_out": 188188401.0,
+   "unusual_items": -14000000.0,
+   "normalized_ebitda": 3275000000.0,
+   "normalized_income": 1536446619.217082
   },
   {
    "fy_end": "2024-12-31",
@@ -272,7 +320,10 @@
    "goodwill_and_intangibles": 2999000000.0,
    "retained_earnings": 4009000000.0,
    "total_debt": 2971000000.0,
-   "shares_out": 169882990.0
+   "shares_out": 169882990.0,
+   "unusual_items": 31000000.0,
+   "normalized_ebitda": 2795000000.0,
+   "normalized_income": 1192014188.422247
   },
   {
    "fy_end": "2025-12-31",
@@ -306,7 +357,10 @@
    "goodwill_and_intangibles": 2966000000.0,
    "retained_earnings": 3874000000.0,
    "total_debt": 3215000000.0,
-   "shares_out": 153552162.0
+   "shares_out": 153552162.0,
+   "unusual_items": -95000000.0,
+   "normalized_ebitda": 3377000000.0,
+   "normalized_income": 1531285000.0
   }
  ]
 }

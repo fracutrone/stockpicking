@@ -1,6 +1,6 @@
 {
  "ticker": "TFC",
- "fetched_at": "2026-10-10T12:59:33+00:00",
+ "fetched_at": "2026-10-10T15:57:14+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 37849,
   "website": "https://www.truist.com",
-  "longBusinessSummary": "Truist Financial Corporation, a financial services company, provides banking and trust services in the Southeastern and Mid-Atlantic United States. The company operates through two segments, Consumer and Small Business Banking; and Wholesale Banking. Its deposit products include noninterest-bearing checking, interest-bearing checking, savings, and money market deposit accounts, as well as certificates of deposit and individual retirement accounts. The company also provides funding; asset management; credit card lending; home equity and mortgage lending; other direct retail lending; home mortgage lending; Investment brokerage services; mobile/online banking; payment solutions; point-of-sale lending; retail and small business deposit products; and small business lending. In addition, it offers asset-based lending, commercial deposit and treasury services; commercial lending; floor plan lending; derivatives; institutional trust services; insurance premium finance; international banking; investment banking and capital markets services; leasing; merchant services; mortgage warehouse lending; real estate lending; supply chain financing; and wealth management/private banking. The company was formerly known as BB&T Corporation and changed its name to Truist Financial Corporation in December 2019. Truist Financial Corporation was founded in 1872 and is headquartered in Charlotte, North Carolina."
+  "longBusinessSummary": "Truist Financial Corporation, a financial services company, provides banking and trust services in the Southeastern and Mid-Atlantic United States. The company operates through two segments, Consumer and Small Business Banking; and Wholesale Banking. Its deposit products include noninterest-bearing checking, interest-bearing checking, savings, and money market deposit accounts, as well as certificates of deposit and individual retirement accounts. The company also provides funding; asset management; credit card lending; home equity and mortgage lending; other direct retail lending; home mortgage lending; Investment brokerage services; mobile/online banking; payment solutions; point-of-sale lending; retail and small business deposit products; and small business lending. In addition, it offers asset-based lending, commercial deposit and treasury services; commercial lending; floor plan lending; derivatives; institutional trust services; insurance premium finance; international banking; investment banking and capital markets services; leasing; merchant services; mortgage warehouse lending; real estate lending; supply chain financing; and wealth management/private banking. The company was formerly known as BB&T Corporation and changed its name to Truist Financial Corporation in December 2019. Truist Financial Corporation was founded in 1872 and is headquartered in Charlotte, North Carolina.",
+  "targetMeanPrice": 54.03421,
+  "targetLowPrice": 45.0,
+  "targetHighPrice": 61.0,
+  "numberOfAnalystOpinions": 19,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.63636,
+  "forwardPE": 9.251085,
+  "forwardEps": 4.98428,
+  "trailingEps": 4.35,
+  "earningsGrowth": 0.367,
+  "revenueGrowth": 0.082
  },
  "governance": {
   "ceo": {
@@ -78,8 +89,33 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "noninterest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 547538000000.0,
+    "official": 547538000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 65189000000.0,
+    "official": 65189000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 5307000000.0,
+    "official": 5307000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:57:15+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -107,7 +143,9 @@
    "goodwill_and_intangibles": 34443000000.0,
    "retained_earnings": 26264000000.0,
    "total_debt": 66625000000.0,
-   "shares_out": 1326829000.0
+   "shares_out": 1326829000.0,
+   "unusual_items": -466000000.0,
+   "normalized_income": 6155052000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -134,7 +172,9 @@
    "goodwill_and_intangibles": 22443000000.0,
    "retained_earnings": 22088000000.0,
    "total_debt": 63746000000.0,
-   "shares_out": 1333743000.0
+   "shares_out": 1333743000.0,
+   "unusual_items": -6078000000.0,
+   "normalized_income": 3254620000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -161,7 +201,9 @@
    "goodwill_and_intangibles": 22383000000.0,
    "retained_earnings": 23777000000.0,
    "total_debt": 64161000000.0,
-   "shares_out": 1315936000.0
+   "shares_out": 1315936000.0,
+   "unusual_items": -120000000.0,
+   "normalized_income": 27800000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -188,7 +230,9 @@
    "goodwill_and_intangibles": 22353000000.0,
    "retained_earnings": 26067000000.0,
    "total_debt": 69802000000.0,
-   "shares_out": 1262470000.0
+   "shares_out": 1262470000.0,
+   "unusual_items": -286000000.0,
+   "normalized_income": 5546096000.0
   }
  ]
 }

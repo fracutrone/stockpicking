@@ -1,6 +1,6 @@
 {
  "ticker": "BRGE.L",
- "fetched_at": "2026-10-10T11:48:49+00:00",
+ "fetched_at": "2026-10-10T14:37:18+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -49,8 +60,15 @@
   "equity": "yahoo",
   "receivables": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T14:37:18+00:00",
  "years": [
   {
    "fy_end": "2022-08-31",
@@ -70,7 +88,8 @@
    "equity": 483799000.0,
    "receivables": 0.0,
    "total_debt": 182000.0,
-   "shares_out": 101698853.0
+   "shares_out": 101698853.0,
+   "normalized_income": -201365000.0
   },
   {
    "fy_end": "2023-08-31",
@@ -90,7 +109,8 @@
    "equity": 565710000.0,
    "receivables": 1272000.0,
    "total_debt": 27617000.0,
-   "shares_out": 101000161.0
+   "shares_out": 101000161.0,
+   "normalized_income": 91591000.0
   },
   {
    "fy_end": "2024-08-31",
@@ -110,7 +130,8 @@
    "equity": 640300000.0,
    "receivables": 482000.0,
    "total_debt": 50150000.0,
-   "shares_out": 99332161.0
+   "shares_out": 99332161.0,
+   "normalized_income": 91610000.0
   },
   {
    "fy_end": "2025-08-31",
@@ -129,7 +150,8 @@
    "equity": 569079000.0,
    "receivables": 0.0,
    "total_debt": 1468000.0,
-   "shares_out": 95155422.0
+   "shares_out": 95155422.0,
+   "normalized_income": -40196000.0
   }
  ]
 }

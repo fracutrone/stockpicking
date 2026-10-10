@@ -1,6 +1,6 @@
 {
  "ticker": "GAMA.L",
- "fetched_at": "2026-10-10T11:59:19+00:00",
+ "fetched_at": "2026-10-10T14:50:16+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 2000,
   "website": "https://gammagroup.co",
-  "longBusinessSummary": "Gamma Communications plc provides technology-based communications and software services to small, medium, and large-sized organizations in the United Kingdom, rest of Europe, and internationally. The company offers Gamma Enable that enables products and platforms link business and customers to the telephone network; Gamma Connect, which allows businesses to communicate by connecting people through voice, video and chat; Gamma SIP Trunks to connect site's on-premise telephone system directly into the Gamma network through an internet connection to carry and terminate calls across the public telephone network; connectivity and broadband, mobile and FireXchnage, and FUSION IoT solutions; Gamma Connect, a connectivity for voice and data; PhoneLine+, a landline replacement service using VoIP technology to deliver voice calls over the broadband network; CircleLoop, a cloud-based telephony product through web, desktop, and mobile applications; cloud-based communication solutions under the Horizon Cloud Phone System and iPECS names; cloud connect for Webex calling; and Microsoft Teams Phone. It also provides Gamma Experience that blends products and designs enterprise-grade solution; Webex for Gamma; GammaUCX, a voice-integration platform; Amazon Connect, a contact centre platform; Horizon Contact, a cloud-based customer engagement platform; secure payments with PCI compliance; Cirrus Contact Centre, which combines technologies, such as CRM, WFO, analytics, and omni-channel; Gamma Contact for Service Providers, an omnichannel contact center solution; Gamma Secure, a managed cyber security solution; Cyber Maturity Assessment, Vulnerability Management, managed SOP, safeweb, security awareness, and Gamma Managed Detection and Response solutions; Gamma, enterprise managed, managed networks, and Clearing as a service solutions; and Gamma Toolbox, which provides tools and services for businesses. The company was founded in 2002 and is headquartered in London, the United Kingdom."
+  "longBusinessSummary": "Gamma Communications plc provides technology-based communications and software services to small, medium, and large-sized organizations in the United Kingdom, rest of Europe, and internationally. The company offers Gamma Enable that enables products and platforms link business and customers to the telephone network; Gamma Connect, which allows businesses to communicate by connecting people through voice, video and chat; Gamma SIP Trunks to connect site's on-premise telephone system directly into the Gamma network through an internet connection to carry and terminate calls across the public telephone network; connectivity and broadband, mobile and FireXchnage, and FUSION IoT solutions; Gamma Connect, a connectivity for voice and data; PhoneLine+, a landline replacement service using VoIP technology to deliver voice calls over the broadband network; CircleLoop, a cloud-based telephony product through web, desktop, and mobile applications; cloud-based communication solutions under the Horizon Cloud Phone System and iPECS names; cloud connect for Webex calling; and Microsoft Teams Phone. It also provides Gamma Experience that blends products and designs enterprise-grade solution; Webex for Gamma; GammaUCX, a voice-integration platform; Amazon Connect, a contact centre platform; Horizon Contact, a cloud-based customer engagement platform; secure payments with PCI compliance; Cirrus Contact Centre, which combines technologies, such as CRM, WFO, analytics, and omni-channel; Gamma Contact for Service Providers, an omnichannel contact center solution; Gamma Secure, a managed cyber security solution; Cyber Maturity Assessment, Vulnerability Management, managed SOP, safeweb, security awareness, and Gamma Managed Detection and Response solutions; Gamma, enterprise managed, managed networks, and Clearing as a service solutions; and Gamma Toolbox, which provides tools and services for businesses. The company was founded in 2002 and is headquartered in London, the United Kingdom.",
+  "targetMeanPrice": 1392.5,
+  "targetLowPrice": 1080.0,
+  "targetHighPrice": 1570.0,
+  "numberOfAnalystOpinions": 6,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 10.903582,
+  "forwardEps": 1.00334,
+  "trailingEps": 0.75,
+  "earningsGrowth": 0.179,
+  "revenueGrowth": 0.042
  },
  "governance": {
   "ceo": {
@@ -69,8 +80,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 621300000.0,
+    "official": 621300000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 384700000.0,
+    "official": 385800000.0,
+    "diff": 0.002851
+   },
+   "net_income": {
+    "yahoo": 64900000.0,
+    "official": 64900000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 645800000.0,
+    "official": 645800000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:50:16+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -103,7 +146,10 @@
    "goodwill_and_intangibles": 124300000.0,
    "retained_earnings": 273900000.0,
    "total_debt": 13200000.0,
-   "shares_out": 96847301.0
+   "shares_out": 96847301.0,
+   "unusual_items": -800000.0,
+   "normalized_ebitda": 93400000.0,
+   "normalized_income": 49300000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -136,7 +182,10 @@
    "goodwill_and_intangibles": 154700000.0,
    "retained_earnings": 315100000.0,
    "total_debt": 11700000.0,
-   "shares_out": 97462226.0
+   "shares_out": 97462226.0,
+   "unusual_items": -16000000.0,
+   "normalized_ebitda": 119700000.0,
+   "normalized_income": 65600000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -169,7 +218,10 @@
    "goodwill_and_intangibles": 189300000.0,
    "retained_earnings": 368300000.0,
    "total_debt": 7900000.0,
-   "shares_out": 95776739.0
+   "shares_out": 95776739.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 131200000.0,
+   "normalized_income": 69800000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -201,7 +253,10 @@
    "intangibles": 182800000.0,
    "goodwill_and_intangibles": 396800000.0,
    "retained_earnings": 368600000.0,
-   "shares_out": 92171774.0
+   "shares_out": 92171774.0,
+   "unusual_items": -10600000.0,
+   "normalized_ebitda": 144400000.0,
+   "normalized_income": 72756328.392246
   }
  ]
 }

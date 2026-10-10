@@ -1,6 +1,6 @@
 {
  "ticker": "WEC",
- "fetched_at": "2026-10-10T13:02:09+00:00",
+ "fetched_at": "2026-10-10T15:59:36+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 7000,
   "website": "https://www.wecenergygroup.com",
-  "longBusinessSummary": "WEC Energy Group, Inc., through its subsidiaries, provides regulated natural gas and electricity, and renewable and nonregulated renewable energy services in the United States. The company operates through Wisconsin, Illinois, Other States, Electric Transmission, and Non-Utility Energy Infrastructure segments. It generates and distributes electricity from coal, natural gas, oil, and nuclear, as well as renewable energy resources, including wind, solar, hydroelectric, and biomass; and distributes and hydroelectric natural gas. The company also owns, maintains, monitors, and operates electric transmission systems; and generates, distributes, and sells steam. As of December 31, 2025, the company operated approximately 35,200 miles of overhead distribution lines and 37,600 miles of underground distribution cables, as well as 420 electric distribution substations and 649,500 line transformers; approximately 47,200 miles of natural gas distribution mains; 1,300 miles of natural gas transmission mains; 2.4 million natural gas lateral services; 510 natural gas distribution and transmission gate stations; and 67.0 billion cubic feet of working gas capacities in underground natural gas storage fields. The company was formerly known as Wisconsin Energy Corporation and changed its name to WEC Energy Group, Inc. in June 2015. WEC Energy Group, Inc. was founded in 1896 and is headquartered in Milwaukee, Wisconsin."
+  "longBusinessSummary": "WEC Energy Group, Inc., through its subsidiaries, provides regulated natural gas and electricity, and renewable and nonregulated renewable energy services in the United States. The company operates through Wisconsin, Illinois, Other States, Electric Transmission, and Non-Utility Energy Infrastructure segments. It generates and distributes electricity from coal, natural gas, oil, and nuclear, as well as renewable energy resources, including wind, solar, hydroelectric, and biomass; and distributes and hydroelectric natural gas. The company also owns, maintains, monitors, and operates electric transmission systems; and generates, distributes, and sells steam. As of December 31, 2025, the company operated approximately 35,200 miles of overhead distribution lines and 37,600 miles of underground distribution cables, as well as 420 electric distribution substations and 649,500 line transformers; approximately 47,200 miles of natural gas distribution mains; 1,300 miles of natural gas transmission mains; 2.4 million natural gas lateral services; 510 natural gas distribution and transmission gate stations; and 67.0 billion cubic feet of working gas capacities in underground natural gas storage fields. The company was formerly known as Wisconsin Energy Corporation and changed its name to WEC Energy Group, Inc. in June 2015. WEC Energy Group, Inc. was founded in 1896 and is headquartered in Milwaukee, Wisconsin.",
+  "targetMeanPrice": 120.26471,
+  "targetLowPrice": 108.5,
+  "targetHighPrice": 135.0,
+  "numberOfAnalystOpinions": 17,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.36842,
+  "forwardPE": 17.29317,
+  "forwardEps": 5.9989,
+  "trailingEps": 5.15,
+  "earningsGrowth": 0.197,
+  "revenueGrowth": 0.026
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "intangibles": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 51518300000.0,
+    "official": 51518300000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 13644000000.0,
+    "official": 14052800000.0,
+    "diff": 0.02909
+   },
+   "net_income": {
+    "yahoo": 1558700000.0,
+    "official": 1555500000.0,
+    "diff": 0.002057
+   },
+   "revenue": {
+    "yahoo": 9800100000.0,
+    "official": 9800100000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:59:36+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -185,7 +227,10 @@
    "goodwill_and_intangibles": 3052800000.0,
    "retained_earnings": 7265300000.0,
    "total_debt": 17111300000.0,
-   "shares_out": 315434531.0
+   "shares_out": 315434531.0,
+   "unusual_items": 16800000.0,
+   "normalized_ebitda": 3353500000.0,
+   "normalized_income": 1395624800.0
   },
   {
    "fy_end": "2023-12-31",
@@ -217,7 +262,10 @@
    "goodwill_and_intangibles": 3052800000.0,
    "retained_earnings": 7612800000.0,
    "total_debt": 18652000000.0,
-   "shares_out": 315434531.0
+   "shares_out": 315434531.0,
+   "unusual_items": -105600000.0,
+   "normalized_ebitda": 3633500000.0,
+   "normalized_income": 1424455200.0
   },
   {
    "fy_end": "2024-12-31",
@@ -249,7 +297,10 @@
    "goodwill_and_intangibles": 3052800000.0,
    "retained_earnings": 8083800000.0,
    "total_debt": 20023700000.0,
-   "shares_out": 317680855.0
+   "shares_out": 317680855.0,
+   "unusual_items": 82500000.0,
+   "normalized_ebitda": 3833600000.0,
+   "normalized_income": 1456377500.0
   },
   {
    "fy_end": "2025-12-31",
@@ -281,7 +332,10 @@
    "goodwill_and_intangibles": 3052800000.0,
    "retained_earnings": 8493500000.0,
    "total_debt": 21942200000.0,
-   "shares_out": 325461519.0
+   "shares_out": 325461519.0,
+   "unusual_items": -22100000.0,
+   "normalized_ebitda": 4069200000.0,
+   "normalized_income": 1579230900.0
   }
  ]
 }

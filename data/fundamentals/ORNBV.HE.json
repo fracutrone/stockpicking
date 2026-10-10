@@ -1,6 +1,6 @@
 {
  "ticker": "ORNBV.HE",
- "fetched_at": "2026-10-10T12:12:56+00:00",
+ "fetched_at": "2026-10-10T15:10:15+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "HEL",
   "fullTimeEmployees": 4000,
   "website": "https://www.orionpharma.com",
-  "longBusinessSummary": "Orion Oyj develops, manufactures, and markets human and veterinary pharmaceuticals and active pharmaceutical ingredients (APIs) in Finland, Scandinavia, rest of Europe, North America, and internationally. It offers pharmaceutical products, which includes Nubeqa for the treatment of prostate cancer; Entacapone, Stalevo, Comtess, and Comtan to treat Parkinson's disease; Burana for inflammatory pain; Divina series for menopausal symptoms; Simdax for acute decompensated heart failure; Fareston for breast cancer; Quetiapine products for antipsychotic; Trexan for rheumatoid arthritis and cancer; Easyhaler product portfolio for asthma and COPD; and Dexdor, Precedex, and Dexmedetomidine products for human use. The company also provides Salmeterol/fluticasone Easyhaler, Budesonide/formoterol Easyhaler, Formoterol Easyhaler, Budesonide Easyhaler, Beclomet Easyhaler, and Buventol Easyhaler drugs for the treatment of asthma and chronic obstructive pulmonary disease. In addition, it offers veterinary drugs comprising Bonqat, Clevor, Domosedan, Domitor, Antisedan, Dexdomitor, Domosedan Gel, Sileo, and Tessie; APIs for generic compounds and proprietary products, as well as contract manufacturing services; and markets and sells drugs and products manufactured by other companies. Additionally, the company provides self-care products, including non-prescription medicines, cosmetics, dietary supplements, vitamins, and skincare products. It also offers its products online. The company has a licensing agreement with Tenax Therapeutics, Inc. to develop oral levosimendan (TNX-103) for pulmonary hypertension in heart failure with preserved ejection fraction (PH-HFpEF); and Bayer for the development and commercialisation of darolutamide Nubeqa. Orion Oyj was founded in 1917 and is headquartered in Espo, Finland."
+  "longBusinessSummary": "Orion Oyj develops, manufactures, and markets human and veterinary pharmaceuticals and active pharmaceutical ingredients (APIs) in Finland, Scandinavia, rest of Europe, North America, and internationally. It offers pharmaceutical products, which includes Nubeqa for the treatment of prostate cancer; Entacapone, Stalevo, Comtess, and Comtan to treat Parkinson's disease; Burana for inflammatory pain; Divina series for menopausal symptoms; Simdax for acute decompensated heart failure; Fareston for breast cancer; Quetiapine products for antipsychotic; Trexan for rheumatoid arthritis and cancer; Easyhaler product portfolio for asthma and COPD; and Dexdor, Precedex, and Dexmedetomidine products for human use. The company also provides Salmeterol/fluticasone Easyhaler, Budesonide/formoterol Easyhaler, Formoterol Easyhaler, Budesonide Easyhaler, Beclomet Easyhaler, and Buventol Easyhaler drugs for the treatment of asthma and chronic obstructive pulmonary disease. In addition, it offers veterinary drugs comprising Bonqat, Clevor, Domosedan, Domitor, Antisedan, Dexdomitor, Domosedan Gel, Sileo, and Tessie; APIs for generic compounds and proprietary products, as well as contract manufacturing services; and markets and sells drugs and products manufactured by other companies. Additionally, the company provides self-care products, including non-prescription medicines, cosmetics, dietary supplements, vitamins, and skincare products. It also offers its products online. The company has a licensing agreement with Tenax Therapeutics, Inc. to develop oral levosimendan (TNX-103) for pulmonary hypertension in heart failure with preserved ejection fraction (PH-HFpEF); and Bayer for the development and commercialisation of darolutamide Nubeqa. Orion Oyj was founded in 1917 and is headquartered in Espo, Finland.",
+  "targetMeanPrice": 76.16667,
+  "targetLowPrice": 55.0,
+  "targetHighPrice": 85.0,
+  "numberOfAnalystOpinions": 6,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.16667,
+  "forwardPE": 16.772089,
+  "forwardEps": 4.74598,
+  "trailingEps": 4.17,
+  "earningsGrowth": 0.695,
+  "revenueGrowth": 0.252
  },
  "governance": {
   "ceo": {
@@ -76,8 +87,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF FI",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 2009800000.0,
+    "official": 2009800000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1284500000.0,
+    "official": 1284500000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 500300000.0,
+    "official": 500300000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1889500000.0,
+    "official": 1889500000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:10:15+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -111,7 +154,10 @@
    "goodwill_and_intangibles": 190900000.0,
    "retained_earnings": 821100000.0,
    "total_debt": 214000000.0,
-   "shares_out": 140201507.0
+   "shares_out": 140201507.0,
+   "unusual_items": 400000.0,
+   "normalized_ebitda": 488900000.0,
+   "normalized_income": 349182400.0
   },
   {
    "fy_end": "2023-12-31",
@@ -145,7 +191,10 @@
    "goodwill_and_intangibles": 200100000.0,
    "retained_earnings": 810000000.0,
    "total_debt": 200100000.0,
-   "shares_out": 140351305.0
+   "shares_out": 140351305.0,
+   "unusual_items": 7900000.0,
+   "normalized_ebitda": 320800000.0,
+   "normalized_income": 210503700.0
   },
   {
    "fy_end": "2024-12-31",
@@ -179,7 +228,10 @@
    "goodwill_and_intangibles": 175100000.0,
    "retained_earnings": 918200000.0,
    "total_debt": 327300000.0,
-   "shares_out": 140501423.0
+   "shares_out": 140501423.0,
+   "unusual_items": 600000.0,
+   "normalized_ebitda": 512900000.0,
+   "normalized_income": 329420600.0
   },
   {
    "fy_end": "2025-12-31",
@@ -213,7 +265,10 @@
    "goodwill_and_intangibles": 187500000.0,
    "retained_earnings": 1192600000.0,
    "total_debt": 305300000.0,
-   "shares_out": 140693334.0
+   "shares_out": 140693334.0,
+   "unusual_items": 200000.0,
+   "normalized_ebitda": 692500000.0,
+   "normalized_income": 500140600.0
   }
  ]
 }

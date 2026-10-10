@@ -1,6 +1,6 @@
 {
  "ticker": "VRSN",
- "fetched_at": "2026-10-10T13:01:43+00:00",
+ "fetched_at": "2026-10-10T15:59:11+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 926,
   "website": "https://www.verisign.com",
-  "longBusinessSummary": "VeriSign, Inc., together with its subsidiaries, provides internet infrastructure and domain name registry services that enable internet navigation for various recognized domain names worldwide. The company provides root zone maintainer services operating two of thirteen internet root servers; and registration services and authoritative resolution for the .com and .net domains, which support global e-commerce. It also operates directory for .name and .cc; and back-end systems for .edu domain names. The company was incorporated in 1995 and is headquartered in Reston, Virginia."
+  "longBusinessSummary": "VeriSign, Inc., together with its subsidiaries, provides internet infrastructure and domain name registry services that enable internet navigation for various recognized domain names worldwide. The company provides root zone maintainer services operating two of thirteen internet root servers; and registration services and authoritative resolution for the .com and .net domains, which support global e-commerce. It also operates directory for .name and .cc; and back-end systems for .edu domain names. The company was incorporated in 1995 and is headquartered in Reston, Virginia.",
+  "targetMeanPrice": 324.4,
+  "targetLowPrice": 285.0,
+  "targetHighPrice": 355.0,
+  "numberOfAnalystOpinions": 5,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.8,
+  "forwardPE": 27.458633,
+  "forwardEps": 11.06173,
+  "trailingEps": 9.21,
+  "earningsGrowth": 0.077,
+  "revenueGrowth": 0.06
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 1325900000.0,
+    "official": 1325900000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": -2154200000.0,
+    "official": -2154200000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 825700000.0,
+    "official": 825700000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1656600000.0,
+    "official": 1656600000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:59:11+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -162,7 +204,8 @@
    "receivables": 5300000.0,
    "ppe_net": 251200000.0,
    "goodwill": 52500000.0,
-   "retained_earnings": -14877800000.0
+   "retained_earnings": -14877800000.0,
+   "unusual_items": -2100000.0
   },
   {
    "fy_end": "2022-12-31",
@@ -196,7 +239,10 @@
    "goodwill_and_intangibles": 197500000.0,
    "retained_earnings": -14204000000.0,
    "total_debt": 1795000000.0,
-   "shares_out": 105300000.0
+   "shares_out": 105300000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 1002400000.0,
+   "normalized_income": 673800000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -230,7 +276,10 @@
    "goodwill_and_intangibles": 197500000.0,
    "retained_earnings": -13386400000.0,
    "total_debt": 1797500000.0,
-   "shares_out": 101300000.0
+   "shares_out": 101300000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 1095900000.0,
+   "normalized_income": 817600000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -264,7 +313,9 @@
    "goodwill_and_intangibles": 197500000.0,
    "retained_earnings": -12600700000.0,
    "total_debt": 1801500000.0,
-   "shares_out": 95000000.0
+   "shares_out": 95000000.0,
+   "normalized_ebitda": 1134100000.0,
+   "normalized_income": 785700000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -298,7 +349,9 @@
    "goodwill_and_intangibles": 197700000.0,
    "retained_earnings": -11775000000.0,
    "total_debt": 1798000000.0,
-   "shares_out": 91900000.0
+   "shares_out": 91900000.0,
+   "normalized_ebitda": 1176700000.0,
+   "normalized_income": 825700000.0
   }
  ]
 }

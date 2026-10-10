@@ -1,6 +1,6 @@
 {
  "ticker": "ARES",
- "fetched_at": "2026-10-10T12:37:58+00:00",
+ "fetched_at": "2026-10-10T15:34:56+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 4343,
   "website": "https://www.ares.com",
-  "longBusinessSummary": "Ares Management Corporation operates as an alternative asset manager. Its Direct Lending Group segment provides financing solutions to small-to-medium sized companies. The company's Private Equity Group segment specializes in early venture, turnaround, mid venture, late venture, recapitalization, growth capital, middle market, mezzanine, distressed and growth buyouts. The firm seeks to invest in healthcare, services, energy, industrials and consumer. The firm seeks to takes majority, minority and shared-control investments primarily in under-capitalized companies in North America, Europe, Asia Pacific, Southeast Asia and Australia. Its Real Estate Group segment invests in new developments and the repositioning of assets, with a focus on control or majority-control investments; and originates and invests in a range of self-originated financing opportunities for middle-market owners and operators of commercial real estate. The firm prefers to invest between $1 million and $500 million in companies having EBITDA between $10 million and $250 million and debt investment value between $10 million and $100 million. Ares Management Corporation was founded in 1997 and is based in Los Angeles, California with additional offices in North America, Europe and Asia."
+  "longBusinessSummary": "Ares Management Corporation operates as an alternative asset manager. Its Direct Lending Group segment provides financing solutions to small-to-medium sized companies. The company's Private Equity Group segment specializes in early venture, turnaround, mid venture, late venture, recapitalization, growth capital, middle market, mezzanine, distressed and growth buyouts. The firm seeks to invest in healthcare, services, energy, industrials and consumer. The firm seeks to takes majority, minority and shared-control investments primarily in under-capitalized companies in North America, Europe, Asia Pacific, Southeast Asia and Australia. Its Real Estate Group segment invests in new developments and the repositioning of assets, with a focus on control or majority-control investments; and originates and invests in a range of self-originated financing opportunities for middle-market owners and operators of commercial real estate. The firm prefers to invest between $1 million and $500 million in companies having EBITDA between $10 million and $250 million and debt investment value between $10 million and $100 million. Ares Management Corporation was founded in 1997 and is based in Los Angeles, California with additional offices in North America, Europe and Asia.",
+  "targetMeanPrice": 146.65,
+  "targetLowPrice": 122.0,
+  "targetHighPrice": 168.0,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.95,
+  "forwardPE": 16.415873,
+  "forwardEps": 7.14065,
+  "trailingEps": 2.17,
+  "earningsGrowth": 0.065,
+  "revenueGrowth": 0.096
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 28633369000.0,
+    "official": 28633369000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4275463000.0,
+    "official": 4275463000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 527362000.0,
+    "official": 527362000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 5601482000.0,
+    "official": 4755618000.0,
+    "diff": 0.177866
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:34:56+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -167,7 +209,10 @@
    "goodwill_and_intangibles": 2207876000.0,
    "retained_earnings": -369475000.0,
    "total_debt": 13334236000.0,
-   "shares_out": 177381947.0
+   "shares_out": 177381947.0,
+   "unusual_items": 78118000.0,
+   "normalized_ebitda": 1256746000.0,
+   "normalized_income": 100437638.0
   },
   {
    "fy_end": "2023-12-31",
@@ -200,7 +245,10 @@
    "goodwill_and_intangibles": 2182471000.0,
    "retained_earnings": -495083000.0,
    "total_debt": 15755950000.0,
-   "shares_out": 190559818.0
+   "shares_out": 190559818.0,
+   "unusual_items": 340273000.0,
+   "normalized_ebitda": 2085378000.0,
+   "normalized_income": 178288490.0
   },
   {
    "fy_end": "2024-12-31",
@@ -233,7 +281,10 @@
    "goodwill_and_intangibles": 2138464000.0,
    "retained_earnings": -837294000.0,
    "total_debt": 13147967000.0,
-   "shares_out": 203362482.0
+   "shares_out": 203362482.0,
+   "unusual_items": 330533000.0,
+   "normalized_ebitda": 2081698000.0,
+   "normalized_income": 175847757.0
   },
   {
    "fy_end": "2025-12-31",
@@ -266,7 +317,10 @@
    "goodwill_and_intangibles": 5569937000.0,
    "retained_earnings": -1452259000.0,
    "total_debt": 14222266000.0,
-   "shares_out": 221955340.0
+   "shares_out": 221955340.0,
+   "unusual_items": 858658000.0,
+   "normalized_ebitda": 1438844000.0,
+   "normalized_income": -199921326.0
   }
  ]
 }

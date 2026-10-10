@@ -1,6 +1,6 @@
 {
  "ticker": "MNDI.L",
- "fetched_at": "2026-10-10T12:08:51+00:00",
+ "fetched_at": "2026-10-10T15:05:13+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 22200,
   "website": "https://www.mondigroup.com",
-  "longBusinessSummary": "Mondi plc, together with its subsidiaries, engages in the manufacture and sale of packaging and paper solutions in Africa, Western Europe, Emerging Europe, North America, South America, Asia, and Australia. The company operates through Corrugated Packaging, and Flexible Packaging segments. The Corrugated Packaging segment provides virgin and recycled containerboards for fresh fruit packaging and heavy and fragile goods transport packaging applications; and corrugated solutions, such as corrugated boxes and packaging products. The Flexible Packaging segment offers sack kraft paper, paper bags, specialty kraft paper, consumer flexibles, and functional paper and films. The Uncoated Fine Paper segment provides uncoated fine paper, including home, office, converting, and professional printing papers; and market pulp. The company was incorporated in 2007 and is based in Weybridge, the United Kingdom."
+  "longBusinessSummary": "Mondi plc, together with its subsidiaries, engages in the manufacture and sale of packaging and paper solutions in Africa, Western Europe, Emerging Europe, North America, South America, Asia, and Australia. The company operates through Corrugated Packaging, and Flexible Packaging segments. The Corrugated Packaging segment provides virgin and recycled containerboards for fresh fruit packaging and heavy and fragile goods transport packaging applications; and corrugated solutions, such as corrugated boxes and packaging products. The Flexible Packaging segment offers sack kraft paper, paper bags, specialty kraft paper, consumer flexibles, and functional paper and films. The Uncoated Fine Paper segment provides uncoated fine paper, including home, office, converting, and professional printing papers; and market pulp. The company was incorporated in 2007 and is based in Weybridge, the United Kingdom.",
+  "targetMeanPrice": 893.33813,
+  "targetLowPrice": 648.99176,
+  "targetHighPrice": 1090.3972,
+  "numberOfAnalystOpinions": 14,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.57143,
+  "forwardPE": 14.301317,
+  "forwardEps": 0.550998,
+  "trailingEps": -0.51,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.017
  },
  "governance": {
   "ceo": {
@@ -76,8 +87,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 10144000000.0,
+    "official": 10144000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4727000000.0,
+    "official": 4727000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 165000000.0,
+    "official": 165000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 7663000000.0,
+    "official": 7663000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:05:13+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -110,7 +153,10 @@
    "goodwill_and_intangibles": 833000000.0,
    "retained_earnings": 5895000000.0,
    "total_debt": 2072000000.0,
-   "shares_out": 440913291.0
+   "shares_out": 440913291.0,
+   "unusual_items": 259000000.0,
+   "normalized_ebitda": 1850000000.0,
+   "normalized_income": 985275000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -143,7 +189,10 @@
    "goodwill_and_intangibles": 833000000.0,
    "retained_earnings": 5434000000.0,
    "total_debt": 2019000000.0,
-   "shares_out": 440848289.0
+   "shares_out": 440848289.0,
+   "unusual_items": -12000000.0,
+   "normalized_ebitda": 1228000000.0,
+   "normalized_income": 511168000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -176,7 +225,10 @@
    "goodwill_and_intangibles": 837000000.0,
    "retained_earnings": 4582000000.0,
    "total_debt": 2015000000.0,
-   "shares_out": 440536840.0
+   "shares_out": 440536840.0,
+   "unusual_items": -23000000.0,
+   "normalized_ebitda": 1015000000.0,
+   "normalized_income": 235940000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -208,7 +260,10 @@
    "goodwill_and_intangibles": 1003000000.0,
    "retained_earnings": 4449000000.0,
    "total_debt": 2882000000.0,
-   "shares_out": 440797845.0
+   "shares_out": 440797845.0,
+   "unusual_items": -28000000.0,
+   "normalized_ebitda": 986000000.0,
+   "normalized_income": 186280000.0
   }
  ]
 }

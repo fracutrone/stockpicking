@@ -1,6 +1,6 @@
 {
  "ticker": "CVNA",
- "fetched_at": "2026-10-10T12:42:34+00:00",
+ "fetched_at": "2026-10-10T15:41:03+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 23100,
   "website": "https://www.carvana.com",
-  "longBusinessSummary": "Carvana Co., together with its subsidiaries, operates an e-commerce platform for buying and selling used cars. It provides vehicle acquisition, inspection and reconditioning, online search and shopping experience, financing, complementary products, logistics network and distinctive fulfillment experience, and post-sale customer support services. The company also operates auction sites. Carvana Co. was founded in 2012 and is based in Tempe, Arizona."
+  "longBusinessSummary": "Carvana Co., together with its subsidiaries, operates an e-commerce platform for buying and selling used cars. It provides vehicle acquisition, inspection and reconditioning, online search and shopping experience, financing, complementary products, logistics network and distinctive fulfillment experience, and post-sale customer support services. The company also operates auction sites. Carvana Co. was founded in 2012 and is based in Tempe, Arizona.",
+  "targetMeanPrice": 82.28571,
+  "targetLowPrice": 60.0,
+  "targetHighPrice": 120.0,
+  "numberOfAnalystOpinions": 21,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": 28.338173,
+  "forwardEps": 2.24891,
+  "trailingEps": 1.91,
+  "earningsGrowth": 0.615,
+  "revenueGrowth": 0.524
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 13201000000.0,
+    "official": 13201000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3441000000.0,
+    "official": 3441000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1407000000.0,
+    "official": 1407000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 20322000000.0,
+    "official": 20322000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:41:03+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -196,7 +238,10 @@
    "goodwill_and_intangibles": 70000000.0,
    "retained_earnings": -2076000000.0,
    "total_debt": 6482000000.0,
-   "shares_out": 530185000.0
+   "shares_out": 530185000.0,
+   "unusual_items": -847000000.0,
+   "normalized_ebitda": -1299000000.0,
+   "normalized_income": -917870000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -230,7 +275,10 @@
    "goodwill_and_intangibles": 52000000.0,
    "retained_earnings": -1626000000.0,
    "total_debt": 5176000000.0,
-   "shares_out": 571195000.0
+   "shares_out": 571195000.0,
+   "unusual_items": 878000000.0,
+   "normalized_ebitda": 281000000.0,
+   "normalized_income": -302571428.571429
   },
   {
    "fy_end": "2024-12-31",
@@ -265,7 +313,10 @@
    "goodwill_and_intangibles": 34000000.0,
    "retained_earnings": -1416000000.0,
    "total_debt": 5297000000.0,
-   "shares_out": 666355000.0
+   "shares_out": 666355000.0,
+   "unusual_items": -12000000.0,
+   "normalized_ebitda": 1368000000.0,
+   "normalized_income": 219480000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -300,7 +351,10 @@
    "goodwill_and_intangibles": 57000000.0,
    "retained_earnings": -9000000.0,
    "total_debt": 4918000000.0,
-   "shares_out": 711150000.0
+   "shares_out": 711150000.0,
+   "unusual_items": -16000000.0,
+   "normalized_ebitda": -94000000.0,
+   "normalized_income": 1419640000.0
   }
  ]
 }

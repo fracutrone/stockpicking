@@ -1,6 +1,6 @@
 {
  "ticker": "R",
- "fetched_at": "2026-10-10T12:56:23+00:00",
+ "fetched_at": "2026-10-10T15:54:05+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 51600,
   "website": "https://www.ryder.com",
-  "longBusinessSummary": "Ryder System, Inc. operates as a logistics and transportation company worldwide. It operates through three segments: Fleet Management Solutions (FMS), Supply Chain Solutions (SCS), and Dedicated Transportation Solutions (DTS). The FMS segment offers full-service leasing and leasing with flexible maintenance options; commercial vehicle rental; maintenance services; digital and technology support services; fuel services; and fuel planning and tax reporting, cards, and monitoring services, and centralized billing, as well as sells used vehicles through its retail sales centers and www.ryder.com/used-trucks website. The DTS segment offers transportation, vehicles, drivers, outing and scheduling, fleet design, safety, regulatory compliance, risk management and technology and communication systems support. The SCS segment comprises distribution management services, such as coordinating warehousing and transportation for inbound and outbound material flows; managing import and export for international shipments; coordinating just-in-time replenishment of component parts to manufacturing and final assembly; and offering shipment delivery to distribution centers or end delivery points, as well as e-commerce fulfillment. This segment also offers dedicated transportation; transportation management and brokerage; e-commerce and last mile; and contract manufacturing and contract packaging. The company was founded in 1933 and is headquartered in Coral Gables, Florida."
+  "longBusinessSummary": "Ryder System, Inc. operates as a logistics and transportation company worldwide. It operates through three segments: Fleet Management Solutions (FMS), Supply Chain Solutions (SCS), and Dedicated Transportation Solutions (DTS). The FMS segment offers full-service leasing and leasing with flexible maintenance options; commercial vehicle rental; maintenance services; digital and technology support services; fuel services; and fuel planning and tax reporting, cards, and monitoring services, and centralized billing, as well as sells used vehicles through its retail sales centers and www.ryder.com/used-trucks website. The DTS segment offers transportation, vehicles, drivers, outing and scheduling, fleet design, safety, regulatory compliance, risk management and technology and communication systems support. The SCS segment comprises distribution management services, such as coordinating warehousing and transportation for inbound and outbound material flows; managing import and export for international shipments; coordinating just-in-time replenishment of component parts to manufacturing and final assembly; and offering shipment delivery to distribution centers or end delivery points, as well as e-commerce fulfillment. This segment also offers dedicated transportation; transportation management and brokerage; e-commerce and last mile; and contract manufacturing and contract packaging. The company was founded in 1933 and is headquartered in Coral Gables, Florida.",
+  "targetMeanPrice": 288.33334,
+  "targetLowPrice": 245.0,
+  "targetHighPrice": 320.0,
+  "numberOfAnalystOpinions": 9,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.81818,
+  "forwardPE": 13.546019,
+  "forwardEps": 17.61034,
+  "trailingEps": 12.31,
+  "earningsGrowth": 0.086,
+  "revenueGrowth": 0.05
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 16387000000.0,
+    "official": 16387000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3052000000.0,
+    "official": 3052000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 499000000.0,
+    "official": 499000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 12687000000.0,
+    "official": 12665000000.0,
+    "diff": 0.001737
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:54:05+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -194,7 +236,10 @@
    "goodwill_and_intangibles": 1156000000.0,
    "retained_earnings": 2518000000.0,
    "total_debt": 6328000000.0,
-   "shares_out": 46286664.0
+   "shares_out": 46286664.0,
+   "unusual_items": -2000000.0,
+   "normalized_ebitda": 3277000000.0,
+   "normalized_income": 864418000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -227,7 +272,10 @@
    "goodwill_and_intangibles": 1336000000.0,
    "retained_earnings": 2554000000.0,
    "total_debt": 7129000000.0,
-   "shares_out": 43902065.0
+   "shares_out": 43902065.0,
+   "unusual_items": -167000000.0,
+   "normalized_ebitda": 3166000000.0,
+   "normalized_income": 515719000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -260,7 +308,10 @@
    "goodwill_and_intangibles": 1615000000.0,
    "retained_earnings": 2644000000.0,
    "total_debt": 7765000000.0,
-   "shares_out": 42080039.0
+   "shares_out": 42080039.0,
+   "unusual_items": -13000000.0,
+   "normalized_ebitda": 3288000000.0,
+   "normalized_income": 498620000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -293,7 +344,10 @@
    "goodwill_and_intangibles": 1564000000.0,
    "retained_earnings": 2569000000.0,
    "total_debt": 6826000000.0,
-   "shares_out": 39417224.0
+   "shares_out": 39417224.0,
+   "unusual_items": -9000000.0,
+   "normalized_ebitda": 3338000000.0,
+   "normalized_income": 507588000.0
   }
  ]
 }

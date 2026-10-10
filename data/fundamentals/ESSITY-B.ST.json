@@ -1,6 +1,6 @@
 {
  "ticker": "ESSITY-B.ST",
- "fetched_at": "2026-10-10T11:56:38+00:00",
+ "fetched_at": "2026-10-10T14:46:42+00:00",
  "region": "Europa",
  "statement_currency": "SEK",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "STO",
   "fullTimeEmployees": 36000,
   "website": "https://www.essity.com",
-  "longBusinessSummary": "Essity AB (publ) develops, produces, and sells hygiene and health products and services in Europe, North and Latin America, Asia, and internationally. The company operates through three segments: Health & Medical, Consumer Goods, and Professional Hygiene. The Health & Medical segment offers incontinence products, wound care, compression therapy, orthopedics, skincare products, and digital solutions with sensor technology under the TENA, Leukoplast, JOBST, Actimove, Cutimed, Delta-Cast, AquaCast Liner, and Hydrofera brands to family carers, professional caregivers, and patients and consumers through pharmacies, medical device stores, hospitals, distributors, care institutions, and e-commerce. The Consumer Goods segment provides pads, panty liners, tampons, diapers, wet wipes, shampoos, lotions, baby oil, skin creams, intimate soaps, intimate wipes, leakproof apparel, menstrual cups, toilet papers, household towels, handkerchiefs, facial tissues, and napkins under the TENA, Knix, Modibodi, Libero, Lotus, Libresse, Bodyform, Nana, Saba, Nosotras, TOM Organic, Tempo, Zewa, Cushelle, Plenty, Regio, and Familia brands through retail trade and e-commerce. The Professional Hygiene segment offers toilet papers, paper hand towels, napkins, hand soaps, hand lotions, hand sanitizers, dispensers, and cleaning and wiping products, as well as vision cleaning and data-driven cleaning solutions under the Tork brand to companies and office buildings, universities, healthcare facilities, airports, industries, restaurants, hotels, stadiums, and other public venues through direct to the end-customer, e-commerce, or distributors. Essity AB (publ) was founded in 1849 and is headquartered in Stockholm, Sweden."
+  "longBusinessSummary": "Essity AB (publ) develops, produces, and sells hygiene and health products and services in Europe, North and Latin America, Asia, and internationally. The company operates through three segments: Health & Medical, Consumer Goods, and Professional Hygiene. The Health & Medical segment offers incontinence products, wound care, compression therapy, orthopedics, skincare products, and digital solutions with sensor technology under the TENA, Leukoplast, JOBST, Actimove, Cutimed, Delta-Cast, AquaCast Liner, and Hydrofera brands to family carers, professional caregivers, and patients and consumers through pharmacies, medical device stores, hospitals, distributors, care institutions, and e-commerce. The Consumer Goods segment provides pads, panty liners, tampons, diapers, wet wipes, shampoos, lotions, baby oil, skin creams, intimate soaps, intimate wipes, leakproof apparel, menstrual cups, toilet papers, household towels, handkerchiefs, facial tissues, and napkins under the TENA, Knix, Modibodi, Libero, Lotus, Libresse, Bodyform, Nana, Saba, Nosotras, TOM Organic, Tempo, Zewa, Cushelle, Plenty, Regio, and Familia brands through retail trade and e-commerce. The Professional Hygiene segment offers toilet papers, paper hand towels, napkins, hand soaps, hand lotions, hand sanitizers, dispensers, and cleaning and wiping products, as well as vision cleaning and data-driven cleaning solutions under the Tork brand to companies and office buildings, universities, healthcare facilities, airports, industries, restaurants, hotels, stadiums, and other public venues through direct to the end-customer, e-commerce, or distributors. Essity AB (publ) was founded in 1849 and is headquartered in Stockholm, Sweden.",
+  "targetMeanPrice": 268.2,
+  "targetLowPrice": 215.0,
+  "targetHighPrice": 320.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.86667,
+  "forwardPE": 19.94705,
+  "forwardEps": 13.22,
+  "trailingEps": 17.73,
+  "earningsGrowth": -0.103,
+  "revenueGrowth": 0.026
  },
  "governance": {
   "ceo": {
@@ -77,8 +88,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF SE",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 185284000000.0,
+    "official": 185284000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 88314000000.0,
+    "official": 88314000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 20888000000.0,
+    "official": 20888000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 145546000000.0,
+    "official": 145546000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T14:46:42+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -113,7 +156,10 @@
    "goodwill_and_intangibles": 70132000000.0,
    "retained_earnings": 53519000000.0,
    "total_debt": 66578000000.0,
-   "shares_out": 702342489.0
+   "shares_out": 702342489.0,
+   "unusual_items": -539000000.0,
+   "normalized_ebitda": 18102000000.0,
+   "normalized_income": 5071172000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -148,7 +194,10 @@
    "goodwill_and_intangibles": 60681000000.0,
    "retained_earnings": 59075000000.0,
    "total_debt": 55820000000.0,
-   "shares_out": 702342489.0
+   "shares_out": 702342489.0,
+   "unusual_items": -1362000000.0,
+   "normalized_ebitda": 24769000000.0,
+   "normalized_income": 10288328000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -183,7 +232,10 @@
    "goodwill_and_intangibles": 61871000000.0,
    "retained_earnings": 72740000000.0,
    "total_debt": 43777000000.0,
-   "shares_out": 694944489.0
+   "shares_out": 694944489.0,
+   "unusual_items": -473000000.0,
+   "normalized_ebitda": 26612000000.0,
+   "normalized_income": 12220655000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -218,7 +270,10 @@
    "goodwill_and_intangibles": 55134000000.0,
    "retained_earnings": 79018000000.0,
    "total_debt": 37204000000.0,
-   "shares_out": 683048663.0
+   "shares_out": 683048663.0,
+   "unusual_items": -25000000.0,
+   "normalized_ebitda": 25925000000.0,
+   "normalized_income": 12674525000.0
   }
  ]
 }

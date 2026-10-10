@@ -1,6 +1,6 @@
 {
  "ticker": "MRSH",
- "fetched_at": "2026-10-10T12:52:03+00:00",
+ "fetched_at": "2026-10-10T15:50:10+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 95000,
   "website": "https://www.corporate.marsh.com",
-  "longBusinessSummary": "Marsh & McLennan Companies, Inc., a professional services company, provides advisory services and insurance solutions to clients in the areas of risk, strategy, and people worldwide. The company operates through Risk and Insurance Services, and Consulting segments. The Risk and Insurance Services segment offers risk management services, such as risk management, insurance broking, insurance program management, risk consulting, analytical modeling, and alternative risk financing services. This segment also offers insurance and reinsurance broking, strategic advisory and actuarial services, and analytics solutions. It serves businesses, public entities, insurance companies, associations, professional services organizations, and private clients. The Consulting segment provides health, wealth and career advice, solutions and products; and specialized management, strategic, economic, and brand consulting services. Marsh & McLennan Companies, Inc. was founded in 1871 and is headquartered in New York, New York."
+  "longBusinessSummary": "Marsh & McLennan Companies, Inc., a professional services company, provides advisory services and insurance solutions to clients in the areas of risk, strategy, and people worldwide. The company operates through Risk and Insurance Services, and Consulting segments. The Risk and Insurance Services segment offers risk management services, such as risk management, insurance broking, insurance program management, risk consulting, analytical modeling, and alternative risk financing services. This segment also offers insurance and reinsurance broking, strategic advisory and actuarial services, and analytics solutions. It serves businesses, public entities, insurance companies, associations, professional services organizations, and private clients. The Consulting segment provides health, wealth and career advice, solutions and products; and specialized management, strategic, economic, and brand consulting services. Marsh & McLennan Companies, Inc. was founded in 1871 and is headquartered in New York, New York.",
+  "targetMeanPrice": 203.90475,
+  "targetLowPrice": 179.0,
+  "targetHighPrice": 238.0,
+  "numberOfAnalystOpinions": 21,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.52174,
+  "forwardPE": 15.387794,
+  "forwardEps": 11.42204,
+  "trailingEps": 8.14,
+  "earningsGrowth": 0.073,
+  "revenueGrowth": 0.062
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 58710000000.0,
+    "official": 58710000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 15100000000.0,
+    "official": 15315000000.0,
+    "diff": 0.014039
+   },
+   "net_income": {
+    "yahoo": 4160000000.0,
+    "official": 4160000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 26981000000.0,
+    "official": 26981000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:50:10+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -188,7 +230,10 @@
    "goodwill_and_intangibles": 18788000000.0,
    "retained_earnings": 20301000000.0,
    "total_debt": 11763000000.0,
-   "shares_out": 494785726.0
+   "shares_out": 494785726.0,
+   "unusual_items": 21000000.0,
+   "normalized_ebitda": 5249000000.0,
+   "normalized_income": 3034124000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -220,7 +265,10 @@
    "goodwill_and_intangibles": 19861000000.0,
    "retained_earnings": 22759000000.0,
    "total_debt": 13463000000.0,
-   "shares_out": 492006142.0
+   "shares_out": 492006142.0,
+   "unusual_items": 5000000.0,
+   "normalized_ebitda": 6312000000.0,
+   "normalized_income": 3752215000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -252,7 +300,10 @@
    "goodwill_and_intangibles": 28126000000.0,
    "retained_earnings": 25306000000.0,
    "total_debt": 19947000000.0,
-   "shares_out": 491402152.0
+   "shares_out": 491402152.0,
+   "unusual_items": 12000000.0,
+   "normalized_ebitda": 6914000000.0,
+   "normalized_income": 4050988000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -284,7 +335,10 @@
    "goodwill_and_intangibles": 29083000000.0,
    "retained_earnings": 27767000000.0,
    "total_debt": 19587000000.0,
-   "shares_out": 484858577.0
+   "shares_out": 484858577.0,
+   "unusual_items": 34000000.0,
+   "normalized_ebitda": 7375000000.0,
+   "normalized_income": 4134024000.0
   }
  ]
 }

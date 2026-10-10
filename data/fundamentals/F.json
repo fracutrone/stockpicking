@@ -1,6 +1,6 @@
 {
  "ticker": "F",
- "fetched_at": "2026-10-10T12:45:09+00:00",
+ "fetched_at": "2026-10-10T15:43:29+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 169000,
   "website": "https://www.ford.com",
-  "longBusinessSummary": "Ford Motor Company develops, delivers, and services Ford trucks, sport utility vehicles, commercial vans and cars, and Lincoln luxury vehicles in the United States, Canada, the United Kingdom, Mexico, and internationally. It operates through Ford Blue, Ford Model e, Ford Pro, and Ford Credit segments. The company sells Ford and Lincoln internal combustion engine and hybrid vehicles, electric vehicles, service parts, accessories, and digital services for retail customers; develops EV and digital vehicle technologies, and software; and provides telematics and EV charging solutions. It also sells Ford and Lincoln vehicles, service parts, and accessories through distributors and dealers, as well as through dealerships to commercial fleet customers, daily rental car companies, and governments. In addition, it engages in vehicle-related financing and leasing activities to and through automotive dealers. Further, the company provides retail installment sale contracts for new and used vehicles; and direct financing leases for new vehicles to retail and commercial customers, such as leasing companies, government entities, daily rental companies, and fleet customers. Additionally, it offers wholesale loans to dealers to finance the purchase of vehicle inventory; and loans to dealers to finance working capital and enhance dealership facilities, purchase dealership real estate, and other dealer vehicle programs. Ford Motor Company was incorporated in 1903 and is based in Dearborn, Michigan."
+  "longBusinessSummary": "Ford Motor Company develops, delivers, and services Ford trucks, sport utility vehicles, commercial vans and cars, and Lincoln luxury vehicles in the United States, Canada, the United Kingdom, Mexico, and internationally. It operates through Ford Blue, Ford Model e, Ford Pro, and Ford Credit segments. The company sells Ford and Lincoln internal combustion engine and hybrid vehicles, electric vehicles, service parts, accessories, and digital services for retail customers; develops EV and digital vehicle technologies, and software; and provides telematics and EV charging solutions. It also sells Ford and Lincoln vehicles, service parts, and accessories through distributors and dealers, as well as through dealerships to commercial fleet customers, daily rental car companies, and governments. In addition, it engages in vehicle-related financing and leasing activities to and through automotive dealers. Further, the company provides retail installment sale contracts for new and used vehicles; and direct financing leases for new vehicles to retail and commercial customers, such as leasing companies, government entities, daily rental companies, and fleet customers. Additionally, it offers wholesale loans to dealers to finance the purchase of vehicle inventory; and loans to dealers to finance working capital and enhance dealership facilities, purchase dealership real estate, and other dealer vehicle programs. Ford Motor Company was incorporated in 1903 and is based in Dearborn, Michigan.",
+  "targetMeanPrice": 15.75222,
+  "targetLowPrice": 12.8,
+  "targetHighPrice": 20.0,
+  "numberOfAnalystOpinions": 18,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.35,
+  "forwardPE": 6.268608,
+  "forwardEps": 1.94142,
+  "trailingEps": -1.88,
+  "earningsGrowth": null,
+  "revenueGrowth": -0.038
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 289160000000.0,
+    "official": 289160000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 35952000000.0,
+    "official": 35952000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -8182000000.0,
+    "official": -8162000000.0,
+    "diff": 0.00245
+   },
+   "revenue": {
+    "yahoo": 187267000000.0,
+    "official": 187267000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:43:29+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -203,7 +245,10 @@
    "goodwill_and_intangibles": 2350000000.0,
    "retained_earnings": 31754000000.0,
    "total_debt": 140474000000.0,
-   "shares_out": 3999960120.0
+   "shares_out": 3999960120.0,
+   "unusual_items": -7518000000.0,
+   "normalized_ebitda": 12277000000.0,
+   "normalized_income": 3386852000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -237,7 +282,10 @@
    "intangibles": 80000000.0,
    "retained_earnings": 31029000000.0,
    "total_debt": 151107000000.0,
-   "shares_out": 3973624198.0
+   "shares_out": 3973624198.0,
+   "unusual_items": -205000000.0,
+   "normalized_ebitda": 12013000000.0,
+   "normalized_income": 4508950000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -271,7 +319,10 @@
    "intangibles": 69000000.0,
    "retained_earnings": 33740000000.0,
    "total_debt": 160862000000.0,
-   "shares_out": 3963444836.0
+   "shares_out": 3963444836.0,
+   "unusual_items": -42000000.0,
+   "normalized_ebitda": 14278000000.0,
+   "normalized_income": 5913230000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -305,7 +356,10 @@
    "intangibles": 170000000.0,
    "retained_earnings": 22508000000.0,
    "total_debt": 165738000000.0,
-   "shares_out": 3988842918.0
+   "shares_out": 3988842918.0,
+   "unusual_items": 346000000.0,
+   "normalized_ebitda": 3292000000.0,
+   "normalized_income": -8420740000.0
   }
  ]
 }

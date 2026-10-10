@@ -1,6 +1,6 @@
 {
  "ticker": "CA.PA",
- "fetched_at": "2026-10-10T11:49:28+00:00",
+ "fetched_at": "2026-10-10T14:38:30+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "PAR",
   "fullTimeEmployees": 298604,
   "website": "https://www.carrefour.com",
-  "longBusinessSummary": "Carrefour SA operates as a food retailer in France, Spain, Belgium, Poland, Romania, Brazil, Argentina, the Middle East, Africa, Asia, and internationally. The company operates hypermarkets, supermarkets, convenience stores, club stores, and cash and carry stores; soft discount stores; and e-commerce sites. It is also involved in the provision of financial services; banking and insurance services; property development; travel ticketing and leisure; agency; shopping mall rental; and franchise activities. Carrefour SA was founded in 1959 and is headquartered in Massy, France."
+  "longBusinessSummary": "Carrefour SA operates as a food retailer in France, Spain, Belgium, Poland, Romania, Brazil, Argentina, the Middle East, Africa, Asia, and internationally. The company operates hypermarkets, supermarkets, convenience stores, club stores, and cash and carry stores; soft discount stores; and e-commerce sites. It is also involved in the provision of financial services; banking and insurance services; property development; travel ticketing and leisure; agency; shopping mall rental; and franchise activities. Carrefour SA was founded in 1959 and is headquartered in Massy, France.",
+  "targetMeanPrice": 16.87333,
+  "targetLowPrice": 9.0,
+  "targetHighPrice": 22.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.4,
+  "forwardPE": 8.530146,
+  "forwardEps": 1.87277,
+  "trailingEps": 2.15,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.02
  },
  "governance": {
   "ceo": {
@@ -76,8 +87,17 @@
   "intangibles": "yahoo",
   "goodwill_and_intangibles": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T14:38:30+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -111,7 +131,10 @@
    "intangibles": 1499000000.0,
    "goodwill_and_intangibles": 10143000000.0,
    "total_debt": 14087000000.0,
-   "shares_out": 730612591.0
+   "shares_out": 730612591.0,
+   "unusual_items": 160000000.0,
+   "normalized_ebitda": 4632000000.0,
+   "normalized_income": 1221913000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -145,7 +168,10 @@
    "intangibles": 1552000000.0,
    "goodwill_and_intangibles": 10264000000.0,
    "total_debt": 4901000000.0,
-   "shares_out": 691181291.0
+   "shares_out": 691181291.0,
+   "unusual_items": -442000000.0,
+   "normalized_ebitda": 4780000000.0,
+   "normalized_income": 1215696000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -179,7 +205,10 @@
    "intangibles": 1565000000.0,
    "goodwill_and_intangibles": 10511000000.0,
    "total_debt": 5069000000.0,
-   "shares_out": 645773498.0
+   "shares_out": 645773498.0,
+   "unusual_items": -181000000.0,
+   "normalized_ebitda": 4545000000.0,
+   "normalized_income": 1224391000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -213,7 +242,10 @@
    "intangibles": 1459000000.0,
    "goodwill_and_intangibles": 10129000000.0,
    "total_debt": 5259000000.0,
-   "shares_out": 706233538.0
+   "shares_out": 706233538.0,
+   "unusual_items": 277000000.0,
+   "normalized_ebitda": 4395000000.0,
+   "normalized_income": 1337450000.0
   }
  ]
 }

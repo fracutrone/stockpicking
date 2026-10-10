@@ -1,6 +1,6 @@
 {
  "ticker": "WTRG",
- "fetched_at": "2026-10-10T13:02:49+00:00",
+ "fetched_at": "2026-10-10T16:00:09+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 3303,
   "website": "https://www.essential.co",
-  "longBusinessSummary": "Essential Utilities, Inc., through its subsidiaries, operates regulated utilities that provide water, wastewater, and natural gas services in the United States. The company operates through Regulated Water; and Regulated Natural Gas segments. It also provides utility service line protection solutions and repair services to households; gas marketing and production activities; and natural gas distribution services. The company serves approximately 5.5 million residential water, commercial water, fire protection, industrial water, wastewater, and other water and utility customers in Pennsylvania, Ohio, Texas, Illinois, North Carolina, New Jersey, Indiana, Virginia, and Kentucky under the Aqua and Peoples brands. The company was formerly known as Aqua America, Inc. and changed its name to Essential Utilities, Inc. in February 2020. Essential Utilities, Inc. was founded in 1886 and is headquartered in Bryn Mawr, Pennsylvania."
+  "longBusinessSummary": "Essential Utilities, Inc., through its subsidiaries, operates regulated utilities that provide water, wastewater, and natural gas services in the United States. The company operates through Regulated Water; and Regulated Natural Gas segments. It also provides utility service line protection solutions and repair services to households; gas marketing and production activities; and natural gas distribution services. The company serves approximately 5.5 million residential water, commercial water, fire protection, industrial water, wastewater, and other water and utility customers in Pennsylvania, Ohio, Texas, Illinois, North Carolina, New Jersey, Indiana, Virginia, and Kentucky under the Aqua and Peoples brands. The company was formerly known as Aqua America, Inc. and changed its name to Essential Utilities, Inc. in February 2020. Essential Utilities, Inc. was founded in 1886 and is headquartered in Bryn Mawr, Pennsylvania.",
+  "targetMeanPrice": 42.2,
+  "targetLowPrice": 38.0,
+  "targetHighPrice": 49.0,
+  "numberOfAnalystOpinions": 5,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.71429,
+  "forwardPE": 16.381866,
+  "forwardEps": 2.37946,
+  "trailingEps": 1.96,
+  "earningsGrowth": -0.026,
+  "revenueGrowth": 0.031
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 19464845000.0,
+    "official": 19464845000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 6857456000.0,
+    "official": 6857456000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 616369000.0,
+    "official": 616369000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2474615000.0,
+    "official": 2474615000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T16:00:10+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -188,7 +230,10 @@
    "goodwill_and_intangibles": 2345396000.0,
    "retained_earnings": 1534331000.0,
    "total_debt": 3062395000.0,
-   "shares_out": 263737084.0
+   "shares_out": 263737084.0,
+   "unusual_items": 24656000.0,
+   "normalized_ebitda": 985545000.0,
+   "normalized_income": 446944713.6
   },
   {
    "fy_end": "2023-12-31",
@@ -221,7 +266,10 @@
    "goodwill_and_intangibles": 2344331000.0,
    "retained_earnings": 1706675000.0,
    "total_debt": 6893500000.0,
-   "shares_out": 273296037.0
+   "shares_out": 273296037.0,
+   "unusual_items": 17032000.0,
+   "normalized_ebitda": 1041806000.0,
+   "normalized_income": 485583146.4
   },
   {
    "fy_end": "2024-12-31",
@@ -254,7 +302,10 @@
    "goodwill_and_intangibles": 2343986000.0,
    "retained_earnings": 1949492000.0,
    "total_debt": 7511188000.0,
-   "shares_out": 274823591.0
+   "shares_out": 274823591.0,
+   "unusual_items": 113534000.0,
+   "normalized_ebitda": 1131963000.0,
+   "normalized_income": 510878764.2
   },
   {
    "fy_end": "2025-12-31",
@@ -287,7 +338,10 @@
    "goodwill_and_intangibles": 2351513000.0,
    "retained_earnings": 2280669000.0,
    "total_debt": 8131989000.0,
-   "shares_out": 283082809.0
+   "shares_out": 283082809.0,
+   "unusual_items": 27578000.0,
+   "normalized_ebitda": 1338788000.0,
+   "normalized_income": 588956468.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "IESC",
- "fetched_at": "2026-10-10T12:48:38+00:00",
+ "fetched_at": "2026-10-10T15:47:00+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NGM",
   "fullTimeEmployees": 10262,
   "website": "https://www.ies-co.com",
-  "longBusinessSummary": "IES Holdings, Inc. designs and installs integrated electrical and technology systems and provides infrastructure products and services in the United States. The Communications segment designs, builds, and maintains communications infrastructure within data centers for co-location and managed hosting customers; corporate, educational, financial, hospitality, and healthcare buildings; e-commerce distribution centers; and high-tech manufacturing facilities. It also designs and installs audio/visual, telephone, fire, and wireless access and intrusion alarm systems; and engages in designing/building, servicing, and maintaining data network systems. The Residential segment offers electrical installations to single-family housing and multi-family apartments; heating, ventilation and air conditioning and plumbing installation services; and cable television installations to residential and light commercial applications, as well as installs residential solar power for new construction and existing residences. The Infrastructure Solutions segment maintains and repairs alternating and direct current electric motors and generators, and power generating and distribution equipment; manufactures custom-engineered metal enclosed bus duct solutions used in power distribution; manufactures custom commercial and industrial generator enclosures; manufactures, re-manufactures, and repairs industrial lifting magnets; and maintains and repairs railroad main and auxiliary generators, main alternators, and traction motors. The Commercial & Industrial segment offers electrical and mechanical design, construction, and maintenance services for office buildings, manufacturing facilities, data centers, wind farms, solar facilities, municipal infrastructures, and health care facilities. The company was formerly known as Integrated Electrical Services, Inc. and changed its name to IES Holdings, Inc. in May 2016. IES Holdings, Inc. was incorporated in 1997 and is headquartered in Sugar Land, Texas."
+  "longBusinessSummary": "IES Holdings, Inc. designs and installs integrated electrical and technology systems and provides infrastructure products and services in the United States. The Communications segment designs, builds, and maintains communications infrastructure within data centers for co-location and managed hosting customers; corporate, educational, financial, hospitality, and healthcare buildings; e-commerce distribution centers; and high-tech manufacturing facilities. It also designs and installs audio/visual, telephone, fire, and wireless access and intrusion alarm systems; and engages in designing/building, servicing, and maintaining data network systems. The Residential segment offers electrical installations to single-family housing and multi-family apartments; heating, ventilation and air conditioning and plumbing installation services; and cable television installations to residential and light commercial applications, as well as installs residential solar power for new construction and existing residences. The Infrastructure Solutions segment maintains and repairs alternating and direct current electric motors and generators, and power generating and distribution equipment; manufactures custom-engineered metal enclosed bus duct solutions used in power distribution; manufactures custom commercial and industrial generator enclosures; manufactures, re-manufactures, and repairs industrial lifting magnets; and maintains and repairs railroad main and auxiliary generators, main alternators, and traction motors. The Commercial & Industrial segment offers electrical and mechanical design, construction, and maintenance services for office buildings, manufacturing facilities, data centers, wind farms, solar facilities, municipal infrastructures, and health care facilities. The company was formerly known as Integrated Electrical Services, Inc. and changed its name to IES Holdings, Inc. in May 2016. IES Holdings, Inc. was incorporated in 1997 and is headquartered in Sugar Land, Texas.",
+  "targetMeanPrice": 440.0,
+  "targetLowPrice": 440.0,
+  "targetHighPrice": 440.0,
+  "numberOfAnalystOpinions": 1,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": 11.14,
+  "earningsGrowth": 0.987,
+  "revenueGrowth": 0.396
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-09-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 1595661000.0,
+    "official": 1595661000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 883955000.0,
+    "official": 883955000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 305975000.0,
+    "official": 305975000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3371468000.0,
+    "official": 3371468000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:47:00+00:00",
  "years": [
   {
    "fy_end": "2019-09-30",
@@ -207,7 +249,10 @@
    "goodwill_and_intangibles": 164331000.0,
    "retained_earnings": 203197000.0,
    "total_debt": 81628000.0,
-   "shares_out": 40683800.0
+   "shares_out": 40683800.0,
+   "unusual_items": -208000.0,
+   "normalized_ebitda": 81448000.0,
+   "normalized_income": 34919708.118715
   },
   {
    "fy_end": "2023-09-30",
@@ -242,7 +287,10 @@
    "goodwill_and_intangibles": 148603000.0,
    "retained_earnings": 295784000.0,
    "total_debt": 0,
-   "shares_out": 40388436.0
+   "shares_out": 40388436.0,
+   "unusual_items": 13862000.0,
+   "normalized_ebitda": 176847000.0,
+   "normalized_income": 97814910.50029
   },
   {
    "fy_end": "2024-09-30",
@@ -277,7 +325,10 @@
    "goodwill_and_intangibles": 139850000.0,
    "retained_earnings": 497760000.0,
    "total_debt": 0,
-   "shares_out": 39943340.0
+   "shares_out": 39943340.0,
+   "unusual_items": 970000.0,
+   "normalized_ebitda": 341850000.0,
+   "normalized_income": 218375759.966652
   },
   {
    "fy_end": "2025-09-30",
@@ -312,7 +363,10 @@
    "goodwill_and_intangibles": 149475000.0,
    "retained_earnings": 800818000.0,
    "total_debt": 0,
-   "shares_out": 39708926.0
+   "shares_out": 39708926.0,
+   "unusual_items": -990000.0,
+   "normalized_ebitda": 443155000.0,
+   "normalized_income": 306721687.992688
   }
  ]
 }

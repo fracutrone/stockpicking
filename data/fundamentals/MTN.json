@@ -1,6 +1,6 @@
 {
  "ticker": "MTN",
- "fetched_at": "2026-10-10T12:52:24+00:00",
+ "fetched_at": "2026-10-10T15:50:29+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 6500,
   "website": "https://www.vailresorts.com",
-  "longBusinessSummary": "Vail Resorts, Inc., together with its subsidiaries, operates mountain resorts and regional ski areas in the United States and internationally. It operates in three segments: Mountain, Lodging, and Real Estate. The Mountain segment operates destination mountain resorts and regional ski areas. This segment is also involved in ancillary activities, including ski school, dining, and retail/rental operations, as well as real estate brokerage activities. Its lodging segment owns and manages various luxury hotels and condominiums under the RockResorts brand; operates other lodging properties and various condominiums; and offers resort ground transportation services. The Real Estate segment owns, develops, and sells real estate properties. Vail Resorts, Inc. was founded in 1962 and is based in Broomfield, Colorado."
+  "longBusinessSummary": "Vail Resorts, Inc., together with its subsidiaries, operates mountain resorts and regional ski areas in the United States and internationally. It operates in three segments: Mountain, Lodging, and Real Estate. The Mountain segment operates destination mountain resorts and regional ski areas. This segment is also involved in ancillary activities, including ski school, dining, and retail/rental operations, as well as real estate brokerage activities. Its lodging segment owns and manages various luxury hotels and condominiums under the RockResorts brand; operates other lodging properties and various condominiums; and offers resort ground transportation services. The Real Estate segment owns, develops, and sells real estate properties. Vail Resorts, Inc. was founded in 1962 and is based in Broomfield, Colorado.",
+  "targetMeanPrice": 145.0,
+  "targetLowPrice": 117.0,
+  "targetHighPrice": 191.0,
+  "numberOfAnalystOpinions": 13,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.61538,
+  "forwardPE": 22.039568,
+  "forwardEps": 6.62581,
+  "trailingEps": 4.12,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.025
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-07-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 5777885000.0,
+    "official": 5777885000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 424499000.0,
+    "official": 424499000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 280004000.0,
+    "official": 280004000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2964347000.0,
+    "official": 2964347000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:50:29+00:00",
  "years": [
   {
    "fy_end": "2020-07-31",
@@ -172,7 +214,10 @@
    "goodwill_and_intangibles": 2068986000.0,
    "retained_earnings": 895889000.0,
    "total_debt": 2807046000.0,
-   "shares_out": 40281000.0
+   "shares_out": 40281000.0,
+   "unusual_items": 26024000.0,
+   "normalized_ebitda": 831711000.0,
+   "normalized_income": 326947656.0
   },
   {
    "fy_end": "2023-07-31",
@@ -206,7 +251,10 @@
    "goodwill_and_intangibles": 2029689000.0,
    "retained_earnings": 873710000.0,
    "total_debt": 2825649000.0,
-   "shares_out": 38149698.0
+   "shares_out": 38149698.0,
+   "unusual_items": -37227000.0,
+   "normalized_ebitda": 832267000.0,
+   "normalized_income": 294244536.575094
   },
   {
    "fy_end": "2024-07-31",
@@ -240,7 +288,10 @@
    "goodwill_and_intangibles": 1980510000.0,
    "retained_earnings": 766826000.0,
    "total_debt": 2787638000.0,
-   "shares_out": 37485016.0
+   "shares_out": 37485016.0,
+   "unusual_items": -36853000.0,
+   "normalized_ebitda": 820280000.0,
+   "normalized_income": 257894648.679195
   },
   {
    "fy_end": "2025-07-31",
@@ -275,7 +326,10 @@
    "goodwill_and_intangibles": 1973712000.0,
    "retained_earnings": 718662000.0,
    "total_debt": 3194005000.0,
-   "shares_out": 35884817.0
+   "shares_out": 35884817.0,
+   "unusual_items": 32104000.0,
+   "normalized_ebitda": 838358000.0,
+   "normalized_income": 256214936.0
   },
   {
    "fy_end": "2026-07-31",

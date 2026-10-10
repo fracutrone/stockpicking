@@ -1,6 +1,6 @@
 {
  "ticker": "FBIN",
- "fetched_at": "2026-10-10T12:45:15+00:00",
+ "fetched_at": "2026-10-10T15:43:35+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 10000,
   "website": "https://www.fbin.com",
-  "longBusinessSummary": "Fortune Brands Innovations, Inc. provides home, security, and digital products for residential home repair, remodeling, new construction, and security applications in the United States and internationally. It operates through three segments: Water, Outdoors, and Security. The Water segment manufactures, assembles, and sells faucets, accessories, hardware, kitchen sinks, and waste disposals, under the Moen, ROHL, Riobel, Victoria+Albert, Perrin & Rowe, Aqualisa, Shaws, Emtek, Schaub, and SpringWell brands. Its Outdoors segment manufactures and sells fiberglass and steel entry door systems under the Therma-Tru brand; storm, screen, and security doors under the Larson brand; composite decking, railing and cladding under the Fiberon brand; urethane millwork under the Fypon brand; and wide-opening exterior door systems and outdoor enclosures under the Solar Innovations brand. The Security segment offers locks, safety and security devices, connected and mechanical lock out tag out solutions, and electronic security under the Master Lock, American Lock, and Yale and August brands; and fire-resistant safes, security containers, and commercial cabinets under the SentrySafe brand. The company sells its products through various sales channels, including kitchen and bath dealers; wholesalers oriented toward builders or professional remodelers; industrial and locksmith distributors; do-it-yourself remodeling-oriented home centers; showrooms; e-commerce; and other retail outlets. Fortune Brands Innovations, Inc. was incorporated in 1988 and is headquartered in Deerfield, Illinois."
+  "longBusinessSummary": "Fortune Brands Innovations, Inc. provides home, security, and digital products for residential home repair, remodeling, new construction, and security applications in the United States and internationally. It operates through three segments: Water, Outdoors, and Security. The Water segment manufactures, assembles, and sells faucets, accessories, hardware, kitchen sinks, and waste disposals, under the Moen, ROHL, Riobel, Victoria+Albert, Perrin & Rowe, Aqualisa, Shaws, Emtek, Schaub, and SpringWell brands. Its Outdoors segment manufactures and sells fiberglass and steel entry door systems under the Therma-Tru brand; storm, screen, and security doors under the Larson brand; composite decking, railing and cladding under the Fiberon brand; urethane millwork under the Fypon brand; and wide-opening exterior door systems and outdoor enclosures under the Solar Innovations brand. The Security segment offers locks, safety and security devices, connected and mechanical lock out tag out solutions, and electronic security under the Master Lock, American Lock, and Yale and August brands; and fire-resistant safes, security containers, and commercial cabinets under the SentrySafe brand. The company sells its products through various sales channels, including kitchen and bath dealers; wholesalers oriented toward builders or professional remodelers; industrial and locksmith distributors; do-it-yourself remodeling-oriented home centers; showrooms; e-commerce; and other retail outlets. Fortune Brands Innovations, Inc. was incorporated in 1988 and is headquartered in Deerfield, Illinois.",
+  "targetMeanPrice": 53.58824,
+  "targetLowPrice": 41.0,
+  "targetHighPrice": 70.0,
+  "numberOfAnalystOpinions": 17,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.35,
+  "forwardPE": 11.590835,
+  "forwardEps": 3.36559,
+  "trailingEps": 1.24,
+  "earningsGrowth": null,
+  "revenueGrowth": -0.041
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 6520600000.0,
+    "official": 6520600000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2388600000.0,
+    "official": 2388600000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 298800000.0,
+    "official": 298800000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 4463200000.0,
+    "official": 4463200000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:43:35+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -204,7 +246,10 @@
    "goodwill_and_intangibles": 2641500000.0,
    "retained_earnings": 2323800000.0,
    "total_debt": 3272700000.0,
-   "shares_out": 128040559.0
+   "shares_out": 128040559.0,
+   "unusual_items": -35700000.0,
+   "normalized_ebitda": 1013600000.0,
+   "normalized_income": 568781300.0
   },
   {
    "fy_end": "2023-12-30",
@@ -238,7 +283,10 @@
    "goodwill_and_intangibles": 3261500000.0,
    "retained_earnings": 2605300000.0,
    "total_debt": 2670100000.0,
-   "shares_out": 126287327.0
+   "shares_out": 126287327.0,
+   "unusual_items": -62600000.0,
+   "normalized_ebitda": 865800000.0,
+   "normalized_income": 454515800.0
   },
   {
    "fy_end": "2024-12-28",
@@ -272,7 +320,10 @@
    "goodwill_and_intangibles": 3289200000.0,
    "retained_earnings": 2956800000.0,
    "total_debt": 3172900000.0,
-   "shares_out": 123637515.0
+   "shares_out": 123637515.0,
+   "unusual_items": -20900000.0,
+   "normalized_ebitda": 940500000.0,
+   "normalized_income": 488181100.0
   },
   {
    "fy_end": "2025-12-27",
@@ -306,7 +357,10 @@
    "goodwill_and_intangibles": 3238100000.0,
    "retained_earnings": 3135000000.0,
    "total_debt": 2544900000.0,
-   "shares_out": 119956247.0
+   "shares_out": 119956247.0,
+   "unusual_items": -109400000.0,
+   "normalized_ebitda": 824000000.0,
+   "normalized_income": 379537200.0
   }
  ]
 }

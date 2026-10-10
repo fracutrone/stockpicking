@@ -1,6 +1,6 @@
 {
  "ticker": "BC.MI",
- "fetched_at": "2026-10-10T11:47:29+00:00",
+ "fetched_at": "2026-10-10T14:34:22+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.5005,
   "heldPercentInstitutions": 0.30194,
   "shortPercentOfFloat": null,
-  "averageVolume": 249331,
+  "averageVolume": 247864,
   "quoteType": "EQUITY",
   "exchange": "MIL",
   "fullTimeEmployees": 3542,
   "website": "https://www.brunellocucinelli.it",
-  "longBusinessSummary": "Brunello Cucinelli S.p.A., together with its subsidiaries, engages in the production and sale of clothing, accessories, and lifestyle products in Italy, Europe, the United States, and Asia. The company offers women's collection, including coats and jackets, blazers, knitwear, jumpsuits, dresses, t-shirts and tops, shirts, skirts, pants, denim, beach and travel wear, and matching sets; sneakers, heels, boots, loafers, sandals, and flat shoes; hats, belts, eyewear, jewelry, scarves, leather goods, and other accessories; mini bags and clutches; crossbody bags and backpacks; and handbags and shoppers. It also provides men's collection, such as coats and jackets, knitwear, blazers, suits, tuxedos, t-shirts and polos, shirts, pants, denim, travel and beach wear, and ready-to-wear products; sneakers, lace-ups, loafers, slides and flip-flops, espadrilles, leisure products, and other shoes; leather goods, bags, hats, belts, scarves; other accessories; and kids, fragrance, and gift products. In addition, the company offers lifestyle products, which include throws and blankets, cushions, studio products, candles and fragrances, travel essentials, décor sets, bathrobes and towels, leisure wear, kitchen and tableware, and dining and ceramic creation products. It sells its products through directly operated stores, hard shops, single-brand stores, independent multi-brand points of sale, and dedicated shop-in-shops in department stores, as well as online under the Brunello Cucinelli brand. Brunello Cucinelli S.p.A. was founded in 1978 and is headquartered in Solomeo, Italy. Brunello Cucinelli S.p.A. is a subsidiary of Fedone S.R.L."
+  "longBusinessSummary": "Brunello Cucinelli S.p.A., together with its subsidiaries, engages in the production and sale of clothing, accessories, and lifestyle products in Italy, Europe, the United States, and Asia. The company offers women's collection, including coats and jackets, blazers, knitwear, jumpsuits, dresses, t-shirts and tops, shirts, skirts, pants, denim, beach and travel wear, and matching sets; sneakers, heels, boots, loafers, sandals, and flat shoes; hats, belts, eyewear, jewelry, scarves, leather goods, and other accessories; mini bags and clutches; crossbody bags and backpacks; and handbags and shoppers. It also provides men's collection, such as coats and jackets, knitwear, blazers, suits, tuxedos, t-shirts and polos, shirts, pants, denim, travel and beach wear, and ready-to-wear products; sneakers, lace-ups, loafers, slides and flip-flops, espadrilles, leisure products, and other shoes; leather goods, bags, hats, belts, scarves; other accessories; and kids, fragrance, and gift products. In addition, the company offers lifestyle products, which include throws and blankets, cushions, studio products, candles and fragrances, travel essentials, décor sets, bathrobes and towels, leisure wear, kitchen and tableware, and dining and ceramic creation products. It sells its products through directly operated stores, hard shops, single-brand stores, independent multi-brand points of sale, and dedicated shop-in-shops in department stores, as well as online under the Brunello Cucinelli brand. Brunello Cucinelli S.p.A. was founded in 1978 and is headquartered in Solomeo, Italy. Brunello Cucinelli S.p.A. is a subsidiary of Fedone S.R.L.",
+  "targetMeanPrice": 99.27,
+  "targetLowPrice": 70.0,
+  "targetHighPrice": 130.0,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": 30.666157,
+  "forwardEps": 2.627,
+  "trailingEps": 2.03,
+  "earningsGrowth": 0.038,
+  "revenueGrowth": 0.095
  },
  "governance": {
   "ceo": {
@@ -77,8 +88,35 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF IT",
+  "fy_end": "2025-12-31",
+  "items": {
+   "equity": {
+    "yahoo": 546020000.0,
+    "official": 564005000.0,
+    "diff": 0.031888
+   },
+   "net_income": {
+    "yahoo": 135034000.0,
+    "official": 141989000.0,
+    "diff": 0.048983
+   },
+   "revenue": {
+    "yahoo": 1407951000.0,
+    "official": 188000.0,
+    "diff": 7488.101064
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:34:22+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -113,7 +151,10 @@
    "goodwill_and_intangibles": 13970000.0,
    "retained_earnings": 80599000.0,
    "total_debt": 687640000.0,
-   "shares_out": 68000000.0
+   "shares_out": 68000000.0,
+   "unusual_items": -18318000.0,
+   "normalized_ebitda": 288370000.0,
+   "normalized_income": 93485713.0
   },
   {
    "fy_end": "2023-12-31",
@@ -147,7 +188,10 @@
    "goodwill_and_intangibles": 13824000.0,
    "retained_earnings": 114617000.0,
    "total_debt": 666998000.0,
-   "shares_out": 68000000.0
+   "shares_out": 68000000.0,
+   "unusual_items": -19840000.0,
+   "normalized_ebitda": 350398000.0,
+   "normalized_income": 128787741.832573
   },
   {
    "fy_end": "2024-12-31",
@@ -181,7 +225,10 @@
    "goodwill_and_intangibles": 16432000.0,
    "retained_earnings": 119478000.0,
    "total_debt": 961987000.0,
-   "shares_out": 67950000.0
+   "shares_out": 67950000.0,
+   "unusual_items": -9717000.0,
+   "normalized_ebitda": 371419000.0,
+   "normalized_income": 126425711.495129
   },
   {
    "fy_end": "2025-12-31",
@@ -215,7 +262,10 @@
    "goodwill_and_intangibles": 21925000.0,
    "retained_earnings": 135034000.0,
    "total_debt": 1187356000.0,
-   "shares_out": 68000000.0
+   "shares_out": 68000000.0,
+   "unusual_items": -20544000.0,
+   "normalized_ebitda": 440098000.0,
+   "normalized_income": 149714829.085638
   }
  ]
 }

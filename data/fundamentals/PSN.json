@@ -1,6 +1,6 @@
 {
  "ticker": "PSN",
- "fetched_at": "2026-10-10T12:56:06+00:00",
+ "fetched_at": "2026-10-10T15:53:46+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 21000,
   "website": "https://www.parsons.com",
-  "longBusinessSummary": "Parsons Corporation provides design, engineering and technical services, and smart and agile software for the United States federal government and critical infrastructure customers worldwide. It operates through Federal Solutions and Critical Infrastructure segments. The Federal Solutions segment offers critical technologies, such as cyber; air and missile defense; intelligence; aviation modernization; electronic warfare; space ground systems, cislunar, A-PNT, and classified sensors; geospatial and signals intelligence; environmental remediation; border security and counter-drug, critical infrastructure protection; counter unmanned air systems; biometrics; and bio surveillance solutions. This segment also provides software and hardware, and technical expertise; satellite ground systems support and operations, flight dynamics, data fusion and analytics, platform system integration, directed energy, joint all-domain operations, and command and control systems; digital landscape, including full-spectrum cyber, defensive cyber operations, information operations, and analytics; and electronic warfare, multi-domain operations, mission support and national to tactical operations, as well as cyber solutions and products. The Critical Infrastructure segment develops digital solutions for aviation, rail and transit, bridges, roads, highways, and urban destinations. This segment also provides planning, engineering, and management services for complex infrastructure comprising bridges, tunnels, roads and highways, and water and wastewater systems; intelligent transportation systems, utilities, environmental remediation, emerging contaminants, aviation, and rail and transit, as well as ParsonsX, a digital transformation organization; and multi-disciplinary design, technical, and management solutions. Parsons Corporation was founded in 1944 and is headquartered in Chantilly, Virginia."
+  "longBusinessSummary": "Parsons Corporation provides design, engineering and technical services, and smart and agile software for the United States federal government and critical infrastructure customers worldwide. It operates through Federal Solutions and Critical Infrastructure segments. The Federal Solutions segment offers critical technologies, such as cyber; air and missile defense; intelligence; aviation modernization; electronic warfare; space ground systems, cislunar, A-PNT, and classified sensors; geospatial and signals intelligence; environmental remediation; border security and counter-drug, critical infrastructure protection; counter unmanned air systems; biometrics; and bio surveillance solutions. This segment also provides software and hardware, and technical expertise; satellite ground systems support and operations, flight dynamics, data fusion and analytics, platform system integration, directed energy, joint all-domain operations, and command and control systems; digital landscape, including full-spectrum cyber, defensive cyber operations, information operations, and analytics; and electronic warfare, multi-domain operations, mission support and national to tactical operations, as well as cyber solutions and products. The Critical Infrastructure segment develops digital solutions for aviation, rail and transit, bridges, roads, highways, and urban destinations. This segment also provides planning, engineering, and management services for complex infrastructure comprising bridges, tunnels, roads and highways, and water and wastewater systems; intelligent transportation systems, utilities, environmental remediation, emerging contaminants, aviation, and rail and transit, as well as ParsonsX, a digital transformation organization; and multi-disciplinary design, technical, and management solutions. Parsons Corporation was founded in 1944 and is headquartered in Chantilly, Virginia.",
+  "targetMeanPrice": 58.72727,
+  "targetLowPrice": 50.0,
+  "targetHighPrice": 66.0,
+  "numberOfAnalystOpinions": 11,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.57143,
+  "forwardPE": 13.171928,
+  "forwardEps": 3.42243,
+  "trailingEps": 1.45,
+  "earningsGrowth": null,
+  "revenueGrowth": -0.005
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 5769534000.0,
+    "official": 5769534000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2642020000.0,
+    "official": 2642020000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 241139000.0,
+    "official": 241139000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 6364245000.0,
+    "official": 6364245000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:53:46+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -201,7 +243,10 @@
    "goodwill_and_intangibles": 1915977000.0,
    "retained_earnings": 43089000.0,
    "total_debt": 743605000.0,
-   "shares_out": 104702996.0
+   "shares_out": 104702996.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 309908000.0,
+   "normalized_income": 96664000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -234,7 +279,10 @@
    "goodwill_and_intangibles": 2068231000.0,
    "retained_earnings": 203724000.0,
    "total_debt": 745963000.0,
-   "shares_out": 105839979.0
+   "shares_out": 105839979.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 415523000.0,
+   "normalized_income": 161149000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -267,7 +315,10 @@
    "goodwill_and_intangibles": 2432617000.0,
    "retained_earnings": 426781000.0,
    "total_debt": 1247501000.0,
-   "shares_out": 106775350.0
+   "shares_out": 106775350.0,
+   "unusual_items": -18355000.0,
+   "normalized_ebitda": 536839000.0,
+   "normalized_income": 249571805.0
   },
   {
    "fy_end": "2025-12-31",
@@ -300,7 +351,10 @@
    "goodwill_and_intangibles": 2512530000.0,
    "retained_earnings": 661173000.0,
    "total_debt": 1237816000.0,
-   "shares_out": 106968082.0
+   "shares_out": 106968082.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 550300000.0,
+   "normalized_income": 241139000.0
   }
  ]
 }

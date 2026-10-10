@@ -1,6 +1,6 @@
 {
  "ticker": "WING",
- "fetched_at": "2026-10-10T13:02:22+00:00",
+ "fetched_at": "2026-10-10T15:59:47+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 345,
   "website": "https://www.wingstop.com",
-  "longBusinessSummary": "Wingstop Inc., together with its subsidiaries, franchises and operates restaurants under the Wingstop brand in United States, Australia, Bahrain, Kuwait, Puerto Rico, Saudi Arabia, and The Netherlands. Its restaurants provides classic wings, boneless wings, tenders, and hand-sauced-and-tossed in various flavors, as well as chicken sandwiches, fries, and hand-cut carrots and celery that are cooked-to-order. The company was founded in 1994 and is headquartered in Dallas, Texas."
+  "longBusinessSummary": "Wingstop Inc., together with its subsidiaries, franchises and operates restaurants under the Wingstop brand in United States, Australia, Bahrain, Kuwait, Puerto Rico, Saudi Arabia, and The Netherlands. Its restaurants provides classic wings, boneless wings, tenders, and hand-sauced-and-tossed in various flavors, as well as chicken sandwiches, fries, and hand-cut carrots and celery that are cooked-to-order. The company was founded in 1994 and is headquartered in Dallas, Texas.",
+  "targetMeanPrice": 196.07692,
+  "targetLowPrice": 120.0,
+  "targetHighPrice": 265.0,
+  "numberOfAnalystOpinions": 26,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.5,
+  "forwardPE": 22.887758,
+  "forwardEps": 5.34172,
+  "trailingEps": 4.22,
+  "earningsGrowth": 0.198,
+  "revenueGrowth": 0.064
  },
  "governance": {
   "top_institutions": [
@@ -77,8 +88,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 693409000.0,
+    "official": 693409000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": -736762000.0,
+    "official": -736762000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 174267000.0,
+    "official": 174267000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 696853000.0,
+    "official": 696853000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:59:47+00:00",
  "years": [
   {
    "fy_end": "2019-12-28",
@@ -190,7 +232,10 @@
    "goodwill_and_intangibles": 104229000.0,
    "retained_earnings": -393321000.0,
    "total_debt": 724575000.0,
-   "shares_out": 29932668.0
+   "shares_out": 29932668.0,
+   "unusual_items": -1978000.0,
+   "normalized_ebitda": 103423000.0,
+   "normalized_income": 54457894.540943
   },
   {
    "fy_end": "2023-12-30",
@@ -224,7 +269,10 @@
    "goodwill_and_intangibles": 108148000.0,
    "retained_earnings": -459994000.0,
    "total_debt": 720925000.0,
-   "shares_out": 29337920.0
+   "shares_out": 29337920.0,
+   "unusual_items": -152000.0,
+   "normalized_ebitda": 125928000.0,
+   "normalized_income": 70288088.0
   },
   {
    "fy_end": "2024-12-28",
@@ -257,7 +305,10 @@
    "goodwill_and_intangibles": 107418000.0,
    "retained_earnings": -676940000.0,
    "total_debt": 1220925000.0,
-   "shares_out": 28662614.0
+   "shares_out": 28662614.0,
+   "unusual_items": 3904000.0,
+   "normalized_ebitda": 184068000.0,
+   "normalized_income": 105831944.0
   },
   {
    "fy_end": "2025-12-27",
@@ -290,7 +341,10 @@
    "goodwill_and_intangibles": 116575000.0,
    "retained_earnings": -744915000.0,
    "total_debt": 1220925000.0,
-   "shares_out": 27540619.0
+   "shares_out": 27540619.0,
+   "unusual_items": 87147000.0,
+   "normalized_ebitda": 210894000.0,
+   "normalized_income": 110240099.1
   }
  ]
 }

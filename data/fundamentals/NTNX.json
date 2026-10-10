@@ -1,6 +1,6 @@
 {
  "ticker": "NTNX",
- "fetched_at": "2026-10-10T12:53:16+00:00",
+ "fetched_at": "2026-10-10T15:51:21+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 8350,
   "website": "https://www.nutanix.com",
-  "longBusinessSummary": "Nutanix, Inc. provides a cloud and artificial intelligence platform (AI) in North America, Europe, the Asia Pacific, the Middle East, Latin America, and Africa. It offers hyperconverged infrastructure software (HCI); Nutanix Cloud Platform for building hybrid multicloud infrastructure; Nutanix cloud infrastructure, a distributed HCI for enterprise IT applications, including Nutanix AOS, Nutanix AHV, Nutanix data services for Kubernetes, flow network security, flow virtual networking, Nutanix Cloud Clusters, Nutanix central, and Nutanix prism; and Nutanix Cloud Manager, is a unified management solution, such as NCM Intelligent Operations, NCM Self-Service and Orchestration, NCM Cost Governance, and Nutanix Security Central unifies cloud security operations. The company also offers Nutanix Kubernetes Platform, an enterprise Kubernetes platform for deploying and managing modern, containerized applications across hybrid multicloud environments; Nutanix Enterprise AI, a centralized fine-tuning and inferencing platform; Nutanix Agent Gateway for governing interactions between agents, LLMs, and tools; Nutanix Private Inferencing that helps organizations to build adaptive AI factories; Nutanix Unified Storage, a software-defined platform that consolidates file, object, and block storage into one intelligent data fabric; Nutanix Files Storage, a software-defined scale-out file storage solution; Nutanix Objects Storage, a scale-out S3-compatible object storage solution; Nutanix Volumes Block Storage, a software-defined storage solution; and Nutanix Data Lens, a cloud-based cyber resilience service. In addition, it provides product support, and consulting and implementation services. The company serves financial services, retail, manufacturing, public sector, automotive and other transportation, consumer goods, education, energy, healthcare, media, technology, and telecommunications industries. The company was incorporated in 2009 and is headquartered in San Jose, California."
+  "longBusinessSummary": "Nutanix, Inc. provides a cloud and artificial intelligence platform (AI) in North America, Europe, the Asia Pacific, the Middle East, Latin America, and Africa. It offers hyperconverged infrastructure software (HCI); Nutanix Cloud Platform for building hybrid multicloud infrastructure; Nutanix cloud infrastructure, a distributed HCI for enterprise IT applications, including Nutanix AOS, Nutanix AHV, Nutanix data services for Kubernetes, flow network security, flow virtual networking, Nutanix Cloud Clusters, Nutanix central, and Nutanix prism; and Nutanix Cloud Manager, is a unified management solution, such as NCM Intelligent Operations, NCM Self-Service and Orchestration, NCM Cost Governance, and Nutanix Security Central unifies cloud security operations. The company also offers Nutanix Kubernetes Platform, an enterprise Kubernetes platform for deploying and managing modern, containerized applications across hybrid multicloud environments; Nutanix Enterprise AI, a centralized fine-tuning and inferencing platform; Nutanix Agent Gateway for governing interactions between agents, LLMs, and tools; Nutanix Private Inferencing that helps organizations to build adaptive AI factories; Nutanix Unified Storage, a software-defined platform that consolidates file, object, and block storage into one intelligent data fabric; Nutanix Files Storage, a software-defined scale-out file storage solution; Nutanix Objects Storage, a scale-out S3-compatible object storage solution; Nutanix Volumes Block Storage, a software-defined storage solution; and Nutanix Data Lens, a cloud-based cyber resilience service. In addition, it provides product support, and consulting and implementation services. The company serves financial services, retail, manufacturing, public sector, automotive and other transportation, consumer goods, education, energy, healthcare, media, technology, and telecommunications industries. The company was incorporated in 2009 and is headquartered in San Jose, California.",
+  "targetMeanPrice": 77.78786,
+  "targetLowPrice": 63.0,
+  "targetHighPrice": 90.0,
+  "numberOfAnalystOpinions": 14,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0625,
+  "forwardPE": 27.92809,
+  "forwardEps": 2.67222,
+  "trailingEps": 5.17,
+  "earningsGrowth": 31.485,
+  "revenueGrowth": 0.159
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-07-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 5073685000.0,
+    "official": 5073685000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 702565000.0,
+    "official": 702565000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1506837000.0,
+    "official": 1506837000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2853545000.0,
+    "official": 2853545000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:51:21+00:00",
  "years": [
   {
    "fy_end": "2020-07-31",
@@ -160,7 +202,8 @@
    "ppe_net": 113440000.0,
    "goodwill": 185260000.0,
    "intangibles": 15829000.0,
-   "retained_earnings": -4378362000.0
+   "retained_earnings": -4378362000.0,
+   "unusual_items": -262949000.0
   },
   {
    "fy_end": "2023-07-31",
@@ -194,7 +237,10 @@
    "goodwill_and_intangibles": 189831000.0,
    "retained_earnings": -4632922000.0,
    "total_debt": 1316672000.0,
-   "shares_out": 239607000.0
+   "shares_out": 239607000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": -93084000.0,
+   "normalized_income": -254560000.0
   },
   {
    "fy_end": "2024-07-31",
@@ -228,7 +274,10 @@
    "goodwill_and_intangibles": 190388000.0,
    "retained_earnings": -4847199000.0,
    "total_debt": 684595000.0,
-   "shares_out": 265181000.0
+   "shares_out": 265181000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 80762000.0,
+   "normalized_income": -124775000.0
   },
   {
    "fy_end": "2025-07-31",
@@ -262,7 +311,9 @@
    "goodwill_and_intangibles": 187850000.0,
    "retained_earnings": -4895693000.0,
    "total_debt": 1482806000.0,
-   "shares_out": 269045000.0
+   "shares_out": 269045000.0,
+   "normalized_ebitda": 292727000.0,
+   "normalized_income": 188366000.0
   },
   {
    "fy_end": "2026-07-31",
@@ -296,7 +347,9 @@
    "goodwill_and_intangibles": 187072000.0,
    "retained_earnings": -3708606000.0,
    "total_debt": 1518734000.0,
-   "shares_out": 270829000.0
+   "shares_out": 270829000.0,
+   "normalized_ebitda": 409732000.0,
+   "normalized_income": 1506837000.0
   }
  ]
 }

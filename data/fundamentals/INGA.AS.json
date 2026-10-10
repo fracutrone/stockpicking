@@ -1,6 +1,6 @@
 {
  "ticker": "INGA.AS",
- "fetched_at": "2026-10-10T12:03:37+00:00",
+ "fetched_at": "2026-10-10T14:58:07+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -11,7 +11,7 @@
   "country": "Netherlands",
   "currency": "EUR",
   "financialCurrency": "EUR",
-  "marketCap": 84295081984,
+  "marketCap": 83731259392,
   "sharesOutstanding": 2825894541,
   "floatShares": 2868355756,
   "heldPercentInsiders": 0.00717,
@@ -22,7 +22,18 @@
   "exchange": "AMS",
   "fullTimeEmployees": 60000,
   "website": "https://www.ing.com",
-  "longBusinessSummary": "ING Groep N.V. provides various banking products and services in the Netherlands, Belgium, Germany, rest of Europe, and internationally. The company operates through five segments: Retail Netherlands, Retail Belgium, Retail Germany, Retail Other, and Wholesale Banking. It accepts current and savings accounts; and time deposits. The company also offers business lending products; SME loans; consumer lending products, such as residential mortgage loans and other consumer lending loans; and mortgages. In addition, it provides working capital solutions; debt and equity market solutions; various loans; payments; and cash management, trade and corporate finance, and treasury services, as well as savings, investment, insurance, and digital banking services. The company serves individual customers, corporate clients, and financial institutions. ING Groep N.V. was founded in 1762 and is headquartered in Amsterdam, the Netherlands."
+  "longBusinessSummary": "ING Groep N.V. provides various banking products and services in the Netherlands, Belgium, Germany, rest of Europe, and internationally. The company operates through five segments: Retail Netherlands, Retail Belgium, Retail Germany, Retail Other, and Wholesale Banking. It accepts current and savings accounts; and time deposits. The company also offers business lending products; SME loans; consumer lending products, such as residential mortgage loans and other consumer lending loans; and mortgages. In addition, it provides working capital solutions; debt and equity market solutions; various loans; payments; and cash management, trade and corporate finance, and treasury services, as well as savings, investment, insurance, and digital banking services. The company serves individual customers, corporate clients, and financial institutions. ING Groep N.V. was founded in 1762 and is headquartered in Amsterdam, the Netherlands.",
+  "targetMeanPrice": 33.4945,
+  "targetLowPrice": 24.99,
+  "targetHighPrice": 41.0,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": 10.059379,
+  "forwardEps": 2.94551,
+  "trailingEps": 2.29,
+  "earningsGrowth": 0.221,
+  "revenueGrowth": 0.111
  },
  "governance": {
   "ceo": {
@@ -77,8 +88,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF NL",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 1054405000000.0,
+    "official": 1054405000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 49698000000.0,
+    "official": 49698000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 6327000000.0,
+    "official": 6327000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 22903000000.0,
+    "official": 23035000000.0,
+    "diff": 0.00573
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T14:58:07+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -104,7 +146,9 @@
    "goodwill_and_intangibles": 1101000000.0,
    "retained_earnings": 34944000000.0,
    "total_debt": 119497000000.0,
-   "shares_out": 3619144872.0
+   "shares_out": 3619144872.0,
+   "unusual_items": -702000000.0,
+   "normalized_income": 4155907306.434024
   },
   {
    "fy_end": "2023-12-31",
@@ -131,7 +175,9 @@
    "goodwill_and_intangibles": 1198000000.0,
    "retained_earnings": 36852000000.0,
    "total_debt": 150000000000.0,
-   "shares_out": 3343622989.0
+   "shares_out": 3343622989.0,
+   "unusual_items": -249000000.0,
+   "normalized_income": 7465533000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -158,7 +204,9 @@
    "goodwill_and_intangibles": 1333000000.0,
    "retained_earnings": 33853000000.0,
    "total_debt": 171327000000.0,
-   "shares_out": 3096274533.0
+   "shares_out": 3096274533.0,
+   "unusual_items": -141000000.0,
+   "normalized_income": 6492815000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -184,7 +232,9 @@
    "goodwill_and_intangibles": 1512000000.0,
    "retained_earnings": 35630000000.0,
    "total_debt": 179219000000.0,
-   "shares_out": 2902437688.0
+   "shares_out": 2902437688.0,
+   "unusual_items": -77000000.0,
+   "normalized_income": 6382594000.0
   }
  ]
 }

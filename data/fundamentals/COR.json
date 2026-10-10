@@ -1,6 +1,6 @@
 {
  "ticker": "COR",
- "fetched_at": "2026-10-10T12:41:48+00:00",
+ "fetched_at": "2026-10-10T15:40:20+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 47000,
   "website": "https://www.cencora.com",
-  "longBusinessSummary": "Cencora, Inc. sources and distributes pharmaceutical products in the United States and internationally. The company's U.S. Healthcare Solutions segment distributes generic and injectable pharmaceuticals, over-the-counter healthcare products, home healthcare supplies and equipment, and related services to acute care hospitals and health systems, independent and chain retail pharmacies, mail order pharmacies, medical clinics, long-term care and alternate site pharmacies, and other customers; distributes plasma and other blood products, vaccines, and other specialty pharmaceutical products; provides pharmacy management, staffing, and other consulting services; supply management software to retail and institutional healthcare providers; packaging solutions to institutional and retail healthcare providers; clinical trial support, product post-approval, and commercialization support services; data analytics, outcomes research, and other services for biotechnology and pharmaceutical manufacturers; pharmaceuticals, vaccines, parasiticides, diagnostics, micro feed ingredients, and other products to the companion animal and production animal markets; sales force services to manufacturers; and offers other services to physicians who specialize in various disease states, such as oncology, as well as to other healthcare providers, including hospitals and dialysis clinics. Its International Healthcare Solutions segment provides international pharmaceutical wholesale and related service, and global commercialization services; distributes pharmaceuticals, other healthcare products, and related services to pharmacies, doctors, health centers, and hospitals; and offers specialty transportation and logistics services for the biopharmaceutical industry. The company was formerly known as AmerisourceBergen Corporation and changed its name to Cencora, Inc. in August 2023. Cencora, Inc. was founded in 1871 and is headquartered in Conshohocken, Pennsylvania."
+  "longBusinessSummary": "Cencora, Inc. sources and distributes pharmaceutical products in the United States and internationally. The company's U.S. Healthcare Solutions segment distributes generic and injectable pharmaceuticals, over-the-counter healthcare products, home healthcare supplies and equipment, and related services to acute care hospitals and health systems, independent and chain retail pharmacies, mail order pharmacies, medical clinics, long-term care and alternate site pharmacies, and other customers; distributes plasma and other blood products, vaccines, and other specialty pharmaceutical products; provides pharmacy management, staffing, and other consulting services; supply management software to retail and institutional healthcare providers; packaging solutions to institutional and retail healthcare providers; clinical trial support, product post-approval, and commercialization support services; data analytics, outcomes research, and other services for biotechnology and pharmaceutical manufacturers; pharmaceuticals, vaccines, parasiticides, diagnostics, micro feed ingredients, and other products to the companion animal and production animal markets; sales force services to manufacturers; and offers other services to physicians who specialize in various disease states, such as oncology, as well as to other healthcare providers, including hospitals and dialysis clinics. Its International Healthcare Solutions segment provides international pharmaceutical wholesale and related service, and global commercialization services; distributes pharmaceuticals, other healthcare products, and related services to pharmacies, doctors, health centers, and hospitals; and offers specialty transportation and logistics services for the biopharmaceutical industry. The company was formerly known as AmerisourceBergen Corporation and changed its name to Cencora, Inc. in August 2023. Cencora, Inc. was founded in 1871 and is headquartered in Conshohocken, Pennsylvania.",
+  "targetMeanPrice": 369.91666,
+  "targetLowPrice": 330.0,
+  "targetHighPrice": 430.0,
+  "numberOfAnalystOpinions": 12,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.71429,
+  "forwardPE": 16.354689,
+  "forwardEps": 19.80166,
+  "trailingEps": 13.47,
+  "earningsGrowth": 0.119,
+  "revenueGrowth": 0.051
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-09-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 76590112000.0,
+    "official": 76590112000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1508019000.0,
+    "official": 1508019000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1554169000.0,
+    "official": 1554169000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 321332819000.0,
+    "official": 321332819000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:40:20+00:00",
  "years": [
   {
    "fy_end": "2019-09-30",
@@ -200,7 +242,10 @@
    "goodwill_and_intangibles": 12836623000.0,
    "retained_earnings": 2977646000.0,
    "total_debt": 5702833000.0,
-   "shares_out": 206203817.0
+   "shares_out": 206203817.0,
+   "unusual_items": -387132000.0,
+   "normalized_ebitda": 3490697000.0,
+   "normalized_income": 1994201716.0
   },
   {
    "fy_end": "2023-09-30",
@@ -234,7 +279,10 @@
    "goodwill_and_intangibles": 14005900000.0,
    "retained_earnings": 4324187000.0,
    "total_debt": 4787457000.0,
-   "shares_out": 200814804.0
+   "shares_out": 200814804.0,
+   "unusual_items": -344874000.0,
+   "normalized_ebitda": 3715489000.0,
+   "normalized_income": 2021881948.0
   },
   {
    "fy_end": "2024-09-30",
@@ -268,7 +316,10 @@
    "goodwill_and_intangibles": 13319073000.0,
    "retained_earnings": 5417139000.0,
    "total_debt": 4388076000.0,
-   "shares_out": 194943968.0
+   "shares_out": 194943968.0,
+   "unusual_items": -981700000.0,
+   "normalized_ebitda": 4353199000.0,
+   "normalized_income": 2253375943.362567
   },
   {
    "fy_end": "2025-09-30",
@@ -302,7 +353,10 @@
    "goodwill_and_intangibles": 17450701000.0,
    "retained_earnings": 6534227000.0,
    "total_debt": 7660773000.0,
-   "shares_out": 193937673.0
+   "shares_out": 193937673.0,
+   "unusual_items": -1305021000.0,
+   "normalized_ebitda": 5051526000.0,
+   "normalized_income": 2460159160.053243
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "MMM",
- "fetched_at": "2026-10-10T12:51:40+00:00",
+ "fetched_at": "2026-10-10T15:49:51+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 60500,
   "website": "https://www.3m.com",
-  "longBusinessSummary": "3M Company provides diversified technology services in the America, the Asia Pacific, Europe, the Middle East, Africa, and internationally. It operates through three segments: Safety and Industrial, Transportation and Electronics, and Consumer. The Safety and Industrial segment provides industrial abrasives and finishing for metalworking applications; autobody repair solutions; industrial specialty products, such as personal hygiene products, masking, and packaging materials; electrical products and materials for construction and maintenance, power distribution, and electrical original equipment manufacturers; structural adhesives and tapes; respiratory, hearing, eye, and fall protection solutions; and natural and color-coated mineral granules for shingles. The Transportation and Electronics segment provides ceramic solutions; attachment and bonding, films, sound, and temperature management for transportation vehicles; format graphic films for advertising and fleet signage; reflective signage for highway and vehicle safety; light management films and electronics assembly solutions; chip packaging and interconnection solutions; semiconductor production materials; and data center solutions. The Consumer segment offers cleaning products for the home; consumer air quality products; picture hanging accessories; retail abrasives, paint accessories, and safety products; stationery and office products; automotive appearance products; and consumer bandages, tapes, braces, and supports. It serves automotive; commercial solutions; consumer markets; design and construction; electronics; energy; government; manufacturing; safety; transportation industries. The company offers its products through e-commerce and traditional wholesalers, retailers, jobbers, distributors, channel partner, and dealers, as well as directly to users. 3M Company was founded in 1902 and is headquartered in Saint Paul, Minnesota."
+  "longBusinessSummary": "3M Company provides diversified technology services in the America, the Asia Pacific, Europe, the Middle East, Africa, and internationally. It operates through three segments: Safety and Industrial, Transportation and Electronics, and Consumer. The Safety and Industrial segment provides industrial abrasives and finishing for metalworking applications; autobody repair solutions; industrial specialty products, such as personal hygiene products, masking, and packaging materials; electrical products and materials for construction and maintenance, power distribution, and electrical original equipment manufacturers; structural adhesives and tapes; respiratory, hearing, eye, and fall protection solutions; and natural and color-coated mineral granules for shingles. The Transportation and Electronics segment provides ceramic solutions; attachment and bonding, films, sound, and temperature management for transportation vehicles; format graphic films for advertising and fleet signage; reflective signage for highway and vehicle safety; light management films and electronics assembly solutions; chip packaging and interconnection solutions; semiconductor production materials; and data center solutions. The Consumer segment offers cleaning products for the home; consumer air quality products; picture hanging accessories; retail abrasives, paint accessories, and safety products; stationery and office products; automotive appearance products; and consumer bandages, tapes, braces, and supports. It serves automotive; commercial solutions; consumer markets; design and construction; electronics; energy; government; manufacturing; safety; transportation industries. The company offers its products through e-commerce and traditional wholesalers, retailers, jobbers, distributors, channel partner, and dealers, as well as directly to users. 3M Company was founded in 1902 and is headquartered in Saint Paul, Minnesota.",
+  "targetMeanPrice": 186.15,
+  "targetLowPrice": 120.0,
+  "targetHighPrice": 218.0,
+  "numberOfAnalystOpinions": 18,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.21053,
+  "forwardPE": 16.289322,
+  "forwardEps": 9.81993,
+  "trailingEps": 5.63,
+  "earningsGrowth": 0.328,
+  "revenueGrowth": 0.025
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 37733000000.0,
+    "official": 37733000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 4702000000.0,
+    "official": 4702000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 3250000000.0,
+    "official": 3250000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 24948000000.0,
+    "official": 24948000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:49:51+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -204,7 +246,10 @@
    "goodwill_and_intangibles": 17489000000.0,
    "retained_earnings": 47950000000.0,
    "total_debt": 15939000000.0,
-   "shares_out": 549245105.0
+   "shares_out": 549245105.0,
+   "unusual_items": 2453000000.0,
+   "normalized_ebitda": 4044000000.0,
+   "normalized_income": 1670385000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -239,7 +284,10 @@
    "goodwill_and_intangibles": 7705000000.0,
    "retained_earnings": 37479000000.0,
    "total_debt": 14240000000.0,
-   "shares_out": 552581136.0
+   "shares_out": 552581136.0,
+   "unusual_items": 36000000.0,
+   "normalized_ebitda": -8379000000.0,
+   "normalized_income": -8428856000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -274,7 +322,10 @@
    "goodwill_and_intangibles": 7491000000.0,
    "retained_earnings": 36797000000.0,
    "total_debt": 13044000000.0,
-   "shares_out": 539470303.0
+   "shares_out": 539470303.0,
+   "unusual_items": 1564000000.0,
+   "normalized_ebitda": 5809000000.0,
+   "normalized_income": 2705937123.884623
   },
   {
    "fy_end": "2025-12-31",
@@ -309,7 +360,10 @@
    "goodwill_and_intangibles": 7522000000.0,
    "retained_earnings": 38258000000.0,
    "total_debt": 12602000000.0,
-   "shares_out": 530279131.0
+   "shares_out": 530279131.0,
+   "unusual_items": 240000000.0,
+   "normalized_ebitda": 6227000000.0,
+   "normalized_income": 3067137431.758842
   }
  ]
 }

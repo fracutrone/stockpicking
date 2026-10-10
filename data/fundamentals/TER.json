@@ -1,6 +1,6 @@
 {
  "ticker": "TER",
- "fetched_at": "2026-10-10T12:59:30+00:00",
+ "fetched_at": "2026-10-10T15:57:11+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 6600,
   "website": "https://www.teradyne.com",
-  "longBusinessSummary": "Teradyne, Inc. engages in the design, development, manufacture, and sale of automated test systems and robotics products in the United States, Asia Pacific, Europe, the Middle East, and Africa. The company operates through Semiconductor Test, Robotics, and Other segments. The Semiconductor Test segment offers products and services for wafer level and device package testing, and system level testing of semiconductor devices in automotive, industrial, communications, consumer, smartphones, cloud, computer and electronic game, and other applications. This segment also provides FLEX test platform systems; J750 test system to address the volume semiconductor devices, including microcontrollers; Magnum platform that tests memory devices, such as flash memory and DRAM; and ETS platform for semiconductor manufacturers, and assembly and test subcontractors in the analog/mixed signal markets. It serves integrated device manufacturers that integrate the fabrication of silicon wafers into their business; fabless companies that outsource the manufacturing of silicon wafers; foundries; and semiconductor assembly and test providers. The Robotics segment provides collaborative robotic arms and autonomous mobile robots for manufacturing, logistics, and industrial customers. It also provides product test instruments which includes operations related to the design, manufacturing and marketing of products and services for defense/aerospace test, circuit-board test, wireless test systems, and silicon photonics testing. The company has a strategic collaboration with Tokyo Electron Limited for the development of a test cell solution for device screening in AI and data center applications. Teradyne, Inc. was incorporated in 1960 and is headquartered in North Reading, Massachusetts."
+  "longBusinessSummary": "Teradyne, Inc. engages in the design, development, manufacture, and sale of automated test systems and robotics products in the United States, Asia Pacific, Europe, the Middle East, and Africa. The company operates through Semiconductor Test, Robotics, and Other segments. The Semiconductor Test segment offers products and services for wafer level and device package testing, and system level testing of semiconductor devices in automotive, industrial, communications, consumer, smartphones, cloud, computer and electronic game, and other applications. This segment also provides FLEX test platform systems; J750 test system to address the volume semiconductor devices, including microcontrollers; Magnum platform that tests memory devices, such as flash memory and DRAM; and ETS platform for semiconductor manufacturers, and assembly and test subcontractors in the analog/mixed signal markets. It serves integrated device manufacturers that integrate the fabrication of silicon wafers into their business; fabless companies that outsource the manufacturing of silicon wafers; foundries; and semiconductor assembly and test providers. The Robotics segment provides collaborative robotic arms and autonomous mobile robots for manufacturing, logistics, and industrial customers. It also provides product test instruments which includes operations related to the design, manufacturing and marketing of products and services for defense/aerospace test, circuit-board test, wireless test systems, and silicon photonics testing. The company has a strategic collaboration with Tokyo Electron Limited for the development of a test cell solution for device screening in AI and data center applications. Teradyne, Inc. was incorporated in 1960 and is headquartered in North Reading, Massachusetts.",
+  "targetMeanPrice": 446.46667,
+  "targetLowPrice": 350.0,
+  "targetHighPrice": 550.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.70588,
+  "forwardPE": 34.55748,
+  "forwardEps": 11.65247,
+  "trailingEps": 7.35,
+  "earningsGrowth": 3.858,
+  "revenueGrowth": 1.039
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 4183599000.0,
+    "official": 4183599000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2795752000.0,
+    "official": 2795752000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 554047000.0,
+    "official": 554047000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3190024000.0,
+    "official": 3190024000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:57:11+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -204,7 +246,10 @@
    "intangibles": 53478000.0,
    "goodwill_and_intangibles": 456673000.0,
    "retained_earnings": 725729000.0,
-   "shares_out": 155759000.0
+   "shares_out": 155759000.0,
+   "unusual_items": -17185000.0,
+   "normalized_ebitda": 971964000.0,
+   "normalized_income": 730125435.0
   },
   {
    "fy_end": "2023-12-31",
@@ -238,7 +283,10 @@
    "intangibles": 35404000.0,
    "goodwill_and_intangibles": 451056000.0,
    "retained_earnings": 706514000.0,
-   "shares_out": 152698000.0
+   "shares_out": 152698000.0,
+   "unusual_items": -21277000.0,
+   "normalized_ebitda": 661541000.0,
+   "normalized_income": 466922558.0
   },
   {
    "fy_end": "2024-12-31",
@@ -272,7 +320,10 @@
    "intangibles": 15927000.0,
    "goodwill_and_intangibles": 411294000.0,
    "retained_earnings": 970761000.0,
-   "shares_out": 161722000.0
+   "shares_out": 161722000.0,
+   "unusual_items": 41548000.0,
+   "normalized_ebitda": 690866000.0,
+   "normalized_income": 504895704.0
   },
   {
    "fy_end": "2025-12-31",
@@ -307,7 +358,10 @@
    "goodwill_and_intangibles": 572290000.0,
    "retained_earnings": 744435000.0,
    "total_debt": 200000000.0,
-   "shares_out": 156088000.0
+   "shares_out": 156088000.0,
+   "unusual_items": -38554000.0,
+   "normalized_ebitda": 826641000.0,
+   "normalized_income": 587935966.0
   }
  ]
 }

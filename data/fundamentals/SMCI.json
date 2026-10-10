@@ -1,6 +1,6 @@
 {
  "ticker": "SMCI",
- "fetched_at": "2026-10-10T12:58:14+00:00",
+ "fetched_at": "2026-10-10T15:55:48+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 7000,
   "website": "https://www.supermicro.com",
-  "longBusinessSummary": "Super Micro Computer, Inc., together with its subsidiaries, develops and sells server and storage solutions based on modular and open-standard architecture in the United States, Asia, Europe, and internationally. The company offers liquid and air-cooled AI servers for training and inferencing with integrated graphics processing units (GPUs) or PCIe based architectures; SuperBlade, MicroBlade, FlexTwin, GrandTwin, and BigTwin blade and multi-node systems; SuperStorage systems; Hyper, CloudDC, and WIO and rackmount systems; embedded (5G/IoT/Edge) systems; and MicroCloud server systems. It also provides workstations and networking devices; and modular server subsystems and accessories, including server boards, chassis, power supplies, and other accessories. In addition, the company offers remote system management solutions, such as Server Management suite comprising Supermicro Server Manager, Supermicro Power Management software, Supermicro Update Manager, SuperCloud Composer, SuperCloud Director, and SuperDoctor 5. Further, the company identifies service requirements; creates and executes project plans; conducts verification testing; offers training; and provides technical documentation. Additionally, it provides rack level services from design to deployment for full rack and cluster level deployments of AI and HPC datacenters; help desk services and on-site product support; and warranties, maintenance, and technical support services. The company serves enterprise data centers, cloud computing, artificial intelligence, 5G, and edge computing markets through direct and indirect sales force, distributors, value-added resellers, system integrators, and original equipment manufacturers. Super Micro Computer, Inc. was incorporated in 1993 and is headquartered in San Jose, California."
+  "longBusinessSummary": "Super Micro Computer, Inc., together with its subsidiaries, develops and sells server and storage solutions based on modular and open-standard architecture in the United States, Asia, Europe, and internationally. The company offers liquid and air-cooled AI servers for training and inferencing with integrated graphics processing units (GPUs) or PCIe based architectures; SuperBlade, MicroBlade, FlexTwin, GrandTwin, and BigTwin blade and multi-node systems; SuperStorage systems; Hyper, CloudDC, and WIO and rackmount systems; embedded (5G/IoT/Edge) systems; and MicroCloud server systems. It also provides workstations and networking devices; and modular server subsystems and accessories, including server boards, chassis, power supplies, and other accessories. In addition, the company offers remote system management solutions, such as Server Management suite comprising Supermicro Server Manager, Supermicro Power Management software, Supermicro Update Manager, SuperCloud Composer, SuperCloud Director, and SuperDoctor 5. Further, the company identifies service requirements; creates and executes project plans; conducts verification testing; offers training; and provides technical documentation. Additionally, it provides rack level services from design to deployment for full rack and cluster level deployments of AI and HPC datacenters; help desk services and on-site product support; and warranties, maintenance, and technical support services. The company serves enterprise data centers, cloud computing, artificial intelligence, 5G, and edge computing markets through direct and indirect sales force, distributors, value-added resellers, system integrators, and original equipment manufacturers. Super Micro Computer, Inc. was incorporated in 1993 and is headquartered in San Jose, California.",
+  "targetMeanPrice": 42.26667,
+  "targetLowPrice": 15.0,
+  "targetHighPrice": 60.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.94444,
+  "forwardPE": 7.858736,
+  "forwardEps": 5.32592,
+  "trailingEps": 3.26,
+  "earningsGrowth": 4.347,
+  "revenueGrowth": 0.932
  },
  "governance": {
   "ceo": {
@@ -82,8 +93,38 @@
   "retained_earnings": "sec",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-06-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 29945467000.0,
+    "official": 29945467000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 14479452000.0,
+    "official": 14479452000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2230453000.0,
+    "official": 2230453000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 39063072000.0,
+    "official": 39063072000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:55:49+00:00",
  "years": [
   {
    "fy_end": "2020-06-30",
@@ -189,7 +230,9 @@
    "ppe_net": 290240000.0,
    "retained_earnings": 1433014000.0,
    "total_debt": 290302000.0,
-   "shares_out": 529013580.0
+   "shares_out": 529013580.0,
+   "normalized_ebitda": 799692000.0,
+   "normalized_income": 639998000.0
   },
   {
    "fy_end": "2024-06-30",
@@ -220,7 +263,9 @@
    "ppe_net": 414008000.0,
    "retained_earnings": 2585680000.0,
    "total_debt": 2183393000.0,
-   "shares_out": 588087410.0
+   "shares_out": 588087410.0,
+   "normalized_ebitda": 1272184000.0,
+   "normalized_income": 1152666000.0
   },
   {
    "fy_end": "2025-06-30",
@@ -252,7 +297,9 @@
    "ppe_net": 504488000.0,
    "retained_earnings": 3434539000.0,
    "total_debt": 4778842000.0,
-   "shares_out": 594136852.0
+   "shares_out": 594136852.0,
+   "normalized_ebitda": 1329833000.0,
+   "normalized_income": 1048854000.0
   },
   {
    "fy_end": "2026-06-30",
@@ -284,7 +331,9 @@
    "ppe_net": 625553000.0,
    "retained_earnings": 5651904000.0,
    "total_debt": 8760913000.0,
-   "shares_out": 656882499.0
+   "shares_out": 656882499.0,
+   "normalized_ebitda": 3074105000.0,
+   "normalized_income": 2230453000.0
   }
  ]
 }

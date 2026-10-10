@@ -1,6 +1,6 @@
 {
  "ticker": "AMS.MC",
- "fetched_at": "2026-10-10T11:45:19+00:00",
+ "fetched_at": "2026-10-10T14:30:46+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.02646,
   "heldPercentInstitutions": 0.66424,
   "shortPercentOfFloat": null,
-  "averageVolume": 694251,
+  "averageVolume": 692772,
   "quoteType": "EQUITY",
   "exchange": "MCE",
   "fullTimeEmployees": 20424,
   "website": "https://amadeus.com",
-  "longBusinessSummary": "Amadeus IT Group, S.A., together with its subsidiaries, operates as a transaction processor for the travel and tourism industry in Europe, Central and South America, the Middle East, Africa, and Asia Pacific. It operates in three segments: Air Distribution, Air IT Solutions, and Hospitality & Other Solutions. The company acts as an international network providing real-time search, pricing, booking, ticketing, and other processing solutions through Amadeus GDS, Alt?a Passenger Service System, and New Skies platforms. It also offers travel providers a portfolio of technology solutions, which automate certain mission-critical business processes, such as reservations, inventory management, payments, and departure control. In addition, the company is involved in the installation of industrial machinery and equipment; provision of mobility, insurance and ferry, travel advertising, software development and definition, software distribution, distribution, regional support and management, data processing, intermediation, computer consulting, consultancy and technology development for digital invoicing and payments, and information technology services; and e-commerce business. It serves providers of travel products and services, such as network, domestic, low-cost, and charter carrier airlines; airports; independent property and big chain hotels; mainstream, specialist, and vertically integrated tour operators; insurance companies; land and sea transport companies, including car rental, railway, cruise line, and ferry line companies; travel sellers and brokers, such as offline and online travel agencies; and travel buyers. Amadeus IT Group S.A. has strategic collaborate with Accenture plc to develop Amadeus travel advertising platform. The company was formerly known as Amadeus IT Holding, S.A. and changed its name to Amadeus IT Group, S.A. in August 2016. Amadeus IT Group, S.A. was founded in 1987 and is headquartered in Madrid, Spain."
+  "longBusinessSummary": "Amadeus IT Group, S.A., together with its subsidiaries, operates as a transaction processor for the travel and tourism industry in Europe, Central and South America, the Middle East, Africa, and Asia Pacific. It operates in three segments: Air Distribution, Air IT Solutions, and Hospitality & Other Solutions. The company acts as an international network providing real-time search, pricing, booking, ticketing, and other processing solutions through Amadeus GDS, Alt?a Passenger Service System, and New Skies platforms. It also offers travel providers a portfolio of technology solutions, which automate certain mission-critical business processes, such as reservations, inventory management, payments, and departure control. In addition, the company is involved in the installation of industrial machinery and equipment; provision of mobility, insurance and ferry, travel advertising, software development and definition, software distribution, distribution, regional support and management, data processing, intermediation, computer consulting, consultancy and technology development for digital invoicing and payments, and information technology services; and e-commerce business. It serves providers of travel products and services, such as network, domestic, low-cost, and charter carrier airlines; airports; independent property and big chain hotels; mainstream, specialist, and vertically integrated tour operators; insurance companies; land and sea transport companies, including car rental, railway, cruise line, and ferry line companies; travel sellers and brokers, such as offline and online travel agencies; and travel buyers. Amadeus IT Group S.A. has strategic collaborate with Accenture plc to develop Amadeus travel advertising platform. The company was formerly known as Amadeus IT Holding, S.A. and changed its name to Amadeus IT Group, S.A. in August 2016. Amadeus IT Group, S.A. was founded in 1987 and is headquartered in Madrid, Spain.",
+  "targetMeanPrice": 69.155,
+  "targetLowPrice": 51.0,
+  "targetHighPrice": 82.0,
+  "numberOfAnalystOpinions": 22,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.81818,
+  "forwardPE": 13.508034,
+  "forwardEps": 3.87177,
+  "trailingEps": 3.03,
+  "earningsGrowth": -0.026,
+  "revenueGrowth": 0.015
  },
  "governance": {
   "ceo": {
@@ -69,8 +80,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF ES",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 11784300000.0,
+    "official": 11784300000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 5063600000.0,
+    "official": 5063600000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1253000000.0,
+    "official": 1253000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 6141700000.0,
+    "official": 6141700000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T14:30:46+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -103,7 +146,10 @@
    "goodwill_and_intangibles": 7719300000.0,
    "retained_earnings": 3673300000.0,
    "total_debt": 4411200000.0,
-   "shares_out": 450023808.0
+   "shares_out": 450023808.0,
+   "unusual_items": 12800000.0,
+   "normalized_ebitda": 1622900000.0,
+   "normalized_income": 654608000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -136,7 +182,10 @@
    "goodwill_and_intangibles": 7620900000.0,
    "retained_earnings": 4258400000.0,
    "total_debt": 3308500000.0,
-   "shares_out": 440592802.0
+   "shares_out": 440592802.0,
+   "unusual_items": 4500000.0,
+   "normalized_ebitda": 2129700000.0,
+   "normalized_income": 1113901000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -169,7 +218,10 @@
    "goodwill_and_intangibles": 8421900000.0,
    "retained_earnings": 4945000000.0,
    "total_debt": 3375700000.0,
-   "shares_out": 436511364.0
+   "shares_out": 436511364.0,
+   "unusual_items": 7300000.0,
+   "normalized_ebitda": 2345900000.0,
+   "normalized_income": 1247097228.697229
   },
   {
    "fy_end": "2025-12-31",
@@ -202,7 +254,10 @@
    "goodwill_and_intangibles": 8256200000.0,
    "retained_earnings": 5654100000.0,
    "total_debt": 3223600000.0,
-   "shares_out": 430915045.0
+   "shares_out": 430915045.0,
+   "unusual_items": 4200000.0,
+   "normalized_ebitda": 2530500000.0,
+   "normalized_income": 1332440800.0
   }
  ]
 }

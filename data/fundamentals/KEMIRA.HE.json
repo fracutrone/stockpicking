@@ -1,6 +1,6 @@
 {
  "ticker": "KEMIRA.HE",
- "fetched_at": "2026-10-10T12:05:17+00:00",
+ "fetched_at": "2026-10-10T15:00:45+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "HEL",
   "fullTimeEmployees": 4871,
   "website": "https://www.kemira.com",
-  "longBusinessSummary": "Kemira Oyj operates as a chemicals company in Finland, rest of Europe, the Middle East, Africa, the Americas, and the Asia Pacific. It operates in three segments: Water Solutions, Packaging & Hygiene Solutions, and Fiber Essentials. It offers clean, safe, and affordable drinking water through efficient water processing, wastewater treatment, and reuse, supported by advanced digital technologies for customers in municipalities and water intensive industries. The company also provides functional and safe products enabled by efficient and compliant production processes and advanced digital technologies, serving customers in packaging, board, and tissue. In addition, it offers bright, clean, and strong pulp produced through efficient pulping and bleaching processes supported by advanced digital technologies for customers in pulp production. Kemira Oyj was founded in 1920 and is headquartered in Helsinki, Finland."
+  "longBusinessSummary": "Kemira Oyj operates as a chemicals company in Finland, rest of Europe, the Middle East, Africa, the Americas, and the Asia Pacific. It operates in three segments: Water Solutions, Packaging & Hygiene Solutions, and Fiber Essentials. It offers clean, safe, and affordable drinking water through efficient water processing, wastewater treatment, and reuse, supported by advanced digital technologies for customers in municipalities and water intensive industries. The company also provides functional and safe products enabled by efficient and compliant production processes and advanced digital technologies, serving customers in packaging, board, and tissue. In addition, it offers bright, clean, and strong pulp produced through efficient pulping and bleaching processes supported by advanced digital technologies for customers in pulp production. Kemira Oyj was founded in 1920 and is headquartered in Helsinki, Finland.",
+  "targetMeanPrice": 18.95,
+  "targetLowPrice": 16.2,
+  "targetHighPrice": 22.0,
+  "numberOfAnalystOpinions": 6,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.83333,
+  "forwardPE": 12.006131,
+  "forwardEps": 1.40928,
+  "trailingEps": 0.97,
+  "earningsGrowth": -0.343,
+  "revenueGrowth": -0.001
  },
  "governance": {
   "ceo": {
@@ -70,8 +81,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF FI",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3133800000.0,
+    "official": 3133800000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1678000000.0,
+    "official": 1678000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 181200000.0,
+    "official": 181200000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2753500000.0,
+    "official": 2753500000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:00:45+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -105,7 +148,10 @@
    "goodwill_and_intangibles": 571400000.0,
    "retained_earnings": 764500000.0,
    "total_debt": 1021800000.0,
-   "shares_out": 153352360.0
+   "shares_out": 153352360.0,
+   "unusual_items": 30000000.0,
+   "normalized_ebitda": 525700000.0,
+   "normalized_income": 208360000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -139,7 +185,10 @@
    "goodwill_and_intangibles": 532000000.0,
    "retained_earnings": 890900000.0,
    "total_debt": 937900000.0,
-   "shares_out": 153619832.0
+   "shares_out": 153619832.0,
+   "unusual_items": -125300000.0,
+   "normalized_ebitda": 665800000.0,
+   "normalized_income": 289817200.0
   },
   {
    "fy_end": "2024-12-31",
@@ -173,7 +222,10 @@
    "goodwill_and_intangibles": 535300000.0,
    "retained_earnings": 1044400000.0,
    "total_debt": 810700000.0,
-   "shares_out": 153983209.0
+   "shares_out": 153983209.0,
+   "unusual_items": -600000.0,
+   "normalized_ebitda": 562100000.0,
+   "normalized_income": 249868688.67083
   },
   {
    "fy_end": "2025-12-31",
@@ -207,7 +259,10 @@
    "goodwill_and_intangibles": 629300000.0,
    "retained_earnings": 1024100000.0,
    "total_debt": 748300000.0,
-   "shares_out": 149446553.0
+   "shares_out": 149446553.0,
+   "unusual_items": -11300000.0,
+   "normalized_ebitda": 495600000.0,
+   "normalized_income": 189980100.0
   }
  ]
 }

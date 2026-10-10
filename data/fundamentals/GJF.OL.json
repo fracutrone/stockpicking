@@ -1,6 +1,6 @@
 {
  "ticker": "GJF.OL",
- "fetched_at": "2026-10-10T12:00:01+00:00",
+ "fetched_at": "2026-10-10T14:51:25+00:00",
  "region": "Europa",
  "statement_currency": "NOK",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": 0.62277,
   "heldPercentInstitutions": 0.20239,
   "shortPercentOfFloat": null,
-  "averageVolume": 262975,
+  "averageVolume": 263858,
   "quoteType": "EQUITY",
   "exchange": "OSL",
   "fullTimeEmployees": 4160,
   "website": "https://www.gjensidige.com",
-  "longBusinessSummary": "Gjensidige Forsikring ASA, together with its subsidiaries, provides general insurance and pension products in Norway, Sweden, Denmark, Finland, Latvia, Lithuania, and Estonia. It operates in four segments: General Insurance Private, General Insurance Commercial, General Insurance Sweden, and Pension. The company offers motor, property, travel, accident and health, general liability, natural perils, agriculture, medical treatment and expense, disability, income protection, workers' compensation, motor vehicle liability, marine, aviation, transport, fire and other damage to property, assistance, other non-life, and life insurance products, as well as non-proportional non-life reinsurance products. It also provides defined contribution occupational pension schemes for businesses, including disability pension, spouse/cohabitant pension, and child's pension; and individual pension savings agreements. The company sells its products to private individuals, commercial and agricultural customers, and private and commercial markets through various distribution channels comprising customer service centres, office channel, call center, Internet, partners, agents, and external brokers. Gjensidige Forsikring ASA was founded in 1816 and is headquartered in Oslo, Norway."
+  "longBusinessSummary": "Gjensidige Forsikring ASA, together with its subsidiaries, provides general insurance and pension products in Norway, Sweden, Denmark, Finland, Latvia, Lithuania, and Estonia. It operates in four segments: General Insurance Private, General Insurance Commercial, General Insurance Sweden, and Pension. The company offers motor, property, travel, accident and health, general liability, natural perils, agriculture, medical treatment and expense, disability, income protection, workers' compensation, motor vehicle liability, marine, aviation, transport, fire and other damage to property, assistance, other non-life, and life insurance products, as well as non-proportional non-life reinsurance products. It also provides defined contribution occupational pension schemes for businesses, including disability pension, spouse/cohabitant pension, and child's pension; and individual pension savings agreements. The company sells its products to private individuals, commercial and agricultural customers, and private and commercial markets through various distribution channels comprising customer service centres, office channel, call center, Internet, partners, agents, and external brokers. Gjensidige Forsikring ASA was founded in 1816 and is headquartered in Oslo, Norway.",
+  "targetMeanPrice": 286.21875,
+  "targetLowPrice": 244.0,
+  "targetHighPrice": 321.0,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.5,
+  "forwardPE": 14.672328,
+  "forwardEps": 17.32513,
+  "trailingEps": 12.78,
+  "earningsGrowth": -0.077,
+  "revenueGrowth": 0.06
  },
  "governance": {
   "ceo": {
@@ -59,8 +70,34 @@
   "intangibles": "yahoo",
   "goodwill_and_intangibles": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF NO",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 171486300000.0,
+    "official": 171486300000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 26007400000.0,
+    "official": 26007400000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 5140500000.0,
+    "official": 5139100000.0,
+    "diff": 0.000272
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T14:51:25+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -80,7 +117,8 @@
    "intangibles": 2307400000.0,
    "goodwill_and_intangibles": 7601000000.0,
    "total_debt": 3784000000.0,
-   "shares_out": 499951551.0
+   "shares_out": 499951551.0,
+   "normalized_income": 3437800000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -99,7 +137,8 @@
    "intangibles": 2478700000.0,
    "goodwill_and_intangibles": 8142000000.0,
    "total_debt": 4361800000.0,
-   "shares_out": 499953317.0
+   "shares_out": 499953317.0,
+   "normalized_income": 4086480000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -119,7 +158,8 @@
    "intangibles": 2446800000.0,
    "goodwill_and_intangibles": 7789100000.0,
    "total_debt": 5412200000.0,
-   "shares_out": 499949084.0
+   "shares_out": 499949084.0,
+   "normalized_income": 5182100000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -139,7 +179,9 @@
    "intangibles": 2010600000.0,
    "goodwill_and_intangibles": 7759200000.0,
    "total_debt": 5280400000.0,
-   "shares_out": 499983339.0
+   "shares_out": 499983339.0,
+   "unusual_items": -1700000.0,
+   "normalized_income": 6418183500.0
   }
  ]
 }

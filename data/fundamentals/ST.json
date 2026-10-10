@@ -1,6 +1,6 @@
 {
  "ticker": "ST",
- "fetched_at": "2026-10-10T12:58:46+00:00",
+ "fetched_at": "2026-10-10T15:56:31+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 16700,
   "website": "https://www.sensata.com",
-  "longBusinessSummary": "Sensata Technologies Holding plc develops, manufactures, and sells sensors and sensor-rich solutions, electrical protection components and systems, and other products used in mission-critical systems and applications in the United States, Europe, Asia, and internationally. It operates through three segments: Automotive; Industrials; and Aerospace, Defense, and Commercial Equipment. The company offers sensors, contactors/fuses, switching and protection devices and solutions, distribution modules, bimetal electromechanical controls, circuit breakers, switches and relays, energy storage systems, rectifiers and frequency converters, power conversion systems, battery management system, charging inlet modules, and brushless DC motors. It offers its products for thermal management and air conditioning systems; powertrain; exhaust after-treatment; suspension, braking; tire management solutions; battery packs; electrical protection; electrical powertrain; battery packs; charging systems; motors, compressors, pumps; heating and cooling systems; home appliances; lighting; industrial; data and telecom equipment; medical equipment; motors, compressors, and pumps; hydraulic machinery; motion control systems; motor/platform controllers; grid harmonics and power delivery; commercial and military aircraft; and recreational vehicles. It serves automotive, on-road truck, and construction; and original equipment manufacturers in agriculture, control, appliance, medical, energy and charging infrastructure, data/telecom, and aerospace and defense industries, as well as systems integrators, aerospace, and motor and compressor distributors. Sensata Technologies Holding plc was founded in 1916 and is headquartered in Attleboro, Massachusetts."
+  "longBusinessSummary": "Sensata Technologies Holding plc develops, manufactures, and sells sensors and sensor-rich solutions, electrical protection components and systems, and other products used in mission-critical systems and applications in the United States, Europe, Asia, and internationally. It operates through three segments: Automotive; Industrials; and Aerospace, Defense, and Commercial Equipment. The company offers sensors, contactors/fuses, switching and protection devices and solutions, distribution modules, bimetal electromechanical controls, circuit breakers, switches and relays, energy storage systems, rectifiers and frequency converters, power conversion systems, battery management system, charging inlet modules, and brushless DC motors. It offers its products for thermal management and air conditioning systems; powertrain; exhaust after-treatment; suspension, braking; tire management solutions; battery packs; electrical protection; electrical powertrain; battery packs; charging systems; motors, compressors, pumps; heating and cooling systems; home appliances; lighting; industrial; data and telecom equipment; medical equipment; motors, compressors, and pumps; hydraulic machinery; motion control systems; motor/platform controllers; grid harmonics and power delivery; commercial and military aircraft; and recreational vehicles. It serves automotive, on-road truck, and construction; and original equipment manufacturers in agriculture, control, appliance, medical, energy and charging infrastructure, data/telecom, and aerospace and defense industries, as well as systems integrators, aerospace, and motor and compressor distributors. Sensata Technologies Holding plc was founded in 1916 and is headquartered in Attleboro, Massachusetts.",
+  "targetMeanPrice": 53.3,
+  "targetLowPrice": 45.0,
+  "targetHighPrice": 63.0,
+  "numberOfAnalystOpinions": 10,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": 10.326572,
+  "forwardEps": 4.09526,
+  "trailingEps": 0.6,
+  "earningsGrowth": 0.707,
+  "revenueGrowth": 0.05
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 6751700000.0,
+    "official": 6751700000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2785400000.0,
+    "official": 2785400000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 31300000.0,
+    "official": 31300000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3704500000.0,
+    "official": 3704500000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:56:31+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -198,7 +240,10 @@
    "goodwill_and_intangibles": 4835576000.0,
    "retained_earnings": 2383341000.0,
    "total_debt": 4246834000.0,
-   "shares_out": 152426000.0
+   "shares_out": 152426000.0,
+   "unusual_items": -26050000.0,
+   "normalized_ebitda": 899288000.0,
+   "normalized_income": 331086571.582699
   },
   {
    "fy_end": "2023-12-31",
@@ -232,7 +277,10 @@
    "goodwill_and_intangibles": 4351071000.0,
    "retained_earnings": 2295604000.0,
    "total_debt": 3400000000.0,
-   "shares_out": 150742000.0
+   "shares_out": 150742000.0,
+   "unusual_items": -395700000.0,
+   "normalized_ebitda": 902700000.0,
+   "normalized_income": 308703000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -266,7 +314,10 @@
    "goodwill_and_intangibles": 3808500000.0,
    "retained_earnings": 2340200000.0,
    "total_debt": 3200000000.0,
-   "shares_out": 150075000.0
+   "shares_out": 150075000.0,
+   "unusual_items": -308400000.0,
+   "normalized_ebitda": 765200000.0,
+   "normalized_income": 372136000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -300,7 +351,10 @@
    "goodwill_and_intangibles": 3501300000.0,
    "retained_earnings": 2295600000.0,
    "total_debt": 2846000000.0,
-   "shares_out": 145800000.0
+   "shares_out": 145800000.0,
+   "unusual_items": -253900000.0,
+   "normalized_ebitda": 782700000.0,
+   "normalized_income": 231881000.0
   }
  ]
 }

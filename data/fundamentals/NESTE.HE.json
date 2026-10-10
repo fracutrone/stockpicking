@@ -1,6 +1,6 @@
 {
  "ticker": "NESTE.HE",
- "fetched_at": "2026-10-10T12:10:52+00:00",
+ "fetched_at": "2026-10-10T15:08:06+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "HEL",
   "fullTimeEmployees": 5178,
   "website": "https://www.neste.com",
-  "longBusinessSummary": "Neste Oyj, together with its subsidiaries, provides renewable diesel and sustainable aviation fuel in Finland, other Nordic countries, Baltic Rim, other European countries, the United States, and internationally. The company operates through Renewable Products, Oil Products, Marketing & Services segments. It produces, markets, and sells renewable diesel, sustainable aviation fuel, and related solutions. The company also provides various oil products, including diesel, gasoline, aviation and marine fuels, light and heavy fuel oils, gasoline components, and special fuels, such as small-engine gasoline, solvents, and liquid gases for retailers and distributors, oil majors and trading companies, and companies marketing lubricants and solvents. In addition, the company markets and sells lower emission fuels, oil products, and associated digital solutions to consumers, transport service providers, aviation, shipping, industrial and agricultural, and municipalities and heating fuel customers and fuel distributors; and markets transport fuels and electric vehicle charging services. The company was formerly known as Neste Oil Oyj and changed its name to Neste Oyj in June 2015. Neste Oyj was founded in 1948 and is headquartered in Espoo, Finland."
+  "longBusinessSummary": "Neste Oyj, together with its subsidiaries, provides renewable diesel and sustainable aviation fuel in Finland, other Nordic countries, Baltic Rim, other European countries, the United States, and internationally. The company operates through Renewable Products, Oil Products, Marketing & Services segments. It produces, markets, and sells renewable diesel, sustainable aviation fuel, and related solutions. The company also provides various oil products, including diesel, gasoline, aviation and marine fuels, light and heavy fuel oils, gasoline components, and special fuels, such as small-engine gasoline, solvents, and liquid gases for retailers and distributors, oil majors and trading companies, and companies marketing lubricants and solvents. In addition, the company markets and sells lower emission fuels, oil products, and associated digital solutions to consumers, transport service providers, aviation, shipping, industrial and agricultural, and municipalities and heating fuel customers and fuel distributors; and markets transport fuels and electric vehicle charging services. The company was formerly known as Neste Oil Oyj and changed its name to Neste Oyj in June 2015. Neste Oyj was founded in 1948 and is headquartered in Espoo, Finland.",
+  "targetMeanPrice": 35.31053,
+  "targetLowPrice": 18.4,
+  "targetHighPrice": 41.5,
+  "numberOfAnalystOpinions": 19,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.15789,
+  "forwardPE": 11.454124,
+  "forwardEps": 2.82431,
+  "trailingEps": 1.98,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.327
  },
  "governance": {
   "ceo": {
@@ -81,8 +92,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF FI",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 15749000000.0,
+    "official": 15749000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 7314000000.0,
+    "official": 7314000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 144000000.0,
+    "official": 144000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 19016000000.0,
+    "official": 19016000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:08:06+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -116,7 +159,10 @@
    "goodwill_and_intangibles": 570000000.0,
    "retained_earnings": 8309000000.0,
    "total_debt": 2616000000.0,
-   "shares_out": 768083170.0
+   "shares_out": 768083170.0,
+   "unusual_items": -72000000.0,
+   "normalized_ebitda": 3042000000.0,
+   "normalized_income": 1947760000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -151,7 +197,10 @@
    "goodwill_and_intangibles": 681000000.0,
    "retained_earnings": 8548000000.0,
    "total_debt": 4068000000.0,
-   "shares_out": 768199747.0
+   "shares_out": 768199747.0,
+   "unusual_items": -4000000.0,
+   "normalized_ebitda": 2584000000.0,
+   "normalized_income": 1436600000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -185,7 +234,10 @@
    "goodwill_and_intangibles": 678000000.0,
    "retained_earnings": 7536000000.0,
    "total_debt": 5147000000.0,
-   "shares_out": 768215734.0
+   "shares_out": 768215734.0,
+   "unusual_items": -41000000.0,
+   "normalized_ebitda": 1055000000.0,
+   "normalized_income": -60970000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -219,7 +271,10 @@
    "goodwill_and_intangibles": 608000000.0,
    "retained_earnings": 7529000000.0,
    "total_debt": 5184000000.0,
-   "shares_out": 768274059.0
+   "shares_out": 768274059.0,
+   "unusual_items": -3000000.0,
+   "normalized_ebitda": 1287000000.0,
+   "normalized_income": 146160000.0
   }
  ]
 }

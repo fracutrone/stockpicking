@@ -1,6 +1,6 @@
 {
  "ticker": "TEF.MC",
- "fetched_at": "2026-10-10T12:21:41+00:00",
+ "fetched_at": "2026-10-10T15:24:04+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "MCE",
   "fullTimeEmployees": 74427,
   "website": "https://www.telefonica.com",
-  "longBusinessSummary": "Telefónica, S.A., together with its subsidiaries, provides telecommunications services in Spain, Brazil, Germany, and the United Kingdom. The company offers digital services for residential customers, such as entertainment, home connectivity and security; and advanced solutions for businesses and public administrations, including cloud, cybersecurity, IoT, artificial intelligence, and professional services. It also provides wholesale services to other operators; fixed and wireless telephony services. It is also involved in the wholesale commercialization of a fiber-to-the-home network; and manages borrowing activities. In addition, the company offers ecosystem services, such as devices, health, insurance, video content, solar energy, alarm systems, advertising, financial services and education, etc.; traffic, connection fees, regular network usage fees, interconnection, network and equipment leasing, and handset sales; and other digital services comprising Pay TV and value-added services. Telefónica, S.A. was incorporated in 1924 and is based in Madrid, Spain."
+  "longBusinessSummary": "Telefónica, S.A., together with its subsidiaries, provides telecommunications services in Spain, Brazil, Germany, and the United Kingdom. The company offers digital services for residential customers, such as entertainment, home connectivity and security; and advanced solutions for businesses and public administrations, including cloud, cybersecurity, IoT, artificial intelligence, and professional services. It also provides wholesale services to other operators; fixed and wireless telephony services. It is also involved in the wholesale commercialization of a fiber-to-the-home network; and manages borrowing activities. In addition, the company offers ecosystem services, such as devices, health, insurance, video content, solar energy, alarm systems, advertising, financial services and education, etc.; traffic, connection fees, regular network usage fees, interconnection, network and equipment leasing, and handset sales; and other digital services comprising Pay TV and value-added services. Telefónica, S.A. was incorporated in 1924 and is based in Madrid, Spain.",
+  "targetMeanPrice": 3.9,
+  "targetLowPrice": 3.1,
+  "targetHighPrice": 4.9,
+  "numberOfAnalystOpinions": 22,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.95238,
+  "forwardPE": 8.28704,
+  "forwardEps": 0.39242,
+  "trailingEps": -0.43,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "ceo": {
@@ -79,8 +90,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF ES",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 100502000000.0,
+    "official": 100502000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 19347000000.0,
+    "official": 19347000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -49000000.0,
+    "official": -49000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 35671000000.0,
+    "official": 41315000000.0,
+    "diff": 0.136609
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T15:24:04+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -113,7 +156,10 @@
    "goodwill_and_intangibles": 30488000000.0,
    "retained_earnings": 27698000000.0,
    "total_debt": 45388000000.0,
-   "shares_out": 5775237554.0
+   "shares_out": 5775237554.0,
+   "unusual_items": 664000000.0,
+   "normalized_ebitda": 14122000000.0,
+   "normalized_income": 1490791891.891892
   },
   {
    "fy_end": "2023-12-31",
@@ -146,7 +192,10 @@
    "goodwill_and_intangibles": 30078000000.0,
    "retained_earnings": 24895000000.0,
    "total_debt": 44115000000.0,
-   "shares_out": 5639358665.0
+   "shares_out": 5639358665.0,
+   "unusual_items": 250000000.0,
+   "normalized_ebitda": 10088000000.0,
+   "normalized_income": -978000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -179,7 +228,10 @@
    "goodwill_and_intangibles": 26336000000.0,
    "retained_earnings": 22609000000.0,
    "total_debt": 45021000000.0,
-   "shares_out": 5643286803.0
+   "shares_out": 5643286803.0,
+   "unusual_items": -441000000.0,
+   "normalized_ebitda": 13035000000.0,
+   "normalized_income": 3177380455.77443
   },
   {
    "fy_end": "2025-12-31",
@@ -211,7 +263,10 @@
    "goodwill_and_intangibles": 24910000000.0,
    "retained_earnings": 16505000000.0,
    "total_debt": 39653000000.0,
-   "shares_out": 5628254398.0
+   "shares_out": 5628254398.0,
+   "unusual_items": -229000000.0,
+   "normalized_ebitda": 8637000000.0,
+   "normalized_income": -911750000.0
   }
  ]
 }

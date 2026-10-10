@@ -1,6 +1,6 @@
 {
  "ticker": "EDV.L",
- "fetched_at": "2026-10-10T11:55:23+00:00",
+ "fetched_at": "2026-10-10T14:44:28+00:00",
  "region": "Europa",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 5381,
   "website": "https://www.endeavourmining.com",
-  "longBusinessSummary": "Endeavour Mining plc, together with its subsidiaries, operates as a gold mining company in West Africa. The company also explores gold, copper, and silver. The company's projects include Houndé, Mana, Ity, Lafigué, Sabodala-Massawa, Kalana, and Assafou mines. It primarily holds a portfolio of projects in Burkina Faso, Côte d'Ivoire, Senegal, and Mali. Endeavour Mining plc is headquartered in London, the United Kingdom."
+  "longBusinessSummary": "Endeavour Mining plc, together with its subsidiaries, operates as a gold mining company in West Africa. The company also explores gold, copper, and silver. The company's projects include Houndé, Mana, Ity, Lafigué, Sabodala-Massawa, Kalana, and Assafou mines. It primarily holds a portfolio of projects in Burkina Faso, Côte d'Ivoire, Senegal, and Mali. Endeavour Mining plc is headquartered in London, the United Kingdom.",
+  "targetMeanPrice": 4814.1445,
+  "targetLowPrice": 3742.0764,
+  "targetHighPrice": 5691.6387,
+  "numberOfAnalystOpinions": 9,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.7,
+  "forwardPE": 7.757209,
+  "forwardEps": 5.318923,
+  "trailingEps": 2.53,
+  "earningsGrowth": -0.073,
+  "revenueGrowth": 0.21
  },
  "governance": {
   "ceo": {
@@ -76,8 +87,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 5513400000.0,
+    "official": 5513400000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2705500000.0,
+    "official": 2705500000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -300200000.0,
+    "official": -300200000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2675900000.0,
+    "official": 2675900000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T14:44:28+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -111,7 +154,10 @@
    "goodwill_and_intangibles": 134400000.0,
    "retained_earnings": 3040400000.0,
    "total_debt": 871800000.0,
-   "shares_out": 245291376.0
+   "shares_out": 245291376.0,
+   "unusual_items": -24900000.0,
+   "normalized_ebitda": 1223900000.0,
+   "normalized_income": 241569000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -145,7 +191,10 @@
    "goodwill_and_intangibles": 134400000.0,
    "retained_earnings": 2578000000.0,
    "total_debt": 1110600000.0,
-   "shares_out": 244468927.0
+   "shares_out": 244468927.0,
+   "unusual_items": -233400000.0,
+   "normalized_ebitda": 1098100000.0,
+   "normalized_income": 166454000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -179,7 +228,10 @@
    "goodwill_and_intangibles": 134400000.0,
    "retained_earnings": 2054100000.0,
    "total_debt": 1174300000.0,
-   "shares_out": 243417277.0
+   "shares_out": 243417277.0,
+   "unusual_items": -462300000.0,
+   "normalized_ebitda": 1320200000.0,
+   "normalized_income": 52825000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -213,7 +265,10 @@
    "goodwill_and_intangibles": 134400000.0,
    "retained_earnings": 2351200000.0,
    "total_debt": 685700000.0,
-   "shares_out": 240731005.0
+   "shares_out": 240731005.0,
+   "unusual_items": -419400000.0,
+   "normalized_ebitda": 2495700000.0,
+   "normalized_income": 956791409.21611
   }
  ]
 }

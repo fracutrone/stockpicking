@@ -1,6 +1,6 @@
 {
  "ticker": "MLI",
- "fetched_at": "2026-10-10T12:51:36+00:00",
+ "fetched_at": "2026-10-10T15:49:48+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 4832,
   "website": "https://www.muellerindustries.com",
-  "longBusinessSummary": "Mueller Industries, Inc. manufactures and sells copper, brass, and aluminum products in the United States, the United Kingdom, Canada, Asia and the Middle East, and Mexico. It operates through three segments: Piping Systems, Industrial Metals, and Climate. The Piping Systems segment offers copper tubes, fittings, line sets, and pipe nipples; resells steel pipe, brass and plastic plumbing valves, malleable iron fittings, faucets, and plumbing specialties. This segment sells its products to wholesalers in the plumbing and refrigeration markets, distributors to the manufactured housing and recreational vehicle industries, building material retailers, and air-conditioning original equipment manufacturers (OEMs). The Industrial Metals segment offers brass, bronze, and copper alloy rods; brass rod, bar, and shapes; cold-form aluminum and copper products; high-volume machining of aluminum, steel, brass, and cast-iron impacts and castings for automotive applications; brass and aluminum forgings; brass, aluminum, and stainless steel valves; fluid control solutions; and gas train assembles; specialty copper, copper alloy, and aluminum tube to OEMs in the industrial, construction, plumbing, refrigeration, utility, telecommunication, and electrical transmission and distribution markets, as well as heating, ventilation, and air-conditioning (HVAC) markets. The Climate segment provides valves, protection devices, and brass fittings; and coaxial heat exchangers and twisted tubes to wholesalers and OEMs in the HVAC and refrigeration markets. This segment also manufactures and distributes high-pressure components and accessories, as well as insulated HVAC flexible duct systems. Mueller Industries, Inc. was founded in 1917 and is headquartered in Collierville, Tennessee."
+  "longBusinessSummary": "Mueller Industries, Inc. manufactures and sells copper, brass, and aluminum products in the United States, the United Kingdom, Canada, Asia and the Middle East, and Mexico. It operates through three segments: Piping Systems, Industrial Metals, and Climate. The Piping Systems segment offers copper tubes, fittings, line sets, and pipe nipples; resells steel pipe, brass and plastic plumbing valves, malleable iron fittings, faucets, and plumbing specialties. This segment sells its products to wholesalers in the plumbing and refrigeration markets, distributors to the manufactured housing and recreational vehicle industries, building material retailers, and air-conditioning original equipment manufacturers (OEMs). The Industrial Metals segment offers brass, bronze, and copper alloy rods; brass rod, bar, and shapes; cold-form aluminum and copper products; high-volume machining of aluminum, steel, brass, and cast-iron impacts and castings for automotive applications; brass and aluminum forgings; brass, aluminum, and stainless steel valves; fluid control solutions; and gas train assembles; specialty copper, copper alloy, and aluminum tube to OEMs in the industrial, construction, plumbing, refrigeration, utility, telecommunication, and electrical transmission and distribution markets, as well as heating, ventilation, and air-conditioning (HVAC) markets. The Climate segment provides valves, protection devices, and brass fittings; and coaxial heat exchangers and twisted tubes to wholesalers and OEMs in the HVAC and refrigeration markets. This segment also manufactures and distributes high-pressure components and accessories, as well as insulated HVAC flexible duct systems. Mueller Industries, Inc. was founded in 1917 and is headquartered in Collierville, Tennessee.",
+  "targetMeanPrice": 80.0,
+  "targetLowPrice": 80.0,
+  "targetHighPrice": 80.0,
+  "numberOfAnalystOpinions": 2,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": 13.86073,
+  "forwardEps": 4.38,
+  "trailingEps": 3.84,
+  "earningsGrowth": 0.018,
+  "revenueGrowth": 0.255
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3733029000.0,
+    "official": 3733029000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 3209966000.0,
+    "official": 3209966000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 765191000.0,
+    "official": 765191000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 4178547000.0,
+    "official": 4178547000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:49:48+00:00",
  "years": [
   {
    "fy_end": "2019-12-28",
@@ -200,7 +242,10 @@
    "goodwill_and_intangibles": 212373000.0,
    "retained_earnings": 2059796000.0,
    "total_debt": 23851000.0,
-   "shares_out": 228006468.0
+   "shares_out": 228006468.0,
+   "unusual_items": -3809000.0,
+   "normalized_ebitda": 924381000.0,
+   "normalized_income": 661153705.0
   },
   {
    "fy_end": "2023-12-30",
@@ -235,7 +280,10 @@
    "goodwill_and_intangibles": 198028000.0,
    "retained_earnings": 2594300000.0,
    "total_debt": 35557000.0,
-   "shares_out": 228315836.0
+   "shares_out": 228315836.0,
+   "unusual_items": 66744000.0,
+   "normalized_ebitda": 819663000.0,
+   "normalized_income": 553586532.8
   },
   {
    "fy_end": "2024-12-28",
@@ -270,7 +318,10 @@
    "goodwill_and_intangibles": 617522000.0,
    "retained_earnings": 3107838000.0,
    "total_debt": 33758000.0,
-   "shares_out": 227502254.0
+   "shares_out": 227502254.0,
+   "unusual_items": 7959000.0,
+   "normalized_ebitda": 866046000.0,
+   "normalized_income": 598909750.0
   },
   {
    "fy_end": "2025-12-27",
@@ -305,7 +356,10 @@
    "goodwill_and_intangibles": 585268000.0,
    "retained_earnings": 3761575000.0,
    "total_debt": 27490000.0,
-   "shares_out": 222359500.0
+   "shares_out": 222359500.0,
+   "unusual_items": 77007000.0,
+   "normalized_ebitda": 1004024000.0,
+   "normalized_income": 706996810.1
   }
  ]
 }

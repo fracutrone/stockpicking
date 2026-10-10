@@ -1,6 +1,6 @@
 {
  "ticker": "AFL",
- "fetched_at": "2026-10-10T12:36:41+00:00",
+ "fetched_at": "2026-10-10T15:33:46+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 12716,
   "website": "https://www.aflac.com",
-  "longBusinessSummary": "Aflac Incorporated, through its subsidiaries, provides supplemental health and life insurance products. It operates in two segments, Aflac Japan and Aflac U.S. The Aflac Japan segment offers cancer, medical, nursing care, whole life, and GIFT insurance products, as well as WAYS and child endowment, and Tsumitasu insurance products in Japan. Its Aflac U.S. segment provides accident, disability, cancer, critical illness, hospital indemnity, dental, vision, and life insurance products in the United States. The company also provides hearing, final expense, pet, Medicare supplement, supplemental dental and vision, short-term disability, and absence management insurance products, as well as cafeteria plans. It sells its products to individuals, families, and business owners through individual, independent corporate, and affiliated corporate agencies; banks; independent associates/career agents; and brokers. Aflac Incorporated was founded in 1955 and is headquartered in Columbus, Georgia."
+  "longBusinessSummary": "Aflac Incorporated, through its subsidiaries, provides supplemental health and life insurance products. It operates in two segments, Aflac Japan and Aflac U.S. The Aflac Japan segment offers cancer, medical, nursing care, whole life, and GIFT insurance products, as well as WAYS and child endowment, and Tsumitasu insurance products in Japan. Its Aflac U.S. segment provides accident, disability, cancer, critical illness, hospital indemnity, dental, vision, and life insurance products in the United States. The company also provides hearing, final expense, pet, Medicare supplement, supplemental dental and vision, short-term disability, and absence management insurance products, as well as cafeteria plans. It sells its products to individuals, families, and business owners through individual, independent corporate, and affiliated corporate agencies; banks; independent associates/career agents; and brokers. Aflac Incorporated was founded in 1955 and is headquartered in Columbus, Georgia.",
+  "targetMeanPrice": 117.8,
+  "targetLowPrice": 101.0,
+  "targetHighPrice": 138.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "hold",
+  "recommendationMean": 3.2,
+  "forwardPE": 15.097374,
+  "forwardEps": 7.58675,
+  "trailingEps": 9.3,
+  "earningsGrowth": 0.468,
+  "revenueGrowth": -0.01
  },
  "governance": {
   "ceo": {
@@ -72,11 +83,40 @@
   "retained_earnings": "sec",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "normalized_income": "yahoo",
   "operating_income": "sec",
   "da": "sec",
   "sga": "sec",
   "goodwill": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 116470000000.0,
+    "official": 116470000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 29490000000.0,
+    "official": 29490000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 3646000000.0,
+    "official": 3646000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 17355000000.0,
+    "official": 17164000000.0,
+    "diff": 0.011128
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:33:46+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -161,7 +201,8 @@
    "goodwill": 265000000.0,
    "retained_earnings": 44367000000.0,
    "total_debt": 7442000000.0,
-   "shares_out": 615256000.0
+   "shares_out": 615256000.0,
+   "normalized_income": 4418000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -185,7 +226,8 @@
    "goodwill": 265000000.0,
    "retained_earnings": 47993000000.0,
    "total_debt": 7364000000.0,
-   "shares_out": 578479000.0
+   "shares_out": 578479000.0,
+   "normalized_income": 4659000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -209,7 +251,8 @@
    "goodwill": 263000000.0,
    "retained_earnings": 52277000000.0,
    "total_debt": 7498000000.0,
-   "shares_out": 549964000.0
+   "shares_out": 549964000.0,
+   "normalized_income": 5443000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -233,7 +276,8 @@
    "goodwill": 260000000.0,
    "retained_earnings": 54682000000.0,
    "total_debt": 8409000000.0,
-   "shares_out": 518690000.0
+   "shares_out": 518690000.0,
+   "normalized_income": 3646000000.0
   }
  ]
 }

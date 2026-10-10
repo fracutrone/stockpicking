@@ -1,6 +1,6 @@
 {
  "ticker": "KMB",
- "fetched_at": "2026-10-10T12:49:50+00:00",
+ "fetched_at": "2026-10-10T15:48:09+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 36000,
   "website": "https://www.kimberly-clark.com",
-  "longBusinessSummary": "Kimberly-Clark Corporation, together with its subsidiaries, manufactures and markets personal care products in the United States. It operates in two segments, North America and International Personal Care. The North America segment offers disposable diapers, training and youth pants, swimpants, baby wipes, feminine and incontinence care products, reusable underwear, facial and bathroom tissue, paper towels, napkins, wipers, tissue, towels, soaps and sanitizers, and other related products under the Huggies, Pull-Ups, Goodnites, Kotex, Poise, Depend, Kleenex, Scott, Cottonelle, Viva, Wypall, and other brand names. Its International Personal Care segment provides baby and child care, adult care and feminine care, including disposable diapers, training and youth pants, swimpants, baby wipes, feminine and incontinence care products, reusable underwear, and other related products under the Huggies, Kotex, Goodfeel, Intimus, Depend, and other brand names. The company sells its household use products directly to supermarkets, mass merchandisers, drugstores, warehouse clubs, variety and department stores, and other retail outlets, as well as through other distributors and e-commerce. It also sells its professional use products through distributors directly to manufacturing, lodging, office building, food service, and high-volume public facilities, as well as through e-commerce. Kimberly-Clark Corporation was founded in 1872 and is headquartered in Dallas, Texas."
+  "longBusinessSummary": "Kimberly-Clark Corporation, together with its subsidiaries, manufactures and markets personal care products in the United States. It operates in two segments, North America and International Personal Care. The North America segment offers disposable diapers, training and youth pants, swimpants, baby wipes, feminine and incontinence care products, reusable underwear, facial and bathroom tissue, paper towels, napkins, wipers, tissue, towels, soaps and sanitizers, and other related products under the Huggies, Pull-Ups, Goodnites, Kotex, Poise, Depend, Kleenex, Scott, Cottonelle, Viva, Wypall, and other brand names. Its International Personal Care segment provides baby and child care, adult care and feminine care, including disposable diapers, training and youth pants, swimpants, baby wipes, feminine and incontinence care products, reusable underwear, and other related products under the Huggies, Kotex, Goodfeel, Intimus, Depend, and other brand names. The company sells its household use products directly to supermarkets, mass merchandisers, drugstores, warehouse clubs, variety and department stores, and other retail outlets, as well as through other distributors and e-commerce. It also sells its professional use products through distributors directly to manufacturing, lodging, office building, food service, and high-volume public facilities, as well as through e-commerce. Kimberly-Clark Corporation was founded in 1872 and is headquartered in Dallas, Texas.",
+  "targetMeanPrice": 115.26667,
+  "targetLowPrice": 90.0,
+  "targetHighPrice": 162.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.4375,
+  "forwardPE": 13.104641,
+  "forwardEps": 7.44698,
+  "trailingEps": 5.07,
+  "earningsGrowth": -0.323,
+  "revenueGrowth": 0.006
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 17098000000.0,
+    "official": 17098000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1502000000.0,
+    "official": 1502000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2021000000.0,
+    "official": 2021000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 16447000000.0,
+    "official": 16447000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:48:09+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -201,7 +243,10 @@
    "goodwill_and_intangibles": 2925000000.0,
    "retained_earnings": 8201000000.0,
    "total_debt": 7578000000.0,
-   "shares_out": 337500000.0
+   "shares_out": 337500000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 3376000000.0,
+   "normalized_income": 1934000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -235,7 +280,10 @@
    "goodwill_and_intangibles": 2282000000.0,
    "retained_earnings": 8368000000.0,
    "total_debt": 7417000000.0,
-   "shares_out": 336998000.0
+   "shares_out": 336998000.0,
+   "unusual_items": -658000000.0,
+   "normalized_ebitda": 3310000000.0,
+   "normalized_income": 1969608000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -270,7 +318,10 @@
    "goodwill_and_intangibles": 1876000000.0,
    "retained_earnings": 9257000000.0,
    "total_debt": 6854000000.0,
-   "shares_out": 331799000.0
+   "shares_out": 331799000.0,
+   "unusual_items": -97000000.0,
+   "normalized_ebitda": 3566000000.0,
+   "normalized_income": 2238268817.204301
   },
   {
    "fy_end": "2025-12-31",
@@ -305,7 +356,10 @@
    "goodwill_and_intangibles": 1916000000.0,
    "retained_earnings": 9611000000.0,
    "total_debt": 6474000000.0,
-   "shares_out": 331898000.0
+   "shares_out": 331898000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 3113000000.0,
+   "normalized_income": 1621000000.0
   }
  ]
 }

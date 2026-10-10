@@ -1,6 +1,6 @@
 {
  "ticker": "RIO.L",
- "fetched_at": "2026-10-10T12:16:29+00:00",
+ "fetched_at": "2026-10-10T15:15:43+00:00",
  "region": "Europa",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 56890,
   "website": "https://www.riotinto.com",
-  "longBusinessSummary": "Rio Tinto Group engages in exploring, mining, and processing mineral resources worldwide. The company operates through Iron Ore; Aluminium and lithium; and Copper segments. The Iron Ore segment engages in the iron ore mining, and salt and gypsum production in Western Australia. The Aluminum and lithium segment is involved in bauxite mining; alumina refining; and aluminium smelting, and recycling, as well as mining and processing of lithium. The Copper segment engages in mining and refining of copper, gold, silver, molybdenum, and other by-products and exploration activities. It also owns and operates open pit and underground mines; and refineries, smelters, processing plants and power, and shipping facilities. The company was founded in 1873 and is headquartered in London, the United Kingdom."
+  "longBusinessSummary": "Rio Tinto Group engages in exploring, mining, and processing mineral resources worldwide. The company operates through Iron Ore; Aluminium and lithium; and Copper segments. The Iron Ore segment engages in the iron ore mining, and salt and gypsum production in Western Australia. The Aluminum and lithium segment is involved in bauxite mining; alumina refining; and aluminium smelting, and recycling, as well as mining and processing of lithium. The Copper segment engages in mining and refining of copper, gold, silver, molybdenum, and other by-products and exploration activities. It also owns and operates open pit and underground mines; and refineries, smelters, processing plants and power, and shipping facilities. The company was founded in 1873 and is headquartered in London, the United Kingdom.",
+  "targetMeanPrice": 7664.748,
+  "targetLowPrice": 6432.814,
+  "targetHighPrice": 8928.476,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.38095,
+  "forwardPE": 11.669287,
+  "forwardEps": 6.106628,
+  "trailingEps": 5.5,
+  "earningsGrowth": 0.469,
+  "revenueGrowth": 0.155
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 128102000000.0,
+    "official": 128102000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 62203000000.0,
+    "official": 62203000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 9966000000.0,
+    "official": 9966000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 57638000000.0,
+    "official": 57638000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:15:43+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -121,7 +164,10 @@
    "goodwill_and_intangibles": 3103000000.0,
    "retained_earnings": 35020000000.0,
    "total_debt": 12271000000.0,
-   "shares_out": 1620865000.0
+   "shares_out": 1620865000.0,
+   "unusual_items": -138000000.0,
+   "normalized_ebitda": 25675000000.0,
+   "normalized_income": 12488486121.530382
   },
   {
    "fy_end": "2023-12-31",
@@ -156,7 +202,10 @@
    "goodwill_and_intangibles": 3207000000.0,
    "retained_earnings": 38350000000.0,
    "total_debt": 14352000000.0,
-   "shares_out": 1621444063.0
+   "shares_out": 1621444063.0,
+   "unusual_items": -977000000.0,
+   "normalized_ebitda": 22053000000.0,
+   "normalized_income": 10741900000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -191,7 +240,10 @@
    "goodwill_and_intangibles": 2969000000.0,
    "retained_earnings": 42539000000.0,
    "total_debt": 13855000000.0,
-   "shares_out": 1623556093.0
+   "shares_out": 1623556093.0,
+   "unusual_items": 593000000.0,
+   "normalized_ebitda": 22569000000.0,
+   "normalized_income": 11112462247.838617
   },
   {
    "fy_end": "2025-12-31",
@@ -226,7 +278,10 @@
    "goodwill_and_intangibles": 5451000000.0,
    "retained_earnings": 46581000000.0,
    "total_debt": 23517000000.0,
-   "shares_out": 1624781958.0
+   "shares_out": 1624781958.0,
+   "unusual_items": -330000000.0,
+   "normalized_ebitda": 23304000000.0,
+   "normalized_income": 10198164332.784185
   }
  ]
 }

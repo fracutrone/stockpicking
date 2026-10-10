@@ -1,6 +1,6 @@
 {
  "ticker": "CIEN",
- "fetched_at": "2026-10-10T12:40:54+00:00",
+ "fetched_at": "2026-10-10T15:39:38+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 8898,
   "website": "https://www.ciena.com",
-  "longBusinessSummary": "Ciena Corporation, a network technology company, provides hardware, software, and services for various network operators in the Americas, Europe, the Middle East, Africa, the Asia Pacific, Japan, and India. It operates through Networking Platforms, Platform Software and Services, Blue Planet Automation Software and Services, and Global Services segments. The Networking Platforms segment consists optical networking, routing, and switching products and services. This segment products include the 6500 Packet-Optical Platform, Waveserver modular interconnect system, the 6500 Reconfigurable Line System, and coherent pluggable transceivers; and the 3000 family of service delivery platforms and the 5000 family of service aggregation, as well as the 8100 Coherent Routing platforms and virtualization software. The Platform Software and Services segment offers navigator network control suite; and software subscription services, consulting, network migration and integration, installation and upgrade support services, and technical support solutions. The Blue Planet Automation Software and Services segment inventory management, orchestration, route optimization and analysis, and unified assurance and analytics software; and sells subscription, installation, support, consulting, and design services related to the Blue Planet automation platform. The Global Services segment provides services for advisory and enablement, implementation, and maintenance, support, and learning activities. Ciena Corporation was incorporated in 1992 and is headquartered in Fulton, Maryland."
+  "longBusinessSummary": "Ciena Corporation, a network technology company, provides hardware, software, and services for various network operators in the Americas, Europe, the Middle East, Africa, the Asia Pacific, Japan, and India. It operates through Networking Platforms, Platform Software and Services, Blue Planet Automation Software and Services, and Global Services segments. The Networking Platforms segment consists optical networking, routing, and switching products and services. This segment products include the 6500 Packet-Optical Platform, Waveserver modular interconnect system, the 6500 Reconfigurable Line System, and coherent pluggable transceivers; and the 3000 family of service delivery platforms and the 5000 family of service aggregation, as well as the 8100 Coherent Routing platforms and virtualization software. The Platform Software and Services segment offers navigator network control suite; and software subscription services, consulting, network migration and integration, installation and upgrade support services, and technical support solutions. The Blue Planet Automation Software and Services segment inventory management, orchestration, route optimization and analysis, and unified assurance and analytics software; and sells subscription, installation, support, consulting, and design services related to the Blue Planet automation platform. The Global Services segment provides services for advisory and enablement, implementation, and maintenance, support, and learning activities. Ciena Corporation was incorporated in 1992 and is headquartered in Fulton, Maryland.",
+  "targetMeanPrice": 512.9907,
+  "targetLowPrice": 347.0,
+  "targetHighPrice": 660.0,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.71429,
+  "forwardPE": 38.024807,
+  "forwardEps": 11.82833,
+  "trailingEps": 4.47,
+  "earningsGrowth": 4.229,
+  "revenueGrowth": 0.37
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-10-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 5864667000.0,
+    "official": 5864667000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2729323000.0,
+    "official": 2729323000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 123338000.0,
+    "official": 123338000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 4769507000.0,
+    "official": 4769507000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:39:38+00:00",
  "years": [
   {
    "fy_end": "2019-11-02",
@@ -205,7 +247,10 @@
    "goodwill_and_intangibles": 397839000.0,
    "retained_earnings": -3632230000.0,
    "total_debt": 1068055000.0,
-   "shares_out": 148412943.0
+   "shares_out": 148412943.0,
+   "unusual_items": -35939000.0,
+   "normalized_ebitda": 411613000.0,
+   "normalized_income": 183011694.2
   },
   {
    "fy_end": "2023-10-28",
@@ -240,7 +285,10 @@
    "goodwill_and_intangibles": 650392000.0,
    "retained_earnings": -3377403000.0,
    "total_debt": 1555106000.0,
-   "shares_out": 144829938.0
+   "shares_out": 144829938.0,
+   "unusual_items": -39505000.0,
+   "normalized_ebitda": 598412000.0,
+   "normalized_income": 285929286.5
   },
   {
    "fy_end": "2024-11-02",
@@ -275,7 +323,10 @@
    "goodwill_and_intangibles": 609727000.0,
    "retained_earnings": -3293447000.0,
    "total_debt": 1544774000.0,
-   "shares_out": 142656116.0
+   "shares_out": 142656116.0,
+   "unusual_items": -34868000.0,
+   "normalized_ebitda": 386800000.0,
+   "normalized_income": 108381034.0
   },
   {
    "fy_end": "2025-11-01",
@@ -310,7 +361,10 @@
    "goodwill_and_intangibles": 745414000.0,
    "retained_earnings": -3170109000.0,
    "total_debt": 1535738000.0,
-   "shares_out": 141016300.0
+   "shares_out": 141016300.0,
+   "unusual_items": -117761000.0,
+   "normalized_ebitda": 506150000.0,
+   "normalized_income": 216274981.2
   }
  ]
 }

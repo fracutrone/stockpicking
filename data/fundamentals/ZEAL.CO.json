@@ -1,6 +1,6 @@
 {
  "ticker": "ZEAL.CO",
- "fetched_at": "2026-10-10T12:27:30+00:00",
+ "fetched_at": "2026-10-10T15:30:43+00:00",
  "region": "Europa",
  "statement_currency": "DKK",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "CPH",
   "fullTimeEmployees": 578,
   "website": "https://www.zealandpharma.com",
-  "longBusinessSummary": "Zealand Pharma A/S, a biotechnology company, engages in the discovery, development, and commercialization of peptide-based medicines in Denmark and the United States. The company has a portfolio of medicines focusing on gastrointestinal and metabolic diseases, and other specialty disease areas with unmet medical needs. It also provides Zegalogue, a single use syringe or autoinjector for the treatment of severe hypoglycemia; and Dasiglucagon bi-hormone artificial pancreas systems containing insulin and dasiglucagon. Its pipeline includes Dasiglucagon for treating congenital hyperinsulinism. In addition, the company developing glepaglutide, a long acting GLP-2 analog, which is in Phase III clinical trials for the treatment of short bowel syndrome. The company was incorporated in 1997 and is based in Søborg, Denmark."
+  "longBusinessSummary": "Zealand Pharma A/S, a biotechnology company, engages in the discovery, development, and commercialization of peptide-based medicines in Denmark and the United States. The company has a portfolio of medicines focusing on gastrointestinal and metabolic diseases, and other specialty disease areas with unmet medical needs. It also provides Zegalogue, a single use syringe or autoinjector for the treatment of severe hypoglycemia; and Dasiglucagon bi-hormone artificial pancreas systems containing insulin and dasiglucagon. Its pipeline includes Dasiglucagon for treating congenital hyperinsulinism. In addition, the company developing glepaglutide, a long acting GLP-2 analog, which is in Phase III clinical trials for the treatment of short bowel syndrome. The company was incorporated in 1997 and is based in Søborg, Denmark.",
+  "targetMeanPrice": 408.36365,
+  "targetLowPrice": 300.0,
+  "targetHighPrice": 595.0,
+  "numberOfAnalystOpinions": 11,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.375,
+  "forwardPE": 31.926853,
+  "forwardEps": 7.45454,
+  "trailingEps": 38.64,
+  "earningsGrowth": -0.476,
+  "revenueGrowth": -0.506
  },
  "governance": {
   "ceo": {
@@ -76,8 +87,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF DK",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 15948798000.0,
+    "official": 15948798000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 14830613000.0,
+    "official": 14830613000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 6455008000.0,
+    "official": 6455008000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 9214860000.0,
+    "official": 9214860000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:30:43+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -110,7 +153,10 @@
    "goodwill_and_intangibles": 0.0,
    "retained_earnings": -4171640000.0,
    "total_debt": 443472000.0,
-   "shares_out": 51472035.0
+   "shares_out": 51472035.0,
+   "unusual_items": -132363000.0,
+   "normalized_ebitda": -665262000.0,
+   "normalized_income": -834122710.441226
   },
   {
    "fy_end": "2023-12-31",
@@ -144,7 +190,10 @@
    "goodwill_and_intangibles": 12255000.0,
    "retained_earnings": -4894841000.0,
    "total_debt": 119230000.0,
-   "shares_out": 58378018.0
+   "shares_out": 58378018.0,
+   "unusual_items": -138283000.0,
+   "normalized_ebitda": -519665000.0,
+   "normalized_income": -566455962.839187
   },
   {
    "fy_end": "2024-12-31",
@@ -178,7 +227,10 @@
    "goodwill_and_intangibles": 12620000.0,
    "retained_earnings": -6157441000.0,
    "total_debt": 391756000.0,
-   "shares_out": 70650370.0
+   "shares_out": 70650370.0,
+   "unusual_items": 38598000.0,
+   "normalized_ebitda": -1062149000.0,
+   "normalized_income": -1117271608.0
   },
   {
    "fy_end": "2025-12-31",
@@ -212,7 +264,10 @@
    "goodwill_and_intangibles": 44965000.0,
    "retained_earnings": 6287000.0,
    "total_debt": 405767000.0,
-   "shares_out": 70607140.0
+   "shares_out": 70607140.0,
+   "unusual_items": -89007000.0,
+   "normalized_ebitda": 7146503000.0,
+   "normalized_income": 6537072454.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "MRL.MC",
- "fetched_at": "2026-10-10T12:09:29+00:00",
+ "fetched_at": "2026-10-10T15:06:14+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "MCE",
   "fullTimeEmployees": 296,
   "website": "https://www.merlinproperties.com",
-  "longBusinessSummary": "MERLIN Properties SOCIMI, S.A. is one of the largest real estate and infrastructure companies listed on the Spanish Stock Exchange. It specializes in the development, acquisition and management of commercial property in the Iberian Peninsula, mainly investing in offices, shopping centers, logistics facilities and data centers within the Core and Core Plus segments. MERLIN Properties SOCIMI, S.A. was incorporated in 2014 in Spain."
+  "longBusinessSummary": "MERLIN Properties SOCIMI, S.A. is one of the largest real estate and infrastructure companies listed on the Spanish Stock Exchange. It specializes in the development, acquisition and management of commercial property in the Iberian Peninsula, mainly investing in offices, shopping centers, logistics facilities and data centers within the Core and Core Plus segments. MERLIN Properties SOCIMI, S.A. was incorporated in 2014 in Spain.",
+  "targetMeanPrice": 17.24667,
+  "targetLowPrice": 13.6,
+  "targetHighPrice": 20.85,
+  "numberOfAnalystOpinions": 21,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.61905,
+  "forwardPE": 21.271687,
+  "forwardEps": 0.56366,
+  "trailingEps": 1.47,
+  "earningsGrowth": 0.166,
+  "revenueGrowth": 0.146
  },
  "governance": {
   "ceo": {
@@ -76,8 +87,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF PT",
+  "fy_end": "2024-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 13459195000.0,
+    "official": 13459195000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 7500980000.0,
+    "official": 7500980000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 283759000.0,
+    "official": 283759000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 494572000.0,
+    "official": 494572000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2024-12-31"
+ },
+ "info_at": "2026-10-10T15:06:14+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -111,7 +154,10 @@
    "goodwill_and_intangibles": 1746000.0,
    "retained_earnings": 263087000.0,
    "total_debt": 4249281000.0,
-   "shares_out": 468234566.0
+   "shares_out": 468234566.0,
+   "unusual_items": 49881000.0,
+   "normalized_ebitda": 103542000.0,
+   "normalized_income": -1481416.645901
   },
   {
    "fy_end": "2023-12-31",
@@ -145,7 +191,10 @@
    "goodwill_and_intangibles": 1570000.0,
    "retained_earnings": -83497000.0,
    "total_debt": 4523912000.0,
-   "shares_out": 468371626.0
+   "shares_out": 468371626.0,
+   "unusual_items": -15398000.0,
+   "normalized_ebitda": 51997000.0,
+   "normalized_income": -71948500.0
   },
   {
    "fy_end": "2024-12-31",
@@ -177,7 +226,10 @@
    "goodwill_and_intangibles": 1025000.0,
    "retained_earnings": 283759000.0,
    "total_debt": 4922456000.0,
-   "shares_out": 562410254.0
+   "shares_out": 562410254.0,
+   "unusual_items": -1936000.0,
+   "normalized_ebitda": 432454000.0,
+   "normalized_income": 285615225.710752
   },
   {
    "fy_end": "2025-12-31",
@@ -209,7 +261,10 @@
    "goodwill_and_intangibles": 4494000.0,
    "retained_earnings": 786129000.0,
    "total_debt": 5062260000.0,
-   "shares_out": 562813658.0
+   "shares_out": 562813658.0,
+   "unusual_items": -1028000.0,
+   "normalized_ebitda": 955254000.0,
+   "normalized_income": 787122716.099949
   }
  ]
 }

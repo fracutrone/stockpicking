@@ -1,6 +1,6 @@
 {
  "ticker": "ETR",
- "fetched_at": "2026-10-10T12:44:45+00:00",
+ "fetched_at": "2026-10-10T15:43:07+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 12000,
   "website": "https://www.entergy.com",
-  "longBusinessSummary": "Entergy Corporation, together with its subsidiaries, engages in the production and retail distribution of electricity in the United States. It generates, transmits, distributes, and sells electric power in portions of Arkansas, Louisiana, Mississippi, and Texas, including the City of New Orleans. It also engages in the ownership of interests in non-nuclear power plants that sell electric power to wholesale customers, as well as provides decommissioning services to other nuclear power plant owners. It generates electricity through gas, nuclear, coal, hydro, and solar power sources. The company sells energy to retail power providers, utilities, electric power co-operatives, power trading organizations, and other power generation companies. The company's power plants have approximately 25,000 megawatts of electric generating capacity. It delivers electricity to 3.1 million utility customers in Arkansas, Louisiana, Mississippi, and Texas. Entergy Corporation was founded in 1913 and is headquartered in New Orleans, Louisiana."
+  "longBusinessSummary": "Entergy Corporation, together with its subsidiaries, engages in the production and retail distribution of electricity in the United States. It generates, transmits, distributes, and sells electric power in portions of Arkansas, Louisiana, Mississippi, and Texas, including the City of New Orleans. It also engages in the ownership of interests in non-nuclear power plants that sell electric power to wholesale customers, as well as provides decommissioning services to other nuclear power plant owners. It generates electricity through gas, nuclear, coal, hydro, and solar power sources. The company sells energy to retail power providers, utilities, electric power co-operatives, power trading organizations, and other power generation companies. The company's power plants have approximately 25,000 megawatts of electric generating capacity. It delivers electricity to 3.1 million utility customers in Arkansas, Louisiana, Mississippi, and Texas. Entergy Corporation was founded in 1913 and is headquartered in New Orleans, Louisiana.",
+  "targetMeanPrice": 122.275,
+  "targetLowPrice": 91.0,
+  "targetHighPrice": 137.0,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.73913,
+  "forwardPE": 20.139488,
+  "forwardEps": 5.1044,
+  "trailingEps": 3.91,
+  "earningsGrowth": -0.019,
+  "revenueGrowth": 0.059
  },
  "governance": {
   "ceo": {
@@ -82,8 +93,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 71890730000.0,
+    "official": 71890730000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 16958076000.0,
+    "official": 16923076000.0,
+    "diff": 0.002068
+   },
+   "net_income": {
+    "yahoo": 1773328000.0,
+    "official": 1773328000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 12946686000.0,
+    "official": 12946686000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:43:08+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -180,7 +222,10 @@
    "goodwill_and_intangibles": 377172000.0,
    "retained_earnings": 10502041000.0,
    "total_debt": 26760170000.0,
-   "shares_out": 422353000.0
+   "shares_out": 422353000.0,
+   "unusual_items": 236296000.0,
+   "normalized_ebitda": 4000053000.0,
+   "normalized_income": 910464160.0
   },
   {
    "fy_end": "2023-12-31",
@@ -212,7 +257,10 @@
    "goodwill_and_intangibles": 374099000.0,
    "retained_earnings": 11940384000.0,
    "total_debt": 26246067000.0,
-   "shares_out": 425697140.0
+   "shares_out": 425697140.0,
+   "unusual_items": 55814000.0,
+   "normalized_ebitda": 4866846000.0,
+   "normalized_income": 2318216940.0
   },
   {
    "fy_end": "2024-12-31",
@@ -244,7 +292,10 @@
    "goodwill_and_intangibles": 367625000.0,
    "retained_earnings": 12014315000.0,
    "total_debt": 28918886000.0,
-   "shares_out": 429580416.0
+   "shares_out": 429580416.0,
+   "unusual_items": 25912000.0,
+   "normalized_ebitda": 5010681000.0,
+   "normalized_income": 1042112768.0
   },
   {
    "fy_end": "2025-12-31",
@@ -276,7 +327,10 @@
    "goodwill_and_intangibles": 367582000.0,
    "retained_earnings": 12698436000.0,
    "total_debt": 30934935000.0,
-   "shares_out": 452339365.0
+   "shares_out": 452339365.0,
+   "unusual_items": 167931000.0,
+   "normalized_ebitda": 5977138000.0,
+   "normalized_income": 1642173889.0
   }
  ]
 }

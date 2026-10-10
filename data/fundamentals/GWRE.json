@@ -1,6 +1,6 @@
 {
  "ticker": "GWRE",
- "fetched_at": "2026-10-10T12:47:15+00:00",
+ "fetched_at": "2026-10-10T15:45:40+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 4174,
   "website": "https://www.guidewire.com",
-  "longBusinessSummary": "Guidewire Software, Inc. provides a platform for property and casualty (P&C) insurers the United States, Canada, other Americas, Europe, the Middle East, Africa, and Asia-Pacific. It offers Guidewire InsuranceSuite, such as PolicyCenter, ClaimCenter, BillingCenter, PricingCenter, and UnderwritingCente applications. The company also provides Guidewire InsuranceNow, a cloud-based application that offers policy administration, claims management, and billing functionality, plus pre-integrated document production, analytics, and other capabilities. In addition, it offers Guidewire Rating Management to manage the pricing of insurance services and products; Guidewire Reinsurance Management to use rules-based logic to execute reinsurance strategy through underwriting and claims processes; Guidewire Client Data Management that helps P&C insurers to capitalize on customer information; Guidewire Advanced Product Designer, a cloud-native application for insurance product design and management; Guidewire Product Content Management provides software tools and standards-based, line-of-business templates; and Guidewire ProNavigator, an AI-powered intelligent assistant. Further, the company provides Guidewire Digital Engagement Applications, which enable insurers to provide digital experiences; Guidewire HazardHub that allows insurers to understand, assess, price, and manage property risk; Guidewire Predict, a P&C-specific machine-learning platform; Guidewire Data Studio, Guidewire Canvas, Guidewire Compare, Guidewire industry Intel, and Guidewire Explore, an cloud-native applications; Guidewire Cyence, a cyber-risk economic modeling product; Guidewire DataHub, an operational data store; and Guidewire InfoCenter, a business intelligence warehouse for P&C insurers. The company was incorporated in 2001 and is headquartered in San Mateo, California."
+  "longBusinessSummary": "Guidewire Software, Inc. provides a platform for property and casualty (P&C) insurers the United States, Canada, other Americas, Europe, the Middle East, Africa, and Asia-Pacific. It offers Guidewire InsuranceSuite, such as PolicyCenter, ClaimCenter, BillingCenter, PricingCenter, and UnderwritingCente applications. The company also provides Guidewire InsuranceNow, a cloud-based application that offers policy administration, claims management, and billing functionality, plus pre-integrated document production, analytics, and other capabilities. In addition, it offers Guidewire Rating Management to manage the pricing of insurance services and products; Guidewire Reinsurance Management to use rules-based logic to execute reinsurance strategy through underwriting and claims processes; Guidewire Client Data Management that helps P&C insurers to capitalize on customer information; Guidewire Advanced Product Designer, a cloud-native application for insurance product design and management; Guidewire Product Content Management provides software tools and standards-based, line-of-business templates; and Guidewire ProNavigator, an AI-powered intelligent assistant. Further, the company provides Guidewire Digital Engagement Applications, which enable insurers to provide digital experiences; Guidewire HazardHub that allows insurers to understand, assess, price, and manage property risk; Guidewire Predict, a P&C-specific machine-learning platform; Guidewire Data Studio, Guidewire Canvas, Guidewire Compare, Guidewire industry Intel, and Guidewire Explore, an cloud-native applications; Guidewire Cyence, a cyber-risk economic modeling product; Guidewire DataHub, an operational data store; and Guidewire InfoCenter, a business intelligence warehouse for P&C insurers. The company was incorporated in 2001 and is headquartered in San Mateo, California.",
+  "targetMeanPrice": 213.2857,
+  "targetLowPrice": 170.0,
+  "targetHighPrice": 258.0,
+  "numberOfAnalystOpinions": 14,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.6875,
+  "forwardPE": 31.303497,
+  "forwardEps": 5.34509,
+  "trailingEps": 1.63,
+  "earningsGrowth": -0.382,
+  "revenueGrowth": 0.153
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,38 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-07-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 2576946000.0,
+    "official": 2576946000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1193687000.0,
+    "official": 1193687000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 139283000.0,
+    "official": 139283000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 1475363000.0,
+    "official": 1475363000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:45:40+00:00",
  "years": [
   {
    "fy_end": "2020-07-31",
@@ -200,7 +241,9 @@
    "goodwill_and_intangibles": 386687000.0,
    "retained_earnings": -617950000.0,
    "total_debt": 448576000.0,
-   "shares_out": 81440669.0
+   "shares_out": 81440669.0,
+   "normalized_ebitda": -102540000.0,
+   "normalized_income": -111855000.0
   },
   {
    "fy_end": "2024-07-31",
@@ -234,7 +277,9 @@
    "goodwill_and_intangibles": 381219000.0,
    "retained_earnings": -624053000.0,
    "total_debt": 442919000.0,
-   "shares_out": 83025637.0
+   "shares_out": 83025637.0,
+   "normalized_ebitda": 2209000.0,
+   "normalized_income": -6103000.0
   },
   {
    "fy_end": "2025-07-31",
@@ -268,7 +313,9 @@
    "goodwill_and_intangibles": 406020000.0,
    "retained_earnings": -554249000.0,
    "total_debt": 715693000.0,
-   "shares_out": 84530418.0
+   "shares_out": 84530418.0,
+   "normalized_ebitda": 86364000.0,
+   "normalized_income": 69804000.0
   },
   {
    "fy_end": "2026-07-31",
@@ -302,7 +349,9 @@
    "goodwill_and_intangibles": 439672000.0,
    "retained_earnings": -1024396000.0,
    "total_debt": 714987000.0,
-   "shares_out": 81992467.0
+   "shares_out": 81992467.0,
+   "normalized_ebitda": 205393000.0,
+   "normalized_income": 139283000.0
   }
  ]
 }

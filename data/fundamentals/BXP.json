@@ -1,6 +1,6 @@
 {
  "ticker": "BXP",
- "fetched_at": "2026-10-10T12:39:41+00:00",
+ "fetched_at": "2026-10-10T15:38:32+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 826,
   "website": "https://www.bxp.com",
-  "longBusinessSummary": "BXP, Inc. is the largest publicly traded developer, owner, and manager of premier workplaces in the United States. It is concentrated in six dynamic gateway markets - Boston, Los Angeles, New York, San Francisco, Seattle, and Washington, DC. BXP has delivered places that power progress for our clients and communities for more than 55 years. BXP is a fully integrated real estate company, organized as a real estate investment trust (REIT). As of June 30, 2026, including properties owned by joint ventures, BXP's portfolio totals 51.1 million square feet and 164 properties, including six properties under construction/redevelopment. BXP's portfolio consists of 143 office properties, 13 retail properties, seven residential properties (including four residential properties under construction) and one hotel. BXP is well known for its in-house building management expertise and responsiveness to clients' needs. BXP holds a superior track record of developing premium Central Business District (CBD) office buildings, successful mixed-use complexes, suburban office centers and build-to-suit projects for a diverse array of creditworthy clients. BXP actively works to promote its growth and operations in a sustainable and responsible manner. BXP, Inc. was incorporated in 1970 in Delaware and is based in Massachusetts, Boston."
+  "longBusinessSummary": "BXP, Inc. is the largest publicly traded developer, owner, and manager of premier workplaces in the United States. It is concentrated in six dynamic gateway markets - Boston, Los Angeles, New York, San Francisco, Seattle, and Washington, DC. BXP has delivered places that power progress for our clients and communities for more than 55 years. BXP is a fully integrated real estate company, organized as a real estate investment trust (REIT). As of June 30, 2026, including properties owned by joint ventures, BXP's portfolio totals 51.1 million square feet and 164 properties, including six properties under construction/redevelopment. BXP's portfolio consists of 143 office properties, 13 retail properties, seven residential properties (including four residential properties under construction) and one hotel. BXP is well known for its in-house building management expertise and responsiveness to clients' needs. BXP holds a superior track record of developing premium Central Business District (CBD) office buildings, successful mixed-use complexes, suburban office centers and build-to-suit projects for a diverse array of creditworthy clients. BXP actively works to promote its growth and operations in a sustainable and responsible manner. BXP, Inc. was incorporated in 1970 in Delaware and is based in Massachusetts, Boston.",
+  "targetMeanPrice": 75.95,
+  "targetLowPrice": 60.0,
+  "targetHighPrice": 91.0,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.13636,
+  "forwardPE": 28.311157,
+  "forwardEps": 2.08575,
+  "trailingEps": 1.86,
+  "earningsGrowth": -0.232,
+  "revenueGrowth": 0.037
  },
  "governance": {
   "ceo": {
@@ -77,8 +88,39 @@
   "receivables": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 26166164000.0,
+    "official": 26166164000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 5154728000.0,
+    "official": 5147190000.0,
+    "diff": 0.001464
+   },
+   "net_income": {
+    "yahoo": 276800000.0,
+    "official": 276800000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3482279000.0,
+    "official": 3482279000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:38:32+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -152,7 +194,10 @@
    "equity": 6132919000.0,
    "receivables": 81389000.0,
    "retained_earnings": -391356000.0,
-   "shares_out": 156757867.0
+   "shares_out": 156757867.0,
+   "unusual_items": 437569000.0,
+   "normalized_ebitda": 1772356000.0,
+   "normalized_income": 524314558.9
   },
   {
    "fy_end": "2023-12-31",
@@ -179,7 +224,10 @@
    "receivables": 122407000.0,
    "retained_earnings": -816152000.0,
    "total_debt": 0,
-   "shares_out": 156940866.0
+   "shares_out": 156940866.0,
+   "unusual_items": 1920000.0,
+   "normalized_ebitda": 1701829000.0,
+   "normalized_income": 188789784.0
   },
   {
    "fy_end": "2024-12-31",
@@ -206,7 +254,10 @@
    "receivables": 107453000.0,
    "retained_earnings": -1419575000.0,
    "total_debt": 500000000.0,
-   "shares_out": 158174995.0
+   "shares_out": 158174995.0,
+   "unusual_items": -9648000.0,
+   "normalized_ebitda": 1628406000.0,
+   "normalized_income": 21447217.6
   },
   {
    "fy_end": "2025-12-31",
@@ -233,7 +284,10 @@
    "receivables": 92625000.0,
    "retained_earnings": -1674995000.0,
    "total_debt": 750000000.0,
-   "shares_out": 158548298.0
+   "shares_out": 158548298.0,
+   "unusual_items": 90558000.0,
+   "normalized_ebitda": 1858927000.0,
+   "normalized_income": 209397680.6
   }
  ]
 }

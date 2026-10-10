@@ -1,6 +1,6 @@
 {
  "ticker": "RWE.DE",
- "fetched_at": "2026-10-10T12:17:52+00:00",
+ "fetched_at": "2026-10-10T15:17:18+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "GER",
   "fullTimeEmployees": 19702,
   "website": "https://www.rwe.com",
-  "longBusinessSummary": "RWE Aktiengesellschaft generates and supplies electricity from renewable and conventional sources in Germany, the United Kingdom, rest of Europe, North America, and internationally. It operates through five segments: Offshore Wind; Onshore Wind/Solar; Flexible Generation; Supply & Trading; and Phaseout Technologies. The company generates wind, hydro, solar, gas, lignite, and biomass electricity. It also trades in electricity, gas, and energy commodities; operates gas storage facilities; and engages in battery storage activities, as well as lignite mining and refining. The company serves commercial, industrial, and municipal customers. RWE Aktiengesellschaft was founded in 1898 and is headquartered in Essen, Germany."
+  "longBusinessSummary": "RWE Aktiengesellschaft generates and supplies electricity from renewable and conventional sources in Germany, the United Kingdom, rest of Europe, North America, and internationally. It operates through five segments: Offshore Wind; Onshore Wind/Solar; Flexible Generation; Supply & Trading; and Phaseout Technologies. The company generates wind, hydro, solar, gas, lignite, and biomass electricity. It also trades in electricity, gas, and energy commodities; operates gas storage facilities; and engages in battery storage activities, as well as lignite mining and refining. The company serves commercial, industrial, and municipal customers. RWE Aktiengesellschaft was founded in 1898 and is headquartered in Essen, Germany.",
+  "targetMeanPrice": 68.32778,
+  "targetLowPrice": 55.0,
+  "targetHighPrice": 76.0,
+  "numberOfAnalystOpinions": 18,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.61111,
+  "forwardPE": 17.345747,
+  "forwardEps": 3.3403,
+  "trailingEps": 4.51,
+  "earningsGrowth": 1.374,
+  "revenueGrowth": -0.091
  },
  "governance": {
   "ceo": {
@@ -81,8 +92,17 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T15:17:18+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -117,7 +137,10 @@
    "goodwill_and_intangibles": 5668000000.0,
    "retained_earnings": 15733000000.0,
    "total_debt": 15621000000.0,
-   "shares_out": 676220048.0
+   "shares_out": 676220048.0,
+   "unusual_items": 237000000.0,
+   "normalized_ebitda": 2937000000.0,
+   "normalized_income": 2515550000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -152,7 +175,10 @@
    "goodwill_and_intangibles": 9787000000.0,
    "retained_earnings": 14892000000.0,
    "total_debt": 13662000000.0,
-   "shares_out": 743841217.0
+   "shares_out": 743841217.0,
+   "unusual_items": -524000000.0,
+   "normalized_ebitda": 9965000000.0,
+   "normalized_income": 1960400000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -187,7 +213,10 @@
    "goodwill_and_intangibles": 10252000000.0,
    "retained_earnings": 18809000000.0,
    "total_debt": 15790000000.0,
-   "shares_out": 739392848.0
+   "shares_out": 739392848.0,
+   "unusual_items": 878000000.0,
+   "normalized_ebitda": 9764000000.0,
+   "normalized_income": 4402895002.364812
   },
   {
    "fy_end": "2025-12-31",
@@ -222,7 +251,10 @@
    "goodwill_and_intangibles": 8688000000.0,
    "retained_earnings": 23173000000.0,
    "total_debt": 17009000000.0,
-   "shares_out": 713564711.0
+   "shares_out": 713564711.0,
+   "unusual_items": 1617000000.0,
+   "normalized_ebitda": 5273000000.0,
+   "normalized_income": 1586765000.0
   }
  ]
 }

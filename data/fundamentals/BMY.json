@@ -1,6 +1,6 @@
 {
  "ticker": "BMY",
- "fetched_at": "2026-10-10T12:39:16+00:00",
+ "fetched_at": "2026-10-10T15:38:06+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 32500,
   "website": "https://www.bms.com",
-  "longBusinessSummary": "Bristol-Myers Squibb Company discovers, develops, licenses, manufactures, markets, distributes, and sells biopharmaceutical products worldwide. The company offers products for oncology, hematology, immunology, cardiovascular, and neuroscience indications. Its products include Opdivo for anti-cancer indications; Opdivo Qvantig, a subcutaneous PD-1 inhibitor for solid tumors; Orencia for active rheumatoid arthritis and psoriatic arthritis; Yervoy for the treatment of unresectable or metastatic melanoma; Reblozyl to treat anemia; Breyanzi for the treatment of relapsed or refractory large B-cell lymphoma; Opdualag to treat unresectable or metastatic melanoma; and Camzyos for the treatment of symptomatic obstructive HCM. The company also offers Zeposia to treat relapsing forms of multiple sclerosis; Abecma for the treatment of patients with relapsed or refractory multiple myeloma; Sotyktu to treat moderate-to-severe plaque psoriasis; Krazati for the treatment of KRASG12C-mutated locally advanced or metastatic non-small cell lung cancer (NSCLC); and Cobenfy to treat schizophrenia. In addition, it offers Eliquis for the reduction of risk of stroke/systemic embolism and for the treatment of DVT/PE; Revlimid, an oral immunomodulatory drug for multiple myeloma; Pomalyst/Imnovid for multiple myeloma; Sprycel for Philadelphia chromosome-positive chronic myeloid leukemia; and Abraxane to treat breast cancer. Further, the company provides Augtyro for the treatment of locally advanced or metastatic ROS1-positive NSCLC, as well as NSCLC and pancreatic cancer. It sells its products to wholesalers, distributors, specialty pharmacies, retailers, hospitals, clinics, and government agencies. The company has a strategic collaboration with Arcus Biosciences, Inc. to develop a treatment regimen that delivers tumor control in kidney cancer. The company was formerly known as Bristol-Myers Company. The company was founded in 1887 and is headquartered in Princeton, New Jersey."
+  "longBusinessSummary": "Bristol-Myers Squibb Company discovers, develops, licenses, manufactures, markets, distributes, and sells biopharmaceutical products worldwide. The company offers products for oncology, hematology, immunology, cardiovascular, and neuroscience indications. Its products include Opdivo for anti-cancer indications; Opdivo Qvantig, a subcutaneous PD-1 inhibitor for solid tumors; Orencia for active rheumatoid arthritis and psoriatic arthritis; Yervoy for the treatment of unresectable or metastatic melanoma; Reblozyl to treat anemia; Breyanzi for the treatment of relapsed or refractory large B-cell lymphoma; Opdualag to treat unresectable or metastatic melanoma; and Camzyos for the treatment of symptomatic obstructive HCM. The company also offers Zeposia to treat relapsing forms of multiple sclerosis; Abecma for the treatment of patients with relapsed or refractory multiple myeloma; Sotyktu to treat moderate-to-severe plaque psoriasis; Krazati for the treatment of KRASG12C-mutated locally advanced or metastatic non-small cell lung cancer (NSCLC); and Cobenfy to treat schizophrenia. In addition, it offers Eliquis for the reduction of risk of stroke/systemic embolism and for the treatment of DVT/PE; Revlimid, an oral immunomodulatory drug for multiple myeloma; Pomalyst/Imnovid for multiple myeloma; Sprycel for Philadelphia chromosome-positive chronic myeloid leukemia; and Abraxane to treat breast cancer. Further, the company provides Augtyro for the treatment of locally advanced or metastatic ROS1-positive NSCLC, as well as NSCLC and pancreatic cancer. It sells its products to wholesalers, distributors, specialty pharmacies, retailers, hospitals, clinics, and government agencies. The company has a strategic collaboration with Arcus Biosciences, Inc. to develop a treatment regimen that delivers tumor control in kidney cancer. The company was formerly known as Bristol-Myers Company. The company was founded in 1887 and is headquartered in Princeton, New Jersey.",
+  "targetMeanPrice": 65.70833,
+  "targetLowPrice": 41.0,
+  "targetHighPrice": 82.0,
+  "numberOfAnalystOpinions": 24,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.5,
+  "forwardPE": 8.956653,
+  "forwardEps": 6.60068,
+  "trailingEps": 4.54,
+  "earningsGrowth": 1.531,
+  "revenueGrowth": 0.057
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 90038000000.0,
+    "official": 90038000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 18473000000.0,
+    "official": 18473000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 7054000000.0,
+    "official": 7054000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 48195000000.0,
+    "official": 48194000000.0,
+    "diff": 2.1e-05
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:38:06+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -202,7 +244,10 @@
    "goodwill_and_intangibles": 57504000000.0,
    "retained_earnings": 25503000000.0,
    "total_debt": 43217000000.0,
-   "shares_out": 2075000000.0
+   "shares_out": 2075000000.0,
+   "unusual_items": -2193000000.0,
+   "normalized_ebitda": 21414000000.0,
+   "normalized_income": 8131839000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -237,7 +282,10 @@
    "goodwill_and_intangibles": 48654000000.0,
    "retained_earnings": 28766000000.0,
    "total_debt": 42645000000.0,
-   "shares_out": 2021000000.0
+   "shares_out": 2021000000.0,
+   "unusual_items": -873000000.0,
+   "normalized_ebitda": 20239000000.0,
+   "normalized_income": 8856969000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -272,7 +320,10 @@
    "goodwill_and_intangibles": 45362000000.0,
    "retained_earnings": 14912000000.0,
    "total_debt": 51477000000.0,
-   "shares_out": 2029000000.0
+   "shares_out": 2029000000.0,
+   "unusual_items": -13932000000.0,
+   "normalized_ebitda": 17100000000.0,
+   "normalized_income": 2058280000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -307,7 +358,10 @@
    "goodwill_and_intangibles": 41107000000.0,
    "retained_earnings": 16896000000.0,
    "total_debt": 47088000000.0,
-   "shares_out": 2035753027.0
+   "shares_out": 2035753027.0,
+   "unusual_items": -4715000000.0,
+   "normalized_ebitda": 19945000000.0,
+   "normalized_income": 10620578044.596912
   }
  ]
 }

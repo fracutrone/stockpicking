@@ -1,6 +1,6 @@
 {
  "ticker": "BGFD.L",
- "fetched_at": "2026-10-10T11:47:51+00:00",
+ "fetched_at": "2026-10-10T14:35:08+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -17,12 +17,23 @@
   "heldPercentInsiders": null,
   "heldPercentInstitutions": null,
   "shortPercentOfFloat": null,
-  "averageVolume": 176611,
+  "averageVolume": 175366,
   "quoteType": "EQUITY",
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": null,
+  "targetLowPrice": null,
+  "targetHighPrice": null,
+  "numberOfAnalystOpinions": null,
+  "recommendationKey": "none",
+  "recommendationMean": null,
+  "forwardPE": null,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -49,8 +60,15 @@
   "equity": "yahoo",
   "receivables": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T14:35:08+00:00",
  "years": [
   {
    "fy_end": "2022-08-31",
@@ -70,7 +88,8 @@
    "equity": 791006000.0,
    "receivables": 2185000.0,
    "total_debt": 149407000.0,
-   "shares_out": 93899459.0
+   "shares_out": 93899459.0,
+   "normalized_income": -155474000.0
   },
   {
    "fy_end": "2023-08-31",
@@ -90,7 +109,8 @@
    "equity": 732963000.0,
    "receivables": 1811000.0,
    "total_debt": 131723000.0,
-   "shares_out": 93047614.0
+   "shares_out": 93047614.0,
+   "normalized_income": -43245000.0
   },
   {
    "fy_end": "2024-08-31",
@@ -110,7 +130,8 @@
    "equity": 748379000.0,
    "receivables": 2871000.0,
    "total_debt": 140572000.0,
-   "shares_out": 87532614.0
+   "shares_out": 87532614.0,
+   "normalized_income": 63759000.0
   },
   {
    "fy_end": "2025-08-31",
@@ -130,7 +151,8 @@
    "equity": 788148000.0,
    "receivables": 2473000.0,
    "total_debt": 115947000.0,
-   "shares_out": 77491440.0
+   "shares_out": 77491440.0,
+   "normalized_income": 123430000.0
   }
  ]
 }

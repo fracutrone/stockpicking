@@ -1,6 +1,6 @@
 {
  "ticker": "HICL.L",
- "fetched_at": "2026-10-10T12:01:37+00:00",
+ "fetched_at": "2026-10-10T14:54:26+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": 150.0,
+  "targetLowPrice": 135.0,
+  "targetHighPrice": 165.0,
+  "numberOfAnalystOpinions": 2,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.85714,
+  "forwardPE": 12.092593,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -47,8 +58,15 @@
   "cash": "yahoo",
   "equity": "yahoo",
   "receivables": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T14:54:26+00:00",
  "years": [
   {
    "fy_end": "2023-03-31",
@@ -66,7 +84,8 @@
    "cash": 1000000.0,
    "equity": 3350000000.0,
    "receivables": 400000.0,
-   "shares_out": 2031488061.0
+   "shares_out": 2031488061.0,
+   "normalized_income": 198400000.0
   },
   {
    "fy_end": "2024-03-31",
@@ -84,7 +103,8 @@
    "cash": 1100000.0,
    "equity": 3213000000.0,
    "receivables": 300000.0,
-   "shares_out": 2031488061.0
+   "shares_out": 2031488061.0,
+   "normalized_income": 30500000.0
   },
   {
    "fy_end": "2025-03-31",
@@ -101,7 +121,8 @@
    "cash": 700000.0,
    "equity": 3030700000.0,
    "receivables": 300000.0,
-   "shares_out": 1979671246.0
+   "shares_out": 1979671246.0,
+   "normalized_income": 45900000.0
   },
   {
    "fy_end": "2026-03-31",
@@ -117,7 +138,8 @@
    "cash": 900000.0,
    "equity": 3033500000.0,
    "receivables": 300000.0,
-   "shares_out": 1893352480.0
+   "shares_out": 1893352480.0,
+   "normalized_income": 266600000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "MOS",
- "fetched_at": "2026-10-10T12:51:53+00:00",
+ "fetched_at": "2026-10-10T15:50:01+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 13000,
   "website": "https://www.mosaicco.com",
-  "longBusinessSummary": "The Mosaic Company, through its subsidiaries, produces and markets concentrated phosphate and potash crop nutrients. It operates in three segments: Phosphates, Potash, and Mosaic Fertilizantes. The company owns and operates mines and production facilities, which produce concentrated phosphate crop nutrients and phosphate-based animal feed ingredients, as well as concentrated phosphate crop nutrients, such as diammonium phosphate, monoammonium phosphate, and MicroEssentials, a value-added ammoniated phosphate product. It also mines, processes, and sells potash to crop nutrient manufacturers, distributors, retailers, and to customers for industrial use; and owns and operates mines, chemical plants, crop nutrient blending and bagging facilities, port terminals and warehouses, which produce and sell concentrated phosphate and potash-based crop nutrients, and phosphate-based animal feed ingredients. In addition, the company produces a double sulfate of potash magnesia product under the K-Mag brand; and purchases phosphate, potash, and nitrogen products to produce blended crop nutrients. Further, it offers triple superphosphate, single superphosphate, and dicalcium phosphate; feed phosphate under the Biofos and Nexfos brands; potash for de-icing and as a water softener regenerant; and phosphogypsum. The company sells its products to wholesale distributors, retail chains, cooperatives, independent retailers, and national accounts through its sales force. It also exports its products. The company operates in the United States, Brazil, China, Canada, Paraguay, Argentina, Japan, Colombia, India, Australia, Peru, Mexico, Honduras, the Dominican Republic, Indonesia, and internationally. The Mosaic Company was incorporated in 1987 and is headquartered in Tampa, Florida."
+  "longBusinessSummary": "The Mosaic Company, through its subsidiaries, produces and markets concentrated phosphate and potash crop nutrients. It operates in three segments: Phosphates, Potash, and Mosaic Fertilizantes. The company owns and operates mines and production facilities, which produce concentrated phosphate crop nutrients and phosphate-based animal feed ingredients, as well as concentrated phosphate crop nutrients, such as diammonium phosphate, monoammonium phosphate, and MicroEssentials, a value-added ammoniated phosphate product. It also mines, processes, and sells potash to crop nutrient manufacturers, distributors, retailers, and to customers for industrial use; and owns and operates mines, chemical plants, crop nutrient blending and bagging facilities, port terminals and warehouses, which produce and sell concentrated phosphate and potash-based crop nutrients, and phosphate-based animal feed ingredients. In addition, the company produces a double sulfate of potash magnesia product under the K-Mag brand; and purchases phosphate, potash, and nitrogen products to produce blended crop nutrients. Further, it offers triple superphosphate, single superphosphate, and dicalcium phosphate; feed phosphate under the Biofos and Nexfos brands; potash for de-icing and as a water softener regenerant; and phosphogypsum. The company sells its products to wholesale distributors, retail chains, cooperatives, independent retailers, and national accounts through its sales force. It also exports its products. The company operates in the United States, Brazil, China, Canada, Paraguay, Argentina, Japan, Colombia, India, Australia, Peru, Mexico, Honduras, the Dominican Republic, Indonesia, and internationally. The Mosaic Company was incorporated in 1987 and is headquartered in Tampa, Florida.",
+  "targetMeanPrice": 26.66111,
+  "targetLowPrice": 17.0,
+  "targetHighPrice": 35.0,
+  "numberOfAnalystOpinions": 18,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.5,
+  "forwardPE": 11.914147,
+  "forwardEps": 1.57292,
+  "trailingEps": -2.01,
+  "earningsGrowth": null,
+  "revenueGrowth": -0.06
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 24480100000.0,
+    "official": 24480100000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 12084900000.0,
+    "official": 12084900000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 540700000.0,
+    "official": 540700000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 12052400000.0,
+    "official": 12052400000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:50:01+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -201,7 +243,10 @@
    "goodwill_and_intangibles": 1116300000.0,
    "retained_earnings": 14203400000.0,
    "total_debt": 2636800000.0,
-   "shares_out": 339071423.0
+   "shares_out": 339071423.0,
+   "unusual_items": 97500000.0,
+   "normalized_ebitda": 5647700000.0,
+   "normalized_income": 3511040000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -234,7 +279,10 @@
    "goodwill_and_intangibles": 1138600000.0,
    "retained_earnings": 14241900000.0,
    "total_debt": 3631300000.0,
-   "shares_out": 324103141.0
+   "shares_out": 324103141.0,
+   "unusual_items": 250500000.0,
+   "normalized_ebitda": 2225000000.0,
+   "normalized_income": 947716500.0
   },
   {
    "fy_end": "2024-12-31",
@@ -267,7 +315,10 @@
    "goodwill_and_intangibles": 1061100000.0,
    "retained_earnings": 13926100000.0,
    "total_debt": 4179400000.0,
-   "shares_out": 316932047.0
+   "shares_out": 316932047.0,
+   "unusual_items": -685800000.0,
+   "normalized_ebitda": 2256700000.0,
+   "normalized_income": 716682000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -300,7 +351,10 @@
    "goodwill_and_intangibles": 1005100000.0,
    "retained_earnings": 14184400000.0,
    "total_debt": 5010800000.0,
-   "shares_out": 317408647.0
+   "shares_out": 317408647.0,
+   "unusual_items": 14500000.0,
+   "normalized_ebitda": 2489800000.0,
+   "normalized_income": 529245000.0
   }
  ]
 }

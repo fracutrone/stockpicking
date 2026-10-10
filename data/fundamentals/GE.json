@@ -1,6 +1,6 @@
 {
  "ticker": "GE",
- "fetched_at": "2026-10-10T12:46:28+00:00",
+ "fetched_at": "2026-10-10T15:44:51+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 57000,
   "website": "https://www.geaerospace.com",
-  "longBusinessSummary": "General Electric Company, doing business as GE Aerospace, designs and produces commercial and defense aircraft engines, integrated engine components, electric power, and aircraft systems. The company operates through two segments, Commercial Engines & Services, and Defense & Propulsion Technologies. The Commercial Engines & Services segment designs, develops, manufactures, maintenance, repair, and overhaul (MRO) services of jet engines and sale of spare parts for commercial airframes, business aviation, and aeroderivative applications. The Defense & Propulsion Technologies designs, develops, manufactures, and services jet engines and avionics and power systems for governments, militaries, and commercial airframers, as well as MRO of engines and the sale of spare parts. This segment also offers aircraft components and systems, such as small turboprop engines, aeroengine mechanical transmissions, turbines, combustors and controls, additive manufacturing, propeller systems, ignition systems, sensors and engine accessories for fixed wing and rotorcraft applications for commercial and military end users under the Avio Aero, Unison, Dowty Propellers, and Colibrium Additive brands. The company operates in the United States, Europe, Asia, the Americas, the Middle East, and Africa. General Electric Company was incorporated in 1892 and is based in Evendale, Ohio."
+  "longBusinessSummary": "General Electric Company, doing business as GE Aerospace, designs and produces commercial and defense aircraft engines, integrated engine components, electric power, and aircraft systems. The company operates through two segments, Commercial Engines & Services, and Defense & Propulsion Technologies. The Commercial Engines & Services segment designs, develops, manufactures, maintenance, repair, and overhaul (MRO) services of jet engines and sale of spare parts for commercial airframes, business aviation, and aeroderivative applications. The Defense & Propulsion Technologies designs, develops, manufactures, and services jet engines and avionics and power systems for governments, militaries, and commercial airframers, as well as MRO of engines and the sale of spare parts. This segment also offers aircraft components and systems, such as small turboprop engines, aeroengine mechanical transmissions, turbines, combustors and controls, additive manufacturing, propeller systems, ignition systems, sensors and engine accessories for fixed wing and rotorcraft applications for commercial and military end users under the Avio Aero, Unison, Dowty Propellers, and Colibrium Additive brands. The company operates in the United States, Europe, Asia, the Americas, the Middle East, and Africa. General Electric Company was incorporated in 1892 and is based in Evendale, Ohio.",
+  "targetMeanPrice": 394.66666,
+  "targetLowPrice": 305.0,
+  "targetHighPrice": 450.0,
+  "numberOfAnalystOpinions": 21,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.54545,
+  "forwardPE": 33.868023,
+  "forwardEps": 9.10003,
+  "trailingEps": 8.48,
+  "earningsGrowth": 0.194,
+  "revenueGrowth": 0.211
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 130169000000.0,
+    "official": 130169000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 18677000000.0,
+    "official": 18677000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 8704000000.0,
+    "official": 8704000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 45855000000.0,
+    "official": 45855000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:44:51+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -193,7 +235,10 @@
    "goodwill_and_intangibles": 19105000000.0,
    "retained_earnings": 82983000000.0,
    "total_debt": 20320000000.0,
-   "shares_out": 1089107878.0
+   "shares_out": 1089107878.0,
+   "unusual_items": -1521000000.0,
+   "normalized_ebitda": 5566000000.0,
+   "normalized_income": 2637169000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -228,7 +273,10 @@
    "goodwill_and_intangibles": 13590000000.0,
    "retained_earnings": 86553000000.0,
    "total_debt": 20862000000.0,
-   "shares_out": 1088415995.0
+   "shares_out": 1088415995.0,
+   "unusual_items": 4731000000.0,
+   "normalized_ebitda": 7918000000.0,
+   "normalized_income": 5203445000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -263,7 +311,10 @@
    "goodwill_and_intangibles": 12795000000.0,
    "retained_earnings": 80488000000.0,
    "total_debt": 19273000000.0,
-   "shares_out": 1073692183.0
+   "shares_out": 1073692183.0,
+   "unusual_items": -345000000.0,
+   "normalized_ebitda": 10135000000.0,
+   "normalized_income": 6948530000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -298,7 +349,10 @@
    "goodwill_and_intangibles": 13286000000.0,
    "retained_earnings": 87663000000.0,
    "total_debt": 20494000000.0,
-   "shares_out": 1048766702.0
+   "shares_out": 1048766702.0,
+   "unusual_items": -85000000.0,
+   "normalized_ebitda": 12148000000.0,
+   "normalized_income": 8674015000.0
   }
  ]
 }

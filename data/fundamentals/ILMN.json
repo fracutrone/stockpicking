@@ -1,6 +1,6 @@
 {
  "ticker": "ILMN",
- "fetched_at": "2026-10-10T12:48:44+00:00",
+ "fetched_at": "2026-10-10T15:47:05+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 8600,
   "website": "https://www.illumina.com",
-  "longBusinessSummary": "Illumina, Inc. provides sequencing- and array-based solutions for genetic and genomic analysis in the Americas, Europe, Greater China, the Asia Pacific, the Middle East, and Africa. The company offers sequencing- and array-based instruments and consumables, which include reagents, flow cells, and library preparation; whole-genome sequencing kits, which sequence entire genomes of various size and complexity; and targeted resequencing kits, which sequence exomes, specific genes, and RNA or other genomic regions of interest. It also provides whole-genome sequencing, genotyping, noninvasive prenatal testing, and product support services. The company serves genomic research centers, academic institutions, government laboratories, and hospitals, as well as pharmaceutical, biotechnology, commercial molecular diagnostic laboratories, and consumer genomics companies. The company markets and distributes its products directly to customers, as well as through life-science distributors. The company has a collaboration with Labcorp Holdings Inc. for the development of oncology treatments through applications of sequencing solutions across the healthcare ecosystem; and strategic collaboration with Integrated DNA Technologies to enable a DRAGEN, secondary analysis pipeline for IDT xGena, FFPE and cfDNA next generation sequencing (NGS) library preparation with custom panels, delivering an integrated, end-to-end solution for somatic oncology research. It also has a data partnership with Center for Data-Driven Discovery in Biomedicine to advance research in pediatric cancer and rare disease. Illumina, Inc. was incorporated in 1998 and is headquartered in San Diego, California."
+  "longBusinessSummary": "Illumina, Inc. provides sequencing- and array-based solutions for genetic and genomic analysis in the Americas, Europe, Greater China, the Asia Pacific, the Middle East, and Africa. The company offers sequencing- and array-based instruments and consumables, which include reagents, flow cells, and library preparation; whole-genome sequencing kits, which sequence entire genomes of various size and complexity; and targeted resequencing kits, which sequence exomes, specific genes, and RNA or other genomic regions of interest. It also provides whole-genome sequencing, genotyping, noninvasive prenatal testing, and product support services. The company serves genomic research centers, academic institutions, government laboratories, and hospitals, as well as pharmaceutical, biotechnology, commercial molecular diagnostic laboratories, and consumer genomics companies. The company markets and distributes its products directly to customers, as well as through life-science distributors. The company has a collaboration with Labcorp Holdings Inc. for the development of oncology treatments through applications of sequencing solutions across the healthcare ecosystem; and strategic collaboration with Integrated DNA Technologies to enable a DRAGEN, secondary analysis pipeline for IDT xGena, FFPE and cfDNA next generation sequencing (NGS) library preparation with custom panels, delivering an integrated, end-to-end solution for somatic oncology research. It also has a data partnership with Center for Data-Driven Discovery in Biomedicine to advance research in pediatric cancer and rare disease. Illumina, Inc. was incorporated in 1998 and is headquartered in San Diego, California.",
+  "targetMeanPrice": 233.55,
+  "targetLowPrice": 113.0,
+  "targetHighPrice": 365.0,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.42857,
+  "forwardPE": 45.464874,
+  "forwardEps": 6.11835,
+  "trailingEps": 5.36,
+  "earningsGrowth": -0.094,
+  "revenueGrowth": 0.094
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 6644000000.0,
+    "official": 6644000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2723000000.0,
+    "official": 2723000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 850000000.0,
+    "official": 850000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 4343000000.0,
+    "official": 4343000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:47:05+00:00",
  "years": [
   {
    "fy_end": "2019-12-29",
@@ -205,7 +247,10 @@
    "goodwill_and_intangibles": 6524000000.0,
    "retained_earnings": 1142000000.0,
    "total_debt": 3555000000.0,
-   "shares_out": 158000000.0
+   "shares_out": 158000000.0,
+   "unusual_items": -4533000000.0,
+   "normalized_ebitda": 617000000.0,
+   "normalized_income": -822930000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -240,7 +285,10 @@
    "goodwill_and_intangibles": 5538000000.0,
    "retained_earnings": -19000000.0,
    "total_debt": 2262000000.0,
-   "shares_out": 159000000.0
+   "shares_out": 159000000.0,
+   "unusual_items": -847000000.0,
+   "normalized_ebitda": 239000000.0,
+   "normalized_income": -491870000.0
   },
   {
    "fy_end": "2024-12-29",
@@ -275,7 +323,10 @@
    "goodwill_and_intangibles": 1408000000.0,
    "retained_earnings": -1242000000.0,
    "total_debt": 2622000000.0,
-   "shares_out": 159000000.0
+   "shares_out": 159000000.0,
+   "unusual_items": -1433000000.0,
+   "normalized_ebitda": 708000000.0,
+   "normalized_income": -90930000.0
   },
   {
    "fy_end": "2025-12-28",
@@ -310,7 +361,10 @@
    "goodwill_and_intangibles": 1323000000.0,
    "retained_earnings": -392000000.0,
    "total_debt": 2553000000.0,
-   "shares_out": 153000000.0
+   "shares_out": 153000000.0,
+   "unusual_items": -10000000.0,
+   "normalized_ebitda": 1467000000.0,
+   "normalized_income": 857826887.661142
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "GROW.L",
- "fetched_at": "2026-10-10T12:00:44+00:00",
+ "fetched_at": "2026-10-10T14:52:31+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": 769.5,
+  "targetLowPrice": 575.0,
+  "targetHighPrice": 877.00006,
+  "numberOfAnalystOpinions": 6,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.33333,
+  "forwardPE": 10.35746,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "insider_6m": {
@@ -56,8 +67,28 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2026-03-31",
+  "items": {
+   "equity": {
+    "yahoo": 1323800000.0,
+    "official": 1323800000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 120300000.0,
+    "official": 120300000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2026-03-31"
+ },
+ "info_at": "2026-10-10T14:52:31+00:00",
  "years": [
   {
    "fy_end": "2023-03-31",
@@ -83,7 +114,8 @@
    "goodwill_and_intangibles": 10500000.0,
    "retained_earnings": 552300000.0,
    "total_debt": 89300000.0,
-   "shares_out": 152999853.0
+   "shares_out": 152999853.0,
+   "normalized_income": -243400000.0
   },
   {
    "fy_end": "2024-03-31",
@@ -109,7 +141,8 @@
    "goodwill_and_intangibles": 10400000.0,
    "retained_earnings": 511700000.0,
    "total_debt": 89400000.0,
-   "shares_out": 187946450.0
+   "shares_out": 187946450.0,
+   "normalized_income": -40600000.0
   },
   {
    "fy_end": "2025-03-31",
@@ -136,7 +169,8 @@
    "goodwill_and_intangibles": 10400000.0,
    "retained_earnings": 510900000.0,
    "total_debt": 121300000.0,
-   "shares_out": 182446450.0
+   "shares_out": 182446450.0,
+   "normalized_income": -800000.0
   },
   {
    "fy_end": "2026-03-31",
@@ -163,7 +197,8 @@
    "goodwill_and_intangibles": 10400000.0,
    "retained_earnings": 636100000.0,
    "total_debt": 130800000.0,
-   "shares_out": 172396840.0
+   "shares_out": 172396840.0,
+   "normalized_income": 120300000.0
   }
  ]
 }

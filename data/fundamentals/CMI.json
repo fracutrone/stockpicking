@@ -1,6 +1,6 @@
 {
  "ticker": "CMI",
- "fetched_at": "2026-10-10T12:41:13+00:00",
+ "fetched_at": "2026-10-10T15:39:55+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 67400,
   "website": "https://www.cummins.com",
-  "longBusinessSummary": "Cummins Inc. offers various power solutions worldwide. The company operates through five segments: Engine, Distribution, Components, Power Systems, and Accelera. It offers diesel and natural gas-powered engines; and drivetrain systems, including axles, drivelines, brakes, and suspension systems; and on- and off-highway, and other products. The company also provides aftertreatment technology and solutions comprising custom engineering systems and integrated controls, oxidation catalysts, particulate filters, and selective catalytic reduction systems, as well as engineered components, including dosers; turbochargers, fuel systems, and valvetrain technologies; electronic control modules, sensors, and supporting software; and automated manual transmissions, and automatic transmissions for internal combustion engines. In addition, it sells and offers support services power generation systems, high-horsepower engines, and heavy-duty and medium-duty engines; offers application engineering services, custom-designed assemblies, and in-shop and field-based repair services; and retail and wholesale aftermarket parts. Further, the company offers standby and prime power generators, controls, paralleling systems, and transfer switches; turnkey solutions for distributed generation and energy management applications using natural gas, diesel, battery energy storage systems, and newer alternative sustainable fuels; diesel and natural gas high-speed, high-horsepower engines; and A/C generator/alternator products. Additionally, it provides electrified power systems, including batteries, fuel cells, and electric powertrain technologies. It sells its products to original equipment manufacturers, distributors, dealers, and other customers. The company was formerly known as Cummins Engine Company and changed its name to Cummins Inc. in 2001. Cummins Inc. was founded in 1919 and is headquartered in Columbus, Indiana."
+  "longBusinessSummary": "Cummins Inc. offers various power solutions worldwide. The company operates through five segments: Engine, Distribution, Components, Power Systems, and Accelera. It offers diesel and natural gas-powered engines; and drivetrain systems, including axles, drivelines, brakes, and suspension systems; and on- and off-highway, and other products. The company also provides aftertreatment technology and solutions comprising custom engineering systems and integrated controls, oxidation catalysts, particulate filters, and selective catalytic reduction systems, as well as engineered components, including dosers; turbochargers, fuel systems, and valvetrain technologies; electronic control modules, sensors, and supporting software; and automated manual transmissions, and automatic transmissions for internal combustion engines. In addition, it sells and offers support services power generation systems, high-horsepower engines, and heavy-duty and medium-duty engines; offers application engineering services, custom-designed assemblies, and in-shop and field-based repair services; and retail and wholesale aftermarket parts. Further, the company offers standby and prime power generators, controls, paralleling systems, and transfer switches; turnkey solutions for distributed generation and energy management applications using natural gas, diesel, battery energy storage systems, and newer alternative sustainable fuels; diesel and natural gas high-speed, high-horsepower engines; and A/C generator/alternator products. Additionally, it provides electrified power systems, including batteries, fuel cells, and electric powertrain technologies. It sells its products to original equipment manufacturers, distributors, dealers, and other customers. The company was formerly known as Cummins Engine Company and changed its name to Cummins Inc. in 2001. Cummins Inc. was founded in 1919 and is headquartered in Columbus, Indiana.",
+  "targetMeanPrice": 743.0842,
+  "targetLowPrice": 530.0,
+  "targetHighPrice": 890.0,
+  "numberOfAnalystOpinions": 19,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.81818,
+  "forwardPE": 15.038128,
+  "forwardEps": 34.8042,
+  "trailingEps": 19.57,
+  "earningsGrowth": 0.047,
+  "revenueGrowth": 0.094
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 33992000000.0,
+    "official": 33992000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 12349000000.0,
+    "official": 12349000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2843000000.0,
+    "official": 2957000000.0,
+    "diff": 0.038553
+   },
+   "revenue": {
+    "yahoo": 33670000000.0,
+    "official": 33670000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:39:55+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -207,7 +249,10 @@
    "goodwill_and_intangibles": 5030000000.0,
    "retained_earnings": 18037000000.0,
    "total_debt": 7072000000.0,
-   "shares_out": 141300000.0
+   "shares_out": 141300000.0,
+   "unusual_items": -159000000.0,
+   "normalized_ebitda": 3802000000.0,
+   "normalized_income": 2151000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -242,7 +287,10 @@
    "goodwill_and_intangibles": 5018000000.0,
    "retained_earnings": 17851000000.0,
    "total_debt": 6298000000.0,
-   "shares_out": 141800000.0
+   "shares_out": 141800000.0,
+   "unusual_items": 2000000.0,
+   "normalized_ebitda": 3025000000.0,
+   "normalized_income": 735000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -277,7 +325,10 @@
    "goodwill_and_intangibles": 4721000000.0,
    "retained_earnings": 20828000000.0,
    "total_debt": 6043000000.0,
-   "shares_out": 137400000.0
+   "shares_out": 137400000.0,
+   "unusual_items": 1289000000.0,
+   "normalized_ebitda": 5049000000.0,
+   "normalized_income": 2876521721.395064
   },
   {
    "fy_end": "2025-12-31",
@@ -312,7 +363,10 @@
    "goodwill_and_intangibles": 4391000000.0,
    "retained_earnings": 22616000000.0,
    "total_debt": 7145000000.0,
-   "shares_out": 138136253.0
+   "shares_out": 138136253.0,
+   "unusual_items": -244000000.0,
+   "normalized_ebitda": 5641000000.0,
+   "normalized_income": 3025061064.849861
   }
  ]
 }

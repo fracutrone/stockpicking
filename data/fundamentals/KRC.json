@@ -1,6 +1,6 @@
 {
  "ticker": "KRC",
- "fetched_at": "2026-10-10T12:50:02+00:00",
+ "fetched_at": "2026-10-10T15:48:20+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 241,
   "website": "https://www.kilroyrealty.com",
-  "longBusinessSummary": "Kilroy Realty Corporation is a leading U.S. landlord and developer, with operations in the San Francisco Bay Area, Los Angeles, Seattle, San Diego, and Austin. The Company has earned global recognition for sustainability, building operations, innovation, and design. As a pioneer and innovator in the creation of a more sustainable real estate industry, the Company's approach to modern business environments helps drive creativity and productivity for some of the world's leading technology, media, life science, and professional services companies. The Company is a publicly traded real estate investment trust (REIT) and member of the S&P MidCap 400 Index with more than seven decades of experience managing, developing, and acquiring office, life science, and mixed-use projects. As of June 30, 2026, Kilroy's stabilized portfolio totaled approximately 17.1 million square feet of primarily office and life science space that was 77.0% occupied and 81.5% leased. The Company also has 608 residential units in San Diego, with a quarterly average occupancy of 95.6%. Kilroy Realty Corporation was incorporated in 1947 in Maryland. Kilroy Realty Corporation is based in Los Angeles, California."
+  "longBusinessSummary": "Kilroy Realty Corporation is a leading U.S. landlord and developer, with operations in the San Francisco Bay Area, Los Angeles, Seattle, San Diego, and Austin. The Company has earned global recognition for sustainability, building operations, innovation, and design. As a pioneer and innovator in the creation of a more sustainable real estate industry, the Company's approach to modern business environments helps drive creativity and productivity for some of the world's leading technology, media, life science, and professional services companies. The Company is a publicly traded real estate investment trust (REIT) and member of the S&P MidCap 400 Index with more than seven decades of experience managing, developing, and acquiring office, life science, and mixed-use projects. As of June 30, 2026, Kilroy's stabilized portfolio totaled approximately 17.1 million square feet of primarily office and life science space that was 77.0% occupied and 81.5% leased. The Company also has 608 residential units in San Diego, with a quarterly average occupancy of 95.6%. Kilroy Realty Corporation was incorporated in 1947 in Maryland. Kilroy Realty Corporation is based in Los Angeles, California.",
+  "targetMeanPrice": 40.07143,
+  "targetLowPrice": 31.0,
+  "targetHighPrice": 50.0,
+  "numberOfAnalystOpinions": 14,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.76471,
+  "forwardPE": 100.73529,
+  "forwardEps": 0.34,
+  "trailingEps": 1.43,
+  "earningsGrowth": -0.702,
+  "revenueGrowth": -0.06
  },
  "governance": {
   "ceo": {
@@ -83,8 +94,39 @@
   "retained_earnings": "sec",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "tax": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 10915076000.0,
+    "official": 10915076000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 5420807000.0,
+    "official": 5420807000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 276121000.0,
+    "official": 302640000.0,
+    "diff": 0.087626
+   },
+   "revenue": {
+    "yahoo": 1112667000.0,
+    "official": 1112667000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:48:20+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -165,7 +207,10 @@
    "goodwill_and_intangibles": 70424000.0,
    "retained_earnings": 265118000.0,
    "total_debt": 4387990000.0,
-   "shares_out": 116878031.0
+   "shares_out": 116878031.0,
+   "unusual_items": 17329000.0,
+   "normalized_ebitda": 684825000.0,
+   "normalized_income": 219758614.9
   },
   {
    "fy_end": "2023-12-31",
@@ -198,7 +243,10 @@
    "goodwill_and_intangibles": 54514000.0,
    "retained_earnings": 221149000.0,
    "total_debt": 5052731000.0,
-   "shares_out": 117239558.0
+   "shares_out": 117239558.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 708806000.0,
+   "normalized_income": 212241000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -231,7 +279,10 @@
    "goodwill_and_intangibles": 58567000.0,
    "retained_earnings": 171212000.0,
    "total_debt": 4726187000.0,
-   "shares_out": 118046674.0
+   "shares_out": 118046674.0,
+   "unusual_items": 5979000.0,
+   "normalized_ebitda": 729510000.0,
+   "normalized_income": 206522417.7
   },
   {
    "fy_end": "2025-12-31",
@@ -263,7 +314,10 @@
    "goodwill_and_intangibles": 99281000.0,
    "retained_earnings": 188876000.0,
    "total_debt": 4717087000.0,
-   "shares_out": 118372451.0
+   "shares_out": 118372451.0,
+   "unusual_items": 110779000.0,
+   "normalized_ebitda": 674113000.0,
+   "normalized_income": 193668190.3
   }
  ]
 }

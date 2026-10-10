@@ -1,6 +1,6 @@
 {
  "ticker": "WMS",
- "fetched_at": "2026-10-10T13:02:32+00:00",
+ "fetched_at": "2026-10-10T15:59:55+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 6425,
   "website": "https://www.adspipe.com",
-  "longBusinessSummary": "Advanced Drainage Systems, Inc. designs, manufactures, and markets thermoplastic corrugated pipes and related water management products in the United States, Canada, and internationally. The company operates through Stormwater and Wastewater segments. The company offers single, double, and triple wall corrugated polypropylene and polyethylene pipes; plastic leachfield chambers and systems; EZflow synthetic aggregate bundles; wastewater purification through mechanical aeration wastewater; septic tanks and accessories; combined treatment and dispersal systems, including AeroFin, advanced enviro-septic, enviro-septic, and advanced treatment leachfield; and allied products, including storm retention/detention and septic chambers, polyvinyl chloride drainage structures, fittings, and water quality filters and separators. It also purchases and distributes construction fabrics and other geosynthetic products for soil stabilization, reinforcement, filtration, separation, erosion control, and sub-surface drainage, as well as drainage grates and other products. In addition, the company provides PVC hubs, rubber sleeves, and stainless-steel bands; and channel drains, catch basins, grates, access boxes, and accessories engineered to capture, convey, and disperse stormwater. It offers its products for non-residential, residential, agriculture, and infrastructure applications through a network of distribution centers. Advanced Drainage Systems, Inc. was incorporated in 1966 and is headquartered in Hilliard, Ohio."
+  "longBusinessSummary": "Advanced Drainage Systems, Inc. designs, manufactures, and markets thermoplastic corrugated pipes and related water management products in the United States, Canada, and internationally. The company operates through Stormwater and Wastewater segments. The company offers single, double, and triple wall corrugated polypropylene and polyethylene pipes; plastic leachfield chambers and systems; EZflow synthetic aggregate bundles; wastewater purification through mechanical aeration wastewater; septic tanks and accessories; combined treatment and dispersal systems, including AeroFin, advanced enviro-septic, enviro-septic, and advanced treatment leachfield; and allied products, including storm retention/detention and septic chambers, polyvinyl chloride drainage structures, fittings, and water quality filters and separators. It also purchases and distributes construction fabrics and other geosynthetic products for soil stabilization, reinforcement, filtration, separation, erosion control, and sub-surface drainage, as well as drainage grates and other products. In addition, the company provides PVC hubs, rubber sleeves, and stainless-steel bands; and channel drains, catch basins, grates, access boxes, and accessories engineered to capture, convey, and disperse stormwater. It offers its products for non-residential, residential, agriculture, and infrastructure applications through a network of distribution centers. Advanced Drainage Systems, Inc. was incorporated in 1966 and is headquartered in Hilliard, Ohio.",
+  "targetMeanPrice": 182.45454,
+  "targetLowPrice": 145.0,
+  "targetHighPrice": 207.0,
+  "numberOfAnalystOpinions": 11,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.18182,
+  "forwardPE": 17.115171,
+  "forwardEps": 7.34962,
+  "trailingEps": 5.87,
+  "earningsGrowth": 0.188,
+  "revenueGrowth": 0.206
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-03-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 4505623000.0,
+    "official": 4505623000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1932386000.0,
+    "official": 1858734000.0,
+    "diff": 0.039625
+   },
+   "net_income": {
+    "yahoo": 426465000.0,
+    "official": 426465000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3050376000.0,
+    "official": 3050376000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:59:55+00:00",
  "years": [
   {
    "fy_end": "2020-03-31",
@@ -194,7 +236,10 @@
    "goodwill_and_intangibles": 1027820000.0,
    "retained_earnings": 626215000.0,
    "total_debt": 1295888000.0,
-   "shares_out": 78947000.0
+   "shares_out": 78947000.0,
+   "unusual_items": -6348000.0,
+   "normalized_ebitda": 878779000.0,
+   "normalized_income": 511980308.0
   },
   {
    "fy_end": "2024-03-31",
@@ -228,7 +273,10 @@
    "goodwill_and_intangibles": 969835000.0,
    "retained_earnings": 1092208000.0,
    "total_debt": 1281151000.0,
-   "shares_out": 77550000.0
+   "shares_out": 77550000.0,
+   "unusual_items": 8843000.0,
+   "normalized_ebitda": 901675000.0,
+   "normalized_income": 503180755.887113
   },
   {
    "fy_end": "2025-03-31",
@@ -262,7 +310,10 @@
    "goodwill_and_intangibles": 1168283000.0,
    "retained_earnings": 1492634000.0,
    "total_debt": 1269238000.0,
-   "shares_out": 77566000.0
+   "shares_out": 77566000.0,
+   "unusual_items": -4385000.0,
+   "normalized_ebitda": 868934000.0,
+   "normalized_income": 453507639.554511
   },
   {
    "fy_end": "2026-03-31",
@@ -296,7 +347,10 @@
    "goodwill_and_intangibles": 1891243000.0,
    "retained_earnings": 1862936000.0,
    "total_debt": 1630251000.0,
-   "shares_out": 77187000.0
+   "shares_out": 77187000.0,
+   "unusual_items": -13262000.0,
+   "normalized_ebitda": 883180000.0,
+   "normalized_income": 437620858.0
   }
  ]
 }

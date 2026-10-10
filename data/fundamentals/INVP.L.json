@@ -1,6 +1,6 @@
 {
  "ticker": "INVP.L",
- "fetched_at": "2026-10-10T12:03:47+00:00",
+ "fetched_at": "2026-10-10T14:58:22+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 7777,
   "website": "https://www.investec.com",
-  "longBusinessSummary": "Investec Group provides various financial products and services in South Africa, the United Kingdom, and internationally. It operates through four segments: Wealth & Investment, Private Banking, Corporate and Investment Banking and Other, and Group Investments. The Wealth & Investment segment offers wealth management and investment services to high-net-worth individuals, families, charities, and trusts. The Private Banking segment provides lending solutions, transactional banking, savings, bespoke foreign exchange, property finance, leverage finance, travel, insurance, legacy services, investments, trading, and offshore banking. The Corporate and Investment Banking segment delivers lending, advisory, and risk management services to corporate clients, private companies, private equity, listed companies, state-owned enterprises, public sector bodies, institutions, and intermediaries, including central treasury, and liability management. The Group Investments segment manages assets separated from core banking activities, including franchise businesses and standalone asset values. The company offers insurance solutions comprising severe illness, disability, life, mortgage and income protection, and business overloads. It also offers business banking solutions, such as trade and debtor, asset and leverage, structured property, technology asset, supply chain, and medical practice financing services, as well as financing for corporate and private equity firms. In addition, the company provides the company provides advisory; treasury and risk management for foreign exchange, commodities, interest rates, liquidity management, and equity structuring; fixed-income instruments; execution and custody solutions for institutions, hedge funds, corporates, and intermediaries; securities lending; and clearing services. Investec Group was founded in 1974 and is based in Sandton, South Africa."
+  "longBusinessSummary": "Investec Group provides various financial products and services in South Africa, the United Kingdom, and internationally. It operates through four segments: Wealth & Investment, Private Banking, Corporate and Investment Banking and Other, and Group Investments. The Wealth & Investment segment offers wealth management and investment services to high-net-worth individuals, families, charities, and trusts. The Private Banking segment provides lending solutions, transactional banking, savings, bespoke foreign exchange, property finance, leverage finance, travel, insurance, legacy services, investments, trading, and offshore banking. The Corporate and Investment Banking segment delivers lending, advisory, and risk management services to corporate clients, private companies, private equity, listed companies, state-owned enterprises, public sector bodies, institutions, and intermediaries, including central treasury, and liability management. The Group Investments segment manages assets separated from core banking activities, including franchise businesses and standalone asset values. The company offers insurance solutions comprising severe illness, disability, life, mortgage and income protection, and business overloads. It also offers business banking solutions, such as trade and debtor, asset and leverage, structured property, technology asset, supply chain, and medical practice financing services, as well as financing for corporate and private equity firms. In addition, the company provides the company provides advisory; treasury and risk management for foreign exchange, commodities, interest rates, liquidity management, and equity structuring; fixed-income instruments; execution and custody solutions for institutions, hedge funds, corporates, and intermediaries; securities lending; and clearing services. Investec Group was founded in 1974 and is based in Sandton, South Africa.",
+  "targetMeanPrice": 768.75,
+  "targetLowPrice": 715.0,
+  "targetHighPrice": 810.00006,
+  "numberOfAnalystOpinions": 4,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.0,
+  "forwardPE": 6.122617,
+  "forwardEps": 0.96854,
+  "trailingEps": 0.75,
+  "earningsGrowth": 0.092,
+  "revenueGrowth": 0.094
  },
  "governance": {
   "ceo": {
@@ -69,8 +80,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2026-03-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 63833640000.0,
+    "official": 14876300000.0,
+    "diff": 3.290962
+   },
+   "equity": {
+    "yahoo": 6071728000.0,
+    "official": 702400000.0,
+    "diff": 7.64426
+   },
+   "net_income": {
+    "yahoo": 724507000.0,
+    "official": 153500000.0,
+    "diff": 3.719915
+   },
+   "revenue": {
+    "yahoo": 2190510000.0,
+    "official": 763300000.0,
+    "diff": 1.869789
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2026-03-31"
+ },
+ "info_at": "2026-10-10T14:58:22+00:00",
  "years": [
   {
    "fy_end": "2023-03-31",
@@ -97,7 +139,9 @@
    "goodwill_and_intangibles": 319169000.0,
    "retained_earnings": 4171117000.0,
    "total_debt": 3214600000.0,
-   "shares_out": 894686797.0
+   "shares_out": 894686797.0,
+   "unusual_items": 153144000.0,
+   "normalized_income": 606126904.0
   },
   {
    "fy_end": "2024-03-31",
@@ -124,7 +168,9 @@
    "goodwill_and_intangibles": 85074000.0,
    "retained_earnings": 4761508000.0,
    "total_debt": 2514000000.0,
-   "shares_out": 897609288.0
+   "shares_out": 897609288.0,
+   "unusual_items": -817000.0,
+   "normalized_income": 638809982.3
   },
   {
    "fy_end": "2025-03-31",
@@ -151,7 +197,9 @@
    "goodwill_and_intangibles": 81737000.0,
    "retained_earnings": 5093194000.0,
    "total_debt": 2563527000.0,
-   "shares_out": 897609288.0
+   "shares_out": 897609288.0,
+   "unusual_items": -21120000.0,
+   "normalized_income": 710446795.840343
   },
   {
    "fy_end": "2026-03-31",
@@ -178,7 +226,9 @@
    "goodwill_and_intangibles": 103343000.0,
    "retained_earnings": 5445857000.0,
    "total_debt": 2550051000.0,
-   "shares_out": 630541464.0
+   "shares_out": 630541464.0,
+   "unusual_items": -19535000.0,
+   "normalized_income": 740219000.5
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "CHRD",
- "fetched_at": "2026-10-10T12:40:43+00:00",
+ "fetched_at": "2026-10-10T15:39:31+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 676,
   "website": "https://www.chordenergy.com",
-  "longBusinessSummary": "Chord Energy Corporation operates as an independent exploration and production company in the United States. The company engages in the acquisition, exploration, development and production of crude oil, natural gas, and natural gas liquids in the Williston Basin. It sells its products to refiners, marketers, and other purchasers that have access to pipeline and rail facilities. The company was formerly known as Oasis Petroleum Inc. and changed its name to Chord Energy Corporation in July 2022. Chord Energy Corporation was founded in 2007 and is headquartered in Houston, Texas."
+  "longBusinessSummary": "Chord Energy Corporation operates as an independent exploration and production company in the United States. The company engages in the acquisition, exploration, development and production of crude oil, natural gas, and natural gas liquids in the Williston Basin. It sells its products to refiners, marketers, and other purchasers that have access to pipeline and rail facilities. The company was formerly known as Oasis Petroleum Inc. and changed its name to Chord Energy Corporation in July 2022. Chord Energy Corporation was founded in 2007 and is headquartered in Houston, Texas.",
+  "targetMeanPrice": 174.4375,
+  "targetLowPrice": 145.0,
+  "targetHighPrice": 218.0,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.47059,
+  "forwardPE": 8.477621,
+  "forwardEps": 16.69572,
+  "trailingEps": 14.86,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.841
  },
  "governance": {
   "ceo": {
@@ -84,9 +95,40 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec",
   "intangibles": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 13074274000.0,
+    "official": 13074274000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 8079954000.0,
+    "official": 8079954000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 44459000.0,
+    "official": 44459000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 4877126000.0,
+    "official": 4877126000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:39:31+00:00",
  "years": [
   {
    "fy_end": "2018-12-31",
@@ -188,7 +230,10 @@
    "ppe_net": 4711343000.0,
    "retained_earnings": 1445491000.0,
    "total_debt": 394209000.0,
-   "shares_out": 41477093.0
+   "shares_out": 41477093.0,
+   "unusual_items": -203261000.0,
+   "normalized_ebitda": 1985848000.0,
+   "normalized_income": 1591039190.0
   },
   {
    "fy_end": "2023-12-31",
@@ -220,7 +265,10 @@
    "goodwill_and_intangibles": 0.0,
    "retained_earnings": 1960638000.0,
    "total_debt": 395902000.0,
-   "shares_out": 41249658.0
+   "shares_out": 41249658.0,
+   "unusual_items": 60418000.0,
+   "normalized_ebitda": 1905802000.0,
+   "normalized_income": 977559230.0
   },
   {
    "fy_end": "2024-12-31",
@@ -252,7 +300,10 @@
    "goodwill_and_intangibles": 530616000.0,
    "retained_earnings": 2301655000.0,
    "total_debt": 842600000.0,
-   "shares_out": 60070893.0
+   "shares_out": 60070893.0,
+   "unusual_items": 29651000.0,
+   "normalized_ebitda": 2247086000.0,
+   "normalized_income": 826003287.0
   },
   {
    "fy_end": "2025-12-31",
@@ -285,7 +336,10 @@
    "goodwill_and_intangibles": 0.0,
    "retained_earnings": 2043636000.0,
    "total_debt": 1479581000.0,
-   "shares_out": 56762243.0
+   "shares_out": 56762243.0,
+   "unusual_items": 132835000.0,
+   "normalized_ebitda": 1660970000.0,
+   "normalized_income": -60480650.0
   }
  ]
 }

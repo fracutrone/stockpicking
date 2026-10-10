@@ -1,6 +1,6 @@
 {
  "ticker": "CAH",
- "fetched_at": "2026-10-10T12:39:48+00:00",
+ "fetched_at": "2026-10-10T15:38:39+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 58788,
   "website": "https://www.cardinalhealth.com",
-  "longBusinessSummary": "Cardinal Health, Inc. operates as a healthcare services and products company in the United States and internationally. It operates in two segments: Pharmaceutical and Specialty Solutions, and Global Medical Products and Distribution. The company offers customized solutions for hospitals, healthcare systems, pharmacies, ambulatory surgery centers, clinical laboratories, physician offices, and patients in the home. It distributes branded and generic pharmaceutical, specialty pharmaceutical, and over-the-counter healthcare and consumer products. The company also provides services to pharmaceutical manufacturers and healthcare providers for specialty pharmaceutical products; pharmacy management services to hospitals; operates pharmacies, including pharmacies in community health centers; and repackages generic pharmaceuticals and over-the-counter healthcare products. In addition, it manufactures, sources, and distributes Cardinal Health branded medical, surgical, and laboratory products and devices that include exam and surgical gloves; needles, syringe, and sharps disposals; compression, incontinence, nutritional delivery, and wound care products; single-use surgical drapes, gowns, and apparel products; fluid suction and collection systems; urology products; operating room supply products; and electrode product lines. Further, the company distributes a range of national brand products, including medical, surgical, and laboratory products; provides supply chain services and solutions to hospitals, ambulatory surgery centers, clinical laboratories, and other healthcare providers; and assembles and sells sterile and non-sterile procedure kits. Additionally, it manufactures, prepares, and delivers radiopharmaceuticals; and optimizes direct shipments through integrated technology solutions. The company was incorporated in 1979 and is headquartered in Dublin, Ohio."
+  "longBusinessSummary": "Cardinal Health, Inc. operates as a healthcare services and products company in the United States and internationally. It operates in two segments: Pharmaceutical and Specialty Solutions, and Global Medical Products and Distribution. The company offers customized solutions for hospitals, healthcare systems, pharmacies, ambulatory surgery centers, clinical laboratories, physician offices, and patients in the home. It distributes branded and generic pharmaceutical, specialty pharmaceutical, and over-the-counter healthcare and consumer products. The company also provides services to pharmaceutical manufacturers and healthcare providers for specialty pharmaceutical products; pharmacy management services to hospitals; operates pharmacies, including pharmacies in community health centers; and repackages generic pharmaceuticals and over-the-counter healthcare products. In addition, it manufactures, sources, and distributes Cardinal Health branded medical, surgical, and laboratory products and devices that include exam and surgical gloves; needles, syringe, and sharps disposals; compression, incontinence, nutritional delivery, and wound care products; single-use surgical drapes, gowns, and apparel products; fluid suction and collection systems; urology products; operating room supply products; and electrode product lines. Further, the company distributes a range of national brand products, including medical, surgical, and laboratory products; provides supply chain services and solutions to hospitals, ambulatory surgery centers, clinical laboratories, and other healthcare providers; and assembles and sells sterile and non-sterile procedure kits. Additionally, it manufactures, prepares, and delivers radiopharmaceuticals; and optimizes direct shipments through integrated technology solutions. The company was incorporated in 1979 and is headquartered in Dublin, Ohio.",
+  "targetMeanPrice": 270.33334,
+  "targetLowPrice": 235.0,
+  "targetHighPrice": 292.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.52941,
+  "forwardPE": 16.900633,
+  "forwardEps": 14.05687,
+  "trailingEps": 7.23,
+  "earningsGrowth": 0.688,
+  "revenueGrowth": 0.058
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-06-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 57299000000.0,
+    "official": 57299000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": -2883000000.0,
+    "official": -2883000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1714000000.0,
+    "official": 1714000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 254248000000.0,
+    "official": 254248000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:38:39+00:00",
  "years": [
   {
    "fy_end": "2020-06-30",
@@ -204,7 +246,10 @@
    "goodwill_and_intangibles": 6085000000.0,
    "retained_earnings": -642000000.0,
    "total_debt": 3909000000.0,
-   "shares_out": 251000000.0
+   "shares_out": 251000000.0,
+   "unusual_items": -1037000000.0,
+   "normalized_ebitda": 2476000000.0,
+   "normalized_income": 1149230000.0
   },
   {
    "fy_end": "2024-06-30",
@@ -239,7 +284,10 @@
    "goodwill_and_intangibles": 6450000000.0,
    "retained_earnings": -286000000.0,
    "total_debt": 4658000000.0,
-   "shares_out": 244000000.0
+   "shares_out": 244000000.0,
+   "unusual_items": -887000000.0,
+   "normalized_ebitda": 2849000000.0,
+   "normalized_income": 1481984179.850125
   },
   {
    "fy_end": "2025-06-30",
@@ -273,7 +321,10 @@
    "goodwill_and_intangibles": 12177000000.0,
    "retained_earnings": 783000000.0,
    "total_debt": 7977000000.0,
-   "shares_out": 238677005.0
+   "shares_out": 238677005.0,
+   "unusual_items": -47000000.0,
+   "normalized_ebitda": 3153000000.0,
+   "normalized_income": 1596099000.475964
   },
   {
    "fy_end": "2026-06-30",
@@ -307,7 +358,10 @@
    "goodwill_and_intangibles": 13631000000.0,
    "retained_earnings": 2009000000.0,
    "total_debt": 7004000000.0,
-   "shares_out": 233000000.0
+   "shares_out": 233000000.0,
+   "unusual_items": -682000000.0,
+   "normalized_ebitda": 4160000000.0,
+   "normalized_income": 2248871205.151794
   }
  ]
 }

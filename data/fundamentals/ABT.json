@@ -1,6 +1,6 @@
 {
  "ticker": "ABT",
- "fetched_at": "2026-10-10T12:36:11+00:00",
+ "fetched_at": "2026-10-10T15:33:20+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 122000,
   "website": "https://www.abbott.com",
-  "longBusinessSummary": "Abbott Laboratories, together with its subsidiaries, discovers, develops, manufactures, and sells health care products worldwide. It operates in four segments: Established Pharmaceutical Products, Diagnostic Products, Nutritional Products, and Medical Devices. The company offers generic pharmaceuticals for the treatment of pancreatic exocrine insufficiency, irritable bowel syndrome or biliary spasm, intrahepatic cholestasis or depressive symptoms, gynecological disorder, hormone replacement therapy, dyslipidemia, hypertension, hypothyroidism, hypertriglyceridemia, Ménière's disease and vestibular vertigo, pain, fever, inflammation, and migraine, as well as provides anti-infective clarithromycin, influenza vaccine, and products to regulate physiological rhythm of the colon. It also provides laboratory and transfusion medicine systems in the areas of immunoassay, clinical chemistry, hematology, and transfusion serology testing; molecular diagnostics polymerase chain reaction instrument systems that automate the extraction, purification, and preparation of DNA and RNA from patient samples, and detect and measure infectious agents; point of care systems; cartridges for testing blood gas, chemistry, electrolytes, coagulation, and immunoassay; rapid diagnostics lateral flow testing products; molecular point-of-care testing for HIV, SARS-CoV-2, influenza A and B, RSV, and strep A; cardiometabolic test systems; and drug and alcohol test. In addition, the company offers pediatric and adult nutritional products and infant formula; rhythm management, electrophysiology, heart failure, vascular, and structural heart devices for the treatment of cardiovascular diseases; diabetes care products, such as glucose and blood glucose monitoring systems; and neuromodulation devices. The company was formerly known as Abbott Alkaloidal Company and changed its name to Abbott Laboratories in 1915. Abbott Laboratories was founded in 1888 and is based in Abbott Park, Illinois."
+  "longBusinessSummary": "Abbott Laboratories, together with its subsidiaries, discovers, develops, manufactures, and sells health care products worldwide. It operates in four segments: Established Pharmaceutical Products, Diagnostic Products, Nutritional Products, and Medical Devices. The company offers generic pharmaceuticals for the treatment of pancreatic exocrine insufficiency, irritable bowel syndrome or biliary spasm, intrahepatic cholestasis or depressive symptoms, gynecological disorder, hormone replacement therapy, dyslipidemia, hypertension, hypothyroidism, hypertriglyceridemia, Ménière's disease and vestibular vertigo, pain, fever, inflammation, and migraine, as well as provides anti-infective clarithromycin, influenza vaccine, and products to regulate physiological rhythm of the colon. It also provides laboratory and transfusion medicine systems in the areas of immunoassay, clinical chemistry, hematology, and transfusion serology testing; molecular diagnostics polymerase chain reaction instrument systems that automate the extraction, purification, and preparation of DNA and RNA from patient samples, and detect and measure infectious agents; point of care systems; cartridges for testing blood gas, chemistry, electrolytes, coagulation, and immunoassay; rapid diagnostics lateral flow testing products; molecular point-of-care testing for HIV, SARS-CoV-2, influenza A and B, RSV, and strep A; cardiometabolic test systems; and drug and alcohol test. In addition, the company offers pediatric and adult nutritional products and infant formula; rhythm management, electrophysiology, heart failure, vascular, and structural heart devices for the treatment of cardiovascular diseases; diabetes care products, such as glucose and blood glucose monitoring systems; and neuromodulation devices. The company was formerly known as Abbott Alkaloidal Company and changed its name to Abbott Laboratories in 1915. Abbott Laboratories was founded in 1888 and is based in Abbott Park, Illinois.",
+  "targetMeanPrice": 120.715,
+  "targetLowPrice": 103.0,
+  "targetHighPrice": 135.0,
+  "numberOfAnalystOpinions": 26,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.46429,
+  "forwardPE": 16.420496,
+  "forwardEps": 6.06559,
+  "trailingEps": 3.1,
+  "earningsGrowth": -0.475,
+  "revenueGrowth": 0.13
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 86713000000.0,
+    "official": 86713000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 52130000000.0,
+    "official": 52130000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 6524000000.0,
+    "official": 6524000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 44328000000.0,
+    "official": 44328000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:33:20+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -205,7 +247,10 @@
    "goodwill_and_intangibles": 33253000000.0,
    "retained_earnings": 35257000000.0,
    "total_debt": 16773000000.0,
-   "shares_out": 1737795021.0
+   "shares_out": 1737795021.0,
+   "unusual_items": -2000000.0,
+   "normalized_ebitda": 12133000000.0,
+   "normalized_income": 6934669395.617626
   },
   {
    "fy_end": "2023-12-31",
@@ -240,7 +285,10 @@
    "goodwill_and_intangibles": 32494000000.0,
    "retained_earnings": 37554000000.0,
    "total_debt": 14679000000.0,
-   "shares_out": 1734076358.0
+   "shares_out": 1734076358.0,
+   "unusual_items": -41000000.0,
+   "normalized_ebitda": 10585000000.0,
+   "normalized_income": 5758219000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -275,7 +323,10 @@
    "goodwill_and_intangibles": 29755000000.0,
    "retained_earnings": 47261000000.0,
    "total_debt": 14125000000.0,
-   "shares_out": 1731697991.0
+   "shares_out": 1731697991.0,
+   "unusual_items": 27000000.0,
+   "normalized_ebitda": 10763000000.0,
+   "normalized_income": 13380670000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -310,7 +361,10 @@
    "goodwill_and_intangibles": 29561000000.0,
    "retained_earnings": 49781000000.0,
    "total_debt": 12929000000.0,
-   "shares_out": 1736599451.0
+   "shares_out": 1736599451.0,
+   "unusual_items": 50000000.0,
+   "normalized_ebitda": 12025000000.0,
+   "normalized_income": 6485450000.0
   }
  ]
 }

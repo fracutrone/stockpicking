@@ -1,6 +1,6 @@
 {
  "ticker": "CSCO",
- "fetched_at": "2026-10-10T12:42:16+00:00",
+ "fetched_at": "2026-10-10T15:40:44+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 82400,
   "website": "https://www.cisco.com",
-  "longBusinessSummary": "Cisco Systems, Inc. designs, develops, and sells technologies to power, help, secure, and draw insights from the internet in the Americas, Europe, the Middle East, Africa, the Asia Pacific, Japan, and China. The company provides data center switching; network security, identity and access management, and secure access service edge; identity and agentic security solutions; interconnects public and private wireline and mobile networks, delivering connectivity to campus, data center, and branch networks; WEBEX suite, collaboration devices, and contact center; communication platform as a service software, including perpetual licenses, subscription arrangements, and hardware solutions; network assurance and observability suite; accelerated issue resolution, software support, and hardware replacement; professional services, such as planning, design, implementation, and high-value consulting; service and support packages, financing, and managed network services; and regional, national, and international wireline carriers, webscale products, internet, and cable. It also provides wireless products, including indoor and outdoor coverage designed for seamless roaming use of voice, video, and data applications; end-to-end collaboration solutions through cloud, on-premise, or within hybrid cloud environments. In addition, it offers technical support services. The company serves businesses, public institutions, governments, and service providers. It sells its products and services directly, through systems integrators, service providers, and other thirdy-party resellers, and distributors. Cisco Systems, Inc. was incorporated in 1984 and is headquartered in San Jose, California."
+  "longBusinessSummary": "Cisco Systems, Inc. designs, develops, and sells technologies to power, help, secure, and draw insights from the internet in the Americas, Europe, the Middle East, Africa, the Asia Pacific, Japan, and China. The company provides data center switching; network security, identity and access management, and secure access service edge; identity and agentic security solutions; interconnects public and private wireline and mobile networks, delivering connectivity to campus, data center, and branch networks; WEBEX suite, collaboration devices, and contact center; communication platform as a service software, including perpetual licenses, subscription arrangements, and hardware solutions; network assurance and observability suite; accelerated issue resolution, software support, and hardware replacement; professional services, such as planning, design, implementation, and high-value consulting; service and support packages, financing, and managed network services; and regional, national, and international wireline carriers, webscale products, internet, and cable. It also provides wireless products, including indoor and outdoor coverage designed for seamless roaming use of voice, video, and data applications; end-to-end collaboration solutions through cloud, on-premise, or within hybrid cloud environments. In addition, it offers technical support services. The company serves businesses, public institutions, governments, and service providers. It sells its products and services directly, through systems integrators, service providers, and other thirdy-party resellers, and distributors. Cisco Systems, Inc. was incorporated in 1984 and is headquartered in San Jose, California.",
+  "targetMeanPrice": 136.16,
+  "targetLowPrice": 110.0,
+  "targetHighPrice": 170.0,
+  "numberOfAnalystOpinions": 25,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.86207,
+  "forwardPE": 21.0646,
+  "forwardEps": 5.62033,
+  "trailingEps": 3.33,
+  "earningsGrowth": 0.521,
+  "revenueGrowth": 0.176
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-07-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 129637000000.0,
+    "official": 129637000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 50285000000.0,
+    "official": 50285000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 13267000000.0,
+    "official": 13267000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 63325000000.0,
+    "official": 63325000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:40:44+00:00",
  "years": [
   {
    "fy_end": "2020-07-25",
@@ -208,7 +250,10 @@
    "goodwill_and_intangibles": 40353000000.0,
    "retained_earnings": 1639000000.0,
    "total_debt": 8391000000.0,
-   "shares_out": 4066000000.0
+   "shares_out": 4066000000.0,
+   "unusual_items": -708000000.0,
+   "normalized_ebitda": 18179000000.0,
+   "normalized_income": 13195684000.0
   },
   {
    "fy_end": "2024-07-27",
@@ -243,7 +288,10 @@
    "goodwill_and_intangibles": 69879000000.0,
    "retained_earnings": 1087000000.0,
    "total_debt": 20109000000.0,
-   "shares_out": 4007000000.0
+   "shares_out": 4007000000.0,
+   "unusual_items": -955000000.0,
+   "normalized_ebitda": 16702000000.0,
+   "normalized_income": 11126020000.0
   },
   {
    "fy_end": "2025-07-26",
@@ -278,7 +326,10 @@
    "goodwill_and_intangibles": 68311000000.0,
    "retained_earnings": 50000000.0,
    "total_debt": 24611000000.0,
-   "shares_out": 3959998180.0
+   "shares_out": 3959998180.0,
+   "unusual_items": -662000000.0,
+   "normalized_ebitda": 16166000000.0,
+   "normalized_income": 10787131531.531532
   },
   {
    "fy_end": "2026-07-25",
@@ -313,7 +364,10 @@
    "goodwill_and_intangibles": 67034000000.0,
    "retained_earnings": 1565000000.0,
    "total_debt": 22872000000.0,
-   "shares_out": 3946000000.0
+   "shares_out": 3946000000.0,
+   "unusual_items": 700000000.0,
+   "normalized_ebitda": 19319000000.0,
+   "normalized_income": 12686895059.029297
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "ADC",
- "fetched_at": "2026-10-10T12:36:23+00:00",
+ "fetched_at": "2026-10-10T15:33:30+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 90,
   "website": "https://www.agreerealty.com",
-  "longBusinessSummary": "Agree Realty Corporation is a publicly traded real estate investment trust. The Firm is Rethinking Retail through the acquisition and development of properties net leased to industry-leading, omni-channel retail tenants. As of June 30, 2026, the Company owned and operated a portfolio of 2,825 properties, located in all 50 states and containing approximately 59.6 million square feet of gross leasable area. Agree Realty Corporation was incorporated in 1971 and is based in Royal Oak, United States."
+  "longBusinessSummary": "Agree Realty Corporation is a publicly traded real estate investment trust. The Firm is Rethinking Retail through the acquisition and development of properties net leased to industry-leading, omni-channel retail tenants. As of June 30, 2026, the Company owned and operated a portfolio of 2,825 properties, located in all 50 states and containing approximately 59.6 million square feet of gross leasable area. Agree Realty Corporation was incorporated in 1971 and is based in Royal Oak, United States.",
+  "targetMeanPrice": 82.88889,
+  "targetLowPrice": 72.0,
+  "targetHighPrice": 93.0,
+  "numberOfAnalystOpinions": 18,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.85,
+  "forwardPE": 34.474648,
+  "forwardEps": 1.913,
+  "trailingEps": 1.86,
+  "earningsGrowth": 0.021,
+  "revenueGrowth": 0.168
  },
  "governance": {
   "ceo": {
@@ -81,9 +92,40 @@
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "capex": "sec",
   "ppe_net": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 9797612000.0,
+    "official": 9797612000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 6270985000.0,
+    "official": 6270985000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 204349000.0,
+    "official": 204349000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 718398000.0,
+    "official": 718398000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:33:30+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -165,7 +207,10 @@
    "goodwill_and_intangibles": 799448000.0,
    "retained_earnings": -228132000.0,
    "total_debt": 1976732000.0,
-   "shares_out": 90173424.0
+   "shares_out": 90173424.0,
+   "unusual_items": 4326000.0,
+   "normalized_ebitda": 381911000.0,
+   "normalized_income": 148190363.417685
   },
   {
    "fy_end": "2023-12-31",
@@ -196,7 +241,10 @@
    "goodwill_and_intangibles": 854088000.0,
    "retained_earnings": -346473000.0,
    "total_debt": 2447748000.0,
-   "shares_out": 100519355.0
+   "shares_out": 100519355.0,
+   "unusual_items": -5326000.0,
+   "normalized_ebitda": 469275000.0,
+   "normalized_income": 175195648.402774
   },
   {
    "fy_end": "2024-12-31",
@@ -227,7 +275,10 @@
    "goodwill_and_intangibles": 864937000.0,
    "retained_earnings": -470622000.0,
    "total_debt": 2831670000.0,
-   "shares_out": 107248705.0
+   "shares_out": 107248705.0,
+   "unusual_items": 4284000.0,
+   "normalized_ebitda": 538981000.0,
+   "normalized_income": 185008019.542799
   },
   {
    "fy_end": "2025-12-31",
@@ -257,7 +308,10 @@
    "goodwill_and_intangibles": 1000967000.0,
    "retained_earnings": -618675000.0,
    "total_debt": 3354917000.0,
-   "shares_out": 120028406.0
+   "shares_out": 120028406.0,
+   "unusual_items": -6456000.0,
+   "normalized_ebitda": 623514000.0,
+   "normalized_income": 210750815.870436
   }
  ]
 }

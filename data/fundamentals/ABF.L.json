@@ -1,6 +1,6 @@
 {
  "ticker": "ABF.L",
- "fetched_at": "2026-10-10T12:28:02+00:00",
+ "fetched_at": "2026-10-10T15:32:03+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 138000,
   "website": "https://www.abf.co.uk",
-  "longBusinessSummary": "Associated British Foods plc engages in the food, ingredients, and retail businesses worldwide. It operates through five segments: Retail, Grocery, Ingredients, Sugar, and Agriculture. The Retail segment is involved in buying and merchandising clothing and accessories through the Primark and Penneys retail chains, which offer women's, men's, and kidswear, as well as beauty, homeware, and accessories. The Grocery segment manufactures grocery products, including hot beverages, sugar, vegetable oils, balsamic vinegars, bread and baked goods, cereals, ethnic food and meat products to retail, wholesale, and foodservice businesses. The Ingredients segment manufactures yeast and bakery ingredients, specialty ingredients focused on enzymes, procession extracts, health and nutrition, and pharmaceutical delivery systems. The Sugar segment is involved in growing and processing sugar beet and sugar cane. The Agriculture segment manufactures specialty feed ingredients, premix, and compound animal feed; and other products and services for the agriculture sector. The company was incorporated in 1934 and is headquartered in London, the United Kingdom. Associated British Foods plc operates as a subsidiary of Wittington Investments Limited."
+  "longBusinessSummary": "Associated British Foods plc engages in the food, ingredients, and retail businesses worldwide. It operates through five segments: Retail, Grocery, Ingredients, Sugar, and Agriculture. The Retail segment is involved in buying and merchandising clothing and accessories through the Primark and Penneys retail chains, which offer women's, men's, and kidswear, as well as beauty, homeware, and accessories. The Grocery segment manufactures grocery products, including hot beverages, sugar, vegetable oils, balsamic vinegars, bread and baked goods, cereals, ethnic food and meat products to retail, wholesale, and foodservice businesses. The Ingredients segment manufactures yeast and bakery ingredients, specialty ingredients focused on enzymes, procession extracts, health and nutrition, and pharmaceutical delivery systems. The Sugar segment is involved in growing and processing sugar beet and sugar cane. The Agriculture segment manufactures specialty feed ingredients, premix, and compound animal feed; and other products and services for the agriculture sector. The company was incorporated in 1934 and is headquartered in London, the United Kingdom. Associated British Foods plc operates as a subsidiary of Wittington Investments Limited.",
+  "targetMeanPrice": 1798.824,
+  "targetLowPrice": 1520.0,
+  "targetHighPrice": 2040.0,
+  "numberOfAnalystOpinions": 17,
+  "recommendationKey": "underperform",
+  "recommendationMean": 3.58824,
+  "forwardPE": 12.419964,
+  "forwardEps": 1.47746,
+  "trailingEps": 1.33,
+  "earningsGrowth": -0.118,
+  "revenueGrowth": -0.004
  },
  "governance": {
   "ceo": {
@@ -77,8 +88,18 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "status": "valuta diversa",
+  "items": {},
+  "official_period_end": "2022-09-30"
+ },
+ "info_at": "2026-10-10T15:32:03+00:00",
  "years": [
   {
    "fy_end": "2023-08-31",
@@ -112,7 +133,10 @@
    "goodwill_and_intangibles": 1870000000.0,
    "retained_earnings": 10910000000.0,
    "total_debt": 3722000000.0,
-   "shares_out": 768701980.0
+   "shares_out": 768701980.0,
+   "unusual_items": -84000000.0,
+   "normalized_ebitda": 2560000000.0,
+   "normalized_income": 1110949253.731343
   },
   {
    "fy_end": "2023-09-30",
@@ -146,7 +170,10 @@
    "goodwill_and_intangibles": 1870000000.0,
    "retained_earnings": 10910000000.0,
    "total_debt": 3722000000.0,
-   "shares_out": 767554131.0
+   "shares_out": 767554131.0,
+   "unusual_items": -84000000.0,
+   "normalized_ebitda": 2560000000.0,
+   "normalized_income": 1110949253.731343
   },
   {
    "fy_end": "2024-08-31",
@@ -181,7 +208,10 @@
    "goodwill_and_intangibles": 1896000000.0,
    "retained_earnings": 11395000000.0,
    "total_debt": 3678000000.0,
-   "shares_out": 739697755.0
+   "shares_out": 739697755.0,
+   "unusual_items": 7000000.0,
+   "normalized_ebitda": 3125000000.0,
+   "normalized_income": 1449617000.0
   },
   {
    "fy_end": "2025-08-31",
@@ -215,7 +245,10 @@
    "goodwill_and_intangibles": 1892000000.0,
    "retained_earnings": 11378000000.0,
    "total_debt": 3686000000.0,
-   "shares_out": 711514977.0
+   "shares_out": 711514977.0,
+   "unusual_items": -229000000.0,
+   "normalized_ebitda": 2883000000.0,
+   "normalized_income": 1198582000.0
   }
  ]
 }

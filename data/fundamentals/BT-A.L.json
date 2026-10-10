@@ -1,6 +1,6 @@
 {
  "ticker": "BT-A.L",
- "fetched_at": "2026-10-10T11:49:04+00:00",
+ "fetched_at": "2026-10-10T14:37:28+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 77200,
   "website": "https://www.bt.com",
-  "longBusinessSummary": "BT Group plc provides communications products and services in the United Kingdom, Europe, the Middle East, Africa, the Americas, and the Asia Pacific. The company operates through Consumer, Business, International, and Openreach segments. It builds, owns, and operates fixed and mobile networks; and designs, builds, markets, sells, and supports network access, connectivity, and related products. The company also offers mobile, broadband, and landline, as well as entertainment services to individuals and households; connectivity, networking, cybersecurity, collaboration tools, cloud connectivity, and cloud services to private and public sector businesses; and managed solutions for larger businesses and public sector customers. In addition, it provides fixed and IP voice; unified communications; mobile; fixed and networking; managed services; and security, and cloud and IoT solutions. Further, the company develops, manages, and leases network infrastructure, including mobile cell and switch sites; and offers handsets, network equipment, consumer electronics, gaming and insurance. It provides its products and services under the BT, EE, Plusnet, and Openreach brands. The company was formerly known as Newgate Telecommunications Limited and changed its name to BT Group plc in September 2001. BT Group plc was founded in 1846 and is headquartered in London, the United Kingdom."
+  "longBusinessSummary": "BT Group plc provides communications products and services in the United Kingdom, Europe, the Middle East, Africa, the Americas, and the Asia Pacific. The company operates through Consumer, Business, International, and Openreach segments. It builds, owns, and operates fixed and mobile networks; and designs, builds, markets, sells, and supports network access, connectivity, and related products. The company also offers mobile, broadband, and landline, as well as entertainment services to individuals and households; connectivity, networking, cybersecurity, collaboration tools, cloud connectivity, and cloud services to private and public sector businesses; and managed solutions for larger businesses and public sector customers. In addition, it provides fixed and IP voice; unified communications; mobile; fixed and networking; managed services; and security, and cloud and IoT solutions. Further, the company develops, manages, and leases network infrastructure, including mobile cell and switch sites; and offers handsets, network equipment, consumer electronics, gaming and insurance. It provides its products and services under the BT, EE, Plusnet, and Openreach brands. The company was formerly known as Newgate Telecommunications Limited and changed its name to BT Group plc in September 2001. BT Group plc was founded in 1846 and is headquartered in London, the United Kingdom.",
+  "targetMeanPrice": 224.353,
+  "targetLowPrice": 143.0,
+  "targetHighPrice": 330.0,
+  "numberOfAnalystOpinions": 17,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.82353,
+  "forwardPE": 10.191403,
+  "forwardEps": 0.18913,
+  "trailingEps": 0.11,
+  "earningsGrowth": 0.4,
+  "revenueGrowth": -0.039
  },
  "governance": {
   "ceo": {
@@ -81,8 +92,35 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2026-03-31",
+  "items": {
+   "equity": {
+    "yahoo": 12564000000.0,
+    "official": 12564000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 1077000000.0,
+    "official": 1077000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 19654000000.0,
+    "official": 19654000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2026-03-31"
+ },
+ "info_at": "2026-10-10T14:37:28+00:00",
  "years": [
   {
    "fy_end": "2023-03-31",
@@ -117,7 +155,10 @@
    "goodwill_and_intangibles": 13687000000.0,
    "retained_earnings": 11431000000.0,
    "total_debt": 23880000000.0,
-   "shares_out": 9738138552.0
+   "shares_out": 9738138552.0,
+   "unusual_items": -707000000.0,
+   "normalized_ebitda": 8095000000.0,
+   "normalized_income": 2477670000.0
   },
   {
    "fy_end": "2024-03-31",
@@ -152,7 +193,10 @@
    "goodwill_and_intangibles": 12920000000.0,
    "retained_earnings": 9565000000.0,
    "total_debt": 23481000000.0,
-   "shares_out": 9779670988.0
+   "shares_out": 9779670988.0,
+   "unusual_items": -770000000.0,
+   "normalized_ebitda": 7899000000.0,
+   "normalized_income": 2249905564.924115
   },
   {
    "fy_end": "2025-03-31",
@@ -187,7 +231,10 @@
    "goodwill_and_intangibles": 12433000000.0,
    "retained_earnings": 9910000000.0,
    "total_debt": 23333000000.0,
-   "shares_out": 9729988330.0
+   "shares_out": 9729988330.0,
+   "unusual_items": -1041000000.0,
+   "normalized_ebitda": 8511000000.0,
+   "normalized_income": 1879970000.0
   },
   {
    "fy_end": "2026-03-31",
@@ -221,7 +268,10 @@
    "goodwill_and_intangibles": 11968000000.0,
    "retained_earnings": 9554000000.0,
    "total_debt": 22720000000.0,
-   "shares_out": 9853621250.0
+   "shares_out": 9853621250.0,
+   "unusual_items": -771000000.0,
+   "normalized_ebitda": 8288000000.0,
+   "normalized_income": 1711250000.0
   }
  ]
 }

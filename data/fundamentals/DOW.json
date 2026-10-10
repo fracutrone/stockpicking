@@ -1,6 +1,6 @@
 {
  "ticker": "DOW",
- "fetched_at": "2026-10-10T12:43:28+00:00",
+ "fetched_at": "2026-10-10T15:41:55+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 32800,
   "website": "https://www.dow.com",
-  "longBusinessSummary": "Dow Inc., through its subsidiaries, provides various materials science solutions for packaging, infrastructure, mobility, and consumer applications in the United States, Canada, Europe, the Middle East, Africa, India, the Asia Pacific, and Latin America. The company operates through Packaging & Specialty Plastics, Industrial Intermediates & Infrastructure, and Performance Materials & Coatings segments. The Packaging & Specialty Plastics segment provides ethylene, propylene, polyethylene, and aromatics products; and other ethylene derivatives, such as polyolefin elastomers, ethylene vinyl acetate, and ethylene propylene diene monomer rubber. The Industrial Intermediates & Infrastructure segment offers polyurethanes, including propylene oxide, propylene glycol, and polyether polyols; aromatic isocyanates and fully formulated polyurethane systems; and chlor-alkali and vinyl comprising chlorine and caustic soda, ethylene dichloride, and vinyl chloride monomer; and construction chemicals consisting of cellulose ethers, redispersible latex powders, and acrylic emulsions, as well as coatings, adhesives, sealants, elastomers, and composites. The Performance Materials & Coatings segment provides architectural paints and coatings, and industrial coatings; and acrylics-based building blocks, silicon metals, siloxanes, and intermediates. The company also engages in the property and casualty insurance, as well as reinsurance business. The company was founded in 1897 and is headquartered in Midland, Michigan."
+  "longBusinessSummary": "Dow Inc., through its subsidiaries, provides various materials science solutions for packaging, infrastructure, mobility, and consumer applications in the United States, Canada, Europe, the Middle East, Africa, India, the Asia Pacific, and Latin America. The company operates through Packaging & Specialty Plastics, Industrial Intermediates & Infrastructure, and Performance Materials & Coatings segments. The Packaging & Specialty Plastics segment provides ethylene, propylene, polyethylene, and aromatics products; and other ethylene derivatives, such as polyolefin elastomers, ethylene vinyl acetate, and ethylene propylene diene monomer rubber. The Industrial Intermediates & Infrastructure segment offers polyurethanes, including propylene oxide, propylene glycol, and polyether polyols; aromatic isocyanates and fully formulated polyurethane systems; and chlor-alkali and vinyl comprising chlorine and caustic soda, ethylene dichloride, and vinyl chloride monomer; and construction chemicals consisting of cellulose ethers, redispersible latex powders, and acrylic emulsions, as well as coatings, adhesives, sealants, elastomers, and composites. The Performance Materials & Coatings segment provides architectural paints and coatings, and industrial coatings; and acrylics-based building blocks, silicon metals, siloxanes, and intermediates. The company also engages in the property and casualty insurance, as well as reinsurance business. The company was founded in 1897 and is headquartered in Midland, Michigan.",
+  "targetMeanPrice": 33.625,
+  "targetLowPrice": 29.0,
+  "targetHighPrice": 41.0,
+  "numberOfAnalystOpinions": 16,
+  "recommendationKey": "hold",
+  "recommendationMean": 2.57895,
+  "forwardPE": 16.47097,
+  "forwardEps": 1.72546,
+  "trailingEps": -1.83,
+  "earningsGrowth": null,
+  "revenueGrowth": 0.197
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "st_investments": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 58538000000.0,
+    "official": 58538000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 16008000000.0,
+    "official": 16008000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": -2623000000.0,
+    "official": -2444000000.0,
+    "diff": 0.073241
+   },
+   "revenue": {
+    "yahoo": 39968000000.0,
+    "official": 39968000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:41:55+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -199,7 +241,10 @@
    "goodwill_and_intangibles": 11086000000.0,
    "retained_earnings": 23180000000.0,
    "total_debt": 15422000000.0,
-   "shares_out": 704879920.0
+   "shares_out": 704879920.0,
+   "unusual_items": -161000000.0,
+   "normalized_ebitda": 9671000000.0,
+   "normalized_income": 4704682000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -233,7 +278,10 @@
    "goodwill_and_intangibles": 10713000000.0,
    "retained_earnings": 21774000000.0,
    "total_debt": 14969000000.0,
-   "shares_out": 702293433.0
+   "shares_out": 702293433.0,
+   "unusual_items": -775000000.0,
+   "normalized_ebitda": 4788000000.0,
+   "normalized_income": 1164282500.0
   },
   {
    "fy_end": "2024-12-31",
@@ -267,7 +315,10 @@
    "goodwill_and_intangibles": 10286000000.0,
    "retained_earnings": 20909000000.0,
    "total_debt": 15711000000.0,
-   "shares_out": 703612794.0
+   "shares_out": 703612794.0,
+   "unusual_items": -52000000.0,
+   "normalized_ebitda": 5357000000.0,
+   "normalized_income": 1155052000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -301,7 +352,10 @@
    "goodwill_and_intangibles": 9464000000.0,
    "retained_earnings": 16781000000.0,
    "total_debt": 17849000000.0,
-   "shares_out": 717222413.0
+   "shares_out": 717222413.0,
+   "unusual_items": -1659000000.0,
+   "normalized_ebitda": 2847000000.0,
+   "normalized_income": -1008793000.0
   }
  ]
 }

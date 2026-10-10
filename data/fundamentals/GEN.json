@@ -1,6 +1,6 @@
 {
  "ticker": "GEN",
- "fetched_at": "2026-10-10T12:46:32+00:00",
+ "fetched_at": "2026-10-10T15:44:59+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 3900,
   "website": "https://www.gendigital.com",
-  "longBusinessSummary": "Gen Digital Inc. engages in the provision of cyber safety and trust-based solutions for individuals, families, and small businesses. The company offers security and performance management, identity protection, and online privacy, as well as technology platforms. It also provides restoration support services, digital reputation, and secure financial wellness. The company offers its products under the Norton, Avast, LifeLock, MoneyLion, Avira, AVG, ReputationDefender, and CCleaner brands. The company was formerly known as NortonLifeLock Inc. and changed its name to Gen Digital Inc. in November 2022. Gen Digital Inc. was founded in 1982 and is headquartered in Tempe, Arizona."
+  "longBusinessSummary": "Gen Digital Inc. engages in the provision of cyber safety and trust-based solutions for individuals, families, and small businesses. The company offers security and performance management, identity protection, and online privacy, as well as technology platforms. It also provides restoration support services, digital reputation, and secure financial wellness. The company offers its products under the Norton, Avast, LifeLock, MoneyLion, Avira, AVG, ReputationDefender, and CCleaner brands. The company was formerly known as NortonLifeLock Inc. and changed its name to Gen Digital Inc. in November 2022. Gen Digital Inc. was founded in 1982 and is headquartered in Tempe, Arizona.",
+  "targetMeanPrice": 32.55556,
+  "targetLowPrice": 25.0,
+  "targetHighPrice": 46.0,
+  "numberOfAnalystOpinions": 9,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.2,
+  "forwardPE": 7.02608,
+  "forwardEps": 3.3091,
+  "trailingEps": 1.71,
+  "earningsGrowth": 0.64,
+  "revenueGrowth": 0.063
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "inventory": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2026-03-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 15589000000.0,
+    "official": 15589000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2611000000.0,
+    "official": 2611000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 973000000.0,
+    "official": 973000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 5000000000.0,
+    "official": 5000000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:44:59+00:00",
  "years": [
   {
    "fy_end": "2020-04-03",
@@ -204,7 +246,10 @@
    "goodwill_and_intangibles": 13314000000.0,
    "retained_earnings": -585000000.0,
    "total_debt": 9762000000.0,
-   "shares_out": 640000000.0
+   "shares_out": 640000000.0,
+   "unusual_items": -93000000.0,
+   "normalized_ebitda": 1606000000.0,
+   "normalized_income": 1403033900.0
   },
   {
    "fy_end": "2024-03-29",
@@ -237,7 +282,10 @@
    "goodwill_and_intangibles": 12848000000.0,
    "retained_earnings": -98000000.0,
    "total_debt": 8604000000.0,
-   "shares_out": 623000000.0
+   "shares_out": 623000000.0,
+   "unusual_items": -85000000.0,
+   "normalized_ebitda": 1686000000.0,
+   "normalized_income": 670214500.0
   },
   {
    "fy_end": "2025-03-28",
@@ -270,7 +318,10 @@
    "goodwill_and_intangibles": 12504000000.0,
    "retained_earnings": 236000000.0,
    "total_debt": 8259000000.0,
-   "shares_out": 617000000.0
+   "shares_out": 617000000.0,
+   "unusual_items": -38000000.0,
+   "normalized_ebitda": 2064000000.0,
+   "normalized_income": 666745383.867833
   },
   {
    "fy_end": "2026-04-03",
@@ -303,7 +354,10 @@
    "goodwill_and_intangibles": 13092000000.0,
    "retained_earnings": 269000000.0,
    "total_debt": 8196000000.0,
-   "shares_out": 598000000.0
+   "shares_out": 598000000.0,
+   "unusual_items": -105000000.0,
+   "normalized_ebitda": 2678000000.0,
+   "normalized_income": 1040200000.0
   }
  ]
 }

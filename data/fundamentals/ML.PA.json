@@ -1,6 +1,6 @@
 {
  "ticker": "ML.PA",
- "fetched_at": "2026-10-10T12:08:41+00:00",
+ "fetched_at": "2026-10-10T15:05:04+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "PAR",
   "fullTimeEmployees": null,
   "website": null,
-  "longBusinessSummary": null
+  "longBusinessSummary": null,
+  "targetMeanPrice": 33.52143,
+  "targetLowPrice": 28.0,
+  "targetHighPrice": 40.0,
+  "numberOfAnalystOpinions": 14,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.42857,
+  "forwardPE": 9.600575,
+  "forwardEps": null,
+  "trailingEps": null,
+  "earningsGrowth": null,
+  "revenueGrowth": null
  },
  "governance": {
   "top_institutions": [
@@ -78,8 +89,17 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": null,
+  "status": "non verificabile",
+  "items": {}
+ },
+ "info_at": "2026-10-10T15:05:04+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -114,7 +134,10 @@
    "goodwill_and_intangibles": 4233000000.0,
    "retained_earnings": 14146000000.0,
    "total_debt": 7340000000.0,
-   "shares_out": 714117414.0
+   "shares_out": 714117414.0,
+   "unusual_items": -28000000.0,
+   "normalized_ebitda": 4976000000.0,
+   "normalized_income": 2022179216.86747
   },
   {
    "fy_end": "2023-12-31",
@@ -149,7 +172,10 @@
    "goodwill_and_intangibles": 4776000000.0,
    "retained_earnings": 15244000000.0,
    "total_debt": 6222000000.0,
-   "shares_out": 714958065.0
+   "shares_out": 714958065.0,
+   "unusual_items": -771000000.0,
+   "normalized_ebitda": 5656000000.0,
+   "normalized_income": 2596716000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -184,7 +210,10 @@
    "goodwill_and_intangibles": 4949000000.0,
    "retained_earnings": 16021000000.0,
    "total_debt": 7369000000.0,
-   "shares_out": 705747272.0
+   "shares_out": 705747272.0,
+   "unusual_items": -493000000.0,
+   "normalized_ebitda": 5318000000.0,
+   "normalized_income": 2265089000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -219,7 +248,10 @@
    "goodwill_and_intangibles": 4601000000.0,
    "retained_earnings": 17014000000.0,
    "total_debt": 6608000000.0,
-   "shares_out": 687596240.0
+   "shares_out": 687596240.0,
+   "unusual_items": -212000000.0,
+   "normalized_ebitda": 4860000000.0,
+   "normalized_income": 1821244000.0
   }
  ]
 }

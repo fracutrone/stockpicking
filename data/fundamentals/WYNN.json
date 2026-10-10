@@ -1,6 +1,6 @@
 {
  "ticker": "WYNN",
- "fetched_at": "2026-10-10T13:02:59+00:00",
+ "fetched_at": "2026-10-10T16:00:18+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 28500,
   "website": "https://www.wynnresorts.com",
-  "longBusinessSummary": "Wynn Resorts, Limited designs, develops, and operates integrated resorts. It operates in four segments: Wynn Palace, Wynn Macau, Las Vegas Operations, and Encore Boston Harbor. The Wynn Palace segment operates casino space, private gaming salons, and sky casinos; a luxury hotel tower with suites and villas, as well as a health club, spa, salon, and pool; food and beverage outlets; retail space; meeting and convention space; and a performance lake, an immersive entertainment center, Western and Asian art displays, and a gondola ride. Its Wynn Macau segment operates casino space, private gaming salons, sky casinos, and a poker room; luxury hotel towers with health clubs, spas, a salon, and a pool; food and beverage outlets; retail space; meeting and convention space; a performance lake; and a rotunda show featuring Chinese zodiac-inspired ceilings. The Las Vegas Operations segment operates casino space, private gaming salons, a sky casino, a poker room, and a race and sports book; a luxury hotel tower with suites, villas, swimming pools, private cabanas, full-service spas and salons, and a wedding chapel; food and beverage outlets; meeting and convention space; retail space; a golf course; nightclubs; a beach club; and theaters. Its Encore Boston Harbor segment operates casino space, private and high-limit gaming areas, and a sports book; a luxury hotel tower with suites, a spa, and a salon; food and beverage outlets; a nightclub; retail space; meeting and convention space; a waterfront park; floral displays; and water shuttle services. Wynn Resorts, Limited was incorporated in 2002 and is based in Las Vegas, Nevada."
+  "longBusinessSummary": "Wynn Resorts, Limited designs, develops, and operates integrated resorts. It operates in four segments: Wynn Palace, Wynn Macau, Las Vegas Operations, and Encore Boston Harbor. The Wynn Palace segment operates casino space, private gaming salons, and sky casinos; a luxury hotel tower with suites and villas, as well as a health club, spa, salon, and pool; food and beverage outlets; retail space; meeting and convention space; and a performance lake, an immersive entertainment center, Western and Asian art displays, and a gondola ride. Its Wynn Macau segment operates casino space, private gaming salons, sky casinos, and a poker room; luxury hotel towers with health clubs, spas, a salon, and a pool; food and beverage outlets; retail space; meeting and convention space; a performance lake; and a rotunda show featuring Chinese zodiac-inspired ceilings. The Las Vegas Operations segment operates casino space, private gaming salons, a sky casino, a poker room, and a race and sports book; a luxury hotel tower with suites, villas, swimming pools, private cabanas, full-service spas and salons, and a wedding chapel; food and beverage outlets; meeting and convention space; retail space; a golf course; nightclubs; a beach club; and theaters. Its Encore Boston Harbor segment operates casino space, private and high-limit gaming areas, and a sports book; a luxury hotel tower with suites, a spa, and a salon; food and beverage outlets; a nightclub; retail space; meeting and convention space; a waterfront park; floral displays; and water shuttle services. Wynn Resorts, Limited was incorporated in 2002 and is based in Las Vegas, Nevada.",
+  "targetMeanPrice": 130.955,
+  "targetLowPrice": 116.0,
+  "targetHighPrice": 144.0,
+  "numberOfAnalystOpinions": 20,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.19048,
+  "forwardPE": 14.746282,
+  "forwardEps": 5.0962,
+  "trailingEps": 4.17,
+  "earningsGrowth": 1.061,
+  "revenueGrowth": 0.069
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 13108117000.0,
+    "official": 13108117000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": -275492000.0,
+    "official": -275492000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 327334000.0,
+    "official": 327334000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 7137924000.0,
+    "official": 7137924000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T16:00:18+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -202,7 +244,10 @@
    "goodwill_and_intangibles": 245253000.0,
    "retained_earnings": -2711808000.0,
    "total_debt": 12116859000.0,
-   "shares_out": 113369439.0
+   "shares_out": 113369439.0,
+   "unusual_items": 64150000.0,
+   "normalized_ebitda": 579017000.0,
+   "normalized_income": -474534500.0
   },
   {
    "fy_end": "2023-12-31",
@@ -237,7 +282,10 @@
    "goodwill_and_intangibles": 329708000.0,
    "retained_earnings": -2066953000.0,
    "total_debt": 11738337000.0,
-   "shares_out": 111737245.0
+   "shares_out": 111737245.0,
+   "unusual_items": -189737000.0,
+   "normalized_ebitda": 1913899000.0,
+   "normalized_income": 879886230.0
   },
   {
    "fy_end": "2024-12-31",
@@ -272,7 +320,10 @@
    "goodwill_and_intangibles": 254599000.0,
    "retained_earnings": -1676990000.0,
    "total_debt": 10541734000.0,
-   "shares_out": 107821567.0
+   "shares_out": 107821567.0,
+   "unusual_items": -181972000.0,
+   "normalized_ebitda": 2172675000.0,
+   "normalized_income": 682008621.406967
   },
   {
    "fy_end": "2025-12-31",
@@ -306,7 +357,10 @@
    "goodwill_and_intangibles": 224242000.0,
    "retained_earnings": -1454239000.0,
    "total_debt": 10546812000.0,
-   "shares_out": 103989787.0
+   "shares_out": 103989787.0,
+   "unusual_items": -123082000.0,
+   "normalized_ebitda": 1883411000.0,
+   "normalized_income": 425307272.0
   }
  ]
 }

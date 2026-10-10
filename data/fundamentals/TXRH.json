@@ -1,6 +1,6 @@
 {
  "ticker": "TXRH",
- "fetched_at": "2026-10-10T13:00:31+00:00",
+ "fetched_at": "2026-10-10T15:58:06+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 101000,
   "website": "https://www.texasroadhouse.com",
-  "longBusinessSummary": "Texas Roadhouse, Inc., together with its subsidiaries, operates casual dining restaurants in the United States and internationally. It operates through Texas Roadhouse, Bubba's 33, and Others segments. The company's restaurants offer seasoned and aged steaks, ribs, seafood, chicken, pork chops, pulled pork, and vegetable plates, as well as an assortment of hamburgers, salads, and sandwiches; and pizza, wings, and various appetizers and dinner entrées. The company also operates and franchises restaurants under the Texas Roadhouse, Bubba's 33, and Jaggers brands. Texas Roadhouse, Inc. was founded in 1993 and is based in Louisville, Kentucky."
+  "longBusinessSummary": "Texas Roadhouse, Inc., together with its subsidiaries, operates casual dining restaurants in the United States and internationally. It operates through Texas Roadhouse, Bubba's 33, and Others segments. The company's restaurants offer seasoned and aged steaks, ribs, seafood, chicken, pork chops, pulled pork, and vegetable plates, as well as an assortment of hamburgers, salads, and sandwiches; and pizza, wings, and various appetizers and dinner entrées. The company also operates and franchises restaurants under the Texas Roadhouse, Bubba's 33, and Jaggers brands. Texas Roadhouse, Inc. was founded in 1993 and is based in Louisville, Kentucky.",
+  "targetMeanPrice": 215.04167,
+  "targetLowPrice": 133.0,
+  "targetHighPrice": 276.0,
+  "numberOfAnalystOpinions": 24,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.92857,
+  "forwardPE": 20.784456,
+  "forwardEps": 7.77023,
+  "trailingEps": 6.25,
+  "earningsGrowth": -0.005,
+  "revenueGrowth": 0.111
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3549472000.0,
+    "official": 3549472000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1460820000.0,
+    "official": 1460820000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 405554000.0,
+    "official": 414335000.0,
+    "diff": 0.021193
+   },
+   "revenue": {
+    "yahoo": 5878075000.0,
+    "official": 5878075000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:58:06+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -192,7 +234,10 @@
    "goodwill_and_intangibles": 160721000.0,
    "retained_earnings": 999432000.0,
    "total_debt": 753364000.0,
-   "shares_out": 66973311.0
+   "shares_out": 66973311.0,
+   "unusual_items": -1600000.0,
+   "normalized_ebitda": 460634000.0,
+   "normalized_income": 271200317.498257
   },
   {
    "fy_end": "2023-12-26",
@@ -225,7 +270,10 @@
    "goodwill_and_intangibles": 182564000.0,
    "retained_earnings": 1141595000.0,
    "total_debt": 770887000.0,
-   "shares_out": 66789464.0
+   "shares_out": 66789464.0,
+   "unusual_items": -275000.0,
+   "normalized_ebitda": 507741000.0,
+   "normalized_income": 305116625.0
   },
   {
    "fy_end": "2024-12-31",
@@ -258,7 +306,10 @@
    "goodwill_and_intangibles": 180764000.0,
    "retained_earnings": 1358280000.0,
    "total_debt": 854472000.0,
-   "shares_out": 66574626.0
+   "shares_out": 66574626.0,
+   "unusual_items": -1226000.0,
+   "normalized_ebitda": 697128000.0,
+   "normalized_income": 434630422.0
   },
   {
    "fy_end": "2025-12-30",
@@ -291,7 +342,10 @@
    "goodwill_and_intangibles": 270843000.0,
    "retained_earnings": 1460754000.0,
    "total_debt": 974023000.0,
-   "shares_out": 65943730.0
+   "shares_out": 65943730.0,
+   "unusual_items": -349000.0,
+   "normalized_ebitda": 682078000.0,
+   "normalized_income": 405854838.0
   }
  ]
 }

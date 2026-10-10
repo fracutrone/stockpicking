@@ -1,6 +1,6 @@
 {
  "ticker": "AMZN",
- "fetched_at": "2026-10-10T12:37:30+00:00",
+ "fetched_at": "2026-10-10T15:34:31+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 1595000,
   "website": "https://www.amazon.com",
-  "longBusinessSummary": "Amazon.com, Inc. engages in the retail sale of consumer products, advertising, and subscriptions service through online and physical stores in North America and internationally. The company operates through three segments: North America, International, and Amazon Web Services (AWS). It also manufactures and sells electronic devices, including Kindle, fire tablets, fire TVs, echo, ring, blink, and eero; and develops and produces media content. In addition, the company offers programs that enable sellers to sell their products in its stores; and programs that allow authors, independent publishers, musicians, filmmakers, Twitch streamers, skill and app developers, and others to publish and sell content. Further, it provides compute, storage, Artificial intelligence, database, analytics, machine learning, and other services, as well as advertising services through programs, such as sponsored ads, display, and video advertising. Additionally, the company offers Amazon Prime, a membership program. The company's products offered through its stores include merchandise and content purchased for resale and products offered by third-party sellers. It serves consumers, sellers, developers, enterprises, content creators, advertisers, and employees. The company was incorporated in 1994 and is headquartered in Seattle, Washington."
+  "longBusinessSummary": "Amazon.com, Inc. engages in the retail sale of consumer products, advertising, and subscriptions service through online and physical stores in North America and internationally. The company operates through three segments: North America, International, and Amazon Web Services (AWS). It also manufactures and sells electronic devices, including Kindle, fire tablets, fire TVs, echo, ring, blink, and eero; and develops and produces media content. In addition, the company offers programs that enable sellers to sell their products in its stores; and programs that allow authors, independent publishers, musicians, filmmakers, Twitch streamers, skill and app developers, and others to publish and sell content. Further, it provides compute, storage, Artificial intelligence, database, analytics, machine learning, and other services, as well as advertising services through programs, such as sponsored ads, display, and video advertising. Additionally, the company offers Amazon Prime, a membership program. The company's products offered through its stores include merchandise and content purchased for resale and products offered by third-party sellers. It serves consumers, sellers, developers, enterprises, content creators, advertisers, and employees. The company was incorporated in 1994 and is headquartered in Seattle, Washington.",
+  "targetMeanPrice": 331.53,
+  "targetLowPrice": 230.0,
+  "targetHighPrice": 405.0,
+  "numberOfAnalystOpinions": 58,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.33333,
+  "forwardPE": 25.073498,
+  "forwardEps": 10.46643,
+  "trailingEps": 12.43,
+  "earningsGrowth": 2.423,
+  "revenueGrowth": 0.196
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo",
   "tax": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 818042000000.0,
+    "official": 818042000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 411065000000.0,
+    "official": 411065000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 77670000000.0,
+    "official": 77670000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 716924000000.0,
+    "official": 716924000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:34:31+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -199,7 +241,10 @@
    "goodwill_and_intangibles": 26385000000.0,
    "retained_earnings": 83193000000.0,
    "total_debt": 70542000000.0,
-   "shares_out": 10242000000.0
+   "shares_out": 10242000000.0,
+   "unusual_items": -16266000000.0,
+   "normalized_ebitda": 54618000000.0,
+   "normalized_income": 10128140000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -233,7 +278,10 @@
    "goodwill_and_intangibles": 30476000000.0,
    "retained_earnings": 113618000000.0,
    "total_debt": 67329000000.0,
-   "shares_out": 10383000000.0
+   "shares_out": 10383000000.0,
+   "unusual_items": 1050000000.0,
+   "normalized_ebitda": 88352000000.0,
+   "normalized_income": 29574057432.702293
   },
   {
    "fy_end": "2024-12-31",
@@ -268,7 +316,10 @@
    "goodwill_and_intangibles": 31676000000.0,
    "retained_earnings": 172866000000.0,
    "total_debt": 58151000000.0,
-   "shares_out": 10593000000.0
+   "shares_out": 10593000000.0,
+   "unusual_items": -1836000000.0,
+   "normalized_ebitda": 125651000000.0,
+   "normalized_income": 60836083539.802376
   },
   {
    "fy_end": "2025-12-31",
@@ -303,7 +354,10 @@
    "goodwill_and_intangibles": 32470000000.0,
    "retained_earnings": 250536000000.0,
    "total_debt": 69291000000.0,
-   "shares_out": 10731000000.0
+   "shares_out": 10731000000.0,
+   "unusual_items": 15320000000.0,
+   "normalized_ebitda": 150021000000.0,
+   "normalized_income": 65354930994.440506
   }
  ]
 }

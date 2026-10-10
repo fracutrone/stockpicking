@@ -1,6 +1,6 @@
 {
  "ticker": "ROCK-B.CO",
- "fetched_at": "2026-10-10T12:16:55+00:00",
+ "fetched_at": "2026-10-10T15:16:13+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "CPH",
   "fullTimeEmployees": 11939,
   "website": "https://www.rockwool.com/group",
-  "longBusinessSummary": "Rockwool A/S produces and sells stone wool insulation products in Western Europe, Eastern Europe, Russia, North America, Asia, and internationally. The company operates through two segments: Insulation and Systems segments. The company offers products, including solutions for ceiling systems, ventilated façades, friction and water management and stone wool substrate. It also offers roof, floor, façade, ceiling, partition wall, internal and exterior wall, HVAC, acoustic, and technical insulation, as well as passive fire protection, industrial insulation, marine and offshore insulation, OEM, basement, chimney, shed, and garage insulation products. In addition, the company provides acoustic ceilings and walls, cladding boards, rainwater management, and prefab building systems, engineered fibers, noise and vibration control, and horticultural substrates. It sells its products under the ROCKWOOL, Rockfon, Rockpanel, Grodan, and Lapinus brand names. Rockwool A/S was founded in 1909 and is based in Hedehusene, Denmark."
+  "longBusinessSummary": "Rockwool A/S produces and sells stone wool insulation products in Western Europe, Eastern Europe, Russia, North America, Asia, and internationally. The company operates through two segments: Insulation and Systems segments. The company offers products, including solutions for ceiling systems, ventilated façades, friction and water management and stone wool substrate. It also offers roof, floor, façade, ceiling, partition wall, internal and exterior wall, HVAC, acoustic, and technical insulation, as well as passive fire protection, industrial insulation, marine and offshore insulation, OEM, basement, chimney, shed, and garage insulation products. In addition, the company provides acoustic ceilings and walls, cladding boards, rainwater management, and prefab building systems, engineered fibers, noise and vibration control, and horticultural substrates. It sells its products under the ROCKWOOL, Rockfon, Rockpanel, Grodan, and Lapinus brand names. Rockwool A/S was founded in 1909 and is based in Hedehusene, Denmark.",
+  "targetMeanPrice": 228.92757,
+  "targetLowPrice": 194.9492,
+  "targetHighPrice": 267.98413,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.06667,
+  "forwardPE": 12.294652,
+  "forwardEps": 14.94959,
+  "trailingEps": -1.49,
+  "earningsGrowth": -0.333,
+  "revenueGrowth": 0.096
  },
  "governance": {
   "ceo": {
@@ -70,8 +81,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF DK",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3642000000.0,
+    "official": 3642000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2741000000.0,
+    "official": 2741000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 28000000.0,
+    "official": 28000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3877000000.0,
+    "official": 3877000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:16:13+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -105,7 +148,10 @@
    "goodwill_and_intangibles": 165000000.0,
    "retained_earnings": 2567000000.0,
    "total_debt": 233000000.0,
-   "shares_out": 215728520.0
+   "shares_out": 215728520.0,
+   "unusual_items": 1000000.0,
+   "normalized_ebitda": 604000000.0,
+   "normalized_income": 272237000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -139,7 +185,10 @@
    "goodwill_and_intangibles": 145000000.0,
    "retained_earnings": 2824000000.0,
    "total_debt": 115000000.0,
-   "shares_out": 215704210.0
+   "shares_out": 215704210.0,
+   "unusual_items": -5000000.0,
+   "normalized_ebitda": 810000000.0,
+   "normalized_income": 406687739.463602
   },
   {
    "fy_end": "2024-12-31",
@@ -173,7 +222,10 @@
    "goodwill_and_intangibles": 213000000.0,
    "retained_earnings": 3038000000.0,
    "total_debt": 122000000.0,
-   "shares_out": 211399260.0
+   "shares_out": 211399260.0,
+   "unusual_items": -7000000.0,
+   "normalized_ebitda": 983000000.0,
+   "normalized_income": 555530000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -207,7 +259,10 @@
    "goodwill_and_intangibles": 179000000.0,
    "retained_earnings": 2798000000.0,
    "total_debt": 276000000.0,
-   "shares_out": 207050434.0
+   "shares_out": 207050434.0,
+   "unusual_items": -416000000.0,
+   "normalized_ebitda": 921000000.0,
+   "normalized_income": 352480000.0
   }
  ]
 }

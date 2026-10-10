@@ -1,6 +1,6 @@
 {
  "ticker": "CCL",
- "fetched_at": "2026-10-10T12:40:11+00:00",
+ "fetched_at": "2026-10-10T15:39:03+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 160000,
   "website": "https://www.carnivalcorp.com",
-  "longBusinessSummary": "Carnival Corporation Ltd., a cruise company, provides leisure travel services. The company operates through four segments: North America Cruise Operations, Europe Cruise Operations, Cruise Support, and Tour and Other. It operates port destinations and islands, as well as owns and operates hotels, lodges, glass-domed railcars, and motorcoaches. The company offers its services under the AIDA Cruises, Carnival Cruise Line, Costa Cruises, Cunard, Holland America Line, P&O Cruises (Australia), P&O Cruises (UK), Princess Cruises, and Seabourn brands. It sells its cruises through travel agents, tour operators, vacation planners, websites, and onboard future cruise consultants. Carnival Corporation Ltd. was founded in 1972 and is headquartered in Miami, Florida."
+  "longBusinessSummary": "Carnival Corporation Ltd., a cruise company, provides leisure travel services. The company operates through four segments: North America Cruise Operations, Europe Cruise Operations, Cruise Support, and Tour and Other. It operates port destinations and islands, as well as owns and operates hotels, lodges, glass-domed railcars, and motorcoaches. The company offers its services under the AIDA Cruises, Carnival Cruise Line, Costa Cruises, Cunard, Holland America Line, P&O Cruises (Australia), P&O Cruises (UK), Princess Cruises, and Seabourn brands. It sells its cruises through travel agents, tour operators, vacation planners, websites, and onboard future cruise consultants. Carnival Corporation Ltd. was founded in 1972 and is headquartered in Miami, Florida.",
+  "targetMeanPrice": 33.93077,
+  "targetLowPrice": 28.7,
+  "targetHighPrice": 43.0,
+  "numberOfAnalystOpinions": 26,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.55172,
+  "forwardPE": 10.28903,
+  "forwardEps": 2.56098,
+  "trailingEps": 2.27,
+  "earningsGrowth": 0.05,
+  "revenueGrowth": 0.035
  },
  "governance": {
   "ceo": {
@@ -85,8 +96,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-11-30",
+  "items": {
+   "total_assets": {
+    "yahoo": 51687000000.0,
+    "official": 51687000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 12284000000.0,
+    "official": 12284000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2760000000.0,
+    "official": 2760000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 26621000000.0,
+    "official": 26622000000.0,
+    "diff": 3.8e-05
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:39:03+00:00",
  "years": [
   {
    "fy_end": "2019-11-30",
@@ -201,7 +243,10 @@
    "goodwill_and_intangibles": 1735000000.0,
    "retained_earnings": 269000000.0,
    "total_debt": 35815000000.0,
-   "shares_out": 1259000000.0
+   "shares_out": 1259000000.0,
+   "unusual_items": -1000000.0,
+   "normalized_ebitda": -2195000000.0,
+   "normalized_income": -6092258100.0
   },
   {
    "fy_end": "2023-11-30",
@@ -235,7 +280,10 @@
    "goodwill_and_intangibles": 1748000000.0,
    "retained_earnings": 185000000.0,
    "total_debt": 31339000000.0,
-   "shares_out": 1264000000.0
+   "shares_out": 1264000000.0,
+   "unusual_items": -111000000.0,
+   "normalized_ebitda": 4485000000.0,
+   "normalized_income": 8395300.0
   },
   {
    "fy_end": "2024-11-30",
@@ -269,7 +317,10 @@
    "goodwill_and_intangibles": 1742000000.0,
    "retained_earnings": 2101000000.0,
    "total_debt": 28213000000.0,
-   "shares_out": 1308000000.0
+   "shares_out": 1308000000.0,
+   "unusual_items": -79000000.0,
+   "normalized_ebitda": 6306000000.0,
+   "normalized_income": 1974752300.0
   },
   {
    "fy_end": "2025-11-30",
@@ -303,7 +354,10 @@
    "goodwill_and_intangibles": 1756000000.0,
    "retained_earnings": 4817000000.0,
    "total_debt": 27383000000.0,
-   "shares_out": 1313148640.0
+   "shares_out": 1313148640.0,
+   "unusual_items": -409000000.0,
+   "normalized_ebitda": 7320000000.0,
+   "normalized_income": 3167229437.229437
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "SOLS",
- "fetched_at": "2026-10-10T12:58:29+00:00",
+ "fetched_at": "2026-10-10T15:56:04+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NMS",
   "fullTimeEmployees": 4100,
   "website": "https://www.solstice.com",
-  "longBusinessSummary": "Solstice Advanced Materials, Inc. operates as a specialty chemicals and advanced materials company in the United States and internationally. It operates in two segments: Refrigerants & Applied Solutions (RAS), and Electronic & Specialty Materials (ESM). The RAS segment manufactures and sells low global warming potential (LGWP) refrigerants, blowing agents, solvents, and aerosol materials; and provides, aerosol propellants, cleaning solvents, pharmaceutical packaging materials, and alternative energy services under the Solstice, Genetron, and Aclar brands. The ESM segment offers electronic materials, fibers and laboratory life science chemicals for semiconductor, defense, pharmaceutical, and construction markets. This segment provides sputtering targets, lightweight high-strength fibers, and high-purity life science solutions under the Spectra, Fluka, and Hydranal brands. Solstice Advanced Materials, Inc. was incorporated in 2025 and is headquartered in Morris Plains, New Jersey."
+  "longBusinessSummary": "Solstice Advanced Materials, Inc. operates as a specialty chemicals and advanced materials company in the United States and internationally. It operates in two segments: Refrigerants & Applied Solutions (RAS), and Electronic & Specialty Materials (ESM). The RAS segment manufactures and sells low global warming potential (LGWP) refrigerants, blowing agents, solvents, and aerosol materials; and provides, aerosol propellants, cleaning solvents, pharmaceutical packaging materials, and alternative energy services under the Solstice, Genetron, and Aclar brands. The ESM segment offers electronic materials, fibers and laboratory life science chemicals for semiconductor, defense, pharmaceutical, and construction markets. This segment provides sputtering targets, lightweight high-strength fibers, and high-purity life science solutions under the Spectra, Fluka, and Hydranal brands. Solstice Advanced Materials, Inc. was incorporated in 2025 and is headquartered in Morris Plains, New Jersey.",
+  "targetMeanPrice": 79.22222,
+  "targetLowPrice": 65.0,
+  "targetHighPrice": 86.0,
+  "numberOfAnalystOpinions": 9,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.33333,
+  "forwardPE": 18.172932,
+  "forwardEps": 3.3759,
+  "trailingEps": 1.32,
+  "earningsGrowth": 0.228,
+  "revenueGrowth": 0.111
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 5673000000.0,
+    "official": 5673000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 1411000000.0,
+    "official": 1411000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 237000000.0,
+    "official": 237000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 3886000000.0,
+    "official": 3886000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:56:04+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -106,7 +148,9 @@
    "cfo": 759000000.0,
    "capex": 254000000.0,
    "cash": 549000000.0,
-   "equity": 2718000000.0
+   "equity": 2718000000.0,
+   "normalized_ebitda": 1117000000.0,
+   "normalized_income": 718000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -139,7 +183,10 @@
    "intangibles": 47000000.0,
    "goodwill_and_intangibles": 861000000.0,
    "total_debt": 229000000.0,
-   "shares_out": 158718869.0
+   "shares_out": 158718869.0,
+   "unusual_items": -1000000.0,
+   "normalized_ebitda": 1052000000.0,
+   "normalized_income": 621760442.260442
   },
   {
    "fy_end": "2024-12-31",
@@ -173,7 +220,10 @@
    "goodwill_and_intangibles": 847000000.0,
    "retained_earnings": 0.0,
    "total_debt": 416000000.0,
-   "shares_out": 158718869.0
+   "shares_out": 158718869.0,
+   "unusual_items": -26000000.0,
+   "normalized_ebitda": 1053000000.0,
+   "normalized_income": 613760000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -207,7 +257,10 @@
    "goodwill_and_intangibles": 892000000.0,
    "retained_earnings": 41000000.0,
    "total_debt": 2495000000.0,
-   "shares_out": 158747196.0
+   "shares_out": 158747196.0,
+   "unusual_items": -117000000.0,
+   "normalized_ebitda": 1012000000.0,
+   "normalized_income": 329430000.0
   }
  ]
 }

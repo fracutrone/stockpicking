@@ -1,6 +1,6 @@
 {
  "ticker": "RSG",
- "fetched_at": "2026-10-10T12:57:18+00:00",
+ "fetched_at": "2026-10-10T15:55:00+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 42000,
   "website": "https://www.republicservices.com",
-  "longBusinessSummary": "Republic Services, Inc., together with its subsidiaries, offers environmental services in the United States and Canada. It is involved in the collection and processing of recyclable, solid waste, and industrial waste materials; transportation and disposal of non-hazardous and hazardous waste streams; and other environmental solutions. Its residential collection services include curbside collection of material for transport to transfer stations, landfills, recycling centers, and organics processing facilities; supply of recycling and waste containers; and renting of compactors. The company also engages in the processing and sale of old corrugated containers, old newsprint, aluminum, glass, and other materials; and provision of landfill services. It serves small-container, large-container, and residential customers. The company was incorporated in 1996 and is based in Phoenix, Arizona."
+  "longBusinessSummary": "Republic Services, Inc., together with its subsidiaries, offers environmental services in the United States and Canada. It is involved in the collection and processing of recyclable, solid waste, and industrial waste materials; transportation and disposal of non-hazardous and hazardous waste streams; and other environmental solutions. Its residential collection services include curbside collection of material for transport to transfer stations, landfills, recycling centers, and organics processing facilities; supply of recycling and waste containers; and renting of compactors. The company also engages in the processing and sale of old corrugated containers, old newsprint, aluminum, glass, and other materials; and provision of landfill services. It serves small-container, large-container, and residential customers. The company was incorporated in 1996 and is based in Phoenix, Arizona.",
+  "targetMeanPrice": 244.5,
+  "targetLowPrice": 208.0,
+  "targetHighPrice": 272.0,
+  "numberOfAnalystOpinions": 24,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": 26.905218,
+  "forwardEps": 8.06089,
+  "trailingEps": 7.05,
+  "earningsGrowth": 0.051,
+  "revenueGrowth": 0.046
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 34366000000.0,
+    "official": 34366000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 11968000000.0,
+    "official": 11968000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 2139000000.0,
+    "official": 2139249000.0,
+    "diff": 0.000116
+   },
+   "revenue": {
+    "yahoo": 16591000000.0,
+    "official": 19027000000.0,
+    "diff": 0.128029
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:55:00+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -197,7 +239,10 @@
    "goodwill_and_intangibles": 14798700000.0,
    "retained_earnings": 7356300000.0,
    "total_debt": 11902200000.0,
-   "shares_out": 316100000.0
+   "shares_out": 316100000.0,
+   "unusual_items": -21000000.0,
+   "normalized_ebitda": 3689000000.0,
+   "normalized_income": 1505052000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -231,7 +276,10 @@
    "goodwill_and_intangibles": 16330000000.0,
    "retained_earnings": 8434000000.0,
    "total_debt": 12819400000.0,
-   "shares_out": 314636503.0
+   "shares_out": 314636503.0,
+   "unusual_items": -29000000.0,
+   "normalized_ebitda": 4327000000.0,
+   "normalized_income": 1753910000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -265,7 +313,10 @@
    "goodwill_and_intangibles": 16528000000.0,
    "retained_earnings": 9774000000.0,
    "total_debt": 12840000000.0,
-   "shares_out": 312000000.0
+   "shares_out": 312000000.0,
+   "unusual_items": -30000000.0,
+   "normalized_ebitda": 4785000000.0,
+   "normalized_income": 2068200000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -299,7 +350,10 @@
    "goodwill_and_intangibles": 17370000000.0,
    "retained_earnings": 11161000000.0,
    "total_debt": 13710000000.0,
-   "shares_out": 308000000.0
+   "shares_out": 308000000.0,
+   "unusual_items": -20000000.0,
+   "normalized_ebitda": 5116000000.0,
+   "normalized_income": 2155500000.0
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "ticker": "RKT.L",
- "fetched_at": "2026-10-10T12:16:32+00:00",
+ "fetched_at": "2026-10-10T15:15:48+00:00",
  "region": "Europa",
  "statement_currency": "GBP",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "LSE",
   "fullTimeEmployees": 36200,
   "website": "https://www.reckitt.com",
-  "longBusinessSummary": "Reckitt Benckiser Group plc manufactures and sells health, hygiene, and nutrition products in the United Kingdom and internationally. The company offers germ protection under Dettol name; intimate wellness under Durex and KY brand names; over the counter under the Biofreeze, Gaviscon, Mucinex, Nurofen, Delsym, Cepacol, and Strepsils names. It also provides personal care products under Clearasil and Veet brand names; vitamins, minerals, and supplements under MegaRed, Airborne, Digestive-Advantage, Movefree, and neuriva names; stain removal under Vanish brand name; and disinfectant products under the Finish, Harpic, and Lysol brands. In addition, the company offers nutritious complementary foods and milk formulas for infant and young children under the Enfamil and Nutramigen brands. Reckitt Benckiser Group plc was founded in 1819 and is headquartered in Slough, the United Kingdom."
+  "longBusinessSummary": "Reckitt Benckiser Group plc manufactures and sells health, hygiene, and nutrition products in the United Kingdom and internationally. The company offers germ protection under Dettol name; intimate wellness under Durex and KY brand names; over the counter under the Biofreeze, Gaviscon, Mucinex, Nurofen, Delsym, Cepacol, and Strepsils names. It also provides personal care products under Clearasil and Veet brand names; vitamins, minerals, and supplements under MegaRed, Airborne, Digestive-Advantage, Movefree, and neuriva names; stain removal under Vanish brand name; and disinfectant products under the Finish, Harpic, and Lysol brands. In addition, the company offers nutritious complementary foods and milk formulas for infant and young children under the Enfamil and Nutramigen brands. Reckitt Benckiser Group plc was founded in 1819 and is headquartered in Slough, the United Kingdom.",
+  "targetMeanPrice": 6286.421,
+  "targetLowPrice": 5352.0,
+  "targetHighPrice": 7600.0,
+  "numberOfAnalystOpinions": 19,
+  "recommendationKey": "buy",
+  "recommendationMean": 1.63158,
+  "forwardPE": 14.264073,
+  "forwardEps": 3.59785,
+  "trailingEps": 4.44,
+  "earningsGrowth": -0.309,
+  "revenueGrowth": -0.082
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF GB",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 25068000000.0,
+    "official": 25068000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 7746000000.0,
+    "official": 7746000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 3182000000.0,
+    "official": 3182000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 14205000000.0,
+    "official": 14205000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:15:48+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -119,7 +162,10 @@
    "goodwill_and_intangibles": 20203000000.0,
    "retained_earnings": 23638000000.0,
    "total_debt": 8884000000.0,
-   "shares_out": 707073771.0
+   "shares_out": 707073771.0,
+   "unusual_items": -5000000.0,
+   "normalized_ebitda": 3909000000.0,
+   "normalized_income": 2636096000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -153,7 +199,10 @@
    "goodwill_and_intangibles": 18588000000.0,
    "retained_earnings": 23409000000.0,
    "total_debt": 8537000000.0,
-   "shares_out": 685467503.0
+   "shares_out": 685467503.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 3180000000.0,
+   "normalized_income": 2999660000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -187,7 +236,10 @@
    "goodwill_and_intangibles": 17565000000.0,
    "retained_earnings": 21990000000.0,
    "total_debt": 8658000000.0,
-   "shares_out": 659157912.0
+   "shares_out": 659157912.0,
+   "unusual_items": -1006000000.0,
+   "normalized_ebitda": 3964000000.0,
+   "normalized_income": 2114692015.209125
   },
   {
    "fy_end": "2025-12-31",
@@ -221,7 +273,10 @@
    "goodwill_and_intangibles": 15811000000.0,
    "retained_earnings": 23399000000.0,
    "total_debt": 8430000000.0,
-   "shares_out": 645485000.0
+   "shares_out": 645485000.0,
+   "unusual_items": 794000000.0,
+   "normalized_ebitda": 3966000000.0,
+   "normalized_income": 2535367899.94789
   }
  ]
 }

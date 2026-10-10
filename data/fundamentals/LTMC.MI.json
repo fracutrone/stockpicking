@@ -1,6 +1,6 @@
 {
  "ticker": "LTMC.MI",
- "fetched_at": "2026-10-10T12:07:21+00:00",
+ "fetched_at": "2026-10-10T15:03:43+00:00",
  "region": "Europa",
  "statement_currency": "EUR",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "MIL",
   "fullTimeEmployees": 2258,
   "website": "https://lottomaticagroup.com",
-  "longBusinessSummary": "Lottomatica Group S.p.A., together with its subsidiaries, operates in the gaming market in Italy. The company operates through Online, Sports Franchise, and Gaming Franchise segments. The Online segment provides a range of online games, such as sports betting, virtual betting, horse betting, online casino games, bingo, poker, betting exchange, and skill games through the GoldBet.it, Better.it, Lottomatica.it, Betflag.it, Totosì.it, and Planetwin365.it websites. The Sports Franchise segment offers various retail offerings, such as sports betting, virtual betting, and horserace betting under the GoldBet, Intralot, Better, and Planetwin365 brands. The Gaming Franchise segment engages in the management of gaming halls and concession activities for video lottery terminals and amusement with prize machines. Lottomatica Group S.p.A. was incorporated in 2019 and is based in Rome, Italy."
+  "longBusinessSummary": "Lottomatica Group S.p.A., together with its subsidiaries, operates in the gaming market in Italy. The company operates through Online, Sports Franchise, and Gaming Franchise segments. The Online segment provides a range of online games, such as sports betting, virtual betting, horse betting, online casino games, bingo, poker, betting exchange, and skill games through the GoldBet.it, Better.it, Lottomatica.it, Betflag.it, Totosì.it, and Planetwin365.it websites. The Sports Franchise segment offers various retail offerings, such as sports betting, virtual betting, and horserace betting under the GoldBet, Intralot, Better, and Planetwin365 brands. The Gaming Franchise segment engages in the management of gaming halls and concession activities for video lottery terminals and amusement with prize machines. Lottomatica Group S.p.A. was incorporated in 2019 and is based in Rome, Italy.",
+  "targetMeanPrice": 32.41333,
+  "targetLowPrice": 30.0,
+  "targetHighPrice": 37.0,
+  "numberOfAnalystOpinions": 15,
+  "recommendationKey": "strong_buy",
+  "recommendationMean": 1.26667,
+  "forwardPE": 10.927769,
+  "forwardEps": 2.24474,
+  "trailingEps": 0.9,
+  "earningsGrowth": 2.283,
+  "revenueGrowth": 0.043
  },
  "governance": {
   "ceo": {
@@ -71,8 +82,40 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "yahoo",
   "total_debt": "yahoo",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "ESEF IT",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 3502869000.0,
+    "official": 3502869000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 325070000.0,
+    "official": 325070000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 174295000.0,
+    "official": 174295000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 2247116000.0,
+    "official": 2262004000.0,
+    "diff": 0.006582
+   }
+  },
+  "status": "confrontato",
+  "official_period_end": "2025-12-31"
+ },
+ "info_at": "2026-10-10T15:03:43+00:00",
  "years": [
   {
    "fy_end": "2022-12-31",
@@ -107,7 +150,10 @@
    "goodwill_and_intangibles": 2033137000.0,
    "retained_earnings": -27619000.0,
    "total_debt": 1862445000.0,
-   "shares_out": 251630412.0
+   "shares_out": 251630412.0,
+   "unusual_items": -490000.0,
+   "normalized_ebitda": 407219000.0,
+   "normalized_income": 72491400.0
   },
   {
    "fy_end": "2023-12-31",
@@ -142,7 +188,10 @@
    "goodwill_and_intangibles": 2047113000.0,
    "retained_earnings": 16629000.0,
    "total_debt": 1997313000.0,
-   "shares_out": 251630412.0
+   "shares_out": 251630412.0,
+   "unusual_items": -5675000.0,
+   "normalized_ebitda": 551565000.0,
+   "normalized_income": 72256000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -177,7 +226,10 @@
    "goodwill_and_intangibles": 2746516000.0,
    "retained_earnings": 102010000.0,
    "total_debt": 2017821000.0,
-   "shares_out": 251630412.0
+   "shares_out": 251630412.0,
+   "unusual_items": -244000.0,
+   "normalized_ebitda": 630592000.0,
+   "normalized_income": 98782440.0
   },
   {
    "fy_end": "2025-12-31",
@@ -212,7 +264,10 @@
    "goodwill_and_intangibles": 2826303000.0,
    "retained_earnings": 205845000.0,
    "total_debt": 2057775000.0,
-   "shares_out": 238034700.0
+   "shares_out": 238034700.0,
+   "unusual_items": -165000.0,
+   "normalized_ebitda": 724126000.0,
+   "normalized_income": 174402597.978069
   }
  ]
 }

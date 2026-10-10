@@ -1,6 +1,6 @@
 {
  "ticker": "TEX",
- "fetched_at": "2026-10-10T12:59:31+00:00",
+ "fetched_at": "2026-10-10T15:57:13+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 10700,
   "website": "https://www.terex.com",
-  "longBusinessSummary": "Terex Corporation manufactures industrial equipment for materials processing machinery, waste and recycling solutions, mobile elevating work platforms, and equipment for the electric utility industry worldwide. The MP segment offers crushers, washing systems, screens, trommels, apron feeders, material handlers, pick and carry cranes, wood processing, biomass and recycling equipment, concrete mixer trucks and concrete pavers, conveyors, and replacement parts under the Terex, Powerscreen, Fuchs, EvoQuip, Canica, Cedarapids, CBI, Simplicity, Franna, Terex Ecotec, Finlay, ProAll, ZenRobotics, Terex Washing Systems, Terex MPS, Terex Jaques, Advance, Bid-Well, MDS, MARCO, MAGNA, Green-Tec, and Terex Recycling Systems brands. Its products are used in construction, infrastructure, and recycling projects; quarrying, mining, and material handling applications; maintenance applications to lift equipment or material; and landscaping and biomass production industries. The Aerials segment provides aerial work platform equipment, and telehandlers under the Terex and Genie brands; and portable material lifts, portable aerial work platforms, trailer-mounted articulating booms, self-propelled articulating and telescopic booms, and scissor lifts for construction and maintenance of industrial, commercial, institutional, and residential buildings and facilities, commercial operations, and tree trimming and various infrastructure projects. The ES segments offers refuse collection bodies, hydraulic cart lifters, automated carry cans, utility equipment, compaction, balers, recycling equipment, diggers derricks, transmission and distribution lines, construction and foundation drilling applications, insulated aerial devices, and cameras under the Heil, Marathon, 3rd Eye, Soft-Pak, Connected Collections, Parts Central, Curotto-Can, and Bayne Thinline brands; and waste hauler software solutions. The company was founded in 1933 and is based in Norwalk, Connecticut."
+  "longBusinessSummary": "Terex Corporation manufactures industrial equipment for materials processing machinery, waste and recycling solutions, mobile elevating work platforms, and equipment for the electric utility industry worldwide. The MP segment offers crushers, washing systems, screens, trommels, apron feeders, material handlers, pick and carry cranes, wood processing, biomass and recycling equipment, concrete mixer trucks and concrete pavers, conveyors, and replacement parts under the Terex, Powerscreen, Fuchs, EvoQuip, Canica, Cedarapids, CBI, Simplicity, Franna, Terex Ecotec, Finlay, ProAll, ZenRobotics, Terex Washing Systems, Terex MPS, Terex Jaques, Advance, Bid-Well, MDS, MARCO, MAGNA, Green-Tec, and Terex Recycling Systems brands. Its products are used in construction, infrastructure, and recycling projects; quarrying, mining, and material handling applications; maintenance applications to lift equipment or material; and landscaping and biomass production industries. The Aerials segment provides aerial work platform equipment, and telehandlers under the Terex and Genie brands; and portable material lifts, portable aerial work platforms, trailer-mounted articulating booms, self-propelled articulating and telescopic booms, and scissor lifts for construction and maintenance of industrial, commercial, institutional, and residential buildings and facilities, commercial operations, and tree trimming and various infrastructure projects. The ES segments offers refuse collection bodies, hydraulic cart lifters, automated carry cans, utility equipment, compaction, balers, recycling equipment, diggers derricks, transmission and distribution lines, construction and foundation drilling applications, insulated aerial devices, and cameras under the Heil, Marathon, 3rd Eye, Soft-Pak, Connected Collections, Parts Central, Curotto-Can, and Bayne Thinline brands; and waste hauler software solutions. The company was founded in 1933 and is based in Norwalk, Connecticut.",
+  "targetMeanPrice": 78.17077,
+  "targetLowPrice": 58.0,
+  "targetHighPrice": 98.0,
+  "numberOfAnalystOpinions": 13,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.0,
+  "forwardPE": 8.492302,
+  "forwardEps": 5.96658,
+  "trailingEps": 2.09,
+  "earningsGrowth": -0.119,
+  "revenueGrowth": 0.505
  },
  "governance": {
   "ceo": {
@@ -84,8 +95,39 @@
   "goodwill_and_intangibles": "yahoo",
   "retained_earnings": "sec",
   "total_debt": "sec",
-  "shares_out": "yahoo"
+  "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_ebitda": "yahoo",
+  "normalized_income": "yahoo"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 6139000000.0,
+    "official": 6139000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 2095000000.0,
+    "official": 2095000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 221000000.0,
+    "official": 221000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 5421000000.0,
+    "official": 5421000000.0,
+    "diff": 0.0
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:57:13+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -172,7 +214,8 @@
    "goodwill": 280100000.0,
    "intangibles": 13400000.0,
    "retained_earnings": 936900000.0,
-   "total_debt": 670600000.0
+   "total_debt": 670600000.0,
+   "unusual_items": -29400000.0
   },
   {
    "fy_end": "2022-12-31",
@@ -206,7 +249,10 @@
    "goodwill_and_intangibles": 301800000.0,
    "retained_earnings": 1200600000.0,
    "total_debt": 777300000.0,
-   "shares_out": 66800000.0
+   "shares_out": 66800000.0,
+   "unusual_items": -300000.0,
+   "normalized_ebitda": 463000000.0,
+   "normalized_income": 300000000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -240,7 +286,10 @@
    "goodwill_and_intangibles": 311000000.0,
    "retained_earnings": 1675000000.0,
    "total_debt": 600500000.0,
-   "shares_out": 66100000.0
+   "shares_out": 66100000.0,
+   "unusual_items": 0.0,
+   "normalized_ebitda": 699000000.0,
+   "normalized_income": 517000000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -274,7 +323,9 @@
    "goodwill_and_intangibles": 2200000000.0,
    "retained_earnings": 1964000000.0,
    "total_debt": 2600000000.0,
-   "shares_out": 65700000.0
+   "shares_out": 65700000.0,
+   "normalized_ebitda": 579000000.0,
+   "normalized_income": 335000000.0
   },
   {
    "fy_end": "2025-12-31",
@@ -308,7 +359,9 @@
    "goodwill_and_intangibles": 2118000000.0,
    "retained_earnings": 2139000000.0,
    "total_debt": 2592000000.0,
-   "shares_out": 64900000.0
+   "shares_out": 64900000.0,
+   "normalized_ebitda": 627000000.0,
+   "normalized_income": 221000000.0
   }
  ]
 }

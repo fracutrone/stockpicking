@@ -1,6 +1,6 @@
 {
  "ticker": "AXP",
- "fetched_at": "2026-10-10T12:38:26+00:00",
+ "fetched_at": "2026-10-10T15:35:26+00:00",
  "region": "USA",
  "statement_currency": "USD",
  "info": {
@@ -22,7 +22,18 @@
   "exchange": "NYQ",
   "fullTimeEmployees": 76800,
   "website": "https://www.americanexpress.com",
-  "longBusinessSummary": "American Express Company, together with its subsidiaries, operates as an integrated payments company in the United States, Europe, the Middle East and Africa, the Asia Pacific, Australia, New Zealand, Latin America, Canada, the Caribbean, and internationally. It operates through four segments: U.S. Consumer Services, Commercial Services, International Card Services, and Global Merchant and Network Services. The company offers credit and charge cards and complementary products and services, including travel, dining, and lifestyle and expense management products and services; and banking and other payment and financing products and services, including deposits and non-card lending. It also provides merchant acquisition and processing, servicing and settlement, fraud prevention, and point-of-sale marketing and information products and services, as well as network services. The company offers its products and services to consumers, small businesses, mid-sized companies, and large corporations through mobile and online applications, affiliate marketing, customer referral programs, third-party service providers and business partners, in-house sales teams, direct mail, telephone, and direct response advertising. American Express Company was founded in 1850 and is headquartered in New York, New York."
+  "longBusinessSummary": "American Express Company, together with its subsidiaries, operates as an integrated payments company in the United States, Europe, the Middle East and Africa, the Asia Pacific, Australia, New Zealand, Latin America, Canada, the Caribbean, and internationally. It operates through four segments: U.S. Consumer Services, Commercial Services, International Card Services, and Global Merchant and Network Services. The company offers credit and charge cards and complementary products and services, including travel, dining, and lifestyle and expense management products and services; and banking and other payment and financing products and services, including deposits and non-card lending. It also provides merchant acquisition and processing, servicing and settlement, fraud prevention, and point-of-sale marketing and information products and services, as well as network services. The company offers its products and services to consumers, small businesses, mid-sized companies, and large corporations through mobile and online applications, affiliate marketing, customer referral programs, third-party service providers and business partners, in-house sales teams, direct mail, telephone, and direct response advertising. American Express Company was founded in 1850 and is headquartered in New York, New York.",
+  "targetMeanPrice": 371.1156,
+  "targetLowPrice": 320.0,
+  "targetHighPrice": 450.0,
+  "numberOfAnalystOpinions": 25,
+  "recommendationKey": "buy",
+  "recommendationMean": 2.13333,
+  "forwardPE": 15.283618,
+  "forwardEps": 20.16342,
+  "trailingEps": 16.48,
+  "earningsGrowth": 0.11,
+  "revenueGrowth": 0.128
  },
  "governance": {
   "ceo": {
@@ -78,9 +89,39 @@
   "retained_earnings": "sec",
   "total_debt": "sec",
   "shares_out": "yahoo",
+  "unusual_items": "yahoo",
+  "normalized_income": "yahoo",
   "operating_income": "sec",
   "noninterest_expense": "sec"
  },
+ "crosscheck": {
+  "source": "SEC",
+  "fy_end": "2025-12-31",
+  "items": {
+   "total_assets": {
+    "yahoo": 300052000000.0,
+    "official": 300052000000.0,
+    "diff": 0.0
+   },
+   "equity": {
+    "yahoo": 33474000000.0,
+    "official": 33474000000.0,
+    "diff": 0.0
+   },
+   "net_income": {
+    "yahoo": 10833000000.0,
+    "official": 10833000000.0,
+    "diff": 0.0
+   },
+   "revenue": {
+    "yahoo": 72230000000.0,
+    "official": 41304000000.0,
+    "diff": 0.748741
+   }
+  },
+  "status": "confrontato"
+ },
+ "info_at": "2026-10-10T15:35:26+00:00",
  "years": [
   {
    "fy_end": "2019-12-31",
@@ -177,7 +218,9 @@
    "goodwill_and_intangibles": 3932000000.0,
    "retained_earnings": 16279000000.0,
    "total_debt": 43921000000.0,
-   "shares_out": 743000000.0
+   "shares_out": 743000000.0,
+   "unusual_items": -142000000.0,
+   "normalized_income": 7625328000.0
   },
   {
    "fy_end": "2023-12-31",
@@ -204,7 +247,9 @@
    "goodwill_and_intangibles": 3949000000.0,
    "retained_earnings": 19612000000.0,
    "total_debt": 49159000000.0,
-   "shares_out": 723000000.0
+   "shares_out": 723000000.0,
+   "unusual_items": -179000000.0,
+   "normalized_income": 8516663000.0
   },
   {
    "fy_end": "2024-12-31",
@@ -231,7 +276,9 @@
    "goodwill_and_intangibles": 4310000000.0,
    "retained_earnings": 22148000000.0,
    "total_debt": 51089000000.0,
-   "shares_out": 702000000.0
+   "shares_out": 702000000.0,
+   "unusual_items": 408000000.0,
+   "normalized_income": 9808516711.90384
   },
   {
    "fy_end": "2025-12-31",
@@ -258,7 +305,9 @@
    "goodwill_and_intangibles": 4963000000.0,
    "retained_earnings": 25487000000.0,
    "total_debt": 57758000000.0,
-   "shares_out": 686000000.0
+   "shares_out": 686000000.0,
+   "unusual_items": -96000000.0,
+   "normalized_income": 10908387314.244291
   }
  ]
 }
