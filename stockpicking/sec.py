@@ -118,8 +118,10 @@ def _days(a: str, b: str) -> int:
 
 
 def _series(facts: dict, tags: list[str], instant: bool, unit: str = "USD") -> dict[str, float]:
+    """Unisce le etichette in ordine di priorità: per ogni fine esercizio vale la prima etichetta che lo riporta.
+    (Le società cambiano etichetta nel tempo, es. SalesRevenueNet -> RevenueFromContractWithCustomer...)"""
     gaap = facts.get("facts", {}).get("us-gaap", {})
-    best: dict[str, float] = {}
+    merged: dict[str, float] = {}
     for tag in tags:
         entries = gaap.get(tag, {}).get("units", {}).get(unit)
         if not entries:
@@ -137,10 +139,10 @@ def _series(facts: dict, tags: list[str], instant: bool, unit: str = "USD") -> d
             end, filed = e["end"], e.get("filed", "")
             if end not in found or filed > found[end][0]:
                 found[end] = (filed, float(e["val"]))
-        s = {k: v[1] for k, v in found.items()}
-        if len(s) > len(best):  # l'etichetta con lo storico più lungo
-            best = s
-    return best
+        for end, (_, val) in found.items():
+            if end not in merged:
+                merged[end] = val
+    return merged
 
 
 def fetch_sec_financials(ticker: str) -> dict | None:

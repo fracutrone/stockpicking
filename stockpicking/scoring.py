@@ -231,6 +231,9 @@ def score_all() -> None:
             ny = 0 if pd.isna(r.n_years) else int(r.n_years)
             res["status"] = "storico insufficiente"
             res["flags"] = [f"Solo {ny} esercizi disponibili (minimo {gen['min_years_scored']})"]
+        elif r.fy_last is None or pd.isna(r.fy_last) or (pd.Timestamp.now() - pd.Timestamp(r.fy_last)).days > 550:
+            res["status"] = "dati mancanti"
+            res["flags"] = [f"Ultimo bilancio disponibile troppo vecchio ({r.fy_last})"]
         elif pd.isna(r.get("price")):
             res["status"] = "dati mancanti"
             res["flags"] = ["Prezzo non disponibile"]

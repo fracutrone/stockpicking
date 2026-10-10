@@ -159,7 +159,12 @@ def fetch_one(ticker: str, region: str) -> dict | None:
         sec = _call(lambda: fetch_sec_financials(ticker))
         if sec:
             for k, s in sec.items():
-                if s and len(s) >= len(series.get(k, {})):
+                y = series.get(k, {})
+                if not s:
+                    continue
+                # la serie SEC vale solo se arriva aggiornata almeno quanto quella di Yahoo
+                fresh = not y or datetime.fromisoformat(max(s)) >= datetime.fromisoformat(max(y)) - timedelta(days=25)
+                if fresh and len(s) >= len(y):
                     series[k] = s
                     sources[k] = "sec"
             if any(v == "sec" for v in sources.values()):
