@@ -1,27 +1,128 @@
-2026-10-10 11:10:50,923 INFO stockpicking: DIAG yfinance 1.7.0
-2026-10-10 11:10:51,545 INFO stockpicking: DIAG AAPL info                    OK  tipo=dict len=187 shape=None
-2026-10-10 11:10:51,545 INFO stockpicking: DIAG    chiavi: ['address1', 'city', 'state', 'zip', 'country', 'phone', 'website', 'industry', 'industryKey', 'industryDisp', 'sector', 'sectorKey', 'sectorDisp', 'longBusinessSummary', 'fullTimeEmployees']
-2026-10-10 11:10:52,085 INFO stockpicking: DIAG AAPL fast_info               OK  tipo=dict len=20 shape=None
-2026-10-10 11:10:52,085 INFO stockpicking: DIAG    chiavi: ['currency', 'dayHigh', 'dayLow', 'exchange', 'fiftyDayAverage', 'lastPrice', 'lastVolume', 'marketCap', 'open', 'previousClose', 'quoteType', 'regularMarketPreviousClose', 'shares', 'tenDayAverageVolume', 'threeMonthAverageVolume']
-2026-10-10 11:10:52,208 INFO stockpicking: DIAG AAPL income_stmt             OK  tipo=DataFrame len=39 shape=(39, 4)
-2026-10-10 11:10:52,354 INFO stockpicking: DIAG AAPL balance_sheet           OK  tipo=DataFrame len=69 shape=(69, 4)
-2026-10-10 11:10:52,496 INFO stockpicking: DIAG AAPL cashflow                OK  tipo=DataFrame len=51 shape=(51, 4)
-2026-10-10 11:10:52,580 INFO stockpicking: DIAG AAPL institutional_holders   OK  tipo=DataFrame len=10 shape=(10, 6)
-2026-10-10 11:10:52,580 INFO stockpicking: DIAG AAPL major_holders           OK  tipo=DataFrame len=4 shape=(4, 1)
-2026-10-10 11:10:52,580 INFO stockpicking: DIAG AAPL insider_purchases       OK  tipo=DataFrame len=7 shape=(7, 3)
-2026-10-10 11:10:52,654 INFO stockpicking: DIAG AAPL get_shares_full         OK  tipo=Series len=80 shape=(80,)
-2026-10-10 11:10:52,758 INFO stockpicking: DIAG AAPL history                 OK  tipo=DataFrame len=5 shape=(5, 7)
-2026-10-10 11:10:52,996 INFO stockpicking: DIAG ENI.MI info                  OK  tipo=dict len=174 shape=None
-2026-10-10 11:10:52,996 INFO stockpicking: DIAG    chiavi: ['address1', 'city', 'state', 'zip', 'country', 'phone', 'fax', 'website', 'industry', 'industryKey', 'industryDisp', 'sector', 'sectorKey', 'sectorDisp', 'longBusinessSummary']
-2026-10-10 11:10:53,693 INFO stockpicking: DIAG ENI.MI fast_info             OK  tipo=dict len=20 shape=None
-2026-10-10 11:10:53,693 INFO stockpicking: DIAG    chiavi: ['currency', 'dayHigh', 'dayLow', 'exchange', 'fiftyDayAverage', 'lastPrice', 'lastVolume', 'marketCap', 'open', 'previousClose', 'quoteType', 'regularMarketPreviousClose', 'shares', 'tenDayAverageVolume', 'threeMonthAverageVolume']
-2026-10-10 11:10:53,837 INFO stockpicking: DIAG ENI.MI income_stmt           OK  tipo=DataFrame len=54 shape=(54, 5)
-2026-10-10 11:10:54,019 INFO stockpicking: DIAG ENI.MI balance_sheet         OK  tipo=DataFrame len=96 shape=(96, 5)
-2026-10-10 11:10:54,176 INFO stockpicking: DIAG ENI.MI cashflow              OK  tipo=DataFrame len=62 shape=(62, 5)
-2026-10-10 11:10:54,251 INFO stockpicking: DIAG ENI.MI institutional_holders OK  tipo=DataFrame len=3 shape=(3, 6)
-2026-10-10 11:10:54,251 INFO stockpicking: DIAG ENI.MI major_holders         OK  tipo=DataFrame len=4 shape=(4, 1)
-2026-10-10 11:10:54,251 INFO stockpicking: DIAG ENI.MI insider_purchases     OK  tipo=DataFrame len=7 shape=(7, 3)
-2026-10-10 11:10:54,322 INFO stockpicking: DIAG ENI.MI get_shares_full       OK  tipo=Series len=214 shape=(214,)
-2026-10-10 11:10:54,420 INFO stockpicking: DIAG ENI.MI history               OK  tipo=DataFrame len=5 shape=(5, 7)
-2026-10-10 11:10:54,522 WARNING stockpicking: Elenco CIK SEC non disponibile: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json
-2026-10-10 11:10:54,523 INFO stockpicking: DIAG SEC AAPL: {}
+2026-10-10 11:11:47,519 INFO stockpicking: Indice S&P 500    -> 503 titoli
+2026-10-10 11:11:47,753 INFO stockpicking: Indice S&P 400    -> 400 titoli
+2026-10-10 11:11:47,934 INFO stockpicking: Indice FTSE MIB   -> 40 titoli
+2026-10-10 11:11:48,068 INFO stockpicking: Indice DAX        -> 40 titoli
+2026-10-10 11:11:48,176 INFO stockpicking: Indice MDAX       -> 50 titoli
+2026-10-10 11:11:48,532 INFO stockpicking: Indice CAC 40     -> 40 titoli
+2026-10-10 11:11:48,634 WARNING stockpicking: Pagina SBF_120: nessuna tabella con ticker (12 tabelle, colonne: [['0', '1'], ['vteMajor France stock market indices', 'vteMajor France stock market indices.1'], ['vteStock market indices', 'vteStock market indices.1'], ['0', '1']])
+2026-10-10 11:11:48,635 INFO stockpicking: Indice SBF 120    -> 0 titoli
+2026-10-10 11:11:48,752 INFO stockpicking: Indice AEX        -> 25 titoli
+2026-10-10 11:11:48,869 INFO stockpicking: Indice IBEX 35    -> 35 titoli
+2026-10-10 11:11:48,990 INFO stockpicking: Indice SMI        -> 20 titoli
+2026-10-10 11:11:49,153 INFO stockpicking: Indice FTSE 100   -> 100 titoli
+2026-10-10 11:11:49,277 INFO stockpicking: Indice FTSE 250   -> 250 titoli
+2026-10-10 11:11:49,388 INFO stockpicking: Indice OMXS30     -> 30 titoli
+2026-10-10 11:11:49,712 INFO stockpicking: Indice OMXC25     -> 25 titoli
+2026-10-10 11:11:49,823 INFO stockpicking: Indice OMXH25     -> 25 titoli
+2026-10-10 11:11:49,934 INFO stockpicking: Indice OBX        -> 25 titoli
+2026-10-10 11:11:50,304 INFO stockpicking: Indice BEL 20     -> 20 titoli
+2026-10-10 11:11:50,557 INFO stockpicking: Indice PSI        -> 18 titoli
+2026-10-10 11:11:50,834 WARNING stockpicking: Pagina Austrian_Traded_Index: nessuna tabella con ticker (15 tabelle, colonne: [['Year', 'Closing level', 'Change in index in points', 'Change in index in\xa0%'], ['Company', 'Industry', 'Sector'], ['vte ATX companies of Austria', 'vte ATX companies of Austria.1'], ['vteMajor European stock market indices', 'vteMajor European stock market indices.1']])
+2026-10-10 11:11:50,835 INFO stockpicking: Indice ATX        -> 0 titoli
+2026-10-10 11:11:51,023 INFO stockpicking: Indice ISEQ 20    -> 20 titoli
+2026-10-10 11:11:51,030 INFO stockpicking: Universo: 1663 titoli ({'USA': 903, 'Europa': 760})
+2026-10-10 11:11:51,032 INFO stockpicking: Fatto: universe
+2026-10-10 11:11:52,091 INFO stockpicking: Bilanci da aggiornare: 40 (limite 40)
+2026-10-10 11:11:55,964 WARNING stockpicking: Elenco CIK SEC non disponibile: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json
+2026-10-10 11:11:59,948 WARNING stockpicking: Elenco CIK SEC non disponibile: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json
+2026-10-10 11:12:02,805 WARNING stockpicking: Elenco CIK SEC non disponibile: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json
+2026-10-10 11:12:05,559 WARNING stockpicking: Elenco CIK SEC non disponibile: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json
+2026-10-10 11:12:07,011 WARNING stockpicking: Elenco CIK SEC non disponibile: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json
+2026-10-10 11:12:12,802 WARNING stockpicking: Elenco CIK SEC non disponibile: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json
+2026-10-10 11:12:19,674 WARNING stockpicking: Elenco CIK SEC non disponibile: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json
+2026-10-10 11:12:21,062 WARNING stockpicking: Elenco CIK SEC non disponibile: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json
+2026-10-10 11:12:25,290 WARNING stockpicking: Elenco CIK SEC non disponibile: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json
+2026-10-10 11:12:26,857 WARNING stockpicking: Elenco CIK SEC non disponibile: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json
+2026-10-10 11:12:26,936 INFO stockpicking: Bilanci: 25/40
+2026-10-10 11:12:29,951 WARNING stockpicking: Elenco CIK SEC non disponibile: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json
+2026-10-10 11:12:31,220 WARNING stockpicking: Elenco CIK SEC non disponibile: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json
+2026-10-10 11:12:36,904 WARNING stockpicking: Elenco CIK SEC non disponibile: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json
+2026-10-10 11:12:38,488 WARNING stockpicking: Elenco CIK SEC non disponibile: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json
+2026-10-10 11:12:41,430 WARNING stockpicking: Elenco CIK SEC non disponibile: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json
+2026-10-10 11:12:42,771 WARNING stockpicking: Elenco CIK SEC non disponibile: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json
+2026-10-10 11:12:45,663 WARNING stockpicking: Elenco CIK SEC non disponibile: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json
+2026-10-10 11:12:48,701 WARNING stockpicking: Elenco CIK SEC non disponibile: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json
+2026-10-10 11:12:49,364 INFO stockpicking: Bilanci aggiornati: 40
+2026-10-10 11:12:49,364 INFO stockpicking: Fatto: fundamentals
+2026-10-10 11:12:56,475 INFO stockpicking: Prezzi 1d: 100/1663
+2026-10-10 11:13:06,147 INFO stockpicking: Prezzi 1d: 200/1663
+2026-10-10 11:13:16,384 INFO stockpicking: Prezzi 1d: 300/1663
+2026-10-10 11:13:27,664 INFO stockpicking: Prezzi 1d: 400/1663
+2026-10-10 11:13:36,975 INFO stockpicking: Prezzi 1d: 500/1663
+2026-10-10 11:13:46,182 INFO stockpicking: Prezzi 1d: 600/1663
+2026-10-10 11:13:55,488 INFO stockpicking: Prezzi 1d: 700/1663
+2026-10-10 11:14:04,688 INFO stockpicking: Prezzi 1d: 800/1663
+2026-10-10 11:14:13,820 INFO stockpicking: Prezzi 1d: 900/1663
+2026-10-10 11:14:16,375 ERROR yfinance: HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: AIR-PA.DE"}}}
+2026-10-10 11:14:16,772 ERROR yfinance: $AIR-PA.DE: No data found, symbol may be delisted
+2026-10-10 11:14:20,988 ERROR yfinance: $ECV.DE: No data found, symbol may be delisted
+2026-10-10 11:14:24,657 ERROR yfinance: 
+2 Failed downloads:
+2026-10-10 11:14:24,657 ERROR yfinance: ['AIR-PA.DE', 'ECV.DE']: No data found, symbol may be delisted
+2026-10-10 11:14:24,713 INFO stockpicking: Prezzi 1d: 1000/1663
+2026-10-10 11:14:29,707 ERROR yfinance: $MT-AS.PA: No data found, symbol may be delisted
+2026-10-10 11:14:35,136 ERROR yfinance: 
+1 Failed download:
+2026-10-10 11:14:35,136 ERROR yfinance: ['MT-AS.PA']: No data found, symbol may be delisted
+2026-10-10 11:14:35,186 INFO stockpicking: Prezzi 1d: 1100/1663
+2026-10-10 11:14:45,585 INFO stockpicking: Prezzi 1d: 1200/1663
+2026-10-10 11:14:55,374 INFO stockpicking: Prezzi 1d: 1300/1663
+2026-10-10 11:15:06,118 INFO stockpicking: Prezzi 1d: 1400/1663
+2026-10-10 11:15:15,964 INFO stockpicking: Prezzi 1d: 1500/1663
+2026-10-10 11:15:20,018 ERROR yfinance: $NDA.CO: No data found, symbol may be delisted
+2026-10-10 11:15:20,522 ERROR yfinance: $KOJAMO.HE: No data found, symbol may be delisted
+2026-10-10 11:15:26,755 ERROR yfinance: $GOGL.OL: No data found, symbol may be delisted
+2026-10-10 11:15:27,112 ERROR yfinance: 
+3 Failed downloads:
+2026-10-10 11:15:27,112 ERROR yfinance: ['NDA.CO', 'KOJAMO.HE', 'GOGL.OL']: No data found, symbol may be delisted
+2026-10-10 11:15:27,170 INFO stockpicking: Prezzi 1d: 1600/1663
+2026-10-10 11:15:29,684 ERROR yfinance: $RY4C.IR: No data found, symbol may be delisted
+2026-10-10 11:15:32,197 ERROR yfinance: $SONC.LS: No data found, symbol may be delisted
+2026-10-10 11:15:33,183 ERROR yfinance: $APAM.BR: No data found, symbol may be delisted
+2026-10-10 11:15:34,423 ERROR yfinance: 
+3 Failed downloads:
+2026-10-10 11:15:34,423 ERROR yfinance: ['RY4C.IR', 'SONC.LS', 'APAM.BR']: No data found, symbol may be delisted
+2026-10-10 11:15:34,454 INFO stockpicking: Prezzi 1d: 1663/1663
+2026-10-10 11:15:42,172 INFO stockpicking: Prezzi 1wk: 100/1663
+2026-10-10 11:15:50,049 INFO stockpicking: Prezzi 1wk: 200/1663
+2026-10-10 11:15:57,474 INFO stockpicking: Prezzi 1wk: 300/1663
+2026-10-10 11:16:04,632 INFO stockpicking: Prezzi 1wk: 400/1663
+2026-10-10 11:16:11,921 INFO stockpicking: Prezzi 1wk: 500/1663
+2026-10-10 11:16:19,869 INFO stockpicking: Prezzi 1wk: 600/1663
+2026-10-10 11:16:27,218 INFO stockpicking: Prezzi 1wk: 700/1663
+2026-10-10 11:16:34,624 INFO stockpicking: Prezzi 1wk: 800/1663
+2026-10-10 11:16:42,763 INFO stockpicking: Prezzi 1wk: 900/1663
+2026-10-10 11:16:45,281 ERROR yfinance: $AIR-PA.DE: No data found, symbol may be delisted
+2026-10-10 11:16:48,455 ERROR yfinance: $ECV.DE: No data found, symbol may be delisted
+2026-10-10 11:16:50,464 ERROR yfinance: 
+2 Failed downloads:
+2026-10-10 11:16:50,465 ERROR yfinance: ['AIR-PA.DE', 'ECV.DE']: No data found, symbol may be delisted
+2026-10-10 11:16:50,505 INFO stockpicking: Prezzi 1wk: 1000/1663
+2026-10-10 11:16:54,591 ERROR yfinance: $MT-AS.PA: No data found, symbol may be delisted
+2026-10-10 11:16:58,265 ERROR yfinance: 
+1 Failed download:
+2026-10-10 11:16:58,266 ERROR yfinance: ['MT-AS.PA']: No data found, symbol may be delisted
+2026-10-10 11:16:58,307 INFO stockpicking: Prezzi 1wk: 1100/1663
+2026-10-10 11:17:05,928 INFO stockpicking: Prezzi 1wk: 1200/1663
+2026-10-10 11:17:13,189 INFO stockpicking: Prezzi 1wk: 1300/1663
+2026-10-10 11:17:20,612 INFO stockpicking: Prezzi 1wk: 1400/1663
+2026-10-10 11:17:28,037 INFO stockpicking: Prezzi 1wk: 1500/1663
+2026-10-10 11:17:31,636 ERROR yfinance: $NDA.CO: No data found, symbol may be delisted
+2026-10-10 11:17:31,874 ERROR yfinance: $KOJAMO.HE: No data found, symbol may be delisted
+2026-10-10 11:17:35,436 ERROR yfinance: $GOGL.OL: No data found, symbol may be delisted
+2026-10-10 11:17:35,444 ERROR yfinance: 
+3 Failed downloads:
+2026-10-10 11:17:35,445 ERROR yfinance: ['NDA.CO', 'KOJAMO.HE', 'GOGL.OL']: No data found, symbol may be delisted
+2026-10-10 11:17:35,488 INFO stockpicking: Prezzi 1wk: 1600/1663
+2026-10-10 11:17:38,075 ERROR yfinance: $RY4C.IR: No data found, symbol may be delisted
+2026-10-10 11:17:39,447 ERROR yfinance: $SONC.LS: No data found, symbol may be delisted
+2026-10-10 11:17:40,271 ERROR yfinance: $APAM.BR: No data found, symbol may be delisted
+2026-10-10 11:17:41,385 ERROR yfinance: 
+3 Failed downloads:
+2026-10-10 11:17:41,386 ERROR yfinance: ['RY4C.IR', 'SONC.LS', 'APAM.BR']: No data found, symbol may be delisted
+2026-10-10 11:17:41,414 INFO stockpicking: Prezzi 1wk: 1663/1663
+2026-10-10 11:17:45,276 INFO stockpicking: Prezzi 1wk: 22/22
+2026-10-10 11:17:47,289 INFO stockpicking: Prezzi aggiornati: 1654 titoli con dati giornalieri
+2026-10-10 11:17:47,290 INFO stockpicking: Fatto: prices
+2026-10-10 11:17:49,205 INFO stockpicking: Classifica esportata: {'classificato': 22, 'escluso': 18}
+2026-10-10 11:17:49,215 INFO stockpicking: Fatto: score
