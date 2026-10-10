@@ -25,6 +25,10 @@ def main() -> None:
     steps = [s.strip() for s in a.steps.split(",")]
     log_to_file(DATA / "last_run.log")
 
+    if "esefprobe" in steps:
+        from .esef_probe import run as probe
+        probe()
+        return
     if "diag" in steps:
         from .diag import run as diag
         diag()

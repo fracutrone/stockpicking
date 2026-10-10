@@ -52,7 +52,7 @@ jobs:
           FORCE=""
           if [ "${{ github.event.inputs.force }}" = "true" ]; then FORCE="--force"; fi
           # processi separati: Yahoo invalida la sessione dopo i download massivi di prezzi
-          for s in diag universe fundamentals prices score; do
+          for s in diag esefprobe universe fundamentals prices score; do
             case ",$STEPS," in *",$s,"*)
               python -m stockpicking.run --steps "$s" --limit "$LIMIT" $FORCE ;;
             esac
