@@ -1,84 +1,17 @@
-2026-10-10 14:08:30,029 INFO yfinance: Failed to create TzCache, reason: Error creating TzCache folder: '/home/runner/.cache/py-yfinance' reason: [Errno 17] File exists: '/home/runner/.cache/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
-2026-10-10 14:08:36,896 INFO stockpicking: Prezzi 1d: 100/1664
-2026-10-10 14:08:45,190 INFO stockpicking: Prezzi 1d: 200/1664
-2026-10-10 14:08:53,711 INFO stockpicking: Prezzi 1d: 300/1664
-2026-10-10 14:09:02,177 INFO stockpicking: Prezzi 1d: 400/1664
-2026-10-10 14:09:12,427 INFO stockpicking: Prezzi 1d: 500/1664
-2026-10-10 14:09:22,479 INFO stockpicking: Prezzi 1d: 600/1664
-2026-10-10 14:09:32,017 INFO stockpicking: Prezzi 1d: 700/1664
-2026-10-10 14:09:42,382 INFO stockpicking: Prezzi 1d: 800/1664
-2026-10-10 14:09:52,634 INFO stockpicking: Prezzi 1d: 900/1664
-2026-10-10 14:09:57,664 ERROR yfinance: HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: AIR-PA.DE"}}}
-2026-10-10 14:09:58,133 ERROR yfinance: $AIR-PA.DE: No data found, symbol may be delisted
-2026-10-10 14:10:01,814 ERROR yfinance: $ECV.DE: No data found, symbol may be delisted
-2026-10-10 14:10:03,539 ERROR yfinance: 
-2 Failed downloads:
-2026-10-10 14:10:03,539 ERROR yfinance: ['AIR-PA.DE', 'ECV.DE']: No data found, symbol may be delisted
-2026-10-10 14:10:03,632 INFO stockpicking: Prezzi 1d: 1000/1664
-2026-10-10 14:10:10,675 ERROR yfinance: $MT-AS.PA: No data found, symbol may be delisted
-2026-10-10 14:10:14,391 ERROR yfinance: 
-1 Failed download:
-2026-10-10 14:10:14,391 ERROR yfinance: ['MT-AS.PA']: No data found, symbol may be delisted
-2026-10-10 14:10:14,464 INFO stockpicking: Prezzi 1d: 1100/1664
-2026-10-10 14:10:25,005 INFO stockpicking: Prezzi 1d: 1200/1664
-2026-10-10 14:10:35,520 INFO stockpicking: Prezzi 1d: 1300/1664
-2026-10-10 14:10:46,341 INFO stockpicking: Prezzi 1d: 1400/1664
-2026-10-10 14:10:55,305 INFO stockpicking: Prezzi 1d: 1500/1664
-2026-10-10 14:10:58,060 ERROR yfinance: $NDA.CO: No data found, symbol may be delisted
-2026-10-10 14:10:58,906 ERROR yfinance: $GOGL.OL: No data found, symbol may be delisted
-2026-10-10 14:11:01,367 ERROR yfinance: $KOJAMO.HE: No data found, symbol may be delisted
-2026-10-10 14:11:04,474 ERROR yfinance: 
-3 Failed downloads:
-2026-10-10 14:11:04,474 ERROR yfinance: ['NDA.CO', 'GOGL.OL', 'KOJAMO.HE']: No data found, symbol may be delisted
-2026-10-10 14:11:04,563 INFO stockpicking: Prezzi 1d: 1600/1664
-2026-10-10 14:11:07,268 ERROR yfinance: $SONC.LS: No data found, symbol may be delisted
-2026-10-10 14:11:09,275 ERROR yfinance: $RY4C.IR: No data found, symbol may be delisted
-2026-10-10 14:11:12,234 ERROR yfinance: $APAM.BR: No data found, symbol may be delisted
-2026-10-10 14:11:12,482 ERROR yfinance: 
-3 Failed downloads:
-2026-10-10 14:11:12,483 ERROR yfinance: ['SONC.LS', 'RY4C.IR', 'APAM.BR']: No data found, symbol may be delisted
-2026-10-10 14:11:12,543 INFO stockpicking: Prezzi 1d: 1664/1664
-2026-10-10 14:11:23,925 INFO stockpicking: Prezzi 1wk: 100/1664
-2026-10-10 14:11:35,176 INFO stockpicking: Prezzi 1wk: 200/1664
-2026-10-10 14:11:46,439 INFO stockpicking: Prezzi 1wk: 300/1664
-2026-10-10 14:11:57,977 INFO stockpicking: Prezzi 1wk: 400/1664
-2026-10-10 14:12:09,275 INFO stockpicking: Prezzi 1wk: 500/1664
-2026-10-10 14:12:20,593 INFO stockpicking: Prezzi 1wk: 600/1664
-2026-10-10 14:12:31,406 INFO stockpicking: Prezzi 1wk: 700/1664
-2026-10-10 14:12:42,367 INFO stockpicking: Prezzi 1wk: 800/1664
-2026-10-10 14:12:53,314 INFO stockpicking: Prezzi 1wk: 900/1664
-2026-10-10 14:12:58,718 ERROR yfinance: $AIR-PA.DE: No data found, symbol may be delisted
-2026-10-10 14:13:01,598 ERROR yfinance: $ECV.DE: No data found, symbol may be delisted
-2026-10-10 14:13:03,357 ERROR yfinance: 
-2 Failed downloads:
-2026-10-10 14:13:03,357 ERROR yfinance: ['AIR-PA.DE', 'ECV.DE']: No data found, symbol may be delisted
-2026-10-10 14:13:03,422 INFO stockpicking: Prezzi 1wk: 1000/1664
-2026-10-10 14:13:09,339 ERROR yfinance: $MT-AS.PA: No data found, symbol may be delisted
-2026-10-10 14:13:12,535 ERROR yfinance: 
-1 Failed download:
-2026-10-10 14:13:12,535 ERROR yfinance: ['MT-AS.PA']: No data found, symbol may be delisted
-2026-10-10 14:13:12,599 INFO stockpicking: Prezzi 1wk: 1100/1664
-2026-10-10 14:13:21,872 INFO stockpicking: Prezzi 1wk: 1200/1664
-2026-10-10 14:13:31,615 INFO stockpicking: Prezzi 1wk: 1300/1664
-2026-10-10 14:13:42,833 INFO stockpicking: Prezzi 1wk: 1400/1664
-2026-10-10 14:13:53,791 INFO stockpicking: Prezzi 1wk: 1500/1664
-2026-10-10 14:13:57,000 ERROR yfinance: $NDA.CO: No data found, symbol may be delisted
-2026-10-10 14:13:58,158 ERROR yfinance: $GOGL.OL: No data found, symbol may be delisted
-2026-10-10 14:14:01,279 ERROR yfinance: $KOJAMO.HE: No data found, symbol may be delisted
-2026-10-10 14:14:05,567 ERROR yfinance: 
-3 Failed downloads:
-2026-10-10 14:14:05,568 ERROR yfinance: ['NDA.CO', 'GOGL.OL', 'KOJAMO.HE']: No data found, symbol may be delisted
-2026-10-10 14:14:05,633 INFO stockpicking: Prezzi 1wk: 1600/1664
-2026-10-10 14:14:08,356 ERROR yfinance: $SONC.LS: No data found, symbol may be delisted
-2026-10-10 14:14:10,669 ERROR yfinance: $RY4C.IR: No data found, symbol may be delisted
-2026-10-10 14:14:13,702 ERROR yfinance: $APAM.BR: No data found, symbol may be delisted
-2026-10-10 14:14:14,072 ERROR yfinance: 
-3 Failed downloads:
-2026-10-10 14:14:14,072 ERROR yfinance: ['SONC.LS', 'RY4C.IR', 'APAM.BR']: No data found, symbol may be delisted
-2026-10-10 14:14:14,118 INFO stockpicking: Prezzi 1wk: 1664/1664
-2026-10-10 14:14:18,313 INFO stockpicking: Prezzi 1wk: 22/22
-2026-10-10 14:14:20,332 INFO stockpicking: Prezzi aggiornati: 1655 titoli con dati giornalieri
-2026-10-10 14:14:20,334 INFO stockpicking: Fatto: prices
-2026-10-10 14:14:33,641 INFO stockpicking: Classifica esportata: {'classificato': 830, 'escluso': 724, 'fuori modello': 74, 'dati mancanti': 24, 'storico insufficiente': 2}
-2026-10-10 14:14:34,846 INFO stockpicking: Storico: aggiornato il rendimento di 1 fotografie
-2026-10-10 14:14:34,906 INFO stockpicking: Fatto: score
+2026-10-10 14:17:40,451 INFO stockpicking: PROBE GET https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Eni+S.p.A.&page%5Bsize%5D=3 -> 200 (9351 byte)
+2026-10-10 14:17:40,451 INFO stockpicking: PROBE GLEIF BUCRF72VH5RBN7X3VL35 ENI S.P.A.
+2026-10-10 14:17:40,451 INFO stockpicking: PROBE GLEIF 984500B4D6BC73E9F591 ENI INSURANCE S.P.A.
+2026-10-10 14:17:40,451 INFO stockpicking: PROBE GLEIF 815600CE25AF52409508 ENI REWIND S.P.A.
+2026-10-10 14:17:41,068 INFO stockpicking: PROBE GET https://api.gleif.org/api/v1/lei-records?filter%5Bisin%5D=IT0003132476 -> 200 (3784 byte)
+2026-10-10 14:17:41,069 INFO stockpicking: PROBE GLEIF isin -> ['BUCRF72VH5RBN7X3VL35']
+2026-10-10 14:17:43,803 INFO stockpicking: PROBE GET https://filings.xbrl.org/api/entities?filter%5Bidentifier%5D=BUCRF72VH5RBN7X3VL35 -> 200 (434 byte)
+2026-10-10 14:17:43,804 INFO stockpicking: PROBE  risposta: [{"type": "entity", "relationships": {"filings": {"links": {"related": "/api/entities/BUCRF72VH5RBN7X3VL35/filings"}}}, "attributes": {"name": "ENI S.P.A.", "identifier": "BUCRF72VH5RBN7X3VL35"}, "id": "2861", "links": {"self": "/api/entities/BUCRF72VH5RBN7X3VL35"}}]
+2026-10-10 14:17:44,250 INFO stockpicking: PROBE GET https://filings.xbrl.org/api/entities/BUCRF72VH5RBN7X3VL35 -> 200 (363 byte)
+2026-10-10 14:17:44,251 INFO stockpicking: PROBE  risposta: {"type": "entity", "relationships": {"filings": {"links": {"related": "/api/entities/BUCRF72VH5RBN7X3VL35/filings"}}}, "attributes": {"name": "ENI S.P.A.", "identifier": "BUCRF72VH5RBN7X3VL35"}, "id": "2861", "links": {"self": "/api/entities/BUCRF72VH5RBN7X3VL35"}}
+2026-10-10 14:17:44,759 INFO stockpicking: PROBE GET https://filings.xbrl.org/api/filings?filter%5Bentity.identifier%5D=BUCRF72VH5RBN7X3VL35&include=entity -> 200 (5997 byte)
+2026-10-10 14:17:44,760 INFO stockpicking: PROBE  risposta: [{"type": "filing", "attributes": {"fxo_id": "BUCRF72VH5RBN7X3VL35-2023-12-31-ESEF-IT-0", "error_count": 0, "processed": "2024-04-10 15:50:04.648425", "viewer_url": "/BUCRF72VH5RBN7X3VL35/2023-12-31/ESEF/IT/0/BUCRF72VH5RBN7X3VL35-2023-12-31-it/reports/ixbrlviewer.html", "sha256": "608fb5ca331a03fa11adcb710343ce610b456ff364b247adad237fa92a6e3e7e", "json_url": "/BUCRF72VH5RBN7X3VL35/2023-12-31/ESEF/IT/0/BUCRF72VH5RBN7X3VL35-2023-12-31-it.json", "date_added": "2024-04-10 14:52:32.849272", "country": "IT", "warning_count": 5, "inconsistency_count": 0, "period_end": "2023-12-31", "report_url": "/BUCRF72VH5RBN7X3VL35/2023-12-31/ESEF/IT/0/BUCRF72VH5RBN7X3VL35-2023-12-31-it/reports/BUCRF72VH5RBN7X3VL35-2023-12-31-it.xhtml", "package_url": "/BUCRF72VH5RBN7X3VL35/2023-12-31/ESEF/IT/0/BUCRF72VH5RBN7X3VL35-2023-12-31-it.zip"}, "relationships": {"entity": {"links": {"related": "/api/entities/BUCRF72V
+2026-10-10 14:17:45,277 INFO stockpicking: PROBE GET https://filings.xbrl.org/api/entities/BUCRF72VH5RBN7X3VL35/filings -> 200 (5440 byte)
+2026-10-10 14:17:45,278 INFO stockpicking: PROBE  risposta: [{"type": "filing", "attributes": {"fxo_id": "BUCRF72VH5RBN7X3VL35-2023-12-31-ESEF-IT-0", "error_count": 0, "processed": "2024-04-10 15:50:04.648425", "viewer_url": "/BUCRF72VH5RBN7X3VL35/2023-12-31/ESEF/IT/0/BUCRF72VH5RBN7X3VL35-2023-12-31-it/reports/ixbrlviewer.html", "sha256": "608fb5ca331a03fa11adcb710343ce610b456ff364b247adad237fa92a6e3e7e", "json_url": "/BUCRF72VH5RBN7X3VL35/2023-12-31/ESEF/IT/0/BUCRF72VH5RBN7X3VL35-2023-12-31-it.json", "date_added": "2024-04-10 14:52:32.849272", "country": "IT", "warning_count": 5, "inconsistency_count": 0, "period_end": "2023-12-31", "report_url": "/BUCRF72VH5RBN7X3VL35/2023-12-31/ESEF/IT/0/BUCRF72VH5RBN7X3VL35-2023-12-31-it/reports/BUCRF72VH5RBN7X3VL35-2023-12-31-it.xhtml", "package_url": "/BUCRF72VH5RBN7X3VL35/2023-12-31/ESEF/IT/0/BUCRF72VH5RBN7X3VL35-2023-12-31-it.zip"}, "relationships": {"entity": {"links": {"related": "/api/entities/BUCRF72V
+2026-10-10 14:17:45,787 INFO stockpicking: PROBE GET https://filings.xbrl.org/api/entities/BUCRF72VH5RBN7X3VL35/filings -> 200 (5440 byte)
+2026-10-10 14:17:45,788 INFO stockpicking: PROBE ultimo filing: period_end=2025-12-31 json_url=/BUCRF72VH5RBN7X3VL35/2025-12-31/ESEF/IT/0/BUCRF72VH5RBN7X3VL35-2025-12-31-1-it.json
+2026-10-10 14:17:46,202 INFO stockpicking: PROBE GET https://filings.xbrl.org/BUCRF72VH5RBN7X3VL35/2025-12-31/ESEF/IT/0/BUCRF72VH5RBN7X3VL35-2025-12-31-1-it.json -> 406 (555 byte)
