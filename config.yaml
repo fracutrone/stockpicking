@@ -210,3 +210,49 @@ labels:
   sma200_overextended: 0.25
   short_interest_alarm: 0.15
   altman_safe: 2.99
+
+# ---------------------------------------------------------------------
+# Controprova dei dati (fonte ufficiale: SEC per gli USA, ESEF per l'Europa)
+# ---------------------------------------------------------------------
+data_check:
+  tolerance:                 # scarto massimo ammesso tra Yahoo e la fonte ufficiale
+    total_assets: 0.10
+    equity: 0.10
+    net_income: 0.15
+  min_abs_net_income_share: 0.01   # l'utile si confronta solo se vale almeno l'1% dell'attivo
+  exclude_discordant: true         # dati discordanti = fuori classifica ("dati da verificare")
+
+# ---------------------------------------------------------------------
+# Andamento di mercato del settore e value trap
+# ---------------------------------------------------------------------
+value_trap:
+  cheap_min_share: 0.70      # "economico": area Valutazione almeno al 70% del suo peso
+  # "in peggioramento": almeno una tra ricavi in calo (CAGR < 0) e utile in calo (CAGR < 0)
+  sector_lag: 0.0            # settore debole: rendimento 12 mesi del settore sotto la mediana dell'universo di almeno questo scarto
+  exclude_from_portfolio: true
+
+# ---------------------------------------------------------------------
+# Segnali di uscita (per i titoli in portafoglio e per la classifica)
+# ---------------------------------------------------------------------
+exit_rules:
+  out_of_top: 100            # rivaluta se il titolo scende oltre questa posizione
+  score_drop: 15             # rivaluta se il punteggio scende di almeno questi punti dalla fotografia precedente
+  discount_exhausted: true   # rivaluta se il multiplo raggiunge la mediana del settore (sconto esaurito)
+
+# I tuoi titoli da monitorare con i segnali di uscita (formato Yahoo, es. "FBK.MI", "TJX")
+my_portfolio: []
+
+# ---------------------------------------------------------------------
+# Portafoglio modello
+# ---------------------------------------------------------------------
+portfolio:
+  buckets:                   # peso totale e numero di titoli per gruppo
+    conviction: {weight: 0.50, positions: 10}
+    protective: {weight: 0.30, positions: 6}
+    cyclical:   {weight: 0.20, positions: 4}
+  max_per_sector: 3          # titoli massimi dello stesso settore
+  max_country_share: 0.40    # quota massima di un singolo paese
+  min_coverage: 0.70         # copertura dati minima del punteggio
+  protective_sectors: [Consumer Defensive, Utilities, Healthcare]
+  cyclical_sectors: [Basic Materials, Energy, Consumer Cyclical]
+  cyclical_tracks: [banca]   # le banche seguono il ciclo del credito

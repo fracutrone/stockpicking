@@ -126,6 +126,10 @@ def technicals(close: pd.Series, volume: pd.Series | None) -> dict:
     if len(close) >= 200:
         out["sma200"] = float(close.iloc[-200:].mean())
         out["dist_sma200"] = price / out["sma200"] - 1
+    if len(close) >= 252:
+        out["ret_12m"] = price / float(close.iloc[-252]) - 1
+    if len(close) >= 126:
+        out["ret_6m"] = price / float(close.iloc[-126]) - 1
     last = close.iloc[-252:]
     out["high_52w"], out["low_52w"] = float(last.max()), float(last.min())
     out["dist_high_52w"] = price / out["high_52w"] - 1
@@ -143,6 +147,22 @@ def _ebitda(y: dict):
     if oi is not None and da is not None:
         return oi + abs(da)
     return _num(y.get("ebitda_reported"))
+
+
+def _tax_rate(y: dict) -> float:
+    rate = div(y.get("tax"), y.get("pretax_income"))
+    return 0.25 if rate is None else min(max(rate, 0.0), 0.35)
+
+
+def _ni_adj(y: dict):
+    """Utile netto rettificato per le voci straordinarie (al netto delle tasse)."""
+    ni = _num(y.get("net_income"))
+    if ni is None:
+        return None
+    u = _num(y.get("unusual_items"))
+    if u is not None:
+        return ni - u * (1 - _tax_rate(y))
+    return ni
 
 
 def _gross_margin(y: dict):
@@ -253,13 +273,24 @@ def compute(rec: dict, tech: dict, weekly_close: pd.Series | None, fx: FX, cfg: 
 
     # --- serie annuali
     rev = [_num(y.get("revenue")) for y in hist]
-    ni = [_num(y.get("net_income")) for y in hist]
+    ni_rep = [_num(y.get("net_income")) for y in hist]
+    ni = [_ni_adj(y) for y in hist]          # utile rettificato per le voci straordinarie
     ebitda = [_ebitda(y) for y in hist]
+    m["unusual_items_last"] = _num(last.get("unusual_items"))
+    m["net_income_reported"] = ni_rep[-1]
+    m["net_income_adjusted"] = ni[-1]
+    # EBITDA dell'ultimo esercizio: versione normalizzata se disponibile e plausibile
+    ebitda_last = ebitda[-1]
+    ne = _num(last.get("normalized_ebitda"))
+    if ne and ebitda_last and ne > 0 and 0.5 <= ne / ebitda_last <= 2:
+        ebitda_last = ne
+    m["ebitda_reported"] = ebitda[-1]
+    m["ebitda_adjusted"] = ebitda_last
     fcf = [(_num(y.get("cfo")) - (abs(_num(y.get("capex"))) if _num(y.get("capex")) is not None else 0))
            if _num(y.get("cfo")) is not None else None for y in hist]
     gm = [_gross_margin(y) for y in hist]
     roic = [_roic(y) for y in hist]
-    roe = [div(y.get("net_income"), y.get("equity")) if (_num(y.get("equity")) or 0) > 0 else None for y in hist]
+    roe = [div(_ni_adj(y), y.get("equity")) if (_num(y.get("equity")) or 0) > 0 else None for y in hist]
     ebitda_m = [div(e, r) for e, r in zip(ebitda, rev)]
     m["series"] = {"fy": [y["fy_end"][:4] for y in hist], "revenue": rev, "net_income": ni, "ebitda": ebitda,
                    "fcf": fcf, "gross_margin": gm, "roic": roic, "roe": roe}
@@ -273,7 +304,8 @@ def compute(rec: dict, tech: dict, weekly_close: pd.Series | None, fx: FX, cfg: 
     # --- nucleo
     m["revenue_cagr"] = cagr(rev[0], rev[-1], n)
     m["ebitda_cagr"] = cagr(ebitda[0], ebitda[-1], n)
-    m["net_income_cagr"] = cagr(ni[0], ni[-1], n)
+    both_adj = _num(hist[0].get("unusual_items")) is not None and _num(last.get("unusual_items")) is not None
+    m["net_income_cagr"] = cagr(ni[0], ni[-1], n) if both_adj else cagr(ni_rep[0], ni_rep[-1], n)
     k = min(3, len(hist))
     fcf3, rev3 = [x for x in fcf[-k:] if x is not None], [x for x in rev[-k:] if x is not None]
     m["fcf_margin"] = div(sum(fcf3), sum(rev3)) if fcf3 and rev3 and len(fcf3) == len(rev3) else None
@@ -285,7 +317,7 @@ def compute(rec: dict, tech: dict, weekly_close: pd.Series | None, fx: FX, cfg: 
     m["debt_to_equity"] = div(last.get("total_debt"), eq) if eq and eq > 0 else None
     nd = _net_debt(last)
     m["net_debt"] = nd
-    m["net_debt_to_ebitda"] = div(nd, ebitda[-1]) if ebitda[-1] and ebitda[-1] > 0 else None
+    m["net_debt_to_ebitda"] = div(nd, ebitda_last) if ebitda_last and ebitda_last > 0 else None
     ie = _num(last.get("interest_expense"))
     oi = _num(last.get("operating_income"))
     if oi is not None and ie is not None and abs(ie) > 0:
@@ -310,7 +342,7 @@ def compute(rec: dict, tech: dict, weekly_close: pd.Series | None, fx: FX, cfg: 
     # --- valutazione
     ev = mcap_fin + nd if mcap_fin is not None and nd is not None else None
     m["ev"] = ev
-    m["ev_ebitda"] = div(ev, ebitda[-1]) if ebitda[-1] and ebitda[-1] > 0 and ev and ev > 0 else None
+    m["ev_ebitda"] = div(ev, ebitda_last) if ebitda_last and ebitda_last > 0 and ev and ev > 0 else None
     m["pe"] = div(mcap_fin, ni[-1]) if ni[-1] and ni[-1] > 0 else None
     m["p_fcf"] = div(mcap_fin, fcf[-1]) if fcf[-1] and fcf[-1] > 0 else None
     m["fcf_yield"] = div(fcf[-1], mcap_fin) if mcap_fin else None
@@ -348,7 +380,7 @@ def compute(rec: dict, tech: dict, weekly_close: pd.Series | None, fx: FX, cfg: 
     m["roe_by_year"] = dict(zip([y["fy_end"][:4] for y in hist], roe))
     te = _tangible_equity(last)
     m["rote"] = div(ni[-1], te) if te and te > 0 else None
-    rote3 = [div(_num(y.get("net_income")), _tangible_equity(y)) for y in hist[-3:]
+    rote3 = [div(_ni_adj(y), _tangible_equity(y)) for y in hist[-3:]
              if (_tangible_equity(y) or 0) > 0]
     m["rote_avg3"] = avg(rote3)
     m["ptbv"] = div(mcap_fin, te) if te and te > 0 else None
@@ -363,8 +395,8 @@ def compute(rec: dict, tech: dict, weekly_close: pd.Series | None, fx: FX, cfg: 
     nii = [_num(y.get("nii")) for y in hist]
     m["nii_cagr"] = cagr(nii[0], nii[-1], n)
     m["equity_to_assets"] = div(eq, last.get("total_assets"))
-    m["profit_positive_share"] = share(ni, lambda x: x > 0)
-    m["last_year_loss"] = ni[-1] is not None and ni[-1] < 0
+    m["profit_positive_share"] = share(ni_rep, lambda x: x > 0)
+    m["last_year_loss"] = ni_rep[-1] is not None and ni_rep[-1] < 0
 
     # --- REIT
     ffo = [(_num(y.get("net_income")) + abs(_num(y.get("da"))))
@@ -377,7 +409,7 @@ def compute(rec: dict, tech: dict, weekly_close: pd.Series | None, fx: FX, cfg: 
 
     # --- tecnica e flussi
     for key in ["rsi14", "sma50", "sma200", "dist_sma200", "high_52w", "low_52w", "dist_high_52w",
-                "avg_volume_3m", "price_date"]:
+                "avg_volume_3m", "price_date", "ret_12m", "ret_6m"]:
         m[key] = tech.get(key)
     m["short_pct_float"] = _num(info.get("shortPercentOfFloat"))
     so, fl = _num(info.get("sharesOutstanding")), _num(info.get("floatShares"))

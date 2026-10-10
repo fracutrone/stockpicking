@@ -9,6 +9,7 @@ import pandas as pd
 
 from .common import DATA, FUND_DIR, SITE_DATA, load_config, log, read_json, safe_name, write_json
 from .metrics import FX, compute, technicals
+from .overlay import build_portfolio, bucket, data_quality, exit_signals, value_trap
 
 AREA_LABELS = {"nucleo": "Nucleo", "valutazione": "Valutazione", "moat": "Moat",
                "macro": "Macro/TAM", "protezione": "Protezione", "tecnica": "Tecnica"}
@@ -189,6 +190,11 @@ def score_all() -> None:
     dyn = _peer_dynamics(df[mask], by_year)
     df = df.merge(dyn, on="ticker", how="left")
     df["share_gain"] = df["revenue_cagr"] - df["peer_revenue_cagr"]
+    if "ret_12m" not in df.columns:
+        df["ret_12m"] = np.nan
+    df["peer_price_12m"] = df.groupby("peer_group")["ret_12m"].transform("median")
+    universe_med_12m = df.loc[mask, "ret_12m"].median()
+    universe_med_12m = None if pd.isna(universe_med_12m) else float(universe_med_12m)
 
     # percentili per componente
     comp_pct: dict[str, pd.Series] = {}
@@ -265,6 +271,13 @@ def score_all() -> None:
                 if red:
                     res["status"] = "escluso"
                     res["flags"] = red
+        dq = data_quality(details[t]["rec"], cfg)
+        res["data_quality"] = dq
+        if (dq["status"] == "discordante" and cfg["data_check"]["exclude_discordant"]
+                and res["status"] == "classificato"):
+            res["status"] = "dati da verificare"
+            res["flags"] = ["Yahoo e fonte ufficiale (" + str(dq["source"]) + ") non concordano: "
+                            + "; ".join(dq["discordances"])]
         results.append(res)
 
     df["status"] = [x["status"] for x in results]
@@ -272,6 +285,25 @@ def score_all() -> None:
     order = df[df.status == "classificato"].sort_values("score", ascending=False).index
     df["rank"] = None
     df.loc[order, "rank"] = range(1, len(order) + 1)
+    df["coverage"] = [x.get("coverage") for x in results]
+
+    prev = _previous_snapshot()
+    vts, exits, buckets = [], [], []
+    for (i, r), res in zip(df.iterrows(), results):
+        rd = r.to_dict()
+        is_vt, why = (value_trap(rd, res["areas"], cfg, universe_med_12m)
+                      if res["status"] == "classificato" else (False, None))
+        res["value_trap"] = why
+        med = medians.get(r.peer_group, {}) if r.peer_group else {}
+        res["exit"] = exit_signals(rd, res["status"], res["flags"], med, prev.get(r.ticker), why, cfg)
+        res["bucket"] = bucket(rd, cfg)
+        vts.append(is_vt); exits.append(res["exit"]); buckets.append(res["bucket"])
+    df["value_trap"] = vts
+    df["bucket"] = buckets
+    pf = build_portfolio(df, cfg)
+    df["pf_weight"] = df["ticker"].map(dict(zip(pf["ticker"], pf["pf_weight"])))
+    res_by_t = {r.ticker: res for (_, r), res in zip(df.iterrows(), results)}
+    _export_portfolio(pf, df, res_by_t, cfg)
 
     _export(df, results, details, medians, cfg)
 
@@ -284,6 +316,43 @@ def score_all() -> None:
 
 
 # ------------------------------------------------------------------ esportazione
+
+def _previous_snapshot() -> dict:
+    """Punteggi dell'ultima fotografia mensile precedente al mese corrente."""
+    from datetime import date
+    from .tracking import SNAP
+    files = sorted(SNAP.glob("*.csv")) if SNAP.exists() else []
+    files = [f for f in files if f.stem != f"{date.today():%Y-%m}"] or files[:-1]
+    if not files:
+        return {}
+    snap = pd.read_csv(files[-1])
+    return {r.ticker: {"score": r.score, "rank": r["rank"], "date": r.date} for _, r in snap.iterrows()}
+
+
+BUCKET_LABEL = {"conviction": "Conviction", "protective": "Protective", "cyclical": "Cyclical"}
+
+
+def _export_portfolio(pf: pd.DataFrame, df: pd.DataFrame, res_by_t: dict, cfg: dict) -> None:
+    rows = [{"t": r.ticker, "n": r["name"], "rank": _f(r["rank"]), "score": _f(r["score"]),
+             "bucket": BUCKET_LABEL[r["bucket"]], "weight": _f(r["pf_weight"]), "sector": r.sector,
+             "country": r.country if isinstance(r.country, str) else r.region,
+             "exit": res_by_t[r.ticker]["exit"]} for _, r in pf.iterrows()]
+    mine = []
+    for t in cfg.get("my_portfolio") or []:
+        sub = df[df["ticker"] == t]
+        if sub.empty:
+            mine.append({"t": t, "n": t, "status": "non nell'universo",
+                         "exit": ["Aggiungilo anche a extra_tickers in config.yaml per analizzarlo"]})
+            continue
+        r = sub.iloc[0]
+        mine.append({"t": t, "n": r["name"], "rank": _f(r["rank"]), "score": _f(r["score"]),
+                     "status": r["status"], "bucket": BUCKET_LABEL[r["bucket"]], "exit": res_by_t[t]["exit"]})
+    p = cfg["portfolio"]
+    write_json(SITE_DATA / "portfolio.json", {
+        "rules": {"buckets": p["buckets"], "max_per_sector": p["max_per_sector"],
+                  "max_country_share": p["max_country_share"]},
+        "model": rows, "mine": mine}, compact=True)
+    log.info("Portafoglio modello: %d titoli (%s)", len(rows), pf["bucket"].value_counts().to_dict())
 
 def _rsi_state(v, lab):
     if v is None or pd.isna(v):
@@ -317,6 +386,9 @@ def _export(df: pd.DataFrame, results: list, details: dict, medians: dict, cfg: 
             "rsi": _f(r.get("rsi14")), "rsi_state": _rsi_state(_f(r.get("rsi14")), lab),
             "mcap": _f(r.get("market_cap_usd")), "price": _f(r.get("price")),
             "ccy": r.get("trading_currency"),
+            "dq": res.get("data_quality", {}).get("status"), "vt": bool(res.get("value_trap")),
+            "bucket": BUCKET_LABEL.get(res.get("bucket"), None), "pf": _f(r.get("pf_weight")),
+            "exit": len(res.get("exit") or []),
         })
         rec, m = details[r.ticker]["rec"], details[r.ticker]["metrics"]
         detail = {
@@ -334,6 +406,10 @@ def _export(df: pd.DataFrame, results: list, details: dict, medians: dict, cfg: 
             "info": {k: v for k, v in rec.get("info", {}).items()},
             "governance": rec.get("governance", {}), "sources": rec.get("sources", {}),
             "fetched_at": rec.get("fetched_at"), "metrics": m,
+            "data_quality": res.get("data_quality"), "value_trap": res.get("value_trap"),
+            "exit": res.get("exit"), "bucket": BUCKET_LABEL.get(res.get("bucket")),
+            "pf_weight": _f(r.get("pf_weight")),
+            "sector_trend": {"peer_ret_12m": _f(r.get("peer_price_12m")), "own_ret_12m": _f(r.get("ret_12m"))},
         }
         write_json(stocks_dir / f"{safe_name(r.ticker)}.json", detail, compact=True)
 
@@ -342,7 +418,9 @@ def _export(df: pd.DataFrame, results: list, details: dict, medians: dict, cfg: 
                                                                "industry", "score"]].head(100)
     top.to_csv(DATA / "classifica_top100.csv", index=False)
     counts = df["status"].value_counts().to_dict()
-    meta = {"generated_at": datetime.now(timezone.utc).isoformat(timespec="minutes"),
+    um = df.loc[df["track"].isin(["usuale", "banca", "assicurazione", "reit"]), "ret_12m"].median()
+    meta = {"universe_ret_12m": None if pd.isna(um) else float(um),
+            "generated_at": datetime.now(timezone.utc).isoformat(timespec="minutes"),
             "weights": cfg["area_weights"], "labels": lab, "counts": counts, "universe": len(df)}
     write_json(SITE_DATA / "ranking.json", {"meta": meta, "rows": ranking}, compact=True)
     log.info("Classifica esportata: %s", counts)

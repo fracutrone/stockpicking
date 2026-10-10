@@ -99,6 +99,25 @@ async function init() {
   render();
   fromHash();
   loadTrack();
+  loadPortfolio();
+}
+
+async function loadPortfolio() {
+  try {
+    const p = await (await fetch("data/portfolio.json", { cache: "no-store" })).json();
+    const exCell = (e) => !e || !e.length ? `<span class="good-t">–</span>` : `<span class="${e.some((x) => x.startsWith("Esci")) ? "bad" : "mid"}-t">${e.map(esc).join("<br>")}</span>`;
+    const head = `<tr><th>Titolo</th><th>Gruppo</th><th>#</th><th>Score</th><th>Peso</th><th>Settore</th><th>Paese</th><th>Segnali</th></tr>`;
+    const row = (r) => `<tr class="clk" data-t="${esc(r.t)}"><td><b>${esc(r.t)}</b> <span class="note">${esc(r.n)}</span></td><td>${esc(r.bucket || "")}</td><td>${r.rank ?? "–"}</td><td>${ok(r.score) ? r.score.toFixed(1) : "–"}</td><td>${ok(r.weight) ? (r.weight * 100).toFixed(1) + "%" : ""}</td><td>${esc(r.sector || "")}</td><td>${esc(r.country || "")}</td><td>${exCell(r.exit)}</td></tr>`;
+    let html = "";
+    if (p.mine && p.mine.length) html += `<h4>I miei titoli</h4><table class="hist">${head}${p.mine.map(row).join("")}</table>`;
+    if (p.model && p.model.length) html += `<h4>Portafoglio modello</h4><table class="hist">${head}${p.model.map(row).join("")}</table>
+      <p class="note">Selezione automatica dalla classifica: Conviction ${p.rules.buckets.conviction.weight * 100}% · Protective ${p.rules.buckets.protective.weight * 100}% · Cyclical ${p.rules.buckets.cyclical.weight * 100}%, massimo ${p.rules.max_per_sector} titoli per settore e ${p.rules.max_country_share * 100}% per paese, esclusi i possibili value trap. Non è una raccomandazione d'acquisto.</p>`;
+    if (!html) return;
+    $("#pf-body").innerHTML = html;
+    $("#pf-sum").textContent = ` · ${p.model.length} titoli${p.mine && p.mine.length ? ` · ${p.mine.length} monitorati` : ""}`;
+    $("#pf-body").addEventListener("click", (e) => { const tr = e.target.closest("tr.clk"); if (tr) open(tr.dataset.t); });
+    $("#portfolio").hidden = false;
+  } catch (e) { /* nessun portafoglio */ }
 }
 
 async function loadTrack() {
@@ -106,8 +125,8 @@ async function loadTrack() {
     const t = await (await fetch("data/track.json", { cache: "no-store" })).json();
     if (!t.rows || !t.rows.length) return;
     const pc = (v) => ok(v) ? `<span class="${v >= 0 ? "good" : "bad"}-t">${(v >= 0 ? "+" : "") + (v * 100).toFixed(1)}%</span>` : "–";
-    $("#track-tbl").innerHTML = `<tr><th>Classifica del</th><th>Giorni</th><th>Top ${t.top_n}</th><th>Universo</th><th>MSCI World</th><th>Top vs universo</th><th>Top vs MSCI</th></tr>` +
-      t.rows.slice().reverse().map((r) => `<tr title="${esc(r.top30_tickers)}"><td>${esc(r.start)}</td><td>${r.days}</td><td>${pc(r.top30)}</td><td>${pc(r.universo)}</td><td>${pc(r.msci_world)}</td><td>${pc(r.extra_vs_universo)}</td><td>${pc(r.extra_vs_msci)}</td></tr>`).join("");
+    $("#track-tbl").innerHTML = `<tr><th>Classifica del</th><th>Giorni</th><th>Top ${t.top_n}</th><th>Portafoglio modello</th><th>Universo</th><th>MSCI World</th><th>Top vs universo</th><th>Top vs MSCI</th></tr>` +
+      t.rows.slice().reverse().map((r) => `<tr title="${esc(r.top30_tickers)}"><td>${esc(r.start)}</td><td>${r.days}</td><td>${pc(r.top30)}</td><td>${pc(r.portafoglio_modello)}</td><td>${pc(r.universo)}</td><td>${pc(r.msci_world)}</td><td>${pc(r.extra_vs_universo)}</td><td>${pc(r.extra_vs_msci)}</td></tr>`).join("");
     const first = t.rows[0];
     $("#track-sum").textContent = ` · ${t.rows.length} fotografie mensili dal ${first.start}`;
     $("#history").hidden = false;
@@ -151,6 +170,15 @@ function cmpCell(o, dir) {
   return `<span class="cmp"><span class="v ${vd}-t">${fmt(o.v, f)}</span> <span class="m">vs ${fmt(o.med, f)}</span></span>`;
 }
 
+function badges(r) {
+  const b = [];
+  if (r.pf) b.push(`<span class="badge pf" title="Nel portafoglio modello (${(r.pf * 100).toFixed(1)}%)">PF</span>`);
+  if (r.bucket) b.push(`<span class="badge bk">${esc(r.bucket)}</span>`);
+  if (r.vt) b.push(`<span class="badge vt" title="Possibile value trap">value trap?</span>`);
+  if (r.dq === "verificato") b.push(`<span class="badge ok" title="Bilancio confrontato con la fonte ufficiale">✓ dati</span>`);
+  return b.join(" ");
+}
+
 function rowHtml(r) {
   const bar = AREAS.map(([k, , c]) => `<span style="width:${((r.areas[k] || 0) / 100) * 100}%;background:${c}" title="${k} ${fmt(r.areas[k], "n1")}"></span>`).join("");
   const flag = r.status === "classificato" ? `<span class="pill good">Sano</span>`
@@ -159,7 +187,7 @@ function rowHtml(r) {
   const rsiCls = r.rsi_state === "Ipervenduto" ? "good" : r.rsi_state === "Ipercomprato" ? "bad" : "mid";
   return `<tr data-t="${esc(r.t)}">
     <td class="num">${r.rank ?? "–"}</td>
-    <td><div class="tk">${esc(r.t)}</div><div class="nm">${esc(r.n)}</div><div class="sec">${esc(r.industry)}${r.ciclico ? " · ciclico" : ""}</div></td>
+    <td><div class="tk">${esc(r.t)} ${badges(r)}</div><div class="nm">${esc(r.n)}</div><div class="sec">${esc(r.industry)}${r.ciclico ? " · ciclico" : ""}</div></td>
     <td class="num score">${ok(r.score) ? r.score.toFixed(1) : "–"}</td>
     <td class="hide-s"><div class="bar">${bar}</div></td>
     <td>${flag}</td>
@@ -213,7 +241,7 @@ function compRows(s, areas) {
 }
 
 function block(title, color, pts, max, body) {
-  const p = ok(pts) ? `${pts.toFixed(1)} / ${max}` : `– / ${max}`;
+  const p = max === null ? "" : ok(pts) ? `${pts.toFixed(1)} / ${max}` : `– / ${max}`;
   return `<section class="block"><h3><span><span class="tag" style="background:${color}"></span>${title}</span><span class="pts">${p}</span></h3>${body}</section>`;
 }
 const frag = (parts) => `<p class="frag">${parts.filter(Boolean).join('<span class="sep">•</span>')}</p>`;
@@ -312,12 +340,41 @@ function card(s) {
   const srcTxt = src.includes("sec") ? "SEC EDGAR + Yahoo Finance" : "Yahoo Finance";
   const cover = ok(s.coverage) ? `Copertura dati del punteggio ${Math.round(s.coverage * 100)}%` : "";
 
+  // ---- segnali, controprova, settore, analisti
+  const ex = s.exit || [];
+  const dq = s.data_quality || {};
+  const dqLab = { verificato: `<span class="good-t">✓ Verificato</span>`, discordante: `<span class="bad-t">✗ Discordante</span>`, "non verificato": `<span class="mid-t">Non verificato</span>` }[dq.status] || "n.d.";
+  const dqItems = Object.entries(dq.items || {}).map(([k, it]) => {
+    const lab = { total_assets: "Attivo", equity: "Patrimonio netto", net_income: "Utile netto", revenue: "Ricavi" }[k] || k;
+    return `<div class="mrow"><span>${lab}</span><span class="r">${money(it.yahoo)}</span><span class="r">${money(it.official)}</span><span class="r ${it.diff > 0.1 ? "bad-t" : "good-t"}">${ok(it.diff) ? (it.diff * 100).toFixed(1) + "%" : "–"}</span></div>`;
+  }).join("");
+  const dqTbl = dqItems ? `<div class="mrow h"><span>Voce (esercizio ${esc(dq.fy_end || "")})</span><span class="r">Yahoo</span><span class="r">${esc(dq.source || "Ufficiale")}</span><span class="r">Scarto</span></div>${dqItems}` : "";
+  const st = s.sector_trend || {};
+  const um = state.meta ? state.meta.universe_ret_12m : null;
+  const unusual = m.unusual_items_last;
+  const adjTxt = ok(unusual) && Math.abs(unusual) > 0 ? frag([kv("Voci straordinarie ultimo esercizio", money(unusual, sccy)), kv("Utile riportato", money(m.net_income_reported, sccy)), kv("Utile rettificato", money(m.net_income_adjusted, sccy))]) : "";
+  const tgt = info.targetMeanPrice;
+  const up = ok(tgt) && ok(m.price) ? tgt / m.price - 1 : null;
+  const analyst = ok(tgt) || info.recommendationKey ? frag([kv("Analisti", `${info.numberOfAnalystOpinions ?? "n.d."}`), kv("Prezzo obiettivo medio", ok(tgt) ? `${tgt.toFixed(2)} ${esc(ccy)}` : "n.d."),
+      ok(up) ? `<span class="${up >= 0 ? "good" : "bad"}-t">${up >= 0 ? "+" : ""}${(up * 100).toFixed(1)}%</span>` : "",
+      ok(info.targetLowPrice) ? kv("Range", `${info.targetLowPrice.toFixed(2)} – ${info.targetHighPrice.toFixed(2)}`) : "",
+      info.recommendationKey ? kv("Giudizio", esc(info.recommendationKey)) : "", ok(info.forwardPE) ? kv("P/E atteso", fmt(info.forwardPE, "x")) : ""]) : "";
+  const b0 = (ex.length ? `<div class="flags ${ex.some((e) => e.startsWith("Esci")) ? "" : "warn"}"><b>Segnali</b><ul>${ex.map((e) => `<li>${esc(e)}</li>`).join("")}</ul></div>` : `<p class="frag"><span class="good-t">Nessun segnale di uscita</span></p>`)
+    + (s.value_trap ? `<p class="frag"><span class="bad-t">⚠ Possibile value trap:</span> ${esc(s.value_trap)}</p>` : "")
+    + frag([kv("Gruppo", esc(s.bucket || "n.d.")), ok(s.pf_weight) ? kv("Portafoglio modello", `<b>${(s.pf_weight * 100).toFixed(1)}%</b>`) : kv("Portafoglio modello", "no")])
+    + frag([kv("Titolo 12 mesi", fmt(st.own_ret_12m, "pct")), kv("Settore 12 mesi", fmt(st.peer_ret_12m, "pct")), kv("Universo 12 mesi", fmt(um, "pct"))])
+    + frag([kv("Controprova dati", dqLab), dq.source ? kv("Fonte", esc(dq.source)) : ""]) + dqTbl
+    + (dq.notes || []).map((n) => `<p class="note">• ${esc(n)}</p>`).join("")
+    + adjTxt
+    + (analyst ? analyst + `<p class="note">Stime degli analisti: solo informative, non entrano nel punteggio.</p>` : "");
+
   return `<div class="d-head"><div><h2>${esc(s.name)}</h2><div class="tk">${esc(s.ticker)} · ${esc(info.sector || "")} · ${esc(s.region)}</div></div>
       <button class="close" aria-label="Chiudi">×</button></div>
     <div class="d-score"><div class="big">${ok(s.score) ? s.score.toFixed(1) : "–"}<small> /100</small></div>
       <div>${s.rank ? `<span class="pill good">#${s.rank} in classifica</span>` : `<span class="pill ${s.status === "escluso" ? "bad" : "mid"}">${esc(s.status)}</span>`}</div></div>
     <div class="areas">${areasHtml}</div>
     ${flags}
+    ${block("Segnali &amp; controlli", "var(--ink-3)", null, null, b0)}
     ${block("Identità, governance &amp; sopravvivenza", "var(--a5)", a.protezione, 10, b1)}
     ${block("Il nucleo operativo", "var(--a1)", a.nucleo, 30, b2)}
     ${block("Valutazione &amp; margine di sicurezza", "var(--a2)", a.valutazione, 20, b3)}

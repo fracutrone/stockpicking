@@ -51,12 +51,23 @@ YAHOO_MAP = {
     "retained_earnings": ("bs", ["Retained Earnings"]),
     "total_debt": ("bs", ["Total Debt"]),
     "shares_out": ("bs", ["Ordinary Shares Number", "Share Issued"]),
+    # voci straordinarie (per la rettifica degli utili)
+    "unusual_items": ("is", ["Total Unusual Items", "Total Unusual Items Excluding Goodwill"]),
+    "normalized_ebitda": ("is", ["Normalized EBITDA"]),
+    "normalized_income": ("is", ["Normalized Income"]),
 }
+
+# voci confrontate con la fonte ufficiale (SEC per gli USA, ESEF per l'Europa)
+CHECK_KEYS = ["total_assets", "equity", "net_income", "revenue"]
 
 INFO_KEYS = ["longName", "shortName", "sector", "industry", "country", "currency", "financialCurrency",
              "marketCap", "sharesOutstanding", "floatShares", "heldPercentInsiders",
              "heldPercentInstitutions", "shortPercentOfFloat", "averageVolume", "quoteType",
-             "exchange", "fullTimeEmployees", "website", "longBusinessSummary"]
+             "exchange", "fullTimeEmployees", "website", "longBusinessSummary",
+             # stime degli analisti (solo informative, non entrano nel punteggio)
+             "targetMeanPrice", "targetLowPrice", "targetHighPrice", "numberOfAnalystOpinions",
+             "recommendationKey", "recommendationMean", "forwardPE", "forwardEps", "trailingEps",
+             "earningsGrowth", "revenueGrowth"]
 
 
 def _yahoo_series(df: pd.DataFrame | None, labels: list[str]) -> dict[str, float]:
@@ -134,7 +145,34 @@ def _governance(t: yf.Ticker, info: dict) -> dict:
     return gov
 
 
-def fetch_one(ticker: str, region: str) -> dict | None:
+def _crosscheck(yahoo: dict, official: dict, source: str, period_hint: str | None = None) -> dict:
+    """Confronta le voci chiave di Yahoo con una fonte ufficiale sullo stesso esercizio."""
+    items = {}
+    ends_y = set()
+    for k in CHECK_KEYS:
+        ends_y |= set((yahoo.get(k) or {}).keys())
+    if period_hint:
+        end_y = _match_end(period_hint, sorted(ends_y))
+    else:
+        common = [e for e in ends_y if any(_match_end(e, list((official.get(k) or {}).keys()))
+                                           for k in CHECK_KEYS)]
+        end_y = max(common) if common else None
+    if not end_y:
+        return {"source": source, "status": "non verificabile", "items": {}}
+    for k in CHECK_KEYS:
+        yv = (yahoo.get(k) or {}).get(end_y)
+        off = official.get(k) or {}
+        m = _match_end(end_y, list(off.keys()))
+        ov = off.get(m) if m else None
+        if yv is None or ov is None:
+            continue
+        diff = abs(yv - ov) / abs(ov) if ov else None
+        items[k] = {"yahoo": yv, "official": ov, "diff": diff}
+    return {"source": source, "fy_end": end_y, "items": items,
+            "status": "confrontato" if items else "non verificabile"}
+
+
+def fetch_one(ticker: str, region: str, country: str = "") -> dict | None:
     t = yf.Ticker(ticker)
     info = _call(lambda: t.info, required=True) or {}
     stamp = datetime.now(timezone.utc).isoformat(timespec="seconds")
@@ -155,9 +193,11 @@ def fetch_one(ticker: str, region: str) -> dict | None:
     sources = {k: "yahoo" for k in yahoo if yahoo[k]}
     currency = info.get("financialCurrency") or info.get("currency")
 
+    check = {"source": None, "status": "non verificabile", "items": {}}
     if region == "USA":
         sec = _call(lambda: fetch_sec_financials(ticker))
         if sec:
+            check = _crosscheck(yahoo, sec, "SEC")
             for k, s in sec.items():
                 y = series.get(k, {})
                 if not s:
@@ -169,6 +209,22 @@ def fetch_one(ticker: str, region: str) -> dict | None:
                     sources[k] = "sec"
             if any(v == "sec" for v in sources.values()):
                 currency = "USD"
+
+    elif region == "Europa":
+        from .esef import official_figures
+        try:
+            off = official_figures(ticker, info.get("longName") or info.get("shortName") or "", country)
+        except Exception as e:
+            log.debug("%s ESEF: %s", ticker, e)
+            off = None
+        if off:
+            same_ccy = (off.get("currency") or "").upper() == (currency or "").upper()
+            series_off = {k: {off["period_end"]: off[k]} for k in CHECK_KEYS if off.get(k) is not None}
+            if same_ccy:
+                check = _crosscheck(yahoo, series_off, off["source"], period_hint=off["period_end"])
+            else:
+                check = {"source": off["source"], "status": "valuta diversa", "items": {}}
+            check["official_period_end"] = off["period_end"]
 
     # elenco degli esercizi: dalle date di fine di ricavi / utile / attivo
     anchor = series.get("revenue") or series.get("net_income") or series.get("total_assets") or {}
@@ -192,8 +248,21 @@ def fetch_one(ticker: str, region: str) -> dict | None:
         "info": {k: info.get(k) for k in INFO_KEYS},
         "governance": _governance(t, info),
         "sources": sources,
+        "crosscheck": check,
+        "info_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "years": sorted(years, key=lambda r: r["fy_end"]),
     }
+
+
+def refresh_info(old: dict) -> dict:
+    """Aggiornamento leggero mensile: solo anagrafica, governance e stime analisti (bilanci invariati)."""
+    t = yf.Ticker(old["ticker"])
+    info = _call(lambda: t.info, required=True) or {}
+    if info.get("longName") or info.get("shortName"):
+        old["info"] = {k: info.get(k) for k in INFO_KEYS}
+        old["governance"] = _governance(t, info)
+        old["info_at"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    return old
 
 
 def _needs_refresh(old: dict | None, region: str, now: datetime, cfg: dict) -> tuple[bool, str]:
@@ -225,23 +294,29 @@ def update_fundamentals(universe: pd.DataFrame, limit: int | None = None, force:
     limit = limit or cfg["fundamentals_batch_per_run"]
     now = datetime.now(timezone.utc)
 
-    queue, reasons = [], {}
+    queue, reasons, info_queue = [], {}, []
+    min_gap = timedelta(days=cfg["fundamentals_min_days_between_checks"])
     for _, r in universe.iterrows():
         old = read_json(FUND_DIR / f"{safe_name(r.ticker)}.json")
+        country = r.country if isinstance(r.country, str) else ""
         need, why = (True, "forzato") if force else _needs_refresh(old, r.region, now, cfg)
         reasons[why] = reasons.get(why, 0) + 1
         if need:
             ts = datetime.fromisoformat(old["fetched_at"]) if old else datetime(2000, 1, 1, tzinfo=timezone.utc)
-            queue.append((ts, r.ticker, r.region))
+            queue.append((ts, r.ticker, r.region, country))
+        elif old and not old.get("skip"):
+            info_at = datetime.fromisoformat(old.get("info_at") or old["fetched_at"])
+            if now - info_at >= min_gap:
+                info_queue.append(r.ticker)
     queue.sort()
     queue = queue[:limit]
     log.info("Controllo bilanci: %s", reasons)
-    log.info("Bilanci da aggiornare: %d (limite %d)", len(queue), limit)
+    log.info("Bilanci da aggiornare: %d (limite %d) · anagrafiche da aggiornare: %d", len(queue), limit, len(info_queue))
 
     done, consecutive_err = 0, 0
-    for i, (_, ticker, region) in enumerate(queue, 1):
+    for i, (_, ticker, region, country) in enumerate(queue, 1):
         try:
-            data = fetch_one(ticker, region)
+            data = fetch_one(ticker, region, country)
             consecutive_err = 0
         except Exception as e:
             log.warning("%s: errore %s", ticker, e)
@@ -256,5 +331,18 @@ def update_fundamentals(universe: pd.DataFrame, limit: int | None = None, force:
         if i % 25 == 0:
             log.info("Bilanci: %d/%d", i, len(queue))
         time.sleep(0.5)
+
+    refreshed = 0
+    for i, ticker in enumerate(info_queue, 1):
+        path = FUND_DIR / f"{safe_name(ticker)}.json"
+        try:
+            write_json(path, refresh_info(read_json(path)))
+            refreshed += 1
+        except Exception as e:
+            log.debug("%s anagrafica: %s", ticker, e)
+        if i % 100 == 0:
+            log.info("Anagrafiche: %d/%d", i, len(info_queue))
+        time.sleep(0.3)
+    log.info("Anagrafiche aggiornate: %d", refreshed)
     log.info("Bilanci aggiornati: %d", done)
     return done

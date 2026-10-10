@@ -15,6 +15,9 @@ on:
       force:
         description: "Riscarica tutti i bilanci (true/false)"
         default: "false"
+      tickers:
+        description: "Solo questi titoli, separati da virgola (vuoto = tutti)"
+        default: ""
 
 concurrency:
   group: update
@@ -51,10 +54,16 @@ jobs:
           rm -f data/last_run.log
           FORCE=""
           if [ "${{ github.event.inputs.force }}" = "true" ]; then FORCE="--force"; fi
+          TICK=""
+          if [ -n "${{ github.event.inputs.tickers }}" ]; then TICK="--tickers ${{ github.event.inputs.tickers }}"; fi
           # processi separati: Yahoo invalida la sessione dopo i download massivi di prezzi
           for s in diag esefprobe universe fundamentals prices score; do
             case ",$STEPS," in *",$s,"*)
-              python -m stockpicking.run --steps "$s" --limit "$LIMIT" $FORCE ;;
+              if [ "$s" = "fundamentals" ]; then
+                python -m stockpicking.run --steps "$s" --limit "$LIMIT" $FORCE $TICK
+              else
+                python -m stockpicking.run --steps "$s" --limit "$LIMIT" $FORCE
+              fi ;;
             esac
           done
 
@@ -63,7 +72,7 @@ jobs:
         run: |
           git config user.name "stockpicking-bot"
           git config user.email "actions@users.noreply.github.com"
-          for p in data/universe.csv data/fundamentals data/last_run.log data/classifica_top100.csv data/track; do [ -e "$p" ] && git add "$p"; done
+          for p in data/universe.csv data/fundamentals data/last_run.log data/classifica_top100.csv data/track data/lei_map.json; do [ -e "$p" ] && git add "$p"; done
           if git diff --cached --quiet; then
             echo "Nessuna modifica ai dati"
           else

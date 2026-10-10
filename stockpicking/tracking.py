@@ -43,7 +43,10 @@ def save_snapshot(df: pd.DataFrame) -> None:
     ranked = df[df["status"] == "classificato"].sort_values("rank")
     if ranked.empty:
         return
-    snap = ranked[["rank", "ticker", "name", "region", "track", "score", "trading_currency"]].copy()
+    cols = ["rank", "ticker", "name", "region", "track", "score", "trading_currency"]
+    if "pf_weight" in ranked.columns:
+        cols.append("pf_weight")
+    snap = ranked[cols].copy()
     snap["top"] = snap["rank"] <= TOP_N
     snap["date"] = today.isoformat()
     SNAP.mkdir(parents=True, exist_ok=True)
@@ -79,6 +82,11 @@ def update_performance() -> None:
         snap["ret"] = [ret_usd(t, c, start) for t, c in zip(snap["ticker"], snap["trading_currency"])]
         top = snap[snap["top"]]["ret"].dropna()
         allr = snap["ret"].dropna()
+        pf = None
+        if "pf_weight" in snap.columns:
+            w = snap.dropna(subset=["pf_weight", "ret"])
+            if len(w) and w["pf_weight"].sum() > 0:
+                pf = float((w["pf_weight"] * w["ret"]).sum() / w["pf_weight"].sum())
         b = adj.get(BENCH)
         b0, b1 = _price_at(b, start), _price_at(b, end)
         bench = b1 / b0 - 1 if b0 and b1 else None
@@ -86,6 +94,7 @@ def update_performance() -> None:
             "snapshot": f.stem, "start": start, "end": end.date().isoformat(),
             "days": (end - pd.Timestamp(start)).days,
             "top30": top.mean() if len(top) else None, "top30_n": int(len(top)),
+            "portafoglio_modello": pf,
             "universo": allr.mean() if len(allr) else None, "universo_n": int(len(allr)),
             "msci_world": bench,
             "extra_vs_universo": (top.mean() - allr.mean()) if len(top) and len(allr) else None,
