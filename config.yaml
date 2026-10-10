@@ -1,0 +1,211 @@
+# =====================================================================
+#  STOCKPICKING — configurazione del modello
+#  Tutti i pesi, le soglie e i parametri del punteggio stanno qui.
+#  Modifica questo file per cambiare il modello: il codice non va toccato.
+# =====================================================================
+
+# ---------------------------------------------------------------------
+# Parametri generali
+# ---------------------------------------------------------------------
+general:
+  history_years: 5            # anni di storico usati per crescita e stabilità
+  min_years_scored: 3         # sotto questa soglia: "storico insufficiente", fuori classifica
+  min_peers: 8                # titoli minimi per confrontarsi con l'industria (altrimenti settore)
+  cost_of_equity: 0.10        # costo del capitale per il P/TBV teorico di banche/assicurazioni
+  fundamentals_max_age_days: 7     # ogni quanti giorni riscaricare i bilanci di un titolo
+  fundamentals_batch_per_run: 300  # titoli aggiornati per esecuzione (evita blocchi di Yahoo)
+
+# Titoli aggiuntivi da analizzare oltre agli indici (formato Yahoo, es. "BLX", "FUTU", "XYZ.MI")
+extra_tickers: []
+
+# ---------------------------------------------------------------------
+# Pesi delle aree (totale 100)
+# ---------------------------------------------------------------------
+area_weights:
+  nucleo: 30        # Fondamentali & cassa
+  valutazione: 20   # Prezzo e multipli
+  moat: 20          # Vantaggio competitivo (solo statistico)
+  macro: 15         # Vento a favore del settore (solo statistico)
+  protezione: 10    # Solidità e qualità contabile
+  tecnica: 5        # Timing e psicologia
+
+# ---------------------------------------------------------------------
+# Componenti di ciascuna area per percorso.
+# Ogni componente vale i punti indicati; il punteggio è il percentile del titolo
+# rispetto ai comparabili (direzione "high" = più alto è meglio, "low" = più basso è meglio).
+# Se un dato manca, i punti dell'area si ridistribuiscono sui componenti disponibili.
+# ---------------------------------------------------------------------
+components:
+  usuale:
+    nucleo:
+      revenue_cagr:        {points: 5, dir: high}
+      ebitda_cagr:         {points: 4, dir: high}
+      net_income_cagr:     {points: 3, dir: high}
+      fcf_margin:          {points: 5, dir: high}
+      fcf_positive_share:  {points: 3, dir: high}
+      net_margin:          {points: 3, dir: high}
+      debt_to_equity:      {points: 3, dir: low}
+      net_debt_to_ebitda:  {points: 2, dir: low}
+      interest_coverage:   {points: 2, dir: high}
+    valutazione:
+      ev_ebitda:           {points: 5, dir: low}
+      pe:                  {points: 4, dir: low}
+      p_fcf:               {points: 4, dir: low}
+      pb:                  {points: 2, dir: low}
+      ev_ebitda_vs_own_history: {points: 5, dir: low}
+    moat:
+      roic_avg:            {points: 8, dir: high}
+      roic_above_peer_share: {points: 3, dir: high}
+      roic_stability:      {points: 3, dir: high}
+      gross_margin_avg:    {points: 3, dir: high}
+      gross_margin_stability: {points: 3, dir: high}
+    macro:
+      peer_revenue_cagr:   {points: 8, dir: high}
+      peer_growth_consistency: {points: 3, dir: high}
+      share_gain:          {points: 4, dir: high}
+    protezione:
+      beneish_m:           {points: 3, dir: low}
+      altman_z:            {points: 4, dir: high}
+      ncav_to_mcap:        {points: 3, dir: high}
+    tecnica:
+      rsi14:               {points: 2, dir: low}
+      dist_sma200:         {points: 2, dir: low}
+      short_pct_float:     {points: 1, dir: low}
+
+  banca:
+    nucleo:
+      roe_avg:             {points: 8, dir: high}
+      cost_income:         {points: 7, dir: low}
+      nii_cagr:            {points: 5, dir: high}
+      net_income_cagr:     {points: 5, dir: high}
+      equity_to_assets:    {points: 5, dir: high}
+    valutazione:
+      ptbv_gap:            {points: 12, dir: low}   # P/TBV attuale / P/TBV teorico (ROTE / costo capitale)
+      pe:                  {points: 8, dir: low}
+    moat:
+      roe_avg:             {points: 8, dir: high}
+      roe_above_peer_share: {points: 3, dir: high}
+      roe_stability:       {points: 3, dir: high}
+      cost_income_stability: {points: 6, dir: high}
+    macro:
+      peer_revenue_cagr:   {points: 8, dir: high}
+      peer_growth_consistency: {points: 3, dir: high}
+      share_gain:          {points: 4, dir: high}
+    protezione:
+      equity_to_assets:    {points: 5, dir: high}
+      profit_positive_share: {points: 5, dir: high}
+    tecnica:
+      rsi14:               {points: 2, dir: low}
+      dist_sma200:         {points: 2, dir: low}
+      short_pct_float:     {points: 1, dir: low}
+
+  assicurazione:
+    nucleo:
+      roe_avg:             {points: 10, dir: high}
+      net_income_cagr:     {points: 7, dir: high}
+      revenue_cagr:        {points: 6, dir: high}
+      equity_to_assets:    {points: 7, dir: high}
+    valutazione:
+      ptbv_gap:            {points: 12, dir: low}
+      pe:                  {points: 8, dir: low}
+    moat:
+      roe_avg:             {points: 8, dir: high}
+      roe_above_peer_share: {points: 6, dir: high}
+      roe_stability:       {points: 6, dir: high}
+    macro:
+      peer_revenue_cagr:   {points: 8, dir: high}
+      peer_growth_consistency: {points: 3, dir: high}
+      share_gain:          {points: 4, dir: high}
+    protezione:
+      equity_to_assets:    {points: 5, dir: high}
+      profit_positive_share: {points: 5, dir: high}
+    tecnica:
+      rsi14:               {points: 2, dir: low}
+      dist_sma200:         {points: 2, dir: low}
+      short_pct_float:     {points: 1, dir: low}
+
+  reit:
+    nucleo:
+      ffo_cagr:            {points: 8, dir: high}
+      ffo_margin:          {points: 7, dir: high}
+      net_debt_to_ebitda:  {points: 8, dir: low}
+      interest_coverage:   {points: 7, dir: high}
+    valutazione:
+      p_ffo:               {points: 14, dir: low}
+      pb:                  {points: 6, dir: low}
+    moat:
+      ebitda_margin_avg:   {points: 10, dir: high}
+      ebitda_margin_stability: {points: 10, dir: high}
+    macro:
+      peer_revenue_cagr:   {points: 8, dir: high}
+      peer_growth_consistency: {points: 3, dir: high}
+      share_gain:          {points: 4, dir: high}
+    protezione:
+      debt_to_assets:      {points: 10, dir: low}
+    tecnica:
+      rsi14:               {points: 2, dir: low}
+      dist_sma200:         {points: 2, dir: low}
+      short_pct_float:     {points: 1, dir: low}
+
+# ---------------------------------------------------------------------
+# Red flag: se una è attiva il titolo esce dalla classifica (resta visibile come "escluso")
+# ---------------------------------------------------------------------
+red_flags:
+  usuale:
+    beneish_m_max: -1.78          # M-Score sopra questa soglia = rischio manipolazione
+    debt_to_equity_max: 2.0       # solo se patrimonio netto positivo
+    net_debt_to_ebitda_max: 3.5
+    interest_coverage_min: 2.0
+    gross_margin_min: 0.15
+    roic_min: 0.08
+    altman_z_min: 1.81            # zona di distress
+    altman_exempt_sectors: [Utilities, Real Estate]
+  banca:
+    equity_to_assets_min: 0.04
+    last_year_loss: true          # perdita nell'ultimo esercizio
+  assicurazione:
+    equity_to_assets_min: 0.03
+    last_year_loss: true
+  reit:
+    net_debt_to_ebitda_max: 9.0
+    interest_coverage_min: 1.5
+  comuni:
+    min_avg_daily_value_usd: 2000000   # controvalore medio giornaliero minimo (3 mesi)
+
+# ---------------------------------------------------------------------
+# Classificazione dei percorsi in base all'industria (Yahoo Finance)
+# ---------------------------------------------------------------------
+tracks:
+  banca_industry_prefix: ["Banks"]
+  assicurazione_industry_prefix: ["Insurance"]
+  reit_industry_prefix: ["REIT"]
+  ciclici_industries:
+    - Oil & Gas E&P
+    - Oil & Gas Integrated
+    - Oil & Gas Drilling
+    - Oil & Gas Equipment & Services
+    - Gold
+    - Silver
+    - Copper
+    - Aluminum
+    - Steel
+    - Coking Coal
+    - Thermal Coal
+    - Uranium
+    - Other Industrial Metals & Mining
+    - Other Precious Metals & Mining
+    - Agricultural Inputs
+    - Chemicals
+  esclusi:
+    biotech_industries: [Biotechnology]
+    biotech_min_revenue_usd: 100000000   # biotech con ricavi sotto questa soglia = fuori modello
+
+# ---------------------------------------------------------------------
+# Soglie di lettura per la dashboard (solo etichette, non influiscono sul punteggio)
+# ---------------------------------------------------------------------
+labels:
+  rsi_overbought: 70
+  rsi_oversold: 30
+  sma200_overextended: 0.25
+  short_interest_alarm: 0.15
+  altman_safe: 2.99

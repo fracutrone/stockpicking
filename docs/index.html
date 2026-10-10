@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stockpicking</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <span class="mark">SP</span>
+    <div>
+      <h1>Stockpicking</h1>
+      <p class="sub" id="meta">Caricamento…</p>
+    </div>
+  </div>
+  <div class="counts" id="counts"></div>
+</header>
+
+<section class="controls">
+  <input id="q" type="search" placeholder="Cerca ticker o nome…" autocomplete="off">
+  <select id="region"><option value="">Tutte le regioni</option><option>USA</option><option>Europa</option></select>
+  <select id="sector"><option value="">Tutti i settori</option></select>
+  <select id="track">
+    <option value="">Tutti i percorsi</option>
+    <option value="usuale">Settori usuali</option>
+    <option value="banca">Banche</option>
+    <option value="assicurazione">Assicurazioni</option>
+    <option value="reit">REIT</option>
+  </select>
+  <div class="seg" id="status">
+    <button data-v="classificato" class="on">Classificati</button>
+    <button data-v="escluso">Esclusi</button>
+    <button data-v="altro">Fuori classifica</button>
+  </div>
+</section>
+
+<main>
+  <table class="rank" id="table">
+    <thead>
+      <tr>
+        <th data-k="rank" class="num">#</th>
+        <th data-k="t">Titolo</th>
+        <th data-k="score" class="num">Score</th>
+        <th class="hide-s">Aree</th>
+        <th data-k="flags">Red flag</th>
+        <th data-k="k1" class="num hide-s">Redditività vs mediana</th>
+        <th data-k="k2" class="num hide-s">Multiplo vs mediana</th>
+        <th data-k="rsi" class="hide-m">RSI</th>
+        <th data-k="mcap" class="num hide-m">Mkt cap</th>
+      </tr>
+    </thead>
+    <tbody id="rows"></tbody>
+  </table>
+  <p class="empty" id="empty" hidden>Nessun titolo con questi filtri.</p>
+</main>
+
+<aside class="drawer" id="drawer" aria-hidden="true">
+  <div class="drawer-inner" id="card"></div>
+</aside>
+<div class="scrim" id="scrim"></div>
+
+<footer class="foot">
+  Modello quantitativo personale · Dati Yahoo Finance e SEC EDGAR · Non costituisce consulenza finanziaria
+</footer>
+<script src="app.js"></script>
+</body>
+</html>
