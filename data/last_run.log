@@ -1,423 +1,86 @@
-2026-10-10 14:28:06,471 INFO stockpicking: Controllo bilanci: {'forzato': 1663}
-2026-10-10 14:28:06,471 INFO stockpicking: Bilanci da aggiornare: 1663 (limite 2000) · anagrafiche da aggiornare: 0
-2026-10-10 14:28:14,812 INFO stockpicking: ESEF: LEI non trovato per AED.BR (Aedifica NV/SA, BE); candidati GLEIF provati: []
-2026-10-10 14:28:29,249 INFO stockpicking: ESEF: LEI non trovato per AFX.DE (Carl Zeiss Meditec AG, DE); candidati GLEIF provati: ['Carl Zeiss Meditec AG', 'Carl Zeiss Meditec AG', 'Carl Zeiss Meditec AG']
-2026-10-10 14:28:45,923 INFO stockpicking: ESEF: LEI non trovato per AGT.L (AVI Global Trust Ord, GB); candidati GLEIF provati: []
-2026-10-10 14:28:55,306 INFO stockpicking: ESEF: LEI non trovato per AIE.L (Ashoka India Equity Investment Ord, GB); candidati GLEIF provati: []
-2026-10-10 14:28:56,119 ERROR yfinance: HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: AIR-PA.DE"}}}
-2026-10-10 14:29:09,484 INFO stockpicking: ESEF: LEI non trovato per AIXA.DE (AIXTRON SE, DE); candidati GLEIF provati: ['AIXTRON SE', 'AIXTRON SE', 'AIXTRON SE']
-2026-10-10 14:29:27,546 INFO stockpicking: ESEF: LEI non trovato per ALC.SW (Alcon Inc., CH); candidati GLEIF provati: ['ALCON AG', 'ALCON MANAGEMENT SA', 'ALCON PHARMACEUTICALS LTD']
-2026-10-10 14:29:36,625 INFO stockpicking: ESEF: LEI non trovato per ALFA.ST (Alfa Laval AB (publ), SE); candidati GLEIF provati: ['Alfa Laval Treasury International AB (publ)', 'Alfa Laval Treasury International AB (publ)', 'Alfa Laval Treasury International AB (publ)']
-2026-10-10 14:30:10,040 INFO stockpicking: ESEF: LEI non trovato per ALV.DE (Allianz SE, DE); candidati GLEIF provati: ['Allianz SE', 'Allianz SE-PD Fonds', 'Allianz Technology SE', 'Allianz Investment Management SE', 'ALLIANZ GLOBAL CORPORATE & SPECIALTY SE', 'Allianz Global Corporate & Specialty SE']
-2026-10-10 14:30:13,096 INFO stockpicking: ESEF: LEI non trovato per ALW.L (Alliance Witan Ord, GB); candidati GLEIF provati: []
-2026-10-10 14:30:22,942 INFO stockpicking: Bilanci: 25/1663
-2026-10-10 14:30:26,705 INFO stockpicking: ESEF: LEI non trovato per AMRQ.L (Amaroq Ltd., GB); candidati GLEIF provati: []
-2026-10-10 14:30:32,319 INFO stockpicking: ESEF: LEI non trovato per AMRZ.SW (Amrize AG, CH); candidati GLEIF provati: ['Amrize AG', 'Amrize AG', 'Amrize AG']
-2026-10-10 14:31:37,095 INFO stockpicking: ESEF: LEI non trovato per ASL.L (Aberforth Smaller Companies Ord, GB); candidati GLEIF provati: []
-2026-10-10 14:31:52,013 INFO stockpicking: ESEF: LEI non trovato per ASSA-B.ST (ASSA ABLOY AB (publ), SE); candidati GLEIF provati: []
-2026-10-10 14:32:02,148 INFO stockpicking: ESEF: LEI non trovato per ATCO-A.ST (Atlas Copco AB (publ), SE); candidati GLEIF provati: []
-2026-10-10 14:32:09,565 INFO stockpicking: ESEF: LEI non trovato per ATR.L (Schroder Asian Total Return Inv. Company, GB); candidati GLEIF provati: []
-2026-10-10 14:32:12,312 INFO stockpicking: ESEF: LEI non trovato per ATT.L (Allianz Technology Trust Ord, GB); candidati GLEIF provati: []
-2026-10-10 14:32:20,804 INFO stockpicking: ESEF: LEI non trovato per ATYM.L (Atalaya Mining Copper, S.A., GB); candidati GLEIF provati: ['CAIXABANK, S.A.', 'Rochester Bank S.A.', 'USAA S.A. UK BRANCH', 'S.A. PHILLIPS LIMITED', 'MRS S.A. DONALDSON FUND', 'ORION GROUP S.A. LIMITED']
-2026-10-10 14:32:34,238 INFO stockpicking: Bilanci: 50/1663
-2026-10-10 14:33:41,471 INFO stockpicking: ESEF: LEI non trovato per BAS.DE (BASF SE, DE); candidati GLEIF provati: ['BASF SE', 'BASF Beteiligungs SE', 'BASF SE', 'BASF Beteiligungs SE', 'BASF Stiftung', 'Surventis GmbH']
-2026-10-10 14:33:51,932 INFO stockpicking: ESEF: LEI non trovato per BAYN.DE (Bayer Aktiengesellschaft, DE); candidati GLEIF provati: ['Bayer Aktiengesellschaft', 'Bayer Pharma Aktiengesellschaft', 'Bayer CropScience Aktiengesellschaft', 'Bayer Aktiengesellschaft', 'Bayer Pharma Aktiengesellschaft', 'Bayer CropScience Aktiengesellschaft']
-2026-10-10 14:33:55,068 INFO stockpicking: ESEF: LEI non trovato per BBOX.L (Tritax Big Box Ord, GB); candidati GLEIF provati: []
-2026-10-10 14:34:32,282 INFO stockpicking: ESEF: LEI non trovato per BC8.DE (Bechtle AG, DE); candidati GLEIF provati: ['Bechtle Financial Services AG', 'Bechtle Systemhaus Holding AG', 'Bechtle lnternational Operations Holding AG', 'Bechtle Systemhaus Holding AG', 'Bechtle Financial Services AG', 'Bechtle lnternational Operations Holding AG']
-2026-10-10 14:34:49,870 INFO stockpicking: ESEF: LEI non trovato per BEI.DE (Beiersdorf Aktiengesellschaft, DE); candidati GLEIF provati: ['Beiersdorf Aktiengesellschaft', 'Beiersdorf Aktiengesellschaft']
-2026-10-10 14:35:08,873 INFO stockpicking: ESEF: LEI non trovato per BGFD.L (Baillie Gifford Japan Ord, GB); candidati GLEIF provati: []
-2026-10-10 14:35:12,608 INFO stockpicking: ESEF: LEI non trovato per BHMG.L (BH Macro Limited, GB); candidati GLEIF provati: []
-2026-10-10 14:35:12,734 INFO stockpicking: Bilanci: 75/1663
-2026-10-10 14:35:34,454 INFO stockpicking: ESEF: LEI non trovato per BKT.MC (Bankinter, S.A., ES); candidati GLEIF provati: ['BANKINTER 5 FTH', 'BANKINTER 6 FTA', 'BANKINTER 8 FTA', 'BANKINTER 4 FTH', 'BANKINTER 7 FTH', 'BANKINTER 11 FTH']
-2026-10-10 14:36:01,792 INFO stockpicking: ESEF: LEI non trovato per BMW.DE (Bayerische Motoren Werke Aktiengesellschaft, DE); candidati GLEIF provati: ['Bayerische Motoren Werke Aktiengesellschaft', 'Bayerische Motoren Werke Aktiengesellschaft']
-2026-10-10 14:36:08,854 INFO stockpicking: ESEF: LEI non trovato per BNKR.L (Bankers Ord, GB); candidati GLEIF provati: []
-2026-10-10 14:36:18,247 INFO stockpicking: ESEF: LEI non trovato per BNP.PA (BNP Paribas SA, FR); candidati GLEIF provati: ['PUBLICIS GROUPE SA', 'RAINBOW 2032', 'AXA GENERATION', 'STAR MONTEBELLO', 'PHICAP 3 DEFENSIF', 'BNPP AM PRIMA FUND']
-2026-10-10 14:36:26,931 INFO stockpicking: ESEF: LEI non trovato per BNR.DE (Brenntag SE, DE); candidati GLEIF provati: ['BRENNTAG SE', 'BRENNTAG SE', 'BRENNTAG SE', 'BRENNTAG GmbH', 'Brenntag Global Services GmbH', 'BRENNTAG International Chemicals GmbH']
-2026-10-10 14:36:35,664 INFO stockpicking: ESEF: LEI non trovato per BOL.ST (Boliden AB (publ), SE); candidati GLEIF provati: []
-2026-10-10 14:36:41,818 INFO stockpicking: ESEF: LEI non trovato per BOSS.DE (Hugo Boss AG, DE); candidati GLEIF provati: ['HUGO BOSS AG', 'HUGO BOSS AG', 'OUTLETCITY AG', 'HUGO BOSS AG', 'OUTLETCITY AG', 'Wilhelm Gerüstbau GmbH']
-2026-10-10 14:36:57,243 INFO stockpicking: ESEF: LEI non trovato per BPCR.L (BioPharma Credit Ord, GB); candidati GLEIF provati: []
-2026-10-10 14:37:18,223 INFO stockpicking: ESEF: LEI non trovato per BRGE.L (BlackRock Greater Europe Ord, GB); candidati GLEIF provati: []
-2026-10-10 14:37:21,163 INFO stockpicking: ESEF: LEI non trovato per BRSC.L (BlackRock Smaller Companies Ord, GB); candidati GLEIF provati: []
-2026-10-10 14:37:21,225 INFO stockpicking: Bilanci: 100/1663
-2026-10-10 14:37:23,982 INFO stockpicking: ESEF: LEI non trovato per BRWM.L (BlackRock World Mining Trust Ord, GB); candidati GLEIF provati: []
-2026-10-10 14:37:35,744 INFO stockpicking: ESEF: LEI non trovato per BUT.L (Brunner Ord, GB); candidati GLEIF provati: []
-2026-10-10 14:37:55,195 INFO stockpicking: ESEF: LEI non trovato per BWY.L (Bellway p.l.c., GB); candidati GLEIF provati: ['Bellway P.L.C 1972 Pension Scheme', 'Bellway P.L.C 1972 Pension Scheme', 'Bellway P.L.C 1972 Pension Scheme']
-2026-10-10 14:38:30,408 INFO stockpicking: ESEF: LEI non trovato per CA.PA (Carrefour SA, FR); candidati GLEIF provati: ['TAM', 'MITI', 'EDEN', 'SIAM', 'ABAK', 'RNPH']
-2026-10-10 14:39:05,331 INFO stockpicking: ESEF: LEI non trovato per CBK.DE (Commerzbank AG, DE); candidati GLEIF provati: ['Krafft-Stiftung', 'DEGI INTERNATIONAL', 'Axel Küper-Stiftung', 'DEGI GERMAN BUSINESS', 'Öhring-Henrich-Stiftung', 'Carl Muellerrath-Stiftung']
-2026-10-10 14:39:29,142 INFO stockpicking: ESEF: LEI non trovato per CFR.SW (Compagnie Financière Richemont SA, CH); candidati GLEIF provati: ['COMPAGNIE FINANCIERE RICHEMONT SA', 'COMPAGNIE FINANCIERE RICHEMONT SA', 'COMPAGNIE FINANCIERE RICHEMONT SA']
-2026-10-10 14:39:32,261 INFO stockpicking: ESEF: LEI non trovato per CGT.L (Capital Gearing Ord, GB); candidati GLEIF provati: []
-2026-10-10 14:39:44,738 INFO stockpicking: ESEF: LEI non trovato per CLDN.L (Caledonia Investments Ord, GB); candidati GLEIF provati: []
-2026-10-10 14:39:44,873 INFO stockpicking: Bilanci: 125/1663
-2026-10-10 14:40:17,924 INFO stockpicking: ESEF: LEI non trovato per CON.DE (Continental Aktiengesellschaft, DE); candidati GLEIF provati: ['Continental Aktiengesellschaft', 'Pensionskasse für Angestellte der Continental Aktiengesellschaft VVaG', 'Continental Aktiengesellschaft', 'Pensionskasse für Angestellte der Continental Aktiengesellschaft VVaG']
-2026-10-10 14:40:29,973 INFO stockpicking: ESEF: LEI non trovato per COR.LS (Corticeira Amorim, S.G.P.S., S.A., PT); candidati GLEIF provati: ['Urmi, S.A.', 'VESTAN S.A.', '3CKET, S.A.', 'BEXLEY, S.A.', 'R.T.L., S.A.', 'BRAINR, S.A.']
-2026-10-10 14:41:07,412 INFO stockpicking: ESEF: LEI non trovato per CS.PA (AXA SA, FR); candidati GLEIF provati: ['AXA REPUBLIQUE SA', 'AXA PARTNERS HOLDING SA', 'AXA MATRIX RISK CONSULTANTS SA', 'AXA IM ALTERNATIVE CREDIT STRATEGIES SA SICAV', 'AXA REPUBLIQUE SA', 'AXA PENSION 2042-2044']
-2026-10-10 14:41:24,632 INFO stockpicking: ESEF: LEI non trovato per CTY.L (City of London Ord, GB); candidati GLEIF provati: []
-2026-10-10 14:41:50,438 INFO stockpicking: ESEF: LEI non trovato per DATA.L (GlobalData Plc, GB); candidati GLEIF provati: ['GLOBALDATA PLC', 'GLOBALDATA PLC', 'GLOBALDATA UK LTD', 'GLOBALDATA PLC', 'GLOBALDATA UK LTD', 'GLOBALDATA NETWORK LLP']
-2026-10-10 14:41:57,020 INFO stockpicking: ESEF: LEI non trovato per DB1.DE (Deutsche Börse AG, DE); candidati GLEIF provati: ['CLEARSTREAM HOLDING AG', 'ISS STOXX GmbH', 'CLEARSTREAM HOLDING AG', 'Deutsche Börse Commodities GmbH', 'Deutsche Börse Aktiengesellschaft', 'Deutsche Börse Digital Exchange GmbH']
-2026-10-10 14:41:57,086 INFO stockpicking: Bilanci: 150/1663
-2026-10-10 14:42:03,477 INFO stockpicking: ESEF: LEI non trovato per DBK.DE (Deutsche Bank Aktiengesellschaft, DE); candidati GLEIF provati: ['DEUTSCHE BANK AKTIENGESELLSCHAFT', 'Deutsche Bank Bauspar-Aktiengesellschaft', 'DEUTSCHE BANK AKTIENGESELLSCHAFT', 'ING-DIBA AG', 'DWS-Fonds BBME', 'DEUTSCHE PFANDBRIEFBANK AG']
-2026-10-10 14:42:07,635 INFO stockpicking: ESEF: LEI non trovato per DCC.L (DCC Energy plc, GB); candidati GLEIF provati: ['DCC ENERGY LTD', 'MULTICHANNEL SOLUTIONS FOR ENTERTAINMENT (MSE) TRADING AS EXERTIS MSE LIMITED']
-2026-10-10 14:42:20,963 INFO stockpicking: ESEF: LEI non trovato per DG.PA (Vinci SA, FR); candidati GLEIF provati: ['KEOLIS SA', 'DAM', 'CASM', 'LDV2', 'IENA', 'SEBIA']
-2026-10-10 14:42:34,811 INFO stockpicking: ESEF: LEI non trovato per DHER.DE (Delivery Hero SE, DE); candidati GLEIF provati: ['Delivery Hero SE', 'Delivery Hero SE', 'Delivery Hero SE', 'Delivery Hero Ventures GmbH', 'Delivery Hero Finco Germany GmbH', 'Delivery Hero Commons GmbH & Co. KG']
-2026-10-10 14:42:43,391 INFO stockpicking: ESEF: LEI non trovato per DHL.DE (DHL AG, DE); candidati GLEIF provati: ['DHL AG', 'DHL AG', 'DHL AG', 'DHL International GmbH', 'DHL Voigt International GmbH', 'Deutsche Hochdruckliga e. V. DHL ® - Deutsche Gesellschaft für Hypertonie und Prävention']
-2026-10-10 14:43:23,710 INFO stockpicking: ESEF: LEI non trovato per DQ7A.IR (Donegal Investment Group plc, IE); candidati GLEIF provati: ['Donegal Investment Group PLC', 'Donegal Investment Group PLC', 'Donegal Investment Group PLC', 'MCHUGH CKKC INVESTMENT LIMITED PARTNERSHIP']
-2026-10-10 14:44:00,824 INFO stockpicking: ESEF: LEI non trovato per DTE.DE (Deutsche Telekom AG, DE); candidati GLEIF provati: ['DEUTSCHE TELEKOM AG', 'Deutsche Telekom Rückversicherung AG', 'DEUTSCHE TELEKOM AG', 'Telekom-Pensionsfonds a. G.', 'Deutsche Telekom Rückversicherung AG', 'Deutsche Telekom Betriebsrenten-Service e. V.']
-2026-10-10 14:44:06,715 INFO stockpicking: ESEF: LEI non trovato per DTG.DE (Daimler Truck Holding AG, DE); candidati GLEIF provati: ['Daimler Truck Holding AG', 'Daimler Truck Holding AG', 'Daimler Truck AG', 'Daimler Truck Holding AG', 'Daimler Truck Pension Trust e.V.', 'Daimler Truck Financial Services Deutschland GmbH']
-2026-10-10 14:44:10,335 INFO stockpicking: ESEF: LEI non trovato per EDIN.L (Edinburgh Investment Ord, GB); candidati GLEIF provati: []
-2026-10-10 14:44:10,424 INFO stockpicking: Bilanci: 175/1663
-2026-10-10 14:44:42,776 INFO stockpicking: ESEF: LEI non trovato per EL.PA (EssilorLuxottica Société anonyme, FR); candidati GLEIF provati: []
-2026-10-10 14:44:52,178 INFO stockpicking: ESEF: LEI non trovato per ELI.BR (Elia Group SA/NV, BE); candidati GLEIF provati: []
-2026-10-10 14:45:38,613 INFO stockpicking: ESEF: LEI non trovato per ENGI.PA (Engie SA, FR); candidati GLEIF provati: ['ENGIE E&P INTERNATIONAL SA', 'STORENGY', 'ENGIE PV CURBANS', 'ENGIE RENOUVELABLES', 'ENGIE E&P INTERNATIONAL SA', 'ENGIE ENERGIE SERVICES FRANCE']
-2026-10-10 14:45:51,435 INFO stockpicking: ESEF: LEI non trovato per ENR.DE (Siemens Energy AG, DE); candidati GLEIF provati: ['Siemens Energy AG', 'Siemens Energy AG', 'Siemens Energy AG', 'KACO new energy GmbH', 'Siemens Energy Compressors GmbH', 'Siemens Energy Power Control GmbH']
-2026-10-10 14:46:14,911 INFO stockpicking: ESEF: LEI non trovato per EOAN.DE (E.ON SE, DE); candidati GLEIF provati: ['E.ON SE', 'E.ON SE', 'E.ON Verwaltungs GmbH', 'UNIPER GLOBAL COMMODITIES SE', 'E.ON SE', 'etalon GmbH']
-2026-10-10 14:46:18,456 INFO stockpicking: ESEF: LEI non trovato per EPI-A.ST (Epiroc AB (publ), SE); candidati GLEIF provati: []
-2026-10-10 14:46:22,183 INFO stockpicking: ESEF: LEI non trovato per EQT.ST (EQT AB (publ), SE); candidati GLEIF provati: []
-2026-10-10 14:46:30,679 INFO stockpicking: ESEF: LEI non trovato per ERIC-B.ST (Telefonaktiebolaget LM Ericsson (publ), SE); candidati GLEIF provati: []
-2026-10-10 14:46:37,068 INFO stockpicking: ESEF: LEI non trovato per ESCT.L (The European Smaller Companies Trust PLC, GB); candidati GLEIF provati: ['THE EUROPEAN SMALLER COMPANIES TRUST PLC', 'THE EUROPEAN SMALLER COMPANIES TRUST PLC', 'JPMORGAN EUROPEAN DISCOVERY TRUST PLC', 'THE EUROPEAN SMALLER COMPANIES TRUST PLC', 'JPMORGAN EUROPEAN DISCOVERY TRUST PLC', 'JUPITER EUROPEAN SMALLER COMPANIES FUND']
-2026-10-10 14:46:37,194 INFO stockpicking: Bilanci: 200/1663
-2026-10-10 14:46:49,359 INFO stockpicking: ESEF: LEI non trovato per EVD.DE (CTS Eventim AG & Co. KGaA, DE); candidati GLEIF provati: ['CTS Eventim AG & Co. KGaA', 'CTS Eventim AG & Co. KGaA', 'eventimpresents GmbH & Co. KG', 'EVENTIM Popkurs Hamburg gemeinnützige GmbH', 'KPS Global Asset Management GmbH & Co. KGaA', 'CTS Eventim AG & Co. KGaA']
-2026-10-10 14:46:54,337 INFO stockpicking: ESEF: LEI non trovato per EVK.DE (Evonik Industries AG, DE); candidati GLEIF provati: ['Evonik Industries AG', 'Evonik Industries AG', 'Evonik Industries AG']
-2026-10-10 14:47:04,270 INFO stockpicking: ESEF: LEI non trovato per EVT.DE (Evotec SE, DE); candidati GLEIF provati: ['Evotec SE', 'Evotec SE', 'Evotec SE', 'Evotec International GmbH']
-2026-10-10 14:47:11,314 INFO stockpicking: ESEF: LEI non trovato per EWI.L (Edinburgh Worldwide Ord, GB); candidati GLEIF provati: []
-2026-10-10 14:47:40,258 INFO stockpicking: ESEF: LEI non trovato per FCIT.L (F&C Investment Trust Ord, GB); candidati GLEIF provati: []
-2026-10-10 14:47:43,047 INFO stockpicking: ESEF: LEI non trovato per FCSS.L (Fidelity China Special Situations Ord, GB); candidati GLEIF provati: []
-2026-10-10 14:47:59,659 INFO stockpicking: ESEF: LEI non trovato per FEML.L (Fidelity Emerging Markets Limited, GB); candidati GLEIF provati: ['Fidelity Emerging Markets Fund', 'Fidelity Index Emerging Markets Fund', 'Fidelity Global Emerging Markets Equity Fund', 'Fidelity Select Emerging Markets Equities Fund', 'Fidelity Responsible Emerging Markets Equity Fund', 'Fidelity Emerging Markets Fund']
-2026-10-10 14:48:09,227 INFO stockpicking: ESEF: LEI non trovato per FEV.L (Fidelity European Trust Ord, GB); candidati GLEIF provati: []
-2026-10-10 14:48:14,042 INFO stockpicking: ESEF: LEI non trovato per FGEN.L (Foresight Environmental Infrastructure Limited, GB); candidati GLEIF provati: ['FORESIGHT ENVIRONMENTAL INFRASTRUCTURE (UK) LIMITED', 'FORESIGHT ENVIRONMENTAL INFRASTRUCTURE (UK) LIMITED', 'FORESIGHT ENVIRONMENTAL INFRASTRUCTURE (UK) LIMITED']
-2026-10-10 14:48:26,009 INFO stockpicking: ESEF: LEI non trovato per FGT.L (Finsbury Growth & Income Ord, GB); candidati GLEIF provati: []
-2026-10-10 14:48:39,850 INFO stockpicking: ESEF: LEI non trovato per FME.DE (Fresenius Medical Care AG, DE); candidati GLEIF provati: ['Fresenius Medical Care AG', 'Fresenius Medical Care AG', 'Fresenius Vermögensverwaltung GmbH', 'Fresenius Medical Care AG', 'Fresenius Medical Care GmbH', 'Fresenius Vermögensverwaltung GmbH']
-2026-10-10 14:48:39,910 INFO stockpicking: Bilanci: 225/1663
-2026-10-10 14:48:45,470 INFO stockpicking: ESEF: LEI non trovato per FNTN.DE (freenet AG, DE); candidati GLEIF provati: ['freenet AG', 'freenet AG', 'freenet AG', 'freenet DLS GmbH', 'freenet Cityline GmbH']
-2026-10-10 14:49:06,293 INFO stockpicking: ESEF: LEI non trovato per FPE3.DE (Fuchs SE, DE); candidati GLEIF provati: ['FUCHS SE', 'Pepperl+Fuchs SE', 'RUDOLF FUCHS SE & Co KG', 'FUCHS SE', 'OHB SE', 'Pepperl+Fuchs SE']
-2026-10-10 14:49:11,163 INFO stockpicking: ESEF: LEI non trovato per FRA.DE (Fraport AG, DE); candidati GLEIF provati: ['Fraport AG Frankfurt Airport Services Worldwide', 'Fraport AG Frankfurt Airport Services Worldwide', 'Fraport AG Frankfurt Airport Services Worldwide']
-2026-10-10 14:49:22,683 INFO stockpicking: ESEF: LEI non trovato per FRE.DE (Fresenius SE & Co. KGaA, DE); candidati GLEIF provati: ['Fresenius SE & Co. KGaA', 'Fresenius SE & Co. KGaA', 'Fresenius SE & Co. KGaA', 'AWIA Umwelt GmbH', 'TraitGenetics GmbH', 'Neovii Biotech GmbH']
-2026-10-10 14:49:42,108 INFO stockpicking: ESEF: LEI non trovato per FSV.L (Fidelity Special Values Ord, GB); candidati GLEIF provati: []
-2026-10-10 14:49:55,632 INFO stockpicking: ESEF: LEI non trovato per G1A.DE (GEA Group Aktiengesellschaft, DE); candidati GLEIF provati: ['GEA Group Aktiengesellschaft', 'Versorgungskasse der Angestellten der GEA Group Aktiengesellschaft VVaG', 'GEA Group Aktiengesellschaft', 'Versorgungskasse der Angestellten der GEA Group Aktiengesellschaft VVaG', 'GEA Group Aktiengesellschaft', 'Versorgungskasse der Angestellten der GEA Group Aktiengesellschaft VVaG']
-2026-10-10 14:50:01,412 INFO stockpicking: ESEF: LEI non trovato per G24.DE (Scout24 SE, DE); candidati GLEIF provati: ['Scout24 SE', 'Scout24 SE', 'Scout24 SE', 'Uhren Koelbel GmbH', 'AllianzGI-Fonds Scout24']
-2026-10-10 14:50:07,356 INFO stockpicking: ESEF: LEI non trovato per GALD.SW (Galderma Group AG, CH); candidati GLEIF provati: ['Galderma Group AG', 'Galderma Group AG', 'Galderma SA', 'Galderma Group AG', 'Galderma Holding SA', 'Galderma Pharma S.A.']
-2026-10-10 14:50:32,301 INFO stockpicking: ESEF: LEI non trovato per GBF.DE (Bilfinger SE, DE); candidati GLEIF provati: ['Bilfinger SE', 'Bilfinger SE', 'BIS Industrieservice Mitte GmbH', 'Bilfinger SE', 'Bilfinger EMS GmbH', 'Bilfinger Noell GmbH']
-2026-10-10 14:50:42,952 INFO stockpicking: ESEF: LEI non trovato per GCP.L (GCP Infrastructure Investments Limited, GB); candidati GLEIF provati: []
-2026-10-10 14:50:55,285 INFO stockpicking: ESEF: LEI non trovato per GEBN.SW (Geberit AG, CH); candidati GLEIF provati: ['Geberit AG', 'Geberit Finanz AG', 'Geberit International AG', 'Geberit AG', 'Geberit Finanz AG', 'Geberit International AG']
-2026-10-10 14:51:03,867 INFO stockpicking: Bilanci: 250/1663
-2026-10-10 14:51:09,952 INFO stockpicking: ESEF: LEI non trovato per GFTU.L (Grafton Group plc, GB); candidati GLEIF provati: ['BRIP 9 LLP', 'BRIP 8 LLP', 'BRIP 7 LLP', 'BRIP 13 LLP', 'BRIP 12 LLP', 'BRIP 11 LLP']
-2026-10-10 14:51:20,853 INFO stockpicking: ESEF: LEI non trovato per GIVN.SW (Givaudan SA, CH); candidati GLEIF provati: ['GIVAUDAN SA', 'GIVAUDAN FINANCE SA', 'GIVAUDAN INTERNATIONAL SA', 'GIVAUDAN TREASURY INTERNATIONAL SA', 'GIVAUDAN SA', 'GIVAUDAN FINANCE SA']
-2026-10-10 14:51:33,297 INFO stockpicking: ESEF: LEI non trovato per GLE.PA (Société Générale Société anonyme, FR); candidati GLEIF provati: []
-2026-10-10 14:52:05,416 ERROR yfinance: HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: GOGL.OL"}}}
-2026-10-10 14:52:36,619 INFO stockpicking: ESEF: LEI non trovato per GRP.IR (Greencoat Renewables, IE); candidati GLEIF provati: ['GREENCOAT RENEWABLES 2 HOLDINGS LIMITED', 'Greencoat Renewables Public Limited Company', 'GREENCOAT RENEWABLES 2 HOLDINGS LIMITED', 'Greencoat Renewables Public Limited Company']
-2026-10-10 14:52:40,257 INFO stockpicking: ESEF: LEI non trovato per GSCT.L (The Global Smaller Companies Trust Ord, GB); candidati GLEIF provati: []
-2026-10-10 14:52:59,725 INFO stockpicking: ESEF: LEI non trovato per GXI.DE (Gerresheimer AG, DE); candidati GLEIF provati: ['Gerresheimer AG', 'Gerresheimer AG', 'Gerresheimer AG', 'Zech GmbH', 'Grondbach GmbH', 'Laurin Stiftung']
-2026-10-10 14:53:12,585 INFO stockpicking: ESEF: LEI non trovato per HAG.DE (Hensoldt AG, DE); candidati GLEIF provati: ['HENSOLDT AG', 'HENSOLDT AG', 'HENSOLDT AG', 'Feindler Holding GmbH', 'HENSOLDT HOLDING GMBH', 'HENSOLDT SENSORS GMBH']
-2026-10-10 14:53:16,440 INFO stockpicking: ESEF: LEI non trovato per HANA.L (Hansa Investment Company Limited, GB); candidati GLEIF provati: []
-2026-10-10 14:53:20,519 INFO stockpicking: Bilanci: 275/1663
-2026-10-10 14:53:37,320 INFO stockpicking: ESEF: LEI non trovato per HEI.DE (Heidelberg Materials AG, DE); candidati GLEIF provati: ['Heidelberg Materials AG', 'Erholungswerk der Belegschaft der Heidelberg Materials AG e.V.', 'Heidelberg Materials AG', 'Altech Advanced Materials AG', 'Erholungswerk der Belegschaft der Heidelberg Materials AG e.V.', 'Heidelberg Materials AG']
-2026-10-10 14:53:50,626 INFO stockpicking: ESEF: LEI non trovato per HEN3.DE (Henkel AG & Co. KGaA, DE); candidati GLEIF provati: ['Henkel AG & Co. KGaA', 'Henkel AG & Co. KGaA', 'Henkel IP & Holding GmbH', 'Henkel AG & Co. KGaA', 'w2ha GmbH', 'HETAVEST GmbH']
-2026-10-10 14:53:58,652 INFO stockpicking: ESEF: LEI non trovato per HEXA-B.ST (Hexagon AB (publ), SE); candidati GLEIF provati: []
-2026-10-10 14:54:06,432 INFO stockpicking: ESEF: LEI non trovato per HFEL.L (Henderson Far East Income Limited, GB); candidati GLEIF provati: []
-2026-10-10 14:54:11,497 INFO stockpicking: ESEF: LEI non trovato per HFG.DE (HelloFresh SE, DE); candidati GLEIF provati: ['HelloFresh SE', 'HelloFresh SE', 'HelloFresh SE']
-2026-10-10 14:54:18,616 INFO stockpicking: ESEF: LEI non trovato per HGT.L (HgCapital Trust Ord, GB); candidati GLEIF provati: []
-2026-10-10 14:54:26,791 INFO stockpicking: ESEF: LEI non trovato per HICL.L (HICL Infrastructure PLC Ord, GB); candidati GLEIF provati: []
-2026-10-10 14:54:43,403 INFO stockpicking: ESEF: LEI non trovato per HLE.DE (HELLA GmbH & Co. KGaA, DE); candidati GLEIF provati: ['HELLA GmbH & Co. KGaA', 'HELLA GmbH & Co. KGaA', 'Hella Pagid GmbH', 'Hella Leuchten-Systeme GmbH', 'HELLA GmbH & Co. KGaA', 'Hella Pagid GmbH']
-2026-10-10 14:54:57,857 INFO stockpicking: ESEF: LEI non trovato per HM-B.ST (H & M Hennes & Mauritz AB (publ), SE); candidati GLEIF provati: []
-2026-10-10 14:55:15,513 INFO stockpicking: ESEF: LEI non trovato per HNR1.DE (Hannover Rück SE, DE); candidati GLEIF provati: ['Hannover Rück SE', 'Hannover Rück SE', 'Hannover Rück SE', 'Hannover Rück Stiftung', 'Hannover Rück Beteiligung Verwaltungs-GmbH']
-2026-10-10 14:55:21,750 INFO stockpicking: ESEF: LEI non trovato per HO.PA (Thales S.A., FR); candidati GLEIF provati: ['NVD', 'FLODI', 'DGISCB', 'STAINLESS', 'GROUP STSI', 'SARL THALES']
-2026-10-10 14:55:25,978 INFO stockpicking: Bilanci: 300/1663
-2026-10-10 14:55:38,667 INFO stockpicking: ESEF: LEI non trovato per HOLN.SW (Holcim AG, CH); candidati GLEIF provati: ['Holcim AG', 'Holcim Trading AG', 'Holcim (Schweiz) AG', 'Holcim USD Finance AG', 'Holcim Kies und Beton AG', 'Holcim Helvetia Finance AG']
-2026-10-10 14:55:42,743 INFO stockpicking: ESEF: LEI non trovato per HOT.DE (HOCHTIEF Aktiengesellschaft, DE); candidati GLEIF provati: ['HOCHTIEF Aktiengesellschaft', 'HOCHTIEF Aktiengesellschaft']
-2026-10-10 14:55:45,769 INFO stockpicking: ESEF: LEI non trovato per HRI.L (Herald Ord, GB); candidati GLEIF provati: []
-2026-10-10 14:55:53,416 INFO stockpicking: ESEF: LEI non trovato per HSL.L (Henderson Smaller Companies Ord, GB); candidati GLEIF provati: []
-2026-10-10 14:56:18,904 INFO stockpicking: ESEF: LEI non trovato per HVPE.L (HarbourVest Global Private Equity Ltd., GB); candidati GLEIF provati: []
-2026-10-10 14:56:29,488 INFO stockpicking: ESEF: LEI non trovato per IAD.L (Invesco Asia Dragon Trust Ord, GB); candidati GLEIF provati: []
-2026-10-10 14:57:01,207 INFO stockpicking: ESEF: LEI non trovato per ICGT.L (ICG Enterprise Trust Ord, GB); candidati GLEIF provati: []
-2026-10-10 14:57:15,653 INFO stockpicking: ESEF: LEI non trovato per IFX.DE (Infineon Technologies AG, DE); candidati GLEIF provati: ['Infineon Technologies AG', 'Infineon Technologies AG', 'Infineon Technologies AG', 'Infineon Technologies Bipolar GmbH & Co. KG', 'Infineon Technologies Dresden GmbH & Co. KG', 'INFINEON TECHNOLOGIES NEU-ISENBURG VERTRIEBS GMBH']
-2026-10-10 14:57:33,091 INFO stockpicking: Bilanci: 325/1663
-2026-10-10 14:57:36,497 INFO stockpicking: ESEF: LEI non trovato per III.L (3i Group Ord, GB); candidati GLEIF provati: []
-2026-10-10 14:57:58,326 INFO stockpicking: ESEF: LEI non trovato per INDU-C.ST (AB Industrivärden (publ), SE); candidati GLEIF provati: ['Industrivärden Invest AB (publ)', 'Industrivärden Invest AB (publ)', 'Industrivärden Invest AB (publ)']
-2026-10-10 14:58:18,035 INFO stockpicking: ESEF: LEI non trovato per INVE-B.ST (Investor AB (publ), SE); candidati GLEIF provati: ['Cubera PE I Investor AB (publ)', 'Cubera PE I Investor AB (publ)', 'Cubera PE I Investor AB (publ)']
-2026-10-10 14:58:39,991 INFO stockpicking: ESEF: LEI non trovato per IRES.IR (Irish Residential Properties REIT Plc, IE); candidati GLEIF provati: ['Irish Residential Properties REIT PLC', 'Irish Residential Properties REIT PLC', 'Irish Residential Properties REIT PLC']
-2026-10-10 14:59:11,237 INFO stockpicking: ESEF: LEI non trovato per JAM.L (JPMorgan American Ord, GB); candidati GLEIF provati: []
-2026-10-10 14:59:14,015 INFO stockpicking: ESEF: LEI non trovato per JCH.L (JPMorgan Claverhouse Ord, GB); candidati GLEIF provati: []
-2026-10-10 14:59:22,668 INFO stockpicking: Bilanci: 350/1663
-2026-10-10 14:59:25,618 INFO stockpicking: ESEF: LEI non trovato per JEDT.L (JPMorgan European Discovery Ord, GB); candidati GLEIF provati: []
-2026-10-10 14:59:28,495 INFO stockpicking: ESEF: LEI non trovato per JEGI.L (JPMorgan European Growth & Income Ord, GB); candidati GLEIF provati: []
-2026-10-10 14:59:32,051 INFO stockpicking: ESEF: LEI non trovato per JEMI.L (JPMorgan Emerging Markets Div Inc, GB); candidati GLEIF provati: []
-2026-10-10 14:59:38,712 INFO stockpicking: ESEF: LEI non trovato per JEN.DE (Jenoptik AG, DE); candidati GLEIF provati: ['JENOPTIK Laser GmbH', 'JENOPTIK Robot GmbH', 'Tridelta Meidensha GmbH', 'JENOPTIK Aktiengesellschaft', 'VINCORION Power Systems GmbH', 'JENOPTIK Optical Systems GmbH']
-2026-10-10 14:59:41,583 INFO stockpicking: ESEF: LEI non trovato per JFJ.L (JPMorgan Japanese Ord, GB); candidati GLEIF provati: []
-2026-10-10 14:59:44,455 INFO stockpicking: ESEF: LEI non trovato per JGGI.L (JPMorgan Global Growth & Income Ord, GB); candidati GLEIF provati: []
-2026-10-10 14:59:53,725 INFO stockpicking: ESEF: LEI non trovato per JMGI.L (JPMorgan Emerging Markets Growth & Income plc., GB); candidati GLEIF provati: ['JPMORGAN EMERGING MARKETS GROWTH & INCOME PLC', 'JPMORGAN EMERGING MARKETS GROWTH & INCOME PLC', 'JPMORGAN EMERGING MARKETS GROWTH & INCOME PLC']
-2026-10-10 15:00:07,457 INFO stockpicking: ESEF: LEI non trovato per JUN3.DE (Jungheinrich Aktiengesellschaft, DE); candidati GLEIF provati: ['Jungheinrich Aktiengesellschaft', 'Jungheinrich Aktiengesellschaft']
-2026-10-10 15:00:34,935 INFO stockpicking: ESEF: LEI non trovato per KBX.DE (Knorr-Bremse AG, DE); candidati GLEIF provati: ['AOS Stahl GmbH & Co. KG', 'Knorr-Bremse Aktiengesellschaft', 'Knorr-Bremse SteeringSystems GmbH', 'Knorr-Bremse Systeme für Nutzfahrzeuge GmbH', 'Knorr-Bremse Systeme für Schienenfahrzeuge GmbH', 'Gebrüder Zobel und Co. Speditions-Gesellschaft mit beschränkter Haftung']
-2026-10-10 15:01:07,948 INFO stockpicking: ESEF: LEI non trovato per KGX.DE (KION GROUP AG, DE); candidati GLEIF provati: ['KION GROUP AG', 'KION GROUP AG', 'KION GROUP AG', 'KION Vorsorge Aktiv e.V.', 'KION Material Handling GmbH', 'KION Financial Services GmbH']
-2026-10-10 15:01:22,148 INFO stockpicking: Bilanci: 375/1663
-2026-10-10 15:01:35,703 ERROR yfinance: HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: KOJAMO.HE"}}}
-2026-10-10 15:01:46,031 INFO stockpicking: ESEF: LEI non trovato per KRN.DE (Krones AG, DE); candidati GLEIF provati: ['KRONES Aktiengesellschaft', 'Krones Betriebskrankenkasse']
-2026-10-10 15:01:59,931 INFO stockpicking: ESEF: LEI non trovato per KRZ.IR (Kerry Group plc, IE); candidati GLEIF provati: ['The Kerry Group Plc Staff Pension Plan', 'The Kerry Group PLC Defined Benefit Plan', 'THE KERRY GROUP PLC DEFINED CONTRIBUTION PLAN', 'KERRY GROUP PLC AVC RETIREMENT BENEFIT SCHEME', 'The Kerry Group Plc Staff Pension Plan', 'The Kerry Group PLC Defined Benefit Plan']
-2026-10-10 15:02:24,775 INFO stockpicking: ESEF: LEI non trovato per LDO.MI (Leonardo S.p.a., IT); candidati GLEIF provati: ['LEONARDO HOLDING S.P.A.', 'LEONARDO DA VINCI S.P.A.', 'LEONARDO INTERNATIONAL S.P.A.', 'LEONARDO GLOBAL SOLUTIONS S.P.A.', 'LEONARDO CALTAGIRONE HOLDING S.P.A.', 'LEONARDO S.P.A. SHARE INCENTIVE PLAN']
-2026-10-10 15:02:30,262 INFO stockpicking: ESEF: LEI non trovato per LEG.DE (LEG Immobilien SE, DE); candidati GLEIF provati: ['LEG Immobilien SE', 'LEG Immobilien SE', 'LEG Immobilien SE', 'LEG West Immobilien GmbH']
-2026-10-10 15:02:42,268 INFO stockpicking: ESEF: LEI non trovato per LHA.DE (Deutsche Lufthansa AG, DE); candidati GLEIF provati: ['Deutsche Lufthansa Berlin-Stiftung', 'Deutsche Lufthansa Aktiengesellschaft']
-2026-10-10 15:03:05,081 INFO stockpicking: ESEF: LEI non trovato per LOGN.SW (Logitech International S.A., CH); candidati GLEIF provati: ['LOGITECH INTERNATIONAL S.A.', 'LOGITECH INTERNATIONAL S.A.', 'LOGITECH INTERNATIONAL S.A.']
-2026-10-10 15:03:12,189 INFO stockpicking: ESEF: LEI non trovato per LONN.SW (Lonza Group AG, CH); candidati GLEIF provati: ['LONZA GROUP AG', 'LONZA GROUP AG', 'LONZA GROUP AG', 'ARXADA AG', 'LONZA SALES AG', 'LONZA SWISS FINANZ AG']
-2026-10-10 15:03:34,186 INFO stockpicking: ESEF: LEI non trovato per LRE.L (Lancashire Holdings Limited, GB); candidati GLEIF provati: ['LANCASHIRE HOLDINGS LIMITED.', 'LANCASHIRE INSURANCE HOLDINGS (UK) LIMITED', 'LANCASHIRE HOLDINGS LIMITED.', 'KAYF 5 Limited', 'SJMO Holdings Limited', 'GEMINOS HOLDINGS LIMITED']
-2026-10-10 15:03:46,590 INFO stockpicking: ESEF: LEI non trovato per LWDB.L (Law Debenture Corporation Ord, GB); candidati GLEIF provati: []
-2026-10-10 15:03:46,739 INFO stockpicking: Bilanci: 400/1663
-2026-10-10 15:03:51,652 INFO stockpicking: ESEF: LEI non trovato per LXS.DE (LANXESS Aktiengesellschaft, DE); candidati GLEIF provati: ['LANXESS Aktiengesellschaft', 'LANXESS Aktiengesellschaft']
-2026-10-10 15:04:28,700 INFO stockpicking: ESEF: LEI non trovato per MBG.DE (Mercedes-Benz Group AG, DE); candidati GLEIF provati: ['Mercedes-Benz Group AG', 'Mercedes-Benz Group AG', 'Mercedes-Benz AG', 'Mercedes-Benz Group AG', 'Mercedes-Benz BKK', 'MERCEDES-BENZ BANK AG']
-2026-10-10 15:04:56,447 INFO stockpicking: ESEF: LEI non trovato per MIO.IR (Mincon Group plc, IE); candidati GLEIF provati: ['Mincon Group Public Limited Company', 'Mincon International Limited Approved Profit Share Scheme']
-2026-10-10 15:05:04,713 INFO stockpicking: ESEF: LEI non trovato per ML.PA (Compagnie Générale des Établissements Michelin Société en commandite par actions, FR); candidati GLEIF provati: []
-2026-10-10 15:05:08,779 INFO stockpicking: ESEF: LEI non trovato per MLC.IR (Malin Corporation plc, IE); candidati GLEIF provati: ['Malin Corporation Public Limited Company']
-2026-10-10 15:05:21,006 INFO stockpicking: ESEF: LEI non trovato per MNKS.L (Monks Ord, GB); candidati GLEIF provati: []
-2026-10-10 15:05:26,284 INFO stockpicking: ESEF: LEI non trovato per MNO.L (Meridian Mining Plc, GB); candidati GLEIF provati: ['MERIDIAN MINING PLC', 'MERIDIAN MINING PLC', 'MERIDIAN MINING PLC', 'N B W MINING LTD RETIREMENT BENEFITS SCHEME 1995']
-2026-10-10 15:05:30,177 INFO stockpicking: ESEF: LEI non trovato per MNTN.L (The Schiehallion Fund Limited, GB); candidati GLEIF provati: []
-2026-10-10 15:05:37,884 INFO stockpicking: ESEF: LEI non trovato per MONT.BR (Montea Comm. VA, BE); candidati GLEIF provati: []
-2026-10-10 15:05:42,242 INFO stockpicking: Bilanci: 425/1663
-2026-10-10 15:05:57,661 INFO stockpicking: ESEF: LEI non trovato per MRC.L (Mercantile Ord, GB); candidati GLEIF provati: []
-2026-10-10 15:06:00,647 INFO stockpicking: ESEF: LEI non trovato per MRCH.L (Merchants Trust Ord, GB); candidati GLEIF provati: []
-2026-10-10 15:06:08,848 INFO stockpicking: ESEF: LEI non trovato per MRK.DE (Merck KGaA, DE); candidati GLEIF provati: ['Merck Healthcare KGaA', 'Merck Electronics KGaA', 'Merck Life Science KGaA', 'Merck Healthcare KGaA', 'Merck Electronics KGaA', 'Merck Life Science KGaA']
-2026-10-10 15:06:19,103 ERROR yfinance: HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: MT-AS.PA"}}}
-2026-10-10 15:06:25,066 INFO stockpicking: ESEF: LEI non trovato per MT.AS (ArcelorMittal S.A., NL); candidati GLEIF provati: ['ArcelorMittal Holdings B.V.', 'ArcelorMittal Netherlands B.V.', 'ArcelorMittal Projects Europe B.V.', 'ARCELORMITTAL LOGISTICS NEDERLAND B.V.', 'ARCELORMITTAL TAILORED BLANKS HOLDING B.V.', 'ArcelorMittal Building Solutions Nederland B.V.']
-2026-10-10 15:06:43,383 INFO stockpicking: ESEF: LEI non trovato per MTS.MC (ArcelorMittal S.A., ES); candidati GLEIF provati: ['MEGASIDER ZARAGOZA SA', 'ARCELORMITTAL ESPAÑA SA', 'ARCELORMITTAL CASISA SA', 'ARCELORMITTAL DISTRIBUCION SL', 'ARCELORMITTAL SPAIN HOLDING SL', 'ARCELORMITTAL AMDS PROCESSING SL']
-2026-10-10 15:06:48,298 INFO stockpicking: ESEF: LEI non trovato per MTX.DE (MTU Aero Engines AG, DE); candidati GLEIF provati: ['MTU Aero Engines AG', 'MTU Aero Engines AG', 'MTU Aero Engines AG']
-2026-10-10 15:06:51,585 INFO stockpicking: ESEF: LEI non trovato per MUT.L (Murray Income Trust Ord, GB); candidati GLEIF provati: []
-2026-10-10 15:06:56,064 INFO stockpicking: ESEF: LEI non trovato per MUV2.DE (Münchener Rückversicherungs-Gesellschaft Aktiengesellschaft in München, DE); candidati GLEIF provati: ['Münchener Rückversicherungs-Gesellschaft Aktiengesellschaft in München', 'Münchener Rückversicherungs-Gesellschaft Aktiengesellschaft in München']
-2026-10-10 15:06:58,968 INFO stockpicking: ESEF: LEI non trovato per MYI.L (Murray International Ord, GB); candidati GLEIF provati: []
-2026-10-10 15:07:06,637 INFO stockpicking: ESEF: LEI non trovato per NAIT.L (North American Income Trust Ord, GB); candidati GLEIF provati: []
-2026-10-10 15:07:09,356 INFO stockpicking: ESEF: LEI non trovato per NAS.L (North Atlantic Smaller Cos Ord, GB); candidati GLEIF provati: []
-2026-10-10 15:07:25,405 INFO stockpicking: ESEF: LEI non trovato per NBPE.L (Neuberger Private Equity Partners Limited, GB); candidati GLEIF provati: []
-2026-10-10 15:07:29,663 INFO stockpicking: Bilanci: 450/1663
-2026-10-10 15:07:40,697 ERROR yfinance: HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: NDA.CO"}}}
-2026-10-10 15:07:46,048 INFO stockpicking: ESEF: LEI non trovato per NDA.DE (Aurubis AG, DE); candidati GLEIF provati: ['Aurubis AG', 'Aurubis AG', 'Aurubis AG', 'Aurubis Stolberg GmbH & Co. KG']
-2026-10-10 15:07:54,389 INFO stockpicking: ESEF: LEI non trovato per NDX1.DE (Nordex SE, DE); candidati GLEIF provati: ['Nordex SE', 'Nordex SE', 'Nordex SE', 'NORDEX Handel GmbH', 'Nordex Employee Holding GmbH']
-2026-10-10 15:08:01,875 INFO stockpicking: ESEF: LEI non trovato per NEM.DE (Nemetschek SE, DE); candidati GLEIF provati: ['Nemetschek SE', 'Nemetschek SE', 'Nemetschek SE', 'Nemetschek SE', 'Nemetschek SE', 'Nemetschek SE']
-2026-10-10 15:08:25,609 INFO stockpicking: ESEF: LEI non trovato per NIBE-B.ST (NIBE Industrier AB (publ), SE); candidati GLEIF provati: []
-2026-10-10 15:08:55,966 INFO stockpicking: ESEF: LEI non trovato per NOS.LS (NOS, S.G.P.S., S.A., PT); candidati GLEIF provati: ['Urmi, S.A.', 'VESTAN S.A.', '3CKET, S.A.', 'BEXLEY, S.A.', 'R.T.L., S.A.', 'Regrifast S.A.']
-2026-10-10 15:09:07,184 INFO stockpicking: ESEF: LEI non trovato per NOVN.SW (Novartis AG, CH); candidati GLEIF provati: ['NOVARTIS AG', 'NOVARTIS HOLDING AG', 'NOVARTIS PHARMA AG', 'Novartis Kapital AG', 'NOVARTIS BIOVENTURES AG', 'Novartis International AG']
-2026-10-10 15:09:49,070 INFO stockpicking: ESEF: LEI non trovato per OIZ.IR (Origin Enterprises plc, IE); candidati GLEIF provati: ['The Origin Enterprises plc Defined Benefit Pension Scheme', 'The Origin Enterprises plc Defined Benefit Pension Scheme', 'ORIGIN ENTERPRISES PUBLIC LIMITED COMPANY', 'The Origin Enterprises plc Defined Benefit Pension Scheme']
-2026-10-10 15:09:49,129 INFO stockpicking: Bilanci: 475/1663
-2026-10-10 15:10:06,345 INFO stockpicking: ESEF: LEI non trovato per ORA.PA (Orange S.A., FR); candidati GLEIF provati: ['EPCO', 'GIRAL', 'SAGEFI', 'H.C.R.', 'SCI PA', 'SODEVI']
-2026-10-10 15:10:44,036 INFO stockpicking: ESEF: LEI non trovato per PAF.L (Pan African Resources PLC, GB); candidati GLEIF provati: ['PAN AFRICAN RESOURCES PLC', 'PAN AFRICAN RESOURCES PLC', 'PAN AFRICAN RESOURCES PLC', 'WHITE KNIGHT INVESTMENTS LIMITED']
-2026-10-10 15:10:57,692 INFO stockpicking: ESEF: LEI non trovato per PAH3.DE (Porsche Automobil Holding SE, DE); candidati GLEIF provati: ['Porsche Automobil Holding SE', 'Porsche Automobil Holding SE', 'Porsche Automobil Holding SE']
-2026-10-10 15:11:00,693 INFO stockpicking: ESEF: LEI non trovato per PCGH.L (Polar Capital Glb Healthcare Ord, GB); candidati GLEIF provati: []
-2026-10-10 15:11:03,625 INFO stockpicking: ESEF: LEI non trovato per PCT.L (Polar Capital Technology Ord, GB); candidati GLEIF provati: []
-2026-10-10 15:11:26,248 INFO stockpicking: ESEF: LEI non trovato per PGHN.SW (Partners Group Holding AG, CH); candidati GLEIF provati: ['Partners Group Holding AG', 'Partners Group Holding AG', 'Partners Group AG', 'ZTZ AG', 'Beet AG', 'IF Sagl']
-2026-10-10 15:11:28,956 INFO stockpicking: ESEF: LEI non trovato per PHI.L (Pacific Horizon Ord, GB); candidati GLEIF provati: []
-2026-10-10 15:11:45,861 INFO stockpicking: ESEF: LEI non trovato per PIN.L (Pantheon International Ord, GB); candidati GLEIF provati: []
-2026-10-10 15:11:46,004 INFO stockpicking: Bilanci: 500/1663
-2026-10-10 15:11:48,888 INFO stockpicking: ESEF: LEI non trovato per PINT.L (Pantheon Infrastructure Ord, GB); candidati GLEIF provati: []
-2026-10-10 15:12:03,181 INFO stockpicking: ESEF: LEI non trovato per PNL.L (Personal Assets Ord, GB); candidati GLEIF provati: []
-2026-10-10 15:12:16,763 INFO stockpicking: ESEF: LEI non trovato per PPET.L (Patria Private Equity Trust, GB); candidati GLEIF provati: ['PATRIA PRIVATE EQUITY TRUST PLC', 'PATRIA PRIVATE EQUITY TRUST PLC']
-2026-10-10 15:12:50,487 INFO stockpicking: ESEF: LEI non trovato per PSH.L (Pershing Square Holdings, Ltd., GB); candidati GLEIF provati: ['ALT LTD', 'WYNX LTD', 'TOML LTD', '42WM LTD', 'REPT LTD', 'CRU2 LTD']
-2026-10-10 15:13:39,722 INFO stockpicking: ESEF: LEI non trovato per PUM.DE (PUMA SE, DE); candidati GLEIF provati: ['PUMA SE', 'PUMA SE', 'PUMA SE', 'Puma Invest', 'PUMA Europe GmbH', 'PUMA International Trading GmbH']
-2026-10-10 15:14:01,968 INFO stockpicking: Bilanci: 525/1663
-2026-10-10 15:14:05,988 INFO stockpicking: ESEF: LEI non trovato per RAA.DE (RATIONAL Aktiengesellschaft, DE); candidati GLEIF provati: ['RATIONAL Aktiengesellschaft', 'RATIONAL Aktiengesellschaft']
-2026-10-10 15:14:29,580 INFO stockpicking: ESEF: LEI non trovato per RCP.L (RIT Capital Partners Ord, GB); candidati GLEIF provati: []
-2026-10-10 15:15:27,960 INFO stockpicking: ESEF: LEI non trovato per RHM.DE (Rheinmetall AG, DE); candidati GLEIF provati: ['Rheinmetall Automotive AG', 'Rheinmetall Automotive AG', 'Rheinmetall Chempro GmbH', 'Rheinmetall Automotive AG', 'Rheinmetall Electronics GmbH', 'Rheinmetall Landsysteme GmbH']
-2026-10-10 15:15:38,092 INFO stockpicking: ESEF: LEI non trovato per RICA.L (Ruffer Investment Company Limited, GB); candidati GLEIF provati: []
-2026-10-10 15:15:51,071 INFO stockpicking: ESEF: LEI non trovato per RMS.PA (Hermès International Société en commandite par actions, FR); candidati GLEIF provati: []
-2026-10-10 15:16:07,952 INFO stockpicking: ESEF: LEI non trovato per RNO.PA (Renault SA, FR); candidati GLEIF provati: ['SA GARAGE HUGUENIN', 'D 2I', 'PYXIS', 'FARR2', 'EVESA', 'I-RUN']
-2026-10-10 15:16:20,605 INFO stockpicking: ESEF: LEI non trovato per ROP.SW (Roche Holding AG, CH); candidati GLEIF provati: ['Roche Holding AG', 'Roche Holding AG', 'Roche Holding AG', "K'RO SARL", 'Roche Re AG', 'Roche Finanz AG']
-2026-10-10 15:16:20,719 INFO stockpicking: Bilanci: 550/1663
-2026-10-10 15:16:30,907 INFO stockpicking: ESEF: LEI non trovato per ROSE.L (Rosebank Industries plc, GB); candidati GLEIF provati: ['ROSEBANK INDUSTRIES HOLDINGS LIMITED']
-2026-10-10 15:17:18,123 INFO stockpicking: ESEF: LEI non trovato per RWE.DE (RWE Aktiengesellschaft, DE); candidati GLEIF provati: ['RWE Aktiengesellschaft', 'RWE Power Aktiengesellschaft', 'RWE Vertrieb Aktiengesellschaft', 'RWE Downstream Aktiengesellschaft', 'RWE Aktiengesellschaft', 'RWE Power Aktiengesellschaft']
-2026-10-10 15:17:22,538 INFO stockpicking: ESEF: LEI non trovato per SAAB-B.ST (Saab AB (publ), SE); candidati GLEIF provati: []
-2026-10-10 15:17:45,769 INFO stockpicking: ESEF: LEI non trovato per SAIN.L (Scottish American Ord, GB); candidati GLEIF provati: []
-2026-10-10 15:18:11,347 INFO stockpicking: ESEF: LEI non trovato per SAND.ST (Sandvik AB (publ), SE); candidati GLEIF provati: ['Sandvik Financial Services AB (publ)', 'Sandvik Treasury Aktiebolag (publ)', 'Sandvik Financial Services AB (publ)', 'Sandvik Treasury Aktiebolag (publ)', 'Sandvik Financial Services AB (publ)']
-2026-10-10 15:18:18,574 INFO stockpicking: ESEF: LEI non trovato per SAX.DE (Ströer SE & Co. KGaA, DE); candidati GLEIF provati: ['Ströer SE & Co. KGaA', 'Ströer SE & Co. KGaA', 'Ströer SE & Co. KGaA', 'Ströer SE & Co. KGaA', 'Ströer SE & Co. KGaA', 'Ströer SE & Co. KGaA']
-2026-10-10 15:18:22,874 INFO stockpicking: Bilanci: 575/1663
-2026-10-10 15:18:25,661 INFO stockpicking: ESEF: LEI non trovato per SCA-B.ST (Svenska Cellulosa Aktiebolaget SCA (publ), SE); candidati GLEIF provati: []
-2026-10-10 15:18:39,338 INFO stockpicking: ESEF: LEI non trovato per SDF.DE (K+S Aktiengesellschaft, DE); candidati GLEIF provati: ['K+S Aktiengesellschaft', 'K+S Aktiengesellschaft']
-2026-10-10 15:18:46,913 INFO stockpicking: ESEF: LEI non trovato per SDP.L (Schroder AsiaPacific Ord, GB); candidati GLEIF provati: []
-2026-10-10 15:18:53,582 INFO stockpicking: ESEF: LEI non trovato per SDZ.SW (Sandoz Group AG, CH); candidati GLEIF provati: ['Sandoz Group AG', 'Sandoz Group AG', 'SANDOZ AG', 'Sandoz Group AG', 'NOVARTIS PHARMA AG', 'NOVARTIS HOLDING AG']
-2026-10-10 15:18:56,889 INFO stockpicking: ESEF: LEI non trovato per SEB-A.ST (Skandinaviska Enskilda Banken AB (publ), SE); candidati GLEIF provati: []
-2026-10-10 15:19:04,104 INFO stockpicking: ESEF: LEI non trovato per SEIT.L (SDCL Efficiency Income Trust plc., GB); candidati GLEIF provati: ['SDCL EFFICIENCY INCOME TRUST PLC', 'SDCL EFFICIENCY INCOME TRUST PLC', 'SDCL EFFICIENCY INCOME TRUST PLC']
-2026-10-10 15:19:12,915 INFO stockpicking: ESEF: LEI non trovato per SEQI.L (Sequoia Economic Infrastructure Income Fund Limited, GB); candidati GLEIF provati: []
-2026-10-10 15:19:36,209 INFO stockpicking: ESEF: LEI non trovato per SHB-A.ST (Svenska Handelsbanken AB (publ), SE); candidati GLEIF provati: []
-2026-10-10 15:19:54,935 INFO stockpicking: ESEF: LEI non trovato per SHL.DE (Siemens Healthineers AG, DE); candidati GLEIF provati: ['Siemens Healthineers AG', 'Siemens Healthineers AG', 'Siemens Healthineers AG', 'Siemens Healthineers Trading GmbH', 'Siemens Healthineers Holding I GmbH', 'Siemens Healthineers Holding II GmbH']
-2026-10-10 15:20:03,655 INFO stockpicking: ESEF: LEI non trovato per SIKA.SW (Sika AG, CH); candidati GLEIF provati: ['Sika AG', 'Sika Finanz AG', 'Sika AG', 'Sika Finanz AG', 'Sika AG', 'Sika Finanz AG']
-2026-10-10 15:20:06,915 INFO stockpicking: ESEF: LEI non trovato per SKA-B.ST (Skanska AB (publ), SE); candidati GLEIF provati: []
-2026-10-10 15:20:11,350 INFO stockpicking: ESEF: LEI non trovato per SKF-B.ST (AB SKF (publ), SE); candidati GLEIF provati: ['SKF Vertevo AB', 'SKF Vertevo AB']
-2026-10-10 15:20:22,871 INFO stockpicking: ESEF: LEI non trovato per SLHN.SW (Swiss Life Holding AG, CH); candidati GLEIF provati: ['Swiss Life Holding AG', 'Swiss Life International Holding AG', 'Swiss Life Investment Management Holding AG', 'Swiss Life Holding AG', 'IPTIQ GROUP HOLDING AG', 'Swiss Life International Holding AG']
-2026-10-10 15:20:38,848 INFO stockpicking: Bilanci: 600/1663
-2026-10-10 15:20:41,440 INFO stockpicking: ESEF: LEI non trovato per SMT.L (Scottish Mortgage Ord, GB); candidati GLEIF provati: []
-2026-10-10 15:20:53,711 INFO stockpicking: ESEF: LEI non trovato per SOF.BR (Sofina Société Anonyme, BE); candidati GLEIF provati: ['SIDRO SA/NV']
-2026-10-10 15:20:56,654 INFO stockpicking: ESEF: LEI non trovato per SOI.L (Schroder Oriental Income Ord, GB); candidati GLEIF provati: []
-2026-10-10 15:21:31,256 INFO stockpicking: ESEF: LEI non trovato per SRE.L (Sirius Real Estate Limited, GB); candidati GLEIF provati: []
-2026-10-10 15:21:45,618 INFO stockpicking: ESEF: LEI non trovato per SREN.SW (Swiss Re AG, CH); candidati GLEIF provati: ['SWISS RE AG', 'SWISS RE SOLUTIONS AG', 'SWISS RE MANAGEMENT AG', 'SWISS RE INVESTMENTS AG', 'SWISS RE DIRECT HOLDINGS AG', 'SWISS RE FUND DISTRIBUTION SERVICES AG']
-2026-10-10 15:22:01,663 INFO stockpicking: ESEF: LEI non trovato per SSIT.L (Seraphim Space Investment Trust Ord, GB); candidati GLEIF provati: []
-2026-10-10 15:22:45,833 INFO stockpicking: ESEF: LEI non trovato per STM.DE (Stabilus SE, DE); candidati GLEIF provati: ['Stabilus SE', 'Stabilus SE', 'Stabilus SE', 'Stabilus GmbH', 'STABILUS Safety GmbH', 'Stabilus Motion Controls GmbH']
-2026-10-10 15:22:45,944 INFO stockpicking: Bilanci: 625/1663
-2026-10-10 15:22:59,995 INFO stockpicking: ESEF: LEI non trovato per SU.PA (Schneider Electric S.E., FR); candidati GLEIF provati: []
-2026-10-10 15:23:22,885 INFO stockpicking: ESEF: LEI non trovato per SWED-A.ST (Swedbank AB (publ), SE); candidati GLEIF provati: ['Merrant Alpha Select SEK', 'Sparbanken Sjuhärad AB (publ)', 'Merrant Alpha Select SEK', 'Sparbanken Sjuhärad AB (publ)']
-2026-10-10 15:23:29,048 INFO stockpicking: ESEF: LEI non trovato per SY1.DE (Symrise AG, DE); candidati GLEIF provati: ['Symrise AG', 'Symrise AG', 'Symrise AG', 'Symrise Financial Services GmbH']
-2026-10-10 15:23:32,478 INFO stockpicking: ESEF: LEI non trovato per SYENS.BR (Syensqo SA/NV, BE); candidati GLEIF provati: []
-2026-10-10 15:24:12,036 INFO stockpicking: ESEF: LEI non trovato per TEG.DE (TAG Immobilien AG, DE); candidati GLEIF provati: ['TAG Immobilien AG', 'TAG Colonia-Immobilien AG', 'TAG Immobilien AG', 'TAG Colonia-Immobilien AG', 'TAG Immobilien AG', 'TAG SH-Immobilien GmbH']
-2026-10-10 15:24:20,845 INFO stockpicking: ESEF: LEI non trovato per TEL2-B.ST (Tele2 AB (publ), SE); candidati GLEIF provati: ['Com Hem Sweden AB (publ)', 'Com Hem Sweden AB (publ)']
-2026-10-10 15:24:24,236 INFO stockpicking: ESEF: LEI non trovato per TELIA.ST (Telia Company AB (publ), SE); candidati GLEIF provati: []
-2026-10-10 15:24:27,147 INFO stockpicking: ESEF: LEI non trovato per TEM.L (Templeton Emerging Mkts Invmt Tr TEMIT, GB); candidati GLEIF provati: []
-2026-10-10 15:24:40,834 INFO stockpicking: ESEF: LEI non trovato per TFIF.L (TwentyFour Income Fund Limited, GB); candidati GLEIF provati: ['MI TWENTYFOUR INVESTMENT FUNDS - Asset Backed Income Fund', 'MI TWENTYFOUR INVESTMENT FUNDS - Asset Backed Income Fund']
-2026-10-10 15:24:48,731 INFO stockpicking: Bilanci: 650/1663
-2026-10-10 15:24:51,302 INFO stockpicking: ESEF: LEI non trovato per THRL.L (Target Healthcare REIT Ord, GB); candidati GLEIF provati: []
-2026-10-10 15:25:13,429 INFO stockpicking: ESEF: LEI non trovato per TKA.DE (thyssenkrupp AG, DE); candidati GLEIF provati: ['thyssenkrupp AG', 'ThyssenKrupp Steel Europe AG', 'thyssenkrupp nucera AG & Co. KGaA', 'thyssenkrupp Industrial Solutions AG', 'thyssenkrupp USA Holding AG & Co. KG', 'thyssenkrupp AG']
-2026-10-10 15:25:19,972 INFO stockpicking: ESEF: LEI non trovato per TLX.DE (Talanx AG, DE); candidati GLEIF provati: ['Talanx Unterstützungsverein e.V.', 'Talanx Aktiengesellschaft', 'Talanx Reinsurance Broker GmbH', 'Talanx Unterstützungsverein e.V.', 'Talanx Beteiligungs- GmbH & Co. KG', 'Talanx Infrastructure France 2 GmbH']
-2026-10-10 15:25:22,827 INFO stockpicking: ESEF: LEI non trovato per TMPL.L (Temple Bar Ord, GB); candidati GLEIF provati: []
-2026-10-10 15:25:28,581 INFO stockpicking: ESEF: LEI non trovato per TMV.DE (TeamViewer SE, DE); candidati GLEIF provati: ['TeamViewer SE', 'TeamViewer SE', 'TeamViewer SE', 'TeamViewer Germany GmbH']
-2026-10-10 15:25:59,554 INFO stockpicking: ESEF: LEI non trovato per TRY.L (TR Property Ord, GB); candidati GLEIF provati: []
-2026-10-10 15:26:10,319 INFO stockpicking: ESEF: LEI non trovato per TRYG.CO (Tryg A/S, DK); candidati GLEIF provati: ['TRYG A/S', 'TRYG INVEST A/S', 'TRYG FORSIKRING A/S', 'TRYG LIVSFORSIKRING A/S', 'TRYG GARANTIFORSIKRING A/S', 'Tryg Real Estate Fund 2 A/S']
-2026-10-10 15:26:40,607 INFO stockpicking: ESEF: LEI non trovato per UBSG.SW (UBS Group AG, CH); candidati GLEIF provati: ['UBS Group AG', 'UBS Group Funding (Switzerland) AG', 'UBS Group AG', 'UBS Group Funding (Switzerland) AG', 'CSA 2 Private Equity', 'UBS AST 4 Mixta BVG 0']
-2026-10-10 15:26:48,757 INFO stockpicking: ESEF: LEI non trovato per UEM.L (Utilico Emerging Markets Ord, GB); candidati GLEIF provati: []
-2026-10-10 15:26:57,108 INFO stockpicking: Bilanci: 675/1663
-2026-10-10 15:27:32,332 INFO stockpicking: ESEF: LEI non trovato per UPR.IR (Uniphar plc, IE); candidati GLEIF provati: ['Uniphar plc Employee Benefit Trust (Ireland)', 'Uniphar plc Employee Benefit Trust (Ireland)', 'UNIPHAR PUBLIC LIMITED COMPANY', 'Uniphar plc Employee Benefit Trust (Ireland)']
-2026-10-10 15:27:39,499 INFO stockpicking: ESEF: LEI non trovato per USA.L (Baillie Gifford US Growth Ord, GB); candidati GLEIF provati: []
-2026-10-10 15:27:45,620 INFO stockpicking: ESEF: LEI non trovato per UTDI.DE (United Internet AG, DE); candidati GLEIF provati: ['United Internet AG', 'United Internet Investments Holding AG & Co. KG', 'United Internet AG', 'United Internet Investments Holding AG & Co. KG', 'United Internet AG', 'United Internet for UNICEF']
-2026-10-10 15:28:10,390 INFO stockpicking: ESEF: LEI non trovato per VEIL.L (Vietnam Enterprise Ord, GB); candidati GLEIF provati: []
-2026-10-10 15:28:21,523 INFO stockpicking: ESEF: LEI non trovato per VLX.L (Volex plc, GB); candidati GLEIF provati: ['VOLEX PLC', 'VOLEX PLC', 'VOLEX PLC']
-2026-10-10 15:28:28,313 INFO stockpicking: ESEF: LEI non trovato per VNA.DE (Vonovia SE, DE); candidati GLEIF provati: ['Vonovia SE', 'Vonovia SE', 'Vonovia SE', 'Vonovia Sozialstiftung', 'Vonovia Dritte Berlin GmbH']
-2026-10-10 15:28:37,017 INFO stockpicking: ESEF: LEI non trovato per VOF.L (VinaCapital Vietnam Opportunity Fund Limited, GB); candidati GLEIF provati: []
-2026-10-10 15:28:41,265 INFO stockpicking: ESEF: LEI non trovato per VOLV-B.ST (AB Volvo (publ), SE); candidati GLEIF provati: ['If-Metalls Koncernfack Inom AB Volvo', 'If-Metalls Koncernfack Inom AB Volvo']
-2026-10-10 15:28:52,634 INFO stockpicking: ESEF: LEI non trovato per VOW3.DE (Volkswagen AG, DE); candidati GLEIF provati: ['Volkswagen Truck & Bus AG', 'Volkswagen Autoversicherung AG', 'Volkswagen Financial Services AG', 'Volkswagen Financial Services Overseas AG', 'Volkswagen Truck & Bus AG', 'Volkswagen Autoversicherung AG']
-2026-10-10 15:29:06,940 INFO stockpicking: Bilanci: 700/1663
-2026-10-10 15:29:12,142 INFO stockpicking: ESEF: LEI non trovato per WAF.DE (Siltronic AG, DE); candidati GLEIF provati: ['Siltronic AG', 'Siltronic AG', 'Siltronic AG', 'Eichholz Siltronic GmbH']
-2026-10-10 15:29:21,863 INFO stockpicking: ESEF: LEI non trovato per WCH.DE (Wacker Chemie AG, DE); candidati GLEIF provati: ['Wacker Chemie AG', 'Wacker Chemie AG', 'Wacker Chemie AG', 'Pensionskasse der Wacker Chemie Versicherungsverein a. G.']
-2026-10-10 15:30:12,839 INFO stockpicking: ESEF: LEI non trovato per WWH.L (Worldwide Healthcare Ord, GB); candidati GLEIF provati: []
-2026-10-10 15:30:38,434 INFO stockpicking: ESEF: LEI non trovato per ZAL.DE (Zalando SE, DE); candidati GLEIF provati: ['Zalando SE', 'Zalando Logistics SE & Co. KG', 'Zalando Logistics Mönchengladbach SE & Co. KG', 'Zalando SE', 'Zalando Logistics SE & Co. KG', 'Zalando Logistics Mönchengladbach SE & Co. KG']
-2026-10-10 15:30:54,685 INFO stockpicking: ESEF: LEI non trovato per ZURN.SW (Zurich Insurance Group AG, CH); candidati GLEIF provati: ['Zurich Insurance Group AG', 'Zurich Insurance Group AG', 'Zurich Insurance Group AG', 'Euler ILS Partners AG', 'AutoMate Insurance AG', 'AXA ART VERSICHERUNG AG']
-2026-10-10 15:31:01,088 INFO stockpicking: ESEF: LEI non trovato per 3IN.L (3i Infrastructure plc, GB); candidati GLEIF provati: ['BIFM INVESTMENTS LIMITED', '3I INDIA INFRASTRUCTURE FUND A LP', '3I INDIA INFRASTRUCTURE FUND D LP', '3I INDIA INFRASTRUCTURE FUND C LP', '3I INDIA INFRASTRUCTURE FUND B LP', '3I EUROPEAN MID-MARKET INFRASTRUCTURE B L.P.']
-2026-10-10 15:31:09,851 INFO stockpicking: ESEF: LEI non trovato per 8TRA.DE (Traton SE, DE); candidati GLEIF provati: ['TRATON SE', 'TRATON SE', 'TRATON SE', 'TRATON-UI-WTW', 'TRATON-UI-Robust', 'TRATON-UI-Dynamik']
-2026-10-10 15:31:14,962 INFO stockpicking: Bilanci: 725/1663
-2026-10-10 15:31:35,756 INFO stockpicking: ESEF: LEI non trovato per AAS.L (Aberdeen Asia Focus PLC, GB); candidati GLEIF provati: ['ABERDEEN ASIA FOCUS PLC', 'ABERDEEN ASIA FOCUS PLC', 'ABERDEEN ASIA FOCUS PLC']
-2026-10-10 15:31:43,465 INFO stockpicking: ESEF: LEI non trovato per ABB.ST (ABB Ltd, SE); candidati GLEIF provati: ['ABB AB', 'ABB E-mobility AB', 'Abb Personalförening', 'Cliens Global Climate', 'ABB Norden Holding AB', 'ABB Robotics Sweden AB']
-2026-10-10 15:31:54,465 INFO stockpicking: ESEF: LEI non trovato per ABBN.SW (ABB Ltd, CH); candidati GLEIF provati: ['ABB Ltd', 'ABB Asea Brown Boveri Ltd', 'ABB TECHNOLOGY VENTURES LTD.', 'ABB Ltd', 'ABB Schweiz AG', 'ABB Capital AG']
-2026-10-10 15:32:07,329 INFO stockpicking: ESEF: LEI non trovato per ABI.BR (Anheuser-Busch InBev SA/NV, BE); candidati GLEIF provati: ['NEWBELCO SA']
-2026-10-10 15:32:24,223 INFO stockpicking: ESEF: LEI non trovato per ACA.PA (Crédit Agricole S.A., FR); candidati GLEIF provati: ['PAYMED', 'SANTEFFI', 'CRCAM DES SAVOIE', 'CADS DEVELOPPEMENT', 'HOLDING NS IMMOBILIER', 'CREDIT AGRICOLE TITRES']
-2026-10-10 15:32:56,441 INFO stockpicking: ESEF: LEI non trovato per ADDT-B.ST (Addtech AB (publ.), SE); candidati GLEIF provati: []
-2026-10-10 15:33:08,248 INFO stockpicking: ESEF: LEI non trovato per ADS.DE (adidas AG, DE); candidati GLEIF provati: ['adidas AG', 'adidas AG', 'adidas AG', 'adidas Foundation gGmbH', 'adidas Pension Trust e.V.', 'adidas Beteiligungsgesellschaft mbH']
-2026-10-10 15:33:18,849 INFO stockpicking: Bilanci: 750/1663
-2026-10-10 15:33:58,589 INFO stockpicking: Bilanci: 775/1663
-2026-10-10 15:34:37,823 INFO stockpicking: Bilanci: 800/1663
-2026-10-10 15:35:18,572 INFO stockpicking: Bilanci: 825/1663
-2026-10-10 15:37:44,373 INFO stockpicking: Bilanci: 850/1663
-2026-10-10 15:38:35,672 INFO stockpicking: Bilanci: 875/1663
-2026-10-10 15:39:19,697 INFO stockpicking: Bilanci: 900/1663
-2026-10-10 15:40:00,216 INFO stockpicking: Bilanci: 925/1663
-2026-10-10 15:40:39,531 INFO stockpicking: Bilanci: 950/1663
-2026-10-10 15:41:21,643 INFO stockpicking: Bilanci: 975/1663
-2026-10-10 15:42:02,136 INFO stockpicking: Bilanci: 1000/1663
-2026-10-10 15:42:43,969 INFO stockpicking: Bilanci: 1025/1663
-2026-10-10 15:43:13,002 ERROR yfinance: Failed to perform, curl: (16) . See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
-2026-10-10 15:43:23,111 INFO stockpicking: Bilanci: 1050/1663
-2026-10-10 15:44:02,946 INFO stockpicking: Bilanci: 1075/1663
-2026-10-10 15:44:42,737 ERROR yfinance: Failed to perform, curl: (16) . See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
-2026-10-10 15:44:49,787 INFO stockpicking: Bilanci: 1100/1663
-2026-10-10 15:45:40,568 INFO stockpicking: Bilanci: 1125/1663
-2026-10-10 15:46:24,868 INFO stockpicking: Bilanci: 1150/1663
-2026-10-10 15:47:07,373 INFO stockpicking: Bilanci: 1175/1663
-2026-10-10 15:47:50,667 INFO stockpicking: Bilanci: 1200/1663
-2026-10-10 15:48:31,812 INFO stockpicking: Bilanci: 1225/1663
-2026-10-10 15:49:11,789 INFO stockpicking: Bilanci: 1250/1663
-2026-10-10 15:49:52,992 INFO stockpicking: Bilanci: 1275/1663
-2026-10-10 15:50:31,156 INFO stockpicking: Bilanci: 1300/1663
-2026-10-10 15:51:13,058 INFO stockpicking: Bilanci: 1325/1663
-2026-10-10 15:52:09,208 INFO stockpicking: Bilanci: 1350/1663
-2026-10-10 15:52:52,094 INFO stockpicking: Bilanci: 1375/1663
-2026-10-10 15:53:33,263 INFO stockpicking: Bilanci: 1400/1663
-2026-10-10 15:54:20,405 INFO stockpicking: Bilanci: 1425/1663
-2026-10-10 15:55:07,581 INFO stockpicking: Bilanci: 1450/1663
-2026-10-10 15:55:49,035 INFO stockpicking: Bilanci: 1475/1663
-2026-10-10 15:56:41,435 INFO stockpicking: Bilanci: 1500/1663
-2026-10-10 15:57:22,839 INFO stockpicking: Bilanci: 1525/1663
-2026-10-10 15:58:01,981 INFO stockpicking: Bilanci: 1550/1663
-2026-10-10 15:58:42,372 INFO stockpicking: Bilanci: 1575/1663
-2026-10-10 15:59:22,459 INFO stockpicking: Bilanci: 1600/1663
-2026-10-10 16:00:04,819 INFO stockpicking: Bilanci: 1625/1663
-2026-10-10 16:00:57,362 INFO stockpicking: Bilanci: 1650/1663
-2026-10-10 16:01:12,784 INFO stockpicking: ESEF: LEI non trovato per NESN.SW (Nestlé S.A., CH); candidati GLEIF provati: ['NESTLÉ S.A.', 'NESTLÉ SUISSE S.A.', 'NESTLÉ CAPITAL ADVISERS S.A.', 'SOCIÉTÉ DES PRODUITS NESTLÉ S.A.', "SOCIÉTÉ POUR L'EXPORTATION DES PRODUITS NESTLÉ S.A.", 'NESTLÉ S.A.']
-2026-10-10 16:01:38,010 INFO stockpicking: ESEF: LEI non trovato per SIE.DE (Siemens Aktiengesellschaft, DE); candidati GLEIF provati: ['Siemens Aktiengesellschaft', 'Siemens Aktiengesellschaft', 'Inspekto GmbH', 'SHC Trust e.V.', 'amedes Holding AG', 'Siemens Advanta Solutions GmbH']
-2026-10-10 16:01:49,948 INFO stockpicking: ESEF: LEI non trovato per UCG.MI (UniCredit S.p.A., IT); candidati GLEIF provati: ['UNICREDIT LEASING S.P.A.', 'UNICREDIT FACTORING S.P.A.', 'UNICREDIT LIFE INSURANCE S.P.A.', 'UNICREDIT VITA ASSICURAZIONI S.P.A.', 'UNICREDIT ALLIANZ ASSICURAZIONI S.P.A.', 'UNICREDIT LEASED ASSET MANAGEMENT S.P.A.']
-2026-10-10 16:02:04,223 INFO stockpicking: ESEF: LEI non trovato per ISP.MI (Intesa Sanpaolo S.p.A., IT); candidati GLEIF provati: ['INTESA SANPAOLO PROVIS S.P.A.', 'INTESA SANPAOLO PROTEZIONE S.P.A.', 'INTESA SANPAOLO RBM SALUTE S.P.A.', 'INTESA SANPAOLO RENT FORYOU S.P.A.', 'INTESA SANPAOLO ASSICURAZIONI S.P.A.', 'INTESA SANPAOLO RE.O.CO. S.P.A. O BREVEMENTE REOCO S.P.A.']
-2026-10-10 16:02:14,054 INFO stockpicking: ESEF: LEI non trovato per SAP.DE (SAP SE, DE); candidati GLEIF provati: ['SAP SE', 'SAP Deutschland SE & Co. KG', 'SAP SE', 'SAP Deutschland SE & Co. KG', 'SAP SE', 'AIMINO TECH GMBH']
-2026-10-10 16:02:14,633 INFO stockpicking: Anagrafiche aggiornate: 0
-2026-10-10 16:02:14,633 INFO stockpicking: Bilanci aggiornati: 1663
-2026-10-10 16:02:14,633 INFO stockpicking: Fatto: fundamentals
-2026-10-10 16:02:21,685 INFO stockpicking: Prezzi 1d: 100/1664
-2026-10-10 16:02:29,702 INFO stockpicking: Prezzi 1d: 200/1664
-2026-10-10 16:02:37,969 INFO stockpicking: Prezzi 1d: 300/1664
-2026-10-10 16:02:46,568 INFO stockpicking: Prezzi 1d: 400/1664
-2026-10-10 16:02:54,648 INFO stockpicking: Prezzi 1d: 500/1664
-2026-10-10 16:03:02,367 INFO stockpicking: Prezzi 1d: 600/1664
-2026-10-10 16:03:10,495 INFO stockpicking: Prezzi 1d: 700/1664
-2026-10-10 16:03:19,389 INFO stockpicking: Prezzi 1d: 800/1664
-2026-10-10 16:03:29,435 INFO stockpicking: Prezzi 1d: 900/1664
-2026-10-10 16:03:32,160 ERROR yfinance: HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: AIR-PA.DE"}}}
-2026-10-10 16:03:32,573 ERROR yfinance: $AIR-PA.DE: No data found, symbol may be delisted
-2026-10-10 16:03:33,558 ERROR yfinance: $ECV.DE: No data found, symbol may be delisted
-2026-10-10 16:03:38,338 ERROR yfinance: 
+2026-10-13 03:08:50,779 INFO yfinance: Failed to create TzCache, reason: Error creating TzCache folder: '/home/runner/.cache/py-yfinance' reason: [Errno 17] File exists: '/home/runner/.cache/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2026-10-13 03:08:50,780 INFO yfinance: Failed to create TzCache, reason: Error creating TzCache folder: '/home/runner/.cache/py-yfinance' reason: [Errno 17] File exists: '/home/runner/.cache/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2026-10-13 03:08:59,849 INFO stockpicking: Prezzi 1d: 100/1664
+2026-10-13 03:09:10,621 INFO stockpicking: Prezzi 1d: 200/1664
+2026-10-13 03:09:21,031 INFO stockpicking: Prezzi 1d: 300/1664
+2026-10-13 03:09:31,718 INFO stockpicking: Prezzi 1d: 400/1664
+2026-10-13 03:09:41,874 INFO stockpicking: Prezzi 1d: 500/1664
+2026-10-13 03:09:52,138 INFO stockpicking: Prezzi 1d: 600/1664
+2026-10-13 03:10:02,289 INFO stockpicking: Prezzi 1d: 700/1664
+2026-10-13 03:10:12,589 INFO stockpicking: Prezzi 1d: 800/1664
+2026-10-13 03:10:22,859 INFO stockpicking: Prezzi 1d: 900/1664
+2026-10-13 03:10:25,646 ERROR yfinance: HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: AIR-PA.DE"}}}
+2026-10-13 03:10:26,094 ERROR yfinance: $AIR-PA.DE: No data found, symbol may be delisted
+2026-10-13 03:10:29,110 ERROR yfinance: $ECV.DE: No data found, symbol may be delisted
+2026-10-13 03:10:33,906 ERROR yfinance: 
 2 Failed downloads:
-2026-10-10 16:03:38,338 ERROR yfinance: ['AIR-PA.DE', 'ECV.DE']: No data found, symbol may be delisted
-2026-10-10 16:03:38,376 INFO stockpicking: Prezzi 1d: 1000/1664
-2026-10-10 16:03:44,612 ERROR yfinance: $MT-AS.PA: No data found, symbol may be delisted
-2026-10-10 16:03:46,911 ERROR yfinance: 
+2026-10-13 03:10:33,906 ERROR yfinance: ['AIR-PA.DE', 'ECV.DE']: No data found, symbol may be delisted
+2026-10-13 03:10:33,959 INFO stockpicking: Prezzi 1d: 1000/1664
+2026-10-13 03:10:39,294 ERROR yfinance: $MT-AS.PA: No data found, symbol may be delisted
+2026-10-13 03:10:44,606 ERROR yfinance: 
 1 Failed download:
-2026-10-10 16:03:46,911 ERROR yfinance: ['MT-AS.PA']: No data found, symbol may be delisted
-2026-10-10 16:03:46,942 INFO stockpicking: Prezzi 1d: 1100/1664
-2026-10-10 16:03:55,422 INFO stockpicking: Prezzi 1d: 1200/1664
-2026-10-10 16:04:03,796 INFO stockpicking: Prezzi 1d: 1300/1664
-2026-10-10 16:04:12,177 INFO stockpicking: Prezzi 1d: 1400/1664
-2026-10-10 16:04:20,422 INFO stockpicking: Prezzi 1d: 1500/1664
-2026-10-10 16:04:23,056 ERROR yfinance: $KOJAMO.HE: No data found, symbol may be delisted
-2026-10-10 16:04:25,744 ERROR yfinance: $GOGL.OL: No data found, symbol may be delisted
-2026-10-10 16:04:26,824 ERROR yfinance: $NDA.CO: No data found, symbol may be delisted
-2026-10-10 16:04:29,071 ERROR yfinance: 
+2026-10-13 03:10:44,606 ERROR yfinance: ['MT-AS.PA']: No data found, symbol may be delisted
+2026-10-13 03:10:44,651 INFO stockpicking: Prezzi 1d: 1100/1664
+2026-10-13 03:10:55,193 INFO stockpicking: Prezzi 1d: 1200/1664
+2026-10-13 03:11:06,221 INFO stockpicking: Prezzi 1d: 1300/1664
+2026-10-13 03:11:16,886 INFO stockpicking: Prezzi 1d: 1400/1664
+2026-10-13 03:11:27,676 INFO stockpicking: Prezzi 1d: 1500/1664
+2026-10-13 03:11:33,237 ERROR yfinance: $GOGL.OL: No data found, symbol may be delisted
+2026-10-13 03:11:35,388 ERROR yfinance: $KOJAMO.HE: No data found, symbol may be delisted
+2026-10-13 03:11:37,650 ERROR yfinance: $NDA.CO: No data found, symbol may be delisted
+2026-10-13 03:11:39,052 ERROR yfinance: 
 3 Failed downloads:
-2026-10-10 16:04:29,072 ERROR yfinance: ['KOJAMO.HE', 'GOGL.OL', 'NDA.CO']: No data found, symbol may be delisted
-2026-10-10 16:04:29,111 INFO stockpicking: Prezzi 1d: 1600/1664
-2026-10-10 16:04:33,825 ERROR yfinance: $SONC.LS: No data found, symbol may be delisted
-2026-10-10 16:04:34,708 ERROR yfinance: $APAM.BR: No data found, symbol may be delisted
-2026-10-10 16:04:35,456 ERROR yfinance: $RY4C.IR: No data found, symbol may be delisted
-2026-10-10 16:04:35,830 ERROR yfinance: 
+2026-10-13 03:11:39,052 ERROR yfinance: ['GOGL.OL', 'KOJAMO.HE', 'NDA.CO']: No data found, symbol may be delisted
+2026-10-13 03:11:39,107 INFO stockpicking: Prezzi 1d: 1600/1664
+2026-10-13 03:11:42,363 ERROR yfinance: $RY4C.IR: No data found, symbol may be delisted
+2026-10-13 03:11:44,205 ERROR yfinance: $SONC.LS: No data found, symbol may be delisted
+2026-10-13 03:11:46,192 ERROR yfinance: $APAM.BR: No data found, symbol may be delisted
+2026-10-13 03:11:47,195 ERROR yfinance: 
 3 Failed downloads:
-2026-10-10 16:04:35,830 ERROR yfinance: ['SONC.LS', 'APAM.BR', 'RY4C.IR']: No data found, symbol may be delisted
-2026-10-10 16:04:35,856 INFO stockpicking: Prezzi 1d: 1664/1664
-2026-10-10 16:04:42,187 INFO stockpicking: Prezzi 1wk: 100/1664
-2026-10-10 16:04:48,442 INFO stockpicking: Prezzi 1wk: 200/1664
-2026-10-10 16:04:54,852 INFO stockpicking: Prezzi 1wk: 300/1664
-2026-10-10 16:05:01,003 INFO stockpicking: Prezzi 1wk: 400/1664
-2026-10-10 16:05:08,995 INFO stockpicking: Prezzi 1wk: 500/1664
-2026-10-10 16:05:16,465 INFO stockpicking: Prezzi 1wk: 600/1664
-2026-10-10 16:05:23,921 INFO stockpicking: Prezzi 1wk: 700/1664
-2026-10-10 16:05:29,978 INFO stockpicking: Prezzi 1wk: 800/1664
-2026-10-10 16:05:36,181 INFO stockpicking: Prezzi 1wk: 900/1664
-2026-10-10 16:05:38,942 ERROR yfinance: $AIR-PA.DE: No data found, symbol may be delisted
-2026-10-10 16:05:40,037 ERROR yfinance: $ECV.DE: No data found, symbol may be delisted
-2026-10-10 16:05:44,479 ERROR yfinance: 
+2026-10-13 03:11:47,196 ERROR yfinance: ['RY4C.IR', 'SONC.LS', 'APAM.BR']: No data found, symbol may be delisted
+2026-10-13 03:11:47,233 INFO stockpicking: Prezzi 1d: 1664/1664
+2026-10-13 03:11:58,520 INFO stockpicking: Prezzi 1wk: 100/1664
+2026-10-13 03:12:09,598 INFO stockpicking: Prezzi 1wk: 200/1664
+2026-10-13 03:12:19,520 INFO stockpicking: Prezzi 1wk: 300/1664
+2026-10-13 03:12:28,696 INFO stockpicking: Prezzi 1wk: 400/1664
+2026-10-13 03:12:37,458 INFO stockpicking: Prezzi 1wk: 500/1664
+2026-10-13 03:12:46,201 INFO stockpicking: Prezzi 1wk: 600/1664
+2026-10-13 03:12:54,536 INFO stockpicking: Prezzi 1wk: 700/1664
+2026-10-13 03:13:02,735 INFO stockpicking: Prezzi 1wk: 800/1664
+2026-10-13 03:13:10,897 INFO stockpicking: Prezzi 1wk: 900/1664
+2026-10-13 03:13:13,532 ERROR yfinance: $AIR-PA.DE: No data found, symbol may be delisted
+2026-10-13 03:13:16,097 ERROR yfinance: $ECV.DE: No data found, symbol may be delisted
+2026-10-13 03:13:20,127 ERROR yfinance: 
 2 Failed downloads:
-2026-10-10 16:05:44,479 ERROR yfinance: ['AIR-PA.DE', 'ECV.DE']: No data found, symbol may be delisted
-2026-10-10 16:05:44,505 INFO stockpicking: Prezzi 1wk: 1000/1664
-2026-10-10 16:05:50,555 ERROR yfinance: $MT-AS.PA: No data found, symbol may be delisted
-2026-10-10 16:05:52,436 ERROR yfinance: 
+2026-10-13 03:13:20,128 ERROR yfinance: ['AIR-PA.DE', 'ECV.DE']: No data found, symbol may be delisted
+2026-10-13 03:13:20,167 INFO stockpicking: Prezzi 1wk: 1000/1664
+2026-10-13 03:13:24,627 ERROR yfinance: $MT-AS.PA: No data found, symbol may be delisted
+2026-10-13 03:13:28,928 ERROR yfinance: 
 1 Failed download:
-2026-10-10 16:05:52,436 ERROR yfinance: ['MT-AS.PA']: No data found, symbol may be delisted
-2026-10-10 16:05:52,464 INFO stockpicking: Prezzi 1wk: 1100/1664
-2026-10-10 16:06:00,303 INFO stockpicking: Prezzi 1wk: 1200/1664
-2026-10-10 16:06:07,902 INFO stockpicking: Prezzi 1wk: 1300/1664
-2026-10-10 16:06:15,758 INFO stockpicking: Prezzi 1wk: 1400/1664
-2026-10-10 16:06:23,314 INFO stockpicking: Prezzi 1wk: 1500/1664
-2026-10-10 16:06:26,118 ERROR yfinance: $KOJAMO.HE: No data found, symbol may be delisted
-2026-10-10 16:06:28,864 ERROR yfinance: $GOGL.OL: No data found, symbol may be delisted
-2026-10-10 16:06:29,827 ERROR yfinance: $NDA.CO: No data found, symbol may be delisted
-2026-10-10 16:06:31,485 ERROR yfinance: 
+2026-10-13 03:13:28,928 ERROR yfinance: ['MT-AS.PA']: No data found, symbol may be delisted
+2026-10-13 03:13:28,968 INFO stockpicking: Prezzi 1wk: 1100/1664
+2026-10-13 03:13:37,808 INFO stockpicking: Prezzi 1wk: 1200/1664
+2026-10-13 03:13:46,402 INFO stockpicking: Prezzi 1wk: 1300/1664
+2026-10-13 03:13:55,082 INFO stockpicking: Prezzi 1wk: 1400/1664
+2026-10-13 03:14:03,311 INFO stockpicking: Prezzi 1wk: 1500/1664
+2026-10-13 03:14:07,871 ERROR yfinance: $GOGL.OL: No data found, symbol may be delisted
+2026-10-13 03:14:09,541 ERROR yfinance: $KOJAMO.HE: No data found, symbol may be delisted
+2026-10-13 03:14:11,196 ERROR yfinance: $NDA.CO: No data found, symbol may be delisted
+2026-10-13 03:14:12,352 ERROR yfinance: 
 3 Failed downloads:
-2026-10-10 16:06:31,486 ERROR yfinance: ['KOJAMO.HE', 'GOGL.OL', 'NDA.CO']: No data found, symbol may be delisted
-2026-10-10 16:06:31,562 INFO stockpicking: Prezzi 1wk: 1600/1664
-2026-10-10 16:06:36,037 ERROR yfinance: $SONC.LS: No data found, symbol may be delisted
-2026-10-10 16:06:36,826 ERROR yfinance: $APAM.BR: No data found, symbol may be delisted
-2026-10-10 16:06:37,383 ERROR yfinance: $RY4C.IR: No data found, symbol may be delisted
-2026-10-10 16:06:37,830 ERROR yfinance: 
+2026-10-13 03:14:12,352 ERROR yfinance: ['GOGL.OL', 'KOJAMO.HE', 'NDA.CO']: No data found, symbol may be delisted
+2026-10-13 03:14:12,391 INFO stockpicking: Prezzi 1wk: 1600/1664
+2026-10-13 03:14:15,444 ERROR yfinance: $RY4C.IR: No data found, symbol may be delisted
+2026-10-13 03:14:17,791 ERROR yfinance: $SONC.LS: No data found, symbol may be delisted
+2026-10-13 03:14:20,104 ERROR yfinance: $APAM.BR: No data found, symbol may be delisted
+2026-10-13 03:14:21,163 ERROR yfinance: 
 3 Failed downloads:
-2026-10-10 16:06:37,830 ERROR yfinance: ['SONC.LS', 'APAM.BR', 'RY4C.IR']: No data found, symbol may be delisted
-2026-10-10 16:06:37,850 INFO stockpicking: Prezzi 1wk: 1664/1664
-2026-10-10 16:06:41,905 INFO stockpicking: Prezzi 1wk: 22/22
-2026-10-10 16:06:43,917 INFO stockpicking: Prezzi aggiornati: 1655 titoli con dati giornalieri
-2026-10-10 16:06:43,920 INFO stockpicking: Fatto: prices
-2026-10-10 16:06:49,094 INFO stockpicking: Portafoglio modello: 20 titoli ({'conviction': 10, 'protective': 6, 'cyclical': 4})
-2026-10-10 16:06:50,514 INFO stockpicking: Classifica esportata: {'classificato': 829, 'escluso': 716, 'fuori modello': 74, 'dati mancanti': 24, 'dati da verificare': 9, 'storico insufficiente': 2}
-2026-10-10 16:06:50,520 INFO stockpicking: Storico: salvata la classifica di 2026-10 (829 titoli, top 30)
-2026-10-10 16:06:51,051 INFO stockpicking: Storico: aggiornato il rendimento di 1 fotografie
-2026-10-10 16:06:51,102 INFO stockpicking: Fatto: score
+2026-10-13 03:14:21,163 ERROR yfinance: ['RY4C.IR', 'SONC.LS', 'APAM.BR']: No data found, symbol may be delisted
+2026-10-13 03:14:21,191 INFO stockpicking: Prezzi 1wk: 1664/1664
+2026-10-13 03:14:25,441 INFO stockpicking: Prezzi 1wk: 22/22
+2026-10-13 03:14:27,455 INFO stockpicking: Prezzi aggiornati: 1655 titoli con dati giornalieri
+2026-10-13 03:14:27,457 INFO stockpicking: Fatto: prices
+2026-10-13 03:14:34,859 INFO stockpicking: Portafoglio modello: 20 titoli ({'conviction': 10, 'protective': 6, 'cyclical': 4})
+2026-10-13 03:14:36,530 INFO stockpicking: Classifica esportata: {'classificato': 830, 'escluso': 715, 'fuori modello': 74, 'dati mancanti': 24, 'dati da verificare': 9, 'storico insufficiente': 2}
+2026-10-13 03:14:37,358 INFO stockpicking: Storico: aggiornato il rendimento di 1 fotografie
+2026-10-13 03:14:37,408 INFO stockpicking: Fatto: score
