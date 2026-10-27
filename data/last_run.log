@@ -1,84 +1,85 @@
-2026-10-24 01:00:23,804 INFO stockpicking: Prezzi 1d: 100/1664
-2026-10-24 01:00:30,356 INFO stockpicking: Prezzi 1d: 200/1664
-2026-10-24 01:00:36,895 INFO stockpicking: Prezzi 1d: 300/1664
-2026-10-24 01:00:43,410 INFO stockpicking: Prezzi 1d: 400/1664
-2026-10-24 01:00:49,885 INFO stockpicking: Prezzi 1d: 500/1664
-2026-10-24 01:00:56,031 INFO stockpicking: Prezzi 1d: 600/1664
-2026-10-24 01:01:02,195 INFO stockpicking: Prezzi 1d: 700/1664
-2026-10-24 01:01:08,505 INFO stockpicking: Prezzi 1d: 800/1664
-2026-10-24 01:01:16,363 INFO stockpicking: Prezzi 1d: 900/1664
-2026-10-24 01:01:22,893 ERROR yfinance: HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: AIR-PA.DE"}}}
-2026-10-24 01:01:22,915 ERROR yfinance: $ECV.DE: No data found, symbol may be delisted
-2026-10-24 01:01:23,180 ERROR yfinance: $AIR-PA.DE: No data found, symbol may be delisted
-2026-10-24 01:01:23,189 ERROR yfinance: 
+2026-10-27 01:36:21,301 INFO stockpicking: Prezzi 1d: 100/1664
+2026-10-27 01:36:31,118 INFO stockpicking: Prezzi 1d: 200/1664
+2026-10-27 01:36:41,301 INFO stockpicking: Prezzi 1d: 300/1664
+2026-10-27 01:36:50,716 INFO stockpicking: Prezzi 1d: 400/1664
+2026-10-27 01:37:00,538 INFO stockpicking: Prezzi 1d: 500/1664
+2026-10-27 01:37:09,375 INFO stockpicking: Prezzi 1d: 600/1664
+2026-10-27 01:37:18,221 INFO stockpicking: Prezzi 1d: 700/1664
+2026-10-27 01:37:27,209 INFO stockpicking: Prezzi 1d: 800/1664
+2026-10-27 01:37:36,216 INFO stockpicking: Prezzi 1d: 900/1664
+2026-10-27 01:37:41,343 ERROR yfinance: HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: AIR-PA.DE"}}}
+2026-10-27 01:37:41,813 ERROR yfinance: $AIR-PA.DE: No data found, symbol may be delisted
+2026-10-27 01:37:44,376 ERROR yfinance: $ECV.DE: No data found, symbol may be delisted
+2026-10-27 01:37:46,022 ERROR yfinance: 
 2 Failed downloads:
-2026-10-24 01:01:23,189 ERROR yfinance: ['ECV.DE', 'AIR-PA.DE']: No data found, symbol may be delisted
-2026-10-24 01:01:23,251 INFO stockpicking: Prezzi 1d: 1000/1664
-2026-10-24 01:01:25,783 ERROR yfinance: $MT-AS.PA: No data found, symbol may be delisted
-2026-10-24 01:01:29,879 ERROR yfinance: 
+2026-10-27 01:37:46,023 ERROR yfinance: ['AIR-PA.DE', 'ECV.DE']: No data found, symbol may be delisted
+2026-10-27 01:37:46,081 INFO stockpicking: Prezzi 1d: 1000/1664
+2026-10-27 01:37:52,357 ERROR yfinance: $MT-AS.PA: No data found, symbol may be delisted
+2026-10-27 01:37:55,134 ERROR yfinance: 
 1 Failed download:
-2026-10-24 01:01:29,879 ERROR yfinance: ['MT-AS.PA']: No data found, symbol may be delisted
-2026-10-24 01:01:29,934 INFO stockpicking: Prezzi 1d: 1100/1664
-2026-10-24 01:01:36,614 INFO stockpicking: Prezzi 1d: 1200/1664
-2026-10-24 01:01:43,337 INFO stockpicking: Prezzi 1d: 1300/1664
-2026-10-24 01:01:50,073 INFO stockpicking: Prezzi 1d: 1400/1664
-2026-10-24 01:01:56,632 INFO stockpicking: Prezzi 1d: 1500/1664
-2026-10-24 01:01:59,406 ERROR yfinance: $GOGL.OL: No data found, symbol may be delisted
-2026-10-24 01:02:01,004 ERROR yfinance: $KOJAMO.HE: No data found, symbol may be delisted
-2026-10-24 01:02:02,869 ERROR yfinance: $NDA.CO: No data found, symbol may be delisted
-2026-10-24 01:02:03,359 ERROR yfinance: 
+2026-10-27 01:37:55,134 ERROR yfinance: ['MT-AS.PA']: No data found, symbol may be delisted
+2026-10-27 01:37:55,185 INFO stockpicking: Prezzi 1d: 1100/1664
+2026-10-27 01:38:04,590 INFO stockpicking: Prezzi 1d: 1200/1664
+2026-10-27 01:38:14,184 INFO stockpicking: Prezzi 1d: 1300/1664
+2026-10-27 01:38:23,857 INFO stockpicking: Prezzi 1d: 1400/1664
+2026-10-27 01:38:32,898 INFO stockpicking: Prezzi 1d: 1500/1664
+2026-10-27 01:38:36,923 ERROR yfinance: $KOJAMO.HE: No data found, symbol may be delisted
+2026-10-27 01:38:36,987 ERROR yfinance: $GOGL.OL: No data found, symbol may be delisted
+2026-10-27 01:38:38,946 ERROR yfinance: $NDA.CO: No data found, symbol may be delisted
+2026-10-27 01:38:42,351 ERROR yfinance: 
 3 Failed downloads:
-2026-10-24 01:02:03,359 ERROR yfinance: ['GOGL.OL', 'KOJAMO.HE', 'NDA.CO']: No data found, symbol may be delisted
-2026-10-24 01:02:03,425 INFO stockpicking: Prezzi 1d: 1600/1664
-2026-10-24 01:02:06,833 ERROR yfinance: $RY4C.IR: No data found, symbol may be delisted
-2026-10-24 01:02:07,593 ERROR yfinance: $SONC.LS: No data found, symbol may be delisted
-2026-10-24 01:02:08,035 ERROR yfinance: $APAM.BR: No data found, symbol may be delisted
-2026-10-24 01:02:08,542 ERROR yfinance: 
+2026-10-27 01:38:42,351 ERROR yfinance: ['KOJAMO.HE', 'GOGL.OL', 'NDA.CO']: No data found, symbol may be delisted
+2026-10-27 01:38:42,410 INFO stockpicking: Prezzi 1d: 1600/1664
+2026-10-27 01:38:45,514 ERROR yfinance: $RY4C.IR: No data found, symbol may be delisted
+2026-10-27 01:38:45,783 ERROR yfinance: $APAM.BR: No data found, symbol may be delisted
+2026-10-27 01:38:48,982 ERROR yfinance: $SONC.LS: No data found, symbol may be delisted
+2026-10-27 01:38:49,754 ERROR yfinance: 
 3 Failed downloads:
-2026-10-24 01:02:08,542 ERROR yfinance: ['RY4C.IR', 'SONC.LS', 'APAM.BR']: No data found, symbol may be delisted
-2026-10-24 01:02:08,583 INFO stockpicking: Prezzi 1d: 1664/1664
-2026-10-24 01:02:14,039 INFO stockpicking: Prezzi 1wk: 100/1664
-2026-10-24 01:02:19,226 INFO stockpicking: Prezzi 1wk: 200/1664
-2026-10-24 01:02:24,529 INFO stockpicking: Prezzi 1wk: 300/1664
-2026-10-24 01:02:29,890 INFO stockpicking: Prezzi 1wk: 400/1664
-2026-10-24 01:02:35,130 INFO stockpicking: Prezzi 1wk: 500/1664
-2026-10-24 01:02:40,136 INFO stockpicking: Prezzi 1wk: 600/1664
-2026-10-24 01:02:45,079 INFO stockpicking: Prezzi 1wk: 700/1664
-2026-10-24 01:02:50,070 INFO stockpicking: Prezzi 1wk: 800/1664
-2026-10-24 01:02:55,236 INFO stockpicking: Prezzi 1wk: 900/1664
-2026-10-24 01:03:00,417 ERROR yfinance: $ECV.DE: No data found, symbol may be delisted
-2026-10-24 01:03:00,670 ERROR yfinance: $AIR-PA.DE: No data found, symbol may be delisted
-2026-10-24 01:03:00,677 ERROR yfinance: 
+2026-10-27 01:38:49,754 ERROR yfinance: ['RY4C.IR', 'APAM.BR', 'SONC.LS']: No data found, symbol may be delisted
+2026-10-27 01:38:49,793 INFO stockpicking: Prezzi 1d: 1664/1664
+2026-10-27 01:38:57,232 INFO stockpicking: Prezzi 1wk: 100/1664
+2026-10-27 01:39:04,844 INFO stockpicking: Prezzi 1wk: 200/1664
+2026-10-27 01:39:11,802 INFO stockpicking: Prezzi 1wk: 300/1664
+2026-10-27 01:39:19,135 INFO stockpicking: Prezzi 1wk: 400/1664
+2026-10-27 01:39:26,064 INFO stockpicking: Prezzi 1wk: 500/1664
+2026-10-27 01:39:33,093 INFO stockpicking: Prezzi 1wk: 600/1664
+2026-10-27 01:39:40,306 INFO stockpicking: Prezzi 1wk: 700/1664
+2026-10-27 01:39:47,218 INFO stockpicking: Prezzi 1wk: 800/1664
+2026-10-27 01:39:54,495 INFO stockpicking: Prezzi 1wk: 900/1664
+2026-10-27 01:39:59,006 ERROR yfinance: $AIR-PA.DE: No data found, symbol may be delisted
+2026-10-27 01:40:00,873 ERROR yfinance: $ECV.DE: No data found, symbol may be delisted
+2026-10-27 01:40:01,988 ERROR yfinance: 
 2 Failed downloads:
-2026-10-24 01:03:00,677 ERROR yfinance: ['ECV.DE', 'AIR-PA.DE']: No data found, symbol may be delisted
-2026-10-24 01:03:00,727 INFO stockpicking: Prezzi 1wk: 1000/1664
-2026-10-24 01:03:03,198 ERROR yfinance: $MT-AS.PA: No data found, symbol may be delisted
-2026-10-24 01:03:05,952 ERROR yfinance: 
+2026-10-27 01:40:01,989 ERROR yfinance: ['AIR-PA.DE', 'ECV.DE']: No data found, symbol may be delisted
+2026-10-27 01:40:02,042 INFO stockpicking: Prezzi 1wk: 1000/1664
+2026-10-27 01:40:07,653 ERROR yfinance: $MT-AS.PA: No data found, symbol may be delisted
+2026-10-27 01:40:09,304 ERROR yfinance: 
 1 Failed download:
-2026-10-24 01:03:05,952 ERROR yfinance: ['MT-AS.PA']: No data found, symbol may be delisted
-2026-10-24 01:03:06,002 INFO stockpicking: Prezzi 1wk: 1100/1664
-2026-10-24 01:03:11,202 INFO stockpicking: Prezzi 1wk: 1200/1664
-2026-10-24 01:03:16,396 INFO stockpicking: Prezzi 1wk: 1300/1664
-2026-10-24 01:03:21,591 INFO stockpicking: Prezzi 1wk: 1400/1664
-2026-10-24 01:03:26,891 INFO stockpicking: Prezzi 1wk: 1500/1664
-2026-10-24 01:03:29,478 ERROR yfinance: $GOGL.OL: No data found, symbol may be delisted
-2026-10-24 01:03:30,653 ERROR yfinance: $KOJAMO.HE: No data found, symbol may be delisted
-2026-10-24 01:03:32,056 ERROR yfinance: $NDA.CO: No data found, symbol may be delisted
-2026-10-24 01:03:32,292 ERROR yfinance: 
+2026-10-27 01:40:09,304 ERROR yfinance: ['MT-AS.PA']: No data found, symbol may be delisted
+2026-10-27 01:40:09,350 INFO stockpicking: Prezzi 1wk: 1100/1664
+2026-10-27 01:40:17,089 INFO stockpicking: Prezzi 1wk: 1200/1664
+2026-10-27 01:40:24,313 INFO stockpicking: Prezzi 1wk: 1300/1664
+2026-10-27 01:40:31,796 INFO stockpicking: Prezzi 1wk: 1400/1664
+2026-10-27 01:40:38,680 INFO stockpicking: Prezzi 1wk: 1500/1664
+2026-10-27 01:40:42,474 ERROR yfinance: $GOGL.OL: No data found, symbol may be delisted
+2026-10-27 01:40:42,501 WARNING yfinance: Crumb fetch rate-limited (HTTP 429), continuing without crumb
+2026-10-27 01:40:42,950 ERROR yfinance: $KOJAMO.HE: No data found, symbol may be delisted
+2026-10-27 01:40:44,273 ERROR yfinance: $NDA.CO: No data found, symbol may be delisted
+2026-10-27 01:40:46,353 ERROR yfinance: 
 3 Failed downloads:
-2026-10-24 01:03:32,293 ERROR yfinance: ['GOGL.OL', 'KOJAMO.HE', 'NDA.CO']: No data found, symbol may be delisted
-2026-10-24 01:03:32,342 INFO stockpicking: Prezzi 1wk: 1600/1664
-2026-10-24 01:03:35,287 ERROR yfinance: $RY4C.IR: No data found, symbol may be delisted
-2026-10-24 01:03:35,860 ERROR yfinance: $SONC.LS: No data found, symbol may be delisted
-2026-10-24 01:03:36,096 ERROR yfinance: $APAM.BR: No data found, symbol may be delisted
-2026-10-24 01:03:36,468 ERROR yfinance: 
+2026-10-27 01:40:46,354 ERROR yfinance: ['GOGL.OL', 'KOJAMO.HE', 'NDA.CO']: No data found, symbol may be delisted
+2026-10-27 01:40:46,404 INFO stockpicking: Prezzi 1wk: 1600/1664
+2026-10-27 01:40:49,057 ERROR yfinance: $RY4C.IR: No data found, symbol may be delisted
+2026-10-27 01:40:49,329 ERROR yfinance: $APAM.BR: No data found, symbol may be delisted
+2026-10-27 01:40:51,546 ERROR yfinance: $SONC.LS: No data found, symbol may be delisted
+2026-10-27 01:40:52,888 ERROR yfinance: 
 3 Failed downloads:
-2026-10-24 01:03:36,468 ERROR yfinance: ['RY4C.IR', 'SONC.LS', 'APAM.BR']: No data found, symbol may be delisted
-2026-10-24 01:03:36,503 INFO stockpicking: Prezzi 1wk: 1664/1664
-2026-10-24 01:03:39,578 INFO stockpicking: Prezzi 1wk: 22/22
-2026-10-24 01:03:41,589 INFO stockpicking: Prezzi aggiornati: 1655 titoli con dati giornalieri
-2026-10-24 01:03:41,591 INFO stockpicking: Fatto: prices
-2026-10-24 01:03:50,248 INFO stockpicking: Portafoglio modello: 20 titoli ({'conviction': 10, 'protective': 6, 'cyclical': 4})
-2026-10-24 01:03:52,591 INFO stockpicking: Classifica esportata: {'classificato': 831, 'escluso': 714, 'fuori modello': 74, 'dati mancanti': 24, 'dati da verificare': 9, 'storico insufficiente': 2}
-2026-10-24 01:03:53,441 INFO stockpicking: Storico: aggiornato il rendimento di 1 fotografie
-2026-10-24 01:03:53,504 INFO stockpicking: Fatto: score
+2026-10-27 01:40:52,888 ERROR yfinance: ['RY4C.IR', 'APAM.BR', 'SONC.LS']: No data found, symbol may be delisted
+2026-10-27 01:40:52,933 INFO stockpicking: Prezzi 1wk: 1664/1664
+2026-10-27 01:40:56,783 INFO stockpicking: Prezzi 1wk: 22/22
+2026-10-27 01:40:58,793 INFO stockpicking: Prezzi aggiornati: 1655 titoli con dati giornalieri
+2026-10-27 01:40:58,795 INFO stockpicking: Fatto: prices
+2026-10-27 01:41:06,866 INFO stockpicking: Portafoglio modello: 20 titoli ({'conviction': 10, 'protective': 6, 'cyclical': 4})
+2026-10-27 01:41:08,822 INFO stockpicking: Classifica esportata: {'classificato': 831, 'escluso': 714, 'fuori modello': 74, 'dati mancanti': 24, 'dati da verificare': 9, 'storico insufficiente': 2}
+2026-10-27 01:41:09,607 INFO stockpicking: Storico: aggiornato il rendimento di 1 fotografie
+2026-10-27 01:41:09,663 INFO stockpicking: Fatto: score
